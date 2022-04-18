@@ -1,77 +1,80 @@
-# 每日安全资讯（2022-04-17）
+# 每日安全资讯（2022-04-18）
 
-- HackerOne Hacker Activity
-  - [[https://shipit-sox-staging.shopifycloud.com] Presence of multiple vulnerabilities present in Ruby On Rails](https://hackerone.com/reports/1400309)
-  - [Account takeover leading to PII chained with stored XSS](https://hackerone.com/reports/1483201)
-- Sec-News 安全文摘
-  - [Go template 遇上 yaml 反序列化 CVE-2022-21701 分析](https://wiki.ioin.in/url/k4BN)
-- Security Boulevard
-  - [Keeping Those SSH Keys Safe](https://securityboulevard.com/2022/04/keeping-those-ssh-keys-safe/)
-  - [BSides Budapest 2021: Piotr Glaska’s ‘DNS in Offensive Techniques’](https://securityboulevard.com/2022/04/bsides-budapest-2021-piotr-glaskas-dns-in-offensive-techniques/)
-  - [XKCD ‘Geiger Counter’](https://securityboulevard.com/2022/04/xkcd-geiger-counter/)
-  - [BSides Budapest 2021: Daniel Nussko’s ‘Large-scale Security Analysis of IoT Firmware’](https://securityboulevard.com/2022/04/bsides-budapest-2021-daniel-nusskos-large-scale-security-analysis-of-iot-firmware/)
-  - [What is Image Spoofing and How to Prevent It?](https://securityboulevard.com/2022/04/what-is-image-spoofing-and-how-to-prevent-it/)
-  - [1964 Introduction to Distributed Communications Networks](https://securityboulevard.com/2022/04/1964-introduction-to-distributed-communications-networks/)
-  - [Meta Digs in Heels on Encryption](https://securityboulevard.com/2022/04/meta-digs-in-heels-on-encryption/)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [Delta Controls enteliTOUCH 3.40.3935 Cookie User Password Disclosure](https://cxsecurity.com/issue/WLB-2022040067)
+  - [WordPress Elementor 3.6.2 Remote Code Execution](https://cxsecurity.com/issue/WLB-2022040066)
+  - [Delta Controls enteliTOUCH 3.40.3935 Cross Site Scripting](https://cxsecurity.com/issue/WLB-2022040065)
+  - [Siemens A8000 CP-8050/CP-8031 SICAM WEB Missing File Download / Missing Authentication](https://cxsecurity.com/issue/WLB-2022040064)
+  - [Backdoor.Win32.MotivFTP.12 / Authentication Bypass](https://cxsecurity.com/issue/WLB-2022040063)
+  - [Telegram Android v8.4.4 - Denial of Service](https://cxsecurity.com/issue/WLB-2022040062)
 - Sploitus.com Exploits RSS Feed
-  - [Exploit for CVE-2022-26809 exploit](https://sploitus.com/exploit?id=2A45AC5C-3583-5B97-96FD-54EDC121AE8B&utm_source=rss&utm_medium=rss)
-  - [Exploit for Vulnerability in Facade Ignition exploit](https://sploitus.com/exploit?id=35896337-DA85-5D42-B9FC-4DF2E3EC881E&utm_source=rss&utm_medium=rss)
-  - [Exploit for Vulnerability in Microsoft exploit](https://sploitus.com/exploit?id=321A07F5-08A6-5CD6-8C0E-1C2F04B37061&utm_source=rss&utm_medium=rss)
-  - [Exploit for Injection in Exiftool Project Exiftool exploit](https://sploitus.com/exploit?id=D1EFC5A3-3F5B-5A00-9A45-80777934AC77&utm_source=rss&utm_medium=rss)
-- Hexacorn
-  - [The Anti-VM trick that is kinda… personal](https://www.hexacorn.com/blog/2022/04/16/the-anti-vm-trick-that-is-kinda-personal/)
-- Reverse Engineering
-  - [The Thread Context Explained (OALABS Tutorial)](https://www.reddit.com/r/ReverseEngineering/comments/u54ict/the_thread_context_explained_oalabs_tutorial/)
+  - [Exploit for Improper Initialization in Linux Linux Kernel exploit](https://sploitus.com/exploit?id=C9458BBE-5F11-5BB6-BE59-8D6EC5E3D513&utm_source=rss&utm_medium=rss)
+  - [Exploit for CVE-2022-1329 exploit](https://sploitus.com/exploit?id=69B991D7-6686-5F6B-A840-CCBC07FFA5F1&utm_source=rss&utm_medium=rss)
+  - [Exploit for Deserialization of Untrusted Data in Apache Log4J exploit](https://sploitus.com/exploit?id=9B0163DC-EE41-5E66-9AA8-A960262A2072&utm_source=rss&utm_medium=rss)
+- Security Boulevard
+  - [OWASP® Global AppSec US 2021 Virtual – Jim Manico’s ‘Keynote: Request Forgery On The Web – SSRF, CSRF And Clickjacking’](https://securityboulevard.com/2022/04/owasp-global-appsec-us-2021-virtual-jim-manicos-keynote-request-forgery-on-the-web-ssrf-csrf-and-clickjacking/)
+  - [Robert M. Lee’s & Jeff Haas’ Little Bobby Comic – ‘WEEK 377’](https://securityboulevard.com/2022/04/robert-m-lees-jeff-haas-little-bobby-comic-week-377/)
+  - [OWASP® Global AppSec US 2021 Virtual – Adam Shostack’s ‘Keynote: 25 Years in AppSec: Looking Back, Looking Forward’](https://securityboulevard.com/2022/04/owasp-global-appsec-us-2021-virtual-adam-shostacks-keynote-25-years-in-appsec-looking-back-looking-forward/)
+- WeiyiGeek Blog
+  - [自媒体文章/BiliBili/test](https://blog.weiyigeek.top/2022/4-17-index.html)
+- ArthurChiao's Blog
+  - [Cracking Kubernetes RBAC Authorization Model](https://arthurchiao.github.io/blog/cracking-k8s-authz-rbac/)
 - Didier Stevens
-  - [Update: cut-bytes.py Version 0.0.14](https://blog.didierstevens.com/2022/04/16/update-cut-bytes-py-version-0-0-14/)
-- SAUCERMAN
-  - [obection常见用法](https://saucer-man.com/information_security/911.html)
-- KitPloit - PenTest & Hacking Tools
-  - [Kraken - A Multi-Platform Distributed Brute-Force Password Cracking System](http://www.kitploit.com/2022/04/kraken-multi-platform-distributed-brute.html)
-  - [EDRSandblast - Tool That Weaponize A Vulnerable Signed Driver To Bypass EDR Detections And LSASS Protections](http://www.kitploit.com/2022/04/edrsandblast-tool-that-weaponize.html)
+  - [Update: 1768.py Version 0.0.13](https://blog.didierstevens.com/2022/04/17/update-1768-py-version-0-0-13/)
+- Reverse Engineering
+  - [Reverse engineering Flutter apps](https://www.reddit.com/r/ReverseEngineering/comments/u5bi7r/reverse_engineering_flutter_apps/)
+  - [Spock SLAF is a Shared Library for Application Firewall "SLAF". It has the purpose to protect any service that uses the OpenSSL library. The SLAF inserts hooking to intercept all communication to detect security anomalies and block and log attacks.](https://www.reddit.com/r/ReverseEngineering/comments/u5ch5k/spock_slaf_is_a_shared_library_for_application/)
 - HAHWUL
-  - [Kiterunner](https://www.hahwul.com/cullinan/kiterunner/)
-- panda | 热爱安全的理想少年
-  - [从零开始，分析Spring Framework RCE](https://www.cnpanda.net/sec/1196.html)
-- panda | 热爱安全的理想少年
-  - [从零开始，分析Spring Framework RCE](https://blog.cnpanda.net/sec/1196.html)
-- Luca Mercatanti
-  - [Copia forense informatica](https://luca-mercatanti.com/2022/04/16/copia-forense-informatica/?utm_source=rss&utm_medium=rss&utm_campaign=copia-forense-informatica)
-- 0x00sec - The Home of the Hacker - Top topics
-  - [Writing a simple rootkit for linux](https://0x00sec.org/t/writing-a-simple-rootkit-for-linux/29034)
-  - [TCP server and TCP client in Python](https://0x00sec.org/t/tcp-server-and-tcp-client-in-python/29042)
-- SANS Internet Storm Center, InfoCON: green
-  - [Office Protects You From Malicious ISO Files, (Sat, Apr 16th)](https://isc.sans.edu/diary/rss/28554)
+  - [[Cullinan #32] Add SSE and Kiterunner!](https://www.hahwul.com/2022/04/18/cullinan-32/)
+- 博客园 - 郑瀚Andrew.Hann
+  - [绿色有机农场商业可行性分析 - 郑瀚Andrew.Hann](https://www.cnblogs.com/LittleHann/p/16146641.html)
+- KitPloit - PenTest & Hacking Tools
+  - [linWinPwn - A Bash Script That Automates A Number Of Active Directory Enumeration And Vulnerability Checks](http://www.kitploit.com/2022/04/linwinpwn-bash-script-that-automates.html)
+  - [OWASP Coraza WAF - A Golang Modsecurity Compatible Web Application Firewall Library](http://www.kitploit.com/2022/04/owasp-coraza-waf-golang-modsecurity.html)
+- 奇客Solidot–传递最新科技情报
+  - [Richard Stallman 谈论自由软件运动的现状](https://www.solidot.org/story?sid=71267)
+  - [社交网络让我们变蠢？](https://www.solidot.org/story?sid=71266)
 - 黑海洋 - WIKI
-  - [最新版：Windows 11、Windows 7 精简系统](https://blog.upx8.com/2696)
-- Rasta Mouse
-  - [Why Tool-Restricted Exams (Sometimes) Matter](https://rastamouse.me/why-tool-restricted-exams-sometimes-matter/)
-- LockBoxx
-  - [The Newcomers of Shmoocon 2022](http://lockboxx.blogspot.com/2022/04/the-newcomers-of-shmoocon-2022.html)
+  - [宝塔Linux面板 V7.5.1 免授权永久企业版脚本](https://blog.upx8.com/2701)
+  - [宝塔Linux工具箱BTPanel_Tools 2021.12.22](https://blog.upx8.com/2700)
+  - [宝塔Linux面板_v7.7.0_解锁付费插件教程分享](https://blog.upx8.com/2699)
+  - [全网直播视频下载器SPXZQv1.1.903.382吾爱破解专版](https://blog.upx8.com/2698)
+  - [万能TXT文件批量处理小工具](https://blog.upx8.com/2697)
+- ImperialViolet
+  - [The several canons of CBOR](http://www.imperialviolet.org/2022/04/17/canonsofcbor.html)
+- SANS Internet Storm Center, InfoCON: green
+  - [Video: Office Protects You From Malicious ISO Files, (Sun, Apr 17th)](https://isc.sans.edu/diary/rss/28556)
 - KitPloit - PenTest Tools!
-  - [Kraken - A Multi-Platform Distributed Brute-Force Password Cracking System](http://www.kitploit.com/2022/04/kraken-multi-platform-distributed-brute.html)
-  - [EDRSandblast - Tool That Weaponize A Vulnerable Signed Driver To Bypass EDR Detections And LSASS Protections](http://www.kitploit.com/2022/04/edrsandblast-tool-that-weaponize.html)
-- /r/netsec - Information Security News & Discussion
-  - [Industroyer2: The Worst Sequel](https://www.reddit.com/r/netsec/comments/u4wzc3/industroyer2_the_worst_sequel/)
-  - [GitHub: Security alert - Attack campaign involving stolen OAuth user tokens issued to two third-party integrators (Heroku and Travis CI)](https://www.reddit.com/r/netsec/comments/u4mosv/github_security_alert_attack_campaign_involving/)
+  - [linWinPwn - A Bash Script That Automates A Number Of Active Directory Enumeration And Vulnerability Checks](http://www.kitploit.com/2022/04/linwinpwn-bash-script-that-automates.html)
+  - [OWASP Coraza WAF - A Golang Modsecurity Compatible Web Application Firewall Library](http://www.kitploit.com/2022/04/owasp-coraza-waf-golang-modsecurity.html)
 - Security Affairs
-  - [U.S. Gov believes North Korea-linked Lazarus APT is behind Ronin Validator cyber heist](https://securityaffairs.co/wordpress/130260/apt/lazarus-ronin-validator-cyber-heist.html)
-  - [The unceasing action of Anonymous against Russia](https://securityaffairs.co/wordpress/130262/hacktivism/anonymous-targets-russian-entities.html)
-  - [Threat actors target the Ukrainian gov with IcedID malware](https://securityaffairs.co/wordpress/130250/cyber-warfare-2/icedid-against-ukraine-gov-agencies.html)
-- Dark Reading
-  - [Upgrades for Spring Framework Have Stalled](https://www.darkreading.com/edge-threat-monitor/upgrades-for-spring-framework-have-stalled)
-- Social Engineering
-  - [How do you find our someone's fears without asking them directly?](https://www.reddit.com/r/SocialEngineering/comments/u4uib8/how_do_you_find_our_someones_fears_without_asking/)
-  - [Social engineering of the nuclear family](https://www.reddit.com/r/SocialEngineering/comments/u59ed9/social_engineering_of_the_nuclear_family/)
-  - [What skills does it take to be good at playing “mind games” with people?](https://www.reddit.com/r/SocialEngineering/comments/u4rr9h/what_skills_does_it_take_to_be_good_at_playing/)
-- TorrentFreak
-  - [MPA/ACE Pounce on New Lookmovie Domain Plus Streaming & IPTV Sites](https://torrentfreak.com/mpa-ace-pounce-on-new-lookmovie-domain-plus-streaming-iptv-sites-220416/)
+  - [Enemybot, a new DDoS botnet appears in the threat landscape](https://securityaffairs.co/wordpress/130291/cyber-crime/enemybot-botnet-ddos.html)
+  - [Stolen OAuth tokens used to download data from dozens of organizations, GitHub warns](https://securityaffairs.co/wordpress/130279/hacking/github-warns-stolen-oauth-tokens-access-data.html)
+  - [Security Affairs newsletter Round 361 by Pierluigi Paganini](https://securityaffairs.co/wordpress/130275/breaking-news/security-affairs-newsletter-round-361-by-pierluigi-paganini.html)
 - Computer Forensics
-  - [Any ideas what college students would love to see from a guest speaker?](https://www.reddit.com/r/computerforensics/comments/u52g05/any_ideas_what_college_students_would_love_to_see/)
+  - [Leveldb File Forensics](https://www.reddit.com/r/computerforensics/comments/u5pzsn/leveldb_file_forensics/)
+- TorrentFreak
+  - [Delayed Megaupload Lawsuits Get Assigned to Ninjavideo Judge](https://torrentfreak.com/delayed-megaupload-lawsuits-get-assigned-to-ninjavideo-judge-220417/)
+- 微步在线研究响应中心
+  - [安全威胁情报周报（4.11~4.17）](https://mp.weixin.qq.com/s?__biz=MzA5MDc1NDc1MQ==&mid=2247492994&idx=1&sn=cb9deaf7b2209ec1d4e70a465c4d621b&chksm=90047e52a773f744046de9af9ca15438b3c7a640fdc565254f2cfe797b16a9834e1795ab8aef&scene=58&subscene=0#rd)
 - netsecstudents: Subreddit for students studying Network Security and its related subjects
-  - [I want to learn hyperjacking. Can you guys provide sources to learn about the low level side of CS and hacking enough to understand hyperjacking](https://www.reddit.com/r/netsecstudents/comments/u4waoy/i_want_to_learn_hyperjacking_can_you_guys_provide/)
+  - [Free Network+ Training Assistance for the folks who need it](https://www.reddit.com/r/netsecstudents/comments/u5iozu/free_network_training_assistance_for_the_folks/)
+- /r/netsec - Information Security News & Discussion
+  - [THCon CTF Writeup - SHA-1 exploitation, PHP LFI and RCE](https://www.reddit.com/r/netsec/comments/u5w81c/thcon_ctf_writeup_sha1_exploitation_php_lfi_and/)
+  - [Semgrep rules for smart contracts based on DeFi exploits](https://www.reddit.com/r/netsec/comments/u5u9tw/semgrep_rules_for_smart_contracts_based_on_defi/)
+  - [Spock SLAF is a Shared Library for Application Firewall "SLAF". It has the purpose to protect any service that uses the OpenSSL library. The SLAF inserts hooking to intercept all communication to detect security anomalies and block and log attacks.](https://www.reddit.com/r/netsec/comments/u5cdh2/spock_slaf_is_a_shared_library_for_application/)
+  - [Packets Remystified: Broadcast Brujería](https://www.reddit.com/r/netsec/comments/u5h3sn/packets_remystified_broadcast_brujería/)
+- 情报分析师
+  - [重磅图文432页|《美国武器系统手册》](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650497793&idx=1&sn=086e552b85bd42d82a2694f22ba28438&chksm=87164d4ab061c45ce7293b45bf1c15440b687112b30a458f12bb0e265cc75660ed0e27dc20a4&scene=58&subscene=0#rd)
+  - [人力情报技术：警察面谈和审讯中的暗示性](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650497793&idx=2&sn=5c527ee622c54ad8b0d65e912a04cf41&chksm=87164d4ab061c45c835b90e2b0975176f541a9172ee57223014031ca001cf5fe75eeafdd1081&scene=58&subscene=0#rd)
+  - [20款适用于网络安全专家的免费取证调查工具](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650497793&idx=3&sn=d66c776736a7100b7baddc32c5a31c1e&chksm=87164d4ab061c45cc35a47bac016c927f77cfd6b1cbbf709f6a0e3c611e742ca9640e1085c97&scene=58&subscene=0#rd)
+- 云鼎实验室
+  - [每周云安全资讯-2022年第16周](https://mp.weixin.qq.com/s?__biz=MzU3ODAyMjg4OQ==&mid=2247494298&idx=1&sn=a2d4efb6bdef8f9753f2e7290d667f6a&chksm=fd79161cca0e9f0ad4f99c266cff85294016fb6f47af36dab2ec27efc969d6ace72ddc763779&scene=58&subscene=0#rd)
+- 数世咨询
+  - [数世咨询《API安全研究报告2022》正式发布 附下载](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247492784&idx=1&sn=34a34070f33a990bb3e4cbbb419b522b&chksm=c144960df6331f1b105dd44b78e77dbcd20fb327be67ab44202afd68d4fb3e7c726e3ef7e289&scene=58&subscene=0#rd)
+  - [SentinelOne 6.17亿美元收购身份安全供应商Attivo Networks](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247492784&idx=2&sn=68995d1db236460e47cacddf94d0da00&chksm=c144960df6331f1b9bbab7676d9a0bbeded64b285d5980a3456f44b924db90a5eaca0967ed18&scene=58&subscene=0#rd)
 - Your Hacking Tutorial by Zempirians
-  - [RTL8812au monitor mode, poor results](https://www.reddit.com/r/HowToHack/comments/u574cc/rtl8812au_monitor_mode_poor_results/)
-  - [Can TryHackMe be a starting point to a legitimate career?](https://www.reddit.com/r/HowToHack/comments/u4qncl/can_tryhackme_be_a_starting_point_to_a_legitimate/)
-  - [Tool to search inside deleted or overwritten data](https://www.reddit.com/r/HowToHack/comments/u4v1dd/tool_to_search_inside_deleted_or_overwritten_data/)
-  - [Help on how to get remote access to a file on another person’s computer](https://www.reddit.com/r/HowToHack/comments/u4psoe/help_on_how_to_get_remote_access_to_a_file_on/)
+  - [Setting up remote access and a kill switch for my desktop.](https://www.reddit.com/r/HowToHack/comments/u5pkq8/setting_up_remote_access_and_a_kill_switch_for_my/)
+  - [Wifipumpkin3 no Internet on clients side.](https://www.reddit.com/r/HowToHack/comments/u5uadm/wifipumpkin3_no_internet_on_clients_side/)
+  - [Buffer Overflow with SUID help](https://www.reddit.com/r/HowToHack/comments/u5tzlt/buffer_overflow_with_suid_help/)
+  - [Radio frequency](https://www.reddit.com/r/HowToHack/comments/u5mfcn/radio_frequency/)
