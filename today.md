@@ -1,92 +1,91 @@
-# 每日安全资讯（2022-06-19）
+# 每日安全资讯（2022-06-20）
 
 - HackerOne Hacker Activity
-  - [Broken access control](https://hackerone.com/reports/1539426)
-- Sec-News 安全文摘
-  - [我自己博客的一个XSS的故事](https://wiki.ioin.in/url/MM0D)
+  - [Authentication token and CSRF token bypass](https://hackerone.com/reports/998457)
+  - [bypass forced password protection via circles app](https://hackerone.com/reports/1406926)
+- FreeBuf网络安全行业门户
+  - [FreeBuf早报 | 前亚马逊工程师曾盗窃1亿人数据；八成互联网电视非法采集用户数据](https://www.freebuf.com/news/336608.html)
+- No Headback
+  - [go-redis 和 redis server 版本错位导致的高延时问题一例](http://xargin.com/go-redis-v6-and-redis-server-6-are-not-compatible/)
+- Sploitus.com Exploits RSS Feed
+  - [Zyxel Buffer Overflow / Format String / Command Injection exploit](https://sploitus.com/exploit?id=PACKETSTORM:167464&utm_source=rss&utm_medium=rss)
+  - [Marval MSM 14.19.0.12476 Remote Code Execution exploit](https://sploitus.com/exploit?id=PACKETSTORM:167471&utm_source=rss&utm_medium=rss)
+  - [ChurchCRM 4.4.5 SQL Injection exploit](https://sploitus.com/exploit?id=PACKETSTORM:167483&utm_source=rss&utm_medium=rss)
+  - [Warehouse Management System 2022 SQL Injection exploit](https://sploitus.com/exploit?id=PACKETSTORM:167479&utm_source=rss&utm_medium=rss)
+  - [JM-DATA ONU JF511-TV 1.0.67 / 1.0.62 / 1.0.55 XSS / CSRF / Open Redirect exploit](https://sploitus.com/exploit?id=PACKETSTORM:167487&utm_source=rss&utm_medium=rss)
+  - [Marval MSM 14.19.0.12476 Cross Site Request Forgery exploit](https://sploitus.com/exploit?id=PACKETSTORM:167476&utm_source=rss&utm_medium=rss)
+  - [Kitty 0.76.0.8 Stack Buffer Overflow exploit](https://sploitus.com/exploit?id=PACKETSTORM:167475&utm_source=rss&utm_medium=rss)
+  - [Infiray IRAY-A8Z3 1.0.957 Code Execution / Overflow / Hardcoded Credentials exploit](https://sploitus.com/exploit?id=PACKETSTORM:167466&utm_source=rss&utm_medium=rss)
+  - [Virtua Software Cobranca 12S SQL Injection exploit](https://sploitus.com/exploit?id=PACKETSTORM:167480&utm_source=rss&utm_medium=rss)
+  - [Exploit for Uncontrolled Resource Consumption in Apple Ipados exploit](https://sploitus.com/exploit?id=0EABFFE9-94B8-564F-BD5C-4F354296C0EA&utm_source=rss&utm_medium=rss)
+  - [Exploit for Injection in Atlassian Confluence Data Center exploit](https://sploitus.com/exploit?id=5255E938-0B92-5E2C-B1A4-21B2445C29AF&utm_source=rss&utm_medium=rss)
 - Security Boulevard
-  - [USENIX Enigma 2022 – Dr. Gillian “Gus” Andrews’ ‘Can The Fight Against Disinformation Really Scale?’](https://securityboulevard.com/2022/06/usenix-enigma-2022-dr-gillian-gus-andrews-can-the-fight-against-disinformation-really-scale/)
-  - [IRA Financial versus Gemini – security questions to ponder from a crypto IRA hack](https://securityboulevard.com/2022/06/ira-financial-versus-gemini-security-questions-to-ponder-from-a-crypto-ira-hack/)
-  - [CommitStrip ‘GIT-LFS’](https://securityboulevard.com/2022/06/commitstrip-git-lfs/)
-  - [USENIX Enigma 2022 – Justin Brookman’s ‘The Global Privacy Control: Exercising Legal Rights At Scale’](https://securityboulevard.com/2022/06/usenix-enigma-2022-justin-brookmans-the-global-privacy-control-exercising-legal-rights-at-scale/)
-  - [Hackers Also Have Financial Reporting And Quotas :)](https://securityboulevard.com/2022/06/hackers-also-have-financial-reporting-and-quotas/)
-- 安全小飞侠的窝
-  - [关于BIS的《信息安全控制：网络安全条目》的解读及影响分析](http://avfisher.win/archives/1340)
-- Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
-  - [Another Massive Embedded Malware Attack](http://ddanchev.blogspot.com/2007/11/another-massive-embedded-malware-attack.html)
-  - [209.1 Host Locked](http://ddanchev.blogspot.com/2007/12/2091-host-locked.html)
-  - [Fake Codec Serving Domains from Digg.com's Comment Spam Attack](http://ddanchev.blogspot.com/2009/02/fake-codec-serving-domains-from-diggcom.html)
-  - [Inside a Botnet's Phishing Activities](http://ddanchev.blogspot.com/2008/02/inside-botnet-phishing-activities.html)
-  - [How to Take Down the Conti Ransomware Gang - A Practical And Relevant Case Study on Taking Down Cybercriminal Infrastructure - A Practical Example](http://ddanchev.blogspot.com/2022/06/how-to-take-down-conti-ransomware-gang.html)
-- Didier Stevens
-  - [New Tool: sortcanon.py](https://blog.didierstevens.com/2022/06/18/new-tool-sortcanon-py/)
+  - [USENIX Enigma 2022 – Nicholas Carlini’s ‘When Machine Learning Isn’t Private’](https://securityboulevard.com/2022/06/usenix-enigma-2022-nicholas-carlinis-when-machine-learning-isnt-private/)
+  - [XKCD ‘Red Line Through HTTPS](https://securityboulevard.com/2022/06/xkcd-red-line-through-https/)
+  - [USENIX Enigma 2022 – Graham Bleaney’s ‘Teaching An Old Dog New Tricks: Reusing Security Solutions In Novel Domains’](https://securityboulevard.com/2022/06/usenix-enigma-2022-graham-bleaneys-teaching-an-old-dog-new-tricks-reusing-security-solutions-in-novel-domains/)
+  - [EU and U.S. Join Forces to Help Developing World Cybersecurity](https://securityboulevard.com/2022/06/eu-and-u-s-join-forces-to-help-developing-world-cybersecurity/)
+- cloud world
+  - [OpenKruise 源码剖析之原地升级](https://cloudsjhan.github.io/2022/06/19/OpenKruise-%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%E4%B9%8B%E5%8E%9F%E5%9C%B0%E5%8D%87%E7%BA%A7/)
+- Reverse Engineering
+  - [New Discovery for Minus World in Super Mario Bros! - Behind the Code [YouTube]](https://www.reddit.com/r/ReverseEngineering/comments/vfmsqr/new_discovery_for_minus_world_in_super_mario_bros/)
 - HAHWUL
-  - [EL(Expression Language) Injection](https://www.hahwul.com/cullinan/el-injection/)
-  - [OGNL(Object-Graph Navigation Language) Injection](https://www.hahwul.com/cullinan/ognl-injection/)
+  - [[Cullinan #38] Add Metasploit ☠️ and 3 Injections 💉](https://www.hahwul.com/2022/06/19/cullinan-38/)
+  - [Metasploit Framework](https://www.hahwul.com/cullinan/metasploit/)
 - KitPloit - PenTest & Hacking Tools
-  - [Hunt-Sleeping-Beacons - Aims To Identify Sleeping Beacons](http://www.kitploit.com/2022/06/hunt-sleeping-beacons-aims-to-identify.html)
-  - [Nightingale - Docker Environment For Pentesting Which Having All The Required Tool For VAPT](http://www.kitploit.com/2022/06/nightingale-docker-environment-for.html)
-- Shubham Shah
-  - [The ugly side of collaboration in bug bounties](http://shubs.io/the-ugly-side-of-collaboration-in-bug-bounties/)
-- Shells.Systems
-  - [Protected: Oh my API, abusing TYK cloud API management to hide your malicious C2 traffic](https://shells.systems/oh-my-api-abusing-tyk-cloud-api-management-to-hide-your-malicious-c2-traffic/)
-- bellingcat
-  - [Inside the Secretive World of Irish Limited Partnerships](https://www.bellingcat.com/news/2022/06/18/inside-the-secretive-world-of-irish-limited-partnerships/)
-- SANS Internet Storm Center, InfoCON: green
-  - [Decoding Obfuscated BASE64 Statistically, (Sat, Jun 18th)](https://isc.sans.edu/diary/rss/28758)
-- The Register - Security
-  - [DeadBolt ransomware takes another shot at QNAP storage](https://go.theregister.com/feed/www.theregister.com/2022/06/18/deadlbolt-ransomware-qnap-nas/)
-- TorrentFreak
-  - [Anti-Piracy Jobs From £10/hr to ‘Let’s Talk ££’, There’s No Shortage in the UK](https://torrentfreak.com/anti-piracy-jobs-from-10-hr-to-lets-talk-theres-no-shortage-in-the-uk-220618/)
-- 0xFFFF@blog:~$
-  - [Protected: [PART 6] XSS Exploitation Series – Blind / out-of-band XSS scenarios](https://0x80dotblog.wordpress.com/2022/06/18/part-6-xss-exploitation-series-blind-out-of-band-xss-scenarios/)
-  - [Protected: [PART 5] XSS Exploitation Series – Advanced DOM XSS testing: Sources & Sinks](https://0x80dotblog.wordpress.com/2022/06/18/part-5-xss-exploitation-advanced-dom-xss-testing-sources-sinks/)
-  - [Protected: [PART 4] XSS Exploitation Series – Obfuscated/Stealth-based methods of testing for XSS](https://0x80dotblog.wordpress.com/2022/06/18/part-4-xss-exploitation-obfuscated-stealth-based-methods-of-testing-for-xss/)
-  - [Protected: [PART 3] XSS Exploitation Series – Building weaponized/advanced payloads](https://0x80dotblog.wordpress.com/2022/06/18/part-3-xss-exploitation-series-building-weaponized-advanced-payloads/)
-  - [Protected: [PART 2] XSS Exploitation Series – Filter Evasion](https://0x80dotblog.wordpress.com/2022/06/18/part-2-xss-exploitation-series-filter-evasion/)
-  - [Protected: [PART 1] XSS Exploitation Series – Introduction and Overview.](https://0x80dotblog.wordpress.com/2022/06/18/part-1-xss-exploitation-series-introduction-and-overview/)
-  - [Protected: An introduction to Quantum Computing](https://0x80dotblog.wordpress.com/2022/06/18/an-introduction-to-quantum-computing/)
-  - [Protected: (ab)using XSS protections to trigger XSS](https://0x80dotblog.wordpress.com/2022/06/18/abusing-xss-protections-to-trigger-xss/)
-  - [Protected: Technique of the week: HTTP/2 Smuggling + h2c Smuggling](https://0x80dotblog.wordpress.com/2022/06/18/technique-of-the-week-http-2-smuggling-h2c-smuggling/)
-  - [Protected: Exploring XS-Leaks and their exploitation potential](https://0x80dotblog.wordpress.com/2022/06/18/exploring-xs-leaks-and-their-exploitation-potential/)
-- Security Affairs
-  - [US DoJ announced to have shut down the Russian RSOCKS Botnet](https://securityaffairs.co/wordpress/132403/cyber-crime/police-dismantled-rsocks-bitnet.html)
-  - [MaliBot Android Banking Trojan targets Spain and Italy](https://securityaffairs.co/wordpress/132387/hacking/malibot-android-malware.html)
-- KitPloit - PenTest Tools!
-  - [Hunt-Sleeping-Beacons - Aims To Identify Sleeping Beacons](http://www.kitploit.com/2022/06/hunt-sleeping-beacons-aims-to-identify.html)
-  - [Nightingale - Docker Environment For Pentesting Which Having All The Required Tool For VAPT](http://www.kitploit.com/2022/06/nightingale-docker-environment-for.html)
+  - [VAmPI - Vulnerable REST API With OWASP Top 10 Vulnerabilities For Security Testing](http://www.kitploit.com/2022/06/vampi-vulnerable-rest-api-with-owasp.html)
+  - [Cervantes - Collaborative Platform For Pentesters Or Red Teams Who Want To Save Time To Manage Their Projects, Clients, Vulnerabilities And Reports In One Place](http://www.kitploit.com/2022/06/cervantes-collaborative-platform-for.html)
+- 博客园 - 郑瀚Andrew.Hann
+  - [浙江农信 萧山农商银行 尽调 - 郑瀚Andrew.Hann](https://www.cnblogs.com/LittleHann/p/16390459.html)
 - 奇客Solidot–传递最新科技情报
-  - [中国天眼没有发现地外文明信号](https://www.solidot.org/story?sid=71873)
-  - [电子游戏助长大规模枪击的观点不再流行](https://www.solidot.org/story?sid=71872)
-  - [微软应用商店禁止第三方对免费的开源软件收费](https://www.solidot.org/story?sid=71871)
-  - [Scott Aaronson 将在 OpenAI 研究如何防止 AI 失控](https://www.solidot.org/story?sid=71870)
-- Your Hacking Tutorial by Zempirians
-  - [Been playing with computers since I was 16](https://www.reddit.com/r/HowToHack/comments/vfckob/been_playing_with_computers_since_i_was_16/)
-  - [Access old ipad 2 that was donated to an orphanage](https://www.reddit.com/r/HowToHack/comments/vf04p6/access_old_ipad_2_that_was_donated_to_an_orphanage/)
-  - [IoT Wecurity and Hacking Resources](https://www.reddit.com/r/HowToHack/comments/vf78x7/iot_wecurity_and_hacking_resources/)
-  - [Hide powershell / cmd.exe call.](https://www.reddit.com/r/HowToHack/comments/vf2ero/hide_powershell_cmdexe_call/)
-  - [Does anonsurf still come with Tor bridging? It’s no longer listed in documentation.](https://www.reddit.com/r/HowToHack/comments/vfbgxs/does_anonsurf_still_come_with_tor_bridging_its_no/)
-  - [MENTOR needed desperately](https://www.reddit.com/r/HowToHack/comments/vfgdcc/mentor_needed_desperately/)
-  - [Is it possible to deauth a device without knowing the network MAC, and only the device MAC?](https://www.reddit.com/r/HowToHack/comments/vey5wv/is_it_possible_to_deauth_a_device_without_knowing/)
-- Instapaper: Unread
-  - [Photos of kids taken from spyware-ridden phones found exposed on the internet](https://blog.malwarebytes.com/stalkerware/2022/06/photos-of-kids-taken-from-spyware-ridden-phones-found-exposed-on-the-internet/)
-  - [International operation takes down Russian RSOCKS botnet](https://www.theregister.com/2022/06/17/rsocks_russia_botnet/)
-  - [Interpol seizes $50 million, arrests 2000 social engineers](https://www.bleepingcomputer.com/news/security/interpol-seizes-50-million-arrests-2000-social-engineers/)
-  - [Experts link Hermit spyware to Italian surveillance firm RCS Lab and a front company](https://securityaffairs.co/wordpress/132363/malware/hermit-spyware-italian-surveillance-firm.html)
-- 看雪学院
-  - [Android Hook技术学习——常见的Hook技术方案总结](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458453552&idx=1&sn=6cb756be4634cacb0dbbe2814dd81098&chksm=b18e36ba86f9bfacfadce515c3247395fe1a1cd56b4f1a3fb78f25bb8d0ca72e70a7cc0dc2c5&scene=58&subscene=0#rd)
-  - [视频资讯|美国国防承包商计划收购间谍软件公司NSO](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458453552&idx=2&sn=e9dd37654c90af1204cbc41c46cea4fe&chksm=b18e36ba86f9bfac6c253eb2d08fca8a45e71d24286f46d0063ffb21456e0bc94b05df505c22&scene=58&subscene=0#rd)
-  - [如何利用高级查杀技术，通杀恶意程序？](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458453552&idx=3&sn=857e57698c121b04b4988ccc3e4d82eb&chksm=b18e36ba86f9bfac1496fe34df41762be91dd0ee1d1bab5355fb601716042b37b210bc690bfc&scene=58&subscene=0#rd)
-- /r/netsec - Information Security News & Discussion
-  - [I made a website can detect over 1000 extensions and shows you the percentage of users that share the same extensions.](https://www.reddit.com/r/netsec/comments/vffx2j/i_made_a_website_can_detect_over_1000_extensions/)
-  - [I have created a burp suite extension which allows pentester to keep track of each APIs, write test cases for individual APIs. Lastly the extension allows to map the vulnerable apis to the list of vulnerabilities using a custom checklist.](https://www.reddit.com/r/netsec/comments/vf365f/i_have_created_a_burp_suite_extension_which/)
-  - [Dangerous Repository of DoS, Red Teaming TTPs, and ICS Exploits](https://www.reddit.com/r/netsec/comments/vf7xsn/dangerous_repository_of_dos_red_teaming_ttps_and/)
-  - [Scheduled Scaling Up & Down Of EC2 Server](https://www.reddit.com/r/netsec/comments/vf47te/scheduled_scaling_up_down_of_ec2_server/)
-- 数世咨询
-  - [2021年中国数字安全百强报告](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247493845&idx=1&sn=0581384588d52c6108da712c0116289b&chksm=c1449a68f633137e753403e898529de425b43ce7c030cc1fa13ce407f2756fdbfff0fc8bae88&scene=58&subscene=0#rd)
-  - [数字时代——基于行业最佳实践的安全保护框架](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247493845&idx=2&sn=3507515eb0768c71ad8a6f4c677d31b1&chksm=c1449a68f633137e4c1c82e558b138500c8213354b5be42367dedffa28248f34b86ae4bb5d74&scene=58&subscene=0#rd)
-- 安全客
-  - [直击RSAC 2022：巧用ATT & CK框架应对具体威胁](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649772409&idx=1&sn=52cdc4475583d46af72ddcc1ec45930b&chksm=88936116bfe4e8008daf12a158ea25d2b2723e1bd1b050ab7c915ff05f8e0df84c73b1efd22f&scene=58&subscene=0#rd)
+  - [比特币价格暴跌让挖矿变得无利可图](https://www.solidot.org/story?sid=71876)
+  - [我们是否生来性本善？](https://www.solidot.org/story?sid=71875)
+  - [认为 AI 有生命的 Google 工程师自称是牧师](https://www.solidot.org/story?sid=71874)
+- Il Disinformatico
+  - [Samantha Cristoforetti fa il cosplay di Sandra Bullock in “Gravity”. Nello spazio](http://attivissimo.blogspot.com/2022/06/samantha-cristoforetti-fa-il-cosplay.html)
+- 黑海洋 - WIKI
+  - [XPlayer v2.3.0.2 解锁高级会员版](https://blog.upx8.com/2806)
+  - [安卓 WPS Office v16.3.2 解锁高级版](https://blog.upx8.com/2805)
+  - [CorelCAD 2023 v22.0.1.1151完整版](https://blog.upx8.com/2804)
+  - [扫描全能王 v6.18破解高级版（安卓）](https://blog.upx8.com/2803)
+  - [抖音无门槛无人直播视频课程](https://blog.upx8.com/2802)
+- SANS Internet Storm Center, InfoCON: green
+  - [Video: Decoding Obfuscated BASE64 Statistically, (Sun, Jun 19th)](https://isc.sans.edu/diary/rss/28762)
+  - [Wireshark 3.6.6 Released, (Sun, Jun 19th)](https://isc.sans.edu/diary/rss/28756)
+- ZeroSec - Adventures In Information Security
+  - [Azure Attack Paths: Common Findings and Fixes (Part 1)](https://blog.zsec.uk/azure-fundamentals-pt1/)
+- TorrentFreak
+  - [Torrent Site Blockades Don’t Change Old Piracy Habits Right Away](https://torrentfreak.com/torrent-site-blockades-dont-change-old-piracy-habits-right-away-220619/)
+- KitPloit - PenTest Tools!
+  - [VAmPI - Vulnerable REST API With OWASP Top 10 Vulnerabilities For Security Testing](http://www.kitploit.com/2022/06/vampi-vulnerable-rest-api-with-owasp.html)
+  - [Cervantes - Collaborative Platform For Pentesters Or Red Teams Who Want To Save Time To Manage Their Projects, Clients, Vulnerabilities And Reports In One Place](http://www.kitploit.com/2022/06/cervantes-collaborative-platform-for.html)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [Should you write malware in C# or C++?](https://www.reddit.com/r/netsecstudents/comments/vfjugx/should_you_write_malware_in_c_or_c/)
 - 情报分析师
-  - [【反恐巨著1312页】恐怖主义预防和战备手册（预备防范篇）](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650506581&idx=1&sn=66300e22f7d75c53c3b9a86213effc9b&chksm=8716ab1eb061220895db6c15f9ad75d31a800fbe75236cfc8cf5207c179df8566a15e2ee3ae5&scene=58&subscene=0#rd)
-  - [大赛通知 | 第一届“智器云杯”数据情报分析大赛正式启动！](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650506581&idx=2&sn=24cf431569efac02dda92fdf8a175b96&chksm=8716ab1eb0612208d828395161e0d9f53f06727471b7b0a6a8f1dda968677c2109104b93b30e&scene=58&subscene=0#rd)
+  - [如何评估俄罗斯对加拿大领土的军事威胁？](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650506595&idx=1&sn=13e00b1e356e9fb187a5395dbb2be82f&chksm=8716ab28b061223ed8c65c0c97d40430b731a136be45ae1766c9c3058e111e1ff0cbd1a2930a&scene=58&subscene=0#rd)
+  - [大赛通知 | 第一届“智器云杯”数据情报分析大赛正式启动！](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650506595&idx=2&sn=bb60f93094096fe78cb7709cec9544e4&chksm=8716ab28b061223e6ffcb1ec1ed336fa66d23a0329093e0b16aa09e7fefc8944be43058a373d&scene=58&subscene=0#rd)
+- Security Affairs
+  - [Critical flaw in Ninja Forms WordPress Plugin actively exploited in the wild](https://securityaffairs.co/wordpress/132417/hacking/wordpress-ninja-forms-flaw.html)
+  - [Experts warn of a new eCh0raix ransomware campaign targeting QNAP NAS](https://securityaffairs.co/wordpress/132410/cyber-crime/ech0raix-ransomware-attacks.html)
+- Computer Forensics
+  - [SANS FOR508 on Linux](https://www.reddit.com/r/computerforensics/comments/vfrncr/sans_for508_on_linux/)
+  - [On-demand / online introductory courses / certifications in IT-Forensics ~ $500 USD?](https://www.reddit.com/r/computerforensics/comments/vfyahs/ondemand_online_introductory_courses/)
+- /r/netsec - Information Security News & Discussion
+  - [New blog - NMAP and CME 101 stuff](https://www.reddit.com/r/netsec/comments/vft533/new_blog_nmap_and_cme_101_stuff/)
+- Your Hacking Tutorial by Zempirians
+  - [Hydra crack login on a Windows XP](https://www.reddit.com/r/HowToHack/comments/vg6c1h/hydra_crack_login_on_a_windows_xp/)
+  - [How does Windows password reset work](https://www.reddit.com/r/HowToHack/comments/vfsf4b/how_does_windows_password_reset_work/)
+  - [Kon-boot used on my computer and now forgot the password.](https://www.reddit.com/r/HowToHack/comments/vg5qbq/konboot_used_on_my_computer_and_now_forgot_the/)
+  - [I'm beginning my journey, what should I expect?](https://www.reddit.com/r/HowToHack/comments/vfo4s3/im_beginning_my_journey_what_should_i_expect/)
+  - [I am currently almost 19 - feel like i've achieved nothing yet in programming](https://www.reddit.com/r/HowToHack/comments/vg6flc/i_am_currently_almost_19_feel_like_ive_achieved/)
+  - [How To Add Local Admin User On Windows 10 Without Admin Privilege?](https://www.reddit.com/r/HowToHack/comments/vfof02/how_to_add_local_admin_user_on_windows_10_without/)
+  - [hi everyone 👋☺️ I have a Note 9 dual Sim and am wondering if anyone has some recommendations on hack or mods for it](https://www.reddit.com/r/HowToHack/comments/vfvh2y/hi_everyone_i_have_a_note_9_dual_sim_and_am/)
+  - [Is there a way to find the ip addresses of a particular software?](https://www.reddit.com/r/HowToHack/comments/vfkuq0/is_there_a_way_to_find_the_ip_addresses_of_a/)
+- Social Engineering
+  - [How To Speak Up With Confidence: 17 Effective Strategies](https://www.reddit.com/r/SocialEngineering/comments/vg4l1m/how_to_speak_up_with_confidence_17_effective/)
+  - [Is English more effective or less effective for social engineering? Does language make any difference?](https://www.reddit.com/r/SocialEngineering/comments/vfuowz/is_english_more_effective_or_less_effective_for/)
+  - [Question on the use of language to influence people](https://www.reddit.com/r/SocialEngineering/comments/vfk4mj/question_on_the_use_of_language_to_influence/)
+  - [Social engineering advice here.... how can I make this work?](https://www.reddit.com/r/SocialEngineering/comments/vfnwjc/social_engineering_advice_here_how_can_i_make/)
+- 数世咨询
+  - [第二届数字安全大会线上启动会：三大重磅研究发布](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247493876&idx=1&sn=7b8c9f97b8184b51703d7649579908d3&chksm=c1449a49f633135f6da0e3446cbc493b4c483d934afff6ade98b7570394d36ea919616d5c523&scene=58&subscene=0#rd)
+  - [解读IDaaS与IAM](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247493853&idx=1&sn=4e2f0e049bf94aa7b4aafbbcc66b2bc5&chksm=c1449a60f633137611b7d353328ac22df140fb2d535a87d2f3c350274bbfe51c9c8c016857bf&scene=58&subscene=0#rd)
+  - [年损失18亿美元 去中心化金融遭网络犯罪重创](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247493853&idx=2&sn=2361dc52d982b69617146d2c8d725106&chksm=c1449a60f633137636b1e2db9ed56c9686e0e2ae8822863f4e6404192729f23fbf36fc66d8d4&scene=58&subscene=0#rd)
