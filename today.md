@@ -1,83 +1,47 @@
-# 每日安全资讯（2022-08-28）
+# 每日安全资讯（2022-08-29）
 
-- Security Boulevard
-  - [Exposing a Compilation of Known Ransomware Group’s Dark Web Onion Web Sites – An OSINT Analysis](https://securityboulevard.com/2022/08/exposing-a-compilation-of-known-ransomware-groups-dark-web-onion-web-sites-an-osint-analysis/)
-  - [LastPass Admits Hackers Stole Source Code, Proprietary Tech Info](https://securityboulevard.com/2022/08/lastpass-admits-hackers-stole-source-code-proprietary-tech-info/)
-  - [BSidesTLV 2022 – Rani Hod’s ‘How Not To Encrypt Your Files’](https://securityboulevard.com/2022/08/bsidestlv-2022-rani-hods-how-not-to-encrypt-your-files/)
-- unSafe.sh - 不安全
-  - [新浪微博批量移除关注脚本](https://buaq.net/go-124067.html)
-  - [The Travis separation a year later](https://buaq.net/go-124048.html)
-  - [Rekono - Execute Full Pentesting Processes Combining Multiple Hacking Tools Automatically](https://buaq.net/go-124051.html)
-  - [SSRF leads to access AWS metadata.](https://buaq.net/go-124049.html)
-  - [Update: 1768.py Version 0.0.16](https://buaq.net/go-124045.html)
-  - [忏悔 24 小时——关于微信被封禁，我想告诉你这些](https://buaq.net/go-124043.html)
-  - [今日直播预告 | 敏捷渗透技能学习总结](https://buaq.net/go-124050.html)
-  - [网鼎杯2022 BadBean Hessian2反序列化](https://buaq.net/go-124038.html)
-  - [亚信安全发布2022年半年度报告 营业收入同比增长22%](https://buaq.net/go-124036.html)
-  - [$7000 Bounty, Web3 Bug Hunting, API Hacking, IDOR, Triggering XSS with emojis, XSS Flyer, and much…](https://buaq.net/go-124035.html)
-  - [摸鱼的最高境界，我连自己都信了](https://buaq.net/go-124034.html)
-  - [我是如何在 Notion 中运用 PARA 模型来整理第二大脑](https://buaq.net/go-124029.html)
-  - [谷歌为Chrome浏览器今年的第五个 &quot;0 day漏洞&quot; 打补丁](https://buaq.net/go-124024.html)
-  - [DirtyCred：存在8年的Linux kernel漏洞](https://buaq.net/go-124025.html)
-  - [2bit PXLR Studio Next -- homebrew project enhancing capabilities of Game Boy Camera](https://buaq.net/go-123994.html)
-  - [Adware found on Google Play — PDF Reader servicing up full screen ads](https://buaq.net/go-123992.html)
 - Twitter @Nicolas Krassas
-  - [Unprecedented cyber attack hit State Infrastructure of Montenegro](https://twitter.com/Dinosn/status/1563617725951483904)
-  - [Rekono - Execute Full Pentesting Processes Combining Multiple Hacking Tools Automatically](https://twitter.com/Dinosn/status/1563595465085657088)
-  - [HTB: Talkative](https://twitter.com/Dinosn/status/1563595367186178050)
-  - [Zimbra Open Bucket Data Leak – Responsible Disclosure](https://twitter.com/Dinosn/status/1563413016070144001)
-  - [Scammers Made Deepfake AI Hologram of Binance Executive](https://twitter.com/Dinosn/status/1563400536736829441)
+  - [Toxssin - An XSS Exploitation Command-Line Interface And Payload Generator](https://twitter.com/Dinosn/status/1563934905792356357)
+  - [SATisfying our way into remote code execution in the OPC UA industrial stack](https://twitter.com/Dinosn/status/1563895599849783297)
+  - [Dealing With False Positives when Scanning Memory Dumps for Cobalt Strike Beacons, (Sun, Aug 28th)](https://twitter.com/Dinosn/status/1563895455364382720)
+  - [Tetsuji: Remote Code Execution on a GameBoy Colour 22 Years Later](https://twitter.com/Dinosn/status/1563781179773489152)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [daihocpccc - Cross Site Scripting Vulnerability (XSS)](https://cxsecurity.com/issue/WLB-2022080072)
+- Security Boulevard
+  - [Key Points from the IBM Cost of a Data Breach Report 2022](https://securityboulevard.com/2022/08/key-points-from-the-ibm-cost-of-a-data-breach-report-2022/)
+  - [BSidesTLV 2022 – Philip Tsukerman’s And Amir Kutcher’s ‘Unmasked! – Fighting Stealthy Execution Methods Using Process Creation Properties’](https://securityboulevard.com/2022/08/bsidestlv-2022-philip-tsukermans-and-amir-kutchers-unmasked-fighting-stealthy-execution-methods-using-process-creation-properties/)
+  - [How to Prevent High Risk Authentication Coercion Vulnerabilities](https://securityboulevard.com/2022/08/how-to-prevent-high-risk-authentication-coercion-vulnerabilities/)
+  - [Will Voluntary CISA Cyber Goals Be Enough to Protect Critical Infrastructure?](https://securityboulevard.com/2022/08/will-voluntary-cisa-cyber-goals-be-enough-to-protect-critical-infrastructure/)
+- unSafe.sh - 不安全
+  - [cby的日常(before 2022.7.21)](https://buaq.net/go-124167.html)
+  - [Toxssin - An XSS Exploitation Command-Line Interface And Payload Generator](https://buaq.net/go-124124.html)
+  - [[送码] 更完善的中文拼音搜索体验：效率启动器 HapiGO 带来多项更新](https://buaq.net/go-124115.html)
 - SecWiki News
-  - [SecWiki News 2022-08-27 Review](http://www.sec-wiki.com/?2022-08-27)
+  - [SecWiki News 2022-08-28 Review](http://www.sec-wiki.com/?2022-08-28)
+- ArthurChiao's Blog
+  - [TCP Socket Listen: A Tale of Two Queues](https://arthurchiao.github.io/blog/tcp-listen-a-tale-of-two-queues/)
 - 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
-  - [亚信安全发布2022年半年度报告 营业收入同比增长22%](https://www.4hou.com/posts/ykA7)
-  - [谷歌为Chrome浏览器今年的第五个 &quot;0 day漏洞&quot; 打补丁](https://www.4hou.com/posts/vJLX)
-  - [DirtyCred：存在8年的Linux kernel漏洞](https://www.4hou.com/posts/JXX2)
-- Sploitus.com Exploits RSS Feed
-  - [AeroCMS v0.0.1 SQL injection Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-37928&utm_source=rss&utm_medium=rss)
-  - [WordPress Robo Gallery 3.2.1 plugin - Bypass POST comment approvement Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-37926&utm_source=rss&utm_medium=rss)
-  - [WordPress Robo Gallery 3.2.1 plugin - XSS Stored Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-37927&utm_source=rss&utm_medium=rss)
-- Recent Commits to cve:main
-  - [Update Sat Aug 27 05:31:15 UTC 2022](https://github.com/trickest/cve/commit/6fce5d899095c681501e6afb88dd2355596c93fd)
-- Bug Bounty in InfoSec Write-ups on Medium
-  - [SSRF — The Server’s Loophole 01](https://infosecwriteups.com/ssrf-the-servers-loophole-01-6e7e33fb1d57?source=rss----7b722bfd1b8d--bug_bounty)
-  - [Server Side Template Injections Portswiggers Labs Walkthrough Part III](https://infosecwriteups.com/server-side-template-injections-portswiggers-labs-walkthrough-part-iii-bc6983412a3d?source=rss----7b722bfd1b8d--bug_bounty)
-  - [SSRF leads to access AWS metadata.](https://infosecwriteups.com/ssrf-leads-to-access-aws-metadata-21952c220aeb?source=rss----7b722bfd1b8d--bug_bounty)
-  - [$7000 Bounty, Web3 Bug Hunting, API Hacking, IDOR, Triggering XSS with emojis, XSS Flyer, and much…](https://infosecwriteups.com/7000-bounty-web3-bug-hunting-api-hacking-idor-triggering-xss-with-emojis-xss-flyer-and-much-fb4c51fb26ef?source=rss----7b722bfd1b8d--bug_bounty)
-- Didier Stevens
-  - [Update: 1768.py Version 0.0.16](https://blog.didierstevens.com/2022/08/27/update-1768-py-version-0-0-16/)
-- Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
-  - [Exposing a Compilation of Known Ransomware Group's Dark Web Onion Web Sites - An OSINT Analysis](https://ddanchev.blogspot.com/2022/08/exposing-compilation-of-known.html)
-  - [A Compilation of Dancho Danchev's Personal Photos - An OSINT Analysis](https://ddanchev.blogspot.com/2022/08/a-compilation-of-dancho-danchevs.html)
-- HAHWUL
-  - [Param Digger! Easy param mining via ZAP](https://www.hahwul.com/2022/08/27/zap-param-digger/)
-  - [Jekyll Collection 다루기](https://www.hahwul.com/2022/08/27/jekyll-collection/)
-- SAP Blogs
-  - [RISE with SAP: Business Value of Cybersecurity](https://blogs.sap.com/2022/08/27/rise-with-sap-business-value-of-cybersecurity/)
-  - [why SAP BTP? — Motivation of SAP BTP](https://blogs.sap.com/2022/08/27/why-sap-btp-motivation-of-sap-btp/)
-  - [SAP HANA Cloud Database Upgrades and Patches – Part 2](https://blogs.sap.com/2022/08/27/sap-hana-cloud-database-upgrades-and-patches-part-2/)
-  - [Fundamentals of Multitenancy in SAP BTP](https://blogs.sap.com/2022/08/27/fundamentals-of-multitenancy-in-sap-btp/)
-  - [SAP HANA Cloud Database Upgrades and Patches – Part 1](https://blogs.sap.com/2022/08/27/sap-hana-cloud-database-upgrades-and-patches-part-1/)
-  - [Conversion of Engineering BOM to Manufacturing BOM (VEMP)](https://blogs.sap.com/2022/08/27/conversion-of-engineering-bom-to-manufacturing-bom-vemp/)
+  - [PostgreSQL漏洞泄露企业数据库，多家云巨头受到影响](https://www.4hou.com/posts/pVV2)
+  - [苹果敦促iPhone用户尽快更新到零风险版本](https://www.4hou.com/posts/wg7M)
+- Twitter @bytehx
+  - [RT Ryan M. Montgomery: Toxssin - (Incredible XSS Hook) - This is the best I've seen in quite a long time, check out the video linked below for a demon...](https://twitter.com/0dayCTF/status/1564016278301548544)
 - Reverse Engineering
-  - [Full Disclosure: I found an API broken function level authorization vulnerability on the FACEIT Ltd platform](https://www.reddit.com/r/ReverseEngineering/comments/wzh38t/full_disclosure_i_found_an_api_broken_function/)
-- daniel.haxx.se
-  - [The Travis separation a year later](https://daniel.haxx.se/blog/2022/08/27/the-travis-separation-a-year-later/)
+  - [FISSURE - The RF Framework](https://www.reddit.com/r/ReverseEngineering/comments/x06eco/fissure_the_rf_framework/)
+  - [My thinking process for reverse engineering ANYTHING :)](https://www.reddit.com/r/ReverseEngineering/comments/wzz42l/my_thinking_process_for_reverse_engineering/)
+- SAP Blogs
+  - [SAP BTP Cloud Foundry Architecture for Developer](https://blogs.sap.com/2022/08/28/sap-btp-cloud-foundry-architecture-for-developer/)
+  - [SOMIX Suite for Software Visualization](https://blogs.sap.com/2022/08/28/somix-suite-for-software-visualization/)
+  - [Customer Service :  Cost + Uplift Billing  (RR Billing)](https://blogs.sap.com/2022/08/28/customer-service-cost-uplift-billing-rr-billing/)
+  - [Share it from the Web Client](https://blogs.sap.com/2022/08/28/share-it-from-the-web-client/)
+  - [Handle Divide By 0 Error in Hana Sql or Hana View](https://blogs.sap.com/2022/08/28/handle-divide-by-0-error-in-hana-sql-or-hana-view/)
+  - [Query folders base on created secondary type on folders of BTP document management service](https://blogs.sap.com/2022/08/28/query-folders-base-on-created-secondary-type-on-folders-of-btp-document-management-service/)
+- 看雪学院
+  - [某车联网APP加固分析](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458465858&idx=1&sn=1dc3e63174341873bf5cbec39426874c&chksm=b18e06c886f98fde03eaee13675e184b870a438c7c760ae859fe94547ad354796fc50b0bc35d&scene=58&subscene=0#rd)
+  - [《VMProtect分析与还原》—— 附赠价值5000元xx_vm工具](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458465858&idx=2&sn=e049b2252ce742244ccdd622ce633fe9&chksm=b18e06c886f98fde6345e6c249039b1cfa96488dbc8657d811620933d91a4dc5b3b79c6fcacd&scene=58&subscene=0#rd)
 - KitPloit - PenTest & Hacking Tools
-  - [Rekono - Execute Full Pentesting Processes Combining Multiple Hacking Tools Automatically](http://www.kitploit.com/2022/08/rekono-execute-full-pentesting.html)
-- Twitter @hakivvi
-  - [Re @Doyensec Only US/EU residents ?](https://twitter.com/hakivvi/status/1563330751520616448)
-- 黑哥说安全
-  - [KCon 2022开场致辞](https://mp.weixin.qq.com/s?__biz=Mzg5OTU1NTEwMg==&mid=2247483851&idx=1&sn=32e0d57bbf83e0b9895e509eeb690652&chksm=c050cbbaf72742ac218ff4c0f05f92da85226a10f22f409ea1617420c5d11dc34b3527221b44&scene=58&subscene=0#rd)
-- KCon黑客大会
-  - [+1 进阶，护航未来｜2022 KCon黑客大会云端火热开场](https://mp.weixin.qq.com/s?__biz=MzIzOTAwNzc1OQ==&mid=2651135810&idx=1&sn=0c8cbc1c6801eb435e43e11c9925871d&chksm=f2c11e22c5b697341cab912b2d26c343fa6ec5720a08231e50d8fc3d2ad095c5ba563c7c7512&scene=58&subscene=0#rd)
-- NOVASEC
-  - [Java安全学习04-反序列化漏洞-动态代理-CC1链-入门](https://mp.weixin.qq.com/s?__biz=MzUzODU3ODA0MA==&mid=2247487993&idx=1&sn=9c6d388e20779e343c6885fd5bc257fc&chksm=fad4cceecda345f84249d2130ce7fffc7e8b7fa3e1b7dd28135b1d9d96af003d8466e7464c63&scene=58&subscene=0#rd)
-- 数世咨询
-  - [中国数字安全产业统计与分析报告（2022）](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247494948&idx=1&sn=5e93426f57a340f9fe4ac327273dd086&chksm=c1449f99f633168fbfb8d0e80d87329dca6f810120d19820824f108569943ea177462752ee6a&scene=58&subscene=0#rd)
-  - [听一首流行歌可导致笔记本电脑崩溃](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247494948&idx=2&sn=c783af06669d07912caca04fbf1f6fd4&chksm=c1449f99f633168f45251e6a1b9366f7eeb9f4f6959c79a9b9b2a1323746c617b0be8885ab86&scene=58&subscene=0#rd)
-- 情报分析师
-  - [智库报告《危险的海峡!对未来台hai冲突的兵棋推演》](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650514711&idx=1&sn=8b9bd369e4020e96f6f8539695da5d77&chksm=87168b5cb061024a23b210ea1b929632fffe39e2309fbeb7a14ab57ca2506243cec28967ef50&scene=58&subscene=0#rd)
-  - [加拿大建立国外人力情报局](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650514711&idx=2&sn=5fd81f53b0536dad0cb41b64f02114fd&chksm=87168b5cb061024aa31d41a02c11fb6ba235ed60ae70409e700f0b1db891ca77b29aabd42cd3&scene=58&subscene=0#rd)
+  - [Toxssin - An XSS Exploitation Command-Line Interface And Payload Generator](http://www.kitploit.com/2022/08/toxssin-xss-exploitation-command-line.html)
+- 云鼎实验室
+  - [每周云安全资讯-2022年第35周](https://mp.weixin.qq.com/s?__biz=MzU3ODAyMjg4OQ==&mid=2247494643&idx=1&sn=6c63fa196789329145096a8d2b614ee8&chksm=fd791775ca0e9e6343f299cf96c3d173d8b69e71f66962d6692a1663bd532a1cfc9b83a82e78&scene=58&subscene=0#rd)
 - 极客公园
-  - [中美签署审计监管合作协议；美团二季度收入同比增长16.4%；Quest Pro将于10月推出 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652966274&idx=1&sn=27b1ff5024da738b17189aa273eb8b2e&chksm=7e5470344923f9221b76c3e0e347c38582bfcd33f8e6cbd519309fa6882a2cc7758fc7af35b7&scene=58&subscene=0#rd)
+  - [卫星，未来太空数据的「智能平台」](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652966298&idx=1&sn=2fe06b4665c037a754196c4ba176015e&chksm=7e54702c4923f93a665a95d1b273c1da59ace7f9b65d8b77e46eb25d9228f1617ed47e6f6759&scene=58&subscene=0#rd)
+  - [比特币跌破 2 万美元；100多名员工请愿罢免法拉第未来董事长；HBO 确认续订《龙之家族》第二季 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652966297&idx=1&sn=028ac882bf8c8d4194ee624cc1a56384&chksm=7e54702f4923f939a4d23df1c632c9e2c0938c57591e6d9cb0439b775c92fcb30b33847b44cc&scene=58&subscene=0#rd)
