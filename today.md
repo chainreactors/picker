@@ -1,63 +1,82 @@
-# 每日安全资讯（2022-09-18）
+# 每日安全资讯（2022-09-19）
 
-- Twitter @Nicolas Krassas
-  - [DeathSleep - A PoC Implementation For An Evasion Technique To Terminate The Current Thread And Restore It Before Resuming Execution, While Implementin...](https://twitter.com/Dinosn/status/1571181912713986048)
-  - [HTB: StreamIO](https://twitter.com/Dinosn/status/1571181848478220288)
-  - [Hacker Couple Deleted Hotel Chain Data For Fun](https://twitter.com/Dinosn/status/1571181783873470464)
-  - [New York ambulance service discloses data breach after ransomware attack](https://twitter.com/Dinosn/status/1571181716139540493)
-  - [CISA adds Stuxnet bug to its Known Exploited Vulnerabilities Catalog](https://twitter.com/Dinosn/status/1571163673804132353)
-  - [Can reflections in eyeglasses actually leak info from Zoom calls? Here's a study into it](https://twitter.com/Dinosn/status/1571163453011726337)
-  - [Uber Claims No Sensitive Data Exposed in Latest Breach… But There's More to This](https://twitter.com/Dinosn/status/1571163338783997953)
-  - [RT reverseame: Popular NFT Marketplace Phished for $540M](https://twitter.com/reverseame/status/1571091536674279425)
-  - [Hackers Had Access to LastPass's Development Systems for Four Days](https://twitter.com/Dinosn/status/1570989065486606336)
-- 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
-  - [保护物联网设备远离网络攻击的五个步骤](https://www.4hou.com/posts/q8Xr)
-  - [MICROSOFT WINDOWS NFS V4中发现一个远程代码执行漏洞](https://www.4hou.com/posts/RBnR)
-- unSafe.sh - 不安全
-  - [DeathSleep - A PoC Implementation For An Evasion Technique To Terminate The Current Thread And Restore It Before Resuming Execution, While Implementing Page Protection Changes During No Execution](https://buaq.net/go-126997.html)
-  - [更新 watchOS 9 正式版后，这些功能值得一试](https://buaq.net/go-126992.html)
-  - [看起来很酷，就送个码。](https://buaq.net/go-126989.html)
-  - [一次不成功的MEMORY.DMP分析](https://buaq.net/go-127023.html)
-  - [智力不够，就不要来挑战这个游戏了！](https://buaq.net/go-126986.html)
-  - [InPaper – 42 种布局，无限量壁纸，创造性的自动化壁纸应用[iPhone/iPad]](https://buaq.net/go-126984.html)
-  - [AOD、灵动岛、相机，这才是 Pro 的完全体？iPhone 14 Pro 首发体验](https://buaq.net/go-126987.html)
-  - [保护物联网设备远离网络攻击的五个步骤](https://buaq.net/go-126982.html)
-  - [MICROSOFT WINDOWS NFS V4中发现一个远程代码执行漏洞](https://buaq.net/go-126983.html)
-  - [一派·Podcast | 毕业论文避坑指南](https://buaq.net/go-126988.html)
-  - [Arch Linux 邮件列表的变化](https://buaq.net/go-126966.html)
-  - [Uber Hack – What we know so far](https://buaq.net/go-126939.html)
-  - [Seesaw: Popular elementary school app used to distribute obscene image](https://buaq.net/go-126933.html)
-  - [Ransomware: 3 ways to protect your business](https://buaq.net/go-126934.html)
-  - [How Uber was hacked in 2022](https://buaq.net/go-126936.html)
 - SecWiki News
-  - [SecWiki News 2022-09-17 Review](http://www.sec-wiki.com/?2022-09-17)
-- Security Boulevard
-  - [Uber Data Breach is Worst Case Scenario](https://securityboulevard.com/2022/09/uber-data-breach-is-worst-case-scenario/)
-  - [BSidesLV 2022 Lucky13 BreakingGround – IDigitalFlame ‘So You Wanta Build A C2?’](https://securityboulevard.com/2022/09/bsideslv-2022-lucky13-breakingground-idigitalflame-so-you-wanta-build-a-c2/)
-  - [How to Build a Zero Trust Security Architecture with Your Technology](https://securityboulevard.com/2022/09/how-to-build-a-zero-trust-security-architecture-with-your-technology/)
-- obaby@mars
-  - [PyCharm 2022.2 修改启动图片](http://h4ck.org.cn/2022/09/pycharm-2022-2-%e4%bf%ae%e6%94%b9%e5%90%af%e5%8a%a8%e5%9b%be%e7%89%87/)
+  - [SecWiki News 2022-09-18 Review](http://www.sec-wiki.com/?2022-09-18)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [CodoForum v5.1 Remote Code Execution (RCE)](https://cxsecurity.com/issue/WLB-2022090046)
 - Sploitus.com Exploits RSS Feed
-  - [Exploit for CRLF Injection in Catchethq Catchet exploit](https://sploitus.com/exploit?id=AAB95082-FA5E-592D-A514-EB82DC0E4955&utm_source=rss&utm_medium=rss)
-  - [Exploit for Unrestricted Upload of File with Dangerous Type in Zimbra Collaboration exploit](https://sploitus.com/exploit?id=A6071ED1-4DD2-5D98-9131-FEFBE84B4664&utm_source=rss&utm_medium=rss)
+  - [SoX 14.4.2 (wav.c) Division By Zero exploit](https://sploitus.com/exploit?id=ZSL-2022-5712&utm_source=rss&utm_medium=rss)
+  - [Exploit for CVE-2022-37706 exploit](https://sploitus.com/exploit?id=D2078F87-CBCF-5F4A-83A4-81D121282290&utm_source=rss&utm_medium=rss)
+  - [Exploit for CVE-2022-2588 exploit](https://sploitus.com/exploit?id=9E1C498D-25A3-57B2-A391-764CDA0E674F&utm_source=rss&utm_medium=rss)
+- Twitter @Nicolas Krassas
+  - [FISSURE - Frequency Independent SDR-based Signal Understanding and Reverse Engineering](https://twitter.com/Dinosn/status/1571488452226555904)
+  - [RT Lars Karlslund: Stuck on a network with no credentials? No worry, you can anonymously bruteforce Active Directory controllers for usernames over LD...](https://twitter.com/lkarlslund/status/1571456663051280390)
+  - [Re @windsheep_ @Grammarly Possibly same case](https://twitter.com/Dinosn/status/1571422917354991618)
+  - [Google, Microsoft can get your passwords via web browser's spellcheck](https://twitter.com/Dinosn/status/1571379915517296640)
+  - [requests-ip-rotator: A Python library to utilize AWS API Gateway's large IP pool as a proxy to generate pseudo-infinite IPs for web scraping and brute...](https://twitter.com/Dinosn/status/1571376799661301760)
+- Security Boulevard
+  - [RiskLens Fast Facts on Cyber Risk in Manufacturing](https://securityboulevard.com/2022/09/risklens-fast-facts-on-cyber-risk-in-manufacturing/)
+  - [BSidesLV 2022 Lucky13 BreakingGround – Jonathan Leitschuh’s And Patrick Way’s ‘Scaling The Security Researcher To Eliminate OSS Vulnerabilities Once And For All’](https://securityboulevard.com/2022/09/bsideslv-2022-lucky13-breakingground-jonathan-leitschuhs-and-patrick-ways-scaling-the-security-researcher-to-eliminate-oss-vulnerabilities-once-and-for-all/)
+  - [How to Present Compliance ROI to Leadership: Some Thoughts on the Value of Showing Value](https://securityboulevard.com/2022/09/how-to-present-compliance-roi-to-leadership-some-thoughts-on-the-value-of-showing-value/)
+  - [Trends in Developing a New Cyber Workforce Strategy](https://securityboulevard.com/2022/09/trends-in-developing-a-new-cyber-workforce-strategy/)
+  - [The Storage Manager’s Quick-Guide to Ransomware Resiliency](https://securityboulevard.com/2022/09/the-storage-managers-quick-guide-to-ransomware-resiliency/)
+- unSafe.sh - 不安全
+  - [PE-bear - Portable Executable reversing tool with a friendly GUI](https://buaq.net/go-127084.html)
+  - [New Tool: split-overlap.py](https://buaq.net/go-127078.html)
+  - [FISSURE - Frequency Independent SDR-based Signal Understanding and Reverse Engineering](https://buaq.net/go-127074.html)
+  - [苹果 QQ for Mac 全新体验版下载 - 新一代架构重构版 (音视频通话/深色模式/实况文本等)](https://buaq.net/go-127085.html)
+  - [它是真的强大，以至于没办法收费...](https://buaq.net/go-127064.html)
+  - [图形方格纸 MyGraphPaper – 免费、可自定义的纸张模板、方格笔记本、打印纸](https://buaq.net/go-127062.html)
+  - [iOS 16 锁屏小组件怎么玩？不妨试试这些 App](https://buaq.net/go-127063.html)
+  - [一个真实案例启示：不要轻易相信一名黑客的承诺](https://buaq.net/go-127054.html)
+  - [防火墙漏洞使用户很容易受到黑客的主动攻击](https://buaq.net/go-127055.html)
+  - [[送码] 白描 App 推出 Windows 版，朝「最佳中文 OCR 识别工具」更进一步](https://buaq.net/go-127059.html)
 - Recent Commits to cve:main
-  - [Update Sat Sep 17 10:03:10 UTC 2022](https://github.com/trickest/cve/commit/211ca80dfc31728f279d6b578202b91deb499433)
-- WeiyiGeek Blog
-  - [个人随记/国学/命理天地四柱八字学](https://blog.weiyigeek.top/2022/9-17-index.html)
+  - [Update Sun Sep 18 10:02:34 UTC 2022](https://github.com/trickest/cve/commit/3f2423f1814b623a0c545cc57ad8e3b92b112af6)
+- 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
+  - [一个真实案例启示：不要轻易相信一名黑客的承诺](https://www.4hou.com/posts/jJgR)
+  - [防火墙漏洞使用户很容易受到黑客的主动攻击](https://www.4hou.com/posts/ZXXJ)
+- Planet Classpath
+  - [Mark Wielaard: Sourceware Infrastructure / Conservancy / GNU Toolchain at Cauldron](https://gnu.wildebeest.org/blog/mjw/2022/09/18/sourceware-infrastructure-conservancy-gnu-toolchain-at-cauldron/)
+- Twitter @bytehx
+  - [RT Mohsin Khan 🇮🇳: Thread about hunting on the main application 🧵 1. Check the login process - Do they allow signup with email or Google etc ...](https://twitter.com/tabaahi_/status/1571386282835873792)
 - SAP Blogs
-  - [Universal Allocations – Top Down Distribution](https://blogs.sap.com/2022/09/17/universal-allocations-top-down-distributions/)
-  - [Data Catalog with SAP – Quo Vadis?](https://blogs.sap.com/2022/09/17/data-catalog-with-sap-quo-vadis/)
+  - [Concept of Condition Technique – SAP EWM](https://blogs.sap.com/2022/09/18/concept-of-condition-technique-sap-ewm/)
+  - [Passo a Passo: atualização de dados em massa utilizando a transação MASS no S/4HANA](https://blogs.sap.com/2022/09/18/passo-a-passo-atualizacao-de-dados-em-massa-utilizando-a-transacao-mass-no-s-4hana/)
+  - [Creator Spotlight: Get real-time COVID-19 data for every location with COVO](https://blogs.sap.com/2022/09/18/creator-spotlight-get-real-time-covid-19-data-for-every-location-with-covo/)
+  - [Analytics paves the way of becoming an intelligent enterprise](https://blogs.sap.com/2022/09/18/analytics-paves-the-way-of-becoming-an-intelligent-enterprise/)
+  - [CONCENTO RDG – Single Value Derivation Rule ( String Concatenation & Arithmetic Operation ) in BRF+](https://blogs.sap.com/2022/09/18/concento-rdg-single-value-derivation-rule-string-concatenation-arithmetic-operation-in-brf/)
+  - [HANA project : Generate project documentation (init)](https://blogs.sap.com/2022/09/18/hana-project-generate-project-documentation-init/)
+  - [How to find email address of SAP User id the smart way?](https://blogs.sap.com/2022/09/18/how-to-find-email-address-of-sap-user-id-the-smart-way/)
+  - [Supply Chain Visibility beyond EDI’s](https://blogs.sap.com/2022/09/18/supply-chain-visibility-beyond-edis/)
+- Didier Stevens
+  - [New Tool: split-overlap.py](https://blog.didierstevens.com/2022/09/18/new-tool-split-overlap-py/)
 - Reverse Engineering
-  - [Unity + Photon - UDP Port unreachable](https://www.reddit.com/r/ReverseEngineering/comments/xgqtxe/unity_photon_udp_port_unreachable/)
+  - [PE-bear - Portable Executable reversing tool with a friendly GUI](https://www.reddit.com/r/ReverseEngineering/comments/xhhggz/pebear_portable_executable_reversing_tool_with_a/)
+  - [Tesla Charge Port Remote Signal](https://www.reddit.com/r/ReverseEngineering/comments/xhvj9y/tesla_charge_port_remote_signal/)
+  - [Reversing Shorts [YouTube channel]](https://www.reddit.com/r/ReverseEngineering/comments/xhsvnm/reversing_shorts_youtube_channel/)
 - KitPloit - PenTest & Hacking Tools
-  - [DeathSleep - A PoC Implementation For An Evasion Technique To Terminate The Current Thread And Restore It Before Resuming Execution, While Implementing Page Protection Changes During No Execution](http://www.kitploit.com/2022/09/deathsleep-poc-implementation-for.html)
+  - [FISSURE - Frequency Independent SDR-based Signal Understanding and Reverse Engineering](http://www.kitploit.com/2022/09/fissure-frequency-independent-sdr-based.html)
+- 博客园 - 郑瀚Andrew
+  - [安吉青山廊璞石山居公寓 项目可行性分析 - 郑瀚Andrew](https://www.cnblogs.com/LittleHann/p/16705126.html)
+- 博客园 - 渗透测试中心
+  - [第五届美团网络安全高校挑战赛团体初赛writeup - 渗透测试中心](https://www.cnblogs.com/backlion/p/16704171.html)
+- Twitter @Keiran Smith (Affix)
+  - [Re @grantmac_ @ChargePlaceScot Im not storing the data. Just polling their API for now. Might store it as a time series and analyse the best times to ...](https://twitter.com/cli/status/1571430696564162560)
 - 奇客Solidot–传递最新科技情报
-  - [为什么 Craigslist 的界面和 25 年前一样](https://www.solidot.org/story?sid=72795)
-  - [两越南黑客出于找乐删除洲际酒店集团的数据库](https://www.solidot.org/story?sid=72794)
-  - [凹语言支持 Chrome 浏览器执行](https://www.solidot.org/story?sid=72793)
-  - [美国司法部成立专门机构打击加密货币犯罪](https://www.solidot.org/story?sid=72792)
-  - [EVGA 终止与英伟达的合作完全退出显卡市场](https://www.solidot.org/story?sid=72790)
-  - [英特尔将弃用奔腾和赛扬品牌](https://www.solidot.org/story?sid=72789)
-- 青衣十三楼飞花堂
-  - [cby的日常(before 2022.8.15)](https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247486192&idx=1&sn=aee743469c5490a6721c18d893c02a5a&chksm=fab2c9cfcdc540d9ee922d4eed599d73b9b9e4e155a5bdedfaa9596a4354d33d0676d803ab39&scene=58&subscene=0#rd)
-  - [一次不成功的MEMORY.DMP分析](https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247486188&idx=1&sn=7f58aa5caafde8d33ae4eae8ba950a1d&chksm=fab2c9d3cdc540c5e108791ba4be468e506968edd495ee3313d28a1342b2a1b25db62a1db97e&scene=58&subscene=0#rd)
+  - [上月集成电路产量大幅下跌](https://www.solidot.org/story?sid=72798)
+  - [仍在销售软盘的商人](https://www.solidot.org/story?sid=72797)
+  - [美国 CISA 下令修补 Stuxnet 攻击使用的漏洞](https://www.solidot.org/story?sid=72796)
+- 黑海洋 - WIKI
+  - [js 图标 base64加密 和 解密](https://blog.upx8.com/2988)
+  - [羊了个羊在线刷通关网站源码](https://blog.upx8.com/2981)
+  - [羊了个羊在线刷99999999次通关数](https://blog.upx8.com/2980)
+  - [羊了个羊游戏h5网页版源码泄露](https://blog.upx8.com/2986)
+  - [最新免费QQ密绑泄露检测源码支持反查-带后台带接口](https://blog.upx8.com/2987)
+  - [站长必备工具，免费 APP 网站隐私政策生成器](https://blog.upx8.com/2985)
+  - [2022年升级版知识付费变现微信小程序源码](https://blog.upx8.com/2984)
+  - [WPS Office 2019 v11.8.2.11734 专业增强版（内置序列号激活）](https://blog.upx8.com/2983)
+  - [小鸡模拟器TV版 9.9.9  破解版 去升级无限玩](https://blog.upx8.com/2982)
+  - [Yoco（百度文库下载器）](https://blog.upx8.com/2979)
+- 极客公园
+  - [NASA 在火星发现大量有机物；英伟达合作伙伴：从此不产新显卡；中国有望推太空旅行，票价 200 万元起 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652967535&idx=1&sn=709e0d75d4a1deec2dcd483a1c60ee42&chksm=7e546fd94923e6cf75bddb86e0e46d378d5d7ac5018a2c14acd32035b22c51e31542e5bc7bcc&scene=58&subscene=0#rd)
