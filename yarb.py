@@ -33,13 +33,13 @@ def update_today(data: list=[]):
             data = json.load(f1)
 
     archive_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(today_path, 'w+') as f1, open(archive_path, 'w+') as f2:
+    with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
         content = f'# 每日安全资讯（{today}）\n\n'
         for item in data:
             (feed, value), = item.items()
             content += f'- {feed}\n'
             for title, url in value.items():
-                content += f'  - [{title}]({url})\n'
+                content += f'  - [ ] [{title}]({url})\n'
         f1.write(content)
         f2.write(content)
 
@@ -92,13 +92,13 @@ def parseThread(url: str, proxy_url=''):
             yesterday = datetime.date.today() + datetime.timedelta(-1)
             pubday = datetime.date(d[0], d[1], d[2])
             if pubday == yesterday:
-                item = {entry.title: entry.link}
-                print(item)
-                result |= item
+                print(entry.title)
+                result[entry.title] = entry.link
         Color.print_success(f'[+] {title}\t{url}\t{len(result.values())}/{len(r.entries)}')
     except Exception as e:
         Color.print_failed(f'[-] failed: {url}')
         print(e)
+
     return title, result
 
 
@@ -144,7 +144,7 @@ def init_rss(conf: dict, update: bool=False, proxy_url=''):
     for rss in rss_list:
         (_, value), = rss.items()
         try:
-            rss = listparser.parse(open(value).read())
+            rss = listparser.parse(open(value,encoding="utf-8").read())
             for feed in rss.feeds:
                 url = feed.url.strip().rstrip('/')
                 short_url = url.split('://')[-1].split('www.')[-1]

@@ -107,7 +107,7 @@ class dingtalkBot:
         text_list = []
         for result in results:
             (feed, value), = result.items()
-            text = ''.join(f'- [{title}]({link})\n' for title, link in value.items())
+            text = feed + ":\n" + ''.join(f'- [{title}]({link})\n' for title, link in value.items())
             text_list.append([feed, text.strip()])
         return text_list
 
