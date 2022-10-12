@@ -7,7 +7,7 @@ on:
 jobs:
   add-labels:
     runs-on: ubuntu-latest
-    if: github.event.issue.labels == NaN
+    if: github.event.issue.labels == ''
     steps:
       - name: Add labels
         uses: actions-cool/issues-helper@v3
@@ -16,7 +16,3 @@ jobs:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
           labels: pick
-  debug:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo ${{ github.event.issue.labels.*.name }}
