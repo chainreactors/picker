@@ -20,4 +20,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo ${{ fromJSON(github.event.issue.labels) }}
-      - run: echo ${{ github.event.issue.labels == [] }}
