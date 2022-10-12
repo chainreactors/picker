@@ -19,4 +19,4 @@ jobs:
   debug:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ toJSON(github.event.issue.labels.*.name) }}
+      - run: echo ${{ github.event.issue.labels.*.name }}
