@@ -19,7 +19,7 @@ import requests
 requests.packages.urllib3.disable_warnings()
 
 today = datetime.datetime.now().strftime("%Y-%m-%d")
-
+root_path = Path(__file__).absolute().parent
 
 def update_today(data: list=[]):
     """更新today"""
@@ -108,21 +108,24 @@ def init_bot(conf: dict, proxy_url=''):
     for name, v in conf.items():
         if v['enabled']:
             key = os.getenv(v['secrets']) or v['key']
-
+            bot_name = globals()[f'{name}Bot']
             if name == 'mail':
                 receiver = os.getenv(v['secrets_receiver']) or v['receiver']
-                bot = globals()[f'{name}Bot'](v['address'], key, receiver, v['from'], v['server'])
+                bot = bot_name(v['address'], key, receiver, v['from'], v['server'])
                 bots.append(bot)
             elif name == 'qq':
-                bot = globals()[f'{name}Bot'](v['group_id'])
+                bot = bot_name(v['group_id'])
                 if bot.start_server(v['qq_id'], key):
                     bots.append(bot)
             elif name == 'telegram':
-                bot = globals()[f'{name}Bot'](key, v['chat_id'], proxy_url)
+                bot = bot_name(key, v['chat_id'], proxy_url)
                 if bot.test_connect():
                     bots.append(bot)
+            elif name == 'dingtalk':
+                bot = bot_name(key, os.getenv(v.get("DINGTALK_SECRET", "")) or v['secret'], proxy_url)
+                bots.append(bot)
             else:
-                bot = globals()[f'{name}Bot'](key, proxy_url)
+                bot = bot_name(key, proxy_url)
                 bots.append(bot)
     return bots
 
@@ -167,9 +170,6 @@ def cleanup():
 def job(args):
     """定时任务"""
     print(f'{pyfiglet.figlet_format("yarb")}\n{today}')
-
-    global root_path
-    root_path = Path(__file__).absolute().parent
     if args.config:
         config_path = Path(args.config).expanduser().absolute()
     else:

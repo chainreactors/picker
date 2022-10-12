@@ -1,5 +1,10 @@
+import base64
+import hashlib
+import hmac
 import time
 import json
+from urllib import parse
+
 import yaml
 import telegram
 import requests
@@ -98,8 +103,9 @@ class dingtalkBot:
     """钉钉群机器人
     https://open.dingtalk.com/document/robots/custom-robot-access
     """
-    def __init__(self, key, proxy_url='') -> None:
+    def __init__(self, key, secret, proxy_url='') -> None:
         self.key = key
+        self.secret = secret
         self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
 
     @staticmethod
@@ -111,17 +117,23 @@ class dingtalkBot:
             text_list.append([feed, text.strip()])
         return text_list
 
+    def sign(self, timestamp):
+        secret_enc = self.secret.encode('utf-8')
+        string_to_sign = '{}\n{}'.format(timestamp, self.secret)
+        string_to_sign_enc = string_to_sign.encode('utf-8')
+        hmac_code = hmac.new(secret_enc, string_to_sign_enc, digestmod=hashlib.sha256).digest()
+        return parse.quote_plus(base64.b64encode(hmac_code))
+
     def send(self, text_list: list):
         limiter = Limiter(RequestRate(20, Duration.MINUTE))     # 频率限制，20条/分钟
+        timestamp = str(round(time.time() * 1000))
         for (feed, text) in text_list:
             with limiter.ratelimit('identity', delay=True):
                 print(f'{len(text)} {text[:50]}...{text[-50:]}')
-
                 data = {"msgtype": "markdown", "markdown": {"title": feed, "text": text}}
                 headers = {'Content-Type': 'application/json'}
-                url = f'https://oapi.dingtalk.com/robot/send?access_token={self.key}'
+                url = f'https://oapi.dingtalk.com/robot/send?access_token={self.key}&timestamp={timestamp}&sign={self.sign(timestamp)}'
                 r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
-
                 if r.status_code == 200:
                     Color.print_success('[+] dingtalkBot 发送成功')
                 else:
