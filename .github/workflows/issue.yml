@@ -7,7 +7,7 @@ on:
 jobs:
   add-labels:
     runs-on: ubuntu-latest
-    if: github.event.issue.labels == null
+    if: congithub.event.issue.labels == null
     steps:
       - name: Add labels
         uses: actions-cool/issues-helper@v3
@@ -19,4 +19,4 @@ jobs:
   debug:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ github.event.issue.labels }}
+      - run: echo ${{ toJSON(github.event.issue.labels) }}
