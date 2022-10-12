@@ -1,4 +1,4 @@
-name: Add Labels
+name: ISSUE
 
 on:
   issues:
@@ -16,3 +16,7 @@ jobs:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
           labels: pick
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{ github.event.issue.labels }}
