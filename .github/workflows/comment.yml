@@ -1,0 +1,23 @@
+name: ISSUE
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  push-comment:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'pick')
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: ./install.sh
+      - name: Update Body
+        run: python3 yarb.py --push-comment ${{ github.event.issue.number }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+

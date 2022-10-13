@@ -72,11 +72,11 @@ def update_rss(rss: dict, proxy_url=''):
 
 
 def update_pick():
-    today_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url"))
-    if not today_issues:
+    yesterday_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url"))
+    if not yesterday_issues:
         return
 
-    today_path = root_path.joinpath('yesterday_pick.md')
+    yesterday_path = root_path.joinpath('yesterday_pick.md')
     archive_path = root_path.joinpath(f'archive/daily_pick/{yesterday.split("-")[0]}/{yesterday}.md')
     data_path = root_path.joinpath(f'archive/tmp/{yesterday}.json')
     data = {}
@@ -85,7 +85,7 @@ def update_pick():
             data = json.load(f1)
 
     picker = {}
-    for issue in today_issues:
+    for issue in yesterday_issues:
         issue_title = issue["title"].lstrip(f"[{yesterday}] ").strip()
         for feed, articles in data.items():
             for title, link in articles.items():
@@ -95,7 +95,7 @@ def update_pick():
                     picker[feed].append((title, link, issue["url"]))
 
     archive_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
+    with open(yesterday_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
         content = f'# 每日精选汇总（{yesterday}）\n\n'
         for feed, articles in picker.items():
             content += f'- {feed}\n'
@@ -109,7 +109,7 @@ def update_pick():
             bot.send_raw(f"[{yesterday} 精选汇总]", content)
 
 
-def update_issue(issue_number):
+def push_issue(issue_number):
     issue = json.loads(popen(f"gh issue view {issue_number} --json title,url,author"))
     issue_title = issue["title"].lstrip(f"[{today}]").strip()
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
@@ -136,8 +136,14 @@ def update_issue(issue_number):
             Color.print_failed(f"{issue_title} not found title in {today}.json")
 
 
-def update_comment(issue_number):
-    pass
+def push_comment(issue_number):
+    issue = json.loads(popen(f"gh issue view {issue_number} --json title,url,comments"))
+    issue_title = issue["title"].lstrip(f"[{today}]").strip()
+
+    comment = issue["comments"][-1]
+    text = f"{comment['author']['login']} 评论了 [{issue_title}]({issue['url']}): \n\n" + comment["body"]
+    for bot in bots:
+        bot.send_raw(f"{comment['author']['login']} 评论了 {issue_title}", text)
 
 
 def parseThread(url: str, proxy_url=''):
@@ -273,8 +279,9 @@ def argument():
     parser.add_argument('--cron', help='Execute scheduled tasks every day (eg:"11:00")', type=str, required=False)
     parser.add_argument('--config', help='Use specified config file', type=str, required=False)
     parser.add_argument('--test', help='Test bot', action='store_true', required=False)
-    parser.add_argument('--update-issue', help="update issue")
+    parser.add_argument('--push-issue', help="update issue")
     parser.add_argument("--update-pick", help="update pick", action='store_true')
+    parser.add_argument("--push-comment", help="update comment")
     return parser.parse_args()
 
 
@@ -298,9 +305,11 @@ if __name__ == '__main__':
         while True:
             schedule.run_pending()
             time.sleep(1)
-    elif args.update_issue:
-        update_issue(args.update_issue)
+    elif args.push_issue:
+        push_issue(args.update_issue)
     elif args.update_pick:
         update_pick()
+    elif args.push_comment:
+        push_comment(args.push_comment)
     else:
         job(args, conf)
