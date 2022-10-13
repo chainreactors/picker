@@ -1,4 +1,6 @@
 import pprint
+import subprocess
+
 from colorama import Fore
 
 
@@ -42,3 +44,8 @@ class Pattern:
     @staticmethod
     def offset(value: str, length: int=8192):
         return Pattern.create(length).index(value)
+
+
+def popen(cmd:str) -> str:
+    with subprocess.Popen(cmd, stdout=subprocess.PIPE).stdout as source:
+        return source.read().decode(encoding="utf-8")

@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# -*- coding: UTF-8 -*-
 
 import os
 import json
@@ -13,14 +14,13 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from bot import *
-from utils import Color, Pattern
+from utils import Color, Pattern, popen
 
 import requests
 requests.packages.urllib3.disable_warnings()
 
 today = datetime.datetime.now().strftime("%Y-%m-%d")
 root_path = Path(__file__).absolute().parent
-
 
 def update_today(data: dict= {}):
     """更新today"""
@@ -29,7 +29,7 @@ def update_today(data: dict= {}):
     archive_path = root_path.joinpath(f'archive/daily/{today.split("-")[0]}/{today}.md')
 
     if not data and data_path.exists():
-        with open(data_path, 'r') as f1:
+        with open(data_path, 'r', encoding="utf-8") as f1:
             data = json.load(f1)
 
     archive_path.parent.mkdir(parents=True, exist_ok=True)
@@ -54,7 +54,7 @@ def update_rss(rss: dict, proxy_url=''):
     if url := value.get('url'):
         r = requests.get(value['url'], proxies=proxy)
         if r.status_code == 200:
-            with open(rss_path, 'w+') as f:
+            with open(rss_path, 'w+', encoding="utf-8") as f:
                 f.write(r.text)
             print(f'[+] 更新完成：{key}')
             result = {key: rss_path}
@@ -70,7 +70,7 @@ def update_rss(rss: dict, proxy_url=''):
 
 
 def update_pick():
-    today_issues = json.loads(os.popen(f"ph issue list --search \"{today}\" --json title,number -q \"[.[].title]\"").read())
+    today_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{today}\" --json title,url"))
     if not today_issues:
         return
 
@@ -79,47 +79,49 @@ def update_pick():
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
     data = {}
     if data_path.exists():
-        with open(data_path, 'r') as f1:
+        with open(data_path, 'r', encoding="utf-8") as f1:
             data = json.load(f1)
 
     picker = {}
     for issue in today_issues:
-        issue_title = issue["title"].lstrip(f"[{today}] ")
+        issue_title = issue["title"].lstrip(f"[{today}] ").strip()
         for feed, articles in data.items():
-            for title, link in articles:
+            for title, link in articles.items():
                 if issue_title == title:
-                    picker[feed] = {title: link}
+                    if not picker.get(feed, ""):
+                        picker[feed] = []
+                    picker[feed].append((title, link, issue["url"]))
 
     archive_path.parent.mkdir(parents=True, exist_ok=True)
     with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
         content = f'# 每日精选资讯（{today}）\n\n'
-        for feed, articles in data.items():
+        for feed, articles in picker.items():
             content += f'- {feed}\n'
-            for title, url in articles.items():
-                content += f'  - [{title}]({url})\n'
+            for title, link, issue_url in articles:
+                content += f'  - [{title}]({link}) - [discussion]({issue_url})\n'
         f1.write(content)
         f2.write(content)
 
 
 def update_issue(issue_number):
-    issue = json.loads(os.popen(f"ph issue view {issue_number} --json title -q \".title\"").read())
-    issue_title = issue.lstrip(f"[{today}] ")
+    issue_title = popen(f"gh issue view {issue_number} --json title -q \".title\"").lstrip(f"[{today}] ").strip()
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
     if data_path.exists():
-        with open(data_path, 'r') as f1:
+        with open(data_path, 'r', encoding="utf-8") as f1:
             data = json.load(f1)
         success = False
         for feed, articles in data.items():
             for title, link in articles.items():
                 if title == issue_title:
                     success = True
-                    body = feed + f": {title}[{link}]"
-                    os.popen(f"gh issue edit {issue_number} --body {body}")
+                    body = feed + f": [{title}]({link})"
+                    print(body)
+                    popen(f"gh issue edit {issue_number} --body \"{body}\"")
                     break
             if success:
                 break
         if not success:
-            Color.print_failed(f"not found title in {today}.json")
+            Color.print_failed(f"{issue_title} not found title in {today}.json")
 
 
 def parseThread(url: str, proxy_url=''):
@@ -154,10 +156,10 @@ def parseThread(url: str, proxy_url=''):
     return title, result
 
 
-def init_bot(conf: dict, proxy_url=''):
+def init_bot(bot_conf: dict, proxy_url=''):
     """初始化机器人"""
     bots = []
-    for name, v in conf.items():
+    for name, v in bot_conf.items():
         if v['enabled']:
             key = os.getenv(v['secrets']) or v['key']
             bot_name = globals()[f'{name}Bot']
@@ -219,15 +221,8 @@ def cleanup():
     qqBot.kill_server()
 
 
-def job(args):
+def job(args, conf):
     """定时任务"""
-    print(f'{pyfiglet.figlet_format("yarb")}\n{today}')
-    if args.config:
-        config_path = Path(args.config).expanduser().absolute()
-    else:
-        config_path = root_path.joinpath('config.json')
-    with open(config_path) as f:
-        conf = json.load(f)
 
     proxy_rss = conf['proxy']['url'] if conf['proxy']['rss'] else ''
     feeds = init_rss(conf['rss'], args.update, proxy_rss)
@@ -279,10 +274,24 @@ def argument():
 
 if __name__ == '__main__':
     args = argument()
+
+    print(f'{pyfiglet.figlet_format("yarb")}\n{today}')
+    conf = {}
+    if args.config:
+        config_path = Path(args.config).expanduser().absolute()
+    else:
+        config_path = root_path.joinpath('config.json')
+    with open(config_path, encoding="utf-8") as f:
+        conf = json.load(f)
+
     if args.cron:
         schedule.every().day.at(args.cron).do(job, args)
         while True:
             schedule.run_pending()
             time.sleep(1)
+    elif args.update_issue:
+        update_issue(args.update_issue)
+    elif args.update_pick:
+        update_pick()
     else:
-        job(args)
+        job(args, conf)
