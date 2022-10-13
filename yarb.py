@@ -21,12 +21,12 @@ requests.packages.urllib3.disable_warnings()
 today = datetime.datetime.now().strftime("%Y-%m-%d")
 root_path = Path(__file__).absolute().parent
 
-def update_today(data: list=[]):
+
+def update_today(data: dict= {}):
     """更新today"""
-    root_path = Path(__file__).absolute().parent
-    data_path = root_path.joinpath('temp_data.json')
+    data_path = root_path.joinpath(f'archive/tmp/{today}.json')
     today_path = root_path.joinpath('today.md')
-    archive_path = root_path.joinpath(f'archive/{today.split("-")[0]}/{today}.md')
+    archive_path = root_path.joinpath(f'archive/daily/{today.split("-")[0]}/{today}.md')
 
     if not data and data_path.exists():
         with open(data_path, 'r') as f1:
@@ -35,10 +35,9 @@ def update_today(data: list=[]):
     archive_path.parent.mkdir(parents=True, exist_ok=True)
     with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
         content = f'# 每日安全资讯（{today}）\n\n'
-        for item in data:
-            (feed, value), = item.items()
+        for feed, articles in data.items():
             content += f'- {feed}\n'
-            for title, url in value.items():
+            for title, url in articles.items():
                 content += f'  - [ ] [{title}]({url})\n'
         f1.write(content)
         f2.write(content)
@@ -68,6 +67,59 @@ def update_rss(rss: dict, proxy_url=''):
         print(f'[+] 本地文件：{key}')
 
     return result
+
+
+def update_pick():
+    today_issues = json.loads(os.popen(f"ph issue list --search \"{today}\" --json title,number -q \"[.[].title]\"").read())
+    if not today_issues:
+        return
+
+    today_path = root_path.joinpath('today_pick.md')
+    archive_path = root_path.joinpath(f'archive/daily_pick/{today.split("-")[0]}/{today}.md')
+    data_path = root_path.joinpath(f'archive/tmp/{today}.json')
+    data = {}
+    if data_path.exists():
+        with open(data_path, 'r') as f1:
+            data = json.load(f1)
+
+    picker = {}
+    for issue in today_issues:
+        issue_title = issue["title"].lstrip(f"[{today}] ")
+        for feed, articles in data.items():
+            for title, link in articles:
+                if issue_title == title:
+                    picker[feed] = {title: link}
+
+    archive_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
+        content = f'# 每日精选资讯（{today}）\n\n'
+        for feed, articles in data.items():
+            content += f'- {feed}\n'
+            for title, url in articles.items():
+                content += f'  - [{title}]({url})\n'
+        f1.write(content)
+        f2.write(content)
+
+
+def update_issue(issue_number):
+    issue = json.loads(os.popen(f"ph issue view {issue_number} --json title -q \".title\"").read())
+    issue_title = issue.lstrip(f"[{today}] ")
+    data_path = root_path.joinpath(f'archive/tmp/{today}.json')
+    if data_path.exists():
+        with open(data_path, 'r') as f1:
+            data = json.load(f1)
+        success = False
+        for feed, articles in data.items():
+            for title, link in articles.items():
+                if title == issue_title:
+                    success = True
+                    body = feed + f": {title}[{link}]"
+                    os.popen(f"gh issue edit {issue_number} --body {body}")
+                    break
+            if success:
+                break
+        if not success:
+            Color.print_failed(f"not found title in {today}.json")
 
 
 def parseThread(url: str, proxy_url=''):
@@ -180,10 +232,10 @@ def job(args):
     proxy_rss = conf['proxy']['url'] if conf['proxy']['rss'] else ''
     feeds = init_rss(conf['rss'], args.update, proxy_rss)
 
-    results = []
+    results = {}
     if args.test:
         # 测试数据
-        results.extend({f'test{i}': {Pattern.create(i*500): 'test'}} for i in range(1, 20))
+        results = {"a":"i+1" for i in range(100)}
     else:
         # 获取文章
         numb = 0
@@ -191,16 +243,16 @@ def job(args):
         with ThreadPoolExecutor(100) as executor:
             tasks.extend(executor.submit(parseThread, url, proxy_rss) for url in feeds)
             for task in as_completed(tasks):
-                title, result = task.result()            
+                feed, result = task.result()
                 if result:
                     numb += len(result.values())
-                    results.append({title: result})
+                    results[feed] = result
         Color.print_focus(f'[+] {len(results)} feeds, {numb} articles')
 
-        # temp_path = root_path.joinpath('temp_data.json')
-        # with open(temp_path, 'w+') as f:
-        #     f.write(json.dumps(results, indent=4, ensure_ascii=False))
-        #     Color.print_focus(f'[+] temp data: {temp_path}')
+        temp_path = root_path.joinpath(f'archive//tmp//{today}.json')
+        with open(temp_path, 'w+', encoding="utf-8") as f:
+            f.write(json.dumps(results, indent=4, ensure_ascii=False))
+            Color.print_focus(f'[+] temp data: {temp_path}')
 
         # 更新today
         update_today(results)
@@ -220,6 +272,8 @@ def argument():
     parser.add_argument('--cron', help='Execute scheduled tasks every day (eg:"11:00")', type=str, required=False)
     parser.add_argument('--config', help='Use specified config file', type=str, required=False)
     parser.add_argument('--test', help='Test bot', action='store_true', required=False)
+    parser.add_argument('--update-issue', help="update issue")
+    parser.add_argument("--update-pick", help="update pick", action='store_true')
     return parser.parse_args()
 
 
