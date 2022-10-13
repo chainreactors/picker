@@ -32,13 +32,13 @@ jobs:
       - name: Commit
         run: |
           git diff
-          git config --global user.email rssbot@rssbot.com
-          git config --global user.name rssbot
-          git add archive today-pick.md
+          git config --global user.email m09ic@rssbot.com
+          git config --global user.name m09ic
+          git add archive today_pick.md
           git commit -m "每日精选（`date +'%Y-%m-%d'`）"
 
       - name: Issue
-        run: gh issue create --title "`date +'%Y-%m-%d'`" -F today-pick.md
+        run: gh issue create --title "`date +'%Y-%m-%d'`" -F today_pick.md --label "dailypick"
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
