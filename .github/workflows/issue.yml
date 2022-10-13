@@ -35,4 +35,6 @@ jobs:
         run: python3 yarb.py --push-issue ${{ github.event.issue.number }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          DINGTALK_KEY: ${{ secrets.DINGTALK_KEY }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
 

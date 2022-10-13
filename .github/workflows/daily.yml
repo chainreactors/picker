@@ -25,6 +25,7 @@ jobs:
           FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
           WECOM_KEY: ${{ secrets.WECOM_KEY }}
           DINGTALK_KEY: ${{ secrets.DINGTALK_KEY }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
           QQ_KEY: ${{ secrets.QQ_KEY }}
           TELEGRAM_KEY: ${{ secrets.TELEGRAM_KEY }}
           MAIL_KEY: ${{ secrets.MAIL_KEY }}
