@@ -20,4 +20,9 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           labels: pick
           title: "[${{ steps.date.outputs.date }}] ${{ github.event.issue.title }}"
+      - name: Install dependencies
+        run: ./install.sh
+
+      - name: Update Body
+        run: python3 yarb.py --update-issue ${{ github.event.issue.number }}
 
