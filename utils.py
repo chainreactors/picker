@@ -47,5 +47,5 @@ class Pattern:
 
 
 def popen(cmd:str) -> str:
-    with subprocess.Popen(cmd, stdout=subprocess.PIPE).stdout as source:
+    with subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True).stdout as source:
         return source.read().decode(encoding="utf-8")
