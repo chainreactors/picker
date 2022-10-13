@@ -60,8 +60,8 @@
         "dingtalk": {
             "enabled": false,
             "secrets": "DINGTALK_KEY",
-            "key": "***REMOVED***",
-            "secret": "***REMOVED***"
+            "key": "cb864906a902fd05d0f2a7224d499ec9942d5237c3045d83c63a4ba5d006206d",
+            "secret": "SEC1b333d336d665d4a0c21a4c9e9d37518065d01fab306805da723278c2f26c0cb"
         },
         "qq": {
             "enabled": false,
