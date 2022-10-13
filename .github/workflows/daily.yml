@@ -40,7 +40,7 @@ jobs:
           git commit -m "每日安全资讯（`date +'%Y-%m-%d'`）"
 
       - name: Issue
-        run: gh issue create --title "`date +'%Y-%m-%d'`" -F today.md
+        run: gh issue create --title "`date +'%Y-%m-%d'`" -F today.md --add-label "daily"
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
