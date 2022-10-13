@@ -33,4 +33,6 @@ jobs:
         run: ./install.sh
       - name: Update Body
         run: python3 yarb.py --update-issue ${{ github.event.issue.number }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
