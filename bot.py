@@ -121,7 +121,7 @@ class dingtalkBot:
     def parse_pick(results: dict):
         text_list = []
         for feed, articles in results.items():
-            text = f"[{today}精选] " + feed + ":\n"
+            text = f"[{today} 精选] " + feed + ":\n"
             for title, link, issue_url in articles:
                 text += f'  - [{title}]({link}) - [discussion]({issue_url})\n'
             text_list.append((feed, text))
