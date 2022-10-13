@@ -1,9 +1,8 @@
 name: Pick Push
 
-# 国际标准时间2点（北京时间10点）
 on:
   schedule:
-    - cron: '30 10 * * *'
+    - cron: '30 6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -30,18 +29,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python3 yarb.py --update-pick
 
+      - name: Issue
+        run: gh issue create --title "[每日精选] `date +'%Y-%m-%d'`" -F today_pick.md --label "dailypick"
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
       - name: Commit
         run: |
           git diff
           git config --global user.email m09ic@rssbot.com
           git config --global user.name m09ic
           git add archive today_pick.md
-          git commit -m "每日精选（`date +'%Y-%m-%d'`）"
-
-      - name: Issue
-        run: gh issue create --title "[每日精选] `date +'%Y-%m-%d'`" -F today_pick.md --label "dailypick"
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          git commit -m "每日精选汇总（`date +'%Y-%m-%d'`）"
 
       - name: Push changes
         uses: ad-m/github-push-action@master

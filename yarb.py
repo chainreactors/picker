@@ -22,6 +22,7 @@ requests.packages.urllib3.disable_warnings()
 today = datetime.datetime.now().strftime("%Y-%m-%d")
 root_path = Path(__file__).absolute().parent
 
+bots = []
 
 def update_today(data: dict= {}):
     """更新today"""
@@ -95,7 +96,7 @@ def update_pick():
 
     archive_path.parent.mkdir(parents=True, exist_ok=True)
     with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
-        content = f'# 每日精选资讯（{today}）\n\n'
+        content = f'# 每日精选汇总（{today}）\n\n'
         for feed, articles in picker.items():
             content += f'- {feed}\n'
             for title, link, issue_url in articles:
@@ -103,26 +104,29 @@ def update_pick():
         f1.write(content)
         f2.write(content)
 
-    proxy_bot = conf['proxy']['url'] if conf['proxy']['bot'] else ''
-    bots = init_bot(conf['bot'], proxy_bot)
     for bot in bots:
         bot.send(bot.parse_pick(picker))
 
 
 def update_issue(issue_number):
-    issue_title = popen(f"gh issue view {issue_number} --json title -q \".title\"").lstrip(f"[{today}] ").strip()
+    issue = json.loads(popen(f"gh issue view {issue_number} --json title,url,author"))
+    issue_title = issue["title"]
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
     if data_path.exists():
         with open(data_path, 'r', encoding="utf-8") as f1:
             data = json.load(f1)
         success = False
+        text = ""
         for feed, articles in data.items():
             for title, link in articles.items():
                 if title == issue_title:
                     success = True
-                    body = feed + f": [{title}]({link})"
+                    body = feed + f": [{title}]({link}) + "
                     print(body)
                     popen(f"gh issue edit {issue_number} --body \"{body}\"")
+                    body = issue["author"]["login"] + " 挑选了精选文章\n" + body
+                    for bot in bots:
+                        bot.send_raw(title, body)
                     break
             if success:
                 break
@@ -222,11 +226,6 @@ def init_rss(conf: dict, update: bool=False, proxy_url=''):
     return feeds
 
 
-def cleanup():
-    """结束清理"""
-    qqBot.kill_server()
-
-
 def job(args, conf):
     """定时任务"""
 
@@ -258,12 +257,8 @@ def job(args, conf):
         # 更新today
         update_today(results)
 
-    proxy_bot = conf['proxy']['url'] if conf['proxy']['bot'] else ''
-    bots = init_bot(conf['bot'], proxy_bot)
     for bot in bots:
         bot.send(bot.parse_results(results))
-
-    cleanup()
 
 
 def argument():
@@ -279,7 +274,7 @@ def argument():
 
 if __name__ == '__main__':
     args = argument()
-
+    global bots
     print(f'{pyfiglet.figlet_format("yarb")}\n{today}')
     conf = {}
     if args.config:
@@ -289,6 +284,9 @@ if __name__ == '__main__':
     with open(config_path, encoding="utf-8") as f:
         conf = json.load(f)
 
+    proxy_bot = conf['proxy']['url'] if conf['proxy']['bot'] else ''
+    bots = init_bot(conf['bot'], proxy_bot)
+
     if args.cron:
         schedule.every().day.at(args.cron).do(job, args)
         while True:
@@ -297,7 +295,6 @@ if __name__ == '__main__':
     elif args.update_issue:
         update_issue(args.update_issue)
     elif args.update_pick:
-        results = update_pick()
-
+        update_pick()
     else:
         job(args, conf)
