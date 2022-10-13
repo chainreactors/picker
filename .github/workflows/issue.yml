@@ -22,7 +22,7 @@ jobs:
           title: "[${{ steps.date.outputs.date }}] ${{ github.event.issue.title }}"
   update-body:
     runs-on: ubuntu-latest
-    if: join(github.event.issue.labels) == 'pick'
+    if: contains(github.event.issue.labels.*.name, "pick")
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
