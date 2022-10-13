@@ -117,6 +117,16 @@ class dingtalkBot:
             text_list.append([feed, text.strip()])
         return text_list
 
+    @staticmethod
+    def parse_pick(results: dict):
+        text_list = []
+        for feed, articles in results.items():
+            text = "[精选] " + feed + ":\n"
+            for title, link, issue_url in articles:
+                text += f'  - [{title}]({link}) - [discussion]({issue_url})\n'
+            text_list.append((feed, text))
+        return text_list
+
     def sign(self, timestamp):
         secret_enc = self.secret.encode('utf-8')
         string_to_sign = '{}\n{}'.format(timestamp, self.secret)

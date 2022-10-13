@@ -22,6 +22,7 @@ requests.packages.urllib3.disable_warnings()
 today = datetime.datetime.now().strftime("%Y-%m-%d")
 root_path = Path(__file__).absolute().parent
 
+
 def update_today(data: dict= {}):
     """更新today"""
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
@@ -101,6 +102,11 @@ def update_pick():
                 content += f'  - [{title}]({link}) - [discussion]({issue_url})\n'
         f1.write(content)
         f2.write(content)
+
+    proxy_bot = conf['proxy']['url'] if conf['proxy']['bot'] else ''
+    bots = init_bot(conf['bot'], proxy_bot)
+    for bot in bots:
+        bot.send(bot.parse_pick(picker))
 
 
 def update_issue(issue_number):
@@ -252,7 +258,6 @@ def job(args, conf):
         # 更新today
         update_today(results)
 
-    # 推送文章
     proxy_bot = conf['proxy']['url'] if conf['proxy']['bot'] else ''
     bots = init_bot(conf['bot'], proxy_bot)
     for bot in bots:
@@ -292,6 +297,7 @@ if __name__ == '__main__':
     elif args.update_issue:
         update_issue(args.update_issue)
     elif args.update_pick:
-        update_pick()
+        results = update_pick()
+
     else:
         job(args, conf)
