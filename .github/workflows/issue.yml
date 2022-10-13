@@ -23,14 +23,14 @@ jobs:
   update-body:
     runs-on: ubuntu-latest
     if: join(github.event.issue.labels) == 'pick'
-      steps:
-        - uses: actions/checkout@v3
-        - name: Set up Python
-          uses: actions/setup-python@v3
-          with:
-            python-version: '3.x'
-        - name: Install dependencies
-          run: ./install.sh
-        - name: Update Body
-          run: python3 yarb.py --update-issue ${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: ./install.sh
+      - name: Update Body
+        run: python3 yarb.py --update-issue ${{ github.event.issue.number }}
 
