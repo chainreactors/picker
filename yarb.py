@@ -3,9 +3,6 @@
 
 import os
 import json
-import time
-import schedule
-import pyfiglet
 import argparse
 import datetime
 import listparser
@@ -276,7 +273,6 @@ def job(args, conf):
 def argument():
     parser = argparse.ArgumentParser()
     parser.add_argument('--update', help='Update RSS config file', action='store_true', required=False)
-    parser.add_argument('--cron', help='Execute scheduled tasks every day (eg:"11:00")', type=str, required=False)
     parser.add_argument('--config', help='Use specified config file', type=str, required=False)
     parser.add_argument('--test', help='Test bot', action='store_true', required=False)
     parser.add_argument('--push-issue', help="update issue")
@@ -288,7 +284,6 @@ def argument():
 if __name__ == '__main__':
     args = argument()
     global bots
-    print(f'{pyfiglet.figlet_format("yarb")}\n{today}')
     conf = {}
     if args.config:
         config_path = Path(args.config).expanduser().absolute()
@@ -300,12 +295,7 @@ if __name__ == '__main__':
     proxy_bot = conf['proxy']['url'] if conf['proxy']['bot'] else ''
     bots = init_bot(conf['bot'], proxy_bot)
 
-    if args.cron:
-        schedule.every().day.at(args.cron).do(job, args)
-        while True:
-            schedule.run_pending()
-            time.sleep(1)
-    elif args.push_issue:
+    if args.push_issue:
         push_issue(args.update_issue)
     elif args.update_pick:
         update_pick()

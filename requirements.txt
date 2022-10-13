@@ -1,11 +1,9 @@
 requests
 feedparser
-pyfiglet
 colorama
 schedule
 pyyaml
 python-telegram-bot
 PySocks
 pyrate-limiter
-poetry
 git+https://github.com/kurtmckee/listparser
