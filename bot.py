@@ -156,7 +156,7 @@ class dingtalkBot:
         timestamp = str(round(time.time() * 1000))
         url = f'https://oapi.dingtalk.com/robot/send?access_token={self.key}&timestamp={timestamp}&sign={self.sign(timestamp)}'
         r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
-        if r.status_code == 200:
+        if r.status_code == 200 and r.json()["errcode"] == 0:
             Color.print_success('[+] dingtalkBot 发送成功')
         else:
             Color.print_failed('[-] dingtalkBot 发送失败')
