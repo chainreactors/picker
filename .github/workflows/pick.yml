@@ -39,7 +39,7 @@ jobs:
           git commit -m "每日精选（`date +'%Y-%m-%d'`）"
 
       - name: Issue
-        run: gh issue create --title "`date +'%Y-%m-%d'`" -F today_pick.md --label "dailypick"
+        run: gh issue create --title "[每日精选] `date +'%Y-%m-%d'`" -F today_pick.md --label "dailypick"
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
