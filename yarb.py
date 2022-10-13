@@ -182,7 +182,7 @@ def init_bot(bot_conf: dict, proxy_url=''):
                 if bot.test_connect():
                     bots.append(bot)
             elif name == 'dingtalk':
-                bot = bot_name(key, os.getenv(v.get("DINGTALK_SECRET", "")) or v['secret'], proxy_url)
+                bot = bot_name(key, os.getenv("DINGTALK_SECRET", "") or v['secret'], proxy_url)
                 bots.append(bot)
             else:
                 bot = bot_name(key, proxy_url)
