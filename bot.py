@@ -150,6 +150,18 @@ class dingtalkBot:
                     Color.print_failed('[-] dingtalkBot 发送失败')
                     print(r.text)
 
+    def send_raw(self, title, text):
+        data = {"msgtype": "markdown", "markdown": {"title": title, "text": text}}
+        headers = {'Content-Type': 'application/json'}
+        timestamp = str(round(time.time() * 1000))
+        url = f'https://oapi.dingtalk.com/robot/send?access_token={self.key}&timestamp={timestamp}&sign={self.sign(timestamp)}'
+        r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
+        if r.status_code == 200:
+            Color.print_success('[+] dingtalkBot 发送成功')
+        else:
+            Color.print_failed('[-] dingtalkBot 发送失败')
+            print(r.text)
+
 
 class qqBot:
     """QQ群机器人
