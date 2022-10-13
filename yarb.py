@@ -20,9 +20,9 @@ import requests
 requests.packages.urllib3.disable_warnings()
 
 today = datetime.datetime.now().strftime("%Y-%m-%d")
+yesterday = str(datetime.date.today() + datetime.timedelta(-1))
 root_path = Path(__file__).absolute().parent
 
-bots = []
 
 def update_today(data: dict= {}):
     """更新today"""
@@ -72,13 +72,13 @@ def update_rss(rss: dict, proxy_url=''):
 
 
 def update_pick():
-    today_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{today}\" --json title,url"))
+    today_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url"))
     if not today_issues:
         return
 
-    today_path = root_path.joinpath('today_pick.md')
-    archive_path = root_path.joinpath(f'archive/daily_pick/{today.split("-")[0]}/{today}.md')
-    data_path = root_path.joinpath(f'archive/tmp/{today}.json')
+    today_path = root_path.joinpath('yesterday_pick.md')
+    archive_path = root_path.joinpath(f'archive/daily_pick/{yesterday.split("-")[0]}/{yesterday}.md')
+    data_path = root_path.joinpath(f'archive/tmp/{yesterday}.json')
     data = {}
     if data_path.exists():
         with open(data_path, 'r', encoding="utf-8") as f1:
@@ -86,7 +86,7 @@ def update_pick():
 
     picker = {}
     for issue in today_issues:
-        issue_title = issue["title"].lstrip(f"[{today}] ").strip()
+        issue_title = issue["title"].lstrip(f"[{yesterday}] ").strip()
         for feed, articles in data.items():
             for title, link in articles.items():
                 if issue_title == title:
@@ -96,21 +96,22 @@ def update_pick():
 
     archive_path.parent.mkdir(parents=True, exist_ok=True)
     with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
-        content = f'# 每日精选汇总（{today}）\n\n'
+        content = f'# 每日精选汇总（{yesterday}）\n\n'
         for feed, articles in picker.items():
             content += f'- {feed}\n'
             for title, link, issue_url in articles:
                 content += f'  - [{title}]({link}) - [discussion]({issue_url})\n'
+
         f1.write(content)
         f2.write(content)
 
-    for bot in bots:
-        bot.send(bot.parse_pick(picker))
+        for bot in bots:
+            bot.send_raw(f"[{yesterday} 精选汇总]", content)
 
 
 def update_issue(issue_number):
     issue = json.loads(popen(f"gh issue view {issue_number} --json title,url,author"))
-    issue_title = issue["title"]
+    issue_title = issue["title"].lstrip(f"[{today}]").strip()
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
     if data_path.exists():
         with open(data_path, 'r', encoding="utf-8") as f1:
@@ -121,10 +122,11 @@ def update_issue(issue_number):
             for title, link in articles.items():
                 if title == issue_title:
                     success = True
-                    body = feed + f": [{title}]({link}) + "
+                    body = feed + f": [{title}]({link})"
                     print(body)
                     popen(f"gh issue edit {issue_number} --body \"{body}\"")
-                    body = issue["author"]["login"] + " 挑选了精选文章\n" + body
+                    body = issue["author"]["login"] + " 挑选了精选文章:\n\n" + body
+                    body += f"\n\n可以在[discussion]({issue['url']})讨论"
                     for bot in bots:
                         bot.send_raw(title, body)
                     break
@@ -132,6 +134,10 @@ def update_issue(issue_number):
                 break
         if not success:
             Color.print_failed(f"{issue_title} not found title in {today}.json")
+
+
+def update_comment(issue_number):
+    pass
 
 
 def parseThread(url: str, proxy_url=''):
