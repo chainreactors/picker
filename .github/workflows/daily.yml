@@ -1,6 +1,6 @@
 # https://docs.github.com/cn/actions/automating-builds-and-tests/building-and-testing-python
 
-name: Update dailynews
+name: Daily Push
 
 # 国际标准时间2点（北京时间10点）
 on:
@@ -40,7 +40,7 @@ jobs:
           git commit -m "每日安全资讯（`date +'%Y-%m-%d'`）"
 
       - name: Issue
-        run: gh issue create --title "`date +'%Y-%m-%d'`" -F today.md --add-label "daily"
+        run: gh issue create --title "`date +'%Y-%m-%d'`" -F today.md --label "daily"
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
