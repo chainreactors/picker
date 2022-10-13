@@ -16,7 +16,7 @@ jobs:
           python-version: '3.x'
       - name: Install dependencies
         run: ./install.sh
-      - name: Update Body
+      - name: Push Comment
         run: python3 yarb.py --push-comment ${{ github.event.issue.number }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
