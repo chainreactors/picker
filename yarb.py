@@ -133,7 +133,7 @@ def push_issue(issue_number):
                 break
         if not success:
             Color.print_focus(f"{issue_title} not found title in {today}.json")
-            body = issue["author"]["login"] + " 新增了精选文章:\n\n" + issue_title + "-" + issue["body"] + f"\n\n可以在[discussion]({issue['url']})讨论"
+            body = issue["author"]["login"] + " 新增了精选文章:\n\n" + issue_title + " - " + issue["body"] + f"\n\n可以在 [discussion]({issue['url']}) 讨论"
             for bot in picker_bots:
                 bot.send_raw(issue_title, body)
 
