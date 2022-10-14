@@ -19,7 +19,7 @@ jobs:
             {
               "msgtype": "markdown",
               "markdown": {
-                  "text": " ${{ github.event.issue.user.login }} 评论了 [${{ github.event.issue.title }}](${{ github.event.comment.html_url }}): \n\n${{ github.event.comment.body }}"
+                  "text": " ${{ github.event.issue.user.login }} 评论了 [${{ github.event.issue.title }}](${{ github.event.comment.html_url }}): \n\n${{ github.event.comment.body }}",
                   "title": "${{ github.event.issue.title }} 新增评论"
               }
             }
