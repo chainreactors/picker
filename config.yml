@@ -7,7 +7,7 @@ rss:
     enabled: true
     filename: CustomRSS.opml
   CyberSecurityRSS:
-    enabled: false
+    enabled: true
     url: >-
       https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/CyberSecurityRSS.opml
     filename: CyberSecurityRSS.opml
@@ -16,17 +16,17 @@ rss:
     url: 'https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/tiny.opml'
     filename: CyberSecurityRSS-tiny.opml
   Chinese-Security-RSS:
-    enabled: false
+    enabled: true
     url: >-
       https://raw.githubusercontent.com/zhengjim/Chinese-Security-RSS/master/Chinese-Security-RSS.opml
     filename: Chinese-Security-RSS.opml
   awesome-security-feed:
-    enabled: false
+    enabled: true
     url: >-
       https://raw.githubusercontent.com/mrtouch93/awesome-security-feed/main/security_feeds.opml
     filename: awesome-security-feed.opml
   SecurityRSS:
-    enabled: false
+    enabled: true
     url: 'https://github.com/Han0nly/SecurityRSS/blob/master/SecureRss.opml'
     filename: SecureRss.opml
   wechatRSS:
@@ -34,7 +34,7 @@ rss:
     url: 'https://wechat2rss.xlab.app/opml/sec.opml'
     filename: wechatRSS.opml
   chinese-independent-blogs:
-    enabled: false
+    enabled: true
     url: >-
       https://raw.githubusercontent.com/timqian/chinese-independent-blogs/master/feed.opml
     filename: chinese-independent-blogs.opml
