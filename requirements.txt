@@ -2,6 +2,5 @@ requests
 feedparser
 colorama
 pyyaml
-python-telegram-bot
 pyrate-limiter
-git+https://github.com/kurtmckee/listparser
+listparser
