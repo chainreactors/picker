@@ -13,7 +13,7 @@ jobs:
       - name: set body
         id: title
         run: |
-          title=`echo ${{ toJson(github.event.comment.body) }} | sed "s/\"/\'/g"`
+          title=`echo ${{ toJson(github.event.comment.body) }} | sed "s/\"/\\\'/g"`
           echo "::set-output name=title::$title"\
       - name: test
         run: echo '${{ steps.title.outputs.title }}'
