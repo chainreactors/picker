@@ -6,7 +6,7 @@ rss:
   CustomRSS:
     enabled: true
     filename: CustomRSS.opml
-  CustomRSS:
+  Subscriptions-OnMyMac:
     enabled: true
     filename: Subscriptions-OnMyMac.opml
   CyberSecurityRSS:
