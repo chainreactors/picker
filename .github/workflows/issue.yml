@@ -37,4 +37,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           DINGTALK_KEY: ${{ secrets.DINGTALK_KEY }}
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+          PICKER_DINGTALK_KEY: ${{ secrets.PICKER_DINGTALK_KEY }}
+          PICKER_DINGTALK_SECRET: ${{ secrets.PICKER_DINGTALK_SECRET }}
 
