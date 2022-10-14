@@ -57,4 +57,3 @@ def getenv(key_name, pick=False):
         return os.getenv("PICKER_"+key_name)
     else:
         return os.getenv(key_name)
-
