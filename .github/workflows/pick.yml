@@ -38,8 +38,8 @@ jobs:
       - name: Commit
         run: |
           git diff
-          git config --global user.email m09ic@rssbot.com
-          git config --global user.name m09ic
+          git config --global user.email chainreactorbot@rssbot.com
+          git config --global user.name chainreactorbot
           git add archive today_pick.md
           git commit -m "每日精选汇总（`date +'%Y-%m-%d'`）"
 
