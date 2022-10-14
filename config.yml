@@ -34,7 +34,7 @@ rss:
     url: 'https://wechat2rss.xlab.app/opml/sec.opml'
     filename: wechatRSS.opml
   chinese-independent-blogs:
-    enabled: true
+    enabled: false
     url: >-
       https://raw.githubusercontent.com/timqian/chinese-independent-blogs/master/feed.opml
     filename: chinese-independent-blogs.opml
