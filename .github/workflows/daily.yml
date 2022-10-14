@@ -32,6 +32,11 @@ jobs:
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
         run: python3 yarb.py
 
+      - name: Issue
+        run: gh issue create --title "[每日信息流] `date +'%Y-%m-%d'`" -F today.md --label "daily"
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
       - name: Commit
         run: |
           git diff
@@ -39,11 +44,6 @@ jobs:
           git config --global user.name chainreactorbot
           git add archive today.md
           git commit -m "每日安全资讯（`date +'%Y-%m-%d'`）"
-
-      - name: Issue
-        run: gh issue create --title "[每日信息流] `date +'%Y-%m-%d'`" -F today.md --label "daily"
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
       - name: Push changes
         uses: ad-m/github-push-action@master

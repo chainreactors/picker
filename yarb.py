@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 
-import os
 import json
 import argparse
 import datetime
@@ -144,7 +143,7 @@ def push_comment(issue_number):
         bot.send_raw(f"{comment['author']['login']} 评论了 {issue_title}", text)
 
 
-def parseThread(url: str, proxy_url=''):
+def parse_rss(url: str, proxy_url=''):
     """获取文章线程"""
     proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
     headers = {
@@ -251,7 +250,7 @@ def job(args, conf):
         numb = 0
         tasks = []
         with ThreadPoolExecutor(100) as executor:
-            tasks.extend(executor.submit(parseThread, url, proxy_rss) for url in feeds)
+            tasks.extend(executor.submit(parse_rss, url, proxy_rss) for url in feeds)
             for task in as_completed(tasks):
                 feed, result = task.result()
                 if result:
