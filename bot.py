@@ -109,10 +109,10 @@ class dingtalkBot:
         self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
 
     @staticmethod
-    def parse_results(results: list):
+    def parse_results(results: dict):
         text_list = []
-        for result in results:
-            (feed, value), = result.items()
+        for result in results.items():
+            feed, value = result
             text = feed + ":\n" + ''.join(f'- [{title}]({link})\n' for title, link in value.items())
             text_list.append([feed, text.strip()])
         return text_list
