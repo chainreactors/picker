@@ -72,6 +72,7 @@ def update_rss(rss: dict, proxy_url=''):
 def update_pick():
     yesterday_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url"))
     if not yesterday_issues:
+        Color.print_failed("not found any picker articles")
         return
 
     yesterday_path = root_path.joinpath('yesterday_pick.md')
@@ -108,7 +109,7 @@ def update_pick():
 
 
 def push_issue(issue_number):
-    issue = json.loads(popen(f"gh issue view {issue_number} --json title,url,author"))
+    issue = json.loads(popen(f"gh issue view {issue_number} --json title,url,author,body"))
     issue_title = issue["title"].lstrip(f"[{today}]").strip()
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
     if data_path.exists():
@@ -120,18 +121,21 @@ def push_issue(issue_number):
             for title, link in articles.items():
                 if title == issue_title:
                     success = True
-                    body = feed + f": [{title}]({link})"
+                    body = feed + f": [{issue_title}]({link})"
                     print(body)
                     popen(f"gh issue edit {issue_number} --body \"{body}\"")
                     body = issue["author"]["login"] + " 挑选了精选文章:\n\n" + body
                     body += f"\n\n可以在[discussion]({issue['url']})讨论"
                     for bot in picker_bots:
-                        bot.send_raw(title, body)
+                        bot.send_raw(issue_title, body)
                     break
             if success:
                 break
         if not success:
-            Color.print_failed(f"{issue_title} not found title in {today}.json")
+            Color.print_focus(f"{issue_title} not found title in {today}.json")
+            body = issue["author"]["login"] + " 新增了精选文章:\n\n" + issue_title + "-" + issue["body"] + f"\n\n可以在[discussion]({issue['url']})讨论"
+            for bot in picker_bots:
+                bot.send_raw(issue_title, body)
 
 
 def push_comment(issue_number):
