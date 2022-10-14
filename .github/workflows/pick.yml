@@ -2,7 +2,7 @@ name: Pick Push
 
 on:
   schedule:
-    - cron: '30 6 * * *'
+    - cron: '30 5 * * *'
   workflow_dispatch:
 
 jobs:
