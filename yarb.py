@@ -9,9 +9,10 @@ import listparser
 import feedparser
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import yaml
 
 from bot import *
-from utils import Color, Pattern, popen
+from utils import *
 
 import requests
 requests.packages.urllib3.disable_warnings()
@@ -102,7 +103,7 @@ def update_pick():
         f1.write(content)
         f2.write(content)
 
-        for bot in bots:
+        for bot in picker_bots:
             bot.send_raw(f"[{yesterday} 精选汇总]", content)
 
 
@@ -124,7 +125,7 @@ def push_issue(issue_number):
                     popen(f"gh issue edit {issue_number} --body \"{body}\"")
                     body = issue["author"]["login"] + " 挑选了精选文章:\n\n" + body
                     body += f"\n\n可以在[discussion]({issue['url']})讨论"
-                    for bot in bots:
+                    for bot in picker_bots:
                         bot.send_raw(title, body)
                     break
             if success:
@@ -139,7 +140,7 @@ def push_comment(issue_number):
 
     comment = issue["comments"][-1]
     text = f"{comment['author']['login']} 评论了 [{issue_title}]({issue['url']}): \n\n" + comment["body"]
-    for bot in bots:
+    for bot in picker_bots:
         bot.send_raw(f"{comment['author']['login']} 评论了 {issue_title}", text)
 
 
@@ -175,15 +176,15 @@ def parseThread(url: str, proxy_url=''):
     return title, result
 
 
-def init_bot(bot_conf: dict, proxy_url=''):
+def init_bot(bot_conf: dict, proxy_url='', pick=False):
     """初始化机器人"""
     bots = []
     for name, v in bot_conf.items():
         if v['enabled']:
-            key = os.getenv(v['secrets']) or v['key']
+            key = getenv(v['secrets'], pick) or v['key']
             bot_name = globals()[f'{name}Bot']
             if name == 'mail':
-                receiver = os.getenv(v['secrets_receiver']) or v['receiver']
+                receiver = getenv(v['secrets_receiver']) or v['receiver']
                 bot = bot_name(v['address'], key, receiver, v['from'], v['server'])
                 bots.append(bot)
             elif name == 'qq':
@@ -195,7 +196,7 @@ def init_bot(bot_conf: dict, proxy_url=''):
                 if bot.test_connect():
                     bots.append(bot)
             elif name == 'dingtalk':
-                bot = bot_name(key, os.getenv("DINGTALK_SECRET", "") or v['secret'], proxy_url)
+                bot = bot_name(key, getenv("DINGTALK_SECRET", pick) or v['secret'], proxy_url)
                 bots.append(bot)
             else:
                 bot = bot_name(key, proxy_url)
@@ -283,17 +284,18 @@ def argument():
 
 if __name__ == '__main__':
     args = argument()
-    global bots
+    global bots, picker_bots
     conf = {}
     if args.config:
         config_path = Path(args.config).expanduser().absolute()
     else:
-        config_path = root_path.joinpath('config.json')
+        config_path = root_path.joinpath('config.yml')
     with open(config_path, encoding="utf-8") as f:
-        conf = json.load(f)
+        conf = yaml.safe_load(f)
 
     proxy_bot = conf['proxy']['url'] if conf['proxy']['bot'] else ''
     bots = init_bot(conf['bot'], proxy_bot)
+    picker_bots = init_bot(conf["pick_bot"], proxy_bot, True)
 
     if args.push_issue:
         push_issue(args.update_issue)

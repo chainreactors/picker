@@ -1,3 +1,4 @@
+import os
 import pprint
 import subprocess
 
@@ -49,3 +50,11 @@ class Pattern:
 def popen(cmd:str) -> str:
     with subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True).stdout as source:
         return source.read().decode(encoding="utf-8")
+
+
+def getenv(key_name, pick=False):
+    if pick:
+        return os.getenv("PICKER_"+key_name)
+    else:
+        return os.getenv(key_name)
+
