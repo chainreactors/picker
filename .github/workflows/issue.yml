@@ -20,7 +20,8 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           labels: pick
           title: "[${{ steps.date.outputs.date }}] ${{ github.event.issue.title }}"
- push-issue:
+
+  push-issue:
     runs-on: ubuntu-latest
     if: join(github.event.issue.labels) == ''
     steps:
