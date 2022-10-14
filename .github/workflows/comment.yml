@@ -16,7 +16,7 @@ jobs:
           title=`echo ${{ toJson(github.event.comment.body) }} | sed "s/\"/\'/g"`
           echo "::set-output name=title::$title"\
       - name: test
-        run: echo '{{ steps.title.outputs.title }}'
+        run: echo '${{ steps.title.outputs.title }}'
 #      - name: Send dingding notify
 #        uses: zcong1993/actions-ding@master
 #        with:
