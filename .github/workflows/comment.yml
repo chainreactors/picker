@@ -10,23 +10,24 @@ jobs:
     if: contains(github.event.issue.labels.*.name, 'pick')
     steps:
       - uses: actions/checkout@v3
-      - name: set body
-        id: title
+      - id: title
         run: |
-          title=`echo ${{ toJson(github.event.comment.body) }} | sed "s/\"/\\\'/g"`
+          title=`echo ${{ toJson(github.event.issue.title) }} | sed "s/\"/\\\'/g"`
           echo "::set-output name=title::$title"
-      - name: test
-        run: echo '${{ steps.title.outputs.title }}'
-#      - name: Send dingding notify
-#        uses: zcong1993/actions-ding@master
-#        with:
-#          dingToken: ${{ secrets.PICKER_DINGTALK_KEY }}
-#          secret: ${{ secrets.PICKER_DINGTALK_SECRET }}
-#          body: |
-#            {
-#              "msgtype": "markdown",
-#              "markdown": {
-#                  "text": " ${{ github.event.issue.user.login }} 评论了 [${{ toJson(github.event.issue.title) }}](${{ github.event.comment.html_url }}): \n\n${{ toJson(github.event.comment.body) }}",
-#                  "title": "${{ toJson(github.event.issue.title) }} 新增评论"
-#              }
-#            }
+      - id: body
+        run: |
+          body=`echo ${{ toJson(github.event.comment.body) }} | sed "s/\"/\\\'/g"`
+          echo "::set-output name=body::$body"
+      - name: Send dingding notify
+        uses: zcong1993/actions-ding@master
+        with:
+          dingToken: ${{ secrets.PICKER_DINGTALK_KEY }}
+          secret: ${{ secrets.PICKER_DINGTALK_SECRET }}
+          body: |
+            {
+              "msgtype": "markdown",
+              "markdown": {
+                  "text": " ${{ github.event.issue.user.login }} 评论了 [${{ steps.title.outputs.title }}](${{ github.event.comment.html_url }}): \n\n${{ steps.body.outputs.body }}",
+                  "title": "${{ steps.title.outputs.title }} 新增评论"
+              }
+            }
