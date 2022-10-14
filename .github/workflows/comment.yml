@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: test
-        run: echo '${{ toJson(github.event.comment.body) }}'
+        run: echo "${{ toJson(github.event.comment.body) }}"
 #      - name: Send dingding notify
 #        uses: zcong1993/actions-ding@master
 #        with:
