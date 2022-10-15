@@ -6,7 +6,6 @@ import json
 from urllib import parse
 
 import yaml
-import telegram
 import requests
 import smtplib
 import subprocess
@@ -285,44 +284,44 @@ class mailBot:
             print(e)
 
 
-class telegramBot:
-    """Telegram机器人
-    https://core.telegram.org/bots/api
-    """
-    def __init__(self, key, chat_id: list, proxy_url='') -> None:
-        proxy = telegram.utils.request.Request(proxy_url=proxy_url)
-        self.chat_id = chat_id
-        self.bot = telegram.Bot(token=key, request=proxy)
+# class telegramBot:
+#     """Telegram机器人
+#     https://core.telegram.org/bots/api
+#     """
+#     def __init__(self, key, chat_id: list, proxy_url='') -> None:
+#         proxy = telegram.utils.request.Request(proxy_url=proxy_url)
+#         self.chat_id = chat_id
+#         self.bot = telegram.Bot(token=key, request=proxy)
 
-    def test_connect(self):
-        try:
-            self.bot.get_me()
-            return True
-        except Exception as e:
-            Color.print_failed('[-] telegramBot 连接失败')
-            return False
+#     def test_connect(self):
+#         try:
+#             self.bot.get_me()
+#             return True
+#         except Exception as e:
+#             Color.print_failed('[-] telegramBot 连接失败')
+#             return False
 
-    @staticmethod
-    def parse_results(results: list):
-        text_list = []
-        for result in results:
-            (feed, value), = result.items()
-            text = f'<b>{feed}</b>\n'
-            for idx, (title, link) in enumerate(value.items()):
-                text += f'{idx+1}. <a href="{link}">{title}</a>\n'
-            text_list.append(text.strip())
-        return text_list
+#     @staticmethod
+#     def parse_results(results: list):
+#         text_list = []
+#         for result in results:
+#             (feed, value), = result.items()
+#             text = f'<b>{feed}</b>\n'
+#             for idx, (title, link) in enumerate(value.items()):
+#                 text += f'{idx+1}. <a href="{link}">{title}</a>\n'
+#             text_list.append(text.strip())
+#         return text_list
 
-    def send(self, text_list: list):
-        limiter = Limiter(RequestRate(20, Duration.MINUTE))     # 频率限制，20条/分钟
-        for text in text_list:
-            with limiter.ratelimit('identity', delay=True):
-                print(f'{len(text)} {text[:50]}...{text[-50:]}')
+#     def send(self, text_list: list):
+#         limiter = Limiter(RequestRate(20, Duration.MINUTE))     # 频率限制，20条/分钟
+#         for text in text_list:
+#             with limiter.ratelimit('identity', delay=True):
+#                 print(f'{len(text)} {text[:50]}...{text[-50:]}')
 
-                for id in self.chat_id:
-                    try:
-                        self.bot.send_message(chat_id=id, text=text, parse_mode='HTML')
-                        Color.print_success(f'[+] telegramBot 发送成功 {id}')
-                    except Exception as e:
-                        Color.print_failed(f'[-] telegramBot 发送失败 {id}')
-                        print(e)
+#                 for id in self.chat_id:
+#                     try:
+#                         self.bot.send_message(chat_id=id, text=text, parse_mode='HTML')
+#                         Color.print_success(f'[+] telegramBot 发送成功 {id}')
+#                     except Exception as e:
+#                         Color.print_failed(f'[-] telegramBot 发送失败 {id}')
+#                         print(e)
