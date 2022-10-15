@@ -17,7 +17,7 @@ from pyrate_limiter import Duration, Limiter, RequestRate
 
 from utils import Color
 
-__all__ = ["feishuBot", "wecomBot", "dingtalkBot", "qqBot", "telegramBot", "mailBot"]
+__all__ = ["feishuBot", "wecomBot", "dingtalkBot", "qqBot", "mailBot"]
 today = datetime.now().strftime("%Y-%m-%d")
 
 
