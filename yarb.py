@@ -70,12 +70,12 @@ def update_rss(rss: dict, proxy_url=''):
 
 
 def update_pick():
-    yesterday_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url"))
+    yesterday_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url,author,body"))
     if not yesterday_issues:
         Color.print_failed("not found any picker articles")
         return
 
-    yesterday_path = root_path.joinpath('yesterday_pick.md')
+    today_path = root_path.joinpath('today_pick.md')
     archive_path = root_path.joinpath(f'archive/daily_pick/{yesterday.split("-")[0]}/{yesterday}.md')
     data_path = root_path.joinpath(f'archive/tmp/{yesterday}.json')
     data = {}
@@ -85,21 +85,29 @@ def update_pick():
 
     picker = {}
     for issue in yesterday_issues:
+        found = False
         issue_title = issue["title"].lstrip(f"[{yesterday}] ").strip()
         for feed, articles in data.items():
             for title, link in articles.items():
                 if issue_title == title:
+                    found = True
                     if not picker.get(feed, ""):
                         picker[feed] = []
-                    picker[feed].append((title, link, issue["url"]))
+                    picker[feed].append((f"[{title}]({link})", issue["url"]))
+        if not found:
+            custom_feed = f"{issue['author']['login']} 手动精选"
+            if not picker.get(custom_feed, ""):
+                picker[custom_feed] = []
+            title = issue["title"].lstrip(f"[{yesterday}]").strip()
+            picker[custom_feed].append((f'[{title}]({issue["body"]})', issue["url"]))
 
     archive_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(yesterday_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
-        content = f'# 每日精选汇总（{yesterday}）\n\n'
+    with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
+        content = f'# 昨日精选汇总（{yesterday}）\n\n'
         for feed, articles in picker.items():
             content += f'- {feed}\n'
-            for title, link, issue_url in articles:
-                content += f'  - [{title}]({link}) - [discussion]({issue_url})\n'
+            for link, issue_url in articles:
+                content += f'  - {link} - [discussion]({issue_url})\n'
 
         f1.write(content)
         f2.write(content)
@@ -245,23 +253,22 @@ def job(args, conf):
 
     proxy_rss = conf['proxy']['url'] if conf['proxy']['rss'] else ''
     feeds = init_rss(conf['rss'], args.update, proxy_rss)
-
+    count = 0
     results = {}
     if args.test:
         # 测试数据
         results = {"a":"i+1" for i in range(100)}
     else:
         # 获取文章
-        numb = 0
         tasks = []
         with ThreadPoolExecutor(100) as executor:
             tasks.extend(executor.submit(parse_rss, url, proxy_rss) for url in feeds)
             for task in as_completed(tasks):
                 feed, result = task.result()
                 if result:
-                    numb += len(result.values())
+                    count += len(result.values())
                     results[feed] = result
-        Color.print_focus(f'[+] {len(results)} feeds, {numb} articles')
+        Color.print_focus(f'[+] {len(results)} feeds, {count} articles')
 
         temp_path = root_path.joinpath(f'archive//tmp//{today}.json')
         with open(temp_path, 'w+', encoding="utf-8") as f:
@@ -273,6 +280,7 @@ def job(args, conf):
 
     for bot in bots:
         bot.send(bot.parse_results(results))
+        print(f"{today} 信息流摘要", f"今日({today})信息流推送完毕, 从{len(results)}feeds找到{yesterday}日共新增了{count}文章, 可在[issues]({conf['repo']}/issues)中查看")
 
 
 def argument():
