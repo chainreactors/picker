@@ -227,7 +227,6 @@ def init_rss(conf: dict, update: bool=False, proxy_url=''):
         try:
             rss = listparser.parse(open(value,encoding="utf-8").read())
             for feed in rss.feeds:
-                url = parse(feed)
                 url = feed.url.strip().rstrip('/')
                 short_url = url.split('://')[-1].split('www.')[-1]
                 check = [feed for feed in feeds if short_url in feed]
