@@ -280,7 +280,7 @@ def job(args, conf):
 
     for bot in bots:
         bot.send(bot.parse_results(results))
-        print(f"{today} 信息流摘要", f"今日({today})信息流推送完毕, 从{len(results)}feeds找到{yesterday}日共新增了{count}文章, 可在[issues]({conf['repo']}/issues)中查看")
+        print(f"{today} 信息流摘要", f"今日({today})信息流推送完毕, 从{len(feeds)}feeds抓取到{yesterday}日共新增了{count}文章, 可在[issues]({conf['repo']}/issues)中查看")
 
 
 def argument():
