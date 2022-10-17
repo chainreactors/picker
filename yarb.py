@@ -71,13 +71,16 @@ def update_rss(rss: dict, proxy_url=''):
 
 def update_pick():
     yesterday_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url,author,body"))
+    today_path = root_path.joinpath('today_pick.md')
     if not yesterday_issues:
         Color.print_failed("not found any picker articles")
         for bot in picker_bots:
             bot.send_raw(f"[{yesterday} 精选汇总]", f"昨日({yesterday})没有精选文章, 别忘了阅读[每日信息流]({conf['repo']}/issues), 并点击`convert to issue` 挑选优质文章^v^")
+        with open(today_path, "w+", encoding="utf-8") as f:
+            f.write(f"昨日({yesterday})没有精选文章")
         return
 
-    today_path = root_path.joinpath('today_pick.md')
+
     archive_path = root_path.joinpath(f'archive/daily_pick/{yesterday.split("-")[0]}/{yesterday}.md')
     data_path = root_path.joinpath(f'archive/tmp/{yesterday}.json')
     data = {}
