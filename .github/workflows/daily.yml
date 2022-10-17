@@ -5,7 +5,7 @@ name: Daily Push
 # 国际标准时间2点（北京时间10点）
 on:
   schedule:
-    - cron: '30 1 * * *'
+    - cron: '21 1 * * *'
   workflow_dispatch:
 
 jobs:
