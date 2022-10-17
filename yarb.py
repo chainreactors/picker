@@ -73,6 +73,8 @@ def update_pick():
     yesterday_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url,author,body"))
     if not yesterday_issues:
         Color.print_failed("not found any picker articles")
+        for bot in picker_bots:
+            bot.send_raw(f"[{yesterday} 精选汇总]", f"昨日没有精选文章, 别忘了阅读[每日信息流]({conf['repo']}/issues), 并点击`convert to issue`挑选优质文章^v^")
         return
 
     today_path = root_path.joinpath('today_pick.md')
