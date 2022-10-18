@@ -123,11 +123,12 @@ def update_pick():
 def push_issue(issue_number):
     issue = json.loads(popen(f"gh issue view {issue_number} --json title,url,author,body"))
     issue_title = issue["title"].lstrip(f"[{today}]").strip()
+    success = False
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
     if data_path.exists():
         with open(data_path, 'r', encoding="utf-8") as f1:
             data = json.load(f1)
-        success = False
+
         text = ""
         for feed, articles in data.items():
             for title, link in articles.items():
@@ -143,11 +144,11 @@ def push_issue(issue_number):
                     break
             if success:
                 break
-        if not success:
-            Color.print_focus(f"{issue_title} not found title in {today}.json")
-            body = issue["author"]["login"] + " 新增了精选文章:\n\n" + issue_title + " - " + issue["body"] + f"\n\n可以在 [discussion]({issue['url']}) 讨论"
-            for bot in picker_bots:
-                bot.send_raw(issue_title, body)
+    if not success:
+        Color.print_focus(f"{issue_title} not found title in {today}.json")
+        body = issue["author"]["login"] + " 新增了精选文章:\n\n" + issue_title + " - " + issue["body"] + f"\n\n可以在 [discussion]({issue['url']}) 讨论"
+        for bot in picker_bots:
+            bot.send_raw(issue_title, body)
 
 
 def push_comment(issue_number):
