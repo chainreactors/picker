@@ -109,7 +109,7 @@ def update_pick():
     with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
         content = f'# 昨日精选汇总（{yesterday}）\n\n'
         for feed, articles in picker.items():
-            content += f'- {feed}\n'
+            content += f'- {feed}\n\n'
             for link, issue_url in articles:
                 content += f'  - {link} - [discussion]({issue_url})\n'
 
