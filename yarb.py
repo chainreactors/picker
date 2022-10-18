@@ -80,7 +80,6 @@ def update_pick():
             f.write(f"昨日({yesterday})没有精选文章")
         return
 
-
     archive_path = root_path.joinpath(f'archive/daily_pick/{yesterday.split("-")[0]}/{yesterday}.md')
     data_path = root_path.joinpath(f'archive/tmp/{yesterday}.json')
     data = {}
