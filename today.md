@@ -1,116 +1,319 @@
-# 每日安全资讯（2022-11-14）
+# 每日安全资讯（2022-11-15）
 
-- 世事难料，保持低调
-  - [ ] [用C++元编程实现任意函数签名的回调](https://blog.csdn.net/ariesjzj/article/details/127816351)
-- unSafe.sh - 不安全
-  - [ ] [UPDF 编辑器 - 颜值党狂喜！全能免费 PDF 阅读器+编辑器软件 (手机电脑/批注/转换格式)](https://buaq.net/go-135451.html)
-  - [ ] [SCMKit - Source Code Management Attack Toolkit](https://buaq.net/go-135419.html)
-  - [ ] [SECCON CTF 2022作問感想：janken vs kurenaif](https://buaq.net/go-135418.html)
-  - [ ] [11月15日开赛｜看雪2022 KCTF 秋季赛攻击篇规则公布！](https://buaq.net/go-135436.html)
-  - [ ] [GDG Algiers CTF两道矩阵题wp](https://buaq.net/go-135435.html)
-  - [ ] [【资料】美国陆军职能概念-情报](https://buaq.net/go-135440.html)
-  - [ ] [【会议】第二届全国开源情报技术大会会议通知](https://buaq.net/go-135441.html)
-  - [ ] [求将照片转为「手绘头像」的应用](https://buaq.net/go-135405.html)
-  - [ ] [谁能凭空玩出一家游戏公司？｜开发者列传 02 · 田尻智（中）](https://buaq.net/go-135411.html)
-  - [ ] [60+ 款正版软件特价，倒计时 3 天](https://buaq.net/go-135399.html)
-  - [ ] [Send to Telegram for Google Chrome – 发送网页、图片、链接、文字到 tg 机器人](https://buaq.net/go-135406.html)
-  - [ ] [删除的文件果真消失了吗？](https://buaq.net/go-135387.html)
-  - [ ] [21世纪最严重的15起数据泄露事件](https://buaq.net/go-135386.html)
-  - [ ] [任意键｜《战神 诸神黄昏》，虎父无犬子](https://buaq.net/go-135384.html)
-  - [ ] [Macbook Air M2版使用感受](https://buaq.net/go-135377.html)
-  - [ ] [渗透测试之地基钓鱼篇：Excel宏和CHM电子书免杀钓鱼](https://buaq.net/go-135393.html)
-- SecWiki News
-  - [ ] [SecWiki News 2022-11-13 Review](http://www.sec-wiki.com/?2022-11-13)
-- 先知安全技术社区
-  - [ ] [Common-Collections1 分析](https://xz.aliyun.com/t/11835)
-- CXSECURITY Database RSS Feed - CXSecurity.com
-  - [ ] [Open Web Analytics 1.7.3 Remote Code Execution](https://cxsecurity.com/issue/WLB-2022110017)
-  - [ ] [Remote Code Execution in Abantecart-1.3.2](https://cxsecurity.com/issue/WLB-2022110016)
-- obaby@mars
-  - [ ] [又被偷了](https://h4ck.org.cn/2022/11/%e5%8f%88%e8%a2%ab%e5%81%b7%e4%ba%86/)
-- Twitter @Nicolas Krassas
-  - [ ] [The unusual bootstrap drivers inside the 8086 microprocessor chip](https://twitter.com/Dinosn/status/1591901533553455106)
-  - [ ] [Phishing with Google Calendar and Evilginx2 to Deliver a Malicious Zoom Link](https://twitter.com/Dinosn/status/1591842383494512641)
-  - [ ] [Tunneling Internet through WhatsApp to avoid network restrictions](https://twitter.com/Dinosn/status/1591789553500790787)
-  - [ ] [Lockbit gang leaked data stolen from global high-tech giant Thales](https://twitter.com/Dinosn/status/1591788882148093955)
-  - [ ] [SCMKit - Source Code Management Attack Toolkit](https://twitter.com/Dinosn/status/1591788830876921856)
-  - [ ] [Our Friendly Gmail will act as Server and implant will exfiltrate data via smtp and will read commands from C2 (Gmail) via imap protocol](https://twitter.com/Dinosn/status/1591756463609118720)
-  - [ ] [Nmap scripts to detect exchange 0-day (CVE-2022-41082) vulnerability](https://twitter.com/Dinosn/status/1591753432935071744)
-  - [ ] [[OSINT] Exploitation of potential traces from the GaiaID/Google ID](https://twitter.com/Dinosn/status/1591753091870760967)
-  - [ ] [HTB: Shared](https://twitter.com/Dinosn/status/1591693414357245952)
-  - [ ] [From Shodan Dork to Grafana Local File Inclusion](https://twitter.com/Dinosn/status/1591693384003223553)
-  - [ ] [Reverse engineering an EV charger](https://twitter.com/Dinosn/status/1591693274989101059)
-  - [ ] [Introducing Shufflecake: plausible deniability for multiple hidden filesystems on Linux](https://twitter.com/Dinosn/status/1591693197738131458)
-  - [ ] [$1 billion of FTX customer funds have vanished, Reuters reported](https://twitter.com/Dinosn/status/1591693167019331584)
-  - [ ] [Triton is a dynamic binary analysis library. Build your own program analysis tools, automate your reverse engineering, perform software verification o...](https://twitter.com/Dinosn/status/1591690675925708800)
-  - [ ] [Zimbra <9.0.0.p27 RCE](https://twitter.com/Dinosn/status/1591690584615706625)
-  - [ ] [TTexplore is a library that performs path exploration on binary code using symbolic execution](https://twitter.com/Dinosn/status/1591690430327963648)
-  - [ ] [Exploit POC code for CVE-2022-31898, a command injection for GL-iNet routers with firmware below 3.215](https://twitter.com/Dinosn/status/1591690281904398338)
-- gynvael.coldwind//vx.log (en)
-  - [ ] [A clever Python challenge – find flag](https://gynvael.coldwind.pl/?id=758)
-- 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
-  - [ ] [21世纪最严重的15起数据泄露事件](https://www.4hou.com/posts/6Vlz)
-  - [ ] [删除的文件果真消失了吗？](https://www.4hou.com/posts/8YYm)
-- cloud world
-  - [ ] [2022 47 Open source weekly report](https://cloudsjhan.github.io/2022/11/13/2022-47-Open-source-weekly-report/)
+- paper - Last paper
+  - [ ] [IceXLoader 恶意软件破坏了全球数千名受害者的计算机](https://paper.seebug.org/2014/)
+  - [ ] [Learn how to attack SAML 2.0 Security](https://paper.seebug.org/2013/)
+- 跳跳糖 - 安全与分享社区
+  - [ ] [XML外部实体注入（XXE）攻击方式汇总](https://tttang.com/archive/1813/)
+- 醉卧烟雨's Blog
+  - [ ] [kangle CDN程序缓存设置推荐规则【值】](https://blog.cctv.com.im/4212)
+- Recent Commits to cve:main
+  - [ ] [Update Mon Nov 14 18:35:31 UTC 2022](https://github.com/trickest/cve/commit/3b6f3bd4b055de403cc06bb50d7f1241e896ad69)
 - Security Boulevard
-  - [ ] [BSidesKC 2022 – Megan Roddie’s ‘Mental Health Matters – You Are Not Alone’](https://securityboulevard.com/2022/11/bsideskc-2022-megan-roddies-mental-health-matters-you-are-not-alone/)
-  - [ ] [Where Next for Blockchain Technology After FTX Collapse?](https://securityboulevard.com/2022/11/where-next-for-blockchain-technology-after-ftx-collapse/)
-  - [ ] [Zero Trust, 100% Verify: Why Compliance Teams Should Use Data to Justify Decisions](https://securityboulevard.com/2022/11/zero-trust-100-verify-why-compliance-teams-should-use-data-to-justify-decisions/)
-- ふるつき
-  - [ ] [SECCON CTF 2022作問感想：janken vs kurenaif](https://furutsuki.hatenablog.com/entry/2022/11/13/202646)
+  - [ ] [Writing detailed YARA rules for malware detection](https://securityboulevard.com/2022/11/writing-detailed-yara-rules-for-malware-detection/)
+  - [ ] [BSidesKC 2022 – Beth Young’s ‘Moment, Need Chop! Inside An Employment Scam’](https://securityboulevard.com/2022/11/bsideskc-2022-beth-youngs-moment-need-chop-inside-an-employment-scam/)
+  - [ ] [No Code / Low Code for Social Engineering](https://securityboulevard.com/2022/11/no-code-low-code-for-social-engineering/)
+  - [ ] [Randall Munroe’s XKCD ‘Precision Vs. Accuracy’](https://securityboulevard.com/2022/11/randall-munroes-xkcd-precision-vs-accuracy/)
+  - [ ] [What Is Phishing?](https://securityboulevard.com/2022/11/what-is-phishing/)
+  - [ ] [Keyo Network improves security for people and businesses with palm scanning technology](https://securityboulevard.com/2022/11/keyo-network-improves-security-for-people-and-businesses-with-palm-scanning-technology/)
+  - [ ] [Clumio’s new data protection and recovery capabilities protect sensitive information on AWS](https://securityboulevard.com/2022/11/clumios-new-data-protection-and-recovery-capabilities-protect-sensitive-information-on-aws/)
+  - [ ] [RangeForce adds MITRE D3FEND and MITRE ATT&CK frameworks to its platform](https://securityboulevard.com/2022/11/rangeforce-adds-mitre-d3fend-and-mitre-attck-frameworks-to-its-platform/)
+- Armin Ronacher's Thoughts and Writings
+  - [ ] [Scaling Mastodon is Impossible](http://lucumr.pocoo.org/2022/11/14/scaling-mastodon)
+- unSafe.sh - 不安全
+  - [ ] [【技巧】OpenSea账号开源调查流程](https://buaq.net/go-135628.html)
+  - [ ] [Typhon Reborn With New Capabilities](https://buaq.net/go-135617.html)
+  - [ ] [We’re streamers now](https://buaq.net/go-135613.html)
+  - [ ] [Unblob - Extract Files From Any Kind Of Container Formats](https://buaq.net/go-135606.html)
+  - [ ] [2022 SDC 议题回顾 | Parallels Desktop虚拟机逃逸之旅](https://buaq.net/go-135579.html)
+  - [ ] [倒计时1天！看雪2022 KCTF 秋季赛邀您来战~](https://buaq.net/go-135578.html)
+  - [ ] [安全研究员无意间发现谷歌手机一个锁屏绕过漏洞，收获七万美元赏金](https://buaq.net/go-135577.html)
+  - [ ] [精品好课！《Windows内核漏洞分析与EXP编写技巧》](https://buaq.net/go-135576.html)
+  - [ ] [timwhitez starred SharpUserIP](https://buaq.net/go-135595.html)
+  - [ ] [SIEM的昨天、今天和明天](https://buaq.net/go-135598.html)
+  - [ ] [安全头条 | 国务院新闻办公室发布《携手构建网络空间命运共同体》白皮书；信安世纪：拟收购普世科技80%股权](https://buaq.net/go-135599.html)
+  - [ ] [直播预告 | 网安大讲堂（51期）：高级Web安全专家（OSWE）公开课（二）](https://buaq.net/go-135600.html)
+  - [ ] [派评 | 近期值得关注的 App](https://buaq.net/go-135597.html)
+  - [ ] [Pixel Watch 上手体验：三家混血、二流产物、一等颜值](https://buaq.net/go-135575.html)
+  - [ ] [timwhitez starred ADExplorerX](https://buaq.net/go-135563.html)
+- 先知安全技术社区
+  - [ ] [浅析PHP GC垃圾回收机制及常见利用方式](https://xz.aliyun.com/t/11843)
+  - [ ] [跨平台重构CobaltStrike的Beacon并使行为对主流杀软免杀](https://xz.aliyun.com/t/11839)
+  - [ ] [通过反序列化利用JDBC后门](https://xz.aliyun.com/t/11837)
+- Files ≈ Packet Storm
+  - [ ] [Red Hat Security Advisory 2022-7928-01](https://packetstormsecurity.com/files/169831/RHSA-2022-7928-01.txt)
+  - [ ] [Red Hat Security Advisory 2022-7927-01](https://packetstormsecurity.com/files/169830/RHSA-2022-7927-01.txt)
+  - [ ] [Debian Security Advisory 5278-1](https://packetstormsecurity.com/files/169829/dsa-5278-1.txt)
+  - [ ] [Debian Security Advisory 5277-1](https://packetstormsecurity.com/files/169828/dsa-5277-1.txt)
+  - [ ] [Debian Security Advisory 5276-1](https://packetstormsecurity.com/files/169827/dsa-5276-1.txt)
+  - [ ] [Node-saml Root Element Signature Bypass](https://packetstormsecurity.com/files/169826/GS20221114165410.tgz)
+  - [ ] [libxml2 xmlParseNameComplex Integer Overflow](https://packetstormsecurity.com/files/169825/GS20221114165129.txt)
+  - [ ] [libxml2 Attribute Parsing Double-Free](https://packetstormsecurity.com/files/169824/GS20221114164850.tgz)
+  - [ ] [Backdoor.Win32.RemServ.d MVID-2022-0655 Remote Command Execution](https://packetstormsecurity.com/files/169823/MVID-2022-0655.txt)
+- 喵喵喵喵
+  - [ ] [Forgot - HackTheBox](https://darkwing.moe/2022/11/14/Forgot-HackTheBox/)
+- 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
+  - [ ] [CodeQL的自动化代码审计之路（上篇）](https://www.4hou.com/posts/wgzz)
+  - [ ] [冰蝎演化史——以PHP马为例](https://www.4hou.com/posts/N1rN)
+  - [ ] [世界杯应用程序带来数据安全和隐私噩梦](https://www.4hou.com/posts/nJ0P)
+  - [ ] [价值7万美元的谷歌Pixel手机锁屏绕过漏洞](https://www.4hou.com/posts/jJjB)
+  - [ ] [IPv4 用完，如今花钱才能重新使用获取？](https://www.4hou.com/posts/q8qk)
+- Sploitus.com Exploits RSS Feed
+  - [ ] [libxml2 xmlParseNameComplex Integer Overflow exploit](https://sploitus.com/exploit?id=PACKETSTORM:169825&utm_source=rss&utm_medium=rss)
+  - [ ] [Backdoor.Win32.RemServ.d MVID-2022-0655 Remote Command Execution exploit](https://sploitus.com/exploit?id=PACKETSTORM:169823&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for Unrestricted Upload of File with Dangerous Type in Wso2 Identity Server Analytics exploit](https://sploitus.com/exploit?id=8B05331D-0032-53DB-82B1-6A714024CA87&utm_source=rss&utm_medium=rss)
+- The DFIR Report
+  - [ ] [BumbleBee Zeros in on Meterpreter](https://thedfirreport.com/2022/11/14/bumblebee-zeros-in-on-meterpreter/)
+- Verne in GitHub
+  - [ ] [Mastodon 站点管理：导入自定义表情包](https://einverne.github.io/post/2022/11/mastodon-custom-emoji.html)
+- 安全脉搏
+  - [ ] [推荐一款比Nmap扫描快好几倍的端口扫描工具 — TXPortMap](https://www.secpulse.com/archives/191004.html)
+  - [ ] [一次金融APP的解密历程](https://www.secpulse.com/archives/190977.html)
+  - [ ] [众至科技漏洞通告 | 微软11月发布多个安全漏洞](https://www.secpulse.com/archives/190971.html)
+- 安全客-有思想的安全新媒体
+  - [ ] [活动 |【1.5倍】金融壹帐通感恩节特别众测活动特别来袭！](https://www.anquanke.com/post/id/283227)
+  - [ ] [乌克兰曝俄背景黑客使用新型Somnia勒索软件](https://www.anquanke.com/post/id/283239)
+  - [ ] [身份安全风险分析](https://www.anquanke.com/post/id/283123)
+  - [ ] [OpenLiteSpeed Web服务器软件曝多个高危漏洞](https://www.anquanke.com/post/id/283235)
+  - [ ] [黑客称已入侵德意志银行并出售其访问权限](https://www.anquanke.com/post/id/283226)
+  - [ ] [乌克兰警方捣毁年入2亿欧元跨国诈骗集团](https://www.anquanke.com/post/id/283209)
+  - [ ] [数字安全观察每周简报【政策消息篇】 2022.10.26-2022.11.09](https://www.anquanke.com/post/id/283213)
+  - [ ] [Charles安装与功能介绍](https://www.anquanke.com/post/id/283124)
+  - [ ] [FBI查获18个用于招募金钱"骡子"的网站域名](https://www.anquanke.com/post/id/283201)
+  - [ ] [澳政府拟禁止被黑公司向黑客支付赎金](https://www.anquanke.com/post/id/283198)
+  - [ ] [网络钓鱼活动向数千设备投放IceXLoader恶意软件](https://www.anquanke.com/post/id/283171)
+  - [ ] [FTX声称遭黑客入侵，逾6亿美元资产流出](https://www.anquanke.com/post/id/283192)
+- Twitter @Nicolas Krassas
+  - [ ] [Whoosh confirms data breach after hackers sell 7.2M user records](https://twitter.com/Dinosn/status/1592235996388954113)
+  - [ ] [Uncovering Window Security Events](https://twitter.com/Dinosn/status/1592217724381536256)
+  - [ ] [Google To Pay $400 Million To Settle Location Tracking Lawsuit](https://twitter.com/Dinosn/status/1592217577606254593)
+  - [ ] [LockBit Ransomware Suspect Nabbed In Canada](https://twitter.com/Dinosn/status/1592217545842610177)
+  - [ ] [42,000 sites used to trap users in brand impersonation scheme](https://twitter.com/Dinosn/status/1592217392431927296)
+  - [ ] [The Fall Of The FTX King Of Crypto Sam Bankman-Fried](https://twitter.com/Dinosn/status/1592214803170611200)
+  - [ ] [RT Panagiotis Chartas: Thrilled to introduce 𝐕𝐢𝐥𝐥𝐚𝐢𝐧, a Windows & Linux backdoor generator and multi-session handler that allows ...](https://twitter.com/t3l3machus/status/1592196385730080768)
+  - [ ] [Unblob - Extract Files From Any Kind Of Container Formats](https://twitter.com/Dinosn/status/1592158409365020673)
+  - [ ] [Over 15,000 WordPress Sites Compromised in Malicious SEO Campaign](https://twitter.com/Dinosn/status/1592157632718340096)
+  - [ ] [Another crypto shocker: Major player actually corrects $400m mistake instead of cratering](https://twitter.com/Dinosn/status/1592157424429203456)
+  - [ ] [Windows Kerberos authentication breaks after November updates](https://twitter.com/Dinosn/status/1592157395085676544)
+  - [ ] [KmsdBot, a new evasive bot for cryptomining activity and DDoS attacks](https://twitter.com/Dinosn/status/1592156802569097216)
+  - [ ] [Instagram, Facebook, Twitter, YouTube suspended in Turkey after blast](https://twitter.com/Dinosn/status/1592095097507782656)
+  - [ ] [squarephish: advanced phishing tool](https://twitter.com/Dinosn/status/1592066505826766850)
+  - [ ] [New KmsdBot Malware Hijacking Systems for Mining Crypto and Launch DDoS Attacks](https://twitter.com/Dinosn/status/1592066476894482432)
+  - [ ] [Python APT1 Simulator](https://twitter.com/Dinosn/status/1592058361818017792)
+  - [ ] [C# PoCs for investigation of Windows process execution techniques](https://twitter.com/Dinosn/status/1592055404577660928)
+  - [ ] [Windows Kernel inject (no module no thread)](https://twitter.com/Dinosn/status/1592055295756627968)
+  - [ ] [RT Danis Jiang: Here is my demo of the VM escape exploit on the latest version of VMware Fusion along with ESXi and Workstation. It was used to partic...](https://twitter.com/danis_jiang/status/1592051275088424961)
+- obaby@mars
+  - [ ] [又见Pascal](https://h4ck.org.cn/2022/11/%e5%8f%88%e8%a7%81pascal/)
+- SecWiki News
+  - [ ] [SecWiki News 2022-11-14 Review](http://www.sec-wiki.com/?2022-11-14)
+- Securelist
+  - [ ] [Advanced threat predictions for 2023](https://securelist.com/advanced-threat-predictions-for-2023/107939/)
 - SAP Blogs
-  - [ ] [Manage Workforce App – Deep Dive for IAM Experts (Part 1)](https://blogs.sap.com/2022/11/13/manage-workforce-app-deep-dive-for-iam-experts-part-1/)
-  - [ ] [SAP Enhancement & Modification Basics – Must read for Functional Consultant](https://blogs.sap.com/2022/11/13/sap-enhancement-modification-basics-must-for-read-functional-consultant/)
-  - [ ] [SAP Chart of accounts](https://blogs.sap.com/2022/11/13/sap-chart-of-accounts/)
-  - [ ] [Add useful Extensions to Dev spaces in SAP Business Application Studio](https://blogs.sap.com/2022/11/13/add-useful-extensions-to-dev-spaces-in-sap-business-application-studio/)
-  - [ ] [S/4 Hana Enforcement Actions and Debt Set Relationships](https://blogs.sap.com/2022/11/13/s-4-hana-enforcement-actions-and-debt-set-relationships/)
-  - [ ] [The Power to the Marketer Festival 2022](https://blogs.sap.com/2022/11/13/the-power-to-the-marketer-festival-2022/)
-- 奇客Solidot–传递最新科技情报
-  - [ ] [幽灵必须死：漏洞利用幽灵'msg_msg'以及VED的防护策略](https://www.solidot.org/story?sid=73351)
-  - [ ] [苹果公司在加州遭集体诉讼](https://www.solidot.org/story?sid=73350)
-  - [ ] [研究发现金钱能买到快乐](https://www.solidot.org/story?sid=73349)
+  - [ ] [UX innovations in SAP/4HANA Cloud –new AI and collaboration features are just the beginning](https://blogs.sap.com/2022/11/14/ux-innovations-in-sap-4hana-cloud-new-ai-and-collaboration-features-are-just-the-beginning/)
+  - [ ] [SAP and Partners Create Mobile Solutions to Tackle Supply Chain Challenges](https://blogs.sap.com/2022/11/14/sap-and-partners-create-mobile-solutions-to-tackle-supply-chain-challenges/)
+  - [ ] [Impact of Demographic Change on IT](https://blogs.sap.com/2022/11/14/impact-of-demographic-change-on-it/)
+  - [ ] [Definitive methods for increasing warehouse efficiency for Beginners and advanced Users](https://blogs.sap.com/2022/11/14/definitive-methods-for-increasing-warehouse-efficiency-for-beginners-and-advanced-users/)
+  - [ ] [Using Google Workspace SDK to process purchase order information and create a sales order in SAP S/4HANA Cloud](https://blogs.sap.com/2022/11/14/using-google-workspace-sdk-to-process-purchase-order-information-and-create-a-sales-order-in-sap-s-4hana-cloud/)
+  - [ ] [Service Provider-Agnostic Solution for Electronic Invoicing in Turkey](https://blogs.sap.com/2022/11/14/service-provider-agnostic-solution-for-electronic-invoicing-in-turkey/)
+  - [ ] [SAP S/4HANA Cloud, public edition](https://blogs.sap.com/2022/11/14/sap-s-4hana-cloud-public-edition/)
+  - [ ] [Quick hands-on with CAP and SAP BTP services.](https://blogs.sap.com/2022/11/14/quick-hands-on-with-cap-and-sap-btp-services./)
+  - [ ] [Extracting SAP Ariba Reporting API Data using SAP Integration Suite Part 2 – Sending SAP Ariba Data into SAC](https://blogs.sap.com/2022/11/14/extracting-sap-ariba-reporting-api-data-using-sap-integration-suite-part-2-sending-sap-ariba-data-into-sac/)
+  - [ ] [Enterprise Planning with AWS data on SAP Data Warehouse Cloud and SAP Analytics Cloud](https://blogs.sap.com/2022/11/14/enterprise-planning-with-aws-data-using-with-sap-data-warehouse-cloud-and-sap-analytics-cloud/)
+- Reverse Engineering
+  - [ ] [/r/ReverseEngineering's Weekly Questions Thread](https://www.reddit.com/r/ReverseEngineering/comments/yusgu7/rreverseengineerings_weekly_questions_thread/)
+  - [ ] [Analysis of a LoadLibraryA Stack String Obfuscation Technique with Radare2 & x86dbg](https://www.reddit.com/r/ReverseEngineering/comments/yul2hd/analysis_of_a_loadlibrarya_stack_string/)
+  - [ ] [A Technical Analysis of Royal Ransomware [PDF]](https://www.reddit.com/r/ReverseEngineering/comments/yv2361/a_technical_analysis_of_royal_ransomware_pdf/)
+  - [ ] [What is WiFi 7? And How Fast Will It Be? Let’s Find Out…](https://www.reddit.com/r/ReverseEngineering/comments/yv4kf8/what_is_wifi_7_and_how_fast_will_it_be_lets_find/)
+- The Daily Swig | Cybersecurity news and views
+  - [ ] [All Day DevOps: Third of Log4j downloads still pull vulnerable version despite threat of supply chain attacks](https://portswigger.net/daily-swig/all-day-devops-third-of-log4j-downloads-still-pull-vulnerable-version-despite-threat-of-supply-chain-attacks)
+- SentinelOne
+  - [ ] [Cybersecurity Sharing | An Infosec User’s Guide to Getting Started on Mastodon](https://www.sentinelone.com/blog/cybersecurity-sharing-an-infosec-users-guide-to-getting-started-on-mastodon/)
 - KitPloit - PenTest & Hacking Tools
-  - [ ] [SCMKit - Source Code Management Attack Toolkit](http://www.kitploit.com/2022/11/scmkit-source-code-management-attack.html)
+  - [ ] [Unblob - Extract Files From Any Kind Of Container Formats](http://www.kitploit.com/2022/11/unblob-extract-files-from-any-kind-of.html)
+- FreeBuf网络安全行业门户
+  - [ ] [一个隐藏在图片中的恶意软件正在亚、非地区泛滥](https://www.freebuf.com/news/349816.html)
+  - [ ] [FreeBuf早报 | 苹果公司在加州遭集体诉讼；澳大利亚考虑禁止向勒索软件黑客支付赎金](https://www.freebuf.com/news/349733.html)
+  - [ ] [得物 APP 被爆删除用户视频，你的相册还安全吗？](https://www.freebuf.com/news/349707.html)
+  - [ ] [逾期不付赎金，高科技公司泰雷兹被Lockbit撕票](https://www.freebuf.com/news/349702.html)
+  - [ ] [年涉案金额超2亿，一国际投资欺诈团伙5名成员被捕](https://www.freebuf.com/news/349681.html)
+  - [ ] [加密货币交易巨头FTX遭攻击申请破产，6亿美元资产流出](https://www.freebuf.com/news/349677.html)
+- Twitter @hakivvi
+  - [ ] [RT Danis Jiang: Here is my demo of the VM escape exploit on the latest version of VMware Fusion along with ESXi and Workstation. It was used to partic...](https://twitter.com/danis_jiang/status/1592051275088424961)
+- 安全牛
+  - [ ] [SIEM的昨天、今天和明天](https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651119784&idx=1&sn=a1a6b7426d437be8f1fc0da81fa8103f&chksm=bd14507b8a63d96d107ecc5d25cf3a62f92b7779b8df4f4875d5c8a42645f0a66495d37b4e9b&scene=58&subscene=0#rd)
+  - [ ] [安全头条 | 国务院新闻办公室发布《携手构建网络空间命运共同体》白皮书；信安世纪：拟收购普世科技80%股权](https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651119784&idx=2&sn=3173a7b6696bddd4a93f0f14da69ff2e&chksm=bd14507b8a63d96d003553fb09dfa1040b7ec1df6626a120c3d19bf7ccbed3de651ed43ad5d6&scene=58&subscene=0#rd)
+  - [ ] [直播预告 | 网安大讲堂（51期）：高级Web安全专家（OSWE）公开课（二）](https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651119784&idx=3&sn=979848ab372b0cd51b86a27518d4adeb&chksm=bd14507b8a63d96da047fa3fe4dcc23872f79d8ac3443b75ae49819754d06f49694ab822058e&scene=58&subscene=0#rd)
+- HackerNews
+  - [ ] [加密货币交易巨头 FTX 遭攻击申请破产，6 亿美元资产流出](https://hackernews.cc/archives/42408)
+  - [ ] [得物 APP“喜得”热搜，用户手机相册还安全吗？](https://hackernews.cc/archives/42404)
+  - [ ] [乌克兰警方逮捕了每年获利 2 亿欧元的诈骗团伙成员](https://hackernews.cc/archives/42400)
+  - [ ] [加拿大最大肉类生产商被黑：部分运营中断 食品供应受影响](https://hackernews.cc/archives/42396)
+  - [ ] [加拿大零售巨头 Sobeys 遭勒索软件攻击，部分服务受影响](https://hackernews.cc/archives/42388)
+  - [ ] [虚假马斯克账号都能认证？Twitter Blue 订阅引发冒牌危机](https://hackernews.cc/archives/42384)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [贝索斯表示将会捐出大部分财富](https://www.solidot.org/story?sid=73364)
+  - [ ] [研究认为很难发现新冠病毒的祖先](https://www.solidot.org/story?sid=73363)
+  - [ ] [美国大学毕业生后悔学习新闻、社会和传播学等专业](https://www.solidot.org/story?sid=73362)
+  - [ ] [调查显示 Java、Python、Kotlin 和 Rust 的流行度都在快速增长](https://www.solidot.org/story?sid=73361)
+  - [ ] [X-37B 创造在轨飞行 908 天新记录](https://www.solidot.org/story?sid=73360)
+  - [ ] [11 月 15 日全球人口将达到 80 亿](https://www.solidot.org/story?sid=73358)
+  - [ ] [FTX 只剩 9 亿美元容易销售的资产](https://www.solidot.org/story?sid=73357)
+  - [ ] [北溪管道泄露地点附近曾出现神秘船舶](https://www.solidot.org/story?sid=73356)
+  - [ ] [全球海运集装箱短缺变成了过剩](https://www.solidot.org/story?sid=73355)
+  - [ ] [澳大利亚考虑禁止向勒索软件黑客支付赎金](https://www.solidot.org/story?sid=73354)
+- 黑海洋 - WIKI
+  - [ ] [Windows10-11系统无损修复](https://blog.upx8.com/3089)
 - 丁爸情报分析师的工具箱
-  - [ ] [【会议】第二届全国开源情报技术大会会议通知](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651133479&idx=1&sn=89afa1966b304d1c56bcc2bbf6366e14&chksm=f1af611dc6d8e80b5ad1fc38379f5b6a808c402bffcc00d22e421519503b204c65554e8ca40b&scene=58&subscene=0#rd)
-  - [ ] [【资料】美国陆军职能概念-情报](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651133479&idx=2&sn=31e8fe4fd25688fa7071b1ab2703e9d3&chksm=f1af611dc6d8e80b1e7594bf50f13a1ed371c80b16629eab80578e875a646fb48d6ab2dd4aec&scene=58&subscene=0#rd)
+  - [ ] [【技巧】OpenSea账号开源调查流程](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651133487&idx=1&sn=e9eccc5d7a9f7c6d25f74cc8e240d0ca&chksm=f1af6115c6d8e803a05123aa17d134898b77059d4fee95e18ca067a466f067aadda5d1d372dd&scene=58&subscene=0#rd)
+- 腾讯安全应急响应中心
+  - [ ] [行稳致远，QQ×TSRC专项众测已开启](https://mp.weixin.qq.com/s?__biz=MjM5NzE1NjA0MQ==&mid=2651206092&idx=1&sn=6bab6c8c27fd493212a083043ceabb70&chksm=bd2cd46a8a5b5d7cb6b01344e5645620b42e9631c4535510de72737634f77859abe53cfb9e67&scene=58&subscene=0#rd)
+- 看雪学院
+  - [ ] [2022 SDC 议题回顾 | Parallels Desktop虚拟机逃逸之旅](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458483697&idx=1&sn=129f76a91f260fbc0842d7341f6db83e&chksm=b18e4b7b86f9c26d1aab859df418ea70b40584a78908c94c51a6910878366854bb3e55cf3757&scene=58&subscene=0#rd)
+  - [ ] [倒计时1天！看雪2022 KCTF 秋季赛邀您来战~](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458483697&idx=2&sn=af65d45fd5ff7d8c93b6135bde3b2a02&chksm=b18e4b7b86f9c26dd7b1ffdda47639d8631df85461366d501ccdf809eaced84217c2ba4a4c78&scene=58&subscene=0#rd)
+  - [ ] [安全研究员无意间发现谷歌手机一个锁屏绕过漏洞，收获七万美元赏金](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458483697&idx=3&sn=56a74f29fe0266ac98f5568d10cd2d1a&chksm=b18e4b7b86f9c26de866c908f8b255a0e2f92936dbb26439738f543fef2d61a63a479443983b&scene=58&subscene=0#rd)
+  - [ ] [精品好课！《Windows内核漏洞分析与EXP编写技巧》](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458483697&idx=4&sn=6c5d49f550285631c32600351a9fe1f8&chksm=b18e4b7b86f9c26dc2f394392117c9e76c2ca1381843ab1f8c5e9e7e565154294db7ce01f53d&scene=58&subscene=0#rd)
+- 君哥的体历
+  - [ ] [GCCP五大年度分享评选](https://mp.weixin.qq.com/s?__biz=MzI2MjQ1NTA4MA==&mid=2247489054&idx=1&sn=50733d0bf99cfc25ef81f254ab6ebfa8&chksm=ea4bbc59dd3c354f6030e3ea0bb8a91e57e3a1313dd2b9eb9e47d26e450aab602a85ae015f93&scene=58&subscene=0#rd)
+- Seebug漏洞平台
+  - [ ] [404星链计划 | Pocsuite3、veinmind-tools、afrog 版本更新](https://mp.weixin.qq.com/s?__biz=MzAxNDY2MTQ2OQ==&mid=2650965955&idx=1&sn=ffbddba91498541e48f1a86b8069e60e&chksm=8079c5f1b70e4ce75b9d45ef86993625962961b1338881acdedc7d7d59063bf5a5e5c93e2970&scene=58&subscene=0#rd)
+- 关键基础设施安全应急响应中心
+  - [ ] [关键基础设施安全资讯周报20221114期](https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247532666&idx=1&sn=a165aba2459bbe961eaebaf16313b94c&chksm=c1e9cc2bf69e453d7c2cceaa14bb71c7b6b29a510ecb63cc37ba30bcbb2c32140e093b32bfcf&scene=58&subscene=0#rd)
+  - [ ] [21世纪最严重的15起数据泄露事件](https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247532666&idx=2&sn=d9f6b1cf38d058fb154e1dcecfb5b04a&chksm=c1e9cc2bf69e453d3be2170c9467fa01cb4da34cf0c2cddf7b77306b5906232ab41fde4e9c43&scene=58&subscene=0#rd)
+  - [ ] [2.7 万份文件泄露，乌克兰“IT军团”入侵俄罗斯中央银行](https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247532666&idx=3&sn=fb98f8641b326fd470fa9a538d5c1000&chksm=c1e9cc2bf69e453d38888c4b474621a30d2f21c36a4f02e22155107e2b492f89afe27789c975&scene=58&subscene=0#rd)
+- dotNet安全研究僧
+  - [ ] [解密.NET配置文件web.config](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247487060&idx=1&sn=bc5f5da6c87f40ca86988d7e17a46962&chksm=fa5aa0b9cd2d29af4902c7260827d23ec9239da47ca6ae894b35ac2e13c1bdfc164e8b112231&scene=58&subscene=0#rd)
 - debugeeker
-  - [ ] [WAF专题3--WAF工作模式](https://mp.weixin.qq.com/s?__biz=MzU4NjY0NTExNA==&mid=2247486634&idx=1&sn=2d841bdc53c5bfdf8b67c611b7b30351&chksm=fdf967bfca8eeea9d69b42c840b8da70db6d96a418fb33e90918547bb79164cb762454baf77a&scene=58&subscene=0#rd)
+  - [ ] [WAF专题4 规则引擎原理](https://mp.weixin.qq.com/s?__biz=MzU4NjY0NTExNA==&mid=2247486638&idx=1&sn=747ff91a5b4711f842d140a8d46de282&chksm=fdf967bbca8eeead2c216042ec4ae90b9f17677f5d394a2b8ba2463f1e33cd4057bed41d5379&scene=58&subscene=0#rd)
 - 安全圈
-  - [ ] [【安全圈】崩盘了！10万人爆仓：FTX破产拖垮整个币圈](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652024283&idx=1&sn=a1a4ac563dfa2f1b1eacdb9c2d16f3c6&chksm=f36f819bc418088d1c048334da7fbaedf6c2b73ff4e0da77eec02d403a6354b087d73205642f&scene=58&subscene=0#rd)
-  - [ ] [【安全圈】三星手机组件发现三个高危漏洞](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652024283&idx=2&sn=8d503685003568764b705d4552b869ed&chksm=f36f819bc418088d81845fc2faf65cc5aa086b2f7da2773cea9b42088f4d7dde2ba7531b3e8f&scene=58&subscene=0#rd)
-  - [ ] [【安全圈】安卓锁屏不到 2 分钟被破解，仅需换一张 SIM 卡](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652024283&idx=3&sn=0287cacf0c5da8dc0647bca5d9c9ce26&chksm=f36f819bc418088d8446861f026cb11292c645b2ff00b994336fc24151549888846eadf65213&scene=58&subscene=0#rd)
-  - [ ] [【安全圈】卫星互联网系统遭网络攻击，乌克兰数百个星链终端关闭！](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652024283&idx=4&sn=840a2cf09f8010b31c86807402083335&chksm=f36f819bc418088d996b018c9d4fa7f0a60fcc49f22973f4db7c80af6231d168026e14b531e8&scene=58&subscene=0#rd)
-- 安全研究GoSSIP
-  - [ ] [快看！美国印第安纳大学系统安全实验室Luyi Xing教授招收2023年秋季入学的全奖博士生啦~](https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247493251&idx=1&sn=037ef50bb3dec128279ce92abb556b83&chksm=c063c85af714414ce4fd9b6b7f54f083c0d2960bfa0db8a87615080626c1ba0f21066a100dcf&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】特大系列侵犯公民个人信息案件，侦破！涉及27个省份](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652024390&idx=1&sn=a8708d5ff5af8a8b0e37a1da2efd6415&chksm=f36f8206c4180b10ec8d648e11919f353a9282071ace8d3294955e96743416b5c79e09cbe551&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】FBI服务器被黑客入侵](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652024390&idx=2&sn=c48566f1c4d4be2ab59f216294a648f4&chksm=f36f8206c4180b106c8df15fc174d4b621ed2b797d91ad5c8698526d869190bf9d30a6923d4b&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】全球最大BT网站曝安全漏洞400万用户信息泄露](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652024390&idx=3&sn=647b4c1f2c155a44ae22f05502c86521&chksm=f36f8206c4180b104f83a68039d989ec133a6ad2c325f86388ced4da5aa445ff84da20c02379&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】微软将针对乌克兰和波兰的 Prestige Ransomware 攻击归咎于俄罗斯黑客](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652024390&idx=4&sn=12a00637f7ff510d98b900b5b41e9ed1&chksm=f36f8206c4180b1076227173ec7560a66dbe5e1ca8678e59311d26819b30c7c06a8d9e982d50&scene=58&subscene=0#rd)
+- 博客园 - 渗透测试中心
+  - [ ] [CVE-2022-40871 Dolibarr任意添加管理员与RCE漏洞分析 - 渗透测试中心](https://www.cnblogs.com/backlion/p/16888668.html)
+- 山石网科安全技术研究院
+  - [ ] [PrivacySentry——隐私合规检测工具分析](https://mp.weixin.qq.com/s?__biz=MzUzMDUxNTE1Mw==&mid=2247497443&idx=1&sn=8ee2ef21ad466faba97c089e6379b546&chksm=fa52235dcd25aa4bc75476fb3874d3ebc31a29a8cc3f961be536c2d53f5feeaf377c221be239&scene=58&subscene=0#rd)
+- 慢雾科技
+  - [ ] [MistTrack 案例一 | TornadoCash 提款分析](https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247496723&idx=1&sn=0ea66570db1fd0c09694506287a46bcf&chksm=fdde8a94caa9038271a690faa41c1f941083f8f5a671fa33df373bc201cfa2066ad61367dcce&scene=58&subscene=0#rd)
+- 网安国际
+  - [ ] [投稿啦~第二届计算机安全伦理国际研讨会（EthiCS 2023）](https://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652311853&idx=1&sn=97a772e932cfc71448fbb966a9015366&chksm=8bc48ca3bcb305b523cdd884f15f914a5c2a5661d899012a2781cad2a434ae066705e64f717a&scene=58&subscene=0#rd)
+- 美团安全应急响应中心
+  - [ ] [生日月狂欢第二弹 | 专测活动加入狂欢，测试账号限时开放！](https://mp.weixin.qq.com/s?__biz=MzI5MDc4MTM3Mg==&mid=2247490557&idx=1&sn=c3226d88b2ff15fba030027260f93504&chksm=ec1bfa2edb6c7338627ce04ceda0490bd65aaa207113287594f22840a32df77d75da270c8b3b&scene=58&subscene=0#rd)
+- 网络安全应急技术国家工程实验室
+  - [ ] [国家工程研究中心安全资讯周报20221114期](https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247532696&idx=1&sn=7cb57a37858308a7394bba33bac2d51a&chksm=fa93f659cde47f4fd084b000eea0c459f44a21b5552476e67ee41d8a7fba9cbc0afc6247c09a&scene=58&subscene=0#rd)
+  - [ ] [超七成网络安全经理缺乏必要的威胁情报技能](https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247532696&idx=2&sn=24bdf2b70a80dac5cc3c412e90c3f854&chksm=fa93f659cde47f4f0174c239bc1bb6c4abd9fd1b8d136c05836465ab042f3e1b66ba4959ea6a&scene=58&subscene=0#rd)
+  - [ ] [加拿大最大肉类生产商被黑：部分运营中断 食品供应受影响](https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247532696&idx=3&sn=d6c62fbc3f8f6874da1d85b7886e4826&chksm=fa93f659cde47f4fa5f57352ceb0d99aabed5951f4077b910f826e2eb72857a74aa4368853eb&scene=58&subscene=0#rd)
+- 三六零CERT
+  - [ ] [CVE-2022-27510：Citrix Gateway/ADC身份认证绕过漏洞通告](https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247491579&idx=1&sn=4e4b1ca4a1c417f42a38d045710635e2&chksm=fe251afac95293ecfa4adb66d7b89483782aab79c22e7a4aae5b6581e239543ff50fc5516795&scene=58&subscene=0#rd)
+  - [ ] [安全事件周报 (11.07-11.13)](https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247491579&idx=2&sn=cffa1a9c8b67f09bba6a495352d8b9ad&chksm=fe251afac95293ec25a04bf126f28ecd94d268bacda2385ae1fd0a1aa141d65285a8a7899ef7&scene=58&subscene=0#rd)
+  - [ ] [安全日报（2022.11.14）](https://mp.weixin.qq.com/s?__biz=MzU5MjEzOTM3NA==&mid=2247491579&idx=3&sn=6ab8e6af19528a3014a315b9b6527196&chksm=fe251afac95293ecb1af551a6fc17c37008e831b1f1e91b6ee4c949d38570d83b388964fadc8&scene=58&subscene=0#rd)
+- Qualys Security Blog
+  - [ ] [QSC 2022: Listening to the Voice of the Customer](https://blog.qualys.com/category/qualys-insights)
+- Secureworks Blog
+  - [ ] [Understanding the Difference Between SOAR vs SIEM vs XDR](https://www.secureworks.com/blog/xdr-vs-soar-finding-the-right-tool-for-the-job)
+- 嘶吼专业版
+  - [ ] [世界杯应用程序带来数据安全和隐私噩梦](https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247553752&idx=1&sn=82966d2bbecffabbc613bce85143e6c7&chksm=e915c2e2de624bf4c2aef9a0b32c4b5d1d9502107d9d9ec8b7913f147a1c31ce76b45c30543c&scene=58&subscene=0#rd)
+  - [ ] [价值7万美元的谷歌Pixel手机锁屏绕过漏洞](https://mp.weixin.qq.com/s?__biz=MzI0MDY1MDU4MQ==&mid=2247553752&idx=2&sn=e4018f4129fcb9921f469dbfdf73aa2e&chksm=e915c2e2de624bf47c59126095f4069443a6f3e108b982d3733600818e678de4101e9d2812e9&scene=58&subscene=0#rd)
+- Tails - News
+  - [ ] [Tails report for September and October 2022](https://tails.boum.org/news/report_2022_10/)
+- Forensic Focus
+  - [ ] [HTCIA, DFRWS-APAC, and the DFIR Events Industry: A Critique](https://www.forensicfocus.com/podcast/htcia-dfrws-apac-and-the-dfir-events-industry-a-critique/)
 - Over Security - Cybersecurity news aggregator
-  - [ ] [Android phone owner accidentally finds a way to bypass lock screen](https://www.bleepingcomputer.com/news/security/android-phone-owner-accidentally-finds-a-way-to-bypass-lock-screen/)
-  - [ ] [New extortion scam threatens to damage sites’ reputation, leak data](https://www.bleepingcomputer.com/news/security/new-extortion-scam-threatens-to-damage-sites-reputation-leak-data/)
-  - [ ] [Ukraine says Russian hacktivists use new Somnia ransomware](https://www.bleepingcomputer.com/news/security/ukraine-says-russian-hacktivists-use-new-somnia-ransomware/)
-  - [ ] [Vulnerabilità accumulatori smart Aton Storage](https://www.ihteam.net/advisory/vulnerabilita-accumulatori-smart-aton-storage/)
-  - [ ] [Guerre di Rete - House of Tweets](https://guerredirete.substack.com/p/guerre-di-rete-house-of-tweets)
-- 极客公园
-  - [ ] [TikTok 广告收入预期下调至 100 亿美元；华为发布首款智能观影眼镜；卡塔尔用机器人驯骆驼｜极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652971981&idx=1&sn=ff6d085aac7873f9613678030fca988e&chksm=7e545e7b4923d76d4e2d8100d9d006b93ebf76da296216cc922b2619618ab9e1fbc12681fb1f&scene=58&subscene=0#rd)
-- Troy Hunt's Blog
-  - [ ] [Weekly Update 321](https://www.troyhunt.com/weekly-update-321/)
-- Il Disinformatico
-  - [ ] [Artemis I tenterà il lancio il 16 novembre alle 7:04 italiane](http://attivissimo.blogspot.com/2022/11/artemis-i-tentera-il-lancio-il-16.html)
-- TorrentFreak
-  - [ ] [Pirate IPTV: Fines For Suppliers & Users as Govt. Plans Pre-Approval System](https://torrentfreak.com/pirate-iptv-fines-for-suppliers-users-as-govt-plans-pre-approval-system-221113/)
-- Your Hacking Tutorial by Zempirians
-  - [ ] [Help needed with SSH](https://www.reddit.com/r/HowToHack/comments/ytxz3v/help_needed_with_ssh/)
-  - [ ] [Weird URL redirection from existing app](https://www.reddit.com/r/HowToHack/comments/yu8wrx/weird_url_redirection_from_existing_app/)
-  - [ ] [Question of legality and sourcing](https://www.reddit.com/r/HowToHack/comments/ytu4gq/question_of_legality_and_sourcing/)
-- Security Affairs
-  - [ ] [Ukraine Police dismantled a transnational fraud group that made €200 million per year](https://securityaffairs.co/wordpress/138481/cyber-crime/ukraine-police-dismantled-fraud-group.html)
-  - [ ] [Lockbit gang leaked data stolen from global high-tech giant Thales](https://securityaffairs.co/wordpress/138471/data-breach/lockbit-leaked-thales-files.html)
-- KitPloit - PenTest Tools!
-  - [ ] [SCMKit - Source Code Management Attack Toolkit](http://www.kitploit.com/2022/11/scmkit-source-code-management-attack.html)
-- Technical Information Security Content & Discussion
-  - [ ] [Phishing with Google Calendar and Evilginx2 to Deliver a Malicious Zoom Link](https://www.reddit.com/r/netsec/comments/yu388h/phishing_with_google_calendar_and_evilginx2_to/)
-  - [ ] [The exploit recon 'msg_msg' and its mitigation in VED](https://www.reddit.com/r/netsec/comments/ytyh3t/the_exploit_recon_msg_msg_and_its_mitigation_in/)
+  - [ ] [Registro delle opposizioni, per bloccare chiamate indesiderate: ecco come funziona](https://www.cybersecurity360.it/legal/registro-delle-opposizioni-cose-e-cosa-fare-se-continuano-a-chiamarci-anche-dopo-liscrizione/)
+  - [ ] [Google to pay nearly $400 million over deceptive location tracking practices](https://therecord.media/google-to-pay-nearly-400-million-over-deceptive-location-tracking-practices/)
+  - [ ] [Google will pay $391M to settle Android location tracking lawsuit](https://www.bleepingcomputer.com/news/google/google-will-pay-391m-to-settle-android-location-tracking-lawsuit/)
+  - [ ] [Whoosh confirms data breach after hackers sell 7.2M user records](https://www.bleepingcomputer.com/news/security/whoosh-confirms-data-breach-after-hackers-sell-72m-user-records/)
+  - [ ] [42,000 sites used to trap users in brand impersonation scheme](https://www.bleepingcomputer.com/news/security/42-000-sites-used-to-trap-users-in-brand-impersonation-scheme/)
+  - [ ] [La consapevolezza della cyber security nelle aziende italiane deve diventare una priorità](https://www.cybersecurity360.it/nuove-minacce/la-consapevolezza-della-cyber-security-nelle-aziende-italiane-deve-diventare-una-priorita/)
+  - [ ] [“Gucci Master” business email scammer Hushpuppi gets 11 years](https://nakedsecurity.sophos.com/2022/11/14/gucci-master-business-email-scammer-hushpuppi-gets-11-years/)
+  - [ ] [Intelligenza artificiale e protezione dati personali: sfide e rischi delle “macchine predittive”](https://www.cybersecurity360.it/legal/privacy-dati-personali/intelligenza-artificiale-e-protezione-dati-personali-sfide-e-rischi-delle-macchine-predittive/)
+  - [ ] [Accidental $70k Google Pixel Lock Screen Bypass](https://bugs.xdavidhu.me/google/2022/11/10/accidental-70k-google-pixel-lock-screen-bypass/)
+  - [ ] [Microsoft fixes Windows DirectAccess connectivity issues](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-directaccess-connectivity-issues/)
+  - [ ] [Australia to consider banning ransomware payments](https://therecord.media/australia-to-consider-banning-ransomware-payments/)
+  - [ ] [Cyber security, Italia “esemplare” ma bisogna accelerare sull’autonomia digitale](https://www.cybersecurity360.it/outlook/cyber-security-italia-esemplare-ma-bisogna-accelerare-sullautonomia-digitale/)
+  - [ ] [CyberThreats Mushrooming over Global Nuclear Facilities](https://blog.cyble.com/2022/11/14/cyberthreats-mushrooming-over-global-nuclear-facilities/)
+  - [ ] [Aaron Swartz : Hacker innovatore e la battaglia per il sapere accessibile](https://hackerjournal.it/10992/aaron-swartz-l-hacker-innovatore-e-la-battaglia-per-il-sapere-accessibile/)
+  - [ ] [Thales smentisce l’attacco informatico ransomware Lockbit](https://hackerjournal.it/10996/thales-smentisce-lattacco-informatico-ransomware-lockbit/)
+  - [ ] [Windows Kerberos authentication breaks after November updates](https://www.bleepingcomputer.com/news/microsoft/windows-kerberos-authentication-breaks-after-november-updates/)
+  - [ ] [Con una VPN e qualche plugin geek non siamo immortali, operazioni di polizia contro gli “hacker” italiani](https://www.insicurezzadigitale.com/con-una-vpn-e-qualche-plugin-geek-non-siamo-immortali-operazioni-di-polizia-contro-gli-hacker-italiani/)
+  - [ ] [Ftx: Attacco hacker, sotratti 600 milioni di dollari](https://hackerjournal.it/10987/ftx-attacco-hacker-sotratti-600-milioni-di-dollari/)
+  - [ ] [Tre vulnerabilità scoperte nel server Web OpenLiteSpeed](https://www.securityinfo.it/2022/11/14/tre-vulnerabilita-scoperte-nel-server-web-openlitespeed/?utm_source=rss&utm_medium=rss&utm_campaign=tre-vulnerabilita-scoperte-nel-server-web-openlitespeed)
+  - [ ] [Quantum Key Distribution (QKD) and Post-Quantum Cryptography (PQC)](https://www.telsy.com/quantum-key-distribution-qkd-and-post-quantum-cryptography-pqc/)
+  - [ ] [Egghunter I - Vulnserver GMON](https://hacktips.it/egghunter-vulnserver-gmon/)
+  - [ ] [Vulnerabilità mette a rischio le infrastrutture delle compagnie petrolifere: i dettagli](https://www.cybersecurity360.it/news/vulnerabilita-mette-a-rischio-le-infrastrutture-delle-compagnie-petrolifere-i-dettagli/)
+  - [ ] [Instagram, Facebook, Twitter, YouTube suspended in Turkey after blast](https://www.bleepingcomputer.com/news/security/instagram-facebook-twitter-youtube-suspended-in-turkey-after-blast/)
+  - [ ] [Sobeys catena di supermercati Canadese colpita dal ranswomare BlackBasta](https://hackerjournal.it/10981/sobeys-catena-di-supermercati-canadese-colpita-dal-ranswomare-blackbasta/)
+  - [ ] [Advanced threat predictions for 2023](https://securelist.com/advanced-threat-predictions-for-2023/107939/)
+  - [ ] [Risky Biz News: Australia to hack the hackers](https://riskybiznews.substack.com/p/risky-biz-news-australia-to-hack)
+- Daniel Miessler
+  - [ ] [NO. 357 | NEWS, ANALYSIS, & DISCOVERY SERIES](https://danielmiessler.com/podcast/no-357-news-analysis-discovery-series/)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [Extracting 'HTTP CONNECT' Requests with Python, (Mon, Nov 14th)](https://isc.sans.edu/diary/rss/29246)
+  - [ ] [ISC Stormcast For Monday, November 14th, 2022 https://isc.sans.edu/podcastdetail.html&#x3f;id=8256, (Mon, Nov 14th)](https://isc.sans.edu/diary/rss/29248)
+- 火绒安全实验室
+  - [ ] [积跬步 至千里 | 火绒反病毒引擎“虚拟沙盒”再进阶](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247511237&idx=1&sn=3295bd6b09b0237a829a36ae3b593b72&chksm=eb7072fadc07fbec94e254043dc3da00c21711a57d98f7429cd2c80574e022824107c5ef7576&scene=58&subscene=0#rd)
+- ICT Security Magazine
+  - [ ] [Sicurezza dei prodotti ICT: dall’Unione Europea arrivano nuovi criteri di valutazione](https://www.ictsecuritymagazine.com/notizie/sicurezza-dei-prodotti-ict-dallunione-europea-arrivano-nuovi-criteri-di-valutazione/)
+- Schneier on Security
+  - [ ] [Upcoming Speaking Engagements](https://www.schneier.com/blog/archives/2022/11/upcoming-speaking-engagements-25.html)
+  - [ ] [A Digital Red Cross](https://www.schneier.com/blog/archives/2022/11/a-digital-red-cross.html)
+- Pentestmag
+  - [ ] [Hacking a Locked Windows 10 Computer With Kali Linux](https://pentestmag.com/hacking-a-locked-windows-10-computer-with-kali-linux/?utm_source=rss&utm_medium=rss&utm_campaign=hacking-a-locked-windows-10-computer-with-kali-linux)
+- Posts By SpecterOps Team Members - Medium
+  - [ ] [Uncovering Window Security Events](https://posts.specterops.io/uncovering-window-security-events-ab72e1ec745c?source=rss----f05f8696e3cc---4)
+- 0x00sec - The Home of the Hacker - Top topics
+  - [ ] [What is the best RAT an crypter i can buy?](https://0x00sec.org/t/what-is-the-best-rat-an-crypter-i-can-buy/32125)
 - Computer Forensics
-  - [ ] [Advice on how to perform IR on a remote host (lab help)](https://www.reddit.com/r/computerforensics/comments/yu0zzl/advice_on_how_to_perform_ir_on_a_remote_host_lab/)
+  - [ ] [Forensic Analysis/e-Discovery Company?](https://www.reddit.com/r/computerforensics/comments/yvb3u9/forensic_analysisediscovery_company/)
+  - [ ] [A Technical Analysis of Royal Ransomware [PDF]](https://www.reddit.com/r/computerforensics/comments/yvbrqn/a_technical_analysis_of_royal_ransomware_pdf/)
+  - [ ] [Encrypted HTML Code](https://www.reddit.com/r/computerforensics/comments/yv8ock/encrypted_html_code/)
+  - [ ] [Spyguard](https://www.reddit.com/r/computerforensics/comments/yv0bd5/spyguard/)
+  - [ ] [What sort of expert do I need?](https://www.reddit.com/r/computerforensics/comments/yun7ik/what_sort_of_expert_do_i_need/)
+  - [ ] [Is using an Android emulator like BlueStacks a forensically viable method of testing app behavior?](https://www.reddit.com/r/computerforensics/comments/yumss7/is_using_an_android_emulator_like_bluestacks_a/)
+- Information Security
+  - [ ] [Here’s a playlist of 7 hours of music with NO VOCALS I use to focus when I’m coding /working . Post yours as well if you also have one!](https://www.reddit.com/r/Information_Security/comments/yv5abd/heres_a_playlist_of_7_hours_of_music_with_no/)
+  - [ ] [USA IT/ IS related Conferences](https://www.reddit.com/r/Information_Security/comments/yv17g5/usa_it_is_related_conferences/)
+- Your Hacking Tutorial by Zempirians
+  - [ ] [Hi, what could be done with a metasploit mysql meterpreter sesssion as an attack/exploit in a real world scenario? Im doing a lab for a class and was trying different exploits and this mysql exploit led me to a meterpreter session with access to these files/folders. Thanks in advance!](https://www.reddit.com/r/HowToHack/comments/yv9tx8/hi_what_could_be_done_with_a_metasploit_mysql/)
+  - [ ] [QR Code Not Found. Code: Code: Little piggy says hello! Should I be concerned?](https://www.reddit.com/r/HowToHack/comments/yumb6y/qr_code_not_found_code_code_little_piggy_says/)
+  - [ ] [best free labs to practice](https://www.reddit.com/r/HowToHack/comments/yv4ntv/best_free_labs_to_practice/)
+  - [ ] [My rubber ducky says acces denied when trying to download something from the simple python web server](https://www.reddit.com/r/HowToHack/comments/yv3c1s/my_rubber_ducky_says_acces_denied_when_trying_to/)
+  - [ ] [I want to buy the Rubber Ducky](https://www.reddit.com/r/HowToHack/comments/yv8red/i_want_to_buy_the_rubber_ducky/)
+  - [ ] [How to read others IG messages through my router (wireshark?)](https://www.reddit.com/r/HowToHack/comments/yv3jg0/how_to_read_others_ig_messages_through_my_router/)
+  - [ ] [Getting access to my brothers pc](https://www.reddit.com/r/HowToHack/comments/yv0zvj/getting_access_to_my_brothers_pc/)
+- The Hacker News
+  - [ ] [New "Earth Longzhi" APT Targets Ukraine and Asian Countries with Custom Cobalt Strike Loaders](https://thehackernews.com/2022/11/new-earth-longzhi-apt-targets-ukraine.html)
+  - [ ] [Over 15,000 WordPress Sites Compromised in Malicious SEO Campaign](https://thehackernews.com/2022/11/over-15000-wordpress-sites-compromised.html)
+  - [ ] [What is an External Penetration Test?](https://thehackernews.com/2022/11/what-is-external-penetration-test.html)
+  - [ ] [New KmsdBot Malware Hijacking Systems for Mining Crypto and Launch DDoS Attacks](https://thehackernews.com/2022/11/new-kmsdbot-malware-hijacking-systems.html)
+  - [ ] [Worok Hackers Abuse Dropbox API to Exfiltrate Data via Backdoor Hidden in Images](https://thehackernews.com/2022/11/worok-hackers-abuse-dropbox-api-to.html)
+- The Register - Security
+  - [ ] [GitHub sets up private vulnerability reports for public repos to avoid 'naming and shaming'](https://go.theregister.com/feed/www.theregister.com/2022/11/14/github_private_vulnerability_reporting/)
+  - [ ] [Another crypto shocker: Major player actually corrects $400m mistake instead of cratering](https://go.theregister.com/feed/www.theregister.com/2022/11/14/cryptodotcom_gateio_400m/)
+  - [ ] [Australia to 'stand up and punch back' against cyber crims](https://go.theregister.com/feed/www.theregister.com/2022/11/14/australia_offensive_ops_against_ransomware/)
+- Securityinfo.it
+  - [ ] [Tre vulnerabilità scoperte nel server Web OpenLiteSpeed](https://www.securityinfo.it/2022/11/14/tre-vulnerabilita-scoperte-nel-server-web-openlitespeed/?utm_source=rss&utm_medium=rss&utm_campaign=tre-vulnerabilita-scoperte-nel-server-web-openlitespeed)
+- Security Affairs
+  - [ ] [Massive Black hat SEO campaign used +15K WordPress sites](https://securityaffairs.co/wordpress/138523/hacking/wordpress-sites-black-hat-seo.html)
+  - [ ] [KmsdBot, a new evasive bot for cryptomining activity and DDoS attacks](https://securityaffairs.co/wordpress/138514/malware/kmsdbot-golang-malware.html)
+  - [ ] [CERT-UA warns of multiple Somnia ransomware attacks against organizations in Ukraine](https://securityaffairs.co/wordpress/138496/hacking/somnia-ransomware-attacks-ukraine.html)
+  - [ ] [Have board directors any liability for a cyberattack against their company?](https://securityaffairs.co/wordpress/138507/security/board-directors-liability-for-cyberattack.html)
+- KitPloit - PenTest Tools!
+  - [ ] [Unblob - Extract Files From Any Kind Of Container Formats](http://www.kitploit.com/2022/11/unblob-extract-files-from-any-kind-of.html)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [Would a computer engineering degree be useful for a career in cybersecurity?](https://www.reddit.com/r/netsecstudents/comments/yuwl5y/would_a_computer_engineering_degree_be_useful_for/)
+  - [ ] [Mac Mini Late 2006 - MA206LL/A](https://www.reddit.com/r/netsecstudents/comments/yutawm/mac_mini_late_2006_ma206lla/)
 - Social Engineering
-  - [ ] [good books / resources on learning some useful con man tricks](https://www.reddit.com/r/SocialEngineering/comments/yufved/good_books_resources_on_learning_some_useful_con/)
+  - [ ] ["Those with higher cognitive ability are better at producing bullshit but feel less of a need to do it." - Gurus and the Science of Bullshit](https://www.reddit.com/r/SocialEngineering/comments/yv9e5e/those_with_higher_cognitive_ability_are_better_at/)
+  - [ ] [SCAnS: The Scientific Approach to Behaviour Analysis](https://www.reddit.com/r/SocialEngineering/comments/yv61r8/scans_the_scientific_approach_to_behaviour/)
+  - [ ] [What kinda stories are good for building trust\comfort?](https://www.reddit.com/r/SocialEngineering/comments/yv6utt/what_kinda_stories_are_good_for_building/)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Best Virtual Credit Card service that isn’t Privacy.com](https://www.reddit.com/r/blackhat/comments/yur0b6/best_virtual_credit_card_service_that_isnt/)
+- Technical Information Security Content & Discussion
+  - [ ] [A Technical Analysis of Royal Ransomware [PDF]](https://www.reddit.com/r/netsec/comments/yv20wb/a_technical_analysis_of_royal_ransomware_pdf/)
+  - [ ] [Starlink User Terminal Modchip](https://www.reddit.com/r/netsec/comments/yunca2/starlink_user_terminal_modchip/)
+  - [ ] [Threat and Vulnerability Hunting with Application Server Error Logs](https://www.reddit.com/r/netsec/comments/yutmvw/threat_and_vulnerability_hunting_with_application/)
+- TorrentFreak
+  - [ ] [Rojadirecta Operator is Personally Liable for Sports Piracy, Supreme Court Rules](https://torrentfreak.com/rojadirecta-operator-is-personally-liable-for-sports-piracy-supreme-court-rules-221114/)
+  - [ ] [Pirate TV Box & Kodi Wizard Seller Who Made £2.3m Gets 30 Months in Prison](https://torrentfreak.com/pirate-tv-box-kodi-wizard-seller-who-made-2-3m-gets-30-months-in-prison-221114/)
