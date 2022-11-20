@@ -18,9 +18,13 @@
 ![img.png](img/信息流.png)
 
 ### 精选
-如果认为某篇文章质量较好, 值得其他人阅读可以点击convert to issue 自动添加到精选文章列表. 
+如果认为某篇文章质量较好, 值得其他人阅读可以点击convert to issue 自动添加到精选文章列表.
 
 ![img.png](img/精选.png)
+
+如果需要多人合作, 普通的read权限并没有convert to issue的功能, 需要triage权限
+
+![img.png](img/权限.png)
 
 或手动new issue, 也会自动添加到issue中
 
