@@ -3,6 +3,14 @@
 一个方便获取每日安全资讯的爬虫和推送程序。支持导入 opml 文件，因此也可以订阅其他任何 RSS 源。
 
 基于github action 实现的自动化推送系统
+
+目前有四个不同的推送信息类型
+
+* 每日信息流,  默认为每天早上9点30分推送昨天新增文章列表.
+* 每日精选, 默认为每天下午1点半推送昨日精选
+* 精选推送, 在每天生成的issue中, 点击convert to issue生成新的issue并推送到钉钉群
+* 精选文章的评论区推送, 当有人评论了改文章, 自动推送到钉钉
+
 ## 使用
 ### 信息流
 每日会在issue中生成昨日信息流
@@ -143,19 +151,3 @@ optional arguments:
 # 单次任务
 $ ./picker.py
 ```
-
-### Github Actions
-
-利用 Github Actions 提供的服务，你只需要 fork 本项目，在 Settings 中添加 secrets，即可完成部署。
-
-目前支持的推送机器人及对应的 secrets：
-
-- [钉钉群机器人](https://open.dingtalk.com/document/robots/custom-robot-access)：`DINGTALK_KEY`
-
-目前有四个不同的推送信息类型
-
-* 每日信息流,  默认为每天早上9点30分推送昨天新增文章列表.
-* 每日精选, 默认为每天下午1点半推送昨日精选
-* 精选推送, 在每天生成的issue中, 点击convert to issue生成新的issue并推送到钉钉群
-* 精选文章的评论区推送, 当有人评论了改文章, 自动推送到钉钉
-
