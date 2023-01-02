@@ -118,19 +118,27 @@ rss:
 推荐使用github action部署
 
 ### github部署
-因为fork可能自动关闭issue, 并且导致issue指向原仓库, 所以建议脱离fork关系. 
+step1: fork仓库
 
-操作比较简单, clone本仓库, 然后创建一个空项目, 将该仓库push即可.
+因为fork可能自动关闭issue, 并且导致issue指向原仓库, 所以建议脱离fork关系. 操作比较简单, clone本仓库, 然后创建一个空项目, 将该仓库push即可.
 
-issue需要通过标签管理, 所以需要先创建`daily`与`dailypick`标签. 否则会报错
+step2: 手动添加label
+
+**issue需要通过标签管理, 所以需要先创建`pick`, `daily`与`dailypick`标签. 否则会报错**
+
+step3: 创建github token
 
 在secret中配置`MY_GITHUB_TOKEN`, 点击这里[生成](https://github.com/settings/tokens/new), 只需要给repo权限即可.
+
+step4: 配置钉钉机器人的token
 
 当前只支持钉钉推送, 需要先[注册钉钉机器人](https://open.dingtalk.com/document/robots/custom-robot-access), 选择加签的方式. 
 
 然后在github secret中配置`DINGTALK_KEY` , `DINGTALK_SECRET`, `PICKER_DINGTALK_KEY`, `PICKER_DINGTALK_SECRET`
 
 可以配置两个不同的钉钉机器人, 也可以只配置一个, 如果只有一个所有消息均通过同一个机器人推送.
+
+其他的推送渠道请自行添加, 可以参考yarb与picker中的代码, 修改下markdown模板即可实现.
 
 ### 本地搭建
 需要在本地安装 github-cli ,并登录.
