@@ -1,0 +1,209 @@
+{
+    "TRY博客": {
+        "渗透测试|CobaltStrike-[Cat]-4.5-兔年快乐-猫猫版": "https://www.nctry.com/2689.html"
+    },
+    "安全客-有思想的安全新媒体": {
+        "日本多个中央部门电邮地址遭泄露，厚生劳动大臣中招": "https://www.anquanke.com/post/id/285763",
+        "亚马逊AWS、微软和 Google 都是FTX的债权人": "https://www.anquanke.com/post/id/285735",
+        "RCE Lexmark打印机漏洞或已被公开利用": "https://www.anquanke.com/post/id/285760",
+        "西非“杀猪”盘，冒充美国财务顾问行骗": "https://www.anquanke.com/post/id/285756",
+        "Sandworm黑客组织利用数据擦除器攻击新闻机构": "https://www.anquanke.com/post/id/285752",
+        "英国网络机构警告俄罗斯和伊朗黑客针对关键行业": "https://www.anquanke.com/post/id/285748",
+        "俄罗斯黑客攻破《暗黑破坏神4》测试版，自己开私服": "https://www.anquanke.com/post/id/285724"
+    },
+    "Twitter @Nicolas Krassas": {
+        "The 100+ Million Person Data Disclosure": "https://twitter.com/Dinosn/status/1619769490249764865",
+        "RT Chetan Nayak (Brute Ratel C4 Author): Some EDRs catch indirect syscalls with callstack analysis. Here is a totally new technique which build a clea...": "https://twitter.com/NinjaParanoid/status/1619734139602866176",
+        "RT Youssef Sammouda: ATO of FB/OC accounts after stealing access_tokens ($44,250) DOM-XSS in Instant Games due to improper verifications ($62,500?) AT...": "https://twitter.com/samm0uda/status/1619685003478319105",
+        "Yaralyzer - Visually Inspect And Force Decode YARA And Regex Matches Found In Both Binary And Text Data, With Colors": "https://twitter.com/Dinosn/status/1619682377361678336",
+        "HTB: Ambassador": "https://twitter.com/Dinosn/status/1619595665751040000",
+        "Gootkit Malware Continues to Evolve with New Components and Obfuscations": "https://twitter.com/Dinosn/status/1619595286846001154",
+        "Asking MEMORY.DMP and Volatility to make up": "https://twitter.com/Dinosn/status/1619536506015875073",
+        "Researchers to release VMware vRealize Log RCE exploit, patch now": "https://twitter.com/Dinosn/status/1619536426554757120",
+        "Hackers use new SwiftSlicer wiper to destroy Windows domains": "https://twitter.com/Dinosn/status/1619536348872065025",
+        "RT rootsecdev: Will have to write a post on abusing SeManageVolumePrivilege This exploit grants full permission on C:\\ drive for all users on the mach...": "https://twitter.com/rootsecdev/status/1619522744818745347"
+    },
+    "先知安全技术社区": {
+        "Java Zip Slip漏洞案例分析及实战挖掘": "https://xz.aliyun.com/t/12081",
+        "6.bWAPP XSS": "https://xz.aliyun.com/t/12080"
+    },
+    "obaby@mars": {
+        "也谈chatGPT": "https://h4ck.org.cn/2023/01/%e4%b9%9f%e8%b0%88chatgpt/"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for Command Injection in Pdfkit Project Pdfkit exploit": "https://sploitus.com/exploit?id=38A6D118-ABAB-59DD-9EA2-5FD83636A6BE&utm_source=rss&utm_medium=rss",
+        "Exploit for CVE-2023-24055 exploit": "https://sploitus.com/exploit?id=CA5ECB54-1A68-5CF2-B209-3326ADF51E49&utm_source=rss&utm_medium=rss"
+    },
+    "SecWiki News": {
+        "SecWiki News 2023-01-29 Review": "http://www.sec-wiki.com/?2023-01-29"
+    },
+    "Security Boulevard": {
+        "USENIX Security ’22 – ‘Towards Automatically Reverse Engineering Vehicle Diagnostic Protocols’": "https://securityboulevard.com/2023/01/usenix-security-22-towards-automatically-reverse-engineering-vehicle-diagnostic-protocols/",
+        "ChatGPT: Hopes, Dreams, Cheating and Cybersecurity": "https://securityboulevard.com/2023/01/chatgpt-hopes-dreams-cheating-and-cybersecurity/"
+    },
+    "unSafe.sh - 不安全": {
+        "GitHub 用户数突破 1 亿": "https://buaq.net/go-147102.html",
+        "自然摄影师将其所有作品发布到公有领域": "https://buaq.net/go-147103.html",
+        "AutoHotkey v2 正式释出": "https://buaq.net/go-147085.html",
+        "狼消灭了鹿学会捕捉海獭": "https://buaq.net/go-147086.html",
+        "Java Zip Slip漏洞案例分析及实战挖掘": "https://buaq.net/go-147076.html",
+        "Yaralyzer - Visually Inspect And Force Decode YARA And Regex Matches Found In Both Binary And Text Data, With Colors": "https://buaq.net/go-147070.html",
+        "IOS 16下必须开启开发者模式才能真机": "https://buaq.net/go-147071.html",
+        "升级 iOS 16 后没有开发者模式怎么办？如何打开开发者模式？": "https://buaq.net/go-147072.html",
+        "FreeBuf早报 | 受害者不支付赎金，黑客收入下降；俄外交部：美国正在入侵网络空间": "https://buaq.net/go-147129.html",
+        "Mirroring GitHub projects in 2023": "https://buaq.net/go-147093.html",
+        "GitHub、微软和 OpenAI 以合理使用反驳集体诉讼": "https://buaq.net/go-147056.html",
+        "解决真机调试Failed to prepare device for development.报错,Xcode 不能安装APP": "https://buaq.net/go-147058.html",
+        "免升级Xcode 解决 “Unsupported OS version”": "https://buaq.net/go-147059.html",
+        "世界经济论坛：2023年全球网络安全展望": "https://buaq.net/go-147055.html",
+        "玩好私域电商必须掌握的五大商业“须知”": "https://buaq.net/go-147060.html",
+        "通用汽车向被硅谷裁掉的员工伸出橄榄枝": "https://buaq.net/go-147057.html",
+        "教育大公司玩转短视频账号，为什么这么难？": "https://buaq.net/go-147061.html"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sun Jan 29 05:56:28 UTC 2023": "https://github.com/trickest/cve/commit/ec9c98defcdb8b81e77f8dce963b79d242b29fa4"
+    },
+    "安全脉搏": {
+        "互联网中断检测技术窥览与讨论": "https://www.secpulse.com/archives/195112.html",
+        "冰蝎V4.0流量分析到攻防检测": "https://www.secpulse.com/archives/195173.html",
+        "Windows Defender的一些渗透知识": "https://www.secpulse.com/archives/195152.html",
+        "某达摄像头的漏洞挖掘经历": "https://www.secpulse.com/archives/195088.html"
+    },
+    "MaskRay": {
+        "All about UndefinedBehaviorSanitizer": "https://maskray.me/blog/2023-01-29-all-about-undefined-behavior-sanitizer"
+    },
+    "Alexander Popov": {
+        "Mirroring GitHub projects in 2023": "https://a13xp0p0v.github.io/2023/01/29/mirroring-github-projects.html"
+    },
+    "SAP Blogs": {
+        "Alignment of SAP Focused Build with SAP S/4HANA Projects": "https://blogs.sap.com/2023/01/29/alignment-of-sap-focused-build-with-sap-s-4hana-projects/",
+        "Adaptieren von SAP Focused Build auf SAP S/4HANA Projekte": "https://blogs.sap.com/2023/01/29/adaptieren-von-sap-focused-build-auf-sap-s-4hana-projekte/",
+        "The Power of Exploring New Perspectives": "https://blogs.sap.com/2023/01/29/the-power-of-exploring-new-perspectives/",
+        "Power of serverless with SAP BTP, Kyma runtime. Base image override.": "https://blogs.sap.com/2023/01/29/power-of-serverless-with-sap-btp-kyma-runtime.-base-image-override./",
+        "[Part – 2] Enrich CAP based Services with Behaviors using Annotations": "https://blogs.sap.com/2023/01/29/part-2-enrich-cap-based-services-with-behaviors-using-annotations/",
+        "Build a simple message spark usage notification iflow": "https://blogs.sap.com/2023/01/29/build-a-simple-message-spark-usage-notification-iflow/",
+        "Scrap Value, Cut off Value and Memo Value in Fixed Asset Accounting": "https://blogs.sap.com/2023/01/29/scrap-value-cut-off-value-and-memo-value-in-fixed-asset-accounting/"
+    },
+    "The Daily Swig | Cybersecurity news and views": {
+        "Tell us what you think: The Daily Swig reader survey 2023": "https://portswigger.net/daily-swig/tell-us-what-you-think-the-daily-swig-reader-survey-2023"
+    },
+    "体验盒子": {
+        "IOS 16下必须开启开发者模式才能真机": "https://www.uedbox.com/post/68709/",
+        "升级 iOS 16 后没有开发者模式怎么办？如何打开开发者模式？": "https://www.uedbox.com/post/68710/",
+        "解决真机调试Failed to prepare device for development.报错,Xcode 不能安装APP": "https://www.uedbox.com/post/68707/",
+        "免升级Xcode 解决 “Unsupported OS version”": "https://www.uedbox.com/post/68706/",
+        "玩好私域电商必须掌握的五大商业“须知”": "https://www.uedbox.com/post/68704/",
+        "教育大公司玩转短视频账号，为什么这么难？": "https://www.uedbox.com/post/68701/",
+        "自媒体短视频必备10个无版权免费图片/视频资源网站": "https://www.uedbox.com/post/68698/"
+    },
+    "Reverse Engineering": {
+        "Extracting Syscalls from a Suspended Process": "https://www.reddit.com/r/ReverseEngineering/comments/10o2xzc/extracting_syscalls_from_a_suspended_process/"
+    },
+    "博客园 - 渗透测试中心": {
+        "内网渗透之中间人欺骗攻击 - 渗透测试中心": "https://www.cnblogs.com/backlion/p/17072551.html",
+        "API安全学习笔记 - 渗透测试中心": "https://www.cnblogs.com/backlion/p/17072527.html"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "GitHub 用户数突破 1 亿": "https://www.solidot.org/story?sid=73981",
+        "自然摄影师将其所有作品发布到公有领域": "https://www.solidot.org/story?sid=73980",
+        "AutoHotkey v2 正式释出": "https://www.solidot.org/story?sid=73979",
+        "狼消灭了鹿学会捕捉海獭": "https://www.solidot.org/story?sid=73978",
+        "GitHub、微软和 OpenAI 以合理使用反驳集体诉讼": "https://www.solidot.org/story?sid=73977",
+        "通用汽车向被硅谷裁掉的员工伸出橄榄枝": "https://www.solidot.org/story?sid=73976",
+        "受害者拒绝支付赎金，勒索者的收入下降": "https://www.solidot.org/story?sid=73975",
+        "《阿凡达：水之道》全球票房跃居史上第四": "https://www.solidot.org/story?sid=73974",
+        "Canonical 宣布 Ubuntu Pro GA，对五台以内 PC 免费": "https://www.solidot.org/story?sid=73973",
+        "五家加密货币交易所处理了大部分黑市套现": "https://www.solidot.org/story?sid=73972"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "Yaralyzer - Visually Inspect And Force Decode YARA And Regex Matches Found In Both Binary And Text Data, With Colors": "http://www.kitploit.com/2023/01/yaralyzer-visually-inspect-and-force.html"
+    },
+    "黑海洋 - WIKI": {
+        "利用Cloudflare Pages和elegraph-Image搭建自己的图床": "https://blog.upx8.com/3205",
+        "亚马逊云Amazon CloudFront（内容分发网络CDN）免费1TB数据加速教程": "https://blog.upx8.com/3204",
+        "SMS-MAN全球付费接码平台": "https://blog.upx8.com/3203"
+    },
+    "FreeBuf网络安全行业门户": {
+        "FreeBuf早报 | 受害者不支付赎金，黑客收入下降；俄外交部：美国正在入侵网络空间": "https://www.freebuf.com/news/355915.html",
+        "世界经济论坛：2023年全球网络安全展望": "https://www.freebuf.com/news/355905.html",
+        "俄IT巨头源代码被一锅端，公司否认黑客入侵": "https://www.freebuf.com/news/355880.html"
+    },
+    "Twitter @hakivvi": {
+        "RT PwnFunction: 👌": "https://twitter.com/PwnFunction/status/1619618521566306305"
+    },
+    "网安寻路人": {
+        "德克萨斯项目：TikTok计划在美国继续运营的细节（外专观点）": "https://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247498847&idx=1&sn=d8cabd3fc2129c155f8a5bd61fc81082&chksm=97e941b5a09ec8a33a77de7748f3179b1ea0467a3283e33c4df9c8183f50d19450b68b7b0259&scene=58&subscene=0#rd"
+    },
+    "情报分析师": {
+        "认知战和武力使用（附定义认知域报告）": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650524723&idx=1&sn=7d9c284995ab7ff17d2e53a990f0a7a5&chksm=8716e278b0616b6e206cf5bafc545d70732038c70e2ad720b30fde20daf6a702a830a120b0de&scene=58&subscene=0#rd"
+    },
+    "锦行信息安全": {
+        "旺年赴新程，新春开门红！": "https://mp.weixin.qq.com/s?__biz=MzIxNTQxMjQyNg==&mid=2247491133&idx=1&sn=cdf89a4593cd5ce7f391f454e36c990d&chksm=9799e598a0ee6c8e040a8c20e47cec6953312d1abcfb8b1dfcd1ab5eb1e502427702bf3a469f&scene=58&subscene=0#rd"
+    },
+    "58安全应急响应中心": {
+        "58SRC开工啦~": "https://mp.weixin.qq.com/s?__biz=MzU4NTMzNjU4Mw==&mid=2247489627&idx=1&sn=910cad610843c5473ceaca7cc4759b40&chksm=fd8d4a33cafac32522ce8dab3a793a7b3bb0c52555d0751a0067ba3b7a70f8cff15ac3437342&scene=58&subscene=0#rd"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Informatici Forensi in Commissione Giustizia al Senato sulle Intercettazioni": "https://www.dalchecco.it/informatici-forensi-senato-captatori-intercettazioni/",
+        "An Annotated Field Guide to Identifying Phish - TidBITS": "https://tidbits.com/2023/01/16/an-annotated-field-guide-to-identifying-phish/",
+        "Messaggistica nativa in Firefox": "https://hackerjournal.it/11253/messaggistica-nativa-in-firefox/",
+        "Latvia confirms phishing attack on Ministry of Defense, linking it to Russian hacking group": "https://therecord.media/latvia-confirms-phishing-attack-on-ministry-of-defense-linking-it-to-russian-hacking-group/",
+        "Update vRealize now! VMware patches critical RCE vulnerabilities": "https://www.malwarebytes.com/blog/news/2023/01/update-vrealize-now-vmware-patches-critical-rce-vulnerabilities",
+        "Hive! Hive! Hive! Ransomware site submerged by FBI": "https://www.malwarebytes.com/blog/news/2023/01/hive-ransomware-infrastructure-taken-down",
+        "Hackers use new SwiftSlicer wiper to destroy Windows domains": "https://www.bleepingcomputer.com/news/security/hackers-use-new-swiftslicer-wiper-to-destroy-windows-domains/",
+        "Researchers to release VMware vRealize Log RCE exploit, patch now": "https://www.bleepingcomputer.com/news/security/researchers-to-release-vmware-vrealize-log-rce-exploit-patch-now/"
+    },
+    "极客公园": {
+        "只需一段话，「一键生成」短视频的工具来了": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652981876&idx=1&sn=555139cd95bed3308d789abaff4178bb&chksm=7e5437c24923bed4cd17b1ff57de32722bde68fc23f1bb215860589e893d7c74940e82236237&scene=58&subscene=0#rd",
+        "抖音超市上线；《原神》蝉联出海手游收入冠军；亚马逊用 ChatGPT 辅助编写代码等工作 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652981852&idx=1&sn=b903f51afb9812d01b37400ba2ecefa7&chksm=7e5437ea4923befc34bc1fcb18d0b7a68a1720bacecec7a0404eb4fba319beeab110b5d1bbee&scene=58&subscene=0#rd"
+    },
+    "Daniel Miessler": {
+        "Summary: Andrej Kaparthy on Lex Fridman’s Podcast (Late 2022)": "https://danielmiessler.com/projects/summaries/kaparthy-fridman-2022/"
+    },
+    "TorrentFreak": {
+        "Watching Pirate Streams in the UK is Illegal: Risk of Prosecution “Minimal”": "https://torrentfreak.com/watching-pirate-streams-in-the-uk-is-illegal-risk-of-prosecution-minimal-230129/"
+    },
+    "Youssef Sammouda": {
+        "Account Takeover in Canvas Apps served in Comet due to failure in Cross-Window-Message Origin validation": "https://ysamm.com/?p=783",
+        "DOM-XSS in Instant Games due to improper verification of supplied URLs": "https://ysamm.com/?p=779",
+        "Account takeover of Facebook/Oculus accounts due to First-Party access_token stealing": "https://ysamm.com/?p=777"
+    },
+    "ToolsWatch.org": {
+        "Black Hat Singapore 2023 :  ToolsWatch Academy Training  “Practical IOT Hacking”": "https://toolswatch.org/2023/01/black-hat-singapore-2023-toolswatch-academy-training-practical-iot-hacking/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "Yaralyzer - Visually Inspect And Force Decode YARA And Regex Matches Found In Both Binary And Text Data, With Colors": "http://www.kitploit.com/2023/01/yaralyzer-visually-inspect-and-force.html"
+    },
+    "Technical Information Security Content & Discussion": {
+        "/r/netsec's Q1 2023 Information Security Hiring Thread": "https://www.reddit.com/r/netsec/comments/10obo8n/rnetsecs_q1_2023_information_security_hiring/",
+        "Hackers Using Microsoft OneNote Attachments To Spread Malware": "https://www.reddit.com/r/netsec/comments/10oe8vz/hackers_using_microsoft_onenote_attachments_to/",
+        "PHP Development Server <= 7.4.21 - Remote Source Disclosure": "https://www.reddit.com/r/netsec/comments/10o41h0/php_development_server_7421_remote_source/"
+    },
+    "Your Hacking Tutorial by Zempirians": {
+        "How to identify a potential encoded or hashed string": "https://www.reddit.com/r/HowToHack/comments/10o8s6f/how_to_identify_a_potential_encoded_or_hashed/",
+        "Hack Question": "https://www.reddit.com/r/HowToHack/comments/10nwk20/hack_question/",
+        "Weird characters in UART ONLY after Busybox loads and only when I type.": "https://www.reddit.com/r/HowToHack/comments/10nvnof/weird_characters_in_uart_only_after_busybox_loads/",
+        "Are snap hacks legit or just straight up scams?": "https://www.reddit.com/r/HowToHack/comments/10ntqhi/are_snap_hacks_legit_or_just_straight_up_scams/"
+    },
+    "Social Engineering": {
+        "Using WhatsApp to find the owner of a phone number. Could someone elaborate?": "https://www.reddit.com/r/SocialEngineering/comments/10olorr/using_whatsapp_to_find_the_owner_of_a_phone/"
+    },
+    "Computer Forensics": {
+        "Ftkimager CLI logical image without unallocated space": "https://www.reddit.com/r/computerforensics/comments/10oe5tm/ftkimager_cli_logical_image_without_unallocated/",
+        "SANS FOR500 roadmap (seeking advice)": "https://www.reddit.com/r/computerforensics/comments/10nvu24/sans_for500_roadmap_seeking_advice/"
+    },
+    "Security Affairs": {
+        "Alleged member of ShinyHunters group extradited to the US, could face 116 years in jail": "https://securityaffairs.com/141489/cyber-crime/shinyhunters-member-extradited-us.html",
+        "Pro-Russia group Killnet targets Germany due to its support to Ukraine": "https://securityaffairs.com/141513/hacktivism/killnet-targets-germany.html",
+        "Security Affairs newsletter Round 404 by Pierluigi Paganini": "https://securityaffairs.com/141509/breaking-news/security-affairs-newsletter-round-404-by-pierluigi-paganini.html",
+        "Watch out! Experts plans to release VMware vRealize Log RCE exploit next week": "https://securityaffairs.com/141495/hacking/poc-exploit-vmware-vrealize-log-rce.html"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "What Cyber Security Topics Are You Dying to Learn About?": "https://www.reddit.com/r/netsecstudents/comments/10obajh/what_cyber_security_topics_are_you_dying_to_learn/",
+        "Need help to identify potential encoded or hashed string": "https://www.reddit.com/r/netsecstudents/comments/10o8r4k/need_help_to_identify_potential_encoded_or_hashed/",
+        "Wireless pen testing course": "https://www.reddit.com/r/netsecstudents/comments/10nynui/wireless_pen_testing_course/"
+    },
+    "The Hacker News": {
+        "Gootkit Malware Continues to Evolve with New Components and Obfuscations": "https://thehackernews.com/2023/01/gootkit-malware-continues-to-evolve.html"
+    }
+}
