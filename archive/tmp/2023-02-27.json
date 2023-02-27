@@ -1,0 +1,150 @@
+{
+    "嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com": {
+        "细述SQL注入攻击杀伤链的七个步骤": "https://www.4hou.com/posts/zl1m",
+        "2023年10佳免费开源的威胁猎杀工具": "https://www.4hou.com/posts/ZXAR"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sun Feb 26 05:55:28 UTC 2023": "https://github.com/trickest/cve/commit/a487d40ebc3e979fa2169f22608f2e67e6c31378"
+    },
+    "CXSECURITY Database RSS Feed - CXSecurity.com": {
+        "Auto Dealer Management System 1.0 SQL Injection": "https://cxsecurity.com/issue/WLB-2023020045",
+        "Music Gallery Site 1.0 Privilege Escalation / Missing Authentication": "https://cxsecurity.com/issue/WLB-2023020044",
+        "Kshitish 2.0 Default Credentials": "https://cxsecurity.com/issue/WLB-2023020043",
+        "Auto Dealer Management System 1.0 Privilege Escalation": "https://cxsecurity.com/issue/WLB-2023020042"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for Improper Initialization in Linux Linux Kernel exploit": "https://sploitus.com/exploit?id=CA758B0E-756E-5AC0-B536-57A87282F901&utm_source=rss&utm_medium=rss",
+        "Exploit for Externally Controlled Reference to a Resource in Another Sphere in Fortinet Fortinac exploit": "https://sploitus.com/exploit?id=E42FF09C-161E-561F-A0C7-2AE449BDB571&utm_source=rss&utm_medium=rss",
+        "Exploit for Deserialization of Untrusted Data in Fortra Goanywhere Managed File Transfer exploit": "https://sploitus.com/exploit?id=F3C7A9D6-1798-529A-BFAB-6A9995BEA25F&utm_source=rss&utm_medium=rss"
+    },
+    "unSafe.sh - 不安全": {
+        "Mozilla 发现八成的 Google Play 应用安全标签是不精确的": "https://buaq.net/go-151091.html",
+        "Exploring the Dangers of SQL Injection and Cross-Site Scripting: A Comprehensive Guide to Web…": "https://buaq.net/go-151064.html",
+        "How To Attack Admin Panels Successfully Part 3": "https://buaq.net/go-151065.html",
+        "How I was able to Turn a XSS into A Account Takeover": "https://buaq.net/go-151066.html",
+        "Bypassing CORS configurations to produce an Account Takeover for Fun and Profit": "https://buaq.net/go-151067.html",
+        "诺基亚推出可在家自己维修的 Android 手机": "https://buaq.net/go-151069.html",
+        "SXDork - A Powerful Tool That Utilizes The Technique Of Google Dorking To Search For Specific Information On The Internet": "https://buaq.net/go-151047.html",
+        "图图记账 - 高颜值简单好用的 iPhone 手机记账 APP 工具": "https://buaq.net/go-151068.html",
+        "用了小米 13 两个月，我还有什么好抱怨的？": "https://buaq.net/go-151041.html",
+        "亚马逊上的驴肉问题": "https://buaq.net/go-151070.html",
+        "NETCH 游戏加速器设置 SSR 教程": "https://buaq.net/go-151034.html",
+        "细述SQL注入攻击杀伤链的七个步骤": "https://buaq.net/go-151028.html"
+    },
+    "SecWiki News": {
+        "SecWiki News 2023-02-26 Review": "http://www.sec-wiki.com/?2023-02-26"
+    },
+    "Envato Tuts+ Code - Mobile Development": {
+        "13 Best HTML5 Game Templates of 2023 With Source Code": "https://code.tutsplus.com/tutorials/20-best-html5-game-templates-of-2017--cms-28892"
+    },
+    "Security Boulevard": {
+        "Tesla Racing Instructor Warns Sudden Acceleration A Design Flaw: NOT Driver Fault": "https://securityboulevard.com/2023/02/tesla-racing-instructor-warns-sudden-acceleration-a-design-flaw-not-driver-fault/",
+        "USENIX Security ’22 – Kevin Burk, Fabio Pagani, Christopher Kruegel, Giovanni Vigna – ‘Decomperson: How Humans Decompile And What We Can Learn From It’": "https://securityboulevard.com/2023/02/usenix-security-22-kevin-burk-fabio-pagani-christopher-kruegel-giovanni-vigna-decomperson-how-humans-decompile-and-what-we-can-learn-from-it/",
+        "The Third Line of Defense: Auditors Must Embrace Compliance Technology in a Changing World": "https://securityboulevard.com/2023/02/the-third-line-of-defense-auditors-must-embrace-compliance-technology-in-a-changing-world/",
+        "One Year Later: Cyber Battles Still Rage in Ukraine": "https://securityboulevard.com/2023/02/one-year-later-cyber-battles-still-rage-in-ukraine/",
+        "Implementing Data Diode Pattern on AWS for Data Loss Prevention (DLP) and Zero Trust Access Control": "https://securityboulevard.com/2023/02/implementing-data-diode-pattern-on-aws-for-data-loss-prevention-dlp-and-zero-trust-access-control/",
+        "How to prepare for initial FedRAMP ATO kickoff and Agency briefing?": "https://securityboulevard.com/2023/02/how-to-prepare-for-initial-fedramp-ato-kickoff-and-agency-briefing/",
+        "Increasing Evidence Tesla Drivers Burn to Death While Unable to Open Any Door": "https://securityboulevard.com/2023/02/increasing-evidence-tesla-drivers-burn-to-death-while-unable-to-open-any-door/"
+    },
+    "Twitter @Nicolas Krassas": {
+        "CVE-Vulnerability-Information-Downloader - Downloads Information From NIST (CVSS), http://First.Org (EPSS), And CISA (Exploited Vulnerabilities) And C...": "https://twitter.com/Dinosn/status/1629794839347732480",
+        "HTB: Awkward https://0xdf.gitlab.io/2023/02/25/htb-awkward.html": "https://twitter.com/Dinosn/status/1629794149800071171",
+        "Convex - 150,129 breached accounts https://haveibeenpwned.com/PwnedWebsites#Convex": "https://twitter.com/Dinosn/status/1629794047224082432",
+        "RT kmkz: CVE-2022-25845: Analyzing the Fastjson “Auto Type Bypass” RCE vulnerability https://jfrog.com/blog/cve-2022-25845-analyzing-the-fastjson-au...": "https://twitter.com/kmkz_security/status/1629772938390937601",
+        "Dish Network goes offline after likely cyberattack, employees cut off https://www.bleepingcomputer.com/news/security/dish-network-goes-offline-after-l...": "https://twitter.com/Dinosn/status/1629736323111059456"
+    },
+    "Twitter @bytehx": {
+        "Re @krishnsec @h4x0r_dz I confirm that @krishnsec is super good in recon!": "https://twitter.com/bytehx343/status/1629799011132768256",
+        "Re @x1m_martijn Yes sure man!": "https://twitter.com/bytehx343/status/1629695558880473088",
+        "Re @x1m_martijn Can we meet man? I am in BKK now.": "https://twitter.com/bytehx343/status/1629695143845720065"
+    },
+    "Didier Stevens": {
+        "Update: oledump.py Version 0.0.72": "https://blog.didierstevens.com/2023/02/26/update-oledump-py-version-0-0-72/"
+    },
+    "Bug Bounty in InfoSec Write-ups on Medium": {
+        "Exploring the Dangers of SQL Injection and Cross-Site Scripting: A Comprehensive Guide to Web…": "https://infosecwriteups.com/exploring-the-dangers-of-sql-injection-and-cross-site-scripting-a-comprehensive-guide-to-web-51f586876403?source=rss----7b722bfd1b8d--bug_bounty",
+        "How To Attack Admin Panels Successfully Part 3": "https://infosecwriteups.com/how-to-attack-admin-panels-successfully-part-3-ccf36cbc1c57?source=rss----7b722bfd1b8d--bug_bounty",
+        "How I was able to Turn a XSS into A Account Takeover": "https://infosecwriteups.com/how-i-was-able-to-turn-a-xss-into-a-account-takeover-ae0c478640e7?source=rss----7b722bfd1b8d--bug_bounty",
+        "Bypassing CORS configurations to produce an Account Takeover for Fun and Profit": "https://infosecwriteups.com/bypassing-cors-configurations-to-produce-an-account-takeover-for-fun-and-profit-3e50c3f2a124?source=rss----7b722bfd1b8d--bug_bounty"
+    },
+    "SAP Blogs": {
+        "Inbound Email integration from O365 to SAP S4 via SAP CPI": "https://blogs.sap.com/2023/02/26/inbound-email-integration-from-o365-to-sap-s4-via-sap-cpi/",
+        "SAP Commissions – Design & Extract Sales Incentive Compensation Plan": "https://blogs.sap.com/2023/02/26/sap-commissions-design-extract-sales-incentive-compensation-plan/",
+        "Revamp Your Portal’s Customer Experience: The 3 Key Impactful Areas You Need to Know!": "https://blogs.sap.com/2023/02/26/revamp-your-portals-customer-experience-the-3-key-impactful-areas-you-need-to-know/",
+        "Workload Fluctuations / Sizing and Optimal Number of Application Servers": "https://blogs.sap.com/2023/02/26/workload-fluctuations-sizing-and-optimal-number-of-application-servers/",
+        "SAP Fiori Catalog, Business Group & Role Creation": "https://blogs.sap.com/2023/02/26/sap-fiori-catalog-business-group-role-creation-2/",
+        "SAP Interfaces & OOP": "https://blogs.sap.com/2023/02/26/sap-interfaces-oop/",
+        "ABAPGit Installation on SAP NetWeaver developer edition 7.52": "https://blogs.sap.com/2023/02/26/abapgit-installation-on-sap-netweaver-developer-edition-7.52/"
+    },
+    "Reverse Engineering": {
+        "Short Guide to Loading Legacy U-Boot Images in Ghidra (How to Determine CONFIG_SYS_BASE_ADDR)": "https://www.reddit.com/r/ReverseEngineering/comments/11cplvs/short_guide_to_loading_legacy_uboot_images_in/"
+    },
+    "HAHWUL": {
+        "LazyVim으로 쉽고 아름답게 vim 설정하기 🌸": "https://www.hahwul.com/2023/02/27/make-the-vim-more-beautiful/"
+    },
+    "黑海洋 - WIKI": {
+        "NETCH 游戏加速器设置 SSR 教程": "https://blog.upx8.com/3245"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "SXDork - A Powerful Tool That Utilizes The Technique Of Google Dorking To Search For Specific Information On The Internet": "http://www.kitploit.com/2023/02/sxdork-powerful-tool-that-utilizes.html"
+    },
+    "暗影安全": {
+        "重磅发布|《企业智能身份管理趋势报告》": "https://mp.weixin.qq.com/s?__biz=MzI2MzA3OTgxOA==&mid=2657164360&idx=1&sn=3e855690f9cbf07d5849c2b232749e0c&chksm=f1d4eeadc6a367bbbf166d4c61e3313607679713878dcc9465d1bc81ced25a8b8b0718444ca3&scene=58&subscene=0#rd"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "Mozilla 发现八成的 Google Play 应用安全标签是不精确的": "https://www.solidot.org/story?sid=74238",
+        "诺基亚推出可在家自己维修的 Android 手机": "https://www.solidot.org/story?sid=74237",
+        "亚马逊上的驴肉问题": "https://www.solidot.org/story?sid=74236"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "In carcere negli Stati Uniti il criminal hacker dell’RDP Windows, Pankov": "https://www.insicurezzadigitale.com/in-carcere-negli-stati-uniti-il-criminal-hacker-dellrdp-windows-pankov/",
+        "Microsoft is bringing \"Paste as plain text\" to Windows apps with PowerToys": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-bringing-paste-as-plain-text-to-windows-apps-with-powertoys/",
+        "Sintesi riepilogativa delle campagne malevole nella settimana del 18 – 24 febbraio 2023": "https://cert-agid.gov.it/news/sintesi-riepilogativa-delle-campagne-malevole-nella-settimana-del-18-24-febbraio-2023/",
+        "ChromeLoader campaign lures with malicious VHDs for popular games": "https://www.bleepingcomputer.com/news/security/chromeloader-campaign-lures-with-malicious-vhds-for-popular-games/",
+        "Microsoft Edge's built-in VPN support is around the corner": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edges-built-in-vpn-support-is-around-the-corner/",
+        "Rilasciata la distro Parrot Security 5.2": "https://hackerjournal.it/11402/rilasciata-la-distro-parrot-security-5-2/",
+        "NINAsec: il gruppo ransomware Vendetta": "https://www.insicurezzadigitale.com/ninasec-il-gruppo-ransomware-vendetta/"
+    },
+    "Have I Been Pwned latest breaches": {
+        "Convex - 150,129 breached accounts": "https://haveibeenpwned.com/PwnedWebsites#Convex"
+    },
+    "Il Disinformatico": {
+        "Come tornare alla versione precedente di Tweetdeck": "http://attivissimo.blogspot.com/2023/02/come-tornare-alla-versione-precedente.html",
+        "Una tastiera d’ascensore speciale. Quella di SpaceX": "http://attivissimo.blogspot.com/2023/02/una-tastiera-dascensore-speciale-quella.html",
+        "Chiedo aiuto per contattare Telegram": "http://attivissimo.blogspot.com/2023/02/chiedo-aiuto-per-contattare-telegram.html"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "oledump &#x26; MSI Files, (Sun, Feb 26th)": "https://isc.sans.edu/diary/rss/29584",
+        "Crypto Inside a Browser, (Sat, Feb 25th)": "https://isc.sans.edu/diary/rss/29582"
+    },
+    "Troy Hunt's Blog": {
+        "Weekly Update 336": "https://www.troyhunt.com/weekly-update-336/"
+    },
+    "Hakin9 –  IT Security Magazine": {
+        "A review of some encryption methodologies and an introduction to a new methodology that may challenge the National Security Agency.": "https://hakin9.org/a-review-of-some-encryption-methodologies-and-an-introduction-to-a-new-methodology-that-may-challenge-the-national-security-agency/",
+        "Interview with Karan Dwivedi - For Hakin9 Magazine": "https://hakin9.org/interview-with-karan-dwivedi-for-hakin9-magazine/",
+        "Hacking Destruction Algorithms": "https://hakin9.org/hacking-destruction-algorithms/"
+    },
+    "Security Affairs": {
+        "Ransomware attack on food giant Dole Food Company blocked North America production": "https://securityaffairs.com/142726/cyber-crime/dole-food-company-ransomware-attack.html",
+        "Pro-Ukraine hackers CH01 defaced tens of Russian websites on the invasion anniversary": "https://securityaffairs.com/142713/hacktivism/ch01-defaced-russian-websites.html",
+        "News Corp says hackers first breached its systems between Feb 2020 and Jan 2022": "https://securityaffairs.com/142701/data-breach/news-corp-security-breach.html",
+        "Security Affairs newsletter Round 408 by Pierluigi Paganini": "https://securityaffairs.com/142698/breaking-news/security-affairs-newsletter-round-408-by-pierluigi-paganini.html"
+    },
+    "Technical Information Security Content & Discussion": {
+        "open-appsec provides ML-based API Security add-on for Kong API Gateways": "https://www.reddit.com/r/netsec/comments/11cbabv/openappsec_provides_mlbased_api_security_addon/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "SXDork - A Powerful Tool That Utilizes The Technique Of Google Dorking To Search For Specific Information On The Internet": "http://www.kitploit.com/2023/02/sxdork-powerful-tool-that-utilizes.html"
+    },
+    "Social Engineering": {
+        "“The reach of our explanations is bounded only by the laws of physics. Therefore, anything that is physically possible can be achieved given the requisite knowledge.”": "https://www.reddit.com/r/SocialEngineering/comments/11cdfn5/the_reach_of_our_explanations_is_bounded_only_by/",
+        "Manufacturing a fake personality": "https://www.reddit.com/r/SocialEngineering/comments/11cffwa/manufacturing_a_fake_personality/"
+    },
+    "The Register - Security": {
+        "Microsoft: For better security, scan more Exchange server objects": "https://go.theregister.com/feed/www.theregister.com/2023/02/26/microsoft_exchange_server_exclusion/"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "IP Tools - a Network Managing App": "https://www.reddit.com/r/netsecstudents/comments/11cqcxl/ip_tools_a_network_managing_app/"
+    }
+}
