@@ -296,6 +296,7 @@ def argument():
     parser.add_argument('--push-issue', help="update issue")
     parser.add_argument("--update-pick", help="update pick", action='store_true')
     parser.add_argument("--push-comment", help="update comment")
+    parser.add_argument("--check", help="check bots")
     return parser.parse_args()
 
 
@@ -320,5 +321,10 @@ if __name__ == '__main__':
         update_pick()
     elif args.push_comment:
         push_comment(args.push_comment)
+    elif args.check:
+        for bot in bots:
+            bot.send_raw("test title", "test content")
+        for bot in picker_bots:
+            bot.send_raw("test picker title", "test picker content")
     else:
         job(args, conf)
