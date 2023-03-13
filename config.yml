@@ -44,7 +44,7 @@ rss:
     filename: chinese-independent-blogs.opml
 bot:
   feishu:
-    enabled: false
+    enabled: true
     secrets: FEISHU_KEY
     key: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
   wecom:
@@ -52,7 +52,7 @@ bot:
     secrets: WECOM_KEY
     key: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
   dingtalk:
-    enabled: true
+    enabled: false
     secrets: DINGTALK_KEY
     key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -81,7 +81,11 @@ bot:
     key: xxxxxxxxxx
 pick_bot:
   dingtalk:
-    enabled: true
+    enabled: false
     secrets: DINGTALK_KEY
     key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  feishu:
+    enabled: true
+    secrets: FEISHU_KEY
+    key: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx

@@ -25,46 +25,54 @@ class feishuBot:
     """飞书群机器人
     https://open.feishu.cn/document/ukTMukTMukTM/ucTM5YjL3ETO24yNxkjN
     """
+
     def __init__(self, key, proxy_url='') -> None:
         self.key = key
         self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
 
     @staticmethod
-    def parse_results(results: list):
+    def parse_results(results: dict):
         text_list = []
-        for result in results:
-            (feed, value), = result.items()
-            text = f'[ {feed} ]\n\n'
-            for title, link in value.items():
-                text += f'{title}\n{link}\n\n'
-            text_list.append(text.strip())
+        for result in results.items():
+            feed, value = result
+            text = feed + ":\n" + ''.join(f'- [{title}]({link})\n' for title, link in value.items())
+            text_list.append([feed, text.strip()])
+        return text_list
+
+    @staticmethod
+    def parse_pick(results: dict):
+        text_list = []
+        for feed, articles in results.items():
+            text = f"[{today} 精选] " + feed + ":\n"
+            for title, link, issue_url in articles:
+                text += f'  - [{title}]({link}) - [discussion]({issue_url})\n'
+            text_list.append((feed, text))
         return text_list
 
     def send(self, text_list: list):
-        for text in text_list:
+        for title, text in text_list:
             print(f'{len(text)} {text[:50]}...{text[-50:]}')
+            self.send_raw(title, text)
 
-            data = {"msg_type": "text", "content": {"text": text}}
-            headers = {'Content-Type': 'application/json'}
-            url = f'https://open.feishu.cn/open-apis/bot/v2/hook/{self.key}'
-            r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
+    def send_raw(self, title, text):
+        data = {"msg_type": "text", "content": {title: title, "text": text}}
 
-            if r.status_code == 200:
-                Color.print_success('[+] feishuBot 发送成功')
-            else:
-                Color.print_failed('[-] feishuBot 发送失败')
-                print(r.text)
-
-    def send_markdown(self, text):
-        # TODO 富文本
-        data = {"msg_type": "text", "content": {"text": text}}
-        self.send(data)
+        headers = {'Content-Type': 'application/json'}
+        url = f'https://open.feishu.cn/open-apis/bot/v2/hook/{self.key}'
+        r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
+        if r.status_code == 200:
+            print(r.text)
+            Color.print_success('[+] feishuBot 发送成功')
+        else:
+            Color.print_failed('[-] feishuBot 发送失败')
+            print(r.text)
 
 
 class wecomBot:
     """企业微信群机器人
     https://developer.work.weixin.qq.com/document/path/91770
     """
+
     def __init__(self, key, proxy_url='') -> None:
         self.key = key
         self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
@@ -81,7 +89,7 @@ class wecomBot:
         return text_list
 
     def send(self, text_list: list):
-        limiter = Limiter(RequestRate(20, Duration.MINUTE))     # 频率限制，20条/分钟
+        limiter = Limiter(RequestRate(20, Duration.MINUTE))  # 频率限制，20条/分钟
         for text in text_list:
             with limiter.ratelimit('identity', delay=True):
                 print(f'{len(text)} {text[:50]}...{text[-50:]}')
@@ -102,6 +110,7 @@ class dingtalkBot:
     """钉钉群机器人
     https://open.dingtalk.com/document/robots/custom-robot-access
     """
+
     def __init__(self, key, secret, proxy_url='') -> None:
         self.key = key
         self.secret = secret
@@ -134,7 +143,7 @@ class dingtalkBot:
         return parse.quote_plus(base64.b64encode(hmac_code))
 
     def send(self, text_list: list):
-        limiter = Limiter(RequestRate(19, Duration.MINUTE + 1))     # 频率限制，20条/分钟
+        limiter = Limiter(RequestRate(19, Duration.MINUTE + 1))  # 频率限制，20条/分钟
         timestamp = str(round(time.time() * 1000))
         for (feed, text) in text_list:
             with limiter.ratelimit('identity', delay=True):
@@ -184,7 +193,7 @@ class qqBot:
         return text_list
 
     def send(self, text_list: list):
-        limiter = Limiter(RequestRate(20, Duration.MINUTE))     # 频率限制，20条/分钟
+        limiter = Limiter(RequestRate(20, Duration.MINUTE))  # 频率限制，20条/分钟
         for text in text_list:
             with limiter.ratelimit('identity', delay=True):
                 print(f'{len(text)} {text[:50]}...{text[-50:]}')
@@ -234,6 +243,7 @@ class qqBot:
 class mailBot:
     """邮件机器人
     """
+
     def __init__(self, sender, passwd, receiver: str, fromwho='', server='') -> None:
         self.sender = sender
         self.receiver = receiver
@@ -282,7 +292,6 @@ class mailBot:
         except Exception as e:
             Color.print_failed('[+] mailBot 发送失败')
             print(e)
-
 
 # class telegramBot:
 #     """Telegram机器人
