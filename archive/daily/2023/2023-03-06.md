@@ -1,0 +1,132 @@
+# 每日安全资讯（2023-03-06）
+
+- SecWiki News
+  - [ ] [SecWiki News 2023-03-05 Review](http://www.sec-wiki.com/?2023-03-05)
+- 先知安全技术社区
+  - [ ] [三层内网下的域渗透](https://xz.aliyun.com/t/12259)
+  - [ ] [RPC绕过EDR的研究与落地](https://xz.aliyun.com/t/12257)
+  - [ ] [ExchangePE（环境中快速寻找Exchange服务器）](https://xz.aliyun.com/t/12255)
+- 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
+  - [ ] [为网络轻松分段的七个步骤](https://www.4hou.com/posts/r7JE)
+  - [ ] [虚拟世界中需要注意的7种元宇宙犯罪](https://www.4hou.com/posts/l6z5)
+- Twitter @Nicolas Krassas
+  - [ ] [“StreamJacking” - Hijacking Hundreds of YouTube Channels Per Day Propagating Elon Musk Branded Crypto Giveaway Scams https://www.reddit.com/r/netsec...](https://twitter.com/Dinosn/status/1632437103614205952)
+  - [ ] [Obfuscating Rubeus using Codecepticon https://www.reddit.com/r/netsec/comments/11ivncl/obfuscating_rubeus_using_codecepticon/](https://twitter.com/Dinosn/status/1632436533851553795)
+  - [ ] [Passive Takeover - uncovering (and emulating) an expensive subdomain takeover campaign https://www.reddit.com/r/netsec/comments/11ivu90/passive_takeov...](https://twitter.com/Dinosn/status/1632436475945005058)
+  - [ ] [New TPM 2.0 flaws could let hackers steal cryptographic keys https://www.bleepingcomputer.com/news/security/new-tpm-20-flaws-could-let-hackers-steal-c...](https://twitter.com/Dinosn/status/1632343908758822913)
+  - [ ] [FiXS, a new ATM malware that is targeting Mexican banks https://securityaffairs.com/143022/malware/fixs-atm-malware-mexican-banks.html](https://twitter.com/Dinosn/status/1632343700134064128)
+  - [ ] [RedTeam-Physical-Tools - Red Team Toolkit - A Curated List Of Tools That Are Commonly Used In The Field For Physical Security, Red Teaming, And Tactic...](https://twitter.com/Dinosn/status/1632343076575354883)
+  - [ ] [LBB - 39,288 breached accounts https://haveibeenpwned.com/PwnedWebsites#LBB](https://twitter.com/Dinosn/status/1632342487271342082)
+- unSafe.sh - 不安全
+  - [ ] [研究发现老年人每天多走 500 步可减少患心脏病中风等的风险](https://buaq.net/go-152086.html)
+  - [ ] [研究显示海鸟避开了风力涡轮机叶片](https://buaq.net/go-152087.html)
+  - [ ] [社交网络上的虚假互动服务](https://buaq.net/go-152088.html)
+  - [ ] [CTF 中 PHP原生类的利用 – JohnFrod's Blog](https://buaq.net/go-152066.html)
+  - [ ] [FreeBuf早报 | 美国发布新版国家网络安全战略；电动汽车充电设施成为网络攻击新目标](https://buaq.net/go-152117.html)
+  - [ ] [RedTeam-Physical-Tools - Red Team Toolkit - A Curated List Of Tools That Are Commonly Used In The Field For Physical Security, Red Teaming, And Tactical Covert Entry](https://buaq.net/go-152058.html)
+  - [ ] [一日一技 | 用远程「投影」的方式，解决 Windows 微信双开需求](https://buaq.net/go-152065.html)
+  - [ ] [Linker notes on AArch64](https://buaq.net/go-152092.html)
+  - [ ] [从杜邦方程式财务视角看产品/业务规划方向 - 郑瀚Andrew](https://buaq.net/go-152044.html)
+  - [ ] [Create Your Own XSS Lab with ChatGPT](https://buaq.net/go-152046.html)
+  - [ ] [RCE Writeups](https://buaq.net/go-152047.html)
+  - [ ] [How to Improve Your Bug Bounty Performance Over Time?](https://buaq.net/go-152048.html)
+  - [ ] [taowu-cobalt-strike](https://buaq.net/go-152031.html)
+  - [ ] [Gh0st2023](https://buaq.net/go-152032.html)
+  - [ ] [cola_dnslog](https://buaq.net/go-152033.html)
+  - [ ] [SwordHost](https://buaq.net/go-152034.html)
+  - [ ] [CVE-2021-3157](https://buaq.net/go-152035.html)
+  - [ ] [RPC绕过EDR的研究与落地](https://buaq.net/go-152036.html)
+  - [ ] [ExchangePE（环境中快速寻找Exchange服务器）](https://buaq.net/go-152037.html)
+  - [ ] [为网络轻松分段的七个步骤](https://buaq.net/go-152025.html)
+- Sploitus.com Exploits RSS Feed
+  - [ ] [Exploit for Vulnerability in Netgate Pfblockerng exploit](https://sploitus.com/exploit?id=FD2D2165-817A-5929-9D58-9D9B33150C26&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for Server-Side Request Forgery in Theme-Fusion Avada exploit](https://sploitus.com/exploit?id=5E9DCD2E-92AA-5BFE-BDA1-9791FC4876CB&utm_source=rss&utm_medium=rss)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [ ] [Lucee Authenticated Scheduled Job Code Execution](https://cxsecurity.com/issue/WLB-2023030010)
+  - [ ] [Smart School : School Management System > All vers affected](https://cxsecurity.com/issue/WLB-2023030009)
+  - [ ] [WordPress Real Estate 7 Theme < = 3.3.4 - Multiple Cross-Site Request Forgery (CSRF) Vulnerabilities](https://cxsecurity.com/issue/WLB-2023030008)
+  - [ ] [WordPress Real Estate 7 Theme < = 3.3.4 - Unauthenticated Reflected Cross-Site Scripting (XSS)](https://cxsecurity.com/issue/WLB-2023030007)
+  - [ ] [WordPress WoodMart Theme < = 7.1.1 - Theme License Options Change via CSRF](https://cxsecurity.com/issue/WLB-2023030006)
+- Security Boulevard
+  - [ ] [Personal data [G Temp]](https://securityboulevard.com/2023/03/personal-data-g-temp/)
+  - [ ] [USENIX Security ’22 – Ning Luo, Samuel Judson, Timos Antonopoulos, Ruzica Piskac, Yale University; Xiao Wang – ‘ppSAT: Towards Two-Party Private SAT Solving’](https://securityboulevard.com/2023/03/usenix-security-22-ning-luo-samuel-judson-timos-antonopoulos-ruzica-piskac-yale-university-xiao-wang-ppsat-towards-two-party-private-sat-solving/)
+  - [ ] [New National Cybersecurity Strategy: What Do You Need to Know?](https://securityboulevard.com/2023/03/new-national-cybersecurity-strategy-what-do-you-need-to-know/)
+  - [ ] [Autonomous Vehicles Need No Drugs Or Drink To Be Bad Drivers](https://securityboulevard.com/2023/03/autonomous-vehicles-need-no-drugs-or-drink-to-be-bad-drivers/)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Mar  5 05:55:48 UTC 2023](https://github.com/trickest/cve/commit/f7adbf5b98c7c0fad9c73a56b2daf22d17da31bb)
+- MaskRay
+  - [ ] [Linker notes on AArch64](https://maskray.me/blog/2023-03-05-linker-notes-on-aarch64)
+- Bug Bounty in InfoSec Write-ups on Medium
+  - [ ] [Create Your Own XSS Lab with ChatGPT](https://infosecwriteups.com/create-your-own-xss-lab-with-chatgpt-385c4e5e7f35?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [RCE Writeups](https://infosecwriteups.com/command-injection-by-changing-the-logo-2d730887ab6c?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [How to Improve Your Bug Bounty Performance Over Time?](https://infosecwriteups.com/how-to-improve-your-bug-bounty-performance-over-time-5f4ace641db0?source=rss----7b722bfd1b8d--bug_bounty)
+- SAP Blogs
+  - [ ] [Custom Widget to Add Time Countdown in SAP Analytics Cloud](https://blogs.sap.com/2023/03/05/custom-widget-to-add-time-countdown-in-sap-analytics-cloud/)
+- FreeBuf网络安全行业门户
+  - [ ] [FreeBuf早报 | 美国发布新版国家网络安全战略；电动汽车充电设施成为网络攻击新目标](https://www.freebuf.com/news/359370.html)
+- KitPloit - PenTest & Hacking Tools
+  - [ ] [RedTeam-Physical-Tools - Red Team Toolkit - A Curated List Of Tools That Are Commonly Used In The Field For Physical Security, Red Teaming, And Tactical Covert Entry](http://www.kitploit.com/2023/03/redteam-physical-tools-red-team-toolkit.html)
+- 看雪学院
+  - [ ] [Galgame汉化中的逆向：动态汉化分析-以AZsystem引擎为例](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458496413&idx=1&sn=04fb33a23d7f577e89ba9d3e316c4824&chksm=b18e9d1786f914017fb4236de7c8e5911c736db390fdb1cb71d1e6c704b473565ddc82eb9159&scene=58&subscene=0#rd)
+  - [ ] [Windows 开发不完全指南：程序开发与逆向分析相辅相成](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458496413&idx=2&sn=a54cfbafbb7b403edf3970dfc6d9682a&chksm=b18e9d1786f91401eea5f7c125878edc8e87792950a34f54def5336aa1d01046935f385e6b27&scene=58&subscene=0#rd)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [研究发现老年人每天多走 500 步可减少患心脏病中风等的风险](https://www.solidot.org/story?sid=74303)
+  - [ ] [研究显示海鸟避开了风力涡轮机叶片](https://www.solidot.org/story?sid=74302)
+  - [ ] [社交网络上的虚假互动服务](https://www.solidot.org/story?sid=74301)
+- 博客园 - 郑瀚Andrew
+  - [ ] [从杜邦方程式财务视角看产品/业务规划方向 - 郑瀚Andrew](https://www.cnblogs.com/LittleHann/p/17180539.html)
+- 黑奇士
+  - [ ] [“蔚来强奸案”女受害人再次发声，称公司内有人因性骚扰而辞职](https://mp.weixin.qq.com/s?__biz=MzI5ODYwNTE4Nw==&mid=2247487407&idx=1&sn=950df41a1c990c8bde20cd64a19ebe29&chksm=eca20043dbd58955686ec72ba4f072b4fabf088351e6b909e60b9b4f4ca3fbde59311053e15e&scene=58&subscene=0#rd)
+- qz安全情报分析
+  - [ ] [先进攻防情报精选-第4期](https://mp.weixin.qq.com/s?__biz=MzI1MDA1MjcxMw==&mid=2649907989&idx=1&sn=537c74e4ba0abe098b587cb60eeb88a4&chksm=f18eea13c6f9630568f16d998ce6c60a93e2e7d5951aee73a9b7ccb2eafad6ecb85493c9169f&scene=58&subscene=0#rd)
+- 安全研究GoSSIP
+  - [ ] [【周末分享】Pwn.college 连载来啦（6-7集）](https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247494384&idx=1&sn=71ed69d8cd6ef57546a0fab611b860c4&chksm=c063c429f7144d3ff329b3f1968f488f159a5242b894df80840dcac49e86312bd6d2803d2aa5&scene=58&subscene=0#rd)
+- 数世咨询
+  - [ ] [严重性评分差异干扰漏洞修复](https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247497416&idx=1&sn=b56a90dc0ea3e6dd587f09b90dbb4f23&chksm=c1448475f6330d6303352a6b93b815b498558d9ba8e9fdd3a7e992792b38148fe14923cc6b2a&scene=58&subscene=0#rd)
+- 极客公园
+  - [ ] [雷军：应建汽车数据共享平台；「钉钉」无招新项目「数字光耳机」曝光；新 iPhone 取消经典静音开关 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652984081&idx=1&sn=f4c29ed9f1d7a4e26c6ec43b0144d1a2&chksm=7e542ea74923a7b15cf471905483363529276b6faae5bf2a9d61c7f96fea3120692cfb9641c0&scene=58&subscene=0#rd)
+- 安全圈
+  - [ ] [【安全圈】北大团队搞出ChatExcel，说人话自动处理表格，免费且不限次使用](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652031034&idx=1&sn=50f2c66d1d55e28c4b26c06f2d741642&chksm=f36fe47ac4186d6c2336add30cca8221338b0da43d075dc71770d0c510999ebe92dce3b2e2b2&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】又被针对！加拿大宣布政府设备禁用 TikTok](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652031034&idx=2&sn=1f8d3fa9048b3e03d79fa674f37e9450&chksm=f36fe47ac4186d6c56a2d62a1f3f8973ea8e32f2be7733e3d4d4ccf05e3cf5d3c49972197746&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】AI 美女模型 Chilloutmix 作者放弃版权](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652031034&idx=3&sn=b7a81a413ba7e695f68b276d369af1f5&chksm=f36fe47ac4186d6c848eee4a2061905174a31a7326413923fded7b47f7f19b2e7c05c7673d7e&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】花样翻新！2023年不容忽视的5大新兴社会工程攻击](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652031034&idx=4&sn=1c5ec51983b9942c560d787c03d59308&chksm=f36fe47ac4186d6c0e56f1f7fba33a7d49e3aeb7383a81b8e8dfffc720c795461aa551d183d9&scene=58&subscene=0#rd)
+- 正阳咨询
+  - [ ] [【招聘帖】风控数据分析/模型/算法/策略类岗位](https://mp.weixin.qq.com/s?__biz=MzI1MzA3Mjg4Mg==&mid=2647831920&idx=1&sn=32e253b858e87f20678fd931e60cf418&chksm=f1fc11edc68b98fbbf17e7c947e6bace588ac2aaedec77f093d96d41f38aee67b00c820a11ea&scene=58&subscene=0#rd)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [FTC to ban BetterHelp from sharing mental health data with advertisers](https://www.bleepingcomputer.com/news/security/ftc-to-ban-betterhelp-from-sharing-mental-health-data-with-advertisers/)
+  - [ ] [Microsoft is testing a modern Windows 11 volume mixer](https://www.bleepingcomputer.com/news/microsoft/microsoft-is-testing-a-modern-windows-11-volume-mixer/)
+  - [ ] [How to prevent Microsoft OneNote files from infecting Windows with malware](https://www.bleepingcomputer.com/news/security/how-to-prevent-microsoft-onenote-files-from-infecting-windows-with-malware/)
+  - [ ] [DEP Bypass II - EasyRMtoMP3Converter](https://hacktips.it/dep-ii-easyrmtomp3converter/)
+  - [ ] [Guerre di Rete - Pensavo fosse un’AGI e invece era un’API](https://guerredirete.substack.com/p/guerre-di-rete-pensavo-fosse-unagi)
+- 网安寻路人
+  - [ ] [数据保护官（DPO）大湾区沙龙：大湾区数据跨境便利化的安全合规路径和实践案例-纪实](https://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247499242&idx=1&sn=ea774898918f9e3f9746e98bbd6ffb7a&chksm=97e94000a09ec9167cc59e3fdf7d8861658daeb302feaf775037176129e146c53493922da982&scene=58&subscene=0#rd)
+- Have I Been Pwned latest breaches
+  - [ ] [LBB - 39,288 breached accounts](https://haveibeenpwned.com/PwnedWebsites#LBB)
+- 丁爸情报分析师的工具箱
+  - [ ] [【资料】美国近期出台和讨论的涉华法案](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651135203&idx=1&sn=e0f6c1fa2624effab36d79369d49c1b4&chksm=f1af6bd9c6d8e2cf80cedcc751014e795d0c2b1f68b00f7cc1eb36f1a0250cd0614b4187ac12&scene=58&subscene=0#rd)
+  - [ ] [【通知】全国执法机关开源情报能力提升培训班本月开班啦！](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651135203&idx=2&sn=52bdc096a11b154dd8e180a9d79e9133&chksm=f1af6bd9c6d8e2cf3faeef6693fc742460f4a5e0c0ea90eabd9f43e13f7eba7a38d83e565fab&scene=58&subscene=0#rd)
+- TorrentFreak
+  - [ ] [90 Million DMCA Takedowns in 90 Days: MindGeek’s $32m Piracy ‘Win’ Meets Reality](https://torrentfreak.com/90-million-dmca-takedowns-in-90-days-mindgeeks-32m-piracy-win-meets-reality-230305/)
+- Security Affairs
+  - [ ] [Credential Stuffing attack on Chick-fil-A impacted +71K users](https://securityaffairs.com/143051/data-breach/credential-stuffing-chick-fil-a.html)
+  - [ ] [Play Ransomware gang has begun to leak data stolen from City of Oakland](https://securityaffairs.com/143037/cyber-crime/play-ransomware-leaks-city-of-oakland.html)
+- Technical Information Security Content & Discussion
+  - [ ] [“StreamJacking” - Hijacking Hundreds of YouTube Channels Per Day Propagating Elon Musk Branded Crypto Giveaway Scams](https://www.reddit.com/r/netsec/comments/11isw84/streamjacking_hijacking_hundreds_of_youtube/)
+  - [ ] [Passive Takeover - uncovering (and emulating) an expensive subdomain takeover campaign](https://www.reddit.com/r/netsec/comments/11ivu90/passive_takeover_uncovering_and_emulating_an/)
+  - [ ] [Lord Of The Ring0 - Part 4 is out!](https://www.reddit.com/r/netsec/comments/11ivjyx/lord_of_the_ring0_part_4_is_out/)
+  - [ ] [Obfuscating Rubeus using Codecepticon](https://www.reddit.com/r/netsec/comments/11ivncl/obfuscating_rubeus_using_codecepticon/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [What is the career path to work in GRC?](https://www.reddit.com/r/netsecstudents/comments/11j2s5q/what_is_the_career_path_to_work_in_grc/)
+  - [ ] [Need help/nudge with portswigger academy lab](https://www.reddit.com/r/netsecstudents/comments/11jfrpx/need_helpnudge_with_portswigger_academy_lab/)
+  - [ ] [Chainsaw for Linux](https://www.reddit.com/r/netsecstudents/comments/11ihofk/chainsaw_for_linux/)
+- Your Hacking Tutorial by Zempirians
+  - [ ] [How do I open a 15 gigabyte text file?](https://www.reddit.com/r/HowToHack/comments/11ipg77/how_do_i_open_a_15_gigabyte_text_file/)
+  - [ ] [John the Ripper Character Length](https://www.reddit.com/r/HowToHack/comments/11j0caj/john_the_ripper_character_length/)
+  - [ ] [Equipment for bluetooth data interception?](https://www.reddit.com/r/HowToHack/comments/11imxep/equipment_for_bluetooth_data_interception/)
+  - [ ] [Has anyone here gotten the USB Armory Mk2?](https://www.reddit.com/r/HowToHack/comments/11iqkxl/has_anyone_here_gotten_the_usb_armory_mk2/)
+  - [ ] [Possible or not?](https://www.reddit.com/r/HowToHack/comments/11ix4hl/possible_or_not/)
+- Computer Forensics
+  - [ ] [Tracking dots/Machine identifier code](https://www.reddit.com/r/computerforensics/comments/11ix3jv/tracking_dotsmachine_identifier_code/)
+  - [ ] [Chainsaw for Linux](https://www.reddit.com/r/computerforensics/comments/11ihlhu/chainsaw_for_linux/)
+- KitPloit - PenTest Tools!
+  - [ ] [RedTeam-Physical-Tools - Red Team Toolkit - A Curated List Of Tools That Are Commonly Used In The Field For Physical Security, Red Teaming, And Tactical Covert Entry](http://www.kitploit.com/2023/03/redteam-physical-tools-red-team-toolkit.html)

@@ -1,0 +1,153 @@
+# 每日安全资讯（2023-01-23）
+
+- Twitter @Nicolas Krassas
+  - [ ] [Payload Loader With Evasion Features](https://twitter.com/Dinosn/status/1617129318622105600)
+  - [ ] [Using a service with markdown capabilities? Good chance it's vulnerable and attackers can easily take it down](https://twitter.com/Dinosn/status/1617127095544565766)
+  - [ ] [KsDumper 11](https://twitter.com/Dinosn/status/1617127037113622533)
+  - [ ] [Researchers release PoC for iTLB-multihit bug affecting Intel cpus (crashes host from guest in most hypervisors).](https://twitter.com/Dinosn/status/1617055135473012736)
+  - [ ] [Tutorial: Hacking Electron Games - Part 2: Coding an Internal Overlay with HTML/CSS/JS for Persistent Cheats (Game: Vampire Survivors)](https://twitter.com/Dinosn/status/1617055013347676165)
+  - [ ] [Massive ad-fraud op dismantled after hitting millions of iOS devices](https://twitter.com/Dinosn/status/1617054955700981760)
+  - [ ] [Beware: Hackers now use OneNote attachments to spread malware](https://twitter.com/Dinosn/status/1617054713580777473)
+  - [ ] [Inside the Globus INK: a mechanical navigation computer for Soviet spaceflight](https://twitter.com/Dinosn/status/1617054216186433537)
+  - [ ] [Riot Games hacked, delays game patches after security breach](https://twitter.com/Dinosn/status/1617054147844472832)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Jan 22 05:58:14 UTC 2023](https://github.com/trickest/cve/commit/036efc01cbc344b4de63a70bf408be16e32c3ac8)
+- unSafe.sh - 不安全
+  - [ ] [印度要求 Google Play Store 托管第三方应用商店](https://buaq.net/go-146505.html)
+  - [ ] [英国食品监管机构主管警告带蛋糕去办公室是在害同事](https://buaq.net/go-146506.html)
+  - [ ] [Takeaways from the CircleCI Incident](https://buaq.net/go-146500.html)
+  - [ ] [Goolge Fuchsia 开发团队裁员](https://buaq.net/go-146503.html)
+  - [ ] [微软砍掉了虚拟现实和混合现实团队](https://buaq.net/go-146504.html)
+  - [ ] [Popeye - A Kubernetes Cluster Resource Sanitizer](https://buaq.net/go-146502.html)
+  - [ ] [Update: process-binary-file Version 0.0.8](https://buaq.net/go-146492.html)
+  - [ ] [New Tool: onedump.py](https://buaq.net/go-146493.html)
+  - [ ] [KsDumper 11](https://buaq.net/go-146487.html)
+  - [ ] [SQLi_Labs靶场Challenges学习分享](https://buaq.net/go-146495.html)
+  - [ ] [Excelling at Excel, Part 3](https://buaq.net/go-146478.html)
+  - [ ] [KnightCTF 2023 write-ups (RE category)](https://buaq.net/go-146499.html)
+  - [ ] [这篇导流条设计方法，让我打开了新思路](https://buaq.net/go-146509.html)
+  - [ ] [2023，这些出海赛道要火了](https://buaq.net/go-146518.html)
+  - [ ] [Tutorial: Hacking Electron Games - Part 2: Coding an Internal Overlay with HTML/CSS/JS for Persistent Cheats (Game: Vampire Survivors)](https://buaq.net/go-146463.html)
+  - [ ] [How I created a Docker image for NuttX](https://buaq.net/go-146460.html)
+- Sploitus.com Exploits RSS Feed
+  - [ ] [wolfSSL 5.3.0 Denial Of Service Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-38163&utm_source=rss&utm_medium=rss)
+  - [ ] [NetChess 2.1 Buffer Overflow Exploit exploit](https://sploitus.com/exploit?id=1337DAY-ID-38165&utm_source=rss&utm_medium=rss)
+  - [ ] [OpenText Extended ECM 22.3 Java Frontend Remote Code Execution Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-38168&utm_source=rss&utm_medium=rss)
+  - [ ] [OpenText Extended ECM 22.3 File Deletion / LFI / Privilege Escsalation Vulnerabilities exploit](https://sploitus.com/exploit?id=1337DAY-ID-38166&utm_source=rss&utm_medium=rss)
+  - [ ] [Solaris 10 dtprintinfo / libXm / libXpm Security Issues Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-38170&utm_source=rss&utm_medium=rss)
+  - [ ] [ASKEY RTF3505VW-N1 Privilege Escalation Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-38164&utm_source=rss&utm_medium=rss)
+  - [ ] [OpenText Extended ECM 22.3 cs.exe Remote Code Execution Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-38167&utm_source=rss&utm_medium=rss)
+  - [ ] [wolfSSL 5.5.0 Session Resumption Denial Of Service Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-38161&utm_source=rss&utm_medium=rss)
+  - [ ] [wolfSSL 5.5.2 WOLFSSL_CALLBACKS Heap Buffer Over-Read Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-38162&utm_source=rss&utm_medium=rss)
+  - [ ] [Solaris 10 dtprintinfo Local Privilege Escalation Exploit exploit](https://sploitus.com/exploit?id=1337DAY-ID-38169&utm_source=rss&utm_medium=rss)
+- SecWiki News
+  - [ ] [SecWiki News 2023-01-22 Review](http://www.sec-wiki.com/?2023-01-22)
+- Security Boulevard
+  - [ ] [Russian Men Use Women As Shelter From Putin](https://securityboulevard.com/2023/01/russian-men-use-women-as-shelter-from-putin/)
+  - [ ] [Top 6 Email Security Technologies for the Enterprise](https://securityboulevard.com/2023/01/top-6-email-security-technologies-for-the-enterprise/)
+  - [ ] [USENIX Security ’22 – Rasoul Akhavan Mahdavi, Florian Kerschbaum –  ‘Constant-weight PIR: Single-Round Keyword PIR via Constant-weight Equality Operators’](https://securityboulevard.com/2023/01/usenix-security-22-rasoul-akhavan-mahdavi-florian-kerschbaum-constant-weight-pir-single-round-keyword-pir-via-constant-weight-equality-operators/)
+  - [ ] [June Cyber Roundup](https://securityboulevard.com/2023/01/june-cyber-roundup/)
+- Perception Point
+  - [ ] [Takeaways from the CircleCI Incident](https://perception-point.io/blog/attack-trends/takeaways-from-the-circleci-incident/)
+- 先知安全技术社区
+  - [ ] [SQLi_Labs靶场Challenges学习分享](https://xz.aliyun.com/t/12061)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [ ] [OpenText Extended ECM 22.3 Java Frontend Remote Code Execution](https://cxsecurity.com/issue/WLB-2023010037)
+  - [ ] [OpenText Extended ECM 22.3 cs.exe Remote Code Execution](https://cxsecurity.com/issue/WLB-2023010036)
+  - [ ] [ASKEY RTF3505VW-N1 Privilege Escalation](https://cxsecurity.com/issue/WLB-2023010035)
+- gynvael.coldwind//vx.log (en)
+  - [ ] [KnightCTF 2023 write-ups (RE category)](https://gynvael.coldwind.pl/?id=761)
+- Bug Bounty in InfoSec Write-ups on Medium
+  - [ ] [Reflected XSS Leads to 3,000$ Bug Bounty Rewards from Microsoft Forms](https://infosecwriteups.com/reflected-xss-leads-to-3-000-bug-bounty-rewards-from-microsoft-forms-efe34fc6b261?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [HTTP Request Smuggling — Basic CL.TE vulnerability](https://infosecwriteups.com/http-request-smuggling-basic-cl-te-vulnerability-a2975c664c53?source=rss----7b722bfd1b8d--bug_bounty)
+- Didier Stevens
+  - [ ] [Analyzing Malicious OneNote Documents](https://blog.didierstevens.com/2023/01/22/analyzing-malicious-onenote-documents/)
+  - [ ] [Update: process-binary-file Version 0.0.8](https://blog.didierstevens.com/2023/01/22/update-process-binary-file-version-0-0-8/)
+  - [ ] [New Tool: onedump.py](https://blog.didierstevens.com/2023/01/22/new-tool-onedump-py/)
+- Hexacorn
+  - [ ] [Excelling at Excel, Part 3](https://www.hexacorn.com/blog/2023/01/22/excelling-at-excel-part-3/)
+- SAP Blogs
+  - [ ] [SAP Community meets e-ink display: an RSS story](https://blogs.sap.com/2023/01/22/sap-community-meets-e-ink-display-an-rss-story/)
+  - [ ] [Value Management for the Chemical Companies (Part 4) – NPV & IRR Estimation](https://blogs.sap.com/2023/01/22/value-management-for-the-chemical-companies-part-4-npv-irr-estimation/)
+  - [ ] [Abap2ui5 Project – Development of UI5 Selection Screens in pure ABAP (no app deployment or javascript needed)](https://blogs.sap.com/2023/01/22/abap2ui5-project-development-of-ui5-selection-screens-in-pure-abap-no-app-deployment-or-javascript-needed/)
+  - [ ] [SAP Commerce Quote Integration with SAP Cloud for Customer](https://blogs.sap.com/2023/01/22/sap-commerce-quote-integration-with-sap-cloud-for-customer/)
+- Reverse Engineering
+  - [ ] [Pykd script to trace CFE from source to sink point](https://www.reddit.com/r/ReverseEngineering/comments/10io5ge/pykd_script_to_trace_cfe_from_source_to_sink_point/)
+  - [ ] [KsDumper 11](https://www.reddit.com/r/ReverseEngineering/comments/10if061/ksdumper_11/)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [印度要求 Google Play Store 托管第三方应用商店](https://www.solidot.org/story?sid=73943)
+  - [ ] [英国食品监管机构主管警告带蛋糕去办公室是在害同事](https://www.solidot.org/story?sid=73942)
+  - [ ] [Goolge Fuchsia 开发团队裁员](https://www.solidot.org/story?sid=73941)
+  - [ ] [微软砍掉了虚拟现实和混合现实团队](https://www.solidot.org/story?sid=73940)
+- KitPloit - PenTest & Hacking Tools
+  - [ ] [Popeye - A Kubernetes Cluster Resource Sanitizer](http://www.kitploit.com/2023/01/popeye-kubernetes-cluster-resource.html)
+- dotNet安全研究僧
+  - [ ] [恭贺大家新春快乐，兔年大吉！](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247487141&idx=1&sn=a29eba8625396686c892972b01bc4ce0&chksm=fa5aa048cd2d295eb962e284933f3d1c70ee0597e4d8818413cf6c81c0f537feeb47a4c93692&scene=58&subscene=0#rd)
+  - [ ] [杭州安恒招聘安全分析工程师](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247487141&idx=2&sn=c477a49f5c249d2b564bc60cfbf45671&chksm=fa5aa048cd2d295e84acf82c5e24c1ac9d5434680e29eb4b8ab42c5fe03646f8fa6cad3da817&scene=58&subscene=0#rd)
+  - [ ] [.NET Bypass正则关键词实现SQL注入](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247487141&idx=3&sn=53d0009b2399ab6432ace0bd975ed684&chksm=fa5aa048cd2d295e776673fc7102384b6c4b4d7518c6fef428b566758f2dd2bbead24ac79c83&scene=58&subscene=0#rd)
+- 丁爸情报分析师的工具箱
+  - [ ] [【智库报告】秘密战争：美国如何利用伙伴关系和代理部队在暗中发动战争](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651134639&idx=1&sn=6be8a89aef0b3a7dc4f09cd913629924&chksm=f1af6d95c6d8e483c70c9414ba0542886ca34ed76da2d8972b116888397f1387adc5bf8de67f&scene=58&subscene=0#rd)
+- 绿盟科技研究通讯
+  - [ ] [分享图片](https://mp.weixin.qq.com/s?__biz=MzIyODYzNTU2OA==&mid=2247494349&idx=1&sn=00affef861c1c38c89ff6bfc502760a4&chksm=e84c4c12df3bc504a6067b2a91123155b608c93b5fb6fd6529092504a8e255d770abce197284&scene=58&subscene=0#rd)
+- 极客公园
+  - [ ] [传推特砍至 1300 人，马斯克：比那多一倍；1.79 亿人看「竖屏春晚」；微软发布 Azure OpenAI | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652980975&idx=1&sn=7bbe05bcfb0b16122b05cee217de5a31&chksm=7e543b594923b24ffbed8bd2eeb01cad8ee44d77dcb38568fcd506eefb5f891b009412310266&scene=58&subscene=0#rd)
+- 情报分析师
+  - [ ] [【资料】美国利用开源情报研究PLA的报告](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650524312&idx=1&sn=8f61cf849fb79b1f4d62c99a8079d1dc&chksm=8716e4d3b0616dc52c12b9edb02282d0457d0eea4897340d3652cfc10cfb283c65c4e1139135&scene=58&subscene=0#rd)
+  - [ ] [ChatGPT 走红可能会迫使谷歌加快推出 AI 搜索聊天机器人](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650524312&idx=2&sn=9f02ac83820b063c204e4abe403e6d4c&chksm=8716e4d3b0616dc595891aae7b67577098ced5ca338c9fd081e2d106898b5c7394b8c4f6c8dd&scene=58&subscene=0#rd)
+- 汉客儿
+  - [ ] [昨天操作失误，二维码领不了红包封面。
+重新给大家发一下。
+新年快乐！](https://mp.weixin.qq.com/s?__biz=MzI1NTUzMjUzMQ==&mid=2247484769&idx=1&sn=990694aa5b5eb74fe6c1c8b24331d249&chksm=ea35c9fddd4240ebfeb7862406c8cdcf87dc0cf72cc95e792b23781e14bf6c3b8455081062e5&scene=58&subscene=0#rd)
+- Have I Been Pwned latest breaches
+  - [ ] [Zurich - 756,737 breached accounts](https://haveibeenpwned.com/PwnedWebsites#Zurich)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [FanDuel discloses data breach caused by recent MailChimp hack](https://www.bleepingcomputer.com/news/security/fanduel-discloses-data-breach-caused-by-recent-mailchimp-hack/)
+  - [ ] [WhatsApp fined €5.5 million by Irish DPC for GDPR violation](https://www.bleepingcomputer.com/news/security/whatsapp-fined-55-million-by-irish-dpc-for-gdpr-violation/)
+  - [ ] [You Can Still Use a Pager in 2022](https://debugger.medium.com/howto-using-a-pager-in-the-21st-century-6a57454ecde8)
+  - [ ] [Il sottosistema Linux su Windows 11](https://hackerjournal.it/11211/il-sottosistema-linux-su-windows-11/)
+  - [ ] [Data exfiltration in Keepa Price Tracker](https://palant.info/2021/08/02/data-exfiltration-in-keepa-price-tracker/)
+- Il Disinformatico
+  - [ ] [Liberare spazio in una casella Gmail eliminando gli allegati ma non le mail: Unattach](http://attivissimo.blogspot.com/2023/01/liberare-spazio-in-una-casella-gmail.html)
+- Daniel Miessler
+  - [ ] [OpenAI’s Purpose is to Build AGI, and What That Means](https://danielmiessler.com/blog/openais-purpose-is-to-build-agi-and-what-that-means/)
+- Information Security
+  - [ ] [Telnet to DC1](https://www.reddit.com/r/Information_Security/comments/10iutfw/telnet_to_dc1/)
+  - [ ] [Security at its finest](https://www.reddit.com/r/Information_Security/comments/10iauh5/security_at_its_finest/)
+- TorrentFreak
+  - [ ] [Under a New EU-Focused Copyright Law, Musical Artists Currently Earn *Nothing*](https://torrentfreak.com/under-new-eu-focused-copyright-law-musical-artists-currently-earn-nothing-230122/)
+  - [ ] [Top 10 Most Popular Torrent Sites of 2023](https://torrentfreak.com/top-torrent-sites/)
+- Social Engineering
+  - [ ] [how good is communications studies for social engineering skills? Would it get me the prerequisite skills to do Hadnagy's books?](https://www.reddit.com/r/SocialEngineering/comments/10icfgb/how_good_is_communications_studies_for_social/)
+- KitPloit - PenTest Tools!
+  - [ ] [Popeye - A Kubernetes Cluster Resource Sanitizer](http://www.kitploit.com/2023/01/popeye-kubernetes-cluster-resource.html)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [Wireshark 4.0.3 Released, (Sun, Jan 22nd)](https://isc.sans.edu/diary/rss/29460)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Wattpad data breach](https://www.reddit.com/r/blackhat/comments/10ikhp1/wattpad_data_breach/)
+  - [ ] [Embed Malware in Alternative Data Streams](https://www.reddit.com/r/blackhat/comments/10i9c3g/embed_malware_in_alternative_data_streams/)
+- 渊龙Sec安全团队
+  - [ ] [[新春福利] 红包封面 & Edu邀请码等您来领！](https://mp.weixin.qq.com/s?__biz=Mzg4NTY0MDg1Mg==&mid=2247484942&idx=1&sn=93abd9275937a0ae9e83ad89674216d9&chksm=cfa49df5f8d314e381bcfb9154c160848cf4eb2c5f8be21abdbdf83fc18b134178a2c8571420&scene=58&subscene=0#rd)
+- Security Affairs
+  - [ ] [Expert found critical flaws in OpenText Enterprise Content Management System](https://securityaffairs.com/141157/security/opentext-critical-flaws.html)
+  - [ ] [Roaming Mantis uses new DNS changer in its Wroba mobile malware](https://securityaffairs.com/141137/malware/roaming-mantis-wroba-malware.html)
+  - [ ] [Security Affairs newsletter Round 403 by Pierluigi Paganini](https://securityaffairs.com/141132/breaking-news/security-affairs-newsletter-round-403-by-pierluigi-paganini.html)
+- thepcn3rd - Passion for Infosec
+  - [ ] [Test Authentication from Linux Console using python3 pexpect](https://thepcn3rd.blogspot.com/2023/01/test-authentication-from-linux-console.html)
+  - [ ] [Setup crontab for www-data](https://thepcn3rd.blogspot.com/2023/01/setup-crontab-for-www-data.html)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [Burp Suite Certification Blind SQL question](https://www.reddit.com/r/netsecstudents/comments/10iy4jz/burp_suite_certification_blind_sql_question/)
+- Deep Web
+  - [ ] [Problems](https://www.reddit.com/r/deepweb/comments/10ic5nq/problems/)
+  - [ ] [problems](https://www.reddit.com/r/deepweb/comments/10ic61j/problems/)
+- Technical Information Security Content & Discussion
+  - [ ] [Git repository of Linux forensic/monitoring scripts (small side project for implementing ideas and testing stuff I read somewhere)](https://www.reddit.com/r/netsec/comments/10ii1ga/git_repository_of_linux_forensicmonitoring/)
+  - [ ] [CVE-2020-36109 POC - ASUS routers stack overflow](https://www.reddit.com/r/netsec/comments/10io9nq/cve202036109_poc_asus_routers_stack_overflow/)
+  - [ ] [Using a service with markdown capabilities? Good chance it's vulnerable and attackers can easily take it down](https://www.reddit.com/r/netsec/comments/10ieok9/using_a_service_with_markdown_capabilities_good/)
+  - [ ] [(In)Security of the "Pass" password manager](https://www.reddit.com/r/netsec/comments/10inbuq/insecurity_of_the_pass_password_manager/)
+  - [ ] [Studying Conformance of MANRS Members (routing security)](https://www.reddit.com/r/netsec/comments/10ikdzz/studying_conformance_of_manrs_members_routing/)
+  - [ ] [CVE-2021-20294 POC - readelf stack overflow](https://www.reddit.com/r/netsec/comments/10inxru/cve202120294_poc_readelf_stack_overflow/)
+- Computer Forensics
+  - [ ] [Autopsy: Make Call log readable from output](https://www.reddit.com/r/computerforensics/comments/10iqoz4/autopsy_make_call_log_readable_from_output/)
+- Your Hacking Tutorial by Zempirians
+  - [ ] [HxD - Trying to copy "Decoded Text" but Windows Clipboard filters it?](https://www.reddit.com/r/HowToHack/comments/10islqq/hxd_trying_to_copy_decoded_text_but_windows/)
+  - [ ] [Email spoofing with Kali](https://www.reddit.com/r/HowToHack/comments/10is88a/email_spoofing_with_kali/)

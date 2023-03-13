@@ -1,0 +1,165 @@
+{
+    "Hacking Articles": {
+        "A Detailed Guide on Kerbrute": "https://www.hackingarticles.in/a-detailed-guide-on-kerbrute/"
+    },
+    "unSafe.sh - 不安全": {
+        "Analyzing CVE-2022-46630 (DLL Hijacking in Squirrel.Windows)": "https://buaq.net/go-144661.html",
+        "只有最富有的古希腊人纳税，他们还为此炫耀": "https://buaq.net/go-144670.html",
+        "量子计算机分解大数仍然只存在于理论上": "https://buaq.net/go-144671.html",
+        "eCapture支持borgingssl TLS 1.3明文数据包捕获": "https://buaq.net/go-144660.html",
+        "50 万 Celsius Network 投资人不拥有他们的账号": "https://buaq.net/go-144672.html",
+        "Beginners Guide to 360 Virtual Tours": "https://buaq.net/go-144658.html",
+        "AceLdr - Cobalt Strike UDRL For Memory Scanner Evasion": "https://buaq.net/go-144647.html",
+        "DVWA-Brute Force": "https://buaq.net/go-144636.html",
+        "在一秒发送消息的时代，如何寄出一封手写信件": "https://buaq.net/go-144635.html",
+        "著名开源社区平台工具 Discourse 3.0.0 beta 发布": "https://buaq.net/go-144633.html",
+        "如何提取 Word 文档中的原图？": "https://buaq.net/go-144634.html",
+        "丰田、奔驰和宝马等众多知名车企的API漏洞泄露车主个人信息": "https://buaq.net/go-144626.html"
+    },
+    "Twitter @Nicolas Krassas": {
+        "Bring your own vulnerable driver to the exploit party: Understanding BYOVD Attacks": "https://twitter.com/Dinosn/status/1612160571796774916",
+        "Dridex targets MacOS users with a new delivery technique": "https://twitter.com/Dinosn/status/1612148619104100353",
+        "No more holidays for US telcos, FCC is cracking down": "https://twitter.com/Dinosn/status/1612075942813351937",
+        "JNDI Injection Series RMI Vector- Insecure Deserialization": "https://twitter.com/Dinosn/status/1612075892754288640",
+        "AceLdr - Cobalt Strike UDRL For Memory Scanner Evasion": "https://twitter.com/Dinosn/status/1612075767361425412",
+        "Unpack Brute Ratel (BRC4) stager and extract config": "https://twitter.com/Dinosn/status/1611983139831701508",
+        "HTB: Health": "https://twitter.com/Dinosn/status/1611978237160062978",
+        "Decompile .NET DLLs/EXEs using ILSpy": "https://twitter.com/Dinosn/status/1611977999150104576",
+        "Hive Ransomware gang leaked 550 GB stolen from Consulate Health Care": "https://twitter.com/Dinosn/status/1611977960201887744",
+        "Malicious PyPi packages create CloudFlare Tunnels to bypass firewalls": "https://twitter.com/Dinosn/status/1611977926878035968",
+        "IcedID malware campaign targets Zoom users": "https://twitter.com/Dinosn/status/1611977891796983808",
+        "Chick-fil-A launched an investigation into “suspicious activity”": "https://twitter.com/Dinosn/status/1611977001631469571",
+        "Chinese researchers' claimed quantum encryption crack looks unlikely": "https://twitter.com/Dinosn/status/1611976950461124609",
+        "Tutorial: Hacking Electron Games via Chrome DevTools (Ex. Vampire Survivors, no Cheat Engine required!)": "https://twitter.com/Dinosn/status/1611976890688098307"
+    },
+    "SecWiki News": {
+        "SecWiki News 2023-01-08 Review": "http://www.sec-wiki.com/?2023-01-08"
+    },
+    "先知安全技术社区": {
+        "DVWA-Brute Force": "https://xz.aliyun.com/t/12014"
+    },
+    "obaby@mars": {
+        "又是一个周末": "https://h4ck.org.cn/2023/01/%e5%8f%88%e6%98%af%e4%b8%80%e4%b8%aa%e5%91%a8%e6%9c%ab/"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sun Jan  8 13:53:15 UTC 2023": "https://github.com/trickest/cve/commit/f04d79c63f98b211dbf3fd47a1266964fdddd324"
+    },
+    "Security Boulevard": {
+        "USENIX Security ’22 – Sangwook Bae, Mincheol Son, Dongkwan Kim, CheolJun Park, Jiho Lee, Sooel Son, Yongdae Kim – ‘Watching The Watchers: Practical Video Identification Attack in LTE Networks’": "https://securityboulevard.com/2023/01/usenix-security-22-sangwook-bae-mincheol-son-dongkwan-kim-cheoljun-park-jiho-lee-sooel-son-yongdae-kim-watching-the-watchers-practical-video-identification-attack-in-lte-networks/",
+        "Are Cyber Attacks at Risk of Becoming ‘Uninsurable’?": "https://securityboulevard.com/2023/01/are-cyber-attacks-at-risk-of-becoming-uninsurable/",
+        "Using Automated Just-in-Time (JIT) to Reach Least Privilege – A Guide": "https://securityboulevard.com/2023/01/using-automated-just-in-time-jit-to-reach-least-privilege-a-guide/",
+        "Twitter VP Named For Enabling Incitement to Violence": "https://securityboulevard.com/2023/01/twitter-vp-named-for-enabling-incitement-to-violence/"
+    },
+    "Scoopz.com": {
+        "Beginners Guide to 360 Virtual Tours": "https://blog.scoopz.com/2023/01/08/beginners-guide-to-360-virtual-tours/"
+    },
+    "Filippo Valsorda": {
+        "ssh whoami.filippo.io": "https://words.filippo.io/dispatches/whoami-updated/"
+    },
+    "嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com": {
+        "丰田、奔驰和宝马等众多知名车企的API漏洞泄露车主个人信息": "https://www.4hou.com/posts/mXJG",
+        "PyTorch机器学习框架遭遇恶意依赖供应链攻击": "https://www.4hou.com/posts/VZBX",
+        "“群雄逐鹿•以战止战” ADconf 2023安全大会成功举办": "https://www.4hou.com/posts/ykYn"
+    },
+    "Horizon3.ai": {
+        "Insight – Horizon3.ai Annual Review Snapshot 2022": "https://www.horizon3.ai/insight-horizon3-ai-annual-review-snapshot-2022/"
+    },
+    "SAP Blogs": {
+        "ChatGPT usecase for ABAP code and SAP help": "https://blogs.sap.com/2023/01/08/chatgpt-usecase-for-abap-code-and-sap-help/",
+        "A Social Media Mashup with Visual Cloud Functions": "https://blogs.sap.com/2023/01/08/a-social-media-mashup-with-visual-cloud-functions/",
+        "Extend SAP S/4HANA Business Processes on SAP BTP, Kyma Runtime": "https://blogs.sap.com/2023/01/08/extend-sap-s-4hana-business-processes-on-sap-btp-kyma-runtime/"
+    },
+    "Hexacorn": {
+        "Excelling at Excel, Part 2": "https://www.hexacorn.com/blog/2023/01/08/excelling-at-excel-part-2/"
+    },
+    "CFC4N的博客": {
+        "eCapture支持borgingssl TLS 1.3明文数据包捕获": "https://www.cnxct.com/ecapture-boringssl-tls-1_3/"
+    },
+    "daniel.haxx.se": {
+        "Copyright without years": "https://daniel.haxx.se/blog/2023/01/08/copyright-without-years/"
+    },
+    "Reverse Engineering": {
+        "Analyzing CVE-2022-46630 (DLL Hijacking in Squirrel.Windows)": "https://www.reddit.com/r/ReverseEngineering/comments/106m1yq/analyzing_cve202246630_dll_hijacking_in/"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "AceLdr - Cobalt Strike UDRL For Memory Scanner Evasion": "http://www.kitploit.com/2023/01/aceldr-cobalt-strike-udrl-for-memory.html"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "只有最富有的古希腊人纳税，他们还为此炫耀": "https://www.solidot.org/story?sid=73835",
+        "量子计算机分解大数仍然只存在于理论上": "https://www.solidot.org/story?sid=73834",
+        "50 万 Celsius Network 投资人不拥有他们的账号": "https://www.solidot.org/story?sid=73833"
+    },
+    "ChaMd5安全团队": {
+        "某达摄像头的漏洞挖掘经历": "https://mp.weixin.qq.com/s?__biz=MzIzMTc1MjExOQ==&mid=2247508121&idx=1&sn=e34f59e53a1394600c7e768fcbf237f9&chksm=e89d8841dfea0157a63c1a15213306739f936f3b63aa8e32ae6657a87934aec82d60bfe046b8&scene=58&subscene=0#rd"
+    },
+    "数世咨询": {
+        "新型攻击轻松淘汰备选抗量子加密算法": "https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247496850&idx=1&sn=95690ddebf6a710f28d960f0c0296d5d&chksm=c144862ff6330f398d85d861733953083ce9a5598029658abce7437af1a65bd2610fd8120ae5&scene=58&subscene=0#rd"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Una riflessione sul concetto di “detection”": "https://roccosicilia.com/2023/01/08/una-riflessione-sul-concetto-di-detection/",
+        "Google dice addio alle password": "https://hackerjournal.it/11137/google-dice-addio-alle-password/"
+    },
+    "极客公园": {
+        "从 8 万小车到百万豪车，比亚迪用「仰望」终结仰望": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652980115&idx=1&sn=efbea2d6fdf82e0f061d30d062205b30&chksm=7e543e254923b7333d609dfca166834be9f96dcb729e2146396a7f547d33724742a0c240ab4e&scene=58&subscene=0#rd",
+        "蚂蚁集团调整股东结构，继续与阿里「切割」；罗永浩回应炮轰：你记性不好，股东会每年开；全球首个 AI 律师「上庭」 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652980099&idx=1&sn=fa94d5b0862d18200d4b8dfa72bf7d4b&chksm=7e543e354923b7238cf85d994ef0159c42f3b5fab7f1d313d64477dc972c515a181933ebcd29&scene=58&subscene=0#rd"
+    },
+    "Il Disinformatico": {
+        "È vero che i cattivi non possono usare gli iPhone nei film e nei telefilm?": "http://attivissimo.blogspot.com/2023/01/e-vero-che-i-cattivi-non-possono-usare.html"
+    },
+    "TaoSecurity Blog": {
+        "Happy 20th Birthday TaoSecurity Blog": "https://taosecurity.blogspot.com/2023/01/happy-20th-birthday-taosecurity-blog.html"
+    },
+    "情报分析师": {
+        "【情报课堂】使用在线研究方法调查一个人的人、地点和时间（干货）": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650522324&idx=1&sn=a452327531116b11159346abd0fc6b5a&chksm=8716ec9fb061658966739a712f98973b8b9d978d9c2c878aadb9c9425db4ca27a00d5455ab94&scene=58&subscene=0#rd"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "DShield Sensor JSON Log Analysis, (Sun, Jan 8th)": "https://isc.sans.edu/diary/rss/29412",
+        "YARA v4.3.0-rc1 --skip-larger, (Sat, Jan 7th)": "https://isc.sans.edu/diary/rss/29410"
+    },
+    "": {
+        "Custom Sliver Stager": "http://travisaltman.com/custom-sliver-stage/"
+    },
+    "Daniel Miessler": {
+        "AI Art Hack: Combining Abstract Designs with Objects": "https://danielmiessler.com/blog/ai-art-hack-combining-abstract-designs-with-objects/"
+    },
+    "Security Affairs": {
+        "Russian and Belarusian men charged with spying for Russian GRU": "https://securityaffairs.com/140507/intelligence/poland-charged-russian-gru-spies.html",
+        "Dridex targets MacOS users with a new delivery technique": "https://securityaffairs.com/140488/malware/dridex-banking-malware-macos.html",
+        "Security Affairs newsletter Round 401 by Pierluigi Paganini": "https://securityaffairs.com/140484/breaking-news/security-affairs-newsletter-round-401-by-pierluigi-paganini.html"
+    },
+    "Technical Information Security Content & Discussion": {
+        "Bring your own vulnerable driver to the exploit party: Understanding BYOVD Attacks": "https://www.reddit.com/r/netsec/comments/106npon/bring_your_own_vulnerable_driver_to_the_exploit/",
+        "Strategies for effective CSRF mitigation": "https://www.reddit.com/r/netsec/comments/106ltqf/strategies_for_effective_csrf_mitigation/",
+        "Analyzing CVE-2022-46630 (DLL Hijacking in Squirrel.Windows)": "https://www.reddit.com/r/netsec/comments/106m46j/analyzing_cve202246630_dll_hijacking_in/",
+        "Interactive Risk Explorer for Understanding Software Supply Chain Attacks": "https://www.reddit.com/r/netsec/comments/106rd3b/interactive_risk_explorer_for_understanding/"
+    },
+    "The Register - Security": {
+        "No more holidays for US telcos, FCC is cracking down": "https://go.theregister.com/feed/www.theregister.com/2023/01/08/in_brief_security/"
+    },
+    "TorrentFreak": {
+        "Spammers Exploit IMDb to Promote Fishy Movie Piracy Sites": "https://torrentfreak.com/spammers-exploit-imdb-to-promote-fishy-movie-piracy-sites-230108/"
+    },
+    "Blackhat Library: Hacking techniques and research": {
+        "Does anyone know about browser based crypto miners?": "https://www.reddit.com/r/blackhat/comments/106mlnz/does_anyone_know_about_browser_based_crypto_miners/",
+        "Source Suggestion For Learning - 2023 01": "https://www.reddit.com/r/blackhat/comments/106luvr/source_suggestion_for_learning_2023_01/",
+        "Has someone made a stealthier SSH client without tty?": "https://www.reddit.com/r/blackhat/comments/106htry/has_someone_made_a_stealthier_ssh_client_without/",
+        "Regaining access to an old email account that's been pwned": "https://www.reddit.com/r/blackhat/comments/1064x0b/regaining_access_to_an_old_email_account_thats/"
+    },
+    "Computer Forensics": {
+        "Mac Forensics - SIP": "https://www.reddit.com/r/computerforensics/comments/106ntc6/mac_forensics_sip/",
+        "I’m just about to finish my Bachelor Honours in Forensic Security degree, what certs should I add to my CV?": "https://www.reddit.com/r/computerforensics/comments/1069ic4/im_just_about_to_finish_my_bachelor_honours_in/"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "How to build your intuition in finding web app bugs?": "https://www.reddit.com/r/netsecstudents/comments/106k1lr/how_to_build_your_intuition_in_finding_web_app/",
+        "Any suggestions for blue team learning path?": "https://www.reddit.com/r/netsecstudents/comments/1063xfj/any_suggestions_for_blue_team_learning_path/"
+    },
+    "Social Engineering": {
+        "Greene's 48 Laws of Social Power": "https://www.reddit.com/r/SocialEngineering/comments/106ogyi/greenes_48_laws_of_social_power/"
+    },
+    "The Hacker News": {
+        "Russian Turla Hackers Hijack Decade-Old Malware Infrastructure to Deploy New Backdoors": "https://thehackernews.com/2023/01/russian-turla-hackers-hijack-decade-old.html"
+    },
+    "KitPloit - PenTest Tools!": {
+        "AceLdr - Cobalt Strike UDRL For Memory Scanner Evasion": "http://www.kitploit.com/2023/01/aceldr-cobalt-strike-udrl-for-memory.html"
+    }
+}

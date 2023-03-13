@@ -1,0 +1,152 @@
+# 每日安全资讯（2023-01-16）
+
+- 喵喵喵喵
+  - [ ] [Stocker - HackTheBox](https://darkwing.moe/2023/01/15/Stocker-HackTheBox/)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [ ] [eCart Web 5.0.0 Cross Site Scripting](https://cxsecurity.com/issue/WLB-2023010022)
+  - [ ] [ChiKoi 1.0 SQL Injection](https://cxsecurity.com/issue/WLB-2023010021)
+  - [ ] [WebKit CSSCrossfadeValue::crossfadeChanged Use-After-Free](https://cxsecurity.com/issue/WLB-2023010020)
+- Sploitus.com Exploits RSS Feed
+  - [ ] [Exploit for OS Command Injection in Zyxel Usg Flex 100W Firmware exploit](https://sploitus.com/exploit?id=04D4CE85-293D-5636-96BB-53AC49714DA0&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for Injection in Atlassian Confluence Data Center exploit](https://sploitus.com/exploit?id=B6182C52-78F5-58BC-8D3F-EF87D0239F0E&utm_source=rss&utm_medium=rss)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Jan 15 05:47:51 UTC 2023](https://github.com/trickest/cve/commit/9306581723a1d61d0545ebc06ae41e42321ceb39)
+- Security Boulevard
+  - [ ] [What is StateRAMP? Certification and Compliance Explained](https://securityboulevard.com/2023/01/what-is-stateramp-certification-and-compliance-explained/)
+  - [ ] [What is FedRAMP Certification?](https://securityboulevard.com/2023/01/what-is-fedramp-certification/)
+  - [ ] [Data You Trust, Compliance You Can Trust | Blog by anecdotes](https://securityboulevard.com/2023/01/data-you-trust-compliance-you-can-trust-blog-by-anecdotes/)
+  - [ ] [GitHub Actions: Query Your Snowflake Warehouse | anecdotes](https://securityboulevard.com/2023/01/github-actions-query-your-snowflake-warehouse-anecdotes/)
+  - [ ] [OpenAPI – Making a Long Story Short – anecdotes | anecdotes](https://securityboulevard.com/2023/01/openapi-making-a-long-story-short-anecdotes-anecdotes/)
+  - [ ] [USENIX Security ’22 – Mojtaba Zaheri, Yossi Oren, Reza Curtmola – ‘Targeted Deanonymization via the Cache Side Channel: Attacks and Defenses’](https://securityboulevard.com/2023/01/usenix-security-22-mojtaba-zaheri-yossi-oren-reza-curtmola-targeted-deanonymization-via-the-cache-side-channel-attacks-and-defenses/)
+  - [ ] [Wallarm adds Cybersecurity Leaders to its Board of Advisors](https://securityboulevard.com/2023/01/wallarm-adds-cybersecurity-leaders-to-its-board-of-advisors/)
+  - [ ] [Most Popular Cybersecurity Blog Posts from 2022](https://securityboulevard.com/2023/01/most-popular-cybersecurity-blog-posts-from-2022/)
+  - [ ] [“In the American imagination it’s easier to start off white and become black than it is to start off black and become white”](https://securityboulevard.com/2023/01/in-the-american-imagination-its-easier-to-start-off-white-and-become-black-than-it-is-to-start-off-black-and-become-white/)
+- SecWiki News
+  - [ ] [SecWiki News 2023-01-15 Review](http://www.sec-wiki.com/?2023-01-15)
+- unSafe.sh - 不安全
+  - [ ] [How to spoof e-mails. (DMARC, SPF, and Phishing)](https://buaq.net/go-145654.html)
+  - [ ] [How I Found AWS API Keys using “Trufflehog” and Validated them using “enumerate-iam” tool](https://buaq.net/go-145655.html)
+  - [ ] [RMI和JNDI反序列化知识点回顾 - admin-神风](https://buaq.net/go-145642.html)
+  - [ ] [Wallarm adds Cybersecurity Leaders to its Board of Advisors](https://buaq.net/go-145639.html)
+  - [ ] [Meta Keywords：是什么、为什么不](https://buaq.net/go-145631.html)
+  - [ ] [AVIator - Antivirus Evasion Project](https://buaq.net/go-145629.html)
+  - [ ] [2022 年全球气温为史上第五热](https://buaq.net/go-145652.html)
+  - [ ] [飞行器成功撞击小行星将轨道周转时间缩短 33 分钟](https://buaq.net/go-145653.html)
+  - [ ] [Debian/Ubuntu完全卸载删除Docker](https://buaq.net/go-145610.html)
+  - [ ] [PowerBook 100 系列，31 年前的故事](https://buaq.net/go-145617.html)
+  - [ ] [Linux系统通过LVM扩容逻辑卷方法](https://buaq.net/go-145611.html)
+  - [ ] [更新 GitHub 上 fork 的项目](https://buaq.net/go-145612.html)
+  - [ ] [Git 常用命令速查表](https://buaq.net/go-145614.html)
+  - [ ] [在 Git 中正确设置 CRLF、LF 换行符转换](https://buaq.net/go-145613.html)
+  - [ ] [连接 GitHub 远程仓库](https://buaq.net/go-145615.html)
+  - [ ] [从零开始学 Git 的基础操作](https://buaq.net/go-145618.html)
+- Sukka's Blog
+  - [ ] [Meta Keywords：是什么、为什么不](https://blog.skk.moe/post/say-no-to-meta-keywords/)
+- obaby@mars
+  - [ ] [阿里云 OSS批量设置Cache-Control](https://h4ck.org.cn/2023/01/%e9%98%bf%e9%87%8c%e4%ba%91-oss%e6%89%b9%e9%87%8f%e8%ae%be%e7%bd%aecache-control/)
+- Twitter @Nicolas Krassas
+  - [ ] [Release: Cellebrite ( 1.7 TB) and MSAB (103 GB)](https://twitter.com/Dinosn/status/1614676616449253377)
+  - [ ] [Abusing VirusTotal API to host our C2 traffic, usefull for bypassing blocking firewall rules if VirusTotal is in the target white list , and in case y...](https://twitter.com/Dinosn/status/1614616529123045376)
+  - [ ] [AVIator - Antivirus Evasion Project](https://twitter.com/Dinosn/status/1614612714306805760)
+  - [ ] [RT ØxＯＰＯＳɆＣ Mɇɇtuᵽ: RCE on MS Exchange Server Through Fixed Cryptographic Keys (CVE-2020-0688).](https://twitter.com/OPOSEC/status/1614593248659488774)
+  - [ ] [Analysis of FG-IR-22-398 – FortiOS - heap-based buffer overflow in SSLVPNd](https://twitter.com/Dinosn/status/1614560972538277890)
+  - [ ] [How Browser’s Save As Feature might lead to Code Execution (CVE-2022–45415)](https://twitter.com/Dinosn/status/1614560793223217158)
+  - [ ] [DLL Hijacking using Spartacus, outside of DllMain](https://twitter.com/Dinosn/status/1614560405732425728)
+  - [ ] [Canada's largest alcohol retailer's site hacked to steal credit cards](https://twitter.com/Dinosn/status/1614559986939478016)
+  - [ ] [API based IDOR to leaking Private IP address of 6000 businesses](https://twitter.com/Dinosn/status/1614559940114546688)
+  - [ ] [CircleCI's hack caused by malware stealing engineer's 2FA-backed session](https://twitter.com/Dinosn/status/1614559866689028100)
+  - [ ] [India’s Aadhar card source code disclosure via exposed .svn/wc.db](https://twitter.com/Dinosn/status/1614559807230312451)
+  - [ ] [Exploiting API with AuthToken](https://twitter.com/Dinosn/status/1614559632990830592)
+  - [ ] [CSRF leads to account takeover in Yahoo!](https://twitter.com/Dinosn/status/1614493925485547520)
+  - [ ] [Brave browser’s new Snowflake feature help bypass Tor blocks](https://twitter.com/Dinosn/status/1614493853083475969)
+- 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
+  - [ ] [Raspberry Robin的僵尸网络迎来第二春](https://www.4hou.com/posts/nJw7)
+  - [ ] [IcedID僵尸网络传播者滥用谷歌PPC来传播恶意软件](https://www.4hou.com/posts/N1qv)
+- SAP Blogs
+  - [ ] [SAP Inside Track Bengaluru 02/2023: Register Now!](https://blogs.sap.com/2023/01/15/sap-inside-track-bengaluru-02-2023-register-now/)
+- Malwarebytes Labs
+  - [ ] [Timely patching is good, but sometimes it's not enough](https://www.malwarebytes.com/blog/news/2023/01/timely-patching-is-good-but-does-not-provide-full-ransomware-protection)
+  - [ ] [Multiple schools hit by Vice Society ransomware attack](https://www.malwarebytes.com/blog/news/2023/01/multiple-schools-in-uk-hit-by-vice-society-ransomware-attack)
+- Bug Bounty in InfoSec Write-ups on Medium
+  - [ ] [How to spoof e-mails. (DMARC, SPF, and Phishing)](https://infosecwriteups.com/how-to-spoof-e-mails-dmarc-spf-and-phishing-5184c10679a0?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [How I Found AWS API Keys using “Trufflehog” and Validated them using “enumerate-iam” tool](https://infosecwriteups.com/how-i-found-aws-api-keys-using-trufflehog-and-validated-them-using-enumerate-iam-tool-cd6ba7c86d09?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [bWAPP: A Vulnerable Web Application for Practicing Vulnerabilities - Installation Guide](https://infosecwriteups.com/bwapp-a-vulnerable-web-application-for-practicing-vulnerabilities-installation-guide-146637e2da92?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [India’s Aadhar card source code disclosure via exposed .svn/wc.db](https://infosecwriteups.com/indias-aadhar-card-source-code-disclosure-via-exposed-svn-wc-db-c05519ea7761?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [CSRF leads to account takeover in Yahoo!](https://infosecwriteups.com/csrf-leads-to-account-takeover-in-yahoo-aa96c678d2aa?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [How Browser’s Save As Feature might lead to Code Execution (CVE-2022–45415)](https://infosecwriteups.com/how-browsers-save-as-feature-might-lead-to-code-execution-cve-2022-45415-ebaa8711692?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [Exploiting API with AuthToken](https://infosecwriteups.com/exploiting-api-with-authtoken-3bea7b1fb6a9?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [API based IDOR to leaking Private IP address of 6000 businesses](https://infosecwriteups.com/api-based-idor-to-leaking-private-ip-address-of-6000-businesses-6bc085ac6a6f?source=rss----7b722bfd1b8d--bug_bounty)
+- 博客园 - admin-神风
+  - [ ] [RMI和JNDI反序列化知识点回顾 - admin-神风](https://www.cnblogs.com/wh4am1/p/17054410.html)
+- Wallarm
+  - [ ] [Wallarm adds Cybersecurity Leaders to its Board of Advisors](https://lab.wallarm.com/new-leaders-to-board-of-advisors/)
+- Reverse Engineering
+  - [ ] [Remastering Colin McRae Rally 3 with SilentPatch](https://www.reddit.com/r/ReverseEngineering/comments/10crge9/remastering_colin_mcrae_rally_3_with_silentpatch/)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [2022 年全球气温为史上第五热](https://www.solidot.org/story?sid=73893)
+  - [ ] [飞行器成功撞击小行星将轨道周转时间缩短 33 分钟](https://www.solidot.org/story?sid=73892)
+- 黑海洋 - WIKI
+  - [ ] [Debian/Ubuntu完全卸载删除Docker](https://blog.upx8.com/3189)
+  - [ ] [Linux系统通过LVM扩容逻辑卷方法](https://blog.upx8.com/3187)
+  - [ ] [更新 GitHub 上 fork 的项目](https://blog.upx8.com/3186)
+  - [ ] [在 Git 中正确设置 CRLF、LF 换行符转换](https://blog.upx8.com/3184)
+  - [ ] [Git 常用命令速查表](https://blog.upx8.com/3185)
+  - [ ] [连接 GitHub 远程仓库](https://blog.upx8.com/3182)
+  - [ ] [从零开始学 Git 的基础操作](https://blog.upx8.com/3181)
+  - [ ] [Debian/Ubuntu 安装卸载和配置 UFW（简单防火墙）](https://blog.upx8.com/3180)
+  - [ ] [Linux 搭建 KMS 服务器](https://blog.upx8.com/3179)
+- FreeBuf网络安全行业门户
+  - [ ] [FreeBuf早报 | Tiktok在法国被罚540万美元；思科发出商业路由器漏洞警告](https://www.freebuf.com/news/355264.html)
+- KitPloit - PenTest & Hacking Tools
+  - [ ] [AVIator - Antivirus Evasion Project](http://www.kitploit.com/2023/01/aviator-antivirus-evasion-project.html)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [How to customize the Windows 11 desktop experience](https://www.bleepingcomputer.com/news/microsoft/how-to-customize-the-windows-11-desktop-experience/)
+  - [ ] [How to customize Windows 11 desktop experience](https://www.bleepingcomputer.com/news/microsoft/how-to-customize-windows-11-desktop-experience/)
+  - [ ] [TikTok slapped with $5.4 million fine over cookie opt-out feature](https://www.bleepingcomputer.com/news/security/tiktok-slapped-with-54-million-fine-over-cookie-opt-out-feature/)
+  - [ ] [Microsoft script recreates shortcuts deleted by bad Defender ASR rule](https://www.bleepingcomputer.com/news/microsoft/microsoft-script-recreates-shortcuts-deleted-by-bad-defender-asr-rule/)
+  - [ ] [Smartphone hackerato in 55 secondi!](https://hackerjournal.it/11183/smartphone-hackerato-in-55-secondi/)
+  - [ ] [Cellebrite ora è disponibile per tutti. Cosa contiene il leak del software spia](https://www.insicurezzadigitale.com/cellebrite-ora-e-disponibile-per-tutti-cosa-contiene-il-leak-del-software-spia/)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [Elon Musk Themed Crypto Scams Flooding YouTube Today, (Sun, Jan 15th)](https://isc.sans.edu/diary/rss/29434)
+- Instapaper: Unread
+  - [ ] [IoT firmware analysis at DefCamp 2022](https://www.youtube.com/watch?v=5ywVtQPPhnw)
+  - [ ] [How to Load Any Full File System Extraction Into Physical Analyzer from a Different Tool](https://cellebrite.com/en/how-to-load-any-full-file-system-extraction-into-physical-analyzer-from-a-different-tool/)
+  - [ ] [Free Digital Forensics Tools Every Investigator Needs](https://www.magnetforensics.com/blog/free-digital-forensics-tools-every-investigator-needs/)
+  - [ ] [Full Memory Crash Dumps vs. Raw Dumps Which Is Best for Memory Analysis for Incident Response](https://www.magnetforensics.com/blog/full-memory-crash-dumps-vs-raw-dumps-which-is-best-for-memory-analysis-for-incident-response/)
+  - [ ] [Vehicle-based OSINT Investigations](https://digitalinvestigator.blogspot.com/2023/01/vehicle-based-osint-investigations.html)
+  - [ ] [European police takes down call centers behind cryptocurrency scams](https://www.bleepingcomputer.com/news/security/european-police-takes-down-call-centers-behind-cryptocurrency-scams/)
+  - [ ] [Cellebrite ora è disponibile per tutti. Cosa contiene il leak del software spia](https://www.insicurezzadigitale.com/cellebrite-ora-e-disponibile-per-tutti-cosa-contiene-il-leak-del-software-spia/)
+  - [ ] [Incidenti informatici, ecco i nuovi obblighi di notifica che rafforzano il Perimetro cyber](https://www.cybersecurity360.it/cybersecurity-nazionale/incidenti-informatici-ecco-i-nuovi-obblighi-di-notifica-che-rafforzano-il-perimetro-cyber/)
+  - [ ] [Criptovalute, come funziona la sanatoria](https://www.wired.it/article/criptovalute-sanatoria-2023/)
+  - [ ] [Sorveglianza digitale, un problema globale e nel 2023 sarà anche peggio gli allarmi](https://www.agendadigitale.eu/sicurezza/privacy/sorveglianza-digitale-un-problema-globale-e-nel-2023-sara-anche-peggio-gli-allarmi/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [Step by step walkthrough of finding and exploiting “SQL Injection Attack”.](https://www.reddit.com/r/netsecstudents/comments/10clzlu/step_by_step_walkthrough_of_finding_and/)
+  - [ ] [Good walkthrough of 2FA brute force attack lab of Web security academy.](https://www.reddit.com/r/netsecstudents/comments/10chd0n/good_walkthrough_of_2fa_brute_force_attack_lab_of/)
+  - [ ] [private IP Address instead of MAC address](https://www.reddit.com/r/netsecstudents/comments/10ce2n6/private_ip_address_instead_of_mac_address/)
+- Your Hacking Tutorial by Zempirians
+  - [ ] [Device ID ban questions](https://www.reddit.com/r/HowToHack/comments/10ccflw/device_id_ban_questions/)
+  - [ ] [can logstalgia be use to monitor data being sent between addresses?](https://www.reddit.com/r/HowToHack/comments/10csqyd/can_logstalgia_be_use_to_monitor_data_being_sent/)
+- Computer Forensics
+  - [ ] [how can i learn digital forensics?](https://www.reddit.com/r/computerforensics/comments/10cn5fa/how_can_i_learn_digital_forensics/)
+  - [ ] [Looking for a tool that functions like fiwalk but for the APFS filesystem.](https://www.reddit.com/r/computerforensics/comments/10cyez5/looking_for_a_tool_that_functions_like_fiwalk_but/)
+  - [ ] [Mobile phone imaging](https://www.reddit.com/r/computerforensics/comments/10ctdax/mobile_phone_imaging/)
+  - [ ] [Raid-5 reconstruction from images](https://www.reddit.com/r/computerforensics/comments/10cg5b2/raid5_reconstruction_from_images/)
+- Social Engineering
+  - [ ] [What question is good to find out how someone would have liked to have been raised differently?](https://www.reddit.com/r/SocialEngineering/comments/10cru6y/what_question_is_good_to_find_out_how_someone/)
+  - [ ] [What're activities two people can take part in that would make them feel like there part of the same group?](https://www.reddit.com/r/SocialEngineering/comments/10cnaxl/whatre_activities_two_people_can_take_part_in/)
+- TorrentFreak
+  - [ ] [Prominent Pirate Sites Mysteriously Vanish from Bing’s Search Results](https://torrentfreak.com/prominent-pirate-sites-mysteriously-vanish-from-bings-search-results-230115/)
+- KitPloit - PenTest Tools!
+  - [ ] [AVIator - Antivirus Evasion Project](http://www.kitploit.com/2023/01/aviator-antivirus-evasion-project.html)
+- Deep Web
+  - [ ] [Tor And I2P - A Complete Comparison of Anonymity Networks](https://www.reddit.com/r/deepweb/comments/10cjvkt/tor_and_i2p_a_complete_comparison_of_anonymity/)
+- Technical Information Security Content & Discussion
+  - [ ] [DLL Hijacking outside DllMain, using Spartacus](https://www.reddit.com/r/netsec/comments/10cehua/dll_hijacking_outside_dllmain_using_spartacus/)
+  - [ ] [what do you think about that ?🧑‍💻🧠](https://www.reddit.com/r/netsec/comments/10cxc24/what_do_you_think_about_that/)
+- Security Affairs
+  - [ ] [1.7 TB of data stolen from digital intelligence firm Cellebrite leaked online](https://securityaffairs.com/140838/data-breach/cellebrite-software-leaked-online.html)
+  - [ ] [Hacker stole credit cards from the website of Canada’s largest alcohol retailer LCBO](https://securityaffairs.com/140823/data-breach/lcbo-magecart-attack.html)
+  - [ ] [Security Affairs newsletter Round 402 by Pierluigi Paganini](https://securityaffairs.com/140815/breaking-news/security-affairs-newsletter-round-402-by-pierluigi-paganini.html)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Quick Showcase of 3 diff P.o.C Trojans](https://www.reddit.com/r/blackhat/comments/10cyvsk/quick_showcase_of_3_diff_poc_trojans/)
+  - [ ] [Transferring files from work computer?](https://www.reddit.com/r/blackhat/comments/10ct2qr/transferring_files_from_work_computer/)
