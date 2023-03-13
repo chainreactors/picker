@@ -296,7 +296,7 @@ def argument():
     parser.add_argument('--push-issue', help="update issue")
     parser.add_argument("--update-pick", help="update pick", action='store_true')
     parser.add_argument("--push-comment", help="update comment")
-    parser.add_argument("--check", help="check bots")
+    parser.add_argument("--check", help="check bots", action='store_true')
     return parser.parse_args()
 
 

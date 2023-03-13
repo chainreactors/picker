@@ -60,7 +60,7 @@ class feishuBot:
         headers = {'Content-Type': 'application/json'}
         url = f'https://open.feishu.cn/open-apis/bot/v2/hook/{self.key}'
         r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
-        if r.status_code == 200:
+        if r.status_code == 200 and r.json()["code"] == 0:
             Color.print_success('[+] feishuBot 发送成功')
         else:
             Color.print_failed('[-] feishuBot 发送失败')
