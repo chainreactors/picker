@@ -1,0 +1,155 @@
+{
+    "SecWiki News": {
+        "SecWiki News 2023-04-09 Review": "http://www.sec-wiki.com/?2023-04-09"
+    },
+    "先知安全技术社区": {
+        "Weblogic 关于T3协议和二次反序列化分析": "https://xz.aliyun.com/t/12397"
+    },
+    "HackerOne Hacker Activity": {
+        "Security Unfavorable Specifications and Implementations in the CGI::Cookie Class": "https://hackerone.com/reports/1889477",
+        "Ruby's CGI library has HTTP response splitting (HTTP header injection), leaking confidential information": "https://hackerone.com/reports/1889474",
+        "Use of Cryptographically Weak Pseudo-Random Number Generator in WebCrypto keygen": "https://hackerone.com/reports/1888803",
+        "Inadequate Encryption Strength in nodejs-current reads openssl.cnf from /home/iojs/build/... upon startup on MacOS": "https://hackerone.com/reports/1888758",
+        "HTTP Request Smuggling Due to Incorrect Parsing of Header Fields": "https://hackerone.com/reports/1888760"
+    },
+    "Twitter @Nicolas Krassas": {
+        "RT Kuldeep Pandya: Wrote an article on my findings from last year on @SynackRedTeam. I wanted to write this for a long time but did not get enough tim...": "https://twitter.com/kuldeepdotexe/status/1645102485445521409",
+        "endext: extracting all the possible endpoints from the JS files https://securityonline.info/endext-extracting-all-the-possible-endpoints-from-the-js-f...": "https://twitter.com/Dinosn/status/1645061670249660416",
+        "SilentMoonwalk - PoC Implementation Of A Fully Dynamic Call Stack Spoofer http://www.kitploit.com/2023/04/silentmoonwalk-poc-implementation-of.html": "https://twitter.com/Dinosn/status/1645061623210442752",
+        "HTB: BroScience https://0xdf.gitlab.io/2023/04/08/htb-broscience.html": "https://twitter.com/Dinosn/status/1645000921061941249",
+        "RT dalmoz: Xiaomi scooter hardware reversing & hacking - full walkthrough https://robocoffee.de/?p=436": "https://twitter.com/dalmoz_/status/1644947554314989568",
+        "Using Python to Operate in EDR blind spots https://www.reddit.com/r/netsec/comments/12fmhya/using_python_to_operate_in_edr_blind_spots/": "https://twitter.com/Dinosn/status/1644927906647244802",
+        "Tesla Employees Allegedly Shared Customers’ Private Videos and Photos https://www.hackread.com/tesla-employees-shared-user-videos-photos/": "https://twitter.com/Dinosn/status/1644927478106845184",
+        "Breached shutdown sparks migration to ARES data leak forums https://www.bleepingcomputer.com/news/security/breached-shutdown-sparks-migration-to-ares-...": "https://twitter.com/Dinosn/status/1644927431185248256",
+        "Reverse-engineering the division microcode in the Intel 8086 processor http://www.righto.com/2023/04/reverse-engineering-8086-divide-microcode.html": "https://twitter.com/Dinosn/status/1644927343574540289",
+        "Taiwanese PC Company MSI Falls Victim to Ransomware Attack https://thehackernews.com/2023/04/taiwanese-pc-company-msi-falls-victim.html": "https://twitter.com/Dinosn/status/1644927285420601345",
+        "CISA adds Veritas Backup Exec flaws to its Known Exploited Vulnerabilities catalog https://securityaffairs.com/144561/security/veritas-backup-exec-kno...": "https://twitter.com/Dinosn/status/1644927240860254208"
+    },
+    "unSafe.sh - 不安全": {
+        "YouTube发布安全警告：欺诈团伙滥用共享机制冒充官方发送钓鱼邮件": "https://buaq.net/go-157826.html",
+        "苹果通过iOS 16.4.1和macOS 13.3.1版修复两枚已经被利用的安全漏洞": "https://buaq.net/go-157803.html",
+        "Z-Library 计划支持实体书共享": "https://buaq.net/go-157819.html",
+        "加拿大隐私监管机构宣布调查OPENAI和ChatGPT 但目前不公开具体细节": "https://buaq.net/go-157804.html",
+        "女性作者占据了美国图书出版业半壁以上的江山": "https://buaq.net/go-157820.html",
+        "SilentMoonwalk - PoC Implementation Of A Fully Dynamic Call Stack Spoofer": "https://buaq.net/go-157793.html",
+        "人行征信密码控件完美卸载(去除代理提示)": "https://buaq.net/go-157790.html",
+        "加固网络安全的五大手段": "https://buaq.net/go-157766.html",
+        "DotRunpeX——揭开野外使用的新型虚拟化.NET注入器的神秘面纱（下）": "https://buaq.net/go-157767.html",
+        "ChatGPT 增强：支持 PDF 上传、转换为 Markdown 格式，自动提问[Chrome 开发中]": "https://buaq.net/go-157759.html",
+        "Weblogic 关于T3协议和二次反序列化分析": "https://buaq.net/go-157756.html",
+        "Reverse-engineering the division microcode in the Intel 8086 processor": "https://buaq.net/go-157733.html",
+        "微软修复影响火狐浏览器性能长达5年的BUG 火狐用户真是辛苦了": "https://buaq.net/go-157727.html",
+        "OPENAI屏蔽意大利访问ChatGPT后 意大利用户搜索VPN指数增长400%": "https://buaq.net/go-157728.html"
+    },
+    "Security Boulevard": {
+        "USENIX Security ’22 – ‘Investigating State-Of-The-Art Practices For Fostering Subjective Trust In Online Voting Through Interviews’": "https://securityboulevard.com/2023/04/usenix-security-22-investigating-state-of-the-art-practices-for-fostering-subjective-trust-in-online-voting-through-interviews/",
+        "Major Cyber Insurance Overhaul Begins Now": "https://securityboulevard.com/2023/04/major-cyber-insurance-overhaul-begins-now/",
+        "How to get FedRAMP Moderate Certified? FedRAMP Compliance and FedRAMP Marketplace Listing Explained": "https://securityboulevard.com/2023/04/how-to-get-fedramp-moderate-certified-fedramp-compliance-and-fedramp-marketplace-listing-explained/",
+        "What is FedRAMP Compliance? Understand the FedRAMP Certification and Compliance Process": "https://securityboulevard.com/2023/04/what-is-fedramp-compliance-understand-the-fedramp-certification-and-compliance-process/",
+        "What is FedRAMP High P-ATO? FedRAMP High Compliance and Certification Explained": "https://securityboulevard.com/2023/04/what-is-fedramp-high-p-ato-fedramp-high-compliance-and-certification-explained/"
+    },
+    "嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com": {
+        "加固网络安全的五大手段": "https://www.4hou.com/posts/jgQW",
+        "DotRunpeX——揭开野外使用的新型虚拟化.NET注入器的神秘面纱（下）": "https://www.4hou.com/posts/17xj"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for Code Injection in Apache Commons Text exploit": "https://sploitus.com/exploit?id=4255AF65-1BE3-5436-98DB-31AB4A584BFB&utm_source=rss&utm_medium=rss",
+        "Exploit for CVE-2023-23752 exploit": "https://sploitus.com/exploit?id=2A787775-8C03-5EC0-BFD1-8286CB37FAA4&utm_source=rss&utm_medium=rss"
+    },
+    "SAP Blogs": {
+        "How to build an Integration Architecture for the Intelligent Enterprise": "https://blogs.sap.com/2023/04/09/how-to-build-an-integration-architecture-for-the-intelligent-enterprise/"
+    },
+    "Reverse Engineering": {
+        "Curated repo of Android Reverse Engineering training, resources, and tools": "https://www.reddit.com/r/ReverseEngineering/comments/12gxids/curated_repo_of_android_reverse_engineering/"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "Z-Library 计划支持实体书共享": "https://www.solidot.org/story?sid=74613",
+        "女性作者占据了美国图书出版业半壁以上的江山": "https://www.solidot.org/story?sid=74612"
+    },
+    "丁爸 情报分析师的工具箱": {
+        "【资料】湾湾和日本是如何研究我军认知战、心理战、混合战？": "https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651135722&idx=1&sn=68cd59fab10cb1cb518e61a923931535&chksm=f1af69d0c6d8e0c62023cd1a09a35e8986c075e5c1bae7b25efe9bb1470dff05a605866ffc19&scene=58&subscene=0#rd"
+    },
+    "黑海洋 - WIKI": {
+        "人行征信密码控件完美卸载(去除代理提示)": "https://blog.upx8.com/3399"
+    },
+    "微步在线研究响应中心": {
+        "安全威胁情报周报（4.3~4.9）": "https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247500929&idx=1&sn=62e1ac45d67fbecc2a9ed6cb090f3cd2&chksm=cfcaa795f8bd2e837c05ac50eb559f376a749165e9e88ef9879f2b57168b27de8976d6c410ec&scene=58&subscene=0#rd"
+    },
+    "软件安全与逆向分析": {
+        "rock5b上运行tracee监控容器与进程的行为": "https://mp.weixin.qq.com/s?__biz=MzU3MTY5MzQxMA==&mid=2247484195&idx=1&sn=4146d20af7ddd1dc2c50c1133c8f3903&chksm=fcdd032ecbaa8a38bdee30c5825aaca01d081447120c6c751029b103fead03c208b2a83c084d&scene=58&subscene=0#rd"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "SilentMoonwalk - PoC Implementation Of A Fully Dynamic Call Stack Spoofer": "http://www.kitploit.com/2023/04/silentmoonwalk-poc-implementation-of.html"
+    },
+    "404 Not F0und": {
+        "从GPT-4、网络安全到大模型不扩散": "https://mp.weixin.qq.com/s?__biz=MzUzNDU2NTIxOA==&mid=2247484053&idx=1&sn=e52dea55b74707663d594f5c4b7d7101&chksm=fa939a98cde4138e9678fbd750b23dbc01fe67d78f60e4f5b2774bb42d634d6618e56b770c34&scene=58&subscene=0#rd"
+    },
+    "安全圈": {
+        "【安全圈】定了！快递电子运单上，禁止显示这些信息": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652032250&idx=1&sn=554c3555795c0f126888bb3e9c7ab7e5&chksm=f36fe0bac41869ac7252eb76948a5e28fd7fda7d61c81ef1ccf7ff06eb7e3d497c0ea990a6f7&scene=58&subscene=0#rd",
+        "【安全圈】元宇宙房产崩盘：暴跌近 90%，林俊杰等投资者亏惨": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652032250&idx=2&sn=e1e5fd69402656a4955df1d9f78e66bb&chksm=f36fe0bac41869acc85b2d4d1fbf0cef155ea66f723ba1f6569e81e9bc6352515a69c197881e&scene=58&subscene=0#rd",
+        "【安全圈】涉嫌侵犯隐私，加拿大对 ChatGPT 展开调查": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652032250&idx=3&sn=82807765c9d9b8a00bf74eeda0a28025&chksm=f36fe0bac41869ac527fa35aef6cc4b55eb0912dd8c5b7c9c3da8484c7157f31ec26b2118529&scene=58&subscene=0#rd",
+        "【安全圈】美国14家机场遭俄黑客攻击 网站无法打开": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652032250&idx=4&sn=0558d4e7e22e099ad4c5d83e5f19bd4c&chksm=f36fe0bac41869ac64256b88b47228aaae8e14412b92fd774ea3cdb2e68d7e811fc0e7c665f2&scene=58&subscene=0#rd"
+    },
+    "情报分析师": {
+        "【北约认知战资料集】《认知主导未来》（118页）": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650527207&idx=1&sn=741ec04f17838c1cc58eaadc3ba8bcc9&chksm=8716fbacb06172bad82936d74e31b805dd926865c955a17b81a0d7b6218685a58dda441bfd74&scene=58&subscene=0#rd",
+        "人工智能将如何改变未来战争样貌？ 人类在战场上还需要做什么？": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650527207&idx=2&sn=ed737a0ba8c97c8ee38221227fb21104&chksm=8716fbacb06172ba040afe2c4612a6160ee4f8ce4cd7c20c3f7ae95625e783dd2d883c84ffdb&scene=58&subscene=0#rd"
+    },
+    "安全研究GoSSIP": {
+        "【周末分享】Pwn.college 连载来啦（18-20集）": "https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247494828&idx=1&sn=4165f78fd3451f41511a5fa241ce85fc&chksm=c063c275f7144b63b2c1a0a9bfc61f86f48697daa47ba252dbadce3b240fb0ec3062b62186b9&scene=58&subscene=0#rd"
+    },
+    "青衣十三楼飞花堂": {
+        "趣味数学题--求解一元五次方程的一个整数解": "https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247486589&idx=1&sn=3f8d372d1e04a94829a4335d5a6ca5e6&chksm=fab2cf42cdc54654b36d5ed84c6ece68d7dc53076917f8bd32e8da3b48b9ad02fbdffd0a6f6b&scene=58&subscene=0#rd"
+    },
+    "极客公园": {
+        "GPT 火了之后，马斯克「喷」了一百多条微博": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652989514&idx=1&sn=e8d99b554e53232ca4aaf23071cb20e6&chksm=7e5415fc49239cea182c26584982411e0cc201f2aa4d9203bb736d296c4ae4af9a0f40716b03&scene=58&subscene=0#rd",
+        "苹果上架文心一言应用，百度：假的，告你；特斯拉再降价，马斯克：满足人民需求；iPhone 15 Pro渲染图曝光 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652989493&idx=1&sn=8c025d2d83232831ca51218db3a953bf&chksm=7e54158349239c956b4b6fa44203c206e6a71015824240bdecc80c7e314242b547ab01b7d4eb&scene=58&subscene=0#rd"
+    },
+    "Luca Mercatanti": {
+        "Scaricare video, playlist e musica da YouTube: elenco software gratuiti": "https://luca-mercatanti.com/scaricare-video-playlist-e-musica-da-youtube-elenco-software-gratuiti/?utm_source=rss&utm_medium=rss&utm_campaign=scaricare-video-playlist-e-musica-da-youtube-elenco-software-gratuiti"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "Chrome's Download Tab: Dangerous Files, (Sun, Apr 9th)": "https://isc.sans.edu/diary/rss/29730"
+    },
+    "0x00sec - The Home of the Hacker - Top topics": {
+        "Security Challenges in Cloud Computing": "https://0x00sec.org/t/security-challenges-in-cloud-computing/34416"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Microsoft PowerToys adds Windows Registry preview feature": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-windows-registry-preview-feature/",
+        "All Dutch govt networks to use RPKI to prevent BGP hijacking": "https://www.bleepingcomputer.com/news/security/all-dutch-govt-networks-to-use-rpki-to-prevent-bgp-hijacking/",
+        "Popular server-side JavaScript security sandbox “vm2” patches remote execution hole": "https://nakedsecurity.sophos.com/2023/04/09/popular-server-side-javascript-security-sandbox-vm2-patches-remote-execution-hole/"
+    },
+    "TorrentFreak": {
+        "Premier League IPTV Investigations Gather Personal Data on Pirates": "https://torrentfreak.com/premier-league-iptv-investigations-gather-personal-data-on-pirates-230409/"
+    },
+    "Security Affairs": {
+        "Researchers disclose critical sandbox escape bug in vm2 sandbox library": "https://securityaffairs.com/144582/hacking/vm2-rce-sandbox-escape.html",
+        "Security Affairs newsletter Round 414 by Pierluigi Paganini – International edition": "https://securityaffairs.com/144578/breaking-news/security-affairs-newsletter-round-414-by-pierluigi-paganini.html",
+        "Estonian National charged with helping Russia acquire U.S. hacking tools and electronics": "https://securityaffairs.com/144567/cyber-crime/estonian-national-helped-russia-acquire-us-electronics.html"
+    },
+    "KitPloit - PenTest Tools!": {
+        "SilentMoonwalk - PoC Implementation Of A Fully Dynamic Call Stack Spoofer": "http://www.kitploit.com/2023/04/silentmoonwalk-poc-implementation-of.html"
+    },
+    "Your Hacking Tutorial by Zempirians": {
+        "sniffing the packets a game sends to a game server?": "https://www.reddit.com/r/HowToHack/comments/12gu6te/sniffing_the_packets_a_game_sends_to_a_game_server/",
+        "Reading a firmware, what info can I get and how?": "https://www.reddit.com/r/HowToHack/comments/12gfdbm/reading_a_firmware_what_info_can_i_get_and_how/"
+    },
+    "Social Engineering": {
+        "How Can One Deal With Gaslighting And Deceitful People? Could You Share Your Experience, Please?": "https://www.reddit.com/r/SocialEngineering/comments/12gr0n4/how_can_one_deal_with_gaslighting_and_deceitful/",
+        "Negotiate (like a pro)": "https://www.reddit.com/r/SocialEngineering/comments/12g8cdc/negotiate_like_a_pro/"
+    },
+    "吴鲁加": {
+        "​拍胶片的慢，和做产品的慢": "https://mp.weixin.qq.com/s?__biz=Mzg5NDY4ODM1MA==&mid=2247484395&idx=1&sn=aefc8ccc658eedf66f3b23d2f4d5c550&chksm=c01a8edaf76d07cc9f086ff540772f5b752d5b5f5dc502b0ee2a9d2d615681fbe20c17a1c5bf&scene=58&subscene=0#rd"
+    },
+    "Technical Information Security Content & Discussion": {
+        "Securing Kubernetes Clusters using Kyverno Policy Engine - New Kubernetes Goat Scenario 🚀": "https://www.reddit.com/r/netsec/comments/12gov4l/securing_kubernetes_clusters_using_kyverno_policy/"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "[Cybersecurity Survey] Zero Trust Architecture (ZTA) and System Availability (All Welcome)": "https://www.reddit.com/r/netsecstudents/comments/12gxtmx/cybersecurity_survey_zero_trust_architecture_zta/"
+    },
+    "bellingcat": {
+        "From Discord to 4chan: The Improbable Journey of a US Intelligence Leak": "https://www.bellingcat.com/news/2023/04/09/from-discord-to-4chan-the-improbable-journey-of-a-us-defence-leak/"
+    },
+    "Dark Space Blogspot": {
+        "E' Meglio Il Ledger o Il Trezor? Caratteristiche e Cripto Supportate": "http://darkwhite666.blogspot.com/2023/04/e-meglio-il-ledger-o-il-trezor.html"
+    }
+}
