@@ -130,11 +130,14 @@ step3: 创建github token
 
 在secret中配置`MY_GITHUB_TOKEN`, 点击这里[生成](https://github.com/settings/tokens/new), 只需要给repo权限即可.
 
-step4: 配置钉钉机器人的token
+step4: 配置bot机器人
 
-当前只支持钉钉推送, 需要先[注册钉钉机器人](https://open.dingtalk.com/document/robots/custom-robot-access), 选择加签的方式. 
+当前只支持飞书,钉钉推送, 需要先[注册钉钉机器人](https://open.dingtalk.com/document/robots/custom-robot-access), 选择加签的方式. 
 
-然后在github secret中配置`DINGTALK_KEY` , `DINGTALK_SECRET`, `PICKER_DINGTALK_KEY`, `PICKER_DINGTALK_SECRET`
+在github secret中配置
+
+* 钉钉机器人: `DINGTALK_KEY` , `DINGTALK_SECRET`, `PICKER_DINGTALK_KEY`, `PICKER_DINGTALK_SECRET`
+* 飞书机器人: `PICKER_FEISHU_KEY`, `FEISHU_KEY`
 
 可以配置两个不同的钉钉机器人, 也可以只配置一个, 如果只有一个所有消息均通过同一个机器人推送.
 

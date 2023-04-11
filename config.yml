@@ -13,21 +13,21 @@ rss:
   CyberSecurityRSS:
     enabled: true
     url: >-
-      https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/CyberSecurityRSS.opml
+      https://github.com/chainreactors/picker/raw/master/rss/CyberSecurityRSS.opml
     filename: CyberSecurityRSS.opml
   CyberSecurityRSS-tiny:
     enabled: false
-    url: 'https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/tiny.opml'
+    url: https://github.com/chainreactors/picker/raw/master/rss/CyberSecurityRSS-tiny.opml
     filename: CyberSecurityRSS-tiny.opml
   Chinese-Security-RSS:
     enabled: true
     url: >-
-      https://raw.githubusercontent.com/zhengjim/Chinese-Security-RSS/master/Chinese-Security-RSS.opml
+      https://github.com/chainreactors/picker/raw/master/rss/Chinese-Security-RSS.opml
     filename: Chinese-Security-RSS.opml
   awesome-security-feed:
     enabled: true
     url: >-
-      https://raw.githubusercontent.com/mrtouch93/awesome-security-feed/main/security_feeds.opml
+      https://github.com/chainreactors/picker/raw/master/rss/awesome-security-feed.opml
     filename: awesome-security-feed.opml
   SecurityRSS:
     enabled: true
