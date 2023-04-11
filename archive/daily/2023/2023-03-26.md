@@ -1,0 +1,169 @@
+# 每日安全资讯（2023-03-26）
+
+- HackerOne Hacker Activity
+  - [ ] [Accessing unauthorized administration pages and seeing admin password - speakerkit.state.gov](https://hackerone.com/reports/1806387)
+  - [ ] [Chat room member disclosure via autocomplete API](https://hackerone.com/reports/1850407)
+- Security Boulevard
+  - [ ] [Linking Lit’s Lightweight Web Components And WebR For Vanilla JS Reactivity](https://securityboulevard.com/2023/03/linking-lits-lightweight-web-components-and-webr-for-vanilla-js-reactivity/)
+  - [ ] [SWG versus CASB: What’s the Difference?](https://securityboulevard.com/2023/03/swg-versus-casb-whats-the-difference/)
+  - [ ] [USENIX Security ’22 – Xudong Pan, Mi Zhang, Beina Sheng, Jiaming Zhu, Min Yang – ‘Hidden Trigger Backdoor Attack On NLP Models Via Linguistic Style Manipulation’](https://securityboulevard.com/2023/03/usenix-security-22-xudong-pan-mi-zhang-beina-sheng-jiaming-zhu-min-yang-hidden-trigger-backdoor-attack-on-nlp-models-via-linguistic-style-manipulation/)
+  - [ ] [Microsoft Outlook Remote Hash Vulnerability (CVE-2023-23397)](https://securityboulevard.com/2023/03/microsoft-outlook-remote-hash-vulnerability-cve-2023-23397/)
+- Sploitus.com Exploits RSS Feed
+  - [ ] [Exploit for CVE-2023-23752 exploit](https://sploitus.com/exploit?id=769EFCDC-A980-51E3-B763-3E0DEE87AA17&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for Vulnerability in Netgate Pfblockerng exploit](https://sploitus.com/exploit?id=CCD5CAA5-6C3B-5F0E-BAD9-89B84D17AAFD&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for CVE-2023-21036 exploit](https://sploitus.com/exploit?id=5D802400-5EDB-5091-9778-54FDD0155EE8&utm_source=rss&utm_medium=rss)
+- Twitter @Nicolas Krassas
+  - [ ] [QRExfiltrate - Tool That Allows You To Convert Any Binary File Into A QRcode Movie. The Data Can Then Be Reassembled Visually Allowing Exfiltration Of...](https://twitter.com/Dinosn/status/1639687468273238017)
+  - [ ] [HTB: Vessel https://0xdf.gitlab.io/2023/03/25/htb-vessel.html](https://twitter.com/Dinosn/status/1639685606795083778)
+  - [ ] [Russia’s Rostec allegedly can de-anonymize Telegram users https://www.bleepingcomputer.com/news/security/russia-s-rostec-allegedly-can-de-anonymize-t...](https://twitter.com/Dinosn/status/1639685133060960257)
+  - [ ] [Inaudible ultrasound attack can stealthily control your phone, smart speaker https://www.bleepingcomputer.com/news/security/inaudible-ultrasound-attac...](https://twitter.com/Dinosn/status/1639684316975316993)
+  - [ ] [Re @AlphaRingo That's the spirit !](https://twitter.com/Dinosn/status/1639644327633666050)
+  - [ ] [For long time as well for me. Additionally few words from @corelanc0d3r years ago, made a big impact on my way of thinking and I still follow them. ht...](https://twitter.com/Dinosn/status/1639518266333732864)
+  - [ ] [http://apk.sh makes reverse engineering Android apps easier, automating some repetitive tasks like pulling, decoding, rebuilding and patching an APK. ...](https://twitter.com/Dinosn/status/1639507649380118529)
+  - [ ] [ChatGPT Bug Exposed Payment Details of Paid Users https://www.hackread.com/chatgpt-bug-exposed-payment-details/](https://twitter.com/Dinosn/status/1639507358941421568)
+  - [ ] [Australian police arrest four BEC actors who stole $1.7 million https://www.bleepingcomputer.com/news/security/australian-police-arrest-four-bec-actor...](https://twitter.com/Dinosn/status/1639503605039284224)
+  - [ ] [Guidance for investigating attacks using CVE-2023-23397 https://www.microsoft.com/en-us/security/blog/2023/03/24/guidance-for-investigating-attacks-us...](https://twitter.com/Dinosn/status/1639478487445655552)
+  - [ ] [Zoom Zoom: 'Dark Power' Ransomware Extorts 10 Targets in Less Than a Month https://www.darkreading.com/vulnerabilities-threats/dark-power-ransomware-e...](https://twitter.com/Dinosn/status/1639478334164705280)
+  - [ ] [Windows, Ubuntu, and VMWare Workstation hacked on last day of Pwn2Own https://www.bleepingcomputer.com/news/security/windows-ubuntu-and-vmware-worksta...](https://twitter.com/Dinosn/status/1639476746662682625)
+  - [ ] [GitHub's Private RSA SSH Key Mistakenly Exposed in Public Repository https://www.darkreading.com/application-security/github-private-rsa-ssh-key-mista...](https://twitter.com/Dinosn/status/1639476699581632518)
+  - [ ] [Microsoft shares tips on detecting Outlook zero-day exploitation https://www.bleepingcomputer.com/news/security/microsoft-shares-tips-on-detecting-out...](https://twitter.com/Dinosn/status/1639476662571085826)
+  - [ ] [CVE-2022-47502: RCE security vulnerability in Apache OpenOffice https://securityonline.info/cve-2022-47502-rce-security-vulnerability-in-apache-openof...](https://twitter.com/Dinosn/status/1639466748641509378)
+  - [ ] [Open Source API Security Tool https://www.reddit.com/r/netsec/comments/12122w7/open_source_api_security_tool/](https://twitter.com/Dinosn/status/1639466666168860673)
+  - [ ] [RT Y4er: CVE-2023-28432 Minio information leakage leads to RCE https://y4er.com/posts/minio-cve-2023-28432/](https://twitter.com/Y4er_ChaBug/status/1639417748903309313)
+- SecWiki News
+  - [ ] [SecWiki News 2023-03-25 Review](http://www.sec-wiki.com/?2023-03-25)
+- Recent Commits to cve:main
+  - [ ] [Update Sat Mar 25 19:53:44 UTC 2023](https://github.com/trickest/cve/commit/7aaa7a10bb718f884c7d27a1a6dd5efc52132e7f)
+- unSafe.sh - 不安全
+  - [ ] [BREAD: BIOS Reverse Engineering & Advanced Debugging](https://buaq.net/go-155256.html)
+  - [ ] [W 玻色子的最新测量再次支持标准模型](https://buaq.net/go-155274.html)
+  - [ ] [法国禁止政府工作手机安装娱乐应用](https://buaq.net/go-155275.html)
+  - [ ] [〖工具〗LadonGo开源全平台内网渗透扫描器](https://buaq.net/go-155272.html)
+  - [ ] [美国犹他州通过法律青少年使用社交媒体需要父母批准](https://buaq.net/go-155250.html)
+  - [ ] [How Microsoft Edge Updates](https://buaq.net/go-155242.html)
+  - [ ] [QRExfiltrate - Tool That Allows You To Convert Any Binary File Into A QRcode Movie. The Data Can Then Be Reassembled Visually Allowing Exfiltration Of Data In Air Gapped Systems](https://buaq.net/go-155236.html)
+  - [ ] [2023年最好的免费域名注册平台网站大全（长期更新，建议收藏） - 一灯不是和尚](https://buaq.net/go-155228.html)
+  - [ ] [A Detailed Guide on Chisel](https://buaq.net/go-155230.html)
+  - [ ] [Reverse Engineering Read Later Data from the Apple News App](https://buaq.net/go-155213.html)
+  - [ ] [英特尔联合创始人戈登·摩尔去世](https://buaq.net/go-155208.html)
+  - [ ] [MinIO从信息泄漏到RCE复现](https://buaq.net/go-155205.html)
+  - [ ] [Red Pill漏洞影响Coinbase等6款加密货币钱包](https://buaq.net/go-155206.html)
+  - [ ] [威胁分子滥用AI生成的Youtube视频传播窃取信息的恶意软件](https://buaq.net/go-155207.html)
+  - [ ] [ChatDOC – 让 ChatGPT 与 Word 文档对话，自动提出最重要的 5 个问题](https://buaq.net/go-155199.html)
+  - [ ] [使用 MSF 进行 PtH 和 PtT](https://buaq.net/go-155214.html)
+  - [ ] [[webapps] Lavalite v9.0.0 - XSRF-TOKEN cookie File path traversal](https://buaq.net/go-155219.html)
+- 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
+  - [ ] [Red Pill漏洞影响Coinbase等6款加密货币钱包](https://www.4hou.com/posts/pVr6)
+  - [ ] [威胁分子滥用AI生成的Youtube视频传播窃取信息的恶意软件](https://www.4hou.com/posts/mXLO)
+- Twitter @bytehx
+  - [ ] [RT Jason Haddix: 🚀 ffufPostprocessing - an ffuf extension script by @damian_89_ when running "-o -od -of json" You can run ffufPostprocessing on th...](https://twitter.com/Jhaddix/status/1639659974367256577)
+  - [ ] [RT Nicolas Krassas: http://apk.sh makes reverse engineering Android apps easier, automating some repetitive tasks like pulling, decoding, rebuilding a...](https://twitter.com/Dinosn/status/1639507649380118529)
+  - [ ] [Re @ce_automne Congrats. Keep going mate!](https://twitter.com/bytehx343/status/1639483818238447617)
+- Reverse Engineering
+  - [ ] [Minesweeper x64 Hack - Reverse engineering, DLL injection, and hooking Windows Apps](https://www.reddit.com/r/ReverseEngineering/comments/121zntq/minesweeper_x64_hack_reverse_engineering_dll/)
+  - [ ] [BREAD: BIOS Reverse Engineering & Advanced Debugging](https://www.reddit.com/r/ReverseEngineering/comments/121nfp2/bread_bios_reverse_engineering_advanced_debugging/)
+  - [ ] [Reverse Engineering Read Later Data from the Apple News App](https://www.reddit.com/r/ReverseEngineering/comments/121dc8q/reverse_engineering_read_later_data_from_the/)
+- SAP Blogs
+  - [ ] [Convert the data XML format to CSV format using groovy script in SAP CPI.](https://blogs.sap.com/2023/03/25/convert-the-data-xml-format-to-csv-format-using-groovy-script-in-sap-cpi./)
+  - [ ] [SAP Datasphere & Partnerships – Databricks](https://blogs.sap.com/2023/03/25/sap-datasphere-partnerships-databricks/)
+  - [ ] [ERP公有云运输系统初介绍](https://blogs.sap.com/2023/03/25/erp%e5%85%ac%e6%9c%89%e4%ba%91%e8%bf%90%e8%be%93%e7%b3%bb%e7%bb%9f%e5%88%9d%e4%bb%8b%e7%bb%8d/)
+  - [ ] [Adding Custom Images in PMGM Email Notification](https://blogs.sap.com/2023/03/25/adding-custom-images-in-pmgm-email-notification/)
+  - [ ] [SAP Commissions – Smart Data Integration[SDI] – Part 6](https://blogs.sap.com/2023/03/25/sap-commissions-smart-data-integrationsdi-part-6/)
+  - [ ] [Monthly ABAP to EXCEL Blog – March 2023](https://blogs.sap.com/2023/03/25/monthly-abap-to-excel-blog-march-2023/)
+  - [ ] [How to Update and Fetch customer address from sales order.](https://blogs.sap.com/2023/03/25/how-to-update-and-fetch-customer-address-from-sales-order./)
+  - [ ] [SAP Build Process Automation – Business Rules fail](https://blogs.sap.com/2023/03/25/sap-build-process-automation-business-rules-fail/)
+  - [ ] [Why Digital Twin for the Energy Industry?](https://blogs.sap.com/2023/03/25/why-digital-twin-for-the-energy-industry/)
+  - [ ] [Why We Chose an Event-Based Architecture for Cell and Gene Therapy Orchestration](https://blogs.sap.com/2023/03/25/why-we-chose-an-event-based-architecture-for-cell-and-gene-therapy-orchestration/)
+- CFC4N的博客
+  - [ ] [漩涡：EDR内核回调、钩子和调用堆栈](https://www.cnxct.com/maelstrom-edr-kernel-callbacks-hooks-and-callstacks/)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [W 玻色子的最新测量再次支持标准模型](https://www.solidot.org/story?sid=74491)
+  - [ ] [法国禁止政府工作手机安装娱乐应用](https://www.solidot.org/story?sid=74490)
+  - [ ] [美国犹他州通过法律青少年使用社交媒体需要父母批准](https://www.solidot.org/story?sid=74489)
+  - [ ] [英特尔联合创始人戈登·摩尔去世](https://www.solidot.org/story?sid=74488)
+- Exploit-DB.com RSS Feed
+  - [ ] [[webapps] PHPGurukul Online Birth Certificate System V 1.2 - Blind XSS](https://www.exploit-db.com/exploits/51061)
+  - [ ] [[webapps] Composr-CMS Version <=10.0.39 - Authenticated Remote Code Execution](https://www.exploit-db.com/exploits/51060)
+  - [ ] [[webapps] MODX Revolution v2.8.3-pl - Authenticated Remote Code Execution](https://www.exploit-db.com/exploits/51059)
+  - [ ] [[webapps] Abantecart v1.3.2 - Authenticated Remote Code Execution](https://www.exploit-db.com/exploits/51058)
+  - [ ] [[webapps] SimpleMachinesForum v2.1.1 - Authenticated Remote Code Execution](https://www.exploit-db.com/exploits/51057)
+  - [ ] [[webapps] ImpressCMS v1.4.3 - Authenticated SQL Injection](https://www.exploit-db.com/exploits/51056)
+  - [ ] [[webapps] Password Manager for IIS v2.0 - XSS](https://www.exploit-db.com/exploits/51055)
+  - [ ] [[webapps] Bus Pass Management System 1.0 - Cross-Site Scripting (XSS)](https://www.exploit-db.com/exploits/51054)
+  - [ ] [[dos] DLink DIR 819 A1 - Denial of Service](https://www.exploit-db.com/exploits/51053)
+  - [ ] [[webapps] GuppY CMS v6.00.10 - Remote Code Execution](https://www.exploit-db.com/exploits/51052)
+  - [ ] [[remote] NVFLARE < 2.1.4 - Unsafe Deserialization due to Pickle](https://www.exploit-db.com/exploits/51051)
+  - [ ] [[webapps] Lavalite v9.0.0 - XSRF-TOKEN cookie File path traversal](https://www.exploit-db.com/exploits/51050)
+  - [ ] [[webapps] Employee Performance Evaluation System v1.0 - File Inclusion and RCE](https://www.exploit-db.com/exploits/51049)
+  - [ ] [[webapps] Yoga Class Registration System v1.0 - Multiple SQLi](https://www.exploit-db.com/exploits/51048)
+  - [ ] [[webapps] Human Resources Management System v1.0 - Multiple SQLi](https://www.exploit-db.com/exploits/51047)
+  - [ ] [[remote] D-Link DNR-322L <=2.60B15 - Authenticated Remote Code Execution](https://www.exploit-db.com/exploits/51046)
+  - [ ] [[webapps] Online Diagnostic Lab Management System v1.0 - Remote Code Execution (RCE) (Unauthenticated)](https://www.exploit-db.com/exploits/51045)
+  - [ ] [[local] System Mechanic v15.5.0.61 - Arbitrary Read/Write](https://www.exploit-db.com/exploits/51044)
+  - [ ] [[webapps] Translatepress Multilinugal WordPress plugin < 2.3.3 - Authenticated SQL Injection](https://www.exploit-db.com/exploits/51043)
+  - [ ] [[webapps] NEX-Forms WordPress plugin < 7.9.7 - Authenticated SQLi](https://www.exploit-db.com/exploits/51042)
+  - [ ] [[webapps] "camp" Raspberry Pi camera server 1.0 -  Authentication Bypass](https://www.exploit-db.com/exploits/51041)
+- K8哥哥’s Blog
+  - [ ] [〖工具〗LadonGo开源全平台内网渗透扫描器](http://k8gege.org/p/LadonGo.html)
+- 丁爸 情报分析师的工具箱
+  - [ ] [【资料】chatGPT风险研究报告](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651135529&idx=1&sn=c5adb3f716780c3ee5bc121669d76e73&chksm=f1af6913c6d8e005953367dad4057503391937eaa6f69ad7cd26f265fe544d6e5c9d6d586008&scene=58&subscene=0#rd)
+- 看雪学苑
+  - [ ] [源代码与二进制漏洞的融合](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458499499&idx=1&sn=b9163880e1d230947cb4c7011d6618c2&chksm=b18e892186f9003768dc8d960ed3181f73eeca2b3998bd00fd2d97f0a22cbac13db4d9f05aa6&scene=58&subscene=0#rd)
+  - [ ] [【IDA特训营】带你快速掌握 IDA 重要操作](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458499499&idx=2&sn=48646358009691582d8b62bf77703b0a&chksm=b18e892186f9003733b731fa8ac373ecb82f9aec72f1b54991b5b80e1cc05ea2df97ef1e8c65&scene=58&subscene=0#rd)
+- KitPloit - PenTest & Hacking Tools
+  - [ ] [QRExfiltrate - Tool That Allows You To Convert Any Binary File Into A QRcode Movie. The Data Can Then Be Reassembled Visually Allowing Exfiltration Of Data In Air Gapped Systems](http://www.kitploit.com/2023/03/qrexfiltrate-tool-that-allows-you-to.html)
+- 安全分析与研究
+  - [ ] [分享一些常用的恶意软件分析工具](https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247487636&idx=1&sn=342934e5128cc540a462ca5213baf917&chksm=902fbfbca75836aaa2b8711fa00d92534ab03fcab2101e74606f826db53c81593a220559a3cf&scene=58&subscene=0#rd)
+- text/plain
+  - [ ] [How Microsoft Edge Updates](https://textslashplain.com/2023/03/25/how-microsoft-edge-updates/)
+- 极客公园
+  - [ ] [百度李彦宏：文心一言和 ChatGPT 的水平差了 2 个月，但可以追赶](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652986842&idx=1&sn=1e46c1eddd1ea4105d1804fa140875a7&chksm=7e54206c4923a97ae6d81b8b50b7deb1641b8828b7b0e846d913c14c7198a3e7df7b36a4b0fc&scene=58&subscene=0#rd)
+  - [ ] [盖茨：GPT 仍能「自信」地犯错；苹果耳机将换 USB-C 接口；库克现身三里屯被围观 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652986828&idx=1&sn=1ca14f8903a45d9ab25abeafeebda37f&chksm=7e54207a4923a96cd7c62d102a7515a529be691d1f51207f780918a7b31ecb651d422dad1a8a&scene=58&subscene=0#rd)
+- 安全圈
+  - [ ] [黑客伪装成客户针对金融、证券业投毒 窃取信息危害严重](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652031823&idx=1&sn=79fb31875844af0beeb5e299c2f39700&chksm=f36fe70fc4186e196fc786035e725f2574eaf160d947308b0023ec76445f284c7b547cbf1dcb&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】可查看其他用户聊天记录，ChatGPT 爆出大BUG](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652031823&idx=2&sn=cde6a2e25bb9d385c0a244b1073f342f&chksm=f36fe70fc4186e19ef561481d0cd358b855083fcfe52d5196b50675116366d1b1a0079afbcb0&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】澳洲警方多州展开行动，抓捕4名洗钱黑客](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652031823&idx=3&sn=0efc9452df93f04ee3d864b8166e57c5&chksm=f36fe70fc4186e195a00abca05f9260b76ce88102414ddbf3f566a8daf1130c4e03d74abf033&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】加拿大白嫖王Linus频道被黑客入侵 上传马斯克诈骗视频](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652031823&idx=4&sn=949ba2c6a28971ea1c49773ad5f1ab77&chksm=f36fe70fc4186e193942665ff9b601ff38177a16b72928554f693f7955412cb752176b9c23a0&scene=58&subscene=0#rd)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Microsoft pushes OOB security updates for Windows Snipping tool flaw](https://www.bleepingcomputer.com/news/microsoft/microsoft-pushes-oob-security-updates-for-windows-snipping-tool-flaw/)
+  - [ ] [Russia’s Rostec allegedly can de-anonymize Telegram users](https://www.bleepingcomputer.com/news/security/russia-s-rostec-allegedly-can-de-anonymize-telegram-users/)
+  - [ ] [Inaudible ultrasound attack can stealthily control your phone, smart speaker](https://www.bleepingcomputer.com/news/security/inaudible-ultrasound-attack-can-stealthily-control-your-phone-smart-speaker/)
+  - [ ] [New Dark Power ransomware claims 10 victims in its first month](https://www.bleepingcomputer.com/news/security/new-dark-power-ransomware-claims-10-victims-in-its-first-month/)
+  - [ ] [r/flipperzero - Any methods of making .wav recordings from an RTL-SDR in SDR# usable on the Flipper?](https://www.reddit.com/r/flipperzero/comments/11dv04w/any_methods_of_making_wav_recordings_from_an/?utm_source=share&utm_medium=ios_app&utm_name=iossmf&utm_content=1&utm_term=15)
+  - [ ] [Guerre di Rete - Nel tornado AI occhio alle farfalle](https://guerredirete.substack.com/p/guerre-di-rete-nel-tornado-ai-occhio)
+- 0x00sec - The Home of the Hacker - Top topics
+  - [ ] [How to Conduct a Physical Penetration Test + Tips](https://0x00sec.org/t/how-to-conduct-a-physical-penetration-test-tips/34132)
+- 网安杂谈
+  - [ ] [电子数据取证三项国家标准更新，10月1日实施](https://mp.weixin.qq.com/s?__biz=MzAwMTMzMDUwNg==&mid=2650887292&idx=1&sn=9b68fcfcdb32ee9450a8b1092e6c8854&chksm=812ea859b659214fba8814be2e39e707acf2baf1438bc09d18449b8d2818a12586e2de84812a&scene=58&subscene=0#rd)
+- Il Disinformatico
+  - [ ] [Twitter, fine dei bollini blu “classici”. Lascio scadere il mio, vediamo che succede](http://attivissimo.blogspot.com/2023/03/twitter-fine-dei-bollini-blu-classici.html)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [Microsoft Released an Update for Windows Snipping Tool Vulnerability, (Sat, Mar 25th)](https://isc.sans.edu/diary/rss/29670)
+- Your Hacking Tutorial by Zempirians
+  - [ ] [How to hack a java app that uses license.lic validation? (Can't extract .jar from .exe)](https://www.reddit.com/r/HowToHack/comments/121t96t/how_to_hack_a_java_app_that_uses_licenselic/)
+  - [ ] [Trying to Understand PDF exploits](https://www.reddit.com/r/HowToHack/comments/121xvbr/trying_to_understand_pdf_exploits/)
+- TorrentFreak
+  - [ ] [Internet Archive is Liable for Copyright Infringement, Court Rules](https://torrentfreak.com/internet-archive-is-liable-for-copyright-infringement-court-rules-230325/)
+- The Hacker News
+  - [ ] [U.K. National Crime Agency Sets Up Fake DDoS-For-Hire Sites to Catch Cybercriminals](https://thehackernews.com/2023/03/uk-national-crime-agency-sets-up-fake.html)
+  - [ ] [Microsoft Warns of Stealthy Outlook Vulnerability Exploited by Russian Hackers](https://thehackernews.com/2023/03/microsoft-warns-of-stealthy-outlook.html)
+  - [ ] [OpenAI Reveals Redis Bug Behind ChatGPT User Data Exposure Incident](https://thehackernews.com/2023/03/openai-reveals-redis-bug-behind-chatgpt.html)
+- Social Engineering
+  - [ ] [Favorite Books On Marketing?](https://www.reddit.com/r/SocialEngineering/comments/121rnb6/favorite_books_on_marketing/)
+  - [ ] [What the best thing to say near end of a conversation to build rapport?](https://www.reddit.com/r/SocialEngineering/comments/121fllk/what_the_best_thing_to_say_near_end_of_a/)
+  - [ ] [Can someone figure out who I am and where I live based solely on my first name?](https://www.reddit.com/r/SocialEngineering/comments/121tttq/can_someone_figure_out_who_i_am_and_where_i_live/)
+  - [ ] [How can you associate yourself with things people like, so they'll Like you more?](https://www.reddit.com/r/SocialEngineering/comments/121x6r4/how_can_you_associate_yourself_with_things_people/)
+- Computer Forensics
+  - [ ] [Is there a way to search for a physical sector size in FTK Imager?](https://www.reddit.com/r/computerforensics/comments/121omts/is_there_a_way_to_search_for_a_physical_sector/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [An organization needs to implement more stringent controls over administrator/root credentials and service accounts. Requirements for the project include:](https://www.reddit.com/r/netsecstudents/comments/121o4zs/an_organization_needs_to_implement_more_stringent/)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [I heard about jammers that are able to actually shutdown/freeze phones. So for example you are recording a video and the jammers actually freezes it and blocks the video until it's enabled. Is this true? How are these jammers called and how do they work?](https://www.reddit.com/r/blackhat/comments/121s2z8/i_heard_about_jammers_that_are_able_to_actually/)
+- Security Affairs
+  - [ ] [NCA infiltrates the cybercriminal underground with fake DDoS-for-hire sites](https://securityaffairs.com/144011/cyber-crime/nca-fake-ddos-for-hire-sites.html)
+  - [ ] [Pwn2Own Vancouver 2023 awarded $1,035,000 and a Tesla for 27 0-days](https://securityaffairs.com/144001/hacking/pwn2own-vancouver-2023-results.html)
+- KitPloit - PenTest Tools!
+  - [ ] [QRExfiltrate - Tool That Allows You To Convert Any Binary File Into A QRcode Movie. The Data Can Then Be Reassembled Visually Allowing Exfiltration Of Data In Air Gapped Systems](http://www.kitploit.com/2023/03/qrexfiltrate-tool-that-allows-you-to.html)
+- Technical Information Security Content & Discussion
+  - [ ] [InjectGPT: remote code execution by asking nicely (literally)](https://www.reddit.com/r/netsec/comments/121gpay/injectgpt_remote_code_execution_by_asking_nicely/)
+  - [ ] [Synthetic Memory Protections: An update on ROP mitigations [PDF]](https://www.reddit.com/r/netsec/comments/121rkxs/synthetic_memory_protections_an_update_on_rop/)

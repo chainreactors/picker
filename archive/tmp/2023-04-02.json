@@ -1,0 +1,230 @@
+{
+    "HackerOne Hacker Activity": {
+        "Cache Deception Allows Account Takeover": "https://hackerone.com/reports/1698316",
+        "Cache Poisoning Allows Stored XSS Via hav Cookie Parameter (To Account Takeover)": "https://hackerone.com/reports/1760213"
+    },
+    "SecWiki News": {
+        "SecWiki News 2023-04-01 Review": "http://www.sec-wiki.com/?2023-04-01"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for Vulnerability in Google Android exploit": "https://sploitus.com/exploit?id=76AC3ABC-3B4B-585C-8667-714C88DD93B4&utm_source=rss&utm_medium=rss",
+        "Exploit for Inadequate Encryption Strength in Argussurveillance Dvr exploit": "https://sploitus.com/exploit?id=CE1D5C9C-C5F5-5B64-9247-2E9FC08E3C03&utm_source=rss&utm_medium=rss",
+        "Exploit for CVE-2021-22911 exploit": "https://sploitus.com/exploit?id=8257A1DE-9A4D-51E8-A8E2-7ED8E80B5BE9&utm_source=rss&utm_medium=rss",
+        "Exploit for Improper Privilege Management in Podman Project Podman exploit": "https://sploitus.com/exploit?id=EF874BB4-C10F-5624-8475-92A78F2530E5&utm_source=rss&utm_medium=rss",
+        "Exploit for Unrestricted Upload of File with Dangerous Type in Boxbilling exploit": "https://sploitus.com/exploit?id=50C9FC56-D879-5D74-BBFC-E8D6AD4E2A4E&utm_source=rss&utm_medium=rss",
+        "Exploit for Command Injection in Cacti exploit": "https://sploitus.com/exploit?id=563CEFFF-68A8-5A16-9B3E-9D29D7083718&utm_source=rss&utm_medium=rss"
+    },
+    "Security Boulevard": {
+        "USENIX Security ’22 – Johannes Wikner, Kaveh Razavi – ‘RETBLEED: Arbitrary Speculative Code Execution With Return Instructions’": "https://securityboulevard.com/2023/04/usenix-security-22-johannes-wikner-kaveh-razavi-retbleed-arbitrary-speculative-code-execution-with-return-instructions/",
+        "What is the impact of AI on cyber security awareness?": "https://securityboulevard.com/2023/04/what-is-the-impact-of-ai-on-cyber-security-awareness/",
+        "FusionAuth announces Pass-wordle&trade;": "https://securityboulevard.com/2023/03/fusionauth-announces-pass-wordletrade/"
+    },
+    "Twitter @Nicolas Krassas": {
+        "SafeDep Vet - Open Source Software Supply Chain Dependency Risks 🚀 https://www.reddit.com/r/netsec/comments/127tzis/safedep_vet_open_source_softwar...": "https://twitter.com/Dinosn/status/1642232441443106817",
+        "boringtools/git-alerts: A Public Git repository & misconfiguration detection tool https://www.reddit.com/r/netsec/comments/127zh56/boringtoolsgitalert...": "https://twitter.com/Dinosn/status/1642232328847081472",
+        "High-cost lender TMX Finance data breach affects nearly 5 million customers https://www.scmagazine.com/news/breach/high-cost-lender-tmx-finance-data-b...": "https://twitter.com/Dinosn/status/1642232147300810752",
+        "Fake ransomware gang targets U.S. orgs with empty data leak threats https://www.bleepingcomputer.com/news/security/fake-ransomware-gang-targets-us-org...": "https://twitter.com/Dinosn/status/1642232113943412737",
+        "RT yappare: interesting one. It is rare to find HQL injection. I found this once before during my time working at a bank. https://blog.yappare.com/201...": "https://twitter.com/yappare/status/1642220966540640257",
+        "NYPD blues: Cops ignored 93 percent of surveillance law rules https://go.theregister.com/feed/www.theregister.com/2023/03/31/nypd_surveillance_rules/": "https://twitter.com/Dinosn/status/1642181651882029057",
+        "NVIDIA Addresses High Security Flaws in GPU Display Drivers and vGPU Software https://securityonline.info/nvidia-addresses-critical-security-flaws-in-...": "https://twitter.com/Dinosn/status/1642181547485806595",
+        "HTB: Sekhmet https://0xdf.gitlab.io/2023/04/01/htb-sekhmet.html": "https://twitter.com/Dinosn/status/1642181459287982084",
+        "Exploiting Hibernate Injection in \"Order by\" Clause (Oracle database) https://www.reddit.com/r/netsec/comments/128hhao/exploiting_hibernate_injection_...": "https://twitter.com/Dinosn/status/1642181427138646018",
+        "The Defender's Guide to the 3CX Supply Chain Attack - How it happened, why it matters, and what's being done about it https://www.reddit.com/r/netsec/...": "https://twitter.com/Dinosn/status/1642181147739189248",
+        "DISH slapped with multiple lawsuits after ransomware cyber attack https://www.bleepingcomputer.com/news/security/dish-slapped-with-multiple-lawsuits-a...": "https://twitter.com/Dinosn/status/1642148340237230080",
+        "Noseyparker - A Command-Line Program That Finds Secrets And Sensitive Information In Textual Data And Git History http://www.kitploit.com/2023/04/nose...": "https://twitter.com/Dinosn/status/1642148170170789889",
+        "RT LiveOverflow 🔴: \"In this tutorial, we will discuss the importance of sanitizing untrusted user input for file paths in Python, and how to escape...": "https://twitter.com/LiveOverflow/status/1642098979893841920",
+        "Cacti, Realtek, and IBM Aspera Faspex Vulnerabilities Under Active Exploitation https://thehackernews.com/2023/04/cacti-realtek-and-ibm-aspera-faspex....": "https://twitter.com/Dinosn/status/1642058020694769664",
+        "An Burp Suite extension to add OpenAI to Burp to help you in your Bug Bounty recon! https://github.com/hisxo/ReconAIzer": "https://twitter.com/Dinosn/status/1642028940343537665"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sat Apr  1 19:36:42 UTC 2023": "https://github.com/trickest/cve/commit/8bb2f86380eb5f2eb6dff676ec11a64d9b795014"
+    },
+    "unSafe.sh - 不安全": {
+        "微软宣布Microsoft Teams中国版正式发布 由世纪互联蓝云在国内运营": "https://buaq.net/go-156495.html",
+        "推特公布推荐算法源代码 埃隆马斯克获得算法推荐优待 后续将被移除": "https://buaq.net/go-156496.html",
+        "Noseyparker - A Command-Line Program That Finds Secrets And Sensitive Information In Textual Data And Git History": "https://buaq.net/go-156481.html",
+        "Google Drive 对用户储存的文件数量设定了上限": "https://buaq.net/go-156482.html",
+        "Mozilla 诞生 25 周年": "https://buaq.net/go-156483.html",
+        "新玩意 141｜少数派的编辑们最近买了啥？": "https://buaq.net/go-156473.html",
+        "方滨兴称 ChatGPT 可能会造成知识茧房": "https://buaq.net/go-156465.html",
+        "网信办对美光启动网络安全审查": "https://buaq.net/go-156466.html",
+        "Twitter 公开推荐算法源代码，马斯克获特别优待": "https://buaq.net/go-156467.html",
+        "Overview of Content Published in March": "https://buaq.net/go-156453.html",
+        "Scrcpy 2 发布，新增音频支持｜用 Win 电脑控制 Android 手机": "https://buaq.net/go-156456.html",
+        "APT Profile: APT-C-35 / DoNot Team - SOCRadar": "https://buaq.net/go-156444.html",
+        "识破网络钓鱼企图的10个方法": "https://buaq.net/go-156442.html",
+        "保护 Android 用户的剪贴板内容免遭泄露风险": "https://buaq.net/go-156443.html",
+        "满载梦想驶向下座港湾：私人游艇选购指南": "https://buaq.net/go-156445.html",
+        "go语言结合反射dll技术 | WBGlIl": "https://buaq.net/go-156421.html"
+    },
+    "嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com": {
+        "识破网络钓鱼企图的10个方法": "https://www.4hou.com/posts/6Vkn",
+        "保护 Android 用户的剪贴板内容免遭泄露风险": "https://www.4hou.com/posts/6Vgn"
+    },
+    "先知安全技术社区": {
+        "Kerberos认证和黄金票据": "https://xz.aliyun.com/t/12384",
+        "nodejs全覆盖": "https://xz.aliyun.com/t/12383",
+        "2023数字中国创新大赛 XxMe Writeup": "https://xz.aliyun.com/t/12382",
+        "ManageEngine JDBC RCE": "https://xz.aliyun.com/t/12380"
+    },
+    "Der Flounder": {
+        "macOS Ventura 13.3 alters expected behavior for Finder’s Open With functionality for macOS installer packages": "https://derflounder.wordpress.com/2023/04/01/macos-ventura-13-3-alters-expected-behavior-for-finders-open-as-functionality-for-macos-installer-packages/"
+    },
+    "obaby@mars": {
+        "Stable Diffusion AI 图像生成": "https://h4ck.org.cn/2023/04/stable-diffusion-ai-%e5%9b%be%e5%83%8f%e7%94%9f%e6%88%90/"
+    },
+    "Dancho Danchev's Blog - Mind Streams of Information Security Knowledge": {
+        "Dancho Danchev's Video Interview at Bulgaria 24's \"Cyber Wars\" TV Show": "https://ddanchev.blogspot.com/2023/04/dancho-danchevs-video-interview-at.html"
+    },
+    "SAP Blogs": {
+        "Forecast Consumption for TS Supply Planning": "https://blogs.sap.com/2023/04/01/forecast-consumption-for-ts-supply-planning/",
+        "ERP公有云运输管理（手动运输计划-库存调拨单）": "https://blogs.sap.com/2023/04/01/erp%e5%85%ac%e6%9c%89%e4%ba%91%e8%bf%90%e8%be%93%e7%ae%a1%e7%90%86%ef%bc%88%e6%89%8b%e5%8a%a8%e8%bf%90%e8%be%93%e8%ae%a1%e5%88%92-%e5%ba%93%e5%ad%98%e8%b0%83%e6%8b%a8%e5%8d%95%ef%bc%89/",
+        "S/4 HANA  EHS – Environment Management (EHS-SUS-EM)…One of its kind – Part:1": "https://blogs.sap.com/2023/04/01/s-4-hana-ehs-environment-management-ehs-sus-em...one-of-its-kind-part1/",
+        "Harnessing the Power of Process: Transformation and Continuous Innovation in Business": "https://blogs.sap.com/2023/04/01/harnessing-the-power-of-process-transformation-and-continuous-innovation-in-business/",
+        "SAP Releases Pop Album, Goes to Number One in Every Country at Once": "https://blogs.sap.com/2023/04/01/sap-releases-pop-album-goes-to-number-one-in-every-country-at-once/",
+        "Add BW Bridge and/or Embedded Data Lake to SAP Datasphere Service Instance created from SAP BTP Platform": "https://blogs.sap.com/2023/04/01/add-bw-bridge-and-or-embedded-data-lake-to-sap-datasphere-service-instance-created-from-sap-btp-platform/"
+    },
+    "Hexacorn": {
+        "The words that go (.)[a-z]\\1[a-z]\\1[a-z]\\1[a-z]\\1[a-z]\\1": "https://www.hexacorn.com/blog/2023/04/01/the-words-that-go-a-z1a-z1a-z1a-z1a-z1/"
+    },
+    "Malware-Traffic-Analysis.net - Blog Entries": {
+        "2023-03-31 - Qakbot (Qbot), obama247 distribution tag": "https://www.malware-traffic-analysis.net/2023/03/31/index.html"
+    },
+    "Exploit-DB.com RSS Feed": {
+        "[webapps] ELSI Smart Floor V3.3.3 - Stored Cross-Site Scripting (XSS)": "https://www.exploit-db.com/exploits/51200",
+        "[local] NetIQ/Microfocus Performance Endpoint v5.1 - remote root/SYSTEM exploit": "https://www.exploit-db.com/exploits/51199",
+        "[webapps] Yahoo User Interface library (YUI2) TreeView v2.8.2 - Multiple Reflected Cross Site Scripting (XSS)": "https://www.exploit-db.com/exploits/51198",
+        "[dos] AimOne Video Converter V2.04 Build 103 - Buffer Overflow (DoS)": "https://www.exploit-db.com/exploits/51196",
+        "[remote] Nexxt Router Firmware 42.103.1.5095 - Remote Code Execution (RCE) (Authenticated)": "https://www.exploit-db.com/exploits/51195",
+        "[webapps] Centos Web Panel 7 v0.9.8.1147 - Unauthenticated Remote Code Execution (RCE)": "https://www.exploit-db.com/exploits/51194",
+        "[webapps] Apache 2.4.x - Buffer Overflow": "https://www.exploit-db.com/exploits/51193",
+        "[remote] TP-Link TL-WR902AC firmware 210730 (V3) - Remote Code Execution (RCE) (Authenticated)": "https://www.exploit-db.com/exploits/51192",
+        "[remote] Hughes Satellite Router HX200 v8.3.1.14 -  Remote File Inclusion": "https://www.exploit-db.com/exploits/51190",
+        "[webapps] Reprise Software RLM v14.2BL4 - Cross-Site Scripting (XSS)": "https://www.exploit-db.com/exploits/51188",
+        "[webapps] SugarCRM 12.2.0 - Remote Code Execution (RCE)": "https://www.exploit-db.com/exploits/51187",
+        "[webapps] perfSONAR v4.4.5 - Partial Blind CSRF": "https://www.exploit-db.com/exploits/51186",
+        "[webapps] XCMS v1.83 - Remote Command Execution (RCE)": "https://www.exploit-db.com/exploits/51184",
+        "[remote] AD Manager Plus 7122 - Remote Code Execution (RCE)": "https://www.exploit-db.com/exploits/51183",
+        "[local] Splashtop 8.71.12001.0 - Unquoted Service Path": "https://www.exploit-db.com/exploits/51182",
+        "[webapps] GitLab v15.3 - Remote Code Execution (RCE) (Authenticated)": "https://www.exploit-db.com/exploits/51181",
+        "[local] Enlightenment v0.25.3 - Privilege escalation": "https://www.exploit-db.com/exploits/51180",
+        "[webapps] GeoVision Camera GV-ADR2701 - Authentication Bypass": "https://www.exploit-db.com/exploits/51179"
+    },
+    "Didier Stevens": {
+        "Overview of Content Published in March": "https://blog.didierstevens.com/2023/04/01/overview-of-content-published-in-march-8/"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "Google Drive 对用户储存的文件数量设定了上限": "https://www.solidot.org/story?sid=74557",
+        "Mozilla 诞生 25 周年": "https://www.solidot.org/story?sid=74556",
+        "方滨兴称 ChatGPT 可能会造成知识茧房": "https://www.solidot.org/story?sid=74555",
+        "网信办对美光启动网络安全审查": "https://www.solidot.org/story?sid=74554",
+        "Twitter 公开推荐算法源代码，马斯克获特别优待": "https://www.solidot.org/story?sid=74553"
+    },
+    "体验盒子": {
+        "你用错了 ChatGPT！以下是如何领先于 99% 的 ChatGPT 用户的建议": "https://www.uedbox.com/post/68792/"
+    },
+    "看雪学苑": {
+        "安卓加固脱壳分享": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458500598&idx=1&sn=d783cb03dc6a3c1a9f9465c5053bbbee&chksm=b18e8d7c86f9046a67659f598242acb74c822aaf04529433c5ec2ccff14adeafa4f45abc2b33&scene=58&subscene=0#rd",
+        "周日14点直播预告 | 系统0day安全-漏洞挖掘复现cve-1": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458500598&idx=2&sn=2df59155b864da24c3ab9886148769a6&chksm=b18e8d7c86f9046ad89b990c4859800aa6e8e7b0e033d90c2923cd831b13801d9a86a1b04564&scene=58&subscene=0#rd"
+    },
+    "软件安全与逆向分析": {
+        "使用rock5b开发板配合qemu开发eBPF-附镜像下载": "https://mp.weixin.qq.com/s?__biz=MzU3MTY5MzQxMA==&mid=2247484160&idx=1&sn=c6b257b5aa1b9a9fe19e9c0683f49039&chksm=fcdd030dcbaa8a1b40410d179e295f0eb5ea330919ccd7c0d53398c42fe1350a76406057dcbf&scene=58&subscene=0#rd"
+    },
+    "PeiQi文库": {
+        "攻防演练(HW)岗位招聘": "https://mp.weixin.qq.com/s?__biz=Mzg3NDU2MTg0Ng==&mid=2247493711&idx=1&sn=9baac2e30fcbeaf97e4daeb8c179d376&chksm=cecc4016f9bbc90009ede11a48bf70310e91a08a6822bd8cc1f3a711cf99b5236cc98ee197cc&scene=58&subscene=0#rd"
+    },
+    "数世咨询": {
+        "MITRE推出供应链安全原型": "https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247497697&idx=1&sn=724762098735726ad5e4a1c41460643d&chksm=c144855cf6330c4a039e13b8ae10211004bef18778bcca6b37a9ccec96619bc415e4e9237591&scene=58&subscene=0#rd"
+    },
+    "极客公园": {
+        "终于有车厂，把车机做的像手机了": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652988561&idx=1&sn=e558e0a7356fe79c707558361301df06&chksm=7e54192749239031e87c4521dabfdd7be38c758b26f53d48dd8d2a7f028b2219c1894582352b&scene=58&subscene=0#rd",
+        "任正非发文重申「华为不造车」；意大利宣布禁止使用 ChatGPT；Twitter 对外披露部分源代码 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652988560&idx=1&sn=b5e7d5ee7d9fd1cd5a963cd0d72d3b51&chksm=7e54192649239030831c77d01950aa1fd36799917f84aedd86164a44c0669c6aeb498dfebaf2&scene=58&subscene=0#rd"
+    },
+    "情报分析师": {
+        "2022版FM3-0美陆军野战条令:作战（附下载）": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650526263&idx=1&sn=09fd476402d17b32a3c5ce189ea89d33&chksm=8716fc7cb061756a7fbd7a5de6bc72fd10544832b84ea720bbddaebeb3cac71c3dabf092b8ea&scene=58&subscene=0#rd",
+        "情报分析师常用的九款地理空间工具": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650526263&idx=2&sn=0acc880b85f7120967f58391b19d7e76&chksm=8716fc7cb061756a0f20f89a3c0c86c45256d6490641c592319a70c5d81d2148c4eea645fb20&scene=58&subscene=0#rd"
+    },
+    "网安寻路人": {
+        "关于美光网络安全审查的一些理解和认识": "https://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247499432&idx=1&sn=2ee278e9a43786bc06ccaf1b7fde94aa&chksm=97e94342a09eca549a0aaee713a5181c929d5f3c2190fc43d8c9aa6bd708f6c723d1084b03d5&scene=58&subscene=0#rd"
+    },
+    "中国信息安全": {
+        "公告 | 对美光公司在华销售产品启动网络安全审查": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664180188&idx=1&sn=b6384167d330ba581bcff0bb7fca7744&chksm=8b592b25bc2ea233073e17a7ae5d951c3e6993b7c3b3de503c84b8ef6fd1d4fbf3d0894a6298&scene=58&subscene=0#rd",
+        "通知 | 中央网信办、民政部：规范网络祭扫秩序 倡导文明新风尚": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664180188&idx=2&sn=6ae31cafc903dcc859b46ba7d8142364&chksm=8b592b25bc2ea23368c0bba5116be645bb6e381ba3bb82f85b4b9b1b682ef301cd490ade8f94&scene=58&subscene=0#rd",
+        "关注 | 涉嫌侵犯隐私 ChatGPT在意大利下线": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664180188&idx=3&sn=dc46f3cba1057baed48489727f7410ff&chksm=8b592b25bc2ea233aa572dd8b058c04dcf388125b9c5a28f237853c63841c78c02bf36006676&scene=58&subscene=0#rd",
+        "观点 | 进一步扩大中国数字经济“朋友圈”": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664180188&idx=4&sn=2104be3b4c666ea03bf8b72b03612a4e&chksm=8b592b25bc2ea23336fe3bd91aad10ada411bd7d041a2823b652634ffe66224f6ea0c757b714&scene=58&subscene=0#rd",
+        "评论 | 绝不能向疯狂的网暴让步": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664180188&idx=5&sn=6b60bb2783531ea55d49436feaaaf344&chksm=8b592b25bc2ea233ccc8d0761af775726d1f4a954794b24a705848f69bf39e8734365b9b3c62&scene=58&subscene=0#rd"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "Noseyparker - A Command-Line Program That Finds Secrets And Sensitive Information In Textual Data And Git History": "http://www.kitploit.com/2023/04/noseyparker-command-line-program-that.html"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Understanding the magnitude of the 3CXDesktopApp phenomenon": "https://www.emanueledelucia.net/it/understanding-the-magnitude-of-the-3cxdesktopapp-phenomenon-2/",
+        "Fake ransomware gang targets U.S. orgs with empty data leak threats": "https://www.bleepingcomputer.com/news/security/fake-ransomware-gang-targets-us-orgs-with-empty-data-leak-threats/",
+        "DISH slapped with multiple lawsuits after ransomware cyber attack": "https://www.bleepingcomputer.com/news/security/dish-slapped-with-multiple-lawsuits-after-ransomware-cyber-attack/",
+        "Steer clear of this EE phish that wants your card details": "https://www.malwarebytes.com/blog/news/2023/03/steer-clear-of-this-ee-phish-that-wants-your-card-details",
+        "3 tips to raise your backup game": "https://www.malwarebytes.com/blog/news/2023/03/3-things-you-should-do-on-world-backup-day",
+        "3 tips for creating backups your organization can rely on when ransomware strikes": "https://www.malwarebytes.com/blog/news/2023/03/3-tips-for-creating-backups-your-organization-can-rely-on-when-ransomware-strikes"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "Using Linux grep and Windows findstr to Manipulate Files, (Fri, Mar 31st)": "https://isc.sans.edu/diary/rss/29696"
+    },
+    "The Hacker News": {
+        "Microsoft Fixes New Azure AD Vulnerability Impacting Bing Search and Major Apps": "https://thehackernews.com/2023/04/microsoft-fixes-new-azure-ad.html",
+        "Cacti, Realtek, and IBM Aspera Faspex Vulnerabilities Under Active Exploitation": "https://thehackernews.com/2023/04/cacti-realtek-and-ibm-aspera-faspex.html",
+        "Hackers Exploiting WordPress Elementor Pro Vulnerability: Millions of Sites at Risk!": "https://thehackernews.com/2023/04/hackers-exploiting-wordpress-elementor.html"
+    },
+    "Il Disinformatico": {
+        "Starship, spettacolare animazione non ufficiale di un lancio di prova": "http://attivissimo.blogspot.com/2023/04/starship-spettacolare-animazione-non.html",
+        "Da oggi dovrebbero cominciare a sparire le spunte blu “vecchie” di Twitter": "http://attivissimo.blogspot.com/2023/04/da-oggi-dovrebbero-cominciare-sparire.html"
+    },
+    "Security Affairs": {
+        "LockBit leaks data stolen from the South Korean National Tax Service": "https://securityaffairs.com/144342/cyber-crime/lockbit-south-korean-national-tax-service.html",
+        "Italy’s Data Protection Authority temporarily blocks ChatGPT over privacy concerns": "https://securityaffairs.com/144325/laws-and-regulations/italy-blocks-chatgpt.html",
+        "CISA adds bugs exploited by commercial surveillance spyware to Known Exploited Vulnerabilities catalog": "https://securityaffairs.com/144315/breaking-news/cisa-known-exploited-vulnerabilities-catalog-spyware-bugs.html"
+    },
+    "TorrentFreak": {
+        "PrimeWire Won’t Die or Stop Pirating, $21.7m Judgment Be Damned": "https://torrentfreak.com/primewire-wont-die-or-stop-pirating-21m-judgment-be-damned-230401/"
+    },
+    "The Register - Security": {
+        "Ukrainian cops nab suspects accused of stealing $4.3m from victims across Europe": "https://go.theregister.com/feed/www.theregister.com/2023/04/01/ukrainian_cops_arrest/"
+    },
+    "Information Security": {
+        "Brainding Project - Circuit Bending with Human Brain Waves": "https://www.reddit.com/r/Information_Security/comments/128ygun/brainding_project_circuit_bending_with_human/",
+        "From brain waves, this AI can sketch what you're picturing - DANGER! Individuals with access to thís technology can use it to steal your passwords without you even knowing.": "https://www.reddit.com/r/Information_Security/comments/128gywa/from_brain_waves_this_ai_can_sketch_what_youre/",
+        "Hacked by Verizon and Apple employees": "https://www.reddit.com/r/Information_Security/comments/128exz0/hacked_by_verizon_and_apple_employees/"
+    },
+    "Technical Information Security Content & Discussion": {
+        "The Defender's Guide to the 3CX Supply Chain Attack - How it happened, why it matters, and what's being done about it": "https://www.reddit.com/r/netsec/comments/128iamx/the_defenders_guide_to_the_3cx_supply_chain/",
+        "How to avoid the aCropalypse": "https://www.reddit.com/r/netsec/comments/128bk1k/how_to_avoid_the_acropalypse/",
+        "Leveraging LLMs for solving bounty hunting pain points": "https://www.reddit.com/r/netsec/comments/128eokl/leveraging_llms_for_solving_bounty_hunting_pain/",
+        "Exploiting Hibernate Injection in \"Order by\" Clause (Oracle database)": "https://www.reddit.com/r/netsec/comments/128hhao/exploiting_hibernate_injection_in_order_by_clause/",
+        "Developing a Robust Vulnerability Detection Tool for ink!": "https://www.reddit.com/r/netsec/comments/128mtmj/developing_a_robust_vulnerability_detection_tool/",
+        "\"Alexa, what is my wifi password?\" by Daniel, a 14 year old developer": "https://www.reddit.com/r/netsec/comments/128miw8/alexa_what_is_my_wifi_password_by_daniel_a_14/"
+    },
+    "Computer Forensics": {
+        "What time zone should be used if you are analysing artefacts on a USB device?": "https://www.reddit.com/r/computerforensics/comments/128o3gc/what_time_zone_should_be_used_if_you_are/",
+        "How Do I land an Entry Level Digital Forensics job?": "https://www.reddit.com/r/computerforensics/comments/1288j8t/how_do_i_land_an_entry_level_digital_forensics_job/",
+        "How valuable are cellebrite certifications?": "https://www.reddit.com/r/computerforensics/comments/128a2w4/how_valuable_are_cellebrite_certifications/"
+    },
+    "Blackhat Library: Hacking techniques and research": {
+        "How to add user agent / cookies to a browser profile?": "https://www.reddit.com/r/blackhat/comments/128tm5c/how_to_add_user_agent_cookies_to_a_browser_profile/",
+        "Does anyone here have experience with Hacktown?": "https://www.reddit.com/r/blackhat/comments/128fgp3/does_anyone_here_have_experience_with_hacktown/"
+    },
+    "Instapaper: Unread": {
+        "Obtaining Serial Number, MAC, MEID and IMEI of a locked iPhone": "https://blog.elcomsoft.com/2023/03/obtaining-serial-number-mac-meid-and-imei-of-a-locked-iphone/",
+        "“Vulkan files”, svelate grazie a una fonte russa le tattiche di guerra informatica di Putin a livello globale e nazionale": "https://www.valigiablu.it/vulkan-file-leak-tattiche-guerra-russia/"
+    },
+    "Social Engineering": {
+        "What scapegoats are good for bonding over?": "https://www.reddit.com/r/SocialEngineering/comments/128wsa2/what_scapegoats_are_good_for_bonding_over/"
+    },
+    "Your Hacking Tutorial by Zempirians": {
+        "What programs can i use to help me with SNIFFing? (Reading off of RJ45)": "https://www.reddit.com/r/HowToHack/comments/129001o/what_programs_can_i_use_to_help_me_with_sniffing/",
+        "Kioptrix Level 1": "https://www.reddit.com/r/HowToHack/comments/128kar7/kioptrix_level_1/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "Noseyparker - A Command-Line Program That Finds Secrets And Sensitive Information In Textual Data And Git History": "http://www.kitploit.com/2023/04/noseyparker-command-line-program-that.html"
+    },
+    "Dark Space Blogspot": {
+        "Come Risolvere L'Errore \"Content Not Available Yet\" (Opensea)": "http://darkwhite666.blogspot.com/2023/04/come-risolvere-lerrore-content-not.html"
+    }
+}
