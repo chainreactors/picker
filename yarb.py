@@ -238,7 +238,7 @@ def init_rss(conf: dict, update: bool=False, proxy_url=''):
     for rss in rss_list:
         (_, value), = rss.items()
         try:
-            rss = listparser.parse(open(value,encoding="utf-8").read())
+            rss = listparser.parse(open(value, encoding="utf-8").read())
             for feed in rss.feeds:
                 url = feed.url.strip().rstrip('/')
                 short_url = url.split('://')[-1].split('www.')[-1]
@@ -253,7 +253,7 @@ def init_rss(conf: dict, update: bool=False, proxy_url=''):
     return feeds
 
 
-def job(args, conf):
+def rssjob(args, conf):
     """定时任务"""
 
     proxy_rss = conf['proxy']['url'] if conf['proxy']['rss'] else ''
@@ -327,4 +327,4 @@ if __name__ == '__main__':
         for bot in picker_bots:
             bot.send_raw("test picker title", "test picker content")
     else:
-        job(args, conf)
+        rssjob(args, conf)
