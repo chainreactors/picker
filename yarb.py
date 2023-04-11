@@ -230,15 +230,15 @@ def init_rss(conf: dict, update: bool=False, proxy_url=''):
             if rss := update_rss(rss, proxy_url):
                 rss_list.append(rss)
         else:
-            (key, value), = rss.items()
-            rss_list.append({key: root_path.joinpath(f'rss/{value["filename"]}')})
+            (key, file), = rss.items()
+            rss_list.append({key: root_path.joinpath(f'rss/{file["filename"]}')})
 
     # 合并相同链接
     feeds = []
     for rss in rss_list:
-        (_, value), = rss.items()
+        (_, file), = rss.items()
         try:
-            rss = listparser.parse(open(value, encoding="utf-8").read())
+            rss = listparser.parse(open(file, encoding="utf-8").read())
             for feed in rss.feeds:
                 url = feed.url.strip().rstrip('/')
                 short_url = url.split('://')[-1].split('www.')[-1]
@@ -246,7 +246,7 @@ def init_rss(conf: dict, update: bool=False, proxy_url=''):
                 if not check:
                     feeds.append(url)
         except Exception as e:
-            Color.print_failed(f'[-] 解析失败：{value}')
+            Color.print_failed(f'[-] 解析失败：{file}')
             print(e)
 
     Color.print_focus(f'[+] {len(feeds)} feeds')
