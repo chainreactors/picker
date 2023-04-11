@@ -187,8 +187,7 @@ def parse_rss(url: str, proxy_url=''):
                 result[entry.title] = entry.link
         Color.print_success(f'[+] {title}\t{url}\t{len(result.values())}/{len(r.entries)}')
     except Exception as e:
-        Color.print_failed(f'[-] failed: {url}')
-        print(e)
+        Color.print_failed(f'[-] failed: {url}, {e}')
 
     return title, result
 
