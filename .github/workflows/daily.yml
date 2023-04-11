@@ -32,7 +32,7 @@ jobs:
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
           PICKER_DINGTALK_KEY: ${{ secrets.PICKER_DINGTALK_KEY }}
           PICKER_DINGTALK_SECRET: ${{ secrets.PICKER_DINGTALK_SECRET }}
-        run: python3 yarb.py
+        run: python3 picker.py
 
       - name: Issue
         run: gh issue create --title "[每日信息流] `date +'%Y-%m-%d'`" -F today.md --label "daily"

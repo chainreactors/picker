@@ -30,7 +30,7 @@ jobs:
           MAIL_KEY: ${{ secrets.MAIL_KEY }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-        run: python3 yarb.py --update-pick
+        run: python3 picker.py --update-pick
 
       - name: Issue
         run: gh issue create --title "[每日精选] `date +'%Y-%m-%d'`" -F today_pick.md --label "dailypick"

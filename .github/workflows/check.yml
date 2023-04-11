@@ -30,4 +30,4 @@ jobs:
           TELEGRAM_KEY: ${{ secrets.TELEGRAM_KEY }}
           MAIL_KEY: ${{ secrets.MAIL_KEY }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
-        run: python3 yarb.py --check
+        run: python3 picker.py --check
