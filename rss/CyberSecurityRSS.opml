@@ -315,7 +315,7 @@
 <outline text="The Exploit Laboratory" title="The Exploit Laboratory" htmlUrl="https://blog.exploitlab.net/" type="rss" xmlUrl="http://blog.exploitlab.net/feeds/posts/default" />
 <outline title="Blog - Atredis Partners" htmlUrl="https://www.atredis.com/blog/" text="Blog - Atredis Partners" type="rss" xmlUrl="https://www.atredis.com/blog?format=RSS" />
 <outline text="void0red's blog" type="rss" title="void0red's blog" htmlUrl="http://blog.void0red.top" xmlUrl="http://blog.void0red.top/pages/feed.xml" />
-<outline type="rss" title="RSS: The Fuzzing Project - Blog and Advisories" xmlUrl="https://blog.fuzzing-project.org/feeds/index.rss2" text="RSS: The Fuzzing Project - Blog and Advisories" htmlUrl="https://blog.fuzzing-project.org/" />
+<outline type="rss" title="The Fuzzing Project - Blog and Advisories" xmlUrl="https://blog.fuzzing-project.org/feeds/index.rss2" text="RSS: The Fuzzing Project - Blog and Advisories" htmlUrl="https://blog.fuzzing-project.org/" />
 <outline type="rss" htmlUrl="http://vreugdenhilresearch.nl" title="Vreugdenhil Research" text="Vreugdenhil Research" xmlUrl="http://vreugdenhilresearch.nl/feed/" />
 <outline type="rss" title="lcamtuf's blog" htmlUrl="https://lcamtuf.blogspot.com/" xmlUrl="https://lcamtuf.blogspot.com/feeds/posts/default" text="lcamtuf's blog" />
 <outline text="Damien DeVille" title="Damien DeVille" type="rss" xmlUrl="http://ddeville.me/feed.xml" htmlUrl="https://ddeville.me" />
