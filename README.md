@@ -149,7 +149,7 @@ step4: 配置bot机器人
 其他的推送渠道请自行添加, 可以参考yarb与picker中的代码, 修改下markdown模板即可实现.
 
 ### 本地搭建
-需要在本地安装 github-cli ,并登录.
+需要在本地安装 github-cli ,并登录. 不推荐使用, 仅在调试模式下测试用. 
 
 ```sh
 $ git clone https://github.com/chainreactors/picker
