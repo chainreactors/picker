@@ -1,6 +1,12 @@
+fork from https://github.com/VulnTotal-Team/yarb
+
 # picker 
 
-一个方便获取每日安全资讯的爬虫和推送程序。支持导入 opml 文件，因此也可以订阅其他任何 RSS 源。
+抓取, 推送, 讨论, 交流, 互动为一体, 将github的repo变为私人的讨论社区。
+
+支持导入 opml 文件，也可以订阅其他任何 RSS 源。
+
+## 使用
 
 基于github action 实现的自动化推送系统
 
@@ -11,7 +17,6 @@
 * 精选推送, 在每天生成的issue中, 点击convert to issue生成新的issue并推送到钉钉群
 * 精选文章的评论区推送, 当有人评论了改文章, 自动推送到钉钉
 
-## 使用
 ### 信息流
 每日会在issue中生成昨日信息流
 
