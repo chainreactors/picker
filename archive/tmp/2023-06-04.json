@@ -1,0 +1,203 @@
+{
+    "HackerOne Hacker Activity": {
+        "Regression on dest parameter sanitization doesn't check scheme/websafe destinations": "https://hackerone.com/reports/1962951"
+    },
+    "Security Boulevard": {
+        "BSidesSF 2023 – Sanchay Jaipuriyar – Overwatch: A Serverless Approach To Orchestrating Your Security Automation": "https://securityboulevard.com/2023/06/bsidessf-2023-sanchay-jaipuriyar-overwatch-a-serverless-approach-to-orchestrating-your-security-automation/"
+    },
+    "先知安全技术社区": {
+        "焚靖：也许是一个CTF Jinja SSTI常规题通杀工具": "https://xz.aliyun.com/t/12586"
+    },
+    "obaby@mars": {
+        "Delphi记事本源代码–考古向": "https://h4ck.org.cn/2023/06/delphi%e8%ae%b0%e4%ba%8b%e6%9c%ac%e6%ba%90%e4%bb%a3%e7%a0%81-%e8%80%83%e5%8f%a4%e5%90%91/"
+    },
+    "嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com": {
+        "使用非法流媒体网站的五大风险": "https://www.4hou.com/posts/lk77",
+        "一个官方声称已经关闭的黑客市场仍然处于运营状态": "https://www.4hou.com/posts/K78l"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sat Jun  3 00:09:53 UTC 2023": "https://github.com/trickest/cve/commit/9ca776295387169e99342cec44d395da9c5b3948"
+    },
+    "SecWiki News": {
+        "SecWiki News 2023-06-03 Review": "http://www.sec-wiki.com/?2023-06-03"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for CVE-2023-33782 exploit": "https://sploitus.com/exploit?id=2B1AE8A0-2F7F-5646-9ACD-B8ACDAB16ECD&utm_source=rss&utm_medium=rss",
+        "Exploit for CVE-2023-33781 exploit": "https://sploitus.com/exploit?id=6F528697-8313-5F92-9BBA-FE5FC4CAA4C1&utm_source=rss&utm_medium=rss",
+        "Exploit for Double Free in Openssh exploit": "https://sploitus.com/exploit?id=09DAE153-1015-5324-B27A-FE80D50E2F75&utm_source=rss&utm_medium=rss",
+        "Exploit for OS Command Injection in Zyxel Atp100 Firmware exploit": "https://sploitus.com/exploit?id=E970A799-E1D8-5016-B74B-62A0B317BA9E&utm_source=rss&utm_medium=rss"
+    },
+    "unSafe.sh - 不安全": {
+        "Burp-Dom-Scanner - Burp Suite's Extension To Scan And Crawl Single Page Applications": "https://buaq.net/go-167089.html",
+        "GitHub - wader/fq: jq for binary formats - tool, language and decoders for working with binary and text formats": "https://buaq.net/go-167081.html",
+        "XR 世界导览 #3：当 XR 遇上 GPT": "https://buaq.net/go-167080.html",
+        "因使用相同的钢尺四篇论文被撤稿或面临撤稿": "https://buaq.net/go-167085.html",
+        "上海研究发现儿童发育性语言障碍发病率 8.5%": "https://buaq.net/go-167086.html",
+        "Vite项目使用CDN": "https://buaq.net/go-167068.html",
+        "免费常用IP归属地查询接口分享": "https://buaq.net/go-167069.html",
+        "WPOPT(WordPress优化插件)": "https://buaq.net/go-167070.html",
+        "重回线下的 WWDC 要来了，我们和几位开发者聊了聊参加体验": "https://buaq.net/go-167067.html",
+        "YDArk v1.0.3.1 - 系统内核工具": "https://buaq.net/go-167071.html",
+        "QtAdb.图形化ADB工具集(Android设备调试工具)": "https://buaq.net/go-167072.html",
+        "盖蒂要求英国法庭下令停售 Stability AI 系统": "https://buaq.net/go-167087.html",
+        "微软将在 Windows 中终止对 Cortana 的支持": "https://buaq.net/go-167088.html",
+        "Google翻译修复工具": "https://buaq.net/go-167064.html",
+        "焚靖：也许是一个CTF Jinja SSTI常规题通杀工具": "https://buaq.net/go-167061.html",
+        "微信输入法（四端）": "https://buaq.net/go-167065.html",
+        "使用非法流媒体网站的五大风险": "https://buaq.net/go-167049.html"
+    },
+    "Twitter @Nicolas Krassas": {
+        "Burp-Dom-Scanner - Burp Suite's Extension To Scan And Crawl Single Page Applications http://www.kitploit.com/2023/06/burp-dom-scanner-burp-suites-exte...": "https://twitter.com/Dinosn/status/1665028763455746049",
+        "HTB: Bagel https://0xdf.gitlab.io/2023/06/03/htb-bagel.html": "https://twitter.com/Dinosn/status/1665028696808255489",
+        "GitHub - wader/fq: jq for binary formats - tool, language and decoders for working with binary and text formats https://www.reddit.com/r/ReverseEngine...": "https://twitter.com/Dinosn/status/1665028653615398912",
+        "LightsOut: Generate an obfuscated DLL that will disable AMSI & ETW https://securityonline.info/lightsout-generate-an-obfuscated-dll-that-will-disable-...": "https://twitter.com/Dinosn/status/1664996980135804932",
+        "Uncle Sam wants DEF CON hackers to pwn this Moonlighter satellite in space https://go.theregister.com/feed/www.theregister.com/2023/06/03/moonlighter_...": "https://twitter.com/Dinosn/status/1664925427167633408",
+        "FTC Slams Amazon with $30.8M Fine for Privacy Violations Involving Alexa and Ring https://thehackernews.com/2023/06/ftc-slams-amazon-with-308m-fine-fo...": "https://twitter.com/Dinosn/status/1664925391243313152",
+        "Burton Snowboards discloses data breach after February attack https://www.bleepingcomputer.com/news/security/burton-snowboards-discloses-data-breach-a...": "https://twitter.com/Dinosn/status/1664842825639370761",
+        "NSA and FBI: Kimsuky hackers pose as journalists to steal intel https://www.bleepingcomputer.com/news/security/nsa-and-fbi-kimsuky-hackers-pose-as-jou...": "https://twitter.com/Dinosn/status/1664840946482028545",
+        "Inactive Salesforce Communities could leak sensitive data https://www.scmagazine.com/news/cloud-security/inactive-salesforce-sensitive-data": "https://twitter.com/Dinosn/status/1664840776612827136",
+        "Microsoft is killing Cortana on Windows starting late 2023 https://www.bleepingcomputer.com/news/microsoft/microsoft-is-killing-cortana-on-windows-sta...": "https://twitter.com/Dinosn/status/1664840551882006528"
+    },
+    "Twitter @bytehx": {
+        "Re @bxmbn congrats man!": "https://twitter.com/bytehx343/status/1664898963923783685",
+        "RT sudi: I was able to bypass Akamai WAF in order to exploit a simple prototype pollution bug. Sharing a short writeup as I think the bypass was kinda...": "https://twitter.com/sudhanshur705/status/1664892398126903296"
+    },
+    "Hexacorn": {
+        "Analyzing nested, obfuscated PHP files…": "https://www.hexacorn.com/blog/2023/06/03/analyzing-nested-obfuscated-php-files/"
+    },
+    "Reverse Engineering": {
+        "GitHub - wader/fq: jq for binary formats - tool, language and decoders for working with binary and text formats": "https://www.reddit.com/r/ReverseEngineering/comments/13za52w/github_waderfq_jq_for_binary_formats_tool/",
+        "is it possible to change this meter from kmh to mph?": "https://www.reddit.com/r/ReverseEngineering/comments/13zrf50/is_it_possible_to_change_this_meter_from_kmh_to/",
+        "Commented disassembly of classic NES game Jackal": "https://www.reddit.com/r/ReverseEngineering/comments/13zljr7/commented_disassembly_of_classic_nes_game_jackal/"
+    },
+    "SAP Blogs": {
+        "Fechamento contábil anual no sap S/4HANA": "https://blogs.sap.com/2023/06/03/fechamento-contabil-anual-no-sap-s-4hana/",
+        "Enterprise Automation? Deep dive on SAP capabilities that come together to seamlessly hyper-automate your business": "https://blogs.sap.com/2023/06/03/enterprise-automation-deep-dive-on-sap-capabilities-that-come-together-to-seamlessly-hyper-automate-your-business/",
+        "New Installation of SAP S/4HANA 2022 FPS2 – Part 4 – Rapid Activation for Fiori": "https://blogs.sap.com/2023/06/03/new-installation-of-sap-s-4hana-2022-fps2-part-4-rapid-activation-for-fiori/",
+        "SAP Document and Reporting Compliance: Cloud or On-Premise? Not an “either or” option, but a streamlined solution for electronic compliance!": "https://blogs.sap.com/2023/06/03/sap-document-and-reporting-compliance-cloud-or-on-premise-not-an-either-or-option-but-a-streamlined-solution-for-electronic-compliance/",
+        "Data Strategy with SAP – Data Governance": "https://blogs.sap.com/2023/06/03/data-strategy-with-sap-data-governance/",
+        "Outbound Process – From DC site to Multiple Customers in S/4 HANA embedded EWM TM – ASR integration in LTL Shipper’s scenario": "https://blogs.sap.com/2023/06/03/outbound-process-from-dc-site-to-multiple-customers-in-s-4-hana-embedded-ewm-tm-asr-integration-in-ltl-shippers-scenario/",
+        "Boots on the Ground – Credit Management": "https://blogs.sap.com/2023/06/03/boots-on-the-ground-credit-management/"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "因使用相同的钢尺四篇论文被撤稿或面临撤稿": "https://www.solidot.org/story?sid=75144",
+        "上海研究发现儿童发育性语言障碍发病率 8.5%": "https://www.solidot.org/story?sid=75143",
+        "盖蒂要求英国法庭下令停售 Stability AI 系统": "https://www.solidot.org/story?sid=75142",
+        "微软将在 Windows 中终止对 Cortana 的支持": "https://www.solidot.org/story?sid=75141"
+    },
+    "看雪学苑": {
+        "内核和驱动文件的感染": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458505990&idx=1&sn=71962c3cf234cfd44cffe5249f387d78&chksm=b18ee38c86f96a9af1594b8a359d6b715e95f502e24a852b14eac2e903c8f7713748cd057387&scene=58&subscene=0#rd",
+        "直播预告 | 系统0day安全-syzkaller 之linux内核蓝牙协议fuzz": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458505990&idx=2&sn=6e321eaf6bde47657f2d343472c40fa1&chksm=b18ee38c86f96a9aa0a6d06be8b0bcfb4ee2f86314ee88d080898ea7704bd8aa3e84e3cc9e02&scene=58&subscene=0#rd"
+    },
+    "信息时代的犯罪侦查": {
+        "《公诉》之——罗江孝教授处理危机公关的“神逻辑”": "https://mp.weixin.qq.com/s?__biz=MzAxNTA4NDAwOQ==&mid=2650736838&idx=1&sn=e44e24124e2c98962a005f785ba12ff8&chksm=8382d840b4f55156fde21ebdbed5ff0c3fe2e71cd0af5d1c9ce0272e395736c7f8b35cce7ddb&scene=58&subscene=0#rd"
+    },
+    "丁爸 情报分析师的工具箱": {
+        "【论文】俄乌冲突中北约对乌克兰战场情报支援活动探析": "https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651136685&idx=1&sn=7bfc2eb74845814be7fb346050c51ee9&chksm=f1af5597c6d8dc81e127a8569b24e1d9af5f1811a8b134bcf2309729dda8eb819c82fcbed89a&scene=58&subscene=0#rd",
+        "【通知】第三期全国执法机关开源情报能力提升培训班开始报名了！": "https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651136685&idx=2&sn=c1fbab4f9a5b81499a0e569d78e4d21e&chksm=f1af5597c6d8dc81f5a657d4f7ca9704f67eae0d7378a2adb44cc4cc60b77b006631128c8935&scene=58&subscene=0#rd",
+        "【通知】第二届智器云杯数据情报分析大赛即将召开，警院同学赶紧报名了！": "https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651136685&idx=3&sn=ded846dc7186eed96759b80bc8ecca18&chksm=f1af5597c6d8dc81daa77fb89b6ab1ac61fb62a12e51fd6d6e45e473a2681d425c037fe0b90e&scene=58&subscene=0#rd",
+        "【通知】第八届华山情报论坛会议8月11日-13日在哈尔滨召开": "https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651136685&idx=4&sn=8f87e5b07e5e8847f3342e55d1bb35d3&chksm=f1af5597c6d8dc81b89bccd96175d1ac4535bbb0bb5e0c910045087235c6e2b6f243101bd481&scene=58&subscene=0#rd"
+    },
+    "黑海洋 - WIKI": {
+        "Vite项目使用CDN": "https://blog.upx8.com/3619",
+        "免费常用IP归属地查询接口分享": "https://blog.upx8.com/3618",
+        "WPOPT(WordPress优化插件)": "https://blog.upx8.com/3617",
+        "YDArk v1.0.3.1 - 系统内核工具": "https://blog.upx8.com/3616",
+        "QtAdb.图形化ADB工具集(Android设备调试工具)": "https://blog.upx8.com/3615",
+        "Google翻译修复工具": "https://blog.upx8.com/3614",
+        "微信输入法（四端）": "https://blog.upx8.com/3613",
+        "Fort Firewall(防火墙工具)": "https://blog.upx8.com/3612"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "Burp-Dom-Scanner - Burp Suite's Extension To Scan And Crawl Single Page Applications": "http://www.kitploit.com/2023/06/burp-dom-scanner-burp-suites-extension.html"
+    },
+    "Private Feed for M09Ic": {
+        "LloydLabs starred koutto/ioctlbf": "https://github.com/koutto/ioctlbf",
+        "IC3-CR3AM starred deepinstinct/Dirty-Vanity": "https://github.com/deepinstinct/Dirty-Vanity",
+        "g00dfe11ow started following M09Ic": "https://github.com/M09Ic",
+        "kpcyrd released v0.5.0 at kpcyrd/rshijack": "https://github.com/kpcyrd/rshijack/releases/tag/v0.5.0",
+        "phra starred OmriBaso/RToolZ": "https://github.com/OmriBaso/RToolZ",
+        "PeiQi0 starred Q16G/npsmodify": "https://github.com/Q16G/npsmodify",
+        "WangYihang starred zfsnap/zfsnap": "https://github.com/zfsnap/zfsnap",
+        "zer0yu starred cn-kali-team/notion-rss": "https://github.com/cn-kali-team/notion-rss",
+        "Rvn0xsy starred songquanpeng/message-pusher": "https://github.com/songquanpeng/message-pusher",
+        "shmilylty starred cseroad/Webshell_Generate": "https://github.com/cseroad/Webshell_Generate",
+        "shmilylty starred czz1233/GBByPass": "https://github.com/czz1233/GBByPass",
+        "shmilylty starred Tas9er/ByPassBehinder4J": "https://github.com/Tas9er/ByPassBehinder4J",
+        "Rvn0xsy starred suno-ai/bark": "https://github.com/suno-ai/bark"
+    },
+    "DataCon大数据安全分析竞赛": {
+        "一图尽知DataCon社区新动态。": "https://mp.weixin.qq.com/s?__biz=MzU5Njg1NzMyNw==&mid=2247486687&idx=1&sn=df725fb6922effa21e6db6f4b0835fbb&chksm=fe5d145fc92a9d493ff2c9494a2b138eaf7799603dc471943fedba43aa2090541e1fd861b39e&scene=58&subscene=0#rd"
+    },
+    "黑哥虾撩": {
+        "\"Operation Triangulation\" 卡巴斯基被黑": "https://mp.weixin.qq.com/s?__biz=Mzg5OTU1NTEwMg==&mid=2247484041&idx=1&sn=176b71f66830f157d623391281def825&chksm=c050c8f8f72741eea19dbb414191d56c6579c4c296ff488c2ceb10ef6ef1a4ff854d00ee9269&scene=58&subscene=0#rd"
+    },
+    "极客公园": {
+        "TikTok 绝处突围，一场政治风暴下的海外自救": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652994694&idx=1&sn=dffda40db11756e29f7e2e854bd11f17&chksm=7e5401304923882661d761f0a74a66309171af48da521f67c4ea0a2c88626a19ae9962414147&scene=58&subscene=0#rd",
+        "腾讯回应马化腾聊天记录风波；Meta 改变远程办公态度；小红书领投 M Stand 咖啡 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652994663&idx=1&sn=883de5385f1a520555cac1459dc79d39&chksm=7e5401d1492388c788837f29fa44899eccd52e880b7010c83266e6b875e1a2c102902b416a67&scene=58&subscene=0#rd"
+    },
+    "深信服千里目安全技术中心": {
+        "RocketMQ 远程代码注入漏洞 CVE-2023-33246": "https://mp.weixin.qq.com/s?__biz=Mzg2NjgzNjA5NQ==&mid=2247518962&idx=1&sn=8c1a61e35e15c48b4c7d0e31a9046467&chksm=ce4601e2f93188f4708b42cbb59973d95185fc5852dc8c240ca05cbfe093ca64fdebf21c9340&scene=58&subscene=0#rd"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Zyxel shares tips on protecting firewalls from ongoing attacks": "https://www.bleepingcomputer.com/news/security/zyxel-shares-tips-on-protecting-firewalls-from-ongoing-attacks/",
+        "Online sellers targeted by new information-stealing malware campaign": "https://www.bleepingcomputer.com/news/security/online-sellers-targeted-by-new-information-stealing-malware-campaign/"
+    },
+    "Il Disinformatico": {
+        "A Helsinki si parla di sicurezza informatica con SPHERE23 e WithSecure - seconda parte": "http://attivissimo.blogspot.com/2023/06/a-helsinki-si-parla-di-sicurezza.html",
+        "No, un’intelligenza artificiale militare non ha deciso di uccidere l’operatore che le impediva di completare la propria missione. Però...": "http://attivissimo.blogspot.com/2023/06/no-unintelligenza-artificiale-militare.html"
+    },
+    "情报分析师": {
+        "如何监视他人": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650531602&idx=1&sn=c134cbec3cfda1bc6b5dd9d7af4b3cee&chksm=8716c959b061404f8404a7cce5855cd41cc9c5f63eee0fadb3b103016f3618b6886b07304402&scene=58&subscene=0#rd"
+    },
+    "安全圈": {
+        "【安全圈】国内首个AI女友来了，永久在线、深情陪聊，引人关注！": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652036017&idx=1&sn=9aa111baaee73e86bd5e0e9be99a2a95&chksm=f36ff7f1c4187ee70837526263aa7312646250ca412b8030ad2e8bdf7b63f578ece8c55beb34&scene=58&subscene=0#rd",
+        "【安全圈】一个官方声称已经关闭的黑客市场仍然处于运营状态": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652036017&idx=2&sn=d48ad8f4e039d168f124306c0797a423&chksm=f36ff7f1c4187ee7885f94e8c66f749604218b88e19119e870cb234c714170db04cce8ffddf5&scene=58&subscene=0#rd",
+        "【安全圈】MacOS环境下最危险的六大恶意软件威胁": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652036017&idx=3&sn=0e847cfa720438f202d4893305a17ca0&chksm=f36ff7f1c4187ee786da20641af032ce3119230d5111084b5e47900c882bd99d05069fda96d7&scene=58&subscene=0#rd",
+        "【安全圈】使用非法流媒体网站的五大风险": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652036017&idx=4&sn=b2616e87b5be51e642ee34672f5dd12b&chksm=f36ff7f1c4187ee71c8bbfe3ac5327df5a5e6694304e8c4b7457dbd94bee39d43b71550e794f&scene=58&subscene=0#rd"
+    },
+    "Pentestmag": {
+        "SDR - Starting with Signal Hacking": "https://pentestmag.com/sdr-starting-with-signal-hacking/?utm_source=rss&utm_medium=rss&utm_campaign=sdr-starting-with-signal-hacking"
+    },
+    "Security Affairs": {
+        "Kimsuky APT poses as journalists and broadcast writers in its attacks": "https://securityaffairs.com/147014/apt/north-korea-kimsuky-advisory.html",
+        "New Linux Ransomware BlackSuit is similar to Royal ransomware": "https://securityaffairs.com/147002/cyber-crime/blacksuit-similar-royal-ransomware.html"
+    },
+    "TorrentFreak": {
+        "Bulgarian ISPs Will Block Pirate Bay & Zamunda, But Not Before a Fight": "https://torrentfreak.com/bulgarian-isps-will-block-pirate-bay-zamunda-but-not-before-a-fight-230603/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "Burp-Dom-Scanner - Burp Suite's Extension To Scan And Crawl Single Page Applications": "http://www.kitploit.com/2023/06/burp-dom-scanner-burp-suites-extension.html"
+    },
+    "Computer Forensics": {
+        "Where is IOS Safari session data (opened tab) is located in iTunes backup?": "https://www.reddit.com/r/computerforensics/comments/13yxsxf/where_is_ios_safari_session_data_opened_tab_is/"
+    },
+    "The Hacker News": {
+        "New Linux Ransomware Strain BlackSuit Shows Striking Similarities to Royal": "https://thehackernews.com/2023/06/new-linux-ransomware-strain-blacksuit.html",
+        "Cloud Security Tops Concerns for Cybersecurity Leaders: EC-Council's Certified CISO Hall of Fame Report 2023": "https://thehackernews.com/2023/06/cloud-security-tops-concerns-for.html",
+        "FTC Slams Amazon with $30.8M Fine for Privacy Violations Involving Alexa and Ring": "https://thehackernews.com/2023/06/ftc-slams-amazon-with-308m-fine-for.html"
+    },
+    "Information Security": {
+        "Software company employees use ChatGPT to write code, CEO says months of work can now be done in days🔥🦾": "https://www.reddit.com/r/Information_Security/comments/13zn30w/software_company_employees_use_chatgpt_to_write/"
+    },
+    "Your Hacking Tutorial by Zempirians": {
+        "L2ping not working deauth??": "https://www.reddit.com/r/HowToHack/comments/13zcks7/l2ping_not_working_deauth/",
+        "Hello": "https://www.reddit.com/r/HowToHack/comments/13z926y/hello/"
+    },
+    "Social Engineering": {
+        "The Mere Exposure Effect: How to Make People Like You (Even If You Think You're Not That Cool)": "https://www.reddit.com/r/SocialEngineering/comments/13zhb34/the_mere_exposure_effect_how_to_make_people_like/",
+        "As scientific methodologies take over the domain of philosophical inquiry into the human condition, individuals are left with limited capacity to conceive of themselves beyond the confines of psychological and psychiatric classifications.": "https://www.reddit.com/r/SocialEngineering/comments/13ze071/as_scientific_methodologies_take_over_the_domain/",
+        "what constitutes of someones inner child?": "https://www.reddit.com/r/SocialEngineering/comments/13zse48/what_constitutes_of_someones_inner_child/",
+        "How do you break rapport to enhance bonding with someone?": "https://www.reddit.com/r/SocialEngineering/comments/13zngcw/how_do_you_break_rapport_to_enhance_bonding_with/",
+        "Software company employees use ChatGPT to write code, CEO says months of work can now be done in days": "https://www.reddit.com/r/SocialEngineering/comments/13zmx2a/software_company_employees_use_chatgpt_to_write/"
+    },
+    "The Register - Security": {
+        "Uncle Sam wants DEF CON hackers to pwn this Moonlighter satellite in space": "https://go.theregister.com/feed/www.theregister.com/2023/06/03/moonlighter_satellite_hacking/"
+    },
+    "Blackhat Library: Hacking techniques and research": {
+        "Threat actor behind sale of U.S congress members' health data is now wanted by various agencies in the U.S., AU, UK, CA, and NZ.": "https://www.reddit.com/r/blackhat/comments/13z4m4s/threat_actor_behind_sale_of_us_congress_members/",
+        "[Telegram] There’s a way to spy a private channel using just channel ID? How can I see or forward messages from a channel using only ID and not being part of the private channel?": "https://www.reddit.com/r/blackhat/comments/13ztsc3/telegram_theres_a_way_to_spy_a_private_channel/",
+        "Want to Know about Two Powerful Operating System, Checkout this Blog post, in this blog, i will walk through the Comparison between BlackArch vs Kali Linux.": "https://www.reddit.com/r/blackhat/comments/13zbbda/want_to_know_about_two_powerful_operating_system/",
+        "Want to Know about Browser Based Kali Linux and setup of Kali Linux on Azure, Checkout this Blog Post.": "https://www.reddit.com/r/blackhat/comments/13z66sv/want_to_know_about_browser_based_kali_linux_and/"
+    }
+}
