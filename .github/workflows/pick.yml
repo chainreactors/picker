@@ -32,8 +32,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python3 picker.py --update-pick
 
-      - name: Issue
-        run: gh issue create --title "[每日精选] `date +'%Y-%m-%d'`" -F today_pick.md --label "dailypick"
+      - name: Create Issue if content is valid
+        run: |
+          if ! grep -q "没有精选文章" today_pick.md; then
+            gh issue create --title "[每日精选] `date +'%Y-%m-%d'`" -F today_pick.md --label "dailypick"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
