@@ -13,7 +13,7 @@ from email.header import Header
 from email.mime.text import MIMEText
 from pathlib import Path
 from datetime import datetime
-from pyrate_limiter import Duration, Limiter, RequestRate
+from pyrate_limiter import Duration, Limiter, Rate
 
 from utils import Color
 
@@ -88,7 +88,7 @@ class wecomBot:
         return text_list
 
     def send(self, text_list: list):
-        limiter = Limiter(RequestRate(20, Duration.MINUTE))  # 频率限制，20条/分钟
+        limiter = Limiter(Rate(20, Duration.MINUTE))  # 频率限制，20条/分钟
         for text in text_list:
             with limiter.ratelimit('identity', delay=True):
                 print(f'{len(text)} {text[:50]}...{text[-50:]}')
@@ -142,7 +142,7 @@ class dingtalkBot:
         return parse.quote_plus(base64.b64encode(hmac_code))
 
     def send(self, text_list: list):
-        limiter = Limiter(RequestRate(19, Duration.MINUTE + 1))  # 频率限制，20条/分钟
+        limiter = Limiter(Rate(19, Duration.MINUTE + 1))  # 频率限制，20条/分钟
         timestamp = str(round(time.time() * 1000))
         for (feed, text) in text_list:
             with limiter.ratelimit('identity', delay=True):
@@ -192,7 +192,7 @@ class qqBot:
         return text_list
 
     def send(self, text_list: list):
-        limiter = Limiter(RequestRate(20, Duration.MINUTE))  # 频率限制，20条/分钟
+        limiter = Limiter(Rate(20, Duration.MINUTE))  # 频率限制，20条/分钟
         for text in text_list:
             with limiter.ratelimit('identity', delay=True):
                 print(f'{len(text)} {text[:50]}...{text[-50:]}')
