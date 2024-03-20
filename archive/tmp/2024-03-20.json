@@ -1,0 +1,372 @@
+{
+    "SecWiki News": {
+        "SecWiki News 2024-03-19 Review": "http://www.sec-wiki.com/?2024-03-19"
+    },
+    "Jiajun的技术笔记": {
+        "Flatpak 使用小记": "https://jiajunhuang.com/articles/2024_03_19-flatpak.md.html"
+    },
+    "Trustwave Blog": {
+        "Trustwave Government Solutions Named a Major Player in the IDC MarketScape: U.S. National Government Professional Security Services 2024 Vendor Assessment": "https://www.trustwave.com/en-us/resources/blogs/trustwave-blog/trustwave-government-solutions-named-major-player-idc-marketscape-us-national-government-security-services-2024/"
+    },
+    "Recent Commits to cve:main": {
+        "Update Tue Mar 19 18:02:21 UTC 2024": "https://github.com/trickest/cve/commit/4aa8093fea0a6f2fe37fd94c53b95fd7fa8941ff",
+        "Update Tue Mar 19 10:04:56 UTC 2024": "https://github.com/trickest/cve/commit/c51bf5385cf9ae3a5ef793f7b118caa454287bd4",
+        "Update Tue Mar 19 01:59:03 UTC 2024": "https://github.com/trickest/cve/commit/e10115eaae53d4f19d5e3b08c58064a7f7342c74"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Quick.CMS 6.7 SQL Injection exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177657&utm_source=rss&utm_medium=rss",
+        "Gibbon LMS 26.0.00 PHP Deserialization / Code Execution exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177635&utm_source=rss&utm_medium=rss",
+        "Tramyardg Autoexpress 1.3.0 Authentication Bypass exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177661&utm_source=rss&utm_medium=rss",
+        "WEBIGniter 28.7.23 Cross Site Scripting exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177638&utm_source=rss&utm_medium=rss",
+        "Tramyardg Autoexpress 1.3.0 Cross Site Scripting exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177662&utm_source=rss&utm_medium=rss",
+        "Tramyardg Autoexpress 1.3.0 SQL Injection exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177660&utm_source=rss&utm_medium=rss",
+        "ZoneMinder Snapshots Remote Code Execution exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177639&utm_source=rss&utm_medium=rss",
+        "Atlassian Confluence 8.5.3 Remote Code Execution exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177643&utm_source=rss&utm_medium=rss",
+        "WordPress File Upload Cross Site Scripting exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177636&utm_source=rss&utm_medium=rss",
+        "Backdrop CMS 1.23.0 Cross Site Scripting exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177641&utm_source=rss&utm_medium=rss",
+        "SurveyJS Survey Creator 1.9.132 Cross Site Scripting exploit": "https://sploitus.com/exploit?id=PACKETSTORM:177658&utm_source=rss&utm_medium=rss",
+        "Exploit for Out-of-bounds Write in Haxx Libcurl exploit": "https://sploitus.com/exploit?id=0D343943-F3EA-53EF-912C-9A25330C8371&utm_source=rss&utm_medium=rss",
+        "Exploit for Path Traversal in Aiohttp exploit": "https://sploitus.com/exploit?id=679AAE24-9476-548E-816A-CC27F0117A7E&utm_source=rss&utm_medium=rss"
+    },
+    "嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com": {
+        "直播预告：CACTER-EDLP助力企业筑起数据安全防火墙": "https://www.4hou.com/posts/GXBK",
+        "召集令 | 《鉴于止水·无行地难：工控安全行业应用专题报告 2024》报告调研进行中": "https://www.4hou.com/posts/MKLm",
+        "服务企业再发力，网安园（通州）开展助力企业高质量发展专题培训会": "https://www.4hou.com/posts/NKM2"
+    },
+    "Security Boulevard": {
+        "Understanding Your Attack Surface: AI or bust": "https://securityboulevard.com/2024/03/understanding-your-attack-surface-ai-or-bust/",
+        "Efficiency is All You Need": "https://securityboulevard.com/2024/03/efficiency-is-all-you-need/",
+        "Malware": "https://securityboulevard.com/2024/03/malware-2/",
+        "Shadow SaaS Dangers in Cybersecurity Compliance Standards": "https://securityboulevard.com/2024/03/shadow-saas-dangers-in-cybersecurity-compliance-standards/",
+        "USENIX Security ’23 – Abderrahmen Amich, Birhanu Eshete, Vinod Yegneswaran, Nguyen Phong Hoang – DeResistor: Toward Detection-Resistant Probing for Evasion Of Internet Censorship": "https://securityboulevard.com/2024/03/usenix-security-23-abderrahmen-amich-birhanu-eshete-vinod-yegneswaran-nguyen-phong-hoang-deresistor-toward-detection-resistant-probing-for-evasion-of-internet-censorship/",
+        "How MFA-Based Phishing Campaigns are Targeting Schools": "https://securityboulevard.com/2024/03/how-mfa-based-phishing-campaigns-are-targeting-schools/",
+        "Daniel Stori’s ‘I’m Fine’": "https://securityboulevard.com/2024/03/daniel-storis-im-fine/",
+        "Why IT General Controls Are Important for Compliance and Cybersecurity": "https://securityboulevard.com/2024/03/why-it-general-controls-are-important-for-compliance-and-cybersecurity-2/",
+        "Discovering API secrets & endpoints using APKLeaks": "https://securityboulevard.com/2024/03/discovering-api-secrets-endpoints-using-apkleaks/",
+        "Cybersecurity’s Class Conundrum: Winner-Take-All Market Dynamics": "https://securityboulevard.com/2024/03/cybersecuritys-class-conundrum-winner-take-all-market-dynamics/"
+    },
+    "Files ≈ Packet Storm": {
+        "OpenSCAP Libraries 1.3.10": "https://packetstormsecurity.com/files/177665/openscap-1.3.10.tar.gz",
+        "Ubuntu Security Notice USN-6701-1": "https://packetstormsecurity.com/files/177663/USN-6701-1.txt",
+        "Tramyardg Autoexpress 1.3.0 Cross Site Scripting": "https://packetstormsecurity.com/files/177662/autoexpress130-xss.txt",
+        "Tramyardg Autoexpress 1.3.0 Authentication Bypass": "https://packetstormsecurity.com/files/177661/autoexpress130-bypass.txt",
+        "Tramyardg Autoexpress 1.3.0 SQL Injection": "https://packetstormsecurity.com/files/177660/autoexpress130-sql.txt",
+        "GNUnet P2P Framework 0.21.1": "https://packetstormsecurity.com/files/177659/gnunet-0.21.1.tar.gz",
+        "SurveyJS Survey Creator 1.9.132 Cross Site Scripting": "https://packetstormsecurity.com/files/177658/surveyjssurveycreator19132-xss.txt",
+        "Quick.CMS 6.7 SQL Injection": "https://packetstormsecurity.com/files/177657/quickcms67-sql.txt",
+        "Red Hat Security Advisory 2024-1368-03": "https://packetstormsecurity.com/files/177656/RHSA-2024-1368-03.txt",
+        "Red Hat Security Advisory 2024-1367-03": "https://packetstormsecurity.com/files/177655/RHSA-2024-1367-03.txt",
+        "Red Hat Security Advisory 2024-1354-03": "https://packetstormsecurity.com/files/177654/RHSA-2024-1354-03.txt",
+        "Red Hat Security Advisory 2024-1353-03": "https://packetstormsecurity.com/files/177653/RHSA-2024-1353-03.txt",
+        "Red Hat Security Advisory 2024-1325-03": "https://packetstormsecurity.com/files/177652/RHSA-2024-1325-03.txt",
+        "Red Hat Security Advisory 2024-1324-03": "https://packetstormsecurity.com/files/177651/RHSA-2024-1324-03.txt",
+        "Red Hat Security Advisory 2024-1319-03": "https://packetstormsecurity.com/files/177650/RHSA-2024-1319-03.txt",
+        "Red Hat Security Advisory 2024-1318-03": "https://packetstormsecurity.com/files/177649/RHSA-2024-1318-03.txt",
+        "Red Hat Security Advisory 2024-1317-03": "https://packetstormsecurity.com/files/177648/RHSA-2024-1317-03.txt",
+        "Red Hat Security Advisory 2024-1316-03": "https://packetstormsecurity.com/files/177647/RHSA-2024-1316-03.txt",
+        "Red Hat Security Advisory 2024-1255-03": "https://packetstormsecurity.com/files/177646/RHSA-2024-1255-03.txt",
+        "Red Hat Security Advisory 2024-0722-03": "https://packetstormsecurity.com/files/177645/RHSA-2024-0722-03.txt",
+        "Ubuntu Security Notice USN-6700-1": "https://packetstormsecurity.com/files/177644/USN-6700-1.txt",
+        "Atlassian Confluence 8.5.3 Remote Code Execution": "https://packetstormsecurity.com/files/177643/atlassianconfluence853-exec.txt",
+        "Ubuntu Security Notice USN-6699-1": "https://packetstormsecurity.com/files/177642/USN-6699-1.txt",
+        "Backdrop CMS 1.23.0 Cross Site Scripting": "https://packetstormsecurity.com/files/177641/backdropcms1230-xss.txt",
+        "ZoneMinder Snapshots Remote Code Execution": "https://packetstormsecurity.com/files/177639/zonemindersnapshots-exec.txt"
+    },
+    "安全客-有思想的安全新媒体": {
+        "NVIDIA GTC 主题演讲：Blackwell 架构将在 2024 年底加速 AI 产品的发展": "https://www.anquanke.com/post/id/294098",
+        "《Apex Legends》北美决赛因重大黑客事件推迟": "https://www.anquanke.com/post/id/294094",
+        "英国政府发布云托管的监控和数据采集（ SCADA）安全指南": "https://www.anquanke.com/post/id/294091",
+        "新的攻击显示浏览器允许网站访问GPU存在风险": "https://www.anquanke.com/post/id/294088",
+        "新的 DEEP#GOSU 恶意软件活动利用高级策略瞄准 Windows 用户": "https://www.anquanke.com/post/id/294085",
+        "AcidPour：针对乌克兰的新 AcidRain Linux 恶意软件变种": "https://www.anquanke.com/post/id/294082",
+        "富士通：公司多台工作计算机上发现了可能泄露客户数据的恶意软件": "https://www.anquanke.com/post/id/294079"
+    },
+    "obaby@mars": {
+        "漫谈 Windows 11 的 UserAgent": "https://www.h4ck.org.cn/2024/03/16044"
+    },
+    "Private Feed for M09Ic": {
+        "kpcyrd made kpcyrd/signal-whois public": "https://github.com/kpcyrd/signal-whois",
+        "kpcyrd starred kpcyrd/signal-whois": "https://github.com/kpcyrd/signal-whois",
+        "kpcyrd starred Kezii/esp32cam_rs": "https://github.com/Kezii/esp32cam_rs",
+        "shmilylty starred BurntSushi/ripgrep": "https://github.com/BurntSushi/ripgrep",
+        "WAY29 starred ydyjya/Awesome-LLM-Safety": "https://github.com/ydyjya/Awesome-LLM-Safety",
+        "esrrhs starred grpc-ecosystem/grpc-gateway": "https://github.com/grpc-ecosystem/grpc-gateway",
+        "xpn made xpn/malIDP public": "https://github.com/xpn/malIDP",
+        "xpn made xpn/OneLoginPostExToolkit public": "https://github.com/xpn/OneLoginPostExToolkit",
+        "xpn made xpn/CloudInject public": "https://github.com/xpn/CloudInject",
+        "xpn made xpn/PingPostExToolkit public": "https://github.com/xpn/PingPostExToolkit",
+        "xpn made xpn/Presentations public": "https://github.com/xpn/Presentations",
+        "4ra1n starred M-Kings/WEB-shiro_rememberMe_encode_decode": "https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode",
+        "timwhitez starred landhb/HideProcess": "https://github.com/landhb/HideProcess",
+        "timwhitez starred RedSiege/Jigsaw": "https://github.com/RedSiege/Jigsaw",
+        "niudaii starred confluentinc/confluent-kafka-go": "https://github.com/confluentinc/confluent-kafka-go",
+        "zer0yu starred version-fox/vfox": "https://github.com/version-fox/vfox",
+        "zer0yu starred joaoviictorti/RustRedOps": "https://github.com/joaoviictorti/RustRedOps",
+        "Ridter starred chromium/badssl.com": "https://github.com/chromium/badssl.com",
+        "PeiQi0 starred OpenZeppelin/ctf-2024": "https://github.com/OpenZeppelin/ctf-2024",
+        "DVKunion starred elastic/go-windows": "https://github.com/elastic/go-windows",
+        "yzddmr6 starred cmliu/WorkerVless2sub": "https://github.com/cmliu/WorkerVless2sub",
+        "yzddmr6 starred cmliu/edgetunnel": "https://github.com/cmliu/edgetunnel",
+        "Ridter starred t3l3machus/PowerShell-Obfuscation-Bible": "https://github.com/t3l3machus/PowerShell-Obfuscation-Bible",
+        "timwhitez starred lintstar/CS-AutoPostChain": "https://github.com/lintstar/CS-AutoPostChain",
+        "timwhitez starred SafeBreach-Labs/PoolParty": "https://github.com/SafeBreach-Labs/PoolParty",
+        "gh0stkey starred h0ng10/evilarc": "https://github.com/h0ng10/evilarc",
+        "zema1 starred kost/tty2web": "https://github.com/kost/tty2web",
+        "zema1 starred tsl0922/ttyd": "https://github.com/tsl0922/ttyd",
+        "zema1 starred NHAS/reverse_ssh": "https://github.com/NHAS/reverse_ssh"
+    },
+    "Tenable Blog": {
+        "Unlocking Kubernetes Innovation Through Simplified Cloud Security with Tenable": "https://www.tenable.com/blog/unlocking-kubernetes-innovation-through-simplified-cloud-security-with-tenable",
+        "Recent NVD Delays Won’t Affect Tenable Vulnerability Management Customers Thanks To Our Diverse Scoring Sources": "https://www.tenable.com/blog/recent-nvd-delays-wont-affect-tenable-vulnerability-management-customers-thanks-to-our-diverse"
+    },
+    "Forcepoint": {
+        "Forcepoint recognized as a Customers’ Choice in the 2024 Gartner® Peer Insights™ Voice of the Customer for SD-WAN": "https://www.forcepoint.com/blog/insights/forcepoint-gartner-peer-insights-customer-choice-sd-wan"
+    },
+    "Securelist": {
+        "Threat landscape for industrial automation systems. H2 2023": "https://securelist.com/threat-landscape-for-industrial-automation-systems-h2-2023/112153/"
+    },
+    "SpiderLabs Blog": {
+        "The Inevitable Threat: AI-Generated Email Attacks Delivered to Mailboxes": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/the-inevitable-threat-ai-generated-email-attacks-delivered-to-mailboxes/"
+    },
+    "CCC Event Blog": {
+        "IGERla: Tickets und Call for Participation": "https://events.ccc.de/2024/03/19/iger/"
+    },
+    "Malwarebytes": {
+        "Upcoming webinar: How a leading architecture firm approaches cybersecurity": "https://www.malwarebytes.com/blog/business/2024/03/upcoming-webinar-how-a-leading-architecture-firm-approaches-cybersecurity",
+        "Social media influencers targeted by identity thieves": "https://www.malwarebytes.com/blog/news/2024/03/social-media-influencers-targeted-by-identity-thieves",
+        "Store manager admits SIM swapping his customers": "https://www.malwarebytes.com/blog/news/2024/03/store-manager-admits-sim-swapping-his-customers"
+    },
+    "SentinelOne": {
+        "S Ventures Invests in Auguria to Solve SecOps Overload": "https://www.sentinelone.com/blog/s-ventures-invests-in-auguria-to-solve-secops-overload/"
+    },
+    "KitPloit - PenTest &amp; Hacking Tools": {
+        "GAP-Burp-Extension - Burp Extension To Find Potential Endpoints, Parameters, And Generate A Custom Target Wordlist": "http://www.kitploit.com/2024/03/gap-burp-extension-burp-extension-to.html"
+    },
+    "Trail of Bits Blog": {
+        "Read code like a pro with our weAudit VSCode extension": "https://blog.trailofbits.com/2024/03/19/read-code-like-a-pro-with-our-weaudit-vscode-extension/"
+    },
+    "Reverse Engineering": {
+        "Gaining kernel code execution on an MTE-enabled Pixel 8": "https://www.reddit.com/r/ReverseEngineering/comments/1bi8jf7/gaining_kernel_code_execution_on_an_mteenabled/",
+        "Trying to understand CVE-2023-3824": "https://www.reddit.com/r/ReverseEngineering/comments/1bia9hx/trying_to_understand_cve20233824/"
+    },
+    "PortSwigger Research": {
+        "Making desync attacks easy with TRACE": "https://portswigger.net/research/trace-desync-attack"
+    },
+    "HackerNews": {
+        "英国政府发布云托管监控和数据采集（ SCADA）安全指南": "https://hackernews.cc/archives/50835",
+        "微软：87% 的英国企业极易受到网络攻击，AI或成破局“解药”": "https://hackernews.cc/archives/50830",
+        "突发！纳斯达克交易中断超过两小时": "https://hackernews.cc/archives/50824",
+        "日本科技巨头富士通遭遇网络攻击，客户数据被窃": "https://hackernews.cc/archives/50818",
+        "泰国公共卫生部 220 万条数据被公开贩卖": "https://hackernews.cc/archives/50808",
+        "俄罗斯 APT28 黑客组织针对欧洲、美洲和亚洲开展广泛的网络钓鱼计划": "https://hackernews.cc/archives/50801",
+        "GhostRace：新数据泄露漏洞影响现代 CPU": "https://hackernews.cc/archives/50796"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "去年全球海洋每天都创造新的温度记录": "https://www.solidot.org/story?sid=77642",
+        "动物在日食期间有强烈反应": "https://www.solidot.org/story?sid=77641",
+        "诺基亚称 Reddit 可能侵犯了它的专利": "https://www.solidot.org/story?sid=77640",
+        "五年研究显示哈瓦那综合症患者没有发现脑损伤": "https://www.solidot.org/story?sid=77639",
+        "AI 生成的科学论文": "https://www.solidot.org/story?sid=77638",
+        "BitTorrent 不再是上行流量之王": "https://www.solidot.org/story?sid=77637",
+        "两名日本宇航员有望参与美国登月计划": "https://www.solidot.org/story?sid=77636",
+        "富士通 IT 系统遭到入侵": "https://www.solidot.org/story?sid=77635",
+        "LinkedIn 准备引入游戏": "https://www.solidot.org/story?sid=77634",
+        "Stability AI 发布 Stable Video 3D": "https://www.solidot.org/story?sid=77633",
+        "新理论认为宇宙没有暗物质年龄 267 亿年": "https://www.solidot.org/story?sid=77632",
+        "Valve 推出 Steam 家庭": "https://www.solidot.org/story?sid=77631"
+    },
+    "FreeBuf网络安全行业门户": {
+        "思科宣布完成对 Splunk 的收购": "https://www.freebuf.com/news/395301.html",
+        "红队实战小课，大考前充电｜实战攻防思路之企业纵深防御体系突破": "https://www.freebuf.com/consult/395296.html",
+        "勒索软件为何总能“复活”？": "https://www.freebuf.com/articles/395260.html",
+        "英国政府发布云托管监控和数据采集（ SCADA）安全指南": "https://www.freebuf.com/news/395251.html",
+        "FreeBuf早报 | 英国87%的组织易受网络攻击；法国政府泄露4300万公民个人数据": "https://www.freebuf.com/news/395244.html",
+        "日本科技巨头富士通遭遇网络攻击，客户数据被窃": "https://www.freebuf.com/news/395198.html",
+        "微软：87% 的英国企业极易受到网络攻击，AI或成破局“解药”": "https://www.freebuf.com/news/395194.html",
+        "纳斯达克交易系统宕机2小时，RASH FIX订单无效": "https://www.freebuf.com/news/395193.html"
+    },
+    "bishopfox.com": {
+        "Poisoned Pipeline Execution Attacks: A Look at CI-CD Environments": "https://bishopfox.com/blog/poisoned-pipeline-attack-execution-a-look-at-ci-cd-environments"
+    },
+    "博客园 - hac425": {
+        "CVE-2023-48409 Mali GPU 整数溢出导致堆越界写 - hac425": "https://www.cnblogs.com/hac425/p/18082284/cve202348409-mali-gpu-integer-overflow-leads-to-the-bidding-crossborder-writing-1bccrr"
+    },
+    "安全牛": {
+        "再获实力认证！Fortinet荣膺 Gartner® 企业级有线和无线局域网基础设施魔力象限“领导者”": "https://www.aqniu.com/vendor/103030.html",
+        "Gartner对网络安全风险管理和发展的8个预测（2024版）": "https://www.aqniu.com/industry/103026.html",
+        "一种切实有效的网络安全防御策略——社会工程审计": "https://www.aqniu.com/industry/103022.html"
+    },
+    "TrustedSec": {
+        "From Error to Entry: Cracking the Code of Password-Spraying Tools": "https://trustedsec.com/blog/from-error-to-entry-cracking-the-code-of-password-spraying-tools"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Misconfigured Firebase instances leaked 19 million plaintext passwords": "https://www.bleepingcomputer.com/news/security/misconfigured-firebase-instances-leaked-19-million-plaintext-passwords/",
+        "American Renal Associates, nearly 20,000 patients are affected by the data breach": "https://www.suspectfile.com/american-renal-associates-nearly-20000-patients-are-affected-by-the-data-breach/",
+        "White House and EPA warn of hackers breaching water systems": "https://www.bleepingcomputer.com/news/security/white-house-and-epa-warn-of-hackers-breaching-water-systems/",
+        "Pokemon resets some users passwords after hacking attempts": "https://techcrunch.com/2024/03/19/pokemon-resets-some-users-passwords-after-hacking-attempts/",
+        "US Defense Dept received 50,000 vulnerability reports since 2016": "https://www.bleepingcomputer.com/news/security/us-defense-dept-received-50-000-vulnerability-reports-since-2016/",
+        "EPA looking to create water sector cyber task force to reduce risks from Iran, China": "https://therecord.media/epa-water-sector-cyber-task-force-china-iran",
+        "White House cyber official urges UnitedHealth to provide third-party certification of network safety": "https://therecord.media/white-house-official-united-health-certification-assessment",
+        "CISA shares critical infrastructure defense tips against Chinese hackers": "https://www.bleepingcomputer.com/news/security/cisa-shares-critical-infrastructure-defense-tips-against-chinese-hackers/",
+        "FTC warns scammers are impersonating its employees to steal money": "https://www.bleepingcomputer.com/news/security/ftc-warns-scammers-are-impersonating-its-employees-to-steal-money/",
+        "‘Lifelock’ hacker pleads guilty to extorting medical clinics": "https://therecord.media/lifelock-hacker-pleads-guilty-to-attacks-on-medical-clinics",
+        "Our Response to the Canadian Government": "https://blog.flipper.net/response-to-canadian-government/",
+        "Pharmaceutical development company investigating cyberattack after LockBit posting": "https://therecord.media/pharmaceutical-development-company-investigating-cyber-incident-lockbit",
+        "Ukraine arrests hackers trying to sell 100 million stolen accounts": "https://www.bleepingcomputer.com/news/security/ukraine-arrests-hackers-trying-to-sell-100-million-stolen-accounts/",
+        "XDefense, il nuovo servizio gestito di cybersecurity di Exclusive Networks con la tecnologia Certego": "https://www.certego.net/blog/xdefense-il-nuovo-servizio-gestito-di-cybersecurity-di-exclusive-networks-con-la-tecnologia-certego/",
+        "Oracle warns that macOS 14.4 update breaks Java on Apple CPUs": "https://www.bleepingcomputer.com/news/apple/oracle-warns-that-macos-144-update-breaks-java-on-apple-cpus/",
+        "Russians will no longer be able to access Microsoft cloud services, business intelligence tools": "https://therecord.media/russians-losing-access-microsoft-cloud-amazon",
+        "Cala il numero di computer OT attaccati, ma le minacce sono sempre più pericolose": "https://www.securityinfo.it/2024/03/19/cala-il-numero-di-computer-ot-attaccati-ma-le-minacce-sono-sempre-piu-pericolose/",
+        "Avoid high cyber insurance costs by improving Active Directory security": "https://www.bleepingcomputer.com/news/security/avoid-high-cyber-insurance-costs-by-improving-active-directory-security/",
+        "New AcidPour data wiper targets Linux x86 network devices": "https://www.bleepingcomputer.com/news/security/new-acidpour-data-wiper-targets-linux-x86-network-devices/",
+        "Ex manager pagato per effettuare SIM swapping": "https://www.securityinfo.it/2024/03/19/ex-manager-pagato-per-effettuare-sim-swapping/",
+        "Estonia expels Russian diplomat accused of leaking court documents to social media": "https://therecord.media/estonia-expels-russian-diplomat-accused-criminal-case",
+        "New Phone, Who Dis? The Importance of Verifying Threats in the Age of Fake RaaS": "https://www.kelacyber.com/new-phone-who-dis-the-importance-of-verifying-threats-in-the-age-of-fake-raas/",
+        "China-linked hackers target governments and more in Southeast Asia with new backdoors": "https://therecord.media/earth-krahang-china-linked-espionage-group-new-backdoors",
+        "December 2023 Cyber Attacks Timeline": "https://www.hackmageddon.com/2024/03/19/december-2023-cyber-attacks-timeline/",
+        "Threat landscape for industrial automation systems. H2 2023": "https://securelist.com/threat-landscape-for-industrial-automation-systems-h2-2023/112153/",
+        "Alleged A&TT (unverified) - 49,102,176 breached accounts": "https://haveibeenpwned.com/PwnedWebsites#AllegedATT"
+    },
+    "Forensic Focus": {
+        "UPCOMING WEBINAR – Maximizing Data Collection With SaaS Innovations": "https://www.forensicfocus.com/news/upcoming-webinar-maximizing-data-collection-with-saas-innovations/"
+    },
+    "Securityinfo.it": {
+        "Cala il numero di computer OT attaccati, ma le minacce sono sempre più pericolose": "https://www.securityinfo.it/2024/03/19/cala-il-numero-di-computer-ot-attaccati-ma-le-minacce-sono-sempre-piu-pericolose/?utm_source=rss&utm_medium=rss&utm_campaign=cala-il-numero-di-computer-ot-attaccati-ma-le-minacce-sono-sempre-piu-pericolose",
+        "Ex manager pagato per effettuare SIM swapping": "https://www.securityinfo.it/2024/03/19/ex-manager-pagato-per-effettuare-sim-swapping/?utm_source=rss&utm_medium=rss&utm_campaign=ex-manager-pagato-per-effettuare-sim-swapping"
+    },
+    "ICT Security Magazine": {
+        "Steganografia di rete: come implementare un canale nascosto su una macchina Windows": "https://www.ictsecuritymagazine.com/articoli/steganografia-di-rete-come-implementare-un-canale-nascosto-su-una-macchina-windows/"
+    },
+    "Tails - News": {
+        "Tails report for February 2024": "https://tails.net/news/report_2024_02/"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "Attacker Hunting Firewalls, (Tue, Mar 19th)": "https://isc.sans.edu/diary/rss/30758",
+        "ISC Stormcast For Tuesday, March 19th, 2024 https://isc.sans.edu/podcastdetail/8900, (Tue, Mar 19th)": "https://isc.sans.edu/diary/rss/30756"
+    },
+    "HACKMAGEDDON": {
+        "December 2023 Cyber Attacks Timeline": "https://www.hackmageddon.com/2024/03/19/december-2023-cyber-attacks-timeline/"
+    },
+    "Qualys Security Blog": {
+        "Navigating Evolving Cybersecurity: Recent Trends and Future Outlook": "https://blog.qualys.com/category/qualys-insights"
+    },
+    "Security Current": {
+        "CISOs Connect™ Dallas 2024": "/cisos-connect-dallas-2024/"
+    },
+    "Trend Micro Research, News and Perspectives": {
+        "Jenkins Args4j CVE-2024-23897: Files Exposed, Code at Risk": "https://www.trendmicro.com/en_us/research/24/c/cve-2024-23897.html"
+    },
+    "The Hacker News": {
+        "APIs Drive the Majority of Internet Traffic and Cybercriminals are Taking Advantage": "https://thehackernews.com/2024/03/apis-drive-majority-of-internet-traffic.html",
+        "From Deepfakes to Malware: AI's Expanding Role in Cyber Attacks": "https://thehackernews.com/2024/03/from-deepfakes-to-malware-ais-expanding.html",
+        "Crafting and Communicating Your Cybersecurity Strategy for Board Buy-In": "https://thehackernews.com/2024/03/crafting-and-communicating-your.html",
+        "Hackers Exploiting Popular Document Publishing Sites for Phishing Attacks": "https://thehackernews.com/2024/03/hackers-exploiting-popular-document.html",
+        "Suspected Russian Data-Wiping 'AcidPour' Malware Targeting Linux x86 Devices": "https://thehackernews.com/2024/03/suspected-russian-data-wiping-acidpour.html",
+        "New Phishing Attack Uses Clever Microsoft Office Trick to Deploy NetSupport RAT": "https://thehackernews.com/2024/03/new-phishing-attack-uses-clever.html",
+        "E-Root Marketplace Admin Sentenced to 42 Months for Selling 350K Stolen Credentials": "https://thehackernews.com/2024/03/e-root-marketplace-admin-sentenced-to.html"
+    },
+    "Instapaper: Unread": {
+        "Shodan Dorks": "http://www.kitploit.com/2024/03/shodan-dorks.html",
+        "Cybersicurezza a scuola, 10 consigli per i docenti delle scuole superiori": "https://www.cybersecitalia.it/cybersicurezza-a-scuola-10-consigli-per-i-docenti-delle-scuole-superiori/30819/"
+    },
+    "Troy Hunt's Blog": {
+        "Inside the Massive Alleged AT&T Data Breach": "https://www.troyhunt.com/inside-the-massive-alleged-att-data-breach/"
+    },
+    "The Register - Security": {
+        "Beijing-backed cyberspies attacked 70+ orgs across 23 countries": "https://go.theregister.com/feed/www.theregister.com/2024/03/19/china_cyberspies_earth_krahang/",
+        "Crypto scams more costly to the US than ransomware, Feds say": "https://go.theregister.com/feed/www.theregister.com/2024/03/19/crypto_scams_cost/",
+        "Crypto wallet providers urged to rethink security as criminals drain them of millions": "https://go.theregister.com/feed/www.theregister.com/2024/03/19/crypto_wallet_providers_urged_to/",
+        "Atos says Airbus flew off, no longer interested in infosec and big data biz": "https://go.theregister.com/feed/www.theregister.com/2024/03/19/atos_says_airbus_talks_off/"
+    },
+    "Have I Been Pwned latest breaches": {
+        "Alleged AT&T (unverified) - 49,102,176 breached accounts": "https://haveibeenpwned.com/PwnedWebsites#AllegedATT"
+    },
+    "TorrentFreak": {
+        "16-Year-Old Pirate Site Prosecution Resurrected Despite Four Acquittals": "https://torrentfreak.com/16-year-old-pirate-site-prosecution-resurrected-despite-four-acquittals-240319/",
+        "New York Times: Microsoft’s AI Tools Are Nothing Like The VCR": "https://torrentfreak.com/new-york-times-microsofts-ai-tools-are-nothing-like-the-vcr-240319/"
+    },
+    "Palo Alto Networks Blog": {
+        "Providing Optimal Cloud Security Outcomes Through StateRAMP": "https://www.paloaltonetworks.com/blog/2024/03/cloud-security-outcomes-through-stateramp/"
+    },
+    "Unsupervised Learning": {
+        "The AI Coin-sorter Analogy": "https://danielmiessler.com/p/ai-coinsorter-analogy",
+        "UL NO. 424: Raising Security's Floor": "https://danielmiessler.com/p/ul-424"
+    },
+    "Technical Information Security Content & Discussion": {
+        "New Short Episode Podcast ft. Insane Stories from Real Penetration Tests": "https://www.reddit.com/r/netsec/comments/1bipjli/new_short_episode_podcast_ft_insane_stories_from/",
+        "How to Emulate a Ransomware Attack": "https://www.reddit.com/r/netsec/comments/1biwh3i/how_to_emulate_a_ransomware_attack/",
+        "CVE-2024-1212: Unauthenticated Command Injection In Progress Kemp LoadMaster": "https://www.reddit.com/r/netsec/comments/1biota5/cve20241212_unauthenticated_command_injection_in/",
+        "Open Source - Terminal based AI Powered Ethical Hacking Assistant.": "https://www.reddit.com/r/netsec/comments/1bixci7/open_source_terminal_based_ai_powered_ethical/",
+        "Exploit Development: No Code Execution? No Problem! Living The Age of VBS, HVCI, and Kernel CFG": "https://www.reddit.com/r/netsec/comments/1bidfyg/exploit_development_no_code_execution_no_problem/",
+        "Microsoft AITM honeytoken: warning the victims": "https://www.reddit.com/r/netsec/comments/1bihz24/microsoft_aitm_honeytoken_warning_the_victims/",
+        "Weaponizing Windows Thread Pool APIs: Proxying DLL Loads Using I/O Completion Callbacks": "https://www.reddit.com/r/netsec/comments/1bik6sd/weaponizing_windows_thread_pool_apis_proxying_dll/",
+        "From Error to Entry: Cracking the Code of Password-Spraying Tools": "https://www.reddit.com/r/netsec/comments/1bipcg1/from_error_to_entry_cracking_the_code_of/",
+        "Gaining kernel code execution on an MTE-enabled Pixel 8": "https://www.reddit.com/r/netsec/comments/1bibcv0/gaining_kernel_code_execution_on_an_mteenabled/",
+        "Bypassing USBGuard on Linux": "https://www.reddit.com/r/netsec/comments/1bidsyo/bypassing_usbguard_on_linux/",
+        "How Rogue ISPs Tamper With Geofeeds": "https://www.reddit.com/r/netsec/comments/1bikugr/how_rogue_isps_tamper_with_geofeeds/"
+    },
+    "Blackhat Library: Hacking techniques and research": {
+        "Ideally where would you point for someone to start learning techniques as a a beginner": "https://www.reddit.com/r/blackhat/comments/1bim0m8/ideally_where_would_you_point_for_someone_to/",
+        "i can thethring data from phone tò PC but i can't from proxy server PC tò My Phone using only USB cable. How tò connect phone tò PC via cable using less hardware possible?": "https://www.reddit.com/r/blackhat/comments/1biunnc/i_can_thethring_data_from_phone_tò_pc_but_i_cant/",
+        "Gaining kernel code execution on an MTE-enabled Pixel 8": "https://www.reddit.com/r/blackhat/comments/1bibdrj/gaining_kernel_code_execution_on_an_mteenabled/",
+        "Install discreetly Concealed Raspberry in my library. Pi operating as a static proxy, harnessing the library's Wi-Fi network.": "https://www.reddit.com/r/blackhat/comments/1bidswe/install_discreetly_concealed_raspberry_in_my/"
+    },
+    "Deep Web": {
+        "Could someone share banned books from the DeepWeb with me? It's been about 8 years since I uninstalled Tor and I no longer even know if it exists. The few times I went in I only came across degenerate \"images\" and \"videos\" for adults, but never anything interesting like a book that had been banned.": "https://www.reddit.com/r/deepweb/comments/1bieqgi/could_someone_share_banned_books_from_the_deepweb/"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "Need some members to connect with..": "https://www.reddit.com/r/netsecstudents/comments/1bili53/need_some_members_to_connect_with/",
+        "Ensuring Patient Confidentiality": "https://www.reddit.com/r/netsecstudents/comments/1bif6cr/ensuring_patient_confidentiality/",
+        "If I were a noob with no…": "https://www.reddit.com/r/netsecstudents/comments/1bid8mu/if_i_were_a_noob_with_no/"
+    },
+    "Your Open Hacker Community": {
+        "Seeking Help: Capturing Requests from Hikvision Facial Recognition Device": "https://www.reddit.com/r/HowToHack/comments/1bik3fq/seeking_help_capturing_requests_from_hikvision/",
+        "Does log4j still work on Minecraft servers?": "https://www.reddit.com/r/HowToHack/comments/1bitpsl/does_log4j_still_work_on_minecraft_servers/",
+        "Trying to understand CVE-2023-3824": "https://www.reddit.com/r/HowToHack/comments/1bi8uay/trying_to_understand_cve20233824/"
+    },
+    "Social Engineering": {
+        "How do social media platforms keep content creators hooked to creating more content ?": "https://www.reddit.com/r/SocialEngineering/comments/1bicoh4/how_do_social_media_platforms_keep_content/"
+    },
+    "Full Disclosure": {
+        "Backdoor.Win32.Emegrab.b / Remote Stack Buffer Overflow (SEH)": "https://seclists.org/fulldisclosure/2024/Mar/31"
+    },
+    "Information Security": {
+        "SOC TYPE 2 + HiTRUST Discontinued?": "https://www.reddit.com/r/Information_Security/comments/1biy65s/soc_type_2_hitrust_discontinued/",
+        "Ensuring Patient Confidentiality": "https://www.reddit.com/r/Information_Security/comments/1bif5uf/ensuring_patient_confidentiality/"
+    },
+    "Tor Project blog": {
+        "New Release: Tor Browser 13.0.12": "https://blog.torproject.org/new-release-tor-browser-13012/"
+    },
+    "Computer Forensics": {
+        "Formatting tips for composite reports": "https://www.reddit.com/r/computerforensics/comments/1biw7lk/formatting_tips_for_composite_reports/",
+        "Signal chats in Cellebrite": "https://www.reddit.com/r/computerforensics/comments/1biwwkd/signal_chats_in_cellebrite/",
+        "Alternative for Microsoft Teams?": "https://www.reddit.com/r/computerforensics/comments/1birfod/alternative_for_microsoft_teams/",
+        "Android Forensic tools": "https://www.reddit.com/r/computerforensics/comments/1bif1jp/android_forensic_tools/"
+    },
+    "NetSPI": {
+        "Web2 Bugs in Web3 Systems": "https://www.netspi.com/blog/technical/blockchain-penetration-testing/web2-bugs-in-web3-systems/",
+        "From Scanners to Strategies: How Attack Surface Management Enhances Vulnerability Scanning": "https://www.netspi.com/blog/executive/attack-surface-management/from-scanners-to-strategies-how-attack-surface-management-enhances-vulnerability-scanning/",
+        "NetSPI Recognized as a Top USA Workplace for 2024": "https://www.netspi.com/news/press-release/top-workplace-usa-2024/"
+    },
+    "Schneier on Security": {
+        "AI and the Evolution of Social Media": "https://www.schneier.com/blog/archives/2024/03/ai-and-the-evolution-of-social-media.html"
+    },
+    "KitPloit - PenTest Tools!": {
+        "GAP-Burp-Extension - Burp Extension To Find Potential Endpoints, Parameters, And Generate A Custom Target Wordlist": "http://www.kitploit.com/2024/03/gap-burp-extension-burp-extension-to.html"
+    },
+    "Security Affairs": {
+        "Ukraine cyber police arrested crooks selling 100 million compromised accounts": "https://securityaffairs.com/160748/cyber-crime/ukraine-cyber-police-account-hacking.html",
+        "New AcidPour wiper targets Linux x86 devices. Is it a Russia’s weapon?": "https://securityaffairs.com/160739/cyber-warfare-2/acidpour-wiper.html",
+        "Players hacked during the matches of Apex Legends Global Series. Tournament suspended": "https://securityaffairs.com/160726/hacking/apex-legends-global-series-hack.html",
+        "Earth Krahang APT breached tens of government organizations worldwide": "https://securityaffairs.com/160702/apt/earth-krahang-apt.html"
+    },
+    "Deeplinks": {
+        "Lucy Parsons Labs Takes Police Foundation to Court for Open Records Requests": "https://www.eff.org/deeplinks/2024/03/lucy-parsons-labs-takes-police-foundation-court-open-records-requests",
+        "Speaking Freely: Maryam Al-Khawaja": "https://www.eff.org/deeplinks/2024/03/speaking-freely-maryam-al-khawaja",
+        "Decoding the California DMV's Mobile Driver's License": "https://www.eff.org/deeplinks/2024/03/decoding-california-dmvs-mobile-drivers-license"
+    },
+    "Security Weekly Podcast Network (Audio)": {
+        "Sick Jokes, WEBGPU, Fortra, Azorult, Fujitsu, Phishing, Josh Marpet, and More - SWN #370": "http://sites.libsyn.com/18678/sick-jokes-webgpu-fortra-azorult-fujitsu-phishing-josh-marpet-and-more-swn-370",
+        "Figuring Out Where Appsec Fits When Starting a Cybersecurity Program - Tyler VonMoll - ASW #277": "http://sites.libsyn.com/18678/figuring-out-where-appsec-fits-when-starting-a-cybersecurity-program-tyler-vonmoll-asw-277"
+    }
+}
