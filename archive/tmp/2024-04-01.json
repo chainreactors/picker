@@ -1,0 +1,130 @@
+{
+    "SecWiki News": {
+        "SecWiki News 2024-03-31 Review": "http://www.sec-wiki.com/?2024-03-31"
+    },
+    "Verne in GitHub": {
+        "中心化加密货币交易所 Gate 注册以及认证": "https://einverne.github.io/post/2024/03/gate-introduction.html"
+    },
+    "Armin Ronacher's Thoughts and Writings": {
+        "Skin in the Game": "http://lucumr.pocoo.org/2024/3/31/skin-in-the-game"
+    },
+    "Security Boulevard": {
+        "Critical Backdoor Found in XZ Utils (CVE-2024-3094) Enables SSH Compromise": "https://securityboulevard.com/2024/03/critical-backdoor-found-in-xz-utils-cve-2024-3094-enables-ssh-compromise/",
+        "Cybersecurity Tabletop Exercises: How Far Should You Go?": "https://securityboulevard.com/2024/03/cybersecurity-tabletop-exercises-how-far-should-you-go/"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for CVE-2024-3094 exploit": "https://sploitus.com/exploit?id=AC0C20E1-A768-5EC4-AA27-3047250352C8&utm_source=rss&utm_medium=rss",
+        "Exploit for CVE-2024-28247 exploit": "https://sploitus.com/exploit?id=6C94DC11-1DA5-5E66-A47C-35F5851AD621&utm_source=rss&utm_medium=rss"
+    },
+    "Private Feed for M09Ic": {
+        "phith0n starred go-nunu/nunu": "https://github.com/go-nunu/nunu",
+        "gh0stkey starred confluentinc/confluent-kafka-python": "https://github.com/confluentinc/confluent-kafka-python",
+        "zer0yu started following wez": "https://github.com/wez",
+        "zer0yu starred KevinSilvester/wezterm-config": "https://github.com/KevinSilvester/wezterm-config",
+        "Mr-xn created a repository Mr-xn/automa_script": "https://github.com/Mr-xn/automa_script//",
+        "Safe3 forked Safe3/vue-pure-admin from pure-admin/vue-pure-admin": "https://github.com/Safe3/vue-pure-admin",
+        "Mr-xn created a repository Mr-xn/CVE-2023-43482": "https://github.com/Mr-xn/CVE-2023-43482//"
+    },
+    "bunnie's blog": {
+        "A Kinematically Coupled, Nanometer-Resolution Piezo Focus Stage": "https://www.bunniestudios.com/blog/?p=7066"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sun Mar 31 18:00:15 UTC 2024": "https://github.com/trickest/cve/commit/3654d786773432a6a741bca16e150ef86487e3ab",
+        "Update Sun Mar 31 10:01:23 UTC 2024": "https://github.com/trickest/cve/commit/cd2851695dbfc3259b25c8683d3152ea93e542a2",
+        "Update Sun Mar 31 02:03:09 UTC 2024": "https://github.com/trickest/cve/commit/1a541289b938679cbe0bec8b14c22f6a91e1f9ca"
+    },
+    "MaskRay": {
+        "A compact section header table for ELF": "https://maskray.me/blog/2024-03-31-a-compact-section-header-table-for-elf"
+    },
+    "Blogs  dade": {
+        "Weekly Retro 2": "https://0xda.de/blog/2024/03/weekly-retro-2/"
+    },
+    "CCC Event Blog": {
+        "22. Gulaschprogrammiernacht": "https://events.ccc.de/2024/03/31/gpn22/"
+    },
+    "Dancho Danchev's Blog - Mind Streams of Information Security Knowledge": {
+        "Yavor Kolev - The Dipshit That \"Ruled\" No One": "https://ddanchev.blogspot.com/2024/04/yavor-kolev-dipshit-that-ruled-no-one.html"
+    },
+    "Hexacorn": {
+        "Subfrida v0.1": "https://www.hexacorn.com/blog/2024/03/31/subfrida-v0-1/"
+    },
+    "体验盒子": {
+        "中华人民共和国民法典 在线版电子版": "https://www.uedbox.com/post/69576/"
+    },
+    "Reverse Engineering": {
+        "xz/liblzma: Bash-stage Obfuscation Explained": "https://www.reddit.com/r/ReverseEngineering/comments/1bs8p01/xzliblzma_bashstage_obfuscation_explained/"
+    },
+    "程序人生": {
+        "CVE-2024-28085 Improper Neutralization of Escape Sequences in Wall": "https://programlife.net/2024/03/31/cve-2024-28085-improper-neutralization-of-escape-sequences-in-wall/"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "NetBSD 10.0 发布": "https://www.solidot.org/story?sid=77742",
+        "从 xz 后门事件看开源项目维护者和用户关系": "https://www.solidot.org/story?sid=77741"
+    },
+    "KitPloit - PenTest &amp; Hacking Tools": {
+        "DroidLysis - Property Extractor For Android Apps": "http://www.kitploit.com/2024/03/droidlysis-property-extractor-for.html"
+    },
+    "黑海洋 - WIKI": {
+        "阿里云通义灵码 AI 盲盒（99%获得实物奖励）": "https://upx8.com/4119"
+    },
+    "极客公园": {
+        "传华为去年人均分红55万；苹果或将推新Apple Watch；「雷军做相机」被网友顶上热搜 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653037828&idx=1&sn=0114eb6262b06d7cc534838440cf513b&chksm=7e5758b24920d1a44d57792e373db855e53fd5e7e5247729b813e476b48c3fcf66dc0c40cfe5&scene=58&subscene=0#rd"
+    },
+    "复旦白泽战队": {
+        "成果分享 | 探索图神经网络模型的“指纹”": "https://mp.weixin.qq.com/s?__biz=MzU4NzUxOTI0OQ==&mid=2247489018&idx=1&sn=a40991223df4e7d51afcabcbd5e7b5c0&chksm=fdeb9184ca9c18926e75e53de9af35ed8594154952772b3059bddf21c55ffa06fc841f31b829&scene=58&subscene=0#rd"
+    },
+    "迪哥讲事": {
+        "子域名接管漏洞: 赚钱小技巧": "https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247494000&idx=1&sn=dba6edab2fd2c650fc34cd11978c2867&chksm=e8a5e313dfd26a052af18c1cee2918e7798acc109376a23ca81e185030a41db8eb6ee42df16e&scene=58&subscene=0#rd"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "Checking CSV Files, (Sun, Mar 31st)": "https://isc.sans.edu/diary/rss/30796",
+        "Wireshark 4.2.4 Released, (Sun, Mar 31st)": "https://isc.sans.edu/diary/rss/30794"
+    },
+    "Have I Been Pwned latest breaches": {
+        "Washington State Food Worker Card - 1,594,305 breached accounts": "https://haveibeenpwned.com/PwnedWebsites#WashingtonStateFoodWorkerCard"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Pwnagotchi WiFi Audit Tool Build / Guide": "https://jamesachambers.com/pwnagotchi-wifi-audit-tool-build-guide/",
+        "Backdoor su Xz: il problema è molto più grande, non è l’open source e non si risolve con un aggiornamento. Una storia incredibile": "https://www.insicurezzadigitale.com/backdoor-su-xz-il-problema-e-molto-piu-grande-non-e-lopen-source-e-non-si-risolve-con-un-aggiornamento-una-storia-incredibile/",
+        "The xz backdoor from a Security Engineer persepective": "https://appsec.space/posts/xz-backdoor/?trk=feed_main-feed-card_feed-article-content",
+        "DinodasRAT malware targets Linux servers in espionage campaign": "https://www.bleepingcomputer.com/news/security/dinodasrat-malware-targets-linux-servers-in-espionage-campaign/",
+        "It's surprisingly difficult for AI to create just a plain white image": "https://www.bleepingcomputer.com/news/technology/its-surprisingly-difficult-for-ai-to-create-just-a-plain-white-image/",
+        "Washington State Food Worker Card - 1,594,305 breached accounts": "https://haveibeenpwned.com/PwnedWebsites#WashingtonStateFoodWorkerCard",
+        "xz/liblzma: Bash-stage Obfuscation Explained": "https://gynvael.coldwind.pl/?lang=en&id=782"
+    },
+    "Your Open Hacker Community": {
+        "What's the likelihood my XSS payloads lead to some sort of IP ban or legal action?": "https://www.reddit.com/r/HowToHack/comments/1bsgq96/whats_the_likelihood_my_xss_payloads_lead_to_some/",
+        "Bypassing Python and Shell code (help needed, Ethical hacking course)": "https://www.reddit.com/r/HowToHack/comments/1bsj4xs/bypassing_python_and_shell_code_help_needed/",
+        "Game Cheats": "https://www.reddit.com/r/HowToHack/comments/1bshgng/game_cheats/",
+        "WiFi Access": "https://www.reddit.com/r/HowToHack/comments/1bsh61j/wifi_access/",
+        "2 questions about this key/lock": "https://www.reddit.com/r/HowToHack/comments/1bs9nv4/2_questions_about_this_keylock/",
+        "Inconsistent Aircrack Results - Wi-Fi Deauth Attack on 5 GHz Device": "https://www.reddit.com/r/HowToHack/comments/1brybul/inconsistent_aircrack_results_wifi_deauth_attack/"
+    },
+    "Blackhat Library: Hacking techniques and research": {
+        "Do NOT install Global Themes - Some wipe out ALL YOUR DATA": "https://www.reddit.com/r/blackhat/comments/1bs234o/do_not_install_global_themes_some_wipe_out_all/"
+    },
+    "The Register - Security": {
+        "Rust developers at Google are twice as productive as C++ teams": "https://go.theregister.com/feed/www.theregister.com/2024/03/31/rust_google_c/"
+    },
+    "Security Affairs": {
+        "Security Affairs newsletter Round 465 by Pierluigi Paganini – INTERNATIONAL EDITION": "https://securityaffairs.com/161269/breaking-news/security-affairs-newsletter-round-465-by-pierluigi-paganini-international-edition.html",
+        "DinodasRAT Linux variant targets users worldwide": "https://securityaffairs.com/161255/malware/linux-variant-dinodasrat-backdoor.html",
+        "AT&T confirmed that a data breach impacted 73 million customers": "https://securityaffairs.com/161244/data-breach/att-confirmed-data-breach-73m-people.html"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "Backdoor found in widely used Linux utility breaks encrypted SSH connections | Ars Technica": "https://www.reddit.com/r/netsecstudents/comments/1bs62h6/backdoor_found_in_widely_used_linux_utility/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "DroidLysis - Property Extractor For Android Apps": "http://www.kitploit.com/2024/03/droidlysis-property-extractor-for.html"
+    },
+    "Computer Forensics": {
+        "Arsenal Image Mounter v3.11.282 Released": "https://www.reddit.com/r/computerforensics/comments/1bsbl3g/arsenal_image_mounter_v311282_released/",
+        "CHFI exam": "https://www.reddit.com/r/computerforensics/comments/1bshg5h/chfi_exam/"
+    },
+    "Social Engineering": {
+        "How People Are Being Radicalized": "https://www.reddit.com/r/SocialEngineering/comments/1bsax1r/how_people_are_being_radicalized/"
+    },
+    "TorrentFreak": {
+        "UK Govt: “Pronounced Inaccuracies” in Press Reports on IP-Related Matters": "https://torrentfreak.com/uk-govt-press-reports-on-ip-related-matters-contain-pronounced-inaccuracies-240331/"
+    }
+}
