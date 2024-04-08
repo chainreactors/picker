@@ -39,7 +39,6 @@ jobs:
           TELEGRAM_KEY: ${{ secrets.TELEGRAM_KEY }}
           MAIL_KEY: ${{ secrets.MAIL_KEY }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python3 picker.py --update-pick
 
       - name: Create Issue if content is valid
