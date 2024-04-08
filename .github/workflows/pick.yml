@@ -29,6 +29,7 @@ jobs:
       - name: Push articles
         env:
           FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
+          PICKER_FEISHU_KEY: ${{ secrets.PICKER_FEISHU_KEY }}
           WECOM_KEY: ${{ secrets.WECOM_KEY }}
           DINGTALK_KEY: ${{ secrets.DINGTALK_KEY }}
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
@@ -38,7 +39,6 @@ jobs:
           TELEGRAM_KEY: ${{ secrets.TELEGRAM_KEY }}
           MAIL_KEY: ${{ secrets.MAIL_KEY }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python3 picker.py --update-pick
 
       - name: Create Issue if content is valid
