@@ -54,7 +54,7 @@ def popen(cmd:str) -> str:
 
 def getenv(key_name, pick=False):
     if pick:
-        if key := os.getenv("PICKER_"+key_name) != "":
+        if key := os.getenv("PICKER_"+key_name) is not None:
             return key
         else:
             return os.getenv(key_name)

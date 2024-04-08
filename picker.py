@@ -313,7 +313,6 @@ if __name__ == '__main__':
     proxy_bot = conf['proxy']['url'] if conf['proxy']['bot'] else ''
     bots = init_bot(conf['bot'], proxy_bot)
     picker_bots = init_bot(conf["pick_bot"], proxy_bot, True)
-
     if args.push_issue:
         push_issue(args.push_issue)
     elif args.update_pick:
