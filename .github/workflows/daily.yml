@@ -32,15 +32,16 @@ jobs:
       - name: Push articles
         env:
           FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
+          PICKER_FEISHU_KEY: ${{ secrets.PICKER_FEISHU_KEY }}
           WECOM_KEY: ${{ secrets.WECOM_KEY }}
           DINGTALK_KEY: ${{ secrets.DINGTALK_KEY }}
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+          PICKER_DINGTALK_KEY: ${{ secrets.PICKER_DINGTALK_KEY }}
+          PICKER_DINGTALK_SECRET: ${{ secrets.PICKER_DINGTALK_SECRET }}
           QQ_KEY: ${{ secrets.QQ_KEY }}
           TELEGRAM_KEY: ${{ secrets.TELEGRAM_KEY }}
           MAIL_KEY: ${{ secrets.MAIL_KEY }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
-          PICKER_DINGTALK_KEY: ${{ secrets.PICKER_DINGTALK_KEY }}
-          PICKER_DINGTALK_SECRET: ${{ secrets.PICKER_DINGTALK_SECRET }}
         run: python3 picker.py
 
       - name: Issue
