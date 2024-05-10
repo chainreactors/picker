@@ -28,6 +28,7 @@ jobs:
 
       - name: Push articles
         env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
           PICKER_FEISHU_KEY: ${{ secrets.PICKER_FEISHU_KEY }}
           WECOM_KEY: ${{ secrets.WECOM_KEY }}
