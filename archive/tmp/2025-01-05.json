@@ -1,37 +1,13 @@
 {
-    "Security Boulevard": {
-        "Stay Assured: Critical Insights into Secrets Rotation": "https://securityboulevard.com/2025/01/stay-assured-critical-insights-into-secrets-rotation/",
-        "Confidently Secure: Leveraging PAM for Enhanced Protections": "https://securityboulevard.com/2025/01/confidently-secure-leveraging-pam-for-enhanced-protections/",
-        "DEF CON 32 –  The Interplay between Safety and Security in Aviation Systems3": "https://securityboulevard.com/2025/01/def-con-32-the-interplay-between-safety-and-security-in-aviation-systems3/",
-        "Privacy Roundup: Week 1 of Year 2025": "https://securityboulevard.com/2025/01/privacy-roundup-week-1-of-year-2025/"
-    },
-    "SecWiki News": {
-        "SecWiki News 2025-01-04 Review": "http://www.sec-wiki.com/?2025-01-04"
-    },
-    "Private Feed for M09Ic": {
-        "kpcyrd starred khaleesicodes/Matilda": "https://github.com/khaleesicodes/Matilda",
-        "ZeddYu released v0.1.7 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.7",
-        "ZeddYu released v0.1.6 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.6",
-        "ZeddYu released v0.1.5 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.5",
-        "zer0yu starred louis-e/arnis": "https://github.com/louis-e/arnis",
-        "zer0yu started following psyyz10": "https://github.com/psyyz10",
-        "ZeddYu released v0.1.4 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.4",
-        "ZeddYu released v0.1.3 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.3",
-        "ZeddYu released v0.1.2 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.2",
-        "ZeddYu released v0.1.1 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.1",
-        "niudaii starred ginuerzh/gost": "https://github.com/ginuerzh/gost",
-        "niudaii starred Tencent/AI-Infra-Guard": "https://github.com/Tencent/AI-Infra-Guard"
-    },
-    "Recent Commits to cve:main": {
-        "Update Sat Jan  4 20:07:20 UTC 2025": "https://github.com/trickest/cve/commit/00db950ef6574b5f0e8af224787e9062cd957d35",
-        "Update Sat Jan  4 12:15:55 UTC 2025": "https://github.com/trickest/cve/commit/e2fe097ba18f2587132c8e410128d136442354cb",
-        "Update Sat Jan  4 04:04:16 UTC 2025": "https://github.com/trickest/cve/commit/48f28a0790d81907a8e16d7a6a597bf986c8ee20"
-    },
     "Doonsec's feed": {
+        "（滥用） ClickOnce 实现可信任意代码执行": "https://mp.weixin.qq.com/s?__biz=MzAxODM5ODQzNQ==&mid=2247486184&idx=1&sn=5c1bd5ddbc40812af82fbfa7a9f22770",
         "专家解读之一 | 以标准引领建设，加速数字经济高质量发展": "https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247633543&idx=1&sn=4d3a8324a70212127b36ed51587cc52c",
         "专家解读之二 | 打造国家数据标准体系，形成国家数据基础设施框架": "https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247633543&idx=2&sn=d1a415b95120e0285e025eeaecf5fdab",
+        "专家解读之三 | 加强数据标准化建设，引领数据产业高质量发展，为全面推进数字中国建设提供有力支撑": "https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247633543&idx=3&sn=376965d4973835b28fd8cfb12a42285e",
         "未履行网络安全保护义务，河南3家公司被约谈": "https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247633543&idx=4&sn=ec80e1ebc897b1287c9bae7ee346d01f",
+        "通过模糊测试收获$35,000赏金奖励": "https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247496742&idx=1&sn=86954a9017bd0e750de0eafe110ad522",
         "为什么说内存马正在改变Web安全格局？8年技术进化史": "https://mp.weixin.qq.com/s?__biz=MzI5MjY4MTMyMQ==&mid=2247489493&idx=1&sn=57986469a064bbd5fdc4702ebd09a69b",
+        "Tuya IoT on 阿里云：企业级物联平台新选择": "https://mp.weixin.qq.com/s?__biz=MjM5OTA4MzA0MA==&mid=2454936335&idx=1&sn=679c321c4d60e7dcd33ca9d60b2c30d2",
         ".NET 2024.12月度红队武器库和资源汇总": "https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247497966&idx=1&sn=8a788d1c8f4f7bb758550dc838c7772f",
         "【2025-01-04】每日安全资讯": "https://mp.weixin.qq.com/s?__biz=MzIzNDU5NTI4OQ==&mid=2247488226&idx=1&sn=97357faeb834659914eaa07b2517987f",
         "泰晓资讯xa0:xa02025xa0年 1xa0月xa0第xa0一xa0期": "https://mp.weixin.qq.com/s?__biz=MzA5NDQzODQ3MQ==&mid=2648194511&idx=1&sn=20477fd644e1b4a2a946d5447a7e2158",
@@ -110,139 +86,21 @@
         "【漏洞复现】方正畅享全媒体新闻采编系统imageProxy存在任意文件读取漏洞": "https://mp.weixin.qq.com/s?__biz=MzU3MjU4MjM3MQ==&mid=2247489375&idx=1&sn=3d401297a02bc6e0f6eb3ef1368dfbad",
         "【吃瓜】网安？保安！！！": "https://mp.weixin.qq.com/s?__biz=MzU3MjU4MjM3MQ==&mid=2247489375&idx=2&sn=96875dcafe3e16ee0251c349a9b67935"
     },
-    "Der Flounder": {
-        "Suppressing the Welcome to Mac screen with a configuration profile on macOS Sequoia": "https://derflounder.wordpress.com/2025/01/04/suppressing-the-welcome-to-mac-screen-with-a-configuration-profile-on-macos-sequoia/"
+    "SecWiki News": {
+        "SecWiki News 2025-01-04 Review": "http://www.sec-wiki.com/?2025-01-04"
     },
-    "一个被知识诅咒的人": {
-        "【Python运维】使用Python与Docker进行高效的容器化应用管理": "https://blog.csdn.net/nokiaguy/article/details/144928530",
-        "Python中的多线程与多进程：并发编程的最佳实践": "https://blog.csdn.net/nokiaguy/article/details/144928512"
-    },
-    "Hacking Dream": {
-        "Understanding PE Headers: A Complete Guide to the Windows Portable Executable Format": "https://www.hackingdream.net/2025/01/understanding-pe-headers-complete-guide.html"
-    },
-    "Bug Bounty in InfoSec Write-ups on Medium": {
-        "P4 Bugs and POC | Part 1": "https://infosecwriteups.com/p4-bugs-and-poc-part-1-0dab3517bbe9?source=rss----7b722bfd1b8d--bug_bounty",
-        "P4 Bugs and PoC | Part 2": "https://infosecwriteups.com/p4-bugs-and-poc-part-2-0842039eddf3?source=rss----7b722bfd1b8d--bug_bounty",
-        "P4 Bugs and PoC | Part 3": "https://infosecwriteups.com/p4-bugs-and-poc-part-3-8ca9776c87bc?source=rss----7b722bfd1b8d--bug_bounty"
-    },
-    "Intigriti": {
-        "Hunting for blind XSS vulnerabilities: A complete guide": "https://www.intigriti.com/researchers/blog/hacking-tools/hunting-for-blind-cross-site-scripting-xss-vulnerabilities-a-complete-guide"
-    },
-    "FreeBuf网络安全行业门户": {
-        "盘点万亿市值的Palantir在2024年拿下的至少87亿的美军合同都是啥": "https://www.freebuf.com/articles/neopoints/419073.html"
-    },
-    "奇客Solidot–传递最新科技情报": {
-        "美国卫生局局长呼吁为酒加入致癌警告": "https://www.solidot.org/story?sid=80238",
-        "黑客通过钓鱼攻击入侵数十个 Chrome 扩展植入后门": "https://www.solidot.org/story?sid=80237"
-    },
-    "print(\"\")": {
-        "LL(1) 算法": "https://www.o2oxy.cn/4342.html"
-    },
-    "威努特安全网络": {
-        "大众80万用户数据泄露，工信部预警SafePay病毒 | 一周特辑": "https://mp.weixin.qq.com/s?__biz=MzAwNTgyODU3NQ==&mid=2651130203&idx=1&sn=cf7af82f0381e4261d07bd511a68c140&chksm=80e713ebb7909afd5d7107cc20927c0776c8801c26ff5aa049fb23dd2b78d2e11e2b33295202&scene=58&subscene=0#rd"
-    },
-    "丁爸 情报分析师的工具箱": {
-        "【资料】美军出版物系列（2）": "https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651148405&idx=1&sn=c15b2f76baf70f9af93ca44dbe8255ab&chksm=f1af274fc6d8ae59b5e0d314e570ed00027cfe8d74f3c319bd39414e617ce9d2d6372c627415&scene=58&subscene=0#rd"
-    },
-    "安全内参": {
-        "美军网络战略与网络战术脱节的三大核心问题": "https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247513423&idx=1&sn=e85181923bf26656c7c472c63a773911&chksm=ebfaf26fdc8d7b79ab9089a21dbe935405ff77e3ba8759c1d241609f3422a9debdcb3a4a9dce&scene=58&subscene=0#rd"
-    },
-    "看雪学苑": {
-        "强网杯2024 solve2-apk-赛题解析": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458588041&idx=1&sn=066267a614cf9489ea94c308645a5603&chksm=b18c230386fbaa156cad76ce682b029ed2f3a54bf3500c51994a92dcf9aa58ad8722c3a1bdd2&scene=58&subscene=0#rd",
-        "欢迎加入【看雪课程讲师】团队！分享知识的同时，打造个人IP": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458588041&idx=2&sn=035d00d9c8f9d99c2ec15fe68d22d1df&chksm=b18c230386fbaa159a2ffff8f280028f7992a9337a18be1cae9d1b82b989f40ec5dd64e0b55a&scene=58&subscene=0#rd"
-    },
-    "安全圈": {
-        "【安全圈】印度出手！多款VPN应用被谷歌苹果下架，Cloudflare也未能幸免": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652067148&idx=1&sn=02a9937aa327a818ad57260c47a32fd6&chksm=f36e790cc419f01a9f879e7ab53d4fda263dc1b5c163ec61e370a69132bd41ca4fbfeb9c6f67&scene=58&subscene=0#rd",
-        "【安全圈】开源终端工具曝重大安全漏洞，输入信息可能被窃取！": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652067148&idx=2&sn=b5d58580bfec4388018946e5f03f2ce6&chksm=f36e790cc419f01a2cb74d348b4855f80c5f279e8ebab8a25cf5c2f3beffb0d66622c0567162&scene=58&subscene=0#rd",
-        "【安全圈】微软 Win11 BitLocker 存在物理接触即可绕过的重大漏洞": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652067148&idx=3&sn=d0e8225dafa1c2fb13ad0e7f22376327&chksm=f36e790cc419f01a20528cc722e7f75d6c77ce8bb1bb4ac0f0503c3e9f9a6357c34f2172a526&scene=58&subscene=0#rd"
-    },
-    "安全研究GoSSIP": {
-        "G.O.S.S.I.P 2025年1月投稿指南": "https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247499534&idx=1&sn=769c3acee39d0e9ff4b75c36605b143e&chksm=c063d1d7f71458c1bbdfe2cdcb390621247dff1f311a55d3520e39b9ba9ead4637bb72f1f8b3&scene=58&subscene=0#rd"
-    },
-    "火绒安全": {
-        "【火绒安全周报】苹果天价和解Siri偷听集体诉讼/哈雷疑似发生数据泄露事件": "https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247521431&idx=1&sn=9765749b3d508443a0617d716dc7df39&chksm=eb704aa8dc07c3be0236c9cdf372675eb30a2c7066cfd5d580544d6d0a55ac78f1c019db96aa&scene=58&subscene=0#rd",
-        "诚邀渠道合作伙伴共启新征程": "https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247521431&idx=2&sn=c42d6b003c79f80221034a6587d18e51&chksm=eb704aa8dc07c3be60b294d7dfaaef6bd3fd8d02651b492e750467976d0a6a667e61c98395b7&scene=58&subscene=0#rd"
-    },
-    "dotNet安全矩阵": {
-        ".NET 2024.12月度红队武器库和资源汇总": "https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247497966&idx=1&sn=8a788d1c8f4f7bb758550dc838c7772f&chksm=fa595603cd2edf15855a31c23b9cffb11aa17c5c44ec3b1aed0b18c9702a09c31e6620124b97&scene=58&subscene=0#rd",
-        "国内最专业、最全面的 [ .NET 代码审计 ] 体系化学习交流社区": "https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247497966&idx=2&sn=29fd93ec6522f11ea57341015ba48b11&chksm=fa595603cd2edf15f83b4a21c286a76e48933841565686b85df5951e1b9a8760398488eaa7e1&scene=58&subscene=0#rd",
-        ".NET | SCM权限维持在红队实战中的应用": "https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247497966&idx=3&sn=7ec2283839c68d00a1acbaf562812acc&chksm=fa595603cd2edf156bebe4c749534e8b07888c8b0556188af4f3d1150bcaedf34260e21b9311&scene=58&subscene=0#rd"
-    },
-    "山石网科安全技术研究院": {
-        "山石安研院2024年度代表性原创0day漏洞": "https://mp.weixin.qq.com/s?__biz=MzUzMDUxNTE1Mw==&mid=2247509347&idx=1&sn=d8886a100e78c54f98c7172e8f3c555a&chksm=fa5270ddcd25f9cbbe87cac2d57c45350c26df28891b05bf9671c4a13d19270f167c120225c5&scene=58&subscene=0#rd"
-    },
-    "迪哥讲事": {
-        "通过模糊测试收获$35,000赏金奖励": "https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247496742&idx=1&sn=86954a9017bd0e750de0eafe110ad522&chksm=e8a5fe45dfd27753ada25e28c967d84832c3cf58b430646ef366b0a19716eaaff9ee76aed8e4&scene=58&subscene=0#rd"
-    },
-    "Over Security - Cybersecurity news aggregator": {
-        "Nuclei flaw bypasses template signature checks to execute commands": "https://www.bleepingcomputer.com/news/security/nuclei-flaw-bypasses-template-signature-checks-to-execute-commands/",
-        "Nuclei flaw bypasses template signature checks to execute code": "https://www.bleepingcomputer.com/news/security/nuclei-flaw-bypasses-template-signature-checks-to-execute-code/",
-        "New FireScam Android malware poses as RuStore app to steal data": "https://www.bleepingcomputer.com/news/security/new-firescam-android-malware-poses-as-rustore-app-to-steal-data/",
-        "Google Chrome is making it easier to share specific parts of long PDFs": "https://www.bleepingcomputer.com/news/google/google-chrome-is-making-it-easier-to-share-specific-parts-of-long-pdfs/"
-    },
-    "IT Service Management News": {
-        "European accessibility act (EAA)": "http://blog.cesaregallotti.it/2025/01/european-accessibility-act-eaa.html",
-        "Cyber resilience act": "http://blog.cesaregallotti.it/2025/01/cyber-resilience-act.html"
-    },
-    "极客公园": {
-        "用 GPT 总结 2024 年的人，全破防了": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653071481&idx=1&sn=ddabc1c8ad7bfc262ba22f8cc3caa88f&chksm=7e57d5cf49205cd9594674cb931d900aad590fc8d681e0ff1303e94104f4640c0e2ee61c6445&scene=58&subscene=0#rd",
-        "微信测试「语音信息倍速播放」； BBC 怒斥苹果 AI 通知摘要频频出错；谷歌 AI 科学家自杀离世｜极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653071509&idx=1&sn=fa2f2e07e7cadeee5adb7281a9127020&chksm=7e57d52349205c35308783b27f045172b30f3b59f4bd9bf15012ede782f12dcfb44623e95e8a&scene=58&subscene=0#rd"
-    },
-    "白泽安全实验室": {
-        "黑客组织滥用google服务进行网络钓鱼攻击活动": "https://mp.weixin.qq.com/s?__biz=MzI0MTE4ODY3Nw==&mid=2247492508&idx=1&sn=292b43e2f759d1aef5a11e2bafbfbfab&chksm=e90dc9b6de7a40a02a0de09e4be4c650c66a180e209fa2ae5901d06c4ba93051121277cc2418&scene=58&subscene=0#rd"
-    },
-    "Trend Micro Research, News and Perspectives": {
-        "What We Know About CVE-2024-49112 and CVE-2024-49113": "https://www.trendmicro.com/en_us/research/25/a/what-we-know-about-cve-2024-49112-and-cve-2024-49113.html"
-    },
-    "The Register - Security": {
-        "Encryption backdoor debate 'done and dusted,' former White House tech advisor says": "https://go.theregister.com/feed/www.theregister.com/2025/01/04/encryption_backdoor_debate/",
-        "Atos denies Space Bears' ransomware claims – with a 'but'": "https://go.theregister.com/feed/www.theregister.com/2025/01/04/atos_denies_space_bears_ransomware/"
-    },
-    "Social Engineering": {
-        "My Way of Social Engineering Without Masking my Neurodivergence- I Call it \"Wearing Make-Up\"": "https://www.reddit.com/r/SocialEngineering/comments/1htm7eo/my_way_of_social_engineering_without_masking_my/"
-    },
-    "The Hacker News": {
-        "Researchers Uncover Nuclei Vulnerability Enabling Signature Bypass and Code Execution": "https://thehackernews.com/2025/01/researchers-uncover-nuclei.html",
-        "PLAYFULGHOST Delivered via Phishing and SEO Poisoning in Trojanized VPN Apps": "https://thehackernews.com/2025/01/playfulghost-delivered-via-phishing-and.html",
-        "U.S. Sanctions Chinese Cybersecurity Firm for State-Backed Hacking Campaigns": "https://thehackernews.com/2025/01/us-treasury-sanctions-beijing.html"
-    },
-    "Security Affairs": {
-        "Malicious npm packages target Ethereum developers": "https://securityaffairs.com/172671/malware/malicious-npm-packages-target-ethereum-developers.html",
-        "US Treasury Department sanctioned Chinese cybersecurity firm linked to Flax Typhoon APT": "https://securityaffairs.com/172665/intelligence/us-sanctioned-chinese-cybersecurity-firm-linked-flax-typhoon.html"
-    },
-    "Hacking Exposed Computer Forensics Blog": {
-        "Daily Blog #707:  Surviving the Breach Podcast": "https://www.hecfblog.com/2025/01/daily-blog-707-surviving-breach-podcast.html"
-    },
-    "Your Open Hacker Community": {
-        "Network Sniffing in the wild": "https://www.reddit.com/r/HowToHack/comments/1htpojo/network_sniffing_in_the_wild/",
-        "Evil Portals in public": "https://www.reddit.com/r/HowToHack/comments/1htmfl1/evil_portals_in_public/",
-        "Should I use John the Ripper in --Prince mode to recover my password?": "https://www.reddit.com/r/HowToHack/comments/1htnsw1/should_i_use_john_the_ripper_in_prince_mode_to/",
-        "Is a USB WiFi adapter necessary to monitor network traffic?": "https://www.reddit.com/r/HowToHack/comments/1htn04h/is_a_usb_wifi_adapter_necessary_to_monitor/",
-        "How to install Vega Vulnerability Scanner": "https://www.reddit.com/r/HowToHack/comments/1htkjh0/how_to_install_vega_vulnerability_scanner/",
-        ".dat file decryption": "https://www.reddit.com/r/HowToHack/comments/1htrcwd/dat_file_decryption/",
-        "Kind of lost": "https://www.reddit.com/r/HowToHack/comments/1ht814o/kind_of_lost/",
-        "Kali install no network connection URGENT HELP": "https://www.reddit.com/r/HowToHack/comments/1htn6id/kali_install_no_network_connection_urgent_help/",
-        "Help with hashcat": "https://www.reddit.com/r/HowToHack/comments/1htinau/help_with_hashcat/",
-        "How do I make my rf jam source strong enough to jam a subwoofer and soundbar? I have an antenna and an amplifier. But it's only jamming my sony headphones.": "https://www.reddit.com/r/HowToHack/comments/1htmt74/how_do_i_make_my_rf_jam_source_strong_enough_to/",
-        "How to approach getting into a Windows account without a pin, without erasing all the credentials?": "https://www.reddit.com/r/HowToHack/comments/1ht6csd/how_to_approach_getting_into_a_windows_account/",
-        "Tricking website": "https://www.reddit.com/r/HowToHack/comments/1ht97ds/tricking_website/",
-        "how to deal with https?": "https://www.reddit.com/r/HowToHack/comments/1ht3g59/how_to_deal_with_https/",
-        "Guys how does people obtain or make these 'root kits' and also how do they find the hardware compiler file to execute it?": "https://www.reddit.com/r/HowToHack/comments/1htbgih/guys_how_does_people_obtain_or_make_these_root/",
-        "Hashes": "https://www.reddit.com/r/HowToHack/comments/1hta5nw/hashes/",
-        "Someone has been harassing me for a couple of years and has made my life miserable": "https://www.reddit.com/r/HowToHack/comments/1ht8cw5/someone_has_been_harassing_me_for_a_couple_of/",
-        "Where to get the Pegasus Software?": "https://www.reddit.com/r/HowToHack/comments/1ht7ie4/where_to_get_the_pegasus_software/"
-    },
-    "Computer Forensics": {
-        "Magnet Forensics recertification- Anyone?": "https://www.reddit.com/r/computerforensics/comments/1htf0ct/magnet_forensics_recertification_anyone/",
-        "I cant get binwalk or scalpel to extract data from a .db file.": "https://www.reddit.com/r/computerforensics/comments/1ht7def/i_cant_get_binwalk_or_scalpel_to_extract_data/"
-    },
-    "TorrentFreak": {
-        "HiAnime Outranks DisneyPlus in the U.S. With a Record 364m Monthly Visits": "https://torrentfreak.com/hianime-outranks-disneyplus-in-the-u-s-with-record-364m-monthly-visits-250104/"
-    },
-    "Technical Information Security Content & Discussion": {
-        "AWS introduced same RCE vulnerability three times in four years": "https://www.reddit.com/r/netsec/comments/1htcd4h/aws_introduced_same_rce_vulnerability_three_times/"
-    },
-    "Deep Web": {
-        "Anybody got any sites like tor.taxi ? Used to use dark.fail but dont really trust it": "https://www.reddit.com/r/deepweb/comments/1ht24ol/anybody_got_any_sites_like_tortaxi_used_to_use/"
+    "Private Feed for M09Ic": {
+        "kpcyrd starred khaleesicodes/Matilda": "https://github.com/khaleesicodes/Matilda",
+        "ZeddYu released v0.1.7 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.7",
+        "ZeddYu released v0.1.6 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.6",
+        "ZeddYu released v0.1.5 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.5",
+        "zer0yu starred louis-e/arnis": "https://github.com/louis-e/arnis",
+        "zer0yu started following psyyz10": "https://github.com/psyyz10",
+        "ZeddYu released v0.1.4 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.4",
+        "ZeddYu released v0.1.3 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.3",
+        "ZeddYu released v0.1.2 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.2",
+        "ZeddYu released v0.1.1 at ZeddYu/hugo-theme-stack": "https://github.com/ZeddYu/hugo-theme-stack/releases/tag/v0.1.1",
+        "niudaii starred ginuerzh/gost": "https://github.com/ginuerzh/gost",
+        "niudaii starred Tencent/AI-Infra-Guard": "https://github.com/Tencent/AI-Infra-Guard"
     }
 }
