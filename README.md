@@ -1,45 +1,47 @@
 fork from https://github.com/VulnTotal-Team/yarb
 
-# picker 
+# picker
 
-抓取, 推送, 讨论, 交流, 互动为一体, 将github的repo变为私人的讨论社区。
+抓取, 推送, 讨论, 交流, 互动为一体, 将 github 的 repo 变为私人的讨论社区。
 
 支持导入 opml 文件，也可以订阅其他任何 RSS 源。
 
 ## 使用
 
-基于github action 实现的自动化推送系统
+基于 github action 实现的自动化推送系统
 
 目前有四个不同的推送信息类型
 
-* 每日信息流,  默认为每天早上9点30分推送昨天新增文章列表.
-* 每日精选, 默认为每天下午1点半推送昨日精选
-* 精选推送, 在每天生成的issue中, 点击convert to issue生成新的issue并推送到钉钉群
-* 精选文章的评论区推送, 当有人评论了改文章, 自动推送到钉钉
+- 每日信息流, 默认为每天早上 9 点 30 分推送昨天新增文章列表.
+- 每日精选, 默认为每天下午 1 点半推送昨日精选
+- 精选推送, 在每天生成的 issue 中, 点击 convert to issue 生成新的 issue 并推送到钉钉群
+- 精选文章的评论区推送, 当有人评论了改文章, 自动推送到钉钉
 
 ### 信息流
-每日会在issue中生成昨日信息流
+
+每日会在 issue 中生成昨日信息流
 
 ![img.png](img/信息流.png)
 
 ### 精选
-如果认为某篇文章质量较好, 值得其他人阅读可以点击convert to issue 自动添加到精选文章列表.
+
+如果认为某篇文章质量较好, 值得其他人阅读可以点击 convert to issue 自动添加到精选文章列表.
 
 ![img.png](img/精选.png)
 
-如果需要多人合作, 普通的read权限并没有convert to issue的功能, 需要triage权限
+如果需要多人合作, 普通的 read 权限并没有 convert to issue 的功能, 需要 triage 权限
 
 ![img.png](img/权限.png)
 
-或手动new issue, 也会自动添加到issue中
+或手动 new issue, 也会自动添加到 issue 中
 
 ![img.png](img/手动添加.png)
 
-每天下午13:30, 会将昨日的精选汇总进行一次推送.
+每天下午 13:30, 会将昨日的精选汇总进行一次推送.
 
 ### 标签
 
-每日信息流会自动添加标签daily, 每日精选会自动添加标签dailypick. 精选文章会添加标签pick.
+每日信息流会自动添加标签 daily, 每日精选会自动添加标签 dailypick. 精选文章会添加标签 pick.
 
 一些文章的细分领域可以通过手动添加不同的标签进行管理.
 
@@ -87,7 +89,7 @@ rss:
     filename: CyberSecurityRSS.opml
   CyberSecurityRSS-tiny:
     enabled: false
-    url: 'https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/tiny.opml'
+    url: "https://raw.githubusercontent.com/zer0yu/CyberSecurityRSS/master/tiny.opml"
     filename: CyberSecurityRSS-tiny.opml
   Chinese-Security-RSS:
     enabled: true
@@ -101,11 +103,11 @@ rss:
     filename: awesome-security-feed.opml
   SecurityRSS:
     enabled: true
-    url: 'https://github.com/Han0nly/SecurityRSS/blob/master/SecureRss.opml'
+    url: "https://github.com/Han0nly/SecurityRSS/blob/master/SecureRss.opml"
     filename: SecureRss.opml
   wechatRSS:
     enabled: true
-    url: 'https://wechat2rss.xlab.app/opml/sec.opml'
+    url: "https://wechat2rss.xlab.app/opml/sec.opml"
     filename: wechatRSS.opml
   chinese-independent-blogs:
     enabled: false
@@ -116,40 +118,44 @@ rss:
 
 2.
 
-自定义rss源位于`rss/CustomRSS.opml`中, 需要添加请提交pr, 次日自动加入到推送列表
+自定义 rss 源位于`rss/CustomRSS.opml`中, 需要添加请提交 pr, 次日自动加入到推送列表
 
-非rss源可以使用rsshub转发
+非 rss 源可以使用 rsshub 转发
+
 ## 部署
-推荐使用github action部署
 
-### github部署
-step1: fork仓库
+推荐使用 github action 部署
 
-因为fork可能自动关闭issue, 并且导致issue指向原仓库, 所以建议脱离fork关系. 操作比较简单, clone本仓库, 然后创建一个空项目, 将该仓库push即可.
+### github 部署
 
-step2: 手动添加label
+step1: fork 仓库
 
-**issue需要通过标签管理, 所以需要先创建`pick`, `daily`与`dailypick`标签. 否则会报错**
+因为 fork 可能自动关闭 issue, 并且导致 issue 指向原仓库, 所以建议脱离 fork 关系. 操作比较简单, clone 本仓库, 然后创建一个空项目, 将该仓库 push 即可.
 
-step3: 创建github token
+step2: 手动添加 label
 
-在secret中配置`MY_GITHUB_TOKEN`, 点击这里[生成](https://github.com/settings/tokens/new), 只需要给repo权限即可.
+**issue 需要通过标签管理, 所以需要先创建`pick`, `daily`与`dailypick`标签. 否则会报错**
 
-step4: 配置bot机器人
+step3: 创建 github token
 
-当前只支持飞书,钉钉推送, 需要先[注册钉钉机器人](https://open.dingtalk.com/document/robots/custom-robot-access), 选择加签的方式. 
+在 secret 中配置`MY_GITHUB_TOKEN`, 点击这里[生成](https://github.com/settings/tokens/new), 只需要给 repo 权限即可.
 
-在github secret中配置
+step4: 配置 bot 机器人
 
-* 钉钉机器人: `DINGTALK_KEY` , `DINGTALK_SECRET`, `PICKER_DINGTALK_KEY`, `PICKER_DINGTALK_SECRET`
-* 飞书机器人: `PICKER_FEISHU_KEY`, `FEISHU_KEY`
+当前只支持飞书,钉钉推送, 需要先[注册钉钉机器人](https://open.dingtalk.com/document/robots/custom-robot-access), 选择加签的方式.
+
+在 github secret 中配置
+
+- 钉钉机器人: `DINGTALK_KEY` , `DINGTALK_SECRET`, `PICKER_DINGTALK_KEY`, `PICKER_DINGTALK_SECRET`
+- 飞书机器人: `PICKER_FEISHU_KEY`, `FEISHU_KEY`
 
 可以配置两个不同的钉钉机器人, 也可以只配置一个, 如果只有一个所有消息均通过同一个机器人推送.
 
-其他的推送渠道请自行添加, 可以参考yarb与picker中的代码, 修改下markdown模板即可实现.
+其他的推送渠道请自行添加, 可以参考 yarb 与 picker 中的代码, 修改下 markdown 模板即可实现.
 
 ### 本地搭建
-需要在本地安装 github-cli ,并登录. 不推荐使用, 仅在调试模式下测试用. 
+
+需要在本地安装 github-cli ,并登录. 不推荐使用, 仅在调试模式下测试用.
 
 ```sh
 $ git clone https://github.com/chainreactors/picker
@@ -159,7 +165,7 @@ $ cd picker && ./install.sh
 编辑配置文件 `config.json`，启用所需的订阅源和机器人（key 也可以通过环境变量传入），最好启用代理。
 
 ```sh
-$ ./picker.py --help                            
+$ ./picker.py --help
 usage: picker.py [-h] [--update] [--cron CRON] [--config CONFIG] [--test]
 optional arguments:
   -h, --help       show this help message and exit

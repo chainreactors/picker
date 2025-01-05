@@ -4,6 +4,7 @@ import hmac
 import time
 import json
 from urllib import parse
+import os
 
 import yaml
 import requests
@@ -21,6 +22,82 @@ __all__ = ["feishuBot", "wecomBot", "dingtalkBot", "qqBot", "mailBot"]
 today = datetime.now().strftime("%Y-%m-%d")
 
 
+def get_env_key(name, pick=False):
+    """获取环境变量中的key
+    Args:
+        name: 环境变量名称
+        pick: 是否是精选bot的key
+    """
+    prefix = "PICK_" if pick else ""
+    return os.getenv(f"{prefix}{name}")
+
+
+def init_bot(bot_conf: dict, proxy_url='', pick=False):
+    """初始化机器人"""
+    bots = []
+
+    # 检查环境变量中的配置
+    env_bot_keys = {
+        'dingtalk': get_env_key('DINGTALK_KEY', pick),
+        'feishu': get_env_key('FEISHU_KEY', pick),
+        'wecom': get_env_key('WECOM_KEY', pick),
+        'telegram': get_env_key('TELEGRAM_KEY', pick),
+        'qq': get_env_key('QQ_KEY', pick)
+    }
+
+    for name, v in bot_conf.items():
+        # 如果环境变量中配置了key，则启用对应bot
+        if env_bot_keys.get(name):
+            v['enabled'] = True
+            v['key'] = env_bot_keys[name]
+
+        if v['enabled']:
+            try:
+                if name == 'dingtalk':
+                    secret = get_env_key(
+                        'DINGTALK_SECRET', pick) or v.get('secret')
+                    bot = dingtalkBot(v['key'], secret, proxy_url)
+                    bots.append(bot)
+
+                elif name == 'feishu':
+                    bot = feishuBot(v['key'], proxy_url)
+                    bots.append(bot)
+
+                elif name == 'wecom':
+                    bot = wecomBot(v['key'], proxy_url)
+                    bots.append(bot)
+
+                elif name == 'telegram':
+                    chat_id = get_env_key(
+                        'TELEGRAM_CHAT_ID', pick) or v.get('chat_id')
+                    bot = telegramBot(v['key'], chat_id, proxy_url)
+                    if bot.test_connect():
+                        bots.append(bot)
+
+                elif name == 'qq':
+                    qq_id = get_env_key('QQ_ID', pick) or v.get('qq_id')
+                    group_id = get_env_key(
+                        'QQ_GROUP_ID', pick) or v.get('group_id')
+                    if isinstance(group_id, str):
+                        group_id = [int(id.strip())
+                                    for id in group_id.split(',')]
+                    bot = qqBot(group_id)
+                    if bot.start_server(qq_id, v['key']):
+                        bots.append(bot)
+
+                elif name == 'mail':
+                    receiver = get_env_key(
+                        'MAIL_RECEIVER', pick) or v.get('receiver')
+                    bot = mailBot(v['address'], v['key'],
+                                  receiver, v.get('from'), v.get('server'))
+                    bots.append(bot)
+
+            except Exception as e:
+                Color.print_failed(f'[-] {name}Bot 初始化失败: {str(e)}')
+
+    return bots
+
+
 class feishuBot:
     """飞书群机器人
     https://open.feishu.cn/document/ukTMukTMukTM/ucTM5YjL3ETO24yNxkjN
@@ -28,14 +105,17 @@ class feishuBot:
 
     def __init__(self, key, proxy_url='') -> None:
         self.key = key
-        self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
+        self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {
+            'http': None, 'https': None}
 
     @staticmethod
     def parse_results(results: dict):
         text_list = []
         for result in results.items():
             feed, value = result
-            text = feed + ":\n" + ''.join(f'- [{title}]({link})\n' for title, link in value.items())
+            text = feed + ":\n" + \
+                ''.join(f'- [{title}]({link})\n' for title,
+                        link in value.items())
             text_list.append([feed, text.strip()])
         return text_list
 
@@ -59,7 +139,8 @@ class feishuBot:
 
         headers = {'Content-Type': 'application/json'}
         url = f'https://open.feishu.cn/open-apis/bot/v2/hook/{self.key}'
-        r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
+        r = requests.post(url=url, headers=headers,
+                          data=json.dumps(data), proxies=self.proxy)
         if r.status_code == 200 and r.json()["code"] == 0:
             Color.print_success('[+] feishuBot 发送成功')
         else:
@@ -74,7 +155,8 @@ class wecomBot:
 
     def __init__(self, key, proxy_url='') -> None:
         self.key = key
-        self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
+        self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {
+            'http': None, 'https': None}
 
     @staticmethod
     def parse_results(results: list):
@@ -88,15 +170,16 @@ class wecomBot:
         return text_list
 
     def send(self, text_list: list):
-        limiter = Limiter(Rate(20, Duration.MINUTE))  # 频率限制，20条/分钟
+        limiter = Limiter(Rate(20, Duration.MINUTE))
         for text in text_list:
-            with limiter.ratelimit('identity', delay=True):
+            with limiter.ratelimit('wecom_bot', delay=True) as _:
                 print(f'{len(text)} {text[:50]}...{text[-50:]}')
 
                 data = {"msgtype": "markdown", "markdown": {"content": text}}
                 headers = {'Content-Type': 'application/json'}
                 url = f'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key={self.key}'
-                r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
+                r = requests.post(url=url, headers=headers,
+                                  data=json.dumps(data), proxies=self.proxy)
 
                 if r.status_code == 200:
                     Color.print_success('[+] wecomBot 发送成功')
@@ -113,14 +196,17 @@ class dingtalkBot:
     def __init__(self, key, secret, proxy_url='') -> None:
         self.key = key
         self.secret = secret
-        self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
+        self.proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {
+            'http': None, 'https': None}
 
     @staticmethod
     def parse_results(results: dict):
         text_list = []
         for result in results.items():
             feed, value = result
-            text = feed + ":\n" + ''.join(f'- [{title}]({link})\n' for title, link in value.items())
+            text = feed + ":\n" + \
+                ''.join(f'- [{title}]({link})\n' for title,
+                        link in value.items())
             text_list.append([feed, text.strip()])
         return text_list
 
@@ -138,19 +224,22 @@ class dingtalkBot:
         secret_enc = self.secret.encode('utf-8')
         string_to_sign = '{}\n{}'.format(timestamp, self.secret)
         string_to_sign_enc = string_to_sign.encode('utf-8')
-        hmac_code = hmac.new(secret_enc, string_to_sign_enc, digestmod=hashlib.sha256).digest()
+        hmac_code = hmac.new(secret_enc, string_to_sign_enc,
+                             digestmod=hashlib.sha256).digest()
         return parse.quote_plus(base64.b64encode(hmac_code))
 
     def send(self, text_list: list):
-        limiter = Limiter(Rate(19, Duration.MINUTE + 1))  # 频率限制，20条/分钟
-        timestamp = str(round(time.time() * 1000))
+        limiter = Limiter(Rate(19, Duration.MINUTE + 1))
         for (feed, text) in text_list:
-            with limiter.ratelimit('identity', delay=True):
+            with limiter.ratelimit('dingtalk_bot', delay=True) as _:
                 print(f'{len(text)} {text[:50]}...{text[-50:]}')
-                data = {"msgtype": "markdown", "markdown": {"title": feed, "text": text}}
+                data = {"msgtype": "markdown", "markdown": {
+                    "title": feed, "text": text}}
                 headers = {'Content-Type': 'application/json'}
+                timestamp = str(round(time.time() * 1000))
                 url = f'https://oapi.dingtalk.com/robot/send?access_token={self.key}&timestamp={timestamp}&sign={self.sign(timestamp)}'
-                r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
+                r = requests.post(url=url, headers=headers,
+                                  data=json.dumps(data), proxies=self.proxy)
                 if r.status_code == 200 and r.json()["errcode"] == 0:
                     Color.print_success('[+] dingtalkBot 发送成功')
                 else:
@@ -158,11 +247,13 @@ class dingtalkBot:
                     print(r.text)
 
     def send_raw(self, title, text):
-        data = {"msgtype": "markdown", "markdown": {"title": title, "text": text}}
+        data = {"msgtype": "markdown", "markdown": {
+            "title": title, "text": text}}
         headers = {'Content-Type': 'application/json'}
         timestamp = str(round(time.time() * 1000))
         url = f'https://oapi.dingtalk.com/robot/send?access_token={self.key}&timestamp={timestamp}&sign={self.sign(timestamp)}'
-        r = requests.post(url=url, headers=headers, data=json.dumps(data), proxies=self.proxy)
+        r = requests.post(url=url, headers=headers,
+                          data=json.dumps(data), proxies=self.proxy)
         if r.status_code == 200 and r.json()["errcode"] == 0:
             Color.print_success('[+] dingtalkBot 发送成功')
         else:
@@ -192,14 +283,15 @@ class qqBot:
         return text_list
 
     def send(self, text_list: list):
-        limiter = Limiter(Rate(20, Duration.MINUTE))  # 频率限制，20条/分钟
+        limiter = Limiter(Rate(20, Duration.MINUTE))
         for text in text_list:
-            with limiter.ratelimit('identity', delay=True):
+            with limiter.ratelimit('qq_bot', delay=True) as _:
                 print(f'{len(text)} {text[:50]}...{text[-50:]}')
 
                 for id in self.group_id:
                     try:
-                        r = requests.post(f'{self.server}/send_group_msg?group_id={id}&&message={text}')
+                        r = requests.post(
+                            f'{self.server}/send_group_msg?group_id={id}&&message={text}')
                         if r.status_code == 200:
                             Color.print_success(f'[+] qqBot 发送成功 {id}')
                         else:
@@ -236,7 +328,8 @@ class qqBot:
     @classmethod
     def kill_server(cls):
         pid_path = cls.cqhttp_path.joinpath('go-cqhttp.pid')
-        subprocess.run(f'cat {pid_path} | xargs kill', stderr=subprocess.DEVNULL, shell=True)
+        subprocess.run(f'cat {pid_path} | xargs kill',
+                       stderr=subprocess.DEVNULL, shell=True)
 
 
 class mailBot:

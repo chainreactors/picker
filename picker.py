@@ -22,11 +22,12 @@ yesterday = str(datetime.date.today() + datetime.timedelta(-1))
 root_path = Path(__file__).absolute().parent
 
 
-def update_today(data: dict= {}):
+def update_today(data: dict = {}):
     """更新today"""
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
     today_path = root_path.joinpath('today.md')
-    archive_path = root_path.joinpath(f'archive/daily/{today.split("-")[0]}/{today}.md')
+    archive_path = root_path.joinpath(
+        f'archive/daily/{today.split("-")[0]}/{today}.md')
 
     if not data and data_path.exists():
         with open(data_path, 'r', encoding="utf-8") as f1:
@@ -45,7 +46,8 @@ def update_today(data: dict= {}):
 
 def update_rss(rss: dict, proxy_url=''):
     """更新订阅源文件"""
-    proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
+    proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {
+        'http': None, 'https': None}
 
     (key, value), = rss.items()
     rss_path = root_path.joinpath(f'rss/{value["filename"]}')
@@ -70,17 +72,20 @@ def update_rss(rss: dict, proxy_url=''):
 
 
 def update_pick():
-    yesterday_issues = json.loads(popen(f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url,author,body"))
+    yesterday_issues = json.loads(popen(
+        f"gh issue list --label \"pick\" --search \"{yesterday}\" --json title,url,author,body"))
     today_path = root_path.joinpath('today_pick.md')
     if not yesterday_issues:
         Color.print_failed("not found any picker articles")
         for bot in picker_bots:
-            bot.send_raw(f"[{yesterday} 精选汇总]", f"昨日({yesterday})没有精选文章, 别忘了阅读[每日信息流]({conf['repo']}/issues), 并点击`convert to issue` 挑选优质文章^v^")
+            bot.send_raw(
+                f"[{yesterday} 精选汇总]", f"昨日({yesterday})没有精选文章, 别忘了阅读[每日信息流]({conf['repo']}/issues), 并点击`convert to issue` 挑选优质文章^v^")
         with open(today_path, "w+", encoding="utf-8") as f:
             f.write(f"昨日({yesterday})没有精选文章")
         return
 
-    archive_path = root_path.joinpath(f'archive/daily_pick/{yesterday.split("-")[0]}/{yesterday}.md')
+    archive_path = root_path.joinpath(
+        f'archive/daily_pick/{yesterday.split("-")[0]}/{yesterday}.md')
     data_path = root_path.joinpath(f'archive/tmp/{yesterday}.json')
     data = {}
     if data_path.exists():
@@ -103,7 +108,8 @@ def update_pick():
             if not picker.get(custom_feed, ""):
                 picker[custom_feed] = []
             title = issue["title"].lstrip(f"[{yesterday}]").strip()
-            picker[custom_feed].append((f'[{title}]({issue["body"]})', issue["url"]))
+            picker[custom_feed].append(
+                (f'[{title}]({issue["body"]})', issue["url"]))
 
     archive_path.parent.mkdir(parents=True, exist_ok=True)
     with open(today_path, 'w+', encoding="utf-8") as f1, open(archive_path, 'w+', encoding="utf-8") as f2:
@@ -121,7 +127,8 @@ def update_pick():
 
 
 def push_issue(issue_number):
-    issue = json.loads(popen(f"gh issue view {issue_number} --json title,url,author,body"))
+    issue = json.loads(
+        popen(f"gh issue view {issue_number} --json title,url,author,body"))
     issue_title = issue["title"].lstrip(f"[{today}]").strip()
     success = False
     data_path = root_path.joinpath(f'archive/tmp/{today}.json')
@@ -146,24 +153,28 @@ def push_issue(issue_number):
                 break
     if not success:
         Color.print_focus(f"{issue_title} not found title in {today}.json")
-        body = issue["author"]["login"] + " 新增了精选文章:\n\n" + issue_title + " - " + issue["body"] + f"\n\n可以在 [discussion]({issue['url']}) 讨论"
+        body = issue["author"]["login"] + " 新增了精选文章:\n\n" + issue_title + \
+            " - " + issue["body"] + f"\n\n可以在 [discussion]({issue['url']}) 讨论"
         for bot in picker_bots:
             bot.send_raw(issue_title, body)
 
 
 def push_comment(issue_number):
-    issue = json.loads(popen(f"gh issue view {issue_number} --json title,url,comments"))
+    issue = json.loads(
+        popen(f"gh issue view {issue_number} --json title,url,comments"))
     issue_title = issue["title"].lstrip(f"[{today}]").strip()
 
     comment = issue["comments"][-1]
-    text = f"{comment['author']['login']} 评论了 [{issue_title}]({issue['url']}): \n\n" + comment["body"]
+    text = f"{comment['author']['login']} 评论了 [{issue_title}]({issue['url']}): \n\n" + \
+        comment["body"]
     for bot in picker_bots:
         bot.send_raw(f"{comment['author']['login']} 评论了 {issue_title}", text)
 
 
 def parse_rss(url: str, proxy_url=''):
     """获取文章线程"""
-    proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {'http': None, 'https': None}
+    proxy = {'http': proxy_url, 'https': proxy_url} if proxy_url else {
+        'http': None, 'https': None}
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -173,7 +184,8 @@ def parse_rss(url: str, proxy_url=''):
     title = ''
     result = {}
     try:
-        r = requests.get(url, timeout=10, headers=headers, verify=False, proxies=proxy)
+        r = requests.get(url, timeout=10, headers=headers,
+                         verify=False, proxies=proxy)
         r = feedparser.parse(r.content)
         title = r.feed.title
         for entry in r.entries:
@@ -185,7 +197,8 @@ def parse_rss(url: str, proxy_url=''):
             if pubday == yesterday:
                 print(entry.title)
                 result[entry.title] = entry.link
-        Color.print_success(f'[+] {title}\t{url}\t{len(result.values())}/{len(r.entries)}')
+        Color.print_success(
+            f'[+] {title}\t{url}\t{len(result.values())}/{len(r.entries)}')
     except Exception as e:
         Color.print_failed(f'[-] failed: {url}, {e}')
 
@@ -201,7 +214,8 @@ def init_bot(bot_conf: dict, proxy_url='', pick=False):
             bot_name = globals()[f'{name}Bot']
             if name == 'mail':
                 receiver = getenv(v['secrets_receiver']) or v['receiver']
-                bot = bot_name(v['address'], key, receiver, v['from'], v['server'])
+                bot = bot_name(v['address'], key, receiver,
+                               v['from'], v['server'])
                 bots.append(bot)
             elif name == 'qq':
                 bot = bot_name(v['group_id'])
@@ -212,7 +226,8 @@ def init_bot(bot_conf: dict, proxy_url='', pick=False):
                 if bot.test_connect():
                     bots.append(bot)
             elif name == 'dingtalk':
-                bot = bot_name(key, getenv("DINGTALK_SECRET", pick) or v['secret'], proxy_url)
+                bot = bot_name(key, getenv("DINGTALK_SECRET",
+                               pick) or v['secret'], proxy_url)
                 bots.append(bot)
             else:
                 bot = bot_name(key, proxy_url)
@@ -220,7 +235,7 @@ def init_bot(bot_conf: dict, proxy_url='', pick=False):
     return bots
 
 
-def init_rss(conf: dict, update: bool=False, proxy_url=''):
+def init_rss(conf: dict, update: bool = False, proxy_url=''):
     """初始化订阅源"""
     rss_list = []
     enabled = [{k: v} for k, v in conf.items() if v['enabled']]
@@ -230,7 +245,8 @@ def init_rss(conf: dict, update: bool=False, proxy_url=''):
                 rss_list.append(rss)
         else:
             (key, file), = rss.items()
-            rss_list.append({key: root_path.joinpath(f'rss/{file["filename"]}')})
+            rss_list.append(
+                {key: root_path.joinpath(f'rss/{file["filename"]}')})
 
     # 合并相同链接
     feeds = []
@@ -261,12 +277,13 @@ def rssjob(args, conf):
     results = {}
     if args.test:
         # 测试数据
-        results = {"a":"i+1" for i in range(100)}
+        results = {"a": "i+1" for i in range(100)}
     else:
         # 获取文章
         tasks = []
         with ThreadPoolExecutor(100) as executor:
-            tasks.extend(executor.submit(parse_rss, url, proxy_rss) for url in feeds)
+            tasks.extend(executor.submit(parse_rss, url, proxy_rss)
+                         for url in feeds)
             for task in as_completed(tasks):
                 feed, result = task.result()
                 if result:
@@ -284,16 +301,21 @@ def rssjob(args, conf):
 
     for bot in bots:
         bot.send(bot.parse_results(results))
-        bot.send_raw(f"{today} 信息流摘要", f"今日({today})信息流推送完毕, 从{len(feeds)} feeds抓取到{yesterday}日共新增了{count}文章, 可在[issues]({conf['repo']}/issues)中查看")
+        bot.send_raw(
+            f"{today} 信息流摘要", f"今日({today})信息流推送完毕, 从{len(feeds)} feeds抓取到{yesterday}日共新增了{count}文章, 可在[issues]({conf['repo']}/issues)中查看")
 
 
 def argument():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--update', help='Update RSS config file', action='store_true', required=False)
-    parser.add_argument('--config', help='Use specified config file', type=str, required=False)
-    parser.add_argument('--test', help='Test bot', action='store_true', required=False)
+    parser.add_argument('--update', help='Update RSS config file',
+                        action='store_true', required=False)
+    parser.add_argument(
+        '--config', help='Use specified config file', type=str, required=False)
+    parser.add_argument('--test', help='Test bot',
+                        action='store_true', required=False)
     parser.add_argument('--push-issue', help="update issue")
-    parser.add_argument("--update-pick", help="update pick", action='store_true')
+    parser.add_argument("--update-pick", help="update pick",
+                        action='store_true')
     parser.add_argument("--push-comment", help="update comment")
     parser.add_argument("--check", help="check bots", action='store_true')
     return parser.parse_args()
