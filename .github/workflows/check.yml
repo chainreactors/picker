@@ -65,3 +65,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}  # 设置 GitHub token
         run: |
           gh issue create --title "[每日信息流] $(date +'%Y-%m-%d')" -F today.md --label "daily"
+env:
+  GH_TOKEN: ${{ github.token }}
