@@ -67,3 +67,11 @@ jobs:
           gh issue create --title "[每日信息流] $(date +'%Y-%m-%d')" -F today.md --label "daily"
 env:
   GH_TOKEN: ${{ github.token }}
+steps:
+  - name: Set up GitHub CLI
+    uses: cli/cli@v2
+  - name: Create GitHub issue
+    env:
+      GH_TOKEN: ${{ github.token }}
+    run: |
+      gh issue create --title "[每日信息流] $(date +'%Y-%m-%d')" -F today.md --label "daily"
