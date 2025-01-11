@@ -51,6 +51,9 @@ jobs:
   create_issue:
     runs-on: ubuntu-latest
     steps:
+      - name: Install GitHub CLI
+        run: sudo apt-get install gh
+
       - name: Checkout repository
         uses: actions/checkout@v2
 
