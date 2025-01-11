@@ -18,16 +18,15 @@ jobs:
         run: |
           body=`echo ${{ toJson(github.event.comment.body) }} | sed "s/\"/\\\'/g"`
           echo "::set-output name=body::$body"
-      - name: Send dingding notify
-        uses: zcong1993/actions-ding@master
-        with:
-          dingToken: ${{ secrets.PICKER_DINGTALK_KEY }}
-          secret: ${{ secrets.PICKER_DINGTALK_SECRET }}
-          body: |
-            {
-              "msgtype": "markdown",
-              "markdown": {
-                  "text": " ${{ github.event.comment.user.login }} 评论了 [${{ steps.title.outputs.title }}](${{ github.event.comment.html_url }}): \n\n${{ steps.body.outputs.body }}",
-                  "title": "${{ steps.title.outputs.title }} 新增评论"
-              }
+      - name: Send WeCom notify
+  run: |
+    curl -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${{ secrets.WECOM_KEY }}" \
+      -H "Content-Type: application/json" \
+      -d '{
+            "msgtype": "markdown",
+            "markdown": {
+              "text": " *${{ github.event.comment.user.login }}* 评论了 [${{ steps.title.outputs.title }}](${{ github.event.comment.html_url }}): \n\n${{ steps.body.outputs.body }}",
+              "title": "${{ steps.title.outputs.title }} 新增评论"
             }
+          }'
+
