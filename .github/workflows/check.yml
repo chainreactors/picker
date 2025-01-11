@@ -40,3 +40,25 @@ jobs:
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python3 picker.py --check
+        name: Create GitHub Issue
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up GitHub CLI
+        uses: cli/cli@v2
+        
+      - name: Create GitHub issue
+        env:
+          GH_TOKEN: ${{ github.token }}  # 设置 GitHub token
+        run: |
+          gh issue create --title "[每日信息流] $(date +'%Y-%m-%d')" -F today.md --label "daily"
