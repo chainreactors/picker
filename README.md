@@ -1,5 +1,6 @@
-fork from https://github.com/VulnTotal-Team/yarb
+origin fork from https://github.com/VulnTotal-Team/yarb
 
+重构后脱离了github的fork, 原始仓库地址 https://github.com/chainreactors/picker , 需要后续更新请从该仓库获取
 # picker
 
 抓取, 推送, 讨论, 交流, 互动为一体, 将 github 的 repo 变为私人的讨论社区。
