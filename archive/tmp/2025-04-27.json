@@ -1,0 +1,117 @@
+{
+    "SecWiki News": {
+        "SecWiki News 2025-04-26 Review": "http://www.sec-wiki.com/?2025-04-26"
+    },
+    "Private Feed for M09Ic": {
+        "safedv starred FalconOpsLLC/goexec": "https://github.com/FalconOpsLLC/goexec",
+        "safedv starred rad9800/talks": "https://github.com/rad9800/talks",
+        "FunnyWolf starred joaoviictorti/RustRedOps": "https://github.com/joaoviictorti/RustRedOps",
+        "Ak74-577 starred joaoviictorti/RustRedOps": "https://github.com/joaoviictorti/RustRedOps",
+        "Ak74-577 starred joaoviictorti/rustclr": "https://github.com/joaoviictorti/rustclr",
+        "Ak74-577 started following joaoviictorti": "https://github.com/joaoviictorti",
+        "cube0x0 starred iPower/KasperskyHook": "https://github.com/iPower/KasperskyHook",
+        "Rvn0xsy starred rapid7/resynth": "https://github.com/rapid7/resynth",
+        "IC3-CR3AM starred debauchee/barrier": "https://github.com/debauchee/barrier",
+        "ZeddYu starred yulate/jdbc-tricks": "https://github.com/yulate/jdbc-tricks",
+        "FunnyWolf starred carloslack/KoviD": "https://github.com/carloslack/KoviD",
+        "mingyxyz started following M09Ic": "https://github.com/M09Ic",
+        "xxxxbxxxxx starred QiuChenly/InjectLib": "https://github.com/QiuChenly/InjectLib",
+        "kyxiaxiang starred andreisss/Ghosting-AMSI": "https://github.com/andreisss/Ghosting-AMSI",
+        "Rvn0xsy starred mcp-ecosystem/mcp-gateway": "https://github.com/mcp-ecosystem/mcp-gateway"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sat Apr 26 15:53:41 UTC 2025": "https://github.com/trickest/cve/commit/dd65a952dd5c126f82af21cc92870e54f1b75d8d"
+    },
+    "Security Boulevard": {
+        "BSidesLV24 – Ground Truth – Incubated Machine Learning Exploits: Backdooring ML Pipelines Using Input-Handling Bugs": "https://securityboulevard.com/2025/04/bsideslv24-ground-truth-incubated-machine-learning-exploits-backdooring-ml-pipelines-using-input-handling-bugs/?utm_source=rss&utm_medium=rss&utm_campaign=bsideslv24-ground-truth-incubated-machine-learning-exploits-backdooring-ml-pipelines-using-input-handling-bugs"
+    },
+    "一个被知识诅咒的人": {
+        "【运维】掌控全局：用 Python 和 psutil 全方位透视你的系统性能": "https://blog.csdn.net/nokiaguy/article/details/147531203",
+        "【人工智能】Python中的深度学习模型部署：从训练到生产环境": "https://blog.csdn.net/nokiaguy/article/details/147531176",
+        "Python并发编程全景解析：多线程、多进程与协程的深度对比": "https://blog.csdn.net/nokiaguy/article/details/147531149",
+        "Python内存优化秘籍：巧用__slots__与对象池实现高效内存管理": "https://blog.csdn.net/nokiaguy/article/details/147531131",
+        "【运维】云端掌控：用Python和Boto3实现AWS资源自动化管理": "https://blog.csdn.net/nokiaguy/article/details/147531126",
+        "【人工智能】基于Python和Transformers库构建高效问答系统的实践与实现**": "https://blog.csdn.net/nokiaguy/article/details/147531107"
+    },
+    "Reverse Engineering": {
+        "The first publically shamed individual for leaking IDA Pro is now a Senior Security Engineer @ Apple": "https://www.reddit.com/r/ReverseEngineering/comments/1k8aokj/the_first_publically_shamed_individual_for/",
+        "Ghosting AMSI: Cutting RPC to disarm AV": "https://www.reddit.com/r/ReverseEngineering/comments/1k89b01/ghosting_amsi_cutting_rpc_to_disarm_av/",
+        "Microsoft Won't Fix This Game - So I Hacked It": "https://www.reddit.com/r/ReverseEngineering/comments/1k80d2i/microsoft_wont_fix_this_game_so_i_hacked_it/"
+    },
+    "Didier Stevens": {
+        "Update: rtfdump.py Version 0.0.13": "https://blog.didierstevens.com/2025/04/26/update-rtfdump-py-version-0-0-13/"
+    },
+    "Bug Bounty in InfoSec Write-ups on Medium": {
+        "⏱️ There were no visible errors, no hints… only the server’s hesitation told me the truth.": "https://infosecwriteups.com/%EF%B8%8F-there-were-no-visible-errors-no-hints-only-the-servers-hesitation-told-me-the-truth-7b4987f10444?source=rss----7b722bfd1b8d--bug_bounty",
+        "Path Traversal Attack: How I Accessed Admin Secrets": "https://infosecwriteups.com/path-traversal-attack-how-i-accessed-admin-secrets-fa5de1865031?source=rss----7b722bfd1b8d--bug_bounty",
+        "PII Disclosure | CSRF | Open Redirect | CORS Misconfiguration": "https://infosecwriteups.com/chaining-csrf-and-an-open-redirect-leads-to-sensitive-information-disclosure-5915b24bc53b?source=rss----7b722bfd1b8d--bug_bounty",
+        "Secret Sauce in Robots.txt  — How I Found Hidden Admin Panels and Debug URLs": "https://infosecwriteups.com/secret-sauce-in-robots-txt-how-i-found-hidden-admin-panels-and-debug-urls-b7e8a11ea36f?source=rss----7b722bfd1b8d--bug_bounty"
+    },
+    "KitPloit - PenTest &amp; Hacking Tools": {
+        "Camtruder - Advanced RTSP Camera Discovery and Vulnerability Assessment Tool": "http://www.kitploit.com/2025/04/camtruder-advanced-rtsp-camera.html"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "微软向 Copilot+ PC 推送 Windows Recall 功能": "https://www.solidot.org/story?sid=81158",
+        "美国民主党和共和党如何引用科学文献": "https://www.solidot.org/story?sid=81157",
+        "特朗普政府瞄准维基百科": "https://www.solidot.org/story?sid=81156"
+    },
+    "黑海洋 - Wiki": {
+        "扣子空间邀请码激活和获取方法": "https://blog.upx8.com/4778",
+        "Telegram内容审核机制深度解析：隐私与安全的平衡之道": "https://blog.upx8.com/4776"
+    },
+    "K8哥哥’s Blog": {
+        "Ladon CVE-2025-32433 Erlang/OTP SSH EXP": "http://k8gege.org/p/CVE-2025-32433.html"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Inside the Chaos: Unmasking 4chan’s Hidden Power Structure After the 2025 Breach": "https://www.osinord.com/post/inside-the-chaos-unmasking-4chan-s-hidden-power-structure-after-the-2025-breach",
+        "Sensitive Health Data of District Employees Exposed in Cyberattack on Fall River Public Schools": "https://www.suspectfile.com/sensitive-health-data-of-district-employees-exposed-in-cyberattack-on-fall-river-public-schools/"
+    },
+    "ICT Security Magazine": {
+        "Misurare l’efficacia della cybersecurity: KPI per il CISO": "https://www.ictsecuritymagazine.com/notizie/kpi-ciso/"
+    },
+    "The Hacker News": {
+        "ToyMaker Uses LAGTOY to Sell Access to CACTUS Ransomware Gangs for Double Extortion": "https://thehackernews.com/2025/04/toymaker-uses-lagtoy-to-sell-access-to.html"
+    },
+    "TorrentFreak": {
+        "Seekee Browser App is a Magnet for Movie, TV Show, and Anime Pirates": "https://torrentfreak.com/seekee-browser-app-is-a-magnet-for-movie-tv-show-and-anime-pirates-250426/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "Camtruder - Advanced RTSP Camera Discovery and Vulnerability Assessment Tool": "http://www.kitploit.com/2025/04/camtruder-advanced-rtsp-camera.html"
+    },
+    "Security Affairs": {
+        "African multinational telco giant MTN Group disclosed a data breach": "https://securityaffairs.com/177037/security/african-multinational-telco-giant-mtn-disclosed-a-data-breach.html",
+        "CEO of cybersecurity firm charged with installing malware on hospital systems": "https://securityaffairs.com/177020/cyber-crime/ceo-of-cybersecurity-firm-charged-with-installing-malware-on-hospital-systems.html"
+    },
+    "Blackhat Library: Hacking techniques and research": {
+        "Free API Keys": "https://www.reddit.com/r/blackhat/comments/1k8ehw4/free_api_keys/",
+        "Where can download this kind of software": "https://www.reddit.com/r/blackhat/comments/1k8q8oy/where_can_download_this_kind_of_software/",
+        "Ghosting AMSI: Cutting RPC to disarm AV": "https://www.reddit.com/r/blackhat/comments/1k89cjk/ghosting_amsi_cutting_rpc_to_disarm_av/"
+    },
+    "Your Open Hacker Community": {
+        "is it easy to learn": "https://www.reddit.com/r/HowToHack/comments/1k8qk7y/is_it_easy_to_learn/",
+        "Learning feels so slow... is this normal?": "https://www.reddit.com/r/HowToHack/comments/1k8anfa/learning_feels_so_slow_is_this_normal/",
+        "Kali NetHunter errors": "https://www.reddit.com/r/HowToHack/comments/1k8n9uj/kali_nethunter_errors/",
+        "Ethical Hacking for work, how to start": "https://www.reddit.com/r/HowToHack/comments/1k81n9w/ethical_hacking_for_work_how_to_start/",
+        "Request for help": "https://www.reddit.com/r/HowToHack/comments/1k8bs25/request_for_help/",
+        "Is there a way to track someone from their phone number? If he's how?": "https://www.reddit.com/r/HowToHack/comments/1k8ghwy/is_there_a_way_to_track_someone_from_their_phone/",
+        "how to get hack and get unlimited internet": "https://www.reddit.com/r/HowToHack/comments/1k8ggmp/how_to_get_hack_and_get_unlimited_internet/",
+        "print(\"I'm a computer caveman\"": "https://www.reddit.com/r/HowToHack/comments/1k8bjim/printim_a_computer_caveman/"
+    },
+    "Computer Forensics": {
+        "I Passed CREST CPIA - Here’s How I Did It and How You Can Too": "https://www.reddit.com/r/computerforensics/comments/1k8hvvc/i_passed_crest_cpia_heres_how_i_did_it_and_how/"
+    },
+    "Deep Web": {
+        "I'm learning about darknet and deep net. Are there any reliable P2P platforms to exchange Bitcoins for fiat currency?": "https://www.reddit.com/r/deepweb/comments/1k8d8fj/im_learning_about_darknet_and_deep_net_are_there/",
+        "Has anyone found the video of John Hemington’s livestream flying over the ice wall?": "https://www.reddit.com/r/deepweb/comments/1k8hlo5/has_anyone_found_the_video_of_john_hemingtons/"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "Steganography Analysis With pngdump.py, (Sat, Apr 26th)": "https://isc.sans.edu/diary/rss/31894"
+    },
+    "Information Security": {
+        "A New Threat to Watch: VanHelsing Ransomware": "https://www.reddit.com/r/Information_Security/comments/1k8q1k8/a_new_threat_to_watch_vanhelsing_ransomware/",
+        "Why are we still sleeping on supply chain telemetry?": "https://www.reddit.com/r/Information_Security/comments/1k87njq/why_are_we_still_sleeping_on_supply_chain/"
+    },
+    "Dark Space Blogspot": {
+        "Teorie Sul Cyberspazio: Cypherpunk, Anarchia e Net Neutrality": "http://darkwhite666.blogspot.com/2025/04/teorie-sul-cyberspazio-cypherpunk.html"
+    }
+}
