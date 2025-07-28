@@ -1,119 +1,94 @@
-# 每日安全资讯（2025-07-27）
+# 每日安全资讯（2025-07-28）
 
 - SecWiki News
-  - [ ] [SecWiki News 2025-07-26 Review](http://www.sec-wiki.com/?2025-07-26)
-- Armin Ronacher's Thoughts and Writings
-  - [ ] [From Async/Await to Virtual Threads](https://lucumr.pocoo.org/2025/7/26/virtual-threads/)
+  - [ ] [SecWiki News 2025-07-27 Review](http://www.sec-wiki.com/?2025-07-27)
+- Verne in GitHub
+  - [ ] [关于习惯养成和打破的科学](https://blog.einverne.info/post/2025/07/the-science-of-making-and-breaking-habits.html)
 - Private Feed for M09Ic
-  - [ ] [howmp starred grayddq/GScan](https://github.com/grayddq/GScan)
-  - [ ] [howmp starred R3tr074/brokepkg](https://github.com/R3tr074/brokepkg)
-  - [ ] [xxDark created a repository xxDark/ufc](https://github.com/xxDark/ufc//)
-  - [ ] [L-codes starred assaydepot/red-candle](https://github.com/assaydepot/red-candle)
-  - [ ] [wuhan005 starred coze-dev/coze-studio](https://github.com/coze-dev/coze-studio)
-  - [ ] [CHYbeta starred coze-dev/coze-studio](https://github.com/coze-dev/coze-studio)
-- Bug Bounty in InfoSec Write-ups on Medium
-  - [ ] [Episode 6: How I Discovered LDAP Injection and Why It Matters (Even If You’re Not a Hacker)](https://infosecwriteups.com/episode-6-how-i-discovered-ldap-injection-and-why-it-matters-even-if-youre-not-a-hacker-f2d7f22e3390?source=rss----7b722bfd1b8d--bug_bounty)
-  - [ ] [The Ultimate Bug Bounty Cheat Sheet for Ethical Hackers (2025 Edition)](https://infosecwriteups.com/the-ultimate-bug-bounty-cheat-sheet-for-ethical-hackers-2025-edition-5c63ba5ca0a6?source=rss----7b722bfd1b8d--bug_bounty)
-  - [ ] [From Jio Mobile to NASA HOF: My Unconventional Path into Cybersecurity](https://infosecwriteups.com/from-jio-mobile-to-nasa-hof-my-unconventional-path-into-cybersecurity-32463b64c941?source=rss----7b722bfd1b8d--bug_bounty)
-  - [ ] [SSRF via Flawed Request Parsing Leads to Internal Admin Access](https://infosecwriteups.com/ssrf-via-flawed-request-parsing-leads-to-ssrf-and-internal-admin-access-ffac4b3103db?source=rss----7b722bfd1b8d--bug_bounty)
-  - [ ] [I Automated CSP Extraction and Mapped 100+ Subdomains](https://infosecwriteups.com/i-automated-csp-extraction-and-mapped-100-subdomains-adf04880ea5d?source=rss----7b722bfd1b8d--bug_bounty)
-  - [ ] [Subdomain Takeover: When Your Own Domain Becomes Your Enemy ️‍♂️](https://infosecwriteups.com/subdomain-takeover-when-your-own-domain-becomes-your-enemy-%EF%B8%8F-%EF%B8%8F-8c80e650aeea?source=rss----7b722bfd1b8d--bug_bounty)
-  - [ ] [Business Logic: Broken. Wallet: Hacked. OTP: Bypassed.](https://infosecwriteups.com/business-logic-broken-wallet-hacked-otp-bypassed-d82e6591a63a?source=rss----7b722bfd1b8d--bug_bounty)
-- 不忘初心 方得始终
-  - [ ] [大模型量化简介](http://terenceli.github.io/%E6%8A%80%E6%9C%AF/2025/07/26/quant-introduction)
-- Horizon3.ai
-  - [ ] [CVE-2025-53770](https://horizon3.ai/attack-research/vulnerabilities/cve-2025-53770/)
-- HAHWUL
-  - [ ] [Search in Zola: Fuse.js vs. Elasticlunr.js](https://www.hahwul.com/dev/zola/search-in-zola/)
+  - [ ] [HuYlllc pushed to dev in chainreactors/malice-network](https://github.com/chainreactors/malice-network/compare/93b517330b...d4839eaf63)
+- ふるつき
+  - [ ] [SECCON Beginners CTF 2025 writeup](https://furutsuki.hatenablog.com/entry/2025/07/27/223211)
 - Reverse Engineering
-  - [ ] [Can You Crack This Program? (Beginner Reverse Engineering Tutorial)](https://www.reddit.com/r/ReverseEngineering/comments/1ma4q8j/can_you_crack_this_program_beginner_reverse/)
-  - [ ] [Rooting the TP-Link Tapo C200 Rev.5](https://www.reddit.com/r/ReverseEngineering/comments/1ma0g5q/rooting_the_tplink_tapo_c200_rev5/)
-  - [ ] [Trying to control Pi Browser in Android emulator with Frida—anyone pulled off deep automation like this?](https://www.reddit.com/r/ReverseEngineering/comments/1m9y00j/trying_to_control_pi_browser_in_android_emulator/)
-  - [ ] [Reverse Engineering for Bugs Part 1 - How I discovered My 1st 0day in Windows.](https://www.reddit.com/r/ReverseEngineering/comments/1m9fqb8/reverse_engineering_for_bugs_part_1_how_i/)
+  - [ ] [Guides/books/videos on ReverseEngineering a .net 8.0 exe?](https://www.reddit.com/r/ReverseEngineering/comments/1maffsi/guidesbooksvideos_on_reverseengineering_a_net_80/)
+- Bug Bounty in InfoSec Write-ups on Medium
+  - [ ] [“IDOR Attacks Unmasked: Code Exploits and Real-World Breaches”](https://infosecwriteups.com/idor-attacks-unmasked-code-exploits-and-real-world-breaches-b05cddfb45c7?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [How to use “Caido Workflows” to scan for anything](https://infosecwriteups.com/how-to-use-caido-workflows-to-scan-for-anything-07eed72ba06a?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [Insecure by Design: How a Mobile API Let Me Reset Anyone’s Password With Just a Phone Number](https://infosecwriteups.com/insecure-by-design-how-a-mobile-api-let-me-reset-anyones-password-with-just-a-phone-number-ba588ec384e5?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [How We Discovered a Stored HTML Injection in a Chatbot System ️](https://infosecwriteups.com/how-we-discovered-a-stored-html-injection-in-a-chatbot-system-%EF%B8%8F-6cbefe8b0718?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [“Why IDORs Are Everywhere — And How to Find Them”](https://infosecwriteups.com/why-idors-are-everywhere-and-how-to-find-them-3ba45128e0f3?source=rss----7b722bfd1b8d--bug_bounty)
 - 奇客Solidot–传递最新科技情报
-  - [ ] [今天的环法自行车选手已经超越了当年的阿姆斯特朗](https://www.solidot.org/story?sid=81900)
-  - [ ] [受争议的砷基生命论文在发表 15 年后撤下](https://www.solidot.org/story?sid=81899)
-  - [ ] [Pebble 创始人拿回了原商标](https://www.solidot.org/story?sid=81898)
-  - [ ] [地球在向外星人广播其位置](https://www.solidot.org/story?sid=81897)
-  - [ ] [DNSSEC 普及率仅为 34%](https://www.solidot.org/story?sid=81896)
-  - [ ] [Google 街景车拍摄到阿根廷男子的裸体被判赔偿 1.25 万美元](https://www.solidot.org/story?sid=81895)
-- rtl-sdr.com
-  - [ ] [Michael Ossmann Gives A First Look at the HackRF Pro in YouTube Video](https://www.rtl-sdr.com/michael-ossmann-gives-a-first-look-at-the-hackrf-pro-in-youtube-video/)
-- 腾讯安全威胁情报中心
-  - [ ] [【重保情报资讯】2025-07-26](https://mp.weixin.qq.com/s?__biz=MzI5ODk3OTM1Ng==&mid=2247510664&idx=1&sn=d43b4af309603b486d4dee4622bbd62b)
-- 丁爸 情报分析师的工具箱
-  - [ ] [【资讯】24小时内美军动态（7.25-7.26)](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651151240&idx=1&sn=f42822c2055f3e6164a32a283580f596)
-  - [ ] [【资讯】24小时内美国政府动态（7.26）](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651151240&idx=2&sn=93324dec8e92dad381df79670ea5d6a6)
-- 安全研究GoSSIP
-  - [ ] [Let’s GoSSIP 暑期学校 2025，预备，出发！](https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247500473&idx=1&sn=9c445ed70530fca8ff09cc2e2cb40148)
-- 看雪学苑
-  - [ ] [【讲师招募中】兼职看雪讲师，让你的硬核知识变现！](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458597710&idx=1&sn=3cf0e3f60bc1f2611037af5442c9bd44)
-  - [ ] [The shadow over Netfilter：新一代脏页表利用技巧-CVE-2024-1086](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458597710&idx=2&sn=9ed60b245e5e8b137bc5a454490e8852)
-- 漏洞推送
-  - [ ] [云环境下的PostgreSQL渗透](https://mp.weixin.qq.com/s?__biz=MzU5MTExMjYwMA==&mid=2247485722&idx=1&sn=987afcdabc2fcc0709a428b95cc8beaa)
-  - [ ] [招聘-安全服务工程师（郑州）](https://mp.weixin.qq.com/s?__biz=MzU5MTExMjYwMA==&mid=2247485722&idx=2&sn=0172efd16cda28f974bb7a289b284358)
+  - [ ] [Stack Exchange 迁移到云端](https://www.solidot.org/story?sid=81901)
+- 威努特安全网络
+  - [ ] [行业安全实践：构建“数字烟草” 物流工控信息安全体系](https://mp.weixin.qq.com/s?__biz=MzAwNTgyODU3NQ==&mid=2651134514&idx=1&sn=5cb56dc9604ae0049f28b7cfca066950)
 - 安全圈
-  - [ ] [【安全圈】2025年上半年中国网络安全事件盘点](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652070846&idx=1&sn=1123ba6d98d371c10ecde6133724da66)
-  - [ ] [【安全圈】兄弟等品牌超 750 款机型遭远程控制](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652070846&idx=2&sn=39e3b4cf90955e5d5ab00f3d04ee41ea)
-  - [ ] [【安全圈】新型Coyote银行木马深度解析](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652070846&idx=3&sn=bec4e5cf762141fb3ab3d07820d6149a)
+  - [ ] [【安全圈】微软365全球管理后台"停摆危机"：企业数字化命脉的72小时断流警报](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652070862&idx=1&sn=e70a9919b47c2cf671b71d2fae9a827f)
+  - [ ] [【安全圈】千万保单背后的暗战：全美人寿1.4亿客户数据遭"少年黑客团"攻陷始末](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652070862&idx=2&sn=94d1f96eb4623018d646a39c7a6dd5cb)
+  - [ ] [【安全圈】电竞外设惊现"傀儡鼠标"：黑客借官方驱动植入Xred病毒入侵百万玩家](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652070862&idx=3&sn=91e55ef44df16de2b5b16447eeffd480)
+  - [ ] [【安全圈】数字猎手揭开印度假币帝国：人脸识别与GPS技术如何摧毁2亿美元的黑色产业链](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652070862&idx=4&sn=5758c81d449089907988a1fd9411ce90)
 - dotNet安全矩阵
-  - [ ] [.NET 2025 年第 82 期实战工具库和资源汇总](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247500171&idx=1&sn=083c315bb7089568cec289aa50624753)
-  - [ ] [.NET 内网攻防实战电子报刊](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247500171&idx=2&sn=9db52f427c92c1afd039523f6c0d8740)
-  - [ ] [Web 内存远程加载 .NET 文件 ，通过 Sharp4ExecMemory 绕过终端安全防护](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247500171&idx=3&sn=208407b8434074707169cedf4aab1af9)
-- 网络空间安全科学学报
-  - [ ] [整刊速览 | 第2期 “数据安全与区块链” 专刊目录+全文](https://mp.weixin.qq.com/s?__biz=MzI0NjU2NDMwNQ==&mid=2247505785&idx=1&sn=5641414018a366c12067c6fedf73a0c2)
+  - [ ] [.NET内网实战：通过文件映射技术实现注入本地进程](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247500176&idx=1&sn=b51462b34eab39528d3d5e4df63d891a)
+  - [ ] [.NET 安全攻防知识交流社区](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247500176&idx=2&sn=30919cf654b392d454502c5cdcfd7f00)
+  - [ ] [.NET 2025 年第 82 期实战工具库和资源汇总](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247500176&idx=3&sn=80c540d3af3e015f277f4321e2d396d9)
 - 极客公园
-  - [ ] [AI Agent 第一波浪潮过后，OPPO 是怎么闷声做出第一个爆款的？](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653083472&idx=1&sn=fd543d4f2f8224b2264c913ee930ace2)
-  - [ ] [离线智能，什么时候迎来 DeepSeek 时刻？](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653083471&idx=1&sn=931509efa2fbde4f75509b1f0f95eab1)
-- 京东安全应急响应中心
-  - [ ] [2025京麒CTF决赛  倒计时一天！](https://mp.weixin.qq.com/s?__biz=MjM5OTk2MTMxOQ==&mid=2727849539&idx=1&sn=c2865fa16b684847d494655a936387f3)
-- 洞源实验室
-  - [ ] [懂车帝智驾测试真的严谨么？还有什么被忽略的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzk3MTg3MA==&mid=2247488497&idx=1&sn=5d29048b6127864d38e298704f2edb3f)
+  - [ ] [WAIC 2025：AI 肯定继续成长，避免变成「终极反派」是人类难题](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653083536&idx=1&sn=ad17bdbbd7fd2dc64d9b0052bc143ad0)
+  - [ ] [Vibe Coding 开赛，阿里靠新模型赢麻了？](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653083529&idx=1&sn=80a7640db4ac9d6aebde1580e333fcd9)
+  - [ ] [Anthropic最新估值超 1500 亿美元；首款国产消费级6nm GPU亮相；100% 预防艾滋神药获准上市 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653083527&idx=1&sn=fe08fd2f0b6add8b0cf4405ea6c108ff)
+- 安全学术圈
+  - [ ] [帕德博恩大学 | 传输层混淆：在TLS层规避SNI审查](https://mp.weixin.qq.com/s?__biz=MzU5MTM5MTQ2MA==&mid=2247493094&idx=1&sn=6d97064f452294cef8b437f973d22984)
+- 中国信息安全
+  - [ ] [《2025信创引领：自主安全可靠中间件白皮书》发布 国产基础软件规模化替代全面提速](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664246207&idx=1&sn=5e81841cb3393076cca4c46411d3683e)
 - 迪哥讲事
-  - [ ] [命令执行](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497938&idx=1&sn=17fa70439728c3d08b79a4760c28e4d0)
+  - [ ] [一次从0到1的逻辑漏洞挖掘之旅](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497956&idx=1&sn=330650442e400cf88ae9025a067c2ab0)
 - Over Security - Cybersecurity news aggregator
-  - [ ] [Post SMTP plugin flaw exposes 200K WordPress sites to hijacking attacks](https://www.bleepingcomputer.com/news/security/post-smtp-plugin-flaw-exposes-200k-wordpress-sites-to-hijacking-attacks/)
-  - [ ] [Allianz Life confirms data breach impacts majority of 1.4 million customers](https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/)
+  - [ ] [Two Data Breaches in Three Years: The McKenzie Health System Case](https://www.suspectfile.com/two-data-breaches-in-three-years-the-mckenzie-health-system-case/)
+  - [ ] [Scattered Spider is running a VMware ESXi hacking spree](https://www.bleepingcomputer.com/news/security/scattered-spider-is-running-a-vmware-esxi-hacking-spree/)
+  - [ ] [Project 01: Securing Your First S3 Bucket & IAM User](https://attacker-codeninja.github.io/2025-07-27-Project-01-S3-IAM-Security/)
+- 大兵说安全
+  - [ ] [与银狐的一次亲密接触](https://mp.weixin.qq.com/s?__biz=MzI2MzM0NjcxNw==&mid=2247485582&idx=1&sn=02edad71e1f926a150d2c4ef02be6ce8)
 - ICT Security Magazine
-  - [ ] [Cybersecurity Italia 2025: Mercato in esplosione, stipendi in crescita e 300mila posti di lavoro da riempire](https://www.ictsecuritymagazine.com/notizie/cybersecurity-italia-2025-job/)
-- Beacon Tower Lab
-  - [ ] [【0726】重保演习每日情报汇总](https://mp.weixin.qq.com/s?__biz=MzkyNzcxNTczNA==&mid=2247487684&idx=1&sn=06f95fd633200842bc4d68cea54a447e)
+  - [ ] [Cybersecurity Specialist: la professione del futuro digitale](https://www.ictsecuritymagazine.com/notizie/cybersecurity-specialist/)
+- IT Service Management News
+  - [ ] [ISO/IEC 27031:2025 sulla continuità operativa per l'ICT](http://blog.cesaregallotti.it/2025/07/isoiec-270312025-sulla-continuita.html)
+- ImperialViolet
+  - [ ] [TRMNL](http://www.imperialviolet.org/2025/07/27/trmnl.html)
 - Instapaper: Unread
-  - [ ] [PoisonSeed, l’attacco che aggira le chiavi FIDO sfruttando i QR code come difendersi](https://www.cybersecurity360.it/news/poisonseed-lattacco-che-aggira-le-chiavi-fido-sfruttando-i-qr-code-come-difendersi/)
-  - [ ] [Registrare conversazioni in azienda quando si può, quando è reato](https://www.agendadigitale.eu/sicurezza/privacy/registrare-conversazioni-in-azienda-quando-si-puo-quando-e-reato/)
-  - [ ] [Online card skimming qualche nota.](https://roccosicilia.com/2025/07/25/online-card-skimming-qualche-nota/)
-  - [ ] [ACR, la smart TV vi spia davvero](http://www.zeusnews.it/n.php?c=30915)
-  - [ ] [iPhone vs. Android iPhone users more reckless, less protected online](https://www.malwarebytes.com/blog/news/2025/07/iphone-vs-android-iphone-users-more-reckless-less-protected-online)
-- Technical Information Security Content & Discussion
-  - [ ] [Deepfakes, Vishing, and GPT Scams: Phishing Just Levelled Up](https://www.reddit.com/r/netsec/comments/1ma4ks3/deepfakes_vishing_and_gpt_scams_phishing_just/)
-  - [ ] [Admin Emails & Passwords Exposed via HTTP Method Change](https://www.reddit.com/r/netsec/comments/1m9gwr0/admin_emails_passwords_exposed_via_http_method/)
-- netsecstudents: Subreddit for students studying Network Security and its related subjects
-  - [ ] [Planning to take the MSc in Cybersecurity degree from University of London offering by Coursera. Want some Reviews.](https://www.reddit.com/r/netsecstudents/comments/1ma35kx/planning_to_take_the_msc_in_cybersecurity_degree/)
-  - [ ] [Network+ Port Guide](https://www.reddit.com/r/netsecstudents/comments/1ma1sm0/network_port_guide/)
-  - [ ] [AI-Cybersecurity Project](https://www.reddit.com/r/netsecstudents/comments/1m9t5nc/aicybersecurity_project/)
-- Information Security
-  - [ ] [Do you feel safe?](https://www.reddit.com/r/Information_Security/comments/1m9uuda/do_you_feel_safe/)
-  - [ ] [Why does no one talk about how hard it is to actually operationalize security policies?](https://www.reddit.com/r/Information_Security/comments/1ma0czg/why_does_no_one_talk_about_how_hard_it_is_to/)
-- Social Engineering
-  - [ ] [If we wanted to, could we make most people feel repulsed by some idea or behaviour (of our choosing)?](https://www.reddit.com/r/SocialEngineering/comments/1m9y1fk/if_we_wanted_to_could_we_make_most_people_feel/)
-  - [ ] [Best social engineering sites](https://www.reddit.com/r/SocialEngineering/comments/1m9mpna/best_social_engineering_sites/)
-  - [ ] [Refund method of Amazon and Flipkart](https://www.reddit.com/r/SocialEngineering/comments/1m9z03c/refund_method_of_amazon_and_flipkart/)
-- The Register - Security
-  - [ ] [Congress tries to outlaw AI that jacks up prices based on what it knows about you](https://go.theregister.com/feed/www.theregister.com/2025/07/26/ai_surveillance_pricing/)
-  - [ ] [Blame a leak for Microsoft SharePoint attacks, researcher insists](https://go.theregister.com/feed/www.theregister.com/2025/07/26/microsoft_sharepoint_attacks_leak/)
-- Security Affairs
-  - [ ] [Law enforcement operations seized BlackSuit ransomware gang’s darknet sites](https://securityaffairs.com/180409/cyber-crime/law-enforcement-operations-seized-blacksuit-ransomware-gangs-darknet-sites.html)
-  - [ ] [Arizona woman sentenced for aiding North Korea in U.S. IT job fraud scheme](https://securityaffairs.com/180398/intelligence/arizona-woman-sentenced-for-aiding-north-korea-in-u-s-it-job-fraud-scheme.html)
+  - [ ] [Infamous BreachForums Is Back Online With All Old Accounts and Posts Restored](https://cybersecuritynews.com/breachforums-back-online/)
+  - [ ] [Cybercrime o spionaggio Le difficoltà nell’attribuzione delle minacce](https://www.cybersecurity360.it/nuove-minacce/cybercrime-o-spionaggio-le-difficolta-nellattribuzione-delle-minacce/)
+  - [ ] [Vademecum ACN per la PA il fattore umano nella cyber security, da vulnerabilità a risorsa](https://www.cybersecurity360.it/cybersecurity-nazionale/vademecum-acn-per-la-pa-il-fattore-umano-nella-cyber-security-da-vulnerabilita-a-risorsa/)
+  - [ ] [Cosa Nostra’s Encrypted Platform of Choice Number 1BC](https://www.occrp.org/en/news/cosa-nostras-encrypted-platform-of-choice-number-1bc)
 - Your Open Hacker Community
-  - [ ] [Should you manually explore the Burp Suite Labs?](https://www.reddit.com/r/HowToHack/comments/1ma3mye/should_you_manually_explore_the_burp_suite_labs/)
-  - [ ] [RFID windshield tag](https://www.reddit.com/r/HowToHack/comments/1m9zcx0/rfid_windshield_tag/)
-  - [ ] [Learning Web Pentesting I started with SQLi, What Should I Focus on Next ? (my goal is bug bounty)](https://www.reddit.com/r/HowToHack/comments/1m9rrp2/learning_web_pentesting_i_started_with_sqli_what/)
-  - [ ] [New To This World. Need Advice.](https://www.reddit.com/r/HowToHack/comments/1m9q9pq/new_to_this_world_need_advice/)
-  - [ ] [Aftermarket car ecu password protected](https://www.reddit.com/r/HowToHack/comments/1m9p0fd/aftermarket_car_ecu_password_protected/)
+  - [ ] [Good Wi-Fi card with Monitor & Packet Injection Mode.](https://www.reddit.com/r/HowToHack/comments/1magagx/good_wifi_card_with_monitor_packet_injection_mode/)
+  - [ ] [Easiest way for botnet](https://www.reddit.com/r/HowToHack/comments/1mauxei/easiest_way_for_botnet/)
+  - [ ] [Can please any body doxx these people](https://www.reddit.com/r/HowToHack/comments/1maxy7n/can_please_any_body_doxx_these_people/)
+- Technical Information Security Content & Discussion
+  - [ ] [Created a Penetration Testing Guide to Help the Community, Feedback Welcome!](https://www.reddit.com/r/netsec/comments/1mad4u1/created_a_penetration_testing_guide_to_help_the/)
+- Deep Web
+  - [ ] [hello i want to understand more about socks5 proxy](https://www.reddit.com/r/deepweb/comments/1majs4a/hello_i_want_to_understand_more_about_socks5_proxy/)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [UK online safety law sparks massive VPN surge](https://www.reddit.com/r/blackhat/comments/1mapt5p/uk_online_safety_law_sparks_massive_vpn_surge/)
+  - [ ] [Best Way to Safely Test Potentially Malicious or Untrusted Apps on Mac (Virtual Machine?](https://www.reddit.com/r/blackhat/comments/1maqavn/best_way_to_safely_test_potentially_malicious_or/)
+  - [ ] [Good Wi-Fi card with Monitor & Packet Injection Mode.](https://www.reddit.com/r/blackhat/comments/1magcc8/good_wifi_card_with_monitor_packet_injection_mode/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [I Made a Penetration Testing Guide to Learn and Share, Feedback Welcome!](https://www.reddit.com/r/netsecstudents/comments/1mandes/i_made_a_penetration_testing_guide_to_learn_and/)
+  - [ ] [ada as a first programming language, good idea?](https://www.reddit.com/r/netsecstudents/comments/1ma8d1m/ada_as_a_first_programming_language_good_idea/)
+  - [ ] [Looking for Pentesting Study Partners (THM, HTB, Projects)](https://www.reddit.com/r/netsecstudents/comments/1maiaw1/looking_for_pentesting_study_partners_thm_htb/)
+  - [ ] [Good Wi-Fi card with Monitor & Packet Injection Mode.](https://www.reddit.com/r/netsecstudents/comments/1magdlj/good_wifi_card_with_monitor_packet_injection_mode/)
 - TorrentFreak
-  - [ ] [Study Reveals a Malware Problem on Pirate Sites, but How Bad is It?](https://torrentfreak.com/study-reveals-a-malware-problem-on-pirate-sites-but-how-bad-is-it/)
-- Palo Alto Networks Blog
-  - [ ] [Muddled Libra: From Social Engineering to Enterprise-Scale Disruption](https://www.paloaltonetworks.com/blog/2025/07/muddled-libra-social-engineering-enterprise-scale-disruption/)
+  - [ ] [ACE & MPA Continued to Scoop Up Pirate Domains in Bulk During Q2 2025](https://torrentfreak.com/ace-mpa-continued-to-scoop-up-pirate-domains-in-bulk-during-q2-2025-250727/)
+- Social Engineering
+  - [ ] [SMS codes for a mobile number i don’t own anymore.](https://www.reddit.com/r/SocialEngineering/comments/1masnpe/sms_codes_for_a_mobile_number_i_dont_own_anymore/)
+  - [ ] [Steven Hassan......thoughts](https://www.reddit.com/r/SocialEngineering/comments/1mamznq/steven_hassanthoughts/)
+- Computer Forensics
+  - [ ] [Help analyzing injected shellcode in hidden process in Windows 10 using Volatility3](https://www.reddit.com/r/computerforensics/comments/1maib4w/help_analyzing_injected_shellcode_in_hidden/)
+- Information Security
+  - [ ] [What’s the smallest team you’ve seen actually get CMMC Level 2 ready; and stay compliant?](https://www.reddit.com/r/Information_Security/comments/1matlwt/whats_the_smallest_team_youve_seen_actually_get/)
+- Security Affairs
+  - [ ] [Allianz Life data breach exposed the data of most of its 1.4M customers](https://securityaffairs.com/180445/data-breach/allianz-life-data-breach-exposed-the-data-of-most-of-its-1-4m-customers.html)
+  - [ ] [SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 55](https://securityaffairs.com/180434/malware/security-affairs-malware-newsletter-round-55.html)
+  - [ ] [Security Affairs newsletter Round 534 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/180423/breaking-news/security-affairs-newsletter-round-534-by-pierluigi-paganini-international-edition.html)
+- 网安寻路人
+  - [ ] [“缺位”与“碎片化”：对《美国人工智能行动计划》的反向透视](https://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247507401&idx=1&sn=ceb60ad023dff7e68a6f880e0844188e)
+- Dark Space Blogspot
+  - [ ] [Ottieni 10 Euro Di Sconto Su Amazon (Sino Al 5 Agosto 2025)](http://darkwhite666.blogspot.com/2025/07/ottieni-10-euro-di-sconto-su-amazon.html)
 - Daniel Miessler
-  - [ ] [I Built a Claude Code Context Modal Inside of Neovim](https://danielmiessler.com/blog/neovim-claude-ai-plugin)
-  - [ ] [Building a Personal AI Infrastructure (PAI)](https://danielmiessler.com/blog/personal-ai-infrastructure)
+  - [ ] [Self-Contained TypeScript Programs Using Bun](https://danielmiessler.com/blog/executable-typescript-programs-using-bun)
