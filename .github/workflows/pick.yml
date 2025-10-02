@@ -55,7 +55,10 @@ jobs:
           git diff
           git config --global user.email chainreactorbot@gmail.com
           git config --global user.name chainreactorbot
-          git add archive today_pick.md
+          year=$(date -d yesterday +'%Y')
+          month=$(date -d yesterday +'%m')
+          day=$(date -d yesterday +'%d')
+          git add "archive/${year}/${month}/${day}/" today_pick.md
           git commit -m "每日精选汇总（`date +'%Y-%m-%d'`）"
 
       - name: Push changes

@@ -1,5 +1,16 @@
 cqhttp/
 .idea/
+
+# Test and temporary files
+test_*.py
+test_*.json
+*_SUMMARY.md
+*_RESULTS.md
+*_REPORT.md
+CLAUDE.md
+migrate_archive.py
+fetch_articles_markdown.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,8 +1,11 @@
 repo: https://github.com/chainreactors/picker
+# Save all articles as markdown files (independent of AI features)
+save_articles_markdown: true
 proxy:
   url: 'http://127.0.0.1:7890'
   rss: false
   bot: false
+  ai: false
 rss:
   CustomRSS:
     enabled: true
@@ -89,3 +92,25 @@ pick_bot:
     enabled: true
     secrets: FEISHU_KEY
     key: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+ai:
+  enabled: true
+  # Mode: "daily" - summarize all daily articles, "pick" - only summarize picked articles
+  mode: pick
+  secrets: OPENAI_API_KEY
+  api_key: sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  api_base: https://api.moonshot.cn/v1
+  model: kimi-k2-0905-preview
+  max_tokens: 2000
+  temperature: 0.7
+  timeout: 60
+  max_content_length: 8000
+  fetch_timeout: 15
+  system_prompt: |
+    你是一名专业的技术文档分析师，擅长从复杂的技术文章中提取核心内容。请阅读以下技术文章（或提供的文本），并生成一份简洁、结构化的总结，包含以下内容：
+
+    1. 文章主题：文章的核心主题或主要讨论的技术/问题是什么？
+    2. 关键点：列出文章中3-5个最重要的观点、方法、技术或结论。
+    3. 应用场景：文章提到的技术或方案的潜在应用领域或实际用途。
+    4. 局限性或挑战：文章中提到的技术限制、挑战或未来改进方向（如有）。
+    5. 总结评价：对文章内容的简短评价，例如其创新性、实用性或对技术领域的贡献。
+  user_prompt_template: "请分析以下技术文章：\n\n标题：{title}\n\n内容：\n{content}"

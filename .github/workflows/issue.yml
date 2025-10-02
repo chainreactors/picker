@@ -40,8 +40,9 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: ./install.sh
-      - name: Update Body
+        run: pip3 install markitdown -i https://pypi.tuna.tsinghua.edu.cn/simple && ./install.sh
+
+      - name: Update Body and Generate Summary
         run: python3 picker.py --push-issue ${{ github.event.issue.number }}
         env:
           FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
@@ -55,6 +56,29 @@ jobs:
           TELEGRAM_KEY: ${{ secrets.TELEGRAM_KEY }}
           MAIL_KEY: ${{ secrets.MAIL_KEY }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
-          GH_TOKEN : ${{ secrets.MY_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
+      - name: Generate AI Summary
+        run: python3 picker.py --summarize-issue ${{ github.event.issue.number }}
+        env:
+          GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
+          PICKER_FEISHU_KEY: ${{ secrets.PICKER_FEISHU_KEY }}
+
+      - name: Commit article markdown
+        run: |
+          git config --global user.email chainreactorbot@gmail.com
+          git config --global user.name chainreactorbot
+          year=$(date +'%Y')
+          month=$(date +'%m')
+          day=$(date +'%d')
+          git add "archive/${year}/${month}/${day}/"
+          git diff --staged --quiet || git commit -m "添加文章 markdown（Issue #${{ github.event.issue.number }}）"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.MY_GITHUB_TOKEN }}
 
 
