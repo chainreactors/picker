@@ -1,8 +1,8 @@
-# 昨日精选汇总（2025-10-09）
+# 昨日精选汇总（2025-10-10）
 
 - M09Ic 手动精选
 
-  - [30] 更多关于 WMI 的乐趣](https://0xthirteen.com/2025/09/19/more-fun-with-wmi/
+  - [9-30] 更多关于 WMI 的乐趣](https://0xthirteen.com/2025/09/19/more-fun-with-wmi/
 
 ## 文章内容
 
