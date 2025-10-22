@@ -588,11 +588,21 @@ def summarize_issue(issue_number):
     Color.print_focus(f'[+] Summarizing issue #{issue_number}: {issue_title}')
 
     # Check if it's a pick issue (should have a URL in the body)
-    if not issue_body or not issue_body.startswith('http'):
-        Color.print_failed(f'[-] Issue body does not contain a valid URL')
+    # Extract URL from first line (handle both real newlines and literal \n)
+    if not issue_body:
+        Color.print_failed(f'[-] Issue body is empty')
         return
 
-    article_url = issue_body.strip()
+    # Handle both literal '\n' and actual newlines
+    import re
+    # Extract first line before any whitespace/markdown content
+    # Split on real newlines or literal backslash-n sequences
+    lines = re.split(r'[\n\r]+|\\n', issue_body.strip())
+    article_url = lines[0].strip()
+
+    if not article_url.startswith('http'):
+        Color.print_failed(f'[-] Issue body does not contain a valid URL: {article_url[:100]}')
+        return
 
     # Initialize AI processor
     proxy_ai = conf['proxy']['url'] if conf.get('proxy', {}).get('ai', False) else ''
@@ -659,10 +669,20 @@ def summarize_issue(issue_number):
 
     # Update issue
     try:
-        escaped_body = new_body.replace('"', '\\"').replace('\n', '\\n')
-        popen(f'gh issue edit {issue_number} --body "{escaped_body}"')
-        Color.print_success(f'[+] Updated issue #{issue_number} with summary')
-        Color.print_success(f'[+] Issue URL: {issue_url}')
+        # Write body to a temporary file to avoid escaping issues
+        import tempfile
+        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', suffix='.md', delete=False) as tmp_file:
+            tmp_file.write(new_body)
+            tmp_file_path = tmp_file.name
+
+        try:
+            popen(f'gh issue edit {issue_number} --body-file "{tmp_file_path}"')
+            Color.print_success(f'[+] Updated issue #{issue_number} with summary')
+            Color.print_success(f'[+] Issue URL: {issue_url}')
+        finally:
+            # Clean up temporary file
+            import os
+            os.unlink(tmp_file_path)
 
         # Add category label if available
         if category and category in CATEGORY_LABELS:
