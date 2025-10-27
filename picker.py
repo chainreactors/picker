@@ -127,7 +127,7 @@ def update_today(data: dict = {}):
             data = json.load(f1)
 
     # Create necessary directories
-    paths['daily'].mkdir(parents=True, exist_ok=True)
+    paths['daily_dir'].mkdir(parents=True, exist_ok=True)
 
     with open(today_path, 'w+', encoding="utf-8") as f1, open(paths['daily_md'], 'w+', encoding="utf-8") as f2:
         content = f'# 每日安全资讯（{today}）\n\n'
