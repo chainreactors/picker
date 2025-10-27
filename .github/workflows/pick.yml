@@ -9,7 +9,20 @@ jobs:
   pick:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout master branch
+        uses: actions/checkout@v3
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Configure Git for long paths
+        run: git config --global core.longpaths true
+
+      - name: Checkout archive branch to archive directory
+        run: |
+          git fetch origin archive:archive 2>/dev/null || echo "Archive branch does not exist yet"
+          mkdir -p archive
+
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
@@ -50,18 +63,30 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
-      - name: Commit
+      - name: Commit to archive branch
         run: |
-          git diff
           git config --global user.email chainreactorbot@gmail.com
           git config --global user.name chainreactorbot
+
+          # Switch to archive branch
+          git fetch origin archive
+          git checkout archive || git checkout --orphan archive
+
+          # Add changes to archive
           year=$(date -d yesterday +'%Y')
           month=$(date -d yesterday +'%m')
           day=$(date -d yesterday +'%d')
-          git add "archive/${year}/${month}/${day}/" today_pick.md
-          git commit -m "每日精选汇总（`date +'%Y-%m-%d'`）"
+          git add "archive/${year}/${month}/${day}/"
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.MY_GITHUB_TOKEN }}
+          # Commit if there are changes
+          git diff --staged --quiet || git commit -m "每日精选汇总（`date +'%Y-%m-%d'`）"
+
+          # Push to archive branch
+          git push origin archive
+
+      - name: Update today_pick.md in master
+        run: |
+          git checkout master
+          git add today_pick.md
+          git diff --staged --quiet || git commit -m "Update today_pick.md"
+          git push origin master

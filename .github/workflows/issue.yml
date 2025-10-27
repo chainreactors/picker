@@ -25,7 +25,20 @@ jobs:
     runs-on: ubuntu-latest
     if: join(github.event.issue.labels) == ''
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout master branch
+        uses: actions/checkout@v3
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Configure Git for long paths
+        run: git config --global core.longpaths true
+
+      - name: Checkout archive branch to archive directory
+        run: |
+          git fetch origin archive:archive 2>/dev/null || echo "Archive branch does not exist yet"
+          mkdir -p archive
+
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
@@ -66,19 +79,25 @@ jobs:
           FEISHU_KEY: ${{ secrets.FEISHU_KEY }}
           PICKER_FEISHU_KEY: ${{ secrets.PICKER_FEISHU_KEY }}
 
-      - name: Commit article markdown
+      - name: Commit article markdown to archive branch
         run: |
           git config --global user.email chainreactorbot@gmail.com
           git config --global user.name chainreactorbot
+
+          # Switch to archive branch
+          git fetch origin archive
+          git checkout archive || git checkout --orphan archive
+
+          # Add changes to archive
           year=$(date +'%Y')
           month=$(date +'%m')
           day=$(date +'%d')
           git add "archive/${year}/${month}/${day}/"
+
+          # Commit if there are changes
           git diff --staged --quiet || git commit -m "添加文章 markdown（Issue #${{ github.event.issue.number }}）"
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.MY_GITHUB_TOKEN }}
+          # Push to archive branch
+          git push origin archive
 
 
