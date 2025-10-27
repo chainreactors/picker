@@ -1,0 +1,154 @@
+---
+title: Safepay ransomware group claims the hack of professional video surveillance provider Xortec
+url: https://securityaffairs.com/183868/malware/safepay-ransomware-group-claims-the-hack-of-professional-video-surveillance-provider-xortec.html
+source: Security Affairs
+date: 2025-10-26
+fetch_date: 2025-10-27T16:51:03.632976
+---
+
+# Safepay ransomware group claims the hack of professional video surveillance provider Xortec
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Digital ID](https://securityaffairs.com/category/digital-id)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[Crafted URLs can trick OpenAI Atlas into running dangerous commands](https://securityaffairs.com/183900/hacking/crafted-urls-can-trick-openai-atlas-into-running-dangerous-commands.html)
+
+ |
+
+[Linux variant of Qilin Ransomware targets Windows via remote management tools and BYOVD](https://securityaffairs.com/183891/malware/linux-variant-of-qilin-ransomware-targets-windows-via-remote-management-tools-and-byovd.html)
+
+ |
+
+[Wordfence blocks 8.7M attacks exploiting old GutenKit and Hunk Companion flaws](https://securityaffairs.com/183876/uncategorized/wordfence-blocks-8-7m-attacks-exploiting-old-gutenkit-and-hunk-companion-flaws.html)
+
+ |
+
+[Safepay ransomware group claims the hack of professional video surveillance provider Xortec](https://securityaffairs.com/183868/malware/safepay-ransomware-group-claims-the-hack-of-professional-video-surveillance-provider-xortec.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 68](https://securityaffairs.com/183862/security/security-affairs-malware-newsletter-round-68.html)
+
+ |
+
+[Russian Rosselkhoznadzor hit by DDoS attack, food shipments across Russia delayed](https://securityaffairs.com/183845/security/russian-rosselkhoznadzor-hit-by-ddos-attack-food-shipments-delayed.html)
+
+ |
+
+[CVE-2025-59287: Microsoft fixes critical WSUS flaw under active attack](https://securityaffairs.com/183830/security/cve-2025-59287-microsoft-fixes-critical-wsus-flaw-under-active-attack.html)
+
+ |
+
+[U.S. CISA adds Microsoft WSUS, and Adobe Commerce and Magento Open Source flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/183815/security/u-s-cisa-adds-microsoft-wsus-and-adobe-commerce-and-magento-open-source-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Summoning Team won Master of Pwn as Pwn2Own Ireland Rewards $1,024,750](https://securityaffairs.com/183810/hacking/summoning-team-won-master-of-pwn-as-pwn2own-ireland-rewards-1024750.html)
+
+ |
+
+[China-linked hackers exploit patched ToolShell flaw to breach Middle East telecom](https://securityaffairs.com/183800/security/china-linked-hackers-exploit-patched-toolshell-flaw-to-breach-middle-east-telecom.html)
+
+ |
+
+[Pwn2Own Day 2: Organizers paid $792K for 56 0-days](https://securityaffairs.com/183792/hacking/pwn2own-day-2-organizers-paid-792k-for-56-0-days.html)
+
+ |
+
+[Lazarus targets European defense firms in UAV-themed Operation DreamJob](https://securityaffairs.com/183783/apt/lazarus-targets-european-defense-firms-in-uav-themed-operation-dreamjob.html)
+
+ |
+
+[U.S. CISA adds Motex LANSCOPE flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/183768/breaking-news/u-s-cisa-adds-motex-lanscope-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Over 250 attacks hit Adobe Commerce and Magento via critical CVE-2025-54236 flaw](https://securityaffairs.com/183754/hacking/over-250-attacks-hit-adobe-commerce-and-magento-via-critical-cve-2025-54236-flaw.html)
+
+ |
+
+[Cyberattack on Jaguar Land Rover inflicts $2.5B loss on UK economy](https://securityaffairs.com/183733/security/cyberattack-on-jaguar-land-rover-inflicts-2-5b-loss-on-uk-economy.html)
+
+ |
+
+[PhantomCaptcha targets Ukraine relief groups with WebSocket RAT in October 2025](https://securityaffairs.com/183720/apt/phantomcaptcha-targets-ukraine-relief-groups-with-websocket-rat.html)
+
+ |
+
+[TP-Link urges immediate updates for Omada Gateways after critical flaws discovery](https://securityaffairs.com/183690/security/tp-link-urges-immediate-updates-for-omada-gateways-after-critical-flaws-discovery.html)
+
+ |
+
+[TARmageddon flaw in Async-Tar Rust library allows to smuggle extra archives when the library is processing nested TAR files](https://securityaffairs.com/183682/hacking/tarmageddon-flaw-in-async-tar-rust-library.html)
+
+ |
+
+[Russia-linked COLDRIVER speeds up malware evolution after LOSTKEYS exposure](https://securityaffairs.com/183672/apt/russia-linked-coldriver-speeds-up-malware-evolution-after-lostkeys-exposure.html)
+
+ |
+
+[Japanese retailer Muji halted online sales after a ransomware attack on logistics partner](https://securityaffairs.com/183639/breaking-news/japanese-retailer-muji-halted-online-sales-after-a-ransomware-attack-on-logistics-partner.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Digital ID](https://securityaffairs.com/category/digital-id)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Malware](https://securityaffairs.com/category/malware)
+* Safepay ransomware group claims the hack of professional video surveillance provider Xortec
+
+## Safepay ransomware group claims the hack of professional video surveillance provider Xortec
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/clock-icon.svg)* October 26, ...
