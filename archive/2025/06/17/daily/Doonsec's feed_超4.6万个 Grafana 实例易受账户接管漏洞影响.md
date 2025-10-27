@@ -1,0 +1,20 @@
+---
+title: 超4.6万个 Grafana 实例易受账户接管漏洞影响
+url: https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247523297&idx=2&sn=ea60b085762fef54a56dea85a3150a40
+source: Doonsec's feed
+date: 2025-06-17
+fetch_date: 2025-10-06T22:50:57.519751
+---
+
+# 超4.6万个 Grafana 实例易受账户接管漏洞影响
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

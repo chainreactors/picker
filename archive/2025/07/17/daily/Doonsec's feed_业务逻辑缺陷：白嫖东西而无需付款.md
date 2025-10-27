@@ -1,0 +1,20 @@
+---
+title: 业务逻辑缺陷：白嫖东西而无需付款
+url: https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497894&idx=1&sn=45b399a196fb6388cd61943d95b03b0e
+source: Doonsec's feed
+date: 2025-07-17
+fetch_date: 2025-10-06T23:27:01.143438
+---
+
+# 业务逻辑缺陷：白嫖东西而无需付款
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

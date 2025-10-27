@@ -1,0 +1,211 @@
+{
+    "unSafe.sh - 不安全": {
+        "SMMdump: memory dump at ring -2": "https://buaq.net/go-172121.html",
+        "Hidden - Windows Driver With Usermode Interface Which Can Hide Processes, File-System And Registry Objects, Protect Processes And Etc": "https://buaq.net/go-172129.html",
+        "互联网档案馆改进 Flash 模拟支持": "https://buaq.net/go-172119.html",
+        "谁来管管 Android 的照片选择器": "https://buaq.net/go-172117.html",
+        "Breaking it Down to Build it Up: A Journey Through Reverse Engineering": "https://buaq.net/go-172116.html",
+        "如约而至的更新，少数派定制 Keychron K3 Pro 体验": "https://buaq.net/go-172114.html",
+        "watchOS 10 推出公测版，这些新功能值得尝鲜": "https://buaq.net/go-172115.html",
+        "AlmaLinux 不再致力于实现与 RHEL 的 1:1 兼容性": "https://buaq.net/go-172120.html",
+        "明日故乡 – 中国版数字游民指南：用 AI 来寻找有星巴克、麦当劳，全年雨天小于 60 天，最高气温低于 30 度的城市，目前包括 2206 个城市数据": "https://buaq.net/go-172112.html",
+        "Meta 将发布商业版开源大模型 LLaMA": "https://buaq.net/go-172130.html",
+        "币安裁员逾千人": "https://buaq.net/go-172131.html",
+        "针对Windows系统的&quot;Big Head&quot;勒索程序的急速迭代能力": "https://buaq.net/go-172110.html",
+        "数据集成过程中要避免的12个陷阱": "https://buaq.net/go-172111.html",
+        "找不到好歌尝鲜？来试试金曲 34 中这些值得一听的专辑": "https://buaq.net/go-172109.html",
+        "[webapps] WinterCMS < 1.2.3 - Persistent Cross-Site Scripting": "https://buaq.net/go-172122.html",
+        "[webapps] Admidio v4.2.10 - Remote Code Execution (RCE)": "https://buaq.net/go-172123.html",
+        "[webapps] Cisco UCS-IMC Supervisor 2.2.0.0 - Authentication Bypass": "https://buaq.net/go-172124.html",
+        "[webapps] ProjeQtOr Project Management System v10.4.1 - Multiple XSS": "https://buaq.net/go-172125.html",
+        "[webapps] News Portal v4.0 - SQL Injection (Unauthorized)": "https://buaq.net/go-172126.html",
+        "[webapps] Icinga Web 2.10 - Authenticated Remote Code Execution": "https://buaq.net/go-172127.html"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sat Jul 15 00:12:23 UTC 2023": "https://github.com/trickest/cve/commit/e2600fe613874213cd42d35417f00e63396cc5e3"
+    },
+    "Twitter @Nicolas Krassas": {
+        "HTB: Socket https://0xdf.gitlab.io/2023/07/15/htb-socket.html": "https://twitter.com/Dinosn/status/1680280307944112128",
+        "GitHub - FourCoreLabs/LolDriverScan: Scan vulnerable drivers on Windows System https://www.reddit.com/r/netsec/comments/150el5p/github_fourcorelabslol...": "https://twitter.com/Dinosn/status/1680269838067834883",
+        "Fake TeamViewer Installer Used to Deliver njRAT Malware https://www.hackread.com/fake-teamviewer-installer-njrat-malware/": "https://twitter.com/Dinosn/status/1680200514875564033",
+        "Deobfuscation for Beginners https://infosecwriteups.com/deobfuscation-for-beginners-944947ee2b9f?source=rss----7b722bfd1b8d---4": "https://twitter.com/Dinosn/status/1680190915330146305",
+        "TeamTNT linked to stealing credentials for Azure and GCP, as well as AWS https://cms.cyberriskalliance.com/news/cloud-security/teamtnt-linked-to-steal...": "https://twitter.com/Dinosn/status/1680190691190902787",
+        "Analysis of Storm-0558 techniques for unauthorized email access https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techni...": "https://twitter.com/Dinosn/status/1680190549943361536",
+        "Genesis Market infrastructure and inventory sold on hacker forum https://www.bleepingcomputer.com/news/security/genesis-market-infrastructure-and-inve...": "https://twitter.com/Dinosn/status/1680190498722525185",
+        "Teenagers Face Trial for Hacking BT, Nvidia, Rockstar Games, Revolut, Uber https://www.hackread.com/teenagers-trial-hacking-rockstar-revolut-uber/": "https://twitter.com/Dinosn/status/1680190312575037440",
+        "Breaking it Down to Build it Up: A Journey Through Reverse Engineering https://www.reddit.com/r/ReverseEngineering/comments/15075d6/breaking_it_down_t...": "https://twitter.com/Dinosn/status/1680190242983235584",
+        "WormGPT: New AI Tool Allows Cybercriminals to Launch Sophisticated Cyber Attacks https://thehackernews.com/2023/07/wormgpt-new-ai-tool-allows.html": "https://twitter.com/Dinosn/status/1680182734335909891",
+        "Infosec watchers: TeamTNT crew may blast holes in Azure, Google Cloud users https://go.theregister.com/feed/www.theregister.com/2023/07/15/teamtnt_aws...": "https://twitter.com/Dinosn/status/1680135619215851520",
+        "Microsoft Bug Allowed Hackers to Breach Over Two Dozen Organizations via Forged Azure AD Tokens https://thehackernews.com/2023/07/microsoft-bug-allowe...": "https://twitter.com/Dinosn/status/1680135339854245888"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Admidio v4.2.10 - Remote Code Execution (RCE) exploit": "https://sploitus.com/exploit?id=EDB-ID:51590&utm_source=rss&utm_medium=rss",
+        "News Portal v4.0 - SQL Injection (Unauthorized) exploit": "https://sploitus.com/exploit?id=EDB-ID:51587&utm_source=rss&utm_medium=rss",
+        "Pluck v4.7.18 - Remote Code Execution (RCE) exploit": "https://sploitus.com/exploit?id=EDB-ID:51592&utm_source=rss&utm_medium=rss",
+        "ProjeQtOr Project Management System v10.4.1 - Multiple XSS exploit": "https://sploitus.com/exploit?id=EDB-ID:51588&utm_source=rss&utm_medium=rss",
+        "Cisco UCS-IMC Supervisor 2.2.0.0 - Authentication Bypass exploit": "https://sploitus.com/exploit?id=EDB-ID:51589&utm_source=rss&utm_medium=rss",
+        "WinterCMS &lt; 1.2.3 - Persistent Cross-Site Scripting exploit": "https://sploitus.com/exploit?id=EDB-ID:51591&utm_source=rss&utm_medium=rss",
+        "XAMPP 8.2.4 - Unquoted Path exploit": "https://sploitus.com/exploit?id=EDB-ID:51585&utm_source=rss&utm_medium=rss",
+        "Icinga Web 2.10 - Authenticated Remote Code Execution exploit": "https://sploitus.com/exploit?id=EDB-ID:51586&utm_source=rss&utm_medium=rss",
+        "Exploit for CVE-2023-36884 exploit": "https://sploitus.com/exploit?id=74F46B2B-876C-57FD-9B1D-D164F971C5A9&utm_source=rss&utm_medium=rss"
+    },
+    "SecWiki News": {
+        "SecWiki News 2023-07-15 Review": "http://www.sec-wiki.com/?2023-07-15"
+    },
+    "嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com": {
+        "针对Windows系统的&quot;Big Head&quot;勒索程序的急速迭代能力": "https://www.4hou.com/posts/WKmE",
+        "数据集成过程中要避免的12个陷阱": "https://www.4hou.com/posts/7yWB"
+    },
+    "CXSECURITY Database RSS Feed - CXSecurity.com": {
+        "pfSense Restore RRD Data Command Injection": "https://cxsecurity.com/issue/WLB-2023070032",
+        "Pluck v4.7.18 Remote Code Execution (RCE)": "https://cxsecurity.com/issue/WLB-2023070031",
+        "Spring Cloud 3.2.2 Remote Command Execution (RCE)": "https://cxsecurity.com/issue/WLB-2023070030"
+    },
+    "Security Boulevard": {
+        "BSides Sofia 2023 – Peter Kirkov, e-Government – Keynote": "https://securityboulevard.com/2023/07/bsides-sofia-2023-peter-kirkov-e-government-keynote/"
+    },
+    "SAP Blogs": {
+        "Change System Owner using SAP Analytics Cloud.": "https://blogs.sap.com/2023/07/15/change-system-owner-using-sap-analytics-cloud./",
+        "Enabling Microservices On SAP Business Technology Platform": "https://blogs.sap.com/2023/07/15/enabling-microservices-on-sap-business-technology-platform/",
+        "SAP Central Finance – Mapping enablers – Part 1 of 2 – Enable Audit Log for Key Mapping": "https://blogs.sap.com/2023/07/15/sap-central-finance-mapping-enablers-part-1-of-2-enable-audit-log-for-key-mapping/",
+        "Accrual and Deferral Posting with Purchase Order in S/4HANA Cloud, Public Edition": "https://blogs.sap.com/2023/07/15/accrual-and-deferral-posting-with-purchase-order-in-s-4hana-cloud-public-edition/",
+        "Think Twice: The Pitfalls of Outsourcing SAP GRC Reporting to External Analytics Tools": "https://blogs.sap.com/2023/07/15/think-twice-the-pitfalls-of-outsourcing-sap-grc-reporting-to-external-analytics-tools/"
+    },
+    "HAHWUL": {
+        "ZAP 2.13 Review ⚡️": "https://www.hahwul.com/2023/07/15/zap-2-13-released/"
+    },
+    "Exploit-DB.com RSS Feed": {
+        "[webapps] Pluck v4.7.18 - Remote Code Execution (RCE)": "https://www.exploit-db.com/exploits/51592",
+        "[webapps] WinterCMS < 1.2.3 - Persistent Cross-Site Scripting": "https://www.exploit-db.com/exploits/51591",
+        "[webapps] Admidio v4.2.10 - Remote Code Execution (RCE)": "https://www.exploit-db.com/exploits/51590",
+        "[webapps] Cisco UCS-IMC Supervisor 2.2.0.0 - Authentication Bypass": "https://www.exploit-db.com/exploits/51589",
+        "[webapps] ProjeQtOr Project Management System v10.4.1 - Multiple XSS": "https://www.exploit-db.com/exploits/51588",
+        "[webapps] News Portal v4.0 - SQL Injection (Unauthorized)": "https://www.exploit-db.com/exploits/51587",
+        "[webapps] Icinga Web 2.10 - Authenticated Remote Code Execution": "https://www.exploit-db.com/exploits/51586",
+        "[local] XAMPP 8.2.4 - Unquoted Path": "https://www.exploit-db.com/exploits/51585"
+    },
+    "Reverse Engineering": {
+        "Breaking it Down to Build it Up: A Journey Through Reverse Engineering": "https://www.reddit.com/r/ReverseEngineering/comments/15075d6/breaking_it_down_to_build_it_up_a_journey_through/",
+        "SMMdump: memory dump at ring -2": "https://www.reddit.com/r/ReverseEngineering/comments/150awf5/smmdump_memory_dump_at_ring_2/"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "互联网档案馆改进 Flash 模拟支持": "https://www.solidot.org/story?sid=75523",
+        "AlmaLinux 不再致力于实现与 RHEL 的 1:1 兼容性": "https://www.solidot.org/story?sid=75522",
+        "Meta 将发布商业版开源大模型 LLaMA": "https://www.solidot.org/story?sid=75521",
+        "币安裁员逾千人": "https://www.solidot.org/story?sid=75520"
+    },
+    "Private Feed for M09Ic": {
+        "xxDark released 1.0.7 at xxDark/jlinker": "https://github.com/xxDark/jlinker/releases/tag/1.0.7",
+        "whwlsfb starred Marcono1234/serial-builder": "https://github.com/Marcono1234/serial-builder",
+        "0nise starred carehart/awesome-cf-compose": "https://github.com/carehart/awesome-cf-compose",
+        "0nise starred docker/awesome-compose": "https://github.com/docker/awesome-compose",
+        "0nise starred GrrrDog/Java-Deserialization-Cheat-Sheet": "https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet",
+        "0nise starred codewhitesec/ColdFusionPwn": "https://github.com/codewhitesec/ColdFusionPwn",
+        "Rvn0xsy starred gh0stkey/AsteriskPassword": "https://github.com/gh0stkey/AsteriskPassword",
+        "h34dw1nd started following M09Ic": "https://github.com/M09Ic",
+        "Ridter made Ridter/gitTun public": "https://github.com/Ridter/gitTun",
+        "Ridter starred Ridter/Intranet_Penetration_Tips": "https://github.com/Ridter/Intranet_Penetration_Tips",
+        "Ridter starred zan8in/afrog": "https://github.com/zan8in/afrog",
+        "Ridter starred mvelazc0/BadZure": "https://github.com/mvelazc0/BadZure",
+        "Ridter starred microsoft/AI-For-Beginners": "https://github.com/microsoft/AI-For-Beginners",
+        "0e0w created a repository 0ctf/awdhub": "https://github.com/0ctf/awdhub//",
+        "0e0w created a repository 0ctf/vulapps": "https://github.com/0ctf/vulapps//",
+        "0e0w created a repository 0ctf/vulfocus": "https://github.com/0ctf/vulfocus//",
+        "0e0w created a repository 0ctf/vulhub": "https://github.com/0ctf/vulhub//",
+        "0e0w created a repository awdhub/awdhub": "https://github.com/awdhub/awdhub//",
+        "WAY29 starred GyulyVGC/sniffnet": "https://github.com/GyulyVGC/sniffnet"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "Hidden - Windows Driver With Usermode Interface Which Can Hide Processes, File-System And Registry Objects, Protect Processes And Etc": "http://www.kitploit.com/2023/07/hidden-windows-driver-with-usermode.html"
+    },
+    "看雪学苑": {
+        "利用CE的DBK驱动获取R0权限": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458509569&idx=1&sn=845da0dc07372d41c871e1c4660d915d&chksm=b18ed18b86f9589dce1e13bd5b9afb12234596395e34b55c7c82c155cc4ef9f0cf23cd94b545&scene=58&subscene=0#rd",
+        "赋能企业安全！系统0day安全-二进制漏洞攻防（限时75折）": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458509569&idx=2&sn=9f1a70041682a54624f9165fe0e12e1b&chksm=b18ed18b86f9589d4c84ee7249f43dc207f17870cbb2440a2eecbad4633a8108bfa3afcd02d3&scene=58&subscene=0#rd"
+    },
+    "黑海洋 - WIKI": {
+        "iOS苹果企业证书（价值80W人民币）": "https://blog.upx8.com/3425"
+    },
+    "数世咨询": {
+        "金融科技与金融安全峰会议程公开 | 金融行业软件供应链安全峰会": "https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247501910&idx=1&sn=0786f8f324fe8302cb6fb3e693e7feaf&chksm=c144baebf63333fd14fadc2cef8e9f8809ee1a5bea98ad9a9e7d57366222e4dbe2b88bffe4de&scene=58&subscene=0#rd"
+    },
+    "情报分析师": {
+        "恐怖分子深度人格分析档案汇编": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650535911&idx=1&sn=debeacb45aa388d7d567f26b070ff433&chksm=8716d9acb06150ba6ff46e56423870b8435e97460e021c162d4efe96b705e3ef97e830104749&scene=58&subscene=0#rd",
+        "关注小号，谨防失联！": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650535911&idx=2&sn=4b9fa9f92b14315794cb1dc7a674ff0f&chksm=8716d9acb06150ba6b1a62241e6d6fb1dbd21ead20172f450fb0fd19f503307ab40aabe31a1b&scene=58&subscene=0#rd"
+    },
+    "安全内参": {
+        "深度：美军网络空间作战平台发展回顾与影响分析": "https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247509139&idx=1&sn=356c2cbd6af7a96225046028a9cc5138&chksm=ebfae3b3dc8d6aa5567c4f014bb1237f8b5ae49ead04ae629a3f3282a4391f55c0a7b7f1d512&scene=58&subscene=0#rd"
+    },
+    "安全圈": {
+        "【安全圈】高达139个安全漏洞！微软：已发布漏洞修复补丁": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652039562&idx=1&sn=9b46614b93c2ac4eded5b87ed1b980c2&chksm=f36fc5cac4184cdc2498a3afc177118bca4c77d8afc77a06d3f26771385621688a0e8a692dc9&scene=58&subscene=0#rd",
+        "【安全圈】七部门联合公布《生成式人工智能服务管理暂行办法》，将于8月15日起施行": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652039562&idx=2&sn=34168f2ad48611350194733b2347a5b1&chksm=f36fc5cac4184cdc2236633fa6e8140c7e57ece3d1e82ddc5c850eb8569d75bb6637a7a8cb6b&scene=58&subscene=0#rd",
+        "【安全圈】AI和自动化工具泛滥，导致诈骗网页暴增304%": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652039562&idx=3&sn=c90b1f173a79c7a08356972d8008dc88&chksm=f36fc5cac4184cdc3f8d442fa58eb223e9b704f31ab5d8bfd8eec8f6ab8c921c6b7b2768a995&scene=58&subscene=0#rd",
+        "【安全圈】为对抗侧信道攻击，麻省理工学院正研发 Metior 框架": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652039562&idx=4&sn=e3d86923864ad1165fe2ec13d2739276&chksm=f36fc5cac4184cdc91ae8148c56120b8ccaf2dcb61c778264a58c2844122603c1a04d99f16c5&scene=58&subscene=0#rd"
+    },
+    "极客公园": {
+        "马斯克：对，xAI 就是 OpenAI 的竞争对手！": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653001289&idx=1&sn=83a04d8949dbeda71117794149d10332&chksm=7e54ebff492362e9dd8d7fc7d6d2693662010a46019be5c8ba017eece2a1c618d0160d7664a1&scene=58&subscene=0#rd",
+        "四驱混动 SUV，「卷」进 17 万区间": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653001289&idx=2&sn=5d8a5e8888537cf78b9fa884f3419255&chksm=7e54ebff492362e90622864bf4354f85f4782a719667d62b3257f93632441e42a1e3e6553f42&scene=58&subscene=0#rd",
+        "FTC 因数据安全调查 OpenAI；苹果 MR 头显将引入 NBA；传小米电车配 101 度大电池 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653001181&idx=1&sn=2deb45e3c693866164411c024b1f89ea&chksm=7e54e86b4923617dec94f625179dfb1bb8e840018270522a82d712b53a7a53b372a59fa303cd&scene=58&subscene=0#rd"
+    },
+    "中国信息安全": {
+        "向着网络强国阔步迈进——党的十八大以来我国网信事业发展综述": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664188125&idx=1&sn=1b7e21e66079efa59b7ea93422a824d2&chksm=8b594a24bc2ec332b38b7ca695426af0118bd8cb94028de47d86387ace68997d474ffb8dd384&scene=58&subscene=0#rd",
+        "关注 | 中央网信办依法查处造谣传谣账号373个": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664188125&idx=2&sn=a65af53afb3f5b638fd969f1ad8af027&chksm=8b594a24bc2ec332a37381a31f82bda17ba5e0aaa250e4aa9283802c41dc567cbf7d91796843&scene=58&subscene=0#rd",
+        "专家解读 | 坚持多方共治​ 为生成式人工智能健康发展提供制度保障": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664188125&idx=3&sn=66a924e930ba3e9ab9ed70633405f7bf&chksm=8b594a24bc2ec33273f1c6137e15f6fe6b7391acb92691f74a2e771a189ef767f09c70486944&scene=58&subscene=0#rd",
+        "关注 | 公安机关“打击整治网络谣言宣传周”活动启动": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664188125&idx=4&sn=c655abcb2e0411921a73fc4c349a9b64&chksm=8b594a24bc2ec3324eea5551737447f797c223605e351e95c4ed526d69754cfd2e2eb1517103&scene=58&subscene=0#rd",
+        "观点 | 遏制网暴，平台要有更大作为": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664188125&idx=5&sn=7dee150afa0a535634a79c9d38df5381&chksm=8b594a24bc2ec33201384c2ef946134a78aa93ab04e63cf1eeb22fb7b44a1035e7d5418f1ac3&scene=58&subscene=0#rd",
+        "评论 | 建设健康文明的网络语言环境": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664188125&idx=6&sn=2151b14b33ecec39343f3fda27351af6&chksm=8b594a24bc2ec33200af7de5837c0a74b82f62a5f7412a8dd0802a7c44727d78b025799233df&scene=58&subscene=0#rd"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Weekly threats N.28": "https://www.ts-way.com/it/weekly-threats/2023/07/15/weekly-threats-n-28/",
+        "BreachForums administrator facing 30-year sentence after pleading guilty to three charges": "https://therecord.media/breachforums-administrator-facing-30-year-sentence"
+    },
+    "TS-WAY": {
+        "Weekly threats N.28": "https://www.ts-way.com/it/weekly-threats/2023/07/15/weekly-threats-n-28/"
+    },
+    "The Hacker News": {
+        "WormGPT: New AI Tool Allows Cybercriminals to Launch Sophisticated Cyber Attacks": "https://thehackernews.com/2023/07/wormgpt-new-ai-tool-allows.html",
+        "Microsoft Bug Allowed Hackers to Breach Over Two Dozen Organizations via Forged Azure AD Tokens": "https://thehackernews.com/2023/07/microsoft-bug-allowed-hackers-to-breach.html"
+    },
+    "Il Disinformatico": {
+        "Mi tocca fare un po’ di body hacking: installo cristallini nuovi - terza parte": "http://attivissimo.blogspot.com/2023/07/mi-tocca-fare-un-po-di-body-hacking.html"
+    },
+    "Security Affairs": {
+        "Security Affairs newsletter Round 428 by Pierluigi Paganini – International edition": "https://securityaffairs.com/148500/breaking-news/security-affairs-newsletter-round-428-by-pierluigi-paganini-international-edition.html",
+        "Russia-linked APT Gamaredon starts stealing data from victims between 30 and 50 minutes after the initial compromise": "https://securityaffairs.com/148488/apt/gamaredon-ttps.html"
+    },
+    "Instapaper: Unread": {
+        "When to revive or restore in DFU mode": "https://eclecticlight.co/2023/07/07/when-to-revive-or-restore-in-dfu-mode/",
+        "BreachForums administrator facing 30-year sentence after pleading guilty to three charges": "https://therecord.media/breachforums-administrator-facing-30-year-sentence",
+        "The source code of the BlackLotus UEFI Bootkit was leaked on GitHub": "https://securityaffairs.com/148482/malware/source-code-blacklotus-uefi-bootkit-leaked.html"
+    },
+    "TorrentFreak": {
+        "ACE Kills CableKill, Anime Kaizoku Quits, Other Pirate Sites Disappear": "https://torrentfreak.com/ace-kills-cablekill-anime-kaizoku-quits-other-pirate-sites-disappear-230715/"
+    },
+    "The Register - Security": {
+        "Infosec watchers: TeamTNT crew may blast holes in Azure, Google Cloud users": "https://go.theregister.com/feed/www.theregister.com/2023/07/15/teamtnt_aws_azure_google/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "Hidden - Windows Driver With Usermode Interface Which Can Hide Processes, File-System And Registry Objects, Protect Processes And Etc": "http://www.kitploit.com/2023/07/hidden-windows-driver-with-usermode.html"
+    },
+    "Technical Information Security Content & Discussion": {
+        "GitHub - FourCoreLabs/LolDriverScan: Scan vulnerable drivers on Windows System": "https://www.reddit.com/r/netsec/comments/150el5p/github_fourcorelabsloldriverscan_scan_vulnerable/"
+    },
+    "Information Security": {
+        "Do you use a firewall on your home network?": "https://www.reddit.com/r/Information_Security/comments/1509m2l/do_you_use_a_firewall_on_your_home_network/"
+    },
+    "Blackhat Library: Hacking techniques and research": {
+        "Any way to modify system file": "https://www.reddit.com/r/blackhat/comments/150eiat/any_way_to_modify_system_file/"
+    },
+    "Deep Web": {
+        "Will a VM keep me safe on the deep web?": "https://www.reddit.com/r/deepweb/comments/150kery/will_a_vm_keep_me_safe_on_the_deep_web/"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "What type of adapter do I need": "https://www.reddit.com/r/netsecstudents/comments/1509uqi/what_type_of_adapter_do_i_need/"
+    },
+    "Social Engineering": {
+        "What gives someone a sense of control in a relationship?": "https://www.reddit.com/r/SocialEngineering/comments/150pw18/what_gives_someone_a_sense_of_control_in_a/",
+        "looking for someone to help": "https://www.reddit.com/r/SocialEngineering/comments/150f0ap/looking_for_someone_to_help/"
+    },
+    "Dark Space Blogspot": {
+        "Come Creare Uno Smart Contract Multi Firma (Gnosis Safe Proxy)": "http://darkwhite666.blogspot.com/2023/07/come-creare-uno-smart-contract-multi.html"
+    }
+}

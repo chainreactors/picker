@@ -1,0 +1,128 @@
+# 每日安全资讯（2024-11-04）
+
+- SecWiki News
+  - [ ] [SecWiki News 2024-11-03 Review](http://www.sec-wiki.com/?2024-11-03)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Nov  3 22:26:42 UTC 2024](https://github.com/trickest/cve/commit/545cda447fe3d3ed162bd6334363a83c4c768771)
+  - [ ] [Update Sun Nov  3 14:28:56 UTC 2024](https://github.com/trickest/cve/commit/55e7458dce29ffd7ada77995298a3e86e0155667)
+  - [ ] [Update Sun Nov  3 06:27:37 UTC 2024](https://github.com/trickest/cve/commit/a98cd95e7f55bc5ffdf1a1f04b5a5f196a07da96)
+- Security Boulevard
+  - [ ] [DEF CON 32 – Where’s The Money-Defeating ATM Disk Encryption](https://securityboulevard.com/2024/11/def-con-32-wheres-the-money-defeating-atm-disk-encryption/)
+- Doonsec's feed
+  - [ ] [以色列空军数据出售：涉嫌泄露使敏感信息面临风险](https://mp.weixin.qq.com/s?__biz=MzkxNDM4OTM3OQ==&mid=2247504139&idx=1&sn=90508de133819766a472a2ad19a10ccd)
+  - [ ] [CrossBarking：如何将 Opera 浏览器变成完美的间谍！](https://mp.weixin.qq.com/s?__biz=MzkxNDM4OTM3OQ==&mid=2247504139&idx=2&sn=7e9fb660d934f3fe9120a7cf8dcead03)
+  - [ ] [洛杉矶住房组织确认 Cactus 勒索软件泄露数据后遭入侵](https://mp.weixin.qq.com/s?__biz=MzkxNDM4OTM3OQ==&mid=2247504139&idx=3&sn=cb4c8dae458fa8ddc73daa4d7daff81e)
+  - [ ] [分享的图片、视频、链接](https://mp.weixin.qq.com/s?__biz=MzI2NTUyODMwNA==&mid=2247483727&idx=1&sn=8dd1c137be100c5e0f6f050ce76bed86)
+  - [ ] [不懂软件开发，做不好网络安全（一）](https://mp.weixin.qq.com/s?__biz=MzI3NzM5NDA0NA==&mid=2247489706&idx=1&sn=49b24fca5fc8aa9d89181bfeb0446aa8)
+  - [ ] [巧用多客户端差异性获取敏感信息（斩获3k）](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247496277&idx=1&sn=9a7c2587ffacd0a2ba9bd43412ce5408)
+  - [ ] [【资源】全球开源情报培训机构（2）](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651147531&idx=1&sn=1452cce43ce8113857ee2df05049ab14)
+  - [ ] [网安众生相【三十八】大学生扰乱了网安市场？](https://mp.weixin.qq.com/s?__biz=MzI1Mjc3NTUwMQ==&mid=2247536014&idx=1&sn=c6dbeb92f222710f0069802645d37b65)
+  - [ ] [通达OA未授权访问、前台SQL注入审计](https://mp.weixin.qq.com/s?__biz=Mzg2NDg2MDIxNQ==&mid=2247484951&idx=1&sn=0dae3f9deadbe40f81ba47cda779796e)
+  - [ ] [冬天的你我春天的你](https://mp.weixin.qq.com/s?__biz=MzAxOTk3NTg5OQ==&mid=2247491555&idx=1&sn=b38037639cef41d01b72f1ce72f8f909)
+  - [ ] [第八届“强网杯”线上初赛收官，线下决赛即将打响](https://mp.weixin.qq.com/s?__biz=Mzg4MjY3NDQ2Ng==&mid=2247487338&idx=1&sn=1f53c55b4276ce67575f51597f3dda72)
+  - [ ] [中国科学院自动化研究所 | CogMG:大语言模型与知识图谱之间的协同增强](https://mp.weixin.qq.com/s?__biz=MzU5MTM5MTQ2MA==&mid=2247491314&idx=1&sn=b2fbcae0528c2f129f61363cf980d4e6)
+  - [ ] [网络安全工程师必须具备的八款工具，一次都分享给你！](https://mp.weixin.qq.com/s?__biz=MzIyMzIwNzAxMQ==&mid=2649462610&idx=1&sn=906851852c0d5692c6e9518ea394d524)
+  - [ ] [不会用=浪费！微信又有新功能？](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649786334&idx=1&sn=a9af6d8aa89c0c9c5a5e83c13558ab4c)
+  - [ ] [Cobalt Strike Beacon 通讯协议分析](https://mp.weixin.qq.com/s?__biz=MzI5MzkwMzU1Nw==&mid=2247485161&idx=1&sn=0ce9804d150eb7cf5d30969af1eca348)
+  - [ ] [英飞达医学影像存档与通信系统 WebUserLogin.asmx 信息泄露漏洞](https://mp.weixin.qq.com/s?__biz=MzkzMTcwMTg1Mg==&mid=2247488793&idx=1&sn=600d11f7470d5babb37801dd5ed65fa3)
+  - [ ] [Java Payload 生成框架](https://mp.weixin.qq.com/s?__biz=MzkyMTQwNjA4NA==&mid=2247485113&idx=1&sn=5b2f01ec944270c6c7e2262689c37c65)
+  - [ ] [十年安全路～其一](https://mp.weixin.qq.com/s?__biz=Mzg5OTkwMjEwMg==&mid=2247483815&idx=1&sn=c4600b289c816b1eea656c8826d2c2d7)
+  - [ ] [人工智能三教父](https://mp.weixin.qq.com/s?__biz=MzI3MDY0Nzg1Nw==&mid=2247489230&idx=1&sn=a3536c4b883d3fe7561fed33a75ea014)
+  - [ ] [AI圈现状](https://mp.weixin.qq.com/s?__biz=MzU4NDY3MTk2NQ==&mid=2247490804&idx=1&sn=ceaa99b6053fd09c6fd068eae3318853)
+  - [ ] [不再被网络问题困扰！DNS记录类型详解助你快速诊断](https://mp.weixin.qq.com/s?__biz=MzI5MjY4MTMyMQ==&mid=2247486521&idx=1&sn=88ac10e02067499f6b6782fd42faf612)
+  - [ ] [pyc 反汇编的几种方式](https://mp.weixin.qq.com/s?__biz=MzI2ODAwNjcyNQ==&mid=2247484023&idx=1&sn=12264bd4f8dffd08060f64cce098c46f)
+  - [ ] [HTB 之 University(user部分)](https://mp.weixin.qq.com/s?__biz=MzkxMjYyMjA3Mg==&mid=2247485076&idx=1&sn=724e31274c73dd3386945c370ddd9dfb)
+  - [ ] [用分群观点从姜萍事件始末看社会群体](https://mp.weixin.qq.com/s?__biz=Mzg4NDY4Mzk3Mw==&mid=2247485368&idx=1&sn=9f29ff4c85fd5b34e863e1d84e0d23e1)
+  - [ ] [湖南省网信办对某信息公司未履行数据安全保护义务作出行政处罚](https://mp.weixin.qq.com/s?__biz=MzI0NzE4ODk1Mw==&mid=2652093952&idx=1&sn=e199806271939ae5d5e856707df22037)
+  - [ ] [这个健身App意外泄露多位总统的位置信息](https://mp.weixin.qq.com/s?__biz=MzI0NzE4ODk1Mw==&mid=2652093952&idx=2&sn=6b8144f1433550ae4bbd9f24542cfa47)
+  - [ ] [网络安全中的心理韧性](https://mp.weixin.qq.com/s?__biz=MzkyODYwODkyMA==&mid=2247484457&idx=1&sn=b586cc6a8c1aa8adf959c0863e48de0c)
+  - [ ] [大专可投的15k-18k岗位招聘](https://mp.weixin.qq.com/s?__biz=MzkyOTQzNjIwNw==&mid=2247489830&idx=1&sn=e0c8bf5d8d3c0ce1d9e34d427b34f996)
+  - [ ] [结合工程实际，理解信息安全（Security）的基础概念](https://mp.weixin.qq.com/s?__biz=MzIzOTc2OTAxMg==&mid=2247545514&idx=1&sn=6ed53281744abac1a11a8c4035dca9f0)
+  - [ ] [一网打尽AUTOSAR MCAL模块](https://mp.weixin.qq.com/s?__biz=MzIzOTc2OTAxMg==&mid=2247545514&idx=2&sn=f9e354eae1070ae3b4048a5e3cbb2dca)
+  - [ ] [【安全圈】黑客团伙的受害者涉及全国多地，被上海公安局抓了！](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652065701&idx=1&sn=a03b2b8222f01674be8fdf329477ccd3)
+  - [ ] [【安全圈】Windows 11任务管理器出Bug了](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652065701&idx=2&sn=285bee2a1e0729e0a0bedcd8d0af5585)
+  - [ ] [【安全圈】“EmeraldWhale”行动：15000个云账户凭证被盗](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652065701&idx=3&sn=c586e5ad23db24223b39fea41e8bb896)
+  - [ ] [“数安贵州”大会启幕，共筑数字经济密码新生态](https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247631817&idx=1&sn=382bf0dfdbad915b9566cad206de77a7)
+  - [ ] [LiteSpeed缓存插件漏洞正对WordPress 网站构成重大风险](https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247631817&idx=2&sn=0ed49d551b896693f6ee10bd6af08488)
+  - [ ] [C/C++ 大限将至？美政府给出最强硬要求：2026 年前关键软件必须开始全面去 C](https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247631817&idx=3&sn=edb52c0987c463147190d405e132b552)
+  - [ ] [黑客上万次攻击“黑走”近500万？网警抓获嫌疑人25名](https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247631817&idx=4&sn=9fd339040c9b71a2905dbe9c33961f95)
+  - [ ] [一款牛X的WiFi无线密码暴力破解工具](https://mp.weixin.qq.com/s?__biz=Mzk0NjQ5MTM1MA==&mid=2247492524&idx=1&sn=4dfca1dc45e2b911a57490cbdcb93fa7)
+  - [ ] [流量分析-CobaltStrike](https://mp.weixin.qq.com/s?__biz=MzU1NjczNjA0Nw==&mid=2247485417&idx=1&sn=bbb86c05f134ff7b7a697f99069aee52)
+  - [ ] [美国企业会因本国出口管制政策陷入死亡螺旋吗？](https://mp.weixin.qq.com/s?__biz=MzI1OTExNDY1NQ==&mid=2651616760&idx=1&sn=f52a9403c16d33f03b48f13a0625c98f)
+  - [ ] [第2章人员安全和风险管理的概念（二）](https://mp.weixin.qq.com/s?__biz=Mzg3NTU1OTc3Mw==&mid=2247484456&idx=1&sn=75960b91929319e68262e6fd2512b710)
+  - [ ] [知识星球 | 历年网安报告、PPT合集下载；零信任指导原则、AI安全治理框架等资源更新](https://mp.weixin.qq.com/s?__biz=MzU5ODgzNTExOQ==&mid=2247630701&idx=1&sn=79266d7ca4981c899ece0b831cafa7f9)
+  - [ ] [美国是长期监听中国网络的幕后黑手？](https://mp.weixin.qq.com/s?__biz=MzkxMjYxODcyNA==&mid=2247484501&idx=1&sn=444610837231545ee5f800d044b20f36)
+  - [ ] [blg战犯名单](https://mp.weixin.qq.com/s?__biz=MzkxOTI5NzY4MA==&mid=2247486083&idx=1&sn=b68d24369adea5b99ad3ac11022b91af)
+  - [ ] [【攻防实战】手把手带你打穿某集团内网(下)](https://mp.weixin.qq.com/s?__biz=Mzg5NTU2NjA1Mw==&mid=2247493852&idx=1&sn=0f8e8367f2b3993a0a2bda35a5270302)
+  - [ ] [网安原创文章推荐【2024/11/2】](https://mp.weixin.qq.com/s?__biz=MzAxNzg3NzMyNQ==&mid=2247489089&idx=1&sn=0e536cbb87f90ecca160b2a81c8d1c9e)
+  - [ ] [网络安全中社会工程的深度洞察与应对策略](https://mp.weixin.qq.com/s?__biz=Mzg2NTk4MTE1MQ==&mid=2247486111&idx=1&sn=1c08196ca2c1868532e7f880d0007f48)
+  - [ ] [为什么Wi-Fi属于局域网？](https://mp.weixin.qq.com/s?__biz=MzIxNTM3NDE2Nw==&mid=2247490209&idx=1&sn=f0a231bacde46f0eaefb8fe413760817)
+  - [ ] [变天了,Telegram更改隐私政策,暗网“风声鹤唳, 草木皆兵”](https://mp.weixin.qq.com/s?__biz=MzkxOTUyOTc0NQ==&mid=2247491873&idx=1&sn=9ee8c7fc32775666649ca3f9f51a2486)
+  - [ ] [🎮双十一必入！，电竞玩家的致胜法宝！💥](https://mp.weixin.qq.com/s?__biz=Mzg2MjkwMDY3OA==&mid=2247485469&idx=1&sn=6ebe44143c260dd03013d35f904cf528)
+  - [ ] [工具 | 一款车联网武器库](https://mp.weixin.qq.com/s?__biz=MzkxNTY4NTQwMg==&mid=2247483932&idx=1&sn=cd82f5a774db85a0b00cb6f9e5960fff)
+  - [ ] [从境外软件获取1亿多条我国公民个人信息，上海一安全科技公司员工被判刑](https://mp.weixin.qq.com/s?__biz=MzIxMDIwODM2MA==&mid=2653931015&idx=1&sn=53c91eca37d26101577eaba3877afedc)
+  - [ ] [现代红队基础免杀心法：内存扫描与主动防御](https://mp.weixin.qq.com/s?__biz=MzU0NDc0NTY3OQ==&mid=2247487998&idx=1&sn=415f4a52fb1e19b8764a041c6e1ddec0)
+  - [ ] [ISC2北京分会十周年-会员专访-张臻](https://mp.weixin.qq.com/s?__biz=MzAxMzEyMjQ4Mg==&mid=2688531230&idx=1&sn=eb5a5b3d2702b3784f74a15551f700c2)
+  - [ ] [ISC2北京分会十周年-会员专访-张运鹏](https://mp.weixin.qq.com/s?__biz=MzAxMzEyMjQ4Mg==&mid=2688531230&idx=2&sn=d369a9d158e852a45db7b27179e6ccd2)
+  - [ ] [互联网已成为获取情报的最重要源泉](https://mp.weixin.qq.com/s?__biz=MzkxNzU5MjE0OA==&mid=2247485269&idx=1&sn=60da23596fd7233e5b9a24b7aa48379d)
+  - [ ] [警惕美海军因军事力量不足或重启“私掠许可证”！](https://mp.weixin.qq.com/s?__biz=MzkxMTA3MDk3NA==&mid=2247486580&idx=1&sn=6f02471a83940e149ad29036bbaaa095)
+  - [ ] [1day TOTOLINK路由器 LR350免密登录后台（CVE-2024-10654）附POC](https://mp.weixin.qq.com/s?__biz=MzkzNzU5MDMxOA==&mid=2247484113&idx=1&sn=b22a7f15608d9f77dd44cd962b9e7bb9)
+- Sukka's Blog
+  - [ ] [工欲善其事，必先利其器 —— 我的家庭网络组网方案](https://blog.skk.moe/post/home-network-setup/)
+- Private Feed for M09Ic
+  - [ ] [4ra1n created a repository Java-Chains/.github](https://github.com/Java-Chains/.github//)
+  - [ ] [FunnyWolf starred yuanxiaosc/fan-ren-xiu-xian-zhuan](https://github.com/yuanxiaosc/fan-ren-xiu-xian-zhuan)
+  - [ ] [IC3-CR3AM starred GhostWolfLab/APT-Individual-Combat-Guide](https://github.com/GhostWolfLab/APT-Individual-Combat-Guide)
+  - [ ] [evilashz started following blocage](https://github.com/blocage)
+- unSafe.sh - 不安全
+  - [ ] [4 vulnerabilities in ibmsecurity](https://buaq.net/go-270782.html)
+  - [ ] [32 vulnerabilities in IBM Security Verify Access](https://buaq.net/go-270783.html)
+  - [ ] [AlpacaHack Round 6 (Pwn)のWriteup](https://buaq.net/go-270778.html)
+  - [ ] [SECURITY AFFAIRS MALWARE NEWSLETTER – ROUND 18](https://buaq.net/go-270779.html)
+- 一个被知识诅咒的人
+  - [ ] [【Python】全面解析Python中的GIL（全局解释器锁）：多线程与多进程的实战与抉择](https://blog.csdn.net/nokiaguy/article/details/143449288)
+  - [ ] [【Python】深入解析Python中的多重继承与MRO：原理、C3线性化算法与super()用法](https://blog.csdn.net/nokiaguy/article/details/143449263)
+- CCC Event Blog
+  - [ ] [38C3: Call for Assemblies](https://events.ccc.de/2024/11/03/38c3-call-for-assemblies/)
+- Didier Stevens
+  - [ ] [Quickpost: The Electric Energy Consumption Of A Wired Doorbell](https://blog.didierstevens.com/2024/11/03/quickpost-the-electric-energy-consumption-of-a-wired-doorbell/)
+- Reverse Engineering
+  - [ ] [Detect It Easy 3.10 Program for determining types of files for Windows, Linux and MacOS.](https://www.reddit.com/r/ReverseEngineering/comments/1giun9z/detect_it_easy_310_program_for_determining_types/)
+  - [ ] [GitHub - chebuya/sastsweep: Automatically detect potential vulnerabilities and analyze repository metrics to prioritize open source security research targets](https://www.reddit.com/r/ReverseEngineering/comments/1giyk9w/github_chebuyasastsweep_automatically_detect/)
+- HAHWUL
+  - [ ] [Exploring OWASP Noir’s PassiveScan](https://www.hahwul.com/2024/11/03/passivescan-in-owasp-noir/)
+- CTFするぞ
+  - [ ] [AlpacaHack Round 6 (Pwn)のWriteup](https://ptr-yudai.hatenablog.com/entry/2024/11/03/233033)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [Steam 平台 Linux 份额突破 2%](https://www.solidot.org/story?sid=79667)
+  - [ ] [前三季度全国结婚登记人数减少逾 90 万对](https://www.solidot.org/story?sid=79666)
+  - [ ] [第四名 FTX 高管被判没收 110 亿美元](https://www.solidot.org/story?sid=79665)
+- 黑海洋 - WIKI
+  - [ ] [AI+小红书暴力变现打卡营，让你从想赚钱到赚到钱](https://blog.upx8.com/4380)
+  - [ ] [小红书文案自动生成器-ChatGPT](https://blog.upx8.com/4379)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Guerre di Rete - Se le banche dati strategiche sono un business](https://guerredirete.substack.com/p/guerre-di-rete-se-le-banche-dati)
+  - [ ] [Meet Interlock — The new ransomware targeting FreeBSD servers](https://www.bleepingcomputer.com/news/security/meet-interlock-the-new-ransomware-targeting-freebsd-servers/)
+  - [ ] [ChatGPT-4o can be used for autonomous voice-based scams](https://www.bleepingcomputer.com/news/security/chatgpt-4o-can-be-used-for-autonomous-voice-based-scams/)
+- Troy Hunt's Blog
+  - [ ] [Weekly Update 424](https://www.troyhunt.com/weekly-update-424/)
+- TorrentFreak
+  - [ ] [Amazon’s Indian Branch Targets Pirate Streaming Apps Hosted on GitHub](https://torrentfreak.com/amazons-indian-branch-targets-pirate-streaming-apps-hosted-on-github-241103/)
+- Unsupervised Learning
+  - [ ] [Fixing Ubiquiti WiFi Roaming](https://danielmiessler.com/p/fixing-ubiquiti-wifi-roaming)
+- The Register - Security
+  - [ ] [6 IT contractors arrested for defrauding Uncle Sam out of millions](https://go.theregister.com/feed/www.theregister.com/2024/11/03/6_it_contractors_arrested_for/)
+- Security Affairs
+  - [ ] [SECURITY AFFAIRS MALWARE NEWSLETTER – ROUND 18](https://securityaffairs.com/170532/malware/security-affairs-malware-newsletter-round-18.html)
+  - [ ] [Security Affairs newsletter Round 496 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/170525/breaking-news/security-affairs-newsletter-round-496-by-pierluigi-paganini-international-edition.html)
+  - [ ] [US Election 2024 – FBI warning about fake election videos](https://securityaffairs.com/170514/security/us-election-2024-fbi-warning-about-fake-election-videos.html)
+  - [ ] [Chinese threat actors use Quad7 botnet in password-spray attacks](https://securityaffairs.com/170503/malware/quad7-botnet-used-by-chinese-threat-actors.html)
+- Full Disclosure
+  - [ ] [4 vulnerabilities in ibmsecurity](https://seclists.org/fulldisclosure/2024/Nov/1)
+  - [ ] [32 vulnerabilities in IBM Security Verify Access](https://seclists.org/fulldisclosure/2024/Nov/0)
+- Technical Information Security Content & Discussion
+  - [ ] [🌪️Heads up speakers: TyphoonCon 2025 Call for Papers is now open!](https://www.reddit.com/r/netsec/comments/1gijm5z/heads_up_speakers_typhooncon_2025_call_for_papers/)
+- Your Open Hacker Community
+  - [ ] [Something interesting to hack](https://www.reddit.com/r/HowToHack/comments/1giwclv/something_interesting_to_hack/)
+- Computer Forensics
+  - [ ] [Hal Pomeranz course - VM - Failed to start the virtual machine](https://www.reddit.com/r/computerforensics/comments/1gim4nm/hal_pomeranz_course_vm_failed_to_start_the/)

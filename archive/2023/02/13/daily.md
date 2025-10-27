@@ -1,0 +1,133 @@
+# 每日安全资讯（2023-02-13）
+
+- SecWiki News
+  - [ ] [SecWiki News 2023-02-12 Review](http://www.sec-wiki.com/?2023-02-12)
+- Darknet – Hacking Tools, Hacker News & Cyber Security
+  - [ ] [Pwnagotchi – Maximize Crackable WPA Key Material For Bettercap](https://www.darknet.org.uk/2023/02/pwnagotchi-maximize-crackable-wpa-key-material-for-bettercap/)
+- Security Boulevard
+  - [ ] [USENIX Security ’22 – Rawane Issa, Nicolas Alhaddad, and Mayank Varia – ‘Hecate: Abuse Reporting in Secure Messengers with Sealed Sender’](https://securityboulevard.com/2023/02/usenix-security-22-rawane-issa-nicolas-alhaddad-and-mayank-varia-hecate-abuse-reporting-in-secure-messengers-with-sealed-sender/)
+  - [ ] [Quantum Computers: What Is Q-Day? And What’s the Solution?](https://securityboulevard.com/2023/02/quantum-computers-what-is-q-day-and-whats-the-solution/)
+- 先知安全技术社区
+  - [ ] [域渗透GOAD(Game Of Active Directory) v2（三）](https://xz.aliyun.com/t/12139)
+  - [ ] [Java安全中commons-collections4包下的两条反序列化链](https://xz.aliyun.com/t/12143)
+- Twitter @Nicolas Krassas
+  - [ ] [Pwnagotchi – Maximize Crackable WPA Key Material For Bettercap](https://twitter.com/Dinosn/status/1624838792367509507)
+  - [ ] [MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.](https://twitter.com/Dinosn/status/1624830531534716928)
+  - [ ] [Re @0xTib3rius @cyb3rops Give the suggestions a try at](https://twitter.com/Dinosn/status/1624828560442630144)
+  - [ ] [HWSyscalls is a new method to execute indirect syscalls using hardware breakpoints, HalosGate and a synthetic trampoline on kernel32 with hardware bre...](https://twitter.com/Dinosn/status/1624813429855862787)
+  - [ ] [RT Rana Khalil 🇵🇸: 📢🚨 Lab #3 video in the Broken Access Control Module has been added to my Youtube channel!](https://twitter.com/rana__khalil/status/1624803930742857729)
+  - [ ] [DNSrecon-gui - DNSrecon Tool With GUI For Kali Linux](https://twitter.com/Dinosn/status/1624757147438284803)
+  - [ ] [Another Local Windows privilege escalation using a new potato technique](https://twitter.com/Dinosn/status/1624642772421541888)
+  - [ ] [ESXiArgs Ransomware Analysis with @fwosar (OALABS)](https://twitter.com/Dinosn/status/1624639793370918917)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Feb 12 05:51:44 UTC 2023](https://github.com/trickest/cve/commit/8fbdb5c9eb68d5b592de3dc0bd376acc7c5e5ff3)
+- 世事难料，保持低调
+  - [ ] [AI推理计算框架中的内存优化](https://blog.csdn.net/ariesjzj/article/details/128979978)
+- Sploitus.com Exploits RSS Feed
+  - [ ] [Exploit for Race Condition in Apple Watchos exploit](https://sploitus.com/exploit?id=E7CA2B56-B67E-5211-A66D-32BAA0E8EAC9&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for Vulnerability in Oracle E-Business Suite exploit](https://sploitus.com/exploit?id=63CDCF93-5149-525A-9A2B-F3D5FC3C00BF&utm_source=rss&utm_medium=rss)
+- unSafe.sh - 不安全
+  - [ ] [45亿快递数据查询地址](https://buaq.net/go-149073.html)
+  - [ ] [Pwnagotchi – Maximize Crackable WPA Key Material For Bettercap](https://buaq.net/go-149070.html)
+  - [ ] [ChatGPT 等 AI 模型将冲击印度 IT 外包公司](https://buaq.net/go-149074.html)
+  - [ ] [拾光壁纸 - 良心纯净无广告的电脑壁纸下载软件 (开源免费 / 自动更换桌面 / 多图源)](https://buaq.net/go-149076.html)
+  - [ ] [Update: pdf-parser.py Version 0.7.8](https://buaq.net/go-149056.html)
+  - [ ] [俄罗斯又一艘停靠在空间站的飞船发生冷却剂泄露](https://buaq.net/go-149063.html)
+  - [ ] [DNSrecon-gui - DNSrecon Tool With GUI For Kali Linux](https://buaq.net/go-149052.html)
+  - [ ] [SQL INJECTIONS](https://buaq.net/go-149051.html)
+  - [ ] [年度征文 | 新的一年，好好走路](https://buaq.net/go-149047.html)
+  - [ ] [Oracle 甲骨文云闲置实例资源保活教程](https://buaq.net/go-149048.html)
+  - [ ] [PhotoSync – 可能是 iPhone、Android 最好的图片视频备份软件](https://buaq.net/go-149041.html)
+  - [ ] [anyTrans for mac下载的IPA位置](https://buaq.net/go-149037.html)
+  - [ ] [All about LeakSanitizer](https://buaq.net/go-149085.html)
+  - [ ] [Robust Security Network and Extended Authentication Protocol in Detail](https://buaq.net/go-149032.html)
+  - [ ] [犯罪分子使用谷歌广告针对Bitwarden密码库进行攻击](https://buaq.net/go-149023.html)
+  - [ ] [域渗透GOAD(Game Of Active Directory) v2（三）](https://buaq.net/go-149028.html)
+  - [ ] [Java安全中commons-collections4包下的两条反序列化链](https://buaq.net/go-149029.html)
+  - [ ] [AI推理计算框架中的内存优化](https://buaq.net/go-149022.html)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [ ] [SOUND4 LinkAndShare Transmitter 1.1.2 Format String Stack Buffer Overflow](https://cxsecurity.com/issue/WLB-2023020023)
+  - [ ] [Wordpress Multiple themes - Unauthenticated Arbitrary File Upload](https://cxsecurity.com/issue/WLB-2023020022)
+- 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
+  - [ ] [犯罪分子使用谷歌广告针对Bitwarden密码库进行攻击](https://www.4hou.com/posts/oJwB)
+- MaskRay
+  - [ ] [All about LeakSanitizer](https://maskray.me/blog/2023-02-12-all-about-leak-sanitizer)
+- Twitter @bytehx
+  - [ ] [RT Hussein Daher: Video of my talk at @bsidesahmedabad is finally out!🌟 🟥 Watch it on youtube: 🟥 Slides available at Thank you for your suppo...](https://twitter.com/HusseiN98D/status/1624765991111520265)
+- SpookySec
+  - [ ] [Recovering Your Straight Talk Account Number](https://blog.spookysec.net//recovering-straighttalk-account-number/)
+- Didier Stevens
+  - [ ] [Update: pdf-parser.py Version 0.7.8](https://blog.didierstevens.com/2023/02/12/update-pdf-parser-py-version-0-7-8/)
+- Bug Bounty in InfoSec Write-ups on Medium
+  - [ ] [SQL INJECTIONS](https://infosecwriteups.com/sql-injections-b1d1da3751e5?source=rss----7b722bfd1b8d--bug_bounty)
+- Reverse Engineering
+  - [ ] [Reverse Engineering/Game Patching Tutorial: Full Res Roller Coaster Tycoon with Ghidra+x64dbg+Python [YouTube]](https://www.reddit.com/r/ReverseEngineering/comments/110tjsx/reverse_engineeringgame_patching_tutorial_full/)
+- SAP Blogs
+  - [ ] [IoT 3.0 Deep Dive](https://blogs.sap.com/2023/02/12/iot-3.0-deep-dive/)
+  - [ ] [Permanently Purge Partial External Users in SuccessFactors (ONB 2.0)](https://blogs.sap.com/2023/02/12/permanently-purge-partial-external-users-in-successfactors-onb-2.0/)
+  - [ ] [PM Order Execution & Resource related Billing of Maintenance Service Order](https://blogs.sap.com/2023/02/12/pm-order-execution-resource-related-billing-of-maintenance-service-order/)
+  - [ ] [Could machine learning build a model for prime numbers?](https://blogs.sap.com/2023/02/12/could-machine-learning-build-a-model-for-prime-numbers/)
+  - [ ] [Implement authorization concept for the Fiori apps to display in the SAP build work Zone based on the roles configured in BTP](https://blogs.sap.com/2023/02/12/implement-authorization-concept-for-the-fiori-apps-to-display-in-the-sap-build-work-zone-based-on-the-roles-configured-in-btp/)
+  - [ ] [Creation of PM Order from Maintenance Service Order](https://blogs.sap.com/2023/02/12/creation-of-pm-order-from-maintenance-service-order/)
+  - [ ] [Maintenance Service Processing in S4 HANA](https://blogs.sap.com/2023/02/12/maintenance-service-processing-in-s4-hana/)
+- KitPloit - PenTest & Hacking Tools
+  - [ ] [DNSrecon-gui - DNSrecon Tool With GUI For Kali Linux](http://www.kitploit.com/2023/02/dnsrecon-gui-dnsrecon-tool-with-gui-for.html)
+- Twitter @hakivvi
+  - [ ] [RT Gal Z: My whole team was laid off, I'm looking for a new job. I'm looking for a vulnerability research position preferably PR research. My previous...](https://twitter.com/0xgalz/status/1624881902640418817)
+- 黑海洋 - WIKI
+  - [ ] [Oracle 甲骨文云闲置实例资源保活教程](https://blog.upx8.com/3222)
+  - [ ] [anyTrans for mac下载的IPA位置](https://blog.upx8.com/3221)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [科学家称年轻血液延长了实验鼠的寿命](https://www.solidot.org/story?sid=74111)
+  - [ ] [ChatGPT 等 AI 模型将冲击印度 IT 外包公司](https://www.solidot.org/story?sid=74110)
+  - [ ] [俄罗斯又一艘停靠在空间站的飞船发生冷却剂泄露](https://www.solidot.org/story?sid=74109)
+- LeadroyaL's website
+  - [ ] [llvm学习（二十四）：表情包引发的悬案，浅谈编译器优化](https://www.leadroyal.cn/p/2301/)
+- 安全圈
+  - [ ] [【安全圈】​国内10家大厂争做ChatGPT，逐鹿群雄，谁能笑到最后？](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652030472&idx=1&sn=df5f29afd7b52b129348efd5eed0682e&chksm=f36fea48c418635e16f30876fa0dc3c77d3f69f2810a1d14588b5dafad327cb83e03fd4075e4&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】​因朝鲜黑客太能赚钱,韩国对朝鲜4名个人和7个实体实施制裁](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652030472&idx=2&sn=7fc78a8d32460232071fc8ed2a545c36&chksm=f36fea48c418635edcbd3e132bae6171301f54d21c51a8fcd33d08798a5d953f03b3edc7cb3c&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】​哈利波特的烦恼：黑客承诺10 天内破解游戏“霍格沃茨之遗”](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652030472&idx=3&sn=6c3bd6a3561045691685c08625097f1c&chksm=f36fea48c418635e17b99ef6a7054f8814b6a737f19cbe90ee227755a98dc4065f6212605432&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】​2022年活跃挖矿木马盘点](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652030472&idx=4&sn=05a41aced22f94fef2ffbffa21bcee1b&chksm=f36fea48c418635ec6353fa059d763224bfb26e5a4d87c2c6bc2e5b819da00e0f8bc70a0680c&scene=58&subscene=0#rd)
+- 极客公园
+  - [ ] [「杀死」光刻机全球第一，比造一台光刻机容易多了](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652982841&idx=1&sn=50a31743cc317c8715f3d2442a4efedd&chksm=7e54338f4923ba998eea317da6511f4be470fff2fbe20e469198f5b64607fc5d45eac3917b72&scene=58&subscene=0#rd)
+  - [ ] [传 Meta 筹划新一轮裁员；谷歌正将 Bard 整合进 Chrome；比尔·盖茨称 ChatGPT 会改变世界 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652982779&idx=1&sn=02073e8f9de6e9940fc1183d89801362&chksm=7e54304d4923b95b094495fb48f6517dbf8bcef3535c7c3caea58e7a650a02ef915ea5ca8edd&scene=58&subscene=0#rd)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [NameCheap's email hacked to send Metamask, DHL phishing emails](https://www.bleepingcomputer.com/news/security/namecheaps-email-hacked-to-send-metamask-dhl-phishing-emails/)
+  - [ ] [Devs targeted by W4SP Stealer malware in malicious PyPi packages](https://www.bleepingcomputer.com/news/security/devs-targeted-by-w4sp-stealer-malware-in-malicious-pypi-packages/)
+  - [ ] [Attacchi informatici nel settore sanitario: gli errori da evitare per arginare le minacce](https://www.cybersecurity360.it/soluzioni-aziendali/attacchi-informatici-nel-settore-sanitario-gli-errori-da-evitare-per-arginare-le-minacce/)
+  - [ ] [Pwnagotchi – Maximize Crackable WPA Key Material For Bettercap](https://www.darknet.org.uk/2023/02/pwnagotchi-maximize-crackable-wpa-key-material-for-bettercap/)
+  - [ ] [“Per te, è un giorno triste!”](https://hackerjournal.it/11288/per-te-e-un-giorno-triste/)
+  - [ ] [Microsoft WinGet package manager failing from expired SSL certificate](https://www.bleepingcomputer.com/news/security/microsoft-winget-package-manager-failing-from-expired-ssl-certificate/)
+  - [ ] [Microsoft is adding native RGB lighting controls to Windows 11](https://www.bleepingcomputer.com/news/microsoft/microsoft-is-adding-native-rgb-lighting-controls-to-windows-11/)
+- 情报分析师
+  - [ ] [【评估报告】新兴军事技术和核不稳定](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650525377&idx=1&sn=fa7fb7b023b6b43aefd6c48593f3d1a0&chksm=8716e08ab061699c6b9e580c0e12a902c29a1a5d0625e172e661eeddf3bd9d9dedacbf48ad3a&scene=58&subscene=0#rd)
+- TorrentFreak
+  - [ ] [Aussie Piracy “Disturbingly High” Despite 97% Using Legal Sources](https://torrentfreak.com/aussie-piracy-disturbingly-high-despite-97-using-legal-sources-230213/)
+  - [ ] [Anti-Piracy Outfits Target TorrentFreak in PikaShow Crackdown](https://torrentfreak.com/anti-piracy-outfits-target-torrentfreak-in-pikashow-crackdown-230212/)
+- Computer Forensics
+  - [ ] [Raptor - imaging tool](https://www.reddit.com/r/computerforensics/comments/110oq3v/raptor_imaging_tool/)
+- Your Hacking Tutorial by Zempirians
+  - [ ] [What do you call hacking into “normal” devices as opposed to hacking into servers?](https://www.reddit.com/r/HowToHack/comments/110q732/what_do_you_call_hacking_into_normal_devices_as/)
+- Security Affairs
+  - [ ] [The Israel Institute of Technology Technion suffered a ransomware attack](https://securityaffairs.com/142160/hacking/israeli-technion-suffered-ransomware-attack.html)
+  - [ ] [Australian Defense Department will replace surveillance cameras from Chinese firms Hikvision and Dahua](https://securityaffairs.com/142147/intelligence/australia-remove-chinese-surveillance-cameras.html)
+  - [ ] [Russian Government evaluates the immunity to hackers acting in the interests of Russia](https://securityaffairs.com/142139/cyber-warfare-2/russian-government-crooks-immunity.html)
+  - [ ] [Security Affairs newsletter Round 406 by Pierluigi Paganini](https://securityaffairs.com/142136/breaking-news/security-affairs-newsletter-round-406-by-pierluigi-paganini.html)
+- KitPloit - PenTest Tools!
+  - [ ] [DNSrecon-gui - DNSrecon Tool With GUI For Kali Linux](http://www.kitploit.com/2023/02/dnsrecon-gui-dnsrecon-tool-with-gui-for.html)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Issues with Deauth using AWUS036AC on Kali VM](https://www.reddit.com/r/blackhat/comments/110oyqf/issues_with_deauth_using_awus036ac_on_kali_vm/)
+  - [ ] [Somebody is threatening my sisters life online and I need to find them.](https://www.reddit.com/r/blackhat/comments/110f1ad/somebody_is_threatening_my_sisters_life_online/)
+- Information Security
+  - [ ] [Insecure Direct Object Reference & How to Protect Against it](https://www.reddit.com/r/Information_Security/comments/110lai4/insecure_direct_object_reference_how_to_protect/)
+  - [ ] [Well, depends on the news](https://www.reddit.com/r/Information_Security/comments/1102ck6/well_depends_on_the_news/)
+- Deep Web
+  - [ ] [I have no idea what to do with a SOCKS5 proxy. Everytime I connect to it and check whoer.net it’ll give me a whole different country. Someone look a brother out and share some game. NO FAKE TELEGRAM IM NOT INTERESTED.](https://www.reddit.com/r/deepweb/comments/1106861/i_have_no_idea_what_to_do_with_a_socks5_proxy/)
+  - [ ] [Is using my ISP's modem safe?](https://www.reddit.com/r/deepweb/comments/1106rse/is_using_my_isps_modem_safe/)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [PCAP Data Analysis with Zeek, (Sun, Feb 12th)](https://isc.sans.edu/diary/rss/29530)
+- Social Engineering
+  - [ ] [What efforts can you compliment someone on to build rapport?](https://www.reddit.com/r/SocialEngineering/comments/110qnpb/what_efforts_can_you_compliment_someone_on_to/)
+- Technical Information Security Content & Discussion
+  - [ ] [HWSyscalls is a new method to execute indirect syscalls using hardware breakpoints, HalosGate and a synthetic trampoline on kernel32 with hardware breakpoints.](https://www.reddit.com/r/netsec/comments/110jego/hwsyscalls_is_a_new_method_to_execute_indirect/)
+  - [ ] [CHERIoT: Rethinking security for low-cost embedded systems - Microsoft Research](https://www.reddit.com/r/netsec/comments/110brgq/cheriot_rethinking_security_for_lowcost_embedded/)

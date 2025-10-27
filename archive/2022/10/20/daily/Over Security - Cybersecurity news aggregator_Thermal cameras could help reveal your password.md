@@ -1,0 +1,184 @@
+---
+title: Thermal cameras could help reveal your password
+url: https://www.malwarebytes.com/blog/news/2022/10/thermal-cameras-could-help-reveal-your-password
+source: Over Security - Cybersecurity news aggregator
+date: 2022-10-20
+fetch_date: 2025-10-03T20:25:22.346330
+---
+
+# Thermal cameras could help reveal your password
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![hands on laptop under a thermal scanner](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/10/asset_upload_file26335_241155.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Threats](https://www.malwarebytes.com/blog/category/threats)
+
+# Thermal cameras could help reveal your password
+
+Posted: October 18, 2022
+ by [Jovi Umawing](https://www.malwarebytes.com/blog/authors/jumawing)
+
+Thermal imaging cameras detect heat energy, a helpful tool for engineers when hunting for thermal insulation gaps in buildings. But did you know that such devices can now aid in password theft?
+
+Because these devices are sold a lot cheaper than they used to, pretty much anyone can get their hands on them. And anyone with a thermal imaging device could be a potential password thief.
+
+Researchers from the University of Glasgow’s School of Computing Sciences have developed a system, ThermoSecure, in order to demonstrate how these thermal imaging cameras can be used for “thermal attacks.”
+
+In their paper, *[ThermoSecure: Investigating the effectiveness of AI-driven thermal attacks on commonly used computer keyboards](https://dl.acm.org/doi/pdf/10.1145/3563693)*, Dr. Mohamed Khamis, who led the development of ThermoSecure, Dr. John Williamson, and Norah Alotaibi, the authoring team, said: “Thermal cameras, unlike regular cameras, can reveal information without requiring the attacker to interact with the targeted victim, be present during the [authentication](https://www.malwarebytes.com/cybersecurity/basics/what-is-authentication) attempt, or plant any tool that can be linked to the attacker which could potentially exposing [sic] them. Such information includes heat residues left by the user during authentication, which can be retrieved using thermal cameras.”
+
+“Having acquired a thermal image of a keyboard or touchscreen after authentication, the attacker can then analyze the heat map and [exploit](https://www.malwarebytes.com/exploits) it to uncover the entire password or pattern.”
+
+Bright areas in a thermal image are heat imprints, indicating these were recently touched. While these are enough for the [AI](https://www.malwarebytes.com/what-was-the-mirai-botnet) to determine someone’s password, two factors affect its accuracy level: (1) the password length and (2) heat trace age, or the time after authentication.
+
+ThermoSecure perfectly guessed all 6-character passwords in the test, and successfully revealed 12-character passwords with 82% accuracy and 16-character passwords with 67% accuracy.
+
+As for heat trace age, on average, ThermoSecure successfully revealed passwords with 86 percent, 76 percent, and 62 percent accuracy when the image was taken 20 seconds, 30 seconds, and 60 seconds after authentication, respectively. The longer the heat trace age, the less accurate the AI was in guessing passwords.
+
+“It’s important that computer security research keeps pace with these developments to find new ways to mitigate risk, and we will continue to develop our technology to try to stay one step ahead of attackers,” said Dr. Khamis in [an interview](https://www.zdnet.com/article/this-thermal-attack-can-read-your-password-from-the-heat-your-fingertips-leave-behind/) with ZDNet.
+
+He also advised how you can protect yourself from thermal attacks: Use strong passwords and, if possible, use biometric verification for added protection.
+
+“Users can help make their devices and keyboards more secure by adopting alternative authentication methods, like fingerprint or facial recognition, which mitigate many of the risks of thermal attack.”
+
+**SHARE THIS ARTICLE**
+
+[![X](https://www.malwarebytes.com/wp-content/themes/malwarebytes/assets/src/images/...

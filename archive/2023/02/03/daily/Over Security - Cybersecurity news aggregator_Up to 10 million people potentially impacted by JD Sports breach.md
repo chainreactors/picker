@@ -1,0 +1,197 @@
+---
+title: Up to 10 million people potentially impacted by JD Sports breach
+url: https://www.malwarebytes.com/blog/news/2023/02/up-to-10-million-people-potentially-impacted-by-jd-sports-breach
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-03
+fetch_date: 2025-10-04T05:36:53.637820
+---
+
+# Up to 10 million people potentially impacted by JD Sports breach
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Sad athlete](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/02/asset_upload_file250_255965.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Up to 10 million people potentially impacted by JD Sports breach
+
+Posted: February 1, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+We’re at the start of February, and news of breaches keeps on coming. In this case, though, while the news that [10 million JD Sports customers may have been impacted by a cyber attack](https://www.bbc.co.uk/news/business-64452986) has only just arrived, the data potentially accessed in that attack is already several years old.
+
+## The danger zone
+
+If you made an online purchase from some of the companies that are owned by JD Sports between November 2018 and October 2020, your data may have been accessed by individuals who didn’t have permission to do so. JD Sports claims that the affected data was “limited” and did not include credit card details.
+
+From the [incident release](https://www.londonstockexchange.com/news-article/JD./cyber-security-incident-regarding-historic-orders/15815662):
+
+> The affected JD Sports group brands are JD, Size?, Millets, Blacks, Scotts, and MilletSport.
+>
+> The affected data is limited. JD Sports does not hold full payment card data and, further, has no reason to believe that account passwords were accessed.
+>
+> The information that may have been accessed consists of the name, billing address, delivery address, email address, phone number, order details and the final four digits of payment cards of approximately 10 million unique customers.
+
+As we’ll see below, this data gives attackers a lot of wiggle room for deploying threats against the unwary.
+
+## A passing danger
+
+JD Sports says people impacted by the breach are being contacted about it, and it is being investigated. While it’s great that payment data hasn’t been taken, what’s on offer could well be enough for hackers to launch a campaign of [social engineering](https://www.malwarebytes.com/social-engineering) and/or [phishing](https://www.malwarebytes.com/phishing) attacks.
+
+There’s a lot you can do with an email/delivery address/phone number combination where stolen data is concerned. You should be on your guard for rogue phone calls, bogus emails, dubious letters through the post, and potentially all three.
+
+This kind of diligence can quickly become exhausting, which might mean you’ll become a bit more lax, and so a few months pass by and you forget all about this…which (if you’re unlucky) is just about the time the scammer decides to strike.
+
+## Verify any outreach
+
+If you’ve been caught up in this one, you should expect some form of communication from JD Sports in the very near future. There’s no word as to how this is supposed to happen, which means it could even be used as bait by a scammer. Unlikely, but not impossible.
+
+If you are contacted, you should obtain official contact details directly from the JD Sports website. You can confirm the legitimacy of the outreach and whatever contact details are given for you to make use of.
+
+Pay close attention to texts, emails, or other messaging in relation to **refunds**, **missing payments**, or **deliveries in transit**. Double check with your bank account, order history, and anything else you need to check to confirm the legitimacy of messages you receive. Fake parcels and deliveries, in particular, are wonderfully sneaky scam tactics and very successful.
+
+Stay safe out there!
+
+---
+
+**We don’t just report on threats—we remove them**
+
+Cybersecurity risks should never spread beyond a headline. Keep threats off your devices by [downloading Malwarebytes today](https://w...

@@ -1,0 +1,20 @@
+---
+title: 2025智能制造现状报告：AI驱动下的效率革命与安全挑战
+url: https://mp.weixin.qq.com/s?__biz=MzUyMDQ4OTkyMg==&mid=2247550185&idx=1&sn=ea0db34b31926eb62ec3d27bb46cd233
+source: Doonsec's feed
+date: 2025-09-03
+fetch_date: 2025-10-02T19:33:00.412262
+---
+
+# 2025智能制造现状报告：AI驱动下的效率革命与安全挑战
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

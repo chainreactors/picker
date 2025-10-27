@@ -1,0 +1,181 @@
+---
+title: TikTok dances to the tune of $5.4m cookie fine
+url: https://www.malwarebytes.com/blog/news/2023/01/tiktok-dances-to-the-tune-of-5.4m-cookie-fine
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-18
+fetch_date: 2025-10-04T04:13:58.188265
+---
+
+# TikTok dances to the tune of $5.4m cookie fine
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Cookie consent](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file72105_254150.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# TikTok dances to the tune of $5.4m cookie fine
+
+Posted: January 16, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+The big social media fines just keep coming. Hot on the heels of Meta experiencing a [$277m fine from the Irish Data Protection Commission](https://www.malwarebytes.com/blog/news/2022/11/mega-facebook-data-breach-sees-meta-fined-277m), it’s now TikTok’s turn in the spotlight thanks to a [cookie crumble](https://www.reuters.com/technology/french-data-protection-watchdog-fines-tiktok-5-million-euros-over-cookie-2023-01-12/). Can you walk into a huge fine in 2023 for making it difficult to refuse a cookie as easily as it might be to accept it? As it happens, you absolutely can, as TikTok is now finding out.
+
+Commission nationale de l’informatique et des libertés ([CNIL](https://www.cnil.fr/en/home)) in France has [fined TikTok UK and TikTok Ireland €5M](https://www.bleepingcomputer.com/news/security/tiktok-slapped-with-54-million-fine-over-cookie-opt-out-feature/) ($5.4M) for failing to comply with obligations set out in Article 82 of the French Data Protection Act.
+
+While some of us may consider [cookies](https://www.malwarebytes.com/cybersecurity/computer/what-are-tracking-cookies) to be a bit boring, there’s a lot more to it than complaining about those pop ups on every website. You can guarantee the accountants looking at the latest fines stacking up at their business are very interested indeed.
+
+## A fine old time
+
+From the [CNIL announcement](https://www.cnil.fr/en/cookies-cnil-fines-tiktok-5-million-euros):
+
+> “During the inspection carried out in June 2021, the CNIL noted that although the companies TIKTOK UK and TIKTOK IRELAND did offer a button allowing immediate acceptance of cookies, they did not put in place an equivalent solution (button or other) to allow the Internet user to refuse their deposit as easily. Several clicks were required to refuse all cookies, as opposed to just one to accept them.”
+
+When it came to light that this mechanic was in place for cookies, the CNIL stance was that this process discouraged individuals from opting out or refusing. Instead, users chose the path of least resistance and agreed to what was put in front of them. This, in combination with information about the purpose of the cookies not being sufficiently accurate, was enough to incur the wrath of the CNIL.
+
+## Playing the waiting game
+
+According to Bleeping Computer, TikTok received several warnings about this issue, with initial findings coming from [a report in June 2021](https://www.infosecurity-magazine.com/news/tiktok-fined-over-5m-for-cookie/). Despite this, a proper reject all button was not implemented, nor given a “prominent position”, until February 2022.
+
+This is one of many large fines dished out by CNIL, and this is definitely something we’ll be seeing more of down the line. In terms of the cookie notification/consent issues themselves, it all feels a bit like a [Roach Motel](https://en.wikipedia.org/wiki/Dark_pattern%23Roach_motel) from the Dark Pattern playbook. This is a common marketing or advertising tactic where you make it easy to get in, but much harder to get out.
+
+## The dark patterns of cookie consent
+
+Dark patterns are very much relevant to the subject of cookie disclosure and notification. Some of the [biggest fines handed out in recent years](https://www.cookieyes.com/blog/gdpr-fines/) have been cookie related, and some even mention the dark pattern aspect in relation to cookies. If you have o...

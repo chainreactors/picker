@@ -1,0 +1,92 @@
+---
+title: My impression of Botconf 2025
+url: https://maxkersten.nl/2025/05/27/my-impression-of-botconf-2025/
+source: Max Kersten
+date: 2025-05-28
+fetch_date: 2025-10-06T22:30:46.994132
+---
+
+# My impression of Botconf 2025
+
+[Skip to content](#content "Skip to content")
+
+[Max Kersten](https://maxkersten.nl/)
+
+Security through explanation
+
+Menu
+
+* [Home](https://maxkersten.nl/)
+* [Blog](https://maxkersten.nl/blog/)
+* [Binary Analysis Course](https://maxkersten.nl/binary-analysis-course/)
+  + [Introduction](https://maxkersten.nl/binary-analysis-course/introduction/)
+    - [Practical case: Secura Grand Slam CTF “Easy Reverse”](https://maxkersten.nl/binary-analysis-course/introduction/secura-grand-slam-ctf-easy-reverse/)
+    - [The workstation](https://maxkersten.nl/binary-analysis-course/introduction/the-workstation/)
+    - [Basic CPU architecture](https://maxkersten.nl/binary-analysis-course/introduction/basic-cpu-architecture/)
+  + [Assembly basics](https://maxkersten.nl/binary-analysis-course/assembly-basics/)
+    - [Conditions and loops](https://maxkersten.nl/binary-analysis-course/assembly-basics/conditions-and-loops/)
+    - [Practical case: Patch Me 0x01](https://maxkersten.nl/binary-analysis-course/assembly-basics/practical-case-patch-me-0x01/)
+    - [Methods and macros: the call stack](https://maxkersten.nl/binary-analysis-course/assembly-basics/methods-and-macros-the-call-stack/)
+    - [Practical case: Buffer Overflow 0x01](https://maxkersten.nl/binary-analysis-course/assembly-basics/practical-case-buffer-overflow-0x01/)
+    - [Crash course](https://maxkersten.nl/binary-analysis-course/assembly-basics/crash-course/)
+    - [Practical case: Crack Me 0x01](https://maxkersten.nl/binary-analysis-course/assembly-basics/practical-case-crack-me-0x01/)
+    - [Practical case: Crack Me 0x02](https://maxkersten.nl/binary-analysis-course/assembly-basics/practical-case-crack-me-0x02/)
+    - [Practical case: Crack Me 0x03](https://maxkersten.nl/binary-analysis-course/assembly-basics/practical-case-crack-me-0x03/)
+  + [Assembly code](https://maxkersten.nl/binary-analysis-course/assembly-code/)
+    - [Hello world](https://maxkersten.nl/binary-analysis-course/assembly-code/hello-world/)
+    - [Universal Product Code calculator](https://maxkersten.nl/binary-analysis-course/assembly-code/universal-product-code-calculator/)
+    - [Debugging code](https://maxkersten.nl/binary-analysis-course/assembly-code/debugging-code/)
+  + [Binary types](https://maxkersten.nl/binary-analysis-course/binary-types/)
+    - [Dot Net](https://maxkersten.nl/binary-analysis-course/binary-types/dot-net/)
+    - [Android](https://maxkersten.nl/binary-analysis-course/binary-types/android/)
+    - [Browser plug-in](https://maxkersten.nl/binary-analysis-course/binary-types/browser-plug-in/)
+  + [Common techniques](https://maxkersten.nl/binary-analysis-course/common-techniques/)
+    - [General techniques](https://maxkersten.nl/binary-analysis-course/common-techniques/general-techniques/)
+    - [Analysing scripts](https://maxkersten.nl/binary-analysis-course/common-techniques/analysing-scripts/)
+    - [Debugging Dot Net binaries](https://maxkersten.nl/binary-analysis-course/common-techniques/debugging-dot-net-binaries/)
+  + [Malware analysis](https://maxkersten.nl/binary-analysis-course/malware-analysis/)
+    - [Dot Net RAT](https://maxkersten.nl/binary-analysis-course/malware-analysis/dot-net-rat/)
+    - [Android SMS Stealer](https://maxkersten.nl/binary-analysis-course/malware-analysis/android-sms-stealer/)
+    - [LNK & ISESteroids Powershell dropper](https://maxkersten.nl/binary-analysis-course/malware-analysis/lnk-isesteroids-powershell-dropper/)
+    - [Emotet droppers](https://maxkersten.nl/binary-analysis-course/malware-analysis/emotet-droppers/)
+    - [Magecart](https://maxkersten.nl/binary-analysis-course/malware-analysis/magecart/)
+    - [Corona DDoS bot](https://maxkersten.nl/binary-analysis-course/malware-analysis/corona-ddos-bot/)
+    - [Azorult loader stages](https://maxkersten.nl/binary-analysis-course/malware-analysis/azorult-loader-stages/)
+    - [Emotet JavaScript downloader](https://maxkersten.nl/binary-analysis-course/malware-analysis/emotet-javascript-downloader/)
+    - [Corona Locker](https://maxkersten.nl/binary-analysis-course/malware-analysis/corona-locker/)
+    - [ReZer0v4 loader](https://maxkersten.nl/binary-analysis-course/malware-analysis/rezer0v4-loader/)
+    - [Dumping WhisperGate’s wiper from an Eazfuscator obfuscated loader](https://maxkersten.nl/binary-analysis-course/malware-analysis/dumping-whispergates-wiper-from-an-eazfuscator-obfuscated-loader/)
+  + [Analysis scripts](https://maxkersten.nl/binary-analysis-course/analysis-scripts/)
+    - [PowerShell string formatting deobfuscation](https://maxkersten.nl/binary-analysis-course/analysis-scripts/automatic-string-formatting-deobfuscation/)
+    - [JavaScript string concatenation deobfuscation](https://maxkersten.nl/binary-analysis-course/analysis-scripts/javascript-string-concatenation-deobfuscation/)
+    - [Automatic ReZer0 payload and configuration extraction](https://maxkersten.nl/binary-analysis-course/analysis-scripts/automatic-rezer0-payload-and-configuration-extraction/)
+    - [Ghidra script to decrypt strings in Amadey 1.09](https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-decrypt-strings-in-amadey-1-09/)
+    - [Ghidra script to decrypt a string array in XOR DDoS](https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-decrypt-a-string-array-in-xor-ddos/)
+    - [Ghidra script to handle stack strings](https://maxkersten.nl/binary-analysis-course/analysis-scripts/ghidra-script-to-handle-stack-strings/)
+  + [Malware snippets](https://maxkersten.nl/binary-analysis-course/malware-snippets/)
+    - [Self Deletion](https://maxkersten.nl/binary-analysis-course/malware-snippets/self-deletion/)
+    - [API Hashing](https://maxkersten.nl/binary-analysis-course/malware-snippets/api-hashing/)
+  + [Obtaining samples](https://maxkersten.nl/binary-analysis-course/obtaining-samples/)
+    - [Searching samples](https://maxkersten.nl/binary-analysis-course/obtaining-samples/searching-samples/)
+  + [Documentation](https://maxkersten.nl/binary-analysis-course/documentation/)
+    - [Article structure](https://maxkersten.nl/binary-analysis-course/documentation/article-structure/)
+  + [Resources](https://maxkersten.nl/binary-analysis-course/resources/)
+  + [FAQ](https://maxkersten.nl/binary-analysis-course/faq/)
+  + [Miscellaneous](https://maxkersten.nl/binary-analysis-course/miscellaneous/)
+    - [A year in review: 2018-2019](https://maxkersten.nl/binary-analysis-course/miscellaneous/a-year-in-review-2018-2019/)
+    - [A year in review: 2019-2020](https://maxkersten.nl/binary-analysis-course/miscellaneous/a-year-in-review-2019-2020/)
+    - [A year in review: 2020-2021](https://maxkersten.nl/binary-analysis-course/miscellaneous/a-year-in-review-2020-2021/)
+    - [A year in review: 2021-2022](https://maxkersten.nl/binary-analysis-course/miscellaneous/a-year-in-review-2021-2022/)
+* [Libra’s Ghidra Library](https://maxkersten.nl/libras-ghidra-library/)
+* [Projects](https://maxkersten.nl/projects/)
+  + [AndroidProjectCreator](https://maxkersten.nl/projects/androidprojectcreator/)
+  + [m3 framework](https://maxkersten.nl/projects/m3-framework/)
+    - [Extending m3](https://maxkersten.nl/projects/m3-framework/extending-m3/)
+    - [Anubis and Cerberus explained](https://maxkersten.nl/projects/m3-framework/anubis-and-cerberus-explained/)
+  + [API client libraries](https://maxkersten.nl/projects/api-client-libraries/)
+    - [Hatching Triage Java API client](https://maxkersten.nl/projects/api-client-libraries/hatching-triage-java-api-client/)
+    - [MalShare Java API client](https://maxkersten.nl/projects/api-client-libraries/malshare-java-api-client/)
+    - [Malware Bazaar Java API client](https://maxkersten.nl/projects/api-client-libraries/malware-bazaar-java-api-client/)
+    - [Yaraify Java API client](https://maxkersten.nl/projects/api-client-libraries/yaraify-java-api-client/)
+  + [MalwareTheFlag](https://maxkersten.nl/projects/malwaretheflag/)
+  + [Responsible Disclosures](https://maxkersten.nl/projects/...

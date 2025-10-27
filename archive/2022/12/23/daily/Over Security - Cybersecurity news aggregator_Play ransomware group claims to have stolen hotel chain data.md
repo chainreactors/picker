@@ -1,0 +1,187 @@
+---
+title: Play ransomware group claims to have stolen hotel chain data
+url: https://www.malwarebytes.com/blog/news/2022/12/play-ransomware-group-claims-to-have-stolen-h-hotel-data
+source: Over Security - Cybersecurity news aggregator
+date: 2022-12-23
+fetch_date: 2025-10-04T02:21:59.517647
+---
+
+# Play ransomware group claims to have stolen hotel chain data
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Ransomware](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/12/asset_upload_file30951_253734.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Play ransomware group claims to have stolen hotel chain data
+
+Posted: December 21, 2022
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+H-Hotels, a large hospitality chain with 60 hotels across several countries including Germany and Switzerland has [announced it has fallen victim to a ransomware attack](https://www.bleepingcomputer.com/news/security/play-ransomware-claims-attack-on-german-hotel-chain-h-hotels/). The incident, which took place on December 11, is allegedly a double whammy of hijacked devices and data theft…if a [ransomware](https://www.malwarebytes.com/ransomware) group is telling the truth.
+
+## Another day, another ransomware press release
+
+From the [H-Hotel release](https://www.h-hotels.com/de/presse/cyberangriff-auf-h-hotels-com):
+
+*“…unknown persons carried out a cyber attack on the IT network of the hotel company H-Hotels.com, which led to restrictions in digital communication. The cyber attack was discovered by the hotel company’s IT security systems on Sunday. According to initial findings by internal and external IT specialists, cybercriminals managed to break through the extensive technical and organizational IT protection systems in a professional attack.”*
+
+The release goes on to say that although bookings are still taking place, email is unavailable as H-Hotels examines all systems to ensure they are no longer compromised. Importantly, H-Hotels claims that there is “no indication” that personal data has been stolen as a result of the attack.
+
+Sadly, this may no longer be the case if what a ransomware gang claims to be true turns out to be accurate.
+
+## Play time
+
+Play ransomware is a fairly new addition to the ransomware scene, most notably causing mayhem for the city of Antwerp not so long ago with [major digital systems coming to a standstill](https://www.malwarebytes.com/blog/news/2022/12/play-ransomware-attacks-government-agencies-and-their-providers). When the group claims a juicy target, they post up the details to their leak site alongside the data they claim to have stolen. The typical game plan is to encrypt files, and then threaten to leak files if their demands are not met.
+
+If you’re caught out by Play ransomware, you’ll know quite quickly on account of your files suddenly displaying the .play extension and a ReadMe.txt file containing little more than the word “Play” and an email address.
+
+Play has indeed claimed responsibility for this attack, with H-Hotels joining the growing list of guest appearances on the leak page. There is no indication how much data has been stolen, but the listing mentions “Private, personal data, clients documents, passports, ID, etc”. The proposed publication date for some or all of these files should demands not be met is currently tagged as December 27.
+
+Assuming this is true, it remains to be seen what H-Hotel’s next steps are.
+
+## Keeping ransomware at bay
+
+Tackling ransomware can feel overwhelming, especially as even the biggest of organisations fall victim to double or triple threat tactics. Even so, there are many options available to your organisation.
+
+1. **A little recovery time**
+
+   Don’t wait until ransomware is in your network and encrypting everything to ask if someone has a backup. Get ahead of the curve, and see if you can come up with a suitable and cost effective way to recover your data and prevent further encroachment on your network. When an attack happens, who is contacted first? Who is the emergency response? Which data is the most crucial and sen...

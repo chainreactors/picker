@@ -1,0 +1,20 @@
+---
+title: 报告：非洲网络犯罪日益严峻，2024年约发现5万起勒索攻击事件
+url: https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247514599&idx=1&sn=2bb9a8ff3b35957d04ab4ca0c1c0a4a4
+source: Doonsec's feed
+date: 2025-06-29
+fetch_date: 2025-10-06T22:52:42.535399
+---
+
+# 报告：非洲网络犯罪日益严峻，2024年约发现5万起勒索攻击事件
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

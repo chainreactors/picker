@@ -1,0 +1,20 @@
+---
+title: 明源云ERP报表服务GetErpConfig信息泄露漏洞
+url: https://mp.weixin.qq.com/s?__biz=Mzk0NTY5Nzc1OA==&mid=2247484032&idx=1&sn=deb1adbff41e2bd3dd94f372b38bd78f
+source: Doonsec's feed
+date: 2024-10-26
+fetch_date: 2025-10-06T18:49:17.224767
+---
+
+# 明源云ERP报表服务GetErpConfig信息泄露漏洞
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

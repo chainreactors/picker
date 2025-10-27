@@ -1,0 +1,198 @@
+---
+title: Own an older iPhone? Check you're on the latest version to avoid this bug
+url: https://www.malwarebytes.com/blog/news/2023/01/own-an-older-iphone-check-youre-on-the-latest-version-to-avoid-this-bug
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-26
+fetch_date: 2025-10-04T04:54:38.799311
+---
+
+# Own an older iPhone? Check you're on the latest version to avoid this bug
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![stitching an apple](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file15072_255760.png?w=736)
+
+[Mobile](https://www.malwarebytes.com/blog/category/mobile)
+| [Bugs](https://www.malwarebytes.com/blog/category/bugs)
+| [News](https://www.malwarebytes.com/blog/category/news)
+
+# Own an older iPhone? Check you’re on the latest version to avoid this bug
+
+Posted: January 24, 2023
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+In December, 2022, we [warned](https://www.malwarebytes.com/blog/news/2022/12/update-now-apple-patches-active-exploit-vulnerability-for-iphones) our readers about an actively exploited vulnerability in Apple’s WebKit. Back then we wondered why Apple specifically stated that the issue may have been actively exploited against versions of iOS released before iOS 15.1.
+
+At the time, our resident Apple expert Thomas Reed said that Apple has been known to release fixes for older systems when it is aware of active attacks taking place. And indeed, Apple has now released [security content for iOS 12.5.7](https://support.apple.com/en-us/HT213597). which includes a patch for this vulnerability.
+
+## Affected devices
+
+The patch is available for: iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation).
+
+The update may already have reached your device during your regular update routines, but it doesn’t hurt to check if your device is at the [latest update level](https://support.apple.com/en-us/HT201222).
+
+Here’s [how to update your iPhone or iPad.](https://support.apple.com/en-us/HT204204)
+
+Since the vulnerability we’ll discuss below is already being exploited, it’s important that you install the update your devices as soon as you can, if you haven’t already.
+
+## The vulnerability
+
+The bug ([CVE-2022-42856](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42856)) was found in WebKit which is Apple’s web rendering engine. In other words, WebKit is the browser engine that powers Safari and other apps.
+
+Apple says the impact of the vulnerability is that processing maliciously crafted web content may lead to arbitrary code execution. In essence this means an attacker can try to lure his victims to a malicious site to compromise their devices. But Apple has not disclosed any details about the circumstances under which the vulnerability was actively exploited.
+
+## Other updates
+
+There is also new security content [for  iOS 15.7.2 and iPadOS 15.7.2](https://support.apple.com/en-us/HT213531) and [security updates for a lot of other Apple software](https://support.apple.com/en-gb/HT201222).
+
+**SHARE THIS ARTICLE**
+
+[![X](https://www.malwarebytes.com/wp-content/themes/malwarebytes/assets/src/images/x-twitter-logo-grey.svg)](https://x.com/intent/tweet?text=Own%20an%20older%20iPhone%3F%20Check%20you%26%238217%3Bre%20on%20the%20latest%20version%20to%20avoid%20this%20bug%20https%3A%2F%2Fwww.malwarebytes.com%2Fblog%2Fnews%2F2023%2F01%2Fown-an-older-iphone-check-youre-on-the-latest-version-to-avoid-this-bug&via=Malwarebytes)
+
+#### RELATED ARTICLES
+
+[![Kido nursery chain logo](https://www.malwarebytes.com/wp-content/uploads/sites/2/2025/09/kido-logo.png?w=150&h=150&crop=1)](https://www.malwarebytes.com/blog/news/2025/10/from-threats-to-apology-hackers-pull-child-data-offline-after-public-backlash)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Privacy](https://www.malwarebytes.com/blog/category/privacy)
+
+## [From threats to apology, hackers pull child data offline after public backlash](https://www.malwarebytes.com/blog/news/2025/10/from-threats-to-apology-hackers-pull-child-data-offline-after-public-backlash)
+
+October 3, 2025 -...

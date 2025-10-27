@@ -1,0 +1,186 @@
+{
+    "机智的程序员小熊": {
+        "ChatGPT留给知乎、小红书的时间不多了": "https://coding3min.com/2216.html"
+    },
+    "SecWiki News": {
+        "SecWiki News 2023-02-11 Review": "http://www.sec-wiki.com/?2023-02-11"
+    },
+    "Security Boulevard": {
+        "Octopus Strike! Three Argo CD API Exploits In Two Weeks": "https://securityboulevard.com/2023/02/octopus-strike-three-argo-cd-api-exploits-in-two-weeks/",
+        "USENIX Security ’22 – Shubham Jain, Ana-Maria Crețu, Yves-Alexandre de Montjoye – ‘Adversarial Detection Avoidance Attacks: Evaluating The Robustness Of Perceptual Hashing-Based Client-Side Scanning’": "https://securityboulevard.com/2023/02/usenix-security-22-shubham-jain-ana-maria-cretu-yves-alexandre-de-montjoye-adversarial-detection-avoidance-attacks-evaluating-the-robustness-of-perceptual-hashing-based-client-side-s/"
+    },
+    "Twitter @Nicolas Krassas": {
+        "Powershell-Backdoor-Generator - Obfuscated Powershell Reverse Backdoor With Flipper Zero And USB Rubber Ducky Payloads": "https://twitter.com/Dinosn/status/1624465675002474498",
+        "Silicon reverse-engineering: the Intel 8086 processor's flag circuitry": "https://twitter.com/Dinosn/status/1624465598980685829",
+        "HTB: Photobomb": "https://twitter.com/Dinosn/status/1624430768826077186",
+        "Clop ransomware claims it breached 130 orgs using GoAnywhere zero-day": "https://twitter.com/Dinosn/status/1624430726421643269",
+        "Enigma, Vector, and TgToxic: The New Threats to Cryptocurrency Users": "https://twitter.com/Dinosn/status/1624428510948339715",
+        "We Hacked GitHub for a Month : Here’s What We Found": "https://twitter.com/Dinosn/status/1624319314487656448",
+        "Re @CyberXplore @Th3Pr0xyB0y Please put a link of the blog in your tweet :)": "https://twitter.com/Dinosn/status/1624319108425605121",
+        "LocalPotato - When Swapping The Context Leads You To SYSTEM": "https://twitter.com/Dinosn/status/1624287067118227457",
+        "DPRK fund malicious cyber activities with ransomware attacks on critical Infrastructure": "https://twitter.com/Dinosn/status/1624286604985610243",
+        "City of Oakland systems offline after ransomware attack": "https://twitter.com/Dinosn/status/1624275450615812096",
+        "A10 Networks confirms data breach after Play ransomware attack": "https://twitter.com/Dinosn/status/1624267716356964352",
+        "mast1c0re: Part 2 - Arbitrary PS2 code execution": "https://twitter.com/Dinosn/status/1624266345478062080",
+        "Reverse engineering an e-ink display": "https://twitter.com/Dinosn/status/1624266003319332869",
+        "Austrian ‘mobile concierge’ app Gustaffo leaking 100k customers’ data": "https://twitter.com/Dinosn/status/1624265960503840768",
+        "FireFly : an advanced black-box fuzzer and not just a standard asset discovery tool": "https://twitter.com/Dinosn/status/1624254879274237955",
+        "Active Malware Campaign Targeting Popular Python Packages Underway": "https://twitter.com/Dinosn/status/1624254842142093312",
+        "Ransomware crooks steal 3m+ patients' medical records, personal info": "https://twitter.com/Dinosn/status/1624253493371367425",
+        "Beware fake Facebook emails saying \"your page has been disabled\"": "https://twitter.com/Dinosn/status/1624253396780711938"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sat Feb 11 05:59:17 UTC 2023": "https://github.com/trickest/cve/commit/e1beb3429f86ba134fb621be15c019adb5a2c54f"
+    },
+    "先知安全技术社区": {
+        "域渗透GOAD(Game Of Active Directory) v2 （二）": "https://xz.aliyun.com/t/12138"
+    },
+    "unSafe.sh - 不安全": {
+        "PC CPU 出货量创 30 年来最大跌幅": "https://buaq.net/go-148985.html",
+        "微软 Surface、HoloLens 和 Xbox 部门裁员": "https://buaq.net/go-148976.html",
+        "亚马逊制作暗影蜘蛛侠真人剧集": "https://buaq.net/go-148977.html",
+        "阿里巴巴腾讯网易京东都宣布了各自的 AI 计划": "https://buaq.net/go-148968.html",
+        "Powershell-Backdoor-Generator - Obfuscated Powershell Reverse Backdoor With Flipper Zero And USB Rubber Ducky Payloads": "https://buaq.net/go-148967.html",
+        "网站访客统计PHP源码": "https://buaq.net/go-148959.html",
+        "CloudFlare Workers 反代任意网站和挂载单页代码": "https://buaq.net/go-148960.html",
+        "SSH终端修改为彩色显示（修改SSH颜色）": "https://buaq.net/go-148961.html",
+        "获取相机权限自动拍照上传到服务器（PHP代码）": "https://buaq.net/go-148962.html",
+        "TCPing 端口连接测试工具（Windows &amp; Linux）": "https://buaq.net/go-148963.html",
+        "Windows VPS DD重装为 Linux 一键脚本": "https://buaq.net/go-148964.html",
+        "引导小朋友正确使用电子产品，你可以这样设置他们的 Apple 设备": "https://buaq.net/go-148950.html",
+        "简约而小巧的PE系统 ComPE v7.0.5 Beta": "https://buaq.net/go-148947.html",
+        "Windows11 22621.1194 x64网卡版 2023.2（纯净完整版）": "https://buaq.net/go-148948.html",
+        "Windows10 22H2 x64网卡版 2023.2（纯净完整版）": "https://buaq.net/go-148949.html"
+    },
+    "嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com": {
+        "微软上线基于ChatGPT的Bing和Edge浏览器": "https://www.4hou.com/posts/nJEW",
+        "黑客攻击和控制智能电视的12种方式以及缓解建议": "https://www.4hou.com/posts/VZXv"
+    },
+    "No Headback": {
+        "下一次工业革命近在眼前了": "http://xargin.com/winter-is-coming/"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for OS Command Injection in Control-Webpanel Webpanel exploit": "https://sploitus.com/exploit?id=978A2437-6B5A-5A10-B488-CD324878F9BC&utm_source=rss&utm_medium=rss"
+    },
+    "obaby@mars": {
+        "是UPS吖（三）–-树莓派": "https://h4ck.org.cn/2023/02/%e6%98%afups%e5%90%96%ef%bc%88%e4%b8%89%ef%bc%89-%e6%a0%91%e8%8e%93%e6%b4%be/",
+        "是UPS吖（二）–-群晖": "https://h4ck.org.cn/2023/02/%e6%98%afups%e5%90%96%ef%bc%88%e4%ba%8c%ef%bc%89-%e7%be%a4%e6%99%96/",
+        "是UPS吖（一）–开箱": "https://h4ck.org.cn/2023/02/%e6%98%afups%e5%90%96%ef%bc%88%e4%b8%80%ef%bc%89-%e5%bc%80%e7%ae%b1/"
+    },
+    "ongoing by Tim Bray": {
+        "2023 Crocuses": "https://www.tbray.org/ongoing/When/202x/2023/02/11/Crocuses"
+    },
+    "SAP Blogs": {
+        "SAP BTP – How to enable SAP Event Mesh in Global Account": "https://blogs.sap.com/2023/02/11/sap-btp-how-to-enable-sap-event-mesh-in-global-account/",
+        "Embedded Steampunk – What’s under the hood? Part III": "https://blogs.sap.com/2023/02/11/embedded-steampunk-whats-under-the-hood-part-iii/",
+        "Configuring Custom Fields to the Country Specific corporate Data Models": "https://blogs.sap.com/2023/02/11/configuring-custom-fields-to-the-country-specific-corporate-data-models/",
+        "The Customer Portal Landscape: Empowering customers and improving business operations": "https://blogs.sap.com/2023/02/11/the-customer-portal-landscape-empowering-customers-and-improving-business-operations/",
+        "Everything about BW4HANA ADSOs.": "https://blogs.sap.com/2023/02/11/everything-about-bw4hana-adsos./",
+        "Monthly ABAP to EXCEL Blog – February 2023": "https://blogs.sap.com/2023/02/11/monthly-abap-to-excel-blog-february-2023/",
+        "SAP分析云2023年第一季度更新介绍": "https://blogs.sap.com/2023/02/11/sap%e5%88%86%e6%9e%90%e4%ba%912023%e5%b9%b4%e7%ac%ac%e4%b8%80%e5%ad%a3%e5%ba%a6%e6%9b%b4%e6%96%b0%e4%bb%8b%e7%bb%8d/",
+        "Stock transfer of Quality and Blocked stocks with EWM": "https://blogs.sap.com/2023/02/11/stock-transfer-of-quality-and-blocked-stocks-with-ewm/"
+    },
+    "Twitter @bytehx": {
+        "Re @Th3Pr0xyB0y Dammm that is very good write up! Congrats man!": "https://twitter.com/bytehx343/status/1624364307881558017",
+        "Re @cirriustech yep! absolutely": "https://twitter.com/bytehx343/status/1624199380436942848"
+    },
+    "Reverse Engineering": {
+        "Silicon reverse-engineering: the Intel 8086 processor's flag circuitry": "https://www.reddit.com/r/ReverseEngineering/comments/10zwgmc/silicon_reverseengineering_the_intel_8086/",
+        "mast1c0re: Part 2 - Arbitrary PS2 code execution": "https://www.reddit.com/r/ReverseEngineering/comments/10zaycy/mast1c0re_part_2_arbitrary_ps2_code_execution/",
+        "ESXiArgs Ransomware Analysis with @fwosar (OALABS)": "https://www.reddit.com/r/ReverseEngineering/comments/10zxpfd/esxiargs_ransomware_analysis_with_fwosar_oalabs/",
+        "Reverse engineering an e-ink display": "https://www.reddit.com/r/ReverseEngineering/comments/10zbimd/reverse_engineering_an_eink_display/"
+    },
+    "Wallarm": {
+        "Octopus Strike! Three Argo CD API Exploits In Two Weeks": "https://lab.wallarm.com/octopus-strike-three-argo-cd-api-exploits-in-two-weeks/"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "Powershell-Backdoor-Generator - Obfuscated Powershell Reverse Backdoor With Flipper Zero And USB Rubber Ducky Payloads": "http://www.kitploit.com/2023/02/powershell-backdoor-generator.html"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "PC CPU 出货量创 30 年来最大跌幅": "https://www.solidot.org/story?sid=74108",
+        "微软 Surface、HoloLens 和 Xbox 部门裁员": "https://www.solidot.org/story?sid=74107",
+        "亚马逊制作暗影蜘蛛侠真人剧集": "https://www.solidot.org/story?sid=74106",
+        "阿里巴巴腾讯网易京东都宣布了各自的 AI 计划": "https://www.solidot.org/story?sid=74105"
+    },
+    "黑海洋 - WIKI": {
+        "网站访客统计PHP源码": "https://blog.upx8.com/3220",
+        "CloudFlare Workers 反代任意网站和挂载单页代码": "https://blog.upx8.com/3219",
+        "SSH终端修改为彩色显示（修改SSH颜色）": "https://blog.upx8.com/3218",
+        "获取相机权限自动拍照上传到服务器（PHP代码）": "https://blog.upx8.com/3217",
+        "TCPing 端口连接测试工具（Windows &amp; Linux）": "https://blog.upx8.com/3216",
+        "Windows VPS DD重装为 Linux 一键脚本": "https://blog.upx8.com/3215",
+        "简约而小巧的PE系统 ComPE v7.0.5 Beta": "https://blog.upx8.com/3214",
+        "Windows11 22621.1194 x64网卡版 2023.2（纯净完整版）": "https://blog.upx8.com/3213",
+        "Windows10 22H2 x64网卡版 2023.2（纯净完整版）": "https://blog.upx8.com/3212"
+    },
+    "我的安全梦": {
+        "寂静猎手CVE平台交流群": "https://mp.weixin.qq.com/s?__biz=MzU3NDY1NTYyOQ==&mid=2247485477&idx=1&sn=140bf4d81606a27e03c04a743e0d879c&chksm=fd2e55c7ca59dcd1fb57224de2ed0a9bc98a9ac74126ceca5333e9b2e0fa38e22335548ee7e8&scene=58&subscene=0#rd"
+    },
+    "体验盒子": {
+        "ChatGPT热，一大波 ChatGPT 开源项目诞生了！": "https://www.uedbox.com/post/68725/"
+    },
+    "Il Disinformatico": {
+        "Starship: una foto dice tutto": "http://attivissimo.blogspot.com/2023/02/starship-una-foto-dice-tutto.html",
+        "Nuova perdita in un veicolo spaziale russo attraccato alla Stazione Spaziale Internazionale. Nessun pericolo immediato": "http://attivissimo.blogspot.com/2023/02/nuova-perdita-in-un-veicolo-spaziale.html"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Microsoft adding native RGB lighting controls in Windows 11": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adding-native-rgb-lighting-controls-in-windows-11/",
+        "Egghunter V - Sysax 5.53": "https://hacktips.it/egghunter-sysax/",
+        "NINAsec: sanzioni ai membri di Trickbot": "https://www.insicurezzadigitale.com/ninasec-sanzioni-ai-membri-di-trickbot/",
+        "Attacco hacker o semplice vulnerabilità?": "https://hackerjournal.it/11333/attacco-hacker-o-semplice-vulnerabilita/",
+        "$800,000 recovered from Business Email Compromise attack": "https://www.malwarebytes.com/blog/news/2023/02/800k-recovered-from-business-email-compromise-attack",
+        "Beware fake Facebook emails saying \"your page has been disabled\"": "https://www.malwarebytes.com/blog/news/2023/02/urgent-facebook-phish-claims-your-accounts-been-disabled",
+        "Reddit breached, here's what you need to know": "https://www.malwarebytes.com/blog/news/2023/02/reddit-systems-compromised-by-phish-attack.-heres-what-you-need-to-do-next",
+        "KillNet hits healthcare sector with DDoS attacks": "https://www.malwarebytes.com/blog/news/2023/02/killnet-group-targets-us-and-european-hospitals-with-ddos-attacks"
+    },
+    "Troy Hunt's Blog": {
+        "Weekly Update 334": "https://www.troyhunt.com/weekly-update-334/"
+    },
+    "Security Affairs": {
+        "Clop ransomware claims the hack of 130 orgs using GoAnywhere MFT flaw": "https://securityaffairs.com/142130/cyber-crime/clop-ransomware-goanywhere-mft.html",
+        "CISA adds Fortra MFT, TerraMaster NAS, Intel driver Flaws, to its Known Exploited Vulnerabilities Catalog": "https://securityaffairs.com/142115/hacking/mft-terramaster-intel-driver-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
+    "KitPloit - PenTest Tools!": {
+        "Powershell-Backdoor-Generator - Obfuscated Powershell Reverse Backdoor With Flipper Zero And USB Rubber Ducky Payloads": "http://www.kitploit.com/2023/02/powershell-backdoor-generator.html"
+    },
+    "Information Security": {
+        "Looking to interview someone in the IT/Cybersecurity field": "https://www.reddit.com/r/Information_Security/comments/1101jgj/looking_to_interview_someone_in_the/"
+    },
+    "Deep Web": {
+        "Cybercrime groups are hiring on the dark web": "https://www.reddit.com/r/deepweb/comments/10znwrj/cybercrime_groups_are_hiring_on_the_dark_web/",
+        "Are there any genuine classified government projects on the deep web?": "https://www.reddit.com/r/deepweb/comments/1100op6/are_there_any_genuine_classified_government/"
+    },
+    "Technical Information Security Content & Discussion": {
+        "Active Malware Campaign Targeting Popular Python Packages Underway": "https://www.reddit.com/r/netsec/comments/10z7lgs/active_malware_campaign_targeting_popular_python/",
+        "Understanding auditd logs for threat hunting": "https://www.reddit.com/r/netsec/comments/10zfc1s/understanding_auditd_logs_for_threat_hunting/",
+        "GitHub - dwisiswant0/gfx: A wrapper around grep, to help you grep for things! - Improved version of gf by @tomnomnom.": "https://www.reddit.com/r/netsec/comments/10zn48n/github_dwisiswant0gfx_a_wrapper_around_grep_to/"
+    },
+    "The Hacker News": {
+        "New ESXiArgs Ransomware Variant Emerges After CISA Releases Decryptor Tool": "https://thehackernews.com/2023/02/new-esxiargs-ransomware-variant-emerges.html",
+        "Enigma, Vector, and TgToxic: The New Threats to Cryptocurrency Users": "https://thehackernews.com/2023/02/enigma-vector-and-tgtoxic-new-threats.html",
+        "CISA Warns of Active Attacks Exploiting Fortra MFT, TerraMaster NAS, and Intel Driver Flaws": "https://thehackernews.com/2023/02/cisa-warns-of-active-attacks-exploiting.html"
+    },
+    "Social Engineering": {
+        "Art of trolling": "https://www.reddit.com/r/SocialEngineering/comments/10zy70i/art_of_trolling/"
+    },
+    "The Register - Security": {
+        "Ransomware crooks steal 3m+ patients' medical records, personal info": "https://go.theregister.com/feed/www.theregister.com/2023/02/11/ransomware_regal_medical_group/"
+    },
+    "TorrentFreak": {
+        "Mystery as Major Pirate IPTV Lawsuit Finds Itself Quietly Dismissed": "https://torrentfreak.com/mystery-as-major-pirate-iptv-lawsuit-finds-itself-quietly-dismissed-230211/"
+    },
+    "Your Hacking Tutorial by Zempirians": {
+        "Creating Custom John the Ripper wordlist": "https://www.reddit.com/r/HowToHack/comments/10zuupk/creating_custom_john_the_ripper_wordlist/",
+        "Best video paid/free resources to start with ethical web hacking?": "https://www.reddit.com/r/HowToHack/comments/10zhbah/best_video_paidfree_resources_to_start_with/",
+        "What is a good alternative to metasploits meterpreter RAT that runs on macOS?": "https://www.reddit.com/r/HowToHack/comments/10z9c0j/what_is_a_good_alternative_to_metasploits/"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "Anyone have experience with SANS.edu?": "https://www.reddit.com/r/netsecstudents/comments/10zq0qk/anyone_have_experience_with_sansedu/",
+        "To what extent do web app security professionals need to understand web development?": "https://www.reddit.com/r/netsecstudents/comments/10zwtq9/to_what_extent_do_web_app_security_professionals/",
+        "Looking for an offensive security course covering cobalt strike and bloodhound with labs.": "https://www.reddit.com/r/netsecstudents/comments/10zc0nv/looking_for_an_offensive_security_course_covering/",
+        "i just downloaded one of the apps i trust but didn't work so i checked in their website to find out they've been hacked i gave the app \"only this time\" permission, i factory reset my phone am i gonna be safe?": "https://www.reddit.com/r/netsecstudents/comments/10zzfvv/i_just_downloaded_one_of_the_apps_i_trust_but/"
+    },
+    "Dark Space Blogspot": {
+        "Come Funziona Nostr: Il Vero Social Senza Censura": "http://darkwhite666.blogspot.com/2023/02/come-funziona-nostr-il-vero-social.html"
+    }
+}

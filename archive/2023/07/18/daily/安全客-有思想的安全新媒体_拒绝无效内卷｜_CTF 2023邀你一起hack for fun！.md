@@ -1,0 +1,275 @@
+---
+title: 拒绝无效内卷｜*CTF 2023邀你一起hack for fun！
+url: https://www.anquanke.com/post/id/289776
+source: 安全客-有思想的安全新媒体
+date: 2023-07-18
+fetch_date: 2025-10-04T11:52:49.925926
+---
+
+# 拒绝无效内卷｜*CTF 2023邀你一起hack for fun！
+
+首页
+
+阅读
+
+* [安全资讯](https://www.anquanke.com/news)
+* [安全知识](https://www.anquanke.com/knowledge)
+* [安全工具](https://www.anquanke.com/tool)
+
+活动
+
+社区
+
+学院
+
+安全导航
+
+内容精选
+
+* [专栏](/column/index.html)
+* [精选专题](https://www.anquanke.com/subject-list)
+* [安全KER季刊](https://www.anquanke.com/discovery)
+* [360网络安全周报](https://www.anquanke.com/week-list)
+
+# 拒绝无效内卷｜\*CTF 2023邀你一起hack for fun！
+
+阅读量**344766**
+
+发布时间 : 2023-07-17 14:36:10
+
+**x**
+
+##### 译文声明
+
+本文是翻译文章
+
+译文仅供参考，具体内容表达以及含义原文为准。
+
+![]()
+
+#
+
+## 活动简介：
+
+7月29日-7月30日，\*CTF 2023将重磅开赛。本届 \*CTF 2022由XCTF国际联赛的合作单位六星战队组织，由赛宁网安提供技术支持。作为第八届XCTF国际联赛分站赛，本次比赛将采用在线网络安全夺旗挑战赛的形式，面向全球开放。此次比赛冠军队伍将直接晋级第八届XCTF总决赛（总决赛具体时间地点待定，将在确定后通知获得资格的国际和国内队伍），其他参赛队伍也将获得相应积分，来竞争总决赛的其他席位。
+
+## 活动时间：
+
+2023年07月29日09:00-2023年07月30日09:00
+
+#
+
+## 活动地点：
+
+线上
+
+##
+
+## 主办方：
+
+XCTF联赛
+
+## 活动内容：
+
+**竞赛奖金**
+
+第一名 8000元（20%个人所得税）+第八届 XCTF 总决赛名额
+
+第二名 5000元（20%个人所得税）
+
+第三名 3000元（20%个人所得税）
+
+**题目类别**
+
+Crypto 、Reverse、Misc、Pwn 、Web
+
+**得分排名**
+
+大多数情况下，flag的形式为*CTF{this\_is\_a\_sample\_flag}，请提交包含*CTF{}的完整flag，来进行得分；如果flag是其他形式，题目中会阐明；
+
+采用动态分值，每道题目的分值将根据解出队伍的数量进行动态计分；
+
+最终排名根据每个队伍的总分确定，在多个队伍得分相同的情况下，越早达到这一分值的排名越高。
+
+**竞赛规则**
+
+参赛队伍如有任何违规行为，将被取消比赛资格；
+
+禁止不同参赛队伍合作，或者共享flag、hint等任何比赛相关信息；
+
+禁止攻击比赛平台，如果发现平台漏洞，请务必向我们报告；
+
+禁止在比赛中妨碍其他队伍解题，例如当你解完一道题后对环境进行破坏；
+
+禁止往比赛平台发送大量流量，没有任何题目需要使用扫描器；
+
+禁止对提交的flag进行爆破；
+
+获奖的队伍必须提交完整解题报告；
+
+大赛主办方有权修改包括赛题、规则等一切事项。
+
+**竞赛网址**
+
+http://starctf2023.xctf.org.cn
+
+**联系方式**
+
+Discord: https://discord.gg/KGbrSK8y8g
+
+QQ群：512066352​​​​
+
+## 活动亮点：
+
+7月29日09:00-30日09:00
+
+\*CTF 2023 再度回归
+
+由复旦大学\*\*\*\*\*\*战队倾力打造
+
+赛题一如既往质量与趣味并存
+
+知识量与时效性双高
+
+结合时下最新安全漏洞
+
+专注底层逻辑思考
+
+注重知识点本身
+
+拒绝无效内卷
+
+这一次，来玩儿就对了！
+
+本文翻译自 原文链接。如若转载请注明出处。
+
+商务合作，文章发布请联系 anquanke@360.cn
+
+本文由**XCTF联赛小秘**原创发布
+
+转载，请参考[转载声明](https://www.anquanke.com/note/repost)，注明出处： [https://www.anquanke.com/post/id/289776](/post/id/289776)
+
+安全KER - 有思想的安全新媒体
+
+本文转载自:
+
+如若转载,请注明出处：
+
+安全KER - 有思想的安全新媒体
+
+分享到：![微信](https://p0.ssl.qhimg.com/sdm/28_28_100/t01e29062a5dcd13c10.png)
+
+* [XCTF](/tag/XCTF)
+
+**+1**14赞
+
+收藏
+
+![](https://wx.qlogo.cn/mmopen/vi_32/UvSmlO9X7kI6M4CmLCWsMrbbPhnneK0foHrJfEpNBH1vwkxYBzuPK5r3O9dsiaYYUE19e2Aib0icTKt11KIUhfnNA/132)XCTF联赛小秘
+
+分享到：![微信](https://p0.ssl.qhimg.com/sdm/28_28_100/t01e29062a5dcd13c10.png)
+
+## 发表评论
+
+您还未登录，请先登录。
+
+[登录](/login/index.html)
+
+![](https://p4.ssl.qhimg.com/t014757b72460d855bf.png)
+
+[![](https://wx.qlogo.cn/mmopen/vi_32/UvSmlO9X7kI6M4CmLCWsMrbbPhnneK0foHrJfEpNBH1vwkxYBzuPK5r3O9dsiaYYUE19e2Aib0icTKt11KIUhfnNA/132)](/member.html?memberId=130527)
+
+[XCTF联赛小秘](/member.html?memberId=130527)
+
+xctf小秘
+
+* 文章
+* **60**
+
+* 粉丝
+* **1**
+
+### TA的文章
+
+* ##### [赛宁网安大模型四件套重磅发布！院士领衔，清华复旦老师最佳实践指导](/post/id/304941)
+
+  2025-03-06 10:02:45
+* ##### [赛宁网安BAS+DeepSeek：一支永不跳槽的红队专家](/post/id/304868)
+
+  2025-03-03 11:47:21
+* ##### [与业界共鸣！赛宁网安引领“实用型靶场”建设，呼吁用户导向](/post/id/301903)
+
+  2024-12-11 17:30:19
+* ##### [IDC报告解读：实用型靶场将成为下一代网络靶场的必然方向](/post/id/301676)
+
+  2024-11-08 15:17:11
+* ##### [打通AI应用最后一公里 | 赛宁AI大模型系列产品重磅发布，让用户会用、好用、放心用大模型](/post/id/295260)
+
+  2024-04-03 10:50:49
+
+### 相关文章
+
+* ##### [SCTF 2023｜头号玩家 极客竞启](/post/id/289111)
+
+  2023-06-07 10:11:43
+* ##### [实战助力未来｜“饶派杯”XCTF车联网安全挑战赛圆满收官！](/post/id/289027)
+
+  2023-06-01 18:09:38
+* ##### [【聚焦】“饶派杯”XCTF车联网安全挑战赛即将开启！](/post/id/288766)
+
+  2023-05-18 18:04:44
+* ##### [活动 | RCTF 2022 勇者集结 战至荣耀](/post/id/283665)
+
+  2022-11-24 17:30:01
+* ##### [XCTF高校网络安全专题挑战赛 | 总决赛圆满落幕！](/post/id/280353)
+
+  2022-09-21 15:00:33
+* ##### [活动 | ACTF 2022 | 巅峰竞技，即刻起航！](/post/id/273974)
+
+  2022-06-07 17:30:27
+* ##### [活动 | 请回答0522线上直播 | 一支优秀的CTF战队，到底做对了哪些事？](/post/id/273206)
+
+  2022-05-17 17:30:59
+
+### 热门推荐
+
+文章目录
+
+* [活动简介：](#h2-0)
+* [活动时间：](#h2-1)
+* [活动地点：](#h2-2)
+* [主办方：](#h2-4)
+* [活动内容：](#h2-5)
+* [活动亮点：](#h2-6)
+
+![](https://p0.qhimg.com/t11098f6bcd5614af4bf21ef9b5.png)
+
+安全KER
+
+* [关于我们](/about)
+* [联系我们](/note/contact)
+* [用户协议](/note/protocol)
+* [隐私协议](/note/privacy)
+
+商务合作
+
+* [合作内容](/note/business)
+* [联系方式](/note/contact)
+* [友情链接](/link)
+
+内容需知
+
+* [投稿须知](https://www.anquanke.com/contribute/tips)
+* [转载须知](/note/repost)
+* 官网QQ群：568681302
+
+合作单位
+
+* [![安全KER](https://p0.ssl.qhimg.com/t01592a959354157bc0.png)](http://www.cert.org.cn/)
+* [![安全KER](https://p0.ssl.qhimg.com/t014f76fcea94035e47.png)](http://www.cnnvd.org.cn/)
+
+Copyright © 北京奇虎科技有限公司 三六零数字安全科技集团有限公司 安全KER All Rights Reserved [京ICP备08010314号-66](https://beian.miit.gov.cn/)[![](https://icon.cnzz.com/img/pic.gif)](https://www.cnzz.com/stat/website.php?web_id=1271278035 "站长统计")
+
+微信二维码
+
+**X**![安全KER](https://p0.ssl.qhimg.com/t0151209205b47f2270.jpg)

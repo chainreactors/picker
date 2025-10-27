@@ -1,0 +1,20 @@
+---
+title: 机遇与挑战
+url: https://mp.weixin.qq.com/s?__biz=MzkzMDM5NzIwMw==&mid=2247484518&idx=1&sn=861dfb406410914241c67defe6d91ec6
+source: Doonsec's feed
+date: 2025-02-05
+fetch_date: 2025-10-06T20:32:31.026137
+---
+
+# 机遇与挑战
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

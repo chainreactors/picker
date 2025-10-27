@@ -1,0 +1,188 @@
+---
+title: Video game playing FISH live streams credit card 'theft'
+url: https://www.malwarebytes.com/blog/news/2023/01/video-game-playing-fish-live-streams-credit-card-theft
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-27
+fetch_date: 2025-10-04T05:00:03.734412
+---
+
+# Video game playing FISH live streams credit card 'theft'
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![fish](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file77328_255759.png?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Video game playing FISH live streams credit card ‘theft’
+
+Posted: January 25, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+A fish is in hot water (metaphorically speaking) after having performed some incredible antics on a video game live stream. The fish, known for playing popular video game titles to completion on live streams, decided to take that whole gamer lifestyle thing a little too far and went on a rip-roaring crime rampage which [came to a grand total of about 4 dollars](https://news.sky.com/story/pet-fish-spend-cash-and-expose-nintendo-switch-owners-credit-card-during-pokemon-live-stream-12793603).
+
+Shall we take look? The answer, of course, is “Yes please, immediately”.
+
+## The wacky world of alternative video game controllers
+
+Gamers have long since made their streams more interesting than watching someone play a game. Some streamers make performance part of the act of playing the game, and use all manner of odd objects and accessories to play a title. For example, folks used [ultrasonic sensors](https://www.pcworld.com/article/1339124/real-trombone-champs-play-trombone-champ-with-real-trombones.html) to play Trombone Champ with real and home made trombones. Someone else beat one of the toughest bosses in Elden Ring while [using a Dance Pad](https://www.eurogamer.net/twitch-streamer-defeats-elden-rings-malenia-in-dance-pad-and-controller-simultaneous-challenge-run).
+
+Elsewhere, people make use of sensors and have their pets “play” video games. The star of our fishy tale has already completed an earlier version of Pokemon by using a grid corresponding to button presses tracked by a camera [sending commands to a circuit board](https://www.gamingbible.co.uk/news/games-after-3000-hours-a-pet-fish-has-completed-pokemon-ruby-20201107).  The fish completed the game in 3,000 hours, which to be fair is still a lot less than many people spend playing a massively multiplayer title.
+
+The fish was due to thunder into action once more with the release of the newest Pokemon game. We’ve all heard the horror stories of unattended children spending vast fortunes on credit card purchases while the parents are out of the room. On this occasion, the child is fish shaped and the vast fortune is four dollars.
+
+It still counts though.
+
+## A fishy heist
+
+How did our intrepid phish manage to get its fins on the four dollars in question, I hear you ask? Well, the owner hadn’t accounted for two horrible possibilities.
+
+**One**: that the game would crash.
+
+**Two**: that the game would crash while they were off doing something entirely unrelated to a fish playing video games.
+
+While the owner is away, the Pokemon loving fish will play. When the game crashed, the Switch exited to desktop but the fish was still in control. Lots of random button presses eventually resulted in our fishy friend managing to perform the following [incredible and hilarious actions](https://www.techspot.com/news/97334-pet-fish-commits-credit-card-fraud-owner-using.html):
+
+* Opening up the Switch store (twice!)
+* Adding four dollar’s worth of funds to the owner’s account with stored card details.
+* Purchasing a new avatar.
+* Downloading an N64 emulator, because if the fish wanted to play Goldeneye it wouldn’t surprise me at this point.
+* Triggering a confirmation email.
+* Changing the account name to ROWAWAWAWA¥. Any resemblance to the words “row away” are both entirely fitting and absolutely intentional. This fish is going to be on an FBI ‘Wanted’ poster within the next six mon...

@@ -1,0 +1,171 @@
+---
+title: Ransomware gunning for transport sector's OT systems next
+url: https://www.malwarebytes.com/blog/news/2023/03/ransomware-gunning-for-transport-sectors-ot-systems-next
+source: Over Security - Cybersecurity news aggregator
+date: 2023-03-29
+fetch_date: 2025-10-04T11:03:06.276955
+---
+
+# Ransomware gunning for transport sector's OT systems next
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![human and product transport services](https://www.threatdown.com/wp-content/uploads/2023/03/asset_upload_file30880_262505.jpg?w=736)
+
+[News](https://www.threatdown.com/blog/category/news/), [Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+## Ransomware gunning for transport sector’s OT systems next
+
+March 27, 2023
+
+[Mark Stockley](https://www.threatdown.com/blog/author/mstockleymalwarebytes-com/)
+
+ENISA (the European Union Agency for Cybersecurity) has reason to believe that ransomware gangs will begin targeting transportation operational technology (OT) systems in the foreseeable future. This finding is further explored in the agency’s 50-page report entitled [ENISA Threat Landscape: Transport Sector](https://www.enisa.europa.eu/publications/enisa-transport-threat-landscape).
+
+The transportation sector, which comprises the aviation, maritime, railway, and road industries, is a subgroup under the industrial sector, according to the [Global Industry Classification Standard (GICS)](https://www.investopedia.com/terms/g/gics.asp). It doesn’t only deal with the movement of people but also of products. An OT system ensures transport services are safe, reliable, and available.
+
+An OT system refers to the hardware and software directly involved in detecting, monitoring, and controlling processes and equipment. It interfaces with the physical world and is often part of a [nation’s critical infrastructure](https://www.malwarebytes.com/blog?s=vital%20infrastructure). Examples are Industrial Control Systems (ICS), Supervisory Control and Data Acquisition (SCADA), and Distributed Control Systems (DCS). These systems have been targeted and attacked by the [WannaCry](https://www.malwarebytes.com/wannacry), [Stuxnet](https://www.malwarebytes.com/stuxnet), and [Triton](https://www.mandiant.com/resources/blog/attackers-deploy-new-ics-attack-framework-triton) malware, respectively.
+
+ENISA says the three dominant threats to the transportation sector are ransomware (38 percent), data-related threats (30 percent), and malware (17 percent). However, each subgroup has reported experiencing other attack types than ransomware.
+
+The aviation industry, for example, has dealt with more data-related threats than others. Airline customer data and proprietary information of original equipment manufacturers (OEM)—companies that provide parts for another company’s finished product—are the primary targets of attackers in this subgroup.
+
+ENISA notes that most threat actors target IT systems, which can cause operational disruption. However, reports of OT being targeted have been rare. The agency believes this will change soon because of many factors, including ongoing digitization efforts within the industry that increase IT and OT connectivity, the high probability of companies paying ransom demands to avoid critical business and social impacts, and the increasing number of identified vulnerabilities within OT environments.
+
+The report also listed a number of observed cyberattack trends, such as the following, within the transportation industry:
+
+* Ransomware attacking industries within the transport sector has been on an uptick.
+* Fifty-four percent of the time, cybercriminals are responsible for attacks against the sector and its subgroups.
+* Hacktivist and DDoS (distributed denial of service) attacks will likely continue due to geopolitical tensions and ideological motives.
+* Hacktivists in the EU primarily targeted airports, railways, and transport authorities.
+* The top motivators for attacking the transport industry are financial gain (38 percent) and operational disruption (20 percent).
+
+From the report:
+
+> “The transport sector is considered a lucrative business for cybercriminals, with customer data considered a commodity and with highly valuable proprietary information when transport supply chain is being targeted.” …
+>
+> “While we have not observed notable **attacks on global positioning systems** [emphasis theirs], the potential...

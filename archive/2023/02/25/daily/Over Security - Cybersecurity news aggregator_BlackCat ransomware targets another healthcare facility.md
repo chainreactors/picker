@@ -1,0 +1,177 @@
+---
+title: BlackCat ransomware targets another healthcare facility
+url: https://www.malwarebytes.com/blog/news/2023/02/lehigh-valley-health-network-targeted-by-blackcat-ransomware
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-25
+fetch_date: 2025-10-04T08:06:26.582291
+---
+
+# BlackCat ransomware targets another healthcare facility
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![Typical modern hospital hallway](https://www.threatdown.com/wp-content/uploads/2023/02/asset_upload_file43876_259227.png?w=736)
+
+[News](https://www.threatdown.com/blog/category/news/), [Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+## BlackCat ransomware targets another healthcare facility
+
+February 23, 2023
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+In a statement issued Monday morning, Lehigh Valley Health Network said it had been the target of a cyberattack attributed to a ransomware gang known as BlackCat. The Network is made up of 13 hospital campuses, as well as other health facilities, and is based in Pennsylvania.
+
+## BlackCat
+
+The ransomware-as-a-service (RaaS) group BlackCat, also known as ALPHV and Noberus, is currently one of the most active groups, and has been associated with Russia. In our recent [February ransomware review](https://www.threatdown.com/blog/ransomware-review-february-2023/) it came in second after Lockbit, based on the number of known attacks.
+
+In December, 2022, the Office of Information Security and Health Sector Cybersecurity Coordination Center issued an extensive [Analyst Note](https://www.aha.org/system/files/media/file/2022/12/hc3-tlp-clear-analyst-note-blackcat-aka-alphv-12-12-22.pdf) which identified BlackCat as a “relatively new but highly-capable” ransomware threat to health care providers.
+
+BlackCat uses double extortion and sometimes triple extortion to make victims pay the ransom. That means that besides encrypting files, the gang also threaten to publish the stolen data on a so-called “leak site”, and at times, threaten their victims with [DDoS](https://www.malwarebytes.com/ddos) attacks.
+
+##
+
+## The attack
+
+According to the health network, the attack targeted the network supporting Delta Medix, a physician practice in Lackawanna County. The unauthorized activity was detected on February 6, 2023 and involved a computer system used for patient images for radiation oncology treatment and other sensitive information.
+
+The health network is investigating the full scope of the attack, but says services have not been disrupted, although its websites seem to be offline for the moment. It was unable to say yet whether any specific patient’s personal or sensitive information was compromised, but promised to inform any affected individuals if it discovers that was the case.
+
+## No ransom
+
+The Lehigh Valley Health Network said it has refused to pay a ransom, but did not disclose the demanded amount. According to the US Department of Health and Human Services (HHS) The BlackCat group has demanded ransoms as high as $1.5 million in previous cybersecurity attacks against the healthcare sector.
+
+Dr. Brian Nester, the health network’s president and CEO said:
+
+> “BlackCat demanded a ransom payment, but LVHN refused to pay this criminal enterprise. We understand that BlackCat has targeted other organizations in the academic and health care sectors. We are continuing to work closely with our cybersecurity experts to evaluate the information involved and will provide notices to individuals as required as soon as possible. Attacks like this are reprehensible and we are dedicating appropriate resources to respond to this incident.”
+
+Recent reports indicated that [ransomware revenue went significantly down over 2022](https://www.malwarebytes.com/blog/news/2023/01/ransomware-revenue-significantly-down-over-2022), likely due to companies’ increasing unwillingness to meet the ransom demands.
+
+## How to avoid ransomware
+
+* **Block common forms of entry**. Create a plan for [patching vulnerabilities](https://www.threatdown.com/products/patch-management/) in internet-facing systems quickly; disable or [harden remote access](https://www.malwarebytes.com/blog/news/2022/03/blunting-rdp-brute-force-attacks-with-rate-limiting) like RDP and VPNs; use [endpoint security software](https://www.threatdown.com/products/endpoint-detection-and-response/) that ca...

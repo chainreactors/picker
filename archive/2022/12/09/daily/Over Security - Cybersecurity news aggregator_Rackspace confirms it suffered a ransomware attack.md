@@ -1,0 +1,185 @@
+---
+title: Rackspace confirms it suffered a ransomware attack
+url: https://www.malwarebytes.com/blog/news/2022/12/rackspace-confirms-it-suffered-a-ransomware-attack
+source: Over Security - Cybersecurity news aggregator
+date: 2022-12-09
+fetch_date: 2025-10-04T01:01:57.888415
+---
+
+# Rackspace confirms it suffered a ransomware attack
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![Rackspace technology logo](https://www.threatdown.com/wp-content/uploads/2022/12/asset_upload_file2513_252070.png?w=736)
+
+[News](https://www.threatdown.com/blog/category/news/), [Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+## Rackspace confirms it suffered a ransomware attack
+
+December 8, 2022
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+It’s not been a great week for cloud computing service provider Rackspace.
+
+On December 2, customers began experiencing problems connecting and logging into their Exchange environments. Rackspace started [investigating](https://status.apps.rackspace.com/index/viewincidents?group=2) and discovered an issue that affected its Hosted Exchange environments.
+
+Now Rackspace has announced it was actually a ransomware incident that caused the service disruptions.
+
+While the investigation is ongoing, there are no details known about which ransomware is at play or how the threat actor gained initial access. In a [press release](https://www.rackspace.com/newsroom/rackspace-technology-hosted-exchange-environment-update) Rackspace said that the incident was isolated to its Hosted Exchange business. Rackspace has not showed up on any of the known leak sites that ransomware groups use to apply extra pressure on their victims, but this could also be due to the fact that there are ongoing negotiations.
+
+## Hosted Exchange
+
+Rackspace’s Hosted Exchange customers are mostly small to medium size businesses that don’t have the need or staff to run a dedicated on-premise Exchange server. The outage still affects all services in its Hosted Exchange environment, including MAPI/RPC, POP, IMAP, SMTP, and ActiveSync, as well as the Outlook Web Access (OWA) interface that provides access to online email management.
+
+## Workaround
+
+Rackspace said it will help affected customers implement a temporary forwarding while the disruption is ongoing:
+
+> “As a temporary solution while you set up Microsoft 365, it is possible to also implement a forwarding option that will allow mail destined for a Hosted Exchange user to be routed to an external email address. Please log in to your customer account for a ticket with instructions to request this option. Customers should reply to the ticket to request the forwarding rule be put into place for each of their users.”
+
+## Impact
+
+In an [8-K SEC filing](https://www.sec.gov/ix?doc=/Archives/edgar/data/0001810019/000119312522298940/d388117d8k.htm) Rackspace states that it expects a loss of revenue due to the ransomware attack’s impact on its $30 million Hosted Exchange business. An 8-K form is required to report any events concerning a company that could be of importance to the shareholders of that company or the Securities and Exchange Commission (SEC).
+
+## The attack vector
+
+One possible attack vector was [pointed out by security researcher Kevin Beaumont](https://doublepulsar.com/rackspace-cloud-office-suffers-security-breach-958e6c755d7f). It might be due to exploitation of the Microsoft Exchange vulnerabilities tracked as [CVE-2022-41040 and CVE-2022-41082](https://www.malwarebytes.com/blog/news/2022/09/two-new-exchange-zero-days-that-look-and-feel-like-proxyshell-part-2), known as ProxyNotShell.
+
+Beaumont found a Rackspace Exchange server cluster—currently offline—was running a build number from August 2022 a few days prior to the incident disclosure. Since the ProxyNotShell vulnerabilities were only fixed in November, it’s possible that threat actors exploited the flaws to breach Rackspace servers.
+
+One important conclusion Beaumont notes in his post is:
+
+> “For a [managed service provider (MSP)](https://www.threatdown.com/partner-program/msp/) running a shared cluster, such as Hosted Exchange, it means that one compromised account of one customer will compromise the entire hosted cluster.”
+
+This is what may have happened at Rackspace. Don’t let it happen to you.
+
+---
+
+**We don’t just report on threats—we remove them**
+
+Cyb...

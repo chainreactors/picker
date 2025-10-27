@@ -1,0 +1,183 @@
+---
+title: A private moment, caught by a Roomba, ended up on Facebook. Eileen Guo explains how: Lock and Code S04E03
+url: https://www.malwarebytes.com/blog/podcast/2023/01/a-private-moment-caught-by-a-roomba-ended-up-on-facebook-lock-and-code-s04e03
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-01
+fetch_date: 2025-10-04T05:23:01.392107
+---
+
+# A private moment, caught by a Roomba, ended up on Facebook. Eileen Guo explains how: Lock and Code S04E03
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![A private moment, caught by a Roomba, ended up on Facebook. Eileen Guo explains how: Lock and Code S04E03](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file34141_255797.jpg?w=736)
+
+[Podcast](https://www.malwarebytes.com/blog/category/podcast)
+
+# A private moment, caught by a Roomba, ended up on Facebook. Eileen Guo explains how: Lock and Code S04E03
+
+Posted: January 30, 2023
+ by [Malwarebytes Labs](https://www.malwarebytes.com/blog/authors/malwarebyteslabs)
+
+In 2020, a photo of a woman sitting on a toilet—her shorts pulled half-way down her thighs—was shared on Facebook, and it was shared by someone whose job it was to look at that photo and, by labeling the objects in it, help train an [artificial intelligence](https://www.malwarebytes.com/what-is-ai) system for a vacuum.
+
+Bizarre? Yes. Unique? No.
+
+In December, MIT Technology Review [investigated the data collection and sharing practices of the company iRobot](https://www.technologyreview.com/2022/12/19/1065306/roomba-irobot-robot-vacuums-artificial-intelligence-training-data-privacy/), the developer of the popular self-automated Roomba vacuums. In their reporting, MIT Technology Review discovered a series of 15 images that were all captured by development versions of Roomba vacuums. Those images were eventually shared with third-party contractors in Venezuela who were tasked with the responsibility of “annotation”—the act of labeling photos with identifying information. This work of, say, tagging a cabinet as a cabinet, or a TV as a TV, or a shelf as a shelf, would help the robot vacuums “learn” about their surroundings when inside people’s homes.
+
+In response to MIT Technology Review’s reporting, iRobot stressed that none of the images found by the outlet came from customers. Instead, the images were “from iRobot development robots used by paid data collectors and employees in 2020.” That meant that the images were from people who agreed to be part of a testing or “beta” program for non-public versions of the Roomba vacuums, and that everyone who participated had signed an agreement as to how iRobot would use their data.
+
+According to the company’s CEO in a [post on LinkedIn](https://www.linkedin.com/pulse/building-smart-robots-requires-responsible-colin-angle/): “Participants are informed and acknowledge how the data will be collected.”
+
+But after MIT Technology Review published its investigation, people who’d previously participated in iRobot’s testing environments reached out. [According to several of them, they felt misled](https://www.technologyreview.com/2022/12/19/1065306/roomba-irobot-robot-vacuums-artificial-intelligence-training-data-privacy/).
+
+Today, on the Lock and Code podcast with host David Ruiz, we speak with the investigative reporter of the piece, Eileen Guo, about how all of this happened, and about how, she said, this story illuminates a broader problem in data privacy today.
+
+> “What this story is ultimately about is that conversations about privacy, protection, and what that actually means, are so lopsided because we just don’t know what it is that we’re consenting to.”
+
+Tune in today.
+
+You can also find us on [Apple Podcasts](https://podcasts.apple.com/us/podcast/lock-and-code/id1500049667), [Spotify](https://open.spotify.com/show/3VB1MCXNk76TSddNNZcDuo?si=b454MPzCTYWvvS5bOPdxcA), and [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2xvY2thbmRjb2RlL2ZlZWQueG1s), plus whatever preferred podcast platform you use.
+
+*Show notes and credits:*
+
+Intro Music: “Spellbound” by Kevin MacLeod ([incompetech.com](http://incompetech.com/))
+Licensed under Creative Commons: By Attribution 4.0 License
+<http://c...

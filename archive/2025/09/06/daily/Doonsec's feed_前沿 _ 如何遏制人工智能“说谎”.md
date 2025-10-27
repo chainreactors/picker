@@ -1,0 +1,20 @@
+---
+title: 前沿 | 如何遏制人工智能“说谎”
+url: https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664248552&idx=4&sn=f1b05ef905986eec4fd80264b319f405
+source: Doonsec's feed
+date: 2025-09-06
+fetch_date: 2025-10-02T19:43:23.180239
+---
+
+# 前沿 | 如何遏制人工智能“说谎”
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

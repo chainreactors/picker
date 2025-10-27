@@ -1,0 +1,20 @@
+---
+title: 《多云环境安全能力构建技术指南》报告调研启动
+url: https://mp.weixin.qq.com/s?__biz=MjM5Njc3NjM4MA==&mid=2651137357&idx=1&sn=802b607532fc8cb1987d55556e1daad2
+source: Doonsec's feed
+date: 2025-07-01
+fetch_date: 2025-10-06T23:50:16.578554
+---
+
+# 《多云环境安全能力构建技术指南》报告调研启动
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

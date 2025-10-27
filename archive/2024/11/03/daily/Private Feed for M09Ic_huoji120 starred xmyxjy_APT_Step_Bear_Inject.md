@@ -1,0 +1,250 @@
+---
+title: huoji120 starred xmyxjy/APT_Step_Bear_Inject
+url: https://github.com/xmyxjy/APT_Step_Bear_Inject
+source: Private Feed for M09Ic
+date: 2024-11-03
+fetch_date: 2025-10-06T19:14:15.338845
+---
+
+# huoji120 starred xmyxjy/APT_Step_Bear_Inject
+
+[Skip to content](#start-of-content)
+
+## Navigation Menu
+
+Toggle navigation
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fqaqqwe33ddk%2FAPT_Step_Bear_Inject)
+
+Appearance settings
+
+* Platform
+
+  + [GitHub Copilot
+
+    Write better code with AI](https://github.com/features/copilot)
+  + [GitHub Spark
+    New
+
+    Build and deploy intelligent apps](https://github.com/features/spark)
+  + [GitHub Models
+    New
+
+    Manage and compare prompts](https://github.com/features/models)
+  + [GitHub Advanced Security
+
+    Find and fix vulnerabilities](https://github.com/security/advanced-security)
+  + [Actions
+
+    Automate any workflow](https://github.com/features/actions)
+
+  + [Codespaces
+
+    Instant dev environments](https://github.com/features/codespaces)
+  + [Issues
+
+    Plan and track work](https://github.com/features/issues)
+  + [Code Review
+
+    Manage code changes](https://github.com/features/code-review)
+  + [Discussions
+
+    Collaborate outside of code](https://github.com/features/discussions)
+  + [Code Search
+
+    Find more, search less](https://github.com/features/code-search)
+
+  Explore
+  + [Why GitHub](https://github.com/why-github)
+  + [Documentation](https://docs.github.com)
+  + [GitHub Skills](https://skills.github.com)
+  + [Blog](https://github.blog)
+
+  Integrations
+  + [GitHub Marketplace](https://github.com/marketplace)
+  + [MCP Registry](https://github.com/mcp)
+
+  [View all features](https://github.com/features)
+* Solutions
+
+  By company size
+  + [Enterprises](https://github.com/enterprise)
+  + [Small and medium teams](https://github.com/team)
+  + [Startups](https://github.com/enterprise/startups)
+  + [Nonprofits](/solutions/industry/nonprofits)
+
+  By use case
+  + [App Modernization](/solutions/use-case/app-modernization)
+  + [DevSecOps](/solutions/use-case/devsecops)
+  + [DevOps](/solutions/use-case/devops)
+  + [CI/CD](/solutions/use-case/ci-cd)
+  + [View all use cases](/solutions/use-case)
+
+  By industry
+  + [Healthcare](/solutions/industry/healthcare)
+  + [Financial services](/solutions/industry/financial-services)
+  + [Manufacturing](/solutions/industry/manufacturing)
+  + [Government](/solutions/industry/government)
+  + [View all industries](/solutions/industry)
+
+  [View all solutions](/solutions)
+* Resources
+
+  Topics
+  + [AI](/resources/articles/ai)
+  + [DevOps](/resources/articles/devops)
+  + [Security](/resources/articles/security)
+  + [Software Development](/resources/articles/software-development)
+  + [View all](/resources/articles)
+
+  Explore
+  + [Learning Pathways](https://resources.github.com/learn/pathways)
+  + [Events & Webinars](https://github.com/resources/events)
+  + [Ebooks & Whitepapers](https://github.com/resources/whitepapers)
+  + [Customer Stories](https://github.com/customer-stories)
+  + [Partners](https://github.com/partners)
+  + [Executive Insights](https://github.com/solutions/executive-insights)
+* Open Source
+
+  + [GitHub Sponsors
+
+    Fund open source developers](/sponsors)
+
+  + [The ReadME Project
+
+    GitHub community articles](https://github.com/readme)
+
+  Repositories
+  + [Topics](https://github.com/topics)
+  + [Trending](https://github.com/trending)
+  + [Collections](https://github.com/collections)
+* Enterprise
+
+  + [Enterprise platform
+
+    AI-powered developer platform](/enterprise)
+
+  Available add-ons
+  + [GitHub Advanced Security
+
+    Enterprise-grade security features](https://github.com/security/advanced-security)
+  + [Copilot for business
+
+    Enterprise-grade AI features](/features/copilot/copilot-business)
+  + [Premium Support
+
+    Enterprise-grade 24/7 support](/premium-support)
+* [Pricing](https://github.com/pricing)
+
+Search or jump to...
+
+# Search code, repositories, users, issues, pull requests...
+
+Search
+
+Clear
+
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+
+# Provide feedback
+
+We read every piece of feedback, and take your input very seriously.
+
+[ ]
+Include my email address so I can be contacted
+
+Cancel
+ Submit feedback
+
+# Saved searches
+
+## Use saved searches to filter your results more quickly
+
+Cancel
+ Create saved search
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fqaqqwe33ddk%2FAPT_Step_Bear_Inject)
+
+[Sign up](/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=qaqqwe33ddk%2FAPT_Step_Bear_Inject)
+
+Appearance settings
+
+Resetting focus
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+Dismiss alert
+
+{{ message }}
+
+[qaqqwe33ddk](/qaqqwe33ddk)
+/
+**[APT\_Step\_Bear\_Inject](/qaqqwe33ddk/APT_Step_Bear_Inject)**
+Public
+
+forked from [huoji120/APT\_Step\_Bear\_Inject](/huoji120/APT_Step_Bear_Inject)
+
+* [Notifications](/login?return_to=%2Fqaqqwe33ddk%2FAPT_Step_Bear_Inject) You must be signed in to change notification settings
+* [Fork
+  0](/login?return_to=%2Fqaqqwe33ddk%2FAPT_Step_Bear_Inject)
+* [Star
+   4](/login?return_to=%2Fqaqqwe33ddk%2FAPT_Step_Bear_Inject)
+
+复现《EDR的梦魇：Storm-0978使用新型内核注入技术“Step Bear”》
+
+[4
+stars](/qaqqwe33ddk/APT_Step_Bear_Inject/stargazers) [41
+forks](/qaqqwe33ddk/APT_Step_Bear_Inject/forks) [Branches](/qaqqwe33ddk/APT_Step_Bear_Inject/branches) [Tags](/qaqqwe33ddk/APT_Step_Bear_Inject/tags) [Activity](/qaqqwe33ddk/APT_Step_Bear_Inject/activity)
+
+[Star](/login?return_to=%2Fqaqqwe33ddk%2FAPT_Step_Bear_Inject)
+
+[Notifications](/login?return_to=%2Fqaqqwe33ddk%2FAPT_Step_Bear_Inject) You must be signed in to change notification settings
+
+* [Code](/qaqqwe33ddk/APT_Step_Bear_Inject)
+* [Pull requests
+  0](/qaqqwe33ddk/APT_Step_Bear_Inject/pulls)
+* [Actions](/qaqqwe33ddk/APT_Step_Bear_Inject/actions)
+* [Projects
+  0](/qaqqwe33ddk/APT_Step_Bear_Inject/projects)
+* [Security
+
+  ### Uh oh!
+
+  There was an error while loading. Please reload this page.](/qaqqwe33ddk/APT_Step_Bear_Inject/security)
+* [Insights](/qaqqwe33ddk/APT_Step_Bear_Inject/pulse)
+
+Additional navigation options
+
+* [Code](/qaqqwe33ddk/APT_Step_Bear_Inject)
+* [Pull requests](/qaqqwe33ddk/APT_Step_Bear_Inject/pulls)
+* [Actions](/qaqqwe33ddk/APT_Step_Bear_Inject/actions)
+* [Projects](/qaqqwe33ddk/APT_Step_Bear_Inject/projects)
+* [Security](/qaqqwe33ddk/APT_Step_Bear_Inject/security)
+* [Insights](/qaqqwe33ddk/APT_Step_Bear_Inject/pulse)
+
+# qaqqwe33ddk/APT\_Step\_Bear\_Inject
+
+master
+
+[Branches](/qaqqwe33ddk/APT_Step_Bear_Inject/branches)[Tags](/qaqqwe33ddk/APT_Step_Bear_Inject/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Folders and files
+
+| Name | | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- | --- |
+| Latest commit   History[3 Commits](/qaqqwe33ddk/APT_Step_Bear_Inject/commits/master/) | | |
+| [.gitattributes](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/.gitattributes ".gitattributes") | | [.gitattributes](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/.gitattributes ".gitattributes") |  |  |
+| [.gitignore](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/.gitignore ".gitignore") | | [.gitignore](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/.gitignore ".gitignore") |  |  |
+| [Resource.h](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/Resource.h "Resource.h") | | [Resource.h](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/Resource.h "Resource.h") |  |  |
+| [framework.h](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/framework.h "framework.h") | | [framework.h](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/framework.h "framework.h") |  |  |
+| [readme.md](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/readme.md "readme.md") | | [readme.md](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/readme.md "readme.md") |  |  |
+| [rpc.h](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/rpc.h "rpc.h") | | [rpc.h](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/rpc.h "rpc.h") |  |  |
+| [shit.cpp](/qaqqwe33ddk/APT_Step_Bear_Inject/blob/master/shit.cpp "shit.cpp") | | [shit.cpp](...

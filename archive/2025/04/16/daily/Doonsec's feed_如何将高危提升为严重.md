@@ -1,0 +1,20 @@
+---
+title: 如何将高危提升为严重
+url: https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497419&idx=1&sn=a28c9875633e5f104c0eb21733e6a007
+source: Doonsec's feed
+date: 2025-04-16
+fetch_date: 2025-10-06T22:04:12.569969
+---
+
+# 如何将高危提升为严重
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

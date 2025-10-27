@@ -1,0 +1,193 @@
+---
+title: Web skimmer found on website of Liquor Control Board of Ontario
+url: https://www.malwarebytes.com/blog/news/2023/01/web-skimmer-found-on-website-of-liquor-control-board-of-ontario
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-19
+fetch_date: 2025-10-04T04:19:32.776563
+---
+
+# Web skimmer found on website of Liquor Control Board of Ontario
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![using a credit card to pay for alcohol](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file61063_254149.png?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Web skimmer found on website of Liquor Control Board of Ontario
+
+Posted: January 17, 2023
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+On January 12, 2023, the Liquor Control Board of Ontario (LCBO) published a [news release](https://www.lcbo.com/content/lcbo/en/corporate-pages/about/media-centre/news/2023-01-12.html) about a cybersecurity incident, affecting online sales through LCBO.com. It is one of the largest retailers and wholesalers of beverage alcohol in the world.
+
+## Web skimmer
+
+The cybersecurity incident was a web skimmer, which is designed to retrieve customer payment information. Or, in the words of the LCBO:
+
+> “an unauthorized party embedded malicious code into our website that was designed to obtain customer information during the checkout process.”
+
+LCBO has reset all LCBO.com account passwords.
+
+## Magecart
+
+The web skimmer was identified by experts as a Magecart web skimmer. The malicious code injected was inside a [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821?hl=en) (GTM) snippet encoded as Base64. The abuse of this legitimate Google service has been ongoing because it provides attackers free infrastructure upon which they can host their scripts, while also granting enhanced capability to avoid detection.
+
+Malwarebytes’ Director of Threat Intelligence Jérôme Segura commented:
+
+> The attack on LCBO’s online portal follows a trend we’ve seen before of injecting malicious code disguised as legitimate snippets such as Google Tag Manager. In this case, the threat actor added an extra level of stealth by loading the skimmer code via a websocket, instead of a more typical [HTTP](https://www.malwarebytes.com/zero-day) request. LCBO took quick action to take its site offline and publicly acknowledge and disclose the issue which should be commended.”
+
+The code only loads the skimmer if the current URL contains the string ‘checkou’ (note the missing ‘t’). It then opens a [websocket](https://en.wikipedia.org/wiki/WebSocket) for communication which is more covert than a typical HTTP request. The Magecart domain is: magento-cdn[.]net, which was registered less than a month ago.
+
+![Malwarebytes blocks magento-cdn.net](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/easset_upload_file61947_254149_e.png)
+
+## Stolen information
+
+According to the press release, customers who provided [personal information](https://www.malwarebytes.com/cybersecurity/basics/pii) on check-out pages and proceeded to the payment page on LCBO.com between January 5, 2023, and January 10, 2023, may have had their information compromised.
+
+The stolen information could include names, email and mailing addresses, [Aeroplan](https://www.aircanada.com/ca/en/aco/home/aeroplan.html#/) numbers, LCBO.com account password, and credit card information.
+
+LCBO is looking to contact those affected directly, but in the meantime all customers who initiated or completed payment for orders on LCBO.com during that time period should monitor their credit card statements and report any suspicious transactions to their credit card providers.
+
+The vast majority of payment card records that are stolen by Magecart groups using the GTM container method were later offered for sale on [Dark Web](https://www.malwarebytes.com/blog/news/2021/09/what-is-the-dark-web-the-dark-web-explained) marketplaces.
+
+## Preventing web skimmers on your site
+
+Operating an e-commerce website comes with certain responsibilities, esp...

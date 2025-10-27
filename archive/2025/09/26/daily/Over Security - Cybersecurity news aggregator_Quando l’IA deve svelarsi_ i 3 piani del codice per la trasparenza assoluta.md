@@ -1,0 +1,252 @@
+---
+title: Quando l’IA deve svelarsi: i 3 piani del codice per la trasparenza assoluta
+url: https://www.cybersecurity360.it/legal/quando-lia-deve-svelarsi-i-3-piani-del-codice-per-la-trasparenza-assoluta/
+source: Over Security - Cybersecurity news aggregator
+date: 2025-09-26
+fetch_date: 2025-10-02T20:43:34.260503
+---
+
+# Quando l’IA deve svelarsi: i 3 piani del codice per la trasparenza assoluta
+
+[Vai al contenuto principale](#main-content)
+[Vai al footer](#footer-content)
+
+![logo](data:image/png;base64...)![logo](https://cdnd360.it/networkdigital360/nd360-neg.svg)
+
+[I NOSTRI SERVIZI](https://www.cybersecurity360.it/about-network)
+
+Menu
+
+[![Vai alla homepage di CyberSecurity](data:image/png;base64...)![Vai alla homepage di CyberSecurity](https://dnewpydm90vfx.cloudfront.net/wp-content/uploads/2024/03/cybersecurity_logo-768x55.png)](https://www.cybersecurity360.it)
+
+## Quando l’IA deve svelarsi: i 3 piani del codice per la trasparenza assoluta
+
+* [Cybersecurity Nazionale](https://www.cybersecurity360.it/cybersecurity-nazionale/)
+* Malware e attacchi
+  + [Malware e attacchi](https://www.cybersecurity360.it/nuove-minacce/)
+  + [Ransomware](https://www.cybersecurity360.it/nuove-minacce/ransomware/)
+* Norme e adeguamenti
+  + [Norme e adeguamenti](https://www.cybersecurity360.it/legal/)
+  + [Privacy e Dati personali](https://www.cybersecurity360.it/legal/privacy-dati-personali/)
+* [Soluzioni aziendali](https://www.cybersecurity360.it/soluzioni-aziendali/)
+* [Cultura cyber](https://www.cybersecurity360.it/cultura-cyber/)
+* [News, attualità e analisi Cyber sicurezza e privacy](https://www.cybersecurity360.it/news/)
+* [Corsi cybersecurity](https://www.cybersecurity360.it/corsi-cybersecurity/)
+* [Chi siamo](https://www.cybersecurity360.it/about/)
+
+* [![Vai alla homepage di CyberSecurity](data:image/png;base64...)![Vai alla homepage di CyberSecurity](https://dnewpydm90vfx.cloudfront.net/wp-content/uploads/2024/03/cybersecurity_neg_logo-768x55.png)](https://www.cybersecurity360.it)
+* Seguici
+* + [twitter](https://twitter.com/Cybersec360)
+  + [linkedin](https://www.linkedin.com/company/cybersecurity360/)
+  + [Newsletter](https://www.cybersecurity360.it/newsletter-signin/)
+  + [Rss Feed](#rssModal)
+  + [Chi siamo](https://www.cybersecurity360.it/about)
+* AREA PREMIUM
+* [Whitepaper](https://www.cybersecurity360.it/whitepaper/)
+* [Eventi](https://www.cybersecurity360.it/eventi/)
+* [Webinar](https://www.cybersecurity360.it/webinar/)
+* CANALI
+* [Cybersecurity nazionale](https://www.cybersecurity360.it/cybersecurity-nazionale/)
+* [Malware e attacchi](https://www.cybersecurity360.it/nuove-minacce/)
+* + [Ransomware](https://www.cybersecurity360.it/nuove-minacce/ransomware/)* [Norme e adeguamenti](https://www.cybersecurity360.it/legal/)
+  * + [Privacy e Dati personali](https://www.cybersecurity360.it/legal/privacy-dati-personali/)* [Soluzioni aziendali](https://www.cybersecurity360.it/soluzioni-aziendali/)
+    * [Cultura cyber](https://www.cybersecurity360.it/cultura-cyber/)
+    * [L'esperto risponde](https://www.cybersecurity360.it/esperto-risponde/)
+    * [News, attualità e analisi Cyber sicurezza e privacy](https://www.cybersecurity360.it/news/)
+    * [Corsi cybersecurity](https://www.cybersecurity360.it/corsi-cybersecurity/)
+    * [Chi siamo](https://www.cybersecurity360.it/about/)
+
+[Cybersecurity nazionale](https://www.cybersecurity360.it/cybersecurity-nazionale/)
+[Malware e attacchi](https://www.cybersecurity360.it/nuove-minacce/)
+[Norme e adeguamenti](https://www.cybersecurity360.it/legal/)
+[Soluzioni aziendali](https://www.cybersecurity360.it/soluzioni-aziendali/)
+[Cultura cyber](https://www.cybersecurity360.it/cultura-cyber/)
+[L'esperto risponde](https://www.cybersecurity360.it/esperto-risponde/)
+[News, attualità e analisi Cyber sicurezza e privacy](https://www.cybersecurity360.it/news/)
+[Corsi cybersecurity](https://www.cybersecurity360.it/corsi-cybersecurity/)
+[Chi siamo](https://www.cybersecurity360.it/about/)
+
+commissone europea
+
+# Quando l’IA deve svelarsi: i 3 piani del codice per la trasparenza assoluta
+
+---
+
+[Home](https://www.cybersecurity360.it)
+
+[Norme e adeguamenti](https://www.cybersecurity360.it/legal/)
+
+---
+
+Indirizzo copiato
+
+---
+
+La consultazione europea su un codice di condotta per l’intelligenza artificiale offre lo spazio per disegnare l’alfabeto del codice trasparenza. Alla comunità tecnica e giuridica spetta il compito di scriverne la grammatica. L’obiettivo comune è fare della trasparenza non una formula rituale, ma un bene pubblico condiviso, verificabile e contestabile
+
+Pubblicato il 25 set 2025
+
+---
+
+[Federica Giaquinta](https://www.cybersecurity360.it/giornalista/federica-giaquinta/)
+
+Consigliere direttivo di Internet Society Italia
+
+---
+
+---
+
+![Quando l’IA deve svelarsi: i 3 piani del codice per la trasparenza assoluta](data:image/png;base64...)![Quando l’IA deve svelarsi: i 3 piani del codice per la trasparenza assoluta](https://dnewpydm90vfx.cloudfront.net/wp-content/uploads/2025/09/ai_act_cybersecurity360.jpg)
+
+Foto: Shutterstock
+
+---
+
+L’iniziativa, con cui la **Commissione europea apre una consultazione per elaborare linee guida** e un **[codice di condotta sugli obblighi di trasparenza dell’intelligenza artificiale](https://www.cybersecurity360.it/legal/ai-act-ce-il-codice-di-condotta-per-un-approccio-responsabile-e-facilitato-per-le-pmi/)**, segna un **passaggio che è insieme tecnico e costituzionale**.
+
+@RIPRODUZIONE RISERVATA
+
+Valuta la qualità di questo articolo
+
+La tua opinione è importante per noi!
+
+INVIA
+
+G
+
+##### Federica Giaquinta
+
+###### Consigliere direttivo di Internet Society Italia
+
+Seguimi su
+
+## Continua a leggere questo articolo
+
+---
+
+Who's Who
+
+* [F
+
+  Federica Giaquinta](https://www.cybersecurity360.it/personaggi/federica-giaquinta/)
+
+---
+
+Argomenti
+
+* [A
+
+  AI](https://www.cybersecurity360.it/tag/ai/)
+* [A
+
+  AI Act](https://www.cybersecurity360.it/tag/ai-act/)
+* [A
+
+  AI generative](https://www.cybersecurity360.it/tag/ai-generative/)
+* [A
+
+  Applicazioni](https://www.cybersecurity360.it/tag/applicazioni/)
+* [A
+
+  artificial intelligence](https://www.cybersecurity360.it/tag/artificial-intelligence/)
+* [D
+
+  dati personali](https://www.cybersecurity360.it/tag/dati-personali/)
+* [F
+
+  fornitori](https://www.cybersecurity360.it/tag/fornitori/)
+* [G
+
+  guida](https://www.cybersecurity360.it/tag/guida/)
+* [I
+
+  intelligenza arficiale](https://www.cybersecurity360.it/tag/intelligenza-arficiale/)
+* [R
+
+  resilienza](https://www.cybersecurity360.it/tag/resilienza/)
+* [S
+
+  Servizi Digitali](https://www.cybersecurity360.it/tag/servizi-digitali/)
+
+---
+
+Canali
+
+* [![Norme e adeguamenti](data:image/gif;base64...)![Norme e adeguamenti](https://dnewpydm90vfx.cloudfront.net/wp-content/uploads/sites/3/2017/04/15202503/shutterstock_405457639.jpg)
+
+  Norme e adeguamenti](https://www.cybersecurity360.it/legal/)
+
+Speciale PNRR
+
+Tutti
+
+Incentivi
+
+Salute digitale
+
+Formazione
+
+Analisi
+
+Sostenibilità
+
+PA
+
+Sostemibilità
+
+Sicurezza
+
+Digital Economy
+
+Filtra per topic
+
+[ ]
+
+[ ]
+
+[ ]
+Formazione
+
+[ ]
+Analisi
+
+[ ]
+Sostenibilità
+
+[ ]
+PA
+
+[ ]
+Sostemibilità
+
+[ ]
+Sicurezza
+
+[ ]
+Digital Economy
+
+[![Leggi l'articolo Imprenditoria femminile: come attingere ai fondi per le donne che fanno impresa](data:image/gif;base64...)
+
+CODICE STARTUP
+
+Imprenditoria femminile: come attingere ai fondi per le donne che fanno impresa](https://www.economyup.it/innovazione/imprenditoria-femminile-come-attingere-ai-fondi-per-le-donne-che-fanno-impresa/)
+
+[![Leggi l'articolo PNRR e Fascicolo Sanitario Elettronico: investimenti per oltre 600 milioni](data:image/gif;base64...)
+
+DECRETI
+
+PNRR e Fascicolo Sanitario Elettronico: investimenti per oltre 600 milioni](https://www.healthtech360.it/pnrr-sanita/pnrr-e-fascicolo-sanitario-elettronico/)
+
+[![Leggi l'articolo Competenze digitali, ecco il nuovo piano operativo nazionale](data:image/gif;base64...)
+
+IL DOCUMENTO
+
+Competenze digitali, ecco il nuovo piano operativo nazionale](https://www.corrierecomunicazioni.it/digital-economy/competenze-digitali-ecco-il-nuovo-piano-operativo-nazionale/)
+
+[![Leggi l'articolo Da Istat e RGS gli indicatori per misurare la sostenibilità nel PNRR](data:image/gif;base64...)
+
+STRUMENTI
+
+Da Istat e RGS gli indicatori per misurare la sostenibilità nel PNRR](https://www.esg360.it/digital-for-esg/da-istat-e-rgs-gli-indicatori-per-misurare-la-sostenibilita-nel-pnrr/)
+
+[![Leggi l'articolo P...

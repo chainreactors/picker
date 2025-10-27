@@ -1,0 +1,183 @@
+---
+title: ChatGPT helps both criminals and law enforcement, says Europol report
+url: https://www.malwarebytes.com/blog/news/2023/03/chatgpt-helps-both-criminals-and-law-enforcement-says-europol-report
+source: Over Security - Cybersecurity news aggregator
+date: 2023-03-30
+fetch_date: 2025-10-04T11:09:16.590364
+---
+
+# ChatGPT helps both criminals and law enforcement, says Europol report
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![camera mounted on cart with all-terrain wheels](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/03/asset_upload_file48910_262623.png?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# ChatGPT helps both criminals and law enforcement, says Europol report
+
+Posted: March 28, 2023
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+In a [report](https://www.europol.europa.eu/cms/sites/default/files/documents/Tech%20Watch%20Flash%20-%20The%20Impact%20of%20Large%20Language%20Models%20on%20Law%20Enforcement.pdf), Europol says that [ChatGPT](https://www.malwarebytes.com/cybersecurity/basics/chatgpt-ai-security) and other large language models (LLMs) can help criminals with little technical knowledge to perpetrate criminal activities, but it can also assist law enforcement with investigating and anticipating criminal activities.
+
+The report aims to provide an overview of the key results from a series of expert workshops on potential misuse of ChatGPT held with subject matter experts at Europol. ChatGPT was selected as the LLM to be examined in these workshops because it is the highest-profile and most commonly used LLM currently available to the public.
+
+These subject matter experts were asked to explore how criminals can abuse LLMs such as ChatGPT, as well as how they may assist investigators in their daily work. While the wide range of collected practical use cases are not exhaustive, they do provide a glimpse of what is possible. The purpose of the exercise was to observe the behavior of an LLM when confronted with criminal and law enforcement use cases.
+
+Currently the publicly available LLMs are restricted. For example, ChatGPT does not answer questions that have been classified as harmful or biased.
+
+But there are other points to consider when interpreting the answers:
+
+* The training input is dated, the vast majority of ChatGPT’s training data dates back to September 2021.
+* Answers are provided with an expected degree of authority, but while they sound very plausible, they are often inaccurate or wrong. Also, since there are no references included to understand where certain information was taken from, wrong and biased answers may be hard to detect and correct.
+* The questions and the way they are formulated are an important ingredient of the answer. Small changes in the way a question is asked can produce significantly different answers, or lead the model into believing it does not know the answer at all.
+* ChatGPT typically assumes what the user wants to know, instead of asking for further clarifications or input.
+
+But, basically because we are still in early stages of trialing LLMs there are various ways to [jailbreak](https://www.malwarebytes.com/blog/news/2023/02/jailbreaking-large-language-models-like-chatgp-while-we-still-can) them. A quick roundup of methods to circumvent the built-in restrictions shows that they all boil down to creating a situation where the LLM thinks it’s dealing with a hypothetical question rather than something that it’s not allowed to answer.
+
+* Have it reword your question in an answer.
+* Make it pretend it’s a persona that is allowed to answer the questions.
+* Break down the main question in small steps which it does not recognize as problematic.
+* Talk about fictional places and characters that are in reality existing situations, but the LLM does not recognize them as such.
+
+So what can LLMs do that could help cybercriminals?
+
+LLMs excel at producing authentic sounding text at speed and scale. Like an excellent actor or impersonator they are able to detect and re-produce language patterns. This ability can be used to facilitate [phishing](https://www.m...

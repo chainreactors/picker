@@ -1,0 +1,179 @@
+---
+title: Indiana sues TikTok, describes it as "Chinese Trojan Horse"
+url: https://www.malwarebytes.com/blog/news/2022/12/indiana-sues-tiktok-describes-it-as-chinese-trojan-horse
+source: Over Security - Cybersecurity news aggregator
+date: 2022-12-13
+fetch_date: 2025-10-04T01:19:41.892048
+---
+
+# Indiana sues TikTok, describes it as "Chinese Trojan Horse"
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![person holding phone with TikTok name and logo](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/12/asset_upload_file77109_252113.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Indiana sues TikTok, describes it as “Chinese Trojan Horse”
+
+Posted: December 12, 2022
+ by [Jovi Umawing](https://www.malwarebytes.com/blog/authors/jumawing)
+
+On Wednesday, the State of Indiana filed two lawsuits against TikTok, Inc, the company behind the same name app, and its parent company, ByteDance.
+
+The [first suit](https://content.govdelivery.com/attachments/INAG/2022/12/07/file_attachments/2348741/2022.12.06%20PUBLIC%20REDACTED%20IN%20Complaint%20-%20Content%20vf.pdf) alleges TikTok’s 12+ rating on the Apple App Store and a “T” for “Teen” rating in the Google Play Store and the Microsoft Store are misleading as minors are repeatedly exposed to inappropriate content generated by the app’s algorithm.
+
+The [second suit](https://content.govdelivery.com/attachments/INAG/2022/12/07/file_attachments/2348742/2022.12.07%20IN%20Complaint%20Final%20-%20CHINA.pdf) claims that TikTok violated consumer protection laws by not disclosing that China has access to sensitive user data.
+
+“TikTok is a wolf in sheep’s clothing,” court documents read, echoing what Federal Communications Commission (FCC) Chairman [Brendan Carr said](https://twitter.com/BrendanCarrFCC/status/1541823585957707776) about TikTok back [in July](https://www.malwarebytes.com/blog/news/2022/07/tiktok-is-unacceptable-security-risk-and-should-be-removed-from-app-stores-says-fcc).
+
+“As long as TikTok is permitted to deceive and mislead Indiana consumers about the risks to their data, those consumers and their privacy are easy prey.”
+
+TikTok declined to comment on the lawsuits; however, its spokesperson, Brooke Oberwetter, was [quoted by The New York Times](https://www.nytimes.com/2022/12/07/technology/tiktok-lawsuit.html) saying, “the safety, privacy, and security of our community is our top priority.” Oberwetter added:
+
+> “We build youth well-being into our policies, limit features by age, empower parents with tools and resources, and continue to invest in new ways to enjoy content based on age-appropriateness or family comfort.”
+
+When TikTok CEO Shou Zi Chew [attempted to assuage critics](https://www.nytimes.com/2022/09/16/technology/tiktok-ceo-shou-zi-chew.html) by pointing out that US data are hosted on servers managed and controlled by Oracle, an American company, and disputing claims that the Chinese government could access the data, the second suit stated that such statements are “false and misleading.”
+
+“In addition to TikTok’s statements that some China-based employees may access unencrypted US user data, which includes Indiana consumers’ data, TikTok’s privacy policy permits TikTok to share information with ByteDance’ or ‘other affiliate of our corporate group,”” the suit claims. “ByteDance and any affiliates and their employees who are located in China or are Chinese citizens are subject to Chinese law and the oppressive Chinese regime, including but not limited to laws requiring cooperation with national intelligence institutions and cybersecurity regulators.”
+
+> Because ByteDance is subject to Chinese law, and TikTok’s privacy policy expressly permits TikTok to share data with ByteDance, TikTok’s statements that Chinese law does not apply to that data are false and misleading.
+
+Banning TikTok is slowly becoming a trend among US states. On Tuesday, Outgoing Maryland Governor Larry Hogan issued [a directive](https://governor.maryland.gov/wp-content/uploads/2022/12/Emergency-Directive-2022-12-001-Remove-Prohibited-Products-and-Platforms.pdf) forbidding state em...

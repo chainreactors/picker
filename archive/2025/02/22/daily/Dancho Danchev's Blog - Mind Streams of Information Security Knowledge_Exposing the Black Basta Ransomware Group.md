@@ -1,0 +1,55 @@
+---
+title: Exposing the Black Basta Ransomware Group
+url: https://ddanchev.blogspot.com/2025/02/exposing-black-basta-ransomware-group.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2025-02-22
+fetch_date: 2025-10-06T20:35:44.386603
+---
+
+# Exposing the Black Basta Ransomware Group
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+Independent Contractor. Bitcoin: 15Zvie1j8CjSR52doVSZSjctCDSx3pDjKZ Email: dancho.danchev@hush.com OMEMO: ddanchev@conversations.im | OTR: danchodanchev@xmpp.jp | TOX ID: 53B409440A6DC34F1BA458869A0462D92C15B467AF6319D481CA353690C88667833A0EE82969
+
+## Friday, February 21, 2025
+
+### Exposing the Black Basta Ransomware Group
+
+**UPDATED:**
+
+[Exposing the Black Basta Ransomware Group - Part Two](https://ddanchev.blogspot.com/2025/02/exposing-black-basta-ransowmare-group-part-two.html)
+
+[Exposing the Black Basta Ransomware Group - Part Three](https://ddanchev.blogspot.com/2025/02/exposing-black-basta-ransomware-group_22.html)
+
+An image is worth a thousand words.
+
+**Sample photos:**
+
+**[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYmfaoadAFBx0PtR2u3tJQUuDIo13A1H5J1XegTeBT1SMWRhYOBnOyc0uwcf9A4q2puhyphenhypheniihSCpVNTt93O2U-pUIgW-Xu0PXhC7MdZQLBBxAK05bLu0ahyphenhyphenBD01wqwmrDptqV1sJfzrhyphenhyphen0dhRLy_Ptolwgyl2GNumBt-CXewJGonVWcLE5mN-Um/s320/Screenshot_49.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYmfaoadAFBx0PtR2u3tJQUuDIo13A1H5J1XegTeBT1SMWRhYOBnOyc0uwcf9A4q2puhyphenhypheniihSCpVNTt93O2U-pUIgW-Xu0PXhC7MdZQLBBxAK05bLu0ahyphenhyphenBD01wqwmrDptqV1sJfzrhyphenhyphen0dhRLy_Ptolwgyl2GNumBt-CXewJGonVWcLE5mN-Um/s1871/Screenshot_49.jpg)**
+
+ **[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYhU1BGUKBiO9Yqdz8kLyy74XKh0_vJ5Az8K7R2lkv77yFw9Cp3u0fywFu7aF7YxBBlSxxnxtDD2OZEjroVGtqR_kfTe4gSxlolYPDFJkrR_xNUePo2dhei73sBKGaXVUC7Pea64TxfZpgQRIOVRlUYeLHMuORz5IiZ66qrLf6t7Vh_b9DqlAD/s320/Screenshot_48.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYhU1BGUKBiO9Yqdz8kLyy74XKh0_vJ5Az8K7R2lkv77yFw9Cp3u0fywFu7aF7YxBBlSxxnxtDD2OZEjroVGtqR_kfTe4gSxlolYPDFJkrR_xNUePo2dhei73sBKGaXVUC7Pea64TxfZpgQRIOVRlUYeLHMuORz5IiZ66qrLf6t7Vh_b9DqlAD/s1871/Screenshot_48.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieCKzvABVQfpp4vDlTpbGfSsEK5wrqjl34YfyWQUp__CPvOP_WRD1Sc8_SfJKefmkPB129aY5zNnMfH6GKDblnxRL8eBYhdqAAYy2ru5a9_wW5IdQpMuW5Pme1AjemC2hyphenhyphenFVjD8prg4wt6cVQs6DCoo5JXVGatB0pmoz7MD_FKLgdhX9mxmNTB/s320/Screenshot_47.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieCKzvABVQfpp4vDlTpbGfSsEK5wrqjl34YfyWQUp__CPvOP_WRD1Sc8_SfJKefmkPB129aY5zNnMfH6GKDblnxRL8eBYhdqAAYy2ru5a9_wW5IdQpMuW5Pme1AjemC2hyphenhyphenFVjD8prg4wt6cVQs6DCoo5JXVGatB0pmoz7MD_FKLgdhX9mxmNTB/s1309/Screenshot_47.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsOeQw9ScPLz8agkVu1rJVx2WEyFQHMzXrdXocB4AjY51441cfU-K7gWo7glhoer2ph2dm6C5GG7A2ApDiYJTQsCTD8hyphenhyphen_hON8Nktwad5pYN7tpDd8YXye0AAwWo9SD3LU0FXSDD4bBSNOLJsHerklVchEuAE5Z6WgPcDOCN0ax17EkpO-jwJN/s320/Screenshot_46.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsOeQw9ScPLz8agkVu1rJVx2WEyFQHMzXrdXocB4AjY51441cfU-K7gWo7glhoer2ph2dm6C5GG7A2ApDiYJTQsCTD8hyphenhyphen_hON8Nktwad5pYN7tpDd8YXye0AAwWo9SD3LU0FXSDD4bBSNOLJsHerklVchEuAE5Z6WgPcDOCN0ax17EkpO-jwJN/s921/Screenshot_46.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXR3sbX8dTvCZHhF2JpEqp4Kw1NIjffC4GyrVmsiMhuadAbGCLRLh-o_-Sm4BD_ju860rojm4kPb-tdLbwMu-C4yPW2U-ko_twu0SjfDQsxU8NczIotG0JzmXS7KJmxGL174UuTPicN5gLlsebD0IlSZXE_jRNot0KIDLeiQDO9Ezg-_Y3S3c1/s320/Screenshot_45.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXR3sbX8dTvCZHhF2JpEqp4Kw1NIjffC4GyrVmsiMhuadAbGCLRLh-o_-Sm4BD_ju860rojm4kPb-tdLbwMu-C4yPW2U-ko_twu0SjfDQsxU8NczIotG0JzmXS7KJmxGL174UuTPicN5gLlsebD0IlSZXE_jRNot0KIDLeiQDO9Ezg-_Y3S3c1/s1371/Screenshot_45.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPawFsIxG7sSWWUGhyphenhyphenY-etf7kF1kNpHIpImiCubW2fgSFb83ccCeoG3SO-pU3UA4AmKxsUup4bGCZUrN_OvUCZGD7VPTk3SqhOeqnWau7QpZL14n4nTo3aDZyxky0gRjEA5SSahXkxivJBO57dxbz5MZj4jWe5__gUxA9tTyFO-exjKGeE15t7/s320/Screenshot_44.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPawFsIxG7sSWWUGhyphenhyphenY-etf7kF1kNpHIpImiCubW2fgSFb83ccCeoG3SO-pU3UA4AmKxsUup4bGCZUrN_OvUCZGD7VPTk3SqhOeqnWau7QpZL14n4nTo3aDZyxky0gRjEA5SSahXkxivJBO57dxbz5MZj4jWe5__gUxA9tTyFO-exjKGeE15t7/s1371/Screenshot_44.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1KF0CZe22oDnwzGrm5QgyuLP_04Bju6COWsYV9SvRSrsU7A8Y-iRmL451bLWKGeHfMEaYUegKwNtSSvrNWDOVvlQhnnSjzT6-5vY1cFKsZ0k9TViKDK06a8181Hbwoe-giqH3lU8zJVrAOn5xjKzvh1lg33LgIcc7DB9FmAkqwSjYYUtSCZS3/s320/Screenshot_43.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1KF0CZe22oDnwzGrm5QgyuLP_04Bju6COWsYV9SvRSrsU7A8Y-iRmL451bLWKGeHfMEaYUegKwNtSSvrNWDOVvlQhnnSjzT6-5vY1cFKsZ0k9TViKDK06a8181Hbwoe-giqH3lU8zJVrAOn5xjKzvh1lg33LgIcc7DB9FmAkqwSjYYUtSCZS3/s1864/Screenshot_43.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe8ZTDMzn4jZA63atWDr5K4uozsWwhhKze_0wHABw6RLAiIEtnzNOqmsFK4wWqzIUetEuEfUx9G813WfzIeVFv4roEndsTOQOvEYDDvWP6wo1ZVR59SWOumP22Wm2WvEfSBTtlOLGtXkwt2bj0hfQlMothTE8ttadOBxk2XOxqx5c5PFso4nL9/s320/Screenshot_42.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe8ZTDMzn4jZA63atWDr5K4uozsWwhhKze_0wHABw6RLAiIEtnzNOqmsFK4wWqzIUetEuEfUx9G813WfzIeVFv4roEndsTOQOvEYDDvWP6wo1ZVR59SWOumP22Wm2WvEfSBTtlOLGtXkwt2bj0hfQlMothTE8ttadOBxk2XOxqx5c5PFso4nL9/s562/Screenshot_42.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpSpbob_ADwzuiVd0Xt5aCH1l_Qc2slhvUPadcgDP3y14lMMNtC0GuqAtQ7OQILpkLQjBtyDg0sNoPJ_-LmkEZRy4ANA6k4he1GFR0XyimfV2KQT-GOZj58yoWgvbvysN0F6wFcc2yF2lA7K5Hhu6syqIubY4ONWCarGG4Cw1p7vhMt7RjX3EP/s320/Screenshot_41.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpSpbob_ADwzuiVd0Xt5aCH1l_Qc2slhvUPadcgDP3y14lMMNtC0GuqAtQ7OQILpkLQjBtyDg0sNoPJ_-LmkEZRy4ANA6k4he1GFR0XyimfV2KQT-GOZj58yoWgvbvysN0F6wFcc2yF2lA7K5Hhu6syqIubY4ONWCarGG4Cw1p7vhMt7RjX3EP/s1871/Screenshot_41.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIxW_i2_zz_Uzuv7DO9C4BUbEqFqCOWp5eheqwUL2UFOI6IyPcM-aJTAjQE45jHsWaBSp1IiLK_c7VJo6e1HchFmocIGpFF9FAv-zKk_3ouLySWEjQNNMETbd0gd0PwRhQUPtJk5Z8N-R6ZsWHji1wY7V7i-6NQCiEpPslMw_sDi73PgNxpRTD/s320/Screenshot_40.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIxW_i2_zz_Uzuv7DO9C4BUbEqFqCOWp5eheqwUL2UFOI6IyPcM-aJTAjQE45jHsWaBSp1IiLK_c7VJo6e1HchFmocIGpFF9FAv-zKk_3ouLySWEjQNNMETbd0gd0PwRhQUPtJk5Z8N-R6ZsWHji1wY7V7i-6NQCiEpPslMw_sDi73PgNxpRTD/s1870/Screenshot_40.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSYEDTH62bfixxgjvb1sJDV7LiQSyEaX9hhBEG3TxYzT0e7-5noCXgMo7JRnxXPGI0Z9AhYV6Go_5cupQt0OEbQDy56F6d80t7YIgkxUdEEk7zADUcOWgF0Sztf_CsI9So7aG_J7mMJs2u3cbksK0Ika9c2h51ORwbTAadOqQQoykMGcstLBcN/s320/Screenshot_39.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSYEDTH62bfixxgjvb1sJDV7LiQSyEaX9hhBEG3TxYzT0e7-5noCXgMo7JRnxXPGI0Z9AhYV6Go_5cupQt0OEbQDy56F6d80t7YIgkxUdEEk7zADUcOWgF0Sztf_CsI9So7aG_J7mMJs2u3cbksK0Ika9c2h51ORwbTAadOqQQoykMGcstLBcN/s1206/Screenshot_39.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfN46K-w0wUBKyouvPyrcWJd14vIG2rUo8LfCsF9q7tu_G_9vyMxL7r4jI7uEoYDaMJXGytHOmQMq-vmo_P0jIS6NV99Xjp-LHr_Cj-yHZ2lZxEEpVPKm7qBzGUPlYm8napSBHRNM8uFZK_DpiAyDOkgu4gEcukTRcs0tt0vNqFPKCoyCR0OVJ/s320/Screenshot_38.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfN46K-w0wUBKyouvPyrcWJd14vIG2rUo8LfCsF9q7tu_G_9vyMxL7r4jI7uEoYDaMJXGytHOmQMq-vmo_P0jIS6NV99Xjp-LHr_Cj-yHZ2lZxEEpVPKm7qBzGUPlYm8napSBHRNM8uFZK_DpiAyDOkgu4gEcukTRcs0tt0vNqFPKCoyCR0OVJ/s1857/Screenshot_38.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjml9TveGhuhyhqxEeBkw3R0OH4r-2CMQqsJbwFU7qyuxOvZizOJGOz6nJM99MCygu96rLs4vMnybzbsLfV460e2jcCXmQsH_3vWHm3w-Cd_oB1ZPO-kjHjjsv5RygExJcV0XJuwwxvWW8e5-UCyXZBq4nqEEApuWUdHFAKnl8By7UTsGqszoyT/s320/Screenshot_37.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjml9TveGhuhyhqxEeBkw3R0OH4r-2CMQqsJbwFU7qyuxOvZizOJGOz6nJM99MCygu96rLs4vMnybzbsLfV460e2jcCXmQsH_3vWHm3w-Cd_oB1ZPO-kjHjjsv5RygExJcV0XJuwwxvWW8e5-UCyXZBq4nqEEApuWUdHFAKnl8By7UTsGqszoyT/s1272/Screenshot_37.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AV...

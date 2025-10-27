@@ -1,0 +1,20 @@
+---
+title: 通知 | 网安标委下达2项网络安全推荐性国家标准计划
+url: https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664247347&idx=3&sn=1c47e5f57ae8e1c852ca0c747f190376
+source: Doonsec's feed
+date: 2025-08-12
+fetch_date: 2025-10-07T00:15:04.672148
+---
+
+# 通知 | 网安标委下达2项网络安全推荐性国家标准计划
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

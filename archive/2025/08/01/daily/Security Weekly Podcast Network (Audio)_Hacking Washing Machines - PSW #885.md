@@ -1,0 +1,42 @@
+---
+title: Hacking Washing Machines - PSW #885
+url: http://sites.libsyn.com/18678/hacking-washing-machines-psw-885
+source: Security Weekly Podcast Network (Audio)
+date: 2025-08-01
+fetch_date: 2025-10-07T00:57:57.733948
+---
+
+# Hacking Washing Machines - PSW #885
+
+Toggle navigation
+
+* About
+* Episodes
+  + [All Episodes](/18678)
+  + Categories
+    - [3rd Party Risk,Active Directory,Application Isolation,Application Security,Asset Management,Attack Simulation,Attack Surface Mgm](/18678/category/3rd%2BParty%2BRisk%2CActive%2BDirectory%2CApplication%2BIsolation%2CApplication%2BSecurity%2CAsset%2BManagement%2CAttack%2BSimulation%2CAttack%2BSurface%2BMgm)
+    - [3rd Party Risk,Active Directory,Application Security,Attack Surface Mgmt,Deception,Endpoint Security,ICS Security,Identity and A](/18678/category/3rd%2BParty%2BRisk%2CActive%2BDirectory%2CApplication%2BSecurity%2CAttack%2BSurface%2BMgmt%2CDeception%2CEndpoint%2BSecurity%2CICS%2BSecurity%2CIdentity%2Band%2BA)
+    - [3rd Party Risk,Active Directory,Application Security,Cloud Security,Compliance,Container Security,Deception,Email Security,Patch](/18678/category/3rd%2BParty%2BRisk%2CActive%2BDirectory%2CApplication%2BSecurity%2CCloud%2BSecurity%2CCompliance%2CContainer%2BSecurity%2CDeception%2CEmail%2BSecurity%2CPatch)
+    - [3rd Party Risk,Active Directory,Application Security,Cloud Security,Compliance,Data Security,DevOps,Encryption,IoT,Privacy,Secur](/18678/category/3rd%2BParty%2BRisk%2CActive%2BDirectory%2CApplication%2BSecurity%2CCloud%2BSecurity%2CCompliance%2CData%2BSecurity%2CDevOps%2CEncryption%2CIoT%2CPrivacy%2CSecur)
+    - [3rd Party Risk,Active Directory,Application Security,DDoS,Deception,Identity and Access,IoT,Mobile Security,Network Traffic Anal](/18678/category/3rd%2BParty%2BRisk%2CActive%2BDirectory%2CApplication%2BSecurity%2CDDoS%2CDeception%2CIdentity%2Band%2BAccess%2CIoT%2CMobile%2BSecurity%2CNetwork%2BTraffic%2BAnal)
+    - [3rd Party Risk,Active Directory,Backup and Recovery,Cloud Security,Email Security,Encryption,Endpoint Security,Forensics,Identit](/18678/category/3rd%2BParty%2BRisk%2CActive%2BDirectory%2CBackup%2Band%2BRecovery%2CCloud%2BSecurity%2CEmail%2BSecurity%2CEncryption%2CEndpoint%2BSecurity%2CForensics%2CIdentit)
+    - [3rd Party Risk,Active Directory,Cloud Security,Endpoint Security,Hardware Security,Insider Threat,IoT,Patch Management,Physical](/18678/category/3rd%2BParty%2BRisk%2CActive%2BDirectory%2CCloud%2BSecurity%2CEndpoint%2BSecurity%2CHardware%2BSecurity%2CInsider%2BThreat%2CIoT%2CPatch%2BManagement%2CPhysical%2B)
+    - [3rd Party Risk,API Security,Bug Bounties,Governance,IoT,Mobile Security,Multi-Factor Auth](/18678/category/3rd%2BParty%2BRisk%2CAPI%2BSecurity%2CBug%2BBounties%2CGovernance%2CIoT%2CMobile%2BSecurity%2CMulti-Factor%2BAuth)
+    - [3rd Party Risk,Application Isolation,Application Security,Asset Management,Cloud Security,Compliance,Configuration Management,En](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BIsolation%2CApplication%2BSecurity%2CAsset%2BManagement%2CCloud%2BSecurity%2CCompliance%2CConfiguration%2BManagement%2CEn)
+    - [3rd Party Risk,Application Isolation,Application Security,Attack Surface Mgmt,Bug Bounties,Cloud Security,Container Security,Thr](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BIsolation%2CApplication%2BSecurity%2CAttack%2BSurface%2BMgmt%2CBug%2BBounties%2CCloud%2BSecurity%2CContainer%2BSecurity%2CThr)
+    - [3rd Party Risk,Application Isolation,Application Security,Bug Bounties,Cloud Security,Compliance,DevOps,Endpoint Security,Exploi](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BIsolation%2CApplication%2BSecurity%2CBug%2BBounties%2CCloud%2BSecurity%2CCompliance%2CDevOps%2CEndpoint%2BSecurity%2CExploi)
+    - [3rd Party Risk,Application Isolation,Application Security,Bug Bounties,Cloud Security,Configuration Management,Data Security,Dev](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BIsolation%2CApplication%2BSecurity%2CBug%2BBounties%2CCloud%2BSecurity%2CConfiguration%2BManagement%2CData%2BSecurity%2CDev)
+    - [3rd Party Risk,Application Isolation,Application Security,Bug Bounties,Container Security,DevOps,Security Research,Threat Modeli](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BIsolation%2CApplication%2BSecurity%2CBug%2BBounties%2CContainer%2BSecurity%2CDevOps%2CSecurity%2BResearch%2CThreat%2BModeli)
+    - [3rd Party Risk,Application Isolation,Application Security,Container Security,DevOps,Security Training,Threat Modeling](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BIsolation%2CApplication%2BSecurity%2CContainer%2BSecurity%2CDevOps%2CSecurity%2BTraining%2CThreat%2BModeling)
+    - [3rd Party Risk,Application Isolation,Asset Management,Blue Team,Cloud Security,Compliance,Container Security,Data Security,Email](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BIsolation%2CAsset%2BManagement%2CBlue%2BTeam%2CCloud%2BSecurity%2CCompliance%2CContainer%2BSecurity%2CData%2BSecurity%2CEmail)
+    - [3rd Party Risk,Application Isolation,Attack Surface Mgmt,Blue Team,Careers,Compliance,Data Security,Encryption,Identity and Acce](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BIsolation%2CAttack%2BSurface%2BMgmt%2CBlue%2BTeam%2CCareers%2CCompliance%2CData%2BSecurity%2CEncryption%2CIdentity%2Band%2BAcce)
+    - [3rd Party Risk,Application Security,Asset Management,Attack Surface Mgmt,Blue Team,Careers,Cloud Security,Compliance,Configurati](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BSecurity%2CAsset%2BManagement%2CAttack%2BSurface%2BMgmt%2CBlue%2BTeam%2CCareers%2CCloud%2BSecurity%2CCompliance%2CConfigurati)
+    - [3rd Party Risk,Application Security,Asset Management,Attack Surface Mgmt,Blue Team,Careers,Cloud Security,Compliance,Container S](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BSecurity%2CAsset%2BManagement%2CAttack%2BSurface%2BMgmt%2CBlue%2BTeam%2CCareers%2CCloud%2BSecurity%2CCompliance%2CContainer%2BS)
+    - [3rd Party Risk,Application Security,Asset Management,Backup and Recovery,Cloud Security,Compliance,Configuration Management,Data](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BSecurity%2CAsset%2BManagement%2CBackup%2Band%2BRecovery%2CCloud%2BSecurity%2CCompliance%2CConfiguration%2BManagement%2CData)
+    - [3rd Party Risk,Application Security,Asset Management,Blue Team,Careers,Cloud Security,Compliance,Configuration Management,Contai](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BSecurity%2CAsset%2BManagement%2CBlue%2BTeam%2CCareers%2CCloud%2BSecurity%2CCompliance%2CConfiguration%2BManagement%2CContai)
+    - [3rd Party Risk,Application Security,Attack Simulation,Attack Surface Mgmt,Cloud Security,DevOps,Encryption,Hardware Security,Sec](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BSecurity%2CAttack%2BSimulation%2CAttack%2BSurface%2BMgmt%2CCloud%2BSecurity%2CDevOps%2CEncryption%2CHardware%2BSecurity%2CSec)
+    - [3rd Party Risk,Application Security,Attack Simulation,Data Security,Incident Response,Mobile Security,Patch Management,Privacy,S](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BSecurity%2CAttack%2BSimulation%2CData%2BSecurity%2CIncident%2BResponse%2CMobile%2BSecurity%2CPatch%2BManagement%2CPrivacy%2CS)
+    - [3rd Party Risk,Application Security,Attack Surface Mgmt,Blue Team,Careers,Cloud Security,DevOps,Endpoint Security,Exploit Preven](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BSecurity%2CAttack%2BSurface%2BMgmt%2CBlue%2BTeam%2CCareers%2CCloud%2BSecurity%2CDevOps%2CEndpoint%2BSecurity%2CExploit%2BPreven)
+    - [3rd Party Risk,Application Security,Attack Surface Mgmt,Blue Team,Container Security,DevOps,Encryption,Security Awareness,Threat](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BSecurity%2CAttack%2BSurface%2BMgmt%2CBlue%2BTeam%2CContainer%2BSecurity%2CDevOps%2CEncryption%2CSecurity%2BAwareness%2CThreat)
+    - [3rd Party Risk,Application Security,Attack Surface Mgmt,Bug Bounties,Cloud Security,Container Security,Data Protection,Deception](/18678/category/3rd%2BParty%2BRisk%2CApplication%2BSecurity%2CAttack%2BSurface%2BMgmt%2CBug%2BBounties%2CCloud%2BSecurity%2CContainer%2BSecurity%2CData%2BProtection%2CDeception)
+    - [3rd Party Risk,Application Security,Attack Surface Mgmt,Bug Bounties,Cloud Security,DDoS,Encryption,Endpoint Security,Exploit Pr](/18678/category/3rd%2BParty%2...

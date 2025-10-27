@@ -1,0 +1,275 @@
+---
+title: 本周更新：Windbg高级调试命令补充讲解 | 内核驱动高级班
+url: https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458587741&idx=3&sn=14ee323fb2ea4766b278ea4473011b4f&chksm=b18c22d786fbabc1bdb914e7302d6ed8c84013d7b36687b013ba4e91e71e31559a754f28aaaf&scene=58&subscene=0#rd
+source: 看雪学苑
+date: 2024-12-25
+fetch_date: 2025-10-06T19:38:34.935339
+---
+
+# 本周更新：Windbg高级调试命令补充讲解 | 内核驱动高级班
+
+![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8EQpYDhuNxtXYtreTcicldC9HETBrRIgPiaYQpWD1AvjPyCUwSjdX1DCHILhnj87uOLq1Nmd0Ap7naA/0?wx_fmt=jpeg)
+
+# 本周更新：Windbg高级调试命令补充讲解 | 内核驱动高级班
+
+看雪课程
+
+看雪学苑
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/1UG7KPNHN8GhP1PNPribdiavCozh4rXqUw7kiaibiarwLWea6KG3KQDMBwLVklUGtwd5MqpY1yBmPI56pIHib2qpHwKw/640?wx_fmt=png&from=appmsg)
+
+**\*每周日13:00-18:00直播授课，**课程咨询可添加微信：kanxuecom。
+
+**0****1**
+
+**课程介绍**
+
+本课程采用“算法+内核+安全”三位一体的独创教学模式，包含Windows内核，Linux安全，渗透测试，漏洞分析与挖掘，逆向工程，VT与X64等，学完可直接冲刺BAT等一流互联网工作机会！
+
+\*中等偏难：需要一定的C语言、数据结构、汇编语言基础
+
+**0****2**
+
+**讲师介绍**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8EyFPj5ftBqTR8qDMicR6C65Tejq5EibSdWIxmvkoFytOmRvpndroyBoIa3LMUe5WiapyYtnzAbxwMDQ/640?wx_fmt=jpeg)
+
+**课程讲师：布强**
+
+硕士毕业于中科院软件所，曾就职于北京大学计算机研究所信息安全工程中心，SUN中国工程研究院，阿里巴巴，COMODO，以及360，具有丰富的内核安全研发经验和10多年内核安全教学经验，培养了大量在BAT等一线互联网企业就职的安全人才。
+
+**0****3**
+
+**多名学员结业拿到大厂offer**
+
+**1、麦洛科菲学员同时拿下蚂蚁和腾讯的offer，纠结该怎么选：**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekzwSsEDJQYGY1fMmoZBChsB0741JQhxMfmicMoXDjV0BRLoEicxEGXPYnA/640?wx_fmt=jpeg&from=appmsg)
+
+**2、恭喜学员喜获知名安全企业火绒安全offer!**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekzpSh8KH89ib2NG2ZxOC8bt24RianGvJpNOohF4HESMvU1JdTOpL6gAoOw/640?wx_fmt=jpeg&from=appmsg)
+
+**3、学员在阿里发展得很好，还发表了很好的技术文章！**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekz2OcSnYVdfZS3YEutAwvG5jWiaBalTsH5mbsYsvxKZqZpib48DicictnV5Q/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekzoQiaNu3T9EJIticKfCAA1kdXhvWhAM3mAxe9qmYibibh3Xv47DlITCumHA/640?wx_fmt=jpeg&from=appmsg)
+
+**4、祝贺学员喜获360安全offer，进入政企安全部门！**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekznxdIXibUQVWOEshEicngQ6QEFFtrHeJia77PP8mxVb0XenfKYrrX2MZ8A/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekzciariap5rhiaxMMokZV8MdG6GUbT6arC0xmJheA4VDyWtHs4jiaca1Vtfg/640?wx_fmt=png&from=appmsg)
+
+**5、祝贺近期两学员喜获阿里巴巴p7技术专家和360安全研究员offer！**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekzs1picuMPgcqCMsXmKj6PicfWhMYMgTQkpBAAiclo4OB2nweVhq6YBusyQ/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekziaoLdlhL8sBnMmrp5bT8l33b6icZzrMArUA7w1PbbFOSDbjVelvoUwrA/640?wx_fmt=jpeg&from=appmsg)
+
+**6、恭喜学员喜获腾讯offer，努力就有回报，越努力越幸运！**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekzH9GedfD4ZiacXx8icO8JTwezYJoHX6EMLdRicNCkn4niariaChfFRTupdicA/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekzYkK5JrTvRNjxGD4jDzwuwwwNbgS3aoWph4OmMBcbP04TwUNBSBfH6Q/640?wx_fmt=jpeg&from=appmsg)
+
+**7、祝贺优秀学员成功求职美帝Amazon安全岗位，要是能在将来回国报效祖国就更好了！**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekzBL0jGoGyvibSNZ8ZXD2Bkm6Rm9ozxckk8TVxsPMgJ9TUqiaIAgYFqiccA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/1UG7KPNHN8GHxf07w1PYL5PTBo9YHekzc3c84ZPtogwP3fgD7uDsV46Crx0oWzBtFChPEMlW1YaVpamPyGbLww/640?wx_fmt=png&from=appmsg)
+
+**0****4**
+
+**课程亮点**
+
+* **独创“算法+内核+安全”三位一体的教学模式：**由浅入深，深入浅出，帮助学生更好地理解和应用所学知识。
+
+* **大量实际项目演练：**帮助学生将理论知识应用到实际中，提升实际操作能力。
+
+* **保证教学质量和学生综合能力：**课程设置算法作业、安全作业、bug修复、性能优化、毕业设计等环节。
+
+* **全面的知识体系：**课程涵盖Windows内核、Linux安全、渗透测试、漏洞分析与挖掘、逆向工程、VT与X64等知识。
+
+**0****5**
+
+**适合人群**
+
+* **对计算机安全感兴趣的人士：**对计算机安全领域有浓厚兴趣，希望深入学习和应用相关知识的人士。
+
+* **有一定编程基础的人士：**需要一定的C语言、数据结构、汇编语言基础，有编程基础的人士更容易理解和掌握课程内容。
+
+* **想要从事安全领域工作的人士：**希望从事安全开发工程师、漏洞挖掘工程师、反病毒分析工程师等职位的人士。
+
+* **希望提升职业竞争力的人士：**希望通过学习系统内核安全高级班来提升自己在求职市场中的竞争力的人士。
+
+**06**
+
+**教学安排**
+
+**每周日13:00-18:00直播授课**
+
+**实战教学、****细致讲解、****在线答疑、****课后作业**
+
+**统统安排**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/1UG7KPNHN8GhP1PNPribdiavCozh4rXqUwAqkcyNt2cLy02xcvJk16Qm3m205GrHzJJx4L4npPVY7WubiaicAOxcEQ/640?wx_fmt=png&from=appmsg)
+
+\*点击图片可查看大图
+
+**第1章  入门篇**
+
+1.1  C语言、算法、X86、X64汇编复习与加强
+
+1.2  内核hello world编写、编译、和测试
+
+1.3  内核框架理解、手把手教你写NT驱动框架
+
+1.4  内核调试（Windbg使用技巧，int3、内存和硬件断点，反调试，反反调试，花指令，OLLVM代码混淆，蓝屏分析等）
+
+**第2章  基础篇**
+
+2.1  内核级文件与注册表操作
+
+2.2  中断请求级别（IRQL）
+
+2.3  同步与多线程
+
+2.4  内核数据结构
+
+2.5  应用程序与内核通信与弹窗
+
+**第3章  中级篇**
+
+3.1 HOOK(SSDT,SHADOWSSDT,INLINE, DLL注入与R3HOOK，全局钩子，低级键盘钩子等)
+
+3.2 文件过滤驱动（sfilter/minifilter）
+
+3.3 网络过滤驱动(tdi/ndis/wfp、netfilter)
+
+3.4 软件调试(windbg/ida/ollydbg)
+
+3.5 逆向工程（X86汇编，IDA，PC端、移动端逆向工程）
+
+3.6 Linux内核安全开发起步
+
+3.7 主防（HIPS）
+
+3.8 沙盘（SANDBOX）
+
+3.9 防火墙（TDI/NDIS/WFP/Netfilter）
+
+**第4章  高级篇**
+
+4.1 漏洞分析、挖掘与安全编程
+
+（如Shell Code编写与提取、缓冲溢出，任意地址写任意数据，漏洞提权，ROP,TOCTTOU,Double-fetch,OOB,UAF）
+
+4.2 CTF技术与实战（new）
+
+4.3 企业实用安全技术详解
+
+4.4 ARK ANTI-ROOTKIT
+
+4.5 VT技术与X64 HOOK，调试器
+
+4.6 毕业设计
+
+**0****7**
+
+**立即学习**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/1UG7KPNHN8EyFPj5ftBqTR8qDMicR6C65mqjWe6P1Kt1Gt6xONwiahsEXAicyVeyf8wNHaZNCciaQVSPicicp2vG77CA/640?wx_fmt=png)
+
+优惠即将截止
+
+课程咨询请添加微信：kanxuecom
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Uia4617poZXP96fGaMPXib13V1bJ52yHq9ycD9Zv3WhiaRb2rKV6wghrNa4VyFR2wibBVNfZt3M5IuUiauQGHvxhQrA/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/1UG7KPNHN8EyFPj5ftBqTR8qDMicR6C653icpSGQYhoc0vqGLM6mT80BPXPLBPNgDCT8lUVeasiadcjZsyyeGSrBw/640?wx_fmt=gif)
+
+**球分享**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/1UG7KPNHN8EyFPj5ftBqTR8qDMicR6C653icpSGQYhoc0vqGLM6mT80BPXPLBPNgDCT8lUVeasiadcjZsyyeGSrBw/640?wx_fmt=gif)
+
+**球点赞**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/1UG7KPNHN8EyFPj5ftBqTR8qDMicR6C653icpSGQYhoc0vqGLM6mT80BPXPLBPNgDCT8lUVeasiadcjZsyyeGSrBw/640?wx_fmt=gif)
+
+**球在看**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/1UG7KPNHN8EyFPj5ftBqTR8qDMicR6C65Ilp4MrlTcgaAgsNjIr5TtwHCUInLIgb5hfDujpt5kxxWaO0pK0UiceQ/640?wx_fmt=gif)
+
+点击阅读原文查看更多
+
+预览时标签不可点
+
+阅读原文
+
+![]()
+
+微信扫一扫
+关注该公众号
+
+继续滑动看下一个
+
+轻触阅读原文
+
+![](http://mmbiz.qpic.cn/mmbiz_png/1UG7KPNHN8EGLfh77kFmnicd9WOic2ibvhCibFdB4bL4srJCgo2wnvdoXLxpIvAkfCmmcptXZB0qKWMoIP8iaibYN2FA/0?wx_fmt=png)
+
+看雪学苑
+
+向上滑动看下一个
+
+知道了
+
+![]()
+微信扫一扫
+使用小程序
+
+取消
+允许
+
+取消
+允许
+
+取消
+允许
+
+×
+分析
+
+![跳转二维码]()
+
+![作者头像](http://mmbiz.qpic.cn/mmbiz_png/1UG7KPNHN8EGLfh77kFmnicd9WOic2ibvhCibFdB4bL4srJCgo2wnvdoXLxpIvAkfCmmcptXZB0qKWMoIP8iaibYN2FA/0?wx_fmt=png)
+
+微信扫一扫可打开此内容，
+使用完整服务
+
+：
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
+分享
+留言
+收藏
+听过

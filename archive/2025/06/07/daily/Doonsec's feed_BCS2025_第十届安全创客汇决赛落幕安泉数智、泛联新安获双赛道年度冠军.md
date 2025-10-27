@@ -1,0 +1,20 @@
+---
+title: BCS2025|第十届安全创客汇决赛落幕安泉数智、泛联新安获双赛道年度冠军
+url: https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247523219&idx=7&sn=de703a7106c2b3aa93da519b816b61ab
+source: Doonsec's feed
+date: 2025-06-07
+fetch_date: 2025-10-06T22:52:46.911496
+---
+
+# BCS2025|第十届安全创客汇决赛落幕安泉数智、泛联新安获双赛道年度冠军
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

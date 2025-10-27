@@ -1,0 +1,47 @@
+---
+title: Real Time OSINT on NSO Group and Bulgaria's Circles Commercial Spyware Developers - An Analysis
+url: https://ddanchev.blogspot.com/2024/12/real-time-osint-on-nso-group-and.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2024-12-29
+fetch_date: 2025-10-06T19:37:10.221936
+---
+
+# Real Time OSINT on NSO Group and Bulgaria's Circles Commercial Spyware Developers - An Analysis
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+Independent Contractor. Bitcoin: 15Zvie1j8CjSR52doVSZSjctCDSx3pDjKZ Email: dancho.danchev@hush.com OMEMO: ddanchev@conversations.im | OTR: danchodanchev@xmpp.jp | TOX ID: 53B409440A6DC34F1BA458869A0462D92C15B467AF6319D481CA353690C88667833A0EE82969
+
+## Saturday, December 28, 2024
+
+### Real Time OSINT on NSO Group and Bulgaria's Circles Commercial Spyware Developers - An Analysis
+
+If an image is worth a thousand words so is real time OSINT methodology. More on Bulgaria's Circles [here](https://ddanchev.blogspot.com/2024/04/exposing-bulgarias-circles-commercial.html) and [here](https://ddanchev.blogspot.com/2024/09/the-intellexa-commercial-spyware.html).
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwYJaifjpQCJcDzGEZVTgoifO62fX4lD7GkQTneEaCV8_1510BKbcBG9-U9RqidLv3ke47plHsy34ipDTp1cJYTQlUbS7ckKkY8JI8nvRhS1MGDcj2Q0-n6P_sCpE4ZiefNl4pUx0QuMifYXJ6tTSZk9_O4d_RpNNXvMVaQp3yMXYSSoWZbTpJ/s320/36.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwYJaifjpQCJcDzGEZVTgoifO62fX4lD7GkQTneEaCV8_1510BKbcBG9-U9RqidLv3ke47plHsy34ipDTp1cJYTQlUbS7ckKkY8JI8nvRhS1MGDcj2Q0-n6P_sCpE4ZiefNl4pUx0QuMifYXJ6tTSZk9_O4d_RpNNXvMVaQp3yMXYSSoWZbTpJ/s1122/36.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjY72DhVXEzF-Dd-20FnwfEg0mCqaCyIQHgIgWgiZlYirueVy1wuyhVZkFW1Qlj0yNR5FMP9yXRpTpOytbKt-yJy6rB_FKolYQhwEjUfNpIxqXK2A1xqbN6UdU1vl-P4e5Cjpc4zqXEZ2Bu4-grU6bv_Pz7dUGaucVur29Lu_t-AdUXwQzD4S/s320/35.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjY72DhVXEzF-Dd-20FnwfEg0mCqaCyIQHgIgWgiZlYirueVy1wuyhVZkFW1Qlj0yNR5FMP9yXRpTpOytbKt-yJy6rB_FKolYQhwEjUfNpIxqXK2A1xqbN6UdU1vl-P4e5Cjpc4zqXEZ2Bu4-grU6bv_Pz7dUGaucVur29Lu_t-AdUXwQzD4S/s1122/35.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg01FF3txNVJjbIMaBgXjszbAxmpWpeUbJI1K3fv596hVAUbUORdfs8bZ2-i0apWnrOJPSUny-kAYz4tLrOiqw1WYqlZagucB1KuooaWQZW61g8ubhe45uREzP9PfCsgbvkkanks0VbDex7Jadkg1NofeesJUW-amA3gKcrjllxfoyuy4InPyo4/s320/34.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg01FF3txNVJjbIMaBgXjszbAxmpWpeUbJI1K3fv596hVAUbUORdfs8bZ2-i0apWnrOJPSUny-kAYz4tLrOiqw1WYqlZagucB1KuooaWQZW61g8ubhe45uREzP9PfCsgbvkkanks0VbDex7Jadkg1NofeesJUW-amA3gKcrjllxfoyuy4InPyo4/s1122/34.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpvAjAhWKzIuuE3UKkctmBuXlQh6jew5-eFvGmjbhcCEcq8nKRmEFvnBTrctOy_30G59cbhV1xnCocuODLM29fyRj-CQbKnq3Mkx2ZWw6Xyznp90cDfymTIBcwgHb2_0PHYkAi0fHmNoXpKG0KyABzNoF9nLTMoeyZNYHirewRLaJWQzbfjQjE/s320/33.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpvAjAhWKzIuuE3UKkctmBuXlQh6jew5-eFvGmjbhcCEcq8nKRmEFvnBTrctOy_30G59cbhV1xnCocuODLM29fyRj-CQbKnq3Mkx2ZWw6Xyznp90cDfymTIBcwgHb2_0PHYkAi0fHmNoXpKG0KyABzNoF9nLTMoeyZNYHirewRLaJWQzbfjQjE/s1122/33.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL2oebnpSD-Eu5IfUuoZcN6TUeMh2wiP2oCysD57zPQeje0a8Zw-TYHORCRvEh96TfaR2YUN4sUksp03OMWQWv4zV6xME7LFsSaMQRorI-Du6ZSMGDCRXHcvtiQxpWlFn9-i7JJG2DhhgzXSbccFHPVGPW7Xe_2SNwsdZ5FvtDW7Ff_AWEiB8E/s320/32.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL2oebnpSD-Eu5IfUuoZcN6TUeMh2wiP2oCysD57zPQeje0a8Zw-TYHORCRvEh96TfaR2YUN4sUksp03OMWQWv4zV6xME7LFsSaMQRorI-Du6ZSMGDCRXHcvtiQxpWlFn9-i7JJG2DhhgzXSbccFHPVGPW7Xe_2SNwsdZ5FvtDW7Ff_AWEiB8E/s1122/32.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgatPL6TuXIEc6IgDs_H4MWf7VmHwK8oe2p5vSwA5z4mK2q4SrJeLDYNctCCImVw7rZ3IcnggrzrrwbUyl3mwf1VeZNEfg8dxY73zK1BEO27STNGAxKQ-20ZZvo6fW18MQsdfVKrberKaDt43TXKACX13pTsGjAwYFerm4qZSK4hiVELe58Pxwh/s320/31.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgatPL6TuXIEc6IgDs_H4MWf7VmHwK8oe2p5vSwA5z4mK2q4SrJeLDYNctCCImVw7rZ3IcnggrzrrwbUyl3mwf1VeZNEfg8dxY73zK1BEO27STNGAxKQ-20ZZvo6fW18MQsdfVKrberKaDt43TXKACX13pTsGjAwYFerm4qZSK4hiVELe58Pxwh/s1122/31.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpcVBGhfM3ExiiCv9RdNp31tMnA7JYms6TwYKQoJEwuNxIx8CC_fCzb6jG8UVRCYzvT4lykszQKt3pmBPVYd2oUK5mKzIAyX2FtC4oQTEqfYSlCXXuDQbiwndSPgbB8GRPidVj9o5InJhjHmw9x_1zIEbxF7Op2-jdF9EdqnR6QDzEPLjPem4v/s320/30.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpcVBGhfM3ExiiCv9RdNp31tMnA7JYms6TwYKQoJEwuNxIx8CC_fCzb6jG8UVRCYzvT4lykszQKt3pmBPVYd2oUK5mKzIAyX2FtC4oQTEqfYSlCXXuDQbiwndSPgbB8GRPidVj9o5InJhjHmw9x_1zIEbxF7Op2-jdF9EdqnR6QDzEPLjPem4v/s1122/30.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVgspVZ-9MfIMH02D_8whPLKeSGZogbVtV-VKbe7V1TKcrIQ00tho7GJoXKSsET1nV_GtT9C350vmuKtsGT44Wp5-4e_93-wSTNIlt5SYQnRtgQFcnVgnPAU7DMjQBl2Pp44mLpY8MIQbvWnZOgOI5WCcCgApxE-lunxVoS-cdRbVwBzrj9ncL/s320/29.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVgspVZ-9MfIMH02D_8whPLKeSGZogbVtV-VKbe7V1TKcrIQ00tho7GJoXKSsET1nV_GtT9C350vmuKtsGT44Wp5-4e_93-wSTNIlt5SYQnRtgQFcnVgnPAU7DMjQBl2Pp44mLpY8MIQbvWnZOgOI5WCcCgApxE-lunxVoS-cdRbVwBzrj9ncL/s1122/29.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_-RuWdps6_6zYwTdYHINZ5QMIu-8bKoM0P5Kkoo36pWVeo0-6jv5w0Q7bO8BY8WhqrBqvQNJu0QvGFEhPSb_jLPKbbbvzJ9uNnvs5DWAHgOzUcuqwejgjpfDYxCWffyjSb-iefyEs7XOJZa-fKzBAdD8EIKXBd_S1XnzO694siexbYyIiKkQ4/s320/28.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_-RuWdps6_6zYwTdYHINZ5QMIu-8bKoM0P5Kkoo36pWVeo0-6jv5w0Q7bO8BY8WhqrBqvQNJu0QvGFEhPSb_jLPKbbbvzJ9uNnvs5DWAHgOzUcuqwejgjpfDYxCWffyjSb-iefyEs7XOJZa-fKzBAdD8EIKXBd_S1XnzO694siexbYyIiKkQ4/s1122/28.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8LW4FJu6uaeGjLNTezhg__iCYPlQixrURzmOgTiphO_OFW42ww1_Z1Spk9XzfBanUzmiOUdqoF9uSoYX5h2j4ovL7BUU-0mwrCv6KMQDBa5l2MQcc66cqXzfyzJU43BxlcrMlx2iVVmbZIFMei9USWJrz_LOL94Yzs8KjXC-R9eQ6asGRxqcv/s320/27.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8LW4FJu6uaeGjLNTezhg__iCYPlQixrURzmOgTiphO_OFW42ww1_Z1Spk9XzfBanUzmiOUdqoF9uSoYX5h2j4ovL7BUU-0mwrCv6KMQDBa5l2MQcc66cqXzfyzJU43BxlcrMlx2iVVmbZIFMei9USWJrz_LOL94Yzs8KjXC-R9eQ6asGRxqcv/s1122/27.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwil7UYuvM8VtmvgQkcYM7gt3b33mPUVX7dn9AsWHz955qV0iRf5aGqrRq3VBtiRKp4DjUo1DpKH6ap4zFgDK1STMgrvHGJ-roa4J2H9GwHHIRe0wJeWffPnNGrH5wZepC6s2NfbWboKe6cu0L7o8zCaDHo6zNvovXCjeVxVvVMJTizkO4DqpV/s320/26.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwil7UYuvM8VtmvgQkcYM7gt3b33mPUVX7dn9AsWHz955qV0iRf5aGqrRq3VBtiRKp4DjUo1DpKH6ap4zFgDK1STMgrvHGJ-roa4J2H9GwHHIRe0wJeWffPnNGrH5wZepC6s2NfbWboKe6cu0L7o8zCaDHo6zNvovXCjeVxVvVMJTizkO4DqpV/s1122/26.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyJ5icDA5gONfrhPI0gz1QmFvwSQhlXOLf-HfNGTlcvs9ajZr_cZ3aAhotr1Y5xY_ax4GP1rWUlKUDKkxDRWsCiH49LV9GmmrhN3VRDvRhQ8kUblbBUiE4UIxFkZtnQvFjaiwgGJapsud30izmBU1pmXqcW9FwVqcTE2wtQrqLBg_9Qp5SmEcz/s320/25.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyJ5icDA5gONfrhPI0gz1QmFvwSQhlXOLf-HfNGTlcvs9ajZr_cZ3aAhotr1Y5xY_ax4GP1rWUlKUDKkxDRWsCiH49LV9GmmrhN3VRDvRhQ8kUblbBUiE4UIxFkZtnQvFjaiwgGJapsud30izmBU1pmXqcW9FwVqcTE2wtQrqLBg_9Qp5SmEcz/s1122/25.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOqeOpK6FztyStgDcQGEx64sxVeSmtxcFl8D4kVIvmTW0KvE5s9mAaxa09MxJaf7w47dapcxpdaEBv6bDIHiloazBbmtfSU8SeU3j7Qjjsihn2K076S70pdFqDBtSVpxDbSCsTpB0beiGUTsHKcgR1-8nYG-oSxMcdETIHA1Nu6cd0tbtSWADj/s320/24.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOqeOpK6FztyStgDcQGEx64sxVeSmtxcFl8D4kVIvmTW0KvE5s9mAaxa09MxJaf7w47dapcxpdaEBv6bDIHiloazBbmtfSU8SeU3j7Qjjsihn2K076S70pdFqDBtSVpxDbSCsTpB0beiGUTsHKcgR1-8nYG-oSxMcdETIHA1Nu6cd0tbtSWADj/s1122/24.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinNVqS0aLm8gFPI89sXfi0kui9Gdo7JUo2A0REhMqib57PF6XXu8LoPSkIjoGN8utFk1YdOKaXIrEPuIyjaHfIdR-xmI0EQiH0IQA_FjOu1Wb-h-8HyeTqoB82nDCmb99mHA5cKS1FQ9y7WQVal3aRwPMRSSTmM0r7lp_oi8dF4gihQsWQJ55h/s320/23.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinNVqS0aLm8gFPI89sXfi0kui9Gdo7JUo2A0REhMqib57PF6XXu8LoPSkIjoGN8utFk1YdOKaXIrEPuIyjaHfIdR-xmI0EQiH0IQA_FjOu1Wb-h-8HyeTqoB82nDCmb99mHA5cKS1FQ9y7WQVal3aRwPMRSSTmM0r7lp_oi8dF4gihQsW...

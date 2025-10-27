@@ -1,0 +1,191 @@
+---
+title: Ransomware revenue significantly down over 2022
+url: https://www.malwarebytes.com/blog/news/2023/01/ransomware-revenue-significantly-down-over-2022
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-25
+fetch_date: 2025-10-04T04:45:26.740009
+---
+
+# Ransomware revenue significantly down over 2022
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![disappointed kid behind pile of files and business calculator](https://www.threatdown.com/wp-content/uploads/2023/01/asset_upload_file54030_255632.png?w=736)
+
+[News](https://www.threatdown.com/blog/category/news/), [Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+## Ransomware revenue significantly down over 2022
+
+January 23, 2023
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+According to blockchain data platform [Chainalysis](https://blog.chainalysis.com/reports/crypto-ransomware-revenue-down-as-victims-refuse-to-pay/), ransomware revenue “plummeted” from $765.6 in 2021 to at least $456.8 in 2022. The data is based on an analysis of the cryptocurrency addresses known to be controlled by ransomware attackers.
+
+## Precision
+
+While the real numbers are likely much higher, it does present us with an idea of the development of ransomware payments. Last year’s estimate at this point seemed to show a decline from $765 million to $602 million, but turned out to be a small gain after correction.
+
+![chart](http://www.threatdown.com/wp-content/uploads/2024/06/easset_upload_file91336_255632_e.png)
+
+*Image courtesy of Chainalysis*
+
+## Payments, not attacks
+
+This decline could be explained in a number of ways:
+
+* Fewer attacks
+* Lower ransom demands or demand being negotiated down
+* Fewer victims willing to pay
+
+According to [our own research](http://www.threatdown.com/blog/ransomware-review-october-2022) and Chainalysis, the declining numbers are mainly due to victim organizations increasingly refusing to pay ransomware attackers.
+
+## Number of attacks
+
+Ransomware attacks make headlines, but that doesn’t mean we learn about all of them. In fact, the chances of learning about an attack are bigger when the victim decides not to pay, since that will get them posted on a leak-site controlled by the ransomware group. Many ransomware operators use these sites to post data they exfiltrated during the attack as extra leverage to get victims to pay the ransom. Monitoring these sites always gives us a good idea of which ransomware groups are most active and how many victims actually refuse to pay.
+
+[According to IT service provider AAG](https://aag-it.com/the-latest-ransomware-statistics/), there were 236.1 million ransomware attacks worldwide in just the first half of 2022. Through 2021, there were 623.3 million ransomware attacks globally. That seems to indicate the number of attacks could be slightly down.
+
+## Negotiators
+
+One thing victims have learned is that ransomware sums can be negotiated down. In fact, a new form of ransomware response has emerged in the past year—the ransomware negotiator. On our Lock & Code podcast, [Calling in the ransomware negotiator, with Kurtis Minder: Lock and Code S03E20](https://www.malwarebytes.com/blog/podcast/2022/09/calling-in-the-ransomware-negotiator-with-kurtis-minder-lock-and-code-s03e20), Kurtis Minder talk about how he has helped clients with ransomware negotiation and his company has worked to formalize ransomware negotiation training.
+
+## Not willing to pay
+
+There are many reasons, besides the obvious one, that companies are unwilling to meet the ransom demands:
+
+* Paying keeps the ransomware eco-system alive
+* There is no guarantee you will get your systems back
+* It is no immediate cure, it sometimes takes just as long as restoring your systems from backups
+* Organizations have learned the importance of backups
+* In some cases it is prohibited due to embargoes and sanctions against certain countries
+
+Sometimes organizations feel they have no other choice, which is understandable, but it gives us hope to see that the numbers are declining.
+
+## Continental
+
+In our [ransomware review of October 2022](http://www.threatdown.com/blog/ransomware-review-october-2022) we highlighted the case of automotive parts giant Continental. According to a transcript of the negotiations, obtained from LockBit’s dark web site, ransom negotiations began on Septembe...

@@ -1,0 +1,260 @@
+---
+title: theLSA starred shuanx/BurpFingerPrint
+url: https://github.com/shuanx/BurpFingerPrint
+source: Private Feed for M09Ic
+date: 2024-05-13
+fetch_date: 2025-10-06T17:14:08.043274
+---
+
+# theLSA starred shuanx/BurpFingerPrint
+
+[Skip to content](#start-of-content)
+
+## Navigation Menu
+
+Toggle navigation
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fshuanx%2FBurpFingerPrint)
+
+Appearance settings
+
+* Platform
+
+  + [GitHub Copilot
+
+    Write better code with AI](https://github.com/features/copilot)
+  + [GitHub Spark
+    New
+
+    Build and deploy intelligent apps](https://github.com/features/spark)
+  + [GitHub Models
+    New
+
+    Manage and compare prompts](https://github.com/features/models)
+  + [GitHub Advanced Security
+
+    Find and fix vulnerabilities](https://github.com/security/advanced-security)
+  + [Actions
+
+    Automate any workflow](https://github.com/features/actions)
+
+  + [Codespaces
+
+    Instant dev environments](https://github.com/features/codespaces)
+  + [Issues
+
+    Plan and track work](https://github.com/features/issues)
+  + [Code Review
+
+    Manage code changes](https://github.com/features/code-review)
+  + [Discussions
+
+    Collaborate outside of code](https://github.com/features/discussions)
+  + [Code Search
+
+    Find more, search less](https://github.com/features/code-search)
+
+  Explore
+  + [Why GitHub](https://github.com/why-github)
+  + [Documentation](https://docs.github.com)
+  + [GitHub Skills](https://skills.github.com)
+  + [Blog](https://github.blog)
+
+  Integrations
+  + [GitHub Marketplace](https://github.com/marketplace)
+  + [MCP Registry](https://github.com/mcp)
+
+  [View all features](https://github.com/features)
+* Solutions
+
+  By company size
+  + [Enterprises](https://github.com/enterprise)
+  + [Small and medium teams](https://github.com/team)
+  + [Startups](https://github.com/enterprise/startups)
+  + [Nonprofits](/solutions/industry/nonprofits)
+
+  By use case
+  + [App Modernization](/solutions/use-case/app-modernization)
+  + [DevSecOps](/solutions/use-case/devsecops)
+  + [DevOps](/solutions/use-case/devops)
+  + [CI/CD](/solutions/use-case/ci-cd)
+  + [View all use cases](/solutions/use-case)
+
+  By industry
+  + [Healthcare](/solutions/industry/healthcare)
+  + [Financial services](/solutions/industry/financial-services)
+  + [Manufacturing](/solutions/industry/manufacturing)
+  + [Government](/solutions/industry/government)
+  + [View all industries](/solutions/industry)
+
+  [View all solutions](/solutions)
+* Resources
+
+  Topics
+  + [AI](/resources/articles/ai)
+  + [DevOps](/resources/articles/devops)
+  + [Security](/resources/articles/security)
+  + [Software Development](/resources/articles/software-development)
+  + [View all](/resources/articles)
+
+  Explore
+  + [Learning Pathways](https://resources.github.com/learn/pathways)
+  + [Events & Webinars](https://github.com/resources/events)
+  + [Ebooks & Whitepapers](https://github.com/resources/whitepapers)
+  + [Customer Stories](https://github.com/customer-stories)
+  + [Partners](https://github.com/partners)
+  + [Executive Insights](https://github.com/solutions/executive-insights)
+* Open Source
+
+  + [GitHub Sponsors
+
+    Fund open source developers](/sponsors)
+
+  + [The ReadME Project
+
+    GitHub community articles](https://github.com/readme)
+
+  Repositories
+  + [Topics](https://github.com/topics)
+  + [Trending](https://github.com/trending)
+  + [Collections](https://github.com/collections)
+* Enterprise
+
+  + [Enterprise platform
+
+    AI-powered developer platform](/enterprise)
+
+  Available add-ons
+  + [GitHub Advanced Security
+
+    Enterprise-grade security features](https://github.com/security/advanced-security)
+  + [Copilot for business
+
+    Enterprise-grade AI features](/features/copilot/copilot-business)
+  + [Premium Support
+
+    Enterprise-grade 24/7 support](/premium-support)
+* [Pricing](https://github.com/pricing)
+
+Search or jump to...
+
+# Search code, repositories, users, issues, pull requests...
+
+Search
+
+Clear
+
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+
+# Provide feedback
+
+We read every piece of feedback, and take your input very seriously.
+
+[ ]
+Include my email address so I can be contacted
+
+Cancel
+ Submit feedback
+
+# Saved searches
+
+## Use saved searches to filter your results more quickly
+
+Cancel
+ Create saved search
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fshuanx%2FBurpFingerPrint)
+
+[Sign up](/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=shuanx%2FBurpFingerPrint)
+
+Appearance settings
+
+Resetting focus
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+Dismiss alert
+
+{{ message }}
+
+[shuanx](/shuanx)
+/
+**[BurpFingerPrint](/shuanx/BurpFingerPrint)**
+Public
+
+* [Notifications](/login?return_to=%2Fshuanx%2FBurpFingerPrint) You must be signed in to change notification settings
+* [Fork
+  41](/login?return_to=%2Fshuanx%2FBurpFingerPrint)
+* [Star
+   700](/login?return_to=%2Fshuanx%2FBurpFingerPrint)
+
+BurpSuite插件集成Ehole指纹库并进行常见OA弱口令爆破插件
+
+[700
+stars](/shuanx/BurpFingerPrint/stargazers) [41
+forks](/shuanx/BurpFingerPrint/forks) [Branches](/shuanx/BurpFingerPrint/branches) [Tags](/shuanx/BurpFingerPrint/tags) [Activity](/shuanx/BurpFingerPrint/activity)
+
+[Star](/login?return_to=%2Fshuanx%2FBurpFingerPrint)
+
+[Notifications](/login?return_to=%2Fshuanx%2FBurpFingerPrint) You must be signed in to change notification settings
+
+* [Code](/shuanx/BurpFingerPrint)
+* [Issues
+  12](/shuanx/BurpFingerPrint/issues)
+* [Pull requests
+  0](/shuanx/BurpFingerPrint/pulls)
+* [Actions](/shuanx/BurpFingerPrint/actions)
+* [Projects
+  0](/shuanx/BurpFingerPrint/projects)
+* [Security
+
+  ### Uh oh!
+
+  There was an error while loading. Please reload this page.](/shuanx/BurpFingerPrint/security)
+* [Insights](/shuanx/BurpFingerPrint/pulse)
+
+Additional navigation options
+
+* [Code](/shuanx/BurpFingerPrint)
+* [Issues](/shuanx/BurpFingerPrint/issues)
+* [Pull requests](/shuanx/BurpFingerPrint/pulls)
+* [Actions](/shuanx/BurpFingerPrint/actions)
+* [Projects](/shuanx/BurpFingerPrint/projects)
+* [Security](/shuanx/BurpFingerPrint/security)
+* [Insights](/shuanx/BurpFingerPrint/pulse)
+
+# shuanx/BurpFingerPrint
+
+main
+
+[Branches](/shuanx/BurpFingerPrint/branches)[Tags](/shuanx/BurpFingerPrint/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Folders and files
+
+| Name | | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- | --- |
+| Latest commit   History[100 Commits](/shuanx/BurpFingerPrint/commits/main/) | | |
+| [.idea](/shuanx/BurpFingerPrint/tree/main/.idea ".idea") | | [.idea](/shuanx/BurpFingerPrint/tree/main/.idea ".idea") |  |  |
+| [images](/shuanx/BurpFingerPrint/tree/main/images "images") | | [images](/shuanx/BurpFingerPrint/tree/main/images "images") |  |  |
+| [src/main](/shuanx/BurpFingerPrint/tree/main/src/main "This path skips through empty directories") | | [src/main](/shuanx/BurpFingerPrint/tree/main/src/main "This path skips through empty directories") |  |  |
+| [.gitignore](/shuanx/BurpFingerPrint/blob/main/.gitignore ".gitignore") | | [.gitignore](/shuanx/BurpFingerPrint/blob/main/.gitignore ".gitignore") |  |  |
+| [README.md](/shuanx/BurpFingerPrint/blob/main/README.md "README.md") | | [README.md](/shuanx/BurpFingerPrint/blob/main/README.md "README.md") |  |  |
+| [pom.xml](/shuanx/BurpFingerPrint/blob/main/pom.xml "pom.xml") | | [pom.xml](/shuanx/BurpFingerPrint/blob/main/pom.xml "pom.xml") |  |  |
+| View all files | | |
+
+## Repository files navigation
+
+* README
+
+# Burp 指纹识别
+
+[![](https://camo.githubusercontent.com/3d1dec376abd7b02cd953c2119f224080830aae4b76133a7dab13765d979d07f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f417574686f722d536861756e2d626c7565)](https://camo.githubusercontent.com/3d1dec376abd7b02cd953c2119f224080830aae4b76133a7dab13765d979d07f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f417574686f722d536861756e2d626c7565)
+[![](https://camo.githubusercontent.com/9f89236557f5b4d19624d7b8e3a7a7b6d60db6e24a859a0a733f0e8566...

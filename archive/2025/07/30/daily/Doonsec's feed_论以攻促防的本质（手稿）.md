@@ -1,0 +1,20 @@
+---
+title: 论以攻促防的本质（手稿）
+url: https://mp.weixin.qq.com/s?__biz=MzkwNTI3MjIyOQ==&mid=2247484157&idx=1&sn=782985df3739ea4e2e27d124dd64a3ea
+source: Doonsec's feed
+date: 2025-07-30
+fetch_date: 2025-10-06T23:17:53.296166
+---
+
+# 论以攻促防的本质（手稿）
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

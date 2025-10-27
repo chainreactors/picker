@@ -1,0 +1,20 @@
+---
+title: 绕过不安全双重身份验证 (2-FA) 实施的 7 种方法
+url: https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497665&idx=1&sn=7389698cf91709e168d752722aa7decc
+source: Doonsec's feed
+date: 2025-05-29
+fetch_date: 2025-10-06T22:24:56.835219
+---
+
+# 绕过不安全双重身份验证 (2-FA) 实施的 7 种方法
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

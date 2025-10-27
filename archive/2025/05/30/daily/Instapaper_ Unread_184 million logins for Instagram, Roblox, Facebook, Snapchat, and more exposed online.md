@@ -1,0 +1,176 @@
+---
+title: 184 million logins for Instagram, Roblox, Facebook, Snapchat, and more exposed online
+url: https://www.malwarebytes.com/blog/news/2025/05/184-million-logins-for-instagram-roblox-facebook-snapchat-and-more-exposed-online
+source: Instapaper: Unread
+date: 2025-05-30
+fetch_date: 2025-10-06T22:29:10.929116
+---
+
+# 184 million logins for Instagram, Roblox, Facebook, Snapchat, and more exposed online
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Crowds of people](https://www.malwarebytes.com/wp-content/uploads/sites/2/2025/05/crowds-of-people.png?w=1200)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Threats](https://www.malwarebytes.com/blog/category/threats)
+
+# 184 million logins for Instagram, Roblox, Facebook, Snapchat, and more exposed online
+
+Posted: May 27, 2025
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+A recent [discovery by cybersecurity researcher Jeremiah Fowler](https://www.websiteplanet.com/news/infostealer-breach-report/) of an unsecured database containing over 184 million unique login credentials has once again highlighted the growing threat posed by infostealers. While the sheer volume of exposed data—including emails, passwords, and authorization URLs—is alarming, the real concern is not just about the exposure itself, but in how cybercriminals collect and weaponize these credentials.
+
+This trove of data from a wide range of services like email providers, Microsoft, Facebook, Instagram, Snapchat, Roblox, and many more, doesn’t appear to have been leaked by accident by someone who obtained the data legitimately. More likely, it was amassed by infostealers—malicious software ([malware](https://www.malwarebytes.com/malware)) that are designed specifically to gather [sensitive information](https://www.malwarebytes.com/cybersecurity/basics/pii) from infected devices. These malware variants silently extract credentials stored in browsers, email clients, messaging apps, and even [crypto](https://www.malwarebytes.com/cryptocurrency) wallets. They often arrive via [phishing emails](https://www.malwarebytes.com/phishing), malicious websites, or bundled with cracked software.
+
+An infamous example of an infostealer is the Lumma Stealer, which [recently suffered a serious disruption](https://www.malwarebytes.com/blog/news/2025/05/lumma-information-stealer-infrastructure-disrupted) of its infrastructure by authorities. Unfortunately, there are several others which may not be as widespread as Lumma, but at least at the same level of sophistication.
+
+What this means is that the exposed credentials are likely just a fraction of what cybercriminals have already harvested from likely millions of victims worldwide. Each infected device can yield dozens or hundreds of credential sets, multiplying the scale of the problem far beyond a single breach. If a criminal can tie all these different types of stolen information to one person, like the operator of an infostealer would, it would be easy to use those details for [identity theft](https://www.malwarebytes.com/identity-theft).
+
+The database has since been removed from public view.
+
+## How many people are affected?
+
+Given the volume of credentials found, it’s reasonable to assume that millions of individuals had their data included in the exposed database. Since one infected system can leak multiple credentials tied to different accounts and services, the number of victims is likely far smaller than the number of exposed credentials but still alarmingly high.
+
+Infostealers have evolved beyond simple password grabbers. Modern variants can capture autofill data, [cookies](https://www.malwarebytes.com/cybersecurity/computer/what-are-tracking-cookies), screenshots, and keystrokes, giving attackers a comprehensive toolkit to bypass security measures and launch sophisticated attacks. The stolen credentials fuel credential stuffing attacks (where an attacker uses reused logins stolen from one service to access another), account takeovers, identity theft, corporate espionage, and [targeted phishing](https://www.malwarebytes.com/cybersecurity/basics/spear-phishing) campaigns.
+
+The fact that the...

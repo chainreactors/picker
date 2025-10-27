@@ -1,0 +1,167 @@
+---
+title: 4 over-hyped security vulnerabilities of 2022
+url: https://www.malwarebytes.com/blog/news/2022/12/4-times-security-vulnerabilities-were-blown-out-of-proportion-in-2022
+source: Over Security - Cybersecurity news aggregator
+date: 2022-12-21
+fetch_date: 2025-10-04T02:07:04.879185
+---
+
+# 4 over-hyped security vulnerabilities of 2022
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![A surfer flops off their surfboard on a wave](https://www.threatdown.com/wp-content/uploads/2022/12/asset_upload_file43380_246180.jpg?w=736)
+
+[News](https://www.threatdown.com/blog/category/news/), [Exploits and vulnerabilities](https://www.threatdown.com/blog/category/exploits-and-vulnerabilities/)
+
+## 4 over-hyped security vulnerabilities of 2022
+
+December 19, 2022
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+A critical vulnerability can send countless organizations into chaos, as security teams read up on the vulnerability, try to figure out whether it applies to their systems, download any potential patches, and deploy those fixes to affected machines. But a lot can go wrong when a vulnerability is discovered, disclosed, and addressed—an inflated severity rating, a premature disclosure, even a mixup in names.
+
+In these instances, when the security community is readying itself for a major sea change, what it instead gets is a ripple. Here are some of the last year’s biggest miscommunications and errors in security vulnerabilities.
+
+## 1. “Wormable”
+
+There are some qualifications for vulnerabilities that send shivers up the spine of the security community as a whole. A “wormable”  vulnerability is used when the possibility exists that an infected system can contribute as an active source to infect other systems. This makes the growth potential of an infection exponential. You’ll often see the phrase “WannaCry like proportions” used as a warning about how bad it could get.
+
+Which brings us to our first example: [CVE-2022-34718](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34718), a Windows TCP/IP Remote Code Execution (RCE) vulnerability with a [CVSS rating](https://www.threatdown.com/blog/how-cvss-works-characterizing-and-scoring-vulnerabilities/) of 9.8. The vulnerability could have allowed an unauthenticated attacker to execute code with elevated privileges on affected systems without user interaction, which makes it “wormable,” but in the end, it turned out to be not so bad since it only affected systems with IPv6 and IPSec enabled and it was patched before an in-depth analysis of the vulnerability was [publicly disclosed](https://medium.com/numen-cyber-labs/analysis-and-summary-of-tcp-ip-protocol-remote-code-execution-vulnerability-cve-2022-34718-8fcc28538acf).
+
+## 2. Essential building blocks
+
+Something we’ve learned the hard way is that there are very popular libraries maintained by volunteers, that many other applications rely on. A library is a set of resources that can be shared among processes. Often these resources are specific functions aimed at a certain goal which can be called upon when needed so they do not have to be included in the code of the software. A prime example of such a library that caused quite some havoc was [Log4j](https://www.malwarebytes.com/blog/news/2021/12/log4j-zero-day-log4shell-arrives-just-in-time-to-ruin-your-weekend).
+
+So, when [OpenSSL announced](https://www.malwarebytes.com/blog/news/2022/10/critical-openssl-fix-due-november-1st-get-ready-to-patch) a fix for a critical issue in OpenSSL, everybody remembered that the last time OpenSSl fixed a critical vulnerability, that vulnerability was known as [Heartbleed](https://www.threatdown.com/blog/five-years-later-heartbleed-vulnerability-still-unpatched/). The Heartbleed vulnerability was discovered and patched in 2014, but infected systems kept popping up for years.
+
+However, when the patch came out for the more recent OpenSSL issue, it turned out the bug had been [downgraded in severity](https://www.malwarebytes.com/blog/news/2022/11/openssl-bug-downgraded-in-severity-patches-now-available). That was good news all around: The patch for the two vulnerabilities is available, and the announced vulnerability wasn’t as severe as we expected. And there is no known exploit for the vulnerabilities doing the rounds.
+
+## 3. Zero-day
+
+The different interpretations for the term zero-day tend to be c...

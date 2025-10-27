@@ -1,0 +1,178 @@
+---
+title: Healthcare site leaks personal health information via Google and Meta tracking pixels
+url: https://www.malwarebytes.com/blog/news/2022/10/health-care-provider-notifies-patients-of-potential-breach-of-personal-data-due-to-tracking-pixels
+source: Over Security - Cybersecurity news aggregator
+date: 2022-10-26
+fetch_date: 2025-10-03T20:55:52.047506
+---
+
+# Healthcare site leaks personal health information via Google and Meta tracking pixels
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Magnifying glass made of pixels](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/10/asset_upload_file566_241426.png?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Privacy](https://www.malwarebytes.com/blog/category/privacy)
+
+# Healthcare site leaks personal health information via Google and Meta tracking pixels
+
+Posted: October 24, 2022
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+Advocate Aurora Health has [disclosed](https://www.advocateaurorahealth.org/pixel-notification/) that by visiting its websites users may have shared [personal information](https://www.malwarebytes.com/cybersecurity/basics/pii), and possibly protected health information (PHI), with Google and Meta (Facebook).
+
+Advocate Aurora Health is the 11th largest not-for-profit, integrated health system in the US and provides care for about 3 million patients. The company used [tracking technology](https://www.malwarebytes.com/cybersecurity/computer/what-are-tracking-cookies) provided by Google and Meta to understand how patients and others interact with its websites.
+
+The questions Advocate Aurora Health wanted to answer were no different than any other website owner: How do visitors use its website, what draws them here, and which pages do they visit? That is very useful information if you want to optimize your website, attract more visitors, and build something that actually fits users needs.
+
+And their solution was no different either: They turned to Google and Meta, who provide website owners with this information through the use of tracking “pixels”. The code behind a tracking pixel can give a website owner useful information about their visitors, such as the type of device they are using, their approximation location (which can be worked out from a user’s [IP address](https://www.malwarebytes.com/cybersecurity/basics/what-is-ip-address)), and how they move from page to page across a website. It can also reveal if visitors are coming from a paid ads on Google, Twitter, or Facebook, so companies can tell whether their marketing dollars are being spent productively.
+
+## How data can be leaked
+
+What the Advocate Aurora Health’s disclosure doesn’t reveal is how the information was shared, or whether or not Google and Meta were aware of it. We note that the language it uses is “disclosed” rather than “gathered”, suggesting the website over-shared rather than an overreach by the trackers.
+
+Although both Google and Meta have, rightly, earned repuations for rapacious data gathering, the details of how their pixels work, and what they do and don’t care about, are important where health information is concerned. It is possible that neither were aware of the nature of the data being shared, and that neither would want the legal or compliance headaches that come with handling it.
+
+If that is the case, it wouldn’t be the first time. Just two months ago [North Carolina-based Novant Health](https://healthitsecurity.com/news/novant-health-notifies-patients-of-unauthorized-phi-disclosure-caused-by-meta-pixel) notified 1.3 million patients that using the Meta pixel code may have led to unauthorized disclosure of PHI.
+
+In 2015, when the Affordable Care act’s healthcare.gov website first launched, it was also found to be leaking data to third parties, and it provides a useful lesson in how it can happen.
+
+Simplistically, web analytics and web ad tracking systems want to know the number of indvidual visitors to the different URLs on a website, and how those visitors got there. Each time a visitor lands on a page a tracking pixel sends the URL (along with some extra information, such as the browser type, screen resolution, I...

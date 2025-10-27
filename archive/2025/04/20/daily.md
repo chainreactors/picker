@@ -1,0 +1,107 @@
+# 每日安全资讯（2025-04-20）
+
+- Security Boulevard
+  - [ ] [Secrets Management that Delivers Real Value](https://securityboulevard.com/2025/04/secrets-management-that-delivers-real-value/?utm_source=rss&utm_medium=rss&utm_campaign=secrets-management-that-delivers-real-value)
+  - [ ] [BSidesLV24 – Common Ground – Quantum Computing: When Will It Break Public Key Cryptography?](https://securityboulevard.com/2025/04/bsideslv24-common-ground-quantum-computing-when-will-it-break-public-key-cryptography/?utm_source=rss&utm_medium=rss&utm_campaign=bsideslv24-common-ground-quantum-computing-when-will-it-break-public-key-cryptography)
+- Recent Commits to cve:main
+  - [ ] [Update Sat Apr 19 15:59:20 UTC 2025](https://github.com/trickest/cve/commit/e4ba2f43d2a0df7ae1e5fc808f6a20527c05c46b)
+- Private Feed for M09Ic
+  - [ ] [safedv starred NtRaiseHardError/NINA](https://github.com/NtRaiseHardError/NINA)
+  - [ ] [safedv starred emdnaia/src](https://github.com/emdnaia/src)
+  - [ ] [kpcyrd starred RustCrypto/nacl-compat](https://github.com/RustCrypto/nacl-compat)
+  - [ ] [Rvn0xsy starred ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
+  - [ ] [kpcyrd starred tkaitchuck/aHash](https://github.com/tkaitchuck/aHash)
+  - [ ] [mgeeky starred Meowmycks/koneko](https://github.com/Meowmycks/koneko)
+  - [ ] [mgeeky starred silentwarble/PIC-Library](https://github.com/silentwarble/PIC-Library)
+  - [ ] [mgeeky starred tijme/relocatable](https://github.com/tijme/relocatable)
+  - [ ] [mgeeky starred ibaiC/FriendlyFireBOF](https://github.com/ibaiC/FriendlyFireBOF)
+  - [ ] [safedv starred chryzsh/awesome-bof](https://github.com/chryzsh/awesome-bof)
+  - [ ] [safedv starred conradludgate/aegis-cl](https://github.com/conradludgate/aegis-cl)
+  - [ ] [FunnyWolf starred boy-hack/ksubdomain](https://github.com/boy-hack/ksubdomain)
+- SecWiki News
+  - [ ] [SecWiki News 2025-04-19 Review](http://www.sec-wiki.com/?2025-04-19)
+- Reverse Engineering
+  - [ ] [A small dive into virtual memory](https://www.reddit.com/r/ReverseEngineering/comments/1k2zhwb/a_small_dive_into_virtual_memory/)
+- Exploit-DB.com RSS Feed
+  - [ ] [[webapps] FoxCMS 1.2.5 - Remote Code Execution  (RCE)](https://www.exploit-db.com/exploits/52267)
+  - [ ] [[webapps] Drupal 11.x-dev - Full Path Disclosure](https://www.exploit-db.com/exploits/52266)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [机器人在首届人机半程马拉松比赛中惨败给人类](https://www.solidot.org/story?sid=81091)
+- 黑海洋 - Wiki
+  - [ ] [Ente全家桶部署：Ente Photos、Ente Auth](https://blog.upx8.com/4758)
+- 安全分析与研究
+  - [ ] [恶意软件自动化分析沙箱平台](https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247491630&idx=1&sn=dd0fe26e7510cbd4e250c5a4242f312d&subscene=0)
+- KitPloit - PenTest &amp; Hacking Tools
+  - [ ] [Maryam - Open-source Intelligence(OSINT) Framework](http://www.kitploit.com/2025/04/maryam-open-source-intelligenceosint.html)
+- 皮相
+  - [ ] [1996年《财富》杂志封面到底是怎么说格林斯潘的](https://mp.weixin.qq.com/s?__biz=MzI0NDA5MDYyNA==&mid=2648257295&idx=1&sn=c06c2b1f4362d11aab0f08a3117bd503&subscene=0)
+- 安全内参
+  - [ ] [大模型+Agent+新架构，重塑安全可观测性](https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247514212&idx=1&sn=4a33555ef6392d40acf7821b9d9118a7&subscene=0)
+- 看雪学苑
+  - [ ] [8月10日截止征题！2025 KCTF 防守方规则公布](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458592613&idx=1&sn=0c9157a100940b8d988887a415ae45b8&subscene=0)
+  - [ ] [安卓壳学习记录（下）-某加固免费版分析](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458592613&idx=2&sn=3509d0611c62f7922a97536583bcd512&subscene=0)
+- 安全圈
+  - [ ] [【安全圈】Windows NTLM 漏洞肆虐，低交互高风险、可提权窃取敏感数据](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069169&idx=1&sn=23dcd3fe9618ef29ef7a414b9da625d6&subscene=0)
+  - [ ] [【安全圈】微软警告：Node.js 开源运行环境成恶意软件新温床](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069169&idx=2&sn=362e4aa9ddf532dc2ac4d4c8b3aa7cdd&subscene=0)
+  - [ ] [【安全圈】在线论坛 4chan 在遭受重大黑客攻击后被迫关闭](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069169&idx=3&sn=15189639c5b967b74805b13212a0ac44&subscene=0)
+- 极客公园
+  - [ ] [扣子空间一手实测：字节的第一个 Agent，比 Manus 如何？](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653077868&idx=1&sn=94aa364fc552469750eee785f68b8c08&subscene=0)
+  - [ ] [DeepSeek 梁文锋入选「时代 100 人」；小米米家 6 月支持鸿蒙 5；高斯林主演《星战》新片 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653077835&idx=1&sn=d599d0dd2d4c9ee793668a8c8aae01af&subscene=0)
+- 中国信息安全
+  - [ ] [通知 | 网安标委印发《全国网络安全标准化技术委员会2025年度工作要点》（附全文）](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664240973&idx=2&sn=3673699428e121ba2de6acb3e57ae710&subscene=0)
+  - [ ] [注意！这67款App违法违规收集使用个人信息](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664240973&idx=3&sn=8edd25bfcdcff5f11d345ef62f0a24d5&subscene=0)
+  - [ ] [关注 | 网信部门清理处置1.1万余个利用未成年人形象发布违法不良信息的账号](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664240973&idx=1&sn=e9edb413fce9464a6526519844062ae3&subscene=0)
+- 山石网科安全技术研究院
+  - [ ] [IngressNightmare：揭秘CVE-2025-1974 Kubernetes RCE漏洞](https://mp.weixin.qq.com/s?__biz=MzUzMDUxNTE1Mw==&mid=2247511701&idx=1&sn=7f2360040b4d75447acab62b52e3db78&subscene=0)
+- 漏洞战争
+  - [ ] [网络安全顶会——NDSS 2025 论文清单与摘要（1）](https://mp.weixin.qq.com/s?__biz=MzU0MzgzNTU0Mw==&mid=2247485943&idx=1&sn=23f7d08c8f16bb214e3b6eb8b6a9b05c&subscene=0)
+  - [ ] [网络安全顶会——NDSS 2025 论文清单与摘要（2）](https://mp.weixin.qq.com/s?__biz=MzU0MzgzNTU0Mw==&mid=2247485943&idx=2&sn=19294471c2271fb24def683e31f48724&subscene=0)
+  - [ ] [网络安全顶会——NDSS 2025 论文清单与摘要（3）](https://mp.weixin.qq.com/s?__biz=MzU0MzgzNTU0Mw==&mid=2247485943&idx=3&sn=bd95e2f0db65eca4368c2e2ccd687b03&subscene=0)
+- 吾爱破解论坛
+  - [ ] [2025腾讯游戏安全技术竞赛 安卓初赛](https://mp.weixin.qq.com/s?__biz=MjM5Mjc3MDM2Mw==&mid=2651142520&idx=1&sn=a03913b781f61adbfda9c0eec1aa7df6&subscene=0)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Widespread Microsoft Entra lockouts tied to new security feature rollout](https://www.bleepingcomputer.com/news/microsoft/widespread-microsoft-entra-lockouts-tied-to-new-security-feature-rollout/)
+  - [ ] [Critical Erlang/OTP SSH RCE bug now has public exploits, patch now](https://www.bleepingcomputer.com/news/security/public-exploits-released-for-critical-erlang-otp-ssh-flaw-patch-now/)
+  - [ ] [New Android malware steals your credit cards for NFC relay attacks](https://www.bleepingcomputer.com/news/security/supercard-x-android-malware-use-stolen-cards-in-nfc-relay-attacks/)
+  - [ ] [MISP: studio ed integrazione](https://roccosicilia.com/2025/04/19/misp-studio-ed-integrazione/)
+  - [ ] [Google Gemini AI is getting ChatGPT-like Scheduled Actions feature](https://www.bleepingcomputer.com/news/artificial-intelligence/google-gemini-ai-is-getting-chatgpt-like-scheduled-actions-feature/)
+- 字节跳动技术团队
+  - [ ] [扣子空间，开启内测！](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247514122&idx=1&sn=b84516a1ab06b428ecd038f2194f5df4&subscene=0)
+- ICT Security Magazine
+  - [ ] [Il CISO e la conformità normativa: gestire le leggi sulla cybersecurity](https://www.ictsecuritymagazine.com/articoli/ciso-conformita/)
+- 迪哥讲事
+  - [ ] [利用自动化脚本来加密破解](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497459&idx=1&sn=be324c61a4c2805f493fce018fa44980&subscene=0)
+- Instapaper: Unread
+  - [ ] [Smart TV spione ecco come proteggere la nostra privacy](https://www.agendadigitale.eu/sicurezza/privacy/smart-tv-spione-ecco-come-proteggere-la-nostra-privacy/)
+  - [ ] [How Security Analyst Using Memory Forensics Tools To Enhance Advanced Incident Response](https://cybersecuritynews.com/how-security-analyst-using-memory-forensics-tools-to-enhance-advanced-incident-response/)
+  - [ ] [Tracking iOS App Installs and Purchase History with StoreUser DB](https://www.stark4n6.com/2025/04/tracking-ios-app-installs-and-purchase.html)
+  - [ ] [Unlocking Android Devices with Brute-Force](https://belkasoft.com/unlocking-android-devices-with-brute-force)
+  - [ ] [Le Nuove frontiere delle Prove Digitali web forensics a Milano per MSAB](https://www.forenser.it/prove-digitali-web-forensics-msab/)
+  - [ ] [How to Find Evidence of Network Windows Registry](https://www.cybertriage.com/blog/how-to-find-evidence-of-network-windows-registry/)
+  - [ ] [Così rubano criptovalute usando smartphone Android contraffatti con un finto WhatsApp](https://www.cybersecurity360.it/news/cosi-rubano-criptovalute-usando-smartphone-android-contraffatti-con-un-finto-whatsapp/)
+- The Hacker News
+  - [ ] [Rogue npm Packages Mimic Telegram Bot API to Plant SSH Backdoors on Linux Systems](https://thehackernews.com/2025/04/rogue-npm-packages-mimic-telegram-bot.html)
+  - [ ] [ASUS Confirms Critical Flaw in AiCloud Routers; Users Urged to Update Firmware](https://thehackernews.com/2025/04/asus-confirms-critical-flaw-in-aicloud.html)
+- TorrentFreak
+  - [ ] [ACE & MPA Quietly Seized Dozens of Pirate Domains in Q1 2025](https://torrentfreak.com/ace-mpa-quietly-seized-dozens-of-pirate-domains-in-q1-2025-250419/)
+- KitPloit - PenTest Tools!
+  - [ ] [Maryam - Open-source Intelligence(OSINT) Framework](http://www.kitploit.com/2025/04/maryam-open-source-intelligenceosint.html)
+- Security Affairs
+  - [ ] [Attackers exploited SonicWall SMA appliances since January 2025](https://securityaffairs.com/176706/security/attackers-exploited-sonicwall-sma-appliances-since-january-2025.html)
+- Technical Information Security Content & Discussion
+  - [ ] [b3rito/b3acon: b3acon - a mail-based C2 that communicates via an in-memory C# IMAP client dynamically compiled in memory using PowerShell.](https://www.reddit.com/r/netsec/comments/1k3677a/b3ritob3acon_b3acon_a_mailbased_c2_that/)
+  - [ ] [BBRadar.io - The Bug Bounty Program Aggregator - Find the latest bug bounty programs from all major platforms.](https://www.reddit.com/r/netsec/comments/1k37153/bbradario_the_bug_bounty_program_aggregator_find/)
+- Hacking Exposed Computer Forensics Blog
+  - [ ] [Daily Blog #812: Testing AWS Log latency - Removing Users from Groups](https://www.hecfblog.com/2025/04/daily-blog-812-testing-aws-log-latency.html)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [b3rito/b3acon: b3acon - a mail-based C2 that communicates via an in-memory C# IMAP client dynamically compiled in memory using PowerShell.](https://www.reddit.com/r/blackhat/comments/1k35aau/b3ritob3acon_b3acon_a_mailbased_c2_that/)
+- Your Open Hacker Community
+  - [ ] [I have an Iphone with IOS 16 with an Icloud lock on it should I use Dopamine to remove it or something else (Goldra1n/Checkra1n/Palera1n)](https://www.reddit.com/r/HowToHack/comments/1k32jhs/i_have_an_iphone_with_ios_16_with_an_icloud_lock/)
+  - [ ] [How to break password of RAR file ?](https://www.reddit.com/r/HowToHack/comments/1k2qclu/how_to_break_password_of_rar_file/)
+- The Register - Security
+  - [ ] [Hacking US crosswalks to talk like Zuck is as easy as 1234](https://go.theregister.com/feed/www.theregister.com/2025/04/19/us_crosswalk_button_hacking/)
+- Social Engineering
+  - [ ] [Full Lesson P1 | The Fear Appeal (National Security)](https://www.reddit.com/r/SocialEngineering/comments/1k2z4r9/full_lesson_p1_the_fear_appeal_national_security/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [Is TryHackMe worth it for someone trying to get into cybersecurity?](https://www.reddit.com/r/netsecstudents/comments/1k3870u/is_tryhackme_worth_it_for_someone_trying_to_get/)
+  - [ ] [How to monitor a compromised firewall](https://www.reddit.com/r/netsecstudents/comments/1k2jgd6/how_to_monitor_a_compromised_firewall/)

@@ -1,0 +1,20 @@
+---
+title: 前沿 | 数字经济时代网络安全工程师能力框架构建研究
+url: https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664245137&idx=2&sn=a568146429cee8ced3096eed2186dcde
+source: Doonsec's feed
+date: 2025-07-04
+fetch_date: 2025-10-06T23:18:06.583729
+---
+
+# 前沿 | 数字经济时代网络安全工程师能力框架构建研究
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

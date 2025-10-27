@@ -1,0 +1,248 @@
+---
+title: lz520520 starred HyperSine/how-does-SecureCRT-encrypt-password
+url: https://github.com/HyperSine/how-does-SecureCRT-encrypt-password
+source: Private Feed for M09Ic
+date: 2024-09-03
+fetch_date: 2025-10-06T18:22:57.866456
+---
+
+# lz520520 starred HyperSine/how-does-SecureCRT-encrypt-password
+
+[Skip to content](#start-of-content)
+
+## Navigation Menu
+
+Toggle navigation
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2FHyperSine%2Fhow-does-SecureCRT-encrypt-password)
+
+Appearance settings
+
+* Platform
+
+  + [GitHub Copilot
+
+    Write better code with AI](https://github.com/features/copilot)
+  + [GitHub Spark
+    New
+
+    Build and deploy intelligent apps](https://github.com/features/spark)
+  + [GitHub Models
+    New
+
+    Manage and compare prompts](https://github.com/features/models)
+  + [GitHub Advanced Security
+
+    Find and fix vulnerabilities](https://github.com/security/advanced-security)
+  + [Actions
+
+    Automate any workflow](https://github.com/features/actions)
+
+  + [Codespaces
+
+    Instant dev environments](https://github.com/features/codespaces)
+  + [Issues
+
+    Plan and track work](https://github.com/features/issues)
+  + [Code Review
+
+    Manage code changes](https://github.com/features/code-review)
+  + [Discussions
+
+    Collaborate outside of code](https://github.com/features/discussions)
+  + [Code Search
+
+    Find more, search less](https://github.com/features/code-search)
+
+  Explore
+  + [Why GitHub](https://github.com/why-github)
+  + [Documentation](https://docs.github.com)
+  + [GitHub Skills](https://skills.github.com)
+  + [Blog](https://github.blog)
+
+  Integrations
+  + [GitHub Marketplace](https://github.com/marketplace)
+  + [MCP Registry](https://github.com/mcp)
+
+  [View all features](https://github.com/features)
+* Solutions
+
+  By company size
+  + [Enterprises](https://github.com/enterprise)
+  + [Small and medium teams](https://github.com/team)
+  + [Startups](https://github.com/enterprise/startups)
+  + [Nonprofits](/solutions/industry/nonprofits)
+
+  By use case
+  + [App Modernization](/solutions/use-case/app-modernization)
+  + [DevSecOps](/solutions/use-case/devsecops)
+  + [DevOps](/solutions/use-case/devops)
+  + [CI/CD](/solutions/use-case/ci-cd)
+  + [View all use cases](/solutions/use-case)
+
+  By industry
+  + [Healthcare](/solutions/industry/healthcare)
+  + [Financial services](/solutions/industry/financial-services)
+  + [Manufacturing](/solutions/industry/manufacturing)
+  + [Government](/solutions/industry/government)
+  + [View all industries](/solutions/industry)
+
+  [View all solutions](/solutions)
+* Resources
+
+  Topics
+  + [AI](/resources/articles/ai)
+  + [DevOps](/resources/articles/devops)
+  + [Security](/resources/articles/security)
+  + [Software Development](/resources/articles/software-development)
+  + [View all](/resources/articles)
+
+  Explore
+  + [Learning Pathways](https://resources.github.com/learn/pathways)
+  + [Events & Webinars](https://github.com/resources/events)
+  + [Ebooks & Whitepapers](https://github.com/resources/whitepapers)
+  + [Customer Stories](https://github.com/customer-stories)
+  + [Partners](https://github.com/partners)
+  + [Executive Insights](https://github.com/solutions/executive-insights)
+* Open Source
+
+  + [GitHub Sponsors
+
+    Fund open source developers](/sponsors)
+
+  + [The ReadME Project
+
+    GitHub community articles](https://github.com/readme)
+
+  Repositories
+  + [Topics](https://github.com/topics)
+  + [Trending](https://github.com/trending)
+  + [Collections](https://github.com/collections)
+* Enterprise
+
+  + [Enterprise platform
+
+    AI-powered developer platform](/enterprise)
+
+  Available add-ons
+  + [GitHub Advanced Security
+
+    Enterprise-grade security features](https://github.com/security/advanced-security)
+  + [Copilot for business
+
+    Enterprise-grade AI features](/features/copilot/copilot-business)
+  + [Premium Support
+
+    Enterprise-grade 24/7 support](/premium-support)
+* [Pricing](https://github.com/pricing)
+
+Search or jump to...
+
+# Search code, repositories, users, issues, pull requests...
+
+Search
+
+Clear
+
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+
+# Provide feedback
+
+We read every piece of feedback, and take your input very seriously.
+
+[ ]
+Include my email address so I can be contacted
+
+Cancel
+ Submit feedback
+
+# Saved searches
+
+## Use saved searches to filter your results more quickly
+
+Cancel
+ Create saved search
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2FHyperSine%2Fhow-does-SecureCRT-encrypt-password)
+
+[Sign up](/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=HyperSine%2Fhow-does-SecureCRT-encrypt-password)
+
+Appearance settings
+
+Resetting focus
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+Dismiss alert
+
+{{ message }}
+
+[HyperSine](/HyperSine)
+/
+**[how-does-SecureCRT-encrypt-password](/HyperSine/how-does-SecureCRT-encrypt-password)**
+Public
+
+* [Notifications](/login?return_to=%2FHyperSine%2Fhow-does-SecureCRT-encrypt-password) You must be signed in to change notification settings
+* [Fork
+  107](/login?return_to=%2FHyperSine%2Fhow-does-SecureCRT-encrypt-password)
+* [Star
+   283](/login?return_to=%2FHyperSine%2Fhow-does-SecureCRT-encrypt-password)
+
+Transferred from <https://github.com/DoubleLabyrinth/how-does-SecureCRT-encrypt-password>
+
+[283
+stars](/HyperSine/how-does-SecureCRT-encrypt-password/stargazers) [107
+forks](/HyperSine/how-does-SecureCRT-encrypt-password/forks) [Branches](/HyperSine/how-does-SecureCRT-encrypt-password/branches) [Tags](/HyperSine/how-does-SecureCRT-encrypt-password/tags) [Activity](/HyperSine/how-does-SecureCRT-encrypt-password/activity)
+
+[Star](/login?return_to=%2FHyperSine%2Fhow-does-SecureCRT-encrypt-password)
+
+[Notifications](/login?return_to=%2FHyperSine%2Fhow-does-SecureCRT-encrypt-password) You must be signed in to change notification settings
+
+* [Code](/HyperSine/how-does-SecureCRT-encrypt-password)
+* [Issues
+  6](/HyperSine/how-does-SecureCRT-encrypt-password/issues)
+* [Pull requests
+  0](/HyperSine/how-does-SecureCRT-encrypt-password/pulls)
+* [Actions](/HyperSine/how-does-SecureCRT-encrypt-password/actions)
+* [Projects
+  0](/HyperSine/how-does-SecureCRT-encrypt-password/projects)
+* [Security
+
+  ### Uh oh!
+
+  There was an error while loading. Please reload this page.](/HyperSine/how-does-SecureCRT-encrypt-password/security)
+* [Insights](/HyperSine/how-does-SecureCRT-encrypt-password/pulse)
+
+Additional navigation options
+
+* [Code](/HyperSine/how-does-SecureCRT-encrypt-password)
+* [Issues](/HyperSine/how-does-SecureCRT-encrypt-password/issues)
+* [Pull requests](/HyperSine/how-does-SecureCRT-encrypt-password/pulls)
+* [Actions](/HyperSine/how-does-SecureCRT-encrypt-password/actions)
+* [Projects](/HyperSine/how-does-SecureCRT-encrypt-password/projects)
+* [Security](/HyperSine/how-does-SecureCRT-encrypt-password/security)
+* [Insights](/HyperSine/how-does-SecureCRT-encrypt-password/pulse)
+
+# HyperSine/how-does-SecureCRT-encrypt-password
+
+master
+
+[Branches](/HyperSine/how-does-SecureCRT-encrypt-password/branches)[Tags](/HyperSine/how-does-SecureCRT-encrypt-password/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Folders and files
+
+| Name | | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- | --- |
+| Latest commit   History[11 Commits](/HyperSine/how-does-SecureCRT-encrypt-password/commits/master/) | | |
+| [doc](/HyperSine/how-does-SecureCRT-encrypt-password/tree/master/doc "doc") | | [doc](/HyperSine/how-does-SecureCRT-encrypt-password/tree/master/doc "doc") |  |  |
+| [python3](/HyperSine/how-does-SecureCRT-encrypt-password/tree/master/python3 "python3") | | [python3](/HyperSine/how-does-SecureCRT-encrypt-password/tree/master/python3 "python3") |  |  |
+| [.gitignore](/HyperSine/how-does-SecureCRT-encrypt-password/blob/master/.gitignore ".gitignore") | | [.gitignore](/HyperSine/how-does-SecureCRT-encrypt-password/blob/master/.gitignore ".gitignore") |  |  |
+| [README.md](/HyperSine/how-does-SecureCRT-encrypt-password/blob/master/README.md "README.md") | | [README.md]...

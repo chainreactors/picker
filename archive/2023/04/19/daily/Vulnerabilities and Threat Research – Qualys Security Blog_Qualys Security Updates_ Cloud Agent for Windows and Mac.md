@@ -1,0 +1,143 @@
+---
+title: Qualys Security Updates: Cloud Agent for Windows and Mac
+url: https://blog.qualys.com/category/vulnerabilities-threat-research
+source: Vulnerabilities and Threat Research – Qualys Security Blog
+date: 2023-04-19
+fetch_date: 2025-10-04T11:32:38.522329
+---
+
+# Qualys Security Updates: Cloud Agent for Windows and Mac
+
+* [Discussions](https://success.qualys.com/discussions/s/)
+  + [Back to main menu](#back)
+  + [BROWSE BY TOPIC](https://qualys-secure.force.com/discussions/s/)BROWSE BY TOPIC
+  + [Global IT Asset Management](https://qualys-secure.force.com/discussions/s/topic/0TO2L000000HIRIWA4/asset-management)
+  + [IT Security](https://qualys-secure.force.com/discussions/s/topic/0TO2L000000HIRwWAO/it-security)
+  + [Compliance](https://qualys-secure.force.com/discussions/s/topic/0TO2L000000HIS1WAO/compliance)
+  + [Cloud & Container Security](https://qualys-secure.force.com/discussions/s/topic/0TO2L000000HIRnWAO/cloud-container)
+  + [Web App Security](https://qualys-secure.force.com/discussions/s/topic/0TO2L000000HISCWA4/web-app-security)
+  + [Certificate Security & SSL Labs](https://qualys-secure.force.com/discussions/s/topic/0TO2L000000HIRfWAO/certificate-security)
+  + [Developer API](https://qualys-secure.force.com/discussions/s/topic/0TO2L000000HIR8WAO/developer)
+  + [Cloud Platform](https://qualys-secure.force.com/discussions/s/topic/0TO2L000000HIRAWA4/qualys-cloud-platform)
+  + [Start a discussion](https://qualys-secure.force.com/discussions/s/#start-a-discussion)
+* [Blog](https://blog.qualys.com/)
+* [Training](https://www.qualys.com/training/)
+* [Docs](https://www.qualys.com/documentation/)
+* [Support](https://success.qualys.com/support/s/)
+* [Trust](https://success.qualys.com/support/s/standards)
+
+[Community](https://community.qualys.com/ "Qualys Community")
+
+[![](https://ik.imagekit.io/qualys/image/icon/link-arrow-left.svg)
+Blog Home](/)
+
+# All posts in Vulnerabilities and Threat Research
+
+### 958 Posts
+
+## Categories
+
+* [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+  + [QSC](https://blog.qualys.com/category/qualys-insights/qualys-security-conference)
+* [Product and Tech](https://blog.qualys.com/category/product-tech)
+  + [Patch Management](https://blog.qualys.com/category/product-tech/patch-management)
+  + [VMDR](https://blog.qualys.com/category/product-tech/vulnmgmt-detection-response)
+* [Vulnerabilities and Threat Research](https://blog.qualys.com/category/vulnerabilities-threat-research)
+  + [Patch Tuesday](https://blog.qualys.com/category/vulnerabilities-threat-research/patch-tuesday)
+  + [Threat Thursday](https://blog.qualys.com/category/vulnerabilities-threat-research/threat-thursday)
+
+## Top Posts
+
+* [CVE-2021-3156: Heap-Based Buffer Overflow in Sudo (Baron Samedit)](https://blog.qualys.com/?post_type=post&p=27395)
+* [Apache Log4j Zero Day Threat: CVE-2021-44228 Detection and Response](https://blog.qualys.com/?post_type=post&p=28896)
+* [Remote Unauthenticated Code Execution Vulnerability in OpenSSH Server (regreSSHion)](https://blog.qualys.com/?post_type=post&p=35841)
+* [PwnKit: Local Privilege Escalation Vulnerability Discovered in polkit's pkexec (CVE-2021-4034)](https://blog.qualys.com/?post_type=post&p=29243)
+* [CAA Mandated by CA/Browser Forum](https://blog.qualys.com/?post_type=post&p=23648)
+
+## Get Updates!
+
+## Join the discussion today!
+
+**Learn** more about Qualys and industry best practices.
+
+**Share** what you know and build a reputation.
+
+**Secure** your systems and improve security for everyone.
+
+[Start a discussion](https://discussions.qualys.com/discussion/create%21input.jspa)
+
+* [Twitter](https://twitter.com/qualys)
+* [LinkedIn](https://www.linkedin.com/company/qualys)
+* [Facebook](https://www.facebook.com/qualys)
+* [YouTube](https://www.youtube.com/user/QualysGuard)
+* [Vimeo](https://vimeo.com/qualys)
+
+### Qualys
+
+* [Qualys.com](https://www.qualys.com/ "Information Security and Compliance | Qualys, Inc.")
+* [Qualys Community Edition](https://www.qualys.com/community-edition/ "Free Trial | Qualys, Inc.")
+* [Qualys Merchandise Store](https://store.qualys.com/)
+
+### Qualys Communities
+
+* [Vulnerability Management](https://community.qualys.com/vulnerability-management/)
+* [Policy Compliance](https://community.qualys.com/policy-compliance/)
+* [PCI Compliance](https://community.qualys.com/pci-compliance/)
+* [Web App Scanning](https://community.qualys.com/web-app-scanning/)
+* [Web App Firewall](https://community.qualys.com/web-app-firewall/)
+* [Continuous Monitoring](https://community.qualys.com/continuous-monitoring/)
+* [Security Assessment Questionnaire](https://community.qualys.com/security-assessment-questionnaire/)
+* [Threat Protection](https://community.qualys.com/threat-protection/)
+* [Asset Inventory](https://community.qualys.com/asset-inventory/)
+* [AssetView](https://community.qualys.com/asset-view/)
+* [CMDB Sync](https://community.qualys.com/cmdb-sync/)
+* [Endpoint Detection & Response](https://community.qualys.com/endpoint-detection-response/)
+* [Security Configuration Assessment](https://community.qualys.com/security-configuration-assessment/)
+* [File Integrity Monitoring](https://community.qualys.com/file-integrity-monitoring/)
+* [Cloud Inventory](https://community.qualys.com/cloud-inventory/)
+* [Certificate Inventory](https://community.qualys.com/certificate-inventory/)
+* [Container Security](https://community.qualys.com/container-security/)
+* [Cloud Security Assessment](https://community.qualys.com/cloud-security-assessment/)
+* [Certificate Assessment](https://community.qualys.com/certificate-assessment/)
+* [Out-of-band Configuration Assessment](https://community.qualys.com/out-of-band-configuration-assessment/)
+* [Patch Management](https://community.qualys.com/patch-management/)
+* [Developer API](https://community.qualys.com/api/)
+* [Cloud Agent](https://community.qualys.com/cloud-agent/)
+* [Dashboards & Reporting](https://community.qualys.com/reporting/)
+
+### Discussions
+
+* [All discussions](https://discussions.qualys.com/)
+* [Global IT Asset Management](https://discussions.qualys.com/community/asset-inventory)
+* [IT Security](https://discussions.qualys.com/community/vulnerability-management)
+* [Compliance](https://discussions.qualys.com/community/policy-compliance)
+* [Cloud & Container Security](https://discussions.qualys.com/community/cloud-security)
+* [Web App Security](https://discussions.qualys.com/community/web-application-scanning)
+* [Certificate Security & SSL Labs](https://discussions.qualys.com/community/ssllabs)
+* [Developer API](https://discussions.qualys.com/community/developer)
+
+### Blog
+
+* [All posts](https://blog.qualys.com/)
+* [Qualys Insights](https://blog.qualys.com/qualys-insights)
+* [Product and Tech](https://blog.qualys.com/product-tech)
+* [Vulnerabilities and Threat Research](https://blog.qualys.com/vulnerabilities-threat-research)
+* [Release Notifications](https://notifications.qualys.com/)
+
+### Training
+
+* [Overview](https://www.qualys.com/training/)
+* [Certified Courses](https://www.qualys.com/training/#self-paced)
+* [Video Library](https://www.qualys.com/training/#video-library)
+* [Instructor-led Training](https://www.qualys.com/training/#instructor-led)
+
+### Docs
+
+* [Overview](https://www.qualys.com/documentation/)
+* [Release Notes](https://www.qualys.com/documentation/release-notes/)
+
+### Support
+
+* [Support Portal](https://success.qualys.com/support/s/)
+
+© 2025 Qualys, Inc. All rights reserved. [Privacy Policy](https://www.qualys.com/company/privacy/) . [Accessibility](https://www.qualys.com/company/accessibility/)

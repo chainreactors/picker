@@ -1,0 +1,20 @@
+---
+title: 前沿 | 中非人工智能领域合作：概述、挑战与建议
+url: https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664247616&idx=1&sn=7a8109571e1bfe10368e1dbcf9c887ee
+source: Doonsec's feed
+date: 2025-08-19
+fetch_date: 2025-10-07T00:14:58.609054
+---
+
+# 前沿 | 中非人工智能领域合作：概述、挑战与建议
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

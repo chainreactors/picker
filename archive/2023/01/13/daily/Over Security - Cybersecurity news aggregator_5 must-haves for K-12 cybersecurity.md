@@ -1,0 +1,176 @@
+---
+title: 5 must-haves for K-12 cybersecurity
+url: https://www.malwarebytes.com/blog/business/2023/01/5-must-haves-for-k-12-cybersecurity
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-13
+fetch_date: 2025-10-04T03:49:08.355263
+---
+
+# 5 must-haves for K-12 cybersecurity
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![5 must-haves for K-12 cybersecurity](https://www.threatdown.com/wp-content/uploads/2023/01/asset_upload_file40492_254045.jpg?w=736)
+
+[Business](https://www.threatdown.com/blog/category/business/)
+
+## 5 must-haves for K-12 cybersecurity
+
+January 12, 2023
+
+[Bill Cozens](https://www.threatdown.com/blog/author/wcozensmalwarebytes-com/)
+
+Over the years, cyberattacks on K-12 schools and districts have steadily increased, and in 2022 that trend only continued. [In the first half of 2022 alone](https://blog.checkpoint.com/2022/08/09/check-point-research-education-sector-experiencing-more-than-double-monthly-attacks-compared-to-other-industries/), the education sector saw an average of almost 2,000 attacks every week—a 114% increase compared to two years ago.
+
+The tight budgets of many educational institutions forces them to struggle with outdated equipment and limited staff, making them an easy target for cybercriminals. But if their wallets allow for it, there are a few staple cybersecurity safeguards that schools and districts should always consider implementing.
+
+In this post, we’ll look at the 5 must-haves for [K-12 cybersecurity](https://www.threatdown.com/education/).
+
+## 1. Anti-ransomware EDR
+
+It’s no secret that public schools have been experiencing a scourge of ransomware attacks lately. In total, [89 education sector organizations](https://www.emsisoft.com/en/blog/43258/the-state-of-ransomware-in-the-us-report-and-statistics-2022/#:~:text=In%20total%2C%2089%20education%20sector%20organizations%20were%20impacted%20by%20ransomware) were impacted by ransomware in 2022—the number of potentially affected schools doubling from 2021 to 1,981.
+
+The most high profile of these attacks occurred during Labor Day weekend, when a ransomware gang breached the [Los Angeles Unified School District](https://www.malwarebytes.com/blog/news/2022/10/public-school-district-has-data-leaked-by-ransomware-gang) and stole roughly 500 gigabytes of data.
+
+In addition to meeting ransomware [best practices as defined by CISA](https://www.cisa.gov/stopransomware/ransomware-guide), schools and districts should carefully consider their options when it comes to selecting [an EDR vendor](https://www.threatdown.com/glossary/what-is-endpoint-detection-and-response-edr/). In particular, an anti-ransomware EDR should have the following features:
+
+* **Multi-vector Endpoint Protection** (EP) built-in
+* Maintains **visibility and patching** regularly
+* Has machine learning (ML) to **recognize ‘goodware’ instead of malware**
+* Uses **standard reference language** and forensic analysis
+* Thorough **containment, eradication, and recovery options**
+* Searches for **ransomware indicators across all your managed endpoints**
+
+For more, check out our [six point checklist for an anti-ransomware EDR](https://www.malwarebytes.com/blog/business/2022/08/can-your-edr-handle-a-ransomware-attack-6-point-checklist-for-an-anti-ransomware-edr).
+
+## 2. Third-party risk management
+
+Data breaches and leaks constituted about 30% of K-12 reported cyber incidents in 2021, according to the K12 Security Information Exchange (K12 SIX). What’s more, [55% of these incidents](https://www.k12six.org/the-report) were directly due to leaks originating from district vendors!
+
+In 2021, schools reported breaches of personal information by [Independent Health](https://www.wgrz.com/article/news/local/private-health-data-of-williamsville-school-employees-inadvertently-leaked-by-independent-health/71-2d476804-2d70-4689-b7c9-d4fb224b54c6), [PCS Revenue](https://www.dataprivacyandsecurityinsider.com/2021/04/school-nutrition-vendor-sued-for-compromise-of-867209-k-12-student-records/), and the [Student Transportation of America](https://whyy.org/articles/springfield-delco-parents-outraged-after-bus-company-email-reveals-students-information/), just to name a few.
+
+In other words, the majority of school data breaches aren’t the handiwork of cybercriminals, but rather due to school district vendors and other ...

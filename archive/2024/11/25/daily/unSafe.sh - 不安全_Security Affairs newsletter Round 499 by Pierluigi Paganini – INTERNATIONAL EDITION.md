@@ -1,0 +1,205 @@
+---
+title: Security Affairs newsletter Round 499 by Pierluigi Paganini – INTERNATIONAL EDITION
+url: https://buaq.net/go-274626.html
+source: unSafe.sh - 不安全
+date: 2024-11-25
+fetch_date: 2025-10-06T19:12:29.525545
+---
+
+# Security Affairs newsletter Round 499 by Pierluigi Paganini – INTERNATIONAL EDITION
+
+* [unSafe.sh - 不安全](https://unsafe.sh)
+* [我的收藏](/user/collects)
+* [今日热榜](/?hot=true)
+* [公众号文章](/?gzh=true)
+* [导航](/nav/index)
+* [Github CVE](/cve)
+* [Github Tools](/tools)
+* [编码/解码](/encode)
+* [文件传输](/share/index)
+* [Twitter Bot](https://twitter.com/buaqbot)
+* [Telegram Bot](https://t.me/aqinfo)
+* [Search](/search/search)
+
+[Rss](/rss.xml)
+
+[ ]
+黑夜模式
+
+![]()
+
+Security Affairs newsletter Round 499 by Pierluigi Paganini – INTERNATIONAL EDITION
+
+Security Affairs newsletter Round
+*2024-11-24 23:21:16
+Author: [securityaffairs.com(查看原文)](/jump-274626.htm)
+阅读量:23
+收藏*
+
+---
+
+[Security Affairs newsletter Round 499 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/171332/breaking-news/security-affairs-newsletter-round-499-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[DoJ seized credit card marketplace PopeyeTools and charges its administrators](https://securityaffairs.com/171319/cyber-crime/doj-seized-credit-card-marketplace-popeyetools.html)
+
+ |
+
+[A cyberattack on gambling giant IGT disrupted portions of its IT systems](https://securityaffairs.com/171311/hacking/cyberattack-on-gambling-giant-igt.html)
+
+ |
+
+[China-linked APT Gelsemium uses a new Linux backdoor dubbed WolfsBane](https://securityaffairs.com/171299/apt/china-linked-apt-gelsemium-linux-backdoor.html)
+
+ |
+
+[Microsoft seized 240 sites used by the ONNX phishing service](https://securityaffairs.com/171287/cyber-crime/microsoft-disrupted-the-onnx-phishing-service.html)
+
+ |
+
+[U.S. CISA adds Apple, Oracle Agile PLM bugs to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/171282/security/u-s-cisa-adds-apple-oracle-agile-plm-bugs-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[More than 2,000 Palo Alto Networks firewalls hacked exploiting recently patched zero-days](https://securityaffairs.com/171268/hacking/palo-alto-networks-firewalls-hacked-zero-days.html)
+
+ |
+
+[Ransomhub ransomware gang claims the hack of Mexican government Legal Affairs Office](https://securityaffairs.com/171257/data-breach/mexico-suffers-ransomware-attack.html)
+
+ |
+
+[US DoJ charges five alleged members of the Scattered Spider cybercrime gang](https://securityaffairs.com/171249/cyber-crime/doj-charged-five-suspects-scattered-spider.html)
+
+ |
+
+[Threat actor sells data of over 750,000 patients from a French hospital](https://securityaffairs.com/171238/data-breach/sale-750000-patients-french-hospital.html)
+
+ |
+
+[Decade-old local privilege escalation bugs impacts Ubuntu needrestart package](https://securityaffairs.com/171228/security/privilege-escalation-bugs-ubuntu-needrestart-package.html)
+
+ |
+
+[Ford data breach involved a third-party supplier](https://securityaffairs.com/171217/breaking-news/ford-admits-data-breach-linked-third-party-supplier.html)
+
+ |
+
+[Hacker obtained documents tied to lawsuit over Matt Gaetz's sexual misconduct allegations](https://securityaffairs.com/171207/security/matt-gaetzs-sexual-misconduct-allegations-doc-compromised.html)
+
+ |
+
+[Apple addressed two actively exploited zero-day vulnerabilities](https://securityaffairs.com/171202/security/apple-fixed-2-actively-exploited-zero-day-bugs.html)
+
+ |
+
+[Unsecured JupyterLab and Jupyter Notebooks servers abused for illegal streaming of Sports events](https://securityaffairs.com/171193/cyber-crime/misconfigured-jupyterlab-and-jupyter-notebooks-illegal-live-sports-streaming.html)
+
+ |
+
+[Russian Phobos ransomware operator faces cybercrime charges](https://securityaffairs.com/171184/cyber-crime/phobos-ransomware-operator-faces-cybercrime-charges.html)
+
+ |
+
+[Great Plains Regional Medical Center ransomware attack impacted 133,000 individuals](https://securityaffairs.com/171156/data-breach/great-plains-regional-medical-center-data-breach.html)
+
+ |
+
+[Recently disclosed VMware vCenter Server bugs are actively exploited in attacks](https://securityaffairs.com/171147/security/vmware-vcenter-server-bugs-actively-exploited.html)
+
+ |
+
+[Foreign adversary hacked email communications of the Library of Congress says](https://securityaffairs.com/171138/data-breach/library-of-congress-email-communications-hacked.html)
+
+ |
+
+[T-Mobile is one of the victims of the massive Chinese breach of telecom firms](https://securityaffairs.com/171127/apt/t-mobile-victim-chinese-breach-of-telco-firms.html)
+
+ |
+
+[Increased GDPR Enforcement Highlights the Need for Data Security](https://securityaffairs.com/171114/security/increased-gdpr-highlights-need-data-security.html)
+
+ |
+
+[Critical Really Simple Security plugin flaw impacts 4M+ WordPress sites](https://securityaffairs.com/171100/hacking/really-simple-security-plugin-flaw-affects-4m-sites.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER – ROUND 20](https://securityaffairs.com/171089/malware/security-affairs-malware-newsletter-round-20.html)
+
+ |
+
+[A botnet exploits e GeoVision zero-day to compromise EoL devices](https://securityaffairs.com/171067/malware/ddos-botnet-exploits-geovision-zero-day.html)
+
+ |
+
+[Palo Alto Networks confirmed active exploitation of recently disclosed zero-day](https://securityaffairs.com/171057/hacking/palo-alto-networks-zero-day-exploitation.html)
+
+ |
+
+[Glove Stealer bypasses Chrome’s App-Bound Encryption to steal cookies](https://securityaffairs.com/171034/malware/glove-stealer-bypasses-chromes-app-bound-encryption.html)
+
+ |
+
+[Bitfinex hacker Ilya Lichtenstein was sentenced to 5 years in prison](https://securityaffairs.com/171029/cyber-crime/bitfinex-hacker-was-sentenced-to-5-years-in-prison.html)
+
+ |
+
+[U.S. CISA adds Palo Alto Networks Expedition bugs to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/171012/security/u-s-cisa-adds-palo-alto-networks-expedition-bugs-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[China-linked threat actors compromised multiple telecos and spied on a limited number of U.S. government officials](https://securityaffairs.com/170981/intelligence/china-linked-threat-actors-spied-on-u-s-gov-officials.html)
+
+ |
+
+[Bitdefender released a decryptor for the ShrinkLocker ransomware](https://securityaffairs.com/170934/cyber-crime/shrinklocker-ransomware-decryptor.html)
+
+ |
+
+[China's Volt Typhoon botnet has re-emerged](https://securityaffairs.com/170872/apt/volt-typhoon-botnet-has-re-emerged.html)
+
+ |
+
+[Zoom addressed two high-severity issues in its platform](https://securityaffairs.com/170861/security/zoom-fixed-two-high-severity-flaws.html)
+
+ |
+
+[Microsoft Patch Tuesday security updates for November 2024 fix two actively exploited zero-days](https://securityaffairs.com/170851/hacking/microsoft-patch-tuesday-november-2024.html)
+
+ |
+
+[Ahold Delhaize experienced a cyber incident affecting several of its U.S. brands](https://securityaffairs.com/170840/security/ahold-delhaize-cyber-incident-u-s-brands.html)
+
+ |
+
+[A cyberattack on payment systems blocked cards readers across stores and gas stations in Israel](https://securityaffairs.com/170823/hacking/cyberattack-payment-systems-israel.html)
+
+ |
+
+[Apple indeed added a feature called "inactivity reboot" in iOS 18.1 that reboots locked devices](https://securityaffairs.com/170824/security/apple-feature-inactivity-reboot-ios-18-1.html)
+
+ |
+
+[Ymir ransomware, a new stealthy ransomware grow in the wild](https://securityaffairs.com/170814/malware/ymir-ransomware-analysis.html)
+
+ |
+
+[Amazon discloses employee data breach after May 2023 MOVEit attacks](https://securityaffairs.com/170804/data-breach/amazon-employee-data-breach-may-2023-moveit-attacks.html)
+
+ |
+
+[A new fileless variant of Remcos RAT observed in the wild](https://securityaffairs.com/170791/security/a-new-fileless-variant-of-remcos-rat-phishing.html)
+
+ |
+
+[A surge in Pro-Russia cyberattacks after decision to monitor North Korean Troops in Ukraine](https://securityaffairs.com/170779/hacking/south-korea-claims-pro-russia-actors-ddos-attacks.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER – ROUND 19](https://securityaffairs.com/170771/breaking-news/security-affairs-malware-newsletter-round-19.html)
+
+ |
+
+[Security Affai...

@@ -1,0 +1,49 @@
+---
+title: Where Is Anton Nikolaevich Korotchenko (Антон Николаевич Коротченко) Also Known as Koobface Botnet Master KrotReal? - Part Four
+url: https://ddanchev.blogspot.com/2024/09/where-is-anton-nikolaevich-korotchenko.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2024-09-13
+fetch_date: 2025-10-06T18:27:22.326301
+---
+
+# Where Is Anton Nikolaevich Korotchenko (Антон Николаевич Коротченко) Also Known as Koobface Botnet Master KrotReal? - Part Four
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+Independent Contractor. Bitcoin: 15Zvie1j8CjSR52doVSZSjctCDSx3pDjKZ Email: dancho.danchev@hush.com OMEMO: ddanchev@conversations.im | OTR: danchodanchev@xmpp.jp | TOX ID: 53B409440A6DC34F1BA458869A0462D92C15B467AF6319D481CA353690C88667833A0EE82969
+
+## Thursday, September 12, 2024
+
+### Where Is Anton Nikolaevich Korotchenko (Антон Николаевич Коротченко) Also Known as Koobface Botnet Master KrotReal? - Part Four
+
+An image is worth a thousand words. Related on the Koobface botnet [here](https://ddanchev.blogspot.com/search?q=koobface).
+
+**Sample photos:**
+
+**[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuSG_h7hScGTAyngXvvoSVA12Mp3QUBMzBUAVHyqt3UkR29tlYubd99wlN1kYmVQGcVdyyLWb90jxdXW_bJTNrIwZiLHBLrnjXFx-Ft7eRgMQZEAeIzZ7hwLzeGPbthohia97jN2Gf2Di2h9jrVebF1J-kH6NUiKb_dcSJlBXw3e3yT481JgN9/s320/_odNm3Oxh0M.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuSG_h7hScGTAyngXvvoSVA12Mp3QUBMzBUAVHyqt3UkR29tlYubd99wlN1kYmVQGcVdyyLWb90jxdXW_bJTNrIwZiLHBLrnjXFx-Ft7eRgMQZEAeIzZ7hwLzeGPbthohia97jN2Gf2Di2h9jrVebF1J-kH6NUiKb_dcSJlBXw3e3yT481JgN9/s604/_odNm3Oxh0M.jpg)**
+
+ **[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCi7dmYak6vPxuY6sPV2MlQJZIgN91_ZDIp4lH-zO1qVRqw2v883OM_1HL4B2x-YWeXvZydwWJ-jlRFa9R8ALMxydOo-u2t3S_aV6NFQdhAmVXHJjGsE56_8nuIrDVS7Hs2oGYfHLoVk9_tOKFjD_f5LXfa-skwRfM9CwzZP-OzTN4UE33pAB0/s320/0BVEPyaa_pQ.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCi7dmYak6vPxuY6sPV2MlQJZIgN91_ZDIp4lH-zO1qVRqw2v883OM_1HL4B2x-YWeXvZydwWJ-jlRFa9R8ALMxydOo-u2t3S_aV6NFQdhAmVXHJjGsE56_8nuIrDVS7Hs2oGYfHLoVk9_tOKFjD_f5LXfa-skwRfM9CwzZP-OzTN4UE33pAB0/s604/0BVEPyaa_pQ.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZk-i8XgivlgPkFUpiR2qm34PMsFXZsFi9m5ZDd2gaMvbNtYEs6f234rOgpyEmUw28yH6BVPq-IkI3uIARWGLZ5BenC7a-8xR7nh_hqnPtYyTwK2qb5eqQuOog7fBMp5t7GBYy68dwAM_AjmH3ews4CQ1268Npa6mqY4RgF2xARpjBSoQYux33/s320/1aLgtjHwR64.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZk-i8XgivlgPkFUpiR2qm34PMsFXZsFi9m5ZDd2gaMvbNtYEs6f234rOgpyEmUw28yH6BVPq-IkI3uIARWGLZ5BenC7a-8xR7nh_hqnPtYyTwK2qb5eqQuOog7fBMp5t7GBYy68dwAM_AjmH3ews4CQ1268Npa6mqY4RgF2xARpjBSoQYux33/s604/1aLgtjHwR64.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSH-X1UJ4ZTWuVpyvMqTH6pcNrlcdA5iVB0IDa8vh65rzVLmqpqiJgWbUUEeHw3k0dS6T5DqbKKfHlaGXQ6BISmQywxkXDqugjHymYfEsnkd_DWYE8UIoI67SlKaP_KwUZZvr7DTliEhx_J-UrrhYimOjtf_9WyuZvQ1Rz_gT4wqnQOax-fHos/s320/1suBvB8u294.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSH-X1UJ4ZTWuVpyvMqTH6pcNrlcdA5iVB0IDa8vh65rzVLmqpqiJgWbUUEeHw3k0dS6T5DqbKKfHlaGXQ6BISmQywxkXDqugjHymYfEsnkd_DWYE8UIoI67SlKaP_KwUZZvr7DTliEhx_J-UrrhYimOjtf_9WyuZvQ1Rz_gT4wqnQOax-fHos/s604/1suBvB8u294.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiDwH1Ggdjn45VmUIgvGm7jgjrbCzaBFH5bx6GR7f0kjz4JFwHGrsjUbHrTDq4nFqngZGEZQuUJT40653fmca5xnb6XM2NfyNJrqIlNeghoXDo9PGiczbdwdRABYFBSRWIKQxF2e1L-r0_4um_EFcXWK9fz7urO5JUU2HxBYclB8BoBi1BQGEV/s320/1xupLbL7-_8.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiDwH1Ggdjn45VmUIgvGm7jgjrbCzaBFH5bx6GR7f0kjz4JFwHGrsjUbHrTDq4nFqngZGEZQuUJT40653fmca5xnb6XM2NfyNJrqIlNeghoXDo9PGiczbdwdRABYFBSRWIKQxF2e1L-r0_4um_EFcXWK9fz7urO5JUU2HxBYclB8BoBi1BQGEV/s604/1xupLbL7-_8.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYajZDrloQkU68qJy632CVMMUW7WTFz-ehRjZWC-UJ0U_KfNU2WJbGyoxf3BJoAuPeqWjUCVQxOqBcBoA96qaIDn7Mki8U7tNebjK4W4AJ1gy0jJ_ryfsL9ga51z9knybO6N7odQTEVtchaqF24zI7iCjs9gj0w2o_fAUdXn1CMWydmgtTTw_0/s320/2AtZ3Q-R3Xs.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYajZDrloQkU68qJy632CVMMUW7WTFz-ehRjZWC-UJ0U_KfNU2WJbGyoxf3BJoAuPeqWjUCVQxOqBcBoA96qaIDn7Mki8U7tNebjK4W4AJ1gy0jJ_ryfsL9ga51z9knybO6N7odQTEVtchaqF24zI7iCjs9gj0w2o_fAUdXn1CMWydmgtTTw_0/s604/2AtZ3Q-R3Xs.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl-MKPlqpzczY_dXVtl8j-Ah1oNRjRcpAbB5Kp0yyD9mtIrHbsgJMnlboa9DMhBeStsYA2rp7Dnhtrgoi4Ss7k2gLEBnLPrtWnj-fKRgLGpChxbj686tmyZ7ca8m5rv590_g_dEpdpji7viKuL9etL0RFid_BlA2iQ8ckrLQMojYqhhtDChy5x/s320/3biewqUUpjU.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl-MKPlqpzczY_dXVtl8j-Ah1oNRjRcpAbB5Kp0yyD9mtIrHbsgJMnlboa9DMhBeStsYA2rp7Dnhtrgoi4Ss7k2gLEBnLPrtWnj-fKRgLGpChxbj686tmyZ7ca8m5rv590_g_dEpdpji7viKuL9etL0RFid_BlA2iQ8ckrLQMojYqhhtDChy5x/s604/3biewqUUpjU.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTRT4LxifaQkpCqjPCUeyie6Q7mgzFgZSGUq2Kk2K_gHauA5CLpFgMpDSILenWHw5YjsorAXAe7dlFnJ2WjK_NQkQ0bc_o1estfbkguEd4ZxMhOqq5CcCZevU7Lr8CKS2JZa4TJQHxO5BwHCWGqqmTIKVle1H6bjymSqsx8Gs8tZcclOuEbuXg/s320/3q9KBaD7Icc.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTRT4LxifaQkpCqjPCUeyie6Q7mgzFgZSGUq2Kk2K_gHauA5CLpFgMpDSILenWHw5YjsorAXAe7dlFnJ2WjK_NQkQ0bc_o1estfbkguEd4ZxMhOqq5CcCZevU7Lr8CKS2JZa4TJQHxO5BwHCWGqqmTIKVle1H6bjymSqsx8Gs8tZcclOuEbuXg/s604/3q9KBaD7Icc.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiprEfGE_EeEhJXFV-Oo0x1CsFWN-rdJcDTO4XmCgeRmK8yczh71uNUe2E5lZaAlM2crSXkyzIUofo8rj6TYxe3yXFx7iqerSlavXb8W_uKA1ijBrR8hw1NFppPe_w4Tj-Q_L1C6qEoGzpL1eZFgLCBovmabeu7xAueCyI3ohqwaGQsApim6Uc9/s320/4-bi0EnUqqs.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiprEfGE_EeEhJXFV-Oo0x1CsFWN-rdJcDTO4XmCgeRmK8yczh71uNUe2E5lZaAlM2crSXkyzIUofo8rj6TYxe3yXFx7iqerSlavXb8W_uKA1ijBrR8hw1NFppPe_w4Tj-Q_L1C6qEoGzpL1eZFgLCBovmabeu7xAueCyI3ohqwaGQsApim6Uc9/s604/4-bi0EnUqqs.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJJqZlk0tPi3Tdew6AIlIh-r0gRmKwBmj52yRmkTyOd2mBvaAla19SOADETos2mWd1N3ZKOb6Cr6fO5O6zJ1WcrmZA7zmbk0nGifYJigUqr6SQevOgPMvyHMkmaTzrapPb0KHrcBcGQALOg3JkYI-V9SrY3ByS4nvoqTorjeZ6huhLqqfekysI/s320/4FSep_HsmG8.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJJqZlk0tPi3Tdew6AIlIh-r0gRmKwBmj52yRmkTyOd2mBvaAla19SOADETos2mWd1N3ZKOb6Cr6fO5O6zJ1WcrmZA7zmbk0nGifYJigUqr6SQevOgPMvyHMkmaTzrapPb0KHrcBcGQALOg3JkYI-V9SrY3ByS4nvoqTorjeZ6huhLqqfekysI/s604/4FSep_HsmG8.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaTnbSSXMOQyJFBN_RKUhz4neaXtSQXRhVOss1DwYDj3_MoYlqIcJZjj4K5cUVW-ulHS_37LIeNohMsnQ9hDBRQk-XZwhfUnlNFY8iDiik5gYIZU1KO2Nz1fI1gGwia6qhZ8-M6LZIv2EE2GzREigrvMfPwUX2_mO81HSGV9T3tXQ-DrbFLVqN/s320/4sWh0m60Ag4.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaTnbSSXMOQyJFBN_RKUhz4neaXtSQXRhVOss1DwYDj3_MoYlqIcJZjj4K5cUVW-ulHS_37LIeNohMsnQ9hDBRQk-XZwhfUnlNFY8iDiik5gYIZU1KO2Nz1fI1gGwia6qhZ8-M6LZIv2EE2GzREigrvMfPwUX2_mO81HSGV9T3tXQ-DrbFLVqN/s600/4sWh0m60Ag4.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVTeifgRT-O0iG0D6vj_gZIs27KaAYubYBPUGljl1bIG_fFJOcM7VjV70GC9FO-6q5TCS_EdBYAYWTev59SoYsqe0iGX0s3GdUu-Wx1RR7dzERtWbJ8ZvdvpPo9eUn8x1ci8PA4wCdS96ICOMdvE2E7chKom8nW2UiNPWsMflJGWZ3nl-maj6r/s320/4UohpDpnrlo.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVTeifgRT-O0iG0D6vj_gZIs27KaAYubYBPUGljl1bIG_fFJOcM7VjV70GC9FO-6q5TCS_EdBYAYWTev59SoYsqe0iGX0s3GdUu-Wx1RR7dzERtWbJ8ZvdvpPo9eUn8x1ci8PA4wCdS96ICOMdvE2E7chKom8nW2UiNPWsMflJGWZ3nl-maj6r/s604/4UohpDpnrlo.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3c3yyxphvp9_AmVImaHS-Q51T6zA_lIfESHJZljRpBnkHMdTAgmDehd0UcaiSj_VBTy_7pT6oVb3T0ywctNy9dA7w6gZx-11S0GhMXevORz6_IlFyvmHTLCB2ZakMhN9osld1MYyFV3ckuL2bLhjK-hPWwMakICokipOdytaCs3CcOLrH0fAg/s320/4W_OnW2DuFM.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3c3yyxphvp9_AmVImaHS-Q51T6zA_lIfESHJZljRpBnkHMdTAgmDehd0UcaiSj_VBTy_7pT6oVb3T0ywctNy9dA7w6gZx-11S0GhMXevORz6_IlFyvmHTLCB2ZakMhN9osld1MYyFV3ckuL2bLhjK-hPWwMakICokipOdytaCs3CcOLrH0fAg/s604/4W_OnW2DuFM.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfk6HZLICqgZlo2Sv2yqXtAibynWTNsncC0jVOcKkwgQmVK-SslOgYGyBnVF2tSDz3SGphNbyUGItcTpMYu17Oxd1Tjlh1is-Uhfa5qZGExo6npEqADSHr5M5WcctWLrHzbsG1MlkPrDHBFQbYQ_5QDy3l71mHCYAjUPI4-zJAdBnfoUCs9aVC/s320/4zbrv8H_41s.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfk6HZLICqgZlo2Sv2yqXtAibynWTNsncC0jVOcKk...

@@ -1,0 +1,180 @@
+---
+title: The 5 most dangerous cyberthreats facing businesses this year
+url: https://www.malwarebytes.com/blog/news/2023/02/the-5-most-dangerous-cyberthreats-facing-businesses-this-year
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-24
+fetch_date: 2025-10-04T07:59:30.836911
+---
+
+# The 5 most dangerous cyberthreats facing businesses this year
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![Sharks](https://www.threatdown.com/wp-content/uploads/2023/02/asset_upload_file8156_259135.jpg?w=736)
+
+[News](https://www.threatdown.com/blog/category/news/)
+
+## The 5 most dangerous cyberthreats facing businesses this year
+
+February 22, 2023
+
+[Mark Stockley](https://www.threatdown.com/blog/author/mstockleymalwarebytes-com/)
+
+Which of the myriad, extant cyberthreats should your business be paying the most attention to in 2023?
+
+That’s the question we set out to answer in this year’s annual State of Malware report, and the answers might surprise you. To understand why, you need to know what makes this year’s report so different from previous ones.
+
+Unquestionably, over the last five years, the most serious cybersecurity task facing businesses has changed from defending against waves of malicious, email-borne malware to stopping seasoned criminals armed with Ransomware-as-a-Service (RaaS).
+
+RaaS attacks can be extraordinarily severe. They can bring entire organizations to a halt, come with ruinous ransoms, and may take months of dedicated effort to recover from. They represent an existential threat to businesses.
+
+The worst-of-the-worst is LockBit, the first on our list of the most dangerous threats you face. LockBit’s largest known ransom demand in 2022 was $50 million, although multiple sources report even higher demands were made. Its victims included businesses of all sizes, from local law firms with a handful of employees to multi-national enterprises.
+
+LockBit was the most widely used RaaS in 2022, by far. It accounted for almost a third of all known RaaS attacks, and more than three times as many as its closest competitor, ALPHV.
+
+![Known attacks by the top 5 RaaS groups in 2022](http://www.threatdown.com/wp-content/uploads/2024/06/easset_upload_file86181_259135_e.jpg)
+
+And yet, if you were to create a list of the most detected malware from last year, you wouldn’t see LockBit on it. In fact, you wouldn’t see any RaaS on it. In cybersecurity, what’s common and what’s serious have diverged markedly.
+
+For that reason, lists of the most detected malware are gone from this year’s report. In their place, we asked our experts—our threat intelligence analysts, and the threat hunters in our Managed Detection and Response (MDR) team: What essential information do resource-constrained organizations need to know?
+
+They came up with a list of the five worst-in-class malware threats spanning Windows, Android and macOS. The report explains what these threats do and why, what it takes to detect them, and what it takes to recover from an attack. Each of our five is an archetype, so if you prepare to stop them, you’re well prepared for anything, on any of your devices.
+
+Compiling our report like this also led us to an important insight: The most dangerous attacks you will face are not from the strangest new malware, the most sophisticated, the most eye-catching, or the most prevalent.
+
+Instead, the most dangerous threats come from a set of known, mature tools and tactics that an entire ecosystem of cybercriminals rely upon to take in billions of dollars a year. Criminals have come to rely upon these attack types and their vectors because they work, and they work because they are hard to defend against and difficult to remove.
+
+The 2023 State of Malware report explains what they are, how they find their victims, and how to avoid becoming one of them.
+
+To learn more about LockBit and how to defend against it, and to discover the four other threats you should prepare for this year, download the 2023 State of Malware report. In it you will also learn:
+
+* What it takes to stop what Europol called the “world’s most dangerous malware.”
+* Why there was a 300% increase in some new malware delivery methods.
+* How to catch the emerging, hard-to-detect attacks that don’t rely on malware.
+* Why security people are as important as security software.
+
+[Get the 2023 State of Malware report](https://try.malwarebytes.com/2023-state-of-malware/?utm_source...

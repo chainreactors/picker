@@ -1,0 +1,20 @@
+---
+title: 专题·网安人才评价体系 | 云计算网络安全人才评价方法探讨与实践
+url: https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664243812&idx=1&sn=007323d8edfb39f8dae1fd04346ae15e
+source: Doonsec's feed
+date: 2025-06-10
+fetch_date: 2025-10-06T22:52:14.098396
+---
+
+# 专题·网安人才评价体系 | 云计算网络安全人才评价方法探讨与实践
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

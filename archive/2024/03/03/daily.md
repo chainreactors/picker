@@ -1,0 +1,95 @@
+# 每日安全资讯（2024-03-03）
+
+- SecWiki News
+  - [ ] [SecWiki News 2024-03-02 Review](http://www.sec-wiki.com/?2024-03-02)
+- 机智的程序员小熊
+  - [ ] [计算机必看经典书单和课程资源(含下载方式)](https://coding3min.com/2433.html)
+- Security Boulevard
+  - [ ] [USENIX Security ’23 – Log: It’s Big, It’s Heavy, It’s Filled with Personal Data! Measuring the Logging of Sensitive Information in the Android Ecosystem](https://securityboulevard.com/2024/03/usenix-security-23-log-its-big-its-heavy-its-filled-with-personal-data-measuring-the-logging-of-sensitive-information-in-the-android-ecosystem/)
+- unSafe.sh - 不安全
+  - [ ] [微软撤下导致“内存不足”错误的 Edge 更新](https://buaq.net/go-225668.html)
+- Private Feed for M09Ic
+  - [ ] [phith0n starred chromedp/chromedp](https://github.com/chromedp/chromedp)
+  - [ ] [glzjin starred ponlponl123/-Prototype-AIVTuber](https://github.com/ponlponl123/-Prototype-AIVTuber)
+  - [ ] [glzjin starred xszyou/Fay](https://github.com/xszyou/Fay)
+  - [ ] [glzjin starred jiran214/langup-ai](https://github.com/jiran214/langup-ai)
+  - [ ] [phith0n starred emilkowalski/sonner](https://github.com/emilkowalski/sonner)
+  - [ ] [kpcyrd starred cloudflare/pingora](https://github.com/cloudflare/pingora)
+  - [ ] [phith0n starred cooderl/wewe-rss](https://github.com/cooderl/wewe-rss)
+  - [ ] [PeiQi0 started following samczsun](https://github.com/samczsun)
+  - [ ] [PeiQi0 starred openchainxyz/openchain-monorepo](https://github.com/openchainxyz/openchain-monorepo)
+  - [ ] [zema1 starred Tylous/Mangle](https://github.com/Tylous/Mangle)
+  - [ ] [boy-hack starred nolebase/nolebase](https://github.com/nolebase/nolebase)
+  - [ ] [Freakboy starred dockur/windows](https://github.com/dockur/windows)
+- Recent Commits to cve:main
+  - [ ] [Update Sat Mar  2 18:09:22 UTC 2024](https://github.com/trickest/cve/commit/03386dfcdee76a07bd82b4575fa70f9aadfdc66a)
+  - [ ] [Update Sat Mar  2 10:05:13 UTC 2024](https://github.com/trickest/cve/commit/2375254da5502f9a19ee722c665dafea056ae104)
+  - [ ] [Update Sat Mar  2 02:06:23 UTC 2024](https://github.com/trickest/cve/commit/cfed40b54a7f0928b6972cc1faadb01747893926)
+- arighi's blog
+  - [ ] [Writing a scheduler for Linux in Rust that runs in user-space (part 2)](http://arighi.blogspot.com/2024/03/writing-scheduler-for-linux-in-rust.html)
+- Sploitus.com Exploits RSS Feed
+  - [ ] [BoidCMS 2.0.0 Command Injection Exploit exploit](https://sploitus.com/exploit?id=1337DAY-ID-39387&utm_source=rss&utm_medium=rss)
+  - [ ] [WordPress IDonate Blood Request Management System 1.8.1 Cross Site Scripting Vulnerability exploit](https://sploitus.com/exploit?id=1337DAY-ID-39386&utm_source=rss&utm_medium=rss)
+- KitPloit - PenTest &amp; Hacking Tools
+  - [ ] [Moukthar - Android Remote Administration Tool](http://www.kitploit.com/2024/02/moukthar-android-remote-administration.html)
+- 黑海洋 - WIKI
+  - [ ] [每日签到集合 签到盒青龙版](https://blog.upx8.com/4087)
+  - [ ] [最新苹果手机软件35款合集 解锁版ipa软件资源](https://blog.upx8.com/4086)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [微软撤下导致“内存不足”错误的 Edge 更新](https://www.solidot.org/story?sid=77495)
+  - [ ] [马斯克起诉 OpenAI 和 Sam Altman“违反合同”](https://www.solidot.org/story?sid=77494)
+  - [ ] [美国疾控中心称 COVID-19 越来越像流感](https://www.solidot.org/story?sid=77493)
+  - [ ] [BCUninstaller：轻松卸载你不想要的应用](https://www.solidot.org/story?sid=77492)
+- 漏洞战争
+  - [ ] [网络安全顶会——USENIX Security '24 夏季论文清单、摘要](https://mp.weixin.qq.com/s?__biz=MzU0MzgzNTU0Mw==&mid=2247485196&idx=1&sn=bfcf700a390f4e624e2958994865debf&chksm=fb0413f4cc739ae2ce69c06a81385eefef3d71574f82c2491ea3fafc0406203fcc7428ba9979&scene=58&subscene=0#rd)
+- 丁爸 情报分析师的工具箱
+  - [ ] [【AI速读】开源社交媒体活动在印太战区的叙事分析](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651142446&idx=1&sn=f853c38654477e2cfa4d1af193a6b233&chksm=f1af4e14c6d8c702569d41ab72bb6b0b5f273d73a55f2fa36f2396ec34a763d7d3e9e04c5e61&scene=58&subscene=0#rd)
+- 博客园 - 郑瀚Andrew
+  - [ ] [企业安全解决方案 - 郑瀚Andrew](https://www.cnblogs.com/LittleHann/p/18049380)
+- 极客公园
+  - [ ] [OpenAI、英伟达重金下注，这家机器人公司凭什么估值 26 亿美元](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653034755&idx=1&sn=d13110f2319510a4e56ad0d007b05b8e&chksm=7e5764b54920eda35533d15cb52a38716807b2b80cfcbbb2d37ae386fb2c8b73a7104bb476f4&scene=58&subscene=0#rd)
+  - [ ] [魅族「ALL IN AI」后续：将在年底发布第一代 AI 硬件](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653034755&idx=2&sn=0fb4d596c6194db1b137f11212bc9a1e&chksm=7e5764b54920eda327d3b60674a5cc386a53f64ce5c749b18e09716db60cea77788a9197a047&scene=58&subscene=0#rd)
+  - [ ] [马斯克开启诉讼模式，OpenAI：并不同意；俞永福从阿里业务一线卸任；智己汽车获 80 亿元 B 论融资| 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653034753&idx=1&sn=b5bc6956023112c64860889a4bd954cc&chksm=7e5764b74920eda12c39116aacfafc36f77bb09be5dea04de7197aa54d77bdf3a0dc8e69f8b7&scene=58&subscene=0#rd)
+- 迪哥讲事
+  - [ ] [通过不断FUZZ从而获取万元赏金](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247493721&idx=1&sn=6d0b2c855686ff4a87ff51cb8a84de64&chksm=e8a5e23adfd26b2ccea114aa7d81cf370e5ddb3892d2ae307545e53b4445961a2aa8545cdea7&scene=58&subscene=0#rd)
+- 情报分析师
+  - [ ] [10款用于查询IP地址的工具](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650546504&idx=1&sn=33db490676047a77505ba2ead20b2b1c&chksm=87110f03b06686159fff5e29cc95905f8a345e551fa387c182481ef4e1f01e549aaafcbfcda5&scene=58&subscene=0#rd)
+  - [ ] [情报学院优选（2024年3月2日最新版）](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650546504&idx=2&sn=af26afe452b5db7303918339563b2e9b&chksm=87110f03b0668615d1f647a59d5aac8ef6f677f8212708ca0c29d539440d5dc12a2f99662766&scene=58&subscene=0#rd)
+- 网安寻路人
+  - [ ] [解读：关于防止受关注国家获取美国人大量敏感个人数据和美国政府相关数据的行政命令](https://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247501574&idx=1&sn=821c1bc255ec02d82c079c8cff608724&chksm=97e97aeca09ef3faff5ffe22f013203647b905c8bc5992e1ffcbdce553cd1932407893c3aa15&scene=58&subscene=0#rd)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Hackers target FCC, crypto firms in advanced Okta phishing attacks](https://www.bleepingcomputer.com/news/security/hackers-target-fcc-crypto-firms-in-advanced-okta-phishing-attacks/)
+  - [ ] [News farm impersonates 60+ major outlets: BBC, CNN, CNBC, Guardian...](https://www.bleepingcomputer.com/news/security/news-farm-impersonates-60-plus-major-outlets-bbc-cnn-cnbc-guardian/)
+  - [ ] [Windows Kernel bug fixed last month exploited as zero-day since August](https://www.bleepingcomputer.com/news/security/windows-kernel-bug-fixed-last-month-exploited-as-zero-day-since-august/)
+  - [ ] [Guerre di Rete - Gelo Mistral](https://guerredirete.substack.com/p/guerre-di-rete-gelo-mistral)
+  - [ ] [Diritto d’accesso ai dati, l’EDPB avvia il monitoraggio sulla corretta attuazione: cosa significa](https://www.cybersecurity360.it/news/diritto-daccesso-ai-dati-ledpb-avvia-il-monitoraggio-sulla-corretta-attuazione-cosa-significa/)
+- TorrentFreak
+  - [ ] [In Indonesia, Women Pirate More Music and Movies Than Men](https://torrentfreak.com/in-indonesia-women-pirate-more-music-and-movies-than-men-240303/)
+- KitPloit - PenTest Tools!
+  - [ ] [Moukthar - Android Remote Administration Tool](http://www.kitploit.com/2024/02/moukthar-android-remote-administration.html)
+- Computer Forensics
+  - [ ] [New to field / tools for linix](https://www.reddit.com/r/computerforensics/comments/1b4zm8b/new_to_field_tools_for_linix/)
+  - [ ] [Software of Real-Time Detection of Data Breaches/Suspicious Employee , Also Integrating Digital Forensics Collection](https://www.reddit.com/r/computerforensics/comments/1b4xlqs/software_of_realtime_detection_of_data/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [Google Cybersecurity Cert. and CompTIA Security+](https://www.reddit.com/r/netsecstudents/comments/1b4ah07/google_cybersecurity_cert_and_comptia_security/)
+  - [ ] [Understanding How NGINX and HAProxy Improve Response Times (DDoS Testing)](https://www.reddit.com/r/netsecstudents/comments/1b4k4g8/understanding_how_nginx_and_haproxy_improve/)
+- Security Affairs
+  - [ ] [U.S. authorities charged an Iranian national for long-running hacking campaign](https://securityaffairs.com/159837/hacking/us-charged-iranian-national.html)
+  - [ ] [US cyber and law enforcement agencies warn of Phobos ransomware attacks](https://securityaffairs.com/159822/cyber-crime/cisa-phobos-ransomware-attacks.html)
+- The Hacker News
+  - [ ] [U.S. Court Orders NSO Group to Hand Over Pegasus Spyware Code to WhatsApp](https://thehackernews.com/2024/03/us-court-orders-nso-group-to-hand-over.html)
+  - [ ] [U.S. Charges Iranian Hacker, Offers $10 Million Reward for Capture](https://thehackernews.com/2024/03/us-charges-iranian-hacker-offers-10.html)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Anyone ever used verif.tools?](https://www.reddit.com/r/blackhat/comments/1b4ezyf/anyone_ever_used_veriftools/)
+- Deep Web
+  - [ ] [Is bitcoin double real or scam?](https://www.reddit.com/r/deepweb/comments/1b4c4mv/is_bitcoin_double_real_or_scam/)
+- Your Open Hacker Community
+  - [ ] [Reverse SMS bombing help](https://www.reddit.com/r/HowToHack/comments/1b507kg/reverse_sms_bombing_help/)
+  - [ ] [how did i get hacked?](https://www.reddit.com/r/HowToHack/comments/1b4note/how_did_i_get_hacked/)
+  - [ ] [Hydra is so slow](https://www.reddit.com/r/HowToHack/comments/1b4lwvz/hydra_is_so_slow/)
+  - [ ] [LUA Executors Roblox](https://www.reddit.com/r/HowToHack/comments/1b4dhzt/lua_executors_roblox/)
+- Technical Information Security Content & Discussion
+  - [ ] [Phrack #71: Call For Paper](https://www.reddit.com/r/netsec/comments/1b4kh10/phrack_71_call_for_paper/)
+  - [ ] [GitHub - teler-sh/sebel: a Go package that provides functionality for checking SSL/TLS certificates against malicious connections, by identifying and blacklisting certificates used by botnet command and control (C&C) servers.](https://www.reddit.com/r/netsec/comments/1b4p0t7/github_telershsebel_a_go_package_that_provides/)
+- Dark Space Blogspot
+  - [ ] [Ethena e L'Internet Bond: Come Funziona?](http://darkwhite666.blogspot.com/2024/03/ethena-e-linternet-bond-come-funziona.html)

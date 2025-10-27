@@ -1,0 +1,185 @@
+---
+title: Microsoft fixes driver blocklist placing users at risk from BYOVD attacks
+url: https://www.malwarebytes.com/blog/news/2022/10/microsoft-fixes-driver-blocklist-placing-users-at-risk-from-byovd-attacks
+source: Over Security - Cybersecurity news aggregator
+date: 2022-10-22
+fetch_date: 2025-10-03T20:37:52.520778
+---
+
+# Microsoft fixes driver blocklist placing users at risk from BYOVD attacks
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Software driver update](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/10/asset_upload_file41036_241338.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Microsoft fixes driver blocklist placing users at risk from BYOVD attacks
+
+Posted: October 20, 2022
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+There may be an all-new acronym for you to try and remember, as a result of [Microsoft fixing a lingering issue](https://arstechnica.com/information-technology/2022/10/how-a-microsoft-blunder-opened-millions-of-pcs-to-potent-malware-attacks). This issue is called Bring Your Own Vulnerable Driver (BYOVD), and BYOVD has been popping up in various forms for the last few months. These attacks may have been less impactful if a promoted solution from Microsoft to tackle them had been working. Unfortunately, it’s come to light that this solution has *not* been behaving as it should have been.
+
+## Bringing the party to you
+
+Back in July, BYOVD was making waves [in the news](https://www.howtogeek.com/820374/bring-your-own-vulnerable-driver-attacks-are-breaking-windows/) . These attempts to compromise PCs work by having [malware](https://www.malwarebytes.com/malware) “bring along” signed drivers which are [vulnerable to exploitation](https://public.cnotools.studio/bring-your-own-vulnerable-kernel-driver-byovkd), and then placing them on the target PC. As the driver is genuine, it will theoretically bypass security checks and allow the attacker to then [exploit](https://www.malwarebytes.com/exploits) it once on the system, using it as the launchpad to compromise the PC.
+
+There are mitigations for this kind of activity, but it appears that one of them wasn’t doing everything it could be. In fact, Microsoft’s very own driver blocklist turns out to have been left gathering dust for roughly three years.
+
+## A blocklist with blocking issues
+
+The issue came to light when several people noticed this blocklist functionality didn’t appear to be working as expected.
+
+[https](https://www.malwarebytes.com/zero-day)://twitter.com/dangoodin001/status/1580988509912936450?ref\_src=twsrc%5Etfw
+
+Driver blocklisting would be a useful tool against this kind of attack if it worked as it was claimed to. If it *isn’t* operating at maximum efficiency, then attackers are able to potentially place any drivers released since whenever the last blocklist update took place. While there may well be other ways to stop these attacks from happening, the blocklist method promoted by Microsoft is [not going to be anywhere as effective as it could be](https://www.techradar.com/news/microsofts-own-mistake-may-have-left-users-at-risk-of-malware-attacks).
+
+Despite initially dismissing the findings, Microsoft was forced to concede that there was indeed an issue, and set about getting its blocklist up to speed.
+
+> Thanks for all the feedback. We have updated the online docs and added a download with instructions to apply the binary version directly. We're also fixing the issues with our servicing process which has prevented devices from receiving updates to the policy.
+>
+> — Jeffrey Sutherland (@j3ffr3y1974) [October 6, 2022](https://twitter.com/j3ffr3y1974/status/1578158506456145921?ref_src=twsrc%5Etfw)
+
+This has been done, and the “gap in synchronisation across OS versions” has been closed. According to Tech Radar, issues related to blocklist updating will be tackled in “upcoming and future Windows updates”.
+
+## Fuzzy answers and uncertain solutions
+
+There is no word as to which Windows updates will do this, or how. For now, your best bet with regard to Microsoft products is use the [driver blocklist tool](https://learn.microsoft.c...

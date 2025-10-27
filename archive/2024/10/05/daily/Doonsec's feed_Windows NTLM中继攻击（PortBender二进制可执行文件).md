@@ -1,0 +1,20 @@
+---
+title: Windows NTLM中继攻击（PortBender二进制可执行文件)
+url: https://mp.weixin.qq.com/s?__biz=MzkwODY2MzMyMA==&mid=2247484123&idx=1&sn=7891d5e94bdbdf6896a78aec9668c116
+source: Doonsec's feed
+date: 2024-10-05
+fetch_date: 2025-10-06T18:48:30.516746
+---
+
+# Windows NTLM中继攻击（PortBender二进制可执行文件)
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

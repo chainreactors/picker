@@ -1,0 +1,169 @@
+---
+title: Ransomware review: March 2023
+url: https://www.malwarebytes.com/blog/threat-intelligence/2023/03/ransomware-review-march-2023
+source: Over Security - Cybersecurity news aggregator
+date: 2023-03-10
+fetch_date: 2025-10-04T09:10:33.584068
+---
+
+# Ransomware review: March 2023
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![Ransomware review](https://www.threatdown.com/wp-content/uploads/2024/01/ransomware_review_resized.png?w=1024)
+
+[Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+# Ransomware review: March 2023
+
+Threat Intelligence Team
+
+March 8, 2023
+
+Threat Intelligence Team
+
+*This article is based on research by Marcelo Rivero, Malwarebytes’ ransomware specialist, who builds a monthly picture of ransomware activity by monitoring the information published by ransomware gangs on their Dark Web leak sites. This information represents victims who were successfully attacked but opted not to pay a ransom.*
+
+It seems like LockBit wasn’t content with having us merely crown them as one of the five most serious cyberthreats facing businesses in 2023. In February, the most widely used ransomware-as-a-service (RaaS) posted a total of 126 victims on its leak site—a record high since we started tracking the leaks in February 2022.
+
+![](https://www.threatdown.com/wp-content/uploads/2024/05/easset_upload_file8284_260789_e.webp?w=1024)
+![](https://www.threatdown.com/wp-content/uploads/2024/05/easset_upload_file11417_260789_e.jpg?w=1024)
+![](https://www.threatdown.com/wp-content/uploads/2024/05/easset_upload_file78823_260789_e.webp?w=1024)
+
+Companies attacked along LockBit’s warpath last month include financial software firm ION Group and Pierce Transit, a public transit operator in Washington state. LockBit claimed that ION Group had paid the ransom and demanded $2 million from Pierce Transit.
+
+Speaking of ransom demands, it seems like that’s another area where LockBit broke records last month.
+
+In early February LockBit tried to get $80 million out of the UK’s Royal Mail—the largest demand since asking Continental for $50 million in 2022. Royal Mail rejected the demand, calling it ‘absurd’, and LockBit consequently published the files it stole from the company—but not without also leaking a chat history showing the negotiations between the two parties, which featured the unusual sight of a Royal Mail negotiator giving the feared ransomware gang the runaround.
+
+![](https://www.threatdown.com/wp-content/uploads/2024/05/easset_upload_file50066_260789_e.webp?w=1024)
+
+Confirmed attacks by Vice Society, the ransomware gang infamous for wreaking havoc on the education sector, reached their three-month low last month. The apparently Russian-based group tallied just two victims on its leak site in February, but—true to their modus operandi—both of them were educational institutions: Guildford County School, a specialist music academy in London, and Mount Saint Mary College, a liberal arts college in New York. Needless to say, we’re not banking on this persistent education sector threat going away anytime soon.
+
+After LockBit, ALPHV (aka BlackCat) and Royal again topped the list of most known victims last month. But as it turns out, these two groups have more in common than just their high placements: Both are considered big dangers to healthcare organizations. The US Department of Health and Human Services (HHS) even [released a detailed report on Royal and ALPHV in mid-January 2023](https://www.aha.org/system/files/media/file/2023/01/tlp-clear-royal-and-black-cat-ransomware-the-threat-to-the-health-sector-1-12-2023.pdf) outlining the dual threat to the US health sector. Last month, however, Royal and ALPHV apparently only attacked one healthcare organization between them—ALPHV’s attack on the Pennsylvania-based Lehigh Valley Health Network. Their combined 48 leaked victims last month were across a range of industries, mainly centered around manufacturing, logistics, and services. It just goes to show that just because ransomware is used to target one sector in one month that doesn’t necessarily mean it won’t be used against a different industry in another month.
+
+Ever since we first reported on it in November 2022, witnessing the emergence of the Play ransomware gang over the months has been one of those “Aw, they grow up so fast (and evil)” t...

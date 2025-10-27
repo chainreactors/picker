@@ -1,0 +1,171 @@
+---
+title: Florida hospital takes entire IT systems offline after 'ransomware attack'
+url: https://www.malwarebytes.com/blog/news/2023/02/florida-hospital-takes-entire-it-systems-offline-after-ransomware-attack
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-09
+fetch_date: 2025-10-04T06:09:11.054399
+---
+
+# Florida hospital takes entire IT systems offline after 'ransomware attack'
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![](https://www.threatdown.com/wp-content/uploads/2024/04/florida_hospital_resized.png?w=1024)
+
+[Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+## Florida hospital takes entire IT systems offline after ‘ransomware attack’
+
+February 7, 2023
+
+[jhallbachner](https://www.threatdown.com/blog/author/jhallbachner-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3/)
+
+Tallahassee Memorial Healthcare (TMH), a major hospital system in northern Florida, has [reportedly](https://techxplore.com/news/2023-02-major-florida-hospital-ransomware.html) been experiencing an “IT security issue” since Thursday evening, which impacted some of its IT systems. When TMH learned of the issue, it took its entire IT systems offline as a precaution and contacted law enforcement.
+
+In a [news](https://www.tmh.org/news/) post on its website, the hospital [says](https://www.tmh.org/news/2023/tallahassee-memorial-making-progress-managing-it-security-event) it’s making progress managing the security incident while it continues to operate under IT system downtime protocols, which includes the use of old fashion pen and paper.
+
+![Tweet by Tallahassee Memorial Healthcare](https://www.threatdown.com/wp-content/uploads/2024/04/Talahassee_tweet.jpg)
+
+Tallahassee Memorial’s official Twitter account said in a [statement](https://twitter.com/TMHFORLIFE/status/1621554365000564743) on Friday:
+
+While TMH has yet to reveal details about the issue, major news outlets have begun speculating that it could have been hit by a ransomware attack. According to a source who spoke with [CNN](https://edition.cnn.com/2023/02/03/politics/cyberattack-hospital-tallahassee-memorial-florida/index.html), Tallahassee Memorial’s CEO Mark O’Bryant told staff on Friday that the system suffered a “cyberattack”.
+
+The hospital has been regularly posting updates about the issue, even if there are no real updates. It says staff is working round the clock to resolve the incident and get the system back up and running as quickly as possible.
+
+TMH has cancelled and rescheduled non-emergency surgical and outpatient procedures, rescheduled non-emergency appointments, and diverted some emergency medical services patients. It says it is continuing to accept Level 1 traumas. The hospital provides healthcare across 21 counties in northern Florida and Georgia.
+
+TMH is the second US hospital victim to suffer from such an attack this year, following [Atlantic General Hospital](https://www.wmdt.com/2023/01/atlantic-general-hospital-experiences-ransomware-event/) which was hit by ransomware in January.
+
+## How to avoid ransomware
+
+There is no doubt hospitals remain under a bullseye, and attackers can strike at any time. Thankfully, there are ways organizations can help reduce their risk of suffering from a ransomware attack.
+
+* **Have an incident response (IR) plan.** Organizations should accept the fact that a cyberattack is likely to affect them at some point, whether they’re the direct victim or part of a supply chain. An IR plan can direct your responders on what to do in the event of a cybersecurity attack. This should include restoring from backups, client outreach, and reporting to law enforcement among others.
+* **Educate your staff.** Awareness goes a long way, and everyone in the company has a responsibility to keep the organization’s network safe. Staff should be taught social engineering tactics and red flags of a system attack, so they can alert the right personnel quickly should an attack occur.
+* **Patch as soon as you can.** Many threat actors get into networks by exploiting unpatched vulnerabilities. Have a patching plan in place to ensure that your organization’s network is protected against the latest and most exploited weaknesses.
+* **Backup your files.** Backups have saved a lot of organizations after a ransomware attack—provided they work. When you make a plan, ensure you also have provisions for backup testing.
+* **Get an EDR solution.** [ThreatDown Endpoint Detection and Response](/pr...

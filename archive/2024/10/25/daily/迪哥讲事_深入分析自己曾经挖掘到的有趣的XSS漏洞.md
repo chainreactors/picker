@@ -1,0 +1,182 @@
+---
+title: 深入分析自己曾经挖掘到的有趣的XSS漏洞
+url: https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247496207&idx=1&sn=f671487cb5cace98ea383ac5ace90a95&chksm=e8a5f86cdfd2717a414c6dae83b8d8a9e54ad22f299240439abf70d0b9e5517c8373e51dfb66&scene=58&subscene=0#rd
+source: 迪哥讲事
+date: 2024-10-25
+fetch_date: 2025-10-06T18:52:59.841941
+---
+
+# 深入分析自己曾经挖掘到的有趣的XSS漏洞
+
+![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/YmmVSe19Qj4pDG5lx7gP9ibZcSMTSXoHY0wcdpxu3ze97uvHcQ5q24JgyQvM5vntNNowBOGuiaEOqt59JkRgQ7UQ/0?wx_fmt=jpeg)
+
+# 深入分析自己曾经挖掘到的有趣的XSS漏洞
+
+迪哥讲事
+
+以下文章来源于希潭实验室
+，作者abc123info
+
+![](http://wx.qlogo.cn/mmhead/Q3auHgzwzM6fmEcY2bcaelEq3UFVKWcPYSM5dibWwP6KNJRapia8tbPQ/0)
+
+**希潭实验室**
+.
+
+ABC\_123的技术博客，分享前沿网络安全技术，99%原创。2008年入行网络安全，某部委级网上安保优秀个人及授课讲师，某市局安保组专家及裁判，曾连续8年参加国家级攻防比赛。专注于红蓝对抗、APT技战法分析、网络安全培训、代码审计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450ATcz6jUJnFNeOxRzVZ9LbcaA8wBFW4icTiaL7ELd8ia04Olh40TBx7CquHZyCicicl4eYJno2y0oZ0H4A/640?wx_fmt=png)
+
+# **Part1 前言**
+
+**大家好，我是ABC\_123**。最近翻看之前的笔记，发现曾经有一段时间特别热衷于挖掘各式各样的XSS漏洞，于是挑选了几个比较有意思的XSS漏洞案例，重新整理一下分享给大家。重新整理笔记，也是一个学习与提升的过程，改正了之前笔记的一些错误。
+
+# **Part2 技术研究过程**
+
+* ## **利用宽字节吃掉转义字符**
+
+这个案例是源于之前测过的一个有奖活动介绍的Web页面，整个子域名只有两个html静态页面，通过burpsuite抓包发现没有任何动态交互，因而漏洞挖掘的难度非常大。查看当前html页面源码，分析了一下JS代码，发现了memberId的传值会在当前页面回显，也就意味着存在XSS漏洞的可能性，但是需要闭合双引号。
+
+输入测试payload **402881111”; window.open(); //**,发现当前页面对XSS进行了防范，会对双引号进行转义而变成如下形式：**var memberId=”402881111\”; window.open(); //”**，导致XSS代码无法正常运行。经过测试发现这个页面的编码为GBK，由此想到了**使用宽字节的方法吃掉\转义字符，从而使双引号继续运行**。
+
+于是提交如下URL：**index.html?memberId=1111%81%22;window.open();//&id=112233**
+
+**![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8ohOVCleTceOgwrWG8RQk07n7v8LYC0KoaMZKHsmqBlibWPTfmTL2Cgug/640?wx_fmt=png&from=appmsg)**
+
+由于当前页面编号为GBK，%81与后面的 \ 被解析成一个字符变成**%81%5C%22**，经过GBK编码后造成 \ 被吃掉，也就是 **%81%5C** 变成一个乱码字符，从而使独立的双引号保留下来造成XSS漏洞。如下图所示，表明转义字符被吃掉，**window.open();//**会被执行。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8o7DyNPTJAzWXHQBgJ3cscfJRiaPnwahIcnACgjZUMVlul9rYQyicaJZ5A/640?wx_fmt=png&from=appmsg)
+
+* ## **利用unicode编码触发隐式DOM-XSS**
+
+对于innerHTML内容可以自定义的情况，也可以传入Unicode编码的XSS测试语句，绕过各种过滤与拦截。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8oUiaypPCchrvaaSZoTK0ojNZM51bUWUMeQh6nZwKuD9INn7nsrt9vDuw/640?wx_fmt=png&from=appmsg)
+
+提交如下Unicode编码+URL编码后的XSS测试语句：
+
+userID=**%5Cu003c%5Cu002f%5Cu0066%5Cu006f%5Cu0072%5Cu006d%5Cu003e%5Cu003c%5Cu002f%5Cu0073%5Cu0070%5Cu0061%5Cu006e%5Cu003e%5Cu0064%5Cu0064%5Cu0064%5Cu0064%5Cu0064%5Cu0064%5Cu0064%5Cu003c%5Cu002f%5Cu0073%5Cu0070%5Cu0061%5Cu006e%5Cu003e%5Cu003c%5Cu0069%5Cu006d%5Cu0067%5Cu0020%5Cu0073%5Cu0072%5Cu0063%5Cu003d%5Cu0030%5Cu0020%5Cu006f%5Cu006e%5Cu0065%5Cu0072%5Cu0072%5Cu006f%5Cu0072%5Cu003d%5Cu0061%5Cu006c%5Cu0065%5Cu0072%5Cu0074%5Cu0028%5Cu0031%5Cu0031%5Cu0031%5Cu0031%5Cu0031%5Cu0029%5Cu003e**&hciPasswordTypeEOSOperator%2Fpassword
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8oa1svPZJLAqmjG7emia0Qw3IpIILftn8TRy8TrTvJrpkRx2iafy212YJw/640?wx_fmt=png&from=appmsg)
+
+最终成功触发弹窗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8omyUKgc6IoJrUVoaOphC4V4KewnsBswO6mpUTBtujvfZoCkW7ic4r1LQ/640?wx_fmt=png&from=appmsg)
+
+* ## **基于井号的隐式DOM-XSS**
+
+对于一个URL，#后面的部分是片段标识符，通常用于页面内导航或者作为附加参数，不会直接发送给服务器，但在某些情况下会被客户端脚本读取和处理。如果目标页面未正确处理或过滤片段标识符中的内容，可能会将这段HTML片段直接插入到DOM中，从而执行嵌入的JavaScript代码。攻击者可以利用这种方法在受害者的浏览器中执行任意JavaScript代码，导致信息泄露、会话劫持、页面篡改等安全问题。**由于#号后面的语句不经过服务端，因而此类型的DOM-XSS可以绕过一切的WAF拦截**。
+
+测试语句：http://www.xxx.com/voiceSysWeb/error.html?errorInfo=**00000#%3c%69%6d%67%20%73%72%63%3d%31%20%6f%6e%65%72%72%6f%72%3d%61%6c%65%72%74%28%31%31%31%31%31%31%31%29%3e**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8omAghHVEeOEAIa1MCuK7wtibzXvpkn7lohqp1BW2Zg7qDicrwcERR7X3A/640?wx_fmt=png&from=appmsg)
+
+self.location.href会接受浏览器完整的URL值，包括#后面的字符串。而**%3c%69%6d%67%20%73%72%63%3d%31%20%6f%6e%65%72%72%6f%72%3d%61%6c%65%72%74%28%31%31%31%31%31%31%31%29%3e**会被str.substring(n + 1, str.length)处理，进而被decodeURIComponent方法URL编码解码，变成<img src=1 onerror=alert(1111111)>，然后被Jquery组件的html解析执行。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8oGmF8iaO3Iy94KR7bmwvZmGic6XnNhNibPzvLticuf46xKamXcV7MpUiaYCg/640?wx_fmt=png&from=appmsg)
+
+##
+
+* ## **字符串相加触发DOM-XSS**
+
+遇到返回body体中的script标签内部的js代码，有字符串拼接相加的情况，可以试试使用**setTimeout**方法来触发XSS弹窗。
+
+测试语句：http://www.xxx.com/searchAll/searchByKeyWord.htm?keyWord=**ddddd"+setTimeout(String.fromCharCode(97,108,101,114,116,40,49,49,49,41),0)+"**
+
+String.fromCharCode方法用于将ASCII码转为字符串，97,108,101,114,116,40,49,49,49,41的ASCII码是alert(111)，**setTimeout**在0毫秒后执行一个alert弹窗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8oFDLWicY2CKkCGibcAOtOJ7AzaMC9lNscM8b2LZhvNQrshOuhdGqmk60w/640?wx_fmt=png&from=appmsg)
+
+##
+
+* ## **分段提交绕过长度限制**
+
+这个web应用的XSS漏洞存在的位置，限制了XSS payload的长度，但是经过测试，可以使用分段提交的办法绕过长度限制，用注释符拼接的方式，注释掉不同payload之间拼接过程中产生的额外字符。以下是很早之前的一个实战案例。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8oH8vwPTwPw1XXDO1XVibXP7DwkG5r7qgPtXjpRtvZzca4X8ThBLicgmWQ/640?wx_fmt=png&from=appmsg)
+
+以下是我的实战版本，用/\*xxx\*/的注释不可行，但是可以使用//的注释方式，最终仍然可以造成弹窗效果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8ofmF1QlFZbDjLuboP5rYhZ9uNBbS8BY4dYzgq683UZg70W7ICQOeKcQ/640?wx_fmt=png&from=appmsg)
+
+##
+
+* ## **二次存储型XSS**
+
+以下这个业务系统对XSS进行了一定的防范，对on事件进行了黑名单过滤。经过测试发现**ondragstart**没有在黑名单之内，是可以使用的；然后这个Web应用还对<>**进行HTML实体编码**，导致一切XSS漏洞均失效。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8o6VrqVictEMKYLHibfIYbibhAmm3picMbVdyiasdgibPh6uBS27yRWguVdv1A/640?wx_fmt=png&from=appmsg)
+
+但是我们通过另外的界面，通过搜索关键字查找我们刚刚提交的条目，发现了一个裂开的图片，这说明重新调用过程中，该应用又对其进行了HTML解码，导致继续产生XSS漏洞。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8oK3aa5kuQwBgicuhAQUgicrCISzJiagzsic45HGibKvT6xpXUsicwJia7Tferg/640?wx_fmt=png&from=appmsg)
+
+当鼠标滑过裂开的图片时，XSS弹窗代码被执行。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/OAz0RNU450C3JIPOSDArgqpC0Qk9KZ8oMtAvniaPHhaJ2QQZIqn3qT0UYiazDNlEM4Lqib1JX8FDL12q3qMwtdoicQ/640?wx_fmt=png&from=appmsg)
+
+# **Part3 总结**
+
+**1.**  对用户提交的数据进行HTML编码以及各种关键字过滤，并慎用HTML解码，防止二次XSS的情况发生。
+
+**2.**  以#号开头的隐式DOM-XSS攻击语句不会经过服务端处理，因而所有的WAF均无法拦截。
+
+**3.**  XSS漏洞的深入挖掘及利用，需要Javascript功底，因此，学好Javascript是重中之重。
+
+如果你是一个长期主义者，欢迎加入我的知识星球，我们一起往前走，每日都会更新，精细化运营，微信识别二维码付费即可加入，如不满意，72 小时内可在 App 内无条件自助退款
+
+![](https://mmbiz.qpic.cn/mmbiz_png/YmmVSe19Qj5jYW8icFkojHqg2WTWTjAnvcuF7qGrj3JLz1VgSFDDMOx0DbKjsia5ibMpeISsibYJ0ib1d2glMk2hySA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+## 往期回顾
+
+[一款bp神器](http://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247495880&idx=1&sn=65d42fbff5e198509e55072674ac5283&chksm=e8a5faabdfd273bd55df8f7db3d644d3102d7382020234741e37ca29e963eace13dd17fcabdd&scene=21#wechat_redirect)
+
+[ssrf绕过新思路](http://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247495841&idx=1&sn=bbf477afa30391b8072d23469645d026&chksm=e8a5fac2dfd273d42344f18c7c6f0f7a158cca94041c4c4db330c3adf2d1f77f062dcaf6c5e0&scene=21#wechat_redirect)
+
+[dom-xss精选文章](http://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247488819&idx=1&sn=5141f88f3e70b9c97e63a4b68689bf6e&chksm=e8a61f50dfd1964692f93412f122087ac160b743b4532ee0c1e42a83039de62825ebbd066a1e&scene=21#wechat_redirect)
+
+[年度精选文章](http://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247487187&idx=1&sn=622438ee6492e4c639ebd8500384ab2f&chksm=e8a604b0dfd18da6c459b4705abd520cc2259a607dd9306915d845c1965224cc117207fc6236&scene=21#wechat_redirect)
+
+[Nuclei权威指南-如何躺赚](http://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247487122&idx=1&sn=32459310408d126aa43240673b8b0846&chksm=e8a604f1dfd18de737769dd512ad4063a3da328117b8a98c4ca9bc5b48af4dcfa397c667f4e3&scene=21#wechat_redirect)
+
+[漏洞赏金猎人系列-如何测试设置功能IV](http://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486973&idx=1&sn=6ec419db11ff93d30aa2fbc04d8dbab6&chksm=e8a6079edfd18e88f6236e237837ee0d1101489d52f2abb28532162e2937ec4612f1be52a88f&scene=21#wechat_redirect)
+
+[漏洞赏金猎人系列-如何测试注册功能以及相关Tips](http://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247486764&idx=1&sn=9f78d4c937675d76fb94de20effdeb78&chksm=e8a6074fdfd18e59126990bc3fcae300cdac492b374ad3962926092aa0074c3ee0945a31aa8a&scene=21#wechat_redirect)
+
+预览时标签不可点
+
+![]()
+
+微信扫一扫
+关注该公众号
+
+继续滑动看下一个
+
+轻触阅读原文
+
+![](http://mmbiz.qpic.cn/mmbiz_png/YmmVSe19Qj4k2mXPm8xlXujVgicTGvZbcictoGLuPERQn9lRPAKkKUB5ut9XMicric8PxLRmSOq0tT5LuGuD1WemBQ/0?wx_fmt=png)
+
+迪哥讲事
+
+向上滑动看下一个
+
+知道了
+
+![]()
+微信扫一扫
+使用小程序
+
+取消
+允许
+
+取消
+允许
+
+取消
+允许
+
+×
+分析
+
+![跳转二维码]()
+
+![作者头像](http://mmbiz.qpic.cn/mmbiz_png/YmmVSe19Qj4k2mXPm8xlXujVgicTGvZbcictoGLuPERQn9lRPAKkKUB5ut9XMicric8P...

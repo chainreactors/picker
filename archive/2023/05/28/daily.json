@@ -1,0 +1,207 @@
+{
+    "SecWiki News": {
+        "SecWiki News 2023-05-27 Review": "http://www.sec-wiki.com/?2023-05-27"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for Cross-site Scripting in Ourphp exploit": "https://sploitus.com/exploit?id=5F403D90-213B-5411-BBF9-5F7D810789E6&utm_source=rss&utm_medium=rss",
+        "Exploit for Improper Access Control in Papercut Papercut Ng exploit": "https://sploitus.com/exploit?id=0F7F6A38-032A-59F3-8E3F-87CF2FA843FE&utm_source=rss&utm_medium=rss",
+        "Exploit for Vulnerability in Minio exploit": "https://sploitus.com/exploit?id=B132D051-CA40-5BBE-A93F-E47BE769A253&utm_source=rss&utm_medium=rss"
+    },
+    "Twitter @Nicolas Krassas": {
+        "Hot Pixels attack checks CPU temp, power changes to steal data https://www.bleepingcomputer.com/news/security/hot-pixels-attack-checks-cpu-temp-power-...": "https://twitter.com/Dinosn/status/1662534156025249792",
+        "QBot malware abuses Windows WordPad EXE to infect devices https://www.bleepingcomputer.com/news/security/qbot-malware-abuses-windows-wordpad-exe-to-in...": "https://twitter.com/Dinosn/status/1662534105798524928",
+        "Platbox - UEFI And SMM Assessment Tool https://www.kitploit.com/2023/05/platbox-uefi-and-smm-assessment-tool.html": "https://twitter.com/Dinosn/status/1662526773739810818",
+        "HTB: Absolute https://0xdf.gitlab.io/2023/05/27/htb-absolute.html": "https://twitter.com/Dinosn/status/1662526720484712448",
+        "New Buhti ransomware operation uses rebranded LockBit and Babuk payloads https://securityaffairs.com/146700/cyber-crime/buhti-ransomware-rebranded-loc...": "https://twitter.com/Dinosn/status/1662526611403464706",
+        "RT RussianPanda 🐼 🇺🇦: Re @Dinosn @akaclandestine They have updated the stealer now to include anti-sandbox features directly within the binar...": "https://twitter.com/AnFam17/status/1662447856035192834",
+        "New Stealthy Bandit Stealer Targeting Web Browsers and Cryptocurrency Wallets https://thehackernews.com/2023/05/new-stealthy-bandit-stealer-targeting....": "https://twitter.com/Dinosn/status/1662393452372303872",
+        "Enumerating and removing kernel callbacks using signed vulnerable drivers https://github.com/br-sn/CheekyBlinder": "https://twitter.com/Dinosn/status/1662368683417534464",
+        "CosmicEnergy Malware Poses Plausible Threat To Electric Grids https://packetstormsecurity.com/news/view/34663/CosmicEnergy-Malware-Poses-Plausible-Thr...": "https://twitter.com/Dinosn/status/1662327680388169728",
+        "Tool Release: Code Query (cq) https://research.nccgroup.com/2023/05/26/tool-release-code-query-cq/": "https://twitter.com/Dinosn/status/1662327638021619713",
+        "Egg Hunt in Tesla Infotainment: A First Look at Reverse Engineering of Qt Binaries https://www.reddit.com/r/ReverseEngineering/comments/13sdo4j/egg_hu...": "https://twitter.com/Dinosn/status/1662327554038964225",
+        "Mirai Malware Hits Zyxel Devices After Command Injection Bug https://www.hackread.com/mirai-malware-zyxel-command-injection-bug/": "https://twitter.com/Dinosn/status/1662327458928943106",
+        "Leaked LockBit, Babuk code leveraged by Buhti ransomware operation https://www.scmagazine.com/brief/ransomware/leaked-lockbit-babuk-code-leveraged-by-...": "https://twitter.com/Dinosn/status/1662327065322954753",
+        "DocuSign-themed email leads to script-based infection, (Sat, May 27th) https://isc.sans.edu/diary/rss/29888": "https://twitter.com/Dinosn/status/1662324802151936001"
+    },
+    "unSafe.sh - 不安全": {
+        "微软称Windows用户数突破10亿整数关口 然后吹嘘Windows 11多么厉害": "https://buaq.net/go-166035.html",
+        "优化 lockfree 中 atomic cas spin 忙轮询自旋引发的性能开销": "https://buaq.net/go-166037.html",
+        "科学家使用 AI 发现对抗超级细菌的新抗生素": "https://buaq.net/go-166038.html",
+        "特斯拉内部文件泄露": "https://buaq.net/go-166028.html",
+        "Platbox - UEFI And SMM Assessment Tool": "https://buaq.net/go-166027.html",
+        "一日一技 | 无需「XX 管家」，用 Windows 自带工具搞定应用安装与升级": "https://buaq.net/go-166023.html",
+        "报道称雷亚游戏用 AI 取代了所有画师": "https://buaq.net/go-166029.html",
+        "印度官员命令抽干水库以找回掉水里的手机": "https://buaq.net/go-166030.html",
+        "Assessing Reverse Engineering skills: create challenge for candidates [tutorial]": "https://buaq.net/go-166018.html",
+        "618 有什么值得买的？一文帮你汇总“错过后悔”的打折正版软件、会员、数码产品": "https://buaq.net/go-166025.html",
+        "因用户抱怨 Mozilla 停止在 Firefox 展示全屏 VPN 广告": "https://buaq.net/go-166013.html",
+        "Dolphin 模拟器因任天堂 DMCA 无限期推迟在 Steam 的发布": "https://buaq.net/go-166014.html",
+        "LockBit勒索软件团伙在暗网中共享BSI公司的数据和员工信息": "https://buaq.net/go-165994.html",
+        "网络协议模糊测试之旅——剖析MicrosoftIMAP客户端协议（上）": "https://buaq.net/go-165995.html",
+        "minipad2 – 大道至简，推荐一个轻量笔记（记录）小软件，231KB": "https://buaq.net/go-165997.html",
+        "除了模型， GPT 们还在卷什么？": "https://buaq.net/go-165987.html",
+        "CapCut剪映国际版- VIP 功能全免费 附120套离线模板": "https://buaq.net/go-165982.html"
+    },
+    "嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com": {
+        "LockBit勒索软件团伙在暗网中共享BSI公司的数据和员工信息": "https://www.4hou.com/posts/DZQA",
+        "网络协议模糊测试之旅——剖析MicrosoftIMAP客户端协议（上）": "https://www.4hou.com/posts/7JOy"
+    },
+    "CXSECURITY Database RSS Feed - CXSecurity.com": {
+        "Yank Note 3.52.1 Arbitrary Code Execution": "https://cxsecurity.com/issue/WLB-2023050072",
+        "Stackposts Social Marketing Tool v1.0 SQL Injection": "https://cxsecurity.com/issue/WLB-2023050071",
+        "Seagate Central Storage 2015.0916 User Creation / Command Execution": "https://cxsecurity.com/issue/WLB-2023050070",
+        "Ulicms 2023.1 Create Administrator": "https://cxsecurity.com/issue/WLB-2023050069",
+        "Zenphoto 1.6 Cross Site Scripting": "https://cxsecurity.com/issue/WLB-2023050068",
+        "Laravel 10.11 Database Disclosure / Information Disclosure": "https://cxsecurity.com/issue/WLB-2023050067",
+        "WBCE CMS 1.6.1 Cross Site Scripting": "https://cxsecurity.com/issue/WLB-2023050066",
+        "Camaleon CMS v2.7.0 Server-Side Template Injection (SSTI)": "https://cxsecurity.com/issue/WLB-2023050065",
+        "Quicklancer v1.0 SQL Injection": "https://cxsecurity.com/issue/WLB-2023050064",
+        "Screen SFT DAB 600/C Authentication Bypass Reset Board Config": "https://cxsecurity.com/issue/WLB-2023050063"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sat May 27 00:12:28 UTC 2023": "https://github.com/trickest/cve/commit/7650e93f8faa9b8fee26ae792120fc901855dab1"
+    },
+    "ongoing by Tim Bray": {
+        "CL XLIV: Long Tree Lenses": "https://www.tbray.org/ongoing/When/202x/2023/05/27/Long-Lens-Trees"
+    },
+    "obaby@mars": {
+        "停车": "https://h4ck.org.cn/2023/05/%e5%81%9c%e8%bd%a6/"
+    },
+    "Security Boulevard": {
+        "BSidesSF 2023 – Alexis Hancock – HSMs in Plain Envelopes: A Code Signing Story": "https://securityboulevard.com/2023/05/bsidessf-2023-alexis-hancock-hsms-in-plain-envelopes-a-code-signing-story/",
+        "Is Your SIEM Strategy Failing You? Here’s Why AI-Powered XDR Might Be The Answer": "https://securityboulevard.com/2023/05/is-your-siem-strategy-failing-you-heres-why-ai-powered-xdr-might-be-the-answer/"
+    },
+    "cloud world": {
+        "为 Databend Rust Driver 实现 Python Binding": "https://cloudsjhan.github.io/2023/05/27/%E4%B8%BA-Databend-Rust-Driver-%E5%AE%9E%E7%8E%B0-Python-Binding/"
+    },
+    "CCC Event Blog": {
+        "Camp 2023 - Infopages and Design": "https://events.ccc.de/2023/05/27/camp23-infopages-and-campdesign/"
+    },
+    "Hacking Dream": {
+        "Shellcodes for Binary Exploitation": "https://www.hackingdream.net/2023/05/shellcodes-for-binary-exploitation.html"
+    },
+    "SAP Blogs": {
+        "My favourite SAP Cloud Integration feature: Scripting": "https://blogs.sap.com/2023/05/27/my-favourite-sap-cloud-integration-feature-scripting/",
+        "Inventory “adjustments” to dates in the past": "https://blogs.sap.com/2023/05/27/inventory-adjustments-to-dates-in-the-past/",
+        "Integrate SAP Document and Reporting Compliance with SAP Billing and Revenue Innovation Management to automate compliance for your recurring billing": "https://blogs.sap.com/2023/05/27/integrate-sap-document-and-reporting-compliance-with-sap-billing-and-revenue-innovation-management-to-automate-compliance-for-your-recurring-billing/",
+        "Capping of overtime hours on monthly basis in Employee Central Timesheet": "https://blogs.sap.com/2023/05/27/capping-of-overtime-hours-on-monthly-basis-in-employee-central-timesheet/",
+        "Batch Derivation in Process Manufacturing": "https://blogs.sap.com/2023/05/27/batch-dervitaion-in-process-manufacturing/",
+        "SAP Analytics Cloud : Collaborative Enterprise Planning  Automation using SAC Calendar": "https://blogs.sap.com/2023/05/27/sap-analytics-cloud-collaborative-enterprise-planning-automation-using-sac-calendar/"
+    },
+    "Reverse Engineering": {
+        "Assessing Reverse Engineering skills: create challenge for candidates [tutorial]": "https://www.reddit.com/r/ReverseEngineering/comments/13t24eb/assessing_reverse_engineering_skills_create/"
+    },
+    "Private Feed for M09Ic": {
+        "mozhu1024 starred goretk/gore": "https://github.com/goretk/gore",
+        "mozhu1024 starred kardianos/service": "https://github.com/kardianos/service",
+        "mozhu1024 started following yzddmr6": "https://github.com/yzddmr6",
+        "WangYihang starred OpenGVLab/GITM": "https://github.com/OpenGVLab/GITM",
+        "zer0yu starred Brum3ns/firefly": "https://github.com/Brum3ns/firefly",
+        "zer0yu starred app2smile/rules": "https://github.com/app2smile/rules",
+        "WangYihang starred ncase/trust": "https://github.com/ncase/trust",
+        "Ak74-577 starred hackerschoice/thc-tips-tricks-hacks-cheat-sheet": "https://github.com/hackerschoice/thc-tips-tricks-hacks-cheat-sheet",
+        "zema1 starred kiddin9/OpenWrt_x86-r2s-r4s-r5s-N1": "https://github.com/kiddin9/OpenWrt_x86-r2s-r4s-r5s-N1",
+        "niudaii starred chaitin/xpoc": "https://github.com/chaitin/xpoc"
+    },
+    "黑海洋 - WIKI": {
+        "CapCut剪映国际版- VIP 功能全免费 附120套离线模板": "https://blog.upx8.com/3593"
+    },
+    "数世咨询": {
+        "创建开发安全新蓝图的四个原则": "https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247498245&idx=1&sn=5dc41a80330b7c3566203e38fac26b7f&chksm=c14488b8f63301ae5544d338dae65cb6f2328cada9e88bb98e4fbe56e210b6161868a7d3c6e9&scene=58&subscene=0#rd",
+        "[直播预约] 2023 RSAC热点话题分享": "https://mp.weixin.qq.com/s?__biz=MzkxNzA3MTgyNg==&mid=2247498245&idx=2&sn=826df7e08090747f306e0ff55b556c0f&chksm=c14488b8f63301ae77b6c4157ef875c7c680afadf4c1d0446134ae9ec3d9384e40c012cb7f37&scene=58&subscene=0#rd"
+    },
+    "情报分析师": {
+        "聊聊情报搜集那些事儿（第二集）搜索引擎篇": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650530653&idx=1&sn=6a865ee5375cef4a5518c8de92c2f738&chksm=8716cd16b061440068579495bb01c6953af86ea3efd20294b2ad1b03a9d87bca61b914185327&scene=58&subscene=0#rd",
+        "关注小号，谨防失联！": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650530653&idx=2&sn=06b88236b4b7215c5dfa836abe645eb4&chksm=8716cd16b0614400e083a4ad86403b8d9c6483a670ec465b974f2917ea42157e2047e2e4197d&scene=58&subscene=0#rd"
+    },
+    "安全研究GoSSIP": {
+        "SaTS 2023（小程序安全workshop）征稿啦！！！": "https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247495341&idx=1&sn=b698fa121d648db0b2333ea1edc4ac2b&chksm=c063c074f7144962da4728c637525075f3598f4fcfe08ea1a6c678d32ba7441c47ad2a211ab4&scene=58&subscene=0#rd"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "Mosfilm 免费公开塔尔科夫斯基的六部作品": "https://www.solidot.org/story?sid=75078",
+        "科学家使用 AI 发现对抗超级细菌的新抗生素": "https://www.solidot.org/story?sid=75077",
+        "特斯拉内部文件泄露": "https://www.solidot.org/story?sid=75076",
+        "报道称雷亚游戏用 AI 取代了所有画师": "https://www.solidot.org/story?sid=75075",
+        "印度官员命令抽干水库以找回掉水里的手机": "https://www.solidot.org/story?sid=75074",
+        "因用户抱怨 Mozilla 停止在 Firefox 展示全屏 VPN 广告": "https://www.solidot.org/story?sid=75073",
+        "Dolphin 模拟器因任天堂 DMCA 无限期推迟在 Steam 的发布": "https://www.solidot.org/story?sid=75072"
+    },
+    "安全圈": {
+        "【安全圈】研究发现，可能有数以百万计的Android手机和电视盒子设备预装了恶意软件": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652035369&idx=1&sn=e106964b0f4669c5dd474ac9b2d75497&chksm=f36ff569c4187c7f521757faf22db4216df901e9db2d821e1ef9a97693d1d53c71802bc496e7&scene=58&subscene=0#rd",
+        "【安全圈】Windows XP 正版密钥算法被破解：随意离线激活": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652035369&idx=2&sn=a1017a7aaab2f5f4fba5cb457d96712e&chksm=f36ff569c4187c7f0b922f7c0567fa94053a736f603b60d2379e3bc4893780e916ee45e39cff&scene=58&subscene=0#rd",
+        "【安全圈】不输密码也能转走你的钱，手机这个功能建议关闭！": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652035369&idx=3&sn=4354e568918a5d72518a34b083b36615&chksm=f36ff569c4187c7f5aace4c88e52843a46bdfe9815402a717f2ed022c28e23a8c8d54ebf6604&scene=58&subscene=0#rd",
+        "【安全圈】免费 VPN 服务 SuperVPN 泄露 3.6 亿用户隐私": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652035369&idx=4&sn=743ad7b43a172437ff5b6d56b76daf5a&chksm=f36ff569c4187c7f207e76839345cd9fb7d914c07fcb90165f3c9230a9fa3fa6cf86144f5586&scene=58&subscene=0#rd"
+    },
+    "极客公园": {
+        "融资拿到手软，估值超 40 亿美元，这家公司成 OpenAI 最大对手": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652993522&idx=1&sn=5ec05db9f310764b6dfd574cab860031&chksm=7e540a44492383526771b138371689da2a9e41884535ce9c36325a8476bc2f482716d71ec305&scene=58&subscene=0#rd",
+        "中国物流，十年巨变": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652993522&idx=2&sn=0493826b577bdcc6888ffc7f6b3a886b&chksm=7e540a4449238352dd54e75ebe143476bd280c559f32164f055038eb0cefca27d94dc38a6f48&scene=58&subscene=0#rd",
+        "马斯克脑机接口公司获准进行首次人体实验；吹哨人称特斯拉 FSD 的问题超乎想象；苹果柔性屏专利曝光 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652993506&idx=1&sn=19bb398b3f568cb0de7a896545c4ce72&chksm=7e540a54492383427e9fa714ef2a48ae86cfdb503dd131a2de13bae250bc1429c61a9bd0ecd3&scene=58&subscene=0#rd"
+    },
+    "Yak Project": {
+        "3天！不见不散！": "https://mp.weixin.qq.com/s?__biz=Mzk0MTM4NzIxMQ==&mid=2247496503&idx=1&sn=c9e5c2974fc3c2a30fcee96c9136a332&chksm=c2d18f93f5a606852ef7afc1b449747f75dac1271092acc650f6386a825f6a6608b6185e7330&scene=58&subscene=0#rd"
+    },
+    "奶牛安全": {
+        "云安全案例14: 从入侵云资源到接管K8S": "https://mp.weixin.qq.com/s?__biz=MzU4NjY0NTExNA==&mid=2247489492&idx=1&sn=59fc027e7f7c93dc9b0f5addbd568664&chksm=fdf97cc1ca8ef5d7b41f4954c7d8f0e7d16fe5d43fbd16fb2077906a2d608da6bdf741f71659&scene=58&subscene=0#rd"
+    },
+    "看雪学苑": {
+        "SOCIALNETWORK打靶记录": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458505470&idx=1&sn=ddc584d2fcc3740d2beb9e8862b0f103&chksm=b18ee07486f969624890d04f1947f173d824ef8db94a9ab573545c7e37d957758a4992b88b2d&scene=58&subscene=0#rd",
+        "周末狂欢，直播不停": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458505470&idx=2&sn=83dec8b0b26c91b554f45065027e61d5&chksm=b18ee07486f969628bac05dcb31f49831eb86cc7385dd302c53cbf22986dbf42c6de21a84d13&scene=58&subscene=0#rd"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Hot Pixels attack checks CPU temp, power changes to steal data": "https://www.bleepingcomputer.com/news/security/hot-pixels-attack-checks-cpu-temp-power-changes-to-steal-data/",
+        "QBot malware abuses Windows WordPad EXE to infect devices": "https://www.bleepingcomputer.com/news/security/qbot-malware-abuses-windows-wordpad-exe-to-infect-devices/",
+        "CISA warns govt agencies of recently patched Barracuda zero-day": "https://www.bleepingcomputer.com/news/security/cisa-warns-govt-agencies-of-recently-patched-barracuda-zero-day/",
+        "Attacco cinese alle infrastrutture USA: duro colpo ai rapporti diplomatici? Quali conseguenze": "https://www.cybersecurity360.it/news/attacco-cinese-alle-infrastrutture-usa-duro-colpo-ai-rapporti-diplomatici-quali-conseguenze/"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "DocuSign-themed email leads to script-based infection, (Sat, May 27th)": "https://isc.sans.edu/diary/rss/29888"
+    },
+    "The Hacker News": {
+        "New Stealthy Bandit Stealer Targeting Web Browsers and Cryptocurrency Wallets": "https://thehackernews.com/2023/05/new-stealthy-bandit-stealer-targeting.html",
+        "Critical OAuth Vulnerability in Expo Framework Allows Account Hijacking": "https://thehackernews.com/2023/05/critical-oauth-vulnerability-in-expo.html"
+    },
+    "Security Affairs": {
+        "Security Affairs newsletter Round 421 by Pierluigi Paganini – International edition": "https://securityaffairs.com/146735/breaking-news/security-affairs-newsletter-round-421.html",
+        "Is the BlackByte ransomware gang behind the City of Augusta attack?": "https://securityaffairs.com/146717/hacking/city-of-augusta-cyberattack.html",
+        "New Buhti ransomware operation uses rebranded LockBit and Babuk payloads": "https://securityaffairs.com/146700/cyber-crime/buhti-ransomware-rebranded-lockbit-babuk.html"
+    },
+    "ToolsWatch.org": {
+        "Black Hat Arsenal MEA Riyadh 2023 – Call For Tools Open": "https://toolswatch.org/2023/05/black-hat-arsenal-mea-riyadh-2023-call-for-tools-open/"
+    },
+    "Deep Web": {
+        "Tor Browser": "https://www.reddit.com/r/deepweb/comments/13thw40/tor_browser/"
+    },
+    "TorrentFreak": {
+        "A BitTorrent Client WebUI Shouldn’t Be Shared With The Entire Internet": "https://torrentfreak.com/a-bittorrent-client-webui-shouldnt-be-shared-with-the-entire-internet-230527/"
+    },
+    "The Register - Security": {
+        "Alien versus Predator? No, this Android spyware works together": "https://go.theregister.com/feed/www.theregister.com/2023/05/27/predator_analysis_talos/"
+    },
+    "Troy Hunt's Blog": {
+        "Weekly Update 349": "https://www.troyhunt.com/weekly-update-349/"
+    },
+    "Computer Forensics": {
+        "CHFI resources": "https://www.reddit.com/r/computerforensics/comments/13t10gk/chfi_resources/",
+        "Cellebrite troubleshooting UFED - having issues connecting your device properly?": "https://www.reddit.com/r/computerforensics/comments/13syklf/cellebrite_troubleshooting_ufed_having_issues/"
+    },
+    "Your Hacking Tutorial by Zempirians": {
+        "What’s a simple hack that a first timer can try that causes no harm but is fun to do?": "https://www.reddit.com/r/HowToHack/comments/13tb5nj/whats_a_simple_hack_that_a_first_timer_can_try/",
+        "Does anyone know if c2k blocks Iframes in html": "https://www.reddit.com/r/HowToHack/comments/13ti4d7/does_anyone_know_if_c2k_blocks_iframes_in_html/",
+        "Need help with cracking a hash that I got with mimikatz": "https://www.reddit.com/r/HowToHack/comments/13td0te/need_help_with_cracking_a_hash_that_i_got_with/",
+        "The premiere token giveaway of LayerZero": "https://www.reddit.com/r/HowToHack/comments/13tjupk/the_premiere_token_giveaway_of_layerzero/",
+        "MacBook Pro M1 for hacking ?": "https://www.reddit.com/r/HowToHack/comments/13sxcep/macbook_pro_m1_for_hacking/"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "Computer science and engineering or telecommunications engineering?": "https://www.reddit.com/r/netsecstudents/comments/13t9q21/computer_science_and_engineering_or/",
+        "Ideas for threat managment course final project": "https://www.reddit.com/r/netsecstudents/comments/13teqrp/ideas_for_threat_managment_course_final_project/",
+        "Powerview.ps1 error help": "https://www.reddit.com/r/netsecstudents/comments/13t4p0f/powerviewps1_error_help/",
+        "Exciting Discounts on Network Engineering Courses! Grab Them Now!": "https://www.reddit.com/r/netsecstudents/comments/13tbgmg/exciting_discounts_on_network_engineering_courses/"
+    },
+    "Il Disinformatico": {
+        "Auto elettriche e ibride allagate, le istruzioni del Comune di Ravenna": "http://attivissimo.blogspot.com/2023/05/auto-elettriche-e-ibride-allagate-le.html",
+        "Starship, il video di SpaceX del primo lancio sperimentale": "http://attivissimo.blogspot.com/2023/05/starship-il-video-di-spacex-del-primo.html"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "Platbox - UEFI And SMM Assessment Tool": "https://www.kitploit.com/2023/05/platbox-uefi-and-smm-assessment-tool.html"
+    }
+}

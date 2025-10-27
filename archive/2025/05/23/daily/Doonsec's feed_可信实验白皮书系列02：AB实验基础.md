@@ -1,0 +1,20 @@
+---
+title: 可信实验白皮书系列02：AB实验基础
+url: https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651780506&idx=2&sn=32a8f7c1c062e0ec38e4ccc162950228
+source: Doonsec's feed
+date: 2025-05-23
+fetch_date: 2025-10-06T22:23:50.580119
+---
+
+# 可信实验白皮书系列02：AB实验基础
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

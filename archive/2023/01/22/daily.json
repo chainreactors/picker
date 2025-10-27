@@ -1,0 +1,186 @@
+{
+    "SecWiki News": {
+        "SecWiki News 2023-01-21 Review": "http://www.sec-wiki.com/?2023-01-21"
+    },
+    "90Sec - 最新话题": {
+        "记录一次樱某动漫网逆向": "https://forum.90sec.com/t/topic/2215"
+    },
+    "先知安全技术社区": {
+        "SQLi_Labs靶场之Stacked Injections学习分享": "https://xz.aliyun.com/t/12060"
+    },
+    "渊龙Sec安全团队博客": {
+        "渊龙Sec安全团队祝您新年快乐~": "https://blog.aabyss.cn/post-172.html"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sat Jan 21 05:57:56 UTC 2023": "https://github.com/trickest/cve/commit/1d132ff21687d9c4fb61c67e0baf996bb20b19c1"
+    },
+    "unSafe.sh - 不安全": {
+        "甲骨文(ARM/x86均可) oracle cloud使用netboot任意重装系统": "https://buaq.net/go-146457.html",
+        "IP被谷歌标记在中国、Google IP定位修改方法": "https://buaq.net/go-146458.html",
+        "甲骨文云 关闭防火墙": "https://buaq.net/go-146459.html",
+        "Bark 推送服务的部署和使用小技巧": "https://buaq.net/go-146441.html",
+        "漂亮的云盘程序vue-file-manager": "https://buaq.net/go-146442.html",
+        "Docker 镜像代理加速网站上线": "https://buaq.net/go-146443.html",
+        "神鸟电视 v3.5.0 纯净直播（超清流畅不卡）": "https://buaq.net/go-146444.html",
+        "我的 2022": "https://buaq.net/go-146440.html",
+        "Tai-e - An Easy-To-Learn/Use Static Analysis Framework For Java": "https://buaq.net/go-146425.html",
+        "A small tale on Anti-RE : Part 0": "https://buaq.net/go-146411.html",
+        "SQLi_Labs靶场之Stacked Injections学习分享": "https://buaq.net/go-146420.html",
+        "GitHub 将停止支持 Subversion": "https://buaq.net/go-146412.html",
+        "微生物群在室友家人之间的共享": "https://buaq.net/go-146413.html",
+        "Google 联合创始人就 ChatGPT 召开会议讨论": "https://buaq.net/go-146408.html",
+        "CNET 暂停 AI 辅助撰写文章": "https://buaq.net/go-146409.html",
+        "2023 兔年春节快乐": "https://buaq.net/go-146399.html"
+    },
+    "Security Boulevard": {
+        "Leaking company secrets via generative AIs like ChatGPT": "https://securityboulevard.com/2023/01/leaking-company-secrets-via-generative-ais-like-chatgpt/",
+        "Preparing for FedRAMP Certification and Authorization": "https://securityboulevard.com/2023/01/preparing-for-fedramp-certification-and-authorization/",
+        "USENIX Security ’22 – Anunay Kulshrestha, Jonathan Mayer – ‘Estimating Incidental Collection In Foreign Intelligence Surveillance: Large-Scale Multiparty Private Set Intersection with Union And Sum’": "https://securityboulevard.com/2023/01/usenix-security-22-anunay-kulshrestha-jonathan-mayer-estimating-incidental-collection-in-foreign-intelligence-surveillance-large-scale-multiparty-private-set-intersection-with-union-a/",
+        "Publisher’s Weekly Review of A Hacker’s Mind": "https://securityboulevard.com/2023/01/publishers-weekly-review-of-a-hackers-mind/"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for CVE-2022-45770 exploit": "https://sploitus.com/exploit?id=F7AD954D-0D51-5D43-BDFD-FAA71002C48B&utm_source=rss&utm_medium=rss",
+        "Exploit for CVE-2023-22809 exploit": "https://sploitus.com/exploit?id=BA476BFF-F193-5FF0-A931-BEF0BE84D05C&utm_source=rss&utm_medium=rss",
+        "Exploit for Out-of-bounds Write in Gnu Binutils exploit": "https://sploitus.com/exploit?id=64EE8CD2-B2A2-5DCD-8784-03C92797B6B6&utm_source=rss&utm_medium=rss"
+    },
+    "Twitter @Nicolas Krassas": {
+        "HTB: UpDown": "https://twitter.com/Dinosn/status/1616843985288396806",
+        "Tai-e - An Easy-To-Learn/Use Static Analysis Framework For Java": "https://twitter.com/Dinosn/status/1616802284750479362",
+        "Some useful Scripts and Executables for Pentest & Forensics": "https://twitter.com/Dinosn/status/1616686455228702720",
+        "A GraphQL enumeration and extraction tool": "https://twitter.com/Dinosn/status/1616686225062076416",
+        "Hand-crafted Frida examples": "https://twitter.com/Dinosn/status/1616686156694933504",
+        "An automatic Blind ROP exploitation tool": "https://twitter.com/Dinosn/status/1616686091255353345",
+        "PoC for arbitrary file delete vulnerability in Windows Backup service.": "https://twitter.com/Dinosn/status/1616685380014596097",
+        "Exploits released for two Samsung Galaxy App Store vulnerabilities": "https://twitter.com/Dinosn/status/1616671879258841088",
+        "Technical Advisory – U-Boot – Unchecked Download Size and Direction in USB DFU (CVE-2022-2347)": "https://twitter.com/Dinosn/status/1616671844479926273",
+        "CVE-2022-25637 - Multiple TOCTOU vulns in peripheral devices (Razer, EVGA, MSI, AMI)": "https://twitter.com/Dinosn/status/1616671768374120449",
+        "Compromised Zendesk Employee Credentials Lead to Breach": "https://twitter.com/Dinosn/status/1616671085432565760",
+        "RT Davide Ornaghi: I've released the PoC for CVE-2023-0179, my nftables vulnerability, which surprisingly can be exploited locally from an unprivilege...": "https://twitter.com/TurtleARM97/status/1616605406599737344"
+    },
+    "Twitter @bytehx": {
+        "新年快乐🎉": "https://twitter.com/bytehx343/status/1616840825220255747"
+    },
+    "CCC Event Blog": {
+        "EH20 - Call for Participation & Artists": "https://events.ccc.de/2023/01/21/easterhegg-cfp/"
+    },
+    "Hexacorn": {
+        "Yara rules pageant": "https://www.hexacorn.com/blog/2023/01/21/yara-rules-pageant/"
+    },
+    "SAP Blogs": {
+        "Precious metals Overview and Procurement using S/4HANA": "https://blogs.sap.com/2023/01/21/precious-metals-overview-and-procurement-using-s-4hana/",
+        "Embedded Steampunk – What’s under the hood? Part II": "https://blogs.sap.com/2023/01/21/embedded-steampunk-whats-under-the-hood-part-ii/",
+        "S/4HANA – Block creating a Purchase order due to Quality reasons Using Quality Info Record": "https://blogs.sap.com/2023/01/21/s-4hana-block-creating-a-purchase-order-due-to-quality-reasons-using-quality-info-record/",
+        "Correcting the Confirmed Quantity after Putaway using Confirmation Correction": "https://blogs.sap.com/2023/01/21/correcting-the-confirmed-quantity-after-putaway-using-confirmation-corrections/",
+        "Data Strategy with SAP – Data Culture": "https://blogs.sap.com/2023/01/21/data-strategy-with-sap-data-culture/",
+        "Quality Inspection of Nested HUs with follow up task for Top & Sub HU level": "https://blogs.sap.com/2023/01/21/quality-inspection-of-nested-hus-with-follow-up-task-for-top-sub-hu-level/"
+    },
+    "Reverse Engineering": {
+        "Tutorial: Hacking Electron Games - Part 2: Coding an Internal Overlay with HTML/CSS/JS for Persistent Cheats (Game: Vampire Survivors)": "https://www.reddit.com/r/ReverseEngineering/comments/10hy6se/tutorial_hacking_electron_games_part_2_coding_an/",
+        "A small tale on Anti-RE : Part 0": "https://www.reddit.com/r/ReverseEngineering/comments/10hn0wj/a_small_tale_on_antire_part_0/"
+    },
+    "Dhole Moments": {
+        "How You Respond to Security Researchers Says Everything About You": "https://soatok.blog/2023/01/21/how-you-respond-to-security-researchers-says-everything-about-you/"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "GitHub 将停止支持 Subversion": "https://www.solidot.org/story?sid=73939",
+        "微生物群在室友家人之间的共享": "https://www.solidot.org/story?sid=73938",
+        "Google 联合创始人就 ChatGPT 召开会议讨论": "https://www.solidot.org/story?sid=73937",
+        "CNET 暂停 AI 辅助撰写文章": "https://www.solidot.org/story?sid=73936"
+    },
+    "岚光": {
+        "我的 2022": "https://0x0d.im/archives/my-2022.html"
+    },
+    "黑海洋 - WIKI": {
+        "Google 搜索技巧": "https://blog.upx8.com/3198",
+        "甲骨文(ARM/x86均可) oracle cloud使用netboot任意重装系统": "https://blog.upx8.com/3197",
+        "IP被谷歌标记在中国、Google IP定位修改方法": "https://blog.upx8.com/3196",
+        "甲骨文云 关闭防火墙": "https://blog.upx8.com/3195",
+        "Bark 推送服务的部署和使用小技巧": "https://blog.upx8.com/3194",
+        "漂亮的云盘程序vue-file-manager": "https://blog.upx8.com/3193",
+        "Docker 镜像代理加速网站上线": "https://blog.upx8.com/3192",
+        "神鸟电视 v3.5.0 纯净直播（超清流畅不卡）": "https://blog.upx8.com/3191"
+    },
+    "代码审计SDL": {
+        "代码审计SDL祝您除夕快乐，幸福安康": "https://mp.weixin.qq.com/s?__biz=MzI2NTExNzcxNQ==&mid=2247484155&idx=1&sn=fbf1260d8e47def4802d2b60d70f401e&chksm=eaa30b87ddd48291386489a291b96bde9f8142d4fdeb7d68cd17dba1e990e67113733ac3ab06&scene=58&subscene=0#rd"
+    },
+    "丁爸情报分析师的工具箱": {
+        "【资料】美国特种作战部队（USSOCOM）概况手册2023版": "https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651134627&idx=1&sn=e4ca88d3f487b46e6baae348a2b5b7a3&chksm=f1af6d99c6d8e48f33bf662f966ce1bece9d4e493a1c8d4128bd1b4dcb5210ab40934f56dc7b&scene=58&subscene=0#rd"
+    },
+    "中国信息安全": {
+        "除夕辞旧岁 · 团圆迎新年": "https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664174332&idx=1&sn=73a354bfc029fa7d5764978770229be8&chksm=8b591005bc2e9913f4f0469ce0a4a8d873f9adbffc871532d3ed6cd886faf4c52c67550109f1&scene=58&subscene=0#rd"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Hackers now use Microsoft OneNote attachments to spread malware": "https://www.bleepingcomputer.com/news/security/hackers-now-use-microsoft-onenote-attachments-to-spread-malware/",
+        "Police Contractor That Promised to Track Homeless People Hacked": "https://www.vice.com/en/article/xgyjnq/odin-intelligence-hacked",
+        "Massive ad-fraud op dismantled after hitting millions of iOS devices": "https://www.bleepingcomputer.com/news/security/massive-ad-fraud-op-dismantled-after-hitting-millions-of-ios-devices/",
+        "Beware: Hackers now use OneNote attachments to spread malware": "https://www.bleepingcomputer.com/news/security/beware-hackers-now-use-onenote-attachments-to-spread-malware/",
+        "Riot Games hacked, delays game patches after security breach": "https://www.bleepingcomputer.com/news/security/riot-games-hacked-delays-game-patches-after-security-breach/",
+        "How To Replay RF Signals Using SDR - Black Hills Information Security": "https://www.blackhillsinfosec.com/how-to-replay-rf-signals-using-sdr/",
+        "Create a Security Honey Pot with OpenCanary and a Raspberry Pi 3 (Updated 2021)": "https://bobmckay.com/i-t-support-networking/hardware/create-a-security-honey-pot-with-opencanary-and-a-raspberry-pi-3-updated-2021/",
+        "La Cassazione sui ricorsi via PEC inviati alle ore 00:00:00 della mezzanotte del giorno di scadenza": "https://www.dalchecco.it/sentenza-cassazione-ricorso-pec-termine-mezzanotte-scadenza/",
+        "La Cassazione sui ricorsi via PEC inviati alle ore 00:00:00 della mezzanotte": "https://www.dalchecco.it/la-cassazione-sui-ricorsi-via-pec-inviati-alle-ore-000000-della-mezzanotte/",
+        "Suspected Chinese hackers exploit vulnerability in Fortinet devices": "https://therecord.media/suspected-chinese-hackers-exploit-vulnerability-in-fortinet-devices/",
+        "Cyber Saturday 20230121": "https://roccosicilia.com/2023/01/21/cyber-saturday-20230121/",
+        "Cyber Saturday 20230123": "https://roccosicilia.com/2023/01/21/cyber-saturday-20230123/",
+        "Guerre di Rete - La corsa all'intelligenza artificiale": "https://guerredirete.substack.com/p/guerre-di-rete-la-corsa-allintelligenza",
+        "Il lato oscuro del Metaverso": "https://hackerjournal.it/11208/il-lato-oscuro-del-metaverso/",
+        "Cosa dice il nuovo Cybersecurity Outlook 2023 report del WEF?": "https://www.insicurezzadigitale.com/cosa-dice-il-nuovo-cybersecurity-outlook-2023-report-del-wef/",
+        "Ransomware money laundering operation disrupted, founder arrested": "https://www.malwarebytes.com/blog/news/2023/01/bitzlato-ransomware-laundry-operation-sees-founder-arrested",
+        "Credit card fraud group member could get up to 30 years in jail": "https://www.malwarebytes.com/blog/news/2023/01/another-member-of-new-york-card-fraud-gang-pleads-guilty",
+        "Mailchimp breach feels like deja vu": "https://www.malwarebytes.com/blog/news/2023/01/latest-breach-on-mailchimp-feels-like-deja-vu"
+    },
+    "极客公园": {
+        "与不放弃的你，一起期待充满希望的 2023 之春": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652980952&idx=1&sn=1d36b1d3ff746701f47fb0711b6271c3&chksm=7e543b6e4923b278f3fe11e6684f483c1182603404e8c8df4307b851d264b0da45e3c614f910&scene=58&subscene=0#rd",
+        "Netflix 创始人卸任 CEO；暴裁 1.2 万人，谷歌：负全责；索尼 PS 联手优衣库推主题 T 恤 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652980951&idx=1&sn=c45225fbdc01b719e94c68e27c4bc90f&chksm=7e543b614923b277ef5fb3db76f784774a2a53db815de87d7fb1bc8cc171697e01c281c84119&scene=58&subscene=0#rd"
+    },
+    "Il Disinformatico": {
+        "Tesla, il video di guida autonoma del 2016 era una messinscena. Ma Elon Musk e Tesla non l’hanno presentato così. I fatti e le conseguenze": "http://attivissimo.blogspot.com/2023/01/tesla-il-video-di-guida-autonoma-del.html",
+        "Corso Cicap per indagatori di misteri, ultimi posti disponibili": "http://attivissimo.blogspot.com/2023/01/corso-cicap-per-indagatori-di-misteri.html"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "Tai-e - An Easy-To-Learn/Use Static Analysis Framework For Java": "http://www.kitploit.com/2023/01/tai-e-easy-to-learnuse-static-analysis.html"
+    },
+    "网安国际": {
+        "InForSec祝大家春节愉快！": "https://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652312169&idx=1&sn=c776dc2c8e822905641821364468a9ab&chksm=8bc48fe7bcb306f12a34bc4db66d049436b168b6b3ff653c69e446941ae19ae5c2e600af742f&scene=58&subscene=0#rd"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "DShield Sensor JSON Log to Elasticsearch, (Sat, Jan 21st)": "https://isc.sans.edu/diary/rss/29458"
+    },
+    "TorrentFreak": {
+        "Report Urges Cloudflare to Terminate Accounts of Pirate Sites": "https://torrentfreak.com/report-urges-cloudflare-to-terminate-accounts-of-pirate-sites-230121/"
+    },
+    "Schneier on Security": {
+        "Publisher’s Weekly Review of A Hacker’s Mind": "https://www.schneier.com/blog/archives/2023/01/publishers-weekly-review-of-a-hackers-mind.html"
+    },
+    "Security Affairs": {
+        "The Irish DPC fined WhatsApp €5.5M for violating GDPR": "https://securityaffairs.com/141115/social-networks/dpc-fined-whatsapp-e5-5m.html",
+        "Around 19,500 end-of-life Cisco routers are exposed to hack": "https://securityaffairs.com/141102/hacking/eof-cisco-routers-exposed-rce.html"
+    },
+    "Technical Information Security Content & Discussion": {
+        "Researchers release PoC for iTLB-multihit bug affecting Intel cpus (crashes host from guest in most hypervisors).": "https://www.reddit.com/r/netsec/comments/10hxe6h/researchers_release_poc_for_itlbmultihit_bug/",
+        "libgit2 fails to verify SSH keys by default": "https://www.reddit.com/r/netsec/comments/10heryo/libgit2_fails_to_verify_ssh_keys_by_default/",
+        "U-Boot – Unchecked Download Size and Direction in USB DFU (CVE-2022-2347)": "https://www.reddit.com/r/netsec/comments/10hj9ot/uboot_unchecked_download_size_and_direction_in/",
+        "Somnium: Script to test netsec detection capabilities.": "https://www.reddit.com/r/netsec/comments/10hkouo/somnium_script_to_test_netsec_detection/"
+    },
+    "Social Engineering": {
+        "In 1985, US Marshals used NFL tickets to bust 100 fugitives in one day.": "https://www.reddit.com/r/SocialEngineering/comments/10i2he5/in_1985_us_marshals_used_nfl_tickets_to_bust_100/",
+        "How does one go from insecure to strong/ruthless?": "https://www.reddit.com/r/SocialEngineering/comments/10hkomb/how_does_one_go_from_insecure_to_strongruthless/",
+        "Social engineering, organized stalking/ Zersetzung/gangstalking and neurowewapons. V2K Mental health pyramid scam.": "https://www.reddit.com/r/SocialEngineering/comments/10i0su2/social_engineering_organized_stalking/",
+        "What is the matrix exactly?": "https://www.reddit.com/r/SocialEngineering/comments/10hzzr3/what_is_the_matrix_exactly/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "Tai-e - An Easy-To-Learn/Use Static Analysis Framework For Java": "http://www.kitploit.com/2023/01/tai-e-easy-to-learnuse-static-analysis.html"
+    },
+    "Blackhat Library: Hacking techniques and research": {
+        "Could you suggest me a good phishing tool?(free)": "https://www.reddit.com/r/blackhat/comments/10hrcj7/could_you_suggest_me_a_good_phishing_toolfree/"
+    },
+    "Your Hacking Tutorial by Zempirians": {
+        "A website with buttons/tools to attempt kiosk escapes?": "https://www.reddit.com/r/HowToHack/comments/10hw8t8/a_website_with_buttonstools_to_attempt_kiosk/",
+        "Help with RFID doors ?": "https://www.reddit.com/r/HowToHack/comments/10ht19r/help_with_rfid_doors/",
+        "PetitPotam question": "https://www.reddit.com/r/HowToHack/comments/10hh05z/petitpotam_question/",
+        "Find plaintext passwords on Windows 10 devices": "https://www.reddit.com/r/HowToHack/comments/10hnm3i/find_plaintext_passwords_on_windows_10_devices/"
+    },
+    "Dark Space Blogspot": {
+        "Caratteristiche Hardware Validatore: Min Staking, CPU, RAM, Storage (Proof Of Stake)": "http://darkwhite666.blogspot.com/2023/01/caratteristiche-hardware-validatore-min.html"
+    }
+}

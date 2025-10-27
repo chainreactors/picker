@@ -1,0 +1,20 @@
+---
+title: 【安全圈】俄黑客利用思科7年前漏洞入侵关键基础设施
+url: https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652071298&idx=3&sn=f9e6ee58e845fd627ca3c177a4a381b1
+source: Doonsec's feed
+date: 2025-08-22
+fetch_date: 2025-10-07T00:15:04.250056
+---
+
+# 【安全圈】俄黑客利用思科7年前漏洞入侵关键基础设施
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

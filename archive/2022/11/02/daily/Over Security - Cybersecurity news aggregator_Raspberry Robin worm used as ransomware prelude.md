@@ -1,0 +1,183 @@
+---
+title: Raspberry Robin worm used as ransomware prelude
+url: https://www.malwarebytes.com/blog/news/2022/10/raspberry-robin-worm-used-as-ransomware-prelude
+source: Over Security - Cybersecurity news aggregator
+date: 2022-11-02
+fetch_date: 2025-10-03T21:34:14.301881
+---
+
+# Raspberry Robin worm used as ransomware prelude
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![](https://www.threatdown.com/wp-content/uploads/2022/10/Raspberry_robin_worm_resized.png?w=1024)
+
+[Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+## Raspberry Robin worm used as ransomware prelude
+
+October 30, 2022
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+Raspberry Robin aka Worm.RaspberyRobin started out as an annoying, yet relatively low-profile threat that was often installed via USB drive. First [spotted](https://redcanary.com/blog/raspberry-robin/) in September 2021, it was typically introduced into a network through infected removable drives, often USB devices.
+
+Now the worm has been found to be the foothold for more serious threats like ransomware as laid out in this [Microsoft Security blog](https://www.microsoft.com/en-us/security/blog/2022/10/27/raspberry-robin-worm-part-of-larger-ecosystem-facilitating-pre-ransomware-activity/). Microsoft warns that the worm has triggered payload alerts on devices of almost 1,000 organizations in the past 30 days.
+
+## Primary infection
+
+Initially, the Raspberry Robin worm often appears as a shortcut .lnk file masquerading as a legitimate folder on the infected USB device. The name of the lnk file was *recovery.lnk* which later changed to filenames associated with the brand of the USB device. Raspberry Robin uses both autoruns to launch and social engineering to encourage users to click the LNK file.
+
+Raspberry Robin’s LNK file points to *cmd.exe* to launch the Windows Installer service *msiexec.exe* and install a malicious payload hosted on compromised QNAP network attached storage (NAS) devices.
+
+## Infrastructure
+
+A NAS device is a storage server connected to a computer network, storing data that can be accessed by a wide variety of devices, including Windows, macOS, and other systems. In real life this usually means they are used as an external hard-drive that can be accessed over an intranet or the internet. There are several vulnerabilities in QNAP devices for which patches are available, but unfortunately many of them remain unpatched due to unawareness.
+
+## Backdoor
+
+To be able to act as a backdoor, malware needs to be active or you need to be able to trigger it remotely. Raspberry Robin gains persistence by adding itself to the RunOnce key in the CurrentUser registry hive of the user who executed the initial malware.
+
+By using command-and-control (C2) servers hosted on Tor nodes the Raspberry Robin implant can be used to distribute other malware.
+
+## Guests
+
+As an established access provider in the current malware-as-a-service landscape you can make money by selling the access to affected networks to other malware operators like ransomware groups. Microsoft found that Raspberry Robin has been used to facilitate FakeUpdates (SocGholish), Fauppod, IcedID, Bumblebee, TrueBot, [LockBit](https://www.threatdown.com/blog/a-first-look-at-the-builder-for-lockbit-3-0-black/), and human-operated intrusions.
+
+Fauppod is heavily obfuscated malweare that is also used to spread FakeUpdates, and writes Raspberry Robin to USB drives. TrueBot Trojans are used in targeted attacks for reconnaissance purposes.
+
+An example of the human-operated intrusions was the deployment of Cobalt Strike to deliver the Clop ransomware.
+
+## Stop the worm
+
+In Windows, the autorun of USB drives is disabled by default. However, many organizations have widely enabled it through legacy Group Policy changes, according to Microsoft. If you enabled it, this is a policy worth re-thinking.
+
+Owners of QNAP devices should be aware of the fact that they are not only putting their own files at risk by not applying the patches, but they are providing malware authors with a free-to-use infrastructure to victimize others.
+
+## Categories
+
+[Breaches](https://www.threatdown.com/blog/category/breaches/)[Product News](https://www.threatdown.com/blog/category/product-news/)[Ransomware](https://www.threatdown.com/blog/category/ransomware/)[Threat Intelligence](https://www....

@@ -1,0 +1,185 @@
+---
+title: Smart home assistants at risk from "NUIT" ultrasound attack
+url: https://www.malwarebytes.com/blog/news/2023/03/smart-home-assistants-at-risk-from-nuit-ultrasound-attack
+source: Over Security - Cybersecurity news aggregator
+date: 2023-04-01
+fetch_date: 2025-10-04T11:24:10.943731
+---
+
+# Smart home assistants at risk from "NUIT" ultrasound attack
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Smart IoT device](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/03/asset_upload_file88552_262622.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Smart home assistants at risk from “NUIT” ultrasound attack
+
+Posted: March 30, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+A new form of attack named “Near Ultrasound Inaudible Trojan” (NUIT) has been [unveiled by researchers](https://www.utsa.edu/today/2023/03/story/chen-nuit-research.html) from the University of Texas. NUIT is designed to attack voice assistants with malicious commands remotely via the internet.
+
+Impacted assistants include Siri, Alexa, Cortana, and Google Assistant.
+
+This attack relies on abusing the high sensitivity of microphones found in these [IoT](https://www.malwarebytes.com/iot) devices. They’re able to pick up what is described as the “near-ultrasound” frequency range (16kHz – 20kHz), and [this is where NUIT lurks](https://sites.google.com/view/nuitattack/home).
+
+A NUIT sound clip can be played on the targeted device’s speaker which allows for the voice assistant to be attacked on the device itself, or even another device altogether.
+
+There are 2 different ways to launch this attack. One is where NUIT is happening on the targeted device itself. This could be, for example, a rogue app or an audio file. Below you can see a video where the NUIT attack results in an unlocked door.
+
+The second form of attack is where the first device containing a speaker is used to communicate with a second device containing a microphone. This is the daisy-chain style approach, where all of the cool technology in all of your devices slowly comes back to haunt you. As researchers note, a smart TV contains a speaker and a quick blast of YouTube could be all that’s needed. Even unmuting a device during a Zoom call could be enough to send the attack signal to your phone sitting next to the computer as the meeting is taking place.
+
+In terms of being *successful* via NUIT attack, [social engineering](https://www.malwarebytes.com/social-engineering) plays a large part. Bogus websites, apps, and audio could all be entry points for voice assistant shenanigans.
+
+Once access to a device is gained, an attacker lowers the device’s volume. This is so the device owner is unable to hear the assistant responding to commands being sent its way. Meanwhile, the speaker needs to be above a specific noise level so the attack can actually take place. As long as all of this takes place, the bogus command length has to be below 77 milliseconds or it won’t work.
+
+In terms of current impact, researchers say that Siri devices “need to steal the user’s voice”. Meanwhile, the other 16 devices tested can be activated through use of a robot voice or indeed any other voice at all for that matter.
+
+The NUIT attack is listed as being due to appear at the upcoming [USENIX Security Symposium in August](https://www.usenix.org/conference/usenixsecurity23), which will give a complete overview of how this works. For now, the advice for possible defences against this new form of attack listed by the researchers include the following:
+
+* Use earphones. If the microphone can’t receive malicious commands, then the compromise can’t take place.
+* Awareness is key. Be careful around links, apps, and microphone permissions.
+* Make use of voice [authentication](https://www.malwarebytes.com/cybersecurity/basics/what-is-authentication). If you’re on an Apple device, now is the time to fire that up.
+
+---
+
+Malwarebytes removes all remnants of [ransomware](https://www.malwarebytes.com/ransomware) and prevents you from getting reinfected. Want to learn more about how we ca...

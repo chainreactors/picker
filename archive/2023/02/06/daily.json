@@ -1,0 +1,150 @@
+{
+    "Twitter @Nicolas Krassas": {
+        "Italy's TIM suffers internet connection problems": "https://twitter.com/Dinosn/status/1622291861888016384",
+        "Microsoft attributes Charlie Hebdo data leak to Iran-linked NEPTUNIUM APT": "https://twitter.com/Dinosn/status/1622242716317880320",
+        "India’s Largest Truck Brokerage Company Leaking 140GB of Data": "https://twitter.com/Dinosn/status/1622191815834173440",
+        "🚨 Docker Full Privilege Escalation (CVE-2022-25365): \"Breaking Docker Named Pipes SYSTEMatically\" 🚨": "https://twitter.com/Dinosn/status/1622191739191676929",
+        "Building a Custom Mach-O Memory Loader for macOS - Part 1": "https://twitter.com/Dinosn/status/1622170832595259392",
+        "EAST - Extensible Azure Security Tool - Documentation": "https://twitter.com/Dinosn/status/1622131290022584320",
+        "Build an HTTP Proxy to Abuse SSRF": "https://twitter.com/Dinosn/status/1622121815408525313",
+        "HTB: Response": "https://twitter.com/Dinosn/status/1622118697853657088",
+        "NY attorney general forces spyware vendor to alert victims": "https://twitter.com/Dinosn/status/1622118664211161088",
+        "Reversing UK mobile rail tickets": "https://twitter.com/Dinosn/status/1622116424259870723"
+    },
+    "机智的程序员小熊": {
+        "熊哥爱你们，我友爱的编程伐木累！": "https://coding3min.com/2213.html"
+    },
+    "Security Boulevard": {
+        "Finland’s Most-Wanted Hacker Nabbed in France": "https://securityboulevard.com/2023/02/finlands-most-wanted-hacker-nabbed-in-france/",
+        "USENIX Security ’22 – Huiying Li, Shawn Shan, Emily Wenger, Jiayun Zhang, Haitao Zheng, Ben Y. Zhao – ‘Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks’": "https://securityboulevard.com/2023/02/usenix-security-22-huiying-li-shawn-shan-emily-wenger-jiayun-zhang-haitao-zheng-ben-y-zhao-blacklight-scalable-defense-for-neural-networks-against-query-based-black-box-attacks/",
+        "From Progress to Bans: How Close Are Human Microchip Implants?": "https://securityboulevard.com/2023/02/from-progress-to-bans-how-close-are-human-microchip-implants/"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sun Feb  5 05:54:04 UTC 2023": "https://github.com/trickest/cve/commit/1d238654a97da3fe64caa7cc00c6777b3438b550"
+    },
+    "unSafe.sh - 不安全": {
+        "甲骨文云(Oracle Cloud)增加硬盘空间 | 引导卷大小": "https://buaq.net/go-148041.html",
+        "欧洲警方破解加密消息应用 Exclu 逮捕 42 人": "https://buaq.net/go-148034.html",
+        "Vinton Cerf 被授予 IEEE 荣誉勋章": "https://buaq.net/go-148035.html",
+        "Winevt_Logs_Analysis - Searching .Evtx Logs For Remote Connections": "https://buaq.net/go-148021.html",
+        "关于使用OCR文字识别方式进行免杀": "https://buaq.net/go-148025.html",
+        "第五届 RealWorld CTF 体验赛部分解题复盘": "https://buaq.net/go-148026.html",
+        "法官使用 ChatGPT 做出法庭裁决": "https://buaq.net/go-148014.html",
+        "Function multi-versioning": "https://buaq.net/go-148042.html",
+        "小风车 – 147KB 超迷你，将 .MP4 视频设置为动态壁纸[Windows]": "https://buaq.net/go-148004.html",
+        "最便宜，也是入门 Mac 的最好选择：新款 Mac mini 体验": "https://buaq.net/go-148006.html",
+        "XSS Challenges通关教程": "https://buaq.net/go-148027.html",
+        "键魂 – 「键道」双拼键位入门辅助工具[Windows]": "https://buaq.net/go-148005.html",
+        "Java安全之Resin解析漏洞分析": "https://buaq.net/go-148028.html",
+        "timqian/chinese-independent-blogs: 中文独立博客列表": "https://buaq.net/go-148003.html",
+        "通过油猴脚本看各大视频网站VIP": "https://buaq.net/go-148001.html",
+        "黑客们现在使用“马甲”技术，实施更真实的网络钓鱼攻击": "https://buaq.net/go-147999.html",
+        "影响wolfSSL的四个漏洞（一）": "https://buaq.net/go-147998.html"
+    },
+    "gynvael.coldwind//vx.log (en)": {
+        "Solving a VM-based CTF challenge without solving it properly": "https://gynvael.coldwind.pl/?id=763"
+    },
+    "ArthurChiao's Blog": {
+        "Linux CFS 调度器：原理、设计与内核实现（2023）": "https://arthurchiao.github.io/blog/linux-cfs-design-and-implementation-zh/"
+    },
+    "深度技术安全": {
+        "格式化字符串漏洞：任意写": "https://blog.csdn.net/winsunxu/article/details/128889258"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "Exploit for CVE-2022-44268 exploit": "https://sploitus.com/exploit?id=52A9CD68-BA81-5394-92EA-77910C932577&utm_source=rss&utm_medium=rss"
+    },
+    "Twitter @bytehx": {
+        "RT payloadartist: 🥷 The Hacker Recipes 🧑‍🍳 Detailed technical guides on a wide range of #hacking topics: - Active Directory - Web services -...": "https://twitter.com/payloadartist/status/1622241134721503232"
+    },
+    "MaskRay": {
+        "Function multi-versioning": "https://maskray.me/blog/2023-02-05-function-multi-versioning"
+    },
+    "SAP Blogs": {
+        "S/4HANA Service: Expense Item": "https://blogs.sap.com/2023/02/05/s-4hana-service-expense-item/",
+        "Secure your APIs using JSON Web Token (JWT)": "https://blogs.sap.com/2023/02/05/secure-your-apis-using-json-web-token-jwt/",
+        "How to handle repair production order in SAP Digital Manufacturing Cloud(DMC)": "https://blogs.sap.com/2023/02/05/how-to-handle-repair-production-order-in-sap-digital-manufacturing-clouddmc/",
+        "I love SAP Graphical Message Mappings?": "https://blogs.sap.com/2023/02/05/i-love-sap-graphical-message-mappings/",
+        "Note to payee in DME Files via STRD and USTRD tags": "https://blogs.sap.com/2023/02/05/note-to-payee-in-dme-files-via-strd-and-ustrd-tags/"
+    },
+    "梧桐雨blog": {
+        "通过油猴脚本看各大视频网站VIP": "http://wutongyu.info/tampermonkey-see-vipvideo/"
+    },
+    "Reverse Engineering": {
+        "Reversing UK mobile rail tickets": "https://www.reddit.com/r/ReverseEngineering/comments/10tvnyo/reversing_uk_mobile_rail_tickets/",
+        "Hacking a Roku TV to Control Lights": "https://www.reddit.com/r/ReverseEngineering/comments/10tywex/hacking_a_roku_tv_to_control_lights/",
+        "🚨 Docker Full Privilege Escalation (CVE-2022-25365): \"Breaking Docker Named Pipes SYSTEMatically\" 🚨": "https://www.reddit.com/r/ReverseEngineering/comments/10u7uv8/docker_full_privilege_escalation_cve202225365/"
+    },
+    "黑海洋 - WIKI": {
+        "甲骨文云(Oracle Cloud)增加硬盘空间 | 引导卷大小": "https://blog.upx8.com/3209"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "欧洲警方破解加密消息应用 Exclu 逮捕 42 人": "https://www.solidot.org/story?sid=74047",
+        "Vinton Cerf 被授予 IEEE 荣誉勋章": "https://www.solidot.org/story?sid=74046",
+        "法官使用 ChatGPT 做出法庭裁决": "https://www.solidot.org/story?sid=74045"
+    },
+    "qz安全情报分析": {
+        "简析Darktrace的先进AI安全技术": "https://mp.weixin.qq.com/s?__biz=MzI1MDA1MjcxMw==&mid=2649907964&idx=1&sn=c28c44cf81c785e565d182fad58923e5&chksm=f18eebfac6f962ec96a12a798ce2e72de528e4fbad3b93fe5f2b1ef52eb7a80fe6a9d2a86771&scene=58&subscene=0#rd"
+    },
+    "KitPloit - PenTest & Hacking Tools": {
+        "Winevt_Logs_Analysis - Searching .Evtx Logs For Remote Connections": "http://www.kitploit.com/2023/02/winevtlogsanalysis-searching-evtx-logs.html"
+    },
+    "安全圈": {
+        "【安全圈】购买2000余条公民个人信息，获利300余元！法院判了...": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652030295&idx=1&sn=bc3ef53057aa0c08a6be3cd51778fca9&chksm=f36fe917c41860013444e19960d367af0635c280fadada1a3522fe935593ba89ea572c278202&scene=58&subscene=0#rd",
+        "【安全圈】两男子开发取不出钱的“贷款APP”骗取注册费、倒卖信息获利超460万元！": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652030295&idx=2&sn=97ce2205764bfe47aba79cdac66bd836&chksm=f36fe917c4186001953714327399df4bd1d873a50cd27e884313b7b0900fef81c327a839f73c&scene=58&subscene=0#rd",
+        "【安全圈】VMware已修复的堆溢出漏洞被勒索软件利用攻击ESXi服务器": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652030295&idx=3&sn=166a3b7691e894cc8223bd17daea1cab&chksm=f36fe917c418600181c972cc9b84176d7a74e72b96ea31ab86b8f0b9d7e39a4b35b608cb79f9&scene=58&subscene=0#rd",
+        "【安全圈】安全专家提醒：有黑客利用谷歌搜索广告传播恶意 Mac 软件": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652030295&idx=4&sn=ae722704d0948a84b2619e48b69a3116&chksm=f36fe917c4186001589c01b5ecd084cdf36cc5bdfe2716dd27abd753ce93a9783292d53f3b5c&scene=58&subscene=0#rd"
+    },
+    "网安寻路人": {
+        "TikTok应对美国国家安全关注的内幕（外媒编译）": "https://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247498993&idx=1&sn=92343b1c8b51e98b1491a3fdd475ce63&chksm=97e9411ba09ec80d0ef5823d054405396003e25e0181ccb4f368095bdf59f358e9254e95be3a&scene=58&subscene=0#rd"
+    },
+    "Il Disinformatico": {
+        "Titoli da panico per il \"massiccio attacco hacker\" in Italia": "http://attivissimo.blogspot.com/2023/02/titoli-da-panico-per-il-massiccio.html"
+    },
+    "Krebs on Security": {
+        "Finland’s Most-Wanted Hacker Nabbed in France": "https://krebsonsecurity.com/2023/02/finlands-most-wanted-hacker-nabbed-in-france/"
+    },
+    "Blackhat Library: Hacking techniques and research": {
+        "🔥 PipeViewer: A new tool for viewing Windows Named Pipes and searching for insecure permissions. 🔥": "https://www.reddit.com/r/blackhat/comments/10u7nzg/pipeviewer_a_new_tool_for_viewing_windows_named/",
+        "🚨 Docker Full Privilege Escalation (CVE-2022-25365): \"Breaking Docker Named Pipes SYSTEMatically\" 🚨": "https://www.reddit.com/r/blackhat/comments/10u7vx0/docker_full_privilege_escalation_cve202225365/"
+    },
+    "Security Affairs": {
+        "Microsoft attributes Charlie Hebdo data leak to Iran-linked NEPTUNIUM APT": "https://securityaffairs.com/141855/apt/charlie-hebdo-data-leak-iran.html",
+        "Security Affairs newsletter Round 405 by Pierluigi Paganini": "https://securityaffairs.com/141850/breaking-news/security-affairs-newsletter-round-405-by-pierluigi-paganini.html"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Attacco hacker globale, cosa sappiamo degli impatti in Italia": "https://www.cybersecurity360.it/nuove-minacce/attacco-hacker-globale-cosa-sappiamo-degli-impatti-in-italia/",
+        "Finland’s Most-Wanted Hacker Nabbed in France": "https://krebsonsecurity.com/2023/02/finlands-most-wanted-hacker-nabbed-in-france/",
+        "Il trojan IcedID è primo in Italia": "https://hackerjournal.it/11280/il-trojan-icedid-e-primo-in-italia/"
+    },
+    "Your Hacking Tutorial by Zempirians": {
+        "bandit overthewire MITM?": "https://www.reddit.com/r/HowToHack/comments/10uoua8/bandit_overthewire_mitm/",
+        "bypass sqli keyword filter": "https://www.reddit.com/r/HowToHack/comments/10u3f4h/bypass_sqli_keyword_filter/"
+    },
+    "Technical Information Security Content & Discussion": {
+        "CVE-2022-44268 - Arbitrary File Read PoC - PNG generator": "https://www.reddit.com/r/netsec/comments/10ukw3h/cve202244268_arbitrary_file_read_poc_png_generator/",
+        "Reversing UK mobile rail tickets": "https://www.reddit.com/r/netsec/comments/10u41qf/reversing_uk_mobile_rail_tickets/",
+        "The Defender's Guide to OneNote MalDocs": "https://www.reddit.com/r/netsec/comments/10u9s27/the_defenders_guide_to_onenote_maldocs/"
+    },
+    "Deep Web": {
+        "Cloned cards": "https://www.reddit.com/r/deepweb/comments/10ufof8/cloned_cards/"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "Video: Analyzing Malicious OneNote Documents, (Sun, Feb 5th)": "https://isc.sans.edu/diary/rss/29512"
+    },
+    "TorrentFreak": {
+        "Magnitude of Canada’s Piracy Problem “Nearly Impossible to Overstate”": "https://torrentfreak.com/magnitude-of-canadas-piracy-problem-nearly-impossible-to-overstate-230205/"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "Is it possible to make a virus that interacts with or deletes another virus?": "https://www.reddit.com/r/netsecstudents/comments/10uez3p/is_it_possible_to_make_a_virus_that_interacts/",
+        "PG Practice vs OSCP": "https://www.reddit.com/r/netsecstudents/comments/10uo46p/pg_practice_vs_oscp/"
+    },
+    "Information Security": {
+        "Here is my mental cheat sheet when handling data. I'm hoping some will find it useful or be able to add to it.": "https://www.reddit.com/r/Information_Security/comments/10uggef/here_is_my_mental_cheat_sheet_when_handling_data/"
+    },
+    "The Register - Security": {
+        "Have we learnt nothing from SolarWinds supply chain attacks? Not yet it appears": "https://go.theregister.com/feed/www.theregister.com/2023/02/05/supply_chain_security_efforts/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "Winevt_Logs_Analysis - Searching .Evtx Logs For Remote Connections": "http://www.kitploit.com/2023/02/winevtlogsanalysis-searching-evtx-logs.html"
+    }
+}

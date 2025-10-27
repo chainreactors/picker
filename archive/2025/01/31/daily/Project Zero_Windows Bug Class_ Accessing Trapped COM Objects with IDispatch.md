@@ -1,0 +1,41 @@
+---
+title: Windows Bug Class: Accessing Trapped COM Objects with IDispatch
+url: https://googleprojectzero.blogspot.com/2025/01/windows-bug-class-accessing-trapped-com.html
+source: Project Zero
+date: 2025-01-31
+fetch_date: 2025-10-06T20:10:24.861291
+---
+
+# Windows Bug Class: Accessing Trapped COM Objects with IDispatch
+
+# [Project Zero](https://googleprojectzero.blogspot.com/)
+
+News and updates from the Project Zero team at Google
+
+## Thursday, January 30, 2025
+
+### Windows Bug Class: Accessing Trapped COM Objects with IDispatch
+
+Posted by James Forshaw, Google Project Zero
+
+Object orientated remoting technologies such as DCOM and .NET Remoting make it very easy to develop an object-orientated interface to a service which can cross process and security boundaries. This is because they're designed to support a wide range of objects, not just those implemented in the service, but any other object compatible with being remoted. For example, if you wanted to expose an XML document across the client-server boundary, you could use a pre-existing COM or .NET library and return that object back to the client. By default when the object is returned it's marshaled by reference, which results in the object staying in the out-of-process server.
+
+This flexibility has a number of downsides, one of which is the topic of this blog, the trapped object bug class. Not all objects which can be remoted are necessarily safe to do so. For example, the previously mentioned XML libraries, in both COM and .NET, support executing arbitrary script code in the context of an XSLT document. If an XML document object is made accessible over the boundary, then the client could execute code in the context of the server process, which can result in privilege escalation or remote-code execution.
+
+There are a number of scenarios that can introduce this bug class. The most common is where an unsafe object is shared inadvertently. An example of this was [CVE-2019-0555](https://project-zero.issues.chromium.org/issues/42450766). This bug was introduced because when developing the Windows Runtime libraries an XML document object was needed. The developers decided to add some code to the existing XML DOM Document v6 COM object which exposed the runtime specific interfaces. As these runtime interfaces didn't support the XSLT scripting feature, the assumption was this was safe to expose across privilege boundaries. Unfortunately a malicious client could query for the old IXMLDOMDocument interface which was still accessible and use it to run an XSLT script and escape a sandbox.
+
+Another scenario is where there exists an asynchronous marshaling primitive. This is where an object can be marshaled both by value and by reference and the platform chooses by reference as the default mechanism, For example the [FileInfo](https://learn.microsoft.com/en-us/dotnet/api/system.io.fileinfo?view%3Dnetframework-4.8.1) and [DirectoryInfo](https://learn.microsoft.com/en-us/dotnet/api/system.io.directoryinfo?view%3Dnetframework-4.8.1) .NET classes are both serializable, so can be sent to a .NET remoting service marshaled by value. But they also derive from the [MarshalByRefObject](https://learn.microsoft.com/en-us/dotnet/api/system.marshalbyrefobject?view%3Dnetframework-4.8.1) class, which means they can be marshaled by reference. An attacker can leverage this by sending to the server a serialized form of the object which when deserialized will create a new instance of the object in the server's process. If the attacker can read back the created object, the runtime will marshal it back to the attacker by reference, leaving the object trapped in the server process. Finally the attacker can call methods on the object, such as creating new files which will execute with the privileges of the server. This attack is implemented in my [ExploitRemotingService](https://github.com/tyranid/ExploitRemotingService) tool.
+
+The final scenario I'll mention as it has the most relevancy to this blog post is abusing the built in mechanisms the remoting technology uses to lookup and instantiate objects to create an unexpected object. For example, in COM if you can find a code path to call the [CoCreateInstance](https://learn.microsoft.com/en-us/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) API with an arbitrary CLSID and get that object passed back to the client then you can use it to run arbitrary code in the context of the server. An example of this form is [CVE-2017-0211](https://project-zero.issues.chromium.org/issues/42450084), which was a bug which exposed a [Structured Storage](https://learn.microsoft.com/en-us/windows/win32/stg/structured-storage-start-page) object across a security boundary. The storage object supports the [IPropertyBag](https://learn.microsoft.com/en-us/windows/win32/api/oaidl/nn-oaidl-ipropertybag) interface which can be used to create an arbitrary COM object in the context of the server and get it returned to the client. This could be exploited by getting an XML DOM Document object created in the server, returned to the client marshaled by reference and then using the XSLT scripting feature to run arbitrary code in the context of the server to elevate privileges.
+
+## Where Does IDispatch Fits In?
+
+The [IDispatch](https://learn.microsoft.com/en-us/windows/win32/api/oaidl/nn-oaidl-idispatch) interface is part of the OLE Automation feature, which was one of the original use cases for COM. It allows for late binding of a COM client to a server, so that the object can be consumed from scripting languages such as VBA and JScript. The interface is fully supported across process and privilege boundaries, although it's more commonly used for in-process components such as ActiveX.
+
+To facilitate calling a COM object at runtime the server must expose some type information to the client so that it knows how to package up parameters to send via the interface's [Invoke](https://learn.microsoft.com/en-us/windows/win32/api/oaidl/nf-oaidl-idispatch-invoke) method. The type information is stored in a developer-defined [Type Library](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language) file on disk, and the library can be queried by the client using the IDispatch interface's [GetTypeInfo](https://learn.microsoft.com/en-us/windows/win32/api/oaidl/nf-oaidl-idispatch-gettypeinfo) method. As the COM implementation of the type library interface is marshaled by reference, the returned [ITypeInfo](https://learn.microsoft.com/en-us/windows/win32/api/oaidl/nn-oaidl-itypeinfo) interface is trapped in the server and any methods called upon it will execute in the server's context.
+
+The ITypeInfo interface exposes two interesting methods that can be called by a client, [Invoke](https://learn.microsoft.com/en-us/windows/win32/api/oaidl/nf-oaidl-itypeinfo-invoke) and [CreateInstance](https://learn.microsoft.com/en-us/windows/win32/api/oaidl/nf-oaidl-itypeinfo-createinstance). It turns out Invoke is not that useful for our purposes, as it's not supported for remoting, it can only be called if the type library is loaded in the current process. However, CreateInstance is implemented as remotable, this will instantiate a COM object from a CLSID by calling CoCreateInstance. Crucially the created object will be in the server's process, not the client.
+
+However, if you look at the linked API documentation there is no CLSID parameter you can pass to CreateInstance, so how does the type library interface know what object to create? The ITypeInfo interface represents any type which can be present in a type library. The type returned by GetTypeInfo just contains information about the interface the client wants to call, therefore calling CreateInstance will just return an error. However, the type library can also store information of "CoClass" types. These types define the CLSID of the object to create, and so calling CreateInstance will succeed.
+
+How can we go from the interface type information object, to one representing a class? The ITypeInfo interface provides us with the [GetContainingTypeLib](https://learn.microsoft.com/en-us/windows/win32/api/oaidl/nf-oaidl-itypeinfo-getcontainingtypelib) method which returns a reference to the containing ITypeLib interface. That can...

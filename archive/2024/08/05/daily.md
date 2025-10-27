@@ -1,0 +1,156 @@
+# 每日安全资讯（2024-08-05）
+
+- Doonsec's feed
+  - [ ] [一句话总结各朝代灭亡原因](https://mp.weixin.qq.com/s?__biz=MzkxNDM4OTM3OQ==&mid=2247494988&idx=1&sn=b789d9f83c8b1004f8bb69ea9dc0ea63)
+  - [ ] [【0day】易捷OA ShowPic存在任意文件读取漏洞](https://mp.weixin.qq.com/s?__biz=MzU3MjU4MjM3MQ==&mid=2247486776&idx=1&sn=3857368a370b62e6695531fb59d29b74)
+  - [ ] [秦安：中东箭在弦上不得不发，最危险的地方在哪里？](https://mp.weixin.qq.com/s?__biz=MzA5MDg1MDUyMA==&mid=2650471959&idx=1&sn=c9e4a578f127d9d788144ac9cda6b400)
+  - [ ] [牧之野：马翔宇“没有未来”](https://mp.weixin.qq.com/s?__biz=MzA5MDg1MDUyMA==&mid=2650471959&idx=2&sn=30f1d0185771d440a8ee08d196e4c907)
+  - [ ] [《诗词游记》第350期：登上平南川](https://mp.weixin.qq.com/s?__biz=MzA5MDg1MDUyMA==&mid=2650471959&idx=3&sn=6f5e27c1302993af531d9926d5180372)
+  - [ ] [Redis7.x安装系列教程(二)主从部署&原理详解](https://mp.weixin.qq.com/s?__biz=MzI5NzUyNzMzMQ==&mid=2247485248&idx=1&sn=842d2c1b99ef65e2905795ce73aedac0)
+  - [ ] [【HW-day】用友NC Cloud queryStaffByName SQL注入漏洞【附poc】](https://mp.weixin.qq.com/s?__biz=MzkwMjYzNTE4MA==&mid=2247484904&idx=1&sn=6b8d8bd32ebb278b112be593e5d9b681)
+  - [ ] [黑客(红队)攻防中LLMNR/NBNS欺骗和desktop.ini获取哈希(hash)](https://mp.weixin.qq.com/s?__biz=MzkxNjQyODY5MA==&mid=2247486677&idx=1&sn=e8c3546612532fe766a407a87de00715)
+  - [ ] [漏洞预警 用友 NC querypsninfo SQL注入漏洞](https://mp.weixin.qq.com/s?__biz=MzkyMTMwNjU1Mg==&mid=2247491559&idx=1&sn=dc307b921e03c9215e4951320bc30903)
+  - [ ] [到底谁是安全行业的屠龙少年？](https://mp.weixin.qq.com/s?__biz=MzAxOTk3NTg5OQ==&mid=2247490840&idx=1&sn=f63a07f475a354498f768c88201981de)
+  - [ ] [网络工程师必知：动态路由协议有哪些？](https://mp.weixin.qq.com/s?__biz=MzUyNTExOTY1Nw==&mid=2247525490&idx=1&sn=00b61881e3bd84c4abfee19eb3d29f7d)
+  - [ ] [Upload-Lab第5关：如何巧妙利用.user.ini配置文件绕过黑名单验证](https://mp.weixin.qq.com/s?__biz=MjM5OTc5MjM4Nw==&mid=2457381025&idx=1&sn=867c1f494bdc5b2da34dc34ac5c532d4)
+  - [ ] [威胁情报周报（7.29~8.4）](https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247506673&idx=1&sn=8aa2634078a5cc55457c9f52e4ca6b3f)
+  - [ ] [[Win11]集成化综合漏洞扫描系统](https://mp.weixin.qq.com/s?__biz=MzkxMTUwOTY1MA==&mid=2247488182&idx=1&sn=0f14d3a4712e92ae290d5eece6b597f4)
+  - [ ] [(Nday)IP网络广播服务平台存在任意文件上传漏洞](https://mp.weixin.qq.com/s?__biz=Mzg4MTkwMTI5Mw==&mid=2247485179&idx=1&sn=3e5fc57115c51ea18b55976106985570)
+  - [ ] [某攻防演练｜从404页面到接管阿里云](https://mp.weixin.qq.com/s?__biz=MzU3MDg2NDI4OA==&mid=2247490037&idx=1&sn=a42cb74c865fdfc4e044a578d08f706e)
+  - [ ] [APP渗透|呆哥说稳了！通杀！六个方案带你无脑APP脱壳](https://mp.weixin.qq.com/s?__biz=MzIzNDU5Mzk2OQ==&mid=2247485997&idx=1&sn=3ad9f6e52a71b6a03c663746a044cd9f)
+  - [ ] [集中化护网招人](https://mp.weixin.qq.com/s?__biz=MzkxMDYwODk2NQ==&mid=2247484524&idx=1&sn=d502a53af884f8f696c24c92174a41c8)
+  - [ ] [零信任和AI](https://mp.weixin.qq.com/s?__biz=MzkyMzU2NjQyNA==&mid=2247483829&idx=1&sn=ce94df2b2e75afe241f89d6a435ed3f7)
+  - [ ] [【资讯】国务院印发《关于促进服务消费高质量发展的意见》](https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247544079&idx=1&sn=fd0fdbb66eef00690ea9229c512d9ad5)
+  - [ ] [【资讯】公安部公布5起针对企业财会人员实施电信网络诈骗的典型案例](https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247544079&idx=2&sn=07dc1545afa3858b0857ea419ee6b7bc)
+  - [ ] [【资讯】浙江省经信厅就《浙江省加快培育独角兽企业行动方案（2024—2027年）（征求意见稿）》公开征求意见](https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247544079&idx=3&sn=d7931624310d690bdec96914d8d7e321)
+  - [ ] [GoogleVRP上的验证绕过进行帐户前接管](https://mp.weixin.qq.com/s?__biz=MzkwOTE5MDY5NA==&mid=2247498211&idx=1&sn=0b75a29cd8c255b4b9912a1d1e5ea415)
+  - [ ] [一线大厂是如何实施代码向后移植的](https://mp.weixin.qq.com/s?__biz=Mzg4Njc0Mjc3NQ==&mid=2247486225&idx=1&sn=2cdf30d55383b55eae0c9c872e077ea8)
+  - [ ] [【新】IP网络广播服务平台任意文件上传漏洞](https://mp.weixin.qq.com/s?__biz=MzIzOTM2MzczNQ==&mid=2247484832&idx=1&sn=6f24e6e4354db0ff88b3c7dfca22b6ed)
+  - [ ] [网络安全超值圈子推荐-小白菜安全](https://mp.weixin.qq.com/s?__biz=MzIzOTM2MzczNQ==&mid=2247484832&idx=2&sn=c55ace68b7dfffb23e2a23ca4057a70c)
+  - [ ] [【漏洞预警】D-LINK DI-8100 远程命令执行漏洞（CVE-2024-7436）](https://mp.weixin.qq.com/s?__biz=MzkyNzQzNDI5OQ==&mid=2247486481&idx=1&sn=c7b9d64e85f7ed057857d967532331a4)
+  - [ ] [一款支持高度自定义的 Java 内存马生成工具 - java-memshell-generator](https://mp.weixin.qq.com/s?__biz=MzIzNTE0Mzc0OA==&mid=2247485779&idx=1&sn=4acc19e2f20e8ac3d1986c10860e9ad2)
+  - [ ] [浅谈RDP与输入法的奇妙碰撞](https://mp.weixin.qq.com/s?__biz=Mzg3NzIxMDYxMw==&mid=2247502127&idx=1&sn=33c247fa97a1d09de31ca54d3fbcdb90)
+  - [ ] [接口文档下的渗透测试](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247495457&idx=1&sn=aebbd60317af317a24efceed4352581d)
+  - [ ] [润乾报表dataSphereServlet接口存在任意文件读取漏洞](https://mp.weixin.qq.com/s?__biz=MzkyMTUzMDY1OA==&mid=2247484448&idx=1&sn=a833946a771aafeb5e01053b677b715d)
+  - [ ] [润乾报表dataSphereServlet接口存在任意文件上传漏洞](https://mp.weixin.qq.com/s?__biz=MzkyMTUzMDY1OA==&mid=2247484448&idx=2&sn=98f25a5ac73f09e5a3b9f1edc804f2ae)
+  - [ ] [润乾报表InputServlet接口存在任意文件读取漏洞](https://mp.weixin.qq.com/s?__biz=MzkyMTUzMDY1OA==&mid=2247484448&idx=3&sn=112d0c2fd701f1a7253cfa66bc76d01e)
+  - [ ] [润乾报表InputServlet接口存在任意文件上传漏洞](https://mp.weixin.qq.com/s?__biz=MzkyMTUzMDY1OA==&mid=2247484448&idx=4&sn=e90d885ffaf3c86d29f2e664bddbc9a0)
+  - [ ] [喰星云-数字化餐饮服务系统not_finish.php存在SQL注入漏洞](https://mp.weixin.qq.com/s?__biz=MzkyMTUzMDY1OA==&mid=2247484448&idx=5&sn=5ca049009a3074a11b83683d68539d60)
+  - [ ] [喰星云-数字化餐饮服务系统not_out_depot.php存在SQL注入漏洞](https://mp.weixin.qq.com/s?__biz=MzkyMTUzMDY1OA==&mid=2247484448&idx=6&sn=ebeac3920aab864e35cd454e8de21e2c)
+  - [ ] [喰星云-数字化餐饮服务系统shelflife.php存在SQL注入漏洞](https://mp.weixin.qq.com/s?__biz=MzkyMTUzMDY1OA==&mid=2247484448&idx=7&sn=751e96790ac212053c2bbe3b3115e4be)
+  - [ ] [喰星云-数字化餐饮服务系统stock.php存在SQL注入漏洞](https://mp.weixin.qq.com/s?__biz=MzkyMTUzMDY1OA==&mid=2247484448&idx=8&sn=19a267675678ec78e258a77ad8ae1ac7)
+  - [ ] [骑车摔伤，右手骨折，公众号暂停更新一百天](https://mp.weixin.qq.com/s?__biz=MzU1Mjk3MDY1OA==&mid=2247515414&idx=1&sn=41b7bcbb0013f733ddb719d11a7c5488)
+  - [ ] [涉“文件传输助手”，国安部紧急提醒](https://mp.weixin.qq.com/s?__biz=Mzk0MjM5ODQ0Ng==&mid=2247493235&idx=1&sn=105499080be63e057f42ffb8199d5642)
+  - [ ] [一款java漏洞集合工具](https://mp.weixin.qq.com/s?__biz=MzIwMzIyMjYzNA==&mid=2247515098&idx=1&sn=a0f63705de4bafbbfe321dda5c973378)
+  - [ ] [浅谈红队攻防之道-钓鱼小技巧](https://mp.weixin.qq.com/s?__biz=Mzg5NTU2NjA1Mw==&mid=2247492407&idx=1&sn=63b78d28f350a80083b4dbd05da44d0a)
+  - [ ] [从AWVS低危到通杀任意文件读取](https://mp.weixin.qq.com/s?__biz=MzkzNDI5NjEzMQ==&mid=2247484195&idx=1&sn=4af44b369654c7fe2cfa02b90daee6b6)
+- unSafe.sh - 不安全
+  - [ ] [Chinese StormBamboo APT compromised ISP to deliver malware](https://buaq.net/go-254199.html)
+  - [ ] [Surge in Magniber ransomware attacks impact home users worldwide](https://buaq.net/go-254195.html)
+  - [ ] [The Ethics of Local LLMs: Responding to Zuckerberg's "Open Source AI Manifesto"](https://buaq.net/go-254200.html)
+  - [ ] [USENIX Security ’23 – NeuroPots: Realtime Proactive Defense against Bit-Flip Attacks in Neural Networks](https://buaq.net/go-254205.html)
+  - [ ] [Cypherpunks Write Code: Pertsev, Semenov, Storm, and Tornado Cash](https://buaq.net/go-254201.html)
+  - [ ] [A Simplified Guide for the"Dockerazition" of Ruby and Rails With React Front-End App](https://buaq.net/go-254202.html)
+  - [ ] [Obs163｜Yanki外掛製作Anki 克漏字(Cloze)閃卡技巧，同場加映翏央填空模板](https://buaq.net/go-254194.html)
+  - [ ] [七月 Notion 动态：中文版或将上线、AI 功能迎来更新](https://buaq.net/go-254186.html)
+  - [ ] [Step-by-Step Guide to Publishing Your First Python Package on PyPI Using Poetry: Lessons Learned](https://buaq.net/go-254203.html)
+- Security Boulevard
+  - [ ] [USENIX Security ’23 – NeuroPots: Realtime Proactive Defense against Bit-Flip Attacks in Neural Networks](https://securityboulevard.com/2024/08/usenix-security-23-neuropots-realtime-proactive-defense-against-bit-flip-attacks-in-neural-networks/)
+- SecWiki News
+  - [ ] [SecWiki News 2024-08-04 Review](http://www.sec-wiki.com/?2024-08-04)
+- ArthurChiao's Blog
+  - [ ] [大模型 RAG 基础：信息检索、文本向量化及 BGE-M3 embedding 实践（2024）](https://arthurchiao.github.io/blog/rag-basis-bge-zh/)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [ ] [Devika v1 Path Traversal via snapshot_path](https://cxsecurity.com/issue/WLB-2024080008)
+  - [ ] [Tourism Management System v2.0 - Cross Site Scripting (XSS)](https://cxsecurity.com/issue/WLB-2024080007)
+  - [ ] [Computer Laboratory Management System v1.0 - Incorrect access control](https://cxsecurity.com/issue/WLB-2024080006)
+- Private Feed for M09Ic
+  - [ ] [Rvn0xsy starred childe/gohangout](https://github.com/childe/gohangout)
+  - [ ] [INotGreen forked INotGreen/ShellCodeFrame from TonyChen56/ShellCodeFrame](https://github.com/INotGreen/ShellCodeFrame)
+  - [ ] [FunnyWolf starred Aegrah/PANIX](https://github.com/Aegrah/PANIX)
+  - [ ] [LloydLabs starred oschwald/geoip2-golang](https://github.com/oschwald/geoip2-golang)
+  - [ ] [INotGreen starred BambiZombie/FrchannelPlus](https://github.com/BambiZombie/FrchannelPlus)
+  - [ ] [Rvn0xsy starred petermcd/ssh-pam-login-logger](https://github.com/petermcd/ssh-pam-login-logger)
+  - [ ] [Rvn0xsy starred leaningtech/webvm](https://github.com/leaningtech/webvm)
+- MaskRay
+  - [ ] [lld 19 ELF changes](https://maskray.me/blog/2024-08-04-lld-19-elf-changes)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Aug  4 22:38:50 UTC 2024](https://github.com/trickest/cve/commit/8f7f84e777405d0a393e855c317dca71025a92a2)
+  - [ ] [Update Sun Aug  4 14:33:37 UTC 2024](https://github.com/trickest/cve/commit/9e2be695b6b984f6ddb26c4a8e097fef8ef20964)
+  - [ ] [Update Sun Aug  4 06:31:18 UTC 2024](https://github.com/trickest/cve/commit/f6d8c0e6a9162e8a8c8929dce1621010ac479693)
+- Exploit-DB.com RSS Feed
+  - [ ] [[webapps] Devika v1 - Path Traversal via 'snapshot_path'](https://www.exploit-db.com/exploits/52066)
+  - [ ] [[local] Genexus Protection Server 9.7.2.10 - 'protsrvservice' Unquoted Service Path](https://www.exploit-db.com/exploits/52065)
+  - [ ] [[local] SolarWinds Kiwi Syslog Server 9.6.7.1 - Unquoted Service Path](https://www.exploit-db.com/exploits/52064)
+  - [ ] [[local] Oracle Database 12c Release 1 - Unquoted Service Path](https://www.exploit-db.com/exploits/52063)
+  - [ ] [[webapps] Ivanti vADC 9.9 - Authentication Bypass](https://www.exploit-db.com/exploits/52062)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [洛杉矶基本收入实验公布结果](https://www.solidot.org/story?sid=78879)
+  - [ ] [黑客入侵 ISP 发动中间人攻击](https://www.solidot.org/story?sid=78878)
+- 黑海洋 - WIKI
+  - [ ] [应急响应--Linux入侵检查思路及防御](https://www.upx8.com/4251)
+- Dhole Moments
+  - [ ] [Against XMPP+OMEMO](https://soatok.blog/2024/08/04/against-xmppomemo/)
+- 奇安信威胁情报中心
+  - [ ] [近期值得关注的IOC（2024-08-04）](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247511442&idx=1&sn=5bbcfbf6d66c2bbf33c6b3ac2ed8ad33&chksm=ea665ae5dd11d3f3495581a572fbeab38903ce9bf8b18dfd125db8aaa410a547b12ca3fa0f8b&scene=58&subscene=0#rd)
+- dotNet安全矩阵
+  - [ ] [.NET内网实战：模拟Installer关闭Defender](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247493952&idx=1&sn=8ec124be34918b8229f11a9b3eaea3d4&chksm=fa5947adcd2ecebb48e628d922aada32551c5a843b8520bcbe69cc0850cafa0cf85aa089ccd2&scene=58&subscene=0#rd)
+  - [ ] [.NET 安全攻防知识交流社区](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247493952&idx=2&sn=1298dbb7c59418343bdf912b981b8dac&chksm=fa5947adcd2ecebbdacb2845da8155b0ec11d1cb59c478ae3b5fc183fa374972f8896f1da631&scene=58&subscene=0#rd)
+  - [ ] [.NET 安全代码审计电子专刊](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247493952&idx=3&sn=88060c78ccd74089bfe67682e79497d8&chksm=fa5947adcd2ecebbe09ba231b44c9574b5cc88f6d8e934989e3953856301fa071ae39aa827d6&scene=58&subscene=0#rd)
+  - [ ] [.NET 内网攻防实战电子报刊](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247493952&idx=4&sn=db68011fb075c1d02268811163646b53&chksm=fa5947adcd2ecebbb1ca6659f289a5e344e37d1136fe0bd9272b5578e4c71bb19bb250e934d3&scene=58&subscene=0#rd)
+- 丁爸 情报分析师的工具箱
+  - [ ] [【论文】反射控制———一个信息操纵理论的形成、发展与应用研究](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651145467&idx=1&sn=bf22686ed73537a8050c79431092c3a1&chksm=f1af33c1c6d8bad71b1f51a0da471ac9b6504e85d7f9fd29945a10eadabf742c6f07c66f3c74&scene=58&subscene=0#rd)
+  - [ ] [【反恐】2024年7月全球恐怖主义事件汇总](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651145467&idx=2&sn=3ea653cb224c577f8a2fa6eb84263d0a&chksm=f1af33c1c6d8bad7ad14298adf08a7ee0a4a3014e2170d37439d1676f5549b6cbeca2434c422&scene=58&subscene=0#rd)
+- 极客公园
+  - [ ] [谷歌+始祖鸟，造出世界上第一条动力裤，3万块还卖爆了？](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653049633&idx=1&sn=5e09d103515a7410b3e7dd82d1aa3846&chksm=7e572e974920a7816b261bb6c71f8d9f77cbc5e9355711aed24698b870d3c38424639db8d72a&scene=58&subscene=0#rd)
+  - [ ] [苹果发布会或定档 9 月 10 日；巴菲特狂卖 880 亿美元苹果股票；吉利银河 E5 上市，10.98 万元起 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653049628&idx=1&sn=1b6fac3ad1d9bf144f1ad17165d32049&chksm=7e572eaa4920a7bc7170fc39647583d195517931d038c80e71d76135311938f7336af5e535c9&scene=58&subscene=0#rd)
+- 情报分析师
+  - [ ] [美国正在为即将到来的高科技战争做准备（第一部分）](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650553663&idx=1&sn=1e23fc63847ef80487a85bcd6ce7e5da&chksm=87111374b0669a62051286fada6bc850a5498a4815a46c5df1551ea837e54944d06acb716d3e&scene=58&subscene=0#rd)
+  - [ ] [美国正在为即将到来的高科技战争做准备（第二部分）](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650553663&idx=2&sn=0350638da3c4b8801d796a3d4a5191e5&chksm=87111374b0669a6282ebb7f6abf405cec0d4229c3f3ccbc5cf5ade6fad3e50293cf6927f26a8&scene=58&subscene=0#rd)
+  - [ ] [美国正在为即将到来的高科技战争做准备（第三部分）](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650553663&idx=3&sn=25af903843f6b00ed3398920d7ee1ce3&chksm=87111374b0669a62144b2652359b62ef6ee69219e2dc6bd27575e25ae07dcefb6bbf91d552d4&scene=58&subscene=0#rd)
+- 吴鲁加
+  - [ ] [Duolingo 如何重新点燃用户增长](https://mp.weixin.qq.com/s?__biz=Mzg5NDY4ODM1MA==&mid=2247484771&idx=1&sn=8ab33758c9a2a3d0681778f6411dd563&chksm=c01a8852f76d0144c78ac0d80a7b053385da430eec59776ee2b1979ce2363a3f8c18ae474bef&scene=58&subscene=0#rd)
+- 航行笔记
+  - [ ] [21岁郑钦文奥运夺冠的一些启发](https://mp.weixin.qq.com/s?__biz=MzIyOTAxOTYwMw==&mid=2650236690&idx=1&sn=1e8f957c983c97e7ca5afd6152f6e713&chksm=f04addaec73d54b88642851e7045f401d811f3d9bd375fc93e18155cb2907394b825ce985abe&scene=58&subscene=0#rd)
+- DEF CON Announcements!
+  - [ ] [DEF CON Hotline!](https://defcon.org/html/links/dc-code-of-conduct.html)
+- 迪哥讲事
+  - [ ] [接口文档下的渗透测试](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247495457&idx=1&sn=aebbd60317af317a24efceed4352581d&chksm=e8a5e542dfd26c545ac2e701d325e8d4a9462dcb80713d29dc2300e5d20bfa07ce04cd659597&scene=58&subscene=0#rd)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Surge in Magniber ransomware attacks impact home users worldwide](https://www.bleepingcomputer.com/news/security/surge-in-magniber-ransomware-attacks-impact-home-users-worldwide/)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [OOXML Spreadsheets Protected By Verifier Hashes, (Sat, Aug 3rd)](https://isc.sans.edu/diary/rss/31072)
+- Trend Micro Research, News and Perspectives
+  - [ ] [Bringing Security Back into Balance](https://www.trendmicro.com/en_us/research/24/h/cybersecurity-balance.html)
+- Security Affairs
+  - [ ] [Chinese StormBamboo APT compromised ISP to deliver malware](https://securityaffairs.com/166552/apt/stormbamboo-compromised-isp-malware.html)
+  - [ ] [Hackers attempt to sell the personal data of 3 billion people resulting from an April data breach](https://securityaffairs.com/166539/data-breach/personal-data-3-billion-people-data-breach.html)
+  - [ ] [Security Affairs Malware Newsletter – Round 5](https://securityaffairs.com/166535/malware/security-affairs-malware-newsletter-round-5.html)
+  - [ ] [Security Affairs newsletter Round 483 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/166526/breaking-news/security-affairs-newsletter-round-483-by-pierluigi-paganini-international-edition.html)
+- Full Disclosure
+  - [ ] [Blind SQL Injection - dolphinv7.4.2.](https://seclists.org/fulldisclosure/2024/Aug/0)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [So you want to make a career in low-level exploitation? The tragedy of low-level exploitation](https://www.reddit.com/r/netsecstudents/comments/1ejwdjw/so_you_want_to_make_a_career_in_lowlevel/)
+  - [ ] [Help with ISO27005/risk assessment..?](https://www.reddit.com/r/netsecstudents/comments/1ek3e5k/help_with_iso27005risk_assessment/)
+  - [ ] [Getting knowledge to get into cybersecurity](https://www.reddit.com/r/netsecstudents/comments/1ek28ee/getting_knowledge_to_get_into_cybersecurity/)
+- TorrentFreak
+  - [ ] [Taking Pirated Copies Offline Can Benefit Book Sales, Research Finds](https://torrentfreak.com/taking-pirated-copies-offline-can-benefit-book-sales-research-finds-240804/)
+- Computer Forensics
+  - [ ] [Computer Archeology: Exploring the Anatomy of an MS-DOS Virus](https://www.reddit.com/r/computerforensics/comments/1ek2y1u/computer_archeology_exploring_the_anatomy_of_an/)
+- Information Security
+  - [ ] [Entry-level Job opportunities in Cybersecurity (GRC)](https://www.reddit.com/r/Information_Security/comments/1ek5ljz/entrylevel_job_opportunities_in_cybersecurity_grc/)
+- Instapaper: Unread
+  - [ ] [Loss of popular 2FA tool puts security-minded GrapheneOS in a paradox](https://arstechnica.com/gadgets/2024/07/loss-of-popular-2fa-tool-puts-security-minded-grapheneos-in-a-paradox/)
+  - [ ] [Hackers breach ISP to poison software updates with malware](https://www.bleepingcomputer.com/news/security/hackers-breach-isp-to-poison-software-updates-with-malware/)
+  - [ ] [BunkerWeb The Next-Generation Open-Source Web Application Firewall](https://securityonline.info/bunkerweb-the-next-generation-open-source-web-application-firewall/)
+  - [ ] [Cybercrime hai ricevuto un MMS Forse è già troppo tardi](https://it.insideover.com/criminalita/cybercrime-hai-ricevuto-un-mms-forse-e-gia-troppo-tardi.html)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [In Need of mentor](https://www.reddit.com/r/blackhat/comments/1ejlxp2/in_need_of_mentor/)
+  - [ ] [Can you extrapolate the code from a device and](https://www.reddit.com/r/blackhat/comments/1ejkg27/can_you_extrapolate_the_code_from_a_device_and/)
+- Your Open Hacker Community
+  - [ ] [Can't get disassembled code to look right](https://www.reddit.com/r/HowToHack/comments/1ejzf50/cant_get_disassembled_code_to_look_right/)
+  - [ ] [Sql Injection - reflective value(s) found and filtering out](https://www.reddit.com/r/HowToHack/comments/1ek39o2/sql_injection_reflective_values_found_and/)
+  - [ ] [How do I bypass mobile network throttling (read desc)](https://www.reddit.com/r/HowToHack/comments/1ek02d8/how_do_i_bypass_mobile_network_throttling_read/)
+  - [ ] [Is it possible to hack some apps?](https://www.reddit.com/r/HowToHack/comments/1ejnh8d/is_it_possible_to_hack_some_apps/)
+- Deep Web
+  - [ ] [What crosses the line as illegal on the deep web](https://www.reddit.com/r/deepweb/comments/1ek9fl0/what_crosses_the_line_as_illegal_on_the_deep_web/)

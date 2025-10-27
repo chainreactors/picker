@@ -1,0 +1,47 @@
+---
+title: A Peek Inside the Xrumer Spam Tool - An Analysis
+url: https://ddanchev.blogspot.com/2023/02/a-peek-inside-xrumer-spam-tool-analysis.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2023-02-07
+fetch_date: 2025-10-04T05:51:45.062486
+---
+
+# A Peek Inside the Xrumer Spam Tool - An Analysis
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+Independent Contractor. Bitcoin: 15Zvie1j8CjSR52doVSZSjctCDSx3pDjKZ Email: dancho.danchev@hush.com OMEMO: ddanchev@conversations.im | OTR: danchodanchev@xmpp.jp | TOX ID: 53B409440A6DC34F1BA458869A0462D92C15B467AF6319D481CA353690C88667833A0EE82969
+
+## Monday, February 06, 2023
+
+### A Peek Inside the Xrumer Spam Tool - An Analysis
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8nDC6IisBqnURxOYk5dhQr1357jbotaaeKp8D0pTDXjYQWxdE_HnT4td8DcqIBqD27KbKdqoViqe2o-ox1UI4KDLq7CRB7YpXpXoWaJejDizH6SwNOzLUp2TUcxb-YjNtoudDO9PUskMwC4DhMaG_fniLqY4P4d0FthU6AlrBSW7wPcIMIQ/s320/Skin4.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8nDC6IisBqnURxOYk5dhQr1357jbotaaeKp8D0pTDXjYQWxdE_HnT4td8DcqIBqD27KbKdqoViqe2o-ox1UI4KDLq7CRB7YpXpXoWaJejDizH6SwNOzLUp2TUcxb-YjNtoudDO9PUskMwC4DhMaG_fniLqY4P4d0FthU6AlrBSW7wPcIMIQ/s661/Skin4.gif)Who would have thought? It's an unknown period of time within the cybercrime ecosystem and I've decided to share exclusive screenshots of the infamous Xrumer spam tool which basically used to and continues to dominate the spam marketplace by possessing a variety of advanced and sophisticated features making it easy for everyone to enter the world of spam globally.
+
+**Sample screenshots include:**
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipvsuvL-Zx0RePxbqQH-uFWyX05F3wPunfqgVpR8-jQEfzyaPGjGX9SBf5oo4fMKxW_NtI4kCjHjIFkOlJsbfpnncGGRHqU9DUsFkdfyEj4odaMFGG7C_L5ukdU-WSeY3zm_PPYDYY3SKvNkuUXGdpWpRgNtTabmx_rCqqxpzwdbxjYI_FoQ/s320/Skin3.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipvsuvL-Zx0RePxbqQH-uFWyX05F3wPunfqgVpR8-jQEfzyaPGjGX9SBf5oo4fMKxW_NtI4kCjHjIFkOlJsbfpnncGGRHqU9DUsFkdfyEj4odaMFGG7C_L5ukdU-WSeY3zm_PPYDYY3SKvNkuUXGdpWpRgNtTabmx_rCqqxpzwdbxjYI_FoQ/s661/Skin3.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ9Ueakjm_wRdAwXr7b5k4oJTJHNTwWbirxtPnQCWaP2UYWXAInhhOqqj8BSmB19d60ZA3clYL-r6oeUvVff85b2eWFmhc36PjLHYUA9hVjbgVC9NinC0m7Kz4OSgflvXuFn9T8_R517PdjIeaH0sZKdPYcACcoHXcyY8eCO0t_gTBDJ1GRQ/s320/Skin2.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ9Ueakjm_wRdAwXr7b5k4oJTJHNTwWbirxtPnQCWaP2UYWXAInhhOqqj8BSmB19d60ZA3clYL-r6oeUvVff85b2eWFmhc36PjLHYUA9hVjbgVC9NinC0m7Kz4OSgflvXuFn9T8_R517PdjIeaH0sZKdPYcACcoHXcyY8eCO0t_gTBDJ1GRQ/s661/Skin2.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYGqpvblocdRDtvAOAdkIkI6SgISIAWI8vMF1uvWHJd-EpPWiOl1FnLVQ3MNd75pWbb3FeBr58GsJKfZ4KKuzhMeOxXVVgkUQp1ckE13XAi3J91RAbkudesrGkqgZSe22hiatr3O_8IqiKFkTyTrAUhsPCdjMNHwGBj-1PSxFMNRmujbWWsA/s320/Skin1.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYGqpvblocdRDtvAOAdkIkI6SgISIAWI8vMF1uvWHJd-EpPWiOl1FnLVQ3MNd75pWbb3FeBr58GsJKfZ4KKuzhMeOxXVVgkUQp1ckE13XAi3J91RAbkudesrGkqgZSe22hiatr3O_8IqiKFkTyTrAUhsPCdjMNHwGBj-1PSxFMNRmujbWWsA/s661/Skin1.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK6NmM-17xam4YKOkstnSLmine_pxSFkW4A-BSI11AAi6NhytNrczJIhvCfVrawAu0qtq1Xa6FSGsDNzrIShdGclRut2-aFt0LYvEGQCAF_rMLUfmKt8-VyCf5XAQPsUnjxOYodyudO2LUoyQohy2-K2rUwqIuIZ9hBHqeR068PmrYE4qbBQ/s320/interface_mamba.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK6NmM-17xam4YKOkstnSLmine_pxSFkW4A-BSI11AAi6NhytNrczJIhvCfVrawAu0qtq1Xa6FSGsDNzrIShdGclRut2-aFt0LYvEGQCAF_rMLUfmKt8-VyCf5XAQPsUnjxOYodyudO2LUoyQohy2-K2rUwqIuIZ9hBHqeR068PmrYE4qbBQ/s687/interface_mamba.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq24Flm-mpStn09lISEYOpVl9cofd_VonhawhmPLzbbrKLPfq7GEdxzLXGhZe9HaGU3RowNFHgf0pGV9hrY091MeC5m-j-dAbY3n1aya8GIn-q5q_Pc2acCA_4s2OsNZFoEB3YdPTj3bTn3JneEhhpJaDDubWv22xxmeMZyFkeSxh3QXPfUA/s320/interface_linksconv.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq24Flm-mpStn09lISEYOpVl9cofd_VonhawhmPLzbbrKLPfq7GEdxzLXGhZe9HaGU3RowNFHgf0pGV9hrY091MeC5m-j-dAbY3n1aya8GIn-q5q_Pc2acCA_4s2OsNZFoEB3YdPTj3bTn3JneEhhpJaDDubWv22xxmeMZyFkeSxh3QXPfUA/s977/interface_linksconv.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii_qYaNkQ6TV70xXs4GRK-sZCtECAmy8VqdlZv4UvUvd0US0XTTE6CleUJYcFIpwNa_nc7M-xKTGF5vlMid-aSmVYo-Jv8fVW0ySrb4Ct069GJdHepPJl1E1qBhw2lC7u2IAi4xXRijdjXUUzHXtsZOB-2lT4X4Vkdvd924nUOA0DYqsyYdQ/s320/interface_graph2.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii_qYaNkQ6TV70xXs4GRK-sZCtECAmy8VqdlZv4UvUvd0US0XTTE6CleUJYcFIpwNa_nc7M-xKTGF5vlMid-aSmVYo-Jv8fVW0ySrb4Ct069GJdHepPJl1E1qBhw2lC7u2IAi4xXRijdjXUUzHXtsZOB-2lT4X4Vkdvd924nUOA0DYqsyYdQ/s867/interface_graph2.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibjBzVFC-y7opr7vgXyfUtq4WtRqyLFloMgtrcfJ7A-eizppuj8FjejPd56hqlXQy3oUiuzTebEhmG5iSKQ8a8SXQDGIU6i1ADzaS0p2TtVVethvX3MCIafyJDLVQeh0nMjOjJJwBSO6A8YA57dYglt9rZiaYysQ4KJaYKPhw5l9-9EUWj2g/s320/interface_graph1.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibjBzVFC-y7opr7vgXyfUtq4WtRqyLFloMgtrcfJ7A-eizppuj8FjejPd56hqlXQy3oUiuzTebEhmG5iSKQ8a8SXQDGIU6i1ADzaS0p2TtVVethvX3MCIafyJDLVQeh0nMjOjJJwBSO6A8YA57dYglt9rZiaYysQ4KJaYKPhw5l9-9EUWj2g/s867/interface_graph1.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1oOJybc9G0sO_AFcKXI-UF9cQrGq-vHXFk4tfRHiW_QW2g2zNh4cGUVBuikwSc4o0UZka8gU9T57nJ7JYdDxtbjUawu2p9xn2P8-hp1uqe9Df6_C3jolb6AHUSMxo7LvQW_y1nfkl2x1KvzobyWYmqlcE5GWfklFJ97lkXqT34iw4wj7o-g/s320/interface13.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1oOJybc9G0sO_AFcKXI-UF9cQrGq-vHXFk4tfRHiW_QW2g2zNh4cGUVBuikwSc4o0UZka8gU9T57nJ7JYdDxtbjUawu2p9xn2P8-hp1uqe9Df6_C3jolb6AHUSMxo7LvQW_y1nfkl2x1KvzobyWYmqlcE5GWfklFJ97lkXqT34iw4wj7o-g/s642/interface13.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOA72Hd98sRynuYJVFGVDEmBzTCw7ev3RL2Y9_C2AooX6BQkzl5hp9U41v84jInhXRPU3LRDtr0LYnswUrhzrThW2vo51hg_N7InCTnXT79bFElFmrq3PpzNCCzjZTPnxkLj-N8-4I-eZbpvat5dYBGs3ByIqnC_qtVw68Q8vb_q-OIbR8zg/s320/interface11.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOA72Hd98sRynuYJVFGVDEmBzTCw7ev3RL2Y9_C2AooX6BQkzl5hp9U41v84jInhXRPU3LRDtr0LYnswUrhzrThW2vo51hg_N7InCTnXT79bFElFmrq3PpzNCCzjZTPnxkLj-N8-4I-eZbpvat5dYBGs3ByIqnC_qtVw68Q8vb_q-OIbR8zg/s844/interface11.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjljfJqoZE5vZTvRyR4GtmtoxuZgF2o8009AgJHo88568Tsq1-CebuCdLsN5U515JxLc7RD4tW4CRsbIwVASALADV_1HB5F0Db097MPc7yfYqjMPScylUVg9v7KVOCDblGKzsq8rd6XiFHwMn-wghp5LMidqodZuo8lI13_KdMXXgjPShUVCw/s320/interface7.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjljfJqoZE5vZTvRyR4GtmtoxuZgF2o8009AgJHo88568Tsq1-CebuCdLsN5U515JxLc7RD4tW4CRsbIwVASALADV_1HB5F0Db097MPc7yfYqjMPScylUVg9v7KVOCDblGKzsq8rd6XiFHwMn-wghp5LMidqodZuo8lI13_KdMXXgjPShUVCw/s976/interface7.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd9i6wo54MfGLmGvhnIlDBPj0neghfRtiFHjRIZZ4u-xY7Cqolu3AYn1OXNT9sRZNfeSvgYsdswwSXCvXDXGPx2rcwLBsofEJDvZk958bsVK9-9wax3AjcKLkHVkFwbYd35vE4EoTVYWwi4HgnmETPDlYK37ngzY9naenYuG3KbtCJ29zyGg/s320/interface6.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd9i6wo54MfGLmGvhnIlDBPj0neghfRtiFHjRIZZ4u-xY7Cqolu3AYn1OXNT9sRZNfeSvgYsdswwSXCvXDXGPx2rcwLBsofEJDvZk958bsVK9-9wax3AjcKLkHVkFwbYd35vE4EoTVYWwi4HgnmETPDlYK37ngzY9naenYuG3KbtCJ29zyGg/s558/interface6.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBNecPtJarxksNESfeAbvoGCRGlaEDnzKx7gEkX6Gaui3fLn6n8AuCgX_liijd0ryUwwUhQVg59XXOCbmKB6aO2D3b2QHh1YVRtqsLpvTarLnheYf4jkz3_MIl6m_Xfs6gcbfHvfw3wsE5QWKeNyp0GqjxUXGJ6FG3FweCe_WoX4j_UKTZkQ/s320/interface5.gif)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBNecPtJarxksNESfeAbvoGCRGlaEDnzKx7gEkX6Gaui3fLn6n8AuCgX_liijd0ryUwwUhQVg59XXOCbmKB6aO2D3b2QHh1YVRtqsLpvTarLnheYf4jkz3_MIl6m_Xfs6gcbfHvfw3wsE5QWKeNyp0GqjxUXGJ6FG3FweCe_WoX4j_UKTZkQ/s689/interface5.gif)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB6tWzOp5k5h01Y9g1ifjT6DFms6LEXcvtCJh6tk7Q6HRnxNemGOjs1lirnaARpu5GuwTMWm_dH-prdmuOk7PRHgGLJ9mMSwMhpQ_RtRCC66QSIP5xlI3V-G01in5LipppzpDRXk8iDYJO1S-d0G2y94C9bDlwYD_Q6LPZ1xn02hH31k4SDA/s320/interface2.gif)](...

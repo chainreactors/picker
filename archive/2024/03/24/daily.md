@@ -1,0 +1,121 @@
+# 每日安全资讯（2024-03-24）
+
+- Private Feed for M09Ic
+  - [ ] [gh0stkey released CaA Beta 0.8 at gh0stkey/CaA](https://github.com/gh0stkey/CaA/releases/tag/Beta0.8)
+  - [ ] [glzjin starred Flipper-XFW/Xtreme-Firmware](https://github.com/Flipper-XFW/Xtreme-Firmware)
+  - [ ] [gh0stkey starred nickliqian/cnn_captcha](https://github.com/nickliqian/cnn_captcha)
+  - [ ] [gh0stkey starred nickliqian/darknet_captcha](https://github.com/nickliqian/darknet_captcha)
+  - [ ] [gh0stkey starred dota-st/cnn_captcha](https://github.com/dota-st/cnn_captcha)
+  - [ ] [PeiQi0 starred toncenter/tonweb](https://github.com/toncenter/tonweb)
+  - [ ] [boy-hack starred rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+  - [ ] [gh0stkey starred c4bbage/WebRobot-v1.8.2](https://github.com/c4bbage/WebRobot-v1.8.2)
+- bunnie's blog
+  - [ ] [Sidebar on Meta-Knowledge](https://www.bunniestudios.com/blog/?p=7025)
+- Recent Commits to cve:main
+  - [ ] [Update Sat Mar 23 18:03:42 UTC 2024](https://github.com/trickest/cve/commit/de2b7be945e35ad92e63cc1785e59afa16c27c59)
+  - [ ] [Update Sat Mar 23 10:01:26 UTC 2024](https://github.com/trickest/cve/commit/7b0d1f1e0e277801f2d09a59077c1d8f6d271b0d)
+  - [ ] [Update Sat Mar 23 01:55:51 UTC 2024](https://github.com/trickest/cve/commit/c0eb62d20788fe0dbb7e35703dc265d4dc899a67)
+- Sploitus.com Exploits RSS Feed
+  - [ ] [Exploit for SQL Injection in Nagios Nagios Xi exploit](https://sploitus.com/exploit?id=8292EFB2-7D48-5269-85E0-90F582B0CF95&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for Uncontrolled Resource Consumption in Apache Log4J exploit](https://sploitus.com/exploit?id=57A04B68-8CB5-5CEE-999B-B21C3C35AB83&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for Link Following in Ghost exploit](https://sploitus.com/exploit?id=DE615FEE-A3FA-5F90-8766-2FBBFEB9EBF4&utm_source=rss&utm_medium=rss)
+- Security Boulevard
+  - [ ] [Get A Day’s Schedule From Fantastical On The Command Line With Shortcuts](https://securityboulevard.com/2024/03/get-a-days-schedule-from-fantastical-on-the-command-line-with-shortcuts/)
+  - [ ] [USENIX Security ’23 – Yijie Bai, Yanjiao Chen, Hanlei Zhang, Wenyuan Xu, Haiqin Weng, Dou Goodman – VILLAIN: Backdoor Attacks Against Vertical Split Learning](https://securityboulevard.com/2024/03/usenix-security-23-yijie-bai-yanjiao-chen-hanlei-zhang-wenyuan-xu-haiqin-weng-dou-goodman-villain-backdoor-attacks-against-vertical-split-learning/)
+  - [ ] [VulnCheck’s Free Community KEV & CVE APIs  (Code & Golang CLI Utility)](https://securityboulevard.com/2024/03/vulnchecks-free-community-kev-cve-apis-code-golang-cli-utility/)
+  - [ ] [Splunk, Azure, or Sentinel for FedRAMP/NIST Compliance](https://securityboulevard.com/2024/03/splunk-azure-or-sentinel-for-fedramp-nist-compliance/)
+  - [ ] [Unsafelok Threat Highlights It’s About Both IoT Devices and Applications](https://securityboulevard.com/2024/03/unsafelok-threat-highlights-its-about-both-iot-devices-and-applications/)
+- unSafe.sh - 不安全
+  - [ ] [Apple Uses APIs and Strategic Access Points to Insulate Itself From Competition](https://buaq.net/go-230137.html)
+  - [ ] [Apple's Monopoly Tactics: How the Tech Giant Maintains Its Grip Across Products and Services](https://buaq.net/go-230138.html)
+  - [ ] [Apple Harms Competition by Imposing Restrictions, Fees, and Taxes on App Creation and Distribution](https://buaq.net/go-230139.html)
+  - [ ] [The Value Chain of Smartphone Platforms and the Skewed Economics of Apple's Dominance](https://buaq.net/go-230140.html)
+  - [ ] [Inside Apple's Stranglehold on App Development and How it Shapes Consumer Choices](https://buaq.net/go-230142.html)
+  - [ ] [How Apple Stole Pages from Microsoft's Monopoly Playbook](https://buaq.net/go-230141.html)
+  - [ ] [A Deep Dive into Apple's Dominance in the Smartphone Market](https://buaq.net/go-230143.html)
+  - [ ] [The DOJ Sues Apple for Orchestrating a Monopoly in the Smartphone Market](https://buaq.net/go-230149.html)
+  - [ ] [Why the DOJ is Going After Apple](https://buaq.net/go-230152.html)
+  - [ ] [记一次捡漏通杀未授权访问,拿4本CNVD证书](https://buaq.net/go-230146.html)
+  - [ ] [美国上千万卡车容易受蠕虫攻击](https://buaq.net/go-230126.html)
+- Brendan Gregg's Blog
+  - [ ] [Linux Crisis Tools](http://www.brendangregg.com/blog//2024-03-24/linux-crisis-tools.html)
+- Reverse Engineering
+  - [ ] [The Intel 8088 processor's instruction prefetch circuitry: a look inside](https://www.reddit.com/r/ReverseEngineering/comments/1blyvyt/the_intel_8088_processors_instruction_prefetch/)
+  - [ ] [Is anyone available for hire? for cracking something paid job](https://www.reddit.com/r/ReverseEngineering/comments/1bm05kb/is_anyone_available_for_hire_for_cracking/)
+- KitPloit - PenTest &amp; Hacking Tools
+  - [ ] [Sr2T - Converts Scanning Reports To A Tabular Format](http://www.kitploit.com/2024/03/sr2t-converts-scanning-reports-to.html)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [美国上千万卡车容易受蠕虫攻击](https://www.solidot.org/story?sid=77679)
+  - [ ] [荷兰法庭下令 ISP 屏蔽安娜的档案和 LibGen](https://www.solidot.org/story?sid=77678)
+  - [ ] [通用汽车宣布停止与数据经纪商共享司机驾驶行为数据](https://www.solidot.org/story?sid=77677)
+  - [ ] [美国大学计算机科学专业的毕业生太多了](https://www.solidot.org/story?sid=77676)
+- 看雪学苑
+  - [ ] [APP sign签名参数分析](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458548774&idx=1&sn=fbc9f2f77b85f8e318cee3879cb4e117&chksm=b18d4aac86fac3bad991492153a16c52a058e38cbddae6cd816e6d993e462802f94df667078d&scene=58&subscene=0#rd)
+  - [ ] [第17章更新：eBPF安卓开发与工具原理-看雪安卓高研2024春季班招生中](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458548774&idx=2&sn=442c6f224f3bdb89c496539c339c707b&chksm=b18d4aac86fac3ba2714d248aea4cd0c0f115fa9cac1b9bb7951d50f643e879dc52e262be32a&scene=58&subscene=0#rd)
+- 关键基础设施安全应急响应中心
+  - [ ] [国家互联网信息办公室发布《数据出境安全评估申报指南（第二版）》和《个人信息出境标准合同备案指南（第二版）》](https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247542959&idx=1&sn=29919ffb5b1e1d6cd3321e662d3f18ed&chksm=c1e9a4fef69e2de831e827967c0aac1c3f4e20449b92b23285a1fa97e68c28998386b67ebe96&scene=58&subscene=0#rd)
+  - [ ] [国家互联网信息办公室公布《促进和规范数据跨境流动规定》](https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247542959&idx=2&sn=89450fec3914a5fa0d65e7a0865c9192&chksm=c1e9a4fef69e2de8f23b016e06261a9a109416b552696b3222d3bcdf37eb3a7ca3c4c46751a4&scene=58&subscene=0#rd)
+  - [ ] [促进和规范数据跨境流动规定](https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247542959&idx=3&sn=c42976c6f89a2d17130503fb104f1a8e&chksm=c1e9a4fef69e2de87e426ee953b1cbf83b7047107016eafbad7f0650ee6decb0adbac119a03a&scene=58&subscene=0#rd)
+- 黑奇士
+  - [ ] [卷死KIMI：360智脑、通义千问双双升级长文本，妈妈再也不担心我的论文啦](https://mp.weixin.qq.com/s?__biz=MzI5ODYwNTE4Nw==&mid=2247488115&idx=1&sn=9560b79be8ccb111a9d284001b8efb5b&chksm=eca21d9fdbd5948958bc6ae6a3393a2f928cca2643fc6a5f721e43184e51155f566cb320e57b&scene=58&subscene=0#rd)
+- 极客公园
+  - [ ] [80 亿美元！Altman+腾讯做大股东，「美国贴吧」苦熬 19 年终上市](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653036699&idx=1&sn=e09e11f8ececf0febbf9215d54cb74eb&chksm=7e575d2d4920d43b6a3f787d3215ae95c37c5be1d2bb6f9039fb9b971789684188ff927a941c&scene=58&subscene=0#rd)
+  - [ ] [苹果和百度讨论 AI 合作；雷军公布第二批小米汽车交付中心城市候选名单；阿里、百度将推出大模型长文本功能 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653036670&idx=1&sn=b549bb3e149331541415285e0ca59536&chksm=7e575dc84920d4de5a73b34bbdd8bd7e58e9c5d93e8fe3ccc602b316da381776ba7a230d5ac7&scene=58&subscene=0#rd)
+- 中国信息安全
+  - [ ] [重磅 | 国家网信办公布《促进和规范数据跨境流动规定》（附全文）](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664208760&idx=1&sn=bd931781864fc109bf37b514c7edbe47&chksm=8b599b81bc2e129786ab11bc30850b891370bf8e4ded1de56323a7973b369353084ccf86c700&scene=58&subscene=0#rd)
+  - [ ] [权威解答 | 国家网信办负责人就《促进和规范数据跨境流动规定》相关问题答记者问](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664208760&idx=2&sn=c29bda26dbe8994bfdc2739017f1296c&chksm=8b599b81bc2e12971fefe075444718ef8a3b98043e4a20f4253fe5cdf88402fcc5efd49da0d6&scene=58&subscene=0#rd)
+  - [ ] [专家解读｜周辉：让数据要素更好赋能新质生产力发展、扩大数字经济高水平制度型开放的重要举措](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664208760&idx=3&sn=8afcf0feb78659a7132f16ba4d016f52&chksm=8b599b81bc2e12970ae5fce4356465f67b5ae3c640f8cb53dc55b411b635dfcf7d207a01c120&scene=58&subscene=0#rd)
+  - [ ] [专家解读｜洪延青：持续优化我国数据出境制度 推进我国高水平对外开放](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664208760&idx=4&sn=fde524b15860b2b1b531b8d3fc258a78&chksm=8b599b81bc2e129755102a8c679924a0c433dbca133a868fb6aede5ad6d9609f609b7b6673dd&scene=58&subscene=0#rd)
+  - [ ] [专家解读｜赵精武：数据跨境传输制度建设迈向新阶段](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664208760&idx=5&sn=fb421731fb90a076202b7fe111805506&chksm=8b599b81bc2e12972e47602c5e21b6d59b0974aca869e83d38333caf1c704f9caf00c70b1fab&scene=58&subscene=0#rd)
+- 情报分析师
+  - [ ] [​莫斯科历年袭击事件回顾：1999至2024](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650547488&idx=1&sn=60747c8f542454d590c8ab85d19a866a&chksm=87110b6bb066827d7d1684eb286ab4c12e073fb4bde5971b800c175e17b1a2d2d8825a67b268&scene=58&subscene=0#rd)
+- 丁爸 情报分析师的工具箱
+  - [ ] [【技巧】某案发现场地理地位](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651142792&idx=1&sn=cc641e38515370c1b75faf84c5c84b44&chksm=f1af4db2c6d8c4a4b611d1840a29f785f4ad007f05deb495230231a73e1143818144dbc6c03a&scene=58&subscene=0#rd)
+  - [ ] [【AI速读】未来无处不在的实时情报：地理空间情报](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651142792&idx=2&sn=e47c5fdccb0baf0727357d130c00fc6c&chksm=f1af4db2c6d8c4a4112968b8806862bc892c5ec1fbe8ea8630ce11552ae7ade771f6d6412977&scene=58&subscene=0#rd)
+- RASP安全技术
+  - [ ] [JRASP内存泄漏检测与清除实践](https://mp.weixin.qq.com/s?__biz=Mzg5MjQ1OTkwMg==&mid=2247484693&idx=1&sn=d20162cc9237788b8b087bbf1563c449&chksm=c03c8b04f74b021212da83e058ca8e8f0c00ca37264db46d4fd2853cd3f60ec60487a81d3920&scene=58&subscene=0#rd)
+- 青衣十三楼飞花堂
+  - [ ] [女科学家怒斥钓鱼网站](https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247487233&idx=1&sn=3b9f18b1716d358bb141a77cb148382c&chksm=fab2cc3ecdc54528eaf5d4656626f1027a858062263c8d999a1dd0a0fa47aafd02d11b529918&scene=58&subscene=0#rd)
+- CNCERT国家工程研究中心
+  - [ ] [国家互联网信息办公室发布《数据出境安全评估申报指南（第二版）》和《个人信息出境标准合同备案指南（第二版）》](https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247543661&idx=1&sn=86a8f97c4adba668429de8cf1c6fe9a7&chksm=fa939daccde414baad654e81eee26be7c7a453a13dbadac9b9907021f6fbc99c5d749036195f&scene=58&subscene=0#rd)
+  - [ ] [国家互联网信息办公室公布《促进和规范数据跨境流动规定》](https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247543661&idx=2&sn=c64231547d2cc5bee1fa9ffd283d1787&chksm=fa939daccde414baf1a88e220a1b4fe1bb5cf979b73a3149fbfc47659a57045428f8cfd8306b&scene=58&subscene=0#rd)
+  - [ ] [促进和规范数据跨境流动规定](https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247543661&idx=3&sn=5e3efc56b3360148fbf18fe146c1297e&chksm=fa939daccde414ba123eb4232d0a03a1c4720eb1ce6d0e8daca079d999d1edf058b990d68ca4&scene=58&subscene=0#rd)
+- IT Service Management News
+  - [ ] [Nuove versioni degli standard per i cambiamenti climatici - Due articoli](http://blog.cesaregallotti.it/2024/03/nuove-versioni-degli-standard-per-i_23.html)
+  - [ ] [Patch di Windows Server può causare problemi](http://blog.cesaregallotti.it/2024/03/patch-di-windows-server-puo-causare.html)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Microsoft to shut down 50 cloud services for Russian businesses](https://www.bleepingcomputer.com/news/microsoft/microsoft-to-shut-down-50-cloud-services-for-russian-businesses/)
+  - [ ] [Opera sees big jump in EU users on iOS, Android after DMA update](https://www.bleepingcomputer.com/news/technology/opera-sees-big-jump-in-eu-users-on-ios-android-after-dma-update/)
+  - [ ] [Installing Ansible](https://www.adainese.it/blog/2023/09/24/installing-ansible/)
+- 迪哥讲事
+  - [ ] [记一次捡漏通杀未授权访问,拿4本CNVD证书](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247493931&idx=1&sn=b9672b427b9f4fade9a615d2bd744cfe&chksm=e8a5e348dfd26a5e929e59762c284e381d643e2c74b964276378ee6b92ab392af5f913239426&scene=58&subscene=0#rd)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [1768.py's Experimental Mode, (Sat, Mar 23rd)](https://isc.sans.edu/diary/rss/30770)
+- Il Disinformatico
+  - [ ] [Retrocomputing: Apple II, Commodore PET e TRS-80 in mostra a Lugano](http://attivissimo.blogspot.com/2024/03/retrocomputing-apple-ii-commodore-pet-e.html)
+- The Hacker News
+  - [ ] [Russian Hackers Use 'WINELOADER' Malware to Target German Political Parties](https://thehackernews.com/2024/03/russian-hackers-use-wineloader-malware.html)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Flipper Blackhat: A Linux-Based WiFi tool](https://www.reddit.com/r/blackhat/comments/1blqmkc/flipper_blackhat_a_linuxbased_wifi_tool/)
+  - [ ] [Cybersecurity Skills Challenge -- Sponsored by DoD](https://www.reddit.com/r/blackhat/comments/1bljsjn/cybersecurity_skills_challenge_sponsored_by_dod/)
+- The Register - Security
+  - [ ] [Russia's Cozy Bear caught phishing German politicos with phony dinner invites](https://go.theregister.com/feed/www.theregister.com/2024/03/23/russia_cozy_bear_german_politicians_phishing/)
+- KitPloit - PenTest Tools!
+  - [ ] [Sr2T - Converts Scanning Reports To A Tabular Format](http://www.kitploit.com/2024/03/sr2t-converts-scanning-reports-to.html)
+- Technical Information Security Content & Discussion
+  - [ ] [Tool to quickly extract all URLs and paths from web pages.](https://www.reddit.com/r/netsec/comments/1bls45r/tool_to_quickly_extract_all_urls_and_paths_from/)
+  - [ ] [Basic script to generate reverse shell payloads, generally most used in ctf.](https://www.reddit.com/r/netsec/comments/1blu64a/basic_script_to_generate_reverse_shell_payloads/)
+  - [ ] [What are Honeypots, their Uses and how to set one up for networks](https://www.reddit.com/r/netsec/comments/1blxbwg/what_are_honeypots_their_uses_and_how_to_set_one/)
+- TorrentFreak
+  - [ ] [Premier League IPTV Piracy Clickbait Reaches New Low, But Will Go Lower](https://torrentfreak.com/premier-league-iptv-piracy-clickbait-reaches-new-low-but-will-go-lower-240323/)
+- Computer Forensics
+  - [ ] [Analyzing Malware found in an open-source project](https://www.reddit.com/r/computerforensics/comments/1blsixy/analyzing_malware_found_in_an_opensource_project/)
+- Your Open Hacker Community
+  - [ ] [How can I listen to an audio on wayback machine that requires adobe flash player?](https://www.reddit.com/r/HowToHack/comments/1blr06i/how_can_i_listen_to_an_audio_on_wayback_machine/)
+  - [ ] [Capture the flag help- accessing s3](https://www.reddit.com/r/HowToHack/comments/1blfw5q/capture_the_flag_help_accessing_s3/)
+  - [ ] [Would raspberry pi 5 running on SSD be good enough "computer" to "learn hacking" on?](https://www.reddit.com/r/HowToHack/comments/1bleady/would_raspberry_pi_5_running_on_ssd_be_good/)
+- Security Affairs
+  - [ ] [Russia-linked APT29 targeted German political parties with WINELOADER backdoor](https://securityaffairs.com/160975/apt/russia-apt29-german-political-parties-wineloader.html)
+  - [ ] [Mozilla fixed Firefox zero-days exploited at Pwn2Own Vancouver 2024](https://securityaffairs.com/160966/hacking/mozilla-fixed-firefox-zero-day-pwn2own-vancouver-2024.html)
+  - [ ] [Large-scale Sign1 malware campaign already infected 39,000+ WordPress sites](https://securityaffairs.com/160942/hacking/sign1-malware-campaign.html)
+  - [ ] [German police seized the darknet marketplace Nemesis Market](https://securityaffairs.com/160930/cyber-crime/german-police-seized-nemesis-market.html)

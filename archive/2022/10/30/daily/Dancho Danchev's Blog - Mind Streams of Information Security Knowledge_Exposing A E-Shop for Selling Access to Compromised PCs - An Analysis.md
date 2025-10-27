@@ -1,0 +1,55 @@
+---
+title: Exposing A E-Shop for Selling Access to Compromised PCs - An Analysis
+url: https://ddanchev.blogspot.com/2022/10/exposing-e-shop-for-selling-access-to.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2022-10-30
+fetch_date: 2025-10-03T21:18:56.409725
+---
+
+# Exposing A E-Shop for Selling Access to Compromised PCs - An Analysis
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+Independent Contractor. Bitcoin: 15Zvie1j8CjSR52doVSZSjctCDSx3pDjKZ Email: dancho.danchev@hush.com OMEMO: ddanchev@conversations.im | OTR: danchodanchev@xmpp.jp | TOX ID: 53B409440A6DC34F1BA458869A0462D92C15B467AF6319D481CA353690C88667833A0EE82969
+
+## Saturday, October 29, 2022
+
+### Exposing A E-Shop for Selling Access to Compromised PCs - An Analysis
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVhXAODwWI3LtK_sV-xt_CMVnPPQ6o4XnRohebPg325DUv2-XYk-pOuacOTpwMU142CbngLZyEUZSo8Z5AUiSSNjIR0ThA2JzexI_eitphgKvCiXgzhCr2ATBRfJwLoKB6E3y9y4Lle-07EI5J9YJ9QROkhvGdXH9l7Yjskg780D7IRqsLZA/s320/dedicated.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVhXAODwWI3LtK_sV-xt_CMVnPPQ6o4XnRohebPg325DUv2-XYk-pOuacOTpwMU142CbngLZyEUZSo8Z5AUiSSNjIR0ThA2JzexI_eitphgKvCiXgzhCr2ATBRfJwLoKB6E3y9y4Lle-07EI5J9YJ9QROkhvGdXH9l7Yjskg780D7IRqsLZA/s1024/dedicated.png)
+
+**NOTE:**
+
+I took these screenshots in 2009.
+
+Dear blog readers,
+
+I've decided to share with everyone some screenshots of a E-Shop for selling access to compromised PCs.
+
+Largely thanks to a variety of built-in botnet management and control features today's modern botnet masters are fully capable of renting or offering access to malware-infected hosts which could be used for a variety of purposes which include the hosting of rogue and malicious content including the actual use of these hosts to further spread malicious software largely thanks to a variety of segmentation features currently available in a variety of high-profile malicious software and botnet releases.
+
+**Sample screenshots include:**
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqIGFlfCUbkkvjmfcbFMbWEmANy5VZwIJxptFAyjdebcwO7ZYlwDxB0BEKyxGOaZaR-qcf-9YhLq41K_ewNwS3WesrEpAj2IbOA4h-1bZLRqNCc6EHhjAAOuzI5yYANcuLl3oc3Bcyl-V_eLS5oyc7OKb8oP9ZYFQmVQDDTnxRfNTzdIvFNA/s320/dedicated_express_14.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqIGFlfCUbkkvjmfcbFMbWEmANy5VZwIJxptFAyjdebcwO7ZYlwDxB0BEKyxGOaZaR-qcf-9YhLq41K_ewNwS3WesrEpAj2IbOA4h-1bZLRqNCc6EHhjAAOuzI5yYANcuLl3oc3Bcyl-V_eLS5oyc7OKb8oP9ZYFQmVQDDTnxRfNTzdIvFNA/s1272/dedicated_express_14.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEKcqt14VhgaLVV2X_sQTPn8oEpR3E7IhdUh_ueLjpuRsvHbBv0yDfEGPk75aBEDUByUeLBBmjJ7v2e1FDE0-vW188gjFppedyGrC637259G5Re87LVTpw12T1ZEkCEeYSHL2HtUMq6UBtr4benHJ96Jl4xFIO_qFfob7lThnI6sLP7KVhfA/s320/dedicated_express_13.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEKcqt14VhgaLVV2X_sQTPn8oEpR3E7IhdUh_ueLjpuRsvHbBv0yDfEGPk75aBEDUByUeLBBmjJ7v2e1FDE0-vW188gjFppedyGrC637259G5Re87LVTpw12T1ZEkCEeYSHL2HtUMq6UBtr4benHJ96Jl4xFIO_qFfob7lThnI6sLP7KVhfA/s1265/dedicated_express_13.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2JiMmd5BaZHZEfhoE_izrZMG64b_nXoyjwJiPxolZSU5Gx9SGwwyrdP_JZINxAmotCoF8PGSfbJp32I83ousrSpgM7AaUW3GxiTEQ-S080fdU8Cdc7UMwTLQCwVyKqp_33_QSEPeGHaaYxnoPWWCM3j11o8kWZDytd46QlfTN2ztinvHgxg/s320/dedicated_express_12.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2JiMmd5BaZHZEfhoE_izrZMG64b_nXoyjwJiPxolZSU5Gx9SGwwyrdP_JZINxAmotCoF8PGSfbJp32I83ousrSpgM7AaUW3GxiTEQ-S080fdU8Cdc7UMwTLQCwVyKqp_33_QSEPeGHaaYxnoPWWCM3j11o8kWZDytd46QlfTN2ztinvHgxg/s1270/dedicated_express_12.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvzZYwuwFwY6Abetd_Qp6Zui_X4GnGd56RWaclFwMUVqNYYnJ3VZew9PM17sMHD60nTLBKesz9Hs41e7Q0hgWDL5vkz7LHBJyH-2UmpLu_q8Xmv6W0MSoNMn_dAnK0LCMj-1muigZnSMKWu0t9y3_T1ggVfxqTa5lUl36eVSB-WP6kaqjGfg/s320/dedicated_express_11.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvzZYwuwFwY6Abetd_Qp6Zui_X4GnGd56RWaclFwMUVqNYYnJ3VZew9PM17sMHD60nTLBKesz9Hs41e7Q0hgWDL5vkz7LHBJyH-2UmpLu_q8Xmv6W0MSoNMn_dAnK0LCMj-1muigZnSMKWu0t9y3_T1ggVfxqTa5lUl36eVSB-WP6kaqjGfg/s1270/dedicated_express_11.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxER5ST80T3foV6z8SIiA0uyB9AgjObHb6zMevd3o5ZpbBayDn6C284YIbP2lWVR4EU1oXrUGGRyZIjKIZ_4YbdxjcB7cyykt47lvmhj87ICUwiQ2mH6DFR5my79oq--IUKgJCEBqCQZZc5WKjSH8Ja7Rp2V7706IcHbk_9WTVyuc8Aebwww/s320/dedicated_express_10.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxER5ST80T3foV6z8SIiA0uyB9AgjObHb6zMevd3o5ZpbBayDn6C284YIbP2lWVR4EU1oXrUGGRyZIjKIZ_4YbdxjcB7cyykt47lvmhj87ICUwiQ2mH6DFR5my79oq--IUKgJCEBqCQZZc5WKjSH8Ja7Rp2V7706IcHbk_9WTVyuc8Aebwww/s1272/dedicated_express_10.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYYCZnmagtpn_6W1LhveqULxAQzSIysYRHyTktXJLAMwmOd05vn34G6YUDLjBfLNdt8RqOIau-nRZJk74nAlnlFeHN8be71pkt6wxf5nDla33D1NMFXnmghFTYgBBXsL2qCQ38I2g8y8ZPSeF6D35Ab2SH2WpkdHCMLBj1lCX0se4XI8n72w/s320/dedicated_express_9.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYYCZnmagtpn_6W1LhveqULxAQzSIysYRHyTktXJLAMwmOd05vn34G6YUDLjBfLNdt8RqOIau-nRZJk74nAlnlFeHN8be71pkt6wxf5nDla33D1NMFXnmghFTYgBBXsL2qCQ38I2g8y8ZPSeF6D35Ab2SH2WpkdHCMLBj1lCX0se4XI8n72w/s1270/dedicated_express_9.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKCutCMnf2n6REU_G07XxsLT-FMcdSnJKXx5pCCuB3T4ychzKwL82vKnOVdchIu6-Sj0d9I0RQTcijbsJm3Di3PlS_Vu_CN9MTjuzX1zUHw6NWc6UZietRg8IXVwo9xgYOMOuGUmHYxPEKTe-ZdMiswvgt7-Nye2DsnNrLYD6R02W1sEKchg/s320/dedicated_express_8.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKCutCMnf2n6REU_G07XxsLT-FMcdSnJKXx5pCCuB3T4ychzKwL82vKnOVdchIu6-Sj0d9I0RQTcijbsJm3Di3PlS_Vu_CN9MTjuzX1zUHw6NWc6UZietRg8IXVwo9xgYOMOuGUmHYxPEKTe-ZdMiswvgt7-Nye2DsnNrLYD6R02W1sEKchg/s1270/dedicated_express_8.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuYgW5kVNYAkqIoBH-1AAEh_v0ueVmqKZDc1o6R7YpG-lFp0fXFXODZOXmuar3v6fvNqLjACVShTVHasf34oSMkKxKu0_YuNQjDrKUxdvcrdtuVOo0t49qUVmRlTUv_pND8tJGwsqENYpmwN7kYPWZDucsFp0Ok1386M91M2kSvdZFD2IUFQ/s320/dedicated_express_7.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuYgW5kVNYAkqIoBH-1AAEh_v0ueVmqKZDc1o6R7YpG-lFp0fXFXODZOXmuar3v6fvNqLjACVShTVHasf34oSMkKxKu0_YuNQjDrKUxdvcrdtuVOo0t49qUVmRlTUv_pND8tJGwsqENYpmwN7kYPWZDucsFp0Ok1386M91M2kSvdZFD2IUFQ/s1275/dedicated_express_7.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEDE0kVLiL2cEzbs6rAepSPYH5aQSoZ3Q4nLFFBlnbF5_r4tFgD8xlMKDj6SitIm0bKGXex7b6WXwBGPqAN92kEAPRV60-rkJATNzm8dRorZ6wjt91Eo4ohRFtDlWuR4kpS3PNHMgDdRHFLJ7-nRVaUHUyFl6PxzXCZ_OcP8O5SraaPwfxHQ/s320/dedicated_express_6.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEDE0kVLiL2cEzbs6rAepSPYH5aQSoZ3Q4nLFFBlnbF5_r4tFgD8xlMKDj6SitIm0bKGXex7b6WXwBGPqAN92kEAPRV60-rkJATNzm8dRorZ6wjt91Eo4ohRFtDlWuR4kpS3PNHMgDdRHFLJ7-nRVaUHUyFl6PxzXCZ_OcP8O5SraaPwfxHQ/s1267/dedicated_express_6.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnt_p9xuuP1mS1d5P0tUWJbhBoQQ3VhdIqG3UpHA_8bN0_hN1gDHTsrP7LGuINOL1krPspTQCthYOvYvfMHeJz-1CUt6IhSJfhRSPyx8371hoqVjpFOe5wsrBWOporkmdCWxrUjXE6uWfnWIXQloixLjYpQJMp2kScfVbCfHgNoKtFqwXpDg/s320/dedicated_express_5.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnt_p9xuuP1mS1d5P0tUWJbhBoQQ3VhdIqG3UpHA_8bN0_hN1gDHTsrP7LGuINOL1krPspTQCthYOvYvfMHeJz-1CUt6IhSJfhRSPyx8371hoqVjpFOe5wsrBWOporkmdCWxrUjXE6uWfnWIXQloixLjYpQJMp2kScfVbCfHgNoKtFqwXpDg/s1273/dedicated_express_5.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGtwV0U3WDMgxwldO3BjkkeLogwKHAy0kOLoEZSe_gpZrwAfERyVR9BieWxnnZgzJEhranZMTcok_BE4EZgOGTWgQRvgZN5i6vFbEqiIbgELF9sTt33BKOEXt1zkeL28tF7ifOFQNDe53yjHPKQ84UKv2QOZfoQBSSUQKT6yxNf-5MATQC-g/s320/dedicated_express_4.bmp)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGtwV0U3WDMgxwldO3BjkkeLogwKHAy0kOLoEZSe_gpZrwAfERyVR9BieWxnnZgzJEhranZMTcok_BE4EZgOGTWgQRvgZN5i6vFbEqiIbgELF9sTt33BKOEXt1zkeL28tF7ifOFQNDe53yjHPKQ84UKv2QOZfoQBSSUQKT6yxNf-5MATQC-g/s1273/dedicated_express_4.bmp)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh-u_y7B6XjnXy28vd1Jn16c3ELDasSZejUYOtRlQrgeROPF2Z5WBZlFMNBC3Puj3uB4iw8A9uzRrCHJuVzBQwF3rd2qwphxJZUwlN2WDuWWedHMAnHU_b64k_PWnIzgQD82807tDHd_WI4dVkoWynvCFzTl6aXGZqDpskIgI2bRkqztwziA/s320/dedicated_e...

@@ -1,0 +1,133 @@
+---
+title: 【转载】四川警察学院举办“时代新警铸魂工程——新时代公安院校‘三全育人’体系构建与实践”主旨论坛
+url: https://buaq.net/go-274645.html
+source: unSafe.sh - 不安全
+date: 2024-11-25
+fetch_date: 2025-10-06T19:12:25.221486
+---
+
+# 【转载】四川警察学院举办“时代新警铸魂工程——新时代公安院校‘三全育人’体系构建与实践”主旨论坛
+
+* [unSafe.sh - 不安全](https://unsafe.sh)
+* [我的收藏](/user/collects)
+* [今日热榜](/?hot=true)
+* [公众号文章](/?gzh=true)
+* [导航](/nav/index)
+* [Github CVE](/cve)
+* [Github Tools](/tools)
+* [编码/解码](/encode)
+* [文件传输](/share/index)
+* [Twitter Bot](https://twitter.com/buaqbot)
+* [Telegram Bot](https://t.me/aqinfo)
+* [Search](/search/search)
+
+[Rss](/rss.xml)
+
+[ ]
+黑夜模式
+
+![](https://8aqnet.cdn.bcebos.com/d6defd7d6f365295f80e9839788e3b18.jpg)
+
+【转载】四川警察学院举办“时代新警铸魂工程——新时代公安院校‘三全育人’体系构建与实践”主旨论坛
+
+11月22日，四川警察学院在泸州市南苑会议中心举办“时代新警铸魂工程——新时代公安院校‘三全育人’体系构建与实践”主旨论坛。中国教育发展战略学会思想道德建设专业委员会理事长、北京科技大学思想政治工作研
+*2024-11-24 23:48:0
+Author: [mp.weixin.qq.com(查看原文)](/jump-274645.htm)
+阅读量:7
+收藏*
+
+---
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/qIa0sibp1OiaBzsRXTia0u01akbCRTtRO2TqTyjCwoWGv1jLhbnRI8phSTl6ODDQibm4B4aVFKkM17azvoWKwHMLiaQ/640?wx_fmt=gif&wxfrom=13)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0Pg1uak2B0AM2tGU4QcLeEdWZNjbIGcDgWLqKf9dbTC7spsFTM4DAqOVg/640?wx_fmt=jpeg&wxfrom=13)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/1VXthYA69CkEDC5CoLzzRyK7udKfzvlYeZIWkVVyLFwfcgx8sdetxxEOFnXnqN1wywZgGL6l2odVNmYiaH7eVicg/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+
+11月22日，四川警察学院在泸州市南苑会议中心举办“时代新警铸魂工程——新时代公安院校‘三全育人’体系构建与实践”主旨论坛。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0Pg6GwjsU7xQ8ezYZOzAt9qQ4QqAQXPYAIhib3QyVuVMbrqmWtAEhI4o2Q/640?wx_fmt=jpeg&wxfrom=13)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0Pg6lzEwEt4uCjMFzEghoD2nhmWfZfPOh8la7XNf2lVWKsDJM0DJZ2Pzg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+中国教育发展战略学会思想道德建设专业委员会理事长、北京科技大学思想政治工作研究院院长冯刚教授，应邀作论坛主旨报告。冯刚以《提升思政引领力与“三全育人”体系建构》为题，围绕“思想引领力”的提出与内涵、思想政治教育学科发展历程、思想政治教育创新发展展望、“三全育人”内涵及其体系建构等内容，从认识论、价值论、方法论等多个层面阐释了“三全育人”的理论创新和实践发展。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0PgyibdXpxibGeFGJSZwf9z9ep8RX6e4XT7jBgjej0oz111uo98cY0oLRcw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+省教育厅宣思统战处处长李大鹏，省公安厅政治部队建处副处长任捷，教育部思政课教指委委员、全国思政课名师工作室负责人、西南石油大学马克思主义学院张小飞教授，四川警察学院党委书记周朝坤和党委副书记、院长唐雪莲等全体在泸校领导，全省公安机关及实战部门的领导、专家、教官代表，泸州市高校领导和从事思政教育工作的专家，学校各部门负责人和学生工作处、马克思主义学院、团委等相关教师共160余人参加论坛。来自中国人民公安大学、中国刑事警察学院、中国人民警察大学等近20所公安院校专家、学者、教师投稿、参会。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0Pgk9ibV9bbsU0RvAhPS5atTuTnaGqnS8aItofUVzV2Yq824WDibzwdB7jA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+周朝坤在开幕式上致欢迎辞并指出，四川警察学院始终坚持将思想引领贯穿公安教育教学全过程，坚定履行好“为党育人、为国育才、为警铸剑”的政治担当、责任担当和使命担当。学校将以此次论坛契机，进一步推动“三全育人”理念深刻融入公安教育各个方面，更加精准地把握思想政治工作的内在规律、教书育人的科学方法以及学生成长成才的自然路径，为谱写公安高等教育事业新篇章贡献力量。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0PgOsC4TFoI4ZsVTlObY453443bDk6mx10IdgWrmn7YSqVgshL4B3bsaA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0PgWUicyZfWg8lbQyjftVJf7IQTGDRuwAsSHNLrxYHdicnvNhys3Yibicadow/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+李大鹏和任捷分别致辞，他们对学校树立全员联动、全过程贯通、全方位协同的“三全育人”理念，探索具有新时代公安院校鲜明特色的“三全育人”体系的做法及成效表示充分肯定，希望此次论坛能集中探讨“三全育人”的现状、趋势和创新，切实提高思想政治工作的针对性和有效性。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0PgkQe4mCu8Gn1wzLzdDlv8HxibHAx5mRFf6LnzEWSA1YdER4SnFVYJrbQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0PgvAYL48qLKgZCiaeBAmOha5KZWUvaWsLE3Aa4b6ics5gBnpicz7Sg7I1wg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0Pge4cyhWZ2BsibljTOOibCA3jIsDkIqVkHq0Ksib6czCZIp9PSYpYIBDqDA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+专题报告阶段，四川警察学院党委副书记、院长唐雪莲，教育部思政课教指委委员、全国思政课名师工作室负责人、西南石油大学马克思主义学院张小飞教授，重庆大学马克思主义学院党委书记、博士生导师陈科，分别以《固本培元铸警魂 深耕细作育新警——新时代构建“三全育人”体系初探》《三全育人：从理念到行动》《思想政治教育的成效评价》为题，作了高校思想政治工作的经验分享与探讨。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0PgZ7KHurMdtfR9oribUsYxzSEiaqd5jfWMOJDlBNg0QzjEMosZQzmHdiaFw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0Pg1OW2F8x53GKTmTWdiaku9AAp82KWyaV36OtPbAjnIm0yPYibUEIL7QUg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0PgtfVqaia1DsklUw8q6OSdjnknwa9SDwxb0laDJac7OxlVic7m1fDEUhicA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0PgeTrC1R5ONfEDnUXuzbRVhIHk1HXSmtibDrvJSgoboz7w4s9SC1lf4zA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaBXWrwx85l28dsn7IG0d0Pgn2VY82xibBgHke1mRQWpxMB2Myz02A6EoldIVJS0cREBj6aOMA2jOZQ/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+（左右滑动，查看图片）
+
+分论坛分别由江苏警官学院马克思主义学院王光森教授、西南石油大学马克思主义学院张小飞教授、上海公安学院思想政治教研部副主任龚海燕主持。聚焦“理论基础与历史演进研究”“专业课程与课程思政研究”“文化建设、思政评价及数智思政研究”三大主题，中国人民公安大学马克思主义学院王雪琴副教授、江苏警官学院陈宗攀副教授、广西警察学院赵华副研究员等论坛征文作者分组开展了研讨交流。
+
+**scpc**
+
+与会人员在论坛期间还参观了四川警察学院马克思主义讲习所、团学工作站、公共安全实验室和龙透关警务工作站等育人场所。
+
+图/李健 新媒体运维中心
+
+文/《四川警察学院报》编辑部
+
+编辑/李俊熙
+
+审校/王先俊 谢虹 熊座
+
+审核/王柳
+
+**往期回顾**
+
+[学校学习贯彻党的二十届三中全会精神政治轮训班圆满结业](https://mp.weixin.qq.com/s?__biz=MzAwMDA4NDc1Mg==&mid=2650023976&idx=1&sn=6a132aa2907cfab07aedbec5763c5b59&chksm=82eed657b5995f41c3abe1ad1c32bff15178974b307842f5a3f22cf16b7ca3690daefa4bbe83&scene=21#wechat_redirect)
+
+[藏蓝写梦，警色更“青”！](https://mp.weixin.qq.com/s?__biz=MzAwMDA4NDc1Mg==&mid=2650023955&idx=1&sn=61cb5199aa29d04ddda051ff37b9e84e&chksm=82eed66cb5995f7a5fad15e3daa4695320dc4fcae3951b6f82d7c02d57f8e9a6236a282eb0d2&scene=21#wechat_redirect)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qIa0sibp1OiaCiaHedy4JT4so2UyWDSvlRm0nWvQbTBldYVejfhXbBGn4yENvcj182UDaWuyPX4CZKr17xlcq2cyg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+长按识别下面的二维码可加入星球
+
+里面已有万余篇资料可供下载
+
+越早加入越便宜
+
+续费五折优惠
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/B0AKMb5va5zKJ6IvDm7zH8uGKMLmpkqKYLbkAVHcDIy1pTdjbsOlqh0GOYj7RhhMsfCLtUtWfwEicsFibUicCMwnw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/B0AKMb5va5weznr59sOFnfjlug4lPdXGst2Ppk4z9iaENOniczwktxLNyvXJU4y0ibGic51MrKtiaicscLW3JbrYhauA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+文章来源: https://mp.weixin.qq.com/s?\_\_biz=MzI2MTE0NTE3Mw==&mid=2651147985&idx=2&sn=250c14fc6248eb5fe5f855ffc5f425cd&chksm=f1af39ebc6d8b0fda9dbd2f575d5ffb8e80740f7e52040712dfea23bb7a0a8b9a710cac5aab4&scene=58&subscene=0#rd
+ 如有侵权请联系:admin#unsafe.sh
+
+© [unSafe.sh - 不安全](https://unsafe.sh) Powered By [PaperCache](https://github.com/code-scan/PaperCache)
+
+* admin#unsafe.sh
+* [安全马克](https://aq.mk)
+* [星际黑客](https://xj.hk)
+* [T00ls](https://t00ls.net)

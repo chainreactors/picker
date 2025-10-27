@@ -1,0 +1,20 @@
+---
+title: 研究员发现5G网络安全漏洞：可实时嗅探流量、拒绝服务、网络降级
+url: https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247514867&idx=1&sn=308bc09fc76b087d1acc66c4d984b3d2
+source: Doonsec's feed
+date: 2025-08-21
+fetch_date: 2025-10-07T00:14:13.093409
+---
+
+# 研究员发现5G网络安全漏洞：可实时嗅探流量、拒绝服务、网络降级
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

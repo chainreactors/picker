@@ -1,0 +1,20 @@
+---
+title: 拖拉机也能被黑？全球4.6 万台农机曝远程操控漏洞
+url: https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649788743&idx=1&sn=e35ebfc8a2f78e9033198fdd30536501
+source: Doonsec's feed
+date: 2025-07-01
+fetch_date: 2025-10-06T23:50:13.757548
+---
+
+# 拖拉机也能被黑？全球4.6 万台农机曝远程操控漏洞
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

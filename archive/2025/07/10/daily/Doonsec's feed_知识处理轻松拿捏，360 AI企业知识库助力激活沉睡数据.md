@@ -1,0 +1,20 @@
+---
+title: 知识处理轻松拿捏，360 AI企业知识库助力激活沉睡数据
+url: https://mp.weixin.qq.com/s?__biz=MzA4MTg0MDQ4Nw==&mid=2247581165&idx=2&sn=50a9eca4013a773b9c55a3669ed3b80b
+source: Doonsec's feed
+date: 2025-07-10
+fetch_date: 2025-10-06T23:21:29.773856
+---
+
+# 知识处理轻松拿捏，360 AI企业知识库助力激活沉睡数据
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

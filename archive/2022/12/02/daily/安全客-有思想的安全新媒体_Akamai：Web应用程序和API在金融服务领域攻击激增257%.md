@@ -1,0 +1,178 @@
+---
+title: Akamai：Web应用程序和API在金融服务领域攻击激增257%
+url: https://www.anquanke.com/post/id/283913
+source: 安全客-有思想的安全新媒体
+date: 2022-12-02
+fetch_date: 2025-10-04T00:16:08.743801
+---
+
+# Akamai：Web应用程序和API在金融服务领域攻击激增257%
+
+首页
+
+阅读
+
+* [安全资讯](https://www.anquanke.com/news)
+* [安全知识](https://www.anquanke.com/knowledge)
+* [安全工具](https://www.anquanke.com/tool)
+
+活动
+
+社区
+
+学院
+
+安全导航
+
+内容精选
+
+* [专栏](/column/index.html)
+* [精选专题](https://www.anquanke.com/subject-list)
+* [安全KER季刊](https://www.anquanke.com/discovery)
+* [360网络安全周报](https://www.anquanke.com/week-list)
+
+# Akamai：Web应用程序和API在金融服务领域攻击激增257%
+
+阅读量**236023**
+
+发布时间 : 2022-12-01 10:15:11
+
+**x**
+
+##### 译文声明
+
+本文是翻译文章
+
+译文仅供参考，具体内容表达以及含义原文为准。
+
+![]()
+
+日前，Akamai披露称，在过去12个月里，金融服务行业检测到的web应用程序和API攻击数量同比激增3.5倍。并称，针对WEB应用程序和API的威胁增加，反映出金融机构对数字服务的投资增加，这是欧洲PSD2等开放银行授权的结果。虽然这些技术有助于向第三方提供商开放银行服务，为客户创造更精简的体验，但它们也扩大了企业的攻击面。此外，还发现bot活动(81%)和DDoS攻击(22%)同比大幅增加，同时针对客户的网络钓鱼攻击也出现激增。[[阅读原文]](https://www.prnewswire.com/news-releases/financial-services-akamai-research-shows-web-application-and-api-cyber-attacks-grew-by-257-percent-year-over-year-301686231.html)
+
+本文翻译自 原文链接。如若转载请注明出处。
+
+商务合作，文章发布请联系 anquanke@360.cn
+
+本文由**安全客**原创发布
+
+转载，请参考[转载声明](https://www.anquanke.com/note/repost)，注明出处： [https://www.anquanke.com/post/id/283913](/post/id/283913)
+
+安全KER - 有思想的安全新媒体
+
+本文转载自:
+
+如若转载,请注明出处：
+
+安全KER - 有思想的安全新媒体
+
+分享到：![微信](https://p0.ssl.qhimg.com/sdm/28_28_100/t01e29062a5dcd13c10.png)
+
+* [Web应用程序](/tag/Web%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F)
+* [API](/tag/API)
+* [金融](/tag/%E9%87%91%E8%9E%8D)
+
+**+1**0赞
+
+收藏
+
+![](https://p0.ssl.qhimg.com/t01546a096e83e700fe.jpg)安全客
+
+分享到：![微信](https://p0.ssl.qhimg.com/sdm/28_28_100/t01e29062a5dcd13c10.png)
+
+## 发表评论
+
+您还未登录，请先登录。
+
+[登录](/login/index.html)
+
+![](https://p5.ssl.qhimg.com/t01a1ab830955b940ce.png)
+
+[![](https://p0.ssl.qhimg.com/t01546a096e83e700fe.jpg)](/member.html?memberId=2)
+
+[安全客](/member.html?memberId=2)
+
+有思想的安全新媒体
+
+* 文章
+* **3687**
+
+* 粉丝
+* **225**
+
+### TA的文章
+
+* ##### [ISC.AI2024热点资讯](/post/id/297785)
+
+  2024-07-10 17:00:28
+* ##### [ISC2023热点资讯](/post/id/289102)
+
+  2023-06-06 17:21:40
+* ##### [数说安全《攻击面管理产品》报告发布 360以第一顺位入选国内代表性安全厂商](/post/id/288540)
+
+  2023-05-05 12:03:24
+* ##### [伪装成ChatGPT的 恶意软件被用来引诱受害者](/post/id/288531)
+
+  2023-05-05 12:01:24
+* ##### [研究人员发现Microsoft Azure API管理服务中的3个漏洞](/post/id/288526)
+
+  2023-05-05 11:59:52
+
+### 相关文章
+
+* ##### [保护敏感数据的艺术：数据安全指南](/post/id/290760)
+
+  2023-10-18 10:57:25
+* ##### [受邀演讲 | 确保数字化生态安全稳健](/post/id/290528)
+
+  2023-09-05 17:48:29
+* ##### [技术专题：API资产识别大揭秘（一）](/post/id/290471)
+
+  2023-09-05 17:37:14
+* ##### [星阑科技受邀专精特新创新策源会，共同探讨网安新生态](/post/id/290481)
+
+  2023-08-29 16:09:31
+* ##### [锐意拼搏 开拓奋进 | 星阑科技受邀ISC，共讨数智化生产力变革](/post/id/290475)
+
+  2023-08-22 12:47:46
+* ##### [API NEWS | API安全需要重置](/post/id/290291)
+
+  2023-08-15 14:45:10
+* ##### [医疗案例分享 | 数据安全流转解决方案](/post/id/290399)
+
+  2023-08-15 14:43:07
+
+### 热门推荐
+
+文章目录
+
+![](https://p0.qhimg.com/t11098f6bcd5614af4bf21ef9b5.png)
+
+安全KER
+
+* [关于我们](/about)
+* [联系我们](/note/contact)
+* [用户协议](/note/protocol)
+* [隐私协议](/note/privacy)
+
+商务合作
+
+* [合作内容](/note/business)
+* [联系方式](/note/contact)
+* [友情链接](/link)
+
+内容需知
+
+* [投稿须知](https://www.anquanke.com/contribute/tips)
+* [转载须知](/note/repost)
+* 官网QQ群：568681302
+
+合作单位
+
+* [![安全KER](https://p0.ssl.qhimg.com/t01592a959354157bc0.png)](http://www.cert.org.cn/)
+* [![安全KER](https://p0.ssl.qhimg.com/t014f76fcea94035e47.png)](http://www.cnnvd.org.cn/)
+
+Copyright © 北京奇虎科技有限公司 三六零数字安全科技集团有限公司 安全KER All Rights Reserved [京ICP备08010314号-66](https://beian.miit.gov.cn/)[![](https://icon.cnzz.com/img/pic.gif)](https://www.cnzz.com/stat/website.php?web_id=1271278035 "站长统计")
+
+微信二维码
+
+**X**![安全KER](https://p0.ssl.qhimg.com/t0151209205b47f2270.jpg)

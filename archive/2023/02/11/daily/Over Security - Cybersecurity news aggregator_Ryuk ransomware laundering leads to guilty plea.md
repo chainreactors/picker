@@ -1,0 +1,183 @@
+---
+title: Ryuk ransomware laundering leads to guilty plea
+url: https://www.malwarebytes.com/blog/news/2023/02/ryuk-ransomware-laundering-leads-to-guilty-plea
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-11
+fetch_date: 2025-10-04T06:23:09.729118
+---
+
+# Ryuk ransomware laundering leads to guilty plea
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![ransomware problem](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/02/asset_upload_file17392_258917.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Ryuk ransomware laundering leads to guilty plea
+
+Posted: February 9, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+[Ryuk](https://www.malwarebytes.com/ryuk-ransomware), a [mainstay of the ransomware scene](https://www.malwarebytes.com/blog/news/2019/12/threat-spotlight-the-curious-case-of-ryuk-ransomware) for some years until it transformed into Conti (and then [split off into other groups](https://www.bleepingcomputer.com/news/security/conti-ransomware-shuts-down-operation-rebrands-into-smaller-units/) after that), is back in the news again… though not in the way you might have imagined.
+
+It’s not a compromise, or a surprise comeback. What we have is a guilty plea, as a Russian citizen is the focus of a [ransomware-centric money laundering](https://www.bleepingcomputer.com/news/security/russian-man-pleads-guilty-to-laundering-ryuk-ransomware-money/) story.
+
+## From shadows to spotlight
+
+Hiding in plain sight does not seem to have gone well for “former crypto-exchange executive” Denis Mihaqlovic Dubnikov. After an arrest back in 2021 and an extradition to the US last year, he’s had some appearances in court (not to mention an assortment of other individuals tangled up in the case) accused of money laundering in relation to Ryuk attacks across the globe.
+
+The Ryuk ransoms, paid in [cryptocurrency](https://www.malwarebytes.com/cryptocurrency) such as [Bitcoin](https://www.malwarebytes.com/what-is-bitcoin), were split into smaller portions and then forwarded on to multiple cryptocurrency wallets and then placed into exchange accounts for other forms of currency. Eventually, the money would find its way into the hands of other people involved in the various schemes.
+
+All of these cash daisy chains were to help evade detection by law enforcement.
+
+From [the indictment release](https://www.documentcloud.org/documents/23601319-denis-mihaqlovic-dubnikov-second-superseding-indictment-govuscourtsord1536201030):
+
+> The Ryuk actors used anonymous private wallets in their ransom notes, allowing them immediately to conceal the nature, location, source, ownership, and control of the ransom payments. After receiving the ransom payments, the Ryuk actors, defendants, and others involved in the scheme engaged in various financial transactions, including international financial transactions, to conceal the nature, source, location, ownership, and control of the ransom proceeds. They also used proceeds from the ransom payments to facilitate or promote the specified unlawful activities.
+
+The ransom notes made it clear that files would be deleted after two weeks should ransoms not be paid. As you can imagine, this rather blunt threat tended to spur people quickly into paying up—in total around $150m was paid.
+
+## Big money prizes
+
+The numbers involved in this case are rather large, to say the least. In a roughly four month span in the middle of 2019, one defendant “laundered more than $2 million in Ryuk ransom proceeds”. Another laundered more than $600 in March of that same year. These figures are typical of the figures listed next to the other as yet unnamed defendants. The biggest of all these weighs in with a tally of more than $35 million in ransom proceeds from around February 2020 to somewhere in July 2021.
+
+It’s astonishing to think that all of this took place over a period of [just three years](https://therecord.media/russian-crypto-exchange-exec-pleads-guilty-to-laundering-ryuk-ransomware-funds/).
+
+Make no mistake, this was a big money ...

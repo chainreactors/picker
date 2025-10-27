@@ -1,0 +1,20 @@
+---
+title: GPU出口限制导致DeepSeek新一代AI模型研发受阻
+url: https://mp.weixin.qq.com/s?__biz=MjM5NjA0NjgyMA==&mid=2651323993&idx=1&sn=4df78f979e4da8465c111af68813d85f
+source: Doonsec's feed
+date: 2025-06-28
+fetch_date: 2025-10-06T22:50:01.921097
+---
+
+# GPU出口限制导致DeepSeek新一代AI模型研发受阻
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

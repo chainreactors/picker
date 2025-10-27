@@ -1,0 +1,120 @@
+# 每日安全资讯（2024-05-13）
+
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [ ] [Microsoft PlayReady Complete Client Identity Compromise](https://cxsecurity.com/issue/WLB-2024050033)
+  - [ ] [Castel Digital Authentication Bypass](https://cxsecurity.com/issue/WLB-2024050032)
+- Security Boulevard
+  - [ ] [USENIX Security ’23 – GigaDORAM: Breaking the Billion Address Barrier](https://securityboulevard.com/2024/05/usenix-security-23-gigadoram-breaking-the-billion-address-barrier/)
+  - [ ] [Key Takeaways from RSA Conference 2024: AI and Data Security in Focus | Eureka Security](https://securityboulevard.com/2024/05/key-takeaways-from-rsa-conference-2024-ai-and-data-security-in-focus-eureka-security/)
+  - [ ] [RSA 2024: AI’s Growing Influence Amplifies Global Cyber Impact](https://securityboulevard.com/2024/05/rsa-2024-ais-growing-influence-amplifies-global-cyber-impact/)
+- SecWiki News
+  - [ ] [SecWiki News 2024-05-12 Review](http://www.sec-wiki.com/?2024-05-12)
+- ArthurChiao's Blog
+  - [ ] [[译] 什么是 GPT？Transformer 工作原理的动画展示（2024）](https://arthurchiao.github.io/blog/visual-intro-to-transformers-zh/)
+- Private Feed for M09Ic
+  - [ ] [wuhan005 started following DVKunion](https://github.com/DVKunion)
+  - [ ] [winezer0 starred knownsec/pocsuite3](https://github.com/knownsec/pocsuite3)
+  - [ ] [winezer0 starred RapidAI/RapidOCR](https://github.com/RapidAI/RapidOCR)
+  - [ ] [winezer0 starred BishopFox/GitGot](https://github.com/BishopFox/GitGot)
+  - [ ] [winezer0 starred MiSecurity/x-patrol](https://github.com/MiSecurity/x-patrol)
+  - [ ] [winezer0 released v2.3.3 at winezer0/knife-branch](https://github.com/winezer0/knife-branch/releases/tag/v2.3.3)
+  - [ ] [zer0yu starred rossmacarthur/emojis](https://github.com/rossmacarthur/emojis)
+  - [ ] [theLSA starred shuanx/BurpFingerPrint](https://github.com/shuanx/BurpFingerPrint)
+  - [ ] [theLSA starred Whoopsunix/PPPYSO](https://github.com/Whoopsunix/PPPYSO)
+  - [ ] [theLSA starred Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt)
+  - [ ] [winezer0 released v1.5.3 at winezer0/BurpFingerPrint-branch](https://github.com/winezer0/BurpFingerPrint-branch/releases/tag/v1.5.3)
+  - [ ] [zer0yu started following ZaydH](https://github.com/ZaydH)
+  - [ ] [zer0yu starred dwisiswant0/unch](https://github.com/dwisiswant0/unch)
+  - [ ] [theLSA starred lirantal/awesome-nodejs-security](https://github.com/lirantal/awesome-nodejs-security)
+  - [ ] [theLSA starred fdx-xdf/darkPulse](https://github.com/fdx-xdf/darkPulse)
+  - [ ] [theLSA starred cmu-sei/GHOSTS](https://github.com/cmu-sei/GHOSTS)
+  - [ ] [theLSA starred V-i-x-x/AMSI-BYPASS](https://github.com/V-i-x-x/AMSI-BYPASS)
+  - [ ] [theLSA starred RobinDavid/LSB-Steganography](https://github.com/RobinDavid/LSB-Steganography)
+  - [ ] [theLSA starred CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator)
+  - [ ] [theLSA starred Getshell/Fanzhi](https://github.com/Getshell/Fanzhi)
+  - [ ] [theLSA starred AEPKILL/miniprogram-track](https://github.com/AEPKILL/miniprogram-track)
+  - [ ] [theLSA starred Diverto/IPPrintC2](https://github.com/Diverto/IPPrintC2)
+  - [ ] [theLSA starred RalfHacker/Kerbeus-BOF](https://github.com/RalfHacker/Kerbeus-BOF)
+  - [ ] [theLSA starred MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework)
+  - [ ] [theLSA starred pmiaowu/log4j2Scan](https://github.com/pmiaowu/log4j2Scan)
+  - [ ] [theLSA starred eeeeeeeeee-code/e0e1-wx](https://github.com/eeeeeeeeee-code/e0e1-wx)
+  - [ ] [zer0yu started following tiann](https://github.com/tiann)
+- Recent Commits to cve:main
+  - [ ] [Update Sun May 12 18:02:23 UTC 2024](https://github.com/trickest/cve/commit/f82a95ea8cc151c3fd6548522861ddc4b118d6f1)
+  - [ ] [Update Sun May 12 10:04:54 UTC 2024](https://github.com/trickest/cve/commit/f1afcf454d5bbd93cfd4bb398142038b1cfb6aca)
+  - [ ] [Update Sun May 12 02:07:42 UTC 2024](https://github.com/trickest/cve/commit/2f4f91d1bffe26c55902bbe136fd6c72da10b9c6)
+- obaby@mars
+  - [ ] [Google & Bing 爬虫IP列表](https://h4ck.org.cn/2024/05/16956)
+- Bug Bounty in InfoSec Write-ups on Medium
+  - [ ] [My LLM Bug Bounty Journey on Hugging Face Hub via Protect AI](https://infosecwriteups.com/my-llm-bug-bounty-journey-on-hugging-face-hub-via-protect-ai-9f3a1bc72c2e?source=rss----7b722bfd1b8d--bug_bounty)
+- Reverse Engineering
+  - [ ] [KEYAUTH Bypass](https://www.reddit.com/r/ReverseEngineering/comments/1cqhxdt/keyauth_bypass/)
+  - [ ] [[YT Short] Reversing PyInstaller executables](https://www.reddit.com/r/ReverseEngineering/comments/1cq25aw/yt_short_reversing_pyinstaller_executables/)
+- KitPloit - PenTest &amp; Hacking Tools
+  - [ ] [PingRAT - Secretly Passes C2 Traffic Through Firewalls Using ICMP Payloads](http://www.kitploit.com/2024/05/pingrat-secretly-passes-c2-traffic.html)
+- 博客园 - 渗透测试中心
+  - [ ] [rdp利用技巧总结 - 渗透测试中心](https://www.cnblogs.com/backlion/p/18187755)
+  - [ ] [红队隐藏技巧 - 渗透测试中心](https://www.cnblogs.com/backlion/p/18187749)
+  - [ ] [端口复用后门总结 - 渗透测试中心](https://www.cnblogs.com/backlion/p/18187748)
+  - [ ] [实战中内网穿透的打法 - 渗透测试中心](https://www.cnblogs.com/backlion/p/18187739)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [太阳爆发 X5.8 级耀斑，强地磁风暴将持续到周一](https://www.solidot.org/story?sid=78145)
+  - [ ] [气候变暖增加中国城市火灾风险](https://www.solidot.org/story?sid=78144)
+- 看雪学苑
+  - [ ] [VM逆向，一篇就够了（下）](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458554406&idx=1&sn=09b1307e73fc9a5575095895864e3799&chksm=b18da0ac86fa29ba72ab127bd2c86148921e21a605844b7d1a7ba8f60361215107dc3f67f5fd&scene=58&subscene=0#rd)
+  - [ ] [今晚8点直播！r0env 配套手机调试rom发布，更多特性等你发现](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458554406&idx=2&sn=a8a59e4c12b5923a63c633fa26e5f228&chksm=b18da0ac86fa29baba56f04715c4a3b9990c785eb67222c8195450e613583d771505f4372963&scene=58&subscene=0#rd)
+- dotNet安全矩阵
+  - [ ] [.NET 矩阵W19增量红队工具集合](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247491736&idx=1&sn=1888e04a3a75763873042289355f8925&chksm=fa594e75cd2ec7633a3e90451ee98bf58535604bddf8aeb7bb2e28047b58df553f70a3e351c1&scene=58&subscene=0#rd)
+  - [ ] [国内最大的.NET安全攻防知识社区](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247491736&idx=2&sn=4871f79d690012897b999036d0bfe088&chksm=fa594e75cd2ec76325cabaf46a075cfa6804d52ebadd903fe86910fe6057e81759783b9453f5&scene=58&subscene=0#rd)
+- 丁爸 情报分析师的工具箱
+  - [ ] [【工具】图像溯源AI](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651143701&idx=1&sn=16e0722388bb5f08a97dc66cd54da865&chksm=f1af492fc6d8c039abe7ea1cb5fc14d739d8d722b540d9cdf1ad2c6a86605f6c024f0a9b936f&scene=58&subscene=0#rd)
+- 安全研究GoSSIP
+  - [ ] [参加比赛赢无人机！全国高校隐私计算大赛报名倒计时3天](https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247497989&idx=1&sn=a7817627bf028c3dc2e16cee2b91c436&chksm=c063d7dcf7145ecaac91c68459c4996c1800bf4c77321053a816945f5a5df4e4e5db932ab125&scene=58&subscene=0#rd)
+- OnionSec
+  - [ ] [请多做一些无意义的事情](https://mp.weixin.qq.com/s?__biz=MzUyMTUwMzI3Ng==&mid=2247485438&idx=1&sn=80569843d5bfbceeb8f3634a343d874e&chksm=f9db50bdceacd9abe676c2e469e78dd6c12b531aeebc21228dcb97173e8c799d7c7b8e9f43ea&scene=58&subscene=0#rd)
+- IT Service Management News
+  - [ ] [Rapporto semestrale UFCS](http://blog.cesaregallotti.it/2024/05/rapporto-semestrale-ufcs.html)
+- 迪哥讲事
+  - [ ] [黑名单过滤下为何还能无限制SQL注入](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247494600&idx=1&sn=35845981e16f993775516df7f30687d9&chksm=e8a5e1abdfd268bd90e0e675d4e6949544d2285fb75e6800fda86d2d306899481a7366026404&scene=58&subscene=0#rd)
+- Unsupervised Learning
+  - [ ] [One Apple Fanboy's White-hot Anger at the iPad Commercial](https://danielmiessler.com/p/one-apple-fanboys-whitehot-anger-ipad-commercial)
+  - [ ] [My OpenAI Event Predictions (May 2024)](https://danielmiessler.com/p/openai-event-predictions-may-2024)
+- 极客公园
+  - [ ] [苹果或和OpenAI很快达成协议；理想L9将广告识别成真车致追尾；「中国天眼」发现6个最远中性氢星系 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653041038&idx=1&sn=3ead7cad498a9d6b4ca13dfdef0dddc1&chksm=7e574c384920c52e4e89ac68a26d5113b7f05ab529272fede8d389773d21c91021d37934b60d&scene=58&subscene=0#rd)
+- ZephrSec - Adventures In Information Security
+  - [ ] [Side-by-Side with HelloJackHunter: Unveiling the Mysteries of WinSxS](https://blog.zsec.uk/hellojackhunter-exploring-winsxs/)
+- Troy Hunt's Blog
+  - [ ] [Weekly Update 399](https://www.troyhunt.com/weekly-update-399/)
+- Il Disinformatico
+  - [ ] [Sono a Bratislava per Starmus](http://attivissimo.blogspot.com/2024/05/sono-bratislava-per-starmus.html)
+- 情报分析师
+  - [ ] [数字侦探：解锁照片背后的线索与隐藏模式](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650549337&idx=1&sn=f6a95e78e5f4b132412e2fe79b5fd5a4&chksm=87110212b0668b040f192d91df47949f1917e233b436e458cd68088fc1c270e97a54d8631a1c&scene=58&subscene=0#rd)
+  - [ ] [地缘信息知识星球（5月12日更新明细）](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650549337&idx=2&sn=5052b535802f9745e9283f14407f5486&chksm=87110212b0668b04f209a1e4662b4f09d1241236d5dc15754061cfe3f87bd0663f3d5b233d28&scene=58&subscene=0#rd)
+- TorrentFreak
+  - [ ] [Telegram Reportedly “Ready to Fight Piracy” According to Govt. Official](https://torrentfreak.com/telegram-reportedly-ready-to-fight-piracy-according-to-govt-official-240512/)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Chi sono gli operatori telefonici sfruttati dall’azienda italiana di sorveglianza Carro](https://irpimedia.irpi.eu/setelefonando-operatori-telefonici-sorveglianza-geolocalizzazione-carro/)
+  - [ ] [Guerre di Rete - La Polonia, gli spyware, l'Europa](https://guerredirete.substack.com/p/guerre-di-rete-la-polonia-gli-spyware)
+- Information Security
+  - [ ] [Acoustic Keystroke Leakage on Smart Televisions](https://www.reddit.com/r/Information_Security/comments/1cqkfmr/acoustic_keystroke_leakage_on_smart_televisions/)
+  - [ ] [DoorDash SCAM](https://www.reddit.com/r/Information_Security/comments/1cqbpu0/doordash_scam/)
+- The Register - Security
+  - [ ] [Ransomware negotiator weighs in on the extortion payment debate with El Reg](https://go.theregister.com/feed/www.theregister.com/2024/05/12/ransomware_negotiator_payments/)
+- Security Affairs
+  - [ ] [Pro-Russia hackers targeted Kosovo’s government websites](https://securityaffairs.com/163041/hacking/pro-russia-hackers-targeted-kosovo.html)
+  - [ ] [Security Affairs newsletter Round 471 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/163036/breaking-news/security-affairs-newsletter-round-471-by-pierluigi-paganini-international-edition.html)
+  - [ ] [As of May 2024, Black Basta ransomware affiliates hacked over 500 organizations worldwide](https://securityaffairs.com/163019/cyber-crime/black-basta-ransomware-500-organizations.html)
+- Social Engineering
+  - [ ] [How to Manipulate a Manipulator](https://www.reddit.com/r/SocialEngineering/comments/1cqkzcd/how_to_manipulate_a_manipulator/)
+- Technical Information Security Content & Discussion
+  - [ ] [16 years of CVE-2008-0166 - Debian OpenSSL Bug - breaking DKIM and BIMI in 2024](https://www.reddit.com/r/netsec/comments/1cq5rxf/16_years_of_cve20080166_debian_openssl_bug/)
+- Your Open Hacker Community
+  - [ ] [Recommendations for creating your own lab?](https://www.reddit.com/r/HowToHack/comments/1cqeuxw/recommendations_for_creating_your_own_lab/)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [DNS Suffixes on Windows, (Sun, May 12th)](https://isc.sans.edu/diary/rss/30912)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Disrupting phishing site](https://www.reddit.com/r/blackhat/comments/1cqbhmc/disrupting_phishing_site/)
+  - [ ] [Can I get a bit of help from someone familiar with telegram and botnets 💲](https://www.reddit.com/r/blackhat/comments/1cq8hgg/can_i_get_a_bit_of_help_from_someone_familiar/)
+  - [ ] [cryptojacking](https://www.reddit.com/r/blackhat/comments/1cqeyeu/cryptojacking/)
+- KitPloit - PenTest Tools!
+  - [ ] [PingRAT - Secretly Passes C2 Traffic Through Firewalls Using ICMP Payloads](http://www.kitploit.com/2024/05/pingrat-secretly-passes-c2-traffic.html)

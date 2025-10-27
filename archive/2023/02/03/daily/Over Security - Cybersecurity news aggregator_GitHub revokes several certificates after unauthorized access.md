@@ -1,0 +1,177 @@
+---
+title: GitHub revokes several certificates after unauthorized access
+url: https://www.malwarebytes.com/blog/news/2023/02/github-revokes-several-certificates-after-unauthorized-access
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-03
+fetch_date: 2025-10-04T05:36:55.093839
+---
+
+# GitHub revokes several certificates after unauthorized access
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![](https://www.threatdown.com/wp-content/uploads/2024/04/github_revokes_several__resized.png?w=1024)
+
+[Threat Intelligence](https://www.threatdown.com/blog/category/threat-intelligence/)
+
+# GitHub revokes several certificates after unauthorized access
+
+February 1, 2023
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+In a [call to action](https://github.blog/2023-01-30-action-needed-for-github-desktop-and-atom-users/), GitHub warned users of GitHub Desktop for Mac and Atom that it will revoke certificates which were exposed during unauthorized access to a set of repositories used in the planning and development of GitHub Desktop and Atom. Revoking these certificates will invalidate some versions of GitHub Desktop for Mac and Atom.
+
+## Mitigation
+
+Users of GitHub Desktop for Mac and Atom will need to take action before February 2, 2023. There will be no impact to GitHub Desktop for Windows.
+
+The affected versions of Atom are 1.63.0 and 1.63.1. To keep using Atom, users will need to [download a previous Atom version](https://github.com/atom/atom/releases/tag/v1.60.0). There is and will be no newer version, since Atom has not had significant feature development for the past years and [sunset was announced](https://github.blog/2022-06-08-sunsetting-atom/) for December 15, 2022.
+
+Affected versions of GitHub Desktop for Mac are 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7, 3.0.8, 3.1.0, 3.1.1, and 3.1.2. Users of these versions are asked to [update to the latest version of Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/updating-github-desktop).
+
+## Certificates
+
+Certificates are used to verify the author of the software or code. By revoking a certificate it can no longer be used to sign new code. Revoking these certificates does not put existing installations of the Desktop and Atom apps at risk.
+
+Even though the certificates were password-protected and there has been no evidence of malicious use, GitHub does not want to take the risk of a threat actor signing unofficial applications with these certificates and pretend that they were officially created by GitHub.
+
+To prevent that from happening, GitHub will revoke three specific certificates—two Digicert code signing certificates used for Windows and one Apple Developer ID certificate. The Digicert certificates had a short lifespan left and as a result they would have been unusable to sign code after February 2, 2023 anyway. The Apple Developer ID certificate is valid until 2027.
+
+## Why?
+
+On December 7, 2022, GitHub detected unauthorized access to a set of repositories used in the planning and development of GitHub Desktop and Atom. After investigation, no unauthorized changes were found, but a set of encrypted code signing certificates were exfiltrated. During the unauthorized access which took place on December 6, 2022, repositories from the Atom, Desktop, and other deprecated GitHub-owned organizations were cloned by a compromised Personal Access Token (PAT) associated with a machine account.
+
+## GitHub actions
+
+Besides a thorough investigation and revoking the three certificates, GitHub has removed the two affected versions of the Atom app (1.63.0-1.63.1) from the releases page. They are also working with Apple to monitor for any new executable files (like applications) signed with the exposed Apple Developer ID certificate until said certificate is revoked on February 2.
+
+## Categories
+
+[Breaches](https://www.threatdown.com/blog/category/breaches/)[Product News](https://www.threatdown.com/blog/category/product-news/)[Ransomware](https://www.threatdown.com/blog/category/ransomware/)[Threat Intelligence](https://www.threatdown.com/blog/category/threat-intelligence/)[Vulnerabilities](https://www.threatdown.com/blog/category/vulnerabilities/)
+
+[![X (formerly Twitter)](https://www.threatdown.com/wp-content/themes/mbc/images/x-logo.svg)](https://twitter.com/threat_dow...

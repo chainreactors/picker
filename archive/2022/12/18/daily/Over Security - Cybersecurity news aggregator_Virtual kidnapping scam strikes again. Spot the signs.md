@@ -1,0 +1,185 @@
+---
+title: Virtual kidnapping scam strikes again. Spot the signs
+url: https://www.malwarebytes.com/blog/news/2022/12/virtual-kidnapping-scam-strikes-again-spot-the-signs
+source: Over Security - Cybersecurity news aggregator
+date: 2022-12-18
+fetch_date: 2025-10-04T01:51:59.795888
+---
+
+# Virtual kidnapping scam strikes again. Spot the signs
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Kidnapped person](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/12/asset_upload_file72616_252221.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Virtual kidnapping scam strikes again. Spot the signs
+
+Posted: December 16, 2022
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+Warnings abound of a major new piece of fraud doing the rounds which [uses your relative’s voice as part of a blackmail scam](https://www.indy100.com/viral/warning-issued-major-scam). What happens is the victim receives a call from said relative’s number, and they’re cut off by blackmailers who have them held hostage. The only way to get them back safely is to pay a sizable sum of money, usually within a time limit. Refusal to pay up could clearly end very badly for the person being held to ransom.
+
+There’s just one problem with this: It’s all fake.
+
+## When virtual kidnappers attack
+
+The tale is retold by a [Tik-Tok user who fell for the scam tactic](https://www.tiktok.com/%40citylivingsoutherngirl/video/7174452007476940075), who says:
+
+*“New scam alert. I usually don’t fall for scams but they got me.”*
+
+The victim recounts how she heard the voice of her mother “fading away.” This is supposed to sound like someone being dragged away from the phone. At this point, a stranger jumps on the call demanding money “or else.” The scammer may be working alone, or have someone else doing things like yelling in the background at the non-existent kidnap victim. It’s all designed to convince the victim to hand over a large amount of cash in as short a time as possible.
+
+In terms of demands, the pretend abductors demanded $1,000 in US dollars via Venmo or CashApp. The recipient of this call could only afford to send $100, at which point the callers ended the call. What followed was an understandably panicked call to the victim’s mother, who was safe the whole time.
+
+## Scams go around, come around
+
+This is clearly an unpleasant story, but let’s take a deep breath before we perhaps become a little too alarmed by references to newness and (most importantly) claims of using your relative’s voice.
+
+First, this is not a new tactic. Not at all. These are usually referred to as virtual kidnapping scams, and they’ve been around for some years now. Here’s an [FBI release regarding the targeting of doctors](https://www.fbi.gov/contact-us/field-offices/sanantonio/news/press-releases/virtual-kidnapping-extortion-calls-on-the-rise) back in 2014.
+
+In fact, we covered a virtual kidnapping threat around the same time which [threw a few more scam tactics into the mix](https://www.malwarebytes.com/blog/news/2014/08/virtual-kidnapping-warning-doing-the-rounds-on-social-media). In those attacks, a fraudster would: Pretend to be from a phone network, and call the person intended to be the fake kidnap victim. The fake phone network engineer would tell this person to turn the phone off for a few hours. This was so they’d be able to call the other family member they intended to extort, with no risk of them checking with the kidnapee if they were in fact kidnapped or sitting at home.
+
+## When fraudsters get vocal
+
+As for “using your relative’s voice”, well, no. Don’t panic. People may be inclined to start worrying about deepfaked voices winging their way across the airwaves. In these cases, the victim is almost certainly listening to generic voice recordings which very quickly fade out. The relatives don’t stay on the line, or make conversation, or say anything beyond muffled screams after the call begins because they’re not there.
+
+The scammer is very unlikely to have anything sounding identical to your supposedly kidnapped relative. It’s the...

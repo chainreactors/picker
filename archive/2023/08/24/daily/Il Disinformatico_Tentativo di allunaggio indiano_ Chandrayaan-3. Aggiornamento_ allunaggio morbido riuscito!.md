@@ -1,0 +1,224 @@
+---
+title: Tentativo di allunaggio indiano: Chandrayaan-3. Aggiornamento: allunaggio morbido riuscito!
+url: http://attivissimo.blogspot.com/2023/08/tentativo-di-allunaggio-indiano.html
+source: Il Disinformatico
+date: 2023-08-24
+fetch_date: 2025-10-04T12:03:57.560429
+---
+
+# Tentativo di allunaggio indiano: Chandrayaan-3. Aggiornamento: allunaggio morbido riuscito!
+
+# [Il Disinformatico](https://attivissimo.blogspot.com/)
+
+Un blog di Paolo Attivissimo, giornalista informatico e cacciatore di bufale
+
+**Informativa privacy e cookie:** Questo blog include cookie di terze parti. Non miei ([dettagli](https://tinyurl.com/2p9apfu5))
+
+[Prossimi eventi pubblici](https://attivissimo.me/disinformaticalendario/prossimi/) – [Donazioni](https://attivissimo.me/donazioni/) – [Sci-Fi Universe](https://scifiuniverse.it)
+
+## Cerca nel blog
+
+|  |  |
+| --- | --- |
+|  |  |
+
+## 2023/08/23
+
+### (AGG 2023/08/26 15:25) Tentativo di allunaggio indiano con Chandrayaan-3. Aggiornamento: allunaggio morbido riuscito e rover attivato
+
+*Ultimo aggiornamento: 2023/08/26 15:25.*
+
+**13.52.** È cominciata poco fa la diretta in streaming dell’ente spaziale
+indiano ISRO per il tentativo di allunaggio della sonda *Chandrayaan-3*.
+
+**14:34.** L’India ce l’ha fatta: è diventata il quarto paese ad atterrare
+con successo sulla Luna (dopo Unione Sovietica, Stati Uniti e Cina). La sonda
+ha effettuato un allunaggio morbido relativamente vicino (circa 600 km) al
+Polo Sud lunare, il primo in assoluto di qualunque paese in questa zona
+estremamente interessante della Luna. Un risultato notevolissimo. Le antenne
+del Deep Space Network della NASA a Canberra, in Australia, stanno ricevendo
+telemetria dal veicolo.
+
+La sonda è composta da un modulo fisso di atterraggio, denominato
+*Vikram*, e da un *rover* semovente, chiamato *Pragyan*. Il
+veicolo resterà operativo, secondo i piani, per circa 14 giorni terrestri,
+pari a un giorno lunare (nel senso del periodo di illuminazione solare
+ininterrotta dall’alba locale al tramonto locale, formalmente un *dì*).
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzwRDwPsutlAuZtokrhiSF739Kq1iPZQIXuQx-gqmjqIGwDctUTFitWF6tLSIcASCBQPuscGbleJwhYQxOOpHdFj7Us41sxGPXc0SbNNFkk2YWS1ExXmQNcici0HwhhwQVsAf6QXNdkzWUZYuLRp0TiXDVeBIldongJq9sbD2-HxLRNMVO_jtUMw/s16000/Screenshot%202023-08-23%20at%2014.33.21.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzwRDwPsutlAuZtokrhiSF739Kq1iPZQIXuQx-gqmjqIGwDctUTFitWF6tLSIcASCBQPuscGbleJwhYQxOOpHdFj7Us41sxGPXc0SbNNFkk2YWS1ExXmQNcici0HwhhwQVsAf6QXNdkzWUZYuLRp0TiXDVeBIldongJq9sbD2-HxLRNMVO_jtUMw/s1419/Screenshot%202023-08-23%20at%2014.33.21.png)
+
+Pubblicazione iniziale:
+[23.8.23](https://attivissimo.blogspot.com/2023/08/tentativo-di-allunaggio-indiano.html "permanent link")
+
+[![](https://resources.blogblog.com/img/icon18_email.gif)](https://www.blogger.com/email-post/7421441/2867002306586477107 "Post per email")
+
+Labels:
+[Luna](https://attivissimo.blogspot.com/search/label/Luna),
+[spazio](https://attivissimo.blogspot.com/search/label/spazio)
+
+#### Nessun commento:
+
+[Posta un commento](https://www.blogger.com/comment/fullpage/post/7421441/2867002306586477107)
+
+[Post più recente](https://attivissimo.blogspot.com/2023/08/podcast-rsi-story-come-hackerare-un.html "Post più recente")
+
+[Post più vecchio](https://attivissimo.blogspot.com/2023/08/schianto-della-missione-lunare-luna-25.html "Post più vecchio")
+[Home page](https://attivissimo.blogspot.com/)
+
+Iscriviti a:
+[Commenti sul post (Atom)](https://attivissimo.blogspot.com/feeds/2867002306586477107/comments/default)
+
+Choose a language
+English
+Afrikaans
+العربية
+Azərbaycan
+Беларуская
+Български
+Català
+Český
+Cymraeg
+Danske
+Deutsch
+Ελληνικά
+Euskal
+Español
+Eesti
+فارسی
+Suomalainen
+Français
+Gaeilge
+Galego
+हिन्दी
+Hrvatski
+Kreyòl
+Magyar
+Հայերեն
+Bahasa Indonesia
+Íoslainnis
+עברית
+日本
+ქართული
+한국어
+Latinum
+Lietuvas
+Latvijā
+Македонски
+Melayu
+Malti
+Nederlandse
+Norske (Bokmål)
+Polski
+Português
+Română
+Русский
+Slovenská jazyku
+Slovenski jezik
+Shqiptar
+Српски језик
+Svenska
+Swahili
+ไทย
+Filipino
+Türk
+Українське
+اردو
+Việt
+ייִדיש
+中文 (简体字)
+中文 (正體字)
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ-_-OkaZJxWiZ8HkG3dGC9gbuPA1qB0VDZQ_nOM3eKADHVNjFHFpuxfv0jRYUqMFEy9I7T68WBC4RqG2fgk01IH3SXqiRjKw2b146wtndBtQV-IupobE5YcCFlmXWeIV8sQYgsw/s1600/Cattivissimo-by-francesco-lombardi-gianluigi-gatti.png)
+
+Credit: Gianluigi Gatti
+e Francesco Lombardi
+
+[Telefono, mail, social](https://attivissimo.me/contact/)
+
+**RSS/Feedly:** [attivissimo.blogspot.com](https://attivissimo.blogspot.com)
+
+[Biografia e foto](https://attivissimo.me/about/) / [About me](https://attivissimo.me/english-please/about-me/)
+
+[FAQ](https://attivissimo.me/faq/)
+
+[I temi delle mie conferenze](https://attivissimo.me/disinformaticalendario/temi-conferenze/)
+
+[Podcast (RSI Radiotelevisione Svizzera)](https://www.rsi.ch/web/podcast/il-disinformatico/)
+
+[Podcast (Radio Inblu, 2016-19)](https://www.radioinblu.it/category/la-rete-in-3-minuti/)
+
+[Storie di Scienza](https://attivissimo.me/storie-di-scienza/)
+
+[Indagini sull’11/9](https://undicisettembre.blogspot.com)
+
+[Complotti Lunari](https://complottilunari.blogspot.com)
+
+[*Moonscape*](https://moonscapemovie.blogspot.com) (documentario)
+
+[La bufala delle “scie chimiche”](https://sciechimicheinfo.blogspot.com)
+
+[Auto elettriche: Fuoriditesla.ch](https://fuoriditesla.blogspot.com/)
+
+[Connessioni](https://attivissimo.blogspot.com/p/connessioni.html)
+
+[Disqus: grassetti, corsivi e altri effetti](https://attivissimo.blogspot.com/p/come.html)
+
+[Commenti: regole e uso](https://attivissimo.blogspot.com/p/commenti.html)
+
+[Copyright di questo blog](https://attivissimo.blogspot.com/p/copyright.html)
+
+[Demo per tracciamento pubblicitario](https://attivissimo.blogspot.com/p/link-per-demo-tracciamento-pubblicitario.html)
+
+[Perché identificare tutti sui social network è una pessima idea? Rispieghiamolo con gli esperti](https://attivissimo.blogspot.com/2019/11/perche-identificare-tutti-sui-social.html)
+
+## Libri
+
+[Luna? Sì, ci siamo andati!](http://luna1969.info)
+
+[Moon Hoax: Debunked!](https://www.moonhoaxdebunked.com/)
+
+[Almanacco dello Spazio](https://almanaccodellospazio.ch/)
+
+[L’Efficercatore: uso avanzato dei motori di ricerca](https://efficercatore.blogspot.com/)
+
+[Come diventare detective antibufala](https://www.generazioniconnesse.it/site/_file/documenti/Comunicazione/Fake_news/Dispensa_Docenti_decalogo_bastabufale.pdf) (guida commissionata da MIUR e Camera dei Deputati)
+
+[Gli altri miei libri](https://attivissimo.blogspot.com/p/libri-pubblicati.html)
+
+## Appuntamenti pubblici
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwWo0VmlJW4KbR2KYCr10iEPHo1F2w37XMCsBe5YIHWIkZiTTkwcN6y_lIPVZN5bLGrtRczw_v5yBt1gR4s-sJkJ5lF9aXXgNJAF9TQ3LtGxygFpUy8zxCOOjP4YWq4t27h8HnIQ/s200/calendar-flat-icon-01-.jpg)](https://attivissimo.me/disinformaticalendario/prossimi/)
+
+[Prossimi eventi pubblici](https://attivissimo.me/disinformaticalendario/prossimi/)
+
+[Eventi pubblici passati](https://attivissimo.me/disinformaticalendario/archivio-appuntamenti-pubblici/)
+
+## Visualizzazioni totali
+
+## Versioni di questo blog
+
+* [Per schermi grandi (con barra laterale)](http://attivissimo.blogspot.com/?m=0)
+* [Per schermi piccoli](http://attivissimo.blogspot.com/?m=1)
+
+## Feed RSS
+
+![](https://resources.blogblog.com/img/widgets/arrow_dropdown.gif)
+![](https://resources.blogblog.com/img/icon_feed12.png)
+Post
+
+[![](https://resources.blogblog.com/img/widgets/subscribe-netvibes.png)](https://www.netvibes.com/subscribe.php?url=https%3A%2F%2Fattivissimo.blogspot.com%2Ffeeds%2Fposts%2Fdefault)
+[![](https://resources.blogblog.com/img/widgets/subscribe-yahoo.png)](https://add.my.yahoo.com/content?url=https%3A%2F%2Fattivissimo.blogspot.com%2Ffeeds%2Fposts%2Fdefault)
+[![](https://resources.blogblog.com/img/icon_feed12.png)
+Atom](https://attivissimo.blogspot.com/feeds/posts/default)
+
+![](https://resources.blogblog.com/img/widgets/arrow_dropdown.gif)
+
+![](https://resources.blogblog.com/img/icon_feed12.png)
+Post
+
+![](https://resources.blogblog.com/img/widgets/arrow_dropdown.gif)
+![](https://resources.blogblog.com/img/icon_feed12.png)
+Commenti
+
+[![](https://resources.blogblog.com/img/widgets/subscribe-netvibes.png)](https://www.netvibes.com/subscribe.php?url=https%3A%2F%2Fattivissimo.blogspot.com%2Ffeeds%2F2867002306586477107%2Fcomments%2Fdefault)
+[![](https://resources.blogblog....

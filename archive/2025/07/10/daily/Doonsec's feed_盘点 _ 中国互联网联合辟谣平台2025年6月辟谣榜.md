@@ -1,0 +1,20 @@
+---
+title: 盘点 | 中国互联网联合辟谣平台2025年6月辟谣榜
+url: https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664245362&idx=3&sn=f93c1fbdaed40216d65e777ec3a38862
+source: Doonsec's feed
+date: 2025-07-10
+fetch_date: 2025-10-06T23:22:32.527365
+---
+
+# 盘点 | 中国互联网联合辟谣平台2025年6月辟谣榜
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

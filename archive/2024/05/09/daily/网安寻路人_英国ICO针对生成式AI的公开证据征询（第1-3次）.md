@@ -1,0 +1,61 @@
+---
+title: 英国ICO针对生成式AI的公开证据征询（第1-3次）
+url: https://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247503400&idx=1&sn=fca7bdb810c01da9e6dbaa79fa4dcdd6&chksm=97e973c2a09efad4c30d4b724c2bb3cb29af3af0a77322c5d336d3241884c06dff90175ec088&scene=58&subscene=0#rd
+source: 网安寻路人
+date: 2024-05-09
+fetch_date: 2025-10-06T17:30:42.582570
+---
+
+# 英国ICO针对生成式AI的公开证据征询（第1-3次）
+
+![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jErr674f9m8lN4XocPBHbwqCzUyplAfnARpDPJXMRMGibzsZ8BmpABRliaK0OCibsGW7ibAicGbF43mOxcP3P6lWNzg/0?wx_fmt=jpeg)
+
+# 英国ICO针对生成式AI的公开证据征询（第1-3次）
+
+洪延青
+
+网安寻路人
+
+**编者按**
+
+关于欧洲的人工智能监管方面的立法、政策和实践方面的文章：
+
+1. [《英国ICO人工智能与数据保护指引》选译 | 如何评估AI的安全性和数据最小化？](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247490369&idx=1&sn=7f628b0a227cc4ed5109aaf3b90883a9&chksm=97eaa6aba09d2fbd0a59bdf0376c067783a8b79a6d9e159641c4728f7cd4063ee80cd1158dc9&scene=21#wechat_redirect)
+2. [英国ICO人工智能指导 | 数据分析工具包（全文翻译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247491455&idx=1&sn=0ab1756a63f56cae63936e3958587933&chksm=97eaa295a09d2b83e1c7440a22915ea671cab76bff47bb19fcd623fabf26bbdf54b603cd665d&scene=21#wechat_redirect)
+3. [《英国ICO人工智能与数据保护指引》选译 | 如何保护人工智能系统中的个人权利？](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247490339&idx=1&sn=4ea2af025cdad3d46e7d92a24f76e860&chksm=97eaa6c9a09d2fdf6b2e37475479abbc4a9bc35e4ea9dc0ef29b1b0e727ccc82cd958ee50004&scene=21#wechat_redirect)
+4. [AI监管 | EDPB和EDPS对欧盟AI条例的联合意见书（全文翻译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247492311&idx=1&sn=ea6f445d2fbd1389e2df697fe42539b6&chksm=97e95f3da09ed62bb16298981bd7fa2e46d53fdd97e490cd1bd2c5525a3d64796745ee65a9f1&scene=21#wechat_redirect)
+5. [AI监管 | 对欧盟AI统一规则条例的详细分析](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247492317&idx=1&sn=37fd2e9d5143edec9047e55776f91653&chksm=97e95f37a09ed6217aeb0ec31ec932b4111a108d4a8fd6d0826a8a8df4f5a5c1a712e05dad49&scene=21#wechat_redirect)
+6. [AI监管 | 欧盟《AI统一规则条例（提案）》(全文翻译)](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247492414&idx=1&sn=1c0addca9b35dfebe92c9537d5900f2a&chksm=97e95ed4a09ed7c26da4ccd52e2d8a74f114e8942ec94c7ceda2edcee403be41a2bb4ae466ee&scene=21#wechat_redirect)
+7. [AI监管 | 意大利因骑手算法歧视问题对两个食物配送公司处于高额罚款](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247492795&idx=1&sn=6196503c3e4306a682d220e9908cb9b1&chksm=97e95951a09ed047f5da7263e5dd9bf5426c5ebf906dfcb4bf10ff217154365d1963a4d7c850&scene=21#wechat_redirect)
+8. [AI监管 | 用户数据用于AI模型训练场景的合规要点初探](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247492865&idx=1&sn=813c0a010d8154c19a96b28e16504eb0&chksm=97e958eba09ed1fd26cc26fb2d8eb35fb380a386549c30b5919a6bf4602c15ba1bf270a7814b&scene=21#wechat_redirect)
+9. [欧盟《AI统一规则条例》立法进展（截止20220430）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247494830&idx=1&sn=d878ad1eaf851a64299e3d687dda2de5&chksm=97e95144a09ed85242ba3cbc04453ff551689a1a1f0cca16562c59f93ea6ef1957fd28472138&scene=21#wechat_redirect)
+10. [英国《有效的人工智能保障生态系统路线图》（中译文）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247495907&idx=1&sn=98b352b4129403e81d0e211626b0cc8f&chksm=97e94d09a09ec41f7962507e3c379938b6d5774e43af0e7a6038a91f945ed61ea1f63dbef8f9&scene=21#wechat_redirect)
+11. [GDPR 项下的自动化决策：法院和数据保护机构的实际案例【全文翻译】](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247497430&idx=1&sn=fbee0053decb2c2c6cd34447f3dab5bc&chksm=97e94b3ca09ec22ad0bef6b833f2e823f7c3f9e2242f07bec24b7431b9db1b9ed58b53a755f7&scene=21#wechat_redirect)
+12. [欧盟的人工智能法案正朝着不存在的人工智能标准方向发展（外专观点）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247498707&idx=1&sn=3782542fe8f708ccd042e810e1618e9b&chksm=97e94639a09ecf2fe42640205141becb2a40aab9528f0d87e174f93dd768520b2357fd46a8a0&scene=21#wechat_redirect)
+13. [审计算法：现有格局、 监管机构的作用和未来展望（全文翻译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247498769&idx=1&sn=db462787a7d41e8bca012043a1945f74&chksm=97e941fba09ec8ed234aa14d748a161ba0fb967f5d202bf0eaddfdeb34349292c3cb131606c6&scene=21#wechat_redirect)
+14. [欧洲新近执法中对算法的描述（DPO社群成员观点）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247499000&idx=1&sn=e9961a69c146fb76092ab922903afdea&chksm=97e94112a09ec80497e887bd359ad2a90634aa871d2de7e9e0726141e44b3d335695e1e0003c&scene=21#wechat_redirect)
+15. [基于立法过程解析欧盟《人工智能法案》](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247499071&idx=1&sn=41fc1c89c50b436ef2871faffc2f66aa&chksm=97e940d5a09ec9c3fa5e5fb3c552c6b04a2d2e7b028b680dca04e3c9382f1c89c3fedc21c0b2&scene=21#wechat_redirect)
+16. [欧盟人工智能立法过程中的折衷与争论：选译](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247499128&idx=1&sn=130dd3633bbb4945d847930ec58f04ff&chksm=97e94092a09ec9847b67ea24215750c92951e30a092a57363520d1bd27eb10e165b495b523f6&scene=21#wechat_redirect)
+17. [欧盟立法者支持生成性人工智能的透明度和安全规则【外媒编译】](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247499752&idx=1&sn=0f920260ed392ce90682a0d825074a8c&chksm=97e94202a09ecb14c02220c3403db513a992036fb22c5192deb4ed34f28424672ea9b9223082&scene=21#wechat_redirect)
+18. [欧洲议会关于欧盟《AI法案》的折衷案文（中文全文翻译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247499858&idx=1&sn=de42e65d6e2b98593de8c948428e80a1&chksm=97e97db8a09ef4aec440e6d78bcb693a285b6a60010a984e3c3f5d59c6c96d047be342bc4834&scene=21#wechat_redirect)
+19. [挪威DPA关于在Ruter参与AI监管沙盒的最终报告](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247499944&idx=1&sn=c3840fecad4446f7e8ba062d388560c2&chksm=97e97d42a09ef454b5199c147ae07308ff3c3c761d0b06c7378f32bd2ddd2065dce34f620801&scene=21#wechat_redirect)
+20. [欧盟《人工智能法案》立法过程中成员国间的意见分歧（选译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247500103&idx=1&sn=a5029f117469b9468603830daf5518a9&chksm=97e97cada09ef5bb3162b15a828b0c1162ed23bfd0c7c9d9def6b95d101ec2cbae89b1db23ca&scene=21#wechat_redirect)
+21. [欧洲议会和欧盟委员会关于缺陷产品责任的指令的建议（选译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247500110&idx=1&sn=b8129fc170ed129570fb68f39dad710f&chksm=97e97ca4a09ef5b251e0f755f347def672f0328770c8cdd83741d43b54d83130f4f87a6d2dfa&scene=21#wechat_redirect)
+22. [欧盟《AI条例》的立法进展和现有三个版本重点内容比较（截止2023年7月）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247500118&idx=1&sn=2d00222bc8d57dbd536a79c93b86c8f2&chksm=97e97cbca09ef5aac82205a8d23c567bc6e1fbc71261bdede7f22f257d68a2e31de9d33483f9&scene=21#wechat_redirect)
+23. [欧盟《人工智能法案》谈判：回顾与前瞻](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247500139&idx=1&sn=e7692362c0193151b45e0ce1dd3a9472&chksm=97e97c81a09ef597caa0855faad00c5f50ac41eb1667e825a616c37fdde88a78fcbd84e1373f&scene=21#wechat_redirect)
+24. [英国间谍机构希望放宽对AI数据使用的“繁重”法律（外媒编译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247500166&idx=1&sn=b54c50df4a1fd231724fc48687e30865&chksm=97e97c6ca09ef57a066c7ce15a0b82a65bc8b17bf4e349c340b6b39031bbd1b776367bc3d1df&scene=21#wechat_redirect)
+25. [欧盟《人工智能法》最终版全文翻译（一）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247501846&idx=1&sn=37d03b6c0f9d63ec629b0a0a18de630d&chksm=97e975fca09efcea6aef0e001fb6bfcb25097b9cdcd8fd267b6aae35ee1b4e9ae32f3a1ab068&scene=21#wechat_redirect)
+26. [欧盟《人工智能法》最终版全文翻译（二）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247501972&idx=1&sn=2cfb5d2420643a0c0b0bac0efb3ea394&chksm=97e9757ea09efc6850dd2b7d4c9666db4796a6792bb8ee44dacb4e82f3a2a62b525c98672005&scene=21#wechat_redirect)
+27. [欧盟《人工智能法》最终版全文翻译（三）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247502086&idx=1&sn=3f693b4b96ec54fefad651d9abe5bbb5&chksm=97e974eca09efdfa09727b1e918737187dcb22c0cb9d45d8d15e437f40c3e2d298ff2229b5e5&scene=21#wechat_redirect)
+28. [欧盟《人工智能法》最终版全文翻译（四）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247502253&idx=1&sn=818a88092adca7c8dfbbbb358dd12e41&chksm=97e97447a09efd519ea7ba39e587a665991bedd0b10f9d821aedf4e4decb159e18f976b96a32&scene=21#wechat_redirect)
+29. [欧盟-美国人工智能术语和分类法第二版（中文翻译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247503033&idx=1&sn=b377fd859cf5bd811dbf844053194985&chksm=97e97153a09ef845ea8f12b302f76f75ca6a9ff44d7465f58a3bd8a2a66146807cc9dbd486d6&scene=21#wechat_redirect)
+
+今天和大家分享的是英国ICO针对生成式AI的三次公开证据征询。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jErr674f9m8lN4XocPBHbwqCzUyplAfnIZ9W4kVbOfrW3yhfaggyy4rbxzX902T6SiccBlfRcv1llVsyFtKem3g/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jErr674f9m8lN4XocPBHbwqCzUyplAfnDMl7OZUibYWsgEmKv9dN0BXmGOzhGVOicdHBdpp6YXr5KOAA7RhygXug/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jErr674f9m8lN4XocPBHbwqCzUyplAfnGlZjPxSkKXDibwrOvFtVU8MGibwzFv33R8lJWNuFRwcX60f4LWUgQnOg/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_j...

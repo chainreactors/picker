@@ -1,0 +1,179 @@
+---
+title: .NET 内网攻防实战电子报刊
+url: https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247498893&idx=2&sn=028c39f0e495ec588f6480499c7052da&chksm=fa595260cd2edb76777814900550d53026115c80443373b894c3d1e842abd07f4f45530cb8c5&scene=58&subscene=0#rd
+source: dotNet安全矩阵
+date: 2025-02-13
+fetch_date: 2025-10-06T20:36:05.561176
+---
+
+# .NET 内网攻防实战电子报刊
+
+![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/NO8Q9ApS1YibRm3ddIaKMSfiavc6txicicU1eib4VEmjmUeGtXe6ThNExNyZCe6ytgjYkKohuuVHbJ7HehEQegq3RJA/0?wx_fmt=jpeg)
+
+# .NET 内网攻防实战电子报刊
+
+专攻.NET安全的
+
+dotNet安全矩阵
+
+01
+
+.NET内网安全攻防报刊
+
+小报童电子报刊【.NET内网安全攻防】也正式上线了，引入小报童也是为了弥补知识星球对于轻量级阅读支持的不足，为用户读者提供更佳的阅读体验。如果您对阅读体验的需求比较高，那么可以订阅这个专栏。
+
+本次电子报刊《.NET 内网安全攻防》专栏，内容主要有.NET在各个内网渗透阶段与Windows系统交互的方式和技巧，可细分为以下8个方向。
+
+```
+1） .NET 安全防御绕过
+2） .NET 本地权限提升
+3） .NET 内网信息收集
+4） .NET 内网代理通道
+5） .NET 内网横向移动
+6） .NET 目标权限维持
+7） .NET 数据传输外发
+8） .NET 目标痕迹清理
+```
+
+原价899，现在限时只需59元，永久买断！目前已有200+位朋友抢先预定，我们会长期更新，初步计划保持每周更新1-2篇新内容，对.NET内网安全感兴趣的朋友们请尽快订阅该报刊！![](https://mmbiz.qpic.cn/mmbiz_jpg/NO8Q9ApS1YibeicvDNVldcXTgRnFUFTwOqfTleogJThU7kCaZJuuU2BLVLYluu6CFV7BX458AxBcd93ickZ0rmOqQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+02
+
+精华专栏报文
+
+## 2.1 .NET 内网权限维持
+
+WMI 事件订阅是一种强大的功能，允许用户订阅系统事件，并在这些事件发生时执行预定义的操作......
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6grM0uCX7owQX5IpWDT6QVmyNMUjmcemqUT0823C2ib9Dw9mXQRJMj3g/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1YicV41IrAXazP4VPm1ybo47GwJibao4c22eJmpXjPmEV3icFPtJsmFjQXj4gRibEwEoQ17jUibhs3W0EIg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6KVMMM1ZNLCOSk7iaSBdXmHO16Sg7icp7VicezcmvGibq6s5YkVTsT1ES8w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8TQhCZMggf71ffibqISJ8f5C0whQHzIMBExGF9bBwlBVnkqTrxVYK9a2ib5NudLoMkUcGkBGfegBNQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8TQhCZMggf71ffibqISJ8f5yx0Vcd8yvyr4EGYt2AcTS24IRCiaIgCkXX9k71W7iaibcyG5ichBbEaSGQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6tzas8rwIxuicLaLAvUWicOsWSpfdUYcAUlMoibXbBTF5MMzibNzT6HIVxw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Yib5CJlFmEOTeruxSS2L8gEiaYr2PZ2h4tHC5sGG1SDyicT6l6cebtRiavXQOAotmQQxqUUiaia2YoMV9nQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6fqoqYleA5Wr4ibWOY27aDbv2fQZuDrfIibDvPV9aDSziaWNjbn9Ch29hg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6kFaBKEWpamibjmjKZalMg1fv5UfRwOhzls9aZicPS7SgsVFP0obnBkYQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6ENicCaD3va5HjiazQr76KvNt8xNRfiaZMGbjkM6rP43ZemS7r7jSvYjYA/640?wx_fmt=png&from=appmsg)
+
+## 2.2 .NET 安全防御绕过
+
+傀儡进程是指被攻击者通过技术手段，修改其内存数据，并植入恶意的Shellcode，进而控制其执行流程，使其转向执行恶意代码的进程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6IePEYbIicl4ya2IoRDZOfAfMG6oAVia2h534XXdwGo6ic1SEuHLIvr2dg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp60OcLDqBicWibWn1zPbicEWibjrTQjwYMBY2REZJy0OF5UOtRGcXSWDF4KA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1YicV41IrAXazP4VPm1ybo47GPdHnIblkoj4ibILmmHthAticr6wJFtZZmkpUNRUVOQfyIljNlLMgMMgQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6UjaGwybz7ibjqLSmibWvpYOX1iaqzGcTicWzzeZSyPNYZa1YJyfo1ZuKdQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1YicV41IrAXazP4VPm1ybo47GYp8sNXHMv6op5GrgdLBhSShF2icHWjB2f5IQJQl9ELOyLCobN8pgdibg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6YViaAhAxWSdfkaKtiab4KqU0WNVWibOUyCxw5mncLDFjEjkZBqibSfdeQg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp64ZcFoA5t9A5g4wmj4tsEU6vSuatSjJydYIOm9CcoZQkfSOgaxsdwbA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8TQhCZMggf71ffibqISJ8f5C8aLNSiaY4tZO1U8Fs8yc0PGfLC9l0L6OGo4JN02BHCPxam4tiaiaoVnw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6M5heheVI07mE60VoID39EJanbQKGUzAb9av5H0QXiaHHDMpPC5PwdicQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8TQhCZMggf71ffibqISJ8f5OuQazhVe6ConObvQtfO3bJnwQLvYx2q8HRCr7iaztN9jyhXmRQC1LfQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+## 2.3 .NET 内网信息收集
+
+在红队活动中，信息收集是内网渗透测试的首要步骤，了解内网中哪些主机可以连通外部网络，是攻击者成功渗透的关键之一
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp65lBubuNFgkQrIJhj7YX0iazIOmCJFNs9G0I8akK9Y9YvtcSWaPD9MSQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6PRVTFibEtRwxH7gxgbd4lxzEvY1wlNNzQmsAKVRYOzyowuTPehahYaA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6aD7pjYicXmLDSl8q4HWcgr19F6zd6A4ptu9K4ibctGoeZFKKiaW6bPgWA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1YibRSbGKuzc7bbTCCdt2JBxABOlHzcwrXm7qwTJ9zyORhnL1RUjVrnpuibMwgtxsdIUFhWgLCqumqgA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1YicKqPpUFs6Oia6e723AF0vTNXOibWZrHAPw0szTAfTLnqVVrpJTlbd2juWwMIFsFDqyuiangWzPdH57Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Yib5CJlFmEOTeruxSS2L8gEia3bRxI0jMxkHxEzTlMtmFvefwx8dkGKLdEvgcF2UU7m6Jicd5xItKXcg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+## 2.4 .NET 本地权限提升
+
+在 Windows 操作系统中，用户和进程可以拥有不同的权限，这些权限控制着能够执行的操作范围。如果当前进程获取到本地用户或者系统服务账户启用了一些不安全的权限，那么有可能会完成权限提升。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6dhW29r9GUx3d5PUicP49LEaqOYHiaqRtSqCO6yBhOPegKyMvCSZpNI9Q/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6owRdZJNEJyN4ibib7ccyq7SyBNfZ3oEkEyZb4p8A9gMSiceMMo7TARv5w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6lmYyUWFqZx0eibQ64jWD1hVla8iaKc5R7SqWmicZNTJYp983jm5mhLzlw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6JwEv8sPuBhMibVDQR13YeYjDECTglNUrMw4ustIviabcbSVUIP7xcPbg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp61AmDw3F1ibOofQr90WlJAYAjVibswmWUH6wDWJTERLSBGnlvhbk6E17w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1YicV41IrAXazP4VPm1ybo47GuDTKabcoYCQiaEQhKtLkIGs2jamdiaXXGfGzErQbC89FqXKjB0iadNchw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1YicV41IrAXazP4VPm1ybo47GUj7HCCGshdo3AITwicICED7xmZyn2yQFp9vGibQ1v8iaAlM65Ke5KGSzA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Yib5CJlFmEOTeruxSS2L8gEiabFBK3Pce4W4ibyWk0gV8YGvkpicKdLkegkO6wc9WWIrfgbGZWNracPvg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+## 2.4 .NET 目标痕迹清理
+
+在渗透测试或攻击活动中，清理日志是一项关键的操作，用于掩盖攻击者的行为，避免被防御者发现和追踪。Windows 系统的事件日志是安全分析和取证的重要依据，而通过 .NET 程序调用 wevtutil 命令，可以高效地清空所有的系统日志，这种方法具有较强的隐蔽性，能够绕过大部分传统的日志分析工具，为攻击者提供了一种强有力的反取证手段。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6rzeENQmo5hCcXfnYOkvqe68dZzCnaiaOc8CLyOG7ib0Ed2xzDQsN3pzg/640?wx_fmt=png&from=appmsg)
+
+03
+
+欢迎加入报刊
+
+每增加五十人涨价10元，抓紧订阅，超值！订阅后请关注公众号：dotNet安全矩阵，发送订单截图和您的微信号，邀请您加入专属交流群。感兴趣的朋友，可以点击链接：https://xiaobot.net/p/dotNetAttack，或者扫描下方海报微信二维码加入即可，订阅后小报童定时会将最新内容通过微信推送给您。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8oicfEnZ01LkDH9F8Zwqmp6fDhwowpKR6GGBuuUgvqMmoNiaA90huKJtqSwwVff6Ye1eiazibF00s6IQ/640?wx_fmt=png&from=appmsg)
+
+预览时标签不可点
+
+![]()
+
+微信扫一扫
+关注该公众号
+
+继续滑动看下一个
+
+轻触阅读原文
+
+![](http://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8uc3CokHvGlrE00icPjW7AdTgEXkDtRT81Bbiaibx9gpMD6thAiawO5vz0icNlUzrzaOf6g044Tnzv3sQ/0?wx_fmt=png)
+
+dotNet安全矩阵
+
+向上滑动看下一个
+
+知道了
+
+![]()
+微信扫一扫
+使用小程序
+
+取消
+允许
+
+取消
+允许
+
+取消
+允许
+
+×
+分析
+
+![跳转二维码]()
+
+![作者头像](http://mmbiz.qpic.cn/mmbiz_png/NO8Q9ApS1Y8uc3CokHvGlrE00icPjW7AdTgEXkDtRT81Bbiaib...

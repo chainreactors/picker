@@ -1,0 +1,131 @@
+# 每日安全资讯（2025-04-14）
+
+- SecWiki News
+  - [ ] [SecWiki News 2025-04-13 Review](http://www.sec-wiki.com/?2025-04-13)
+- Security Boulevard
+  - [ ] [Gaining Ground with Advanced NHIs Analysis](https://securityboulevard.com/2025/04/gaining-ground-with-advanced-nhis-analysis/?utm_source=rss&utm_medium=rss&utm_campaign=gaining-ground-with-advanced-nhis-analysis)
+  - [ ] [Free to Innovate with Secure Machine Identity Management](https://securityboulevard.com/2025/04/free-to-innovate-with-secure-machine-identity-management/?utm_source=rss&utm_medium=rss&utm_campaign=free-to-innovate-with-secure-machine-identity-management)
+  - [ ] [BSidesLV24 – Breaking Ground – 14 Years Later, Proving Ground Is Proving Out. A Panel Discussion With PG Alumni And Staff](https://securityboulevard.com/2025/04/bsideslv24-breaking-ground-14-years-later-proving-ground-is-proving-out-a-panel-discussion-with-pg-alumni-and-staff/?utm_source=rss&utm_medium=rss&utm_campaign=bsideslv24-breaking-ground-14-years-later-proving-ground-is-proving-out-a-panel-discussion-with-pg-alumni-and-staff)
+- Hacking Articles
+  - [ ] [Sapphire Ticket Attack: Abusing Kerberos Trust](https://www.hackingarticles.in/sapphire-ticket-attack-abusing-kerberos-trust/)
+- Private Feed for M09Ic
+  - [ ] [boy-hack released v2.2.1 at boy-hack/ksubdomain](https://github.com/boy-hack/ksubdomain/releases/tag/v2.2.1)
+  - [ ] [nightRainy starred gtworek/PSBits](https://github.com/gtworek/PSBits)
+  - [ ] [boy-hack released v2.2 at boy-hack/ksubdomain](https://github.com/boy-hack/ksubdomain/releases/tag/v2.2)
+  - [ ] [IsaacQiang started following M09Ic](https://github.com/M09Ic)
+  - [ ] [phith0n starred chainreactors/rem-community](https://github.com/chainreactors/rem-community)
+  - [ ] [h3zh1 pushed to dev in chainreactors/malice-network](https://github.com/chainreactors/malice-network/compare/120e831508...2ec8b08e77)
+  - [ ] [HuYlllc pushed to dev in chainreactors/malice-network](https://github.com/chainreactors/malice-network/compare/e8d4701a9e...120e831508)
+  - [ ] [zema1 starred EasyTier/EasyTier](https://github.com/EasyTier/EasyTier)
+  - [ ] [4ra1n forked 4ra1n/proxyee from monkeyWie/proxyee](https://github.com/4ra1n/proxyee)
+  - [ ] [TideSec starred lz520520/railgun](https://github.com/lz520520/railgun)
+  - [ ] [Rvn0xsy starred heiher/hev-socks5-tunnel](https://github.com/heiher/hev-socks5-tunnel)
+  - [ ] [Rvn0xsy starred xjasonlyu/tun2socks](https://github.com/xjasonlyu/tun2socks)
+  - [ ] [killeven starred kevwan/go-stash](https://github.com/kevwan/go-stash)
+  - [ ] [zema1 starred JSREP/crawler-leetcode](https://github.com/JSREP/crawler-leetcode)
+  - [ ] [FunnyWolf starred aliasrobotics/cai](https://github.com/aliasrobotics/cai)
+  - [ ] [lz520520 starred c2pain/RustPatchlessCLRLoader](https://github.com/c2pain/RustPatchlessCLRLoader)
+  - [ ] [CHYbeta starred browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)
+- obaby@mars
+  - [ ] [白嫖百度网盘超级会员和7T空间](https://h4ck.org.cn/2025/04/20182)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Apr 13 16:16:41 UTC 2025](https://github.com/trickest/cve/commit/b8d007528e1d233656f4f29170fb421e03736248)
+- Bug Bounty in InfoSec Write-ups on Medium
+  - [ ] [The Hidden XSS: A Bug Hidden in the Mist](https://infosecwriteups.com/the-hidden-xss-a-bug-hidden-in-the-mist-907d6cc55322?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [One Random Recon, One Real Bounty: The Paytm Story](https://infosecwriteups.com/ghost-paytm-xss-bounty-4f5efe6a643b?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [How Burp Suite AI Makes Vulnerability Testing Easy and Fast](https://infosecwriteups.com/how-burp-suite-ai-makes-vulnerability-testing-easy-and-fast-03b6ca0ca6e5?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [How I Found a Bug in a Government Website (And Got Recognized for It) ️)](https://infosecwriteups.com/how-i-found-a-bug-in-a-government-website-and-got-recognized-for-it-%EF%B8%8F-2f057a99f458?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [A Hacker’s Instinct: The Power You Unlock When You Stop Looking and Start Seeing](https://infosecwriteups.com/a-hackers-instinct-the-power-you-unlock-when-you-stop-looking-and-start-seeing-2715865e13f7?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [How My Name Crashed a Welcome Party: SSI to RCE Surprise! with $$$$](https://infosecwriteups.com/how-my-name-crashed-a-welcome-party-ssi-to-rce-surprise-with-f9b8a05ad138?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [️‍♂️ Bug Bounty Secrets They Don’t Tell You: Tricks From 100+ Reported Bugs](https://infosecwriteups.com/%EF%B8%8F-%EF%B8%8F-bug-bounty-secrets-they-dont-tell-you-tricks-from-100-reported-bugs-603e4a6bb84f?source=rss----7b722bfd1b8d--bug_bounty)
+- Didier Stevens
+  - [ ] [Overview of Content Published in March](https://blog.didierstevens.com/2025/04/13/overview-of-content-published-in-march-10/)
+- Reverse Engineering
+  - [ ] [Malware Development Series | Beginner to Advanced 2025](https://www.reddit.com/r/ReverseEngineering/comments/1jycrij/malware_development_series_beginner_to_advanced/)
+- KitPloit - PenTest &amp; Hacking Tools
+  - [ ] [Instagram-Brute-Force-2024 - Instagram Brute Force 2024 Compatible With Python 3.13 / X64 Bit / Only Chrome Browser](http://www.kitploit.com/2025/04/instagram-brute-force-2024-instagram.html)
+- 黑海洋 - Wiki
+  - [ ] [Windows11 24H2 x64纯净版 2025.4](https://blog.upx8.com/2518)
+  - [ ] [NETworkManager (网络管理软件)](https://blog.upx8.com/4745)
+  - [ ] [腾讯自研Git客户端 UGit](https://blog.upx8.com/4744)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [GitHub 短暂限制中国 IP 访问](https://www.solidot.org/story?sid=81038)
+  - [ ] [德国 UBI 实验未发现参与者会停止工作](https://www.solidot.org/story?sid=81037)
+  - [ ] [巴黎限制汽车显著改善了空气质量](https://www.solidot.org/story?sid=81036)
+  - [ ] [Google 新 AI 模型超越了所有竞争对手](https://www.solidot.org/story?sid=81035)
+  - [ ] [美国对智能手机等豁免征收关税](https://www.solidot.org/story?sid=81034)
+- 安全分析与研究
+  - [ ] [NetSupport RAT远控样本分析](https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247491560&idx=1&sn=f8a595ba91dd5c0ded3f06576029d027&subscene=0)
+- 威努特安全网络
+  - [ ] [威努特态势感知：助力数字转型，筑牢安全防线](https://mp.weixin.qq.com/s?__biz=MzAwNTgyODU3NQ==&mid=2651132345&idx=1&sn=c27d338da8a2878fbb3cffc217edb1a7&subscene=0)
+- 电子物证
+  - [ ] [【MySQL表文件迁移与存储引擎转换：原理与实现】](https://mp.weixin.qq.com/s?__biz=MzAwNDcwMDgzMA==&mid=2651048398&idx=1&sn=f78df70f676f5b14cef3050fe4de8ecd&subscene=0)
+  - [ ] [【人工智能法律治理的国际实践】](https://mp.weixin.qq.com/s?__biz=MzAwNDcwMDgzMA==&mid=2651048398&idx=2&sn=f07c1d1ce99b11cbfe4e9ef87586c04b&subscene=0)
+- 网安杂谈
+  - [ ] [大模型入门优质课程推荐：书生大模型实战营第五期](https://mp.weixin.qq.com/s?__biz=MzAwMTMzMDUwNg==&mid=2650889566&idx=1&sn=69146faec6a38e3c4832c979ee424eb0&subscene=0)
+- 安全研究GoSSIP
+  - [ ] [G.O.S.S.I.P 阅读推荐 2025-04-13 摧毁Intel 熔丝加密密钥安全防护](https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247500023&idx=1&sn=0bcad408da94f2df6c4e0ba0530befb3&subscene=0)
+  - [ ] [G.O.S.S.I.P 2025年4月投稿指南](https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247500023&idx=2&sn=56df65e4e1702c6876581bb0ff5dbd3b&subscene=0)
+- 安全圈
+  - [ ] [【安全圈】GitHub 主动屏蔽中国大陆用户，部分港澳用户同样受影响](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069060&idx=1&sn=1633fcbcb48a0517419c5896f8d44571&subscene=0)
+  - [ ] [【安全圈】7 人被罚：称含 intel 设备为非国产](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069060&idx=2&sn=f852ca0193edd06dc0d0f3060d031890&subscene=0)
+  - [ ] [【安全圈】WordPress插件漏洞导致网站遭受关键文件包含攻击](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069060&idx=3&sn=30e98f80aea19e6a87a4765e728b6602&subscene=0)
+  - [ ] [【安全圈】TP-Link  漏洞：Wi-Fi 凭据面临泄露风险](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069060&idx=4&sn=8f7ac8e308536849b9fc926f55d5b341&subscene=0)
+- 极客公园
+  - [ ] [美国对电脑、手机等豁免征收「对等关税」；Ilya 新公司估值达到 2000 亿元；刘强东回应美团高管看衰京东外卖 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653077456&idx=1&sn=ab287bbfcc883d40ccc48086a9ea09ac&subscene=0)
+- 山石网科安全技术研究院
+  - [ ] [警惕！NVIDIA Triton推理服务器整数溢出漏洞曝光：原理、复现与修复全解析](https://mp.weixin.qq.com/s?__biz=MzUzMDUxNTE1Mw==&mid=2247511690&idx=1&sn=6d60fe31b68f04bb55ead2d1e4d7aa70&subscene=0)
+- 自在安全
+  - [ ] [ClassPathXmlApplicationContext不出网利用学习](https://mp.weixin.qq.com/s?__biz=Mzk0NTU5Mjg0Ng==&mid=2247491691&idx=1&sn=758f1fd9d10910523df81c37e3ea1809&subscene=0)
+- RedTeam
+  - [ ] [买在无人问津时](https://mp.weixin.qq.com/s?__biz=Mzg5NjAxNjc5OQ==&mid=2247484401&idx=1&sn=5e4dec4941f4e35d7f56396377b263ea&subscene=0)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Cyberwar: cos’è, tipologie di attacchi cibernetici e soluzioni per combattere la guerra ibrida](https://www.cybersecurity360.it/cybersecurity-nazionale/cyberwar-cose-tipologie-di-attacchi-cibernetici-e-soluzioni-per-combattere-la-guerra-ibrida/)
+  - [ ] [VPS: cosa sono, come funzionano e perché dovremmo utilizzare i Virtual Private Server](https://www.cybersecurity360.it/soluzioni-aziendali/vps-cosa-sono-come-funzionano-e-perche-dovremmo-utilizzare-i-virtual-private-server/)
+  - [ ] [Autenticazione a due fattori: quando attivarla e come protegge i nostri account](https://www.cybersecurity360.it/soluzioni-aziendali/autenticazione-a-due-fattori-cose-come-e-perche-usarla-per-google-facebook-instagram-e-altri/)
+  - [ ] [La truffa Whatsapp del codice a 6 cifre: così c’è il furto del profilo, ecco come difendersi](https://www.cybersecurity360.it/nuove-minacce/la-truffa-whatsapp-del-codice-a-6-cifre-cosi-ce-il-furto-del-profilo-come-difendersi/)
+  - [ ] [Software spia e intercettazioni digitali: cosa sono e come difendersi](https://www.cybersecurity360.it/cultura-cyber/software-spia-e-intercettazioni-digitali-cosa-sono-e-come-difendersi/)
+  - [ ] [Applicazioni spia: come funzionano e perché rappresentano un rischio per la privacy](https://www.cybersecurity360.it/nuove-minacce/app-spia-come-funzionano-e-perche-rappresentano-un-rischio-per-la-privacy/)
+  - [ ] [Brute force: cosa sono e come come proteggere le password](https://www.cybersecurity360.it/nuove-minacce/brute-force-cosa-sono-gli-attacchi-a-forza-bruta-come-farli-e-prevenirli/)
+  - [ ] [Samsung Germany Customer Tickets - 216,333 breached accounts](https://haveibeenpwned.com/PwnedWebsites#SamsungGermany)
+- 迪哥讲事
+  - [ ] [权限绕过骚思路](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497407&idx=1&sn=04355bc0583f5b5753784d10fdf93e08&subscene=0)
+- Hacking Exposed Computer Forensics Blog
+  - [ ] [Daily Blog #807: Sunday Funday 4/13/25](https://www.hecfblog.com/2025/04/daily-blog-807-sunday-funday-41325.html)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [Exploit Attempts for Recent Langflow AI Vulnerability (CVE-2025-3248), (Sat, Apr 12th)](https://isc.sans.edu/diary/rss/31850)
+- Have I Been Pwned latest breaches
+  - [ ] [Samsung Germany Customer Tickets - 216,333 breached accounts](https://haveibeenpwned.com/PwnedWebsites#SamsungGermany)
+- Full Disclosure
+  - [ ] [83 vulnerabilities in Vasion Print / PrinterLogic](https://seclists.org/fulldisclosure/2025/Apr/18)
+  - [ ] [[CVE-2025-32102, CVE-2025-32103] SSRF and Directory Traversal in CrushFTP 10.7.1 and 11.1.0 (as well as legacy 9.x)](https://seclists.org/fulldisclosure/2025/Apr/17)
+  - [ ] [Re: APPLE-SA-03-11-2025-2 iOS 18.3.2 and iPadOS 18.3.2](https://seclists.org/fulldisclosure/2025/Apr/16)
+  - [ ] [[KIS-2025-01] UNA CMS <= 14.0.0-RC4 (BxBaseMenuSetAclLevel.php) PHP Object Injection Vulnerability](https://seclists.org/fulldisclosure/2025/Apr/15)
+  - [ ] [OXAS-ADV-2025-0001: OX App Suite Security Advisory](https://seclists.org/fulldisclosure/2025/Apr/14)
+- The Register - Security
+  - [ ] [Hacktivism resurges – but don't be fooled, it's often state-backed goons in masks](https://go.theregister.com/feed/www.theregister.com/2025/04/13/hacktivism_is_having_a_resurgence/)
+- Security Affairs
+  - [ ] [SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 41](https://securityaffairs.com/176503/malware/security-affairs-malware-newsletter-round-41.html)
+  - [ ] [Security Affairs newsletter Round 519 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/176494/breaking-news/security-affairs-newsletter-round-519-by-pierluigi-paganini-international-edition.html)
+  - [ ] [China admitted its role in Volt Typhoon cyberattacks on U.S. infrastructure](https://securityaffairs.com/176485/apt/china-admitted-its-role-in-volt-typhoon-cyberattacks-on-u-s-infrastructure.html)
+- Information Security
+  - [ ] [ever dealt with crypto asset recovery? interesting experience with tracing a compromised wallet](https://www.reddit.com/r/Information_Security/comments/1jy3i5z/ever_dealt_with_crypto_asset_recovery_interesting/)
+- Social Engineering
+  - [ ] [Blurry text](https://www.reddit.com/r/SocialEngineering/comments/1jyd3gv/blurry_text/)
+- Computer Forensics
+  - [ ] [Do people usually delete their porn before having their device forensically examined?](https://www.reddit.com/r/computerforensics/comments/1jycbcw/do_people_usually_delete_their_porn_before_having/)
+  - [ ] [Seeking AI-Based Tools for Forensic Image and Video Analysis](https://www.reddit.com/r/computerforensics/comments/1jye0o5/seeking_aibased_tools_for_forensic_image_and/)
+  - [ ] [Sunday Funday Challenge for the week of 4/13/25 - Win $100 Amazon Gift Card](https://www.reddit.com/r/computerforensics/comments/1jyhray/sunday_funday_challenge_for_the_week_of_41325_win/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [Resource for Students: Dashboard Tracking Real-World Security Events (CVEs, Breaches, EOLs)](https://www.reddit.com/r/netsecstudents/comments/1jyd8yg/resource_for_students_dashboard_tracking/)
+- TorrentFreak
+  - [ ] [Block Mirror: Dystopian Site-Blocking Triggers Circumvention Innovation](https://torrentfreak.com/block-mirror-dystopian-site-blocking-triggers-circumvention-innovation-250413/)
+- KitPloit - PenTest Tools!
+  - [ ] [Instagram-Brute-Force-2024 - Instagram Brute Force 2024 Compatible With Python 3.13 / X64 Bit / Only Chrome Browser](http://www.kitploit.com/2025/04/instagram-brute-force-2024-instagram.html)
+- Your Open Hacker Community
+  - [ ] [Practice WiFi hacking entirely within VM?](https://www.reddit.com/r/HowToHack/comments/1jykw57/practice_wifi_hacking_entirely_within_vm/)
+- Technical Information Security Content & Discussion
+  - [ ] [Consolidated View of Security Data: CVEs, Breaches, Ransomware & EOL Tracking](https://www.reddit.com/r/netsec/comments/1jyd734/consolidated_view_of_security_data_cves_breaches/)
+  - [ ] [We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs](https://www.reddit.com/r/netsec/comments/1jyihpn/we_have_a_package_for_you_a_comprehensive/)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Can’t programmatically set value in input field (credit card field) using JavaScript — setter doesn’t work](https://www.reddit.com/r/blackhat/comments/1jxxp02/cant_programmatically_set_value_in_input_field/)

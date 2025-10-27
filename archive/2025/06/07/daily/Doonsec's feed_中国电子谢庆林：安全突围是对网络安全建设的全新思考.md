@@ -1,0 +1,20 @@
+---
+title: 中国电子谢庆林：安全突围是对网络安全建设的全新思考
+url: https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247523219&idx=6&sn=e9c8700a2c5fe2ecf5709b86bc4394ea
+source: Doonsec's feed
+date: 2025-06-07
+fetch_date: 2025-10-06T22:52:46.534661
+---
+
+# 中国电子谢庆林：安全突围是对网络安全建设的全新思考
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

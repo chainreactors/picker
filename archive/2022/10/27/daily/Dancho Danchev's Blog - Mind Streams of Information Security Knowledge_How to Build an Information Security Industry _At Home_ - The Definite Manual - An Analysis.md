@@ -1,0 +1,49 @@
+---
+title: How to Build an Information Security Industry "At Home" - The Definite Manual - An Analysis
+url: https://ddanchev.blogspot.com/2022/10/how-to-build-information-security.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2022-10-27
+fetch_date: 2025-10-03T21:00:00.936758
+---
+
+# How to Build an Information Security Industry "At Home" - The Definite Manual - An Analysis
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+Independent Contractor. Bitcoin: 15Zvie1j8CjSR52doVSZSjctCDSx3pDjKZ Email: dancho.danchev@hush.com OMEMO: ddanchev@conversations.im | OTR: danchodanchev@xmpp.jp | TOX ID: 53B409440A6DC34F1BA458869A0462D92C15B467AF6319D481CA353690C88667833A0EE82969
+
+## Wednesday, October 26, 2022
+
+### How to Build an Information Security Industry "At Home" - The Definite Manual - An Analysis
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV6KmfX5G6m0WYLm2DePXhlcZ4WTk06ooR_fVt8yVm4lpdPwMAHTiWptIFM3TJXWN5s2lJYH34qNxRi2R-vMT2OeokCvoyTHaVgsZnUBy_k_jiXJ-1MiH25Cb29rTHbXa8o41TTQpymPgWxiWfL3RfnLqlXFrXToPHn-S1WVWzSpMfB-36Rg/s1600/HelloIMG1648300002264.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV6KmfX5G6m0WYLm2DePXhlcZ4WTk06ooR_fVt8yVm4lpdPwMAHTiWptIFM3TJXWN5s2lJYH34qNxRi2R-vMT2OeokCvoyTHaVgsZnUBy_k_jiXJ-1MiH25Cb29rTHbXa8o41TTQpymPgWxiWfL3RfnLqlXFrXToPHn-S1WVWzSpMfB-36Rg/s320/HelloIMG1648300002264.jpeg)
+
+Dear blog readers,
+
+I've decided to make sure of my notes on the information security industry publicly accessible which I produced while I was studying in the Netherlands circa 2003-2006 with the idea to share my knowledge and expertise in the field and with the idea to motivate a lot of folks who remember my work back then which you can check out [here](https://archive.org/download/astalavista-security-group-security-newsletter-2003-2006/Astalavista_Security_Group_Security_Newsletter_2003-2006.pdf).
+
+**Sample screenshots of my notes while I was studying in the Netherlands circa 2003-2006 on the information security industry with the idea to dominate it:**
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUZVcFllDdpn0OhYpzYOknGzqPQRdIrnWOpJ5QNCPW2xsawQuJJe_oW6efBqZOdMUkzq5AkBQWsvY35PznjLI6IKFXw7cQ7GaoJjgzGWh-KMVbpeLehdoOGMJ0F76QT8Ql3eG3Df1kQq1OHENWeF_yWoj0IDx2Vajrk0ddmyxxqknpZ1pOvQ/s1600/HelloIMG1648300038493.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUZVcFllDdpn0OhYpzYOknGzqPQRdIrnWOpJ5QNCPW2xsawQuJJe_oW6efBqZOdMUkzq5AkBQWsvY35PznjLI6IKFXw7cQ7GaoJjgzGWh-KMVbpeLehdoOGMJ0F76QT8Ql3eG3Df1kQq1OHENWeF_yWoj0IDx2Vajrk0ddmyxxqknpZ1pOvQ/s320/HelloIMG1648300038493.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw4Tg1j2jM4BbuTTYhZ3KGLimFPH3StvrhcXVClO8GXLDDu6B0G1plTmoZs1pYLDy62u9LUzNE6YM2nhJA-6QzWCbAXtRF_bVHEFt1viQTNQ8QdtMutRVFOfJSuLmecTOrf1UOL8xqblDgfnd8WD5ckzVczzuXjTATfWQaZZGZj1zF8D--Qg/s1600/HelloIMG1648300045734.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw4Tg1j2jM4BbuTTYhZ3KGLimFPH3StvrhcXVClO8GXLDDu6B0G1plTmoZs1pYLDy62u9LUzNE6YM2nhJA-6QzWCbAXtRF_bVHEFt1viQTNQ8QdtMutRVFOfJSuLmecTOrf1UOL8xqblDgfnd8WD5ckzVczzuXjTATfWQaZZGZj1zF8D--Qg/s320/HelloIMG1648300045734.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv4L_gvFe496iq8Yw827Ilg_kwb6U3Q5RGkE5lZgonFTxH-FoLlzLftHCGAXXVn3mLPf8bIlABCOA6t3NRltB2LU7gvuhxW8st_mjSB-SnZQ_s6ikZzdZjqaZpYvPBCHnxFtKoGxGc4PUjSCBatLYGyaCjKtpmEujJk_iZR_9pd1jAiX5F2w/s1600/HelloIMG1648300048115.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv4L_gvFe496iq8Yw827Ilg_kwb6U3Q5RGkE5lZgonFTxH-FoLlzLftHCGAXXVn3mLPf8bIlABCOA6t3NRltB2LU7gvuhxW8st_mjSB-SnZQ_s6ikZzdZjqaZpYvPBCHnxFtKoGxGc4PUjSCBatLYGyaCjKtpmEujJk_iZR_9pd1jAiX5F2w/s320/HelloIMG1648300048115.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIiPD_5RFM-rrCWTVOIOzDX8fjus-uQuWjIOtaC2LWKL0u4KE4BDJ720ICx1UjGbmGB6Y66-dcf1HpLYvwvxKIMyXm5P32jNYaL6UxtdSy-7_fn62EKdqgu1wu2s8c-baUUb32YHsb4n0YAhtq5Bid_TmqJc3hvSOVL-_ejdeZMu2Ev-8b-w/s1600/HelloIMG1648300055289.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIiPD_5RFM-rrCWTVOIOzDX8fjus-uQuWjIOtaC2LWKL0u4KE4BDJ720ICx1UjGbmGB6Y66-dcf1HpLYvwvxKIMyXm5P32jNYaL6UxtdSy-7_fn62EKdqgu1wu2s8c-baUUb32YHsb4n0YAhtq5Bid_TmqJc3hvSOVL-_ejdeZMu2Ev-8b-w/s320/HelloIMG1648300055289.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlAbBO3nZsI58XrFDj85HMn8beXpd3E-Grlw9a8kTOmncqUhXc8AbkkHz3GaVr1rjlfwUVOmvqclHK3XjupAGC0Z42R6O4UdnxUxVhWbdRy2rwHIJq9veKa21vaTIiuUiMYV-0FjZiXrYrYWHSwYMEyVxTrBrOTncVywEpDl1-f1FNbF4PUQ/s1600/HelloIMG1648300067906.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlAbBO3nZsI58XrFDj85HMn8beXpd3E-Grlw9a8kTOmncqUhXc8AbkkHz3GaVr1rjlfwUVOmvqclHK3XjupAGC0Z42R6O4UdnxUxVhWbdRy2rwHIJq9veKa21vaTIiuUiMYV-0FjZiXrYrYWHSwYMEyVxTrBrOTncVywEpDl1-f1FNbF4PUQ/s320/HelloIMG1648300067906.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEie9FNL8ZJQrfzokyyanJ1KeUvP3XOWvhQi9qI2FXh9hkZQ7Jz7jhpQ3Mc15IgFnZoBcqCs8YwmxhT-UnXGia9dyTfpui0PoNEwXGplpX2w4Bkha5VmtSLBEvTClm1MA9I2Yp5Air4nNsNaHfZ3O8wz7FTc6i0s2ZStcwQTlCMCLg1VbterFA/s1600/HelloIMG1648300076960.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEie9FNL8ZJQrfzokyyanJ1KeUvP3XOWvhQi9qI2FXh9hkZQ7Jz7jhpQ3Mc15IgFnZoBcqCs8YwmxhT-UnXGia9dyTfpui0PoNEwXGplpX2w4Bkha5VmtSLBEvTClm1MA9I2Yp5Air4nNsNaHfZ3O8wz7FTc6i0s2ZStcwQTlCMCLg1VbterFA/s320/HelloIMG1648300076960.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLU7SDv6eNhYB9J7uoez6DozIhUKAqL3MnALEl2zVlmEGVJMlJLYmeMHhRw_osEasCQwhwwb-orYLwOqU5zt-alyr6eGlmmFZ-yIOx_wP3eSYJnNcGUdNkNbyXyD4c5tom2Rny3s3qz6UCsDcwdXVaEHGoOu_E0whRnDO7pGqOZU41NFVoIQ/s1600/HelloIMG1648300091294.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLU7SDv6eNhYB9J7uoez6DozIhUKAqL3MnALEl2zVlmEGVJMlJLYmeMHhRw_osEasCQwhwwb-orYLwOqU5zt-alyr6eGlmmFZ-yIOx_wP3eSYJnNcGUdNkNbyXyD4c5tom2Rny3s3qz6UCsDcwdXVaEHGoOu_E0whRnDO7pGqOZU41NFVoIQ/s320/HelloIMG1648300091294.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTUmsO4XJEucw01qXd_ZxHLmkv2vQDq2imC3q6-E23XX52Jfey_EfJ1pY4KjDfPzzp87CuyLmaPWLGhfB1WI0BDJWoV4vw9g4Ajvdf-nThnb_jQ0lyt252Y-EVutU9VzgB6E3kar9kZWF_-DBjvFc5IVweHNZv8CVU2E4kp--SfggN82I_2g/s1600/HelloIMG1648300109296.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTUmsO4XJEucw01qXd_ZxHLmkv2vQDq2imC3q6-E23XX52Jfey_EfJ1pY4KjDfPzzp87CuyLmaPWLGhfB1WI0BDJWoV4vw9g4Ajvdf-nThnb_jQ0lyt252Y-EVutU9VzgB6E3kar9kZWF_-DBjvFc5IVweHNZv8CVU2E4kp--SfggN82I_2g/s320/HelloIMG1648300109296.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhghjTe3HWmX8sR6NJwY6YkQf8IgtOFfrJeAiIlTPN9J3y4Kp_4im0K_zCXn6nd5STB9RORmLMdtzey4xLWwJ7kd-xeOZ_FoNKiueV8lDHnRh1Iz-d4jcq0UeJH1-8FFnmgQiTeYIt-l7YZoLmgyKBxk1uAqRPx7S6kuAt9YEbyPVq_p046Pg/s1600/HelloIMG1648300116640.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhghjTe3HWmX8sR6NJwY6YkQf8IgtOFfrJeAiIlTPN9J3y4Kp_4im0K_zCXn6nd5STB9RORmLMdtzey4xLWwJ7kd-xeOZ_FoNKiueV8lDHnRh1Iz-d4jcq0UeJH1-8FFnmgQiTeYIt-l7YZoLmgyKBxk1uAqRPx7S6kuAt9YEbyPVq_p046Pg/s320/HelloIMG1648300116640.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhDKhk2yrpV1gdIWCILCeZvSvaQAWVorTAwEYxvB76HxACaRc1uI_dh2bLMTEYcLwkzYOJgj5seqqiYWzDHJ1DlXAkYe-sBl4Z3oQWpHeufiVMgF2XyRTsA8161MtkSwyZwh6xsqy48Xhhy7f-UrEU0g3hY5zzKLVPzvI2jaVWK0SL3ICp1w/s1600/HelloIMG1648300122657.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhDKhk2yrpV1gdIWCILCeZvSvaQAWVorTAwEYxvB76HxACaRc1uI_dh2bLMTEYcLwkzYOJgj5seqqiYWzDHJ1DlXAkYe-sBl4Z3oQWpHeufiVMgF2XyRTsA8161MtkSwyZwh6xsqy48Xhhy7f-UrEU0g3hY5zzKLVPzvI2jaVWK0SL3ICp1w/s320/HelloIMG1648300122657.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3jHbxtYd4bbx3ki4_31srpdKQcsxSTwpHZjJoEr_toQKF0oD0Q_oRIROFD12y44-nNW4Q8-XiIr23hLG4_u7MPjUf0CssaVQ4Ra5GIcqdSR_L4rX7yNPEM_Yx2I6a1Sm05giRG3h5mF2U6uc4-k5CiPj-UopzWrg1DF-48fTOXAWXDHh3LQ/s1600/HelloIMG1648300126872.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3jHbxtYd4bbx3ki4_31srpdKQcsxSTwpHZjJoEr_toQKF0oD0Q_oRIROFD12y44-nNW4Q8-XiIr23hLG4_u7MPjUf0CssaVQ4Ra5GIcqdSR_L4rX7yNPEM_Yx2I6a1Sm05giRG3h5mF2U6uc4-k5CiPj-UopzWrg1DF-48fTOXAWXDHh3LQ/s320/HelloIMG1648300126872.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq3iY3x9r9tTJU_1ULr_wUVdMt9md7hLRnWIwyVbRkkFsV8Wgut4ZZ1uIbQTFDVodqyccDLBWXz41X_uu7JV-p72X8CjAuKwjaAKq2GAru5LEirLPRf7Yp5rQht0ufeQcSte8bK...

@@ -1,0 +1,202 @@
+---
+title: Security vulnerabilities in major car brands revealed
+url: https://www.malwarebytes.com/blog/news/2023/01/security-vulnerabilities-in-major-car-brands-revealed
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-11
+fetch_date: 2025-10-04T03:34:27.493360
+---
+
+# Security vulnerabilities in major car brands revealed
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![a digital car](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file65632_253909.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Security vulnerabilities in major car brands revealed
+
+Posted: January 9, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+Your car potentially hasn’t “just” been a car for a long time. With multiple digital systems, vehicles are increasingly plugged into web applications and digital processes. These systems tie into everything from passwords and web chat systems for car company employees, to file repositories and other parts of business infrastructure which potentially feed back into the vehicles themselves.
+
+Sounding horns, disabling start up, reporting a vehicle as stolen, even accessing built in cameras are all possible for rogue entities should they manage to break into a manufacturer’s network.
+
+New research has been [revealed in the world of car hacking](https://samcurry.net/web-hackers-vs-the-auto-industry/), which builds and expands upon a way to reveal [car owner details via VIN numbers](https://www.malwarebytes.com/blog/news/2022/12/vehicle-identification-numbers-reveal-driver-data-via-telematics) which we covered last month. These latest revelations come from the same researcher, Sam Curry, and his collective of car technology explorers and investigators.
+
+## Viewing a problem in isolation
+
+Last time around we saw how publicly available data that was visible on a car was being tied back to telematics, and how that data could reveal an awful lot of information about the car owner. It was also possible to send basic instructions to the VIN associated vehicle, such as honking the horn or flashing the lights.
+
+As it turns out, the exploration of how fast moving, incredibly heavy objects are tied to digital systems is a [lot more comprehensive](https://therecord.media/ferrari-bmw-rolls-royce-porsche-and-more-fix-vulnerabilities-giving-car-takeover-capabilities/) than first thought. In fact, many major brands have their digital systems tied to single sign on (SSO) systems, and badly configured endpoints which grant dizzying levels of access to those in the know.
+
+The brands mentioned in the report include:
+
+* **Kia**
+* **Honda**
+* **Infiniti**
+* **Nissan**
+* **Acura**
+* **Mercedes-Benz**
+* **Hyundai**
+* **Genesis**
+* **BMW**
+* **Rolls Royce**
+* **Ferrari, Spireon**
+* **Ford**
+* **Reviver**
+* **Porsche**
+* **Toyota**
+* **Jaguar**
+* **Land Rover**
+* **SiriusXM**
+
+Where things go wrong is that many of these systems were found to be vulnerable to multiple forms of exploitation. While many of the digital systems in vehicles are isolated from one another, it all goes wrong quickly if an SSO outside of the car owner’s control allows for developer or administrator-level access.
+
+## What access, data, and control was made available to researchers
+
+The complete list is way too long to republish here, but some of the most impressive results from a variety of manufacturers are mentioned below:
+
+* Full admin access to a company-wide admin panel, allowing for the sending of arbitrary commands to roughly 15.5 million vehicles (start engine, disable starter, unlock, read device location, flash and update [firmware](https://www.malwarebytes.com/cybersecurity/computer/what-is-firmware)).
+* Update vehicle status to “stolen”, updating both license plate and notifying authorities
+* Authenticate into user account and perform actions against vehicles.
+
+These three alone have the potential for sheer chaos, especially in relation to notifying law enforcement. Nothing quite matches the audacity of [killing a jeep on the highway](https://www.wired.com/...

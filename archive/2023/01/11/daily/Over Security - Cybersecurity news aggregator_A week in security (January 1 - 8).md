@@ -1,0 +1,195 @@
+---
+title: A week in security (January 1 - 8)
+url: https://www.malwarebytes.com/blog/news/2023/01/a-week-in-security-january-1-to-january-8
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-11
+fetch_date: 2025-10-04T03:34:25.282534
+---
+
+# A week in security (January 1 - 8)
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![white keyboard with tags of days of the week](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file89105_253937.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# A week in security (January 1 – 8)
+
+Posted: January 9, 2023
+ by [Malwarebytes Labs](https://www.malwarebytes.com/blog/authors/malwarebyteslabs)
+
+Last week on Malwarebytes Labs:
+
+* [Why does technology no longer excite us? Lock and Code S04E01](https://www.malwarebytes.com/blog/podcast/2023/01/why-does-technology-no-longer-excite-us-lock-and-code-s04e01)
+* [New device? Here’s how to safely dispose of your old one](https://www.malwarebytes.com/blog/news/2023/01/new-device-heres-how-to-safely-dispose-of-your-old-one)
+* [LastPass updates security notice with information about a recent incident](https://www.malwarebytes.com/blog/news/2023/01/lastpass-updates-security-notice-with-information-about-a-recent-incident)
+* [Okta breached last month, no customers compromised](https://www.malwarebytes.com/blog/news/2023/01/okta-breached-again-no-customers-compromised)
+* [Update VPN Plus Server now! Synology patches vulnerability with a CVSS of 10](https://www.malwarebytes.com/blog/news/2023/01/update-vpn-plus-server-now-synology-patches-serious-vulnerability)
+* [Google patches 60 vulnerabilities in first Android update of 2023](https://www.malwarebytes.com/blog/news/2023/01/google-patches-60-vulnerabilities-in-first-android-update-of-2023)
+* [Fake Flipper Zero websites look to cause a big splash](https://www.malwarebytes.com/blog/news/2023/01/fake-flipper-zero-websites-look-to-cause-a-big-splash)
+* [Software provider denied insurance payout after ransomware attack](https://www.malwarebytes.com/blog/news/2023/01/software-provider-denied-insurance-payout-after-ransomware-attack)
+* [FBI warns of imposter ads in search results](https://www.malwarebytes.com/blog/news/2023/01/fbi-warns-of-imitation-ads-in-paid-search-results)
+* [Malware targets 30 unpatched WordPress plugins](https://www.malwarebytes.com/blog/news/2023/01/update-your-wordpress-plugins-now-mass-backdoor-campaign-underway)
+* [LA housing authority is latest LockBit ransomware victim](https://www.malwarebytes.com/blog/news/2023/01/la-housing-authority-is-latest-lockbit-ransomware-victim)
+* [New Twitter data dump is a cleaned up version of old Twitter dump](https://www.malwarebytes.com/blog/news/2023/01/new-twitter-data-dump-is-a-cleaned-up-version-of-old-twitter-dump)
+
+Stay safe!
+
+---
+
+**We don’t just report on threats—we remove them**
+
+Cybersecurity risks should never spread beyond a headline. Keep threats off your devices by [downloading Malwarebytes today](https://www.malwarebytes.com/for-home).
+
+**SHARE THIS ARTICLE**
+
+[![X](https://www.malwarebytes.com/wp-content/themes/malwarebytes/assets/src/images/x-twitter-logo-grey.svg)](https://x.com/intent/tweet?text=A%20week%20in%20security%20%28January%201%20%26%238211%3B%208%29%20https%3A%2F%2Fwww.malwarebytes.com%2Fblog%2Fnews%2F2023%2F01%2Fa-week-in-security-january-1-to-january-8&via=Malwarebytes)
+
+#### RELATED ARTICLES
+
+[![Kido nursery chain logo](https://www.malwarebytes.com/wp-content/uploads/sites/2/2025/09/kido-logo.png?w=150&h=150&crop=1)](https://www.malwarebytes.com/blog/news/2025/10/from-threats-to-apology-hackers-pull-child-data-offline-after-public-backlash)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Privacy](https://www.malwarebytes.com/blog/category/privacy)
+
+## [From threats to apology, hackers pull child data offline after public backlash](https://www.malwarebytes.com/blog/news/2025/10/from-threats-to-apology-hackers-pull-child-data-offline-after-public-backlash)
+
+October 3, 2025 - After posting childre...

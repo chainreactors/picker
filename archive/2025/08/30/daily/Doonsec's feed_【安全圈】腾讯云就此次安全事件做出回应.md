@@ -1,0 +1,20 @@
+---
+title: 【安全圈】腾讯云就此次安全事件做出回应
+url: https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652071442&idx=2&sn=0af2e184bc4f5b9e601ca4da3cd52fc0
+source: Doonsec's feed
+date: 2025-08-30
+fetch_date: 2025-10-07T00:13:43.931148
+---
+
+# 【安全圈】腾讯云就此次安全事件做出回应
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

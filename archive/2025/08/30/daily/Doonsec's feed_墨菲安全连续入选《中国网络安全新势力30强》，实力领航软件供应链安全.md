@@ -1,0 +1,20 @@
+---
+title: 墨菲安全连续入选《中国网络安全新势力30强》，实力领航软件供应链安全
+url: https://mp.weixin.qq.com/s?__biz=MzkwOTM0MjI5NQ==&mid=2247488201&idx=1&sn=3d07e466bd0edc2d8e7fadf8937d9ada
+source: Doonsec's feed
+date: 2025-08-30
+fetch_date: 2025-10-07T00:13:36.793598
+---
+
+# 墨菲安全连续入选《中国网络安全新势力30强》，实力领航软件供应链安全
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

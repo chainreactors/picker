@@ -1,0 +1,188 @@
+---
+title: CISA releases advice on how to safeguard K–12 organizations
+url: https://www.malwarebytes.com/blog/news/2023/01/cisa-releases-advice-on-how-to-safeguard-k-12-organizations
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-28
+fetch_date: 2025-10-04T05:05:18.696481
+---
+
+# CISA releases advice on how to safeguard K–12 organizations
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![student using a holographic interface](https://www.threatdown.com/wp-content/uploads/2023/01/asset_upload_file50863_255805.png?w=736)
+
+[News](https://www.threatdown.com/blog/category/news/), [Business](https://www.threatdown.com/blog/category/business/)
+
+## CISA releases advice on how to safeguard K–12 organizations
+
+January 26, 2023
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+To help K–12 schools and school districts in their struggle against cybercrime the Cybersecurity & Infrastructure Security Agency (CISA) has released the report, [Protecting Our Future: Partnering to Safeguard K–12 organizations from Cybersecurity Threats](https://www.cisa.gov/protecting-our-future-partnering-safeguard-k-12-organizations-cybersecurity-threats).
+
+A cybersecurity incident can significantly impact a school or district’s ability to carry out its educational mission. Late last year, CISA warned of [ransomware particularly targeting the education sector](http://www.threatdown.com/blog/authorities-issue-warning-about-vice-society-ransomware-targeting-the-education-sector), and less than two weeks ago we reported on multiple schools being hit by a [ransomware attack](https://www.threatdown.com/blog/multiple-schools-hit-by-vice-society-ransomware-attack/).
+
+This report gives insight in the particular threats the K–12 community is facing and offers actionable steps school leaders can take to strengthen their cybersecurity efforts.
+
+## 1. Resource constraints
+
+When resources are limited, it is important to make sure that the measures you choose to take are the most impactful ones. Important recommendations to that effect are:
+
+* Working with technology providers that offer low-cost services and products that are secure by design and default.
+* Urgently reducing the security burden by migrating to secure cloud environments and trusted managed services.
+
+CISA also recommends starting with the security controls that have the highest priority, making sure you align near-term investments with pressing goals and compliance regulations. You should also have a long-term cybersecurity plan that leverages the [NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework), a set of guidelines for mitigating organizational cybersecurity risks.
+
+## 2. Security measures
+
+Some examples of high-priority measures provided by CISA, which ring true for most organizations, are:
+
+* Deploying [multifactor authentication (MFA)](https://www.malwarebytes.com/glossary/multi-factor-authentication-mfa)
+* Mitigating known exploited vulnerabilities
+* Implementing and testing backups
+* Regularly exercising an incident response plan
+* Implementing a strong cybersecurity training program
+
+CISA recommends that K–12 organizations adopt its [Cybersecurity Performance Goals (CPGs)](https://www.cisa.gov/cpg)—a set of cybersecurity practices that, when implemented, “can meaningfully reduce the likelihood and impact of known risks and adversary techniques”.
+
+## 3. Help each other
+
+Collaboration and information sharing are both cost-effective and mutually beneficial in order to improve awareness of current threats and how to meet them. CISA provides these suggestions:
+
+* Join relevant information and threat intelligence collaboration groups, such as the [MS-ISAC](https://learn.cisecurity.org/ms-isac-registration) and [K12 SIX](https://www.k12six.org/).
+* Work with other information-sharing organizations, such as fusion centers, state school safety centers, other state and regional agencies, and associations.
+* Build a strong and enduring relationship with CISA and FBI regional cybersecurity personnel.
+
+## Toolkit
+
+CISA has also published a [toolkit](https://www.cisa.gov/sites/default/files/publications/K-12-toolkit-24Jan23.pdf) that aligns resources and materials to each of its three recommendations, along with guidance on how stakeholders can implement each recommendation based on their current needs.
+
+## Malwarebytes
+
+Many K–12 organiza...

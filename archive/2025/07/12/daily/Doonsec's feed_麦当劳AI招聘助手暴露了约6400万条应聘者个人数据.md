@@ -1,0 +1,20 @@
+---
+title: 麦当劳AI招聘助手暴露了约6400万条应聘者个人数据
+url: https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247514676&idx=1&sn=ba2fc3721acfb3ebbc58acb4a6d08524
+source: Doonsec's feed
+date: 2025-07-12
+fetch_date: 2025-10-06T23:24:23.008107
+---
+
+# 麦当劳AI招聘助手暴露了约6400万条应聘者个人数据
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

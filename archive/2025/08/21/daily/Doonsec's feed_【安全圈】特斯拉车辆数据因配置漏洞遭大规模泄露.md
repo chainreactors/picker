@@ -1,0 +1,20 @@
+---
+title: 【安全圈】特斯拉车辆数据因配置漏洞遭大规模泄露
+url: https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652071280&idx=2&sn=9b6dec0ed6e57c86d2ed7598c3ab24cd
+source: Doonsec's feed
+date: 2025-08-21
+fetch_date: 2025-10-07T00:14:55.989587
+---
+
+# 【安全圈】特斯拉车辆数据因配置漏洞遭大规模泄露
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

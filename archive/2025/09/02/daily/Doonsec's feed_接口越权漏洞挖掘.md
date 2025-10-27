@@ -1,0 +1,20 @@
+---
+title: 接口越权漏洞挖掘
+url: https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247498131&idx=1&sn=157bfa81face94619be939af49ae02c4
+source: Doonsec's feed
+date: 2025-09-02
+fetch_date: 2025-10-02T19:30:05.828567
+---
+
+# 接口越权漏洞挖掘
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

@@ -1,0 +1,49 @@
+---
+title: Inside the Yekaterinburg's Based Plastika Recording Studio - The Primary Producer of Conti Ransomware Gang's Marketing and Advertising Creative
+url: https://ddanchev.blogspot.com/2025/05/inside-yekaterinburgs-based-plastika.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2025-05-15
+fetch_date: 2025-10-06T22:26:56.083812
+---
+
+# Inside the Yekaterinburg's Based Plastika Recording Studio - The Primary Producer of Conti Ransomware Gang's Marketing and Advertising Creative
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+Independent Contractor. Bitcoin: 15Zvie1j8CjSR52doVSZSjctCDSx3pDjKZ Email: dancho.danchev@hush.com OMEMO: ddanchev@conversations.im | OTR: danchodanchev@xmpp.jp | TOX ID: 53B409440A6DC34F1BA458869A0462D92C15B467AF6319D481CA353690C88667833A0EE82969
+
+## Wednesday, May 14, 2025
+
+### Inside the Yekaterinburg's Based Plastika Recording Studio - The Primary Producer of Conti Ransomware Gang's Marketing and Advertising Creative
+
+In this just obtained video in my line of inspiration and work you can basically see everything you ever wanted to see about the Yekaterinburg's based Plastika Recording Studio and Linkvil (Евгений Самсонов) and basically get a better picture of the inside of the recording studio which is responsible for producing the [Conti Ransomware Gang's](https://archive.org/details/rewards-for-justice-01) advertising and marketing creative. So what's so special about this? It's where you're money are going to.
+
+**Sample video:**
+
+**Sample photos:**
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT4CoG9XaH4W7JfVKMU8jAfELtbcy-DZyOEuF-6WwFliR86_oIVpyPB25UTc0IDdZNNsH8k0lJrzXH96c3EKdWw3IXGK2QXV-yPrnorbth8HYoLQ8abKs4W5nl0pbfjqGfpTOvChtsM_PMCzc6T-BQCuVsxJ-Dt9_Azeta-5OV93aAxKC2P8Vr/s320/Conti_Ransomware_24.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT4CoG9XaH4W7JfVKMU8jAfELtbcy-DZyOEuF-6WwFliR86_oIVpyPB25UTc0IDdZNNsH8k0lJrzXH96c3EKdWw3IXGK2QXV-yPrnorbth8HYoLQ8abKs4W5nl0pbfjqGfpTOvChtsM_PMCzc6T-BQCuVsxJ-Dt9_Azeta-5OV93aAxKC2P8Vr/s1252/Conti_Ransomware_24.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhSXEnaC7eAj8xQZhxp5LKlR9MA2Ioh6KIFrkmstJwh3jyhr0gyGSxhxm-9SP7TQidBexQ_McccWvyRdti0XBrUlzKYt2wupCcDz76OIHbLZ38k61NHfGBlFGwUO-lt2bHFRUQTrUo-PLnMiOFXLgfZjBjSvOYpsEc_7NxCZrGpx0HvrZUxHW-/s320/Conti_Ransomware_23.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhSXEnaC7eAj8xQZhxp5LKlR9MA2Ioh6KIFrkmstJwh3jyhr0gyGSxhxm-9SP7TQidBexQ_McccWvyRdti0XBrUlzKYt2wupCcDz76OIHbLZ38k61NHfGBlFGwUO-lt2bHFRUQTrUo-PLnMiOFXLgfZjBjSvOYpsEc_7NxCZrGpx0HvrZUxHW-/s1249/Conti_Ransomware_23.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7NZ22zNepl7iy0xQBFJ74qOtGVlVY_zKJc7CnGcpcQ6MPodD5CPEQxomKd34e4UFOVwWv01Qzmqjz54mmVsf7BEK3PeCHtGz-gdXH1MZHtB_tIjmDk71jDxg8NyOnX6T5TDgzYyvOjXd9TT7wo6RAQRHjJgH1Ub9VKnhnerLXYRbIyDi5nvSp/s320/Conti_Ransomware_22.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7NZ22zNepl7iy0xQBFJ74qOtGVlVY_zKJc7CnGcpcQ6MPodD5CPEQxomKd34e4UFOVwWv01Qzmqjz54mmVsf7BEK3PeCHtGz-gdXH1MZHtB_tIjmDk71jDxg8NyOnX6T5TDgzYyvOjXd9TT7wo6RAQRHjJgH1Ub9VKnhnerLXYRbIyDi5nvSp/s1255/Conti_Ransomware_22.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFziOHwWFe-3TJbwHdMFFgUx6AcjD4VEYqe0SNgk83uTr15Fy0horbMYMhyphenhyphenB76yJIgrPy5OgOc4WTrJMLl_5OPSvh9OVslU9XMSzeaDx7E7kvtbk9irHuNaiwZPOL-LvkzUqxfMi82uUarZ0esOG-sQHx_yJ7b6uU2bmFyVVJzNzDerX6lg1Vj/s320/Conti_Ransomware_21.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFziOHwWFe-3TJbwHdMFFgUx6AcjD4VEYqe0SNgk83uTr15Fy0horbMYMhyphenhyphenB76yJIgrPy5OgOc4WTrJMLl_5OPSvh9OVslU9XMSzeaDx7E7kvtbk9irHuNaiwZPOL-LvkzUqxfMi82uUarZ0esOG-sQHx_yJ7b6uU2bmFyVVJzNzDerX6lg1Vj/s1254/Conti_Ransomware_21.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwpHcLYFiFfyvkb7sdD-4JKjcC6NHnJNlI455wUD8REYY4LCoWFV9eXYJifXYN6PQuez1kc2Ya_nAzIaoQjG0wJ9SbPs2EwO6iY3-hJMmm4bPtdEZsGj4R_AXnlBy9-KTZCf5RoXCkYc9WNEGpOmWLfnS8EbdqN4p_9vGfqVqQJrP55BD0pE6W/s320/Conti_Ransomware_20.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwpHcLYFiFfyvkb7sdD-4JKjcC6NHnJNlI455wUD8REYY4LCoWFV9eXYJifXYN6PQuez1kc2Ya_nAzIaoQjG0wJ9SbPs2EwO6iY3-hJMmm4bPtdEZsGj4R_AXnlBy9-KTZCf5RoXCkYc9WNEGpOmWLfnS8EbdqN4p_9vGfqVqQJrP55BD0pE6W/s1250/Conti_Ransomware_20.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdFsR9WiX1XLedp40JUbqUuKcl5Jt1tT1QvRdaQfe8bo77P61kj3hVnG3acX46g1LdnDrauLoPXvQgR7ffnfRtiJH6mahiWbX9hEgjfg_ND_RUEX8Mav6RGHwHlCNpQai1D8w8PWSMWDarkQIbWKQa4PRgc7huOaVesOP89DXa38RBBLXEUvdr/s320/Conti_Ransomware_19.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdFsR9WiX1XLedp40JUbqUuKcl5Jt1tT1QvRdaQfe8bo77P61kj3hVnG3acX46g1LdnDrauLoPXvQgR7ffnfRtiJH6mahiWbX9hEgjfg_ND_RUEX8Mav6RGHwHlCNpQai1D8w8PWSMWDarkQIbWKQa4PRgc7huOaVesOP89DXa38RBBLXEUvdr/s1248/Conti_Ransomware_19.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivcY1opN8VZXZtVgkUAfZ0K4c5vGKPUPyOSivtCewkvnu9hDbpDtNVQmC3uLOgyCCxt0OW-LzUzwNVItXx5kF0_2uQetWZ3IdEMnynUoscIkRaI1bqbVL7kT-gMh7f8ihWHfN_YMd0UcjBbvegyKe-mgcLxl1ZF4h9Wfj9JfIscVjs4eEtk1kw/s320/Conti_Ransomware_18.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivcY1opN8VZXZtVgkUAfZ0K4c5vGKPUPyOSivtCewkvnu9hDbpDtNVQmC3uLOgyCCxt0OW-LzUzwNVItXx5kF0_2uQetWZ3IdEMnynUoscIkRaI1bqbVL7kT-gMh7f8ihWHfN_YMd0UcjBbvegyKe-mgcLxl1ZF4h9Wfj9JfIscVjs4eEtk1kw/s1254/Conti_Ransomware_18.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCl9ALK-AuJMThy3IyOyLshW3nFHAQgbY2sEZv5M9ktrMVmwBeMgrzAgIDAa14u8ToFIK4SSJCxdwjd3Hn3Ea_pnHaAR8-WXUTkVWiQPV6fygTNPXGZXeISvTGdu8Ke6MfUlY_Syr1_TZnzW9CSeJQXD2SM5i3gR7LMYon7Crl3US02L5SJknj/s320/Conti_Ransomware_17.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCl9ALK-AuJMThy3IyOyLshW3nFHAQgbY2sEZv5M9ktrMVmwBeMgrzAgIDAa14u8ToFIK4SSJCxdwjd3Hn3Ea_pnHaAR8-WXUTkVWiQPV6fygTNPXGZXeISvTGdu8Ke6MfUlY_Syr1_TZnzW9CSeJQXD2SM5i3gR7LMYon7Crl3US02L5SJknj/s1251/Conti_Ransomware_17.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwUNwFPSYTnIPHS_5rOLCZyb5hMe4N50owbXC1h0_IY5T0SD5hFpNoj1bX98jA7PSNYnZhcrzt93MeZVIx8cahsMf50-Jgfg41AiqRBEXkVZqtbJij10Bg_1GPsg2K0h64fn2xjg0GQCzhq6FHfCGpOaGf45jsEysENr7XoVJwRjz8gV6ffmON/s1600/Conti_Ransomware_16.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwUNwFPSYTnIPHS_5rOLCZyb5hMe4N50owbXC1h0_IY5T0SD5hFpNoj1bX98jA7PSNYnZhcrzt93MeZVIx8cahsMf50-Jgfg41AiqRBEXkVZqtbJij10Bg_1GPsg2K0h64fn2xjg0GQCzhq6FHfCGpOaGf45jsEysENr7XoVJwRjz8gV6ffmON/s100/Conti_Ransomware_16.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-8IDGzBejb5VQzA-IxoxxjBnTLRFN-LGJ1jbj_cBnK4eDuPPIwqD1MNyfBTKZEO4iBc_Iens25MwY3nffIO_S27B5MQ0A-aUi-6VpI_M6OwtDq2z5DQAqiNEm-JUJ0BpXp5IqxvRQFptttrXiEvUv8eAxyGFKpjhLRYA_W1-4-xYNKLAekxBL/s1600/Conti_Ransomware_15.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-8IDGzBejb5VQzA-IxoxxjBnTLRFN-LGJ1jbj_cBnK4eDuPPIwqD1MNyfBTKZEO4iBc_Iens25MwY3nffIO_S27B5MQ0A-aUi-6VpI_M6OwtDq2z5DQAqiNEm-JUJ0BpXp5IqxvRQFptttrXiEvUv8eAxyGFKpjhLRYA_W1-4-xYNKLAekxBL/s100/Conti_Ransomware_15.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjruGRw6dd08-2bsMfxH2trcaiqWZzscNPu7WhEXpg8IT7D9X_jThaXU5N9hfQxTJzACtxgkGNWlLh3shwtZJSSNRNu5jAYSc-BWHs39bCs2fvvLQqQ6dBXnJzJWsitYhhwzSF1YONxX7O1M6w8OGgvJyBNUNv7k1QSBhgB9vSQ0iz4HhKbtAe2/s320/Conti_Ransomware_14.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjruGRw6dd08-2bsMfxH2trcaiqWZzscNPu7WhEXpg8IT7D9X_jThaXU5N9hfQxTJzACtxgkGNWlLh3shwtZJSSNRNu5jAYSc-BWHs39bCs2fvvLQqQ6dBXnJzJWsitYhhwzSF1YONxX7O1M6w8OGgvJyBNUNv7k1QSBhgB9vSQ0iz4HhKbtAe2/s1206/Conti_Ransomware_14.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitULGsIeMc6tKAm0BZ6uV_xXW4ixPXI7nr8YTJ9tAHlf_pOzOa8BQsEmfHT99Mci-8jZ8t8OEL3DaqmLUK2l_DI6L3KlSuRUUranSgJAQAyZ3J7bmacGQ9cRMsDTX-AahIkGgBzj3oDUVMhmbMKTYZTcAlHPykyq4vkhWCvbxsG27yjc-BevU0/s320/Conti_Ransomware_13.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitULGsIeMc6tKAm0BZ6uV_xXW4ixPXI7nr8YTJ9tAHlf_pOzOa8BQsEmfHT99Mci-8jZ8t8OEL3DaqmLUK2l_DI6L3KlSuRUUranSgJAQAyZ3J7bmacGQ9cRMsDTX-AahIkGgBzj3oDUVMhmbMKTYZTcAlHPykyq4vkhWCvbxsG27yjc-BevU0/s595/Conti_Ransomware_13.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAdhRs31mIOGVF5U5Immg831ZrsLQPMrqb69Ne7AxSdLJvb7ZGzpy7P-NjbbVDOV5lfXZULMDVwRWBTC_5UhHGTcQtJRO8Y6blXUoSLS8ygzwHicqJyYZ-paBMFP_09DPqOqijTm95erctCPiGhIiHL7Yz6WQXrTSyu8WSEvqAszyDAdsUSR33/s1600/Conti_Ransomware_12.jpg)]...

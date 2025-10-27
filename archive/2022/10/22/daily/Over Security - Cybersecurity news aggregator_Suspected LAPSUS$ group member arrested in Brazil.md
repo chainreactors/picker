@@ -1,0 +1,176 @@
+---
+title: Suspected LAPSUS$ group member arrested in Brazil
+url: https://www.malwarebytes.com/blog/news/2022/10/suspected-lapsus-group-member-arrested-in-brazil
+source: Over Security - Cybersecurity news aggregator
+date: 2022-10-22
+fetch_date: 2025-10-03T20:37:55.603292
+---
+
+# Suspected LAPSUS$ group member arrested in Brazil
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![want your data back?](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/10/asset_upload_file58313_241397.png?w=736)
+
+[Cybercrime](https://www.malwarebytes.com/blog/category/cybercrime)
+| [News](https://www.malwarebytes.com/blog/category/news)
+
+# Suspected LAPSUS$ group member arrested in Brazil
+
+Posted: October 20, 2022
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+The [Brazilian Federal Police have arrested a suspect](https://www.gov.br/pf/pt-br/assuntos/noticias/2022/10/pf-prende-brasileiro-suspeito-de-integrar-organizacao-criminosa-internacional) after an investigation into last year’s breach of the Brazilian Ministry of Health. Responsibility for the breach was claimed by the LAPSUS$ group, when users found a message stating that system data had been copied and deleted and was in the hands of the group.
+
+LAPSUS$ is a relative newcomer to the cybercrime scene that first appeared in the summer of 2021. It has made a name for itself by leaking [sensitive information](https://www.malwarebytes.com/cybersecurity/basics/pii) from some big targets. At the time it was thought that the group hailed from South America, based on its earliest targets and the near-native use of Spanish and Portuguese.
+
+LAPSUS$ is also believed to be responsible for invading the systems of Empresa Brasileira de Correios e Telégrafos, and Localiza Rent a Car, as well as several others in South America, the [United States](https://www.fbi.gov/wanted/seeking-info/lapsus) and Europe, including Sociedade Independente de Comunicação, a private television channel in Portugal, the group Impresa, Electronic Art, [Globant](https://www.malwarebytes.com/blog/news/2022/04/globant-suffers-network-breach-due-to-lapsus-compromise), [Nvidia](https://www.malwarebytes.com/blog/news/2022/03/nvidia-the-ransomware-breach-with-some-plot-twists), [Okta](https://www.malwarebytes.com/blog/news/2022/03/okta-admits-366-customers-may-have-been-impacted-by-lapsus-breach), [Uber](https://www.malwarebytes.com/blog/news/2022/09/uber-hacked-again-in-what-seems-an-uber-hack-this-time), and many others.
+
+## Members
+
+In March 2022, the City of London Police said they had arrested seven teenagers in relation to LAPSUS$. Two of the seven suspects were charged with [hacking](https://www.malwarebytes.com/cybersecurity/basics/hacker) offenses and one was re-arrested later after an attack on [Rockstar Games](https://www.malwarebytes.com/blog/news/2022/09/grand-theft-auto-6-suffers-grand-theft).
+
+The group is likely to be widespread. It has been growing due to its big successes and even bigger claims. The group has an international outreach, especially since it is very active on Telegram and the [Dark Web](https://www.malwarebytes.com/blog/news/2021/09/what-is-the-dark-web-the-dark-web-explained). Based on linguistic analysis, the group is believed to also have Russian, Turkish, and German native speakers among their admins.
+
+## Methods
+
+LAPSUS$ is mainly an information stealing operation that uses every possible method it can. Paying insiders, [SIM-jacking](https://www.malwarebytes.com/blog/news/2021/10/the-fcc-moves-to-curb-sim-swap-attacks), [exploit](https://www.malwarebytes.com/exploits) vulnerabilities in software like Confluence, JIRA, and GitLab, buying or searching for leaked credentials, and AD Explorer—a publicly available tool to enumerate all users and groups in a network.
+
+Most of the times the breached organization is extorted to pay a ransom to prevent the group from leaking the exfiltrated information, but in a few cases the group simply sold or published the stolen information without contacting the victim organization. In the case of the Nvidia bre...

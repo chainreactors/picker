@@ -1,0 +1,175 @@
+---
+title: Why Log4Text is not another Log4Shell
+url: https://www.malwarebytes.com/blog/news/2022/10/why-log4text-is-not-another-log4shell
+source: Over Security - Cybersecurity news aggregator
+date: 2022-10-21
+fetch_date: 2025-10-03T20:32:12.232005
+---
+
+# Why Log4Text is not another Log4Shell
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![Change turns into chance](https://www.threatdown.com/wp-content/uploads/2022/10/asset_upload_file79368_241358.png?w=736)
+
+[News](https://www.threatdown.com/blog/category/news/), [Exploits and vulnerabilities](https://www.threatdown.com/blog/category/exploits-and-vulnerabilities/)
+
+## Why Log4Text is not another Log4Shell
+
+October 19, 2022
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+The Apache Software Foundation has [acknowledged](https://blogs.apache.org/security/entry/cve-2022-42889) a vulnerability in Apache Commons Text, a library focused on algorithms for string manipulation.
+
+The vulnerability has been assigned [CVE-2022- 42889](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42889), but security researchers have dubbed it Log4Text. The name provides an immediate association with Log4Shell which had quite the impact and ranked #1 in the CISA [top 5 most routinely exploited vulnerabilities](https://www.malwarebytes.com/blog/news/2022/04/the-top-5-most-routinely-exploited-vulnerabilities-of-2021) of 2021.
+
+Apache Commons Text is a library that focuses on algorithms for string manipulation, which means it is used for various text operations, such as escaping, calculating string differences, and substituting placeholders in the text with values looked up through interpolators.
+
+The problems lies in those interpolators. You can compare these interpolators to [environmental variables](https://www.malwarebytes.com/blog/news/2017/01/explained-environmental-variables). When called, an interpolator will return the value of that variable, and in order to do that they sometimes have to execute commands.
+
+## Vulnerability
+
+The [full description](https://lists.apache.org/thread/n2bd4vdsgkqh2tm14l1wyc3jyol7s1om) of the vulnerability is:
+
+> “Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is `${prefix:name}`, where “prefix” is used to locate an instance of *org.apache.commons.text.lookup.StringLookup* that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: – “script” – execute expressions using the JVM script execution engine (javax.script) – “dns” – resolve dns records – “url” – load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used.”
+
+Quickly summarized, this means an attacker with a successful exploit could extract information from the memory, set up internet connections, and execute arbitrary commands.
+
+## Similarities
+
+Log4Shell and Log4Text are both vulnerabilities in widely used Apache libraries and they do have some things in common, so it’s understandable that people are worried.
+
+Both of the vulnerabilities rely on un-sanitized input, which means that the input provided by users is not checked, cleaned, and filtered before it reaches the application.
+
+The possible implications of a successful exploit are very similar to those of Log4Shell. Both of the vulnerabilities are found in a widely used Apache library and both depend on variable substitution, which look for patterns like `${something}`, and replace them with other pieces of information.
+
+## The difference
+
+The big difference lies in the use-case for the two Apache libraries. Apache Commons Text is specifically designed for this kind of text manipulation while Log4j was built for logging only. This also has implications for where the libraries are used. IT and security folk want to log as much as they can, so Log4j shows up in more online applications than we would ever expect Apache Commons Text to.
+
+It also means that the interpolators are...

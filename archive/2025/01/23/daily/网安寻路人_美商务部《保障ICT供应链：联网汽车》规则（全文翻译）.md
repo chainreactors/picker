@@ -1,0 +1,53 @@
+---
+title: 美商务部《保障ICT供应链：联网汽车》规则（全文翻译）
+url: https://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247506068&idx=1&sn=c5502bc907a76a432d06dd4e9098d0ad&chksm=97e9657ea09eec68b79604df8d37e514ee417e337a622644f90cec47ae5279e4ff5696c56c0d&scene=58&subscene=0#rd
+source: 网安寻路人
+date: 2025-01-23
+fetch_date: 2025-10-06T20:27:41.730188
+---
+
+# 美商务部《保障ICT供应链：联网汽车》规则（全文翻译）
+
+![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jErr674f9m90P0yDCtUdEgPFTQev9ibqgTGltG7A12Oicwxznx6obubib1WgLydr9ib8wgDgfRXibl1BEtGqQ3c5QMQ/0?wx_fmt=jpeg)
+
+# 美商务部《保障ICT供应链：联网汽车》规则（全文翻译）
+
+王磊等
+
+网安寻路人
+
+**编者按：**
+
+关于域外在数据、电信、外国投资方面所建立的国家安全相关的审查机制，本公号发布过以下文章：
+
+1. ## [美国电信行业涉及外国参与的安全审查（一）：基本制度介绍](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247488095&idx=1&sn=f0367594f66f4a8b2bdebe32d5a3b6e1&chksm=97eaafb5a09d26a3ddcd29696728dd35093ea2ca47fec40eac44d49518da1b5536b7d59f07bf&scene=21#wechat_redirect)
+2. ## [美国电信行业涉及外国参与的安全审查（二）：国际性的第214节授权](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247488102&idx=1&sn=e94c8bcc7c1d95079da4a14b3176d702&chksm=97eaaf8ca09d269ad20f937d89eed177deef10eee1970524cc0780f67de76f505d2902deb17e&scene=21#wechat_redirect)
+3. ## [美国电信行业涉及外国参与的安全审查（三）：建立外国参与安全审查的行政令](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247488142&idx=1&sn=94700a46ee51773a5cd2b645a840fc6d&chksm=97eaaf64a09d2672739ab6bd97342268361b8506423412b6759c82f897c0e84ccf52ad339f53&scene=21#wechat_redirect)
+4. ## [美国电信行业涉及外国参与的安全审查（四）：FCC对中国企业的陈述理由令](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247488428&idx=1&sn=ef9b77c2a2be3271a6601d9dbcd895a6&chksm=97eaae46a09d2750e22e4763d1ee8a9d73af1e28a4d529d6e73e69a97b0afe1793616068c533&scene=21#wechat_redirect)
+5. [ICTS安全审查 | 美国针对“信息和通信技术及服务”和“联网应用”安全审查的两个行政令](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247492444&idx=1&sn=5e5e67e01f1a83d311e4e5c0bfab14a3&chksm=97e95eb6a09ed7a0d04002302348dca32247dca7f3226cdd66c9c45f7d3780cad095b7e0173d&scene=21#wechat_redirect)
+6. [ICTS安全审查 | 美国智库学者的分析和呼吁](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247492478&idx=1&sn=50b2badab39ab841bfa6073f72cb56d5&chksm=97e95e94a09ed782a384859421160bed0383351c46b29877dab698b9ed84f88a94d63f2f37f6&scene=21#wechat_redirect)
+7. [ICTS安全审查 | 美国商务部确保ICTS供应链安全实施规则（全文翻译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247492666&idx=1&sn=59c9608236af81c335f6e439ec69c140&chksm=97e959d0a09ed0c66fb52883313c0a346f4de6226676137c3e45ccdc1d07889a012b0fbca8c8&scene=21#wechat_redirect)
+8. [美国考虑对其产业界对外国的投资建立新的审查制度（外媒编译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247494788&idx=1&sn=8539edfcc545877b5be01e935322f7b0&chksm=97e9516ea09ed8783531170bdfbb446e26b717e859321e74428cff4e4d74cf3ff6b8ce6e0398&scene=21#wechat_redirect)
+9. [《关于确保美国外国投资委员会有力地考虑不断变化的国家安全风险的行政命令》全文翻译](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247497122&idx=1&sn=afd8acae557be8de114e66ba243bf8ba&chksm=97e94848a09ec15e926c93efef736f6de51deae5c317d901e79946bdf0baea990d96ab7c9c86&scene=21#wechat_redirect)
+10. [《美国国家安全审查制度：法律背景和比较》全文翻译](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247498008&idx=1&sn=ba32efbd534c9bce5ac5cfa1dc6aa759&chksm=97e944f2a09ecde4dd8346d447df58c584fc13b028a2f9528d01fd7694546203c0bdd7d96e31&scene=21#wechat_redirect)
+11. [美国商务部《确保信息和通信技术与服务供应链安全》的规则（2024版更新全文翻译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247501174&idx=1&sn=c2ca78c4569d39167f92bd3c418f6792&chksm=97e9789ca09ef18a8586bf8de2b2dfc1ad2cc402b7ba84bfffdabe8c83c3b0ca6d4802801811&scene=21#wechat_redirect)
+12. [美国《保护美国人数据免受外国监视法案》（中译本）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247495672&idx=1&sn=a943cfa38c11efe9d54613f56759be10&chksm=97e95212a09edb047ce849e17a81cc6148fc4c8fc4721b57dc1b3f5e223c63ea278fd0f95977&scene=21#wechat_redirect)
+13. [个人数据在美欧外国投资审查中的角色初探（一）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247486801&idx=1&sn=c2499de0d3447d7e5d77aea9fbc60c7a&chksm=97eab0bba09d39adc47821e1ae1fff64055b512d8d117c1e6a34c2aa3d20d97672dc05036e09&scene=21#wechat_redirect)
+14. [个人数据在美欧外国投资审查中的角色初探（二）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247487648&idx=1&sn=227769abff365aaaf78ba47f814b2a20&chksm=97eaad4aa09d245c2d048b3c84986577165be0d9beaca6eb438be0ccf70c9b7ae944737765fc&scene=21#wechat_redirect)
+15. [个人数据与域外国家安全审查初探之三：从美国《确保ICT技术与服务供应链安全》 看](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247487660&idx=1&sn=4c5bae0833fcc93aae7a190f584087aa&chksm=97eaad46a09d245066773b75ec1242456476e58b63e3234d1ae0884130750cfc50972f9b0893&scene=21#wechat_redirect)
+16. [个人数据与域外国家安全审查初探（四）：从美国《2019年安全与可信通信网络法案》看](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247487674&idx=1&sn=8d2a9f8a4c6e948c19e092406c26aecc&chksm=97eaad50a09d2446392d2ca9dd956201bed751a21fad8f2fecb19ebcd2d6ca96cff600599c16&scene=21#wechat_redirect)
+17. [个人数据与域外国家安全审查初探（五）：禁止中国公司对StayNTouch的收购](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247487799&idx=1&sn=fe581c59b0e962e0e78fbf5a3cd5d7af&chksm=97eaacdda09d25cb94464f8a043a0653e80bbd16cef1d68adf423cfd3ece27f81ee5c9dd5a55&scene=21#wechat_redirect)
+18. [个人数据与域外国家安全审查初探（六）：《2019国家安全和个人数据保护法案》](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247487904&idx=1&sn=99c2e957457d30a50cd81ada93f5b6ed&chksm=97eaac4aa09d255c6d99f03252057f3bb7a14f16ec5518ac247d5d8b3f7da50f5cf3aed4f893&scene=21#wechat_redirect)
+19. [个人数据与域外国家安全审查初探（七）：美国众议院荒唐的决议草案](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247487918&idx=1&sn=f5bb79e9bcaef59c2c3b81b1d96b7f70&chksm=97eaac44a09d2552e5c02f990508f038c37c8db3ee9477f8f1a0e814425f024e6e69edf31f5e&scene=21#wechat_redirect)
+20. [个人数据与域外国家安全审查初探（八）：《2020安全的5G和未来通信》法案](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247487937&idx=1&sn=0f26bd3a9296b737b250cc4e52fa8cde&chksm=97eaac2ba09d253dc665fe2fc4ef50fd1eac14fdaa5a8e6692e32017c34bade3c67dd4eb06a8&scene=21#wechat_redirect)
+21. [个人数据与域外国家安全审查初探（九）：澳大利亚《协助和访问法》](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247487941&idx=1&sn=2bb498020779ddfe2282525edda3450c&chksm=97eaac2fa09d2539a6675ac380f115385ab346b6b80f2fda4ed868361062908c205371918c5f&scene=21#wechat_redirect)
+22. [美国司法部狙击中国内幕（Inside DOJ's nationwide effort to take on China）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247488057&idx=1&sn=6b917c5e3358e418cb9ce8017a81cd00&chksm=97eaafd3a09d26c5185a4e84e4618ce3a12f4ad7247479a5a608d9247cf595ffd4bd3ed4d2e8&scene=21#wechat_redirect)
+23. [美国司法部“中国计划”的概况介绍](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247488269&idx=1&sn=5217f372d4a2c329b457e6c55c8ccc41&chksm=97eaaee7a09d27f1276f23783ea5873c9a351d961679dfbb28b8eb842fb76ff33dde5d1a02a5&scene=21#wechat_redirect)
+24. [《国际紧急经济权力法》（IEEPA）的起源、演变和应用](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247489305&idx=1&sn=e03e88fff720c551e1763b7ed1804e50&chksm=97eaaaf3a09d23e5b81332187ad274fea565313b8d709ca4ac62f7be8d24119a0774d02dd5b7&scene=21#wechat_redirect)
+25. [个人数据与域外国家安全审查 | 美国安局对地理位置信息的建议（全文翻译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247489484&idx=1&sn=835e39197631d3038111be06e72508cf&chksm=97eaaa26a09d2330dcf3d60f55fde09dfa10f2db673fe0b2668ec22ea0ba855d4025b57552f5&scene=21#wechat_redirect)
+26. [拜登关注禁止中国获得美国数据的新方法（外媒编译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247494965&idx=1&sn=37c110cf71dea200abfae0dae551903c&chksm=97e950dfa09ed9c9e9ca8ad58cb4773ef212e36d3b1a0f9f9cd94df6b0dd0a325a869993f542&scene=21#wechat_redirect)
+27. [白宫：关于防止受关注国家获取美国人大量敏感个人数据和美国政府相关数据的行政命令（全文翻译）](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247501531&idx=1&sn=1a52a76786db07df3ad5f47da980c182&chksm=97e97b31a09ef227f5ba337b3398db36e0d8de7cafe4343b8667221e5e9336862e4df2e9babc&scene=21#wechat_redirect)
+28. [美商务部《确保ICTS供应链的安全：联网汽车》建议制定规则全文翻译](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247501568&idx=1&sn=d0e07f242ec0ab6b83c412c6fa1b3658&chksm=97e97aeaa09ef3fcc9f24907f9dd0ed63f6985ffbdde8562e1aee6eec0fe6056d5ddc7e04c54&scene=21#wechat_redirect)
+29. [解读：关于防止受关注国家获取美国人大量敏感个人数据和美国政府相关数据的行政命令](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247501574&idx=1&sn=821c1bc255ec02d82c079c8cff608724&chksm=97e97aeca09ef3faff5ffe22f013203647b905c8bc5992e1ffcbdce553cd1932407893c3aa15&scene=21#wechat_redirect)
+30. [资料手册：美司法部发布拟议规则制定预通知【关于防止受关注国家获取美国人大量敏感个人数据和美国政府相关数据的行政命令】](http://mp.weixin.qq.com/s?__biz=MzIxODM0NDU4MQ==&mid=2247501604&idx=1&sn=c5afe496bb4e17be266088f3830af14f&chksm=97e97acea09ef3d8f0390a3b08d7f0803448bda6ae468b566c619915a6efea122b1562b2eae1&scene=21#wechat_redirect)
+31. [全文翻译：美司法部发布拟议规则制定预通知【关于防止受关注国家获取美国人大量敏感个人数据和美国...

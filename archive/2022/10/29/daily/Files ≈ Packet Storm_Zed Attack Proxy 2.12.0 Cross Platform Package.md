@@ -1,0 +1,26 @@
+---
+title: Zed Attack Proxy 2.12.0 Cross Platform Package
+url: https://packetstormsecurity.com/files/169549/ZAP_2.12.0_Crossplatform.zip
+source: Files ≈ Packet Storm
+date: 2022-10-29
+fetch_date: 2025-10-03T21:12:35.416836
+---
+
+# Zed Attack Proxy 2.12.0 Cross Platform Package
+
+[![](/logos/smalllogobeta.webp)](/)
+
+* files
+* news
+* users
+* cve
+
+[![](/logos/smalllogobeta.webp)](/)
+
+![](/logos/linegray.webp)
+
+LOCKED OUT
+
+⛔ 24 hour lockout initiated
+
+hi. we regret to inform you that a condition has occurred that has resulted in a 24 hour lockout. this occurs when rate limiting controls are exceeded or when someone attempts to hack the system but fails too many times. we wish you luck in your future attempts tomorrow.

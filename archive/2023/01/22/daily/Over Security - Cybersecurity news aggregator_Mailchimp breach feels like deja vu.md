@@ -1,0 +1,179 @@
+---
+title: Mailchimp breach feels like deja vu
+url: https://www.malwarebytes.com/blog/news/2023/01/latest-breach-on-mailchimp-feels-like-deja-vu
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-22
+fetch_date: 2025-10-04T04:34:12.606991
+---
+
+# Mailchimp breach feels like deja vu
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![mailchimp logo](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file6647_255607.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Mailchimp breach feels like deja vu
+
+Posted: January 20, 2023
+ by [Jovi Umawing](https://www.malwarebytes.com/blog/authors/jumawing)
+
+A threat actor successfully used compromised employee credentials to gain access to 133 accounts on Mailchimp, the mainstream Intuit-owned email marketing platform, in [a security incident](https://mailchimp.com/en-gb/january-2023-security-incident/) that recently came to light.
+
+“On January 11, the Mailchimp Security team identified an unauthorized actor accessing one of our tools used by Mailchimp customer-facing teams for customer support and account administration,” said Mailchimp in [a blog post](https://mailchimp.com/en-gb/january-2023-security-incident/). “The unauthorized actor conducted a [social engineering attack](https://www.malwarebytes.com/social-engineering) on Mailchimp employees and contractors, and obtained access to select Mailchimp accounts using employee credentials compromised in that attack.”
+
+The blog further asserts the company’s compromise had not affected other Intuit systems or other Mailchimp customer data.
+
+It is noted that very little detail is shared about the attack, such as the specific social engineering tactic used against Intuit’s employees, who might be responsible for the attack, or how long the intruder was in the company’s systems.
+
+According to [TechCrunch](https://techcrunch.com/2023/01/18/mailchimp-hacked/), who first reported the incident, Mailchimp detected the intruder while accessing one of the tools used by its customer support and account administration. Upon discovery of the targeted attack, it suspended the affected accounts temporarily and reached out to their owners regarding the breach.
+
+“That afternoon, we sent another email to affected accounts with steps to help users reinstate access to their Mailchimp accounts safely. Since then, we’ve been working with our users directly to help them reinstate their accounts, answer questions, and provide any additional support they need.”
+
+One of the 133 accounts affected belonged to WooCommerce, an immensely popular e-commerce plugin for WordPress with more than five million customers. TechCrunch said customer names, web store addresses, and customer email addresses might have been exposed in the compromise.
+
+This latest incident with Mailchimp definitely calls back to [the April 2022 breach](https://therecord.media/hacker-accessed-319-crypto-and-finance-related-mailchimp-accounts-company-said/) when threat actors were able to breach 319 of its client accounts, mostly belonging to companies in the cryptocurrency and finance industries. Cryptocurrency wallet company Trezor [had taken to Twitter](https://twitter.com/Trezor/status/1510558771944333312) to let followers know some of its services were also affected by the Mailchimp compromise.
+
+Trezor [said then](https://therecord.media/hacker-accessed-319-crypto-and-finance-related-mailchimp-accounts-company-said/), “Mailchimp have confirmed that their service has been compromised by an insider targeting [crypto](https://www.malwarebytes.com/cryptocurrency) companies. We have managed to take the [phishing](https://www.malwarebytes.com/phishing) domain offline.”
+
+Since this attack, Mailchimp [said](https://techcrunch.com/2023/01/18/mailchimp-hacked/) it had implemented “an additional set of enhanced security measures”, but TechCrunch noted the company wasn’t specific about these measures.
+
+“We know that incidents like this can cause uncertainty, and we’re deeply sorry for any frustration,”...

@@ -1,0 +1,181 @@
+---
+title: What privacy can get you
+url: https://www.malwarebytes.com/blog/news/2023/01/what-privacy-gets-you
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-26
+fetch_date: 2025-10-04T04:54:37.803927
+---
+
+# What privacy can get you
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![What privacy can get you](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file27980_254093.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Personal](https://www.malwarebytes.com/blog/category/personal)
+| [Privacy](https://www.malwarebytes.com/blog/category/privacy)
+
+# What privacy can get you
+
+Posted: January 24, 2023
+ by [David Ruiz](https://www.malwarebytes.com/blog/authors/davidruiz)
+
+The fight for data privacy must be won in the middle.
+
+No declaration, no call to arms, will sway the worst offenders. No public swell, no great big hack, has changed how money gets made.
+
+Corporations will continue to reap our data, package it into ad-friendly profiles, and, for a price, deliver the right ads to the right users as determined by the right algorithms of the moment, because that is the formula for profit. And if a few privacy [fiascos](https://www.theguardian.com/news/series/cambridge-analytica-files) [happen](https://www.ftc.gov/business-guidance/blog/2022/05/twitter-pay-150-million-penalty-allegedly-breaking-its-privacy-promises-again) along the way? Well, pay the government-mandated fee, introduce a couple new controls, and, most importantly, march onwards.
+
+This is where you, the people, come in.
+
+Every single Data Privacy Day, companies, organizations, and privacy rights advocates make their best case for why everyday people should care about privacy. “It’s a human right,” we say, forgetting that one international charter does not hold sway on most of the human population. “It’s threatened every day,” we say, forgetting that the most common privacy threats happen away from plain sight, difficult to see and to understand. Even when we offer well-intentioned privacy tips, we forget that privacy today has become management. It’s fiddling with settings. It’s saying “No” on countless forms. It’s auditing and dumping old apps and clicking through the permissions on your current ones. It is, for many people today, inconvenient.
+
+That’s why, for this year’s Data Privacy Day—which has been expanded into Data Privacy Week—we’re doing something different. We’re going to explain the most *convenient* advantages and benefits of privacy.
+
+This isn’t about what you have to do to get some sense of privacy online. This is about what privacy gets you.
+
+## **Fewer all-knowing ads**
+
+Today’s advertising landscape isn’t necessarily new, it’s simply hyper-charged beyond our wildest predictions. For decades, advertisers delivered their ads to the people they believed most likely to buy their products—investment managers advertising in the pages of The Wall Street Journal, joint pain medication companies airing daytime television commercials, when retirees are most likely to watch.
+
+But in the early 2000s, the ability to grab user attention was revolutionized, as emerging tech companies began hoovering up entirely new types of user data that could be used to build “profiles” that advertisers could then select to buffet with ads. No longer did companies have to rely on a little bit of guesswork when sending their ads out based on zip codes or age ranges. Instead, companies like Facebook built new infrastructure for advertisers and marketers, selling access to users’ attention based on these newly collected data streams.
+
+In 2021, the end-to-end encrypted messaging app Signal [tried to reveal the invasive nature of Facebook’s advertising profile](https://www.malwarebytes.com/blog/news/2021/05/facebook-bans-signal-ads-that-reveal-the-depth-of-what-it-knows-about-you)s by purchasing Instagram ads that would tell users exactly why they’d been selected, based on their characteristics, to receive the advertisemen...

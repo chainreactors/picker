@@ -1,0 +1,115 @@
+---
+title: Comparing Kolmogorov-Arnold Network (KAN) and Multi-Layer Perceptrons (MLPs)
+url: https://buaq.net/go-247953.html
+source: unSafe.sh - 不安全
+date: 2024-06-30
+fetch_date: 2025-10-06T16:54:44.034627
+---
+
+# Comparing Kolmogorov-Arnold Network (KAN) and Multi-Layer Perceptrons (MLPs)
+
+* [unSafe.sh - 不安全](https://unsafe.sh)
+* [我的收藏](/user/collects)
+* [今日热榜](/?hot=true)
+* [公众号文章](/?gzh=true)
+* [导航](/nav/index)
+* [Github CVE](/cve)
+* [Github Tools](/tools)
+* [编码/解码](/encode)
+* [文件传输](/share/index)
+* [Twitter Bot](https://twitter.com/buaqbot)
+* [Telegram Bot](https://t.me/aqinfo)
+* [Search](/search/search)
+
+[Rss](/rss.xml)
+
+[ ]
+黑夜模式
+
+![](https://8aqnet.cdn.bcebos.com/03faa1061cabf1572091cbec38750ab4.jpg)
+
+Comparing Kolmogorov-Arnold Network (KAN) and Multi-Layer Perceptrons (MLPs)
+
+We have taken the classic Multi-Layer Perceptrons (MLPs) for granted and built so many architectures
+*2024-6-29 22:0:23
+Author: [hackernoon.com(查看原文)](/jump-247953.htm)
+阅读量:19
+收藏*
+
+---
+
+We have taken the classic Multi-Layer Perceptrons (MLPs) for granted and built so many architectures around it. MLPs are part and parcel of every single LLM or foundation model that we see today, such as chatGPT, LLAMA, DALLE, and CLIP. Or even simple recognition models such as YOLO-v\*.
+
+What if I now tell you that we have a competitor for the very MLPs? There is a new paper in town called the “Kolmogorov-Arnold Network,” or KAN in short, which challenges the MLPs. If the solution they are proposing truly scales, then we can have the next generation of neural networks, which will take us yet another step closer to Artificial General Intelligence(AGI).
+
+While the MLPs comprise activation functions such as ReLU, sigmoid, tanh, GeLU, etc., KAN proposes that we learn these activation functions. So, how does KAN do it? What's the mathematics behind it? How is it implemented? And how do we even train KANs?
+
+I have tried my best to summarise the KAN paper here. You can either choose to read this gist or read the paper, which is 48 pages long!
+
+## Visual Explanation
+
+If you are like me and would like to visualize things to understand better, here is a video form of this article:
+
+## MLPs — The problem
+
+Let’s start with MLPs, which we are quite familiar with. The MLPs are composed of nodes and edges. In each node, we have the inputs being summed and activations such as ReLU, GeLU, and SeLU applied in order to produce the output for that particular node.
+
+![A figure from the paper illustrating the difference between MLPs and KANs](https://miro.medium.com/v2/resize:fit:630/1*OOY337pPO7kpmNz0iKWGTQ.png?auto=format&fit=max&w=1920)
+
+These activation functions never change during the training process. In other words, they don’t have any parameters. They are not intelligent enough to tune themselves to a given training dataset. So, what gets trained or updated during training is the weights of each of these nodes.
+
+Now, what if we question the assumption that the activation function needs to be fixed and make them trainable? So, that's the challenge the KAN network tried to address. The activation functions of the KAN network get updated during the training process. Before we delve any deeper, let's start with polynomials and curve fitting.
+
+## Polynomials and Curve Fitting
+
+So, the fundamental idea of KANs is that any multi-variate composite function can be broken down into a sum of several functions that are single variables.
+
+![An animation illustrating the x^2 and x^3 functions](https://miro.medium.com/v2/resize:fit:540/1*C_53y77KEgmm9UIgXjwVTg.gif?auto=format&fit=max&w=1200)
+
+For example, let's say we have an equation of degree 3 where y=x³ as plotted by the yellow curve above. And another equation of degree 2, y=x², as shown by the blue curve in the above animation. We can see in this visualization that using x² can never achieve the curvature achieved by x³.
+
+Let's assume we are given the data represented by the red and blue points below, and we wish to find the binary classification boundary between the two classes.
+
+![A toy problem where x^3 fits better than x^2. But can still be solved with x^2 by adding two x^2 curves!](https://miro.medium.com/v2/resize:fit:453/1*amA3FbPv0DDvYeU0yXwcnQ.png?auto=format&fit=max&w=1080)
+
+Using a second-order polynomial, *x²*, we won’t be able to find the boundary between the two as the x² curve is “U” shaped, but the data is “S” shaped. Though using *x³* is apt for this data, it comes with an extra computational cost. A different solution could be to use *x²* when input *x* is negative but use -*x²* when x is positive (blue curve drawn with hand in the above figure).
+
+All that we have done is add two lower-degree polynomials to achieve a curve with a higher degree of freedom. This is the exact idea behind KAN networks.
+
+## A toy Problem
+
+Let’s now take a slightly more complex toy problem where we know that the data is generated by a simple equation, *y=exp(sin(x1² + x2²) + sin(x3² + x4²))*. So we have 4 input variables, and we have three operations, namely, exponent, sine, and squared. So, we can choose four input nodes with three layers, each dedicated to the three different operations, as shown below.
+
+![A simple KAN network with 4 inputs, 3 layers for 3 basis functions](https://miro.medium.com/v2/resize:fit:386/1*uY7KJU0QaBkId8S1eWgCvA.png?auto=format&fit=max&w=828)
+
+KAN network for a toy problem with four inputs and three basis functions for computations — exponent, sinusoid, and square
+
+After training, the nodes will converge to squared, sinusoid, and exponent functions to fit the data.
+
+As this is a toy problem, we know the equation from which the data came from. But practically, *we don’t know the distribution of real-world data.* One way to address this problem is by using the B-splines.
+
+## Splines and B-splines
+
+The fundamental idea of B-splines is that any given function or curve can be represented as a combination of simpler functions or curves. These simpler functions are called basis functions. For example, let's take the red curve in the below figure. For the sake of simplicity, let's try to represent this with just two basis functions.
+
+We can break it down into 3 points as we are going to represent it with the sum of two basis functions. These points are called knots. There can be any number *n* of basis functions. The parameter that controls how this basis functions combinations is *c.* There can be discontinuities at knots when we “join” two curves. The solution is to constrain the curvature of the curves at the knots so that we get a smooth curve. For example, we can constrain the slope of the two curves to be the same at the knots, as shown by the green arrow in the below figure.
+
+![My scribbles to illustrate B-splines and basis functions](https://miro.medium.com/v2/resize:fit:630/1*L6tlftEk3vMnJ0glNNtJIQ.png?auto=format&fit=max&w=1920)
+
+As we cannot impose such a constraint in the neural network, they have introduced *Residual Activation Functions* in the paper. This acts more like a regularization. Practically, this is the SeLU activation that is added to the standard spline function as seen in the paper below.
+
+![](https://miro.medium.com/v2/resize:fit:630/1*-p1iy4gfOh8zjAkhux7Q1w.png?auto=format&fit=max&w=1920)
+
+## Spline Grids and Fine-Graining of KANs
+
+KANs introduce a new way of training called *fine-graining*. What we are all familiar with is fine-tuning, where we add more parameters to the model. However, in the case of fine-graining, we can improve the density of the spline grids. This is what they call *grid extension.*
+
+![Part of the figure from the paper showing fine-graining that is equivalent to fine-tuning a standard neural network](https://miro.medium.com/v2/resize:fit:508/1*RsoYAMs1CRJZwpd8pCPftA.png?auto=format&fit=max&w=1080)
+
+As we can see from the figure above from the paper, fine-graining is simply making the grids of B-splines dense so that they become more representative and, hence, more powerful.
+
+## Computational Complexity
+
+One of the disadvantages of splines is that they are recursive and so computationally expensive. Their computational complexity is O(N²LG), which is higher than the usual complexity of O(N²L) for MLPs. The additional complexity comes from the grid intervals G.
+
+The authors defen...

@@ -1,0 +1,20 @@
+---
+title: 论网络安全行业中技术型销售的必然崛起（手稿）
+url: https://mp.weixin.qq.com/s?__biz=MzkwNTI3MjIyOQ==&mid=2247484215&idx=1&sn=f499f3f5364777c61dd265d3d69187ce
+source: Doonsec's feed
+date: 2025-09-12
+fetch_date: 2025-10-02T20:01:27.972583
+---
+
+# 论网络安全行业中技术型销售的必然崛起（手稿）
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

@@ -1,0 +1,122 @@
+# 每日安全资讯（2023-01-02）
+
+- SecWiki News
+  - [ ] [SecWiki News 2023-01-01 Review](http://www.sec-wiki.com/?2023-01-01)
+- Der Flounder
+  - [ ] [Apple Device Management Second Edition book available for pre-order from Amazon](https://derflounder.wordpress.com/2023/01/01/apple-device-management-second-edition-book-available-for-pre-order-from-amazon/)
+- Twitter @Nicolas Krassas
+  - [ ] [GitHub - jafarlihi/modreveal: Utility to find hidden Linux kernel modules](https://twitter.com/Dinosn/status/1609604755667714048)
+  - [ ] [Short links verification cheatsheet](https://twitter.com/Dinosn/status/1609568134465191938)
+  - [ ] [Cypherhound - Terminal Application That Contains 260+ Neo4j Cyphers For BloodHound Data Sets](https://twitter.com/Dinosn/status/1609567568704200710)
+  - [ ] [New year's Osechi, おせち料理](https://twitter.com/Dinosn/status/1609566902296223744)
+  - [ ] [Google Home Vulnerability: Eavesdropping on Conversations](https://twitter.com/Dinosn/status/1609529876129644545)
+  - [ ] [ALL IN ONE Hacking Tool For Hackers](https://twitter.com/Dinosn/status/1609471600486944768)
+  - [ ] [Tools and Techniques for Red Team / Penetration Testing](https://twitter.com/Dinosn/status/1609471314942640129)
+  - [ ] [I have the opportunity working with excellent colleagues and an amazing job, with my family always on my side. I wish the same to all. Stay safe, keep...](https://twitter.com/Dinosn/status/1609466164328947712)
+  - [ ] [Persistence and LOLBins](https://twitter.com/Dinosn/status/1609451997459095552)
+  - [ ] [PyTorch discloses malicious dependency chain compromise over holidays](https://twitter.com/Dinosn/status/1609451873148321793)
+  - [ ] [Benchmark - 93,343 breached accounts](https://twitter.com/Dinosn/status/1609451813220110336)
+- obaby@mars
+  - [ ] [2023 新年快乐~~](https://h4ck.org.cn/2023/01/2023%e6%96%b0%e5%b9%b4%e5%bf%ab%e4%b9%90/)
+- 嘶吼 RoarTalk – 回归最本质的信息安全,互联网安全新媒体,4hou.com
+  - [ ] [CryptosLabs 团伙自2018年以来窃取了高达5.05亿美元的资金](https://www.4hou.com/posts/r7DL)
+  - [ ] [回顾2022 年卡塔尔世界杯的网络威胁](https://www.4hou.com/posts/GKlK)
+- Security Boulevard
+  - [ ] [It’s January 1 and Tesla Model 3 Already Has a Safety Recall](https://securityboulevard.com/2023/01/its-january-1-and-tesla-model-3-already-has-a-safety-recall/)
+  - [ ] [Happy New Year 2023](https://securityboulevard.com/2023/01/happy-new-year-2023/)
+  - [ ] [Can I auto-post to Mastodon?](https://securityboulevard.com/2022/12/can-i-auto-post-to-mastodon/)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Jan  1 13:52:32 UTC 2023](https://github.com/trickest/cve/commit/acbbc63eff7d937871daa9837e9ebad6fa8e42f4)
+- unSafe.sh - 不安全
+  - [ ] [刘强东痛批京东中高层，全都是骗子](https://buaq.net/go-143705.html)
+  - [ ] [2022 CTI-EU Talk: Threat Landscape and Defences Against Mobile Surveillance Implants](https://buaq.net/go-143704.html)
+  - [ ] [马斯克成为第一位财富蒸发 2000 亿美元的亿万富翁](https://buaq.net/go-143714.html)
+  - [ ] [桌面显卡销量创 20 年以来新低](https://buaq.net/go-143715.html)
+  - [ ] [SpaceX 在 2022 年创下了 61 次发射记录](https://buaq.net/go-143693.html)
+  - [ ] [Cypherhound - Terminal Application That Contains 260+ Neo4j Cyphers For BloodHound Data Sets](https://buaq.net/go-143699.html)
+  - [ ] [源码分析 kubernetes ingress nginx 动态更新的实现原理](https://buaq.net/go-143700.html)
+  - [ ] [源码分析 kubernetes ingress nginx controller 控制器的实现原理](https://buaq.net/go-143687.html)
+  - [ ] [Overview of Content Published in December](https://buaq.net/go-143676.html)
+  - [ ] [《中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要》思维脑图 - 郑瀚Andrew](https://buaq.net/go-143692.html)
+  - [ ] [设计实战分析：用两天完成一次线下活动的物料设计](https://buaq.net/go-143691.html)
+  - [ ] [2023 新年快乐~~](https://buaq.net/go-143677.html)
+  - [ ] [/r/ReverseEngineering's Triannual Hiring Thread](https://buaq.net/go-143673.html)
+  - [ ] [如何实现全部 QQ 群相册批量下载](https://buaq.net/go-143674.html)
+  - [ ] [[原创]2022长城杯决赛pwn](https://buaq.net/go-143701.html)
+- xorl %eax, %eax
+  - [ ] [2022 CTI-EU Talk: Threat Landscape and Defences Against Mobile Surveillance Implants](https://xorl.wordpress.com/2023/01/01/2022-cti-eu-talk-threat-landscape-and-defences-against-mobile-surveillance-implants/)
+- SAP Blogs
+  - [ ] [[ BTP DevOps ]  : Auto remediation with SAP Alert Notification service and Automation Pilot – Part2](https://blogs.sap.com/2023/01/01/btp-devops-auto-remediation-with-sap-alert-notification-service-and-automation-pilot-part2/)
+  - [ ] [Compare Bill of Material apps and Tcodes](https://blogs.sap.com/2023/01/01/compare-bill-of-material-apps-and-tcodes/)
+- Didier Stevens
+  - [ ] [Overview of Content Published in December](https://blog.didierstevens.com/2023/01/01/overview-of-content-published-in-december-8/)
+- Reverse Engineering
+  - [ ] [/r/ReverseEngineering's Triannual Hiring Thread](https://www.reddit.com/r/ReverseEngineering/comments/100ex17/rreverseengineerings_triannual_hiring_thread/)
+  - [ ] [I reverse-engineered an undocumented FM synth chip](https://www.reddit.com/r/ReverseEngineering/comments/100raay/i_reverseengineered_an_undocumented_fm_synth_chip/)
+- SAUCERMAN
+  - [ ] [2022苟了一年，这下结束了](https://saucer-man.com/life/1030.html)
+- Hexacorn
+  - [ ] [A bunch of OLD-School RCE tricks…](https://www.hexacorn.com/blog/2023/01/01/a-bunch-of-old-school-rce-tricks/)
+- 
+  - [ ] [Captain’s Log: December 2022](https://cornerpirate.com/2023/01/01/captains-log-december-2022/)
+- 学习路
+  - [ ] [code-inspector如何处理分支](https://4ra1n.love/post/pZFfJo49k/)
+- KitPloit - PenTest & Hacking Tools
+  - [ ] [Cypherhound - Terminal Application That Contains 260+ Neo4j Cyphers For BloodHound Data Sets](http://www.kitploit.com/2023/01/cypherhound-terminal-application-that.html)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [竹书纪年披露已知最古老的候选极光记录](https://www.solidot.org/story?sid=73783)
+  - [ ] [马斯克成为第一位财富蒸发 2000 亿美元的亿万富翁](https://www.solidot.org/story?sid=73782)
+  - [ ] [桌面显卡销量创 20 年以来新低](https://www.solidot.org/story?sid=73781)
+  - [ ] [SpaceX 在 2022 年创下了 61 次发射记录](https://www.solidot.org/story?sid=73780)
+- 博客园 - 郑瀚Andrew
+  - [ ] [《中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要》思维脑图 - 郑瀚Andrew](https://www.cnblogs.com/LittleHann/p/17018327.html)
+- Fintech安全之路
+  - [ ] [新年快乐！](https://mp.weixin.qq.com/s?__biz=Mzg3NjI1MzU4Mg==&mid=2247484908&idx=1&sn=9072cfe8c9b6393dbd68882f4b948baf&chksm=cf345d0df843d41bbc8d9928b39e9c77910397bd756c0d784555152b14e311ac973909682506&scene=58&subscene=0#rd)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [PyTorch: Machine Learning toolkit pwned from Christmas to New Year](https://nakedsecurity.sophos.com/2023/01/01/pytorch-machine-learning-toolkit-pwned-from-christmas-to-new-year/)
+  - [ ] [Ransomware gang cloned victim’s website to leak stolen data](https://www.bleepingcomputer.com/news/security/ransomware-gang-cloned-victim-s-website-to-leak-stolen-data/)
+  - [ ] [Ransomware gang apologizes, gives SickKids hospital free decryptor](https://www.bleepingcomputer.com/news/security/ransomware-gang-apologizes-gives-sickkids-hospital-free-decryptor/)
+  - [ ] [Buoni propositi per il 2023: nasce la Dashboard Ransomware Monitor](https://www.insicurezzadigitale.com/buoni-propositi-per-il-2023-nasce-la-dashboard-ransomware-monitor/)
+  - [ ] [LockBit ransomware claims attack on Port of Lisbon in Portugal](https://www.bleepingcomputer.com/news/security/lockbit-ransomware-claims-attack-on-port-of-lisbon-in-portugal/)
+  - [ ] [PyTorch discloses malicious dependency chain compromise over holidays](https://www.bleepingcomputer.com/news/security/pytorch-discloses-malicious-dependency-chain-compromise-over-holidays/)
+- CyberWatch
+  - [ ] [](https://whitehatcheryl.com/2023/01/01/3762/)
+- IntelTechniques Blog
+  - [ ] [OSINT Techniques 10th Edition](https://inteltechniques.com/blog/2023/01/01/osint-techniques-10th-edition/)
+- Have I Been Pwned latest breaches
+  - [ ] [Benchmark - 93,343 breached accounts](https://haveibeenpwned.com/PwnedWebsites#Benchmark)
+- IT Service Management News
+  - [ ] [ISO/IEC TS 22237 sui data center, certificazioni e accreditamento](http://blog.cesaregallotti.it/2023/01/isoiec-ts-22237-sui-data-center.html)
+  - [ ] [Attacco a LastPass](http://blog.cesaregallotti.it/2023/01/attacco-lastpass.html)
+- LockBoxx
+  - [ ] [Hacker Valley Blue Interview](http://lockboxx.blogspot.com/2022/12/hacker-valley-blue-interview.html)
+- Social Engineering
+  - [ ] [Is this Robert Greene law ethical?](https://www.reddit.com/r/SocialEngineering/comments/100x5u2/is_this_robert_greene_law_ethical/)
+  - [ ] [How to handle narcissistic traits in people and yourself](https://www.reddit.com/r/SocialEngineering/comments/100pjd4/how_to_handle_narcissistic_traits_in_people_and/)
+  - [ ] [I obtained the phone number of a very high profile political figure I hate](https://www.reddit.com/r/SocialEngineering/comments/100hmxy/i_obtained_the_phone_number_of_a_very_high/)
+- Technical Information Security Content & Discussion
+  - [ ] [GitHub - jafarlihi/modreveal: Utility to find hidden Linux kernel modules](https://www.reddit.com/r/netsec/comments/100lxs6/github_jafarlihimodreveal_utility_to_find_hidden/)
+  - [ ] [Compromised PyTorch-nightly dependency chain](https://www.reddit.com/r/netsec/comments/100fs08/compromised_pytorchnightly_dependency_chain/)
+- Il Disinformatico
+  - [ ] [Buon 2023! Cominciamo l’anno con un po’ di hacking leggero di una Tesla e dei suoi “option code”?](http://attivissimo.blogspot.com/2023/01/buon-2023-cominciamo-lanno-con-un-po-di.html)
+- TorrentFreak
+  - [ ] [Bungie’s $7.7m Lawsuit Against ‘DMCA Fraudster’ Set For Jury Trial…..in 2024](https://torrentfreak.com/bungies-7-7m-lawsuit-vs-dmca-fraudster-set-for-jury-trial-in-2024-230101/)
+- 0x00sec - The Home of the Hacker - Top topics
+  - [ ] [GenieACS And The Tale Of Default JWT Secret](https://0x00sec.org/t/genieacs-and-the-tale-of-default-jwt-secret/32738)
+- Information Security
+  - [ ] [How to Create a Face Recognition System Using Deep Learning in Python](https://www.reddit.com/r/Information_Security/comments/100tiu0/how_to_create_a_face_recognition_system_using/)
+  - [ ] [Best major for good money while also having a social life MIS or CS?](https://www.reddit.com/r/Information_Security/comments/100k9l4/best_major_for_good_money_while_also_having_a/)
+- Computer Forensics
+  - [ ] [Investigating Sensitive Files Theft | Registry Forensics | TryHackMe Secret Recipe](https://www.reddit.com/r/computerforensics/comments/100fph4/investigating_sensitive_files_theft_registry/)
+- Your Hacking Tutorial by Zempirians
+  - [ ] [hacking router login page](https://www.reddit.com/r/HowToHack/comments/100aci6/hacking_router_login_page/)
+- Security Affairs
+  - [ ] [Lockbit apologized for the attack on the SickKids pediatric hospital and releases a free decryptor](https://securityaffairs.com/140193/cyber-crime/lockbit-apologized-attack-sickkids.html)
+  - [ ] [Security Affairs newsletter Round 400 by Pierluigi Paganini](https://securityaffairs.com/140189/uncategorized/security-affairs-newsletter-round-400-by-pierluigi-paganini.html)
+- KitPloit - PenTest Tools!
+  - [ ] [Cypherhound - Terminal Application That Contains 260+ Neo4j Cyphers For BloodHound Data Sets](http://www.kitploit.com/2023/01/cypherhound-terminal-application-that.html)
+- Deeplinks
+  - [ ] [Fighting for the Digital Future of Books: 2022 in Review](https://www.eff.org/deeplinks/2022/12/fighting-digital-future-books-2022-review)
+  - [ ] [Seeing Patent Trolls Clearly: 2022 in Review](https://www.eff.org/deeplinks/2022/12/seeing-patent-trolls-clearly-2022-review)
+- Dark Space Blogspot
+  - [ ] [Tutti I Principali Avvenimenti Crypto Del 2022 (Recap Mese Per Mese)](http://darkwhite666.blogspot.com/2023/01/tutti-i-principali-avvenimenti-crypto.html)

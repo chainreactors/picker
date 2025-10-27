@@ -1,0 +1,176 @@
+---
+title: 5 SaaS security best practices
+url: https://www.malwarebytes.com/blog/business/2022/12/5-saas-security-best-practices
+source: Over Security - Cybersecurity news aggregator
+date: 2022-12-10
+fetch_date: 2025-10-04T01:08:14.873514
+---
+
+# 5 SaaS security best practices
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![5 SaaS security best practices](https://www.threatdown.com/wp-content/uploads/2022/12/asset_upload_file616_252081.jpg?w=736)
+
+[Business](https://www.threatdown.com/blog/category/business/)
+
+## 5 SaaS security best practices
+
+December 8, 2022
+
+[Bill Cozens](https://www.threatdown.com/blog/author/wcozensmalwarebytes-com/)
+
+Just about anywhere you look, organizations are relying on Software-as-a-Service (SaaS) apps like Dropbox and Hubspot to help power their businesses. With more SaaS apps, however, comes increased security risks.
+
+While SaaS is without a doubt the easiest and most accessible way for businesses to reap the benefits of the cloud, these services are delivered online—which can make it easier for data leaks to happen or threat actors to get a hold of sensitive data. **In fact, [43 percent of organizations have dealt with one or more](https://cloudsecurityalliance.org/press-releases/2022/04/12/new-cloud-security-alliance-survey-finds-saas-misconfigurations-may-be-responsible-for-up-to-63-percent-of-security-incidents/#:~:text=At%20least%2043%20percent%20of%20organizations%20report%20that%20they%20have%20dealt%20with%20one%20or%20more%20security%20incidents%20because%20of%20a%20SaaS%20misconfiguration.) security incidents caused by a SaaS misconfiguration**.
+
+You might be asking yourself though: Doesn’t my cloud provider [take care of security for me](https://www.threatdown.com/glossary/what-is-cloud-security/)? Well, yes and no.
+
+Your cloud provider will protect your cloud infrastructure in some areas, but under the shared responsibility model, your business is responsible for handling things such as identity and access management, endpoint security, data encryption, and so on.
+
+The good news is that there’s a set of SaaS security best practices to help keep your business from becoming another statistic.
+
+Whether your business uses Office 365, Salesforce, Google Drive, or another SaaS app, this blog will help guide your journey to SaaS security with five best practices.
+
+### 1. Manage SaaS sprawl
+
+You might be surprised to find that our journey into SaaS security begins not with an answer, but with a question: **are you suffering from SaaS sprawl?**
+
+SaaS sprawl is a situation where a business is bloated with so many different (and even duplicate) SaaS apps that IT can no longer manage them effectively.
+
+Most departments now have 40 – 60 SaaS tools each, with 200+ apps at the company level—**and for small businesses, [only 32 percent of these apps are IT-approved](https://productiv.com/wp-content/uploads/2021/09/productiv-the-state-of-saas-sprawl-in-2021.pdf)**. Not only does SaaS sprawl waste money, but it has security risks as well.
+
+For one, SaaS sprawl makes it harder for IT and security teams to ensure compliance or identify security risks that expose sensitive data. Admins just don’t have the time (or the visibility) to individually check and update potential issues for each app.
+
+Another issue is that SaaS sprawl and “**shadow IT**” (i.e. SaaS apps that have bypassed IT’s typical vetting procedures) are closely related—the more shadow IT, the worse the SaaS sprawl. As if trying to manage a ton of authorized SaaS apps wasn’t enough, IT teams don’t even know about the unauthorized ones—and they definitely can’t fix what they can’t see!
+
+All of this is to say: tackling SaaS sprawl before anything else will make it easier for you to get into the more granular aspects of SaaS security. Some best practices to manage SaaS sprawl include:
+
+* **Discover all apps**: Regularly audit all SaaS apps being used across the business, IT-approved or not.
+* **Create a vetting process**: Have a consistent method to audit app requests for security, compliance, and other details.
+* **Educate employees**: IT should regularly caution employees about the risks of using unauthorized apps.
+* **Bridge the gap between IT and other departments**: Put a process in place that allows team members to freely approach IT with new apps they wi...

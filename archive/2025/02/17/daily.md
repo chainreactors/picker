@@ -1,0 +1,163 @@
+# 每日安全资讯（2025-02-17）
+
+- SecWiki News
+  - [ ] [SecWiki News 2025-02-16 Review](http://www.sec-wiki.com/?2025-02-16)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Feb 16 20:24:47 UTC 2025](https://github.com/trickest/cve/commit/85c25c16a8aa5eca170882f564c21848e57174b8)
+  - [ ] [Update Sun Feb 16 12:07:37 UTC 2025](https://github.com/trickest/cve/commit/8d696b6b5655db644b5ca98bb4a2196c2bc3682d)
+  - [ ] [Update Sun Feb 16 04:23:59 UTC 2025](https://github.com/trickest/cve/commit/c89c3905a940cab0845976d5923f2010a32824a2)
+- Private Feed for M09Ic
+  - [ ] [phith0n starred Nutlope/logocreator](https://github.com/Nutlope/logocreator)
+  - [ ] [h3zh1 pushed to dev in chainreactors/malice-network](https://github.com/chainreactors/malice-network/compare/1e985db24e...4ee88bd194)
+  - [ ] [mgeeky starred rbmm/SC_DEMO](https://github.com/rbmm/SC_DEMO)
+  - [ ] [Ascotbe starred WEIFENG2333/VideoCaptioner](https://github.com/WEIFENG2333/VideoCaptioner)
+- Doonsec's feed
+  - [ ] [【人工智能】百度急了！就在刚刚，百度搜索全面接入 DeepSeek](https://mp.weixin.qq.com/s?__biz=MzU1Mjk3MDY1OA==&mid=2247519417&idx=1&sn=52c6b27b91a8b6fa4724ee640b9548d1)
+  - [ ] [DeepSeek 接入微信公众号，搭建私人小助手（详细教程）](https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247544362&idx=1&sn=1c97a0ebc8850665b38f7390b53e5b3b)
+  - [ ] [【人工智能】半自动 AI 辅助微信群聊深度总结](https://mp.weixin.qq.com/s?__biz=MzU1Mjk3MDY1OA==&mid=2247519407&idx=1&sn=d7b2c05453a8f9ade8e17be24118773f)
+  - [ ] [日本终于撕破脸！新法竟是针对红客？2025全球安全格局生变！一招比一招狠！](https://mp.weixin.qq.com/s?__biz=MzI1Mjc3NTUwMQ==&mid=2247538734&idx=1&sn=d7772d5029c8c79c7c637ce23d5fc181)
+  - [ ] [渗透测试中新手必练的15个靶场](https://mp.weixin.qq.com/s?__biz=MzU2MTc4NTEyNw==&mid=2247486535&idx=1&sn=1534f7bbb127be7ce371cfc8b8e35689)
+  - [ ] [【重磅教程二】零API！手把手教你打造案件知识库 | 本地部署全攻略](https://mp.weixin.qq.com/s?__biz=MzI1NDMxOTkyNw==&mid=2247485397&idx=1&sn=df88518e168608393c6686127d9229a9)
+  - [ ] [CVE-2025-1127 严重漏洞：利用非特权用户执行和未经授权的数据修改](https://mp.weixin.qq.com/s?__biz=MzkzMDY1Nzc5MQ==&mid=2247483815&idx=1&sn=70578fd573bed32f8b903487d3956a95)
+  - [ ] [如果DeepSeek对中国网安市场的判断不对，那什么对？](https://mp.weixin.qq.com/s?__biz=MzAxOTk3NTg5OQ==&mid=2247492445&idx=1&sn=070b5c7c0c26851f19ea5a5605df286d)
+  - [ ] [人民日报 | 让公共数据供得出、流得动、用得好](https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247634413&idx=1&sn=93329f92387082dd289ce97c2ff6d76c)
+  - [ ] [国家网络安全通报中心发布新一批重点防范境外恶意网址和恶意IP](https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247634413&idx=2&sn=9d72f61eef287fa8097536421da8fce7)
+  - [ ] [以激活电子医保卡为由骗取上万村民个人信息 ，32人获刑](https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247634413&idx=3&sn=1c1047d54e84ae08359e74d0456f9916)
+  - [ ] [新型设备码钓鱼攻击：利用设备认证窃取身份令牌](https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247634413&idx=4&sn=18aaccd5ce20da8de3ae1b9d7f77fef4)
+  - [ ] [Nighthawk的implant+zero模式](https://mp.weixin.qq.com/s?__biz=MzkzODc4NjE1OQ==&mid=2247483951&idx=1&sn=4578273089674e13a25bf9d3c80b3c3c)
+  - [ ] [2025年人工智能十大发展趋势+可信人工智能治理报告](https://mp.weixin.qq.com/s?__biz=MjM5OTk4MDE2MA==&mid=2655266591&idx=1&sn=f93893d1d40531982900b65d73eabf06)
+  - [ ] [【云安全】云原生- K8S Kubelet 未授权访问](https://mp.weixin.qq.com/s?__biz=MzUyNTUyNTA5OQ==&mid=2247484985&idx=1&sn=aa105132cdc3e4d362c479d53154963e)
+  - [ ] [利用App盗取数百万条个人信息，江西一公司负责人获刑！|新型设备码钓鱼攻击：利用设备认证窃取身份令牌](https://mp.weixin.qq.com/s?__biz=MzAxMjE3ODU3MQ==&mid=2650608065&idx=1&sn=19c4634d13417fe9dd69bd5a70f56c83)
+  - [ ] [警惕恶意Python脚本制造的虚假蓝屏死机](https://mp.weixin.qq.com/s?__biz=MzAxMjE3ODU3MQ==&mid=2650608065&idx=2&sn=80f0518cd5711e55d80fe6671e6c48c3)
+  - [ ] [利用js挖掘漏洞](https://mp.weixin.qq.com/s?__biz=MzAxMjE3ODU3MQ==&mid=2650608065&idx=3&sn=c7d34eae06f416be4c6d10c950b6ec07)
+  - [ ] [JeecgBoot漏洞利用工具](https://mp.weixin.qq.com/s?__biz=MzAxMjE3ODU3MQ==&mid=2650608065&idx=4&sn=9ed3b6993146eb17d459b44de92badb4)
+  - [ ] [区块链量化交易机会分析过滤](https://mp.weixin.qq.com/s?__biz=MzU3NDY1NTYyOQ==&mid=2247486043&idx=1&sn=33e5790cb7cd1f86d257f42dc8247f6f)
+  - [ ] [零信任架构的致命盲区：90%企业忽略的API安全陷阱](https://mp.weixin.qq.com/s?__biz=MzkyMTYyOTQ5NA==&mid=2247486256&idx=1&sn=64c28cb863906f287c9d2aa059dbbce4)
+  - [ ] [通过发现隐藏的参数值实现任意用户登录](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497100&idx=1&sn=4cbb22f5bf940a02f2c8517e0b886d22)
+  - [ ] [Golang 供应链攻击新手法：利用模块缓存实现恶意代码持久化](https://mp.weixin.qq.com/s?__biz=Mzg5NjAxNjc5OQ==&mid=2247484131&idx=1&sn=771c685b0d7260403c831578aed71c7b)
+  - [ ] [【云安全】云原生- K8S 安装 Dashboard 面板](https://mp.weixin.qq.com/s?__biz=MzUyNTUyNTA5OQ==&mid=2247484968&idx=1&sn=f636d1e1102975220db1b38d7b9fa9b9)
+  - [ ] [【资讯】工信部印发《雷达无线电管理规定（试行）》](https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247549759&idx=1&sn=8dfd3153161f5f692da31dc8c0312882)
+  - [ ] [【资讯】国家发改委等部门发布《关于开展物流数据开放互联试点工作的通知》](https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247549759&idx=2&sn=618ee9f94d7f99855abb86ea215ed818)
+  - [ ] [【资讯】国家工信安全中心征集《人工智能数据集 质量评价指标体系》及《工业企业高质量数据集建设规范》团体标准参编单位](https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247549759&idx=3&sn=26d98800ee0351f8f9e907fa321485f8)
+  - [ ] [【资讯】福建省数据管理局发布《关于公开征集人工智能行业高质量数据集的通知》](https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247549759&idx=4&sn=d73a82f399836dab33d55a61b75c3a45)
+  - [ ] [我的评价是全是干货](https://mp.weixin.qq.com/s?__biz=Mzg2ODYxMzY3OQ==&mid=2247518590&idx=1&sn=ec9c384eecb61d03eeff3755b485d16d)
+  - [ ] [【云安全】云原生- K8S kubeconfig 文件泄露](https://mp.weixin.qq.com/s?__biz=MzUyNTUyNTA5OQ==&mid=2247484955&idx=1&sn=af5c7ad9e052f035cc91b068f36ab614)
+  - [ ] [网络安全人士必知的3种数据存储技术](https://mp.weixin.qq.com/s?__biz=Mzg3NTU3NTY0Nw==&mid=2247489584&idx=1&sn=3f4929a6ddde75ce93b078e38ceb5bd3)
+  - [ ] [《内网安全攻防渗透测试实战指南》笔记之内网信息收集（文末下载电子版）](https://mp.weixin.qq.com/s?__biz=MzkzNjQwOTc4MQ==&mid=2247490246&idx=1&sn=ac4af134a9f18c4e82e4667d23238f40)
+  - [ ] [AI风险管理框架（AI RMF 1.0）](https://mp.weixin.qq.com/s?__biz=MzA5MTYyMDQ0OQ==&mid=2247493684&idx=1&sn=b091b3aa1b907b4902f583c39678cd29)
+  - [ ] [广州图创-图书馆集群管理系统](https://mp.weixin.qq.com/s?__biz=MzkyOTg3ODc5OA==&mid=2247484390&idx=1&sn=b0e11805456198d8b62e8e9c7d8f1ac5)
+- Security Boulevard
+  - [ ] [PCI DSS 4: Compliance Guide for SAQ A-EP Merchants to comply with Requirements 6.4.3 and 11.6.1](https://securityboulevard.com/2025/02/pci-dss-4-compliance-guide-for-saq-a-ep-merchants-to-comply-with-requirements-6-4-3-and-11-6-1/)
+- obaby@mars
+  - [ ] [微博图片拯救 — 妈妈再也不用担心图片被夹看不到啦！🤓](https://h4ck.org.cn/2025/02/19296)
+- Jiajun的技术笔记
+  - [ ] [AWS IAM 信任链 和 EKS IRSA](https://jiajunhuang.com/articles/2025_02_16-aws_iam.md.html)
+  - [ ] [自己动手写一个k8s controller](https://jiajunhuang.com/articles/2025_02_16-k8s_controller.md.html)
+- Twitter @bytehx
+  - [ ] [Re @h4x0r_dz Lol](https://x.com/bytehx343/status/1890959593586520221)
+- Bug Bounty in InfoSec Write-ups on Medium
+  - [ ] [My First Bug: How I Was Able to Bypass the WAF and Uncover a Reflected XSS](https://infosecwriteups.com/my-first-bug-how-i-was-able-to-bypass-the-waf-and-uncover-a-reflected-xss-e0534b6f05e4?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [Cache Control: An Easy P4 Vulnerability](https://infosecwriteups.com/cache-control-an-easy-p4-vulnerability-746138597d10?source=rss----7b722bfd1b8d--bug_bounty)
+- Reverse Engineering
+  - [ ] [Supersight: Mod for DOS game stunts that increasing the field of view](https://www.reddit.com/r/ReverseEngineering/comments/1iqom9x/supersight_mod_for_dos_game_stunts_that/)
+- daniel.haxx.se
+  - [ ] [OpenSSL does a QUIC API](https://daniel.haxx.se/blog/2025/02/16/openssl-does-a-quic-api/)
+- 杨龙
+  - [ ] [Linux 递归删除空目录](https://www.yanglong.pro/linux-%e9%80%92%e5%bd%92%e5%88%a0%e9%99%a4%e7%a9%ba%e7%9b%ae%e5%bd%95/)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [窃取机密的黑客兼职勒索软件攻击者](https://www.solidot.org/story?sid=80569)
+  - [ ] [世界海冰面积再创新低](https://www.solidot.org/story?sid=80568)
+- 明天的乌云
+  - [ ] [AI应用功能和效果对比](https://blog.xlab.app/p/274d272e/)
+- 安全分析与研究
+  - [ ] [简单的反调试技巧介绍](https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247490541&idx=1&sn=c69072f45da7f28ba4f9d3b1d36842f0&chksm=902fb4c5a7583dd31ea009e16ee6710d06ecf16bfb37fcdcf43a474442179e1d7f615a89a8c1&scene=58&subscene=0#rd)
+  - [ ] [十几年恶意软件分析与研究：一段深度探索之旅](https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247490541&idx=2&sn=42560e0a96a80c273cf062969c696571&chksm=902fb4c5a7583dd3f2a878caebcfc8a808ed861ad2dfb9073a8a6472440264f30c80d1def289&scene=58&subscene=0#rd)
+- 黑海洋 - IT技术知识库
+  - [ ] [CNFaster 大盘鸡 VNC 重装：实现系统盘与数据盘合并教程](https://blog.upx8.com/4692)
+- 威努特安全网络
+  - [ ] [威努特应用交付系统：赋能企业数字化升级](https://mp.weixin.qq.com/s?__biz=MzAwNTgyODU3NQ==&mid=2651131142&idx=1&sn=e6314964292db1e72adb331e2d97c475&chksm=80e717b6b7909ea01f0d5127814e55c49bacfe378bb79144e8834231e514f21de62e47463273&scene=58&subscene=0#rd)
+- 技可达工作室
+  - [ ] [区块链量化交易机会分析过滤](https://mp.weixin.qq.com/s?__biz=MzU3NDY1NTYyOQ==&mid=2247486043&idx=1&sn=33e5790cb7cd1f86d257f42dc8247f6f&chksm=fd2e57b9ca59deaf907c0bab336929a7bb03540db0bb0bb1e418acbe9c9c329376d7ef205229&scene=58&subscene=0#rd)
+- 安全实践
+  - [ ] [六年银行理财平均年化收益不到3%！](https://mp.weixin.qq.com/s?__biz=MzI5NzAzMDg0NA==&mid=2650698001&idx=1&sn=6f891cca7d833478db0f9a6bc6494ef8&chksm=f4b194c2c3c61dd4ca2c67688fe04137b61a34273a9603acf16e3d3e413dedc80deda33d7814&scene=58&subscene=0#rd)
+- 奇安信威胁情报中心
+  - [ ] [bshare分享插件被黑？百万级网站被劫持事件](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247513994&idx=1&sn=215f43f75089a70e967562ff9cb233a4&chksm=ea6640fddd11c9ebd873c8a5113d9d372006161766f94d417d689c768426fd3279b6b7e9d971&scene=58&subscene=0#rd)
+- 安全内参
+  - [ ] [美国政府未来四年或加大零日漏洞储备以支持网络攻击](https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247513743&idx=1&sn=bbb290f45690884b2d92cb3ec0bf760f&chksm=ebfaf1afdc8d78b92f3fb8b13ebc111cdad67d8be35c9a874ee997f4c9d499be3a46bd60a3bd&scene=58&subscene=0#rd)
+- 丁爸 情报分析师的工具箱
+  - [ ] [【资料】美国国际开发署(USAID)人员名单（含简历）](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651149077&idx=1&sn=a5f9da8112d5424f2e1adc503de35956&chksm=f1af242fc6d8ad39d6fdede8d3edafc6ede9bea8abcf0da83be750b6d1eae1957605e8d9298e&scene=58&subscene=0#rd)
+  - [ ] [【AI速读】基于OSINT的威胁分析技术与工具](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651149077&idx=2&sn=1062004a0a5000e437cd2e67e74fe0c1&chksm=f1af242fc6d8ad39753fcbdbbc13d1fc441c67267a6097675ab647a64060317a045fd3ed22a8&scene=58&subscene=0#rd)
+- 安全研究GoSSIP
+  - [ ] [清华大学李琦老师课题组招聘研究员、博士后、工程师](https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247499746&idx=1&sn=7e7b2af4606b5272da82b48b9de33ea9&chksm=c063d13bf714582dd6e4f5636e40bbb7c609e6063d98eac11cdb23e8a87f02c78d08139e060c&scene=58&subscene=0#rd)
+  - [ ] [G.O.S.S.I.P 2025年2月投稿指南](https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247499746&idx=2&sn=ae0c97fc6cff87a6895f40575b1c7d22&chksm=c063d13bf714582dedec389455688cea1378c4842f991ed3e80777eb45aeb6819552b218f650&scene=58&subscene=0#rd)
+- Hacking就是好玩
+  - [ ] [CSS注入窃取 OAuth 令牌](https://mp.weixin.qq.com/s?__biz=MzU2NzcwNTY3Mg==&mid=2247485259&idx=1&sn=cc67d3e812d30931d55cee5328b1d66a&chksm=fc986e6ccbefe77aa1b5b2c98a56ddebea7a321884e9cd91443e7c31a542a12e2a75b6eec628&scene=58&subscene=0#rd)
+- dotNet安全矩阵
+  - [ ] [.NET内网实战：通过 Sysnative 虚拟路径绕过安全防护启动 cmd 进程](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247498942&idx=1&sn=f779ffbc30c49d88a3c6ccbe1625fc2b&chksm=fa595253cd2edb45abcc79144dbc8873e212c8db66e39c12c95e93ef856f808ebdeb74e1589c&scene=58&subscene=0#rd)
+  - [ ] [.NET 安全攻防知识交流社区](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247498942&idx=2&sn=bccc4e2902cdd8f7049b39cf64bca881&chksm=fa595253cd2edb45a158c014c7f38486df71abe0bb08d9d3a687bf43101450eb4607425618ec&scene=58&subscene=0#rd)
+  - [ ] [.NET 总第 59 期红队武器库和资源汇总](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247498942&idx=3&sn=30453eabb7ccc7e94c290a7af873cdd0&chksm=fa595253cd2edb457742822877558f3d2fbba7883f09430f588b2c4b4add35f94ee8e3ba6a16&scene=58&subscene=0#rd)
+- 情报分析师
+  - [ ] [【独家】美开署全球联系人大曝光（具体电话、地址、邮箱）全掌握](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650559728&idx=1&sn=297d1f16c389ccd5f7f659e9931d0e75&chksm=87117abbb066f3ad4c972c0723e61e48f7d65330bc68fa31345dc347736c6d9a2d6cf17352c6&scene=58&subscene=0#rd)
+- 安全圈
+  - [ ] [【安全圈】利用App盗取数百万条个人信息，江西一公司负责人获刑！](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652067846&idx=1&sn=21a4530ad00ec5af97103e9590e7dce0&chksm=f36e7446c419fd505740a7be24003423b4095bfe7d748e446ca292058be28d21349a41e3e8ba&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】PostgreSQL漏洞与BeyondTrust零日漏洞被联合利用](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652067846&idx=2&sn=cd94ea7cada0daf8d439805d2653a055&chksm=f36e7446c419fd50cde0d3757dc46b33e360ae50088fab68c8f1bf59a63968103fa017346904&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】黑客利用智能合约漏洞盗取价值950万美元以太币](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652067846&idx=3&sn=4a1a9e96de810a8e68ea6951a76de7f0&chksm=f36e7446c419fd504982da27ae887c04989ac69ea58bb83a114c6f744af86431bbbc9d786afe&scene=58&subscene=0#rd)
+- 极客公园
+  - [ ] [DeepSeek 的「技术之美」：详解 R1 是怎样炼成的？](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653073814&idx=1&sn=af59676d398794d2c0bae42aa2c44cc7&chksm=7e57cc2049204536673a70b6bd8996ed91e12c27ba6b68594d4feb72aebbb4726daed8b70759&scene=58&subscene=0#rd)
+  - [ ] [传微信内测接入 DeepSeek；字节 CEO 重申今年 AI 目标；奥斯卡评委：希望《哪吒 2》角逐金奖 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653073857&idx=1&sn=46a192d6e11f6e6faca52858a349e07e&chksm=7e57cc77492045610add6330b33aa9a46c0b640bde84bdfa1c91ba1230e10e0ef99f6bc5863c&scene=58&subscene=0#rd)
+- 吴鲁加
+  - [ ] [买了 ChatGPT Pro](https://mp.weixin.qq.com/s?__biz=Mzg5NDY4ODM1MA==&mid=2247485191&idx=1&sn=4c4f64fae2997f3098f77fe77af25b59&chksm=c01a8a36f76d0320859f9c7c8b991923850a5f6afb77e98a25889e2888e39b34a32f6ef06a53&scene=58&subscene=0#rd)
+- DARKNAVY
+  - [ ] [「深蓝洞察」2024年度最憋屈的漏洞披露](https://mp.weixin.qq.com/s?__biz=MzkyMjM5MTk3NQ==&mid=2247487151&idx=1&sn=6437eeee03cd6a0c9213f5e797660259&chksm=c1f44a67f683c371aaaf437521f445b7dd0eba5ee90307695745c9edfa0ac424789b37c0091b&scene=58&subscene=0#rd)
+- 迪哥讲事
+  - [ ] [通过发现隐藏的参数值实现任意用户登录](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497100&idx=1&sn=4cbb22f5bf940a02f2c8517e0b886d22&chksm=e8a5ffefdfd276f9063160c84682dc4572ad169a402c560d84612747514cccb6f08ea574fbf6&scene=58&subscene=0#rd)
+- RedTeam
+  - [ ] [Golang 供应链攻击新手法：利用模块缓存实现恶意代码持久化](https://mp.weixin.qq.com/s?__biz=Mzg5NjAxNjc5OQ==&mid=2247484131&idx=1&sn=771c685b0d7260403c831578aed71c7b&chksm=c006ca13f77143059b30d30d7de1a6e54b0875c477e5831fd6327041ece3e757d4e5ce36fe95&scene=58&subscene=0#rd)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Tear Down The Castle - Part 2](https://dfir.ch/posts/tear_down_castle_part_two/)
+  - [ ] [macOS Extended Attributes: Case Study](https://dfir.ch/posts/macos_extended_attributes/)
+  - [ ] [Storenvy - 11,052,071 breached accounts](https://haveibeenpwned.com/PwnedWebsites#Storenvy)
+- ICT Security Magazine
+  - [ ] [Sistemi di Pagamento Quantum-Safe: Evoluzione e Sicurezza nell’Era della computazione quantistica](https://www.ictsecuritymagazine.com/articoli/sistemi-di-pagamento/)
+- Hacking Exposed Computer Forensics Blog
+  - [ ] [Daily Blog #751: Sunday Funday 2/16/25](https://www.hecfblog.com/2025/02/daily-blog-751-sunday-funday-21625.html)
+- Troy Hunt's Blog
+  - [ ] [Weekly Update 439](https://www.troyhunt.com/weekly-update-439/)
+- Security Affairs
+  - [ ] [Storm-2372 used the device code phishing technique since August 2024](https://securityaffairs.com/174270/apt/storm-2372-used-device-code-phishing-technique.html)
+  - [ ] [SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 33](https://securityaffairs.com/174262/malware/security-affairs-malware-newsletter-round-33.html)
+  - [ ] [Security Affairs newsletter Round 511 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/174255/security/security-affairs-newsletter-round-511-by-pierluigi-paganini-international-edition.html)
+- TorrentFreak
+  - [ ] [TorrentGalaxy Drama Continues With Days of Downtime](https://torrentfreak.com/torrentgalaxy-drama-continues-with-days-of-downtime-250216/)
+  - [ ] [Real-Debrid Traffic Falls 16% in 3 Months, Anti-Piracy Action Painful But Non-Fatal](https://torrentfreak.com/real-debrid-traffic-falls-16-in-3-months-anti-piracy-action-painful-but-non-fatal-250216/)
+- Deep Web
+  - [ ] [Warning ⚠️](https://www.reddit.com/r/deepweb/comments/1iqu20r/warning/)
+- The Register - Security
+  - [ ] [Fujitsu worries US tariffs will see its clients slow digital spend](https://go.theregister.com/feed/www.theregister.com/2025/02/16/asia_tech_news_in_brief/)
+  - [ ] [This open text-to-speech model needs just seconds of audio to clone your voice](https://go.theregister.com/feed/www.theregister.com/2025/02/16/ai_voice_clone/)
+- Have I Been Pwned latest breaches
+  - [ ] [Storenvy - 11,052,071 breached accounts](https://haveibeenpwned.com/PwnedWebsites#Storenvy)
+- Your Open Hacker Community
+  - [ ] [How to go forward?](https://www.reddit.com/r/HowToHack/comments/1iqijm7/how_to_go_forward/)
+  - [ ] [is there a way to see the instagram stories someone is tagged in?](https://www.reddit.com/r/HowToHack/comments/1ir21bq/is_there_a_way_to_see_the_instagram_stories/)
+  - [ ] [What is best practice to bypass website account suspensions through virtual machines ?](https://www.reddit.com/r/HowToHack/comments/1iqfyti/what_is_best_practice_to_bypass_website_account/)
+- Social Engineering
+  - [ ] [When someone is saved when they can't take it anymore, it makes the person more grateful towards their savior. If the person would have been saved before the danger occurred, the person would never know what they were saved from and they wouldn't feel so grateful towards the person who saved them.](https://www.reddit.com/r/SocialEngineering/comments/1iqq532/when_someone_is_saved_when_they_cant_take_it/)
+- Technical Information Security Content & Discussion
+  - [ ] [How to approach network protocol fuzzing](https://www.reddit.com/r/netsec/comments/1iqycw1/how_to_approach_network_protocol_fuzzing/)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Looking for GGWS Legacy business starter admin accounts](https://www.reddit.com/r/blackhat/comments/1iqtf2w/looking_for_ggws_legacy_business_starter_admin/)
+  - [ ] [Zip file.... password](https://www.reddit.com/r/blackhat/comments/1iqwm75/zip_file_password/)
+  - [ ] [Slowloris | Ddos pen test by darkart](https://www.reddit.com/r/blackhat/comments/1iqw8mf/slowloris_ddos_pen_test_by_darkart/)
+  - [ ] [KALI + WHONIX ?](https://www.reddit.com/r/blackhat/comments/1iqs27l/kali_whonix/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [How to approach network protocol fuzzing](https://www.reddit.com/r/netsecstudents/comments/1iqyjea/how_to_approach_network_protocol_fuzzing/)
+  - [ ] [Focusing on Cloud Security – My Learning Roadmap & Looking for Feedback](https://www.reddit.com/r/netsecstudents/comments/1iqvir4/focusing_on_cloud_security_my_learning_roadmap/)
+  - [ ] [ISA 62443 Design Specialist Certification Exam Practice Questions](https://www.reddit.com/r/netsecstudents/comments/1iqhqrw/isa_62443_design_specialist_certification_exam/)
+- Full Disclosure
+  - [ ] [Monero 18.3.4 zero-day DoS vulnerability has been dropped	publicly on social network.](https://seclists.org/fulldisclosure/2025/Feb/13)
+  - [ ] [Netgear Router Administrative Web Interface Lacks Transport Encryption By Default](https://seclists.org/fulldisclosure/2025/Feb/12)
+  - [ ] [[CVE-2024-54756] GZDoom <= 4.13.1 Arbitrary Code Execution via	Malicious ZScript](https://seclists.org/fulldisclosure/2025/Feb/11)
+  - [ ] [Re: Text injection on https://www.google.com/sorry/index via ?q parameter (no XSS)](https://seclists.org/fulldisclosure/2025/Feb/10)
+- Information Security
+  - [ ] [What is My IP Address? (And Why Should You Care?)](https://www.reddit.com/r/Information_Security/comments/1iqs3pf/what_is_my_ip_address_and_why_should_you_care/)

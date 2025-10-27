@@ -1,0 +1,185 @@
+---
+title: Android 14 developer preview highlights multiple security improvements
+url: https://www.malwarebytes.com/blog/news/2023/02/android-14-developer-preview-highlights-multiple-security-improvements
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-16
+fetch_date: 2025-10-04T06:48:03.984695
+---
+
+# Android 14 developer preview highlights multiple security improvements
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![hands holding phones](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/02/asset_upload_file45990_258960.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Android 14 developer preview highlights multiple security improvements
+
+Posted: February 14, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+[Android](https://www.malwarebytes.com/cybersecurity/basics/how-to-clean-your-phone-from-virus) developers have been given a taste of what’s to come in the next big step up in mobile land, thanks to [Android 14 waiting on the horizon](https://www.tomsguide.com/news/android-14). The developer preview is a great way for those most familiar with the mobile operating system to see which changes they’ll enjoy and what ones they’ll have to endure.
+
+As it happens, there’s quite a few security changes coming down the pipeline and developers will now be busy testing their apps. Not only are alarm permissions, system broadcasts, and language support experiencing alterations, but a wealth of security features will help ensure your device [is as safe as can be](https://www.bleepingcomputer.com/news/security/android-14-to-block-malware-from-abusing-sensitive-permissions/).
+
+## Out with the old, in with the new
+
+The biggest change is that old apps are on the way out. After a certain point, you will no longer be able to install them. These kinds of changes have been [threatening to land for some time now](https://www.malwarebytes.com/blog/news/2022/04/old-play-store-apps-served-notice-by-upcoming-api-level-changes), so developers will surely have been aware of this coming.
+
+As Ars Technica notes, the [current backward compatibility system](https://arstechnica.com/gadgets/2023/02/android-14-preview-1-is-out-will-officially-ban-installation-of-old-apps/) allowed for older apps to still install but at the risk of [malware](https://www.malwarebytes.com/malware) developers simply targeting older Android versions.
+
+Android 14, on the other hand, is simply bringing down the curtain and those old apps won’t install anymore. Now, don’t panic too much. Your favourite apps are almost certainly safe, especially if you’re still using them on a daily basis because there’s a strong chance they’re still being maintained and updated.
+
+By “old apps”, we’re talking Android 6 and earlier which is a grand total of 8 years+. Given that apps not updated for two years have already [started to be hidden from view](https://arstechnica.com/gadgets/2022/04/google-will-soon-hide-neglected-apps-in-the-play-store/) on the Play store, there is a tiny chance you’ll be impacted by this. If you’re a side-loading hobbyist with a passion for ancient apps, then maybe this could cause you a few headaches. For most people, this is one of those changes you simply won’t notice. It’s a smart piece of house cleaning by Google and one which makes sense.
+
+## The first of what could be many security changes
+
+Additional security features and alterations [mentioned on the Android Developers Google blog](https://android-developers.googleblog.com/2023/02/first-developer-preview-android14.html) are as follows:
+
+**Safer dynamic code loading**
+
+> Dynamic code loading (DCL) introduces outlets for malware and [exploits](https://www.malwarebytes.com/exploits), since dynamically downloaded executables can be unexpectedly manipulated, causing code injection. Apps targeting Android 14 require dynamically loaded files to be marked as read-only.
+
+Malware authors being hampered from malicious code injection can only be a good thing so this is good to see.
+
+**Runtime receivers**
+
+> Apps targeting Android 14 must indicate if dynamic Context.registerReceiver() usag...

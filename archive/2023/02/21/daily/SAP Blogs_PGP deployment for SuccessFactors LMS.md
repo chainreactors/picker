@@ -1,0 +1,163 @@
+---
+title: PGP deployment for SuccessFactors LMS
+url: https://blogs.sap.com/2023/02/20/pgp-deployment-for-successfactors-lms/
+source: SAP Blogs
+date: 2023-02-21
+fetch_date: 2025-10-04T07:37:05.163886
+---
+
+# PGP deployment for SuccessFactors LMS
+
+* [SAP Community](/)
+* [Groups](/t5/groups/ct-p/groups)
+* [Interest Groups](/t5/interest-groups/ct-p/interests)
+* [Application Development and Automation](/t5/application-development-and-automation/gh-p/application-development)
+* [Blog Posts](/t5/application-development-and-automation-blog-posts/bg-p/application-developmentblog-board)
+* PGP deployment for SuccessFactors LMS
+
+Application Development and Automation Blog Posts
+
+Learn and share on deeper, cross technology development topics such as integration and connectivity, automation, cloud extensibility, developing at scale, and security.
+
+All communityThis groupBlogKnowledge baseUsersManaged tags
+
+cancel
+
+[Turn on suggestions](https://community.sap.com/t5/blogs/v2/blogarticlepage.enableautocomplete%3Aenableautocomplete?t:ac=blog-id/application-developmentblog-board/article-id/46606&t:cp=action/contributions/searchactions)
+
+Auto-suggest helps you quickly narrow down your search results by suggesting possible matches as you type.
+
+Showing results for
+
+Search instead for
+
+Did you mean:
+
+#### We have launched new [Developer forums/groups](https://community.sap.com/t5/developers/ct-p/developers) in the SAP Community. If you are here to publish developer- or SAP-technology related blog posts, please check out our new groups instead. You can find more information about the developer forums in this [What's New post](https://community.sap.com/t5/what-s-new/new-developer-forums/ba-p/14230147).
+
+Read only
+
+## [PGP deployment for SuccessFactors LMS](/t5/application-development-and-automation-blog-posts/pgp-deployment-for-successfactors-lms/ba-p/13550231)
+
+![amitjtiwari](https://avatars.profile.sap.com/c/a/idca73340f1c5fee87a54dbf808b3e3c383b741714218ee3e0325906f93a9a0394_small.jpeg "amitjtiwari")
+
+[amitjtiwari](https://community.sap.com/t5/user/viewprofilepage/user-id/37414)
+
+Discoverer
+
+Options
+
+* [Subscribe to RSS Feed](/khhcw49343/rss/message?board.id=application-developmentblog-board&message.id=46606)
+* Mark as New
+* Mark as Read
+* Bookmark
+* Subscribe
+* [Printer Friendly Page](/t5/blogs/blogarticleprintpage/blog-id/application-developmentblog-board/article-id/46606)
+* [Report Inappropriate Content](/t5/notifications/notifymoderatorpage/message-uid/13550231)
+
+‎2023 Feb 20
+9:22 PM
+
+[1
+Kudo](/t5/kudos/messagepage/board-id/application-developmentblog-board/message-id/46606/tab/all-users "Click here to see who gave kudos to this post.")
+
+2,387
+
+* SAP Managed Tags
+* [Security](https://community.sap.com/t5/c-khhcw49343/Security/pd-p/49511061904067247446167091106425)
+
+* [Security
+
+  Topic](/t5/c-khhcw49343/Security/pd-p/49511061904067247446167091106425)
+
+View products (1)
+
+Hello Folks,
+
+This blog can be helpful for the clients or consultants who wish to learn more about PGP's fundamental principles or for those who are just getting started with PGP's deployment for the SF LMS module.
+
+**What is PGP and why is it useful in SFLMS:**
+
+PGP is a widely used encryption program to encrypt and decrypt files. PGP uses a variation of the public key (PK) system where each user has a publicly known encryption key and a private key known only to that user. The LMS connectors have the ability to process PGP encrypted input files.
+
+Since most of us export user data from EC to LMS with the help of Integration Centre (IC) now so PGP is being applied in outbound file on IC side so that encrypted user data file (UDF) should get destination in the SFTP server. From SFTP, LMS SF user connector picks up the UDF and decrypt further.
+
+The advantage of PGP deployment in this case is that user data files are not made publicly available, especially on SFTP servers, and user data is safeguarded because anyone with the necessary credentials can log into SFTP. As of now, my scenario only covers the SFTP provided by the SAP rather any other 3rd party SFTP server.
+
+Let's move through the process step by step to show how PGP keys are created and used in IC. I'm not concentrating on PGP deployment errors here because they could be too complex for SF consultants to understand. Instead, you should adhere to the steps listed below for a successful PGP deployment for SFLMS.
+
+**PGP Deployment Steps :**
+
+**Step 1**- Get the Public, Private (Secret) & passcode from the client with below info.
+
+Algorithm - RSA
+
+Key size - 2048 or 4096 bits (recommended)
+
+Expiry - Never (recommended)
+
+Passphrase- Alphanumeric (with/without special character)
+
+So at this stage - you will have 3 major details with you:
+
+1- Public Key
+
+2- Private Key
+
+3- Passphrase
+
+**Step 2** - Open SF application > navigate Security Centre > PGP File Encryption Keys > Click on Import a Key > Pick appropriate name and search and upload the Public key provided by the client or generated by you (.asc file) > Click on Import Key
+
+![](/legacyfs/online/storage/blog_attachments/2023/02/1-66.png)
+
+![](/legacyfs/online/storage/blog_attachments/2023/02/2-15.jpg)
+
+**Step 3** -Now go to Integration Centre > Open the outbound file > Navigate Destination Settings > select the key which you have imported in previous step as below snip > Save & Run the IC job
+
+![](/legacyfs/online/storage/blog_attachments/2023/02/3-8.jpg)
+
+**Step 4 -** Open SFTP server and check the UDF, it should be encrypted format exp:- user\_data.csv.pgp
+
+![](/legacyfs/online/storage/blog_attachments/2023/02/4-5.jpg)
+
+**Step 5** - If the provided PGP keys are not encoded in base64 format so please encode them thru <https://www.base64encode.org/>. Below snip is FYR
+
+![](/legacyfs/online/storage/blog_attachments/2023/02/5-3.jpg)
+
+**Step 6** -Now in order LMS SF user connector to fetch the file from SFTP and decrypt further, we need to do few configs changes in LMS:
+
+**Connector Configuration in LMS**
+
+Once input files are encrypted and ready for connector processing, the following properties need to be configured via LMS Admin > System Administration > Configuration > System Configuration > CONNECTORS
+
+# PGP setup for decryption of input files
+
+connector.pgp.enabled= true
+connector.pgp.public.keyring= mentioned PGP public base 64 encoded key
+connector.pgp.secret.keyring=mentioned PGP private base 64 encoded key
+connector.pgp.passphrase= mentioned
+connector.pgp.file.extension=.pgp
+
+Apply Changes
+
+Navigate User Connector - SF > set the timings > Apply Changes and wait for successful connector run.
+
+I hope this blog will assist the consultant in implementing PGP for the SFLMS module for the first time or client, who wants to see the entire PGP process flow for SFLMS module.
+
+Just to summarize in this blog- we have seen:
+
+1- Usability of PGP in SFLMS
+
+2- PGP deployment in SFLMS
+
+You may share your feedback or thoughts in a comment.
+
+Regards,
+
+Amit
+
+* [SAPSuccessFactors](/t5/tag/SAPSuccessFactors/tg-p/board-id/application-developmentblog-board)
+
+Copy Link
+![](https://community.sap.com/html/@EE5D5986E9F4E5657DCEACB7532B5C39/assets/bluesky-dark.svg)Bluesky
+Linkedin

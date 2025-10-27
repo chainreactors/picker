@@ -1,0 +1,20 @@
+---
+title: 【干货原创】实网攻防演习常态化，会带来什么变化01
+url: https://mp.weixin.qq.com/s?__biz=MzU3NjQ5NTIxNg==&mid=2247485330&idx=4&sn=83c6fb04b34979c9730bf4cfcb7e3dc6
+source: Doonsec's feed
+date: 2024-12-29
+fetch_date: 2025-10-06T19:33:33.217296
+---
+
+# 【干货原创】实网攻防演习常态化，会带来什么变化01
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

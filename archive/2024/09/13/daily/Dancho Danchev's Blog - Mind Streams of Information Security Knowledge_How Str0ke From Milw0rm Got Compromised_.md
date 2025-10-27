@@ -1,0 +1,53 @@
+---
+title: How Str0ke From Milw0rm Got Compromised?
+url: https://ddanchev.blogspot.com/2024/09/how-str0ke-from-milw0rm-got-compromised.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2024-09-13
+fetch_date: 2025-10-06T18:27:25.392379
+---
+
+# How Str0ke From Milw0rm Got Compromised?
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+Independent Contractor. Bitcoin: 15Zvie1j8CjSR52doVSZSjctCDSx3pDjKZ Email: dancho.danchev@hush.com OMEMO: ddanchev@conversations.im | OTR: danchodanchev@xmpp.jp | TOX ID: 53B409440A6DC34F1BA458869A0462D92C15B467AF6319D481CA353690C88667833A0EE82969
+
+## Thursday, September 12, 2024
+
+### How Str0ke From Milw0rm Got Compromised?
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaU4NnDY8SvU0FnCjAj9pJScL4PJpa4FSGClk2pN-8bEEY0xL2x3O-QSYkJxXYQd9bziEE91lWHJzFiyPvtrqy6rp8Vb3NpEqq3UDI41PU75N6njfLrXqObrbU5_1yYp4LhHy4SC_IADpySa-ow7PYrZRnnHGsGeWlsUhfnjs_Niu3EOcGpZXb/s320/Screenshot_23.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaU4NnDY8SvU0FnCjAj9pJScL4PJpa4FSGClk2pN-8bEEY0xL2x3O-QSYkJxXYQd9bziEE91lWHJzFiyPvtrqy6rp8Vb3NpEqq3UDI41PU75N6njfLrXqObrbU5_1yYp4LhHy4SC_IADpySa-ow7PYrZRnnHGsGeWlsUhfnjs_Niu3EOcGpZXb/s1229/Screenshot_23.png)
+
+An image is worth a thousand words.
+
+I just came across a video which appears that I have obtained using Technical Collection back in the good old school days in 2009 which clearly indicates that str0ke from Milw0rm got compromised using the Bitfrost trojan horse and the attacker even recorded a video out of it.
+
+One of the most important things when dealing with your job is to always keep in mind and take the necessary in-depth and multi layered approach to prevent and properly respond to possible security incidents that could take place in your environment.
+
+**Sample video:**
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJBr_NHTmdmvLTIUw7wubwLmD6KeTs0EiT6dVLN9I9G7wfE4lepkIsVnae_B4hVNLdJhLD59XDlOkf1UOk-q3fBd8JKE6_Ur5sDNobrWTc8kH6xeXQXx-R8geEXk8her5z6EI8er27CiDNbSxScCIQNCb-Uc7xJ4wFYKqk4uxRjbEBVNeyvk_g/s320/00020.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJBr_NHTmdmvLTIUw7wubwLmD6KeTs0EiT6dVLN9I9G7wfE4lepkIsVnae_B4hVNLdJhLD59XDlOkf1UOk-q3fBd8JKE6_Ur5sDNobrWTc8kH6xeXQXx-R8geEXk8her5z6EI8er27CiDNbSxScCIQNCb-Uc7xJ4wFYKqk4uxRjbEBVNeyvk_g/s1536/00020.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkbNaK_5z66KqOWkhSkCwvmH0E40d8UHv8nr9eDyrLJN0CR0Ln30p11cx6iVDH2goDYBI2ZQ0HlNUel5svlVp6f13TVGzYd-CmzUlORUb6OHgMtehRlGxQbxnmw6h4l8i59kypLPP5UCLkwmtE1oRW7Y0AxYbyNKK3n2jSMGV4lou9tiFKroMN/s320/00019.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkbNaK_5z66KqOWkhSkCwvmH0E40d8UHv8nr9eDyrLJN0CR0Ln30p11cx6iVDH2goDYBI2ZQ0HlNUel5svlVp6f13TVGzYd-CmzUlORUb6OHgMtehRlGxQbxnmw6h4l8i59kypLPP5UCLkwmtE1oRW7Y0AxYbyNKK3n2jSMGV4lou9tiFKroMN/s1536/00019.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNYpfEFCgOzWbDklW6Zjr0rhSXq9eiIPSzR02_Pz_fCJjEz7FgQrJRdXASv6c_mLV1-JVYPmWw7ta_zx3Smz7wBSu3EnONn7ukRKKduUm9ySSz29tspMi37oKkOtPkwgD6Xx-mXYzUO9uwI0lzmiKbA1TCQo40RHokbZSonmfasKbCvzeUCCOQ/s320/00018.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNYpfEFCgOzWbDklW6Zjr0rhSXq9eiIPSzR02_Pz_fCJjEz7FgQrJRdXASv6c_mLV1-JVYPmWw7ta_zx3Smz7wBSu3EnONn7ukRKKduUm9ySSz29tspMi37oKkOtPkwgD6Xx-mXYzUO9uwI0lzmiKbA1TCQo40RHokbZSonmfasKbCvzeUCCOQ/s1536/00018.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbhkBxE6wi3NnKjMdpmwQsPwhTN9PT66NduZqkIXf6eopmHjDyzVoCCzjAm85FWDS3sR-6CVelarjuaFrc9oV_cyNaQ-bp19b1Fw95dQSAM6dRbIe-YEu8m86Lr-eOSXcXB6yAZ1z68BWlgKSHIMMsy8LeVeRD-OIrQPcCZQyg009luMCnVq99/s320/00017.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbhkBxE6wi3NnKjMdpmwQsPwhTN9PT66NduZqkIXf6eopmHjDyzVoCCzjAm85FWDS3sR-6CVelarjuaFrc9oV_cyNaQ-bp19b1Fw95dQSAM6dRbIe-YEu8m86Lr-eOSXcXB6yAZ1z68BWlgKSHIMMsy8LeVeRD-OIrQPcCZQyg009luMCnVq99/s1536/00017.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjje5nEbGI_qPisJnWnAurdS7A-rSfDS7fmHOymm1FZfWfRqr8NmhS-XV7eqhXRFf-TlBQVpP4czXmobsY__4nJQsjfcxlmaSAbnGFOKds6MMb9PPF-yg9RdD4gTsNvqXrOY0ryivGf9fxZ_KWn0HWy3Yw2tz46Bpw68SO3K4kmS2O6lqICwyoL/s320/00016.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjje5nEbGI_qPisJnWnAurdS7A-rSfDS7fmHOymm1FZfWfRqr8NmhS-XV7eqhXRFf-TlBQVpP4czXmobsY__4nJQsjfcxlmaSAbnGFOKds6MMb9PPF-yg9RdD4gTsNvqXrOY0ryivGf9fxZ_KWn0HWy3Yw2tz46Bpw68SO3K4kmS2O6lqICwyoL/s1536/00016.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdLW7fHQ1kvVN1DaK9xHbkFXV82wNPiK-PHHThbGsC4VhYczJcvobZAs3YSxLyVJD7_xPc1yN-CauvIg4dG1D8bMrKRfztJTOQ-JQqa88q8mvZ_aVzNE55d642Io9FwJUHqrV1tTzIT5BrWdTQG5j_-jkzzYZtCtK5A6dAdhGcLnRdyNtQNfff/s320/00015.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdLW7fHQ1kvVN1DaK9xHbkFXV82wNPiK-PHHThbGsC4VhYczJcvobZAs3YSxLyVJD7_xPc1yN-CauvIg4dG1D8bMrKRfztJTOQ-JQqa88q8mvZ_aVzNE55d642Io9FwJUHqrV1tTzIT5BrWdTQG5j_-jkzzYZtCtK5A6dAdhGcLnRdyNtQNfff/s1536/00015.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbGyFq6epYj-Ct4MuYgrSeeAYWNKm24dG9BSSXlpKknn4n1D6KS7YF11JUY_70wdIEv_ucVLAK-h_5cpPnTZjX3X3Sq1QrFrka4zuYLIilw92N6MpJr_yCUeV6-g4M48bjC35JVpY9IfRfjouDX3odgBJEMy4wq6oeKSJRp4Gp1bJYcYRuWT9A/s320/00014.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbGyFq6epYj-Ct4MuYgrSeeAYWNKm24dG9BSSXlpKknn4n1D6KS7YF11JUY_70wdIEv_ucVLAK-h_5cpPnTZjX3X3Sq1QrFrka4zuYLIilw92N6MpJr_yCUeV6-g4M48bjC35JVpY9IfRfjouDX3odgBJEMy4wq6oeKSJRp4Gp1bJYcYRuWT9A/s1536/00014.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdnOAUC0Rt0i5Vkm4c4Vbz_acmMN0rRaxdA4iOujIiwSr9XvImnieNcf5M9wIpVHSGQDVCTt21sti7B0bAR-_M5VgrSKFQf-6iVrN-TYkf2yb-3ixPF41d9PsPbG_MptEKTU0aB9zOVlmMADsiiroyOGId-H5V018EeaX6kQxzXT9xza-O3_ZM/s320/00013.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdnOAUC0Rt0i5Vkm4c4Vbz_acmMN0rRaxdA4iOujIiwSr9XvImnieNcf5M9wIpVHSGQDVCTt21sti7B0bAR-_M5VgrSKFQf-6iVrN-TYkf2yb-3ixPF41d9PsPbG_MptEKTU0aB9zOVlmMADsiiroyOGId-H5V018EeaX6kQxzXT9xza-O3_ZM/s1536/00013.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizAoR3thj50Kbs_fHLAjxtT3AriGLByNK6VhmAVGqbOJoYhKaIDq2UxVW7mP2wuR1Lt9H7dhKfzx10k5-2HCGpwe88FVVADd8ygYynghG8S7kNDrbdDcR5_80xGB-8eyXF2RbvBiF5Tz9BzYsU0YiovPZpwbC0ykgpqzMlmRitEEveDZ7sak4p/s320/00012.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizAoR3thj50Kbs_fHLAjxtT3AriGLByNK6VhmAVGqbOJoYhKaIDq2UxVW7mP2wuR1Lt9H7dhKfzx10k5-2HCGpwe88FVVADd8ygYynghG8S7kNDrbdDcR5_80xGB-8eyXF2RbvBiF5Tz9BzYsU0YiovPZpwbC0ykgpqzMlmRitEEveDZ7sak4p/s1536/00012.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKb2dhhQq-8E9VnF13jisblUUXh1Xlefg_96Mw_lnWNf4Q12HsUBzeqmEDus6hwkGqjqUsr-Fz1Rxx2DBnUrHYA5WBuxgxXbC1HO-cLmM_a7EO9x-AfbWA36eKBRYUVSNUICDGt0tsn2snzIlMxUbBpY1RrsFWYU2Omekch30AtzcIZqEPjRlZ/s320/00011.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKb2dhhQq-8E9VnF13jisblUUXh1Xlefg_96Mw_lnWNf4Q12HsUBzeqmEDus6hwkGqjqUsr-Fz1Rxx2DBnUrHYA5WBuxgxXbC1HO-cLmM_a7EO9x-AfbWA36eKBRYUVSNUICDGt0tsn2snzIlMxUbBpY1RrsFWYU2Omekch30AtzcIZqEPjRlZ/s1536/00011.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTc3uo-EuZCh-l9U9v2RIU5OU5-HQeelF1IpV_68wgyWdWJxeHqyIpX2hXyGt5rKBtAy19rYAGR1lxncaORPI4eE-fldTlHB26sctCTfyo3ZUkVjCI1DZnQaxAdpzHG1npjsJ-x-HqQII6GFGi510HG6v0TpOKF_gB6SX4UpadRe0q2xaXgOVW/s320/00010.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTc3uo-EuZCh-l9U9v2RIU5OU5-HQeelF1IpV_68wgyWdWJxeHqyIpX2hXyGt5rKBtAy19rYAGR1lxncaORPI4eE-fldTlHB26sctCTfyo3ZUkVjCI1DZnQaxAdpzHG1npjsJ-x-HqQII6GFGi510HG6v0TpOKF_gB6SX4UpadRe0q2xaXgOVW/s1536/00010.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_s5rhf_drHS23S96gYvpWWrJmFuV-kKNRCdYZr60XYIcmRxC_AKfbB1GdhoTbg9h3_3wY9MgmDnbFLYmvV-VEq99z5Z4exTl8_hxYoilyOHh-bpnsTUiJUIgxFZBbdsxeHWecDT_fA-WGzzvhv_gnmGTCKgQ46btu7YgbdVD4KSIkMMTpIPqC/s320/00009.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_s5rhf_drHS23S96gYvpWWrJmFuV-kKNRCdYZr60XYIcmRxC_AKfbB1GdhoTbg9h3_3wY9MgmDnbFLYmvV-VEq99z5Z4exTl8_hxYoilyOHh-bpnsTUiJUIgxFZBbdsxeHWecDT_fA-WGzzvhv_gnmGTCKgQ46btu7YgbdVD4KSIkMMTpIPqC/s1536/00009.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU0scBxtFixKY8045HZpzWFDd8Ffadgw1ccaNyUlvr6mQtmSJgQCCLNA-Goa9H4mIudM3QRAH9bwkzj5BOAY1k...

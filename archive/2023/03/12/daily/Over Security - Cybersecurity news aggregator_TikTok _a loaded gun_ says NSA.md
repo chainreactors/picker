@@ -1,0 +1,177 @@
+---
+title: TikTok "a loaded gun" says NSA
+url: https://www.malwarebytes.com/blog/news/2023/03/tiktok-closer-to-getting-banned-because-it-could-use-data-to-influence-opinions
+source: Over Security - Cybersecurity news aggregator
+date: 2023-03-12
+fetch_date: 2025-10-04T09:22:22.954830
+---
+
+# TikTok "a loaded gun" says NSA
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![TikTok logo](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/03/easset_upload_file13260_260921_e.png?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Privacy](https://www.malwarebytes.com/blog/category/privacy)
+
+# TikTok “a loaded gun” says NSA
+
+Posted: March 10, 2023
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+America’s TikTok-addicted youth is playing with a “[loaded gun](https://www.reuters.com/technology/fbi-chief-says-tiktok-screams-us-national-security-concerns-2023-03-08/)” according to General Paul Nakasone, Director of the National Security Agency (NSA). Speaking at a US Senate hearing on Wednesday, the general said “one third of Americans get their news from TikTok”, adding “one sixth of American youth say they’re constantly on TikTok. That’s a loaded gun.”
+
+TikTok is an immensely popular social media platform that allows users to create, share, and discover, short video clips. It’s enjoyed explosive growth since it first appeared in 2017, and now it claims to have [1 billion users](https://newsroom.tiktok.com/en-us/1-billion-people-on-tiktok), an estimated 100 million of them in the US.
+
+Unique among major social media apps, TikTok is owned by a Chinese company Bytedance. Due to its ties with China and the ruling Chinese Communist Party (CCP), the platform has been under a national security review by the government’s Committee on Foreign Investment in the US, or CFIUS, and will soon be banned on federal devices.
+
+A loud chorus of concern has surrounded the app for some time now.
+
+One of the earliest signs of trouble occurred in 2020 when retail giant [Amazon sent a memo to employees](https://www.malwarebytes.com/blog/news/2020/07/tiktok-may-be-banned) telling them to delete TikTok from their phones. In the same year, the app escaped a [total ban](https://www.malwarebytes.com/blog/privacy-2/2020/07/tiktok-may-be-banned/) in the US after rumors that it was sharing the data of US citizens with the Chinese government.
+
+Things picked up again in 2022, when Federal Communications Commissioner (FCC) Brendan Carr called for TikTok to be [banned in America](https://www.independent.co.uk/tech/tiktok-us-fcc-ban-commissioner-b2215613.html), months after deeming it an “[unacceptable security risk](https://www.malwarebytes.com/blog/news/2022/07/tiktok-is-unacceptable-security-risk-and-should-be-removed-from-app-stores-says-fcc)“, and called for Apple and Google to remove the app from their respective stores.
+
+TikTok has also been scrutinized by the [European Union (EU)](https://www.malwarebytes.com/blog/news/2022/11/now-the-eu-is-investigating-tiktok), [Canadian privacy protection authorities](https://www.malwarebytes.com/blog/news/2023/02/tiktok-probed-over-child-privacy-practices), and on Wednesday the White House [backed legislation](https://www.reuters.com/technology/twelve-us-senators-back-giving-commerce-secretary-new-powers-ban-tiktok-2023-03-07/) introduced by a dozen senators that gives President Biden’s administration new powers to identify and stop any technology from China or other adversaries from entering the US if it is deemed a national security risk. The bill would give the Commerce Department the ability to ban TikTok and other foreign-based technologies.
+
+At the same hearing attended by General Nakasone, FBI Director Christopher Wray spelled out the agency’s three concerns:
+
+* **The algorithm**. The FBI is concerned that the CCP’s control of the TikTok algorithm, which decides which posts are shown to which users, could be used to conduct hard-to-detect influence operations against Americans.
+* **Access to data**. The Director explained that TikTok’s vast dat...

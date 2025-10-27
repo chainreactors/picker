@@ -1,0 +1,96 @@
+# 每日安全资讯（2024-06-16）
+
+- 世事难料，保持低调
+  - [ ] [LLM时代中的AI推理](https://blog.csdn.net/ariesjzj/article/details/139693922)
+- Private Feed for M09Ic
+  - [ ] [geohot starred PufferAI/PufferLib](https://github.com/PufferAI/PufferLib)
+  - [ ] [INotGreen starred MInggongK/Hikvision-](https://github.com/MInggongK/Hikvision-)
+- SecWiki News
+  - [ ] [SecWiki News 2024-06-15 Review](http://www.sec-wiki.com/?2024-06-15)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [ ] [Premium Support Tickets For WHMCS 1.2.10 Cross Site Scripting](https://cxsecurity.com/issue/WLB-2024060035)
+  - [ ] [AEGON LIFE 1.0 Cross Site Scripting](https://cxsecurity.com/issue/WLB-2024060034)
+  - [ ] [AEGON LIFE 1.0 SQL Injection](https://cxsecurity.com/issue/WLB-2024060033)
+  - [ ] [AEGON LIFE 1.0 Remote Code Execution](https://cxsecurity.com/issue/WLB-2024060032)
+  - [ ] [PHP Remote Code Execution](https://cxsecurity.com/issue/WLB-2024060031)
+- Recent Commits to cve:main
+  - [ ] [Update Sat Jun 15 18:08:06 UTC 2024](https://github.com/trickest/cve/commit/04add865fe6e768aaed5f27806a8d7ed5f822a7a)
+  - [ ] [Update Sat Jun 15 10:04:59 UTC 2024](https://github.com/trickest/cve/commit/a0da5447cb3267fc4b3756418a2c755bd6058378)
+  - [ ] [Update Sat Jun 15 02:09:42 UTC 2024](https://github.com/trickest/cve/commit/6805b48f0c428c279560ee87f0bb4fed0e423556)
+- Der Flounder
+  - [ ] [WWDC 2024 notes](https://derflounder.wordpress.com/2024/06/15/wwdc-2024-notes/)
+- Security Boulevard
+  - [ ] [Microsoft Accepts Responsibility for U.S. Government Security Breaches](https://securityboulevard.com/2024/06/microsoft-accepts-responsibility-for-u-s-government-security-breaches/)
+  - [ ] [USENIX Security ’23 – Exploring the Unknown DTLS Universe: Analysis of the DTLS Server Ecosystem on the Internet](https://securityboulevard.com/2024/06/usenix-security-23-exploring-the-unknown-dtls-universe-analysis-of-the-dtls-server-ecosystem-on-the-internet/)
+- obaby@mars
+  - [ ] [浅谈 Uniapp 推送–iOS推送调试](https://h4ck.org.cn/2024/06/17341)
+- Didier Stevens
+  - [ ] [Update: python-per-line.py Version 0.0.12](https://blog.didierstevens.com/2024/06/15/update-python-per-line-py-version-0-0-12/)
+- Bug Bounty in InfoSec Write-ups on Medium
+  - [ ] [Your Own Search Engines For Bug Bounty](https://infosecwriteups.com/your-own-search-engines-for-bug-bounty-773845aa4e6a?source=rss----7b722bfd1b8d--bug_bounty)
+  - [ ] [HOW I HACKED NASA?](https://infosecwriteups.com/how-i-hacked-nasa-0715b6b5d7b8?source=rss----7b722bfd1b8d--bug_bounty)
+- Hexacorn
+  - [ ] [Couple of Splunk/SPL Gotchas, Part 2](https://www.hexacorn.com/blog/2024/06/15/couple-of-splunk-spl-gotchas-part-2/)
+- Reverse Engineering
+  - [ ] [Makita Battery Hacking - Part 1](https://www.reddit.com/r/ReverseEngineering/comments/1dgu0bn/makita_battery_hacking_part_1/)
+  - [ ] [Reverse Engineering a Restaurant Pager system 🍽️](https://www.reddit.com/r/ReverseEngineering/comments/1dgurj1/reverse_engineering_a_restaurant_pager_system/)
+  - [ ] [Diagnosing video signal loss on Wii and GBS-Control](https://www.reddit.com/r/ReverseEngineering/comments/1dgpf58/diagnosing_video_signal_loss_on_wii_and_gbscontrol/)
+  - [ ] [Reverse engineer an android app to bypass needing to login?](https://www.reddit.com/r/ReverseEngineering/comments/1dg93z8/reverse_engineer_an_android_app_to_bypass_needing/)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [勒索软件攻击者迅速利用最近曝光的 PHP 9.8/10 漏洞](https://www.solidot.org/story?sid=78440)
+  - [ ] [卫星数据揭示了 2023 年土耳其大地震前的异常情况](https://www.solidot.org/story?sid=78439)
+  - [ ] [太阳磁场即将反转](https://www.solidot.org/story?sid=78438)
+- 七夜安全博客
+  - [ ] [一款开源Linux应急响应脚本，快速发现主机异常](https://mp.weixin.qq.com/s?__biz=MzIwODIxMjc4MQ==&mid=2651005693&idx=1&sn=abf5b22dfaa0ef53d068fd3423fdc406&chksm=8cf104bfbb868da9b2ba01a6afd872b389f1e013d6073d4169d422ac1b20ecb7b882e5142337&scene=58&subscene=0#rd)
+- 看雪学苑
+  - [ ] [病毒分析：低危病毒请当心-两次文件释放&加载.net远控](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458559039&idx=1&sn=c25819e4ebb79625011637cf6342ad33&chksm=b18d92b586fa1ba352b9c493fd50dfa76aa5ba36d672d30b55cfcc12a138888d25ad720ddbdd&scene=58&subscene=0#rd)
+  - [ ] [8月15日开赛！2024 KCTF【防守方】征题中](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458559039&idx=2&sn=fb1f99810f26fcdec0e1600f87886069&chksm=b18d92b586fa1ba3341c37f512eee1f020f8bd6d3b616302ff018fa00efe89a69d86e9609c4b&scene=58&subscene=0#rd)
+- 中国信息安全
+  - [ ] [重磅 | 《网络暴力信息治理规定》公布！](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664216062&idx=1&sn=13d8b02da788306e7630b952569f3d0f&chksm=8b59b707bc2e3e11a67f6337a4d524b2a364c04d493fd73b5e8e00a5c24f45b06199e0fa0b0e&scene=58&subscene=0#rd)
+  - [ ] [专家解读｜辛勇飞：筑牢网络暴力信息治理法制底座](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664216062&idx=2&sn=134bf678e462a0ebcdba9e71e771c528&chksm=8b59b707bc2e3e114f3fd22480ca565d9fd577ed20d888a5e9f2662106b02000687f5a10356b&scene=58&subscene=0#rd)
+  - [ ] [答记者问 | 国家网信办负责人就《网络暴力信息治理规定》相关问题答记者问](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664216062&idx=3&sn=6896b078d9efef28edf53e980f06d409&chksm=8b59b707bc2e3e11a0909d5f0e04e74a4a403138cf1701b9403b72004a0668a07f1138739cc3&scene=58&subscene=0#rd)
+  - [ ] [发布 | 《江西省工业领域数据安全能力提升实施方案（2024-2026年）》](https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664216062&idx=4&sn=a3c62bd120d3b70ca755fb54a43d5e7b&chksm=8b59b707bc2e3e11b2a2e92212673be57867f635398f4411b8ebfbc77fb20e6d6957816374cb&scene=58&subscene=0#rd)
+- 极客公园
+  - [ ] [余承东：暂不考虑推出20万以下汽车；苹果VP国行预售开启；造谣公司被曝一天用AI写7000篇 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653044022&idx=1&sn=ab8a9c19a74b51b41e4cdf83fd101f4e&chksm=7e5740804920c9968aed234eead74d687d93cfa86827d549dfa0dd77f452812774f9a534a080&scene=58&subscene=0#rd)
+- 情报分析师
+  - [ ] [美国间谍情报收集大揭秘](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650551279&idx=1&sn=66b783e8dfade426476da4837e1f69a7&chksm=87111da4b06694b2532add39981719b5b469c2dac2c506103c2619542eb0ca16db29fabe2074&scene=58&subscene=0#rd)
+  - [ ] [地缘信息知识星球（6月15日更新明细）](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650551279&idx=2&sn=0ad73e87e734149d5181c29e91e8305e&chksm=87111da4b06694b2718bf2866997dbfcc43690c0e8dce45de2c9f8df8f9d050edaaddd648302&scene=58&subscene=0#rd)
+- 希潭实验室
+  - [ ] [第96篇：蓝队分析研判工具箱1.08版本（溯源辅助|解密攻击流量|冰蝎、哥斯拉、天蝎解密|资产测绘搜索）](https://mp.weixin.qq.com/s?__biz=MzkzMjI1NjI3Ng==&mid=2247486770&idx=1&sn=11418447753fe692815ff8c4873b958e&chksm=c25fc249f5284b5f66f1416ae79174d6debbb3f801d1a4e1d0b9357d37219541fb5d47b34024&scene=58&subscene=0#rd)
+- 迪哥讲事
+  - [ ] [实战:命令注入挖掘](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247494969&idx=1&sn=e8193d0256a5ae5bc9b143889fbbf8bb&chksm=e8a5e75adfd26e4cfb8554c8574e7693ebe50518cbe65d9b5c505a2a3470dd2c584e721a4f05&scene=58&subscene=0#rd)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Alleged Boss of ‘Scattered Spider’ Hacking Group Arrested](https://krebsonsecurity.com/2024/06/alleged-boss-of-scattered-spider-hacking-group-arrested/)
+  - [ ] [Microsoft: New Outlook security changes coming to personal accounts](https://www.bleepingcomputer.com/news/security/microsoft-new-outlook-security-changes-coming-to-personal-accounts/)
+  - [ ] [ASUS warns of critical remote authentication bypass on 7 routers](https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-remote-authentication-bypass-on-7-routers/)
+  - [ ] [New Linux malware is controlled through emojis sent from Discord](https://www.bleepingcomputer.com/news/security/new-linux-malware-is-controlled-through-emojis-sent-from-discord/)
+- The Register - Security
+  - [ ] [Microsoft answered Congress' questions on security. Now the White House needs to act](https://go.theregister.com/feed/www.theregister.com/2024/06/15/microsoft_brad_smith_congress/)
+- Your Open Hacker Community
+  - [ ] [Alternative to MDK4 for deauth ?](https://www.reddit.com/r/HowToHack/comments/1dgk48w/alternative_to_mdk4_for_deauth/)
+  - [ ] [Good ways to grab an ip?](https://www.reddit.com/r/HowToHack/comments/1dgqgw8/good_ways_to_grab_an_ip/)
+  - [ ] [Bettercap or ettercap](https://www.reddit.com/r/HowToHack/comments/1dg93ap/bettercap_or_ettercap/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [My CyberSecurity Matrix! I Hope you like it :D](https://www.reddit.com/r/netsecstudents/comments/1dgkjcs/my_cybersecurity_matrix_i_hope_you_like_it_d/)
+  - [ ] [Help Understanding API Key Generation from a Code](https://www.reddit.com/r/netsecstudents/comments/1dgu2hw/help_understanding_api_key_generation_from_a_code/)
+  - [ ] [Microsoft Azure Sentinel 101: Update alert descriptions dynamically without limits — Unlimited meta data options with helpful content](https://www.reddit.com/r/netsecstudents/comments/1dgjron/microsoft_azure_sentinel_101_update_alert/)
+  - [ ] [Microsoft Azure Sentinel 101: Automatically add TLP(Traffic Light Pattern) to Incidents with logic apps/playbooks and automation by query tagging](https://www.reddit.com/r/netsecstudents/comments/1dglren/microsoft_azure_sentinel_101_automatically_add/)
+- Krebs on Security
+  - [ ] [Alleged Boss of ‘Scattered Spider’ Hacking Group Arrested](https://krebsonsecurity.com/2024/06/alleged-boss-of-scattered-spider-hacking-group-arrested/)
+- The Hacker News
+  - [ ] [Grandoreiro Banking Trojan Hits Brazil as Smishing Scams Surge in Pakistan](https://thehackernews.com/2024/06/grandoreiro-banking-trojan-hits-brazil.html)
+  - [ ] [Pakistani Hackers Use DISGOMOJI Malware in Indian Government Cyber Attacks](https://thehackernews.com/2024/06/pakistani-hackers-use-disgomoji-malware.html)
+  - [ ] [Meta Pauses AI Training on EU User Data Amid Privacy Concerns](https://thehackernews.com/2024/06/meta-halts-ai-training-on-eu-user-data.html)
+- TorrentFreak
+  - [ ] [Russia ‘Humanizes’ Criminal Copyright Law, ‘Large Scale’ Piracy Cut By 25%](https://torrentfreak.com/russia-humanizes-criminal-copyright-law-large-scale-piracy-cut-by-25-240615/)
+- Social Engineering
+  - [ ] [Burn out?](https://www.reddit.com/r/SocialEngineering/comments/1dgrwcl/burn_out/)
+  - [ ] [Resources to learn more about psychopathic/ dark triad / narcissistic manipulation?](https://www.reddit.com/r/SocialEngineering/comments/1dgbke5/resources_to_learn_more_about_psychopathic_dark/)
+- Security Affairs
+  - [ ] [London hospitals canceled over 800 operations in the week after Synnovis ransomware attack](https://securityaffairs.com/164541/cyber-crime/londol-hospitals-canceled-800-operations-ransomware.html)
+- Deep Web
+  - [ ] [Ayer conoci un tipo que tiene tarjetas blancas y de ahí saca dinero. Es real?](https://www.reddit.com/r/deepweb/comments/1dghhgs/ayer_conoci_un_tipo_que_tiene_tarjetas_blancas_y/)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [Overview of My Tools That Handle JSON Data, (Sat, Jun 15th)](https://isc.sans.edu/diary/rss/31012)
+- Technical Information Security Content & Discussion
+  - [ ] [Encrypt/decrypt with SSH keys](https://www.reddit.com/r/netsec/comments/1dggfi7/encryptdecrypt_with_ssh_keys/)

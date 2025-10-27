@@ -1,0 +1,181 @@
+---
+title: What happened in privacy in 2022
+url: https://www.malwarebytes.com/blog/news/2023/01/what-happened-in-privacy-in-2022
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-26
+fetch_date: 2025-10-04T04:54:34.285113
+---
+
+# What happened in privacy in 2022
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![What happened in privacy in 2022](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file64880_255722.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# What happened in privacy in 2022
+
+Posted: January 27, 2023
+ by [David Ruiz](https://www.malwarebytes.com/blog/authors/davidruiz)
+
+Annual reviews of any year’s developments in privacy rarely lend themselves to pithy wrap-ups, but 2022 was different, providing the clearest example yet for so many people—American women in particular—that their privacy was not theirs to determine, and that the often-repeated refrain that privacy doesn’t matter for those who have “nothing to hide” only holds sway until the world around those words decides: “Now you do*.*”
+
+The US Supreme Court’s decision to overturn *Roe v. Wade* and the associated Constitutional right to choose to have an abortion redefined personal privacy, as individual states can now treat previously benign health data as possible evidence in a criminal investigation. Where perhaps millions of women previously had “nothing to hide,” now, they do.
+
+The Supreme Court’s decision was also an event that has few modern equivalents, changing the behaviors of three, core parts of society—government, corporate, and public.
+
+In the wake of a leaked draft of the decision, Federal legislators introduced a new, targeted data privacy bill to protect reproductive health data. Immediately following the decision, countless individuals dropped their current period-tracking apps in search for another app that would promise to better protect their data. And months after the decision, companies are still announcing changes to what types of data they will no longer store.
+
+In looking back at 2022, it isn’t that nothing else happened in data privacy—it’s that nothing else like this has happened for a long time.
+
+Here’s a look at what happened in privacy in 2022.
+
+## **Roe v. Wade overturned**
+
+The privacy fallout from the US Supreme Court’s decision in *Dobbs v. Jackson Women’s Health Organization* is both succinct and enormous: It changed what people want to keep private.
+
+By allowing a state-by-state approach to the legality of obtaining and providing abortion services, the US Supreme Court’s decision introduced a new uncertainty about what types of online activity—be it Google searches, Facebook posts, TikTok videos, or location histories revealing trips to an abortion clinic—could now be considered as potential evidence of a crime.
+
+Would law enforcement, for example, be able to pull Google search requests on someone they suspected of seeking an abortion? Would text messages between friends be brought before an investigator? What about Instagram stories that included offers to pay for the travel and lodging of complete strangers seeking abortion from other states? And what about period-tracking app data? What if cops could see in a person’s data that, for a week or two, they were pregnant, and then soon after, they were not?
+
+In the absence of immediate [best practices](https://www.malwarebytes.com/blog/news/2022/07/in-post-roe-us-experts-share-how-to-keep-your-data-private), individuals made their own choices. Period-tracking app users [scrambled to find the most secure app online](https://techcrunch.com/2022/06/27/consumers-swap-period-tracking-apps-in-search-of-increased-privacy-following-roe-v-wade-ruling/), and one period-tracking app maker promised to encrypt user data so that, even if law enforcement made a request for their data, the data would be unintelligible. (Those promises, one investigation found, [were shaky](https://techcrunch.com/2022/06/27/stardust-period-tracker-phone-number/).)
+
+But it wasn...

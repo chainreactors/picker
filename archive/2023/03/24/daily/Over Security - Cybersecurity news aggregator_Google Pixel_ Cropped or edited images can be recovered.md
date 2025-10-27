@@ -1,0 +1,178 @@
+---
+title: Google Pixel: Cropped or edited images can be recovered
+url: https://www.malwarebytes.com/blog/news/2023/03/google-pixel-cropped-or-edited-images-can-be-recovered
+source: Over Security - Cybersecurity news aggregator
+date: 2023-03-24
+fetch_date: 2025-10-04T10:31:38.010539
+---
+
+# Google Pixel: Cropped or edited images can be recovered
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Woman with stop sign in front of face](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/03/asset_upload_file64353_262491.png?w=736)
+
+[Bugs](https://www.malwarebytes.com/blog/category/bugs)
+| [News](https://www.malwarebytes.com/blog/category/news)
+
+# Google Pixel: Cropped or edited images can be recovered
+
+Posted: March 22, 2023
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+Most of us have a camera on us at all times, and so photo taking and image sharing has become almost ubiquitous. But when sharing an image, you want to have control over what you share. And that might lead you to crop images, or redact parts of them.
+
+Maybe you cropped out a person that didn’t want their photo online, maybe you put a black mark across your address, or credit card number, or other personal information. You edited it out for a reason, but now it seems as though the original image might still be available for others to view.
+
+Researchers have [published a proof-of-concept (PoC)](https://www.da.vidbuchanan.co.uk/blog/exploiting-acropalypse.html) for a vulnerability in Google Pixel’s in-built editing tool Markup. The vulnerability allows anyone with access to the edited image to recover parts of the original, unedited, file.
+
+Testing has [shown](https://www.neowin.net/news/windows-10-and-11-snipping-tools-are-saving-data-you-thought-you-had-deleted/) that Microsoft’s image-snipping tools in both Windows 10 and 11 have a very similar vulnerability.
+
+Markup is a built-in tool which was released with [Android](https://www.malwarebytes.com/cybersecurity/basics/how-to-clean-your-phone-from-virus) 9 Pie in 2018. It can be found on Pixel phones and its main purpose is to edit (crop, add text, draw, and highlight) screenshots.
+
+Due to the vulnerability, known as aCropalypse ([CVE-2023-21036](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21036)), it is possible to, partially, retrieve the original image data of a cropped and/or edited image.
+
+Not every image at direct risk of exposing [sensitive information](https://www.malwarebytes.com/cybersecurity/basics/pii), but many of them will be. The problem is that the Markup tool passes the wrong argument to the `parseMode()` function. The consequence is that the “old” image does not get truncated and lives on in the redacted image. Simply put, if the altered image has a smaller file size than the original, the information about the original can be retrieved from the last part of the data which did not get overwritten.
+
+So, cropped images are very likely to reveal information about the original file, because the main reason to crop them is often to decrease the image size. But also images where you redacted a part of the image with a marker may be recoverable. In the example below you will see an uploaded image of a credit card with the number masked, next is the image after downloading, and last is the image after going through the recovery tool. The 16 digit number is now visible again.
+
+[![](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/03/easset_upload_file8142_262491_e.png)](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/03/easset_upload_file8142_262491_e.png)
+
+You can try the [exploit](https://www.malwarebytes.com/exploits) for Markup yourself by uploading your own images to this [online demonstration](https://acropalypse.app/) provided by the aCropalypse researchers. The demonstration tool only works for images edited with Markup, since the exploit script that works for images edited with Microsoft’s snipping tools is slightly different, [according to one of the researchers](https://twitter.com/David3141593/status/1638222624084951040)...

@@ -1,0 +1,180 @@
+---
+title: WhatsApp refuses to weaken encryption, would rather leave UK
+url: https://www.malwarebytes.com/blog/news/2023/03/whatsapp-refuses-to-weaken-encryption-would-rather-leave-uk
+source: Over Security - Cybersecurity news aggregator
+date: 2023-03-15
+fetch_date: 2025-10-04T09:41:53.612533
+---
+
+# WhatsApp refuses to weaken encryption, would rather leave UK
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![hand holding smartphone with WhatsApp logo](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/03/asset_upload_file86257_260955.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Privacy](https://www.malwarebytes.com/blog/category/privacy)
+
+# WhatsApp refuses to weaken encryption, would rather leave UK
+
+Posted: March 13, 2023
+ by [Jovi Umawing](https://www.malwarebytes.com/blog/authors/jumawing)
+
+WhatsApp will not comply with the UK’s [Online Safety Bill](https://www.malwarebytes.com/blog?s=online%20safety%20bill) when it passes legislation as is. In fact, WhatsApp would rather cease serving UK users, which make up 2% of its global market, than weaken its end-to-end encryption (E2EE).
+
+Will Cathcart, head of WhatsApp at parent company Meta, made these claims in a briefing with the UK press on Thursday, March 9. He reportedly met with legislators to discuss the Bill, which Cathcart [described](https://www.theguardian.com/technology/2023/mar/09/whatsapp-end-to-end-encryption-online-safety-bill) as the most concerning online regulation in the Western world.
+
+“The reality is, our users all around the world want security,” said Cathcart, *The Guardian* [reported](https://www.theguardian.com/technology/2023/mar/09/whatsapp-end-to-end-encryption-online-safety-bill).
+
+> “Ninety-eight per cent of our users are outside the UK. They do not want us to lower the security of the product, and just as a straightforward matter, it would be an odd choice for us to choose to lower the security of the product in a way that would affect those 98% of users.”
+
+The Bill includes a provision requiring companies to use “accredited technology” to scan messages for anti-terrorism and child protection purposes. It doesn’t say how such scans could be done, yet companies are liable for the content shared on their platforms.
+
+At the moment, organizations cannot scan end-to-end encrypted messages. So, the only way they can comply with the Bill is to make private messages scannable. This means breaking E2EE.
+
+And breaking E2EE in order to scan for terrorism and child sexual abuse images, also means breaking encryption for the crooks too, as it will likely introduce backdoors that create vulnerabilities for attackers and hostile states to [exploit](https://www.malwarebytes.com/exploits). This also precedes state-mandated surveillance on a mass scale, with privacy and security risks affecting entire societies.
+
+“If a country like the UK pushed for that [breaking encryption] on the internet, that would shape what other countries all around the world ask for on different topics on different issues,” Cathcart [said](https://www.politico.eu/newsletter/morning-tech-uk/politico-pro-morning-tech-uk-techs-budget-asks-ex-ico-chiefs-message-to-regulators-whatsapp-boss-on-encryption/), reports *Politico*.
+
+Client-side scanning (CSS), a technology that can intercept and filter messages before being sent, was seen as an alternative to weakening end-to-end encryption. Still, a [study](https://arxiv.org/abs/2110.07450) argued it doesn’t guarantee “efficacious crime prevention nor prevents surveillance”. Akin to wiretapping, CSS can give governments access to private content. Its potential for abuse will not be left unnoticed.
+
+WhatsApp refusing to comply would subject it to fines of up to 4% of Meta’s annual turnover. However, this wouldn’t happen if WhatsApp pulls out of the UK market—a possibility that Signal, another popular private messaging app, has already [threatened](https://www.bbc.co.uk/news/technology-64584001) to do.
+
+Wired [reports](https://www.wired.co.uk/article/whatsapp-online-safety-bill-encryption) that WhatsApp has reported more CSAM to t...

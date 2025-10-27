@@ -1,0 +1,20 @@
+---
+title: 中国信息安全测评中心牵头起草国标《网络安全技术 网络安全运维实施指南》正式发布
+url: https://mp.weixin.qq.com/s?__biz=MzUyMDQ4OTkyMg==&mid=2247549276&idx=2&sn=87c5ccaab848e4fb08a1aaa9d49cf92e
+source: Doonsec's feed
+date: 2025-08-06
+fetch_date: 2025-10-07T00:16:47.989943
+---
+
+# 中国信息安全测评中心牵头起草国标《网络安全技术 网络安全运维实施指南》正式发布
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

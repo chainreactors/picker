@@ -1,0 +1,252 @@
+{
+    "SecWiki News": {
+        "SecWiki News 2024-05-02 Review": "http://www.sec-wiki.com/?2024-05-02"
+    },
+    "Files ≈ Packet Storm": {
+        "Debian Security Advisory 5676-1": "https://packetstormsecurity.com/files/178427/dsa-5676-1.txt",
+        "Ubuntu Security Notice USN-6747-2": "https://packetstormsecurity.com/files/178426/USN-6747-2.txt",
+        "htmlLawed 1.2.5 Remote Command Execution": "https://packetstormsecurity.com/files/178425/CVE-2022-35914.sh.txt",
+        "Red Hat Security Advisory 2024-2651-03": "https://packetstormsecurity.com/files/178424/RHSA-2024-2651-03.txt",
+        "Red Hat Security Advisory 2024-2645-03": "https://packetstormsecurity.com/files/178423/RHSA-2024-2645-03.txt"
+    },
+    "Recent Commits to cve:main": {
+        "Update Thu May  2 18:10:54 UTC 2024": "https://github.com/trickest/cve/commit/b13347e27c9bb1504b28d8f24072e9e4318707d8",
+        "Update Thu May  2 09:59:35 UTC 2024": "https://github.com/trickest/cve/commit/3709e2e0b99f8fe794217ac2211b983504bdc404",
+        "Update Thu May  2 02:05:11 UTC 2024": "https://github.com/trickest/cve/commit/dae7fddfc1a568d09a493d0d08bb7ee3a6de5cfa"
+    },
+    "Sucuri Blog": {
+        "Mal.Metrica Redirects Users to Scam Sites": "https://blog.sucuri.net/2024/05/mal-metrica-redirects-users-to-scam-sites.html"
+    },
+    "Security Boulevard": {
+        "Tips and stories for your team on World Password Day": "https://securityboulevard.com/2024/05/tips-and-stories-for-your-team-on-world-password-day/",
+        "Elliptic Shows How an AI Model Can Identify Bitcoin Laundering": "https://securityboulevard.com/2024/05/elliptic-shows-how-an-ai-model-can-identify-bitcoin-laundering/",
+        "What to Expect at RSA 2024: Will AI Wreak Havoc on Cybersecurity?": "https://securityboulevard.com/2024/05/what-to-expect-at-rsa-2024-will-ai-wreak-havoc-on-cybersecurity/",
+        "Kaseya Connect Global 2024 Day Two Recap: Embracing AI and Autonomous Automation": "https://securityboulevard.com/2024/05/kaseya-connect-global-2024-day-two-recap-embracing-ai-and-autonomous-automation/",
+        "USENIX Security ’23 – Account Security Interfaces: Important, Unintuitive, and Untrustworth – Distinguished Paper Award Winner": "https://securityboulevard.com/2024/05/usenix-security-23-account-security-interfaces-important-unintuitive-and-untrustworth-distinguished-paper-award-winner/",
+        "Acid Rain, Pikabot, VenomRAT, Mallox Ransomware, and More: Hacker’s Playbook Threat Coverage Round-up: March-April 2024": "https://securityboulevard.com/2024/05/acid-rain-pikabot-venomrat-mallox-ransomware-and-more-hackers-playbook-threat-coverage-round-up-march-april-2024/",
+        "Kaseya Connect Global 2024 Kicks Off": "https://securityboulevard.com/2024/05/kaseya-connect-global-2024-kicks-off/",
+        "Why Coro is a Dream Cybersecurity Platform for MSPs": "https://securityboulevard.com/2024/05/why-coro-is-a-dream-cybersecurity-platform-for-msps/",
+        "Daniel Stori’s ‘Frontenders and Backenders’": "https://securityboulevard.com/2024/05/daniel-storis-frontenders-and-backenders/",
+        "Dropbox Hacked: eSignature Service Breached": "https://securityboulevard.com/2024/05/dropbox-sign-hack-richixbw/"
+    },
+    "Sploitus.com Exploits RSS Feed": {
+        "htmlLawed 1.2.5 Remote Command Execution exploit": "https://sploitus.com/exploit?id=PACKETSTORM:178425&utm_source=rss&utm_medium=rss",
+        "Exploit for CVE-2023-6241 exploit": "https://sploitus.com/exploit?id=04496846-F769-5CFE-B11F-2FD5EA4033B0&utm_source=rss&utm_medium=rss",
+        "Exploit for Expression Language Injection in Atlassian Confluence Data Center exploit": "https://sploitus.com/exploit?id=7B61818F-49E5-5BAE-A937-2DED4CAE1570&utm_source=rss&utm_medium=rss"
+    },
+    "Private Feed for M09Ic": {
+        "projectdiscovery made projectdiscovery/fuzzing-templates public": "https://github.com/projectdiscovery/fuzzing-templates",
+        "xxxxbxxxxx starred datawhalechina/self-llm": "https://github.com/datawhalechina/self-llm",
+        "xpn starred its-a-feature/LockSmith": "https://github.com/its-a-feature/LockSmith",
+        "VirtualAlllocEx forked VirtualAlllocEx/Windows-Local-Privilege-Escalation-Cookbook from nickvourd/Windows-Local-Privilege-Escalation-Cookbook": "https://github.com/VirtualAlllocEx/Windows-Local-Privilege-Escalation-Cookbook",
+        "VirtualAlllocEx starred nickvourd/Windows-Local-Privilege-Escalation-Cookbook": "https://github.com/nickvourd/Windows-Local-Privilege-Escalation-Cookbook",
+        "ourren starred montysecurity/C2-Tracker": "https://github.com/montysecurity/C2-Tracker",
+        "phith0n starred cezaraugusto/extension.js": "https://github.com/cezaraugusto/extension.js",
+        "FunnyWolf starred hiyouga/LLaMA-Factory": "https://github.com/hiyouga/LLaMA-Factory",
+        "FunnyWolf starred InternLM/xtuner": "https://github.com/InternLM/xtuner",
+        "0xbug starred barseghyanartur/tld": "https://github.com/barseghyanartur/tld",
+        "wabzsy starred OpenZeppelin/openzeppelin-contracts": "https://github.com/OpenZeppelin/openzeppelin-contracts"
+    },
+    "Insinuator.net": {
+        "Vulnerability in Jitsi Meet: Meeting Password Disclosure affecting Meetings with Lobbies": "https://insinuator.net/2024/05/vulnerability-in-jitsi-meet-meeting-password-disclosure-affecting-meetings-with-lobbies/"
+    },
+    "Tenable Blog": {
+        "As Pro-Russia Hactivists Target OT Systems, Here’s What You Need To Know": "https://www.tenable.com/blog/as-pro-russia-hactivists-target-ot-systems-heres-what-you-need-to-know"
+    },
+    "ElcomSoft blog": {
+        "Elcomsoft Forensic Acquisition System (EFAS)": "https://blog.elcomsoft.com/2024/05/elcomsoft-forensic-acquisition-system-efas/"
+    },
+    "GuidePoint Security": {
+        "SCCM Exploitation: Compromising Network Access Accounts": "https://www.guidepointsecurity.com/blog/sccm-exploitation-compromising-network-access-accounts/"
+    },
+    "Horizon3.ai": {
+        "Horizon3.ai Appoints Matt Hartley as Chief Revenue Officer to Spearhead Growth Initiatives": "https://www.businesswire.com/news/home/20240502283399/en/Horizon3.ai-Appoints-Matt-Hartley-as-Chief-Revenue-Officer-to-Spearhead-Growth-Initiatives#new_tab"
+    },
+    "Trail of Bits Blog": {
+        "The life and times of an Abstract Syntax Tree": "https://blog.trailofbits.com/2024/05/02/the-life-and-times-of-an-abstract-syntax-tree/"
+    },
+    "Malwarebytes": {
+        "Dropbox Sign customer data accessed in breach": "https://www.malwarebytes.com/blog/news/2024/05/dropbox-sign-customer-data-accessed-in-breach",
+        "Watch out for tech support scams lurking in sponsored search results": "https://www.malwarebytes.com/blog/news/2024/05/watch-out-for-tech-support-scams-lurking-in-sponsored-search-results",
+        "Psychotherapy practice hacker gets jail time after extorting patients, publishing personal therapy notes online": "https://www.malwarebytes.com/blog/news/2024/05/psychotherapy-practice-hacker-gets-jail-time-after-extorting-patients-publishing-personal-therapy-notes-online"
+    },
+    "Hexacorn": {
+        "The art of artifact collection and hoarding for the sake of forensic exclusivity…": "https://www.hexacorn.com/blog/2024/05/02/the-art-of-artifact-collection-and-hoarding-for-the-sake-of-forensic-exclusivity/"
+    },
+    "Reverse Engineering": {
+        "Calling Conventions Explained": "https://www.reddit.com/r/ReverseEngineering/comments/1ciuprv/calling_conventions_explained/",
+        "Control Flow Guard in Windows 11 24H2": "https://www.reddit.com/r/ReverseEngineering/comments/1cilu16/control_flow_guard_in_windows_11_24h2/",
+        "Reverse Engineering: uncovering protected source code [Android]": "https://www.reddit.com/r/ReverseEngineering/comments/1cihoz1/reverse_engineering_uncovering_protected_source/",
+        "Hydra: Generalizing Peephole Optimizations with Program Synthesis [PDF]": "https://www.reddit.com/r/ReverseEngineering/comments/1ci6cxa/hydra_generalizing_peephole_optimizations_with/",
+        "Need Input on My Authentication Approach": "https://www.reddit.com/r/ReverseEngineering/comments/1ci7y3a/need_input_on_my_authentication_approach/"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "微软四月更新再次破坏了 VPN 连接": "https://www.solidot.org/story?sid=78068",
+        "Steam 调查显示英语用户成为第一语言": "https://www.solidot.org/story?sid=78067",
+        "BASIC 语言诞生 60 年": "https://www.solidot.org/story?sid=78066",
+        "研究称年轻人和老年人之间的认知差异在缩小": "https://www.solidot.org/story?sid=78065",
+        "Windows 11 市场份额不升反降": "https://www.solidot.org/story?sid=78064"
+    },
+    "KitPloit - PenTest &amp; Hacking Tools": {
+        "C2-Cloud - The C2 Cloud Is A Robust Web-Based C2 Framework, Designed To Simplify The Life Of Penetration Testers": "http://www.kitploit.com/2024/05/c2-cloud-c2-cloud-is-robust-web-based.html"
+    },
+    "白帽Wiki - 一个简单的wiki": {
+        "[2024]用EDR剖析流行黑产组织对抗安全软件的多重手段": "https://key08.com/index.php/2024/05/02/1888.html"
+    },
+    "博客园 - 郑瀚Andrew": {
+        "认知提升的方法 - 郑瀚Andrew": "https://www.cnblogs.com/LittleHann/p/18169540"
+    },
+    "Black Hills Information Security": {
+        "At Home Detection Engineering Lab for Beginners": "https://www.blackhillsinfosec.com/at-home-detection-engineering-lab-for-beginners/"
+    },
+    "安全研究GoSSIP": {
+        "产学融合，携手共进：蚂蚁集团隐语开源社区在数据要素领域校企合作的探索与实践": "https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247497904&idx=1&sn=34cbeed04545f734f4cf7bc252c0f5cc&chksm=c063d669f7145f7f7acc39811f68383f2a9e3e6cd284de50ffce867c76088ccaaa6eb203f55e&scene=58&subscene=0#rd"
+    },
+    "看雪学苑": {
+        "CVE漏洞复现：Maglev中VisitFindNonDefaultConstructorOrConstruct的类型混淆": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458553429&idx=1&sn=d5674757eedccb83f6e0063db0a5205c&chksm=b18dbcdf86fa35c90d21a8db9c292c73f5adad26a9111751b5c4d2c718ea88c46623724de5d2&scene=58&subscene=0#rd",
+        "从零开始，掌握CVE漏洞复现技能": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458553429&idx=2&sn=a7a32731738b87ae9193ca4b54e2fe47&chksm=b18dbcdf86fa35c9cad5b804f83951af76e5b353adc24246dcb18ede995eaff0187ed2b1e138&scene=58&subscene=0#rd"
+    },
+    "极客公园": {
+        "周鸿祎回应「迈巴赫中标者未付清余款」；币安赵长鹏被判四个月监禁；五一档首日票房破 3 亿 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653040435&idx=1&sn=a56c80ad806ebb635afdc4e951f3b5bc&chksm=7e5752854920db9391510b556e4c58ef60a0343ac4ae01dbd8678639cba064f88910e2050dfb&scene=58&subscene=0#rd"
+    },
+    "情报分析师": {
+        "像间谍一样思考：关于间谍活动你必须知道的 12 个基本事实": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650548989&idx=1&sn=4bd6f020f23d49fb9072b3f45c72c612&chksm=871104b6b0668da03469d8f9920c8d178f7c57c6060f26838a8b1ccacdb4fbea486e2733c18f&scene=58&subscene=0#rd",
+        "情报学院2024年5月2日更新明细": "https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650548989&idx=2&sn=a3bbe61fb6ef2e86cda728475a835484&chksm=871104b6b0668da0319182dfcd7689205c31d249580d84eab1d565dc7144f900e22d2b624ea9&scene=58&subscene=0#rd"
+    },
+    "Qualys Security Blog": {
+        "Agentless FIM for Detecting Network Configuration Changes": "https://blog.qualys.com/category/product-tech",
+        "Qualys Launches MSSP Portal to Empower Managed Security Service Providers": "https://blog.qualys.com/category/product-tech"
+    },
+    "OnionSec": {
+        "交流群": "https://mp.weixin.qq.com/s?__biz=MzUyMTUwMzI3Ng==&mid=2247485433&idx=1&sn=ca4f432807547a96018598ab24914358&chksm=f9db50baceacd9ac69e12c9e966467af23c1b49343d1b618d8147c7c5a74919316a77201ebfa&scene=58&subscene=0#rd"
+    },
+    "Forensic Focus": {
+        "UK Parliamentary Legislation Introduced Against Deepfakes": "https://www.forensicfocus.com/news/uk-parliamentary-legislation-introduced-against-deepfakes/"
+    },
+    "迪哥讲事": {
+        "记一次从登录框到前台rce": "https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247494486&idx=1&sn=10286369df3533012ecaba68da80c2a5&chksm=e8a5e135dfd268230250cef0bdd8aeb8a04ff00b10cc17f1aeabbc3c1ac52a589348d249d5b7&scene=58&subscene=0#rd"
+    },
+    "Securityinfo.it": {
+        "Gli U.S.A. pubblicano nuove linee guida per gestire i rischi dell’IA": "https://www.securityinfo.it/2024/05/02/gli-u-s-a-pubblicano-nuove-linee-guida-per-gestire-i-rischi-dell-ia/?utm_source=rss&utm_medium=rss&utm_campaign=gli-u-s-a-pubblicano-nuove-linee-guida-per-gestire-i-rischi-dell-ia",
+        "Microsoft “rompe” la VPN con l’ultimo update per Windows": "https://www.securityinfo.it/2024/05/02/microsoft-rompe-la-vpn-con-lultimo-update-per-windows/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-rompe-la-vpn-con-lultimo-update-per-windows"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "CEO who sold fake Cisco devices to US military gets 6 years in prison": "https://www.bleepingcomputer.com/news/security/ceo-who-sold-fake-cisco-devices-to-us-military-gets-6-years-in-prison/",
+        "Organizations patch CISA KEV list bugs 3.5 times faster than others, researchers find": "https://therecord.media/kev-list-vulnerabilities-patched-significantly-faster",
+        "Bitwarden launches new MFA Authenticator app for iOS, Android": "https://www.bleepingcomputer.com/news/software/bitwarden-launches-new-mfa-authenticator-app-for-ios-android/",
+        "Alleged China-based hackers using ‘Cuttlefish’ malware platform to target Turkey": "https://therecord.media/cuttlefish-malware-routers-turkey",
+        "CISA urges software devs to weed out path traversal vulnerabilities": "https://www.bleepingcomputer.com/news/security/cisa-urges-software-devs-to-weed-out-path-traversal-vulnerabilities/",
+        "Police shuts down 12 fraud call centres, arrests 21 suspects": "https://www.bleepingcomputer.com/news/security/police-shuts-down-12-fraud-call-centres-arrests-21-suspects/",
+        "What can we learn from the passwords used in brute-force attacks?": "https://blog.talosintelligence.com/threat-source-newsletter-may-2-2024/",
+        "Newly identified botnet targets decade-old flaw in unpatched D-Link devices": "https://therecord.media/goldoon-botnet-unpatched-dlink-routers",
+        "Microsoft warns of \"Dirty Stream\" attack impacting Android apps": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-dirty-stream-attack-impacting-android-apps/",
+        "Investigation uncovers substantial spyware exports to Indonesia": "https://therecord.media/indonesia-commercial-spyware-acquisition-investigation",
+        "Iranian state-backed cyber spies continue to impersonate media brands, think tanks": "https://therecord.media/apt42-impersonating-media-think-tanks-iran-espionage",
+        "Product Security Audits vs. Bug Bounty": "https://blog.doyensec.com/2024/05/02/products-security-audit-vs-bugbounty.html",
+        "REvil hacker behind Kaseya ransomware attack gets 13 years in prison": "https://www.bleepingcomputer.com/news/security/revil-hacker-behind-kaseya-ransomware-attack-gets-13-years-in-prison/",
+        "Microsoft won't fix Windows 0x80070643 errors, manual fix required": "https://www.bleepingcomputer.com/news/microsoft/microsoft-wont-fix-windows-0x80070643-errors-manual-fix-required/",
+        "Cybersecurity consultant arrested after allegedly extorting IT firm": "https://www.bleepingcomputer.com/news/legal/cybersecurity-consultant-arrested-after-allegedly-extorting-it-firm/",
+        "Gli U.S.A. pubblicano nuove linee guida per gestire i rischi dell’IA": "https://www.securityinfo.it/2024/05/02/gli-u-s-a-pubblicano-nuove-linee-guida-per-gestire-i-rischi-dell-ia/",
+        "LockBit publishes confidential data stolen from Cannes hospital in France": "https://therecord.media/lockbit-ransomware-hopital-de-cannes-data-published",
+        "Ukrainian sentenced to almost 14 years for infecting thousands with REvil ransomware": "https://therecord.media/revil-ransomware-yaroslav-vasinskyi-prison-sentence",
+        "Microsoft “rompe” la VPN con l’ultimo update per Windows": "https://www.securityinfo.it/2024/05/02/microsoft-rompe-la-vpn-con-lultimo-update-per-windows/"
+    },
+    "NETRESEC Network Security Blog": {
+        "PolarProxy 1.0 Released": "https://www.netresec.com/?page=Blog&month=2024-05&post=PolarProxy-1-0-Released"
+    },
+    "漏洞战争": {
+        "网络安全顶刊——TDSC 2023 论文清单与摘要（1）": "https://mp.weixin.qq.com/s?__biz=MzU0MzgzNTU0Mw==&mid=2247485276&idx=1&sn=3883d5e2a9cb9d33d656a7821271a039&chksm=fb0413a4cc739ab2007c34113f62e28758eaae8fcab0df442200e58b734f52b67b0821aa4991&scene=58&subscene=0#rd",
+        "网络安全顶刊——TDSC 2023 论文清单与摘要（2）": "https://mp.weixin.qq.com/s?__biz=MzU0MzgzNTU0Mw==&mid=2247485276&idx=2&sn=d195d650cdf868e271c5c1738f5c371d&chksm=fb0413a4cc739ab2f79180f669278665510f0fabfb0ac69f542e5a6f3dca395e0e6c1ca9ddc5&scene=58&subscene=0#rd",
+        "网络安全顶刊——TDSC 2023 论文清单与摘要（3）": "https://mp.weixin.qq.com/s?__biz=MzU0MzgzNTU0Mw==&mid=2247485276&idx=3&sn=a5c33b8ba43dd1675af83481fd678af6&chksm=fb0413a4cc739ab24fba987a1221571d93237adcf9f6bfade7391361b3e7b01997e9c16ea8f2&scene=58&subscene=0#rd",
+        "网络安全顶刊——TDSC 2023 论文清单与摘要（4）": "https://mp.weixin.qq.com/s?__biz=MzU0MzgzNTU0Mw==&mid=2247485276&idx=4&sn=06073f68e0129623668f27f773ba4665&chksm=fb0413a4cc739ab2916b76be771c16487052d65c8e9117a34fd4ec0f78bc43097e7975b70694&scene=58&subscene=0#rd"
+    },
+    "SANS Internet Storm Center, InfoCON: green": {
+        "Scans Probing for LB-Link and Vinga WR-AC1200 routers CVE-2023-24796, (Thu, May 2nd)": "https://isc.sans.edu/diary/rss/30890",
+        "ISC Stormcast For Thursday, May 2nd, 2024 https://isc.sans.edu/podcastdetail/8964, (Thu, May 2nd)": "https://isc.sans.edu/diary/rss/30888"
+    },
+    "娜璋AI安全之家": {
+        "[AI安全论文] (32)南洋理工大学刘杨教授——网络空间安全和AIGC整合之道学习笔记及强推（InForSec）": "https://mp.weixin.qq.com/s?__biz=Mzg5MTM5ODU2Mg==&mid=2247499894&idx=1&sn=b13567ba9da2116544931b0b3b32fb0d&chksm=cfcf70bbf8b8f9ad60043155333761e2d3a828f6b5952b33b73545830442f0c27963d34a3521&scene=58&subscene=0#rd"
+    },
+    "Diritto dell'Informatica": {
+        "Smartphone sempre rintracciabili: la nuova frontiera della geolocalizzazione offline": "https://www.dirittodellinformatica.it/ict/smartphone-sempre-rintracciabili-la-nuova-frontiera-della-geolocalizzazione-offline.html"
+    },
+    "Schneier on Security": {
+        "The UK Bans Default Passwords": "https://www.schneier.com/blog/archives/2024/05/the-uk-bans-default-passwords.html"
+    },
+    "Trend Micro Research, News and Perspectives": {
+        "Deepfakes and AI-Driven Disinformation Threaten Polls": "https://www.trendmicro.com/en_us/research/24/e/poll-security.html"
+    },
+    "The Register - Security": {
+        "Microsoft, Google do a victory lap around passkeys": "https://go.theregister.com/feed/www.theregister.com/2024/05/02/microsoft_google_passkeys/",
+        "Florida man gets 6 years behind bars for flogging fake Cisco kit to US military": "https://go.theregister.com/feed/www.theregister.com/2024/05/02/fake_cisco_prison/",
+        "Patch up – 4 critical bugs in ArubaOS lead to remote code execution": "https://go.theregister.com/feed/www.theregister.com/2024/05/02/hpe_aruba_patches/",
+        "Federal frenzy to patch gaping GitLab account takeover hole": "https://go.theregister.com/feed/www.theregister.com/2024/05/02/critical_gitlab_vulnerability/",
+        "Think tank: China's tech giants refine and define Beijing's propaganda push": "https://go.theregister.com/feed/www.theregister.com/2024/05/02/china_big_data_proganda/",
+        "REvil ransomware scum sentenced to almost 14 years inside, ordered to pay $16 million": "https://go.theregister.com/feed/www.theregister.com/2024/05/02/revil_ransomware_prison/",
+        "A million Australian pubgoers wake up to find personal info listed on leak site": "https://go.theregister.com/feed/www.theregister.com/2024/05/02/australian_pubs_data_breach/",
+        "Dropbox dropped the ball on security, haemorrhaging customer and third-party info": "https://go.theregister.com/feed/www.theregister.com/2024/05/02/dropbox_sign_attack/",
+        "Block accused of mass compliance failures that saw digi-dollars reach terrorists": "https://go.theregister.com/feed/www.theregister.com/2024/05/02/prosecutors_probe_block_square_cashapp/"
+    },
+    "Instapaper: Unread": {
+        "The Implications of Resetting the Screen Lock Passcode in iOS Forensics": "https://blog.elcomsoft.com/2024/04/the-implications-of-resetting-the-screen-lock-passcode-in-ios-forensics/",
+        "Elcomsoft Forensic Acquisition System (EFAS)": "https://blog.elcomsoft.com/2024/05/elcomsoft-forensic-acquisition-system-efas/",
+        "Honeywell USB Malware Attacks on Industrial Orgs Becoming More Sophisticated": "https://www.securityweek.com/honeywell-usb-malware-attacks-on-industrial-orgs-becoming-more-sophisticated/",
+        "A Vast New Data Set Could Supercharge the AI Hunt for Crypto Money Laundering": "https://www.wired.com/story/ai-crypto-tracing-model-money-laundering/",
+        "Bitcoin Forensic Analysis Uncovers Money Laundering Clusters and Criminal Proceeds": "https://thehackernews.com/2024/05/bitcoin-forensic-analysis-uncovers.html",
+        "L’intelligenza artificiale e la fiducia, di Bruce Schneier": "https://attivissimo.blogspot.com/2024/04/lintelligenza-artificiale-e-la-fiducia.html"
+    },
+    "Technical Information Security Content & Discussion": {
+        "It’s Morphin’ Time: Self-Modifying Code Sections with WriteProcessMemory for EDR Evasion": "https://www.reddit.com/r/netsec/comments/1ci87pd/its_morphin_time_selfmodifying_code_sections_with/"
+    },
+    "Your Open Hacker Community": {
+        "Failed hacks make your target stronger": "https://www.reddit.com/r/HowToHack/comments/1ci87a8/failed_hacks_make_your_target_stronger/",
+        "Why are man pages soo confusing?": "https://www.reddit.com/r/HowToHack/comments/1ci4s9r/why_are_man_pages_soo_confusing/",
+        "Tip: Automation playground on Google Colab": "https://www.reddit.com/r/HowToHack/comments/1cia6vy/tip_automation_playground_on_google_colab/"
+    },
+    "Posts By SpecterOps Team Members - Medium": {
+        "Manual LDAP Querying: Part 2": "https://posts.specterops.io/manual-ldap-querying-part-2-8a65099e12e3?source=rss----f05f8696e3cc---4"
+    },
+    "TorrentFreak": {
+        "Nintendo DMCA Notice Wipes Out 8,535 Yuzu Repos, Mig Switch Also Targeted": "https://torrentfreak.com/one-nintendo-dmca-notice-just-wiped-out-8535-yuzu-emulator-forks-240502/",
+        "Google Removes Pirate IPTV Services From UK Search Results": "https://torrentfreak.com/google-removes-pirate-iptv-services-from-uk-search-results-240502/"
+    },
+    "Security Affairs": {
+        "Ukrainian REvil gang member sentenced to 13 years in prison": "https://securityaffairs.com/162679/cyber-crime/revil-gang-member-sentenced.html",
+        "Pro-Russia hackers target critical infrastructure in North America and Europe": "https://securityaffairs.com/162672/hacking/pro-russia-hackers-target-critical-infrastructure.html",
+        "HPE Aruba Networking addressed four critical ArubaOS RCE flaws": "https://securityaffairs.com/162663/security/hpe-aruba-networking-critical-flaws.html",
+        "Threat actors hacked the Dropbox Sign production environment": "https://securityaffairs.com/162654/hacking/dropbox-sign-production-environment-hacked.html",
+        "CISA adds GitLab flaw to its Known Exploited Vulnerabilities catalog": "https://securityaffairs.com/162646/security/gitlab-known-exploited-vulnerabilities-catalog.html",
+        "Panda Restaurant Group disclosed a data breach": "https://securityaffairs.com/162633/data-breach/panda-restaurant-group-data-breach.html"
+    },
+    "The Hacker News": {
+        "Popular Android Apps Like Xiaomi, WPS Office Vulnerable to File Overwrite Flaw": "https://thehackernews.com/2024/05/popular-android-apps-like-xiaomi-wps.html",
+        "Ukrainian REvil Hacker Sentenced to 13 Years and Ordered to Pay $16 Million": "https://thehackernews.com/2024/05/ukrainian-revil-hacker-sentenced-to-13.html",
+        "When is One Vulnerability Scanner Not Enough?": "https://thehackernews.com/2024/05/when-is-one-vulnerability-scanner-not.html",
+        "Dropbox Discloses Breach of Digital Signature Service Affecting All Users": "https://thehackernews.com/2024/05/dropbox-discloses-breach-of-digital.html",
+        "New \"Goldoon\" Botnet Targets D-Link Routers With Decade-Old Flaw": "https://thehackernews.com/2024/05/new-goldoon-botnet-targets-d-link.html",
+        "CISA Warns of Active Exploitation of Severe GitLab Password Reset Vulnerability": "https://thehackernews.com/2024/05/cisa-warns-of-active-exploitation-of.html",
+        "New Cuttlefish Malware Hijacks Router Connections, Sniffs for Cloud Credentials": "https://thehackernews.com/2024/05/new-cuttlefish-malware-hijacks-router.html"
+    },
+    "Computer Forensics": {
+        "Best training for mobile forensics and car forensics": "https://www.reddit.com/r/computerforensics/comments/1cim95d/best_training_for_mobile_forensics_and_car/",
+        "Volatility 3: ISF Symbol Creation Error": "https://www.reddit.com/r/computerforensics/comments/1ciax88/volatility_3_isf_symbol_creation_error/"
+    },
+    "Social Engineering": {
+        "I want to exploit keypad entry during a vishing engagement, is this possible?": "https://www.reddit.com/r/SocialEngineering/comments/1cimkkw/i_want_to_exploit_keypad_entry_during_a_vishing/"
+    },
+    "Palo Alto Networks Blog": {
+        "Prisma SASE 3.0 — Securing Work Where It Happens": "https://www.paloaltonetworks.com/blog/2024/05/prisma-sase-3-0/"
+    },
+    "Information Security": {
+        "One key to rule them all: Recovering the master key from RAM to break Android's file-based encryption": "https://www.reddit.com/r/Information_Security/comments/1cic4d4/one_key_to_rule_them_all_recovering_the_master/",
+        "I want to travel for work..": "https://www.reddit.com/r/Information_Security/comments/1cicsqq/i_want_to_travel_for_work/",
+        "Cyber Risk Management Strategy Discussion": "https://www.reddit.com/r/Information_Security/comments/1ci9xe0/cyber_risk_management_strategy_discussion/",
+        "The 101s on How to Protect Consumer Data": "https://www.reddit.com/r/Information_Security/comments/1ci3fyi/the_101s_on_how_to_protect_consumer_data/"
+    },
+    "KitPloit - PenTest Tools!": {
+        "C2-Cloud - The C2 Cloud Is A Robust Web-Based C2 Framework, Designed To Simplify The Life Of Penetration Testers": "http://www.kitploit.com/2024/05/c2-cloud-c2-cloud-is-robust-web-based.html"
+    },
+    "Security Weekly Podcast Network (Audio)": {
+        "Kicking Off With Crypto - PSW #827": "http://sites.libsyn.com/18678/kicking-off-with-crypto-psw-827"
+    }
+}

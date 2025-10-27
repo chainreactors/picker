@@ -1,0 +1,20 @@
+---
+title: 当分公司突遭漏洞通报……如何揪出安全管理“暗礁”？
+url: https://mp.weixin.qq.com/s?__biz=MzA4MTg0MDQ4Nw==&mid=2247581004&idx=1&sn=2f71cde362d2e5dec4e3585e1ac450be
+source: Doonsec's feed
+date: 2025-06-27
+fetch_date: 2025-10-06T22:52:22.771599
+---
+
+# 当分公司突遭漏洞通报……如何揪出安全管理“暗礁”？
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

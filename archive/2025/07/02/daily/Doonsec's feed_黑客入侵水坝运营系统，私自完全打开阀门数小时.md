@@ -1,0 +1,20 @@
+---
+title: 黑客入侵水坝运营系统，私自完全打开阀门数小时
+url: https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247514614&idx=1&sn=759483b62f3eaed88bf7c8e50d558287
+source: Doonsec's feed
+date: 2025-07-02
+fetch_date: 2025-10-06T23:26:26.884034
+---
+
+# 黑客入侵水坝运营系统，私自完全打开阀门数小时
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

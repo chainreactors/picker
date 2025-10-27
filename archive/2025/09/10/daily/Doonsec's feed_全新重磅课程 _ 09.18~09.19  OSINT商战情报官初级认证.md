@@ -1,0 +1,20 @@
+---
+title: 全新重磅课程 | 09.18~09.19  OSINT商战情报官初级认证
+url: https://mp.weixin.qq.com/s?__biz=MzIzMzE2OTQyNA==&mid=2648958820&idx=1&sn=9a3c89e01242c21ce9e81ae70a7ebf1f
+source: Doonsec's feed
+date: 2025-09-10
+fetch_date: 2025-10-02T19:53:44.640010
+---
+
+# 全新重磅课程 | 09.18~09.19  OSINT商战情报官初级认证
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

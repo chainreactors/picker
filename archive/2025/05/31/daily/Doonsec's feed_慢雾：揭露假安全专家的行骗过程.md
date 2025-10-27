@@ -1,0 +1,20 @@
+---
+title: 慢雾：揭露假安全专家的行骗过程
+url: https://mp.weixin.qq.com/s?__biz=MzU4ODQ3NTM2OA==&mid=2247502348&idx=1&sn=334ddb8bac6251a2e4d0b9a49b0f6063
+source: Doonsec's feed
+date: 2025-05-31
+fetch_date: 2025-10-06T22:24:37.654936
+---
+
+# 慢雾：揭露假安全专家的行骗过程
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

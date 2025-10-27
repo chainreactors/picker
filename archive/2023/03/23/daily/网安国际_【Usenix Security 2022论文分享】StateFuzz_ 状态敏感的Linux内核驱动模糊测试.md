@@ -1,0 +1,161 @@
+---
+title: 【Usenix Security 2022论文分享】StateFuzz: 状态敏感的Linux内核驱动模糊测试
+url: https://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652312709&idx=1&sn=1136f7e8c312bed8e2a80faf207da7c4&chksm=8bc4890bbcb3001d68c440333dce13b563a93784653fc764a4027fdfd7cdd4000901a9d5dd67&scene=58&subscene=0#rd
+source: 网安国际
+date: 2023-03-23
+fetch_date: 2025-10-04T10:25:13.845623
+---
+
+# 【Usenix Security 2022论文分享】StateFuzz: 状态敏感的Linux内核驱动模糊测试
+
+![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/icelxY6ibIXSUObGHKx5HW85ib4lDhnbxKPyvPYGR3veKkKOlN1JHlL2t7UoEoibiangde0hg7HQadm9Av64Fuib0YtQ/0?wx_fmt=jpeg)
+
+# 【Usenix Security 2022论文分享】StateFuzz: 状态敏感的Linux内核驱动模糊测试
+
+原创
+
+赵博栋
+
+网安国际
+
+**前言**
+
+本文根据英文原文“StateFuzz: System Call-Based State-Aware Linux Driver Fuzzing.”整理撰写。原文发表在Usenix Security 2022. 作者在完成英文原文工作时，为清华大学NISL实验室在读博士生。本文较原文有所删减，详细内容可参考原文。
+
+01
+
+**介绍**
+
+Fuzzing已经成为最流行和最有效的漏洞发现解决方案，被工业界和学术界广泛研究。例如，谷歌的 OSS-Fuzz 项目持续测试了35个开源项目，截至2021年1月已发现超过25000 个错误。通常，模糊测试随机生成测试用例并使用这些测试用例作为输入执行目标程序。为了处理内在的随机性，很多模糊测试方案遵循AFL的步骤，利用代码覆盖率来指导模糊测试的探索过程。一般来说，他们优先考虑命中新代码的测试用例（即有助于提高代码覆盖率），并将它们用作进一步探索的起点。尽管这种方法取得了巨大成功，但覆盖引导的模糊测试解决方案也有许多局限性。最关键的限制是此类解决方案以代码覆盖为中心，并且在探索测试用例搜索空间时对其他反馈不敏感。在实际的生产环境中，大量的程序（包括设备驱动程序和网络服务等）内部程序状态复杂，没有达到特定状态就不会继续执行代码或产生崩溃。例如，如果特定状态寄存器未设置为预期值，则外设将无法工作。为了有效地测试此类程序，模糊测试方案应该了解程序状态并巧妙地探索状态空间。
+
+最近的工作开始探索程序状态。例如，IJON利用不同形式的手动标注提供的状态表示（例如，迷宫游戏中的位置）不仅可以执行模糊测试，还可以执行像超级马里奥这样的游戏。InsvCov使用程序的潜在不变量作为边界来划分程序状态空间。AFLNet使用服务器的响应代码作为程序状态来驱动网络协议模糊测试。此外，StateAFL通过对特定进程内存执行局部敏感哈希来识别程序状态。在这个方向上需要更多的研究工作。
+
+通常，在开发状态敏感模糊测试解决方案时需要回答三个问题。
+
+首先，什么是程序状态？本质上，一个程序状态是程序的执行上下文，包括所有程序变量的值（从软件的角度）和所有内存和寄存器的值（从硬件的角度）。然而，这种状态的数量非常多，在实践中很难跟踪所有这些状态。因此，实用的模糊测试器必须像 IJON 和 AFLNet 那样关注程序状态的子集。此外，哪些状态对于模糊测试至关重要以及如何减少状态空间仍然是悬而未决的问题。
+
+第二，如何识别程序状态并进行跟踪。在模糊测试期间 IJON 依靠手动注释来标记状态，并在适当的位置使用手动程序检测来跟踪状态。AFLNet 通过从服务器的响应消息中解析响应代码来推断程序状态，然而并不是所有程序都有这样的响应代码。它们要么不是自动化的，要么不是通用的。InsvCov 使用重量级插桩来跟踪许多变量的值，以推断不变量并估计程序状态转换。StateAFL 需要在运行时计算一些特定的长生命周期的变量的哈希值，以将每个内存状态映射为唯一的协议状态。它们都引入了显著的开销并降低了模糊测试的效率。因此，状态敏感的模糊测试方案应该自动识别程序状态并以有效的方式跟踪它们。
+
+第三，如何利用程序状态来指导fuzzing？IJON 用手动注释的状态覆盖替换了 AFL 使用的代码覆盖位图。除了代码覆盖率之外，AFLNet 还跟踪状态（响应代码）转换。他们使用一个种子语料库来存储发现新代码或新状态的测试用例，并倾向于增加代码覆盖率的测试用例。值得探索新的反馈机制以更好地利用程序状态。
+
+在本文中，我们提出了一种新的状态敏感的模糊测试方案StateFuzz 来改进传统的代码覆盖引导模糊测试方案。StateFuzz 利用关键变量来表示程序状态。这些关键变量具有以下特点：它们具有长的生命周期；它们可以由用户更新（即进行状态转换）；它们会影响程序的控制流或内存访问指针。我们将这些关键变量表示为状态变量。所有状态变量值的组合形成了一个程序状态，这种表示是粗粒度的，但可以为模糊测试提供引导。此外，StateFuzz 利用静态分析来识别状态变量。我们注意到富状态程序（例如，设备驱动程序）总是需要多个或多阶段输入。输入的不同阶段将触发不同的程序动作。目标程序必须跨程序动作跟踪程序状态以进行同步和协调。因此，状态变量通常由不同的程序动作共享和访问。例如，与登录状态相关的状态变量应该由登录请求和注销请求共享。我们使用静态分析从它们访问的共享变量中识别程序动作和状态变量。为了有效地跟踪程序状态，我们进一步缩小关注的程序状态组合中使用的状态变量的数量和每个状态变量的值空间。首先，我们使用相关的状态变量对而不是所有状态变量的组合来建模程序状态。其次，对于每个状态变量，我们识别它可能采用的一组值（或值域范围），其中不同的值选择代表不同的状态。然后，我们将每个状态变量的值空间划分为几个范围，并跟踪在模糊测试期间是否命中某个范围。最后，除了代码覆盖之外，我们应用了两种新的反馈类型，并设计了一个三维反馈机制指导模糊测试过程。第一种反馈是，如果输入可以发现两个变量的新值域范围组合并且这两个变量都在相关的状态变量对中，则输入是有趣的。第二种类型的反馈是将发现新的状态变量的上限值或下限值的输入认为是有趣的并保存。当第一个反馈机制失败时，即当无法确定状态变量的取值域范围时，这个极值反馈可以作为补充。
+
+基于模糊测试工具 Syzkaller，我们已经针对Linux 驱动程序模糊测试实现了StateFuzz 的原型。我们在 Android Pixel-4 手机使用的 MSM-4.14 内核和 Linux 上游内核 v4.19 的驱动程序上评估StateFuzz。评估结果表明StateFuzz在发现新漏洞和新代码方面是有效的。StateFuzz 总共发现了2个已知但未修补的漏洞和18个新漏洞，其中15个已分配 CVE ID 或漏洞赏金奖励。与当前最先进的方案Syzkaller相比，StateFuzz 可以找到更多的漏洞并提升了19%的代码覆盖率。
+
+02
+
+**背景**
+
+**1.POSIX 驱动模糊测试**
+
+近年来，已经提出了许多用于发现漏洞的模糊测试解决方案，例如用于 Mac OS 内核的IMF，用于 Windows 内核的 iofuzz，ioctlfuzzer，ioctlbf和 ioattack . Syzkaller使用基于语法的模板生成测试用例，通过系统调用接口与内核交互，并利用 KCOV和 KASAN分别跟踪代码覆盖率和检测内存错误。在 Linux 内核中一切都是文件，硬件设备也是如此。POSIX 标准为用户空间应用程序提供了硬件的统一抽象。/dev 目录中的每个文件都代表 Linux 中的一个硬件设备，它可以像普通文件一样被用户空间程序使用。例如，用户空间应用程序需要获取设备的文件描述符，然后通过读写系统调用与其交互。此外，还为用户空间应用程序提供了原型为 int ioctl(int fd, unsigned long request, ...) 的特殊系统调用，以根据请求支持自定义硬件行为。通常，Linux 驱动程序有两个攻击面，一个在于硬件设备，另一个在于系统调用。因此，对 Linux 驱动程序进行模糊测试有两个方面。第一个维度是模糊驱动程序，通过配置或 I/O 通道（如端口 I/O、MMIO 和 DMA）从硬件设备端注入输入。例如，为了模糊测试 USB 驱动程序的probe过程，USBFuzz 利用通用 USB 设备与驱动程序匹配，并向它们发送恶意 USB 描述符。PeriScope通过挂钩page fault handler将模糊测试数据注入驱动程序的 MMIO。第二个维度来自系统调用，由于系统调用的参数是多种多样的，因此需要生成有效的测试用例。例如，一个有效的 ioctl() 系统调用通常采用一个复杂的结构和一个命令（通常是一个大整数）作为参数。Syzkaller 依靠人工来提取系统调用接口，以触发驱动程序的操作。DIFUZE应用静态分析从设备驱动程序的自定义接口中提取支持的请求类型和相关参数，这有助于模糊测试器生成有效的测试用例。
+
+**2.代码覆盖率引导的模糊测试的局限性**
+
+代码覆盖率引导的模糊测试在测试具备复杂状态的程序（比如网络协议程序、内核驱动）时存在局限，即fuzzer缺乏指导来遍历程序状态。原因在于代码覆盖率引导的模糊测试只关心代码覆盖率，因此会丢弃没有触发新代码的测试用例，即使这些测试用例触发了新的状态。以IJON[2]论文提出的迷宫程序为例，在图1的代码中，代码覆盖率引导的模糊测试可以轻松地覆盖所有代码行，在此之后，即使x和y有不同取值，也会被模糊测试器丢弃，因为没有触发新的代码行。这样一来，因为缺乏指导，模糊测试很难通过随机生成x和y，来遍历所有的x、y取值组合来触发Bug()函数。
+
+因此，对这些程序，需要使用状态敏感的模糊测试（state-aware fuzzing）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/icelxY6ibIXSUObGHKx5HW85ib4lDhnbxKPW3bKC0ROrrFYVdX1oMUwqAQ1r4HvN6khONzed7kTyM68D565IyickJg/640?wx_fmt=png)
+
+**图1. 迷宫示例代码**
+
+**3. 程序状态**
+
+从本质上讲，程序状态是程序的执行上下文，包括程序当前操作的所有内容，即所有程序变量的值（从软件的角度来看）和所有虚拟内存和寄存器的值（从软件的角度来看）。硬件）。探索所有潜在的程序状态将揭示所有潜在的漏洞。然而，由于计算资源的限制，在模糊测试期间跟踪此类程序状态是不可行的。程序状态是由程序维护的特定执行上下文，以记住先前的事件或用户交互。我们对状态丰富的程序进行了研究，以了解它们如何表示程序状态。具体来说，我们从开源项目中收集了包含关键字“state machine”的50 个代码提交，这表明程序正在处理某些状态。这50次提交包括 (1) 具有关键字的 patchwork 中的所有 14 个 Linux 内核提交，(2) MSM 内核中从 2019 年 3 月到 2020 年 9 月的 21 次提交，以及 (3) Github中来自流行网络协议项目的 15 次提交，这些项目包括了nfs-ganesha、curl、httpd、OpenSMTPD、OpenSSL 和 OpenSMTPD。然后，我们手动分析了这些代码提交是如何标记程序状态的。结果表明，在 50 个提交中的 48 个中，状态由布尔/整数或枚举类型的变量表示（图2展示了几个变量示例）。对于另外两个提交，一个使用函数指针来表示状态，另一个使用数据包中的状态代码来表示状态。
+
+因此，程序将有价值的程序状态存储到变量中是很常见的，我们可以利用保存关键信息的变量来表示程序状态。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/icelxY6ibIXSUObGHKx5HW85ib4lDhnbxKPwqfjycuhdYbBex9W6E4PoP3kUAPOibG5BYicDicOosxTgicYm6t7XWDIlQ/640?wx_fmt=png)
+
+**图2. 变量表示状态的实例**
+
+*（本文只选取原文中部分章节，更多精彩内容敬请期待后续出版的《网络安全研究进展》）*
+
+**作者简介**
+
+赵博栋，清华大学网研院网络安全实验室2017届直博生，蓝莲花、Tea-Deliverers战队队员，导师为张超老师。主要研究兴趣包括Linux内核漏洞挖掘、模糊测试和程序分析，在Usenix Security、ISSTA等国际学术会议上发表多篇论文，曾在DEFCON、GEEKPWN、强网杯等国内外知名竞赛中获奖。
+
+**相关阅读**
+
+[【NDSS 2022 论文分享】基于无线网流量指纹分析的APP行为隔空识别](http://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652312701&idx=1&sn=d1439a37bbef1c524b11812da22a9a9c&chksm=8bc489f3bcb300e5540ba2db1581b3ee3cd158ae78b9820d5824d21b022cb5f464ff9e32daad&scene=21#wechat_redirect)
+
+[【S&P 2022论文分享】移动博彩诈骗的数据分析](http://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652312680&idx=1&sn=bf14db7f4985fedc996f4cac62337707&chksm=8bc489e6bcb300f02e44dbb4404bc70b3f103bd57a130b238ef30cb418f1b0eb4d476e1b023c&scene=21#wechat_redirect)
+
+[【USENIX Security  2022论文分享】揭示垂直联邦学习中存在的标签推断攻击](http://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652312275&idx=1&sn=f453438c42b5676b01f01acbe495e28d&chksm=8bc48f5dbcb3064b23fbb8a9246394716afd7917e37199d4f21da340745defd2db404efc7d21&scene=21#wechat_redirect)
+
+[【DSN 2022论文分享】Invoke-Deobfuscation: 基于AST和语义保持的PowerShell脚本反混淆](http://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652312255&idx=1&sn=260c8da492bfa3b4867c41be6d37909d&chksm=8bc48f31bcb306275802f97a29880f761de59c02ecd1cdccc4e627c4f638e02ee2bb1574da3a&scene=21#wechat_redirect)
+
+[【NDSS 2022论文分享】Android系统跨上下文不一致的访问控制](http://mp.weixin.qq.com/s?__biz=MzA4ODYzMjU0NQ==&mid=2652312223&idx=1&sn=13723e1612b7fefd42f1b4a86ddd0e1a&chksm=8bc48f11bcb30607911066fd8422191796d34cd127189df5e4b0fcf51678fd5c5aba33c0644e&scene=21#wechat_redirect)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/icelxY6ibIXSUObGHKx5HW85ib4lDhnbxKP8BuXzGYo2CBZgyuJX08KmQxF6MMeYTyIY48EliczSPNicYxDygFiaDOeQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/icelxY6ibIXSUObGHKx5HW85ib4lDhnbxKPE4WibLff55bje76aAc9LGtfz3aRicZOrxnjcKCXJJYVGxveIFfkuzS7w/640?wx_fmt=jpeg)
+
+预览时标签不可点
+
+![]()
+
+微信扫一扫
+关注该公众号
+
+继续滑动看下一个
+
+轻触阅读原文
+
+![](http://mmbiz.qpic.cn/mmbiz_png/icelxY6ibIXSVlNf68NLWmpfibn7F9KsZzNAIDY1JCxHTWxVibDXwxJ6Pb5voAqiaweFCkQUPb6SJ51jPQ3iaAk8dGJw/0?wx_fmt=png)
+
+网安国际
+
+向上滑动看下一个
+
+知道了
+
+![]()
+微信扫一扫
+使用小程序
+
+取消
+允许
+
+取消
+允许
+
+取消
+允许
+
+×
+分析
+
+![跳转二维码]()
+
+![作者头像](http://mmbiz.qpic.cn/mmbiz_png/icelxY6ibIXSVlNf68NLWmpfibn7F9KsZzNAIDY1JCxHTWxVibDXwxJ6Pb5voAqiaweFCkQUPb6SJ51jPQ3iaAk8dGJw/0?wx_fmt=png)
+
+微信扫一扫可打开此内容，
+使用完整服务
+
+：
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
+分享
+留言
+收藏
+听过

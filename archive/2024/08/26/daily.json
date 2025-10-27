@@ -1,0 +1,234 @@
+{
+    "Security Boulevard": {
+        "USENIX Security ’23 – TRust: A Compilation Framework For In-Process Isolation To Protect Safe Rust Against Untrusted Code": "https://securityboulevard.com/2024/08/usenix-security-23-trust-a-compilation-framework-for-in-process-isolation-to-protect-safe-rust-against-untrusted-code-2/",
+        "Beyond CVSS: Advanced Vulnerability Prioritization Strategies for Modern Threats": "https://securityboulevard.com/2024/08/beyond-cvss-advanced-vulnerability-prioritization-strategies-for-modern-threats/",
+        "Understanding Privileged Access Management Pricing in 2024": "https://securityboulevard.com/2024/08/understanding-privileged-access-management-pricing-in-2024/"
+    },
+    "Doonsec's feed": {
+        "实战 | 对某外国网站的一次内网渗透练手": "https://mp.weixin.qq.com/s?__biz=MzkwODM3NjIxOQ==&mid=2247501765&idx=1&sn=121fd95cd5229295350454daab9a2e39",
+        "C/C++逆向：定位main函数（Debug-x86）": "https://mp.weixin.qq.com/s?__biz=Mzk0MjY1ODE5Mg==&mid=2247484444&idx=1&sn=5fabf297b493f9d35ca50e80a322a662",
+        "刻刀-rust | 脉冲红队快速资产探测综合工具使用指南": "https://mp.weixin.qq.com/s?__biz=Mzk0NjQ5MTM1MA==&mid=2247491857&idx=1&sn=62e831116dc0bceb757c6566f2248ce7",
+        "算法备案通过了，说说踩过的坑": "https://mp.weixin.qq.com/s?__biz=Mzg4OTY4MDA2MA==&mid=2247491461&idx=1&sn=9d62c90774dd90a9b01ab7828c41e42e",
+        "漏洞复现|漏洞复现|短视频矩阵营销系统漏洞": "https://mp.weixin.qq.com/s?__biz=MzIzOTM2MzczNQ==&mid=2247484974&idx=1&sn=712190c086dc21988098aff96ced06ce",
+        "WPA2 与 802.1X：有什么区别？": "https://mp.weixin.qq.com/s?__biz=MzIyMzIwNzAxMQ==&mid=2649460760&idx=1&sn=25ce3c0523b7935bada0f1384c09f2b3",
+        "直面天命：安全该是黑神话！": "https://mp.weixin.qq.com/s?__biz=MzAxOTk3NTg5OQ==&mid=2247490963&idx=1&sn=67ee22a7a8b8ab37932bef46c4ff76de",
+        "知识星球 | 历年网安报告合集一键下载；更新数据安全、数据资产、安全大模型技术等专题资料": "https://mp.weixin.qq.com/s?__biz=MzU5ODgzNTExOQ==&mid=2247627250&idx=1&sn=779ddf1ac6189e2ceefc80748b741aa1",
+        "在Z｜霸王茶姬高薪诚招IoT、移动、数据等安全专家及安全策略、风控、攻防、审计等工程师": "https://mp.weixin.qq.com/s?__biz=MzU5ODgzNTExOQ==&mid=2247627250&idx=2&sn=b7bc82b49a9b46511134b69fbbff859c",
+        "SRC挖掘-教育行业平台&规则&批量自动化": "https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247495586&idx=1&sn=f65a14b283bb502d7af269fa1ac7b1db",
+        "目标踩点信息收集界的IDE": "https://mp.weixin.qq.com/s?__biz=MzkxOTUyOTc0NQ==&mid=2247491358&idx=1&sn=9d270bad9298e93c26e15d1ea62b4b86",
+        "0824~0825-攻防演练之请防守方重点关注威胁情报样本信息": "https://mp.weixin.qq.com/s?__biz=MzIyNDg2MDQ4Ng==&mid=2247486539&idx=1&sn=42081277377a51822a955f18a76aa96e",
+        "「议题文档」高级恶意软件开发之RDI的进化": "https://mp.weixin.qq.com/s?__biz=MzI5NzU0MTc5Mg==&mid=2247485298&idx=1&sn=a3460497af3affbc1ccf9c6a1b6f53b5",
+        "CTF分享 | 命令执行-1": "https://mp.weixin.qq.com/s?__biz=MzkyOTUxMzk2NQ==&mid=2247484895&idx=1&sn=4974c1af8b36dd2986db08710b724fe5",
+        "【资讯】中央网信办等十部门秘书局（办公厅、综合司）联合印发《数字化绿色化协同转型发展实施指南》": "https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247544769&idx=1&sn=c8f504be3a433d8b813c58cca04502b7",
+        "【资讯】吉林省工信厅印发《吉林省数字化车间（生产线）、智能工厂和未来工厂培育认定实施细则（暂行）》": "https://mp.weixin.qq.com/s?__biz=MzU1NDY3NDgwMQ==&mid=2247544769&idx=2&sn=ca5de58445cbe2ac19e5fedb558253ad",
+        "【微信】长按两秒钟隐藏着8个功能！非常实用": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649785136&idx=1&sn=40b66a813317694ef94e2b48771a5ab2",
+        "又一网安企业半年财报证明：干的越多亏的越多": "https://mp.weixin.qq.com/s?__biz=MzkwNjY1Mzc0Nw==&mid=2247485611&idx=1&sn=aab572dd9d3df5016c4aefe5c64a8db0",
+        "【海外SRC赏金挖掘】缓存配置错误而绕过授权，拿下严重2000刀！！": "https://mp.weixin.qq.com/s?__biz=MzkyODcwOTA4NA==&mid=2247485066&idx=1&sn=1ecaf02ca78a458f758c9ef32b4dd4d7",
+        "小额贷款公司业务信息系统要定为三级": "https://mp.weixin.qq.com/s?__biz=MzU5MTIxNzg0Ng==&mid=2247487879&idx=1&sn=8696c2cbc12d1f2b0a22db554dc97c28",
+        "工具化，是众多行业要遵循的核心路线！网安、密码、时空、数据等行业尤为如此！": "https://mp.weixin.qq.com/s?__biz=MzA3OTg3Mjg3NA==&mid=2456976359&idx=1&sn=63358527e304619fe4d1e973656320f8",
+        "【漏洞复现】某成科信票务管理系统 TicketManager.ashx SQL注入漏洞": "https://mp.weixin.qq.com/s?__biz=MzkzMTcwMTg1Mg==&mid=2247486372&idx=1&sn=c99f323e3324fe1ff4bc158ecdc87fce",
+        "麦当劳Instagram照片墙账户被盗称免费送加密币拉升币价黑客狂赚498万": "https://mp.weixin.qq.com/s?__biz=Mzg5Mzg2MTc0OQ==&mid=2247484986&idx=1&sn=d69f9ca1e02d547e702c30b605a1cebf",
+        "武器库 | Win11集成化综合漏洞扫描系统[更新]": "https://mp.weixin.qq.com/s?__biz=MzkxNDAyNTY2NA==&mid=2247518227&idx=1&sn=be4d9fd868f2dbad6640d183e4301937",
+        "地市护网爽拿上万分，一次看个爽(文末抽奖)": "https://mp.weixin.qq.com/s?__biz=MzkxNDAyNTY2NA==&mid=2247518227&idx=2&sn=d3976ee45a1bdbd8f79ff1d1428c30f4",
+        "【安全圈】Steam 崩了！《黑神话：悟空》的天命人们突遇“第八十二难”": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652063845&idx=1&sn=a940a766014eeaae94630e57713d10e4",
+        "【安全圈】某通信公司职员盗用 3400 余户家庭宽带账户、私搭基站贩售流量获刑": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652063845&idx=2&sn=7e0154b6e3b9b5edfd62d5eec973a0e0",
+        "【安全圈】福建警方破获一起侵犯公民个人信息案": "https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652063845&idx=3&sn=2ebd30e91ead611607e2d171d4ec605e",
+        "我是如何学习移动安全的": "https://mp.weixin.qq.com/s?__biz=MzkxMzQyMzUwMg==&mid=2247486238&idx=1&sn=7c3e28f5dd97e77231ae2fc3df497657",
+        "俄乌冲突两年后的俄罗斯国防工业": "https://mp.weixin.qq.com/s?__biz=MzI1OTExNDY1NQ==&mid=2651615120&idx=1&sn=eb137f413dc1bc1f42306681dbcefe52",
+        ".NET Remoting反序列化升级版之TypeFilterLevel.Low模式无文件payload任意代码执行": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458569248&idx=1&sn=a4e99289593b2b238d1fa1685f2e9c60",
+        "限时抢购｜GEEKCON 2024 中国站早鸟票开售啦": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458569248&idx=2&sn=a32ef67f0b5ea32c25007206f8411c98",
+        "一文理清车端OTA技术栈": "https://mp.weixin.qq.com/s?__biz=MzIzOTc2OTAxMg==&mid=2247542231&idx=1&sn=b88c8d016204e229fce840e9a8191f1d",
+        "某系统用户凭据窃取": "https://mp.weixin.qq.com/s?__biz=Mzg5NTU2NjA1Mw==&mid=2247492638&idx=1&sn=206fd01f8045874f3c958e7e7d2d0c4a",
+        "CVE-2024-38063｜Windows TCP/IP远程代码执行漏洞": "https://mp.weixin.qq.com/s?__biz=Mzg2ODcxMjYzMA==&mid=2247485565&idx=1&sn=0e2af3b7e65445094251998d525506be",
+        "CVE-2024-39397｜Magento Open Source文件上传远程代码执行漏洞": "https://mp.weixin.qq.com/s?__biz=Mzg2ODcxMjYzMA==&mid=2247485565&idx=2&sn=aee195924d2e29573e0e3e8223db9611",
+        "dedecms 两个常见漏洞的复现": "https://mp.weixin.qq.com/s?__biz=Mzg4OTI0MDk5MQ==&mid=2247492360&idx=1&sn=5dbb85c63021dc40188e382e333423cd",
+        "推荐一款非常炸裂的shell工具箱": "https://mp.weixin.qq.com/s?__biz=MzA5MzYzMzkzNg==&mid=2650957773&idx=1&sn=32db2b116cf2b7b8542a1264e9ae20b9",
+        "2024笔记本电脑排名前十推荐（轻薄本）": "https://mp.weixin.qq.com/s?__biz=MzA5MzYzMzkzNg==&mid=2650957773&idx=2&sn=d7e464938445e9d943f307327a84b348",
+        "【LSP专享】新增抖音直播下载，助眠视频夏茉高清视频1V": "https://mp.weixin.qq.com/s?__biz=MzA5MzYzMzkzNg==&mid=2650957773&idx=3&sn=643d00b114176d2b1d4c6a6d828f67dd",
+        "浙江省网络信息安全技术管控中心招人！": "https://mp.weixin.qq.com/s?__biz=MzIxMDIwODM2MA==&mid=2653930541&idx=1&sn=24d2717fa89a179bff128b3e72c15609",
+        "论道五·虚无": "https://mp.weixin.qq.com/s?__biz=MzIyOTczMjI2MQ==&mid=2247486349&idx=1&sn=594049c0877a99d6877476a945209080",
+        "近期值得关注的IOC（2024-08-25）": "https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247511798&idx=1&sn=453f6e083b5570649f29d68b5dc58c6f",
+        "Telegram 创始人帕维尔·杜罗夫被捕": "https://mp.weixin.qq.com/s?__biz=Mzg4NzgzMjUzOA==&mid=2247485019&idx=1&sn=c01a5fe0ab453db47eb15632ea58a697",
+        "《黑神话：悟空》发行平台“崩了”，奇安信：60个僵尸网络，攻击一夜暴涨2万倍": "https://mp.weixin.qq.com/s?__biz=MzU0NDk0NTAwMw==&mid=2247616633&idx=1&sn=882770a4dad5ac554cc85952106b17ae",
+        "奇安信亮相HICOOL2024全球创业者峰会": "https://mp.weixin.qq.com/s?__biz=MzU0NDk0NTAwMw==&mid=2247616633&idx=2&sn=d2d886cd72bdaeed8f0c8ae69b2c3959",
+        "开源恶意流量检测系统": "https://mp.weixin.qq.com/s?__biz=MzkyMDY4MTc2Ng==&mid=2247483938&idx=1&sn=92341f6b4f2775c3899cb48bc7b57aa1",
+        "CVE-2024-20693：Windows 缓存代码签名操纵": "https://mp.weixin.qq.com/s?__biz=MzAxMjYyMzkwOA==&mid=2247512852&idx=1&sn=5542e0e2073fd72b187b19bd2b231217",
+        "威胁追踪案例研究：追踪 GootLoader": "https://mp.weixin.qq.com/s?__biz=MzAxMjYyMzkwOA==&mid=2247512852&idx=2&sn=49b261978c03d84c783d42f30afde9ce",
+        "大华DSS 视频管理系统存在group_saveGroup注入": "https://mp.weixin.qq.com/s?__biz=MzkyMTMxNjQ5NA==&mid=2247484758&idx=1&sn=57d6d77a320955d4b2926d8a96545026",
+        "警惕！你买的充电宝，可能是窃听器": "https://mp.weixin.qq.com/s?__biz=MzkwMTMyMDQ3Mw==&mid=2247592527&idx=1&sn=f5c0c0f7e703a526a3b3af56c0eda90a",
+        "俄罗斯telegram创始人在法国被捕，他会交出解密私钥吗？": "https://mp.weixin.qq.com/s?__biz=Mzg2NDYwMDA1NA==&mid=2247539847&idx=1&sn=bae848d3fc25aac471e723993e0f3c8c",
+        "星盟安全RE系列|恶意程序分析": "https://mp.weixin.qq.com/s?__biz=MzU3ODc2NTg1OA==&mid=2247490338&idx=1&sn=cbf51a4c806dcd84a1f8a44fec9065ae",
+        "记一次恶意APP逆向分析实战": "https://mp.weixin.qq.com/s?__biz=MzU3ODc2NTg1OA==&mid=2247490338&idx=2&sn=a314b41aa210f9714d4425e4a7645227",
+        "一只行李箱的旅途--2024桂林阳朔": "https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247487540&idx=1&sn=e3a1215dcfb0384fbb1f28f10b0d5f11",
+        "[提权漏洞] CVE-2024-38054 特权提升漏洞 win11可用 含利用脚本": "https://mp.weixin.qq.com/s?__biz=MzkzOTI2NjUyNA==&mid=2247484854&idx=1&sn=5ac416b2eaf4283d12d612c8d2b4459f",
+        "电报（Telegram）应用程序创始人是谁，什么原因导致他被逮捕？": "https://mp.weixin.qq.com/s?__biz=MzkxNDM4OTM3OQ==&mid=2247499383&idx=1&sn=720f702edb946354e30d121d8b67c3f5",
+        "蓝队技战法总结": "https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247550822&idx=1&sn=0549f4fca0378675f00b819122f5fa44",
+        "SecLists：安全测试伴侣，渗透测试资源收集项目": "https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247550822&idx=2&sn=dc2afedae0839a98c088d60cfc1a46f4",
+        "【漏洞分享】用友GRP-U8 漏洞利用 用友GRP-U8 userInfoWeb SQL注入": "https://mp.weixin.qq.com/s?__biz=MzI0NjE1NDYyOA==&mid=2247484610&idx=1&sn=d7a37b01dea4ed384db89c91767ffa62",
+        "以色列经济在加沙冲突中的损失评估": "https://mp.weixin.qq.com/s?__biz=MzkwNzM0NzA5MA==&mid=2247500267&idx=1&sn=38910bb1a2706ccd4508b657a87e94c4",
+        "华为交换机如何检查设备的运行情况，记住这11个命令即可！": "https://mp.weixin.qq.com/s?__biz=MzUyNTExOTY1Nw==&mid=2247526276&idx=1&sn=9fe801a0de515c38a4b11c42058a9ccc",
+        "漏洞挖掘 | 记一次Spring横向渗透": "https://mp.weixin.qq.com/s?__biz=MzUyODkwNDIyMg==&mid=2247542899&idx=1&sn=997dfed2a5e32a0feb80b9616bb80181",
+        "掌控安全CTF挑战赛 送【黑神话：悟空】直面天命！": "https://mp.weixin.qq.com/s?__biz=MzI4NTcxMjQ1MA==&mid=2247612483&idx=2&sn=6c8becc009d9cc152645814474831625",
+        "IDOR导致上万医疗保险文件泄露": "https://mp.weixin.qq.com/s?__biz=MzI4NTcxMjQ1MA==&mid=2247612483&idx=1&sn=8b4377fcfcc81f8d54a3cf194808359d",
+        "【2024-08-25】每日安全资讯": "https://mp.weixin.qq.com/s?__biz=MzIzNDU5NTI4OQ==&mid=2247487513&idx=1&sn=b8c01b64d4d19c28f4e3b8af1dc51a6e",
+        "震惊！Telegram 创始人Pavel Durov在法国机场被捕！": "https://mp.weixin.qq.com/s?__biz=MzkzNjE5NjQ4Mw==&mid=2247539991&idx=1&sn=12e92c5f2e7efc1de425826ff030ded7",
+        "telegram创始人被捕": "https://mp.weixin.qq.com/s?__biz=MzU5Mjk3MDA5Ng==&mid=2247486251&idx=1&sn=71bd0ec8aaba15070c43e0e25191c798",
+        "金融公司大量财务文件被窃！亚信安全《勒索家族和勒索事件监控报告》(2024年第29期）": "https://mp.weixin.qq.com/s?__biz=MjM5NjY2MTIzMw==&mid=2650618478&idx=1&sn=027e70d3ee10cdadd2b3ab036e9f95ff",
+        "Explain-MySQL分析和优化查询的核心工具": "https://mp.weixin.qq.com/s?__biz=MzI5NzUyNzMzMQ==&mid=2247485292&idx=1&sn=fef85fbc9e3693b23fd2e4f1e020abfd",
+        "一图读懂丨全球首部《人工智能法案》正式生效，划重点→": "https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247522731&idx=1&sn=1ab3706fb3a9af006933555c55d91fe6",
+        "因数据安全问题，交银信托吃百万罚单！（附网络与数据安全典型案例）": "https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247522731&idx=2&sn=f504c965fcb2bdeff9363449afec5cf5",
+        "使“upx -d”解包变得不可能！": "https://mp.weixin.qq.com/s?__biz=MzA4NzU1Mjk4Mw==&mid=2247491548&idx=1&sn=73a4386a968f1a1622e60d531d7bc968",
+        "活动总结|Hacking Group 0772&0771A联谊活动": "https://mp.weixin.qq.com/s?__biz=Mzg2NTcyNjU4Nw==&mid=2247485458&idx=1&sn=47cc1a5d6b7c8e574b86483c3e26ab09",
+        "无敌了！强烈建议网工运维今年拿下软考！": "https://mp.weixin.qq.com/s?__biz=MzIxMTEyOTM2Ng==&mid=2247503630&idx=1&sn=8ad81f6812c243f1b439dfcfd957886d",
+        "实战 | 某外汇常用CMS通用未授权RCE": "https://mp.weixin.qq.com/s?__biz=Mzk0NjE0NDc5OQ==&mid=2247524822&idx=1&sn=9c083a33fc289816d637e02798c8062a",
+        "如何同时Ping多个IP地址，一个小技巧节约N小时？": "https://mp.weixin.qq.com/s?__biz=Mzk0NjE0NDc5OQ==&mid=2247524822&idx=2&sn=44ec83e5b3837691223ed0c44534b78e",
+        "TG“电报”创始人在法国被捕，会影响各位大黑客吗？": "https://mp.weixin.qq.com/s?__biz=MzkyOTQzNjIwNw==&mid=2247487876&idx=1&sn=8c99465fef308ff243d4e14ca23aa463",
+        "Telegram“电报”创始人在法国被捕": "https://mp.weixin.qq.com/s?__biz=MzkwMzMwODg2Mw==&mid=2247508282&idx=1&sn=21d8a364bced74f65d08823f0ffb97bb",
+        "网络安全职场必备的七种工作态度": "https://mp.weixin.qq.com/s?__biz=MzUzNjkxODE5MA==&mid=2247486581&idx=1&sn=c7c923927bd4c41cd104df31895121ba",
+        "我国0day研究能力探究": "https://mp.weixin.qq.com/s?__biz=MzkzNDIzNDUxOQ==&mid=2247488607&idx=1&sn=34613d47e98c35cb3a0eb0565c2c73ee",
+        "Telegram 首席执行官 Pavel Durov 在法国被捕": "https://mp.weixin.qq.com/s?__biz=MzkzNDIzNDUxOQ==&mid=2247488607&idx=2&sn=007213b11e63fda5a95ef3afc85e5552",
+        "黑客可以接管科沃斯家用机器人来监视其主人": "https://mp.weixin.qq.com/s?__biz=MzkzNDIzNDUxOQ==&mid=2247488607&idx=3&sn=83f562d0f806f29fc89fd00264618147",
+        "一种ATT&CK 尚未收录的持久化技术": "https://mp.weixin.qq.com/s?__biz=MzkzNDIzNDUxOQ==&mid=2247488607&idx=4&sn=2635a273a7e52d28b840d8b1a58ac9c5",
+        "月球土壤可以变成水源": "https://mp.weixin.qq.com/s?__biz=MzkzNDIzNDUxOQ==&mid=2247488607&idx=5&sn=30ad562a4ef648b245493b1f11e2ebd4",
+        "震惊！他被捕了!": "https://mp.weixin.qq.com/s?__biz=MzI3NzM5NDA0NA==&mid=2247488791&idx=1&sn=2bf2e1e4b4b01620e8cb6a6da0cec4ec",
+        "Bug 赏金狩猎 — 完整指南（第 3 部分）": "https://mp.weixin.qq.com/s?__biz=MzkwOTE5MDY5NA==&mid=2247499245&idx=1&sn=e4dd617d05ab168ceed86fd24aa67a47",
+        "媒体报道｜《黑神话：悟空》玩家过多致Steam崩了？ 知道创宇李伟辰：DDoS攻击在游戏行业非常常见，黑客以此谋利": "https://mp.weixin.qq.com/s?__biz=MjM5NzA3Nzg2MA==&mid=2649869343&idx=1&sn=f00b09178fbc8ce8ee4290a1c9ffd896",
+        "【流量分析】Java框架Shiro、工具利用、漏洞复现以及流量特征分析": "https://mp.weixin.qq.com/s?__biz=Mzg2Nzk0NjA4Mg==&mid=2247490293&idx=1&sn=38f904e828f23c168df38eb030dfc81a"
+    },
+    "Twitter @Nicolas Krassas": {
+        "New Linux Malware 'sedexp' Hides Credit Card Skimmers Using Udev Rules https://thehackernews.com/2024/08/new-linux-malware-sedexp-hides-credit.html": "https://x.com/Dinosn/status/1827599725731729814",
+        "Hackers can take over Ecovacs home robots to spy on their owners https://securityaffairs.com/167508/hacking/researchers-hacked-ecovacs-devices.html": "https://x.com/Dinosn/status/1827566545226084856",
+        "Telegram Founder Pavel Durov Reportedly Arrested in France https://hackread.com/telegram-founder-pavel-durov-arrested-in-france/": "https://x.com/Dinosn/status/1827566193705672973",
+        "PHPStan: PHP Static Analysis Tool https://meterpreter.org/phpstan-php-static-analysis-tool/": "https://x.com/Dinosn/status/1827566098243301619",
+        "Flow Analyzer: help in testing and analyzing OAuth 2.0 Flows https://meterpreter.org/flow-analyzer-help-in-testing-and-analyzing-oauth-2-0-flows/": "https://x.com/Dinosn/status/1827566064466530313",
+        "ShellSweepX: A Precision Tool for Web Shell Detection https://securityonline.info/shellsweepx-a-precision-tool-for-web-shell-detection/": "https://x.com/Dinosn/status/1827566030987628919"
+    },
+    "unSafe.sh - 不安全": {
+        "Mac executable creation issue": "https://buaq.net/go-258102.html",
+        "USENIX Security ’23 – TRust: A Compilation Framework For In-Process Isolation To Protect Safe Rust Against Untrusted Code": "https://buaq.net/go-258114.html",
+        "LM Studio – 有电脑就能用，开源、傻瓜、一站式部署本地大语言模型｜然后，像 ChatGPT 那样提问": "https://buaq.net/go-258100.html"
+    },
+    "SecWiki News": {
+        "SecWiki News 2024-08-25 Review": "http://www.sec-wiki.com/?2024-08-25"
+    },
+    "A Few Thoughts on Cryptographic Engineering": {
+        "Is Telegram really an encrypted messaging app?": "https://blog.cryptographyengineering.com/2024/08/25/telegram-is-not-really-an-encrypted-messaging-app/"
+    },
+    "ongoing by Tim Bray": {
+        "Mozart Requiem": "https://www.tbray.org/ongoing/When/202x/2024/08/25/Mozart-Requiem"
+    },
+    "Recent Commits to cve:main": {
+        "Update Sun Aug 25 22:30:30 UTC 2024": "https://github.com/trickest/cve/commit/b804f1faac0d8a7107a0140850d1bee39bfb445b",
+        "Update Sun Aug 25 14:33:18 UTC 2024": "https://github.com/trickest/cve/commit/3e0e49c3ee74c84433d0dd753261b83e2fd24a18",
+        "Update Sun Aug 25 06:35:56 UTC 2024": "https://github.com/trickest/cve/commit/7d8fd7820806b1467291df96fbd20bd8a5906994"
+    },
+    "Private Feed for M09Ic": {
+        "HuYlllc pushed to console in chainreactors/malice-network": "https://github.com/chainreactors/malice-network/compare/2ddd1e0b87...36be26d63b",
+        "theLSA starred KTH-LangSec/server-side-prototype-pollution": "https://github.com/KTH-LangSec/server-side-prototype-pollution",
+        "theLSA starred LivingInSyn/netgear_hashcat_wordlist": "https://github.com/LivingInSyn/netgear_hashcat_wordlist",
+        "theLSA starred bunkerity/bunkerweb": "https://github.com/bunkerity/bunkerweb",
+        "theLSA starred UndeadSec/DockerSpy": "https://github.com/UndeadSec/DockerSpy",
+        "theLSA starred helviojunior/hookchain": "https://github.com/helviojunior/hookchain",
+        "theLSA starred miurla/morphic": "https://github.com/miurla/morphic",
+        "theLSA starred OSPG/binwalk": "https://github.com/OSPG/binwalk",
+        "theLSA starred xv0nfers/V8-sbx-bypass-collection": "https://github.com/xv0nfers/V8-sbx-bypass-collection",
+        "theLSA starred canyie/MagiskEoP": "https://github.com/canyie/MagiskEoP",
+        "theLSA starred xv0nfers/V8sandbox_bypass": "https://github.com/xv0nfers/V8sandbox_bypass",
+        "theLSA starred h0ny/NacosExploit": "https://github.com/h0ny/NacosExploit",
+        "theLSA starred nmmapper/python3-nmap": "https://github.com/nmmapper/python3-nmap",
+        "theLSA starred zen-browser/desktop": "https://github.com/zen-browser/desktop",
+        "theLSA starred Chenyme/Chenyme-AAVT": "https://github.com/Chenyme/Chenyme-AAVT",
+        "theLSA starred linkedin/Liger-Kernel": "https://github.com/linkedin/Liger-Kernel",
+        "theLSA starred BASI-LABS/parseltongue": "https://github.com/BASI-LABS/parseltongue",
+        "theLSA starred AabyssZG/Chrome-RCE-Poc": "https://github.com/AabyssZG/Chrome-RCE-Poc",
+        "gh0stkey starred nanxiaobei/resso": "https://github.com/nanxiaobei/resso",
+        "gh0stkey starred rust-lang-cn/rust-by-example-cn": "https://github.com/rust-lang-cn/rust-by-example-cn",
+        "gh0stkey released CaA 1.0 at gh0stkey/CaA": "https://github.com/gh0stkey/CaA/releases/tag/1.0",
+        "Rvn0xsy starred lionsoul2014/ip2region": "https://github.com/lionsoul2014/ip2region",
+        "su18 starred jdr2021/OSSFileBrowse": "https://github.com/jdr2021/OSSFileBrowse"
+    },
+    "Sandfly Security Blog RSS Feed": {
+        "Agentless Password Auditing for Linux White Paper": "https://sandflysecurity.com/blog/agentless-password-auditing-for-linux-white-paper"
+    },
+    "奇客Solidot–传递最新科技情报": {
+        "NASA 宣布波音 Starliner 宇航员将搭乘 SpaceX Crew-9 返回地面": "https://www.solidot.org/story?sid=79068",
+        "Telegram CEO 在法国机场被捕": "https://www.solidot.org/story?sid=79067"
+    },
+    "看雪学苑": {
+        ".NET Remoting反序列化升级版之TypeFilterLevel.Low模式无文件payload任意代码执行": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458569248&idx=1&sn=a4e99289593b2b238d1fa1685f2e9c60&chksm=b18dfaaa86fa73bca2ae15329c58a22ef0cbf55b758d642b5060f601e287c687fa4048e34f3a&scene=58&subscene=0#rd",
+        "限时抢购｜GEEKCON 2024 中国站早鸟票开售啦": "https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458569248&idx=2&sn=a32ef67f0b5ea32c25007206f8411c98&chksm=b18dfaaa86fa73bc520438899b23a340c76c8c3f23d18786cabbaa56f2918a050c866bfc786e&scene=58&subscene=0#rd"
+    },
+    "黑海洋 - WIKI": {
+        "内网穿透大全": "https://www.upx8.com/4301",
+        "黑群晖一键修复：root、AME、DTS、转码、CPU型号等": "https://www.upx8.com/4300",
+        "黑群晖：全球区账号注册教程、群晖安装及洗白教程、常见问题解决": "https://www.upx8.com/4299",
+        "PVE 6.8内核开启核显SR-IOV 教程": "https://www.upx8.com/4298",
+        "安卓应用一键隐藏（免root）": "https://www.upx8.com/4297"
+    },
+    "奇安信威胁情报中心": {
+        "近期值得关注的IOC（2024-08-25）": "https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247511798&idx=1&sn=453f6e083b5570649f29d68b5dc58c6f&chksm=ea665981dd11d0972167de1fb025efd0bae7386f1c9cecb8abd523fe502e65956115c7d57118&scene=58&subscene=0#rd"
+    },
+    "青衣十三楼飞花堂": {
+        "一只行李箱的旅途--2024桂林阳朔": "https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247487540&idx=1&sn=e3a1215dcfb0384fbb1f28f10b0d5f11&chksm=fab2d30bcdc55a1d214304ac039f7aa8f1f2a4996b6527bada69f4d07f3e9359a1aa836743f7&scene=58&subscene=0#rd"
+    },
+    "极客公园": {
+        "Telegram CEO 被法国警方逮捕；IBM 在华上千员工被突然关闭访问权限；中国移动入股荣耀 | 极客早知道": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653052493&idx=1&sn=6db529242a32f899a258b5fbec3b7acf&chksm=7e5723fb4920aaed7859b89d8618fa10484d2497ed7e8cb2bd279cdb8a9da16fd85f9fd4a537&scene=58&subscene=0#rd"
+    },
+    "丁爸 情报分析师的工具箱": {
+        "【情报实战】沙利文近期为什么要访华？": "https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651145858&idx=1&sn=5b779709a8d6cba04cf86f18c1948681&chksm=f1af31b8c6d8b8ae45c4f0c5d105934fa7a05924a579d60acbdf4804a1237bfb94908a7d3ccf&scene=58&subscene=0#rd"
+    },
+    "迪哥讲事": {
+        "SRC挖掘-教育行业平台&规则&批量自动化": "https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247495586&idx=1&sn=f65a14b283bb502d7af269fa1ac7b1db&chksm=e8a5e5c1dfd26cd7cb730c116309785d01361f3617785f807fedb4eaffec195840a85b3a8bc9&scene=58&subscene=0#rd"
+    },
+    "Over Security - Cybersecurity news aggregator": {
+        "Traderie - 364,898 breached accounts": "https://haveibeenpwned.com/PwnedWebsites#Traderie",
+        "Pavel Durov, fondatore di Telegram, arrestato in Francia. Perché questo può essere un problema per Internet": "https://www.insicurezzadigitale.com/pavel-durov-fondatore-di-telegram-arrestato-in-francia-perche-questo-puo-essere-un-problema-per-internet/",
+        "Stealthy 'sedexp' Linux malware evaded detection for two years": "https://www.bleepingcomputer.com/news/security/stealthy-sedexp-linux-malware-evaded-detection-for-two-years/",
+        "Audit finds notable security gaps in FBI's storage media management": "https://www.bleepingcomputer.com/news/security/audit-finds-notable-security-gaps-in-fbis-storage-media-management/",
+        "Medusa ransomware group: an IT services company in Houston suffers a cyber attack with data loss": "https://www.suspectfile.com/medusa-ransomware-group-an-it-services-company-in-houston-suffers-a-cyber-attack-with-data-loss/"
+    },
+    "dotNet安全矩阵": {
+        ".NET内网实战：通过回调函数执行Shellcode": "https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247494748&idx=1&sn=099543717722e33c062003cccfb9092f&chksm=fa5942b1cd2ecba751237815b12e5878938133d9ca848f9e03d18c79ac888555de0de0798b3d&scene=58&subscene=0#rd",
+        ".NET 安全攻防知识交流社区": "https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247494748&idx=2&sn=b2d292b2d3da305f1fdf7450242e2114&chksm=fa5942b1cd2ecba74dae7285dee99ba3a8a38c46c91524a70f6fc4daf69488d2fae31b39a820&scene=58&subscene=0#rd",
+        ".NET 一款体积极小用于规避WAF的Shell": "https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247494748&idx=3&sn=659c8a26a166e96337134b009a4e56c4&chksm=fa5942b1cd2ecba7a1c600fd95b54088cbce08639c45c0341aac622391a53543e63096af3c4d&scene=58&subscene=0#rd"
+    },
+    "Have I Been Pwned latest breaches": {
+        "Traderie - 364,898 breached accounts": "https://haveibeenpwned.com/PwnedWebsites#Traderie"
+    },
+    "Troy Hunt's Blog": {
+        "Weekly Update 414": "https://www.troyhunt.com/weekly-update-414/"
+    },
+    "The Hacker News": {
+        "Telegram Founder Pavel Durov Arrested in France for Content Moderation Failures": "https://thehackernews.com/2024/08/telegram-founder-pavel-durov-arrested.html",
+        "New Linux Malware 'sedexp' Hides Credit Card Skimmers Using Udev Rules": "https://thehackernews.com/2024/08/new-linux-malware-sedexp-hides-credit.html"
+    },
+    "Security Affairs": {
+        "France police arrested Telegram CEO Pavel Durov": "https://securityaffairs.com/167556/cyber-crime/police-arrested-telegram-ceo-pavel-durov.html",
+        "SECURITY AFFAIRS MALWARE NEWSLETTER – ROUND 8": "https://securityaffairs.com/167525/malware/security-affairs-malware-newsletter-round-8.html",
+        "Security Affairs newsletter Round 486 by Pierluigi Paganini – INTERNATIONAL EDITION": "https://securityaffairs.com/167519/breaking-news/security-affairs-newsletter-round-486-by-pierluigi-paganini-international-edition.html",
+        "U.S. CISA adds Versa Director bug to its Known Exploited Vulnerabilities catalog": "https://securityaffairs.com/167534/hacking/cisa-adds-versa-director-bug-known-exploited-vulnerabilities-catalog.html"
+    },
+    "TorrentFreak": {
+        "‘Bonus’ Episode of ‘House of the Dragon’ Comes With a Nasty Surprise for Pirates": "https://torrentfreak.com/bonus-episode-of-house-of-the-dragon-comes-with-a-nasty-surprise-for-pirates-240825/"
+    },
+    "Your Open Hacker Community": {
+        "Question about wordlists": "https://www.reddit.com/r/HowToHack/comments/1f0luk6/question_about_wordlists/"
+    },
+    "Social Engineering": {
+        "How to see through people's defenses": "https://www.reddit.com/r/SocialEngineering/comments/1f0wfq8/how_to_see_through_peoples_defenses/"
+    },
+    "Full Disclosure": {
+        "Re: [SYSS-2024-038] DiCal-RED - Use of Password Hash Instead of Password for Authentication": "https://seclists.org/fulldisclosure/2024/Aug/39",
+        "SCHUTZWERK-SA-2024-004: Buffer overread in U-Boot DHCP": "https://seclists.org/fulldisclosure/2024/Aug/38"
+    },
+    "Technical Information Security Content & Discussion": {
+        "SLUBStick risk assessment for embedded systems": "https://www.reddit.com/r/netsec/comments/1f14cwy/slubstick_risk_assessment_for_embedded_systems/"
+    },
+    "Computer Forensics": {
+        "Passed CHFI!": "https://www.reddit.com/r/computerforensics/comments/1f1906d/passed_chfi/",
+        "I am trying to find *large* log files of real breaches, regardless of tech": "https://www.reddit.com/r/computerforensics/comments/1f1171y/i_am_trying_to_find_large_log_files_of_real/"
+    },
+    "Dark Space Blogspot": {
+        "Come Sarà Polkadot 2.0? Coretime, Dot Burn e JAM": "http://darkwhite666.blogspot.com/2024/08/come-sara-polkadot-20-coretime-dot-burn.html"
+    }
+}

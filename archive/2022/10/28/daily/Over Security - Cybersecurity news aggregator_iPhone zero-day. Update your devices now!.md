@@ -1,0 +1,203 @@
+---
+title: iPhone zero-day. Update your devices now!
+url: https://www.malwarebytes.com/blog/news/2022/10/zero-day-threat-discovered-for-iphones-and-ipads.-update-your-devices-now
+source: Over Security - Cybersecurity news aggregator
+date: 2022-10-28
+fetch_date: 2025-10-03T21:09:32.417453
+---
+
+# iPhone zero-day. Update your devices now!
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Apple with a hole in it](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/10/asset_upload_file4707_241488.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# iPhone zero-day. Update your devices now!
+
+Posted: October 26, 2022
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+It’s time to update your Apple devices to ward off a [zero-day threat](https://support.apple.com/en-us/HT213489#:~:text=improved%20bounds%20checking.-,CVE%2D2022%2D42827,-%3A%20an%20anonymous%20researcher) discovered by an anonymous researcher.
+
+As is customary for Apple, the advisory revealing this attack is somewhat threadbare, and doesn’t reveal a lot of information with regard to what’s happening, but if you own an iPad or iPhone you’ll want to get yourself on the latest version.
+
+The zero-day is being used out in the wild, and Apple holding back the specifics may be enough to slow down the risk of multiple threat actors taking advantage of the issue, known as [CVE-2022-42827](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42827). However, Apple’s lack of detail means it’s not possible to explain what to watch out for if you think your device may have been compromised.
+
+The vulnerability affects the kernel code, the core of the software that operates the device. It can be abused to run remote code execution attacks, which can lead to [issues like crashing and / or data corruption](https://www.bleepingcomputer.com/news/apple/apple-fixes-new-zero-day-used-in-attacks-against-iphones-ipads/). According to Apple, the issue impacts:
+
+* iPhone 8 and later
+* iPad Pro (all models)
+* iPad Air 3rd generation and later
+* iPad 5th generation and later
+* iPad mini 5th generation and later
+
+At time of writing, there is very little you can do other than fire up your Apple product and make your way to the updates section. There is no reason to panic, but no need to delay either.
+
+## How to update your device
+
+It’s entirely possible that your device is already set to update automatically. If so, then you shouldn’t have to worry about this one: Your device will do it all for you. If not, and your device is on the list above, don’t worry. The route to updating your iPhone or iPad is [very standard across the board](https://support.apple.com/en-gb/HT204204), no matter which specific flavour you happen to be running:
+
+1. Plug into a power source and enable Wi-Fi
+2. Select **Settings > General**, and then **Software Update**.
+3. Select your desired update(s) and begin the install process.
+
+**Automatic updates** can be applied like so:
+
+1. **Settings > General > Software Update**
+2. Select **Automatic Updates**, and then enable **Download iOS Updates**
+3. Turn on **Install iOS Updates**.
+
+Finally, for **Rapid Security Response** updates (which ensures important security fixes are applied as soon as possible):
+
+1. **Settings > General > Software Update**
+2. Select **Automatic Updates**
+3. Enable the **Security Responses & System Files** option
+
+There have been numerous publicly documented zero-day attacks [aimed at Apple products this year](https://www.securityweek.com/apple-fixes-exploited-zero-day-ios-161-patch). While most of these tend to be quite targeted and specific, there is absolutely no harm in getting into the habit of updating. It doesn’t just help to protect you from issues such as the one above, but many other potentially less serious issues too.
+
+## Update 11/2/22:
+
+The updates which address the above issue are [iOS 15.7.1 and iPadOS 15.7.1](https://support.apple.com/en-gb/HT213490).
+
+**SHARE THIS ARTICLE**
+
+[![X](https://www.malwarebytes.com/wp-content/themes/malwarebytes/assets/src/images/x-twitter-logo-grey...

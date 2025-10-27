@@ -1,0 +1,179 @@
+---
+title: Jailbreaking ChatGPT and other large language models while we can
+url: https://www.malwarebytes.com/blog/news/2023/02/jailbreaking-large-language-models-like-chatgp-while-we-still-can
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-15
+fetch_date: 2025-10-04T06:41:40.630087
+---
+
+# Jailbreaking ChatGPT and other large language models while we can
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![](https://www.threatdown.com/wp-content/uploads/2024/04/jailbreaking_chatgpt_resized.png?w=1024)
+
+[Threat Intelligence](https://www.threatdown.com/blog/category/threat-intelligence/)
+
+# Jailbreaking ChatGPT and other large language models while we can
+
+February 13, 2023
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+The introduction of ChatGPT launched an arms race between tech giants. The rush to be the first to incorporate a similar large language model (LLM) into their own offerings (read: search engines) may have left a lot of opportunities to bypass the active restrictions such as bias, privacy concerns, and the difficulties with abstract concepts or lack of context.
+
+Several researchers have demonstrated methods to jailbreak [ChatGPT](https://www.reddit.com/r/ChatGPT/comments/zlcyr9/dan_is_my_new_friend/), and [Bing Chat](https://twitter.com/marvinvonhagen/status/1623658144349011971). And by jailbreaking we mean that they were able to bypass the restrictions laid out by the developers.
+
+## Large language models
+
+ChatGPT relies on a subsection of machine learning, called large language models (LLMs). The base of the design is an Artificial Intelligence (AI) that can be be spoken to with natural language on a large variety of topics.
+
+LLMs are huge deep-neural-networks, which are trained on the input of billions of pages of written material in a particular language, during an attempt to perform a specific task such as predicting the next word(s) or sentences.
+
+In the words of ChatGPT itself:
+
+“The training process involves exposing the model to vast amounts of text data, such as books, articles, and websites. During training, the model adjusts its internal parameters to minimize the difference between the text it generates and the text in the training data. This allows the model to learn patterns and relationships in language, and to generate new text that is similar in style and content to the text it was trained on.”
+
+## Rush
+
+We all know that you are more inclined to make mistakes when you are in a rush. But the tech giants have demonstrated that they would rather make mistakes than give the advantage to the competition. Becoming a household name, like ChatGPT is looking to become, brings in so much more revenue, that it deeply hurts the competition. Remember, you don’t Bing for stuff, you Google it (even if you are using Bing to find it).
+
+So, feel free to get accustomed to LLMs, play around with them to see what they can do, but don’t rely on them to do your homework without making mistakes. They are still very much a work in progress even though the race is off. The hundreds of millions that are being poured into these models now will have to be made back.
+
+Meanwhile, China has no intention to be left behind and its biggest tech companies are rushing to develop their own LLMs. Alibaba Group Holding, Tencent Holdings, Baidu, NetEase and JD.com [all unveiled plans](https://asia.nikkei.com/Business/China-tech/Alibaba-Tencent-and-Baidu-join-the-ChatGPT-rush) to show off the results of their AI research efforts.
+
+## Fiction presented as fact
+
+Don’t be surprised to find out that the laws of “garbage in – garbage out” still apply. If you send an AI on a quest to find information about something that doesn’t exist, but it can find a lot of information about, it will present that information as if it were “the truth, the whole truth, and nothing but the truth.”
+
+Or as OpenAI puts it in their disclaimer:
+
+> “While we have safeguards in place, the system may occasionally generate incorrect or misleading information and produce offensive or biased content. It is not intended to give advice.”
+
+![](https://www.threatdown.com/wp-content/uploads/2024/05/easset_upload_file14041_259026_e.webp)
+
+Also familiarize yourself with the built-in limitations of a system. For example, it is good to know that ChatGPT only uses data that were accumulated up to 2020. It was not trained on current affairs. And r...

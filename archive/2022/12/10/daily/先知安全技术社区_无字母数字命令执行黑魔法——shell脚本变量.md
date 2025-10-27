@@ -1,0 +1,179 @@
+---
+title: 无字母数字命令执行黑魔法——shell脚本变量
+url: https://xz.aliyun.com/t/11934
+source: 先知安全技术社区
+date: 2022-12-10
+fetch_date: 2025-10-04T01:04:04.324657
+---
+
+# 无字母数字命令执行黑魔法——shell脚本变量
+
+[![]( https://xz.aliyun.com/api/v2/files/7e6f6165-ee99-3f16-8091-d257a52b0dd9  )](/)
+
+* [技术社区](/news)
+* [安全培训](/course)
+* [技术社群](/group)
+* [积分商城](/points-mall/index)
+* [先知平台](https://xianzhi-next.aliyun.com/#/home/index)
+* [漏洞库](https://avd.aliyun.com/)
+
+![](https://xz.aliyun.com/assets/pc/images/icon-search.png)
+
+历史记录
+
+清空历史记录
+
+* 相关的动态
+* 相关的文章
+* 相关的用户
+* 相关的圈子
+* 相关的话题
+
+[注册](https://xz.aliyun.com/register?type=phone)
+[登录](https://xz.aliyun.com/auth/login)
+
+* [![](https://xz.aliyun.com/api/v2/files/5119bec1-1ef0-3397-a551-a07bb7c57712)](https://mp.weixin.qq.com/s/4z9S0x_Th1RuS0iQngWNvw)
+  [18家SRC邀您加入双11安全保卫战](https://mp.weixin.qq.com/s/4z9S0x_Th1RuS0iQngWNvw)
+
+[![](https://xz.aliyun.com/api/v2/files/1dd8767e-94f8-3560-a0cb-87408751a4f1)
+
+2025首届AI安全全球挑战赛](https://summit.aliyun.com/aichallenge)
+[![](https://xz.aliyun.com/api/v2/files/03aa4752-6ba8-3bf5-9f23-d1faebb3f017)
+
+投稿可获得积分奖励](https://xz.aliyun.com/points-mall/index)
+
+* 精选文章
+* {{ cate.name }}
+
+* 全部
+* {{ cate.name }}
+
+[![](/assets/pc/images/icon-publish.png)](https://xz.aliyun.com/news/release)
+
+热门文章
+
+* [1](https://xz.aliyun.com/news/18890)
+
+  [暂停社区礼品发货通知](https://xz.aliyun.com/news/18890)
+* [2](https://xz.aliyun.com/news/18793)
+
+  [大模型安全之数据投毒（Data Poisoning）](https://xz.aliyun.com/news/18793)
+* [3](https://xz.aliyun.com/news/18748)
+
+  [先知社区双十一投稿活动｜月满中秋，奖励加倍！](https://xz.aliyun.com/news/18748)
+* [4](https://xz.aliyun.com/news/18743)
+
+  [我的2025年企业src挖洞之路分享](https://xz.aliyun.com/news/18743)
+* [5](https://xz.aliyun.com/news/18731)
+
+  [shadowlnk-基于lnk劫持的权限维持及权限提升载体](https://xz.aliyun.com/news/18731)
+
+近期热点
+
+* 一周
+* 月份
+* 季度
+
+* 1
+  [暂停社区礼品发货通知](https://xz.aliyun.com/news/18890)
+* 2
+  [大模型安全之数据投毒（Data Poisoning）](https://xz.aliyun.com/news/18793)
+* 3
+  [先知社区双十一投稿活动｜月满中秋，奖励加倍！](https://xz.aliyun.com/news/18748)
+* 4
+  [我的2025年企业src挖洞之路分享](https://xz.aliyun.com/news/18743)
+* 5
+  [shadowlnk-基于lnk劫持的权限维持及权限提升载体](https://xz.aliyun.com/news/18731)
+
+暂无相关信息
+
+暂无相关信息
+
+优秀作者
+
+* [1
+
+  ![](https://xz.aliyun.com/assets/pc/images/pic_default_secret.png)
+
+  T0daySeeker
+
+  贡献值:56000](https://xz.aliyun.com/users/135943)
+* [2
+
+  ![](https://xz.aliyun.com/assets/pc/images/pic_default_secret.png)
+
+  真爱和自由
+
+  贡献值:41000](https://xz.aliyun.com/users/141946)
+* [3
+
+  ![](https://xz.aliyun.com/assets/pc/images/pic_default_secret.png)
+
+  一天
+
+  贡献值:34800](https://xz.aliyun.com/users/144519)
+* [4
+
+  ![](https://xz.aliyun.com/assets/pc/images/pic_default_secret.png)
+
+  Yale
+
+  贡献值:33000](https://xz.aliyun.com/users/68981)
+* [5
+
+  ![](https://xz.aliyun.com/assets/pc/images/pic_default_secret.png)
+
+  1674701160110592
+
+  贡献值:27800](https://xz.aliyun.com/users/142356)
+* [6
+
+  ![](https://xz.aliyun.com/assets/pc/images/pic_default_secret.png)
+
+  caigo
+
+  贡献值:27400](https://xz.aliyun.com/users/138042)
+* [7
+
+  ![](https://xz.aliyun.com/assets/pc/images/pic_default_secret.png)
+
+  1174735059082055
+
+  贡献值:24800](https://xz.aliyun.com/users/163216)
+* [8
+
+  ![](https://xz.aliyun.com/storage/public:MjAyNS8wOS8wNi9lVEtFS1VWMGc3eXFZVGJjZHFPeXZLWVM0TmZFRGkzY2hEamxCWTlNeWQxRzBscjdjSU81NmFSa1N1S2dabFdILmpwZw==)
+
+  follycat
+
+  贡献值:20000](https://xz.aliyun.com/users/147533)
+* [9
+
+  ![](https://xz.aliyun.com/assets/pc/images/pic_default_man.png)
+
+  cen4encen
+
+  贡献值:19600](https://xz.aliyun.com/users/155314)
+* [10
+
+  ![](https://xz.aliyun.com/assets/pc/images/pic_default_secret.png)
+
+  lbz
+
+  贡献值:19200](https://xz.aliyun.com/users/148943)
+
+简约版
+
+* [用户协议](https://xz.aliyun.com/api/v2/site-agreement-view?type=user)
+* [联系我们](https://xz.aliyun.com/api/v2/site-agreement-view?type=privacy)
+* [举报中心](https://survey.taobao.com/apps/zhiliao/ceVAIbDa7)
+* [我要投诉](https://www.aliyun.com/complaint)
+* [运营规则](https://xz.aliyun.com/news/17597)
+* [Q&A](https://xz.aliyun.com/news/17841)
+* [RSS](https://xz.aliyun.com/feed)
+
+先知社区
+
+本站/app由
+Djingoii
+提供技术和产品支持

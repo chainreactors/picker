@@ -1,0 +1,181 @@
+---
+title: Android and Chrome start showing passwords the door
+url: https://www.malwarebytes.com/blog/news/2022/10/google-is-bringing-passkey-support-to-both-android-and-chrome
+source: Over Security - Cybersecurity news aggregator
+date: 2022-10-15
+fetch_date: 2025-10-03T19:59:34.013436
+---
+
+# Android and Chrome start showing passwords the door
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![fingerprint to open the lock](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/10/asset_upload_file20806_241240.png?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Android and Chrome start showing passwords the door
+
+Posted: October 13, 2022
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+Google has [announced](https://android-developers.googleblog.com/2022/10/bringing-passkeys-to-android-and-chrome.html) that it’s bringing [passkey](https://www.malwarebytes.com/cybersecurity/basics/passkey) support to both [Android](https://www.malwarebytes.com/cybersecurity/basics/how-to-clean-your-phone-from-virus) and Chrome. On May 5, 2022, it said it would implement [passwordless support in Android and Chrome](https://blog.google/technology/safety-security/one-step-closer-to-a-passwordless-future/) and the latest annoncement about passkeys is an important step in that journey.
+
+## Passkeys
+
+Passkeys are a replacement for passwords. They are faster to sign in with, easier to use, and much more secure. Sounds good, right? So, why isn’t everybody using them already? Maybe because we do a bad job at explaining how easy they are.
+
+Although they share four letters, passkeys are nothing like passwords. They use public-key cryptography, which requires a set of two cryptographic “keys”. One is public and one is private.
+
+The public key is generated by the user and stored by whatever service the user is logging in to. When a user wants to log in, the service sends the user some data to “sign”, the user encryptes it with their private key and sends it back. The service then decrypts it with the public key. If the decryption works that’s proof that the owner of the private key signed the data and is therefore owner of the public key.
+
+A user does not have to remember the public key or, heaven forbid, type it out in some form. That would only make matters worse. The public key also does not need to be kept a secret. Which means you don’t have to worry about [data breaches](https://www.malwarebytes.com/cybersecurity/basics/data-breach), post-its, machine-in-the-middle attacks, or any other way it could be discovered or fall into the wrong hands, because the wrong hands are welcome to it: It is useless to them.
+
+As long as your private key is safe, you are secure. And the private key stays on a device you own, such as a phone or hardware key, is never shared with anybody or any thing, and never leaves your possession. It’s job is to prove that the public key is really yours.
+
+## Authenticators
+
+So, your private key is something you hold on to, but where do you keep it, what actually does the signing with it, and how is it secured? All of this happens on devices called “authenticators”.
+
+An authenticator is a device that knows how to create and share the public key, knows how to store private keys, and knows how to use them to sign things. Authenticators can be hardware keys, phones, laptops, or any other kind of computing device. Best of all, authenticators can be a separate device from the one you’re logging in on. So you can log in to a website on your laptop and use a phone paired with your laptop as the authenticator.
+
+Since passkeys are built on industry standards, this works across different platforms and browsers—including Windows, macOS, iOS, and ChromeOS. An Android user can sign in to a passkey-enabled website using Safari on a Mac, and a Windows user can do the same using a passkey stored on their iOS device.
+
+Before an authenticator will share a public key or sign you into a site you have to authorise it to do so using a “gesture”. What constitutes a gesture is deliberately vague: It could be...

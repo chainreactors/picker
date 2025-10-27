@@ -1,0 +1,229 @@
+---
+title: [SYSS-2022-047] Razer Synapse - Local Privilege Escalation
+url: https://seclists.org/fulldisclosure/2023/Jan/26
+source: Full Disclosure
+date: 2023-01-28
+fetch_date: 2025-10-04T05:06:01.458481
+---
+
+# [SYSS-2022-047] Razer Synapse - Local Privilege Escalation
+
+[![](/shared/images/nst-icons.svg#menu)](#menu)
+![](/shared/images/nst-icons.svg#close)
+[![Home page logo](/images/sitelogo.png)](/)
+
+[Nmap.org](https://nmap.org/)
+[Npcap.com](https://npcap.com/)
+[Seclists.org](https://seclists.org/)
+[Sectools.org](https://sectools.org)
+[Insecure.org](https://insecure.org/)
+
+![](/shared/images/nst-icons.svg#search)
+
+[![fulldisclosure logo](/images/fulldisclosure-logo.png)](/fulldisclosure/)
+
+## [Full Disclosure](/fulldisclosure/) mailing list archives
+
+[![Previous](/images/left-icon-16x16.png)](25)
+[By Date](date.html#26)
+[![Next](/images/right-icon-16x16.png)](27)
+
+[![Previous](/images/left-icon-16x16.png)](25)
+[By Thread](index.html#26)
+[![Next](/images/right-icon-16x16.png)](27)
+
+![](/shared/images/nst-icons.svg#search)
+
+# [SYSS-2022-047] Razer Synapse - Local Privilege Escalation
+
+---
+
+*From*: Oliver Schwarz via Fulldisclosure <fulldisclosure () seclists org>
+*Date*: Tue, 24 Jan 2023 13:19:42 +0100
+
+---
+
+```
+Advisory ID:               SYSS-2022-047
+Product:                   Razer Synapse
+Manufacturer:              Razer Inc.
+Affected Version(s):       Versions before 3.7.0830.081906
+Tested Version(s):         3.7.0731.072516
+Vulnerability Type:        Improper Certificate Validation (CWE-295)
+Risk Level:                High
+Solution Status:           Open
+Manufacturer Notification: 2022-08-02
+Solution Date:             2022-09-06
+Public Disclosure:         2022-12-21
+CVE Reference:             CVE-2022-47632
+Author of Advisory:        Dr. Oliver Schwarz, SySS GmbH
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Overview:
+
+Razer Synapse is an additional driver software for Razer gaming devices.
+The manufacturer describes the product as a "unified cloud-based hardware
+configuration tool" (see [1]).
+
+Due to an unsafe installation path, improper privilege management, and
+improper certificate validation, the associated system service
+"Razer Synapse Service" is vulnerable to DLL hijacking.
+As a result, local Windows users can abuse the Razer driver installer
+to obtain administrative privileges on Windows.
+
+In order to exploit the vulnerability, the attacker needs physical
+access to the machine and needs to prepare the attack before Razer
+Synapse is installed along with a Razer driver.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Vulnerability Details:
+
+The attack scenario considers a Windows machine without any previous
+installation of any Razer device or software.
+The attacker has a local unprivileged Windows account, physical access
+to the machine, and a device which is either a Razer peripheral or able
+to pretend to be one (such as a Bash Bunny or a Raspberry Pi Zero).
+The attacker aims at executing code with full system privileges.
+
+The attack exploits the Razer Synapse Service which runs with elevated
+privileges. While the main binary of the service is stored in the
+protected location "C:\Program Files (x86)\Razer\Synapse3\Service", it
+dynamically loads libraries from
+"C:\ProgramData\Razer\Synapse3\Service\bin".
+Before the installation, standard users can write to this path, since
+"C:\ProgramData" is world-writable on a standard installation of Windows.
+
+The Synapse installation procedure changes access privileges, so that
+standard users cannot write to the path any longer.
+However, if the path is created before the driver installation, the
+creator can set own files to be read-only and deny write access for
+the SYSTEM user.
+
+Upon start, the Synapse service checks the location for foreign DLLs,
+removes them and aborts upon failure to delete them.
+Nevertheless, the DLL check is simply based on verifying if the DLL is
+associated with ANY certificate information. The service does not
+verify if the certificate is actually valid or belongs to Razer.
+
+Note that the described vulnerability is similar to CVE-2021-44226,
+which has been fixed in Synapse version 3.7.0228.022817.
+The new attack differs from the original one in that the attacker
+now has to employ self-signed DLLs instead of non-signed ones.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Proof of Concept (PoC):
+
+The attack consists of the following steps:
+
+1. Before the installation of the driver/Synapse, the attacker creates
+   "C:\ProgramData\Razer\Synapse3\Service", copies a custom/malicious
+   and self-signed version of userenv.dll into the directory, sets the
+   DLL to read-only, and denies write access for SYSTEM.
+
+2. Afterwards, the attacker triggers the installation of Synapse.
+   This can be done without any elevated privileges by plugging in a
+   Razer device and following the installation procedure for Synapse
+   if device-specific co-installers are not disabled.
+   Alternatively, a device such as Bash Bunny or a Raspberry Pi Zero
+   can be used and pretend to be a Razer device.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Solution:
+
+Razer has published a patched version that will be deployed automatically
+upon driver installation on current Windows builds.
+
+To prevent similar attacks through other co-installers, system
+administrators can disable them by setting the following key in the
+Windows registry:
+```
+
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Device
+Installer\DisableCoInstallers = 1
+
+```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Disclosure Timeline:
+
+2022-06-02: Vulnerability discovered
+2022-08-02: Vulnerability reported to manufacturer
+2022-09-06: Patch released by manufacturer
+2022-12-21: Public disclosure of vulnerability
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+References:
+
+[1] Product website for Razer Synapse 3
+    https://www2.razer.com/eu-en/synapse-3
+[2] SySS Security Advisory SYSS-2022-047
+
+https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2022-047.txt
+[3] SySS Responsible Disclosure Policy
+    https://www.syss.de/en/responsible-disclosure-policy
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Credits:
+
+This security vulnerability was found by Dr. Oliver Schwarz of SySS GmbH.
+
+E-Mail: oliver.schwarz () syss de
+```
+
+Public Key:
+<https://www.syss.de/fileadmin/dokumente/PGPKeys/Oliver_Schwarz.asc>
+
+```
+Key ID: 0x9716294F1294280D
+Key Fingerprint: D452 B014 E992 2886 E799 6B43 9716 294F 1294 280D
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Disclaimer:
+
+The information provided in this security advisory is provided "as is"
+and without warranty of any kind. Details of this security advisory may
+be updated in order to provide as accurate information as possible. The
+latest version of this security advisory is available on the SySS website.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Copyright:
+
+Creative Commons - Attribution (by) - Version 3.0
+URL: http://creativecommons.org/licenses/by/3.0/deed.en
+_______________________________________________
+Sent through the Full Disclosure mailing list
+https://nmap.org/mailman/listinfo/fulldisclosure
+Web Archives & RSS: https://seclists.org/fulldisclosure/
+```
+
+---
+
+[![Previous](/images/left-icon-16x16.png)](25)
+[By Date](date.html#26)
+[![Next](/images/right-icon-16x16.png)](27)
+
+[![Previous](/images/left-icon-16x16.png)](25)
+[By Thread](index.html#26)
+[![Next](/images/right-icon-16x16.png)](27)
+
+### Current thread:
+
+* **[SYSS-2022-047] Razer Synapse - Local Privilege Escalation** *Oliver Schwarz via Fulldisclosure (Jan 26)*
+
+![](/shared/images/nst-icons.svg#search)
+
+## [Nmap Security Scanner](https://nmap.org/)
+
+* [Ref Guide](https://nmap.org/book/man.html)* [Install Guide](https://nmap.org/book/install.html)* [Docs](https://nmap.org/docs.html)* [Download](https://nmap.org/download.html)* [Nmap OEM](https://nmap.org/oem/)
+
+## [Npcap packet capture](https://npcap.com/)
+
+* [User's Guide](https://npcap.com/guide/)* [API docs](https://npcap.com/guide/npcap-devguide.html#npcap-api)* [Download](https://npcap.com/#do...

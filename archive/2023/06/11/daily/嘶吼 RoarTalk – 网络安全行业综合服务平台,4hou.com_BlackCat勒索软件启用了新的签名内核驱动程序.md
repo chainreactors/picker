@@ -1,0 +1,253 @@
+---
+title: BlackCat勒索软件启用了新的签名内核驱动程序
+url: https://www.4hou.com/posts/8zE2
+source: 嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com
+date: 2023-06-11
+fetch_date: 2025-10-04T11:45:01.749155
+---
+
+# BlackCat勒索软件启用了新的签名内核驱动程序
+
+BlackCat勒索软件启用了新的签名内核驱动程序 - 嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com
+
+[![](https://www.4hou.com/sihou/images/new4hou/newlogoss.png)](https://www.4hou.com)
+
+* [首页](https://www.4hou.com)
+* [企业中心](https://www.4hou.com/corp/newindex)
+* [产业研究院](https://www.4hou.com/real-time)
+
+![](https://www.4hou.com/sihou/images/new4hou/search-icon.png)
+
+[投稿](https://www.4hou.com/contribute)
+
+[登录](https://www.4hou.com/login)
+  |
+[注册](https://www.4hou.com/register)
+
+* 导读 ▾
+* [活动](https://www.4hou.com/newticket)
+* [专题](https://www.4hou.com/category/special)
+* [图谱](https://www.4hou.com/atlas/index)
+* [报告](https://www.4hou.com/new-report-info)
+* [嘶票](https://www.4hou.com/tickets)
+* [嘶货](https://www.4hou.com/shop)
+* [企业查询](https://www.4hou.com/corp/new-search-company)
+* [招聘](https://www.4hou.com/recruit)![](https://www.4hou.com/sihou/images/1561626446625934.png)
+
+* [新闻](https://www.4hou.com/category/news)
+* [行业](https://www.4hou.com/category/industry)
+* [趋势](https://www.4hou.com/category/observation)
+* [访谈](https://www.4hou.com/category/people)
+* [漏洞](https://www.4hou.com/category/vulnerable)
+* [WEB安全](https://www.4hou.com/category/web)
+* [业务安全](https://www.4hou.com/category/business)
+* [系统安全](https://www.4hou.com/category/system)
+* [内网渗透](https://www.4hou.com/category/penetration)
+* [勒索软件](https://www.4hou.com/category/typ)
+* [安全工具](https://www.4hou.com/category/tools)
+
+# BlackCat勒索软件启用了新的签名内核驱动程序
+
+lucywang
+[技术](https://www.4hou.com/category/technology)
+2023-06-10 12:00:00
+
+![](https://img.4hou.com/article/%E6%B5%8F%E8%A7%88.png)142459
+
+收藏
+
+导语：我们将在本文中详细介绍发生在2023年2月的BlackCat勒索软件事件，研究人员在其中发现了一种新型逃避功能。
+
+我们将在本文中详细介绍发生在2023年2月的BlackCat勒索软件事件，研究人员在其中发现了一种新型逃避功能。
+
+2022年12月下旬，Mandiant、Sophos和Sentinel One的研究人员发现恶意内核驱动程序是通过几个微软硬件开发人员帐户(由微软Windows硬件开发人员计划认证)签名的，微软随后撤销了几个在这些攻击中被滥用的微软硬件开发者账户。
+
+我们将在本文中介绍有关2023年2月发生的BlackCat勒索软件事件，该变体与三家安全商2022年12月下旬披露的恶意驱动程序重叠。众所周知，BlackCat在逃避功能上使用了多种技术，比如使用禁用和修改工具或使用安全模式引导技术。
+
+本文重点分析揭示了这种新功能，它涉及使用签名内核驱动程序进行逃避。我们认为这个新的内核驱动程序是一个最新版本，继承了以前研究中披露的示例的主要功能。该驱动程序与单独的用户客户机可执行文件一起使用，试图控制、暂停和终止部署在攻击目标上的安全代理的各种进程。
+
+攻击者使用不同的方法对其恶意内核驱动程序进行签名：通常是通过滥用Microsoft签名门户、使用泄露和被盗的证书或使用地下服务。在示例中，攻击者试图部署Mandiant披露的旧驱动程序，该驱动程序通过Microsoft签名(SHA256: b2f955b3e6107f831ebe67997f8586d4fe9f3e98)。由于该驱动程序之前已经被发现并检测到，攻击者部署了另一个由被盗或泄露的交叉签名证书签名的内核驱动程序。
+
+**恶意签名的内核驱动程序**
+
+我们观察到的2023年2月的勒索软件事件证明，勒索软件运营商及其附属机构对获得他们在攻击中使用的勒索软件有效负载的特权级访问非常感兴趣。他们通常使用包含低权限组件的勒索软件家族，以避免在最终有效负载被释放后被安全产品检测到。跟踪分析发现，大多数与内核相关的有效负载通常是在企图逃避阶段被发现的。
+
+![1.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352074123330.png "1685352074123330.png")
+
+内核级攻击的分布
+
+![2.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352082125125.png "1685352082125125.png")
+
+大多数与内核相关的有效负载都是在企图逃避阶段被发现的
+
+一些勒索软件攻击试图遵守微软的代码签名要求。这使得恶意攻击者可以灵活地在释放实际负载之前编译为特定任务(通常涉及削弱防御和逃避)设计的内核模块。攻击者可以采取以下方法：
+
+1. 使用代码签名证书，该证书要么是泄露的，要么是窃取的，要么是从黑市购买的。
+
+2. 通过模仿合法机构并按照微软的流程获取交叉签名证书(前提是微软允许对内核模式代码进行交叉签名)，滥用微软的门户来发布签名的内核模块，获得新的有效代码签名证书，以及从黑市购买与真实身份相关的有效代码签名证书和/或扩展验证（EV）证书。
+
+![3.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352090910152.png "1685352090910152.png")
+
+显示攻击者如何遵守微软代码签名要求的图表
+
+**对签名驱动程序的分析**
+
+接下来，我们将研究二月BlackCat攻击中使用的签名驱动程序（ktgn.sys）。下图显示了这些新签署的驱动程序的其他示例，以及它们是如何被用作BlackCat逃避程序的。
+
+![4.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352098144428.png "1685352098144428.png")
+
+BlackCa在逃避阶段释放的文件
+
+通过虚拟机保护的用户代理tjr.exe将内核驱动程序释放到用户临时目录C:\%User%\AppData\Local\Temp\Ktgn.sys。然后安装被释放的驱动程序，名称为Ktgn，启动值为System（在系统重新启动时启动）。通过我们对用户与该驱动程序交互时发生的情况的分析，我们观察到它只使用了一个公开的设备输入和输出控制（IOCTL）代码——Kill Process，该代码用于阻止安装在系统上的安全代理进程。
+
+与此同时，驱动程序ktgn.sys使用当前吊销的有效数字签名从“BopSoft”(它也曾被其他攻击者用于代码签名)签名，可以成功加载到执行签名策略的64位Windows安装中，该驱动程序使用Safengine Protector v2.4.0.0工具进行混淆，这使得静态分析技术不可靠。通过加载被混淆的驱动程序并尝试构建一个用户模式客户端来观察暴露的IOCTL接口，我们可以确定每个IOCTL代码的函数。最后，我们观察到相同的内核驱动程序被不同的代码签名证书签名。
+
+![5.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352243109685.png "1685352243109685.png")
+
+具有不同签名者的驱动程序变体
+
+![6.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352249129496.png "1685352249129496.png")
+
+用于混淆二进制文件的封装程序
+
+由于它没有注册卸载回调函数，因此只有在释放或修改服务注册表项后重新启动系统时，才能卸载驱动程序。
+
+![7.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352258807077.png "1685352258807077.png")
+
+服务控制管理器无法停止该服务
+
+![8.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352265202875.png "1685352265202875.png")
+
+缺少卸载函数的驱动程序
+
+一个名为 \\.\keHeperDriverLink的符号链接被创建，该符号允许用户模式客户端与其连接和通信。请注意，该链接只允许一个连接，如果多个客户端试图同时连接，系统将崩溃。
+
+![8.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352274164986.png "1685352274164986.png")
+
+正在检查另一个用户模式进程是否正在尝试连接到驱动程序
+
+![9.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352295111505.png "1685352295111505.png")
+
+暴露的IOCTL接口
+
+这个客户机支持10个不同的命令，每个命令实现一个特定的功能，该功能由内核驱动程序通过适当的IOCTL接口执行。驱动程序和用户模式客户端之间的通信使用irp\_mj\_devicide\_control处理程序通过以下代码发生，每个IOCTL代码及其对应的功能：
+
+222088h：激活驱动程序
+
+22208ch：取消激活驱动程序
+
+222094h：终止进程
+
+222184h：删除文件
+
+222188h：强制删除文件
+
+22218ch：复制文件
+
+222190h：强制复制文件
+
+2221c8h：注册进程/线程对象通知
+
+2221c4h：注销进程/线程对象通知
+
+222264h：重启系统
+
+根据我们对内核驱动程序的分析，它似乎仍在开发和测试中，因为它的结构不是很好，而且它的一些功能目前还不能使用。接下来将介绍各种IOCTL接口的详细信息。
+
+**IOCTL 222088h**
+
+在执行任何其他操作之前，必须首先调用IOCTL 222088h来激活驱动程序。如果未调用此代码，驱动程序将不接受任何操作，并将返回消息STATUS\_ACCESS\_DENIED。用户模式客户端将此激活字节数组发送给驱动程序。
+
+激活是对位于驱动程序中的大小为0x42的硬编码字节数组进行简单的字节比较。如果比较通过，它将设置一个BOOLEAN标志，该标志将在任何操作之前进行检查。
+
+![11.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352314697974.png "1685352314697974.png")
+
+运行内存中的激活字节数
+
+![12.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352322621271.png "1685352322621271.png")
+
+复制激活字节以测试驱动程序操作
+
+**IOCTL 22208 ch**
+
+IOCTL 22208Ch在用户模式客户端完成取消之前在IOCTL代码222088h中设置的标志的操作后被调用。这将使驱动程序失效并停止处理任何新的操作。
+
+客户端将需要传递IOCTL代码222088h中传递的相同字节数组，以便成功完成操作。
+
+**IOCTL 222094 h**
+
+IOCTL 222094h用于阻止任何用户模式进程（甚至是受保护的进程）。Tt从用户代理接收进程ID，然后在目标进程上下文中创建内核线程。创建的内核线程调用ZwTerminateProcess API来终止目标进程。
+
+![13.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352333112086.png "1685352333112086.png")
+
+检查驱动程序是否激活
+
+![14.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352350148141.png "1685352350148141.png")
+
+IOCTL 222094h终止进程
+
+**IOCTL 222184 h**
+
+IOCTL 222184h用于删除特定的文件路径。
+
+![15.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352372808924.png "1685352372808924.png")
+
+IOCTL 222184h删除文件路径
+
+**IOCTL 222188 h**
+
+IOCTL 222188h强制删除文件。为此，内核驱动程序执行以下操作：
+
+1.它尝试使用暴力方法打开系统上的所有进程（从PID=0x4到PID=0x27FFD）；
+
+2.当它成功地打开一个进程时，它会尝试引用进程内的所有句柄，再次使用暴力方法（从HANDLE=0x4开始到HANDLE=0x27FFD）；
+
+3.当它成功引用句柄时，它使用ObQueryNameString API将句柄映射到名称。当找到匹配项时，内核驱动程序关闭句柄。
+
+此操作将确保关闭对该文件的所有引用，并且该操作可以成功完成，而不会出现任何错误，说明该文件正被其他应用程序使用。
+
+![16.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352380195524.png "1685352380195524.png")
+
+暴力破解PID
+
+![17.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352388308088.png "1685352388308088.png")
+
+暴力破解句柄
+
+**IOCTL 22218 ch**
+
+IOCTL 22218Ch用于复制文件。
+
+![18.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352397741706.png "1685352397741706.png")
+
+IOCTL 22218Ch用于复制文件
+
+**IOCTL 222190 h**
+
+IOCTL 222190h用于强制复制文件。驱动程序使用与强制删除相同的操作（IOCTL代码：222188h）。它使用暴力方法关闭所有进程对文件的所有引用，然后复制文件。
+
+IOCTL 2221C4h和IOCTL 2221C8h
+
+IOCTL 2221C4h和2221C8h都用于注册和注销进程/线程通知回调。然而，在撰写本文时，这两条路径都是无法实现的，这表明它们仍处于开发或测试阶段。
+
+![19.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352405156365.png "1685352405156365.png")
+
+注册对象通知的伪代码
+
+![20.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352413168811.png "1685352413168811.png")
+
+注销对象通知的伪代码
+
+![21.png](https://img.4hou.com/uploads/ueditor/php/upload/image/20230529/1685352421134473.png "1685352421134473.png")
+
+对象通知函数的伪代码
+
+**IOCTL 222264 h**
+
+IOCTL 222264h通过调用HalReturnToFirmware API重启系统。
+
+**总结**
+
+攻击者通过终端保护平台(EPP)和终端检测与响应(EDR)技术，正在积极寻求对Windows操作系统的高权限访问的恶意攻击，绕过各类防护措施。由于这些添加的保护层，攻击者倾向于选择阻力最小的方法，通过内核层（甚至更低级别）运行恶意代码。所以我们认为，这种威胁会一直存在。
+
+恶意攻击者将继续使用rootkit对安全工具隐藏恶意代码，绕过防御，并在很长一段时间内不会被检测到。这些rootkit将被恶意组织大量使用，他们既拥有逆向工程低级系统组件的技能，又拥有开发此类工具所需的资源。这些恶意攻击者还拥有足够的财力，可以从黑市购买rootkit或购买代码签名证书来构建ro...

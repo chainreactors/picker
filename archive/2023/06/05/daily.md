@@ -1,0 +1,170 @@
+# 每日安全资讯（2023-06-05）
+
+- SecWiki News
+  - [ ] [SecWiki News 2023-06-04 Review](http://www.sec-wiki.com/?2023-06-04)
+- Sploitus.com Exploits RSS Feed
+  - [ ] [File Manager Advanced Shortcode 2.3.2 - Unauthenticated Remote Code Execution (RCE) exploit](https://sploitus.com/exploit?id=EDB-ID:51505&utm_source=rss&utm_medium=rss)
+  - [ ] [STARFACE 7.3.0.10 - Authentication with Password Hash Possible exploit](https://sploitus.com/exploit?id=EDB-ID:51503&utm_source=rss&utm_medium=rss)
+  - [ ] [Enrollment System Project v1.0 - SQL Injection Authentication Bypass (SQLI) exploit](https://sploitus.com/exploit?id=EDB-ID:51501&utm_source=rss&utm_medium=rss)
+  - [ ] [Total CMS 1.7.4 - Remote Code Execution (RCE) exploit](https://sploitus.com/exploit?id=EDB-ID:51500&utm_source=rss&utm_medium=rss)
+  - [ ] [Barebones CMS v2.0.2 - Stored Cross-Site Scripting (XSS) (Authenticated) exploit](https://sploitus.com/exploit?id=EDB-ID:51502&utm_source=rss&utm_medium=rss)
+  - [ ] [MotoCMS Version 3.4.3 - SQL Injection exploit](https://sploitus.com/exploit?id=EDB-ID:51504&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for Cleartext Transmission of Sensitive Information in Keepass exploit](https://sploitus.com/exploit?id=83A35026-7967-5A52-A0F3-26706D9964EA&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for Vulnerability in Microsoft exploit](https://sploitus.com/exploit?id=77C9BD54-CD09-52B7-8297-EF760BCA39EA&utm_source=rss&utm_medium=rss)
+- unSafe.sh - 不安全
+  - [ ] [Captain’s Log: May 2023](https://buaq.net/go-167182.html)
+  - [ ] [need help ID'ing this. comes from a cheap gopro 3 knockoff with an LCD screen the size of the camera that i sadly dont have any info on. When searching "MAYK89" google gives nothing and baidu gives me LoL clips lmao](https://buaq.net/go-167181.html)
+  - [ ] [MAAD-AF - MAAD Attack Framework - An Attack Tool For Simple, Fast And Effective Security Testing Of M365 And Azure AD](https://buaq.net/go-167167.html)
+  - [ ] [Red Hat 企业发行版将不再支持 LibreOffice](https://buaq.net/go-167158.html)
+  - [ ] [AMD EPYC Rome 芯片会在连续运行 1044 天后崩溃](https://buaq.net/go-167159.html)
+  - [ ] [Reverse engineer a scale to make it smart](https://buaq.net/go-167144.html)
+  - [ ] ['Wireshark for Android Binder' - tool for reverse engineering and intercepting/ parsing Android Binder messages](https://buaq.net/go-167143.html)
+  - [ ] [Scrivener 3 – 专业写作软件，特价 5 折](https://buaq.net/go-167145.html)
+  - [ ] [photoprism+rclone搭建](https://buaq.net/go-167140.html)
+  - [ ] [又一届 Swift 学生挑战赛，我们和今年的获奖学生们聊了聊](https://buaq.net/go-167138.html)
+  - [ ] [HTML Preview – 一个适用于 GitHub & BitBucket 的 .HTML 预览工具](https://buaq.net/go-167132.html)
+  - [ ] [大多数勒索软件活动源自三条常见的初始攻击途径](https://buaq.net/go-167131.html)
+  - [ ] [起底GoldenJackal  APT组织](https://buaq.net/go-167124.html)
+  - [ ] [[webapps] File Manager Advanced Shortcode 2.3.2 - Unauthenticated Remote Code Execution (RCE)](https://buaq.net/go-167183.html)
+  - [ ] [[webapps] MotoCMS Version 3.4.3 - SQL Injection](https://buaq.net/go-167184.html)
+  - [ ] [[webapps] STARFACE 7.3.0.10 - Authentication with Password Hash Possible](https://buaq.net/go-167185.html)
+  - [ ] [[webapps] Barebones CMS v2.0.2 - Stored Cross-Site Scripting (XSS) (Authenticated)](https://buaq.net/go-167186.html)
+- Twitter @Nicolas Krassas
+  - [ ] [MAAD-AF - MAAD Attack Framework - An Attack Tool For Simple, Fast And Effective Security Testing Of M365 And Azure AD http://www.kitploit.com/2023/06/...](https://twitter.com/Dinosn/status/1665438093514612736)
+  - [ ] [Atomic Wallet hacks lead to over $35 million in crypto stolen https://www.bleepingcomputer.com/news/security/atomic-wallet-hacks-lead-to-over-35-milli...](https://twitter.com/Dinosn/status/1665437813737758721)
+  - [ ] [Unpacking Shellcode with Ghidra Emulator https://www.reddit.com/r/netsec/comments/140je86/unpacking_shellcode_with_ghidra_emulator/](https://twitter.com/Dinosn/status/1665430772482809857)
+  - [ ] [Hackers hijack legitimate sites to host credit card stealer scripts https://www.bleepingcomputer.com/news/security/hackers-hijack-legitimate-sites-to-...](https://twitter.com/Dinosn/status/1665430569960833027)
+  - [ ] [RT Matthew Green: Here come the privacy coin bans. https://www.theblock.co/post/232751/binance-privacy-coins-delisting-europe](https://twitter.com/matthew_d_green/status/1665356928946429955)
+  - [ ] [Xplain hack impacted the Swiss cantonal police and Fedpol https://securityaffairs.com/147047/data-breach/fedpol-swiss-police-cyber-attack.html](https://twitter.com/Dinosn/status/1665343692503171073)
+  - [ ] [Over 2.5M individuals impacted by Harvard Pilgrim Health Care ransomware attack https://www.scmagazine.com/brief/ransomware/over-2-5m-individuals-impa...](https://twitter.com/Dinosn/status/1665343645816422401)
+  - [ ] [RT John Hammond: CVE-2023-34362: We haven't figured out how it's moved in wwwroot just yet, but we've just about got the attack chain where we perform...](https://twitter.com/_JohnHammond/status/1665297652475629568)
+  - [ ] [RT RussianPanda 🐼 🇺🇦: An interesting bundle that: ➡️ Drops Xen Manager password recovery ➡️ Drops Golang password extractor (https://gith...](https://twitter.com/AnFam17/status/1665232347610980352)
+  - [ ] [RT Vess: 1. Go to http://notepad.link - a site for taking anonymous notes on-line. 2. Search for "password" in the search bar. 3. Profit?](https://twitter.com/VessOnSecurity/status/1665229553776701441)
+- Recent Commits to cve:main
+  - [ ] [Update Sun Jun  4 00:12:01 UTC 2023](https://github.com/trickest/cve/commit/1bbd140b036a9e87b066146de602a7c8907877e9)
+- 嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com
+  - [ ] [大多数勒索软件活动源自三条常见的初始攻击途径](https://www.4hou.com/posts/3ry4)
+  - [ ] [起底GoldenJackal  APT组织](https://www.4hou.com/posts/6xBL)
+- Security Boulevard
+  - [ ] [BSidesSF 2023 – Arthur Loris – FAIR STRIDE –  Building Business Relevant Threat Models](https://securityboulevard.com/2023/06/bsidessf-2023-arthur-loris-fair-stride-building-business-relevant-threat-models/)
+  - [ ] [Strengthening The Canadian Financial Sector’s Cybersecurity](https://securityboulevard.com/2023/06/strengthening-the-canadian-financial-sectors-cybersecurity/)
+  - [ ] [Dancho Danchev’s OSINT and Threat Intelligence Training Video Demonstration in Bulgarian – Part One](https://securityboulevard.com/2023/06/dancho-danchevs-osint-and-threat-intelligence-training-video-demonstration-in-bulgarian-part-one/)
+  - [ ] [Dancho Danchev’s OSINT and Threat Intelligence Training Video Demonstration in Bulgarian – Part Two](https://securityboulevard.com/2023/06/dancho-danchevs-osint-and-threat-intelligence-training-video-demonstration-in-bulgarian-part-two/)
+- Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+  - [ ] [Dancho Danchev's OSINT Introduction Training Video Demonstration in Bulgarian - Part Three](https://ddanchev.blogspot.com/2023/06/dancho-danchevs-osint-introduction_82.html)
+  - [ ] [Dancho Danchev's OSINT Introduction Training Video Demonstration in Bulgarian - Part Two](https://ddanchev.blogspot.com/2023/06/dancho-danchevs-osint-introduction_5.html)
+  - [ ] [Dancho Danchev's OSINT Introduction Training Video Demonstration in Bulgarian - Part One](https://ddanchev.blogspot.com/2023/06/dancho-danchevs-osint-introduction.html)
+  - [ ] [Dancho Danchev's OSINT and Threat Intelligence Training Video Demonstration in Bulgarian - Part Two](https://ddanchev.blogspot.com/2023/06/dancho-danchevs-osint-and-threat_4.html)
+  - [ ] [Dancho Danchev's OSINT and Threat Intelligence Training Video Demonstration in Bulgarian - Part One](https://ddanchev.blogspot.com/2023/06/dancho-danchevs-osint-and-threat.html)
+- Reverse Engineering
+  - [ ] ['Wireshark for Android Binder' - tool for reverse engineering and intercepting/ parsing Android Binder messages](https://www.reddit.com/r/ReverseEngineering/comments/14075r5/wireshark_for_android_binder_tool_for_reverse/)
+  - [ ] [need help ID'ing this. comes from a cheap gopro 3 knockoff with an LCD screen the size of the camera that i sadly dont have any info on. When searching "MAYK89" google gives nothing and baidu gives me LoL clips lmao](https://www.reddit.com/r/ReverseEngineering/comments/140edmx/need_help_iding_this_comes_from_a_cheap_gopro_3/)
+  - [ ] [Reverse engineer a scale to make it smart](https://www.reddit.com/r/ReverseEngineering/comments/1407gxs/reverse_engineer_a_scale_to_make_it_smart/)
+- SAP Blogs
+  - [ ] [Pricing in SAP S/4HANA Cloud for Service](https://blogs.sap.com/2023/06/04/pricing-in-sap-s-4hana-cloud-for-service/)
+  - [ ] [Safeguarding SAP Landscapes: Unleashing the Power of SAP Enterprise Threat Detection (ETD) – An Introduction](https://blogs.sap.com/2023/06/04/safeguarding-sap-landscapes-unleashing-the-power-of-sap-enterprise-threat-detection-etd-an-introduction/)
+  - [ ] [Automate the posting of Payments received from Emails into SAP](https://blogs.sap.com/2023/06/04/automate-the-posting-of-payments-received-from-emails-into-sap/)
+  - [ ] [SAUG Conference Brisbane 2023](https://blogs.sap.com/2023/06/04/saug-conference-brisbane-2023/)
+- Exploit-DB.com RSS Feed
+  - [ ] [[webapps] File Manager Advanced Shortcode 2.3.2 - Unauthenticated Remote Code Execution (RCE)](https://www.exploit-db.com/exploits/51505)
+  - [ ] [[webapps] MotoCMS Version 3.4.3 - SQL Injection](https://www.exploit-db.com/exploits/51504)
+  - [ ] [[webapps] STARFACE 7.3.0.10 - Authentication with Password Hash Possible](https://www.exploit-db.com/exploits/51503)
+  - [ ] [[webapps] Barebones CMS v2.0.2 - Stored Cross-Site Scripting (XSS) (Authenticated)](https://www.exploit-db.com/exploits/51502)
+  - [ ] [[webapps] Enrollment System Project v1.0 - SQL Injection Authentication Bypass (SQLI)](https://www.exploit-db.com/exploits/51501)
+  - [ ] [[webapps] Total CMS 1.7.4 - Remote Code Execution (RCE)](https://www.exploit-db.com/exploits/51500)
+- 
+  - [ ] [Captain’s Log: May 2023](https://cornerpirate.com/2023/06/04/captains-log-may-2023/)
+- Akkuman 的博客
+  - [ ] [photoprism+rclone搭建](//hacktech.cn/2023/06/04/2023-06-04-photoprism-rclone%E6%90%AD%E5%BB%BA/)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [Red Hat 企业发行版将不再支持 LibreOffice](https://www.solidot.org/story?sid=75146)
+  - [ ] [AMD EPYC Rome 芯片会在连续运行 1044 天后崩溃](https://www.solidot.org/story?sid=75145)
+- 安全分析与研究
+  - [ ] [研究多态恶意软件，探讨网络安全与AI](https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247487699&idx=1&sn=f92ba84518bfbb64e0aa5c8fbeb568bf&chksm=902fbffba75836ed22d1feeddf1d4162dc60d11523928d4e41742f744ca5938a90b6a652092c&scene=58&subscene=0#rd)
+- KitPloit - PenTest & Hacking Tools
+  - [ ] [MAAD-AF - MAAD Attack Framework - An Attack Tool For Simple, Fast And Effective Security Testing Of M365 And Azure AD](http://www.kitploit.com/2023/06/maad-af-maad-attack-framework-attack.html)
+- 安全研究GoSSIP
+  - [ ] [【周末分享】Pwn.college 连载来啦 33-34集](https://mp.weixin.qq.com/s?__biz=Mzg5ODUxMzg0Ng==&mid=2247495422&idx=1&sn=d140522fc40405285d110e4ff959c48d&chksm=c063c027f714493157afa47b9a5a98b42aedc856248af7c8b9584b5406c4de11d108401d5be8&scene=58&subscene=0#rd)
+- Private Feed for M09Ic
+  - [ ] [uknowsec starred secur30nly/go-self-delete](https://github.com/secur30nly/go-self-delete)
+  - [ ] [uknowsec starred wavvs/nanorobeus](https://github.com/wavvs/nanorobeus)
+  - [ ] [PeiQi0 starred pen4uin/jMemshellGenerator](https://github.com/pen4uin/jMemshellGenerator)
+  - [ ] [WangYihang starred psy0rz/zfs_autobackup](https://github.com/psy0rz/zfs_autobackup)
+  - [ ] [zema1 started following crazymanarmy](https://github.com/crazymanarmy)
+  - [ ] [zema1 starred pen4uin/jMemshellGenerator](https://github.com/pen4uin/jMemshellGenerator)
+  - [ ] [WangYihang starred bahamas10/zfs-prune-snapshots](https://github.com/bahamas10/zfs-prune-snapshots)
+  - [ ] [WangYihang starred JavaScriptDude/zfslib](https://github.com/JavaScriptDude/zfslib)
+- 安全圈
+  - [ ] [【安全圈】“黑客”入侵后台9天内盗充百万 警方打掉3人犯罪团伙](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652036087&idx=1&sn=44f809e7bde502556bef13c0ae70629f&chksm=f36ff7b7c4187ea1e532479294244888759c547afe168e01c7afeb8c085bb4a6087199d033fe&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】非法保留儿童信息还监视用户！亚马逊侵犯用户隐私被罚三千万](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652036087&idx=2&sn=fce92483eab754855c07070a1fc974e4&chksm=f36ff7b7c4187ea19b93ec2eeeb543cabfb127602b41720194f0011c742eb348c7668185b52b&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】18岁黑客入侵博彩网站6万个账户并从中窃取60万美元](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652036087&idx=3&sn=1270970fb3a333e533636a54d37b3bde&chksm=f36ff7b7c4187ea1881c2c3e1a52a309271a5a1727f7103f5566e4196aba23c3fde9fc16188d&scene=58&subscene=0#rd)
+  - [ ] [【安全圈】北欧航空公司网站遭黑客攻击](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652036087&idx=4&sn=b17da1628810cd737e7c1b3fd2f705c0&chksm=f36ff7b7c4187ea1d96c34012a0fa4bf093856cc701d4ab0da8f6af79e428e813ba36687f4b9&scene=58&subscene=0#rd)
+- 云鼎实验室
+  - [ ] [每周云安全资讯-2023年第23周](https://mp.weixin.qq.com/s?__biz=MzU3ODAyMjg4OQ==&mid=2247494973&idx=1&sn=6079cb29b62783999e2984bc754f0a04&chksm=fd7911bbca0e98add0bba5fba2f756e27419b4a1880160c45abad8968f33e483305372ea47aa&scene=58&subscene=0#rd)
+- 极客公园
+  - [ ] [马斯克、米哈游投资的脑机，却被女主播拿来打「老头环」](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652994719&idx=1&sn=8291337a20d7dafb1bf3961ab5b5c832&chksm=7e5401294923883fdd381c32629f6da376ec872bfda5ca2a2c201ba33bb3acd4f556c38abb12&scene=58&subscene=0#rd)
+  - [ ] [LeCun、吴恩达怒斥「AI 无人机误杀」炒作；华为盘古 Chat只给 B 端客户；迪士尼：乐园落户武汉是假新闻 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2652994718&idx=1&sn=3eab80d336ef50cd07516b630caef0d6&chksm=7e5401284923883eabe3f20d0390f5dbd2318fb8e8a8c6585ec3507bc1d45fbc5f9595bd5b7c&scene=58&subscene=0#rd)
+- 看雪学苑
+  - [ ] [CobaltStrike分析-beacon 解析](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458505991&idx=1&sn=788c8bb2dba4005a6784b1224a577099&chksm=b18ee38d86f96a9b44ce5bf5aa9603b9b65adaad07f761748f0ac2f729d23c90437fafe496ed&scene=58&subscene=0#rd)
+  - [ ] [快速对接中阶技能！看雪安卓高级研修班（月薪一万计划）](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458505991&idx=2&sn=c0f36b0597d91c5674ee07f407d96f48&chksm=b18ee38d86f96a9b74bde060390cb147c0f5fc4e3b1e8461ba4693bcfc6435ccddc814295358&scene=58&subscene=0#rd)
+- 落水轩
+  - [ ] [BH ASIA 2023内鬼数据安全解决方案](https://mp.weixin.qq.com/s?__biz=MzI1MjQwMTAyOQ==&mid=2247483843&idx=1&sn=fd50e70cd51be92585ce8d1e3962f9da&chksm=e9e50529de928c3f41bff58bb57b86bc11f79e438ee30562d1a591bc239bff4465cb94313890&scene=58&subscene=0#rd)
+- 软件安全与逆向分析
+  - [ ] [安卓系统上 eBPF 开发的一些建议](https://mp.weixin.qq.com/s?__biz=MzU3MTY5MzQxMA==&mid=2247484373&idx=1&sn=8b63f79058ffd04a50de80ff953ae455&chksm=fcdd03d8cbaa8acebb7fadda40d0ad279f8ef403a68e77c5b0835e8acf64f202726090f60cc6&scene=58&subscene=0#rd)
+- Twitter @Octagon Networks
+  - [ ] [Can you find the flag by exploiting a vulnerability? 10$ for first solver! 💢 http://octagon.net/chal/1.php https://t.co/HRUBLtWEod](https://twitter.com/OctagonNetworks/status/1665408800646389761)
+- 钱塘门外的互联网散修
+  - [ ] [推荐一本很特别的书](https://mp.weixin.qq.com/s?__biz=MzUxMjkxMzY2OA==&mid=2247483761&idx=1&sn=a0f9ab3eadba139e37421da99fc981ea&chksm=f95c791ace2bf00cc8d10d6554140cbe2ccfa93e0f0097aba01778f8b0368ec1466b31885cdd&scene=58&subscene=0#rd)
+- 娜璋AI安全之家
+  - [ ] [[AI安全论文] 30.李沐老师视频学习——3.研究的艺术·讲好故事和论点](https://mp.weixin.qq.com/s?__biz=Mzg5MTM5ODU2Mg==&mid=2247498416&idx=1&sn=d74dce08987bb531157fca1aed9cae22&chksm=cfcf4a7df8b8c36b6e8d30d8aa15e1917e14e12f18d7918fa7ece5d9196d1112c6568b9088ed&scene=58&subscene=0#rd)
+- 情报分析师
+  - [ ] [“半人马”作战将如何改变战争（附万页人工智能在军事中的作用相关资料）](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650531638&idx=1&sn=8b339296e289807a0b0f62afc2a361e8&chksm=8716c97db061406bbe59ff301a5ca22534bf1347d0d831003c3680df9fc4a6eaaf656065f334&scene=58&subscene=0#rd)
+  - [ ] [9个令人着迷的人脸搜索引擎](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650531638&idx=2&sn=49092c0f7418a2104b2dad9897714957&chksm=8716c97db061406bcb9c30ec8d5fa94919d74594c5efae77f52182a070bae26e4a4a46144ce8&scene=58&subscene=0#rd)
+- 0x00sec - The Home of the Hacker - Top topics
+  - [ ] [SOCKS5 Proxies with locations](https://0x00sec.org/t/socks5-proxies-with-locations/35372)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Windows 11 Moment 3 hands on, here's everything new](https://www.bleepingcomputer.com/news/microsoft/windows-11-moment-3-hands-on-heres-everything-new/)
+  - [ ] [Atomic Wallet hacks lead to over $35 million in crypto stolen](https://www.bleepingcomputer.com/news/security/atomic-wallet-hacks-lead-to-over-35-million-in-crypto-stolen/)
+  - [ ] [Evasive NoEscape Ransomware Uses Reflective DLL Injection](https://blog.cyble.com/2023/06/04/evasive-noescape-ransomware-uses-reflective-dll-injection/)
+  - [ ] [Large Spanish bank confirms ransomware attack](https://therecord.media/spain-globalcaja-bank-confirms-ransomware-attack)
+  - [ ] [New Magecart-Style Campaign Abusing Legitimate Websites to Attack Others | Akamai](https://www.akamai.com/blog/security-research/new-magecart-hides-behind-legit-domains)
+  - [ ] [Hackers hijack legitimate sites to host credit card stealer scripts](https://www.bleepingcomputer.com/news/security/hackers-hijack-legitimate-sites-to-host-credit-card-stealer-scripts/)
+  - [ ] [CISA orders govt agencies to patch MOVEit bug used for data theft](https://www.bleepingcomputer.com/news/security/cisa-orders-govt-agencies-to-patch-moveit-bug-used-for-data-theft/)
+  - [ ] [Air-gapped Data Exfiltration: lab e p-o-c](https://roccosicilia.com/2023/06/04/air-gapped-data-exfiltration-lab-e-p-o-c/)
+- cavallette
+  - [ ] [5x1000xAI](https://cavallette.noblogs.org/2023/06/9838)
+- LockBoxx
+  - [ ] [Fake Strike Plate Magnets](http://lockboxx.blogspot.com/2023/06/fake-strike-plate-magnets.html)
+- Il Disinformatico
+  - [ ] [To Whom It May Concern: I’m in the Raidforums/Breached user database](http://attivissimo.blogspot.com/2023/06/to-whom-it-may-concern-im-in.html)
+  - [ ] [Chi c’è nello spazio? Aggiornamento 2023/06/04](http://attivissimo.blogspot.com/2023/06/chi-ce-nello-spazio-aggiornamento.html)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Telegram question](https://www.reddit.com/r/blackhat/comments/13zx8hf/telegram_question/)
+  - [ ] [Do you know about blackarch linux & setup of blackarch linux on gCP(Google Cloud Platform), Checkout this blog Post.](https://www.reddit.com/r/blackhat/comments/140520n/do_you_know_about_blackarch_linux_setup_of/)
+- Social Engineering
+  - [ ] [What kind of suspicions are good for confirming in others?](https://www.reddit.com/r/SocialEngineering/comments/140uvnx/what_kind_of_suspicions_are_good_for_confirming/)
+- TorrentFreak
+  - [ ] [High Prices Make Textbook ‘Piracy’ Acceptable to Most Students](https://torrentfreak.com/high-prices-make-textbook-piracy-acceptable-to-most-students-230604/)
+- KitPloit - PenTest Tools!
+  - [ ] [MAAD-AF - MAAD Attack Framework - An Attack Tool For Simple, Fast And Effective Security Testing Of M365 And Azure AD](http://www.kitploit.com/2023/06/maad-af-maad-attack-framework-attack.html)
+- Computer Forensics
+  - [ ] [encase help!](https://www.reddit.com/r/computerforensics/comments/1404o8o/encase_help/)
+  - [ ] [Help me learn about our new FRED](https://www.reddit.com/r/computerforensics/comments/1401waf/help_me_learn_about_our_new_fred/)
+- 吴鲁加
+  - [ ] [来自 37signals 的一些信号](https://mp.weixin.qq.com/s?__biz=Mzg5NDY4ODM1MA==&mid=2247484430&idx=1&sn=fc1b98bee116f70e572e06b24d3f7385&chksm=c01a893ff76d00294bc10b803aceab3019460e33ef7bfe626fcfd3cfda22e539889c6096747a&scene=58&subscene=0#rd)
+- Security Affairs
+  - [ ] [Security Affairs newsletter Round 422 by Pierluigi Paganini – International edition](https://securityaffairs.com/147059/breaking-news/security-affairs-newsletter-round-422.html)
+  - [ ] [Xplain hack impacted the Swiss cantonal police and Fedpol](https://securityaffairs.com/147047/data-breach/fedpol-swiss-police-cyber-attack.html)
+  - [ ] [Zyxel published guidance for protecting devices from ongoing attacks](https://securityaffairs.com/147030/security/zyxel-guidance-firewall-hardening.html)
+- Information Security
+  - [ ] [Regulations](https://www.reddit.com/r/Information_Security/comments/13zvv2f/regulations/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [Failed my first OSCP EXAM attempt, but it wasn't too bad! - learn on my mistakes](https://www.reddit.com/r/netsecstudents/comments/140on57/failed_my_first_oscp_exam_attempt_but_it_wasnt/)
+  - [ ] [Help a noob out. Looking for someone to elevate my cyber security skills(something that i wont get to learn in textbooks).](https://www.reddit.com/r/netsecstudents/comments/1407ivj/help_a_noob_out_looking_for_someone_to_elevate_my/)
+  - [ ] [Carrer and certifications](https://www.reddit.com/r/netsecstudents/comments/140gdi4/carrer_and_certifications/)
+  - [ ] [GCIH Practice Exam](https://www.reddit.com/r/netsecstudents/comments/140a6yi/gcih_practice_exam/)
+- Your Hacking Tutorial by Zempirians
+  - [ ] [Not Hacking But Live Kali USB](https://www.reddit.com/r/HowToHack/comments/140chev/not_hacking_but_live_kali_usb/)
+- Technical Information Security Content & Discussion
+  - [ ] [Operation Triangulation: iOS devices targeted with previously unknown malware](https://www.reddit.com/r/netsec/comments/140fl4x/operation_triangulation_ios_devices_targeted_with/)
+  - [ ] [Unpacking Shellcode with Ghidra Emulator](https://www.reddit.com/r/netsec/comments/140je86/unpacking_shellcode_with_ghidra_emulator/)

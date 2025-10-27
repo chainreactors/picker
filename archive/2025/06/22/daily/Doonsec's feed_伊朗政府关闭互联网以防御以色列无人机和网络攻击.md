@@ -1,0 +1,20 @@
+---
+title: 伊朗政府关闭互联网以防御以色列无人机和网络攻击
+url: https://mp.weixin.qq.com/s?__biz=MzU0MzgyMzM2Nw==&mid=2247486399&idx=1&sn=859bba2fca4af96b699f7cfdd42e7e01
+source: Doonsec's feed
+date: 2025-06-22
+fetch_date: 2025-10-06T22:51:47.638647
+---
+
+# 伊朗政府关闭互联网以防御以色列无人机和网络攻击
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

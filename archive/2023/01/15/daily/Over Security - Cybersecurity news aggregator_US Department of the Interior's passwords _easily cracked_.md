@@ -1,0 +1,190 @@
+---
+title: US Department of the Interior's passwords "easily cracked"
+url: https://www.malwarebytes.com/blog/news/2023/01/us-department-of-the-interior-found-wanting-in-password-audit
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-15
+fetch_date: 2025-10-04T03:57:21.801035
+---
+
+# US Department of the Interior's passwords "easily cracked"
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Stealing passwords](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file6723_254054.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# US Department of the Interior’s passwords “easily cracked”
+
+Posted: January 13, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+It’s bad news for the US Department of the Interior—a Government watchdog’s [security audit](https://www.doioig.gov/sites/default/files/2021-migration/Final%20Inspection%20Report_DOI%20Password_Public.pdf) has revealed its passwords are [simply not up to the job](https://arstechnica.com/information-technology/2023/01/a-fifth-of-passwords-used-by-federal-agency-cracked-in-security-audit/) of warding off cracking attempts.
+
+The audit’s wordy title was not kind:
+
+> P@s$w0rds at the U.S. Department of the Interior: Easily Cracked Passwords, Lack of Multifactor [Authentication](https://www.malwarebytes.com/cybersecurity/basics/what-is-authentication), and Other Failures Put Critical DOI Systems at Risk
+
+The audit, which used a list of “more than 1.5 billion words” and [only cost around $15,000 to achieve](https://techcrunch.com/2023/01/10/interior-department-watchdog-passwords) with a dedicated cracking rig, tested the words against cryptographic hashes for the department’s active directory accounts. The words were a combination of public password lists, pop culture and government terminology, and various dictionaries written in several languages.
+
+How well did the 86,000 or so hashes hold up? The answer is, sadly, not hugely encouraging.
+
+## A poor show of security practices
+
+According to the results:
+
+* 21 percent of the 85,944 hashes tested were cracked
+* Close to 300 accounts had elevated privileges as opposed to simply being “regular” accounts
+* 362 accounts belonged to senior employees.
+
+Perhaps more worryingly, multi-factor authentication (MFA) is not being used as widely as it could be. This may not be a surprise to regular readers. We’ve often talked about low MFA adoption rates, and this is despite large organisations like Google doing everything possible to drive people toward such setups.
+
+25 out of 29 so-called high value assets were not protected by MFA. According to the audit, these accounts had the potential to “severely impact agency operations”.
+
+4.75 percent of all active user accounts were based on the word “password”, and the department’s complexity requirements meant that variations of “password” combined with “1234” fulfilled the criteria despite being easy to crack.
+
+The report makes several recommendations for better security practices, but Ars Technica notes that at least one of these is itself perhaps not the best of advice. The audit takes the Department of the Interior to task for not sticking to password changes every 60 days. Some folks insist that this practice just [leads to weak password alterations](https://arstechnica.com/information-technology/2016/08/frequent-password-changes-are-the-enemy-of-security-ftc-technologist-says/). (If your staff think password1 is a decent password they’ll just change it to password2 after 60 days.)
+
+## Tackling your password problems
+
+If you’re worried about your organisation’s password routine, there are steps you can take to hopefully makes a lot more secure.
+
+1. **Multi-factor authentication (MFA)**. MFA renders password cracking almost useless, no matter how weak your password. The best form of MFA is a [FIDO2](https://www.malwarebytes.com/blog/news/2022/05/google-apple-and-microsoft-walk-hand-in-hand-into-a-passwordless-future) device, like a hardware key, although almost any form of MFA is better than none.
+2. **Strong passwords**. M...

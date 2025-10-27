@@ -1,0 +1,175 @@
+---
+title: KillNet hits healthcare sector with DDoS attacks
+url: https://www.malwarebytes.com/blog/news/2023/02/killnet-group-targets-us-and-european-hospitals-with-ddos-attacks
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-12
+fetch_date: 2025-10-04T06:26:32.741246
+---
+
+# KillNet hits healthcare sector with DDoS attacks
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![](https://www.threatdown.com/wp-content/uploads/2024/04/killnet_hits_healthcare_resized.png?w=1024)
+
+[Threat Intelligence](https://www.threatdown.com/blog/category/threat-intelligence/)
+
+# KillNet hits healthcare sector with DDoS attacks
+
+February 10, 2023
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+At the end of January, the Health Sector Cybersecurity Coordination Center [warned](https://www.hhs.gov/sites/default/files/killnet-analyst-note.pdf) that the KillNet group is actively targeting the US healthcare sector with distributed denial-of-service (DDoS) attacks.
+
+The Cybersecurity and Infrastructure Security Agency (CISA) says it helped dozens of hospitals respond to these DDoS incidents.
+
+## DDoS
+
+A distributed denial-of-service attack uses numerous systems to send network communication requests to one specific target. Often the attackers use enslaved computers, “bots”, to send the requests. The result is that the receiving server is overloaded by nonsense requests that either crash the server or keep it so busy that normal users are unable to connect to it.
+
+This type of attack has been popularized by numerous hacker groups, and has been used in state-sponsored attacks conducted by governments. Why? Because they are easy to pull off and hard to defend against.
+
+## KillNet
+
+KillNet is a pro-Russian group that has been notably active since January 2022. Until the Russian invasion of Ukraine, KillNet was known as a DDoS-for-hire group. Now they are better known for the DDoS campaigns launched against countries supporting Ukraine. In previous campaigns the gang has targeted sites belonging to [US airlines](https://www.bleepingcomputer.com/news/security/us-airports-sites-taken-down-in-ddos-attacks-by-pro-russian-hackers/), the [British royal family](https://www.computerweekly.com/news/252527560/Killnet-DDoS-hacktivists-target-Royal-Family-and-others), [Lithuanian government websites](https://www.avertium.com/resources/threat-reports/an-in-depth-look-at-russian-threat-actor-killnet), and many others, but now their main focus has shifted to the healthcare sector. Not for the first time by the way—the group has targeted the US healthcare industry in the past too.
+
+These attacks are not limited to the US. Recently, the [University Medical Center Groningen (UMCG)](https://www.umcg.nl/s/umcg-website-onbereikbaar-door-ddos-aanval) in the Netherlands saw its website flooded with traffic. That attack was attributed to KillNet by the country’s healthcare computer emergency response team, Z-CERT.
+
+The KillNet group runs a Telegram channel which allows pro-Russian sympathizers to volunteer their participation in cyberattacks against Western interests. This sometimes makes it hard to attribute the attacks to this particular group since the attacks will originate from different sources.
+
+## The attacks
+
+KillNet’s DDoS attacks don’t usually cause major damage, but they can cause service outages lasting several hours or even days. For healthcare providers, long outages can result in appointment delays, electronic health records (EHRs) being unavailable, and ambulance diversions.
+
+According to CISA, only half of the KillNet attacks have been able to knock websites offline. CISA says it worked with several tech companies to provide free resources to under-funded organizations that can help them reduce the impact of DDoS attacks. It also plans to continue working with the US Department of Health and Human Services (HHS) to communicate with hospitals about government assistance and third-party services.
+
+## Mitigation
+
+Although it can be difficult to mitigate DDoS risks, the Health Sector Cybersecurity Coordination Center (HC3) is encouraging healthcare organizations to enable firewalls to mitigate application-level DDoS attacks and use content delivery networks (CDN).
+
+Scrambling for a solution at the moment you find out that you are the target of a DDoS attack is not the best strategy, especially if your ...

@@ -1,0 +1,181 @@
+---
+title: Maintenance Mode aims to keep phone data private during repairs
+url: https://www.malwarebytes.com/blog/news/2022/10/maintenance-mode-aims-to-keep-phone-data-private-during-repairs
+source: Over Security - Cybersecurity news aggregator
+date: 2022-10-29
+fetch_date: 2025-10-03T21:16:10.966038
+---
+
+# Maintenance Mode aims to keep phone data private during repairs
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Man fixing smartphone](https://www.malwarebytes.com/wp-content/uploads/sites/2/2022/10/asset_upload_file74892_241532.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Maintenance Mode aims to keep phone data private during repairs
+
+Posted: October 27, 2022
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+One of the biggest data related headaches you’ll face with a mobile device is what do to in the event of a repair. When you have to send your phone in for a fix, what happens to your data? In many cases, the repair technicians will simply scrub the phone by default unless you ask them not to. In cases of the latter, though, how do you keep everything safe? You have no guarantee that the technician won’t sneak a peek at files, folders, passwords, logins, your browsing history…you name it, it’s on there.
+
+A timeless problem, and one often met with a resigned sigh, a backup, and a pre-repair phone wipe “just in case”. It’s a reasonable concern. Even if it is very unlikely that the person doing the fixing is remotely interested in your day-to-day life, you’re still trusting your personal data and private information in the hands of a complete stranger.
+
+New solutions are being applied to this incredibly common, yet oddly invisible tech problem in the form of [Samsung’s new “maintenance mode.”](https://news.samsung.com/global/samsung-releases-maintenance-mode-a-new-feature-to-hide-your-personal-information-from-prying-eyes)
+
+## From repair to maintenance
+
+You may have heard of this new mode by another name. Back in July when word first spread, it was known as [repair mode](https://www.engadget.com/samsung-introduces-repair-mode-143743861.html). Anyone digging into the Battery and Device Care options would see a new option to make all of your personal info, apps, and files invisible to the tech looking at the phone. At the time, this option was only available on specific models and also only in South Korea. Similarly, it was assumed this new option would roll out to other regions and devices.
+
+Sure enough, this has proven to be the case and we now have a slow global rollout of this new privacy retaining addition. We also have a name change, in the form of Maintenance Mode, and some more details as to how it operates.
+
+## How does Maintenance Mode work?
+
+When activated, “Maintenance Mode” essentially creates a temporary, disposable user account on the phone. Access to everything on there previously is restricted for as long as someone else has hold of your device. From the new mode’s splash screen:
+
+*“In maintenance mode, your personal data including pictures, messages, and accounts, can’t be accessed and only preinstalled apps can be used. You’ll need to unlock your phone to turn off maintenance mode. When you do, everything will go back to the way it was when maintenance mode was first turned on. Changes made while maintenance mode is on, such as downloaded data or settings changes, aren’t saved. Back up your data.”*
+
+This last line is good advice. You should always back your data up anyway before handing over your phone, just in case it can’t be fixed. It’s also likely that some people may mistake Maintenance Mode as an additional way of backing up data as opposed to “just” shielding it from prying eyes, so this messaging is entirely worth it.
+
+## To use or not to use
+
+Regardless of new tech features for your device, you should always weigh the pros and cons of handing something over with personal details on it, versus just backing up and wiping. New and cool privacy features tend to take a bit of a tech grilling as more people see what they can and can’t do with them. If you’re worried about som...

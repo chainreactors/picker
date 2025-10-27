@@ -1,0 +1,190 @@
+---
+title: Encrypted messaging service intercepted, 2.3 million messages read by law enforcement
+url: https://www.malwarebytes.com/blog/news/2024/12/encrypted-messaging-service-intercepted-2-3-million-messages-read-by-law-enforcement
+source: Instapaper: Unread
+date: 2024-12-13
+fetch_date: 2025-10-06T19:41:14.240861
+---
+
+# Encrypted messaging service intercepted, 2.3 million messages read by law enforcement
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Matrix encrypted messaging service seized](https://www.malwarebytes.com/wp-content/uploads/sites/2/2024/12/Operation_Passionflower.jpg?w=1200)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Privacy](https://www.malwarebytes.com/blog/category/privacy)
+
+# Encrypted messaging service intercepted, 2.3 million messages read by law enforcement
+
+Posted: December 9, 2024
+ by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp)
+
+European law enforcement agencies have taken down yet another encrypted messaging service mainly used by criminals.
+
+The Matrix encrypted messaging service was an invite-only service which was also marketed under the names Mactrix, Totalsec, X-quantum, or Q-safe. Dutch and French authorities started an investigation when the service was found on the phone of a criminal convicted for the murder of Dutch journalist Peter R. de Vries in 2021.
+
+The investigators soon found Matrix was technically more complex than previous platforms such as [Sky ECC](https://www.malwarebytes.com/blog/news/2021/03/police-credit-unlocked-sky-ecc-encryption-for-organized-crime-bust) and [EncroChat](https://www.malwarebytes.com/blog/news/2020/07/encrochat-system-eavesdropped-on-by-law-enforcement), which were earlier subjects of law enforcement eavesdropping.
+
+Eventually the authorities were able to intercept the messaging service’s traffic and monitor the activity for three months. The authorities intercepted and deciphered over 2.3 million messages in 33 languages during the investigation.
+
+The intercepted messages mostly dealt with serious organized crimes such as international drug trafficking, arms trafficking, and money laundering. Now, visitors to the the messaging service are alerted to the takedown through a [splash page](http://www.operation-passionflower.com/) telling them the platform has been disabled by international law enforcement:
+
+> “It’s not the first time and will not be the last time we are able to read the messages in real time. We gained access to data related to this service and our investigation does not end here.”
+
+These services don’t come cheap. We don’t know the exact pricing of Matrix, but similar services cost several thousands of dollars per year. Which explains why law enforcement seized four cars, 970 phones, and a house, along with over half a million in [crypto](https://www.malwarebytes.com/cryptocurrency) and over $150,000 in cash.
+
+With the takedown of Matrix, the encrypted communication landscape for criminals has lost yet another significant player.
+
+Europol [stated](https://www.europol.europa.eu/media-press/newsroom/news/international-operation-takes-down-another-encrypted-messaging-service-used-criminals):
+
+> “Criminals, in response to the disruptions of their messaging services, have been turning to a variety of less-established or custom-built communication tools that offer varying degrees of security and anonymity.”
+
+This offers both a challenge and opportunities for law enforcement, since the smaller fish are less tasty, but easier to catch if you’ll pardon me that analogy.
+
+The Matrix messaging service is in no way related to the legitimate [Matrix messaging protocol](https://matrix.org/). We don’t want [US citizens looking for an encrypted messaging service](https://www.malwarebytes.com/blog/news/2024/12/americans-urged-to-use-encrypted-messaging-after-large-ongoing-cyberattack) to shy away from apps built on the Matrix protocol just because it has the same name.
+
+Although I appreciated the hint of the splash page to the media franchise The Matrix.
+
+---
+
+**We don’t just report on privacy—we offer you the option to use it.**
+
+Privacy risks should never spread beyond a h...

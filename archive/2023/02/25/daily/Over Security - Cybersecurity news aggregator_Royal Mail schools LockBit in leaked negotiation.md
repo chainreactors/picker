@@ -1,0 +1,169 @@
+---
+title: Royal Mail schools LockBit in leaked negotiation
+url: https://www.malwarebytes.com/blog/news/2023/02/royal-mail-gives-lockbit-a-lesson-in-ransomware-negotiation
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-25
+fetch_date: 2025-10-04T08:06:27.772472
+---
+
+# Royal Mail schools LockBit in leaked negotiation
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![](https://www.threatdown.com/wp-content/uploads/2024/04/royal_mail_resized.png?w=1024)
+
+[Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+## Royal Mail schools LockBit in leaked negotiation
+
+February 23, 2023
+
+[Mark Stockley](https://www.threatdown.com/blog/author/mstockleymalwarebytes-com/)
+
+The LockBit group has finally given up any prospect of extracting a ransom from Royal Mail and published the files it stole from the company in a recent ransomware attack. The leak brings weeks of negotiations to a close, leaving Royal Mail without a decryptor, and LockBit without a payday.
+
+![](https://www.threatdown.com/wp-content/uploads/2024/04/easset_upload_file90667_260653_e_c07c06.webp?w=1024)
+
+Malwarebytes regards LockBit as one of the [five most serious cyberthreats facing businesses in 2023](https://try.threatdown.com/2024-state-of-malware/). It was the most widely used ransomware-as-a-service (RaaS) in 2022, by far. It accounted for almost a third of all known RaaS attacks last year, and the largest ransom demand it made was a staggering $50 million. In February 2023 it asked Royal Mail for $80 million.
+
+Alongside the leaked files, the LockBit gang have released a chat history that shows the negotiations between the two parties. Perhaps the group is trying to justify its decision to call off the negotiation and leak the stolen files, or perhaps it’s a warning to other victims.
+
+You could read this as a failed negotiation or a missed opportunity for Royal Mail, but I don’t. I think the chat between Royal Mail and LockBit shows something quite different.
+
+I suspect that Royal Mail never intended to pay a ransom. It certainly showed no willingness to engage with the ludicrous $80 million that was demanded of it, and it seems to have had the LockBit negotiator dancing to its tune throughout.
+
+The negotiation began on January 12, 2023, and like any Internet chat, the conversation takes place between two avatars who may or may not be who they say they are. When the LockBit negotiator asks who they’re talking to, the Royal Mail’s representative says “I work in our IT.”
+
+![](https://www.threatdown.com/wp-content/uploads/2024/04/easset_upload_file43826_260653_e_b237a1.webp?w=1024)
+
+Maybe they did work in IT, but having spent years working in IT myself, and after seeing how the Royal Mail’s representative conducted themselves, I will simply say they aren’t like anyone I ever met. Perhaps they’re just naturally good negotiators, or perhaps they listened to our recent podcast about ransomware negotiations, but there is every chance they were actually a professional ransomware negotiator.
+
+In the podcast, ransomware negotiator Kurtis Minder reveals that the first job in a situation like this is to play for time, without annoying the representative of the ransomware gang. A good way to lower the temperature is to adopt the ransomware gang’s self-serving vernacular, he says, and the Royal Mail’s “IT guy” does this in subtle ways, such as referring to LockBit’s criminal activity as “penetration testing.” Ransomware gangs like that sort of nonsense for some reason—maybe it helps them sleep at night.
+
+Playing for time is important because it allows the victim to gather as much information as possible, understand their options, and decide their best response. They need to understand which systems are affected, how the organization can function without them temporarily, and what it will take to restore or rebuild them. They will also have numerous stakeholders to involve and duties to fulfill: Legal obligations must be met, law enforcement involved, cyberinsurance rules followed, customers and suppliers informed, and so on.
+
+Royal Mail consistently succeeds in playing for time with LockBit. Although the first 24 hours of the chat are peppered with urgent and vaguely menacing language designed to rush the victim—“don’t delay,” “hurry up,” “our patience is not infinite”—LockBit is quickly dragged into the weeds. The first two we...

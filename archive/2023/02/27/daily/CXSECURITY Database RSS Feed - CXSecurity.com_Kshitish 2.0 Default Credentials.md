@@ -1,0 +1,120 @@
+---
+title: Kshitish 2.0 Default Credentials
+url: https://cxsecurity.com/issue/WLB-2023020043
+source: CXSECURITY Database RSS Feed - CXSecurity.com
+date: 2023-02-27
+fetch_date: 2025-10-04T08:09:49.831987
+---
+
+# Kshitish 2.0 Default Credentials
+
+[![Home Page](https://cert.cx/cxstatic/images/12018/cxseci.png)](https://cxsecurity.com/)
+
+* [Home](https://cxsecurity.com/)
+* Bugtraq
+  + [Full List](https://cxsecurity.com/wlb/)
+  + [Only Bugs](https://cxsecurity.com/bugs/)
+  + [Only Tricks](https://cxsecurity.com/tricks/)
+  + [Only Exploits](https://cxsecurity.com/exploit/)
+  + [Only Dorks](https://cxsecurity.com/dorks/)
+  + [Only CVE](https://cxsecurity.com/cvelist/)
+  + [Only CWE](https://cxsecurity.com/cwelist/)
+  + [Fake Notes](https://cxsecurity.com/bogus/)
+  + [Ranking](https://cxsecurity.com/best/1/)
+* CVEMAP
+  + [Full List](https://cxsecurity.com/cvemap/)
+  + [Show Vendors](https://cxsecurity.com/cvevendors/)
+  + [Show Products](https://cxsecurity.com/cveproducts/)
+  + [CWE Dictionary](https://cxsecurity.com/allcwe/)
+  + [Check CVE Id](https://cxsecurity.com/cve/)
+  + [Check CWE Id](https://cxsecurity.com/cwe/)
+* Search
+  + [Bugtraq](https://cxsecurity.com/search/)
+  + [CVEMAP](https://cxsecurity.com/search/cve/)
+  + [By author](https://cxsecurity.com/search/author/)
+  + [CVE Id](https://cxsecurity.com/cve/)
+  + [CWE Id](https://cxsecurity.com/cwe/)
+  + [By vendors](https://cxsecurity.com/cvevendors/)
+  + [By products](https://cxsecurity.com/cveproducts/)
+* RSS
+  + [Bugtraq](https://cxsecurity.com/wlb/rss/all/)
+  + [CVEMAP](https://cxsecurity.com/cverss/fullmap/)
+  + [CVE Products](https://cxsecurity.com/cveproducts/)
+  + [Bugs](https://cxsecurity.com/wlb/rss/vulnerabilities/)
+  + [Exploits](https://cxsecurity.com/wlb/rss/exploit/)
+  + [Dorks](https://cxsecurity.com/wlb/rss/dorks/)
+* More
+  + [cIFrex](http://cifrex.org/)
+  + [Facebook](https://www.facebook.com/cxsec)
+  + [Twitter](https://twitter.com/cxsecurity)
+  + [Donate](https://cxsecurity.com/donate/)
+  + [About](https://cxsecurity.com/wlb/about/)
+
+* [Submit](https://cxsecurity.com/wlb/add/)
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  |  | |  | | --- | | **Kshitish 2.0 Default Credentials** **2023.02.26**  Credit:  **[indoushka](https://cxsecurity.com/author/indoushka/1/)**  Risk: **Low**  Local: ****Yes****  Remote: **No**  CVE: **N/A**  CWE: **N/A** | |
+
+====================================================================================================================================
+| # Title : kshitish v2.0 Multipurpose eCommerce Platform Insecure Settings Vulnerability |
+| # Author : indoushka |
+| # Tested on : windows 10 Français V.(Pro) / browser : Mozilla firefox 108.0(64-bit) |
+| # Vendor : https://www.yahoobaba.net/ |
+| # Dork : "Created by YahooBaba" |
+====================================================================================================================================
+poc :
+[+] The vulnerability is about leaving the default settings
+During the installation of the script and using the default username and password
+[+] Dorking İn Google Or Other Search Enggine.
+[+] Use Payload : user=admin & pass=admin
+[+] http://127.0.0.1-stor.com/admin/
+Greetings to :=========================================================================================================================
+|
+jericho \* Larry W. Cashdollar \* brutelogic\* hyp3rlinx\* 9aylas \* shadow\_00715 \* LiquidWorm\* moncet |
+|
+=======================================================================================================================================
+
+[**See this note in RAW Version**](https://cxsecurity.com/ascii/WLB-2023020043)
+
+[Tweet](https://twitter.com/share)
+
+Vote for this issue:
+ 1
+ 0
+
+100%
+
+0%
+
+#### **Thanks for you vote!**
+
+#### **Thanks for you comment!** Your message is in quarantine 48 hours.
+
+Comment it here.
+
+Nick (\*)
+
+Email (\*)
+
+Video
+
+Text (\*)
+
+(\*) - required fields.
+Cancel
+Submit
+
+|  |  |
+| --- | --- |
+|  | **{{ x.nick }}** ![]() | Date: {{ x.ux \* 1000 | date:'yyyy-MM-dd' }} *{{ x.ux \* 1000 | date:'HH:mm' }}* CET+1  ---   {{ x.comment }} |
+
+Show all comments
+
+---
+
+Copyright **2025**, cxsecurity.com
+
+|  |
+
+Back to Top

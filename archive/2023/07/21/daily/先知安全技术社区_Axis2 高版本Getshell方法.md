@@ -1,0 +1,11 @@
+---
+title: Axis2 高版本Getshell方法
+url: https://xz.aliyun.com/t/12718
+source: 先知安全技术社区
+date: 2023-07-21
+fetch_date: 2025-10-04T11:50:56.223989
+---
+
+# Axis2 高版本Getshell方法
+
+{"l1":"var arg1='5fcd444a09a93a4f872d1ca8d9d8b4778e99f0cd6fac7dcce5';"}

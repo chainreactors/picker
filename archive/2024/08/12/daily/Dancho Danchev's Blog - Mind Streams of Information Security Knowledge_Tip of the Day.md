@@ -1,0 +1,156 @@
+---
+title: Tip of the Day
+url: https://ddanchev.blogspot.com/2024/08/tip-of-day.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2024-08-12
+fetch_date: 2025-10-06T18:01:31.390502
+---
+
+# Tip of the Day
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+Independent Contractor. Bitcoin: 15Zvie1j8CjSR52doVSZSjctCDSx3pDjKZ Email: dancho.danchev@hush.com OMEMO: ddanchev@conversations.im | OTR: danchodanchev@xmpp.jp | TOX ID: 53B409440A6DC34F1BA458869A0462D92C15B467AF6319D481CA353690C88667833A0EE82969
+
+## Sunday, August 11, 2024
+
+### Tip of the Day
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOloot3O5u8QketlZT8wYqa4Qk4H0vMuDvcs-0fq1F3ilwzRzogivfeGA80bSr_wZDx3k2HH8-mhF59ddZl9DdrTeK91dYhqwlLiex9ZViAQiH-tz_ZyFlE5Qwhye0Mp1e1QBYMAxukOKUwZXHLIUw9xhC_doQqTEXmis_q6X9cd1fzEt7TnfZ/s320/BitCoin_Address_Wallet_Ransomware_01.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOloot3O5u8QketlZT8wYqa4Qk4H0vMuDvcs-0fq1F3ilwzRzogivfeGA80bSr_wZDx3k2HH8-mhF59ddZl9DdrTeK91dYhqwlLiex9ZViAQiH-tz_ZyFlE5Qwhye0Mp1e1QBYMAxukOKUwZXHLIUw9xhC_doQqTEXmis_q6X9cd1fzEt7TnfZ/s1120/BitCoin_Address_Wallet_Ransomware_01.png)
+
+Here's today's tip of the day.
+
+- Grab 5,502 publicly accessible well known BitCoin addresses belonging to all the major ransomware brands throughout the years using public sources.
+- Check their balances in bulk using public sources
+Try to communicate these ransomware BitCoin addressess to a wider audience for research purposes
+- Identify the ransomware gangs with current balances and distribute your findings
+- Figure out a way to distribute these publicly obtained BitCoin addressess belonging to ransomware gangs to a wider audience and consider monitoring their balances daily
+- Get a true and real estimate on the true nature of the ransomware ecosystem in terms of current withold balances
+
+**Sample currently active balances:**
+
+12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw - 1.9218 BTC - which belongs to WannaCry
+
+115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn - 0.46702392 BTC - which also belongs to WannaCry
+
+1KvmWVRxqw8HeFpR2tHBaoTJiTczU7PRzw - 0.00001376 BTC - which also belongs to WannaCry
+
+**Sample transaction history screenshots:**
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp9z1TTow0pzsC1Cz91G5_z-HOctVHz9omDyoSYvV76R3NqUbVyyv3fatC6xFYOeyoM6VpJFsAB5TCP2V3Yw_shTeUGqHLiXw45YEcqh9X96nB6hSLbYnEOwRP6_H8tm12gWa8tM1scZRITmpKprjDprUEPcHfJHzpdppwaHV_FEiT31hSMi75/s320/BitCoin_Address_Wallet_Ransomware_02.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp9z1TTow0pzsC1Cz91G5_z-HOctVHz9omDyoSYvV76R3NqUbVyyv3fatC6xFYOeyoM6VpJFsAB5TCP2V3Yw_shTeUGqHLiXw45YEcqh9X96nB6hSLbYnEOwRP6_H8tm12gWa8tM1scZRITmpKprjDprUEPcHfJHzpdppwaHV_FEiT31hSMi75/s1149/BitCoin_Address_Wallet_Ransomware_02.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijzAUTg8NwteHC-Q-Ie9RoKxT4sNV4s10HZ6J-wg_wFsYY73XHcl9KZfV8y80L3jA0lEnNmzHLGRtoAlTnbEVbVWIQe4DP_tHudyfbtpiZGktf1eLlBkWuB6um1kvv3Ow_vS2onQohAH7vAiO1d9rsEFfq02byMOmSYNJV4ladZH-7SH90XQeV/s320/BitCoin_Address_Wallet_Ransomware_03.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijzAUTg8NwteHC-Q-Ie9RoKxT4sNV4s10HZ6J-wg_wFsYY73XHcl9KZfV8y80L3jA0lEnNmzHLGRtoAlTnbEVbVWIQe4DP_tHudyfbtpiZGktf1eLlBkWuB6um1kvv3Ow_vS2onQohAH7vAiO1d9rsEFfq02byMOmSYNJV4ladZH-7SH90XQeV/s1123/BitCoin_Address_Wallet_Ransomware_03.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhabXFWg7twQwRnb4V4Mn3I_SCy8nhXhj9bo23JWpzeg86QQ4FUwRnPj53SXB-xeuSORmZpCvct8nmki4DQj_WI4DjdmgX4Z8xeZcyhBHxabHdepa64-mYSrUoZEVnFsp8kQiI1XLQUBHHbk6OgDvQjKJmFqHnQQQSKUY6rFNw3kodAItqt4aYx/s320/BitCoin_Address_Wallet_Ransomware_04.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhabXFWg7twQwRnb4V4Mn3I_SCy8nhXhj9bo23JWpzeg86QQ4FUwRnPj53SXB-xeuSORmZpCvct8nmki4DQj_WI4DjdmgX4Z8xeZcyhBHxabHdepa64-mYSrUoZEVnFsp8kQiI1XLQUBHHbk6OgDvQjKJmFqHnQQQSKUY6rFNw3kodAItqt4aYx/s1173/BitCoin_Address_Wallet_Ransomware_04.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSvLDCCPesjHhsOHFcsiFnenf2rCm48MUPlKzmIcDZeAfkeiw6USDKFVYr0ZrrOYsg7r3f9E_4PuViEdRuoNfVqSvaG09laP9h5ZSVbEzQO4796Mdz-wTAtaWMfDwdtINt56atLiZWJ47KidEW9V5-g3t32dLGCQLd6wgVMSLSGJ4rg062tqjA/s320/BitCoin_Address_Wallet_Ransomware_05.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSvLDCCPesjHhsOHFcsiFnenf2rCm48MUPlKzmIcDZeAfkeiw6USDKFVYr0ZrrOYsg7r3f9E_4PuViEdRuoNfVqSvaG09laP9h5ZSVbEzQO4796Mdz-wTAtaWMfDwdtINt56atLiZWJ47KidEW9V5-g3t32dLGCQLd6wgVMSLSGJ4rg062tqjA/s1119/BitCoin_Address_Wallet_Ransomware_05.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm3b_7whNAvtpvrHHYZpRNJq5n9ctgnRWQnyrzrfmwdkkhABuYs41Dti6EuD41ZaY_FZ4u_5e5Ps2WtJMB_OvOBprX8iCARRQpdGIFvTAvA1_vIxMLdP447rdlp6MGI6tkZ6G14DNumApFLefsDwD32PYsV5GFDfhF9OcTy46CU54bkZohHphI/s320/BitCoin_Address_Wallet_Ransomware_06.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm3b_7whNAvtpvrHHYZpRNJq5n9ctgnRWQnyrzrfmwdkkhABuYs41Dti6EuD41ZaY_FZ4u_5e5Ps2WtJMB_OvOBprX8iCARRQpdGIFvTAvA1_vIxMLdP447rdlp6MGI6tkZ6G14DNumApFLefsDwD32PYsV5GFDfhF9OcTy46CU54bkZohHphI/s1154/BitCoin_Address_Wallet_Ransomware_06.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmG62q4ZtonMRIuqIEgq2y8FjBOClFqIcuU_u4l9erAwBrMJUA3RbzzUwfr30kxHSNA0qrrXDyFgOGWQRMnasVPpvOK5SYFS_miiIkhfd87B45Zjy7D0n8kbmJqlHUYiVQk3P-8TZ8BhxyX7sjbfHTIONQOJtPI5tNKjQjmfChJU7olcwuSEiR/s320/BitCoin_Address_Wallet_Ransomware_07.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmG62q4ZtonMRIuqIEgq2y8FjBOClFqIcuU_u4l9erAwBrMJUA3RbzzUwfr30kxHSNA0qrrXDyFgOGWQRMnasVPpvOK5SYFS_miiIkhfd87B45Zjy7D0n8kbmJqlHUYiVQk3P-8TZ8BhxyX7sjbfHTIONQOJtPI5tNKjQjmfChJU7olcwuSEiR/s1122/BitCoin_Address_Wallet_Ransomware_07.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjybzILhnxfL0Heps1HpPCVv0hH8tviVTyXa1e-JgyWB2Ae2lyKQQiLEcaqBbJi3AQjYl5NTO0321YlD9Ko6FMh2pDPgCuxB2OM7PcHGR0zNEBTUsuYKz8Fs5OCl3rCrJMoe7qy9gqtJS3Cx-5Zku930D5B15gTpleinDNCTAT9DZLg_xKxVOKi/s320/BitCoin_Address_Wallet_Ransomware_08.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjybzILhnxfL0Heps1HpPCVv0hH8tviVTyXa1e-JgyWB2Ae2lyKQQiLEcaqBbJi3AQjYl5NTO0321YlD9Ko6FMh2pDPgCuxB2OM7PcHGR0zNEBTUsuYKz8Fs5OCl3rCrJMoe7qy9gqtJS3Cx-5Zku930D5B15gTpleinDNCTAT9DZLg_xKxVOKi/s1159/BitCoin_Address_Wallet_Ransomware_08.png)
+
+**Full list of ransomware BitCoin addresses:**
+
+112GocBgFSnaote6krx828qaockFraD8mp
+
+112bgquxJZDPuQiXG8tsS7B8ER6rEetrAw
+
+112igisnkkrR2rPgujxhBkTELajuNYxq8Z
+
+112wjYgWapZU8gTPR7hLoKq8iEh496vKxP
+
+114DARz595UwHRrWjR2mufuUCBifgHTHEw
+
+114TqRY9x6byYf5HZcBdoDfHUZX68tdgTG
+
+1154LSM4xWaAY8shZj7jdmP4coWKD16S5f
+
+115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn
+
+115vefbFY2PCL4cYAoCcCB4TcjUGnrgLKw
+
+115znkek4VL6yyBrC6nTu1td4D9n4kbgnk
+
+11697Zq8pAWXEXAbh2zvPTfVt6Vn7DAMzw
+
+116HEgHS1yfSKRTNWLFhj9dac6rLc1hLq
+
+11UC4DMzTR1qQnNEHs9XpotWYAmzs6nBM
+
+121XywrM8cRm2wcccPU7AbGxAAudHukiQL
+
+121aKu4wARyCjEMrpWb9VfSnF9DWbjjVgn
+
+121bnfgZ7hbtgN121LW5wmE8YN9rhqBea6
+
+122CAUwFowG49RknUAKTSinQc5JYVpdEhf
+
+122w6H5sV2h9dyAwk4rcedF4piGnzmbFFN
+
+122xQbcFm6jfrtwfGHdxCdGrmwvUuNXJft
+
+1246tUptR5e67CG7MAfPtjVpSdM1dCUH2V
+
+124EhTSKcd4M1RNisFp7hpkmEj6UEqLq1H
+
+124SzPVBjTnxmiqEQuto9DiAjFZTEiSj7Q
+
+124TXJkTMqAEhVAYuiofapZpE6m6z4sCwo
+
+124jbjnjjy8t42BDmaBd8kx6fJc2CTfdeE
+
+124viqHDewj9YPpjJSBBZjfRCSsLqvjuCT
+
+12524A8PP7PFcDXa9BpGHqhPuVcciCvCn8
+
+125AoxRRMZz5GpASK5sCChATKfNvbSzBF5
+
+125DU467DRf6JBvS2Q49jsYdY4ZvVGBbUc
+
+125Gysrf6QZ9UTuCKtJMikD9LJXUaaCzW5
+
+125YGMHAvJ9EQZhwJTaENhQcaeuqgbHK8J
+
+125fC7gzthoMPocG2Au418LW2v8zd2FEi2
+
+126XL8LKFs8qSWRV1GMcaQTBTZgRe9J7u7
+
+126x8kik2WChKXAXQEGzR4akjsWESTWZow
+
+127A6yoRD8ENWMBxcb4eKKKRgfgerb5Hyj
+
+127Aj79Cov4LvH6RDmbrudgtjJzSi8tm6x
+
+127MgKCjtPfBpcjJXQpjmthMmeMsHwC1BQ
+
+127TntHYgrASVmoRNnbr1KRBGyMdjA7nxP
+
+127g7s8yzdHJx75f2Hnb84CRqLR6ykJBAx
+
+127gTQMvKxn5r6EhmigwXy27R1rBGtJ2Vq
+
+127y4JUM7GDWsRB8FnF6SFKPEYBcwiNC48
+
+128mpaTzac6LueCWJbFABubxho8bppMCCh
+
+129L4gRSYgVJTRCgbPDtvYPabnk2QnY9sq
+
+129UJgwpPveL6GUHEdHnKNmGACkuMDZfpx
+
+129VXFYAjmgijAc2bL9mAPyr25FqMYLymQ
+
+129nsZZr79dNfr9fKSGqeAgTBBqCVvMyKU
+
+129qSWnnJgaKjqgphitXZJM4us7DghuKEQ
+
+12AG1UgkMsrt5gzdAtadtQfEpjqQV5AQyM
+
+12ASokd7gNWRejmS62GSSsQGLoXQnXWKiv
+
+12AYbFqL52kHwAzyK2TEPRfdP56WM7sMZb
+
+12BAmymQgjYqPR9LHbDYQWWu82E2rHx1g8
+
+12BCVTUtBhDJ6BEToBkUJjS6pcC...

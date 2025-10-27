@@ -1,0 +1,20 @@
+---
+title: 聚焦 | AI如何守护人类健康？2025外滩大会热议医疗AI伦理
+url: https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664249019&idx=3&sn=ff3677949bf65b1f258a802a927ec88f
+source: Doonsec's feed
+date: 2025-09-14
+fetch_date: 2025-10-02T20:08:00.477148
+---
+
+# 聚焦 | AI如何守护人类健康？2025外滩大会热议医疗AI伦理
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

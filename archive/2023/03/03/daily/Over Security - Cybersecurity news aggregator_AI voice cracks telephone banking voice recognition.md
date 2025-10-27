@@ -1,0 +1,189 @@
+---
+title: AI voice cracks telephone banking voice recognition
+url: https://www.malwarebytes.com/blog/news/2023/02/ai-generated-voice-recording-grants-access-to-telephone-banking
+source: Over Security - Cybersecurity news aggregator
+date: 2023-03-03
+fetch_date: 2025-10-04T08:35:40.836682
+---
+
+# AI voice cracks telephone banking voice recognition
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Woman talking to AI](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/03/asset_upload_file37078_260703.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# AI voice cracks telephone banking voice recognition
+
+Posted: March 1, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+Voice ID is slowly rolling out across various banks worldwide as a way to perform user [authentication](https://www.malwarebytes.com/cybersecurity/basics/what-is-authentication) over the phone. However, questions remain about just how secure it is. Now that we have freely available artificial intelligence ([AI](https://www.malwarebytes.com/what-was-the-mirai-botnet)) happily replicating people’s voices, could it be a security risk?
+
+Some recent research suggests that it could.
+
+Vice reporter Joseph Cox [put it to the test](https://www.vice.com/en/article/dy7axa/how-i-broke-into-a-bank-account-with-an-ai-generated-voice), with surprising results. All it took was five minutes of recorded speech and a site that can learn to synthesise the voice in the recording.
+
+At first the banking website refused to verify Cox’s synthesized voice as genuine. But with a few tweaks, it soon allowed Cox into his account.
+
+From here, he had access to account information, recent transactions, transfers, and balances. You’ll note from the video below that an additional piece of information is required here in the form of date of birth.
+
+Thankfully, you can’t just use the voice on its own and log straight in to this bank. However, while dates of birth are often use as a form of authentication they are not secret. If an attacker is determined enough to find or create five minutes of your voice recordings, they are unlikely to be deterred by the (probably much easier) task of finding out your birth date.
+
+The bank used for the test claims that criminals would rather use other more common methods of attack than AI voice recordings, and that deploying voice ID has led to “a significant dip in fraud with phone banking”. This may well be true, but that dip presumably occurred before the wide availability of AI tools like [ChatGPT](https://www.malwarebytes.com/cybersecurity/basics/chatgpt-ai-security).
+
+The stunt is a useful reminder that unlike passwords, which are either right or wrong, all forms of biometric authentication are analogue. Voice, fingerprint, face, and iris recognition all rely on a judgement of similarity, which creates opportunities for enterprising criminals who can produce realistic facsimiles. It’s why your iPhone fingerprint recognition is backed up by a passcode, and why the bank in the test also included a birth date in its authentication process.
+
+## What’s  next for voice AI?
+
+The AI genie is most definitely out of the bottle, with AIs being used for all manner of good things, like [additional voice lines in video game mods](https://gamerant.com/morrowind-mod-ai-voice-acting/), and [all sorts of bad things too](https://www.vice.com/en/article/93axnd/voice-actors-doxed-with-ai-voices-on-twitter).
+
+If you’re deploying voice recognition as part of your business, it would be wise move to pay close attention to the rapidly improving area of voice synthesis. Don’t let the words “My voice is my password” come back to haunt you in the worst way imaginable.
+
+---
+
+Have a burning question or want to learn more about our cyberprotection? Get a free business trial below.
+
+[GET STARTED](https://www.malwarebytes.com/business/contact-us/)
+
+**SHARE THIS ARTICLE**
+
+[![X](https://www.malwarebytes.com/wp-content/themes/malwarebytes/assets/src/images/x-twitter-logo-grey.svg)](https://x.com/intent/tweet?text=AI%20voice%20cracks%20tele...

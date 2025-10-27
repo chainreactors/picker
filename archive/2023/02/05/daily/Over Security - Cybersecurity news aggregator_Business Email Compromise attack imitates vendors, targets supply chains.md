@@ -1,0 +1,187 @@
+---
+title: Business Email Compromise attack imitates vendors, targets supply chains
+url: https://www.malwarebytes.com/blog/news/2023/02/business-email-compromise-attack-imitates-vendors-targets-supply-chains
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-05
+fetch_date: 2025-10-04T05:46:15.369322
+---
+
+# Business Email Compromise attack imitates vendors, targets supply chains
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![Worried man counting money](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/02/asset_upload_file45492_257420.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Business Email Compromise attack imitates vendors, targets supply chains
+
+Posted: February 3, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+Today we have a fascinating tale of a business email compromise (BEC) group steering clear of targeting executives, in favour of [fouling up supply chains instead](https://intelligence.abnormalsecurity.com/blog/firebrick-ostrich-third-party-reconnaissance-attacks). The attack, which may sound overly complicated, is a fairly streamlined attack with the intention of making a lot of money.
+
+## BEC: What is it?
+
+BEC follows a few different patterns, but primarily revolves around an approach by a criminal who has compromised or spoofed an executive-level email account.
+
+The criminal sends one or more “urgent” emails to a more junior employee about moving money from inside the business to somewhere else entirely. Some attackers perform reconnaissance in advance so they can target people in HR, finance, or accounts.
+
+The criminal is likely to insist the money is moved quickly, and that nobody else is involved.
+
+This technique has been around for a number of years, and some folks are getting wise to it. As a result, attackers are trying to [broaden how these scams operate](https://www.malwarebytes.com/blog/news/2022/12/bec-scammers-go-after-more-than-just-money) to give them the best chance of flying under the radar.
+
+What we’re looking at below is [Vendor Email Compromise](https://www.malwarebytes.com/blog/business/2019/11/not-us-you-vendor-email-compromise-explained) (VEC). Instead of going after a company directly, attackers figure out a network of vendors, clients, customers, suppliers…you name it, they’ll try and map it all out. From there, it’s a case of figuring out the weak links in the chain and then pursuing them as best they can.
+
+A splash of fraudulent domain management and [social engineering](https://www.malwarebytes.com/social-engineering) may be all that it takes to get the job done.
+
+## VEC
+
+### The supply chain steps to success
+
+The group at the heart of this particular campaign, the bizarrely monikered “Firebrick Ostrich”, has been flagged as having its hand in no fewer than 350 campaigns dating back several years. 151 organisations were spoofed across 200 or so different URLs. The attacks are said to have been US-centric, with a particular focus on US business.
+
+According to Abnormal Intelligence, the group behind the research, Firebrick Ostrich was at its peak in August 2022, numbers wise, and the majority of URLs used in the various campaigns were less than a day old when they were used.
+
+The steps to success for the VEC group are listed as follows:
+
+1. Pretend to be a vendor, complete with imitation domain and multiple bogus email addresses related to said bogus “company”.
+2. The bogus vendor initiates communication with the potential victim, going down one of several paths as the ball is set in motion. In the example given, the scammers ask to update a bank account on file, and then note that they’ve “lost track” of outstanding payments. This is how they gain insight into actual potential payments owed, or other relevant information which can be further used against the victim.
+3. Some or all of the additional email addresses created, mentioned above, may be tied into some of the various email chains to add a layer of “this all looks plausible and real” to the recipients. Would scammers go to all this length to steal money? You bet. Many employees looking at this...

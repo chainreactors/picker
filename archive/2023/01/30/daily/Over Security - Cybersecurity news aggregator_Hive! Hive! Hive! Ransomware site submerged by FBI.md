@@ -1,0 +1,175 @@
+---
+title: Hive! Hive! Hive! Ransomware site submerged by FBI
+url: https://www.malwarebytes.com/blog/news/2023/01/hive-ransomware-infrastructure-taken-down
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-30
+fetch_date: 2025-10-04T05:10:59.936317
+---
+
+# Hive! Hive! Hive! Ransomware site submerged by FBI
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![Submerged](https://www.threatdown.com/wp-content/uploads/2023/01/asset_upload_file29460_255827.jpg?w=736)
+
+[News](https://www.threatdown.com/blog/category/news/), [Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+## Hive! Hive! Hive! Ransomware site submerged by FBI
+
+January 28, 2023
+
+[Pieter Arntz](https://www.threatdown.com/blog/author/parntzmalwarebytes-com/)
+
+On January 26, 2023, the United States Department of Justice (DoJ) [released details about a disruption campaign against the Hive ransomware group](https://www.justice.gov/opa/pr/us-department-justice-disrupts-hive-ransomware-variant). The disruption campaign has reportedly had access to Hive’s infrastructure since July of 2022. Its access became public on Thursday when Hive’s dark web began showing a notice that “this hidden site has been seized.”
+
+![](http://www.threatdown.com/wp-content/uploads/2024/06/easset_upload_file93303_255827_e.jpg)
+
+## Hive
+
+Hive ransomware has been around since June 2021. It is a ransomware-as-a-service (RaaS) operation which uses the threat to publish exfiltrated data as extra leverage to get the victims to pay. Hive was one of the most widely used RaaS in 2022, according to monitoring of dark web leak sites by Malwarebytes Threat Intelligence.
+
+![](http://www.threatdown.com/wp-content/uploads/2024/06/easset_upload_file48739_255827_e.jpg)
+
+In August 2021, the FBI published a [warning about Hive ransomware](https://www.ic3.gov/Media/News/2021/210825.pdf), sharing tactics, techniques, and procedures (TTPs), indicators of compromise (IOCs), and mitigation advice. In February 2022, [researchers discovered a way to decrypt files](https://www.malwarebytes.com/blog/news/2022/02/hive-ransomware-researchers-figure-out-a-method-to-decrypt-files) for all versions of Hive ransomware up to and including version four. Hive is also thought to be one of the gangs that welcomed Conti members after the [Conti disbandment](https://www.malwarebytes.com/blog/threat-intelligence/2022/06/ransomware-may-2022-review) in April 2022.
+
+According to the DoJ, the Hive ransomware group has targeted over 1,500 victims in over 80 countries, including hospitals, school districts, financial firms, and critical infrastructure, attempting to extort hundreds of millions of dollars from victims in the United States and around the world.
+
+## Disruption
+
+US officials credited German and Dutch authorities, and Europol for helping in the case. The German police were able to infiltrate the Hive infrastructure following an investigation of [the Polizeipräsidium Reutlingen](https://www.presseportal.de/blaulicht/pm/110976/5426565), which shows the importance of victims filing a report.
+
+As part of the disruption the FBI has helped victims to decrypt their files for months, perhaps contributing to the [dip in ransomware revenue over 2022](https://www.malwarebytes.com/blog/news/2023/01/ransomware-revenue-significantly-down-over-2022). According to the DoJ this amassed to 336 victim interventions, preventing potentially $130 million in ransom payments.
+
+The authorities also seized the leak site, where the group posted data exfiltrated from victims that were unwilling to pay, and the victim negotiation portal. This is a major setback and will undoubtedly cause affiliates and [Initial Access Brokers (IABs)](https://www.threatdown.com/blog/initial-access-brokers-iabs-3-ways-they-get-into-corporate-networks-and-how-to-stop-them/) to take their business elsewhere.
+
+## Not done yet
+
+But the hunt is far from finished. The US Rewards for Justice is offering a reward up to $10 million for information that links Hive or any other malicious cyber actors targeting US critical infrastructure to a foreign government. And in a [press conference](https://www.justice.gov/opa/video/us-department-justice-disrupts-hive-ransomware-variant) about the Hive takedown, FBI Director Christopher Wray acknowledged the FBI had infiltrated other ransomware groups.
+
+## Mitigation
+
+The [Europol stat...

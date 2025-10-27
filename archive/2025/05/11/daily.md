@@ -1,0 +1,110 @@
+# 每日安全资讯（2025-05-11）
+
+- SecWiki News
+  - [ ] [SecWiki News 2025-05-10 Review](http://www.sec-wiki.com/?2025-05-10)
+- Private Feed for M09Ic
+  - [ ] [safedv starred 0xTriboulet/rdll-rs](https://github.com/0xTriboulet/rdll-rs)
+  - [ ] [b1nhack starred hoefler02/CVE-2025-21756](https://github.com/hoefler02/CVE-2025-21756)
+  - [ ] [zer0yu starred sudonoodle/BOF-entra-authcode-flow](https://github.com/sudonoodle/BOF-entra-authcode-flow)
+  - [ ] [zer0yu started following sudonoodle](https://github.com/sudonoodle)
+  - [ ] [memN0ps starred redis-rs/redis-rs](https://github.com/redis-rs/redis-rs)
+  - [ ] [memN0ps starred RustCrypto/hashes](https://github.com/RustCrypto/hashes)
+  - [ ] [memN0ps starred dalek-cryptography/curve25519-dalek](https://github.com/dalek-cryptography/curve25519-dalek)
+  - [ ] [memN0ps starred RustCrypto/stream-ciphers](https://github.com/RustCrypto/stream-ciphers)
+  - [ ] [memN0ps starred inejge/ldap3](https://github.com/inejge/ldap3)
+  - [ ] [zer0yu starred securityfortech/secops-mcp](https://github.com/securityfortech/secops-mcp)
+  - [ ] [kyxiaxiang starred MorDavid/BloodHound-MCP-AI](https://github.com/MorDavid/BloodHound-MCP-AI)
+  - [ ] [xxDark starred wala/WALA](https://github.com/wala/WALA)
+  - [ ] [zema1 starred Conan924/GodInfo](https://github.com/Conan924/GodInfo)
+  - [ ] [zema1 starred wooorm/markdown-rs](https://github.com/wooorm/markdown-rs)
+  - [ ] [kyxiaxiang starred sudonoodle/BOF-entra-authcode-flow](https://github.com/sudonoodle/BOF-entra-authcode-flow)
+- Recent Commits to cve:main
+  - [ ] [Update Sat May 10 15:51:48 UTC 2025](https://github.com/trickest/cve/commit/67f16d3e557569b89c636c41d25e3050b7f9c972)
+- C0reFast记事本
+  - [ ] [一个中断关闭时间太长导致的网络延迟问题](https://www.ichenfu.com/2025/05/10/a-network-latency-problem/)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [ ] [ezportal Advisory ( Portal Mod for SMF ) Local SQL injection](https://cxsecurity.com/issue/WLB-2025050029)
+  - [ ] [VirtualBox 7.0.16 Privilege Escalation](https://cxsecurity.com/issue/WLB-2025050028)
+- Security Boulevard
+  - [ ] [Building Adaptable NHIs for a Secure Future](https://securityboulevard.com/2025/05/building-adaptable-nhis-for-a-secure-future/?utm_source=rss&utm_medium=rss&utm_campaign=building-adaptable-nhis-for-a-secure-future)
+  - [ ] [Feel Relieved with Efficient Secrets Rotation](https://securityboulevard.com/2025/05/feel-relieved-with-efficient-secrets-rotation/?utm_source=rss&utm_medium=rss&utm_campaign=feel-relieved-with-efficient-secrets-rotation)
+  - [ ] [Stay Satisfied with Comprehensive Secrets Vaulting](https://securityboulevard.com/2025/05/stay-satisfied-with-comprehensive-secrets-vaulting/?utm_source=rss&utm_medium=rss&utm_campaign=stay-satisfied-with-comprehensive-secrets-vaulting)
+  - [ ] [Driving Innovation with Enhanced NHIDR Capabilities](https://securityboulevard.com/2025/05/driving-innovation-with-enhanced-nhidr-capabilities/?utm_source=rss&utm_medium=rss&utm_campaign=driving-innovation-with-enhanced-nhidr-capabilities)
+  - [ ] [BSidesLV24 – Proving Ground – Are You Content With Our Current Attacks On Content-Type?](https://securityboulevard.com/2025/05/bsideslv24-proving-ground-are-you-content-with-our-current-attacks-on-content-type/?utm_source=rss&utm_medium=rss&utm_campaign=bsideslv24-proving-ground-are-you-content-with-our-current-attacks-on-content-type)
+  - [ ] [MY TAKE: Beyond agentic AI mediocrity — the real disruption is empowering the disenfranchised](https://securityboulevard.com/2025/05/my-take-beyond-agentic-ai-mediocrity-the-real-disruption-is-empowering-the-disenfranchised/?utm_source=rss&utm_medium=rss&utm_campaign=my-take-beyond-agentic-ai-mediocrity-the-real-disruption-is-empowering-the-disenfranchised)
+- obaby@mars
+  - [ ] [FaceFusion 3.2.0 — 免费AI换脸工具初体验](https://h4ck.org.cn/2025/05/20613)
+- 奇客Solidot–传递最新科技情报
+  - [ ] [美国咖啡店限制客户将其作为办公场所](https://www.solidot.org/story?sid=81255)
+  - [ ] [研究发现使用 AI 可能会损害职业声誉](https://www.solidot.org/story?sid=81254)
+  - [ ] [墨西哥就地图将墨西哥湾改名为美国湾起诉 Google](https://www.solidot.org/story?sid=81253)
+  - [ ] [松下将裁员一万人](https://www.solidot.org/story?sid=81252)
+- 黑海洋 - Wiki
+  - [ ] [Clear – 有道AI实时音轨分离人声增强插件](https://blog.upx8.com/4795)
+- 安全分析与研究
+  - [ ] [海莲花APT组织最新威胁情报与自查方法](https://mp.weixin.qq.com/s?__biz=MzA4ODEyODA3MQ==&mid=2247491889&idx=1&sn=4efcb85fe28188d65d3eb4f14e72568d&subscene=0)
+- 安全内参
+  - [ ] [中国人民银行发布《中国人民银行业务领域数据安全管理办法》](https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247514323&idx=1&sn=ce44d392b066384c12df798415840815&subscene=0)
+  - [ ] [RSAC 2025观察：AI变革与网安新方向](https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247514323&idx=2&sn=0fdd582d13c81ead480d63bfdeb094df&subscene=0)
+- dotNet安全矩阵
+  - [ ] [.NET 总第 71 期红队武器库和资源汇总](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247499630&idx=1&sn=2e57177a5269e7d30c707ac984e06efd&subscene=0)
+  - [ ] [福利 | 最专业、最全面的 [ .NET 代码审计 ] 体系化学习平台](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247499630&idx=2&sn=a1f08c7c3136b0b74bb00164dd27cc91&subscene=0)
+  - [ ] [权限维持，通过 Sharp4WinService 指定任意程序转换为系统服务运行](https://mp.weixin.qq.com/s?__biz=MzUyOTc3NTQ5MA==&mid=2247499630&idx=3&sn=d4c02cb9fbec769d4d19c9f4f597c281&subscene=0)
+- 安全学术圈
+  - [ ] [香港大学 | 刘诗楠课题组招生](https://mp.weixin.qq.com/s?__biz=MzU5MTM5MTQ2MA==&mid=2247492130&idx=1&sn=6dc75f97e9186ee1d3997e15fb65562e&subscene=0)
+- 情报分析师
+  - [ ] [社交网站人肉搜索教学——一张照片就知道你在哪!](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650560920&idx=1&sn=23a00d6aa7accbbd4f8a31f9a0c124ea&subscene=0)
+  - [ ] [缅甸若开军2025年局势全解析](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650560920&idx=2&sn=e9cd8545687160c1b1063e5a1f10a239&subscene=0)
+- 安全圈
+  - [ ] [【安全圈】巴对印发起网络攻击，致70%印度电网瘫痪](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069539&idx=1&sn=47186144889abe1d7eaf7859bc450d16&subscene=0)
+  - [ ] [【安全圈】上海警方破获百万级拍卖外挂大案！技术宅"黑吃黑"终落网](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069539&idx=2&sn=8896e1ea9993ba423e0c73a299efb260&subscene=0)
+  - [ ] [【安全圈】韩国SK电信数据泄露，面临50亿美元损失](https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652069539&idx=3&sn=abef3ca33a556543e64cab006a22eaca&subscene=0)
+- 复旦白泽战队
+  - [ ] [白泽春游特辑｜春野拾趣，共赴好时光](https://mp.weixin.qq.com/s?__biz=MzU4NzUxOTI0OQ==&mid=2247494630&idx=1&sn=692bfdbfee50a42f4a878522bf572352&subscene=0)
+- 极客公园
+  - [ ] [纽北专为小米设置「小米弯道」；马斯克 xAI 估值超 1200 亿美元；智元办机器人比赛奖金 50 万美元 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653079016&idx=1&sn=3353ecf34eeb9f4229e7b6fe641d613a&subscene=0)
+- 迪哥讲事
+  - [ ] [蓝队最新招聘-高于一般薪资](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247497576&idx=1&sn=5811093d567c5790faecac36159d1a22&subscene=0)
+- 字节跳动技术团队
+  - [ ] [字节跳动开源了一款 Deep Research 项目](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247514437&idx=1&sn=40e33cc3912eed14e0807d09689574d5&subscene=0)
+- ICT Security Magazine
+  - [ ] [Approccio ciclico alla governance della sicurezza informatica](https://www.ictsecuritymagazine.com/notizie/governance-della-sicurezza-informatica/)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [Pixm’s Zero-Day Threat Intelligence April 14, 2025](https://pixmsecurity.com/blog/blog/pixms-zero-day-threat-intelligence-april-14-2025-2/)
+  - [ ] [Fake AI video generators drop new Noodlophile infostealer malware](https://www.bleepingcomputer.com/news/security/fake-ai-video-generators-drop-new-noodlophile-infostealer-malware/)
+  - [ ] [Microsoft Teams will soon block screen capture during meetings](https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-soon-block-screen-capture-during-meetings/)
+  - [ ] [Intanto in America: l’assalto dei bot ai Community College](https://www.insicurezzadigitale.com/intanto-in-america-lassalto-dei-bot-ai-community-college/)
+  - [ ] [Five things we learned from WhatsApp vs. NSO Group spyware lawsuit](https://techcrunch.com/2025/05/10/five-things-we-learned-from-whatsapp-vs-nso-group-spyware-lawsuit/)
+  - [ ] [Who is behind “xoxo From Prague”? An attack on LockBit inspired by the Prague Spring?](https://www.suspectfile.com/who-is-behind-from-prague-an-attack-on-lockbit-inspired-by-the-prague-spring/)
+  - [ ] [L’accordo sindacale non basta: il Garante privacy traccia i limiti della geolocalizzazione](https://www.cybersecurity360.it/news/laccordo-sindacale-non-basta-il-garante-privacy-traccia-i-limiti-della-geolocalizzazione/)
+- Troy Hunt's Blog
+  - [ ] [Weekly Update 451](https://www.troyhunt.com/weekly-update-451/)
+- The Hacker News
+  - [ ] [Google Pays $1.375 Billion to Texas Over Unauthorized Tracking and Biometric Data Collection](https://thehackernews.com/2025/05/google-pays-1375-billion-to-texas-over.html)
+  - [ ] [Germany Shuts Down eXch Over $1.9B Laundering, Seizes €34M in Crypto and 8TB of Data](https://thehackernews.com/2025/05/germany-shuts-down-exch-over-19b.html)
+- TorrentFreak
+  - [ ] [The Substance: Pre-Release Piracy Made People MORE Eager to Visit the Cinema](https://torrentfreak.com/the-substance-pre-release-piracy-made-people-more-eager-to-visit-the-cinema-250510/)
+- Security Affairs
+  - [ ] [Ascension reveals personal data of 437,329 patients exposed in cyberattack](https://securityaffairs.com/177676/data-breach/ascension-reveals-personal-data-of-437329-patients-exposed-in-cyberattack.html)
+  - [ ] [Operation Moonlander dismantled the botnet behind Anyproxy and 5socks cybercriminals services](https://securityaffairs.com/177664/malware/operation-moonlander-dismantled-the-botnet-behind-anyproxy-and-5socks-cybercriminals-services.html)
+- SANS Internet Storm Center, InfoCON: green
+  - [ ] [Steganography Challenge: My Solution, (Sat, May 10th)](https://isc.sans.edu/diary/rss/31912)
+- Blackhat Library: Hacking techniques and research
+  - [ ] [Exploiting DLL Search Order Hijacking in Microsoft Edge’s Trusted Directory: A Red Team Tactic](https://www.reddit.com/r/blackhat/comments/1kjbknm/exploiting_dll_search_order_hijacking_in/)
+- Your Open Hacker Community
+  - [ ] [Hacking my $800 Karaoke Machine (Edit)](https://www.reddit.com/r/HowToHack/comments/1kjm9fg/hacking_my_800_karaoke_machine_edit/)
+  - [ ] [Help decoding a wifi cam](https://www.reddit.com/r/HowToHack/comments/1kjnfbl/help_decoding_a_wifi_cam/)
+  - [ ] [Need help/guidence analyzing pcaps (CTF Help)](https://www.reddit.com/r/HowToHack/comments/1kjn0om/need_helpguidence_analyzing_pcaps_ctf_help/)
+  - [ ] [I’m brand new and want some tips](https://www.reddit.com/r/HowToHack/comments/1kj8h2q/im_brand_new_and_want_some_tips/)
+  - [ ] [What about Vulnerability disclosure programs??](https://www.reddit.com/r/HowToHack/comments/1kj6crg/what_about_vulnerability_disclosure_programs/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [cvelistV5](https://www.reddit.com/r/netsecstudents/comments/1kjmlw2/cvelistv5/)
+- Social Engineering
+  - [ ] [Women who’ve witnessed men being socially targeted (rumors, humiliation, sabotage) – what goes through your mind?](https://www.reddit.com/r/SocialEngineering/comments/1kjivzv/women_whove_witnessed_men_being_socially_targeted/)
+- Technical Information Security Content & Discussion
+  - [ ] [The Honeynet Workshop Conference 2025 is in June in Prague.](https://www.reddit.com/r/netsec/comments/1kjjueq/the_honeynet_workshop_conference_2025_is_in_june/)
+- The Register - Security
+  - [ ] [Feds disrupt proxy-for-hire botnet, indict four alleged net miscreants](https://go.theregister.com/feed/www.theregister.com/2025/05/10/router_botnet_crashed/)
+  - [ ] [UK Ministry of Defence is spending less with US biz, and more with Europeans](https://go.theregister.com/feed/www.theregister.com/2025/05/10/uk_ministry_of_defence_drops_us_spending/)
+- Dark Space Blogspot
+  - [ ] [Spiegazione Della Truffa "Baltimore Stockbroker"](http://darkwhite666.blogspot.com/2025/05/spiegazione-della-truffa-baltimore.html)

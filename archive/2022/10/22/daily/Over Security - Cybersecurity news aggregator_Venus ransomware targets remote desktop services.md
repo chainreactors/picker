@@ -1,0 +1,177 @@
+---
+title: Venus ransomware targets remote desktop services
+url: https://www.malwarebytes.com/blog/news/2022/10/venus-ransomware-targets-remote-desktop-services
+source: Over Security - Cybersecurity news aggregator
+date: 2022-10-22
+fetch_date: 2025-10-03T20:37:53.760640
+---
+
+# Venus ransomware targets remote desktop services
+
+[ ]
+
+[![ThreatDown Powered by Malwarebytes](https://www.threatdown.com/wp-content/themes/mbc/images/logo-header-threatdown-horizontal.svg)](https://www.threatdown.com/)
+
+SUPPORT
+
+* [Nebula support](https://support.threatdown.com/hc/en-us/)
+* [OneView support](https://support.threatdown.com/hc/en-us/p/oneview)
+
+SIGN IN
+
+* [Nebula sign in](https://cloud.threatdown.com/auth/login)
+* [OneView sign in](https://oneview.threatdown.com/)
+* [Partner Portal sign in](https://partners.malwarebytes.com/English/)
+
+[ ]
+
+## Products
+
+< Products
+
+* ## Products
+* [Endpoint Detection & Response (EDR)](/products/endpoint-detection-and-response/)
+* [Endpoint Protection](/products/endpoint-protection/)
+* [Vulnerability Assessment](/products/vulnerability-assessment/)
+* [Patch Management](/products/patch-management/)
+* [Application Block](/products/application-block/)
+* [DNS Filtering](/products/dns-filtering/)
+* [Mobile Security](/products/mobile-security/)
+* [Email Security](/products/email-security/)
+
+* ## Services
+* [Managed Detection & Response (MDR)](/products/managed-detection-and-response/)
+* [Managed Threat Hunting](/products/managed-threat-hunting/)
+* [Premium Support](/products/premium-support/)
+
+* ## Features
+* [Browser Phishing Protection](/products/browser-phishing-protection/)
+* [Firewall Management](/products/firewall-management/)
+* [Security Advisor](/products/security-advisor/)
+
+* ## Platforms
+* [Nebula](/products/nebula/)
+* Manage your organization’s endpoint security in a single-tenant console
+
+  [Nebula customer sign in >](https://cloud.threatdown.com/auth/login)
+* [OneView](/products/oneview/)
+* Provides MSPs centralized visibility and management capabilities across customer sites
+
+  [OneView customer sign in >](https://oneview.threatdown.com/auth/login)
+
+[ ]
+
+## Partners
+
+< Partners
+
+* [Explore Partnerships](/partner-program/)
+* Review program benefits, innovative technology, channel first mentality
+* [Managed Service Providers](/partner-program/msp/)
+* Everything MSPs need to run their business seamlessly
+
+* [Technology Partners](/technology-integrations/)
+* Explore our technology integrations
+* [Resellers](/partner-program/partner-reseller/)
+* Build growth, profitability, and customer loyalty
+
+* ![](https://www.threatdown.com/wp-content/uploads/2023/11/px-center.png?w=356)
+* Retain and grow your business with tools, education, and support in the partner experience center.
+
+  [Sign in to PXC >](https://partners.threatdown.com/English/%20)
+
+[ ]
+
+## Resources
+
+< Resources
+
+* [Threat Center](/threat-center/)
+* Learn about the latest threat news
+* [Reports](/threat-center/reports/)
+* [Threat Detections](/threat-detections/)
+* [Executive POV](/threat-center/executive-pov/)
+* [Glossary](/glossary/)
+* [Blog](/blog/)
+
+* [Resource Center](/resources/)
+* Learn more about ThreatDown
+* [ThreatDown News](/press/)
+* [Case Studies](/resources/categories/case-studies/)
+* [Reviews](/resources/categories/products/)
+* [Cybersecurity Tips & Tricks](/resources/categories/cybersecurity-tips-tricks/)
+* [Webinars](/resources/categories/webinars/)
+* [About Us](/about-us/)
+
+* ![2025 State of Ransomware: Inside a record-breaking year of ransomware attacks](https://www.threatdown.com/wp-content/uploads/2025/08/2025-state-of-ransomware.png?w=1246)
+* Discover a record-breaking year of attacks where ransomware became decentralized and unpredictable, spreading further than ever before.
+
+  [Download now >](https://www.threatdown.com/dl-state-of-ransomware-2025/)
+
+[Pricing](/pricing/)
+
+[ ]
+
+## Why ThreatDown
+
+< Why ThreatDown
+
+* ## Why ThreatDown
+* [About Us](/about-us/)
+* [ThreatDown vs. Competition](/vs/)
+* [Case Studies](/resources/categories/case-studies/)
+
+* ![](https://www.threatdown.com/wp-content/uploads/2025/04/product-of-the-year-nav.png?w=712)
+* ThreatDown named Product of the Year by MRG Effitas.
+
+  [Learn more >](https://www.threatdown.com/blog/product-of-the-year/)
+
+[Get a quote](/custom-quote/)
+
+[Buy now](/pricing/)
+
+[Home](/)
+>
+[Blog](/blog/)
+
+![](https://www.threatdown.com/wp-content/uploads/2022/10/venom_ransomware_resized.png?w=1024)
+
+[Ransomware](https://www.threatdown.com/blog/category/ransomware/)
+
+## Venus ransomware targets remote desktop services
+
+Christopher Boyd
+
+October 19, 2022
+
+Christopher Boyd
+
+It’s time for another tale of remote desktop disaster, as a newish form of ransomware carves out a name for itself. Bleeping Computer reports that individuals behind [Venus ransomware](https://www.bleepingcomputer.com/news/security/venus-ransomware-targets-publicly-exposed-remote-desktop-services/) are breaking into “publicly exposed Remote Desktop services”, with the intention of encrypting any and all Windows devices. Since at least August 2022, Venus has been causing chaos and has become rather visible lately.
+
+> [@malwrhunterteam](https://twitter.com/malwrhunterteam?ref_src=twsrc%5Etfw) Hey, do you have any details about 'Venus' ransomware (not VenusLocker, extension is .venus instead of .venusf). Infection happened via RDP. Can give more details in DM if wanted.
+>
+> — linuxct (inactive) (@linuxct) [October 6, 2022](https://twitter.com/linuxct/status/1577926820636286977?ref_src=twsrc%5Etfw)
+
+## Venus brings bad remote tidings
+
+It seems these attacks very much follow the typical Remote Services/Remote Desktop Protocol (RDP) gameplan. Break into the network via insecure access, stop processes and services according to the whims of the ransomware authors, and then encrypt the desired files. Confused people on the network will now find their filenames end with the .venus extension, and additional file markers with no currently obvious purpose placed inside the encrypted files.
+
+The incredibly overt ransom note, which is somewhat difficult to read given it sports white text on a bright orange background, reads as follows:
+
+*“We downloaded and encrypted your data. Only we can decrypt your data. IMPORTANT! If you, your programmers or your friends would try to help you to decrypt the files it can cause data loss even after you pay. In this case we will not be able to help you. Do not play with files. Do not rename encrypted files. Do not try to decrypt your data using third party software, it may cause permanent data loss. Decryption of your files with the help of third parties may cause increased price or you can become a victim of a scam.”*
+
+You know, as opposed to being the victim of this scam instead.
+
+## A risk whether at home or in the office
+
+Bleeping Computer notes [one victim on their forum](https://www.bleepingcomputer.com/forums/t/777945/venus-ransomware-support-help-topic-venus-readmehtml/?p=5418300) made several posts about being struck by this particular slice of ransomware. This individual found their home network under attack, external drives compromised, and a PC elsewhere in the house being used as a server receiving similar treatment.
+
+In this case, the issue was RDP left running as a way to access a computer remotely. The victim notes that RDP was password protected, but it seems the password may not have been enough. This—and the timeless classic of having backup devices available but not getting round to doing the actual backing up—proved to be a dreadful combination blow.
+
+## Tips for avoiding the RDP to ransomware pipeline
+
+RDP specifically continues to be a sore point for networks whether at home or in the office. Even with password protection, it may not be enough, as we’ve just seen to devastating effect for one unlucky individual.
+
+If you’re running Windows 11, you’ll be pleased to know that Microsoft is taking action to help shore up the ways attackers can use RDP to break in. This has been achieved by limiting the number of times you can attempt to login, as per our article from back in July. If you’re interested in locking down your RDP in other ways, we have a long list of tactics for you to try out. Some of the key actions you should consider taking right now include:
+
+* Use multifactor authentication for your RDP access. Attackers...

@@ -1,0 +1,119 @@
+# 每日安全资讯（2024-03-31）
+
+- Sploitus.com Exploits RSS Feed
+  - [ ] [Exploit for Vulnerability in Pyload exploit](https://sploitus.com/exploit?id=7DE3571B-5D09-5997-A10B-D71BBCA61350&utm_source=rss&utm_medium=rss)
+  - [ ] [Exploit for CVE-2024-3094 exploit](https://sploitus.com/exploit?id=69940B5C-9F3B-585B-80FA-ECA2F5B92D71&utm_source=rss&utm_medium=rss)
+- CXSECURITY Database RSS Feed - CXSecurity.com
+  - [ ] [Circontrol Raption Buffer Overflow / Command Injection](https://cxsecurity.com/issue/WLB-2024030078)
+  - [ ] [util-linux wall Escape Sequence Injection](https://cxsecurity.com/issue/WLB-2024030077)
+  - [ ] [FusionPBX Session Fixation](https://cxsecurity.com/issue/WLB-2024030076)
+  - [ ] [Purei CMS 1.0 SQL Injection](https://cxsecurity.com/issue/WLB-2024030075)
+  - [ ] [WatchGuard XTM Firebox Unauthenticated Remote Command Execution](https://cxsecurity.com/issue/WLB-2024030074)
+  - [ ] [FoF Pretty Mail 1.1.2 Command Injection](https://cxsecurity.com/issue/WLB-2024030073)
+  - [ ] [Intel PowerGadget 3.6 Local Privilege Escalation](https://cxsecurity.com/issue/WLB-2024030072)
+  - [ ] [Wazuh Dashboard - Information Discoluser](https://cxsecurity.com/issue/WLB-2024030071)
+  - [ ] [SolarView Compact 6.00 - Command Injection Bypass authentication](https://cxsecurity.com/issue/WLB-2024030070)
+- Vulnerabilities and Threat Research – Qualys Security Blog
+  - [ ] [XZ Utils SSHd Backdoor](https://blog.qualys.com/category/vulnerabilities-threat-research)
+- Security Boulevard
+  - [ ] [An Accidental Discovery of a Backdoor Likely Prevented Thousands of Infections](https://securityboulevard.com/2024/03/an-accidental-discovery-of-a-backdoor-likely-prevented-thousands-of-infections/)
+  - [ ] [What You Need to Know About the XZ Utils Backdoor](https://securityboulevard.com/2024/03/what-you-need-to-know-about-the-xz-utils-backdoor/)
+  - [ ] [Understanding and Mitigating the Fedora Rawhide Vulnerability (CVE-2024-3094)](https://securityboulevard.com/2024/03/understanding-and-mitigating-the-fedora-rawhide-vulnerability-cve-2024-3094/)
+  - [ ] [How did CVE-2024-27198 Lead to Critical Vulnerability in JetBrains?](https://securityboulevard.com/2024/03/how-did-cve-2024-27198-lead-to-critical-vulnerability-in-jetbrains/)
+- Private Feed for M09Ic
+  - [ ] [kpcyrd released v0.9.3 at kpcyrd/sh4d0wup](https://github.com/kpcyrd/sh4d0wup/releases/tag/v0.9.3)
+  - [ ] [Ridter starred BattiestStone4/pwn-problems](https://github.com/BattiestStone4/pwn-problems)
+  - [ ] [Rvn0xsy starred EAimTY/socks5-server](https://github.com/EAimTY/socks5-server)
+  - [ ] [Rvn0xsy starred ssrlive/socks5-impl](https://github.com/ssrlive/socks5-impl)
+  - [ ] [zsxsoft forked zsxsoft/siyuan from siyuan-note/siyuan](https://github.com/zsxsoft/siyuan)
+  - [ ] [Rvn0xsy starred nektos/act](https://github.com/nektos/act)
+  - [ ] [zer0yu starred iknowjason/Awesome-CloudSec-Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs)
+  - [ ] [gh0stkey starred nedrysoft/regex101](https://github.com/nedrysoft/regex101)
+  - [ ] [PeiQi0 started following dvlkv](https://github.com/dvlkv)
+  - [ ] [PeiQi0 starred ton-blockchain/hack-challenge-1](https://github.com/ton-blockchain/hack-challenge-1)
+  - [ ] [PeiQi0 starred nujan-io/nujan-ide](https://github.com/nujan-io/nujan-ide)
+  - [ ] [PeiQi0 starred tact-lang/tact](https://github.com/tact-lang/tact)
+- obaby@mars
+  - [ ] [流年](https://h4ck.org.cn/2024/03/16105)
+- gynvael.coldwind//vx.log (en)
+  - [ ] [xz/liblzma: Bash-stage Obfuscation Explained](https://gynvael.coldwind.pl/?id=782)
+- Recent Commits to cve:main
+  - [ ] [Update Sat Mar 30 18:02:21 UTC 2024](https://github.com/trickest/cve/commit/a4ef9b44b7167953b18a98a558322bd2383ca948)
+  - [ ] [Update Sat Mar 30 10:04:22 UTC 2024](https://github.com/trickest/cve/commit/d1f87bab84787df0d62f173513c5dd3b26a02312)
+  - [ ] [Update Sat Mar 30 01:55:27 UTC 2024](https://github.com/trickest/cve/commit/370383c3b714bfade28aa544e63322b2a709aea1)
+- Reverse Engineering
+  - [ ] [GitHub - mk4th/GarminEdgeCharger: Open source charging option for the edge devices via the electrical contacts on its back](https://www.reddit.com/r/ReverseEngineering/comments/1bri9u1/github_mk4thgarminedgecharger_open_source/)
+  - [ ] [Inside an unusual 7400-series chip implemented with a gate array](https://www.reddit.com/r/ReverseEngineering/comments/1brofe6/inside_an_unusual_7400series_chip_implemented/)
+- HAHWUL
+  - [ ] [Malicious code in xz/liblzma 😱](https://www.hahwul.com/2024/03/30/malicious-code-in-xz-liblzma/)
+- KitPloit - PenTest &amp; Hacking Tools
+  - [ ] [R2Frida - Radare2 And Frida Better Together](http://www.kitploit.com/2024/03/r2frida-radare2-and-frida-better.html)
+- FreeBuf网络安全行业门户
+  - [ ] [你们就当个故事听——黑客如何10秒钟盗走4.5万美金](https://www.freebuf.com/news/396537.html)
+  - [ ] [紧急提醒！Xzliblzma 被植入源码级后门](https://www.freebuf.com/articles/396531.html)
+- 杨龙
+  - [ ] [Arm64 Centos docker 启动 solr 问题解决方法](https://www.yanglong.pro/arm64-centos-docker-%e5%90%af%e5%8a%a8-solr-%e9%97%ae%e9%a2%98%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95/)
+- 微步在线研究响应中心
+  - [ ] [紧急排查！liblzma/xz官方库被植入后门](https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247505269&idx=1&sn=e133ac4f91a50fcf0eebec1c131db280&chksm=cfcab661f8bd3f778d37f47e708a1a58d60175f44c75d1d46ddd49a69c20d2592a887744631c&scene=58&subscene=0#rd)
+- 绿盟科技CERT
+  - [ ] [【漏洞通告】XZ-Utils供应链后门漏洞（CVE-2024-3094）](https://mp.weixin.qq.com/s?__biz=Mzk0MjE3ODkxNg==&mid=2247488647&idx=1&sn=f2a10f535769b3453789cbc2bf07b706&chksm=c2c6438cf5b1ca9a11cfb8620d56b5b18b415c735e07c7a48397869514a26d27242f3b4849dd&scene=58&subscene=0#rd)
+- 天御攻防实验室
+  - [ ] [紧急提醒 | 默认安装于每个Linux发行版中的Xz/liblzma被植入后门程序](https://mp.weixin.qq.com/s?__biz=MzU0MzgyMzM2Nw==&mid=2247485499&idx=1&sn=39c6a0ce96a53a4f3f3ba6d4da239417&chksm=fb04cb53cc734245239ec5fddc4d989b4be715951ae259a6337fd94a51021ebb45550a6131d9&scene=58&subscene=0#rd)
+- 长亭安全应急响应中心
+  - [ ] [【正在深入调查】XZ Utils供应链投毒事件的真实影响：可能并不严重？](https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247492437&idx=1&sn=19151b015d21808766e877e164590aff&chksm=96f7fc38a180752eee5aa3f8aa0ec8b91e6a4919687bcefdc480512c87c4a61eeac39dbf240a&scene=58&subscene=0#rd)
+- 知道创宇404实验室
+  - [ ] [【知道创宇404实验室】警惕Linux生态xz-utils软件包被攻击并植入后门（CVE-2024-3094）](https://mp.weixin.qq.com/s?__biz=MzAxNDY2MTQ2OQ==&mid=2650977901&idx=1&sn=d9200fcaa853656a5b7310333a4c52bc&chksm=8079f45fb70e7d497ad8e1e241b1791686dd6c9a9f9143d3a33b8d9ec1f535e6a7cf14eef2ab&scene=58&subscene=0#rd)
+- 奇安信威胁情报中心
+  - [ ] [liblzma/xz库被植入后门影响SSH事件紧急通告（CVE-2024-3094）](https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247510108&idx=1&sn=726338571c7d1bb396f47d07fa83e2d1&chksm=ea665f2bdd11d63d5db5c710e5e19d0949065f144ca783d25061761f7816e68dd906b871994c&scene=58&subscene=0#rd)
+- 丁爸 情报分析师的工具箱
+  - [ ] [【开源调查】认知战（Cognitive Warfare）的起源](https://mp.weixin.qq.com/s?__biz=MzI2MTE0NTE3Mw==&mid=2651142888&idx=1&sn=8c7ef09416fd0109eaa9105b2bab8783&chksm=f1af4dd2c6d8c4c4f2bfb8c8c922db2fcf28b846d7a9d81a2f44b4099b84367427a94c6627d8&scene=58&subscene=0#rd)
+- 看雪学苑
+  - [ ] [CVE-2022-2588 Dirty Cred漏洞分析与复现](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458549352&idx=1&sn=c45c212b8db20154dbfa9edeaaebc593&chksm=b18d4ce286fac5f415b3697517f2c12d523f7c13d1d143b25d895a980a49a2e420d79e5a46f8&scene=58&subscene=0#rd)
+  - [ ] [明晚19点直播课！欢迎报名《系统0day安全-Windows平台漏洞挖掘（第2期）》](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458549352&idx=2&sn=4f896f0f8644a3c8984ec9ef0c04cf7b&chksm=b18d4ce286fac5f453954862bb18ba139e33d42aa6231fb393a771a6f36a125f66b5f8d2d831&scene=58&subscene=0#rd)
+- 情报分析师
+  - [ ] [美国总统大选关键事件时间线](https://mp.weixin.qq.com/s?__biz=MzA3Mjc1MTkwOA==&mid=2650547548&idx=1&sn=5734afd24bf4c1b2f57f563e8ae90466&chksm=87110b17b0668201f5d5f91df0a590a2434eba2e12ca32b9ab6c0b69c546b969d5d373594c66&scene=58&subscene=0#rd)
+- 极客公园
+  - [ ] [小米汽车上市一天订单近 9 万；华为全年营收 7 千亿，利润增 144%；OpenAI 造千亿美元计算机 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653037809&idx=1&sn=b7de8557cc4ed205ed9b9ea0eb8ffcdf&chksm=7e5759474920d051973513dbbd3a5e169bcac9a5a77958aef05c1c8b9782446e992d770b4cf0&scene=58&subscene=0#rd)
+- 火绒安全
+  - [ ] [【火绒安全周报】抖音治理利用AI不当行为/iphone用户警惕被钓鱼风险](https://mp.weixin.qq.com/s?__biz=MzI3NjYzMDM1Mg==&mid=2247518069&idx=1&sn=2584aad344bc2d6f8e183c125da04bcd&chksm=eb70594adc07d05c448d9789b22f7bf3e749ec98528515dffd05f46d8d3c08a4acddd0183899&scene=58&subscene=0#rd)
+- 天融信阿尔法实验室
+  - [ ] [【风险提示】天融信关于liblzma/xz库5.6.0、5.6.1版本后门事件（CVE-2024-3094）的风险提示](https://mp.weixin.qq.com/s?__biz=Mzg3MDAzMDQxNw==&mid=2247496594&idx=1&sn=e09266aaa54a6ad0e8188a288084ef7f&chksm=ce96beacf9e137ba3f5cf5b3fe2c25d938f100aeb6d1fef231b0e044081c3c86649e0b627e96&scene=58&subscene=0#rd)
+- 落水轩
+  - [ ] [xz xz-utils供应链攻击CVE-2024-3094初步分析](https://mp.weixin.qq.com/s?__biz=MzI1MjQwMTAyOQ==&mid=2247483855&idx=1&sn=13a48a1e2c31decad06367213547f917&chksm=e9e50525de928c3339c75a7cc8471208a57fe6c0ba4ef069fa40711148b9c148ef88183e1b0e&scene=58&subscene=0#rd)
+- 迪哥讲事
+  - [ ] [在一网站中获得$7000赏金奖励](https://mp.weixin.qq.com/s?__biz=MzIzMTIzNTM0MA==&mid=2247493995&idx=1&sn=9c916e3a8c1d19325a514d2a5fbbbb3b&chksm=e8a5e308dfd26a1e82f49546706067e60d3225fb614490b2fb5baa01bf8ba3cad572232bf929&scene=58&subscene=0#rd)
+- Qualys Security Blog
+  - [ ] [XZ Utils SSHd Backdoor](https://blog.qualys.com/category/vulnerabilities-threat-research)
+- Over Security - Cybersecurity news aggregator
+  - [ ] [AT&T confirms data for 73 million customers leaked on hacker forum](https://www.bleepingcomputer.com/news/security/atandt-confirms-data-for-73-million-customers-leaked-on-hacker-forum/)
+  - [ ] [Vultur banking malware for Android poses as McAfee Security app](https://www.bleepingcomputer.com/news/security/vultur-banking-malware-for-android-poses-as-mcafee-security-app/)
+  - [ ] [Everything I know about the XZ backdoor](https://boehs.org/node/everything-i-know-about-the-xz-backdoor)
+  - [ ] [PHP Obfuscator with Backdoor](https://www.andreadraghetti.it/php-obfuscator-with-backdoor/)
+- bellingcat
+  - [ ] [Kinahan Cartel: Wanted Narco Boss Exposes Whereabouts by Posting Google Reviews](https://www.bellingcat.com/news/2024/03/30/kinahan-cartel-wanted-narco-boss-exposes-whereabouts-by-posting-google-reviews/)
+- Security Affairs
+  - [ ] [Expert found a backdoor in XZ tools used many Linux distributions](https://securityaffairs.com/161224/malware/backdoor-xz-tools-linux-distros.html)
+  - [ ] [German BSI warns of 17,000 unpatched Microsoft Exchange servers](https://securityaffairs.com/161217/security/bsi-warns-vulnerable-microsoft-exchange.html)
+- Information Security
+  - [ ] [Analyzing Malware in an open-source project](https://www.reddit.com/r/Information_Security/comments/1brjmel/analyzing_malware_in_an_opensource_project/)
+- Instapaper: Unread
+  - [ ] [Hidden gems in Apple iOS digital forensics](https://www.msab.com/blog/hidden-gems-in-apple-ios-digital-forensics/)
+  - [ ] [Everything I know about the XZ backdoor](https://boehs.org/node/everything-i-know-about-the-xz-backdoor)
+  - [ ] [Technologist vs spy the xz backdoor debate](https://lcamtuf.substack.com/p/technologist-vs-spy-the-xz-backdoor)
+  - [ ] [TheMoon, la botnet che trasforma router e dispositivi IoT in proxy server malevoli](https://www.cybersecurity360.it/news/themoon-la-botnet-che-trasforma-router-e-dispositivi-iot-in-proxy-server-malevoli/)
+- Your Open Hacker Community
+  - [ ] [Alfa awus036ach only working with 2.4ghz](https://www.reddit.com/r/HowToHack/comments/1brpp4z/alfa_awus036ach_only_working_with_24ghz/)
+- TorrentFreak
+  - [ ] [ACE Targets MagisTV and Other Piracy Apps Through Cloudflare](https://torrentfreak.com/ace-targets-magistv-and-other-piracy-apps-through-cloudflare-240330/)
+- KitPloit - PenTest Tools!
+  - [ ] [R2Frida - Radare2 And Frida Better Together](http://www.kitploit.com/2024/03/r2frida-radare2-and-frida-better.html)
+- Social Engineering
+  - [ ] [Acquiring a social mindset…](https://www.reddit.com/r/SocialEngineering/comments/1brekc8/acquiring_a_social_mindset/)
+  - [ ] [Derren Brown - Supermarket Subliminal Priming](https://www.reddit.com/r/SocialEngineering/comments/1brldcn/derren_brown_supermarket_subliminal_priming/)
+- Troy Hunt's Blog
+  - [ ] [Weekly Update 393](https://www.troyhunt.com/weekly-update-393/)
+- netsecstudents: Subreddit for students studying Network Security and its related subjects
+  - [ ] [VU23213 Help please](https://www.reddit.com/r/netsecstudents/comments/1br5br4/vu23213_help_please/)
+- The Hacker News
+  - [ ] [Hackers Target macOS Users with Malicious Ads Spreading Stealer Malware](https://thehackernews.com/2024/03/hackers-target-macos-users-with.html)
+  - [ ] [Urgent: Secret Backdoor Found in XZ Utils Library, Impacts Major Linux Distros](https://thehackernews.com/2024/03/urgent-secret-backdoor-found-in-xz.html)

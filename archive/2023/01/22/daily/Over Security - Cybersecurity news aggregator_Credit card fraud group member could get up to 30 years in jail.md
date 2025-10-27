@@ -1,0 +1,183 @@
+---
+title: Credit card fraud group member could get up to 30 years in jail
+url: https://www.malwarebytes.com/blog/news/2023/01/another-member-of-new-york-card-fraud-gang-pleads-guilty
+source: Over Security - Cybersecurity news aggregator
+date: 2023-01-22
+fetch_date: 2025-10-04T04:34:12.196626
+---
+
+# Credit card fraud group member could get up to 30 years in jail
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![pleaded guilty](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/01/asset_upload_file45265_255605.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Credit card fraud group member could get up to 30 years in jail
+
+Posted: January 20, 2023
+ by [Christopher Boyd](https://www.malwarebytes.com/blog/authors/cboyd)
+
+Card fraud, a staple diet of scammers online, is currently featuring heavily on the US Department of Justice portal. The reason? A story which has rumbled on for a few years finally seems to be pulling into its final destination, as a [man admits his role in a slice of fraud](https://www.bleepingcomputer.com/news/security/new-york-man-defrauded-thousands-using-credit-cards-sold-on-dark-web/) which impacted thousands of people across the US.
+
+## A timeline of credit card fraud
+
+Back in 2019, three people alleged to be part of a “nationwide stolen credit card ring” were [arrested in January of that same year](https://westfaironline.com/crime/three-arrested-in-new-rochelle-accused-in-3m-stolen-credit-card-ring/). The gang was said to have racked up $3 million in unauthorised purchases, being charged with conspiracy to commit bank fraud and aggravated [identity theft](https://www.malwarebytes.com/identity-theft).
+
+The location the arrest took place in was filled with credit cards. Said cards were alleged to have been bought online via the [dark web](https://www.malwarebytes.com/cybersecurity/basics/dark-web) and elsewhere. A network of women was put together via social media, with those individuals collecting bought goods from different cities and receiving a cut of the profits once those items were sold on. Some individuals involved had been flagged in the past for various crimes, many of which involved credit cards with one related to “700 stolen accounts”.
+
+The case went silent in the news until 2020, when Hamilton Eromosele, 29, pleaded guilty to [one count of conspiracy to commit bank fraud](https://www.justice.gov/usao-nj/pr/leader-nationwide-credit-card-fraud-affecting-thousands-account-holders-sentenced-110). He was sentenced to 110 months in prison.
+
+We now have some new crime related numbers to report, and it doesn’t look great for at least one of the other individuals involved.
+
+## Big fraud, big losses
+
+Trevor Osagie, 31, has [now pleaded guilty](https://www.justice.gov/usao-nj/pr/bronx-man-admits-role-nationwide-credit-card-fraud-affecting-thousands-account-holders) with regard to charges of conspiracy, which ended up with the conspirators making more than $1.5 million in fraud-laden purchases via a tally of over 4,000 stolen credit card accounts.
+
+Over a period of at least four years from 2015 up until November 2018, the crime network purchased everything from gift cards and hotel stays to rental cards and other goods and services. Despite being based primarily in the New York / New Jersey area, the crimes committed took place all over the US.
+
+## We have the why, but not the how
+
+The [Indictment](https://www.justice.gov/usao-nj/press-release/file/1562926/download) adds some additional context to the overall picture, though there is currently no deep dive into the group’s many activities. In fact, there’s only one example listed of how the group made use of aliases to email the card numbers to one another.
+
+There’s also no word (yet) as to how people were recruited on social media to visit the different cities. Were these roles offered in public under the guise of being something legitimate? Did these opportunities come by private direct messaging? At this point, we simply don’t know.
+
+In total, nine people are listed as having some level of involvement with the wide ranging fraud operatio...

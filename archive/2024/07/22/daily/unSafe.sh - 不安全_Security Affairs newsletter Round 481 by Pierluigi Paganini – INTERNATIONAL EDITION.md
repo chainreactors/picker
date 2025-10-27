@@ -1,0 +1,205 @@
+---
+title: Security Affairs newsletter Round 481 by Pierluigi Paganini – INTERNATIONAL EDITION
+url: https://buaq.net/go-251676.html
+source: unSafe.sh - 不安全
+date: 2024-07-22
+fetch_date: 2025-10-06T17:39:32.219917
+---
+
+# Security Affairs newsletter Round 481 by Pierluigi Paganini – INTERNATIONAL EDITION
+
+* [unSafe.sh - 不安全](https://unsafe.sh)
+* [我的收藏](/user/collects)
+* [今日热榜](/?hot=true)
+* [公众号文章](/?gzh=true)
+* [导航](/nav/index)
+* [Github CVE](/cve)
+* [Github Tools](/tools)
+* [编码/解码](/encode)
+* [文件传输](/share/index)
+* [Twitter Bot](https://twitter.com/buaqbot)
+* [Telegram Bot](https://t.me/aqinfo)
+* [Search](/search/search)
+
+[Rss](/rss.xml)
+
+[ ]
+黑夜模式
+
+![]()
+
+Security Affairs newsletter Round 481 by Pierluigi Paganini – INTERNATIONAL EDITION
+
+Security Affairs newsletter Round 481 by Pierluigi Paganini – INTERNATIONAL EDITION | U.S. CISA
+*2024-7-21 19:59:15
+Author: [securityaffairs.com(查看原文)](/jump-251676.htm)
+阅读量:16
+收藏*
+
+---
+
+[Security Affairs newsletter Round 481 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/166006/breaking-news/security-affairs-newsletter-round-481-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[U.S. CISA adds Adobe Commerce and Magento, SolarWinds Serv-U, and VMware vCenter Server bugs to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/165981/hacking/u-s-cisa-adds-adobe-commerce-and-magento-solarwinds-serv-u-and-vmware-vcenter-server-bugs-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Threat actors attempted to capitalize CrowdStrike incident](https://securityaffairs.com/165953/malware/threat-actors-capitalize-crowdstrike-incident.html)
+
+ |
+
+[Russian nationals plead guilty to participating in the LockBit ransomware group](https://securityaffairs.com/165941/cyber-crime/lockbit-ransomware-group-members-plead-guilty.html)
+
+ |
+
+[MediSecure data breach impacted 12.9 million individuals](https://securityaffairs.com/165932/security/medisecure-databreach-12-9m-individuals.html)
+
+ |
+
+[CrowdStrike update epic fail crashed Windows systems worldwide](https://securityaffairs.com/165920/security/crowdstrike-epic-fail-crashed-windows.html)
+
+ |
+
+[Cisco fixed a critical flaw in Security Email Gateway that could allow attackers to add root users](https://securityaffairs.com/165905/security/cisco-fixed-a-critical-flaw-in-security-email-gateway-that-could-allow-attackers-to-add-root-users.html)
+
+ |
+
+[SAPwned flaws in SAP AI core could expose customers' data](https://securityaffairs.com/165888/hacking/sap-ai-core-sapwned.html)
+
+ |
+
+[Cybercrime group FIN7 advertises new EDR bypass tool on hacking forums](https://securityaffairs.com/165863/cyber-crime/fin7-advertising-security-evasion.html)
+
+ |
+
+[How to Protect Privacy and Build Secure AI Products](https://securityaffairs.com/165866/security/how-to-build-secure-ai-products.html)
+
+ |
+
+[A critical flaw in Cisco SSM On-Prem allows attackers to change any user's password](https://securityaffairs.com/165848/security/critical-flaw-cisco-ssm-on-prem.html)
+
+ |
+
+[MarineMax data breach impacted over 123,000 individuals](https://securityaffairs.com/165843/data-breach/marinemax-data-breach.html)
+
+ |
+
+[Void Banshee exploits CVE-2024-38112 zero-day to spread malware](https://securityaffairs.com/165832/apt/void-banshee-cve-2024-38112-zero-day-attacks.html)
+
+ |
+
+[The Octo Tempest group adds RansomHub and Qilin ransomware to its arsenal](https://securityaffairs.com/165811/cyber-crime/octo-tempest-ransomhub-qilin-ransomware.html)
+
+ |
+
+[CISA adds OSGeo GeoServer GeoTools bug to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/165812/security/cisa-adds-osgeo-geoserver-geotools-bug-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Kaspersky leaves U.S. market following the ban on the sale of its software in the country](https://securityaffairs.com/165799/breaking-news/kaspersky-is-leaving-the-u-s-market.html)
+
+ |
+
+[FBI unlocked the phone of the suspect in the assassination attempt on Donald Trump](https://securityaffairs.com/165784/mobile-2/fbi-gained-access-phone-suspect-assassination-attempt-on-donald-trump.html)
+
+ |
+
+[Ransomware groups target Veeam Backup & Replication bug](https://securityaffairs.com/165753/malware/ransomware-groups-target-veeam-backup-replication-bug.html)
+
+ |
+
+[AT&T paid a $370,000 ransom to prevent stolen data from being leaked](https://securityaffairs.com/165755/cyber-crime/att-paid-370000-ransom.html)
+
+ |
+
+[HardBit ransomware version 4.0 supports new obfuscation techniques](https://securityaffairs.com/165735/malware/hardbit-ransomware-version-4-0.html)
+
+ |
+
+[Dark Gate malware campaign uses Samba file shares](https://securityaffairs.com/165723/malware/dark-gate-malware-uses-samba-file-shares.html)
+
+ |
+
+[Security Affairs Malware Newsletter - Round 2](https://securityaffairs.com/165712/malware/security-affairs-malware-newsletter-round-2.html)
+
+ |
+
+[Security Affairs newsletter Round 480 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/165703/breaking-news/security-affairs-newsletter-round-480-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[Vyacheslav Igorevich Penchukov was sentenced to prison for his role in Zeus and IcedID operations](https://securityaffairs.com/165693/cyber-crime/vyacheslav-igorevich-penchukov-sentenced-prison.html)
+
+ |
+
+[Rite Aid disclosed data breach following RansomHub ransomware attack](https://securityaffairs.com/165674/data-breach/rite-aid-corporation-data-breach.html)
+
+ |
+
+[New AT&T data breach exposed call logs of almost all customers](https://securityaffairs.com/165658/data-breach/att-disclosed-a-new-data-breach.html)
+
+ |
+
+[Critical flaw in Exim MTA could allow to deliver malware to users' inboxes](https://securityaffairs.com/165649/hacking/critical-flaw-exim-mta.html)
+
+ |
+
+[Palo Alto Networks fixed a critical bug in the Expedition tool](https://securityaffairs.com/165641/security/palo-alto-networks-critical-bug-expedition.html)
+
+ |
+
+[Smishing Triad Is Targeting India To Steal Personal and Payment Data at Scale](https://securityaffairs.com/165632/cyber-crime/smishing-triad-is-targeting-india.html)
+
+ |
+
+[October ransomware attack on Dallas County impacted over 200,000 people](https://securityaffairs.com/165623/cyber-crime/dallas-county-ransomware-attack-impacts.html)
+
+ |
+
+[CrystalRay operations have scaled 10x to over 1,500 victims](https://securityaffairs.com/165607/cyber-crime/crystalray-operations-scaled-10x.html)
+
+ |
+
+[Multiple threat actors exploit PHP flaw CVE-2024-4577 to deliver malware](https://securityaffairs.com/165586/hacking/php-flaw-cve-2024-4577-actively-exploited.html)
+
+ |
+
+[AI-Powered Russia's bot farm operates on X, US and its allies warn](https://securityaffairs.com/165572/security/russias-bot-farm-disinformation.html)
+
+ |
+
+[VMware fixed critical SQL-Injection in Aria Automation product](https://securityaffairs.com/165560/security/vmware-aria-automation-critical-sql-injection.html)
+
+ |
+
+[Citrix fixed critical and high-severity bugs in NetScaler product](https://securityaffairs.com/165553/security/citrix-fixed-netscaler-flaw.html)
+
+ |
+
+[A new flaw in OpenSSH can lead to remote code execution](https://securityaffairs.com/165535/hacking/openssh-flaw-cve-2024-6409.html)
+
+ |
+
+[Microsoft Patch Tuesday for July 2024 fixed 2 actively exploited zero-days](https://securityaffairs.com/165520/security/microsoft-patch-tuesday-for-july-2024.html)
+
+ |
+
+[U.S. CISA adds Microsoft Windows and Rejetto HTTP File Server bugs to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/165513/security/cisa-adds-windows-rejetto-http-file-server-bugs-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Evolve Bank data breach impacted over 7.6 million individuals](https://securityaffairs.com/165504/cyber-crime/evolve-bank-data-breach-7-6m-people.html)
+
+ |
+
+[More than 31 million customer email addresses exposed following Neiman Marcus data breach](https://securityaffairs.com/165492/data-breach/neiman-marcus-data-breach-2.html)
+
+ |
+
+[Avast released a decryptor for DoNex Ransomware and its predecessors](https://securityaffairs.com/165469/malware/donex-ransomware-decryptor.html)
+
+ |
+
+[RockYou2024 compilation containing 10 billion passwords was leaked online](https://securityaffairs.com/165460/data-breach/rockyou2024-compilation-10b-...

@@ -1,0 +1,20 @@
+---
+title: 重新定义XDR市场的6个关键趋势
+url: https://mp.weixin.qq.com/s?__biz=MzUyMDQ4OTkyMg==&mid=2247549034&idx=1&sn=f4e649957b48f2f9d723c2af95602e90
+source: Doonsec's feed
+date: 2025-07-17
+fetch_date: 2025-10-06T23:25:22.745154
+---
+
+# 重新定义XDR市场的6个关键趋势
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

