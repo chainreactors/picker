@@ -4,4 +4,4 @@ colorama
 pyyaml
 pyrate-limiter
 listparser
-markitdown
+markitdown==0.1.3
