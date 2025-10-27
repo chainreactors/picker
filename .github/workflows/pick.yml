@@ -68,6 +68,9 @@ jobs:
           git config --global user.email chainreactorbot@gmail.com
           git config --global user.name chainreactorbot
 
+          # Stash any changes in master branch (like today_pick.md)
+          git stash push -m "Temporary stash for today_pick.md"
+
           # Switch to archive branch
           git fetch origin archive
           git checkout archive || git checkout --orphan archive
@@ -87,6 +90,7 @@ jobs:
       - name: Update today_pick.md in master
         run: |
           git checkout master
+          git stash pop || true
           git add today_pick.md
           git diff --staged --quiet || git commit -m "Update today_pick.md"
           git push origin master

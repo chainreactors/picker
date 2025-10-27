@@ -84,6 +84,9 @@ jobs:
           git config --global user.email chainreactorbot@gmail.com
           git config --global user.name chainreactorbot
 
+          # Stash any changes in master branch if they exist
+          git stash push -m "Temporary stash before switching to archive" || true
+
           # Switch to archive branch
           git fetch origin archive
           git checkout archive || git checkout --orphan archive
