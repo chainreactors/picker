@@ -23,7 +23,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
       - name: Install dependencies
-        run: pip3 install markitdown && ./install.sh
+        run: ./install.sh
 
       - name: Push articles
         env:

@@ -53,7 +53,7 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: pip3 install markitdown && ./install.sh
+        run: ./install.sh
 
       - name: Update Body and Generate Summary
         run: python3 picker.py --push-issue ${{ github.event.issue.number }}
