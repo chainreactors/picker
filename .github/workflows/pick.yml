@@ -89,7 +89,7 @@ jobs:
 
       - name: Update today_pick.md in master
         run: |
-          git checkout master
+          git checkout -f master
           git stash pop || true
           git add today_pick.md
           git diff --staged --quiet || git commit -m "Update today_pick.md"

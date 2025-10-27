@@ -88,7 +88,7 @@ jobs:
 
       - name: Update today.md in master
         run: |
-          git checkout master
+          git checkout -f master
           git stash pop || true
           git add today.md
           git diff --staged --quiet || git commit -m "Update today.md"
