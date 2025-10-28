@@ -68,50 +68,48 @@ jobs:
           git config --global user.email chainreactorbot@gmail.com
           git config --global user.name chainreactorbot
 
-          # Stash any changes in master branch (like today_pick.md)
-          git stash push -m "Temporary stash for today_pick.md" || true
-
           # Get date variables
           year=$(date -d yesterday +'%Y')
           month=$(date -d yesterday +'%m')
           day=$(date -d yesterday +'%d')
 
-          # Move archive directory to temporary location
-          temp_archive="/tmp/archive_temp_${year}_${month}_${day}"
-          if [ -d "archive/${year}/${month}/${day}" ]; then
-            mkdir -p "$temp_archive"
-            mv "archive/${year}/${month}/${day}" "$temp_archive/"
-          fi
-
           # Fetch archive branch
-          git fetch origin archive
+          git fetch origin archive:archive 2>/dev/null || echo "Archive branch will be created"
 
-          # Use sparse-checkout to avoid long filename issues
-          git config core.sparseCheckout true
-          echo "archive/${year}/" > .git/info/sparse-checkout
-
-          # Checkout archive branch with sparse checkout
+          # Create a worktree for archive branch
+          worktree_path="/tmp/archive_worktree_$$"
           if git show-ref --verify --quiet refs/heads/archive; then
-            git checkout -f archive
+            # Archive branch exists, create worktree from it with sparse-checkout
+            git worktree add --no-checkout "$worktree_path" archive
+            cd "$worktree_path"
+            git sparse-checkout set "archive/${year}/"
+            git checkout
           else
-            git checkout -b archive origin/archive 2>/dev/null || git checkout --orphan archive
+            # Create orphan branch
+            git worktree add --detach "$worktree_path"
+            cd "$worktree_path"
+            git checkout --orphan archive
+            git rm -rf . 2>/dev/null || true
           fi
 
-          # Move files back
-          if [ -d "$temp_archive/${day}" ]; then
+          # Copy new files to worktree
+          if [ -d "/home/runner/work/picker/picker/archive/${year}/${month}/${day}" ]; then
             mkdir -p "archive/${year}/${month}"
-            mv "$temp_archive/${day}" "archive/${year}/${month}/"
+            cp -r "/home/runner/work/picker/picker/archive/${year}/${month}/${day}" "archive/${year}/${month}/"
           fi
 
-          # Add and commit changes
+          # Commit and push
           git add "archive/${year}/${month}/${day}/"
-          git diff --staged --quiet || git commit -m "每日精选汇总（`date +'%Y-%m-%d'`）"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "每日精选汇总（`date +'%Y-%m-%d'`）"
+            git push origin archive
+          fi
 
-          # Push to archive branch
-          git push origin archive
-
-          # Disable sparse-checkout for next steps
-          git config core.sparseCheckout false
+          # Cleanup
+          cd /home/runner/work/picker/picker
+          git worktree remove "$worktree_path" --force
 
       - name: Update today_pick.md in master
         run: |
