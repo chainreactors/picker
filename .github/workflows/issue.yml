@@ -87,22 +87,30 @@ jobs:
           # Stash any changes in master branch if they exist
           git stash push -m "Temporary stash before switching to archive" || true
 
-          # Move archive directory to temporary location to avoid conflicts
+          # Get date variables
           year=$(date +'%Y')
           month=$(date +'%m')
           day=$(date +'%d')
+
+          # Move archive directory to temporary location
           temp_archive="/tmp/archive_temp_${year}_${month}_${day}"
           if [ -d "archive/${year}/${month}/${day}" ]; then
             mkdir -p "$temp_archive"
             mv "archive/${year}/${month}/${day}" "$temp_archive/"
           fi
 
-          # Switch to archive branch
+          # Fetch archive branch
           git fetch origin archive
+
+          # Use sparse-checkout to avoid long filename issues
+          git config core.sparseCheckout true
+          echo "archive/${year}/" > .git/info/sparse-checkout
+
+          # Checkout archive branch with sparse checkout
           if git show-ref --verify --quiet refs/heads/archive; then
             git checkout -f archive
           else
-            git checkout -b archive origin/archive || git checkout --orphan archive
+            git checkout -b archive origin/archive 2>/dev/null || git checkout --orphan archive
           fi
 
           # Move files back
@@ -111,13 +119,14 @@ jobs:
             mv "$temp_archive/${day}" "archive/${year}/${month}/"
           fi
 
-          # Add changes to archive
+          # Add and commit changes
           git add "archive/${year}/${month}/${day}/"
-
-          # Commit if there are changes
           git diff --staged --quiet || git commit -m "添加文章 markdown（Issue #${{ github.event.issue.number }}）"
 
           # Push to archive branch
           git push origin archive
+
+          # Disable sparse-checkout for next steps
+          git config core.sparseCheckout false
 
 
