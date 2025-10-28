@@ -3,7 +3,7 @@ title: 网络安全公司想增长？先做 “品类迁徙”：从合规到业
 url: https://mp.weixin.qq.com/s?__biz=MjM5MDk4OTk0NA==&mid=2650126661&idx=1&sn=5b0e00a4345a806a81a5307607157ef9
 source: Doonsec's feed
 date: 2025-10-27
-fetch_date: 2025-10-28T02:57:27.948382
+fetch_date: 2025-10-28T03:06:16.122523
 ---
 
 # 网络安全公司想增长？先做 “品类迁徙”：从合规到业务需求，就看这几步（突围系列）

@@ -3,7 +3,7 @@ title: 微软禁用文件资源管理器的预览功能
 url: https://www.solidot.org/story?sid=82643
 source: 奇客Solidot–传递最新科技情报
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:56.861037
+fetch_date: 2025-10-28T03:07:15.994718
 ---
 
 # 微软禁用文件资源管理器的预览功能
@@ -43,7 +43,7 @@ solidot新版网站常见问题，请点击[这里](/QA)查看。
 
 ## 消息
 
-**本文已被查看 1804 次**
+**本文已被查看 1836 次**
 
 ## 微软禁用文件资源管理器的预览功能
 
@@ -61,7 +61,7 @@ https://support.microsoft.com/en-us/topic/file-explorer-automatically-disables-t
 
 ﻿
 
-自由的保证是什么?是对自己不再感到羞耻。——尼采
+世间最庄严的问题是：我能做什么好事？
 
 * [首页](/)
 * [至顶网](http://www.zhiding.cn)

@@ -3,7 +3,7 @@ title: X Warns Users With Security Keys to Re-Enroll Before November 10 to Avoid
 url: https://thehackernews.com/2025/10/x-warns-users-with-security-keys-to-re.html
 source: The Hacker News
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:37.257806
+fetch_date: 2025-10-28T03:08:58.545945
 ---
 
 # X Warns Users With Security Keys to Re-Enroll Before November 10 to Avoid Lockouts

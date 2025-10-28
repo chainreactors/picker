@@ -3,7 +3,7 @@ title: Are You Protecting Yourself from Deepfakes? Take This Quick Quiz.
 url: https://www.guidepointsecurity.com/blog/are-you-protecting-yourself-from-deepfakes-quiz/
 source: GuidePoint Security
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:30.312388
+fetch_date: 2025-10-28T03:06:50.417111
 ---
 
 # Are You Protecting Yourself from Deepfakes? Take This Quick Quiz.
@@ -29,52 +29,52 @@ fetch_date: 2025-10-28T02:58:30.312388
 
   + [Ensure all software releases are secure || https://www.guidepointsecurity.com/application-security/
 
-    Application Security](#content-52f0927690031549b4ac)
+    Application Security](#content-52f092769003348bedd1)
   + [Confidently use AI to fuel organizational success. || https://www.guidepointsecurity.com/artificialintelligence/
 
-    Artificial Intelligence (AI)](#content-1f7a42a690031549b4ac)
+    Artificial Intelligence (AI)](#content-1f7a42a69003348bedd1)
   + [Adapt cybersecurity to cloud transformation across your enterprise. || https://www.guidepointsecurity.com/cloud-security-services/
 
-    Cloud Security](#content-aa90c44690031549b4ac)
+    Cloud Security](#content-aa90c4469003348bedd1)
   + [Overcome data security challenges & improve data protection to fit your needs & environment. || https://www.guidepointsecurity.com/data-security/
 
-    Data Security & Privacy](#content-c98b305690031549b4ac)
+    Data Security & Privacy](#content-c98b30569003348bedd1)
   + [Ensure the protection of email content & accounts from unauthorized access. || https://www.guidepointsecurity.com/email-security/
 
-    Email Security](#content-3db3730690031549b4ac)
+    Email Security](#content-3db373069003348bedd1)
   + [Identify & manage the right endpoint security technologies for your unique requirements. || https://www.guidepointsecurity.com/endpoint-security/
 
-    Endpoint Security](#content-f181e14690031549b4ac)
+    Endpoint Security](#content-f181e1469003348bedd1)
   + [Align your security program with industry best practices while managing risk & addressing compliance mandates. || https://www.guidepointsecurity.com/governance-risk-management-and-compliance/
 
-    Governance, Risk & Compliance (GRC)](#content-69552bb690031549b4ac)
+    Governance, Risk & Compliance (GRC)](#content-69552bb69003348bedd1)
   + [Enable business operations through access governance & process automation. || https://www.guidepointsecurity.com/identity-and-access-management/
 
-    Identity & Access Management (IAM)](#content-da0f808690031549b4ac)
+    Identity & Access Management (IAM)](#content-da0f80869003348bedd1)
   + [Prepare for, respond to & resolve security incidents early on through an effective threat intelligence program & IR framework. || https://www.guidepointsecurity.com/incident-response-and-threat-intelligence/
 
-    Incident Response (IR) & Threat Intelligence (TI)](#content-d658103690031549b4ac)
+    Incident Response (IR) & Threat Intelligence (TI)](#content-d65810369003348bedd1)
   + [Leverage skilled resources to manage your security platforms so you can focus on reducing cyber risk. || https://www.guidepointsecurity.com/managed-security-services/
 
-    Managed Security Services](#content-f1c773d690031549b4ac)
+    Managed Security Services](#content-f1c773d69003348bedd1)
   + [Ensure the integrity & security of your physical & virtual networks. || https://www.guidepointsecurity.com/network-and-infrastructure-security/
 
-    Network & Infrastructure Security](#content-2e0f146690031549b4ac)
+    Network & Infrastructure Security](#content-2e0f14669003348bedd1)
   + [Protect your critical infrastructure and connected devices from threats while validating your security compliance.
 
-    OT, IoT, and IIoT Security](#content-1c664d0690031549b4ac)
+    OT, IoT, and IIoT Security](#content-1c664d069003348bedd1)
   + [Instructor-led security services provide access to key technologies, specifically customized to address your organization’s needs. || https://www.guidepointsecurity.com/security-awareness-education/
 
-    Security Awareness & Education](#content-62f7e52690031549b4ac)
+    Security Awareness & Education](#content-62f7e5269003348bedd1)
   + [Unlock the power of the tools within your SOC to gain greater visibility into information security events, reduce the time to remediate incidents & improve your overall security posture. || https://www.guidepointsecurity.com/security-operations/
 
-    Security Operations Center (SOC) Services](#content-ecd2ca9690031549b4ac)
+    Security Operations Center (SOC) Services](#content-ecd2ca969003348bedd1)
   + [Our team of industry-leading consultants, engineers & analysts are ready to support your staff & address your cybersecurity requirements. || https://www.guidepointsecurity.com/staff-augmentation/
 
-    Staff Augmentation](#content-c6ef3b6690031549b4ac)
+    Staff Augmentation](#content-c6ef3b669003348bedd1)
   + [Identify & prioritize vulnerabilities & assess your organization’s readiness to withstand an attack from the most advanced adversaries. || https://www.guidepointsecurity.com/vulnerability-management-and-penetration-testing/
 
-    Vulnerability Management & Penetration Testing](#content-460985c690031549b4ac)
+    Vulnerability Management & Penetration Testing](#content-460985c69003348bedd1)
 
   Edit Content
 

@@ -3,7 +3,7 @@ title: 动态容器注入-一种隐蔽的k8s权限维持方法
 url: https://forum.butian.net/share/4606
 source: 奇安信攻防社区
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:22.931606
+fetch_date: 2025-10-28T03:05:50.211163
 ---
 
 # 动态容器注入-一种隐蔽的k8s权限维持方法

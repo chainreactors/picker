@@ -3,7 +3,7 @@ title: kpcyrd contributed to actix/actix-net
 url: https://github.com/actix/actix-net/pull/743
 source: Private Feed for M09Ic
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:12.675373
+fetch_date: 2025-10-28T03:05:53.891964
 ---
 
 # kpcyrd contributed to actix/actix-net

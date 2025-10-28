@@ -3,7 +3,7 @@ title: Update: dnsresolver.py Version 0.0.4
 url: https://blog.didierstevens.com/2025/10/27/update-dnsresolver-py-version-0-0-4/
 source: Didier Stevens
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:30.714692
+fetch_date: 2025-10-28T03:06:50.873981
 ---
 
 # Update: dnsresolver.py Version 0.0.4

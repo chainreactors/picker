@@ -3,7 +3,7 @@ title: Louvre Jewel Heist
 url: https://www.schneier.com/blog/archives/2025/10/louvre-jewel-heist.html
 source: Schneier on Security
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:43.971857
+fetch_date: 2025-10-28T03:09:04.723785
 ---
 
 # Louvre Jewel Heist

@@ -3,7 +3,7 @@ title: Italian spyware vendor linked to Chrome zero-day attacks
 url: https://www.bleepingcomputer.com/news/security/italian-spyware-vendor-linked-to-chrome-zero-day-attacks/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:14.924844
+fetch_date: 2025-10-28T03:08:29.658668
 ---
 
 # Italian spyware vendor linked to Chrome zero-day attacks

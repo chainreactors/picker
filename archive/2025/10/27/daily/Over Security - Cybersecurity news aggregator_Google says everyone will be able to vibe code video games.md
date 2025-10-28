@@ -3,7 +3,7 @@ title: Google says everyone will be able to vibe code video games
 url: https://www.bleepingcomputer.com/news/google/google-says-everyone-will-be-able-to-vibe-code-video-games/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:15.258862
+fetch_date: 2025-10-28T03:08:30.050379
 ---
 
 # Google says everyone will be able to vibe code video games

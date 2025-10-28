@@ -3,7 +3,7 @@ title: SecWiki News 2025-10-27 Review
 url: http://www.sec-wiki.com/?2025-10-27
 source: SecWiki News
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:12.040067
+fetch_date: 2025-10-28T03:05:48.202883
 ---
 
 # SecWiki News 2025-10-27 Review

@@ -3,7 +3,7 @@ title: Se l’AI diventa una minaccia interna: Atlas e i rischi aziendali
 url: https://www.cybersecurity360.it/nuove-minacce/se-lai-diventa-una-minaccia-interna-atlas-e-i-rischi-aziendali/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:25.643281
+fetch_date: 2025-10-28T03:08:52.540853
 ---
 
 # Se l’AI diventa una minaccia interna: Atlas e i rischi aziendali

@@ -3,7 +3,7 @@ title: LoRexxar forked LoRexxar/phplist-plugin-restapi from phpList/phplist-plug
 url: https://github.com/LoRexxar/phplist-plugin-restapi
 source: Private Feed for M09Ic
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:16.828909
+fetch_date: 2025-10-28T03:05:58.246137
 ---
 
 # LoRexxar forked LoRexxar/phplist-plugin-restapi from phpList/phplist-plugin-restapi

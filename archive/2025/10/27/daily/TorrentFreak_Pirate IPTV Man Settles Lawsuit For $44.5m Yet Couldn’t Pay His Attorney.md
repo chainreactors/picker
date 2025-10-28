@@ -3,7 +3,7 @@ title: Pirate IPTV Man Settles Lawsuit For $44.5m Yet Couldn’t Pay His Attorne
 url: https://torrentfreak.com/pirate-iptv-man-settles-lawsuit-for-44-5m-yet-couldnt-pay-his-attorney-251027/
 source: TorrentFreak
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:43.388322
+fetch_date: 2025-10-28T03:08:59.606687
 ---
 
 # Pirate IPTV Man Settles Lawsuit For $44.5m Yet Couldn’t Pay His Attorney

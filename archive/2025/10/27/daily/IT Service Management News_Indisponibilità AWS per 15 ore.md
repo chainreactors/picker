@@ -3,7 +3,7 @@ title: Indisponibilità AWS per 15 ore
 url: http://blog.cesaregallotti.it/2025/10/indisponibilita-aws-per-15-ore.html
 source: IT Service Management News
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:02.286671
+fetch_date: 2025-10-28T03:08:24.030968
 ---
 
 # Indisponibilità AWS per 15 ore

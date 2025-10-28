@@ -3,7 +3,7 @@ title: Linux variant of Qilin Ransomware targets Windows via remote management t
 url: https://securityaffairs.com/183891/malware/linux-variant-of-qilin-ransomware-targets-windows-via-remote-management-tools-and-byovd.html
 source: Security Affairs
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:36.712678
+fetch_date: 2025-10-28T03:08:57.909304
 ---
 
 # Linux variant of Qilin Ransomware targets Windows via remote management tools and BYOVD

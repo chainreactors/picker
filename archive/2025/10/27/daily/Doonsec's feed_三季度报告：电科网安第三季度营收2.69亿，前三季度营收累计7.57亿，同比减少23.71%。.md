@@ -3,7 +3,7 @@ title: 三季度报告：电科网安第三季度营收2.69亿，前三季度营
 url: https://mp.weixin.qq.com/s?__biz=MzUzNjkxODE5MA==&mid=2247494759&idx=1&sn=308a0637589396aed0e74f4612ee60ee
 source: Doonsec's feed
 date: 2025-10-27
-fetch_date: 2025-10-28T02:57:24.521266
+fetch_date: 2025-10-28T03:06:12.775552
 ---
 
 # 三季度报告：电科网安第三季度营收2.69亿，前三季度营收累计7.57亿，同比减少23.71%。

@@ -3,7 +3,7 @@ title: The State of Exposure Management in 2025: Insights From 3,000+ Organizati
 url: https://www.bleepingcomputer.com/news/security/the-state-of-exposure-management-in-2025-insights-from-3-000-plus-organizations/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:15.733821
+fetch_date: 2025-10-28T03:08:30.606135
 ---
 
 # The State of Exposure Management in 2025: Insights From 3,000+ Organizations

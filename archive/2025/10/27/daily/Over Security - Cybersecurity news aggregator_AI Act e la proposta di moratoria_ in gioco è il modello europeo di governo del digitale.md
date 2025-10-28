@@ -3,7 +3,7 @@ title: AI Act e la proposta di moratoria: in gioco è il modello europeo di gove
 url: https://www.cybersecurity360.it/legal/ai-act-e-la-proposta-di-moratoria-in-gioco-e-il-modello-europeo-di-governo-del-digitale/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:26.056408
+fetch_date: 2025-10-28T03:08:52.959915
 ---
 
 # AI Act e la proposta di moratoria: in gioco è il modello europeo di governo del digitale

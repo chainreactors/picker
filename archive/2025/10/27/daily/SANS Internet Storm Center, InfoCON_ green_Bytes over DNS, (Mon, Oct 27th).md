@@ -3,7 +3,7 @@ title: Bytes over DNS, (Mon, Oct 27th)
 url: https://isc.sans.edu/diary/rss/32420
 source: SANS Internet Storm Center, InfoCON: green
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:34.282295
+fetch_date: 2025-10-28T03:08:21.494199
 ---
 
 # Bytes over DNS, (Mon, Oct 27th)

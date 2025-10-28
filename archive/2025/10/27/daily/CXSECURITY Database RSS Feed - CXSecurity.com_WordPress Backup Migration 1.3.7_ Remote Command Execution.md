@@ -3,7 +3,7 @@ title: WordPress Backup Migration 1.3.7: Remote Command Execution
 url: https://cxsecurity.com/issue/WLB-2025100014
 source: CXSECURITY Database RSS Feed - CXSecurity.com
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:26.781480
+fetch_date: 2025-10-28T03:06:47.216571
 ---
 
 # WordPress Backup Migration 1.3.7: Remote Command Execution

@@ -3,7 +3,7 @@ title: Bytes over DNS Tools
 url: https://blog.didierstevens.com/2025/10/27/bytes-over-dns-tools/
 source: Didier Stevens
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:30.544034
+fetch_date: 2025-10-28T03:06:50.713122
 ---
 
 # Bytes over DNS Tools

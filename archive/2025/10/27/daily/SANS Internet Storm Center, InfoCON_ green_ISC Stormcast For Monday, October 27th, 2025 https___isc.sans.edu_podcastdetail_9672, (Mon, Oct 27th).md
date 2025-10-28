@@ -3,7 +3,7 @@ title: ISC Stormcast For Monday, October 27th, 2025 https://isc.sans.edu/podcast
 url: https://isc.sans.edu/diary/rss/32424
 source: SANS Internet Storm Center, InfoCON: green
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:35.042153
+fetch_date: 2025-10-28T03:08:22.123917
 ---
 
 # ISC Stormcast For Monday, October 27th, 2025 https://isc.sans.edu/podcastdetail/9672, (Mon, Oct 27th)

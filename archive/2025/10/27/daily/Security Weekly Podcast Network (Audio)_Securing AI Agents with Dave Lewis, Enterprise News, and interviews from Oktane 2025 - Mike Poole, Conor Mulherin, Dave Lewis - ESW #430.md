@@ -3,7 +3,7 @@ title: Securing AI Agents with Dave Lewis, Enterprise News, and interviews from 
 url: http://sites.libsyn.com/18678/securing-ai-agents-with-dave-lewis-enterprise-news-and-interviews-from-oktane-2025-mike-poole-conor-mulherin-dave-lewis-esw-430
 source: Security Weekly Podcast Network (Audio)
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:45.006393
+fetch_date: 2025-10-28T03:09:04.576387
 ---
 
 # Securing AI Agents with Dave Lewis, Enterprise News, and interviews from Oktane 2025 - Mike Poole, Conor Mulherin, Dave Lewis - ESW #430

@@ -3,7 +3,7 @@ title: Joint Statement on the UN Cybercrime Convention: EFF and Global Partners 
 url: https://www.eff.org/deeplinks/2025/10/joint-statement-un-cybercrime-convention-eff-and-global-partners-urge-governments
 source: Deeplinks
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:43.854898
+fetch_date: 2025-10-28T03:09:01.156281
 ---
 
 # Joint Statement on the UN Cybercrime Convention: EFF and Global Partners Urge Governments Not to Sign

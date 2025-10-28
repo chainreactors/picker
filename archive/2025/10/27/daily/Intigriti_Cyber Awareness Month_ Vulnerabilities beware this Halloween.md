@@ -3,7 +3,7 @@ title: Cyber Awareness Month: Vulnerabilities beware this Halloween
 url: https://www.intigriti.com/blog/business-insights/cyber-awareness-month-vulnerabilities-beware-this-halloween
 source: Intigriti
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:31.887274
+fetch_date: 2025-10-28T03:06:51.750948
 ---
 
 # Cyber Awareness Month: Vulnerabilities beware this Halloween

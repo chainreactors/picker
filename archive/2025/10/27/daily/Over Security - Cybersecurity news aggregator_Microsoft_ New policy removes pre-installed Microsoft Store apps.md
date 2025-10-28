@@ -3,7 +3,7 @@ title: Microsoft: New policy removes pre-installed Microsoft Store apps
 url: https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-remove-pre-installed-microsoft-store-apps-via-policy/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:16.079237
+fetch_date: 2025-10-28T03:08:30.971577
 ---
 
 # Microsoft: New policy removes pre-installed Microsoft Store apps

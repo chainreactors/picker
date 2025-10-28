@@ -3,7 +3,7 @@ title: WSUS attacks hit 'multiple' orgs as Google and other infosec sleuths ring
 url: https://go.theregister.com/feed/www.theregister.com/2025/10/27/microsoft_wsus_attacks_multiple_orgs/
 source: The Register - Security
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:38.469522
+fetch_date: 2025-10-28T03:09:01.570008
 ---
 
 # WSUS attacks hit 'multiple' orgs as Google and other infosec sleuths ring Redmond’s alarm bell
@@ -97,7 +97,7 @@ Sign in / up](https://account.theregister.com/register/)
 [Webinars & Events](https://whitepapers.theregister.com/events/list/)
 [Newsletters](https://account.theregister.com/edit/newsletter/)
 
-[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/front&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx1mLTBgk1DMJT6h16XQAAANg&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/front&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx1mLTBgk1DMJT6h16XQAAANg&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
+[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/front&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzVK7WzvkwhVBVNhgjQAAAEE&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/front&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzVK7WzvkwhVBVNhgjQAAAEE&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
 
 #### [Security](/security/)
 

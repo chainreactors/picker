@@ -3,7 +3,7 @@ title: In corso uno smishing ai danni di Autostrade per l’Italia
 url: https://cert-agid.gov.it/news/in-corso-uno-smishing-ai-danni-di-autostrade-per-litalia/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:18.597541
+fetch_date: 2025-10-28T03:08:33.442872
 ---
 
 # In corso uno smishing ai danni di Autostrade per l’Italia

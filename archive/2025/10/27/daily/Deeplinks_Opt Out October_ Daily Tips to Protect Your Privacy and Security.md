@@ -3,7 +3,7 @@ title: Opt Out October: Daily Tips to Protect Your Privacy and Security
 url: https://www.eff.org/deeplinks/2025/09/opt-out-october-daily-tips-protect-your-privacy-and-security
 source: Deeplinks
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:43.725443
+fetch_date: 2025-10-28T03:09:01.007214
 ---
 
 # Opt Out October: Daily Tips to Protect Your Privacy and Security

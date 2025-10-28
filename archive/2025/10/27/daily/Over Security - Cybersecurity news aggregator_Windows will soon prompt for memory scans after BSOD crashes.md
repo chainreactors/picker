@@ -3,7 +3,7 @@ title: Windows will soon prompt for memory scans after BSOD crashes
 url: https://www.bleepingcomputer.com/news/microsoft/windows-will-soon-prompt-for-memory-scans-after-bsod-crashes/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:13.853090
+fetch_date: 2025-10-28T03:08:28.607996
 ---
 
 # Windows will soon prompt for memory scans after BSOD crashes

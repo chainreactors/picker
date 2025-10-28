@@ -3,7 +3,7 @@ title: 盖茨的核电公司通过环评
 url: https://www.solidot.org/story?sid=82646
 source: 奇客Solidot–传递最新科技情报
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:50.497719
+fetch_date: 2025-10-28T03:07:10.051435
 ---
 
 # 盖茨的核电公司通过环评
@@ -43,7 +43,7 @@ solidot新版网站常见问题，请点击[这里](/QA)查看。
 
 ## 消息
 
-**本文已被查看 1509 次**
+**本文已被查看 1541 次**
 
 ## 盖茨的核电公司通过环评
 
@@ -61,7 +61,7 @@ https://www.terrapower.com/natrium-project-receives-first-nrc-issued-environment
 
 ﻿
 
-冬天已经到来，春天还会远吗？--雪莱
+程序员的问题是你无法预料他在做什么，直到为时已晚--Seymour Cray
 
 * [首页](/)
 * [至顶网](http://www.zhiding.cn)

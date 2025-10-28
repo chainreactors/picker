@@ -3,7 +3,7 @@ title: Ex-CISA head thinks AI might fix code so fast we won't need security team
 url: https://go.theregister.com/feed/www.theregister.com/2025/10/27/jen_easterly_ai_cybersecurity/
 source: The Register - Security
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:42.804089
+fetch_date: 2025-10-28T03:09:03.633096
 ---
 
 # Ex-CISA head thinks AI might fix code so fast we won't need security teams
@@ -97,7 +97,7 @@ Sign in / up](https://account.theregister.com/register/)
 [Webinars & Events](https://whitepapers.theregister.com/events/list/)
 [Newsletters](https://account.theregister.com/edit/newsletter/)
 
-[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2gWfGAv07fFN9E1euAAAAE8&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2gWfGAv07fFN9E1euAAAAE8&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
+[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzwWfGAv07fFN9E1lhAAAAE0&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzwWfGAv07fFN9E1lhAAAAE0&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
 
 #### [Cyber-crime](/security/cyber_crime/)
 
@@ -125,4 +125,4 @@ Speaking at AuditBoard's user conference in San Diego, Easterly said the threat 
 
 The proliferation of data, platforms, and devices meant "we've expanded the attack surface for cyber threat actors like China and Russia and Iran and North Korea and gangs of cybercriminals." Easterly said that if cybercrime was a country, it would be the third biggest in the world, just behind the US and China.
 
-[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2gWfGAv07fFN9E1euAAAAE8&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2gWfGAv07fFN9E1euAAAAE8&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondo...
+[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzwWfGAv07fFN9E1lhAAAAE0&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzwWfGAv07fFN9E1lhAAAAE0&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondo...

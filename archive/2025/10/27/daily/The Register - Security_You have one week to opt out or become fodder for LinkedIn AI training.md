@@ -3,7 +3,7 @@ title: You have one week to opt out or become fodder for LinkedIn AI training
 url: https://go.theregister.com/feed/www.theregister.com/2025/10/27/linkedin_ai_profile_scraping/
 source: The Register - Security
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:41.515723
+fetch_date: 2025-10-28T03:09:02.435249
 ---
 
 # You have one week to opt out or become fodder for LinkedIn AI training
@@ -97,16 +97,16 @@ Sign in / up](https://account.theregister.com/register/)
 [Webinars & Events](https://whitepapers.theregister.com/events/list/)
 [Newsletters](https://account.theregister.com/edit/newsletter/)
 
-[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_software/aiml&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2QWfGAv07fFN9E1eqgAAAEs&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_software/aiml&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2QWfGAv07fFN9E1eqgAAAEs&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
+[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_software/aiml&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzhTZf1F2JZSFIE7ukwAAAJU&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_software/aiml&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzhTZf1F2JZSFIE7ukwAAAJU&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
 
 #### [AI + ML](/software/ai_ml/)
 
-[**32**
+[**33**
 ![comment bubble on white](/design_picker/f5daacc84b9722c1e31ba85f836c37e4ad993fc4/graphics/icons/bubble_comment_white.png)](https://forums.theregister.com/forum/all/2025/10/27/linkedin_ai_profile_scraping/ "View comments on this article")
 
 # You have one week to opt out or become fodder for LinkedIn AI training
 
-[**32**
+[**33**
 ![comment bubble on white](/design_picker/f5daacc84b9722c1e31ba85f836c37e4ad993fc4/graphics/icons/bubble_comment_white.png)](https://forums.theregister.com/forum/all/2025/10/27/linkedin_ai_profile_scraping/ "View comments on this article")
 
 ## Nations previously exempt from scraping now in the firing line

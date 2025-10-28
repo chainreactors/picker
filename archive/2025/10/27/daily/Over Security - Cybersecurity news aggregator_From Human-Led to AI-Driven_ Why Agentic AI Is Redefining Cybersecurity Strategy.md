@@ -3,7 +3,7 @@ title: From Human-Led to AI-Driven: Why Agentic AI Is Redefining Cybersecurity S
 url: https://cyble.com/blog/agentic-ai-the-future-of-cybersecurity-defense/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:22.813745
+fetch_date: 2025-10-28T03:08:49.969353
 ---
 
 # From Human-Led to AI-Driven: Why Agentic AI Is Redefining Cybersecurity Strategy

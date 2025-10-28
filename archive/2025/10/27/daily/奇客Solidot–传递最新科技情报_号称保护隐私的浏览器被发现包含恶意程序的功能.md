@@ -3,7 +3,7 @@ title: 号称保护隐私的浏览器被发现包含恶意程序的功能
 url: https://www.solidot.org/story?sid=82645
 source: 奇客Solidot–传递最新科技情报
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:51.967826
+fetch_date: 2025-10-28T03:07:11.865791
 ---
 
 # 号称保护隐私的浏览器被发现包含恶意程序的功能
@@ -43,7 +43,7 @@ solidot新版网站常见问题，请点击[这里](/QA)查看。
 
 ## 消息
 
-**本文已被查看 1585 次**
+**本文已被查看 1619 次**
 
 ## 号称保护隐私的浏览器被发现包含恶意程序的功能
 
@@ -62,7 +62,7 @@ https://blogs.infoblox.com/threat-intelligence/vault-viper-high-stakes-hidden-th
 
 ﻿
 
-任何人均有其价值
+善待他人，即是最善待自己。
 
 * [首页](/)
 * [至顶网](http://www.zhiding.cn)

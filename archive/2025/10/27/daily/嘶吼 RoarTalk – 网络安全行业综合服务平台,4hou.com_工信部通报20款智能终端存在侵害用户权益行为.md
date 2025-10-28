@@ -3,7 +3,7 @@ title: 工信部通报20款智能终端存在侵害用户权益行为
 url: https://www.4hou.com/posts/pn01
 source: 嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:23.603487
+fetch_date: 2025-10-28T03:05:51.383211
 ---
 
 # 工信部通报20款智能终端存在侵害用户权益行为
@@ -52,7 +52,7 @@ fetch_date: 2025-10-28T02:58:23.603487
 [新闻](https://www.4hou.com/category/news)
 19小时 前发布
 
-![](https://img.4hou.com/article/%E6%B5%8F%E8%A7%88.png)7169
+![](https://img.4hou.com/article/%E6%B5%8F%E8%A7%88.png)7302
 
 收藏
 
@@ -83,7 +83,7 @@ fetch_date: 2025-10-28T02:58:23.603487
 
 评论
 
-![](https://www.4hou.com/captcha/flat?mXdpHYGn)
+![](https://www.4hou.com/captcha/flat?TI1tj8QD)
 
 #### 你可能感兴趣的
 

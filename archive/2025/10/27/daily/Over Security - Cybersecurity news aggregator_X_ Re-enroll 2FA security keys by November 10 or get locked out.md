@@ -3,7 +3,7 @@ title: X: Re-enroll 2FA security keys by November 10 or get locked out
 url: https://www.bleepingcomputer.com/news/security/x-re-enroll-2fa-security-keys-by-november-10-or-get-locked-out/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:12.984911
+fetch_date: 2025-10-28T03:08:27.707377
 ---
 
 # X: Re-enroll 2FA security keys by November 10 or get locked out

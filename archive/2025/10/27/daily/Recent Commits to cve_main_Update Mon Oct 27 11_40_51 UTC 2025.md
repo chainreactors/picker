@@ -3,7 +3,7 @@ title: Update Mon Oct 27 11:40:51 UTC 2025
 url: https://github.com/trickest/cve/commit/0675fe9e4db0d64a3165983671a97996313c6263
 source: Recent Commits to cve:main
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:24.963485
+fetch_date: 2025-10-28T03:06:03.404525
 ---
 
 # Update Mon Oct 27 11:40:51 UTC 2025

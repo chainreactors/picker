@@ -3,7 +3,7 @@ title: X says passkey reset isn't about a security issue – it's to finally kil
 url: https://go.theregister.com/feed/www.theregister.com/2025/10/27/x_passkey_reset/
 source: The Register - Security
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:42.408890
+fetch_date: 2025-10-28T03:09:03.159141
 ---
 
 # X says passkey reset isn't about a security issue – it's to finally kill off twitter.com
@@ -97,7 +97,7 @@ Sign in / up](https://account.theregister.com/register/)
 [Webinars & Events](https://whitepapers.theregister.com/events/list/)
 [Newsletters](https://account.theregister.com/edit/newsletter/)
 
-[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_onprem/personaltech&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2qpFDWCVSvD2JeAqqwAAAMU&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_onprem/personaltech&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2qpFDWCVSvD2JeAqqwAAAMU&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
+[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_onprem/personaltech&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzwrKqdcPBMmyVjmiMAAAABM&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_onprem/personaltech&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzwrKqdcPBMmyVjmiMAAAABM&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
 
 #### [Personal Tech](/on_prem/personal_tech/)
 
@@ -125,4 +125,4 @@ The cryptic mandate from X Safety on Friday led many to suspect a security breac
 
 But on Sunday, Elon Musk's social media mouthpiece finally gave the all-important explanation: it pertained the twitter.com domain that's still in use and redirects to x.com.
 
-[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_onprem/personaltech&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2qpFDWCVSvD2JeAqqwAAAMU&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_onprem/personaltech&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2qpFDWCVSvD2JeAqqwAAAMU&t=ct%3Dns%26unitnum%3D2%26raptor...
+[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_onprem/personaltech&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzwrKqdcPBMmyVjmiMAAAABM&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_onprem/personaltech&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzwrKqdcPBMmyVjmiMAAAABM&t=ct%3Dns%26unitnum%3D2%26raptor...

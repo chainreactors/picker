@@ -3,7 +3,7 @@ title: WeChat Selkies：把微信/QQ搬进浏览器的 Linux Docker
 url: https://blog.upx8.com/4888
 source: 黑海洋 - Wiki
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:59.557778
+fetch_date: 2025-10-28T03:06:54.044720
 ---
 
 # WeChat Selkies：把微信/QQ搬进浏览器的 Linux Docker
@@ -19,7 +19,7 @@ fetch_date: 2025-10-28T02:58:59.557778
 [共享资源/Free](https://blog.upx8.com/Free/)
 
 热度:
-2686
+2848
 
 ## WeChat Selkies概览
 

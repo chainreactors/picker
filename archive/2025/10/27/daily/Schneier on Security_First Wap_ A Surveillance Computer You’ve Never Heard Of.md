@@ -3,7 +3,7 @@ title: First Wap: A Surveillance Computer You’ve Never Heard Of
 url: https://www.schneier.com/blog/archives/2025/10/first-wap-a-surveillance-computer-youve-never-heard-of.html
 source: Schneier on Security
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:44.149668
+fetch_date: 2025-10-28T03:09:04.900187
 ---
 
 # First Wap: A Surveillance Computer You’ve Never Heard Of

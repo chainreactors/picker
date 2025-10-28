@@ -3,7 +3,7 @@ title: Crafted URLs can trick OpenAI Atlas into running dangerous commands
 url: https://securityaffairs.com/183900/hacking/crafted-urls-can-trick-openai-atlas-into-running-dangerous-commands.html
 source: Security Affairs
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:36.124826
+fetch_date: 2025-10-28T03:08:57.544588
 ---
 
 # Crafted URLs can trick OpenAI Atlas into running dangerous commands

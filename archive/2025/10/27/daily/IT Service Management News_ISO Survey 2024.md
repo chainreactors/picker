@@ -3,7 +3,7 @@ title: ISO Survey 2024
 url: http://blog.cesaregallotti.it/2025/10/iso-survey-2024.html
 source: IT Service Management News
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:01.870632
+fetch_date: 2025-10-28T03:08:23.784608
 ---
 
 # ISO Survey 2024

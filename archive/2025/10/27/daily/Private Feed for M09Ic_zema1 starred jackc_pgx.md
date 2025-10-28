@@ -3,7 +3,7 @@ title: zema1 starred jackc/pgx
 url: https://github.com/jackc/pgx
 source: Private Feed for M09Ic
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:15.686285
+fetch_date: 2025-10-28T03:05:57.016294
 ---
 
 # zema1 starred jackc/pgx

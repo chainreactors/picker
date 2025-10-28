@@ -3,7 +3,7 @@ title: Ransomware profits drop as victims stop paying hackers
 url: https://www.bleepingcomputer.com/news/security/ransomware-profits-drop-as-victims-stop-paying-hackers/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:13.521458
+fetch_date: 2025-10-28T03:08:28.192540
 ---
 
 # Ransomware profits drop as victims stop paying hackers

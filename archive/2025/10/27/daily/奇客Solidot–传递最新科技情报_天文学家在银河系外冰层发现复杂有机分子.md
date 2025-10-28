@@ -3,7 +3,7 @@ title: 天文学家在银河系外冰层发现复杂有机分子
 url: https://www.solidot.org/story?sid=82649
 source: 奇客Solidot–传递最新科技情报
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:44.897182
+fetch_date: 2025-10-28T03:07:04.972128
 ---
 
 # 天文学家在银河系外冰层发现复杂有机分子
@@ -43,7 +43,7 @@ solidot新版网站常见问题，请点击[这里](/QA)查看。
 
 ## 消息
 
-**本文已被查看 1176 次**
+**本文已被查看 1216 次**
 
 ## 天文学家在银河系外冰层发现复杂有机分子
 
@@ -63,7 +63,7 @@ https://www.sciencealert.com/lifes-ingredients-found-frozen-beyond-the-milky-way
 
 ﻿
 
-天地不仁，以万物为刍狗；圣人不仁，以百姓为刍狗。 --老子
+程序员的问题是你无法预料他在做什么，直到为时已晚--Seymour Cray
 
 * [首页](/)
 * [至顶网](http://www.zhiding.cn)

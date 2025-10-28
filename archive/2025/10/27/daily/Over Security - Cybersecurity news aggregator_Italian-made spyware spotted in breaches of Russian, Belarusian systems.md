@@ -3,7 +3,7 @@ title: Italian-made spyware spotted in breaches of Russian, Belarusian systems
 url: https://therecord.media/memento-labs-formerly-hacking-team-dante-spyware-russia-kaspersky
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:14.026958
+fetch_date: 2025-10-28T03:08:28.787793
 ---
 
 # Italian-made spyware spotted in breaches of Russian, Belarusian systems

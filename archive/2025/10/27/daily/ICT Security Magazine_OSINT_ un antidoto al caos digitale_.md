@@ -3,7 +3,7 @@ title: OSINT: un antidoto al caos digitale?
 url: https://www.ictsecuritymagazine.com/articoli/osint-caos-digitale/
 source: ICT Security Magazine
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:00.762734
+fetch_date: 2025-10-28T03:08:12.419289
 ---
 
 # OSINT: un antidoto al caos digitale?

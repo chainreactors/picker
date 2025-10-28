@@ -3,7 +3,7 @@ title: CHYbeta starred HKUDS/AI-Trader
 url: https://github.com/HKUDS/AI-Trader
 source: Private Feed for M09Ic
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:18.815005
+fetch_date: 2025-10-28T03:06:00.393238
 ---
 
 # CHYbeta starred HKUDS/AI-Trader
@@ -194,14 +194,14 @@ Public
 
   There was an error while loading. Please reload this page.
 * [Fork
-  234](/login?return_to=%2FHKUDS%2FAI-Trader)
+  239](/login?return_to=%2FHKUDS%2FAI-Trader)
 * [Star
    1.1k](/login?return_to=%2FHKUDS%2FAI-Trader)
 
 "AI-Trader: Can AI Beat the Market?"
 
 [1.1k
-stars](/HKUDS/AI-Trader/stargazers) [234
+stars](/HKUDS/AI-Trader/stargazers) [239
 forks](/HKUDS/AI-Trader/forks) [Branches](/HKUDS/AI-Trader/branches) [Tags](/HKUDS/AI-Trader/tags) [Activity](/HKUDS/AI-Trader/activity)
 
 [Star](/login?return_to=%2FHKUDS%2FAI-Trader)

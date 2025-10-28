@@ -3,7 +3,7 @@ title: Google disputes false claims of massive Gmail data breach
 url: https://www.bleepingcomputer.com/news/security/google-disputes-false-claims-of-massive-gmail-data-breach/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:12.616787
+fetch_date: 2025-10-28T03:08:27.406277
 ---
 
 # Google disputes false claims of massive Gmail data breach

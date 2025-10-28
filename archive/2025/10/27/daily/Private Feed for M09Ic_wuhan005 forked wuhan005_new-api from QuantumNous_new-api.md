@@ -3,7 +3,7 @@ title: wuhan005 forked wuhan005/new-api from QuantumNous/new-api
 url: https://github.com/wuhan005/new-api
 source: Private Feed for M09Ic
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:18.141364
+fetch_date: 2025-10-28T03:05:59.693239
 ---
 
 # wuhan005 forked wuhan005/new-api from QuantumNous/new-api

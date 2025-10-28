@@ -3,7 +3,7 @@ title: CISA releases warning about Windows Server Update Service bug, orders age
 url: https://therecord.media/wsus-vulnerability-cisa-late-friday-warning
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:22.976980
+fetch_date: 2025-10-28T03:08:50.122591
 ---
 
 # CISA releases warning about Windows Server Update Service bug, orders agencies to patch

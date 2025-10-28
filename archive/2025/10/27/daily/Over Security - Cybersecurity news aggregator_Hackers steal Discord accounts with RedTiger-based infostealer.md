@@ -3,7 +3,7 @@ title: Hackers steal Discord accounts with RedTiger-based infostealer
 url: https://www.bleepingcomputer.com/news/security/hackers-steal-discord-accounts-with-redtiger-based-infostealer/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:26.368991
+fetch_date: 2025-10-28T03:08:53.264682
 ---
 
 # Hackers steal Discord accounts with RedTiger-based infostealer

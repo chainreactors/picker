@@ -3,7 +3,7 @@ title: QNAP warns of critical ASP.NET flaw in its Windows backup software
 url: https://www.bleepingcomputer.com/news/security/qnap-warns-its-windows-backup-software-is-also-affected-by-critical-aspnet-flaw/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:14.558499
+fetch_date: 2025-10-28T03:08:29.276591
 ---
 
 # QNAP warns of critical ASP.NET flaw in its Windows backup software

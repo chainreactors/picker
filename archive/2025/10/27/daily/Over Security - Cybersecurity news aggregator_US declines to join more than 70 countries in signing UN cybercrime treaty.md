@@ -3,7 +3,7 @@ title: US declines to join more than 70 countries in signing UN cybercrime treat
 url: https://therecord.media/us-declines-signing-cybercrime-treaty
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:12.246497
+fetch_date: 2025-10-28T03:08:26.963507
 ---
 
 # US declines to join more than 70 countries in signing UN cybercrime treaty

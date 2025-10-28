@@ -3,7 +3,7 @@ title: How We (Almost) Found Chromium's Bug via Crash Reports to Report URI
 url: https://www.troyhunt.com/how-we-almost-found-chromiums-bug-via-crash-reports-to-report-uri/
 source: Troy Hunt's Blog
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:35.351826
+fetch_date: 2025-10-28T03:08:56.615837
 ---
 
 # How We (Almost) Found Chromium's Bug via Crash Reports to Report URI

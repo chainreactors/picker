@@ -3,7 +3,7 @@ title: What brain privacy will look like in the age of neurotech
 url: https://therecord.media/what-brain-privacy-will-look-like
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:15.428447
+fetch_date: 2025-10-28T03:08:30.257482
 ---
 
 # What brain privacy will look like in the age of neurotech

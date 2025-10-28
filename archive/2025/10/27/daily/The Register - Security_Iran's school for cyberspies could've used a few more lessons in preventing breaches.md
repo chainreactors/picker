@@ -3,7 +3,7 @@ title: Iran's school for cyberspies could've used a few more lessons in preventi
 url: https://go.theregister.com/feed/www.theregister.com/2025/10/27/breach_iran_ravin_academy/
 source: The Register - Security
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:40.992847
+fetch_date: 2025-10-28T03:09:01.967700
 ---
 
 # Iran's school for cyberspies could've used a few more lessons in preventing breaches
@@ -97,7 +97,7 @@ Sign in / up](https://account.theregister.com/register/)
 [Webinars & Events](https://whitepapers.theregister.com/events/list/)
 [Newsletters](https://account.theregister.com/edit/newsletter/)
 
-[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2DXL5sPQ7SrRHSX2_AAAAQI&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2DXL5sPQ7SrRHSX2_AAAAQI&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
+[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzQWfGAv07fFN9E1lcAAAAFI&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzQWfGAv07fFN9E1lcAAAAFI&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
 
 #### [Cyber-crime](/security/cyber_crime/)
 
@@ -125,6 +125,6 @@ The Ravin Academy was established in 2019, ostensibly to train individuals in al
 
 As part of some broader actions against Iran, Ravin was sanctioned by the UK, US, and EU between 2022 and 2023 for its role in recruiting cyber specialists to carry out human rights violations.
 
-[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2DXL5sPQ7SrRHSX2_AAAAQI&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAx2DXL5sPQ7SrRHSX2_AAAAQI&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
+[![](https://pubads.g.doubleclick.net/gampad/ad?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzQWfGAv07fFN9E1lcAAAAFI&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)](https://pubads.g.doubleclick.net/gampad/jump?co=1&iu=/6978/reg_security/cybercrime&sz=300x50%7C300x100%7C300x250%7C300x251%7C300x252%7C300x600%7C300x601&tile=2&c=2aQAzzQWfGAv07fFN9E1lcAAAAFI&t=ct%3Dns%26unitnum%3D2%26raptor%3Dcondor%26pos%3Dtop%26test%3D0)
 
 In a statement posted to its Telegram channel on October 22, Ravin confirmed t...

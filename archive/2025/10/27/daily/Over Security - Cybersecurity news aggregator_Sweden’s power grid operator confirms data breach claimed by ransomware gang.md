@@ -3,7 +3,7 @@ title: Sweden’s power grid operator confirms data breach claimed by ransomware
 url: https://therecord.media/sweden-power-grid-operator-data
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:13.155700
+fetch_date: 2025-10-28T03:08:27.872100
 ---
 
 # Sweden’s power grid operator confirms data breach claimed by ransomware gang

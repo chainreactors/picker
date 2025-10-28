@@ -3,7 +3,7 @@ title: Cities reverse course on automated license plate reader cameras amid priv
 url: https://therecord.media/cities-reverse-course-on-automated-license-plate-reader-cameras
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:14.223333
+fetch_date: 2025-10-28T03:08:28.965704
 ---
 
 # Cities reverse course on automated license plate reader cameras amid privacy concerns

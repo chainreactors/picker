@@ -3,7 +3,7 @@ title: MyVidster (2025) - 3,864,364 breached accounts
 url: https://haveibeenpwned.com/Breach/MyVidster2025
 source: Have I Been Pwned latest breaches
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:06.977031
+fetch_date: 2025-10-28T03:08:56.721522
 ---
 
 # MyVidster (2025) - 3,864,364 breached accounts

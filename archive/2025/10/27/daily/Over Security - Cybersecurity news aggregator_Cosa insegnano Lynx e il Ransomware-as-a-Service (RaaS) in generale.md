@@ -3,7 +3,7 @@ title: Cosa insegnano Lynx e il Ransomware-as-a-Service (RaaS) in generale
 url: https://www.cybersecurity360.it/news/cosa-insegnano-lynx-e-il-raas/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:26.731331
+fetch_date: 2025-10-28T03:08:53.500674
 ---
 
 # Cosa insegnano Lynx e il Ransomware-as-a-Service (RaaS) in generale

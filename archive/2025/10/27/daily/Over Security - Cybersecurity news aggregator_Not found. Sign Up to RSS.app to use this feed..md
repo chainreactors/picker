@@ -3,7 +3,7 @@ title: Not found. Sign Up to RSS.app to use this feed.
 url: https://rss.app
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:24.914826
+fetch_date: 2025-10-28T03:08:51.942105
 ---
 
 # Not found. Sign Up to RSS.app to use this feed.

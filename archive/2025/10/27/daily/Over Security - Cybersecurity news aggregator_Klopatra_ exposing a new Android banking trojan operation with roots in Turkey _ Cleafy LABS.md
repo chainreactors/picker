@@ -3,7 +3,7 @@ title: Klopatra: exposing a new Android banking trojan operation with roots in T
 url: https://www.cleafy.com/cleafy-labs/klopatra-exposing-a-new-android-banking-trojan-operation-with-roots-in-turkey
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:25.275108
+fetch_date: 2025-10-28T03:08:52.226705
 ---
 
 # Klopatra: exposing a new Android banking trojan operation with roots in Turkey | Cleafy LABS

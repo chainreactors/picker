@@ -3,7 +3,7 @@ title: 金融信创必看！破万亿资管巨头鹏华基金：用CACTER守护�
 url: https://www.4hou.com/posts/vwAV
 source: 嘶吼 RoarTalk – 网络安全行业综合服务平台,4hou.com
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:24.235679
+fetch_date: 2025-10-28T03:05:52.748084
 ---
 
 # 金融信创必看！破万亿资管巨头鹏华基金：用CACTER守护邮件安全
@@ -52,7 +52,7 @@ CACTER
 [行业](https://www.4hou.com/category/industry)
 20小时 前发布
 
-![](https://img.4hou.com/article/%E6%B5%8F%E8%A7%88.png)5809
+![](https://img.4hou.com/article/%E6%B5%8F%E8%A7%88.png)5981
 
 收藏
 
@@ -117,7 +117,7 @@ CACTER
 
 评论
 
-![](https://www.4hou.com/captcha/flat?KXaqenaN)
+![](https://www.4hou.com/captcha/flat?9WEhKU4b)
 
 #### 你可能感兴趣的
 

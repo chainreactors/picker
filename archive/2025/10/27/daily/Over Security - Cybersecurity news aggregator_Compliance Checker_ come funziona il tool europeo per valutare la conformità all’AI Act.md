@@ -3,7 +3,7 @@ title: Compliance Checker: come funziona il tool europeo per valutare la conform
 url: https://www.cybersecurity360.it/news/compliance-checker-come-funziona-il-tool-europeo-per-valutare-la-conformita-allai-act/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:23.377822
+fetch_date: 2025-10-28T03:08:50.517572
 ---
 
 # Compliance Checker: come funziona il tool europeo per valutare la conformità all’AI Act

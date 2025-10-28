@@ -3,7 +3,7 @@ title: CERT-AGID 18–24 ottobre: phishing a tema PagoPA e Fascicolo Sanitario
 url: https://www.securityinfo.it/2025/10/27/cert-agid-18-24-ottobre-phishing-pagopa-fascicolo-sanitario/?utm_source=rss&utm_medium=rss&utm_campaign=cert-agid-18-24-ottobre-phishing-pagopa-fascicolo-sanitario
 source: Securityinfo.it
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:09.488267
+fetch_date: 2025-10-28T03:08:26.339997
 ---
 
 # CERT-AGID 18–24 ottobre: phishing a tema PagoPA e Fascicolo Sanitario

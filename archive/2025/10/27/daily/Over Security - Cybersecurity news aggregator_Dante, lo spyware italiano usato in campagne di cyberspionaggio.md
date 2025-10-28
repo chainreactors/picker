@@ -3,7 +3,7 @@ title: Dante, lo spyware italiano usato in campagne di cyberspionaggio
 url: https://www.securityinfo.it/2025/10/27/dante-lo-spyware-italiano-usato-in-attacchi-di-cyberspionaggio/
 source: Over Security - Cybersecurity news aggregator
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:24.675618
+fetch_date: 2025-10-28T03:08:51.650182
 ---
 
 # Dante, lo spyware italiano usato in campagne di cyberspionaggio

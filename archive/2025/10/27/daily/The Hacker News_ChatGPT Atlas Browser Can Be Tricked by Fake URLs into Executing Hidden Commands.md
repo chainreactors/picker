@@ -3,7 +3,7 @@ title: ChatGPT Atlas Browser Can Be Tricked by Fake URLs into Executing Hidden C
 url: https://thehackernews.com/2025/10/chatgpt-atlas-browser-can-be-tricked-by.html
 source: The Hacker News
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:38.029307
+fetch_date: 2025-10-28T03:08:59.402012
 ---
 
 # ChatGPT Atlas Browser Can Be Tricked by Fake URLs into Executing Hidden Commands

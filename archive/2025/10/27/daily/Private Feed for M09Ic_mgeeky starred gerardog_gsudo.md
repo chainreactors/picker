@@ -3,7 +3,7 @@ title: mgeeky starred gerardog/gsudo
 url: https://github.com/gerardog/gsudo
 source: Private Feed for M09Ic
 date: 2025-10-27
-fetch_date: 2025-10-28T02:58:14.396078
+fetch_date: 2025-10-28T03:05:55.544592
 ---
 
 # mgeeky starred gerardog/gsudo

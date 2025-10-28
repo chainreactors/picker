@@ -3,7 +3,7 @@ title: Human-Operated Ransomware: l’evoluzione della minaccia cyber più sofis
 url: https://www.ictsecuritymagazine.com/notizie/human-operated-ransomware/
 source: ICT Security Magazine
 date: 2025-10-27
-fetch_date: 2025-10-28T03:00:01.598815
+fetch_date: 2025-10-28T03:08:14.233620
 ---
 
 # Human-Operated Ransomware: l’evoluzione della minaccia cyber più sofisticata
