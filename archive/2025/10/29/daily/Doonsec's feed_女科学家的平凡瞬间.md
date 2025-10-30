@@ -1,0 +1,20 @@
+---
+title: 女科学家的平凡瞬间
+url: https://mp.weixin.qq.com/s?__biz=MzUzMjQyMDE3Ng==&mid=2247488737&idx=1&sn=fedda3f57c3e4411f085cbd984c0e3cc
+source: Doonsec's feed
+date: 2025-10-29
+fetch_date: 2025-10-30T03:10:06.534899
+---
+
+# 女科学家的平凡瞬间
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
