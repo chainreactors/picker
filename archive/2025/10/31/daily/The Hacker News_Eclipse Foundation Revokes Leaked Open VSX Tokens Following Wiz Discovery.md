@@ -1,0 +1,146 @@
+---
+title: Eclipse Foundation Revokes Leaked Open VSX Tokens Following Wiz Discovery
+url: https://thehackernews.com/2025/10/eclipse-foundation-revokes-leaked-open.html
+source: The Hacker News
+date: 2025-10-31
+fetch_date: 2025-11-01T03:13:09.092025
+---
+
+# Eclipse Foundation Revokes Leaked Open VSX Tokens Following Wiz Discovery
+
+#1 Trusted Cybersecurity News Platform
+
+Followed by 5.20+ million[**](https://twitter.com/thehackersnews)
+[**](https://www.linkedin.com/company/thehackernews/)
+[**](https://www.facebook.com/thehackernews)
+
+[![The Hacker News Logo](data:image/png;base64...)](/)
+
+**
+
+**
+
+[** Subscribe – Get Latest News](#email-outer)
+
+* [** Home](/)
+* [** Newsletter](#email-outer)
+* [** Webinars](/p/upcoming-hacker-news-webinars.html)
+
+* [Home](/)
+* [Data Breaches](/search/label/data%20breach)
+* [Cyber Attacks](/search/label/Cyber%20Attack)
+* [Vulnerabilities](/search/label/Vulnerability)
+* [Webinars](/p/upcoming-hacker-news-webinars.html)
+* [Expert Insights](https://thehackernews.com/expert-insights/)
+* [Contact](/p/submit-news.html)
+
+**
+
+**
+
+**
+
+Resources
+
+* [Webinars](/p/upcoming-hacker-news-webinars.html)
+* [Free eBooks](https://thehackernews.tradepub.com)
+
+About Site
+
+* [About THN](/p/about-us.html)
+* [Jobs](/p/careers-technical-writer-designer-and.html)
+* [Advertise with us](/p/advertising-with-hacker-news.html)
+
+Contact/Tip Us
+
+[**
+
+Reach out to get featured—contact us to send your exclusive story idea, research, hacks, or ask us a question or leave a comment/feedback!](/p/submit-news.html)
+
+Follow Us On Social Media
+
+[**](https://www.facebook.com/thehackernews)
+[**](https://twitter.com/thehackersnews)
+[**](https://www.linkedin.com/company/thehackernews/)
+[**](https://www.youtube.com/c/thehackernews?sub_confirmation=1)
+[**](https://www.instagram.com/thehackernews/)
+
+[** RSS Feeds](https://feeds.feedburner.com/TheHackersNews)
+[** Email Alerts](#email-outer)
+
+[![Salesforce Security Handbook](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjMQkm7Ao3yQkNVeqy3au4G4E34VWzSsT55GDPjHHGjbHksJqrJCyM1ChO1hB9WzaFzZcwNTn8fOLN8b3U599XinIlPZBBqNnwZYJFQD0i2dLVdAjszjU-a3Y0iLd5UHOg0H9-IFtS0nGf4MeOGk4NsNNAq-pMpFpi_aZrXHGV7UgoEEOlkFGBW5HOsJFC/s728-e100/zz--header-d.png)](https://thehackernews.uk/zz--header-d)
+
+# [Eclipse Foundation Revokes Leaked Open VSX Tokens Following Wiz Discovery](https://thehackernews.com/2025/10/eclipse-foundation-revokes-leaked-open.html)
+
+**Oct 31, 2025**Ravie LakshmananMalware / Secure Coding
+
+[![Open VSX Tokens](data:image/png;base64... "Open VSX Tokens")](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmAGBrh3pirqFHrsdc4kBfinnWBWhRLbAAwa39k5lyd-X941olCKyizc7VGdYORWLq6aBGn3l6f4zMwwUApVP3pfEk_dzr31Kh1eiBZjzzoqik3-9UrwJmD8eWbjd8OY7clyxw1qqOHcBCarQxd-7hvKhhiLjl6fRbBUl-UV4Dvs5KAWLbHwTNkYxAfIBC/s790-rw-e365/open.jpg)
+
+Eclipse Foundation, which maintains the open-source Open VSX project, said it has taken steps to revoke a small number of tokens that were leaked within Visual Studio Code (VS Code) extensions published in the marketplace.
+
+The action comes following a [report](https://thehackernews.com/2025/10/over-100-vs-code-extensions-exposed.html) from cloud security company Wiz earlier this month, which found several extensions from both Microsoft's VS Code Marketplace and Open VSX to have inadvertently exposed their access tokens within public repositories, potentially allowing bad actors to seize control and distribute malware, effectively poisoning the extension supply chain.
+
+"Upon investigation, we confirmed that a small number of tokens had been leaked and could potentially be abused to publish or modify extensions," Mikaël Barbero, head of security at the Eclipse Foundation, [said](https://blogs.eclipse.org/post/mika%C3%ABl-barbero/open-vsx-security-update-october-2025) in a statement. "These exposures were caused by developer mistakes, not a compromise of the Open VSX infrastructure."
+
+Open VSX said it has also introduced a token prefix format "[ovsxp\_](https://github.com/EclipseFdn/open-vsx.org/pull/5261/files)" in collaboration with the Microsoft Security Response Center (MSRC) to make it easier to scan for exposed tokens across public repositories.
+
+[![DFIR Retainer Services](data:image/png;base64...)](https://thehackernews.uk/endpoint-protect-d)
+
+Furthermore, the registry maintainers said they have identified and removed all extensions that were recently flagged by Koi Security as part of a campaign named "[GlassWorm](https://thehackernews.com/2025/10/self-spreading-glassworm-infects-vs.html)," while emphasizing that the malware distributed through the activity was not a "self-replicating worm" in that it first needs to steal developer credentials in order to extend its reach.
+
+"We also believe that the reported download count of 35,800 overstates the actual number of affected users, as it includes inflated downloads generated by bots and visibility-boosting tactics used by the threat actors," Barbero added.
+
+Open VSX said it's also in the process of enforcing a number of security changes to bolster the supply chain, including -
+
+* Reducing the token lifetime limits by default to reduce the impact of accidental leaks
+* Making token revocation easier upon notification
+* Automated scanning of extensions at the time of publication to check for malicious code patterns or embedded secrets
+
+The new measures to strengthen the ecosystem's cyber resilience come as the software supplier ecosystem and developers are increasingly becoming the target of attacks, allowing attackers far-reaching, persistent access to enterprise environments.
+
+"Incidents like this remind us that supply chain security is a shared responsibility: from publishers managing their tokens carefully, to registry maintainers improving detection and response capabilities," Barbero said.
+
+Found this article interesting? Follow us on [Google News](https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ), [Twitter](https://twitter.com/thehackersnews) and [LinkedIn](https://www.linkedin.com/company/thehackernews/) to read more exclusive content we post.
+
+SHARE
+[**](#link_share)
+[**](#link_share)
+[**](#link_share)
+**
+
+[**Tweet](#link_share)
+
+[**Share](#link_share)
+
+[**Share](#link_share)
+
+**Share
+
+**
+[**Share on Facebook](#link_share)
+[**Share on Twitter](#link_share)
+[**Share on Linkedin](#link_share)
+[**Share on Reddit](#link_share)
+[**Share on Hacker News](#link_share)
+[**Share on Email](#link_share)
+[**Share on WhatsApp](#link_share)
+[![Facebook Messenger](data:image/png;base64...)Share on Facebook Messenger](#link_share)
+[**Share on Telegram](#link_share)
+
+SHARE **
+
+[Code Security](https://thehackernews.com/search/label/Code%20Security)[cybersecurity](https://thehackernews.com/search/label/cybersecurity)[Malware](https://thehackernews.com/search/label/Malware)[Open Source](https://thehackernews.com/search/label/Open%20Source)[secure coding](https://thehackernews.com/search/label/secure%20coding)[software development](https://thehackernews.com/search/label/software%20development)[Supply Chain Security](https://thehackernews.com/search/label/Supply%20Chain%20Security)[Threat Intelligence](https://thehackernews.com/search/label/Threat%20Intelligence)[Visual Studio Code](https://thehackernews.com/search/label/Visual%20Studio%20Code)
+
+[![c](data:image/svg+xml;base64...)](https://thehackernews.uk/wiz-ai-security)
+
+Trending News
+
+[![⚡ Weekly Recap: WSUS Exploited, LockBit 5.0 Returns, Telegram Backdoor, F5 Breach Widens](data:image/svg+xml;base64... "⚡ Weekly Recap: WSUS Exploited, LockBit 5.0 Returns, Telegram Backdoor, F5 Breach Widens")
+
+⚡ Weekly Recap: WSUS Exploited, LockBit 5.0 Returns, Telegram Backdoor, F5 Breach Widens](https://thehackernews.com/2025/10/weekly-recap-wsus-exploited-lockbit-50.html)
+
+[![ThreatsDay Bulletin: $176M Crypto Fine, Hacking Formula 1, Chromium Vulns, AI Hijack and More](data:image/svg+xml;base64... "ThreatsDay Bulletin: $176M Crypto Fine, Hacking Formula 1, Chromium Vulns, AI Hijack and More")
+
+ThreatsDay Bulletin: $176M Crypto Fine, Hacking Formula 1, Chromium Vulns, AI Hijack and More](https://thehackernews.com/2025/10/threatsday-bulletin-176m-crypto-fine.html)
+
+[![New TEE.Fail Side-Channel Attack Extracts Secrets from Intel and AMD DDR5 Secure...
