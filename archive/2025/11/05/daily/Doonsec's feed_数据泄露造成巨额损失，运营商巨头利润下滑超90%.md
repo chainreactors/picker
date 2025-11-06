@@ -1,0 +1,20 @@
+---
+title: 数据泄露造成巨额损失，运营商巨头利润下滑超90%
+url: https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247515163&idx=1&sn=7dc5530064baf6c8d5f167607390dbd7
+source: Doonsec's feed
+date: 2025-11-05
+fetch_date: 2025-11-06T03:13:57.791372
+---
+
+# 数据泄露造成巨额损失，运营商巨头利润下滑超90%
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
