@@ -1,0 +1,20 @@
+---
+title: 【安全圈】弱口令致门户网站遭篡改案
+url: https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652072656&idx=3&sn=9a6cbdb297f4c5474dae3b47e0470fca
+source: Doonsec's feed
+date: 2025-11-09
+fetch_date: 2025-11-10T03:17:17.436893
+---
+
+# 【安全圈】弱口令致门户网站遭篡改案
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

@@ -1,0 +1,157 @@
+---
+title: Security Affairs newsletter Round 549 by Pierluigi Paganini – INTERNATIONAL EDITION
+url: https://securityaffairs.com/184362/breaking-news/security-affairs-newsletter-round-549-by-pierluigi-paganini-international-edition.html
+source: Security Affairs
+date: 2025-11-09
+fetch_date: 2025-11-10T03:18:18.376227
+---
+
+# Security Affairs newsletter Round 549 by Pierluigi Paganini – INTERNATIONAL EDITION
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Digital ID](https://securityaffairs.com/category/digital-id)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[QNAP fixed multiple zero-days in its software demonstrated at Pwn2Own 2025](https://securityaffairs.com/184396/hacking/qnap-fixed-multiple-zero-days-in-its-software-demonstrated-at-pwn2own-2025.html)
+
+ |
+
+[AI chat privacy at risk: Microsoft details Whisper Leak side-channel attack](https://securityaffairs.com/184372/hacking/ai-chat-privacy-at-risk-microsoft-details-whisper-leak-side-channel-attack.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 70](https://securityaffairs.com/184367/malware/security-affairs-malware-newsletter-round-70.html)
+
+ |
+
+[Security Affairs newsletter Round 549 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/184362/breaking-news/security-affairs-newsletter-round-549-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[China-linked hackers target U.S. non-profit in long-term espionage campaign](https://securityaffairs.com/184351/apt/china-linked-hackers-target-u-s-non-profit-in-long-term-espionage-campaign.html)
+
+ |
+
+[A new Italian citizen was targeted with Paragon’s Graphite spyware. We have a serious problem](https://securityaffairs.com/184340/security/a-new-italian-citizen-was-targeted-with-paragons-graphite-spyware-we-have-a-serious-problem.html)
+
+ |
+
+[LANDFALL spyware exploited Samsung zero-day CVE-2025-21042 in Middle East attacks](https://securityaffairs.com/184331/security/landfall-spyware-exploited-samsung-zero-day-cve-2025-21042-in-middle-east-attacks.html)
+
+ |
+
+[Cisco fixes critical UCCX flaw allowing Root command execution](https://securityaffairs.com/184321/security/cisco-fixes-critical-uccx-flaw-allowing-root-command-execution.html)
+
+ |
+
+[Cisco became aware of a new attack variant against Secure Firewall ASA and FTD devices](https://securityaffairs.com/184290/security/cisco-became-aware-of-a-new-attack-variant-against-secure-firewall-asa-and-ftd-devices.html)
+
+ |
+
+[Google sounds alarm on self-modifying AI malware](https://securityaffairs.com/184275/malware/google-sounds-alarm-on-self-modifying-ai-malware.html)
+
+ |
+
+[Alleged Russia-linked Curly COMrades exploit Windows Hyper-V to evade EDRs](https://securityaffairs.com/184268/hacking/alleged-russia-linked-curly-comrades-exploit-windows-hyper-v-to-evade-edrs.html)
+
+ |
+
+[SonicWall blames state-sponsored hackers for September security breach](https://securityaffairs.com/184258/security/sonicwall-blames-state-sponsored-hackers-for-september-security-breach.html)
+
+ |
+
+[U.S. sanctioned North Korea bankers for laundering funds linked to cyberattacks and peapons program](https://securityaffairs.com/184249/laws-and-regulations/u-s-sanctioned-north-korea-bankers-for-laundering-funds-linked-to-cyberattacks-and-peapons-program.html)
+
+ |
+
+[Former cybersecurity employees attempted to extort five U.S. companies in 2023 using BlackCat ransomware attacks](https://securityaffairs.com/184240/cyber-crime/former-cybersecurity-employees-attempted-to-extort-five-u-s-companies-in-2023-using-blackcat-ransomware-attacks.html)
+
+ |
+
+[U.S. CISA adds Gladinet CentreStack, and CWP Control Web Panel flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/184226/security/u-s-cisa-adds-gladinet-centrestack-and-cwp-control-web-panel-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Nine arrested in €600M crypto laundering bust across Europe](https://securityaffairs.com/184215/cyber-crime/nine-arrested-in-e600m-crypto-laundering-bust-across-europe.html)
+
+ |
+
+[Google fixed a critical remote code execution in Android](https://securityaffairs.com/184208/security/google-fixed-a-critical-remote-code-execution-in-android.html)
+
+ |
+
+[SesameOp: New backdoor exploits OpenAI API for covert C2](https://securityaffairs.com/184197/malware/sesameop-new-backdoor-exploits-openai-api-for-covert-c2.html)
+
+ |
+
+[Google Big Sleep found five vulnerabilities in Safari](https://securityaffairs.com/184184/security/google-big-sleep-found-five-vulnerabilities-in-safari.html)
+
+ |
+
+[Jabber Zeus developer ‘MrICQ’ extradited to US from Italy](https://securityaffairs.com/184158/cyber-crime/jabber-zeus-developer-mricq-extradited-to-us-from-italy.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Digital ID](https://securityaffairs.com/category/digital-id)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Security](https://securityaffairs.com/category/security)
+* Security Affairs newsletter Round 549 by Pierluigi Paganini – INTERNATIONAL EDITION
+
+## Security Affairs newsletter Round 549 by Pierluigi Paganini – INTERNATIONAL EDITION
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/clock-icon.svg)* November 09, 2025
+
+![](https://i0.wp.com/securityaffairs.com/wp-content/uploads/2015/03/newsletter.png?fit=645%2C446&ssl=1)
+
+## A new round of the weekly Security Affairs newsletter has arrived! Ev...
