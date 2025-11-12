@@ -1,0 +1,20 @@
+---
+title: 【安全圈】Intel 起诉前工程师窃取 18,000 份“绝密”文件
+url: https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652072684&idx=1&sn=0ff1617fcd1133f8ec07e8e75d14b26c
+source: Doonsec's feed
+date: 2025-11-11
+fetch_date: 2025-11-12T03:09:56.344278
+---
+
+# 【安全圈】Intel 起诉前工程师窃取 18,000 份“绝密”文件
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
