@@ -1,0 +1,206 @@
+---
+title: Formbook Delivered Through Multiple Scripts, (Thu, Nov 13th)
+url: https://isc.sans.edu/diary/rss/32480
+source: SANS Internet Storm Center, InfoCON: green
+date: 2025-11-13
+fetch_date: 2025-11-14T03:13:37.157215
+---
+
+# Formbook Delivered Through Multiple Scripts, (Thu, Nov 13th)
+
+# [Internet Storm Center](/)
+
+[Sign In](/login.html)
+[Sign Up](/register.html)
+
+Handler on Duty: [Xavier Mertens](/handler_list.html#xavier-mertens "Xavier Mertens")
+
+Threat Level: [green](/infocon.html)
+
+* [previous](/diary/32474)
+
+My next class:
+
+|  |  |  |
+| --- | --- | --- |
+| [Reverse-Engineering Malware: Advanced Code Analysis](https://www.sans.org/event/sans-november-singapore-2025/course/reverse-engineering-malware-advanced-code-analysis) | Online | Singapore Standard Time | Nov 17th - Nov 21st 2025 |
+
+# [Formbook Delivered Through Multiple Scripts](/forums/diary/Formbook%2BDelivered%2BThrough%2BMultiple%2BScripts/32480/)
+
+**Published**: 2025-11-13. **Last Updated**: 2025-11-13 08:47:41 UTC
+**by** [Xavier Mertens](/handler_list.html#xavier-mertens) (Version: 1)
+
+[0 comment(s)](/diary/Formbook%2BDelivered%2BThrough%2BMultiple%2BScripts/32480/#comments)
+
+When I’m teachning FOR610[[1](https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques)], I always say to my students that reverse engineering does not only apply to “executable files” (read: PE or ELF files). Most of the time, the infection path involves many stages to defeat the Security Analyst or security controls. Here is an example that I found yesterday. An email was received via an attached ZIP archive. It contained a simple file: “Payment\_confirmation\_copy\_30K\_\_202512110937495663904650431.vbs” (SHA256:d9bd350b04cd2540bbcbf9da1f3321f8c6bba1d8fe31de63d5afaf18a735744f) identified by 17/65 antiviruses on VT[[2](https://www.virustotal.com/gui/file/d9bd350b04cd2540bbcbf9da1f3321f8c6bba1d8fe31de63d5afaf18a735744f)]. Let’s have a look at the infection path.
+
+The VBS script was obfuscated but easy to reverse. First it started with a delay loop of 9 seconds:
+
+```
+
+Dim Hump
+Hump = DateAdd(“s”, 9, Now())
+Do Until (Now() > Hump)
+    Wscript.Sleep 100
+    Frozen = Frozen + 1
+Loop
+```
+
+This allow the script to wait before performing nasty actions and avoid using the sleep() function which is often considered as suspicious. Then the script will generate a PowerShell script by concatenating a lot of strings. The “PowerShell” string is hidden behind this line:
+
+```
+
+Nestlers= array(79+1,79,80+7,60+9,82,83,72,69,76,76)
+```
+
+The script is reconstructed like this:
+
+```
+
+Roastable11 = Roastable11 + “mv 'udenri”
+Roastable11 = Roastable11 + “gstjenes”
+Roastable11 = Roastable11 + “te’;”
+Roastable11 = Roastable11 + “function "
+Roastable11 = Roastable11 + “Microcoulomb”
+Roastable11 = Roastable11 + " ($s”
+Roastable11 = Roastable11 + “kattes”
+Roastable11 = Roastable11 + “kemas='sel”
+Roastable11 = Roastable11 + “vang”
+Roastable11 = Roastable11 + “av’)”
+...
+```
+
+The result is executed with an Shell.Application object. The PowerShell script is also heavily obfuscated. Two functions are used for this purpose:
+
+```
+
+function Microcoulomb ($skatteskemas=‘selvangav’)
+{
+    $bletr=4;
+    do {
+        folkesangeren+=skatteskemas[$bletr];
+        $bletr+=5;
+        overhringens=Get-Date
+    }
+    until (!skatteskemas[$bletr]);
+    $folkesangeren
+}
+
+function Blokbogstavers65 ($srlings)
+{
+    countryish22(srlings)
+}
+```
+
+The second function just invokes an “Invoke-Expression” with the provided string. The first one reconstrusts strings by extraction some characters from the provided one. Example:
+
+```
+
+$mesoventrally=Microcoulomb ’ :::n TTTEJJJJTjjjj.nnnnw::::E’;
+$mesoventrally+=Microcoulomb ‘i iiB SSSCccc l EE INNNNe * *n;;;;t’;
+```
+
+The variable meseventrally will containt “nET.wEBClIent”.
+
+The first part of the deobfuscated script will prepare the download of the next payload:
+
+```
+
+while ((!brandmesterens))
+{
+    Blokbogstavers65 (Microcoulomb '...’) ;
+    Blokbogstavers65 retsforflgende;
+    Blokbogstavers65 (Microcoulomb '...');
+    Blokbogstavers65 (Microcoulomb '...') ;
+    Blokbogstavers65 (Microcoulomb '...’) ;
+    fedayee=serigraphic[$dichotomically]
+}
+```
+
+The loop waits for a successful download from ths URL: hxxps://drive[.]google[.]com/uc?export=download&id=1jFn0CatcuICOIjBsP\_WxcI\_faBI9WA9S
+
+It stores the payload in C:\Users\REM\AppData\Roaming\budene.con. Once decoded, it’s another piece of PowerShell that also implements deobfuscation functions.
+
+The script will invoke an msiexec.exe process and inject the FormBook into it. The injected payload is C:\Users\REM\AppData\Local\Temp\bin.exe (SHA256:12a0f592ba833fb80cc286e28a36dcdef041b7fc086a7988a02d9d55ef4c0a9d)[[3](https://www.virustotal.com/gui/file/12a0f592ba833fb80cc286e28a36dcdef041b7fc086a7988a02d9d55ef4c0a9d)]. The C2 server is 216[.]250[.]252[.]227:7719.
+
+Here is an overview of the activity generated by all the scripts on the infected system:
+
+![](https://isc.sans.edu/diaryimages/images/isc-20251113-1.png)
+
+[1] <https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques>
+[2] <https://www.virustotal.com/gui/file/d9bd350b04cd2540bbcbf9da1f3321f8c6bba1d8fe31de63d5afaf18a735744f>
+[3] <https://www.virustotal.com/gui/file/12a0f592ba833fb80cc286e28a36dcdef041b7fc086a7988a02d9d55ef4c0a9d>
+
+Xavier Mertens (@xme)
+Xameco
+Senior ISC Handler - Freelance Cyber Security Consultant
+[PGP Key](https://keybase.io/xme/key.asc)
+
+Keywords: [Obfuscation](/tag.html?tag=Obfuscation) [PowerShell](/tag.html?tag=PowerShell) [VBS](/tag.html?tag=VBS) [Formbook](/tag.html?tag=Formbook) [Malware](/tag.html?tag=Malware)
+
+[0 comment(s)](/diary/Formbook%2BDelivered%2BThrough%2BMultiple%2BScripts/32480/#comments)
+
+My next class:
+
+|  |  |  |
+| --- | --- | --- |
+| [Reverse-Engineering Malware: Advanced Code Analysis](https://www.sans.org/event/sans-november-singapore-2025/course/reverse-engineering-malware-advanced-code-analysis) | Online | Singapore Standard Time | Nov 17th - Nov 21st 2025 |
+
+* [previous](/diary/32474)
+
+### Comments
+
+[Login here to join the discussion.](/login)
+
+Top of page
+
+×
+
+![modal content]()
+
+[Diary Archives](/diaryarchive.html)
+
+* [![SANS.edu research journal](https://isc.sans.edu/images/researchjournal5.png)](/j/research)
+* [Homepage](/index.html)
+* [Diaries](/diaryarchive.html)
+* [Podcasts](/podcast.html)
+* [Jobs](/jobs)
+* [Data](/data)
+  + [TCP/UDP Port Activity](/data/port.html)
+  + [Port Trends](/data/trends.html)
+  + [SSH/Telnet Scanning Activity](/data/ssh.html)
+  + [Weblogs](/weblogs)
+  + [Domains](/data/domains.html)
+  + [Threat Feeds Activity](/data/threatfeed.html)
+  + [Threat Feeds Map](/data/threatmap.html)
+  + [Useful InfoSec Links](/data/links.html)
+  + [Presentations & Papers](/data/presentation.html)
+  + [Research Papers](/data/researchpapers.html)
+  + [API](/api)
+* [Tools](/tools/)
+  + [DShield Sensor](/howto.html)
+  + [DNS Looking Glass](/tools/dnslookup)
+  + [Honeypot (RPi/AWS)](/tools/honeypot)
+  + [InfoSec Glossary](/tools/glossary)
+* [Contact Us](/contact.html)
+  + [Contact Us](/contact.html)
+  + [About Us](/about.html)
+  + [Handlers](/handler_list.html)* [About Us](/about.html)
+
+[Slack Channel](/slack/index.html)
+
+[Mastodon](https://infosec.exchange/%40sans_isc)
+
+[Bluesky](https://bsky.app/profile/sansisc.bsky.social)
+
+[X](https://twitter.com/sans_isc)
+
+![](/adimg.html?id=)
+
+© 2025 SANS™ Internet Storm Center
+Developers: We have an [API](/api/) for you!   [![Creative Commons License](/images/cc.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+* [Link To Us](/linkback.html)
+* [About Us](/about.html)
+* [Handlers](/handler_list.html)
+* [Privacy Policy](/privacy.html)
