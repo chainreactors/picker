@@ -1,0 +1,20 @@
+---
+title: 【安全圈】. Cl0P 利用 Oracle EBS 0-Day 入侵 Entrust
+url: https://mp.weixin.qq.com/s?__biz=MzIzMzE4NDU1OQ==&mid=2652072732&idx=4&sn=53399c475e68b13399d157f5668e030c
+source: Doonsec's feed
+date: 2025-11-14
+fetch_date: 2025-11-15T03:05:48.964005
+---
+
+# 【安全圈】. Cl0P 利用 Oracle EBS 0-Day 入侵 Entrust
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
