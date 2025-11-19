@@ -1,0 +1,20 @@
+---
+title: 论坛·原创 | 敏捷监管：加密数字货币动态监管新方案
+url: https://mp.weixin.qq.com/s?__biz=MzA5MzE5MDAzOA==&mid=2664253481&idx=1&sn=4d7109bd337268b35d8df4e39596eea4
+source: Doonsec's feed
+date: 2025-11-18
+fetch_date: 2025-11-19T03:10:30.993860
+---
+
+# 论坛·原创 | 敏捷监管：加密数字货币动态监管新方案
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
