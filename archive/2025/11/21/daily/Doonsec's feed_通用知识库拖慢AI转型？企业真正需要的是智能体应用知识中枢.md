@@ -1,0 +1,20 @@
+---
+title: 通用知识库拖慢AI转型？企业真正需要的是智能体应用知识中枢
+url: https://mp.weixin.qq.com/s?__biz=MzA4MTg0MDQ4Nw==&mid=2247583051&idx=1&sn=c0c87f9cae304cf34618c9f588e45f2f
+source: Doonsec's feed
+date: 2025-11-21
+fetch_date: 2025-11-22T03:03:25.781001
+---
+
+# 通用知识库拖慢AI转型？企业真正需要的是智能体应用知识中枢
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
