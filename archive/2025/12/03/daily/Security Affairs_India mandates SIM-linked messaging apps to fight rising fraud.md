@@ -1,0 +1,160 @@
+---
+title: India mandates SIM-linked messaging apps to fight rising fraud
+url: https://securityaffairs.com/185265/laws-and-regulations/india-mandates-sim-linked-messaging-apps-to-fight-rising-fraud.html
+source: Security Affairs
+date: 2025-12-03
+fetch_date: 2025-12-04T03:19:45.781504
+---
+
+# India mandates SIM-linked messaging apps to fight rising fraud
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Digital ID](https://securityaffairs.com/category/digital-id)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[King Addons flaw lets anyone become WordPress admin](https://securityaffairs.com/185286/hacking/king-addons-flaw-lets-anyone-become-wordpress-admin.html)
+
+ |
+
+[University of Pennsylvania and University of Phoenix disclose data breaches](https://securityaffairs.com/185279/data-breach/university-of-pennsylvania-and-university-of-phoenix-disclose-data-breaches.html)
+
+ |
+
+[Researchers spotted Lazarus’s remote IT workers in action](https://securityaffairs.com/185271/hacking/researchers-spotted-lazaruss-remote-it-workers-in-action.html)
+
+ |
+
+[India mandates SIM-linked messaging apps to fight rising fraud](https://securityaffairs.com/185265/laws-and-regulations/india-mandates-sim-linked-messaging-apps-to-fight-rising-fraud.html)
+
+ |
+
+[U.S. CISA adds Android Framework flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/185252/security/u-s-cisa-adds-android-framework-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[MuddyWater strikes Israel with advanced MuddyViper malware](https://securityaffairs.com/185244/apt/muddywater-strikes-israel-with-advanced-muddyviper-malware.html)
+
+ |
+
+['Korea’s Amazon' Coupang discloses a data breach impacting 34M customers](https://securityaffairs.com/185232/data-breach/koreas-amazon-coupang-discloses-a-data-breach-impacting-34m-customers.html)
+
+ |
+
+[Google’s latest Android security update fixes two actively exploited flaws](https://securityaffairs.com/185226/security/googles-latest-android-security-update-fixes-two-actively-exploited-flaws.html)
+
+ |
+
+[Law enforcement shuts down Cryptomixer in major crypto crime takedown](https://securityaffairs.com/185217/cyber-crime/law-enforcement-shuts-down-cryptomixer-in-major-crypto-crime-takedown.html)
+
+ |
+
+[Australian man jailed for 7+ years over airport and in-flight Wi-Fi attacks](https://securityaffairs.com/185205/cyber-crime/australian-man-jailed-for-7-years-over-airport-and-in-flight-wi-fi-attacks.html)
+
+ |
+
+[Emerging Android threat ‘Albiriox’ enables full On‑Device Fraud](https://securityaffairs.com/185194/malware/emerging-android-threat-albiriox-enables-full-on%E2%80%91device-fraud.html)
+
+ |
+
+[U.S. CISA adds an OpenPLC ScadaBR flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/185185/security/u-s-cisa-adds-an-openplc-scadabr-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 73](https://securityaffairs.com/185181/uncategorized/security-affairs-malware-newsletter-round-73.html)
+
+ |
+
+[Security Affairs newsletter Round 552 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/185178/breaking-news/security-affairs-newsletter-round-552-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[Contagious Interview campaign expands with 197 npm Ppackages spreading new OtterCookie malware](https://securityaffairs.com/185170/apt/contagious-interview-campaign-expands-with-197-npm-ppackages-spreading-new-ottercookie-malware.html)
+
+ |
+
+[Attackers stole member data from French Soccer Federation](https://securityaffairs.com/185160/data-breach/attackers-stole-member-data-from-french-soccer-federation.html)
+
+ |
+
+[Thousands of sensitive secrets published on JSONFormatter and CodeBeautify](https://securityaffairs.com/185150/security/thousands-of-sensitive-secrets-published-on-jsonformatter-and-codebeautify.html)
+
+ |
+
+[New Mirai variant ShadowV2 tests IoT exploits amid AWS disruption](https://securityaffairs.com/185135/malware/new-mirai-variant-shadowv2-tests-iot-exploits-amid-aws-disruption.html)
+
+ |
+
+[Asahi says crooks stole data of approximately 2M customers and employees](https://securityaffairs.com/185126/data-breach/asahi-says-crooks-stole-data-of-approximately-2m-customers-and-employees.html)
+
+ |
+
+[OpenAI data may have been exposed after a cyberattack on analytics firm Mixpanel](https://securityaffairs.com/185121/data-breach/openai-data-may-have-been-exposed-after-a-cyberattack-on-analytics-firm-mixpanel.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Digital ID](https://securityaffairs.com/category/digital-id)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* India mandates SIM-linked messaging apps to fight rising fraud
+
+## India mandates SIM-linked messaging apps to fight rising fraud
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/clock-icon.svg)* December 03, 2025
+
+![](https://i0.wp.com/securityaffairs.com/wp-content/uploads/2024/07/india-flag-digital.jpg?fit=1600%2C900&ssl=1)
+
+## India ordered messaging apps to work only with active SIM cards linked to users’ phone numbers to curb fraud and misuse.
+
+India’s Department of Telecom...
