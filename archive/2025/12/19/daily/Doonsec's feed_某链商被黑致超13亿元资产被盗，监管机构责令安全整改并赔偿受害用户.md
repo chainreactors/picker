@@ -1,0 +1,20 @@
+---
+title: 某链商被黑致超13亿元资产被盗，监管机构责令安全整改并赔偿受害用户
+url: https://mp.weixin.qq.com/s?__biz=MzI4NDY2MDMwMw==&mid=2247515353&idx=1&sn=ce6fcf287f791c42d0decfc22f6075a9
+source: Doonsec's feed
+date: 2025-12-19
+fetch_date: 2025-12-20T03:12:26.614771
+---
+
+# 某链商被黑致超13亿元资产被盗，监管机构责令安全整改并赔偿受害用户
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看

@@ -1,0 +1,20 @@
+---
+title: 黑客可入侵调制解调器，控制汽车仪表盘
+url: https://mp.weixin.qq.com/s?__biz=MzI2NTg4OTc5Nw==&mid=2247524697&idx=1&sn=859874b28c699cba937a7edf009d7623
+source: Doonsec's feed
+date: 2025-12-19
+fetch_date: 2025-12-20T03:12:33.049788
+---
+
+# 黑客可入侵调制解调器，控制汽车仪表盘
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
