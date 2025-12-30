@@ -1,0 +1,147 @@
+---
+title: Operations Security (OPSEC) Trainings: 2025 in Review
+url: https://www.eff.org/deeplinks/2025/12/operations-security-opsec-trainings-2025-review
+source: Deeplinks
+date: 2025-12-29
+fetch_date: 2025-12-30T03:29:10.298327
+---
+
+# Operations Security (OPSEC) Trainings: 2025 in Review
+
+[Skip to main content](#main-content)
+
+* [About](/about)
+  + [Contact](/about/contact)
+  + [Press](/press/contact)
+  + [People](/about/staff "Details and contact information for the EFF's staff")
+  + [Opportunities](/about/opportunities)
+  + [EFF's 35th Anniversary](/35)
+* [Issues](/work)
+  + [Free Speech](/issues/free-speech)
+  + [Privacy](/issues/privacy)
+  + [Creativity and Innovation](/issues/innovation)
+  + [Transparency](/issues/transparency)
+  + [International](/issues/international)
+  + [Security](/issues/security)
+* [Our Work](/updates)
+  + [Deeplinks Blog](/deeplinks)
+  + [Press Releases](/updates?type=press_release)
+  + [Events](/updates?type=event)
+  + [Legal Cases](/pages/legal-cases)
+  + [Whitepapers](/updates?type=whitepaper)
+  + [Podcast](/taxonomy/term/11579/)
+  + [Annual Reports](https://www.eff.org/about/annual-reports-and-financials)
+* [Take Action](https://act.eff.org/)
+  + [Action Center](https://act.eff.org/)
+  + [Electronic Frontier Alliance](/fight)
+  + [Volunteer](/about/opportunities/volunteer)
+* [Tools](/pages/tools)
+  + [Privacy Badger](https://www.eff.org/pages/privacy-badger)
+  + [Surveillance Self-Defense](https://www.eff.org/pages/surveillance-self-defense)
+  + [Certbot](https://www.eff.org/pages/certbot)
+  + [Atlas of Surveillance](https://www.eff.org/pages/atlas-surveillance)
+  + [Cover Your Tracks](https://www.eff.org/pages/cover-your-tracks)
+  + [Street Level Surveillance](https://sls.eff.org/)
+  + [apkeep](/pages/apkeep)
+* [Donate](https://supporters.eff.org/donate/join-eff-today "Donate to EFF")
+  + [Donate to EFF](https://supporters.eff.org/donate/join-eff-today)
+  + [Giving Societies](/givingsociety)
+  + [Shop](https://shop.eff.org)
+  + [Sponsorships](https://www.eff.org/thanks#organizational_members)
+  + [Other Ways to Give](/helpout)
+  + [Membership FAQ](/pages/membership-faq "Frequently Asked Questions and other information about EFF Memberships.")
+* [Donate](https://supporters.eff.org/donate/site-m--h "Donate to EFF")
+  + [Donate to EFF](https://supporters.eff.org/donate/site-m--h)
+  + [Shop](https://shop.eff.org)
+  + [Other Ways to Give](/helpout)
+
+---
+
+Email updates on news, actions,
+and events in your area.
+
+[Join EFF Lists](https://eff.org/signup)
+
+* [Copyright (CC BY)](/copyright)
+* [Trademark](/pages/trademark-and-brand-usage-policy "Trademark and Brand Usage Policy")
+* [Privacy Policy](/policy)
+* [Thanks](/thanks)
+
+[Electronic Frontier Foundation](/)
+
+[Donate](https://supporters.eff.org/donate/site-m--m)
+
+[![](https://www.eff.org/files/yearendchal_desktopbanner_3019x79px_72dpi.jpg)](https://supporters.eff.org/donate/year-end-challenge--SBD)[![](https://www.eff.org/files/yearendchal_mobilebanner_636x147px_72pdi.jpg)](https://supporters.eff.org/donate/year-end-challenge--SBM)
+
+[Electronic Frontier Foundation](/)
+
+* [About](/about)
+  + [Contact](/about/contact)
+  + [Press](/press/contact)
+  + [People](/about/staff "Details and contact information for the EFF's staff")
+  + [Opportunities](/about/opportunities)
+  + [EFF's 35th Anniversary](/35)
+* [Issues](/work)
+  + [Free Speech](/issues/free-speech)
+  + [Privacy](/issues/privacy)
+  + [Creativity and Innovation](/issues/innovation)
+  + [Transparency](/issues/transparency)
+  + [International](/issues/international)
+  + [Security](/issues/security)
+* [Our Work](/updates)
+  + [Deeplinks Blog](/deeplinks)
+  + [Press Releases](/updates?type=press_release)
+  + [Events](/updates?type=event)
+  + [Legal Cases](/pages/legal-cases)
+  + [Whitepapers](/updates?type=whitepaper)
+  + [Podcast](/taxonomy/term/11579/)
+  + [Annual Reports](https://www.eff.org/about/annual-reports-and-financials)
+* [Take Action](https://act.eff.org/)
+  + [Action Center](https://act.eff.org/)
+  + [Electronic Frontier Alliance](/fight)
+  + [Volunteer](/about/opportunities/volunteer)
+* [Tools](/pages/tools)
+  + [Privacy Badger](https://www.eff.org/pages/privacy-badger)
+  + [Surveillance Self-Defense](https://www.eff.org/pages/surveillance-self-defense)
+  + [Certbot](https://www.eff.org/pages/certbot)
+  + [Atlas of Surveillance](https://www.eff.org/pages/atlas-surveillance)
+  + [Cover Your Tracks](https://www.eff.org/pages/cover-your-tracks)
+  + [Street Level Surveillance](https://sls.eff.org/)
+  + [apkeep](/pages/apkeep)
+* [Donate](https://supporters.eff.org/donate/join-eff-today "Donate to EFF")
+  + [Donate to EFF](https://supporters.eff.org/donate/join-eff-today)
+  + [Giving Societies](/givingsociety)
+  + [Shop](https://shop.eff.org)
+  + [Sponsorships](https://www.eff.org/thanks#organizational_members)
+  + [Other Ways to Give](/helpout)
+  + [Membership FAQ](/pages/membership-faq "Frequently Asked Questions and other information about EFF Memberships.")
+* [Donate](https://supporters.eff.org/donate/site-m--h "Donate to EFF")
+  + [Donate to EFF](https://supporters.eff.org/donate/site-m--h)
+  + [Shop](https://shop.eff.org)
+  + [Other Ways to Give](/helpout)
+
+# Operations Security (OPSEC) Trainings: 2025 in Review
+
+DEEPLINKS BLOG
+
+By [Daly Barnett](/about/staff/daly-barnett)
+
+December 29, 2025
+
+![Bullhorn with "2025 Year in Review" coming out of it in bold letters](https://www.eff.org/files/banner_library/yearinreview_1200x600px_banner_2025.jpg)
+
+# Operations Security (OPSEC) Trainings: 2025 in Review
+
+**Share It**
+[Share on Mastodon](https://mastodonshare.com/?text&url=https://www.eff.org/deeplinks/2025/12/operations-security-opsec-trainings-2025-review)
+[Share on Twitter](https://twitter.com/intent/tweet?text=Operations%20Security%20%28OPSEC%29%20Trainings%3A%202025%20in%20Review&url=https%3A//www.eff.org/deeplinks/2025/12/operations-security-opsec-trainings-2025-review&via=eff&related=eff "Share on Twitter")
+[Share on Facebook](https://www.facebook.com/share.php?u=https%3A//www.eff.org/deeplinks/2025/12/operations-security-opsec-trainings-2025-review&title=Operations%20Security%20%28OPSEC%29%20Trainings%3A%202025%20in%20Review "Share on Facebook")
+[Copy link](https://www.eff.org/deeplinks/2025/12/operations-security-opsec-trainings-2025-review "Copy to clipboard")
+
+![Bullhorn with "2025 Year in Review" coming out of it in bold letters](https://www.eff.org/files/styles/resized_banner/public/banner_library/yearinreview_1200x600px_banner_2025.jpg?itok=2_bu_p_V)
+
+It's no secret that digital surveillance and other tech-enabled oppressions are acute dangers for liberation movement workers. The rising tides of tech-fueled authoritarianism and hyper-surveillance are universal themes across the various threat models we consider. [EFF's Surveillance Self-Defense project](https://ssd.eff.org/) is a vital antidote to these threats, but it's not all we do to help others address these concerns. Our team often receives questions, requests for security trainings, presentations on our research, and asks for general OPSEC (operations security, or, the process of applying digital privacy and information security strategies to a current workflow or process) advising. This year stood out for the sheer number and urgency of requests we fielded.
+
+Combining efforts across our Public Interest Technology and Activism teams, we consulted with an estimated 66 groups and organizations, with at least 2000 participants attending those sessions. These engagements typically look like OPSEC advising and training, usually merging aspects of threat modeling, cybersecurity 101, secure communications practices, doxxing self-defense, and more. The groups we work with are often focused on issue-spaces that are particularly embattled at the current moment, such as abortion access, advocacy for transgender rights, and climate justice.
+
+Our ability to offer realistic and community-focused OPSEC advice for these liberation movement workers is something we take great pride in. These groups are often under-resourced and unable to afford typical infosec consulting. Even if they could, traditional information security firms are designed to protect corporate infrastructure, not grassroots activism. Offering this assistance also allows us t...
