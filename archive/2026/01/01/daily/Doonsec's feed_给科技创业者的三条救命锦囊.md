@@ -1,0 +1,20 @@
+---
+title: 给科技创业者的三条救命锦囊
+url: https://mp.weixin.qq.com/s?__biz=MjM5NDQ5NjM5NQ==&mid=2651626452&idx=1&sn=1019de19faa5d1a64dc939a29cdf42fd
+source: Doonsec's feed
+date: 2026-01-01
+fetch_date: 2026-01-02T03:28:29.774522
+---
+
+# 给科技创业者的三条救命锦囊
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
