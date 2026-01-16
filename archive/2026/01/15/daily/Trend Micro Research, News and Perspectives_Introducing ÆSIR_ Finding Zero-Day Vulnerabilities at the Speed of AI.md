@@ -1,0 +1,219 @@
+---
+title: Introducing ÆSIR: Finding Zero-Day Vulnerabilities at the Speed of AI
+url: https://www.trendmicro.com/en_us/research/26/a/aesir.html
+source: Trend Micro Research, News and Perspectives
+date: 2026-01-15
+fetch_date: 2026-01-16T03:30:41.563601
+---
+
+# Introducing ÆSIR: Finding Zero-Day Vulnerabilities at the Speed of AI
+
+[![Trend Micro logo](/content/dam/trendmicro/global/en/core/images/logos/tm-logo-red-white-t.svg)
+
+Business](/en_us/business.html)
+
+search
+close
+[ ]
+
+* Platform
+
+  + [Trend Vision One Platform](/en_us/business/products/one-platform.html)
+
+    - [Trend Vision One Platform](/en_us/business/products/one-platform.html)
+
+      * Trend Vision One™
+
+        Platform
+
+        Bridge threat protection and cyber risk management
+
+        [Learn more](/en_us/business/products/one-platform.html)
+
+        ![](https://trendmicro.scene7.com/is/image/trendmicro/trend-vision-one-laptop-console-nav?scl=1.0&qlt=95&fmt=webp-alpha)
+    - [Trend Vision One Marketplace](/en_us/partners/platform-marketplace.html)
+
+      * Trend Vision One™
+
+        Marketplace
+
+        Browse Trend-approved partner solutions for our leading platform
+
+        [Learn more](/en_us/partners/platform-marketplace.html)
+    - [Deployment Options](/en_us/business/products/deployment-options.html)
+
+      * Trend Vision One™
+
+        Deployment Options
+
+        Your environment, your choice – deploy Trend Vision One™ as SaaS or customer hosted
+
+        [See more](/en_us/business/products/deployment-options.html)
+  + [Cyber Risk Exposure Management](/en_us/business/products/cyber-risk-exposure-management.html)
+
+    - Trend Vision One™
+
+      Cyber Risk Exposure Management (CREM)
+
+      The leader in Exposure Management – turning cyber risk visibility into decisive, proactive security
+
+      [Learn more](/en_us/business/products/cyber-risk-exposure-management.html)
+
+      ![](https://trendmicro.scene7.com/is/image/trendmicro/asrm-console-shot?scl=1.0&qlt=95&fmt=webp-alpha)
+  + [Security Operations](/en_us/business/products/security-operations.html)
+
+    - Trend Vision One™
+
+      Security Operations (SecOps)
+
+      Stop adversaries with unrivaled visibility, powered by the intelligence of XDR, Agentic SIEM, and Agentic SOAR to leave attackers with nowhere left to hide
+
+      [Learn more](/en_us/business/products/security-operations.html)
+
+      ![](https://trendmicro.scene7.com/is/image/trendmicro/xdr-product-console-shot?scl=1.0&qlt=95&fmt=webp-alpha)
+  + [Cloud Security](/en_us/business/products/hybrid-cloud.html)
+
+    - [Cloud Security](/en_us/business/products/hybrid-cloud.html)
+
+      * Trend Vision One™
+
+        Cloud Security
+
+        The most trusted cloud security platform for developers, security teams, and businesses
+
+        [Learn more](/en_us/business/products/hybrid-cloud.html)
+    - [XDR for Cloud](/en_us/business/products/security-operations.html)
+
+      * Trend Vision One™
+
+        XDR for Cloud
+
+        Extend visibility to the cloud and streamline SOC investigations
+
+        [Learn more](/en_us/business/products/security-operations.html)
+
+        ![](https://trendmicro.scene7.com/is/image/trendmicro/xdr-product-console-shot?scl=1.0&qlt=95&fmt=webp-alpha)
+    - [Workload Security](/en_us/business/products/endpoint-security/workload-security.html)
+
+      * Trend Vision One™
+
+        Workload Security
+
+        Secure your data center, cloud, and containers without compromising performance by leveraging a cloud security platform with CNAPP capabilities
+
+        [Learn more](/en_us/business/products/endpoint-security/workload-security.html)
+
+        ![](https://trendmicro.scene7.com/is/image/trendmicro/cloud-one-workload-security-console-shot?scl=1.0&qlt=95&fmt=webp-alpha)
+    - [Container Security](/en_us/business/products/hybrid-cloud/cloud-one-container-image-security.html)
+
+      * Trend Vision One™
+
+        Container Security
+
+        Simplify security for your cloud-native applications with advanced container image scanning, policy-based admission control, and container runtime protection
+
+        [Learn more](/en_us/business/products/hybrid-cloud/cloud-one-container-image-security.html)
+
+        ![](https://trendmicro.scene7.com/is/image/trendmicro/cloud-one-container-console-shot?scl=1.0&qlt=95&fmt=webp-alpha)
+    - [File Security](/en_us/business/products/hybrid-cloud/cloud-one-file-storage-security.html)
+
+      * Trend Vision One™
+
+        File Security
+
+        Protect application workflow and cloud storage against advanced threats
+
+        [Learn more](/en_us/business/products/hybrid-cloud/cloud-one-file-storage-security.html)
+
+        ![](https://trendmicro.scene7.com/is/image/trendmicro/cloud-one-file-storage-console-shot?scl=1.0&qlt=95&fmt=webp-alpha)
+    - [Cloud Risk Management](/en_us/business/products/hybrid-cloud/cloud-risk-management.html)
+
+      * Trend Vision One™
+
+        Cloud Risk Management
+
+        Unify multi-cloud visibility, eliminate hidden exposure, and secure your future
+
+        [Learn more](/en_us/business/products/hybrid-cloud/cloud-risk-management.html)
+
+        ![](https://trendmicro.scene7.com/is/image/trendmicro/cloud-risk-management-laptop-console-nav?scl=1.0&qlt=95&fmt=webp-alpha)
+  + [Endpoint Security](/en_us/business/products/endpoint-security.html)
+
+    - [Endpoint Security](/en_us/business/products/endpoint-security.html)
+
+      * Trend Vision One™
+
+        Endpoint Security
+
+        Defend the endpoint through every stage of an attack
+
+        [Learn more](/en_us/business/products/endpoint-security.html)
+    - [XDR for Endpoint](/en_us/business/products/security-operations.html)
+
+      * Trend Vision One™
+
+        XDR for Endpoint
+
+        Stop adversaries faster with a broader perspective and better context to hunt, detect, investigate, and respond to threats from a single platform
+
+        [Learn more](/en_us/business/products/security-operations.html)
+
+        ![](https://trendmicro.scene7.com/is/image/trendmicro/xdr-product-console-shot?scl=1.0&qlt=95&fmt=webp-alpha)
+    - [Workload Security](/en_us/business/products/endpoint-security/workload-security.html)
+
+      * Trend Vision One™
+
+        Workload Security
+
+        Optimized prevention, detection, and response for endpoints, servers, and cloud workloads
+
+        [Learn more](/en_us/business/products/endpoint-security/workload-security.html)
+  + [Network Security](/en_us/business/products/network.html)
+
+    - [Network Security](/en_us/business/products/network.html)
+
+      * Trend Vision One™
+
+        Network Security
+
+        Expand the power of XDR with network detection and response
+
+        [Learn more](/en_us/business/products/network.html)
+
+        ![](https://trendmicro.scene7.com/is/image/trendmicro/zero-trust-access-console-shot?scl=1.0&qlt=95&fmt=webp-alpha)
+    - [XDR for Network (NDR)](/en_us/business/products/security-operations.html)
+
+      * Trend Vision One™
+
+        XDR for Network (NDR)
+
+        Stop adversaries faster with a broader perspective and better context to hunt, detect, investigate, and respond to threats from a single platform
+
+        [Learn more](/en_us/business/products/security-operations.html)
+
+        ![](https://trendmicro.scene7.com/is/image/trendmicro/xdr-product-console-shot?scl=1.0&qlt=95&fmt=webp-alpha)
+    - [Network Intrusion Prevention (IPS)](/en_us/business/products/network/intrusion-prevention.html)
+
+      * Network Intrusion Prevention (IPS)
+
+        Protect against known, unknown, and undisclosed vulnerabilities in your network
+
+        [Learn more](/en_us/business/products/network/intrusion-prevention.html)
+    - [Zero Trust Secure Access (ZTSA)](/en_us/business/products/network/zero-trust-secure-access.html)
+
+      * [Zero Trust Secure Access (ZTSA)](/en_us/business/products/network/zero-trust-secure-access.html)
+
+        + Trend Vision One™
+
+          Zero Trust Secure Access (ZTSA)
+
+          Redefine trust and secure digital transformation with continuous risk assessments
+
+          [Learn more](/en_us/business/products/network/zero-trust-secure-access.html)
+      * [AI Secure Access](/en_us/business/products/network/zero-trust-secure-access/ai.html)
+
+        + AI Secure Access
+
+          Ensure unified visibility and control for every GenAI service, user, and interaction
+
+          [Learn more](/en_us/business/products/network...
