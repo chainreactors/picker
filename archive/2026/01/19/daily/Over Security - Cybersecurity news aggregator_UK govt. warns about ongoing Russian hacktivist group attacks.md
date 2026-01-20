@@ -1,0 +1,162 @@
+---
+title: UK govt. warns about ongoing Russian hacktivist group attacks
+url: https://www.bleepingcomputer.com/news/security/uk-govt-warns-about-ongoing-russian-hacktivist-group-attacks/
+source: Over Security - Cybersecurity news aggregator
+date: 2026-01-19
+fetch_date: 2026-01-20T03:35:08.028223
+---
+
+# UK govt. warns about ongoing Russian hacktivist group attacks
+
+[![BleepingComputer.com logo](https://www.bleepstatic.com/images/site/logo.png)](https://www.bleepingcomputer.com/)
+
+* [News](https://www.bleepingcomputer.com/)
+
+  + [Featured](#nfeatured)
+  + [Latest](#nlatest)
+
+  + [![Credential-stealing Chrome extensions target enterprise HR platforms](data:image/gif;base64...)
+
+    Credential-stealing Chrome extensions target enterprise HR platforms](https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/)
+  + [![Microsoft releases OOB Windows updates to fix shutdown, Cloud PC bugs](data:image/gif;base64...)
+
+    Microsoft releases OOB Windows updates to fix shutdown, Cloud PC bugs](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-oob-windows-updates-to-fix-shutdown-cloud-pc-bugs/)
+  + [![Jordanian pleads guilty to selling access to 50 corporate networks](data:image/gif;base64...)
+
+    Jordanian pleads guilty to selling access to 50 corporate networks](https://www.bleepingcomputer.com/news/security/jordanian-pleads-guilty-to-selling-access-to-50-corporate-networks/)
+  + [![Ingram Micro says ransomware attack affected 42,000 people](data:image/gif;base64...)
+
+    Ingram Micro says ransomware attack affected 42,000 people](https://www.bleepingcomputer.com/news/security/ingram-micro-says-ransomware-attack-affected-42-000-people/)
+
+  + [![ChatGPT Go now unlocks unlimited access to GPT-5.2 Instant for $8](data:image/gif;base64...)
+
+    ChatGPT Go now unlocks unlimited access to GPT-5.2 Instant for $8](https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-go-now-unlocks-unlimited-access-to-gpt-52-instant-for-8/)
+  + [![You can get ChatGPT's $20 Plus subscription for free for a limited time](data:image/gif;base64...)
+
+    You can get ChatGPT's $20 Plus subscription for free for a limited time](https://www.bleepingcomputer.com/news/artificial-intelligence/you-can-get-chatgpts-20-plus-subscription-for-free-for-a-limited-time/)
+  + [![Fake ad blocker extension crashes the browser for ClickFix attacks](data:image/gif;base64...)
+
+    Fake ad blocker extension crashes the browser for ClickFix attacks](https://www.bleepingcomputer.com/news/security/fake-ad-blocker-extension-crashes-the-browser-for-clickfix-attacks/)
+  + [![New PDFSider Windows malware deployed on Fortune 100 firm's network](data:image/gif;base64...)
+
+    New PDFSider Windows malware deployed on Fortune 100 firm's network](https://www.bleepingcomputer.com/news/security/new-pdfsider-windows-malware-deployed-on-fortune-100-firms-network/)
+* [Tutorials](https://www.bleepingcomputer.com/tutorials/)
+
+  + [Latest](#tlatest)
+  + [Popular](#popular)
+
+  + [![How to access the Dark Web using the Tor Browser](data:image/gif;base64...)
+
+    How to access the Dark Web using the Tor Browser](/tutorials/how-to-access-the-dark-web-using-the-tor-browser/)
+  + [![How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11](data:image/gif;base64...)
+
+    How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11](/tutorials/how-to-enable-kernel-mode-hardware-enforced-stack-protection-in-windows-11/)
+  + [![How to use the Windows Registry Editor](data:image/gif;base64...)
+
+    How to use the Windows Registry Editor](/tutorials/how-to-use-the-windows-registry-editor/)
+  + [![How to backup and restore the Windows Registry](data:image/gif;base64...)
+
+    How to backup and restore the Windows Registry](/tutorials/how-to-backup-and-restore-the-windows-registry/)
+
+  + [![How to start Windows in Safe Mode](data:image/gif;base64...)
+
+    How to start Windows in Safe Mode](/tutorials/how-to-start-windows-in-safe-mode/)
+  + [![How to remove a Trojan, Virus, Worm, or other Malware](data:image/gif;base64...)
+
+    How to remove a Trojan, Virus, Worm, or other Malware](/tutorials/how-to-remove-a-trojan-virus-worm-or-malware/)
+  + [![How to show hidden files in Windows 7](data:image/gif;base64...)
+
+    How to show hidden files in Windows 7](/tutorials/show-hidden-files-in-windows-7/)
+  + [![How to see hidden files in Windows](data:image/gif;base64...)
+
+    How to see hidden files in Windows](/tutorials/how-to-see-hidden-files-in-windows/)
+* [Webinars](https://www.bleepingcomputer.com/webinars/)
+* [Downloads](https://www.bleepingcomputer.com/download/)
+
+  + [Latest](#dlatest)
+  + [Most Downloaded](#most)
+
+  + [![Qualys BrowserCheck](data:image/gif;base64...)
+
+    Qualys BrowserCheck](https://www.bleepingcomputer.com/download/qualys-browsercheck/)
+  + [![STOPDecrypter](data:image/gif;base64...)
+
+    STOPDecrypter](https://www.bleepingcomputer.com/download/stopdecrypter/)
+  + [![AuroraDecrypter](data:image/gif;base64...)
+
+    AuroraDecrypter](https://www.bleepingcomputer.com/download/auroradecrypter/)
+  + [![FilesLockerDecrypter](data:image/gif;base64...)
+
+    FilesLockerDecrypter](https://www.bleepingcomputer.com/download/fileslockerdecrypter/)
+
+  + [![AdwCleaner](data:image/gif;base64...)
+
+    AdwCleaner](/download/adwcleaner/)
+  + [![ComboFix](data:image/gif;base64...)
+
+    ComboFix](/download/combofix/)
+  + [![RKill](data:image/gif;base64...)
+
+    RKill](/download/rkill/)
+  + [![Junkware Removal Tool](data:image/gif;base64...)
+
+    Junkware Removal Tool](/download/junkware-removal-tool/)
+* [Deals](https://deals.bleepingcomputer.com/)
+
+  + [Categories](#dcategories)
+
+  + [![eLearning](data:image/gif;base64...)
+
+    eLearning](https://deals.bleepingcomputer.com/deals/elearning?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+  + [![IT Certification Courses](data:image/gif;base64...)
+
+    IT Certification Courses](https://deals.bleepingcomputer.com/deals/certifications?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+  + [![Gear & Gadgets](data:image/gif;base64...)
+
+    Gear + Gadgets](https://deals.bleepingcomputer.com/deals/gear-gadgets?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+  + [![Security](data:image/gif;base64...)
+
+    Security](https://deals.bleepingcomputer.com/collections/tag-cyber-security?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+* [VPNs](https://www.bleepingcomputer.com/vpn/)
+
+  + [Popular](#vpopular)
+
+  + [![Best VPNs](data:image/gif;base64...)
+
+    Best VPNs](https://www.bleepingcomputer.com/vpn/guides/best-vpn/)
+  + [![How to change IP address](data:image/gif;base64...)
+
+    How to change IP address](https://www.bleepingcomputer.com/vpn/guides/change-ip-address/)
+  + [![Access the dark web safely](data:image/gif;base64...)
+
+    Access the dark web safely](https://www.bleepingcomputer.com/vpn/guides/access-dark-web-safely/)
+  + [![Best VPN for YouTube](data:image/gif;base64...)
+
+    Best VPN for YouTube](https://www.bleepingcomputer.com/vpn/guides/watch-youtube-tv-abroad-vpn/)
+* [Forums](https://www.bleepingcomputer.com/forums/)
+* More
+  + [Virus Removal Guides](https://www.bleepingcomputer.com/virus-removal/)
+  + [Startup Database](https://www.bleepingcomputer.com/startups/)
+  + [Uninstall Database](https://www.bleepingcomputer.com/uninstall/)
+  + [Glossary](https://www.bleepingcomputer.com/glossary/)
+  + [Send us a Tip!](https://www.bleepingcomputer.com/news-tip/)
+  + [Welcome Guide](https://www.bleepingcomputer.com/welcome-guide/)
+
+[![TheatLocker](https://www.bleepstatic.com/c/t/TL-Allowlisting-970x250.jpg)](https://www.threatlocker.com/stop-ransomware-before-it-starts?utm_source=bleeping_computer&utm_medium=sponsor&utm_campaign=deploy-allowlisting_q4-25&utm_content=deploy-allowlisting-970x250&utm_term=display)
+
+* [Home](https://www.bleepingcomputer.com/)
+* [News](https://www.bleepingcomputer.com/news/)
+* [Security](https://www.bleepingcomputer.com/news/security/)
+* UK govt. warns about ongoing Russian hacktivist group attacks
+
+# UK govt. warns about ongoing Russian hacktivist group attacks
+
+By
+
+###### [Bill Toulas](https://www.bleepingcomputer.com/author/bill-toulas/)
+
+* January 19, 2026
+* 12:20 PM
+* [0](#comment_form)
+
+![UK govt. warns about ongoing Russian hacktivist group attacks](https://www.bleepstatic.com/content/hl-images/2...
