@@ -1,0 +1,220 @@
+---
+title: Asterisk Security Release 22.8.2
+url: https://seclists.org/fulldisclosure/2026/Feb/7
+source: Full Disclosure
+date: 2026-02-08
+fetch_date: 2026-02-09T04:18:51.136596
+---
+
+# Asterisk Security Release 22.8.2
+
+[![](/shared/images/nst-icons.svg#menu)](#menu)
+![](/shared/images/nst-icons.svg#close)
+[![Home page logo](/images/sitelogo.png)](/)
+
+[Nmap.org](https://nmap.org/)
+[Npcap.com](https://npcap.com/)
+[Seclists.org](https://seclists.org/)
+[Sectools.org](https://sectools.org)
+[Insecure.org](https://insecure.org/)
+
+![](/shared/images/nst-icons.svg#search)
+
+[![fulldisclosure logo](/images/fulldisclosure-logo.png)](/fulldisclosure/)
+
+## [Full Disclosure](/fulldisclosure/) mailing list archives
+
+[![Previous](/images/left-icon-16x16.png)](6)
+[By Date](date.html#7)
+[![Next](/images/right-icon-16x16.png)](8)
+
+[![Previous](/images/left-icon-16x16.png)](6)
+[By Thread](index.html#7)
+[![Next](/images/right-icon-16x16.png)](8)
+
+![](/shared/images/nst-icons.svg#search)
+
+# Asterisk Security Release 22.8.2
+
+---
+
+*From*: Asterisk Development Team via Fulldisclosure <fulldisclosure () seclists org>
+*Date*: Thu, 5 Feb 2026 16:51:10 +0000
+
+---
+
+```
+The Asterisk Development Team would like to announce security release
+Asterisk 22.8.2.
+
+The release artifacts are available for immediate download at
+https://github.com/asterisk/asterisk/releases/tag/22.8.2
+and
+https://downloads.asterisk.org/pub/telephony/asterisk
+
+Repository: https://github.com/asterisk/asterisk
+Tag: 22.8.2
+
+## Change Log for Release asterisk-22.8.2
+
+### Links:
+
+ - [Full ChangeLog](https://downloads.asterisk.org/pub/telephony/asterisk/releases/ChangeLog-22.8.2.html)
+ - [GitHub Diff](https://github.com/asterisk/asterisk/compare/22.8.1...22.8.2)
+ - [Tarball](https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-22.8.2.tar.gz)
+ - [Downloads](https://downloads.asterisk.org/pub/telephony/asterisk)
+
+### Summary:
+
+- Commits: 4
+- Commit Authors: 2
+- Issues Resolved: 0
+- Security Advisories Resolved: 4
+  - [GHSA-85x7-54wr-vh42](https://github.com/asterisk/asterisk/security/advisories/GHSA-85x7-54wr-vh42): Asterisk xml.c
+uses unsafe XML_PARSE_NOENT leading to potential XXE Injection
+  - [GHSA-rvch-3jmx-3jf3](https://github.com/asterisk/asterisk/security/advisories/GHSA-rvch-3jmx-3jf3): ast_coredumper
+running as root sources ast_debug_tools.conf from /etc/asterisk; potentially leading to privilege escalation
+  - [GHSA-v6hp-wh3r-cwxh](https://github.com/asterisk/asterisk/security/advisories/GHSA-v6hp-wh3r-cwxh): The Asterisk
+embedded web server's /httpstatus page echos user supplied values(cookie and query string) without sanitization
+  - [GHSA-xpc6-x892-v83c](https://github.com/asterisk/asterisk/security/advisories/GHSA-xpc6-x892-v83c): ast_coredumper
+runs as root, and writes gdb init file to world writeable folder; leading to potential privilege escalation
+
+### User Notes:
+
+- #### ast_coredumper: check ast_debug_tools.conf permissions
+  ast_debug_tools.conf must be owned by root and not be
+  writable by other users or groups to be used by ast_coredumper or
+  by ast_logescalator or ast_loggrabber when run as root.
+
+### Upgrade Notes:
+
+- #### http.c: Change httpstatus to default disabled and sanitize output.
+  To prevent possible security issues, the `/httpstatus` page
+  served by the internal web server is now disabled by default.  To explicitly
+  enable it, set `enable_status=yes` in http.conf.
+
+### Developer Notes:
+
+### Commit Authors:
+
+- George Joseph: (2)
+- Mike Bradeen: (2)
+
+## Issue and Commit Detail:
+
+### Closed Issues:
+
+  - !GHSA-85x7-54wr-vh42: Asterisk xml.c uses unsafe XML_PARSE_NOENT leading to potential XXE Injection
+  - !GHSA-rvch-3jmx-3jf3: ast_coredumper running as root sources ast_debug_tools.conf from /etc/asterisk; potentially
+leading to privilege escalation
+  - !GHSA-v6hp-wh3r-cwxh: The Asterisk embedded web server's /httpstatus page echos user supplied values(cookie and
+query string) without sanitization
+  - !GHSA-xpc6-x892-v83c: ast_coredumper runs as root, and writes gdb init file to world writeable folder; leading to
+potential privilege escalation
+
+### Commits By Author:
+
+- #### George Joseph (2):
+
+- #### Mike Bradeen (2):
+
+### Commit List:
+
+-  xml.c: Replace XML_PARSE_NOENT with XML_PARSE_NONET for xmlReadFile.
+-  ast_coredumper: check ast_debug_tools.conf permissions
+-  http.c: Change httpstatus to default disabled and sanitize output.
+-  ast_coredumper: create gdbinit file with restrictive permissions
+
+### Commit Details:
+
+#### xml.c: Replace XML_PARSE_NOENT with XML_PARSE_NONET for xmlReadFile.
+  Author: George Joseph
+  Date:   2026-01-15
+
+  The xmlReadFile XML_PARSE_NOENT flag, which allows parsing of external
+  entities, could allow a potential XXE injection attack.  Replacing it with
+  XML_PARSE_NONET, which prevents network access, is safer.
+
+  Resolves: #GHSA-85x7-54wr-vh42
+
+#### ast_coredumper: check ast_debug_tools.conf permissions
+  Author: Mike Bradeen
+  Date:   2026-01-15
+
+  Prevent ast_coredumper from using ast_debug_tools.conf files that are
+  not owned by root or are writable by other users or groups.
+
+  Prevent ast_logescalator and ast_loggrabber from doing the same if
+  they are run as root.
+
+  Resolves: #GHSA-rvch-3jmx-3jf3
+
+  UserNote: ast_debug_tools.conf must be owned by root and not be
+  writable by other users or groups to be used by ast_coredumper or
+  by ast_logescalator or ast_loggrabber when run as root.
+
+#### http.c: Change httpstatus to default disabled and sanitize output.
+  Author: George Joseph
+  Date:   2026-01-15
+
+  To address potential security issues, the httpstatus page is now disabled
+  by default and the echoed query string and cookie output is html-escaped.
+
+  Resolves: #GHSA-v6hp-wh3r-cwxh
+
+  UpgradeNote: To prevent possible security issues, the `/httpstatus` page
+  served by the internal web server is now disabled by default.  To explicitly
+  enable it, set `enable_status=yes` in http.conf.
+
+#### ast_coredumper: create gdbinit file with restrictive permissions
+  Author: Mike Bradeen
+  Date:   2026-01-15
+
+  Modify gdbinit to use the install command with explicit permissions (-m 600)
+  when creating the .ast_coredumper.gdbinit file. This ensures the file is
+  created with restricted permissions (readable/writable only by the owner)
+  to avoid potential privilege escalation.
+
+  Resolves: #GHSA-xpc6-x892-v83c
+
+_______________________________________________
+Sent through the Full Disclosure mailing list
+https://nmap.org/mailman/listinfo/fulldisclosure
+Web Archives & RSS: https://seclists.org/fulldisclosure/
+```
+
+---
+
+[![Previous](/images/left-icon-16x16.png)](6)
+[By Date](date.html#7)
+[![Next](/images/right-icon-16x16.png)](8)
+
+[![Previous](/images/left-icon-16x16.png)](6)
+[By Thread](index.html#7)
+[![Next](/images/right-icon-16x16.png)](8)
+
+### Current thread:
+
+* **Asterisk Security Release 22.8.2** *Asterisk Development Team via Fulldisclosure (Feb 07)*
+
+![](/shared/images/nst-icons.svg#search)
+
+## [Nmap Security Scanner](https://nmap.org/)
+
+* [Ref Guide](https://nmap.org/book/man.html)* [Install Guide](https://nmap.org/book/install.html)* [Docs](https://nmap.org/docs.html)* [Download](https://nmap.org/download.html)* [Nmap OEM](https://nmap.org/oem/)
+
+## [Npcap packet capture](https://npcap.com/)
+
+* [User's Guide](https://npcap.com/guide/)* [API docs](https://npcap.com/guide/npcap-devguide.html#npcap-api)* [Download](https://npcap.com/#download)* [Npcap OEM](https://npcap.com/oem/)
+
+## [Security Lists](https://seclists.org/)
+
+* [Nmap Announce](https://seclists.org/nmap-announce/)* [Nmap Dev](https://seclists.org/nmap-dev/)* [Full Disclosure](https://seclists.org/fulldisclosure/)* [Open Source Security](https://seclists.org/oss-sec/)* [BreachExchange](https://seclists.org/dataloss/)
+
+## [Security Tools](https://sectools.org)
+
+* [Vuln scanners](https://sectools.org/tag/vuln-scanners/)* [Password audit](https://sectools.org/tag/pass-audit/)* [Web scanners](https://sectools.org/tag/web-scanners/)* [Wireless](https://sectools.org/tag/wireless/)* [Exploitation](https://sectools.org/tag/sploits/)
+
+## [About](https://insecure.org/)
+
+* [About/Contact](https://insecure.org/fyodor/)* [Privacy](https://insecure.org/privacy.html)* [Advertising](https://insecure...
