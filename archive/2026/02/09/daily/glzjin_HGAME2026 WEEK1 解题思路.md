@@ -1,0 +1,155 @@
+---
+title: HGAME2026 WEEK1 解题思路
+url: https://www.zhaoj.in/read-9165.html
+source: glzjin
+date: 2026-02-09
+fetch_date: 2026-02-10T04:25:44.575590
+---
+
+# HGAME2026 WEEK1 解题思路
+
+[![glzjin](https://www.zhaoj.in/wp-content/uploads/2016/04/1460635478e753758d45e5fb95f465e8ceaaabe897.png)](https://www.zhaoj.in/ "glzjin")
+
+西兴街道物理安全研究员 | 原学生@北京联合大学 | 信息安全爱好者 | 全栈开发 | OSCP | OSWE | OSEP | OSED | OSCE3 | OSWA | OSWP | OSDA | OSMR | KLCP | CISSP | ASCP | S+ | PMP | 为心中的美好而战
+
+* [上一篇文章](https://www.zhaoj.in/read-9135.html)
+
+* [2](#com_container "显示评论")
+* [Glzjin](https://www.zhaoj.in/read-author/glzjin "作者简介")
+
+切换导航
+
+* [首页](https://www.zhaoj.in "首页")
+* [Support Me!](https://www.zhaoj.in/support-me "Support Me!")
+
+## [HGAME2026 WEEK1 解题思路](https://www.zhaoj.in/read-9165.html)
+
+张贴在 [2026年2月9日](https://www.zhaoj.in/read-date/2026/02/09 "HGAME2026 WEEK1 解题思路") 来自 [Glzjin](https://www.zhaoj.in/read-author/glzjin) in  [技术](https://www.zhaoj.in/read-category/tech "查看技术中的全部文章")
+
+队伍名：glzjinsbot
+
+![](https://www.zhaoj.in/wp-content/uploads/2026/02/17706426586ed622c4bd1987325b929907c4233b42-1024x461.png)
+
+除了签到以外其他都是AI解的了。
+
+Table of Contents
+
+Toggle
+
+* [签到](#%E7%AD%BE%E5%88%B0)
+  + [Readme](#Readme)
+  + [TEST NC](#TEST_NC)
+* [Crypto](#Crypto)
+  + [ezCurve](#ezCurve)
+    - [ezCurve Writeup](#ezCurve_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90)
+    - [解题思路](#%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF)
+    - [核心挑战](#%E6%A0%B8%E5%BF%83%E6%8C%91%E6%88%98)
+    - [关键数学观察](#%E5%85%B3%E9%94%AE%E6%95%B0%E5%AD%A6%E8%A7%82%E5%AF%9F)
+    - [Coppersmith 双变量小根攻击](#Coppersmith_%E5%8F%8C%E5%8F%98%E9%87%8F%E5%B0%8F%E6%A0%B9%E6%94%BB%E5%87%BB)
+    - [解题步骤](#%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4)
+    - [1. 数据收集](#1_%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86)
+    - [2. 计算范围](#2_%E8%AE%A1%E7%AE%97%E8%8C%83%E5%9B%B4)
+    - [3. 构建多项式](#3_%E6%9E%84%E5%BB%BA%E5%A4%9A%E9%A1%B9%E5%BC%8F)
+    - [4. 应用 Coppersmith 方法](#4_%E5%BA%94%E7%94%A8_Coppersmith_%E6%96%B9%E6%B3%95)
+    - [5. 提交结果](#5_%E6%8F%90%E4%BA%A4%E7%BB%93%E6%9E%9C)
+    - [关键代码](#%E5%85%B3%E9%94%AE%E4%BB%A3%E7%A0%81)
+    - [数据收集脚本 (solve.py)](#%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E8%84%9A%E6%9C%AC_solvepy)
+    - [SageMath求解脚本 (sage\_solver.sage)](#SageMath%E6%B1%82%E8%A7%A3%E8%84%9A%E6%9C%AC_sage_solversage)
+    - [Flag](#Flag)
+    - [关键技巧](#%E5%85%B3%E9%94%AE%E6%8A%80%E5%B7%A7)
+  + [babyRSA](#babyRSA)
+    - [babyRSA Writeup](#babyRSA_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-2)
+    - [解题步骤](#%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4-2)
+    - [babyRSA Writeup](#babyRSA_Writeup-2)
+* [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-3)
+  + - * [建模](#%E5%BB%BA%E6%A8%A1)
+      * [候选 flag 的来源（不是直接抄答案）](#%E5%80%99%E9%80%89_flag_%E7%9A%84%E6%9D%A5%E6%BA%90%EF%BC%88%E4%B8%8D%E6%98%AF%E7%9B%B4%E6%8E%A5%E6%8A%84%E7%AD%94%E6%A1%88%EF%BC%89)
+      * [验证](#%E9%AA%8C%E8%AF%81)
+      * [复现脚本](#%E5%A4%8D%E7%8E%B0%E8%84%9A%E6%9C%AC)
+    - [Flag](#Flag-2)
+  + [Classic](#Classic)
+    - [Classic Writeup](#Classic_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-4)
+    - [解题步骤](#%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4-3)
+    - [关键代码 / 命令](#%E5%85%B3%E9%94%AE%E4%BB%A3%E7%A0%81_%E5%91%BD%E4%BB%A4)
+    - [Flag](#Flag-3)
+  + [Flux](#Flux)
+    - [Flux Writeup](#Flux_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-5)
+      * [代码分析](#%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90)
+    - [解题步骤](#%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4-4)
+      * [步骤 1：恢复参数 a, b, c](#%E6%AD%A5%E9%AA%A4_1%EF%BC%9A%E6%81%A2%E5%A4%8D%E5%8F%82%E6%95%B0_a_b_c)
+      * [步骤 2：求解初始值 h](#%E6%AD%A5%E9%AA%A4_2%EF%BC%9A%E6%B1%82%E8%A7%A3%E5%88%9D%E5%A7%8B%E5%80%BC_h)
+      * [步骤 3：爆破 key](#%E6%AD%A5%E9%AA%A4_3%EF%BC%9A%E7%88%86%E7%A0%B4_key)
+      * [步骤 4：计算 flag](#%E6%AD%A5%E9%AA%A4_4%EF%BC%9A%E8%AE%A1%E7%AE%97_flag)
+    - [关键代码](#%E5%85%B3%E9%94%AE%E4%BB%A3%E7%A0%81-2)
+    - [Flag](#Flag-4)
+* [Misc](#Misc)
+  + [打好基础](#%E6%89%93%E5%A5%BD%E5%9F%BA%E7%A1%80)
+    - [打好基础 Writeup](#%E6%89%93%E5%A5%BD%E5%9F%BA%E7%A1%80_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-6)
+    - [解题步骤](#%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4-5)
+      * [1）Emoji → ASCII 映射](#1%EF%BC%89Emoji_%E2%86%92_ASCII_%E6%98%A0%E5%B0%84)
+      * [2）逐层 Base 解码链路推导](#2%EF%BC%89%E9%80%90%E5%B1%82_Base_%E8%A7%A3%E7%A0%81%E9%93%BE%E8%B7%AF%E6%8E%A8%E5%AF%BC)
+    - [关键脚本](#%E5%85%B3%E9%94%AE%E8%84%9A%E6%9C%AC)
+    - [Flag](#Flag-5)
+  + [[REDACTED]](#REDACTED)
+    - [[REDACTED] Writeup](#REDACTED_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-7)
+    - [解题步骤](#%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4-6)
+      * [1) 获取与初步阅读](#1_%E8%8E%B7%E5%8F%96%E4%B8%8E%E5%88%9D%E6%AD%A5%E9%98%85%E8%AF%BB)
+      * [2) 解码白字（打乱字体）得到 JWT → 2](#2_%E8%A7%A3%E7%A0%81%E7%99%BD%E5%AD%97%EF%BC%88%E6%89%93%E4%B9%B1%E5%AD%97%E4%BD%93%EF%BC%89%E5%BE%97%E5%88%B0_JWT_%E2%86%92_2)
+      * [3) PDF 增量更新找回 4](#3_PDF_%E5%A2%9E%E9%87%8F%E6%9B%B4%E6%96%B0%E6%89%BE%E5%9B%9E_4)
+      * [4) 图像 LSB 隐写得到 3](#4_%E5%9B%BE%E5%83%8F_LSB_%E9%9A%90%E5%86%99%E5%BE%97%E5%88%B0_3)
+    - [汇总](#%E6%B1%87%E6%80%BB)
+    - [Flag](#Flag-6)
+  + [shiori不想找女友](#shiori%E4%B8%8D%E6%83%B3%E6%89%BE%E5%A5%B3%E5%8F%8B)
+    - [shiori不想找女友 Writeup](#shiori%E4%B8%8D%E6%83%B3%E6%89%BE%E5%A5%B3%E5%8F%8B_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-8)
+    - [解题步骤](#%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4-7)
+      * [1）解压附件](#1%EF%BC%89%E8%A7%A3%E5%8E%8B%E9%99%84%E4%BB%B6)
+      * [2）外层图片隐写（拿到 zip 密码）](#2%EF%BC%89%E5%A4%96%E5%B1%82%E5%9B%BE%E7%89%87%E9%9A%90%E5%86%99%EF%BC%88%E6%8B%BF%E5%88%B0_zip_%E5%AF%86%E7%A0%81%EF%BC%89)
+      * [3）解密内层 zip 并修复图像](#3%EF%BC%89%E8%A7%A3%E5%AF%86%E5%86%85%E5%B1%82_zip_%E5%B9%B6%E4%BF%AE%E5%A4%8D%E5%9B%BE%E5%83%8F)
+      * [4）内层图片位平面分析（还原坐标信息）](#4%EF%BC%89%E5%86%85%E5%B1%82%E5%9B%BE%E7%89%87%E4%BD%8D%E5%B9%B3%E9%9D%A2%E5%88%86%E6%9E%90%EF%BC%88%E8%BF%98%E5%8E%9F%E5%9D%90%E6%A0%87%E4%BF%A1%E6%81%AF%EF%BC%89)
+      * [5）地理定位](#5%EF%BC%89%E5%9C%B0%E7%90%86%E5%AE%9A%E4%BD%8D)
+    - [Flag](#Flag-7)
+* [Pwn](#Pwn)
+  + [Heap1sEz](#Heap1sEz)
+    - [Heap1sEz Writeup](#Heap1sEz_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-9)
+    - [解题步骤](#%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4-8)
+      * [关键利用代码（节选）](#%E5%85%B3%E9%94%AE%E5%88%A9%E7%94%A8%E4%BB%A3%E7%A0%81%EF%BC%88%E8%8A%82%E9%80%89%EF%BC%89)
+    - [Flag](#Flag-8)
+  + [steins;gate](#steinsgate)
+    - [steins;gate Writeup](#steinsgate_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-10)
+    - [关键观察：回溯地址泄露](#%E5%85%B3%E9%94%AE%E8%A7%82%E5%AF%9F%EF%BC%9A%E5%9B%9E%E6%BA%AF%E5%9C%B0%E5%9D%80%E6%B3%84%E9%9C%B2)
+    - [前缀恢复](#%E5%89%8D%E7%BC%80%E6%81%A2%E5%A4%8D)
+    - [最后两字节穷举](#%E6%9C%80%E5%90%8E%E4%B8%A4%E5%AD%97%E8%8A%82%E7%A9%B7%E4%B8%BE)
+    - [关键脚本与命令](#%E5%85%B3%E9%94%AE%E8%84%9A%E6%9C%AC%E4%B8%8E%E5%91%BD%E4%BB%A4)
+    - [Flag](#Flag-9)
+    - [solve\_hash.py](#solve_hashpy)
+    - [bruteforce\_last2.py](#bruteforce_last2py)
+  + [Producer and Consumer](#Producer_and_Consumer)
+    - [Producer and Consumer Writeup](#Producer_and_Consumer_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-11)
+      * [程序结构](#%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84)
+      * [漏洞点](#%E6%BC%8F%E6%B4%9E%E7%82%B9)
+      * [安全特性](#%E5%AE%89%E5%85%A8%E7%89%B9%E6%80%A7)
+    - [解题步骤](#%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4-9)
+      * [1）触发竞态条件并布置溢出数据](#1%EF%BC%89%E8%A7%A6%E5%8F%91%E7%AB%9E%E6%80%81%E6%9D%A1%E4%BB%B6%E5%B9%B6%E5%B8%83%E7%BD%AE%E6%BA%A2%E5%87%BA%E6%95%B0%E6%8D%AE)
+      * [2）Stage 1：泄露 libc](#2%EF%BC%89Stage_1%EF%BC%9A%E6%B3%84%E9%9C%B2_libc)
+      * [3）Stage 2：system + “cat /flag”](#3%EF%BC%89Stage_2%EF%BC%9Asystem_%E2%80%9Ccat_flag%E2%80%9D)
+    - [Flag](#Flag-10)
+  + [adrift](#adrift)
+    - [adrift Writeup](#adrift_Writeup)
+    - [题目分析](#%E9%A2%98%E7%9B%AE%E5%88%86%E6%9E%90-12)
+    - [漏洞点](#%E6%BC%8F%E6%B4%9E%E7%82%B9-2)
+      * [1）索引绝对值溢出泄露 canary](#1%EF%BC%89%E7%B4%A2%E5%BC%95%E7%BB%9D%E5%AF%B9%E5%80%BC%E6%BA%A2%E5%87%BA%E6%B3%84%E9%9C%B2_canary)
+      * [2）栈溢出覆盖返回地址](#2%EF%BC%89%E6%A0%88%E6%BA%A2%E5%87%BA%E8%A6%86%E7%9B%96%E8%BF%94%E5%9B%9E%E5%9C%B0%E5%9D%80)
+    - [利用思路](#%E5%88%A9%E7%94%A8%E6%80%9D%E8%B7%AF)
+    - [关键参数](#%E5%85%B3%E9%94%AE%E5%8F%82%E6%95%B0)
+    - [stage1 shellcode（13 字节）](#stage1_shellcode%EF%BC%8813_%E5%AD%97%E8%8A%82%EF%BC%89)
+...
