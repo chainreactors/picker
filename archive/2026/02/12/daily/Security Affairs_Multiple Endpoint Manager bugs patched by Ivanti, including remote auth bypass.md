@@ -1,0 +1,160 @@
+---
+title: Multiple Endpoint Manager bugs patched by Ivanti, including remote auth bypass
+url: https://securityaffairs.com/187882/uncategorized/multiple-endpoint-manager-bugs-patched-by-ivanti-including-remote-auth-bypass.html
+source: Security Affairs
+date: 2026-02-12
+fetch_date: 2026-02-13T04:18:49.673444
+---
+
+# Multiple Endpoint Manager bugs patched by Ivanti, including remote auth bypass
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[Odido confirms massive breach; 6.2 Million customers impacted](https://securityaffairs.com/187927/uncategorized/odido-confirms-massive-breach-6-2-million-customers-impacted.html)
+
+ |
+
+[ApolloMD data breach impacts 626,540 people](https://securityaffairs.com/187921/data-breach/apollomd-data-breach-impacts-626540-people.html)
+
+ |
+
+[LummaStealer activity spikes post-law enforcement disruption](https://securityaffairs.com/187896/uncategorized/lummastealer-activity-spikes-post-law-enforcement-disruption.html)
+
+ |
+
+[Apple fixed first actively exploited zero-day in 2026](https://securityaffairs.com/187890/security/apple-fixed-first-actively-exploited-zero-day-in-2026.html)
+
+ |
+
+[Multiple Endpoint Manager bugs patched by Ivanti, including remote auth bypass](https://securityaffairs.com/187882/uncategorized/multiple-endpoint-manager-bugs-patched-by-ivanti-including-remote-auth-bypass.html)
+
+ |
+
+[Volvo Group hit in massive Conduent data breach](https://securityaffairs.com/187875/security/volvo-group-hit-in-massive-conduent-data-breach.html)
+
+ |
+
+[Reynolds ransomware uses BYOVD to disable security before encryption](https://securityaffairs.com/187869/security/reynolds-ransomware-uses-byovd-to-disable-security-before-encryption.html)
+
+ |
+
+[SSHStalker botnet targets Linux servers with legacy exploits and SSH scanning](https://securityaffairs.com/187833/malware/sshstalker-botnet-targets-linux-servers-with-legacy-exploits-and-ssh-scanning.html)
+
+ |
+
+[U.S. CISA adds Microsoft Office and Microsoft Windows flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/187855/security/u-s-cisa-adds-microsoft-office-and-microsoft-windows-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Microsoft Patch Tuesday security updates for February 2026 fix six actively exploited zero-days](https://securityaffairs.com/187848/uncategorized/microsoft-patch-tuesday-security-updates-for-february-2026-fix-six-actively-exploited-zero-days.html)
+
+ |
+
+[ZeroDayRAT spyware grants attackers total access to mobile devices](https://securityaffairs.com/187820/malware/zerodayrat-spyware-grants-attackers-total-access-to-mobile-devices.html)
+
+ |
+
+[Senegal shuts National ID office after ransomware attack](https://securityaffairs.com/187811/data-breach/senegal-shuts-national-id-office-after-ransomware-attack.html)
+
+ |
+
+[Dutch agencies hit by Ivanti EPMM exploit exposing employee contact data](https://securityaffairs.com/187806/security/dutch-agencies-hit-by-ivanti-epmm-exploit-exposing-employee-contact-data.html)
+
+ |
+
+[China-linked APT UNC3886 targets Singapore telcos](https://securityaffairs.com/187792/apt/china-linked-apt-unc3886-targets-singapore-telcos.html)
+
+ |
+
+[Critical Fortinet FortiClientEMS flaw allows remote code execution](https://securityaffairs.com/187787/security/critical-fortinet-forticlientems-flaw-allows-remote-code-execution.html)
+
+ |
+
+[BeyondTrust fixes critical pre-auth bug allowing remote code execution](https://securityaffairs.com/187776/security/beyondtrust-fixes-critical-pre-auth-bug-allowing-remote-code-execution.html)
+
+ |
+
+[European Commission probes cyberattack on mobile device management system](https://securityaffairs.com/187768/data-breach/european-commission-probes-cyberattack-on-mobile-device-management-system.html)
+
+ |
+
+[Attackers abuse SolarWinds Web Help Desk to install Zoho agents and Velociraptor](https://securityaffairs.com/187761/security/attackers-abuse-solarwinds-web-help-desk-to-install-zoho-agents-and-velociraptor.html)
+
+ |
+
+[Romania’s national oil pipeline firm Conpet reports cyberattack](https://securityaffairs.com/187736/cyber-crime/romanias-national-oil-pipeline-firm-conpet-reports-cyberattack.html)
+
+ |
+
+[Flickr moves to contain data exposure, warns users of phishing](https://securityaffairs.com/187753/data-breach/flickr-moves-to-contain-data-exposure-warns-users-of-phishing.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Uncategorized](https://securityaffairs.com/category/uncategorized)
+* Multiple Endpoint Manager bugs patched by Ivanti, including remote auth bypass
+
+## Multiple Endpoint Manager bugs patched by Ivanti, including remote auth bypass
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/clock-icon.svg)* February 12, 2026
+
+![](https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/07/Ivanti-logo.png?fit=1000%2C351&ssl=1)
+
+## Ivanti patched over a dozen Endpoint Manager flaws, including a high-severity auth bypass that let attackers steal credentials remotely.
+
+Ivanti released patches for more than a dozen vulnerabilities in Endpoint Manager, including flaws disc...
