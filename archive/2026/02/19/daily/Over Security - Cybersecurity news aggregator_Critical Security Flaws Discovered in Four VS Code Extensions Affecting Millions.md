@@ -1,0 +1,92 @@
+---
+title: Critical Security Flaws Discovered in Four VS Code Extensions Affecting Millions
+url: https://thecyberexpress.com/vs-code-extensions-supply-chain-security-flaws/
+source: Over Security - Cybersecurity news aggregator
+date: 2026-02-19
+fetch_date: 2026-02-20T04:07:47.514254
+---
+
+# Critical Security Flaws Discovered in Four VS Code Extensions Affecting Millions
+
+* [About Us](https://thecyberexpress.com/about-us/)
+* [Contact Us](https://thecyberexpress.com/contact-us/)
+* [Editorial Calendar](https://thecyberexpress.com/editorial-calendar-2024/)
+* [Careers](https://thecyberexpress.com/careers/)
+* [The Cyber Express by Cyble Vulnerability Disclosure Policy](https://thecyberexpress.com/the-cyber-express-by-cyble-vulnerability-disclosure-policy/)
+* [Cyble Trust Portal](https://trust.cyble.com/)
+
+[![The Cyber Express](data:image/svg+xml...)![The Cyber Express](https://thecyberexpress.com/wp-content/uploads/CyberExpress-logo-01-black-250x100-1.png)](https://thecyberexpress.com/)
+
+* [MagazineDownload](https://thecyberexpress.com/cybersecurity-magazine/ "Cybersecurity Magazine")
+* [Firewall Daily](https://thecyberexpress.com/firewall-daily/)
+
+  + [All](https://thecyberexpress.com/firewall-daily/)
+  + [Bug Bounty & Rewards](https://thecyberexpress.com/firewall-daily/bug-bounty-rewards/)
+  + [Dark Web News](https://thecyberexpress.com/firewall-daily/dark-web-news/)
+  + [Data Breach News](https://thecyberexpress.com/firewall-daily/data-breaches-news/)
+  + [Hacker News](https://thecyberexpress.com/firewall-daily/hacker-news/)
+  + [Ransomware News](https://thecyberexpress.com/firewall-daily/ransomware-news/)
+  + [Vulnerabilities](https://thecyberexpress.com/firewall-daily/vulnerabilities/)
+
+  [![VS Code extensions](data:image/svg+xml... "Critical Security Flaws Discovered in Four VS Code Extensions Affecting Millions 1")![VS Code extensions](https://thecyberexpress.com/wp-content/uploads/VS-Code-extensions.webp "Critical Security Flaws Discovered in Four VS Code Extensions Affecting Millions 1")](https://thecyberexpress.com/vs-code-extensions-supply-chain-security-flaws/)
+
+  ### [Critical Security Flaws Discovered in Four VS Code Extensions Affecting Millions](https://thecyberexpress.com/vs-code-extensions-supply-chain-security-flaws/)
+
+  [![AI in education](data:image/svg+xml... "AI Has Entered Schools—But What About Its Responsible Use? 2")![AI in education](https://thecyberexpress.com/wp-content/uploads/AI-in-education.webp "AI Has Entered Schools—But What About Its Responsible Use? 2")](https://thecyberexpress.com/ai-in-education-shaping-classrooms-of-tomorrow/)
+
+  ### [AI Has Entered Schools—But What About Its Responsible Use?](https://thecyberexpress.com/ai-in-education-shaping-classrooms-of-tomorrow/)
+
+  [![Advantest Cyberattack, Advantest, Cybersecurity Incident](data:image/svg+xml... "Advantest Cyberattack Triggers Ransomware Investigation Across Internal Network 3")![Advantest Cyberattack, Advantest, Cybersecurity Incident](https://thecyberexpress.com/wp-content/uploads/Advantest_Kitakyushu_RD_Center.webp "Advantest Cyberattack Triggers Ransomware Investigation Across Internal Network 3")](https://thecyberexpress.com/advantest-cyberattack-ransomware-investigation/)
+
+  ### [Advantest Cyberattack Triggers Ransomware Investigation Across Internal Network](https://thecyberexpress.com/advantest-cyberattack-ransomware-investigation/)
+
+  [![CVE-2026-2447](data:image/svg+xml... "Mozilla Firefox Issues Emergency Patch for Heap Buffer Overflow in Firefox v147 4")![CVE-2026-2447](https://thecyberexpress.com/wp-content/uploads/CVE-2026-2447.webp "Mozilla Firefox Issues Emergency Patch for Heap Buffer Overflow in Firefox v147 4")](https://thecyberexpress.com/firefox-v147-cve-2026-2447/)
+
+  ### [Mozilla Firefox Issues Emergency Patch for Heap Buffer Overflow in Firefox v147](https://thecyberexpress.com/firefox-v147-cve-2026-2447/)
+
+  [![Responsible AI](data:image/svg+xml... "Responsible AI at Scale Demands Cyber Readiness, Experts at India AI Impact Summit Warn 5")![Responsible AI](https://thecyberexpress.com/wp-content/uploads/India-AI-Impact-Summit-2026.jpg "Responsible AI at Scale Demands Cyber Readiness, Experts at India AI Impact Summit Warn 5")](https://thecyberexpress.com/responsible-ai-demands-cyber-readiness/)
+
+  ### [Responsible AI at Scale Demands Cyber Readiness, Experts at India AI Impact Summit Warn](https://thecyberexpress.com/responsible-ai-demands-cyber-readiness/)
+
+  [![Ivanti EPMM, Reconnaissance](data:image/svg+xml... "Attackers Deploy Dormant Backdoors in Ivanti EPMM to Bypass Patching of Latest 0-Days 6")![Ivanti EPMM, Reconnaissance](https://thecyberexpress.com/wp-content/uploads/Ivanti-EPMM.webp "Attackers Deploy Dormant Backdoors in Ivanti EPMM to Bypass Patching of Latest 0-Days 6")](https://thecyberexpress.com/attackers-deploy-backdoors-in-ivanti-epmm/)
+
+  ### [Attackers Deploy Dormant Backdoors in Ivanti EPMM to Bypass Patching of Latest 0-Days](https://thecyberexpress.com/attackers-deploy-backdoors-in-ivanti-epmm/)
+
+  [![CVE-2026-22769](data:image/svg+xml... "Zero-Day in Dell RecoverPoint Exploited by Chinese Hacker Group 7")![CVE-2026-22769](https://thecyberexpress.com/wp-content/uploads/CVE-2026-22769.webp "Zero-Day in Dell RecoverPoint Exploited by Chinese Hacker Group 7")](https://thecyberexpress.com/cve-2026-22769-dell-recoverpoint/)
+
+  ### [Zero-Day in Dell RecoverPoint Exploited by Chinese Hacker Group](https://thecyberexpress.com/cve-2026-22769-dell-recoverpoint/)
+
+  [![Cyber Essentials](data:image/svg+xml... "Think You’re Too Small to Be Hacked? NCSC Says Think Again 8")![Cyber Essentials](https://thecyberexpress.com/wp-content/uploads/Cyber-Essentials.webp "Think You’re Too Small to Be Hacked? NCSC Says Think Again 8")](https://thecyberexpress.com/cyber-essentials-in-focus-ncsc-warns/)
+
+  ### [Think You’re Too Small to Be Hacked? NCSC Says Think Again](https://thecyberexpress.com/cyber-essentials-in-focus-ncsc-warns/)
+
+  [![CVE-2026-1490](data:image/svg+xml... "CleanTalk WordPress Plugin Vulnerability Puts 200,000 Sites at Risk 9")![CVE-2026-1490](https://thecyberexpress.com/wp-content/uploads/CVE-2026-1490.webp "CleanTalk WordPress Plugin Vulnerability Puts 200,000 Sites at Risk 9")](https://thecyberexpress.com/cleantalk-cve-2026-1490/)
+
+  ### [CleanTalk WordPress Plugin Vulnerability Puts 200,000 Sites at Risk](https://thecyberexpress.com/cleantalk-cve-2026-1490/)
+
+  ### Trending Tags
+
+  + [blackbyte ransomware](https://thecyberexpress.com/tag/blackbyte-ransomware/)
+  + [Ransomware](https://thecyberexpress.com/tag/ransomware/)
+  + [lapsus$ ransomware](https://thecyberexpress.com/tag/lapsus-ransomware/)
+  + [Apple](https://thecyberexpress.com/tag/apple/)
+  + [Apple vulnerability](https://thecyberexpress.com/tag/apple-vulnerability/)
+* [Essentials](https://thecyberexpress.com/cyber-essentials/)
+
+  + [All](https://thecyberexpress.com/cyber-essentials/)
+  + [Compliance](https://thecyberexpress.com/cyber-essentials/compliance/)
+  + [Governance](https://thecyberexpress.com/cyber-essentials/governance/)
+  + [Policy Updates](https://thecyberexpress.com/cyber-essentials/policy-updates/)
+  + [Regulations](https://thecyberexpress.com/cyber-essentials/regulations/)
+
+  [![AI in education](https://thecyberexpress.com/wp-content/uploads/AI-in-education-360x180.webp?crop=1 "AI Has Entered Schools—But What About Its Responsible Use? 10")](https://thecyberexpress.com/ai-in-education-shaping-classrooms-of-tomorrow/)
+
+  ### [AI Has Entered Schools—But What About Its Responsible Use?](https://thecyberexpress.com/ai-in-education-shaping-classrooms-of-tomorrow/)
+
+  [![Responsible AI](https://thecyberexpress.com/wp-content/uploads/India-AI-Impact-Summit-2026-360x180.jpg?crop=1 "Responsible AI at Scale Demands Cyber Readiness, Experts at India AI Impact Summit Warn 11")](https://thecyberexpress.com/responsible-ai-demands-cyber-readiness/)
+
+  ### [Responsible AI at Scale Demands Cyber Readiness, Experts at India AI Impact Summit Warn](https://thecyberexpress.com/responsible-ai-demands-cyber-readiness/)
+
+  [![Lockdown Mode, ChatGPT](https://thecyberexpress.com/wp-content/uploads/Lockdown-Mode-360x180.webp?crop=1 "OpenAI's New Enterprise Security Mode Locks Down ChatGPT Against Prompt Injection 12")](https://thecyberexpress.com/openai-new-lockdown-mode/)
+
+  ### [OpenAI’s New Enterprise Security Mode Locks Down ...
