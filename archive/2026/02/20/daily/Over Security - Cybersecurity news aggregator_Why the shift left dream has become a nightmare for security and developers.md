@@ -1,0 +1,164 @@
+---
+title: Why the shift left dream has become a nightmare for security and developers
+url: https://www.bleepingcomputer.com/news/security/why-the-shift-left-dream-has-become-a-nightmare-for-security-and-developers/
+source: Over Security - Cybersecurity news aggregator
+date: 2026-02-20
+fetch_date: 2026-02-21T04:01:00.354768
+---
+
+# Why the shift left dream has become a nightmare for security and developers
+
+[![BleepingComputer.com logo](https://www.bleepstatic.com/images/site/logo.png)](https://www.bleepingcomputer.com/)
+
+* [News](https://www.bleepingcomputer.com/)
+
+  + [Featured](#nfeatured)
+  + [Latest](#nlatest)
+
+  + [![Google blocked over 1.75 million Play Store app submissions in 2025](data:image/gif;base64...)
+
+    Google blocked over 1.75 million Play Store app submissions in 2025](https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/)
+  + [![Microsoft: Anti-phishing rules mistakenly blocked emails, Teams messages](data:image/gif;base64...)
+
+    Microsoft: Anti-phishing rules mistakenly blocked emails, Teams messages](https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-phishing-rules-mistakenly-blocked-emails-teams-messages/)
+  + [![Hackers target Microsoft Entra accounts in device code vishing attacks](data:image/gif;base64...)
+
+    Hackers target Microsoft Entra accounts in device code vishing attacks](https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/)
+  + [![Microsoft says bug causes Copilot to summarize confidential emails](data:image/gif;base64...)
+
+    Microsoft says bug causes Copilot to summarize confidential emails](https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/)
+
+  + [![Learn ethical hacking with this hands-on hacking course deal for $28](data:image/gif;base64...)
+
+    Learn ethical hacking with this hands-on hacking course deal for $28](https://www.bleepingcomputer.com/offer/deals/learn-ethical-hacking-with-this-hands-on-hacking-course-deal-for-28/)
+  + [![Japanese tech giant Advantest hit by ransomware attack](data:image/gif;base64...)
+
+    Japanese tech giant Advantest hit by ransomware attack](https://www.bleepingcomputer.com/news/security/japanese-tech-giant-advantest-hit-by-ransomware-attack/)
+  + [![CISA: BeyondTrust RCE flaw now exploited in ransomware attacks](data:image/gif;base64...)
+
+    CISA: BeyondTrust RCE flaw now exploited in ransomware attacks](https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/)
+  + [![Data breach at French bank registry impacts 1.2 million accounts](data:image/gif;base64...)
+
+    Data breach at French bank registry impacts 1.2 million accounts](https://www.bleepingcomputer.com/news/security/data-breach-at-french-bank-registry-impacts-12-million-accounts/)
+* [Tutorials](https://www.bleepingcomputer.com/tutorials/)
+
+  + [Latest](#tlatest)
+  + [Popular](#popular)
+
+  + [![How to access the Dark Web using the Tor Browser](data:image/gif;base64...)
+
+    How to access the Dark Web using the Tor Browser](/tutorials/how-to-access-the-dark-web-using-the-tor-browser/)
+  + [![How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11](data:image/gif;base64...)
+
+    How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11](/tutorials/how-to-enable-kernel-mode-hardware-enforced-stack-protection-in-windows-11/)
+  + [![How to use the Windows Registry Editor](data:image/gif;base64...)
+
+    How to use the Windows Registry Editor](/tutorials/how-to-use-the-windows-registry-editor/)
+  + [![How to backup and restore the Windows Registry](data:image/gif;base64...)
+
+    How to backup and restore the Windows Registry](/tutorials/how-to-backup-and-restore-the-windows-registry/)
+
+  + [![How to start Windows in Safe Mode](data:image/gif;base64...)
+
+    How to start Windows in Safe Mode](/tutorials/how-to-start-windows-in-safe-mode/)
+  + [![How to remove a Trojan, Virus, Worm, or other Malware](data:image/gif;base64...)
+
+    How to remove a Trojan, Virus, Worm, or other Malware](/tutorials/how-to-remove-a-trojan-virus-worm-or-malware/)
+  + [![How to show hidden files in Windows 7](data:image/gif;base64...)
+
+    How to show hidden files in Windows 7](/tutorials/show-hidden-files-in-windows-7/)
+  + [![How to see hidden files in Windows](data:image/gif;base64...)
+
+    How to see hidden files in Windows](/tutorials/how-to-see-hidden-files-in-windows/)
+* [Webinars](https://www.bleepingcomputer.com/webinars/)
+* [Downloads](https://www.bleepingcomputer.com/download/)
+
+  + [Latest](#dlatest)
+  + [Most Downloaded](#most)
+
+  + [![Qualys BrowserCheck](data:image/gif;base64...)
+
+    Qualys BrowserCheck](https://www.bleepingcomputer.com/download/qualys-browsercheck/)
+  + [![STOPDecrypter](data:image/gif;base64...)
+
+    STOPDecrypter](https://www.bleepingcomputer.com/download/stopdecrypter/)
+  + [![AuroraDecrypter](data:image/gif;base64...)
+
+    AuroraDecrypter](https://www.bleepingcomputer.com/download/auroradecrypter/)
+  + [![FilesLockerDecrypter](data:image/gif;base64...)
+
+    FilesLockerDecrypter](https://www.bleepingcomputer.com/download/fileslockerdecrypter/)
+
+  + [![AdwCleaner](data:image/gif;base64...)
+
+    AdwCleaner](/download/adwcleaner/)
+  + [![ComboFix](data:image/gif;base64...)
+
+    ComboFix](/download/combofix/)
+  + [![RKill](data:image/gif;base64...)
+
+    RKill](/download/rkill/)
+  + [![Junkware Removal Tool](data:image/gif;base64...)
+
+    Junkware Removal Tool](/download/junkware-removal-tool/)
+* [Deals](https://deals.bleepingcomputer.com/)
+
+  + [Categories](#dcategories)
+
+  + [![eLearning](data:image/gif;base64...)
+
+    eLearning](https://deals.bleepingcomputer.com/deals/elearning?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+  + [![IT Certification Courses](data:image/gif;base64...)
+
+    IT Certification Courses](https://deals.bleepingcomputer.com/deals/certifications?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+  + [![Gear & Gadgets](data:image/gif;base64...)
+
+    Gear + Gadgets](https://deals.bleepingcomputer.com/deals/gear-gadgets?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+  + [![Security](data:image/gif;base64...)
+
+    Security](https://deals.bleepingcomputer.com/collections/tag-cyber-security?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+* [VPNs](https://www.bleepingcomputer.com/vpn/)
+
+  + [Popular](#vpopular)
+
+  + [![Best VPNs](data:image/gif;base64...)
+
+    Best VPNs](https://www.bleepingcomputer.com/vpn/guides/best-vpn/)
+  + [![How to change IP address](data:image/gif;base64...)
+
+    How to change IP address](https://www.bleepingcomputer.com/vpn/guides/change-ip-address/)
+  + [![Access the dark web safely](data:image/gif;base64...)
+
+    Access the dark web safely](https://www.bleepingcomputer.com/vpn/guides/access-dark-web-safely/)
+  + [![Best VPN for YouTube](data:image/gif;base64...)
+
+    Best VPN for YouTube](https://www.bleepingcomputer.com/vpn/guides/watch-youtube-tv-abroad-vpn/)
+* [Forums](https://www.bleepingcomputer.com/forums/)
+* More
+  + [Virus Removal Guides](https://www.bleepingcomputer.com/virus-removal/)
+  + [Startup Database](https://www.bleepingcomputer.com/startups/)
+  + [Uninstall Database](https://www.bleepingcomputer.com/uninstall/)
+  + [Glossary](https://www.bleepingcomputer.com/glossary/)
+  + [Send us a Tip!](https://www.bleepingcomputer.com/news-tip/)
+  + [Welcome Guide](https://www.bleepingcomputer.com/welcome-guide/)
+
+* [Home](https://www.bleepingcomputer.com/)
+* [News](https://www.bleepingcomputer.com/news/)
+* [Security](https://www.bleepingcomputer.com/news/security/)
+* Why the shift left dream has become a nightmare for security and developers
+
+# Why the shift left dream has become a nightmare for security and developers
+
+**Sponsored by**
+
+###### [Qualys](https://www.qualys.com/apps/totalcloud)
+
+* February 20, 2026
+* 09:45 AM
+* [0](#comment_form)
+
+![Qualys header showing a cybersecurity symbols](https://www.bleepstatic.com/content/posts/2026/02/19/qualys-header.jpg)
+
+*Written by Ivan Milenkovic, Vice President Risk Technology EMEA, Qualys*
+
+For the better part of the last decade,we have engaged in a comfortable fiction around security and development. If we could only "shift left" and get developers to take a modicum more responsibility for security alongside their ...
