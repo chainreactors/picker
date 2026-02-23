@@ -1,0 +1,158 @@
+---
+title: Luxury hotel stays for just €0.01. Spanish police arrest hacker
+url: https://securityaffairs.com/188344/cyber-crime/luxury-hotel-stays-for-just-e0-01-spanish-police-arrest-hacker.html
+source: Security Affairs
+date: 2026-02-22
+fetch_date: 2026-02-23T04:20:24.389280
+---
+
+# Luxury hotel stays for just €0.01. Spanish police arrest hacker
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[Anthropic unveils Claude Code Security to detect and fix code bugs](https://securityaffairs.com/188358/ai/anthropic-unveils-claude-code-security-to-detect-and-fix-code-bugs.html)
+
+ |
+
+[Luxury hotel stays for just €0.01. Spanish police arrest hacker](https://securityaffairs.com/188344/cyber-crime/luxury-hotel-stays-for-just-e0-01-spanish-police-arrest-hacker.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 85](https://securityaffairs.com/188337/malware/security-affairs-malware-newsletter-round-85.html)
+
+ |
+
+[Security Affairs newsletter Round 564 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/188332/breaking-news/security-affairs-newsletter-round-564-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[U.S. CISA adds RoundCube Webmail flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/188324/security/u-s-cisa-adds-roundcube-webmail-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[PayPal discloses extended data leak linked to Loan App glitch](https://securityaffairs.com/188309/data-breach/paypal-discloses-extended-data-leak-linked-to-loan-app-glitch.html)
+
+ |
+
+[North Korean IT worker scam nets Ukrainian five-year sentence in the U.S.](https://securityaffairs.com/188305/cyber-crime/north-korean-it-worker-scam-nets-ukrainian-five-year-sentence-in-the-u-s.html)
+
+ |
+
+[FBI warns of surge in ATM Jackpotting, $20 Million lost in 2025](https://securityaffairs.com/188281/cyber-crime/fbi-warns-of-surge-in-atm-jackpotting-20-million-lost-in-2025.html)
+
+ |
+
+[Red Card 2.0: INTERPOL busts scam networks across Africa, seizes millions](https://securityaffairs.com/188272/cyber-crime/red-card-2-0-interpol-busts-scam-networks-across-africa-seizes-millions.html)
+
+ |
+
+[PromptSpy abuses Gemini AI to gain persistent access on Android](https://securityaffairs.com/188261/ai/promptspy-abuses-gemini-ai-to-gain-persistent-access-on-android.html)
+
+ |
+
+[Germany’s national rail operator Deutsche Bahn hit by a DDoS attack](https://securityaffairs.com/188254/breaking-news/germanys-national-rail-operator-deutsche-bahn-hit-by-a-ddos-attack.html)
+
+ |
+
+[U.S. CISA adds Dell RecoverPoint and GitLab flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/188243/hacking/u-s-cisa-adds-dell-recoverpoint-and-gitlab-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[CISA alerts to critical auth bypass CVE-2026-1670 in Honeywell CCTVs](https://securityaffairs.com/188234/security/cisa-alerts-to-critical-auth-bypass-cve-2026-1670-in-honeywell-cctvs.html)
+
+ |
+
+[Irish regulator probes X after Grok allegedly generated sexual images of children](https://securityaffairs.com/188226/ai/irish-regulator-probes-x-after-grok-allegedly-generated-sexual-images-of-children.html)
+
+ |
+
+[Intellexa’s Predator spyware infected Angolan journalist’s device, Amnesty reports](https://securityaffairs.com/188215/malware/intellexas-predator-spyware-infected-angolan-journalists-device-amnesty-reports.html)
+
+ |
+
+[French Ministry confirms data access to 1.2 Million bank accounts](https://securityaffairs.com/188200/hacking/french-ministry-confirms-data-access-to-1-2-million-bank-accounts.html)
+
+ |
+
+[Notepad++ patches flaw used to hijack update system](https://securityaffairs.com/188192/hacking/notepad-patches-flaw-used-to-hijack-update-system.html)
+
+ |
+
+[VS Code extensions with 125M+ installs expose users to cyberattacks](https://securityaffairs.com/188185/security/vs-code-extensions-with-125m-installs-expose-users-to-cyberattacks.html)
+
+ |
+
+[China-linked APT weaponized Dell RecoverPoint zero-day since 2024](https://securityaffairs.com/188176/apt/china-linked-apt-weaponized-dell-recoverpoint-zero-day-since-2024.html)
+
+ |
+
+[U.S. CISA adds Google Chromium CSS, Microsoft Windows, TeamT5 ThreatSonar Anti-Ransomware, and Zimbra flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/188163/uncategorized/u-s-cisa-adds-google-chromium-css-microsoft-windows-teamt5-threatsonar-anti-ransomware-and-zimbra-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* Luxury hotel stays for just €0.01. Spanish police arrest hacker
+
+## Luxury hotel stays for just €0.01. Spanish police arrest hacker
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/clock-icon.svg)* February 22, 2026
+
+![](https://i0.wp.com/securityaffairs.com/wp-cont...
