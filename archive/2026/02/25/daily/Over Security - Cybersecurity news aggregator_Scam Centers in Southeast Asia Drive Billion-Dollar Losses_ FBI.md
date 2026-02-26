@@ -1,0 +1,94 @@
+---
+title: Scam Centers in Southeast Asia Drive Billion-Dollar Losses: FBI
+url: https://thecyberexpress.com/scam-centers-in-southeast-asia/
+source: Over Security - Cybersecurity news aggregator
+date: 2026-02-25
+fetch_date: 2026-02-26T04:11:59.120237
+---
+
+# Scam Centers in Southeast Asia Drive Billion-Dollar Losses: FBI
+
+* [About Us](https://thecyberexpress.com/about-us/)
+* [Contact Us](https://thecyberexpress.com/contact-us/)
+* [Editorial Calendar](https://thecyberexpress.com/editorial-calendar-2024/)
+* [Careers](https://thecyberexpress.com/careers/)
+* [The Cyber Express by Cyble Vulnerability Disclosure Policy](https://thecyberexpress.com/the-cyber-express-by-cyble-vulnerability-disclosure-policy/)
+* [Cyble Trust Portal](https://trust.cyble.com/)
+
+[![The Cyber Express](data:image/svg+xml...)![The Cyber Express](https://thecyberexpress.com/wp-content/uploads/CyberExpress-logo-01-black-250x100-1.png)](https://thecyberexpress.com/)
+
+* [MagazineDownload](https://thecyberexpress.com/cybersecurity-magazine/ "Cybersecurity Magazine")
+* [Firewall Daily](https://thecyberexpress.com/firewall-daily/)
+
+  + [All](https://thecyberexpress.com/firewall-daily/)
+  + [Bug Bounty & Rewards](https://thecyberexpress.com/firewall-daily/bug-bounty-rewards/)
+  + [Dark Web News](https://thecyberexpress.com/firewall-daily/dark-web-news/)
+  + [Data Breach News](https://thecyberexpress.com/firewall-daily/data-breaches-news/)
+  + [Hacker News](https://thecyberexpress.com/firewall-daily/hacker-news/)
+  + [Ransomware News](https://thecyberexpress.com/firewall-daily/ransomware-news/)
+  + [Vulnerabilities](https://thecyberexpress.com/firewall-daily/vulnerabilities/)
+
+  [![zero-day exploits theft](data:image/svg+xml... "U.S. Sanctions Russian Broker Over Zero-Day Exploits Theft 1")![zero-day exploits theft](https://thecyberexpress.com/wp-content/uploads/zero-day-exploits-theft-scaled.webp "U.S. Sanctions Russian Broker Over Zero-Day Exploits Theft 1")](https://thecyberexpress.com/zero-day-exploits-theft/)
+
+  ### [U.S. Sanctions Russian Broker Over Zero-Day Exploits Theft](https://thecyberexpress.com/zero-day-exploits-theft/)
+
+  [![SURXRAT](data:image/svg+xml... "SURXRAT, a Trojan's LLM-Driven Expansion in Android Malware 2")![SURXRAT](https://thecyberexpress.com/wp-content/uploads/SURXRAT.webp "SURXRAT, a Trojan's LLM-Driven Expansion in Android Malware 2")](https://thecyberexpress.com/surxrat-arsinkrat-llm-android-rat-analysis/)
+
+  ### [SURXRAT, a Trojan’s LLM-Driven Expansion in Android Malware](https://thecyberexpress.com/surxrat-arsinkrat-llm-android-rat-analysis/)
+
+  [![scam centers in Southeast Asia](data:image/svg+xml...)](https://thecyberexpress.com/scam-centers-in-southeast-asia/)
+
+  ### [Scam Centers in Southeast Asia Drive Billion-Dollar Losses: FBI](https://thecyberexpress.com/scam-centers-in-southeast-asia/)
+
+  [![AI content generation systems](data:image/svg+xml... "AI Content Generation Systems Face Global Pressure Over Privacy and Deepfake Risks 4")![AI content generation systems](https://thecyberexpress.com/wp-content/uploads/AI-content-generation-systems.webp "AI Content Generation Systems Face Global Pressure Over Privacy and Deepfake Risks 4")](https://thecyberexpress.com/ai-content-generation-systems/)
+
+  ### [AI Content Generation Systems Face Global Pressure Over Privacy and Deepfake Risks](https://thecyberexpress.com/ai-content-generation-systems/)
+
+  [![ATM jackpotting-FBI](data:image/svg+xml...)](https://thecyberexpress.com/fbi-flags-rise-in-atm-jackpotting-attacks/)
+
+  ### [ATM Jackpotting Losses Cross $20M as Malware Targets U.S. Cash Machines](https://thecyberexpress.com/fbi-flags-rise-in-atm-jackpotting-attacks/)
+
+  [![Terrorist Cyberattacks, UAE Cyber Security Council](data:image/svg+xml... "UAE Blocked AI-Powered Terrorist Cyberattacks Targeting Critical Infrastructure 6")![Terrorist Cyberattacks, UAE Cyber Security Council](https://thecyberexpress.com/wp-content/uploads/Terrorist-Cyberattacks-UAE-Cyber-Security-Council.webp "UAE Blocked AI-Powered Terrorist Cyberattacks Targeting Critical Infrastructure 6")](https://thecyberexpress.com/uae-blocked-ai-powered-terrorist-cyberattacks/)
+
+  ### [UAE Blocked AI-Powered Terrorist Cyberattacks Targeting Critical Infrastructure](https://thecyberexpress.com/uae-blocked-ai-powered-terrorist-cyberattacks/)
+
+  [![The Cyber Express Weekly Roundup](data:image/svg+xml... "The Cyber Express Weekly Roundup: AI Disruption, Regulatory Pressure, and the Evolving Cyber Threat Landscape 7")![The Cyber Express Weekly Roundup](https://thecyberexpress.com/wp-content/uploads/The-Cyber-Express-2.webp "The Cyber Express Weekly Roundup: AI Disruption, Regulatory Pressure, and the Evolving Cyber Threat Landscape 7")](https://thecyberexpress.com/ai-deepfakes-ransomware-weekly-roundup/)
+
+  ### [The Cyber Express Weekly Roundup: AI Disruption, Regulatory Pressure, and the Evolving Cyber Threat Landscape](https://thecyberexpress.com/ai-deepfakes-ransomware-weekly-roundup/)
+
+  [![French National Bank Authority, FICOBA, CNIL](data:image/svg+xml... "French National Bank Authority Breach Exposed 1.2 Million Accounts 8")![French National Bank Authority, FICOBA, CNIL](https://thecyberexpress.com/wp-content/uploads/French-national-Bank-Authority.webp "French National Bank Authority Breach Exposed 1.2 Million Accounts 8")](https://thecyberexpress.com/french-national-bank-authority-breach/)
+
+  ### [French National Bank Authority Breach Exposed 1.2 Million Accounts](https://thecyberexpress.com/french-national-bank-authority-breach/)
+
+  [![Responsible AI](data:image/svg+xml... "What Big Tech Leaders Said On AI’s Future at India AI Impact Summit 2026 9")![Responsible AI](https://thecyberexpress.com/wp-content/uploads/Responsible-AI.jpg "What Big Tech Leaders Said On AI’s Future at India AI Impact Summit 2026 9")](https://thecyberexpress.com/big-tech-leaders-push-responsible-ai/)
+
+  ### [What Big Tech Leaders Said On AI’s Future at India AI Impact Summit 2026](https://thecyberexpress.com/big-tech-leaders-push-responsible-ai/)
+
+  ### Trending Tags
+
+  + [blackbyte ransomware](https://thecyberexpress.com/tag/blackbyte-ransomware/)
+  + [Ransomware](https://thecyberexpress.com/tag/ransomware/)
+  + [lapsus$ ransomware](https://thecyberexpress.com/tag/lapsus-ransomware/)
+  + [Apple](https://thecyberexpress.com/tag/apple/)
+  + [Apple vulnerability](https://thecyberexpress.com/tag/apple-vulnerability/)
+* [Essentials](https://thecyberexpress.com/cyber-essentials/)
+
+  + [All](https://thecyberexpress.com/cyber-essentials/)
+  + [Compliance](https://thecyberexpress.com/cyber-essentials/compliance/)
+  + [Governance](https://thecyberexpress.com/cyber-essentials/governance/)
+  + [Policy Updates](https://thecyberexpress.com/cyber-essentials/policy-updates/)
+  + [Regulations](https://thecyberexpress.com/cyber-essentials/regulations/)
+
+  [![scam centers in Southeast Asia](https://thecyberexpress.com/wp-content/uploads/scam-centers-in-Southeast-Asia-360x180.png?crop=1 "Scam Centers in Southeast Asia Drive Billion-Dollar Losses: FBI 10")](https://thecyberexpress.com/scam-centers-in-southeast-asia/)
+
+  ### [Scam Centers in Southeast Asia Drive Billion-Dollar Losses: FBI](https://thecyberexpress.com/scam-centers-in-southeast-asia/)
+
+  [![Digital Services Act](https://thecyberexpress.com/wp-content/uploads/Digital-Services-Act-360x180.webp?crop=1 "X vs EU: Platform Appeals Against €120M Digital Services Act Penalty 11")](https://thecyberexpress.com/e120m-digital-services-act-penalty/)
+
+  ### [X vs EU: Platform Appeals Against €120M Digital Services Act Penalty](https://thecyberexpress.com/e120m-digital-services-act-penalty/)
+
+  [![Terrorist Cyberattacks, UAE Cyber Security Council](https://thecyberexpress.com/wp-content/uploads/Terrorist-Cyberattacks-UAE-Cyber-Security-Council-360x180.webp?crop=1 "UAE Blocked AI-Powered Terrorist Cyberattacks Targeting Critical Infrastructure 12")](https://thecyberexpress.com/uae-blocked-ai-powered-terrorist-cyberattacks/)
+
+  ### [UAE Blocked AI-Powered Terrorist Cyberattacks Targeting Critical Infrastructure](https://thecyberexpress.com/uae-blocked-ai-powered-terrorist-cyberattacks/)
+
+  [![French National Bank Authority, FICOBA, CNIL](https://thecyberexpress.com/wp-content/uploads/French-national-Bank-Authority-360x180.webp?crop=1 "French National Bank...
