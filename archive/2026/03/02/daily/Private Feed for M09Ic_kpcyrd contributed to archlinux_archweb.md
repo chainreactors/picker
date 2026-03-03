@@ -1,0 +1,219 @@
+---
+title: kpcyrd contributed to archlinux/archweb
+url: https://github.com/archlinux/archweb/pull/641
+source: Private Feed for M09Ic
+date: 2026-03-02
+fetch_date: 2026-03-03T04:11:09.775773
+---
+
+# kpcyrd contributed to archlinux/archweb
+
+[Skip to content](#start-of-content)
+
+## Navigation Menu
+
+Toggle navigation
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Farchlinux%2Farchweb%2Fpull%2F641)
+
+Appearance settings
+
+* Platform
+
+  + AI CODE CREATION
+    - [GitHub CopilotWrite better code with AI](https://github.com/features/copilot)
+    - [GitHub SparkBuild and deploy intelligent apps](https://github.com/features/spark)
+    - [GitHub ModelsManage and compare prompts](https://github.com/features/models)
+    - [MCP RegistryNewIntegrate external tools](https://github.com/mcp)
+  + DEVELOPER WORKFLOWS
+    - [ActionsAutomate any workflow](https://github.com/features/actions)
+    - [CodespacesInstant dev environments](https://github.com/features/codespaces)
+    - [IssuesPlan and track work](https://github.com/features/issues)
+    - [Code ReviewManage code changes](https://github.com/features/code-review)
+  + APPLICATION SECURITY
+    - [GitHub Advanced SecurityFind and fix vulnerabilities](https://github.com/security/advanced-security)
+    - [Code securitySecure your code as you build](https://github.com/security/advanced-security/code-security)
+    - [Secret protectionStop leaks before they start](https://github.com/security/advanced-security/secret-protection)
+  + EXPLORE
+    - [Why GitHub](https://github.com/why-github)
+    - [Documentation](https://docs.github.com)
+    - [Blog](https://github.blog)
+    - [Changelog](https://github.blog/changelog)
+    - [Marketplace](https://github.com/marketplace)
+
+  [View all features](https://github.com/features)
+* Solutions
+
+  + BY COMPANY SIZE
+    - [Enterprises](https://github.com/enterprise)
+    - [Small and medium teams](https://github.com/team)
+    - [Startups](https://github.com/enterprise/startups)
+    - [Nonprofits](https://github.com/solutions/industry/nonprofits)
+  + BY USE CASE
+    - [App Modernization](https://github.com/solutions/use-case/app-modernization)
+    - [DevSecOps](https://github.com/solutions/use-case/devsecops)
+    - [DevOps](https://github.com/solutions/use-case/devops)
+    - [CI/CD](https://github.com/solutions/use-case/ci-cd)
+    - [View all use cases](https://github.com/solutions/use-case)
+  + BY INDUSTRY
+    - [Healthcare](https://github.com/solutions/industry/healthcare)
+    - [Financial services](https://github.com/solutions/industry/financial-services)
+    - [Manufacturing](https://github.com/solutions/industry/manufacturing)
+    - [Government](https://github.com/solutions/industry/government)
+    - [View all industries](https://github.com/solutions/industry)
+
+  [View all solutions](https://github.com/solutions)
+* Resources
+
+  + EXPLORE BY TOPIC
+    - [AI](https://github.com/resources/articles?topic=ai)
+    - [Software Development](https://github.com/resources/articles?topic=software-development)
+    - [DevOps](https://github.com/resources/articles?topic=devops)
+    - [Security](https://github.com/resources/articles?topic=security)
+    - [View all topics](https://github.com/resources/articles)
+  + EXPLORE BY TYPE
+    - [Customer stories](https://github.com/customer-stories)
+    - [Events & webinars](https://github.com/resources/events)
+    - [Ebooks & reports](https://github.com/resources/whitepapers)
+    - [Business insights](https://github.com/solutions/executive-insights)
+    - [GitHub Skills](https://skills.github.com)
+  + SUPPORT & SERVICES
+    - [Documentation](https://docs.github.com)
+    - [Customer support](https://support.github.com)
+    - [Community forum](https://github.com/orgs/community/discussions)
+    - [Trust center](https://github.com/trust-center)
+    - [Partners](https://github.com/partners)
+
+  [View all resources](https://github.com/resources)
+* Open Source
+
+  + COMMUNITY
+    - [GitHub SponsorsFund open source developers](https://github.com/sponsors)
+  + PROGRAMS
+    - [Security Lab](https://securitylab.github.com)
+    - [Maintainer Community](https://maintainers.github.com)
+    - [Accelerator](https://github.com/accelerator)
+    - [Archive Program](https://archiveprogram.github.com)
+  + REPOSITORIES
+    - [Topics](https://github.com/topics)
+    - [Trending](https://github.com/trending)
+    - [Collections](https://github.com/collections)
+* Enterprise
+
+  + ENTERPRISE SOLUTIONS
+    - [Enterprise platformAI-powered developer platform](https://github.com/enterprise)
+  + AVAILABLE ADD-ONS
+    - [GitHub Advanced SecurityEnterprise-grade security features](https://github.com/security/advanced-security)
+    - [Copilot for BusinessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+    - [Premium SupportEnterprise-grade 24/7 support](https://github.com/premium-support)
+* [Pricing](https://github.com/pricing)
+
+Search or jump to...
+
+# Search code, repositories, users, issues, pull requests...
+
+Search
+
+Clear
+
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+
+# Provide feedback
+
+We read every piece of feedback, and take your input very seriously.
+
+[ ]
+Include my email address so I can be contacted
+
+Cancel
+ Submit feedback
+
+# Saved searches
+
+## Use saved searches to filter your results more quickly
+
+Cancel
+ Create saved search
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Farchlinux%2Farchweb%2Fpull%2F641)
+
+[Sign up](/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fvoltron%2Fpull_requests_fragments%2Fpull_request_layout&source=header-repo&source_repo=archlinux%2Farchweb)
+
+Appearance settings
+
+Resetting focus
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+Dismiss alert
+
+{{ message }}
+
+[archlinux](/archlinux)
+/
+**[archweb](/archlinux/archweb)**
+Public
+
+* ### Uh oh!
+
+  There was an error while loading. Please reload this page.
+* [Notifications](/login?return_to=%2Farchlinux%2Farchweb) You must be signed in to change notification settings
+* [Fork
+  148](/login?return_to=%2Farchlinux%2Farchweb)
+* [Star
+   366](/login?return_to=%2Farchlinux%2Farchweb)
+
+* [Code](/archlinux/archweb)
+* [Issues
+  78](/archlinux/archweb/issues)
+* [Pull requests
+  17](/archlinux/archweb/pulls)
+* [Actions](/archlinux/archweb/actions)
+* [Projects](/archlinux/archweb/projects)
+* [Security
+  0](/archlinux/archweb/security)
+* [Insights](/archlinux/archweb/pulse)
+
+Additional navigation options
+
+* [Code](/archlinux/archweb)
+* [Issues](/archlinux/archweb/issues)
+* [Pull requests](/archlinux/archweb/pulls)
+* [Actions](/archlinux/archweb/actions)
+* [Projects](/archlinux/archweb/projects)
+* [Security](/archlinux/archweb/security)
+* [Insights](/archlinux/archweb/pulse)
+
+# Include number of total search results in json#641
+
+Merged
+
+[jelly](/jelly) merged 1 commit into[archlinux:master](/archlinux/archweb/tree/master)archlinux/archweb:masterfrom
+
+[kpcyrd:search-count](/kpcyrd/archweb/tree/search-count)kpcyrd/archweb:search-countCopy head branch name to clipboard
+
+Mar 2, 2026
+
+[Conversation](/archlinux/archweb/pull/641)[Commits1 (1)](/archlinux/archweb/pull/641/commits)[Checks](/archlinux/archweb/pull/641/checks)[Files changed](/archlinux/archweb/pull/641/files)
+
+Merged
+
+## [Include number of total search results in json](#top)#641 [jelly](/jelly) merged 1 commit into[archlinux:master](/archlinux/archweb/tree/master)archlinux/archweb:masterfrom [kpcyrd:search-count](/kpcyrd/archweb/tree/search-count)kpcyrd/archweb:search-countCopy head branch name to clipboard
+
+## Conversation
+
+[![@kpcyrd](https://avatars.githubusercontent.com/u/7763184?s=80&v=4)](/kpcyrd)
+
+Copy link
+
+Member
+
+### ![@kpcyrd](https://avatars.githubusercontent.com/u/7763184?s=48&v=4) **[kpcyrd](/kpcyrd)** commented [Feb 28, 2026](#issue-4003522425)
+
+This information is available anyway since it's used for the `num_pages` calculation, might as well include it in the response.
+
+All reactions
+
+[![@kpcyrd](https://avatars.githubusercontent.com/u/7763184?s...
