@@ -1,0 +1,203 @@
+---
+title: mgeeky starred uf0o/windows-ps-callbacks-experiments
+url: https://github.com/uf0o/windows-ps-callbacks-experiments
+source: Private Feed for M09Ic
+date: 2026-03-10
+fetch_date: 2026-03-11T04:02:53.806303
+---
+
+# mgeeky starred uf0o/windows-ps-callbacks-experiments
+
+[Skip to content](#start-of-content)
+
+## Navigation Menu
+
+Toggle navigation
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fuf0o%2Fwindows-ps-callbacks-experiments)
+
+Appearance settings
+
+* Platform
+
+  + AI CODE CREATION
+    - [GitHub CopilotWrite better code with AI](https://github.com/features/copilot)
+    - [GitHub SparkBuild and deploy intelligent apps](https://github.com/features/spark)
+    - [GitHub ModelsManage and compare prompts](https://github.com/features/models)
+    - [MCP RegistryNewIntegrate external tools](https://github.com/mcp)
+  + DEVELOPER WORKFLOWS
+    - [ActionsAutomate any workflow](https://github.com/features/actions)
+    - [CodespacesInstant dev environments](https://github.com/features/codespaces)
+    - [IssuesPlan and track work](https://github.com/features/issues)
+    - [Code ReviewManage code changes](https://github.com/features/code-review)
+  + APPLICATION SECURITY
+    - [GitHub Advanced SecurityFind and fix vulnerabilities](https://github.com/security/advanced-security)
+    - [Code securitySecure your code as you build](https://github.com/security/advanced-security/code-security)
+    - [Secret protectionStop leaks before they start](https://github.com/security/advanced-security/secret-protection)
+  + EXPLORE
+    - [Why GitHub](https://github.com/why-github)
+    - [Documentation](https://docs.github.com)
+    - [Blog](https://github.blog)
+    - [Changelog](https://github.blog/changelog)
+    - [Marketplace](https://github.com/marketplace)
+
+  [View all features](https://github.com/features)
+* Solutions
+
+  + BY COMPANY SIZE
+    - [Enterprises](https://github.com/enterprise)
+    - [Small and medium teams](https://github.com/team)
+    - [Startups](https://github.com/enterprise/startups)
+    - [Nonprofits](https://github.com/solutions/industry/nonprofits)
+  + BY USE CASE
+    - [App Modernization](https://github.com/solutions/use-case/app-modernization)
+    - [DevSecOps](https://github.com/solutions/use-case/devsecops)
+    - [DevOps](https://github.com/solutions/use-case/devops)
+    - [CI/CD](https://github.com/solutions/use-case/ci-cd)
+    - [View all use cases](https://github.com/solutions/use-case)
+  + BY INDUSTRY
+    - [Healthcare](https://github.com/solutions/industry/healthcare)
+    - [Financial services](https://github.com/solutions/industry/financial-services)
+    - [Manufacturing](https://github.com/solutions/industry/manufacturing)
+    - [Government](https://github.com/solutions/industry/government)
+    - [View all industries](https://github.com/solutions/industry)
+
+  [View all solutions](https://github.com/solutions)
+* Resources
+
+  + EXPLORE BY TOPIC
+    - [AI](https://github.com/resources/articles?topic=ai)
+    - [Software Development](https://github.com/resources/articles?topic=software-development)
+    - [DevOps](https://github.com/resources/articles?topic=devops)
+    - [Security](https://github.com/resources/articles?topic=security)
+    - [View all topics](https://github.com/resources/articles)
+  + EXPLORE BY TYPE
+    - [Customer stories](https://github.com/customer-stories)
+    - [Events & webinars](https://github.com/resources/events)
+    - [Ebooks & reports](https://github.com/resources/whitepapers)
+    - [Business insights](https://github.com/solutions/executive-insights)
+    - [GitHub Skills](https://skills.github.com)
+  + SUPPORT & SERVICES
+    - [Documentation](https://docs.github.com)
+    - [Customer support](https://support.github.com)
+    - [Community forum](https://github.com/orgs/community/discussions)
+    - [Trust center](https://github.com/trust-center)
+    - [Partners](https://github.com/partners)
+
+  [View all resources](https://github.com/resources)
+* Open Source
+
+  + COMMUNITY
+    - [GitHub SponsorsFund open source developers](https://github.com/sponsors)
+  + PROGRAMS
+    - [Security Lab](https://securitylab.github.com)
+    - [Maintainer Community](https://maintainers.github.com)
+    - [Accelerator](https://github.com/accelerator)
+    - [Archive Program](https://archiveprogram.github.com)
+  + REPOSITORIES
+    - [Topics](https://github.com/topics)
+    - [Trending](https://github.com/trending)
+    - [Collections](https://github.com/collections)
+* Enterprise
+
+  + ENTERPRISE SOLUTIONS
+    - [Enterprise platformAI-powered developer platform](https://github.com/enterprise)
+  + AVAILABLE ADD-ONS
+    - [GitHub Advanced SecurityEnterprise-grade security features](https://github.com/security/advanced-security)
+    - [Copilot for BusinessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+    - [Premium SupportEnterprise-grade 24/7 support](https://github.com/premium-support)
+* [Pricing](https://github.com/pricing)
+
+Search or jump to...
+
+# Search code, repositories, users, issues, pull requests...
+
+Search
+
+Clear
+
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+
+# Provide feedback
+
+We read every piece of feedback, and take your input very seriously.
+
+[ ]
+Include my email address so I can be contacted
+
+Cancel
+ Submit feedback
+
+# Saved searches
+
+## Use saved searches to filter your results more quickly
+
+Cancel
+ Create saved search
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fuf0o%2Fwindows-ps-callbacks-experiments)
+
+[Sign up](/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=uf0o%2Fwindows-ps-callbacks-experiments)
+
+Appearance settings
+
+Resetting focus
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+Dismiss alert
+
+{{ message }}
+
+[uf0o](/uf0o)
+/
+**[windows-ps-callbacks-experiments](/uf0o/windows-ps-callbacks-experiments)**
+Public
+
+* [Notifications](/login?return_to=%2Fuf0o%2Fwindows-ps-callbacks-experiments) You must be signed in to change notification settings
+* [Fork
+  29](/login?return_to=%2Fuf0o%2Fwindows-ps-callbacks-experiments)
+* [Star
+   81](/login?return_to=%2Fuf0o%2Fwindows-ps-callbacks-experiments)
+
+* [Code](/uf0o/windows-ps-callbacks-experiments)
+* [Pull requests
+  0](/uf0o/windows-ps-callbacks-experiments/pulls)
+* [Actions](/uf0o/windows-ps-callbacks-experiments/actions)
+* [Projects](/uf0o/windows-ps-callbacks-experiments/projects)
+* [Security
+  0](/uf0o/windows-ps-callbacks-experiments/security)
+* [Insights](/uf0o/windows-ps-callbacks-experiments/pulse)
+
+Additional navigation options
+
+* [Code](/uf0o/windows-ps-callbacks-experiments)
+* [Pull requests](/uf0o/windows-ps-callbacks-experiments/pulls)
+* [Actions](/uf0o/windows-ps-callbacks-experiments/actions)
+* [Projects](/uf0o/windows-ps-callbacks-experiments/projects)
+* [Security](/uf0o/windows-ps-callbacks-experiments/security)
+* [Insights](/uf0o/windows-ps-callbacks-experiments/pulse)
+
+# uf0o/windows-ps-callbacks-experiments
+
+master
+
+[Branches](/uf0o/windows-ps-callbacks-experiments/branches)[Tags](/uf0o/windows-ps-callbacks-experiments/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Folders and files
+
+| Name | | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- | --- |
+| Latest commit   History[17 Commits](/uf0o/windows-ps-callbacks-experiments/commits/master/)   17 Commits | | |
+| [Gigabyte-exploit @ f3efdc2](/fdiskyou/CVE-2018-19320/tree/f3efdc2d85cb977af9c9120dbce184988c84f80a "Gigabyte-exploit") | | [Gigabyte-exploit @ f3efdc2](/fdiskyou/CVE-2018-19320/tree/f3efdc2d85cb977af9c9120dbce184988c84f80a "Gigabyte-exploit") |  |  |
+| [edr-driver](/uf0o/windows-ps-callbacks-experiments/tree/master/edr-driver "edr-driver") | | [edr-driver](/uf0o/windows-ps-callbacks-experiments/tree/master/edr-driver "edr-driver") |  |  |
+| [evil-driver](/uf0o/windows-ps-callbacks-experiments/tree/master/evil-driver "evil-driver") | | [evil-driver](/uf0o/windows-ps-callbacks-experiments/tree/master/evil-driver "evil-driver") |  |  |
+| [windbg-scripts](/uf0o/windows-ps-callb...
