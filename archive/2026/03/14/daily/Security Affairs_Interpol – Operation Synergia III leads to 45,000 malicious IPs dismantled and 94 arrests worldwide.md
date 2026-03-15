@@ -1,0 +1,157 @@
+---
+title: Interpol – Operation Synergia III leads to 45,000 malicious IPs dismantled and 94 arrests worldwide
+url: https://securityaffairs.com/189420/cyber-crime/interpol-operation-synergia-iii-leads-to-45000-malicious-ips-dismantled-and-94-arrests-worldwide.html
+source: Security Affairs
+date: 2026-03-14
+fetch_date: 2026-03-15T04:34:50.831350
+---
+
+# Interpol – Operation Synergia III leads to 45,000 malicious IPs dismantled and 94 arrests worldwide
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[Starbucks data breach impacts 889 employees](https://securityaffairs.com/189438/security/starbucks-data-breach-impacts-889-employees.html)
+
+ |
+
+[Storm-2561 lures victims to spoofed VPN sites to harvest corporate logins](https://securityaffairs.com/189426/cyber-crime/storm-2561-lures-victims-to-spoofed-vpn-sites-to-harvest-corporate-logins.html)
+
+ |
+
+[Interpol - Operation Synergia III leads to 45,000 malicious IPs dismantled and 94 arrests worldwide](https://securityaffairs.com/189420/cyber-crime/interpol-operation-synergia-iii-leads-to-45000-malicious-ips-dismantled-and-94-arrests-worldwide.html)
+
+ |
+
+[U.S. CISA adds Google Chrome flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/189411/security/u-s-cisa-adds-google-chrome-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Hackers targeted Poland’s National Centre for Nuclear Research](https://securityaffairs.com/189399/security/hackers-targeted-polands-national-centre-for-nuclear-research.html)
+
+ |
+
+[US and European authorities disrupt socksEscort proxy service tied to AVrecon botnet](https://securityaffairs.com/189391/security/us-and-european-authorities-disrupt-socksescort-proxy-service-tied-to-avrecon-botnet.html)
+
+ |
+
+[AI-assisted Slopoly malware powers Hive0163’s ransomware campaigns](https://securityaffairs.com/189378/malware/ai-assisted-slopoly-malware-powers-hive0163s-ransomware-campaigns.html)
+
+ |
+
+[Google fixed two new actively exploited flaws in the Chrome browser](https://securityaffairs.com/189373/hacking/google-fixed-two-new-actively-exploited-flaws-in-the-chrome-browser.html)
+
+ |
+
+[Beyond File Servers: Securing Unstructured Data in the Era of AI](https://securityaffairs.com/189368/security/beyond-file-servers-securing-unstructured-data-in-the-era-of-ai.html)
+
+ |
+
+[Apple issues emergency fixes for Coruna flaws in older iOS versions](https://securityaffairs.com/189362/security/apple-issues-emergency-fixes-for-coruna-flaws-in-older-ios-versions.html)
+
+ |
+
+[Critical SQL Injection bug in Ally plugin threatens 400,000+ WordPress sites](https://securityaffairs.com/189354/security/critical-sql-injection-bug-in-ally-plugin-threatens-400000-wordpress-sites.html)
+
+ |
+
+[ENISA Technical Advisory on Secure Package Managers: Essential DevSecOps Guidance](https://securityaffairs.com/189333/security/enisa-technical-advisory-on-secure-package-managers-essential-devsecops-guidance.html)
+
+ |
+
+[U.S. CISA adds a flaw in n8n to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/189326/security/u-s-cisa-adds-a-flaw-in-n8n-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Bell Ambulance data breach impacted over 238,000 people](https://securityaffairs.com/189343/data-breach/bell-ambulance-data-breach-impacted-over-238000-people.html)
+
+ |
+
+[Pro-Palestinian hacktivist group Handala targets Stryker in global disruption](https://securityaffairs.com/189304/hacktivism/pro-palestinian-hacktivist-group-handala-targets-stryker-in-global-disruption.html)
+
+ |
+
+[BeatBanker malware targets Android users with banking Trojan and crypto miner](https://securityaffairs.com/189288/malware/beatbanker-malware-targets-android-users-with-banking-trojan-and-crypto-miner.html)
+
+ |
+
+[Hewlett Packard Enterprise fixes critical authentication bypass in Aruba AOS-CX](https://securityaffairs.com/189278/security/hewlett-packard-enterprise-fixes-critical-authentication-bypass-in-aruba-aos-cx.html)
+
+ |
+
+[KadNap bot compromises 14,000+ devices to route malicious traffic](https://securityaffairs.com/189251/malware/kadnap-bot-compromises-14000-devices-to-route-malicious-traffic.html)
+
+ |
+
+[Microsoft Patch Tuesday security updates for March 2026 fixed 84 bugs](https://securityaffairs.com/189266/security/microsoft-patch-tuesday-security-updates-for-march-2026-fixed-84-bugs.html)
+
+ |
+
+[Attackers exploit FortiGate devices to access sensitive network information](https://securityaffairs.com/189241/security/attackers-exploit-fortigate-devices-to-access-sensitive-network-information.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Security](https://securityaffairs.com/category/security)
+* Interpol – Operation Synergia III leads to 45,000 malicious IPs dismantled and 94 arrests worldwide
+
+## Interpol – Operation Synergia III leads to 45,000 malicious IPs dismantled and 94 arrests worldwide
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/clock-icon....
