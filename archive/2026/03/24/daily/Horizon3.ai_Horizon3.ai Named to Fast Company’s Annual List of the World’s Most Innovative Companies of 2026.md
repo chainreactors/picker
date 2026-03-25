@@ -1,0 +1,163 @@
+---
+title: Horizon3.ai Named to Fast Company’s Annual List of the World’s Most Innovative Companies of 2026
+url: https://horizon3.ai/news/press-release/horizon3-fast-company-most-innovative-2026/
+source: Horizon3.ai
+date: 2026-03-24
+fetch_date: 2026-03-25T04:16:08.059966
+---
+
+# Horizon3.ai Named to Fast Company’s Annual List of the World’s Most Innovative Companies of 2026
+
+[Skip to main content](#brx-content)
+[Skip to footer](#brx-footer)
+
+New in NodeZero®
+
+[Additional visibility into Iranian-backed threat actor activity | **Available now to all customers** →](https://horizon3.ai/news/press-release/iranian-cyber-threat-guidance/)
+
+[![Renmoe Library](https://horizon3.ai/wp-content/uploads/2024/11/Horizon3ai_Logo_Tagline_Horizontal_RGB-WhiteTxt_NoTag.png)](https://horizon3.ai)
+
+* Solutions
+
+  + Autonomous Pentesting
+  + [Internal Pentesting](https://horizon3.ai/nodezero/internal-pentesting/)
+  + [External Pentesting](https://horizon3.ai/nodezero/external-pentesting/)
+  + [Kubernetes Pentesting](https://horizon3.ai/nodezero/kubernetes-pentesting/)
+  + [Cloud Pentesting](https://horizon3.ai/nodezero/cloud-pentesting/)
+  + [Active Directory](https://horizon3.ai/nodezero/ad-password-audit/)
+  + [Vulnerability Management Hub](https://horizon3.ai/vulnerability-management-hub/)
+  + [Threat Informed Perspectives](https://horizon3.ai/threat-informed-perspectives/)
+
+  + [Risk Based Vulnerability Management](https://horizon3.ai/risk-based-vulnerability-management/)
+  + [High-Value Targeting](https://horizon3.ai/high-value-targeting/)
+  + [Advanced Data Pilfering](https://horizon3.ai/advanced-data-pilfering/)
+  + [Threat Actor Intelligence](https://horizon3.ai/threat-actor-intelligence/)
+  + [Vulnerability Risk Intelligence](https://horizon3.ai/vulnerability-risk-intelligence/)
+
+  + Security Control Validation
+  + [Endpoint Security Effectiveness](https://horizon3.ai/endpoint-security-effectiveness/)
+  + [Identity Security Validation](https://horizon3.ai/identity-security-validation/)
+  + [Data Security Effectiveness](https://horizon3.ai/use-case/data-security-effectiveness/)
+
+  + Threat Detection and Response
+  + [Tripwires](https://horizon3.ai/use-case/threat-detection-response/)
+  + [AD Tripwires](https://horizon3.ai/ad-tripwires/)
+
+  [Third-Party Risk Management](https://horizon3.ai/use-case/third-party-risk-management/)
+
+  + CISA KEV Exploitation
+  + [Rapid Response](https://horizon3.ai/use-case/rapid-response-testing/)
+* Platform
+
+  + [The NodeZero Platform](https://horizon3.ai/nodezero/)
+  + [AI in Horizon3.ai](https://horizon3.ai/ai-in-horizon3-ai/)
+  + [MCP Server](https://horizon3.ai/mcp-server/)
+
+  + [NodeZero for Compliance](https://horizon3.ai/compliance/)
+  + [PCI Compliance](https://horizon3.ai/compliance/pci-pentesting/)
+  + [NIS 2 Compliance](https://horizon3.ai/compliance/nis-2-compliance/)
+
+  [Why Our Platform Wins](https://horizon3.ai/why-our-platform-wins/)
+
+  + [Who Uses NodeZero?](https://horizon3.ai/who-uses-nodezero/)
+  + [ITOps and SecOps](/who-uses-nodezero#itops)
+  + [Security Teams](/who-uses-nodezero#security-teams)
+  + [Pentesters](/who-uses-nodezero#pentesters)
+
+  + Autonomously Solving Cyber Ranges
+  + [NodeZero vs. GOAD](https://horizon3.ai/nodezero-vs-goad/)
+  + [Hack The Box (HTB) Attack Stories](https://horizon3.ai/use-case/hack-the-box-htb-attack-stories/)
+
+  + Industries
+  + [NodeZero Federal™](https://horizon3.ai/vertical/federal/)
+  + [Financial Services](https://horizon3.ai/use-case/nodezero-for-financial-services/)
+  + [Healthcare](https://horizon3.ai/use-case/for-healthcare/)
+  + [US Public Sector](https://horizon3.ai/use-case/us-public-sector/)
+
+  + [NodeZero Packages](https://horizon3.ai/use-case/packaging/)
+* Resources
+
+  + [Attack Research](https://horizon3.ai/category/attack-research/)
+  + [Resource Center](https://horizon3.ai/resource-center/)
+  + [Events](https://horizon3.ai/events/)
+
+  + [When Conflict Extends Into Cyberspace: What Security Leaders Should Expect](https://horizon3.ai/intelligence/blogs/iranian-cyber-campaigns-security-leaders/)
+
+    March 16, 2026  |  [Blogs](https://horizon3.ai/category/intelligence/blogs/)
+  + [From Patch Tuesday to Pentest Wednesday®: A University’s Journey to Measure Blast Radius](https://horizon3.ai/intelligence/blogs/pw_measure-blast-radius/)
+
+    March 11, 2026  |  [Blogs](https://horizon3.ai/category/intelligence/blogs/)
+  + [Preemptive Exposure Management Is the Goal. Autonomous Attack Validation Is How You Get There.](https://horizon3.ai/intelligence/blogs/preemptive-exposure-management-attack-validation/)
+
+    March 4, 2026  |  [Attack Blogs](https://horizon3.ai/category/attack-research/attack-blogs/), [Attack Research](https://horizon3.ai/category/attack-research/), [Blogs](https://horizon3.ai/category/intelligence/blogs/)
+  + [When “Read-Only” Isn’t: K8s nodes/proxy GET to RCE](https://horizon3.ai/attack-research/when-read-only-isnt-k8s-nodes-proxy-get-to-rce/)
+
+    February 27, 2026  |  [Attack Blogs](https://horizon3.ai/category/attack-research/attack-blogs/), [Attack Paths](https://horizon3.ai/category/attack-research/n0-attack-paths/), [Attack Research](https://horizon3.ai/category/attack-research/)
+
+  + Use Cases
+  + [Education](https://horizon3.ai/use-case/nodezero-in-education/)
+  + [Manufacturing](https://horizon3.ai/use-case/nodezero-in-manufacturing/)
+  + [Supply Chain](https://horizon3.ai/use-case/nodezero-for-supply-chain/)
+  + [MSSP and MSP](https://horizon3.ai/partners/mssp-msp/)
+* Company
+
+  + [About Us](https://horizon3.ai/horizon3-security-vision/)
+  + [Leadership](https://horizon3.ai/about-us/)
+  + [Careers](https://horizon3.ai/join-our-team/)
+  + [In the News](https://horizon3.ai/category/news/press-release/)
+  + [Contact Us](https://horizon3.ai/contact-us/)
+* [Partners](https://horizon3.ai/partners/)
+* Access NodeZero
+
+  + [Request A Demo](https://horizon3.ai/contact-us/schedule-demo/)
+  + [Log In](https://freetrial.horizon3ai.com/)
+
+* Solutions
+
+  + Autonomous Pentesting
+  + [Internal Pentesting](https://horizon3.ai/nodezero/internal-pentesting/)
+  + [External Pentesting](https://horizon3.ai/nodezero/external-pentesting/)
+  + [Kubernetes Pentesting](https://horizon3.ai/nodezero/kubernetes-pentesting/)
+  + [Cloud Pentesting](https://horizon3.ai/nodezero/cloud-pentesting/)
+  + [Active Directory](https://horizon3.ai/nodezero/ad-password-audit/)
+  + [Vulnerability Management Hub](https://horizon3.ai/vulnerability-management-hub/)
+  + [Threat Informed Perspectives](https://horizon3.ai/threat-informed-perspectives/)
+
+  + [Risk Based Vulnerability Management](https://horizon3.ai/risk-based-vulnerability-management/)
+  + [High-Value Targeting](https://horizon3.ai/high-value-targeting/)
+  + [Advanced Data Pilfering](https://horizon3.ai/advanced-data-pilfering/)
+  + [Threat Actor Intelligence](https://horizon3.ai/threat-actor-intelligence/)
+  + [Vulnerability Risk Intelligence](https://horizon3.ai/vulnerability-risk-intelligence/)
+
+  + Security Control Validation
+  + [Endpoint Security Effectiveness](https://horizon3.ai/endpoint-security-effectiveness/)
+  + [Identity Security Validation](https://horizon3.ai/identity-security-validation/)
+  + [Data Security Effectiveness](https://horizon3.ai/use-case/data-security-effectiveness/)
+
+  + Threat Detection and Response
+  + [Tripwires](https://horizon3.ai/use-case/threat-detection-response/)
+  + [AD Tripwires](https://horizon3.ai/ad-tripwires/)
+
+  [Third-Party Risk Management](https://horizon3.ai/use-case/third-party-risk-management/)
+
+  + CISA KEV Exploitation
+  + [Rapid Response](https://horizon3.ai/use-case/rapid-response-testing/)
+* Platform
+
+  + [The NodeZero Platform](https://horizon3.ai/nodezero/)
+  + [AI in Horizon3.ai](https://horizon3.ai/ai-in-horizon3-ai/)
+  + [MCP Server](https://horizon3.ai/mcp-server/)
+
+  + [NodeZero for Compliance](https://horizon3.ai/compliance/)
+  + [PCI Compliance](https://horizon3.ai/compliance/pci-pentesting/)
+  + [NIS 2 Compliance](https://horizon3.ai/compliance/nis-2-compliance/)
+
+  [Why Our Platform Wins](https://horizon3.ai/why-our-platform-wins/)
+
+  + [Who Uses NodeZero?](https://horizon3.ai/who-uses-nodezero/)
+  + [ITOps and SecOps](/who-uses-nodezero#itops)
+  + [Security Teams](/who-uses-nodezero#security-teams)
+  + [Pentesters](/who-uses-nodezero#pentesters)
+
+  + Autonomously Solving Cyber Ranges
+  + [NodeZero vs. GOAD](https://horizon3...
