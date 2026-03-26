@@ -1,0 +1,20 @@
+---
+title: Apifox遭投毒，开发者工具成投毒重灾区
+url: https://mp.weixin.qq.com/s?__biz=MzkwOTM0MjI5NQ==&mid=2247488365&idx=1&sn=9be4240eb6adaac2a3cceba562f51896
+source: 墨菲安全
+date: 2026-03-25
+fetch_date: 2026-03-26T04:31:31.240016
+---
+
+# Apifox遭投毒，开发者工具成投毒重灾区
+
+：
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
