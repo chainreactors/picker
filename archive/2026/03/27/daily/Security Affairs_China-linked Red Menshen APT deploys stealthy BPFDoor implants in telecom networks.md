@@ -1,0 +1,158 @@
+---
+title: China-linked Red Menshen APT deploys stealthy BPFDoor implants in telecom networks
+url: https://securityaffairs.com/190029/malware/china-linked-red-menshen-apt-deploys-stealthy-bpfdoor-implants-in-telecom-networks.html
+source: Security Affairs
+date: 2026-03-27
+fetch_date: 2026-03-28T04:20:20.372557
+---
+
+# China-linked Red Menshen APT deploys stealthy BPFDoor implants in telecom networks
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[The European Commission confirmed a cyberattack affecting part of its cloud systems](https://securityaffairs.com/190067/data-breach/the-european-commission-confirmed-a-cyberattack-affecting-part-of-its-cloud-systems.html)
+
+ |
+
+[New AITM phishing wave hijacks TikTok Business accounts](https://securityaffairs.com/190058/security/new-aitm-phishing-wave-hijacks-tiktok-business-accounts.html)
+
+ |
+
+[CISA and BSI warn orgs of critical PTC Windchill and FlexPLM flaw](https://securityaffairs.com/190049/security/cisa-and-bsi-warn-orgs-of-critical-ptc-windchill-and-flexplm-flaw.html)
+
+ |
+
+[U.S. CISA adds an Aquasecurity Trivy flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/190044/security/u-s-cisa-adds-an-aquasecurity-trivy-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[China-linked Red Menshen APT deploys stealthy BPFDoor implants in telecom networks](https://securityaffairs.com/190029/malware/china-linked-red-menshen-apt-deploys-stealthy-bpfdoor-implants-in-telecom-networks.html)
+
+ |
+
+[U.S. CISA adds a Langflow flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/190018/security/u-s-cisa-adds-a-langflow-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Coruna exploit reveals evolution of Triangulation iOS exploitation framework](https://securityaffairs.com/190010/security/coruna-exploit-reveals-evolution-of-triangulation-ios-exploitation-framework.html)
+
+ |
+
+[Researchers uncover WebRTC skimmer bypassing traditional defenses](https://securityaffairs.com/190002/malware/researchers-uncover-webrtc-skimmer-bypassing-traditional-defenses.html)
+
+ |
+
+[Russian authorities arrest alleged LeakBase admin behind stolen data marketplace](https://securityaffairs.com/189994/cyber-crime/russian-authorities-arrest-alleged-leakbase-admin-behind-stolen-data-marketplace.html)
+
+ |
+
+[Russian national convicted for running botnet used in attacks on U.S. firms](https://securityaffairs.com/189987/cyber-crime/russian-national-convicted-for-running-botnet-used-in-attacks-on-u-s-firms.html)
+
+ |
+
+[Patch now: TP-Link Archer NX routers vulnerable to firmware takeover](https://securityaffairs.com/189980/iot/patch-now-tp-link-archer-nx-routers-vulnerable-to-firmware-takeover.html)
+
+ |
+
+[Recent Navia data breach impacts HackerOne employee data](https://securityaffairs.com/189969/data-breach/recent-navia-data-breach-impacts-hackerone-employee-data.html)
+
+ |
+
+[FCC targets foreign router imports amid rising cybersecurity concerns](https://securityaffairs.com/189959/security/fcc-targets-foreign-router-imports-amid-rising-cybersecurity-concerns.html)
+
+ |
+
+[Cybercrime group Lapsus$ claims the hack of pharma giant AstraZeneca](https://securityaffairs.com/189936/data-breach/cybercrime-group-lapsus-claims-the-hack-of-pharma-giant-astrazeneca.html)
+
+ |
+
+[Malicious LiteLLM versions linked to TeamPCP supply chain attack](https://securityaffairs.com/189948/hacking/malicious-litellm-versions-linked-to-teampcp-supply-chain-attack.html)
+
+ |
+
+[Data breach at Dutch Ministry of Finance impacts staff following cyberattack](https://securityaffairs.com/189929/data-breach/data-breach-at-dutch-ministry-of-finance-impacts-staff-following-cyberattack.html)
+
+ |
+
+[QualDerm Partners December 2025 data breach impacts over 3 Million people](https://securityaffairs.com/189917/data-breach/qualderm-partners-december-2025-data-breach-impacts-over-3-million-people.html)
+
+ |
+
+[Citrix NetScaler critical flaw could leak data, update now](https://securityaffairs.com/189908/security/citrix-netscaler-critical-flaw-could-leak-data-update-now.html)
+
+ |
+
+[81-month sentence for Russian hacker behind major ransomware campaigns](https://securityaffairs.com/189900/cyber-crime/81-month-sentence-for-russian-hacker-behind-major-ransomware-campaigns.html)
+
+ |
+
+[North Korea-linked threat actors abuse VS Code auto-run to spread StoatWaffle malware](https://securityaffairs.com/189880/security/north-korea-linked-threat-actors-abuse-vs-code-auto-run-to-spread-stoatwaffle-malware.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [APT](https://securityaffairs.com/category/apt)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Security](https://securityaffairs.com/category/security)
+* China-linked Red Menshen APT deploys stealthy BPFDoor implants in telecom networks
+
+## China-linked Red Menshen APT deploys stealthy BPFDoor implants in telecom networks
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/a...
