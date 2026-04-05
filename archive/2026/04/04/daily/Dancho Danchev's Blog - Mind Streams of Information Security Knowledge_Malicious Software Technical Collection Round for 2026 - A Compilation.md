@@ -1,0 +1,54 @@
+---
+title: Malicious Software Technical Collection Round for 2026 - A Compilation
+url: https://ddanchev.blogspot.com/2026/04/malicious-software-technical-collection.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2026-04-04
+fetch_date: 2026-04-05T04:38:31.089428
+---
+
+# Malicious Software Technical Collection Round for 2026 - A Compilation
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+In the overwhelming sea of information, access to timely, insightful and independent open-source intelligence (OSINT) analyses is crucial for maintaining the necessary situational awareness to stay on the top of emerging security threats. This blog covers trends and fads, tactics and strategies, intersecting with third-party research, speculations and real-time CYBERINT assessments, all packed with sarcastic attitude
+
+## Saturday, April 04, 2026
+
+### Malicious Software Technical Collection Round for 2026 - A Compilation
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhol7-SW9k2klSK6ieE4mUzN8SQuBwxGu7zdCyGYXoASMNi6sh3zmmcex_cF4UJ3N3crpJfVulw0jzJdZWawIns-g8Iy1bOe4v2GnbE9aASKfK7TZyhSWvf1GABfG1xygOL3KMuk4sA7HoRepBQTH3UO_41ntpYrZUS9EGOOBgtGx5QOTEdZlwt/s320/Agent_Tesla_01.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhol7-SW9k2klSK6ieE4mUzN8SQuBwxGu7zdCyGYXoASMNi6sh3zmmcex_cF4UJ3N3crpJfVulw0jzJdZWawIns-g8Iy1bOe4v2GnbE9aASKfK7TZyhSWvf1GABfG1xygOL3KMuk4sA7HoRepBQTH3UO_41ntpYrZUS9EGOOBgtGx5QOTEdZlwt/s1180/Agent_Tesla_01.png)
+
+An image is worth a thousand words.
+
+**Sample screenshots:**
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjby-ay5LtM_ez6wjukfamJdleFNwCwF5jnNyj-idMeID2GtEZd0-6MwncmQb4TPPKLDagtAZawGtaMEf_-qnjLCalGaOeqUtZ4SJCeD3arkCKAHwYOP1ESuHu7CZQqsTUxQZdSb8nMYuuHwJPXcuPPqY3sxjxlloONS46JHUE2JnNVHZEWaxZQ/s320/Malicious_Software_Android_01.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjby-ay5LtM_ez6wjukfamJdleFNwCwF5jnNyj-idMeID2GtEZd0-6MwncmQb4TPPKLDagtAZawGtaMEf_-qnjLCalGaOeqUtZ4SJCeD3arkCKAHwYOP1ESuHu7CZQqsTUxQZdSb8nMYuuHwJPXcuPPqY3sxjxlloONS46JHUE2JnNVHZEWaxZQ/s1868/Malicious_Software_Android_01.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX7rxfTO673VB53SFYwGdW6TkSXEJGXvx4jqexcldTSwPrLy96TeJ0eMZGj2yhQFMJ8pgpUi5uygOXH0QlTjf9IX2E1KztK6_IphCvnE0rBheqMvTAPXvvWwnEERhTC_omNbHsOJO6x8LTCwkaF4WyTPW2gn-ajF80BBxLXXjjbRllIEP9j3nf/s320/Malicious_Software_Android_02.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX7rxfTO673VB53SFYwGdW6TkSXEJGXvx4jqexcldTSwPrLy96TeJ0eMZGj2yhQFMJ8pgpUi5uygOXH0QlTjf9IX2E1KztK6_IphCvnE0rBheqMvTAPXvvWwnEERhTC_omNbHsOJO6x8LTCwkaF4WyTPW2gn-ajF80BBxLXXjjbRllIEP9j3nf/s1112/Malicious_Software_Android_02.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdCxp9WO72LuDPOJYx3kzzFPB7gZ1m-V8Bs0Z5eePoL_5m6_7ecId0Qbhg8uxojn4GoC2U5slOGJQCKeQLdFF4aIS0lm9bIPi-L-fFqtBM8ffo41YX8Fjhmx8o9pmXVrf_CXCS_NEDu1h40Hh9L8CLFqkzSKoNGTQ0W4g0kj7X0JIy3zZP_p0m/s320/Malicious_Software_Android_03.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdCxp9WO72LuDPOJYx3kzzFPB7gZ1m-V8Bs0Z5eePoL_5m6_7ecId0Qbhg8uxojn4GoC2U5slOGJQCKeQLdFF4aIS0lm9bIPi-L-fFqtBM8ffo41YX8Fjhmx8o9pmXVrf_CXCS_NEDu1h40Hh9L8CLFqkzSKoNGTQ0W4g0kj7X0JIy3zZP_p0m/s756/Malicious_Software_Android_03.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgDbZhUVD9wq3h5MnYxdnTL321yB9j38uEuXArImtC0298gMKDqi_gwEXANKpnxjQftD1rVb887B5wsFhmT9deIwbSJdC3K7aOmnGHeBQHohsnsLzUoY18yFvSzK8M3VS0HZ6LdpS5eQ-mQxN0EaRSlGLetI0pQfdl6lx5h_vxrHKN0Vo3O5qx/s320/Malicious_Software_Android_05.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgDbZhUVD9wq3h5MnYxdnTL321yB9j38uEuXArImtC0298gMKDqi_gwEXANKpnxjQftD1rVb887B5wsFhmT9deIwbSJdC3K7aOmnGHeBQHohsnsLzUoY18yFvSzK8M3VS0HZ6LdpS5eQ-mQxN0EaRSlGLetI0pQfdl6lx5h_vxrHKN0Vo3O5qx/s1600/Malicious_Software_Android_05.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHZGeYXc0mFSUP7dSa0khNT92ROpuT0yBoBIxsTTxol-SMcP95bhaY2uD3dGIScU5fBHooZbmeWDK9_PAUdfLJR6oJl69QKxoDwGxc0Dtb8mp-2lB0WF5vzqgRVGUa9JBxCTGVMKsglv63HdCdnhTjqMmNZAHfBpNQUt8kIXBAKZeN0_12L-i4/s320/Malicious_Software_Android_06.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHZGeYXc0mFSUP7dSa0khNT92ROpuT0yBoBIxsTTxol-SMcP95bhaY2uD3dGIScU5fBHooZbmeWDK9_PAUdfLJR6oJl69QKxoDwGxc0Dtb8mp-2lB0WF5vzqgRVGUa9JBxCTGVMKsglv63HdCdnhTjqMmNZAHfBpNQUt8kIXBAKZeN0_12L-i4/s1280/Malicious_Software_Android_06.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcYSN00TlgQ6hzWNi0xtkggIhPeUv0LV7hjz8J30E3mS5Bgp7fzjZbJfcEUzrR63jryMh5hyphenhyphen5KzVAMoF3rbsMWk07IUjBoJO9eGdh254VuLEyiK7VC-X4zzHz1xWvRe57lftAafM1kcY-7XhgDA3vHrYehO8mMm5AYrxidYeCCNHoxcuJ0HaCA/s320/Malicious_Software_BitCoin_01.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcYSN00TlgQ6hzWNi0xtkggIhPeUv0LV7hjz8J30E3mS5Bgp7fzjZbJfcEUzrR63jryMh5hyphenhyphen5KzVAMoF3rbsMWk07IUjBoJO9eGdh254VuLEyiK7VC-X4zzHz1xWvRe57lftAafM1kcY-7XhgDA3vHrYehO8mMm5AYrxidYeCCNHoxcuJ0HaCA/s1280/Malicious_Software_BitCoin_01.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihNhwkz2czlBiIecGLTjGqhr6TUyqkirDCqTAGJPf0NRv4Z6H_On7r2vl_YZIyWGXflKkOPHORRXv1FmvOnFcg9EuVQ6ja7MVIenbZ3Ipdj-AXtHgSoWkLPKmZZ-V8u623FEb9g6OCKLXTYud5b6w2ErWrtrbA5tIXgYaE1HdpufwftaCQSWUL/s320/Malicious_Software_Botnet_01.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihNhwkz2czlBiIecGLTjGqhr6TUyqkirDCqTAGJPf0NRv4Z6H_On7r2vl_YZIyWGXflKkOPHORRXv1FmvOnFcg9EuVQ6ja7MVIenbZ3Ipdj-AXtHgSoWkLPKmZZ-V8u623FEb9g6OCKLXTYud5b6w2ErWrtrbA5tIXgYaE1HdpufwftaCQSWUL/s1331/Malicious_Software_Botnet_01.jpg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrtFp8-7n1LEV_RBF3NxdudoCbIPattcdRWAjkXdOXIpX-utvUCR7Lox1c7rq9ZOr1u911716zahsfYdo7TH4Gnk63AVp5Tfhg5V2f1fZ5dY2IPiTjtWtgwkWrJSPaBHMAd4fCmUduOOPABavaqYFPkdwmjT0iStn8XXLrD1JE3nFGwgGtFyyr/s320/Malicious_Software_Stealer_01.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrtFp8-7n1LEV_RBF3NxdudoCbIPattcdRWAjkXdOXIpX-utvUCR7Lox1c7rq9ZOr1u911716zahsfYdo7TH4Gnk63AVp5Tfhg5V2f1fZ5dY2IPiTjtWtgwkWrJSPaBHMAd4fCmUduOOPABavaqYFPkdwmjT0iStn8XXLrD1JE3nFGwgGtFyyr/s1197/Malicious_Software_Stealer_01.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7MilG0TXYPlkFCstguYWgiwSyutsugNPJ-K-LaNZlkJY28_WVJfiDN706EQq-n3NxjKKP6uA64K-M1BF_7Mx8YsgRffeBb08JyUXufDK2MijApjr68Sg40Dqb6eE6leITgKxgFkoL1tV6v1jQTRznUK8GL39IMCxufeDQMGiQzoXC8PCXvH95/s320/Malicious_Software_Stealer_04.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7MilG0TXYPlkFCstguYWgiwSyutsugNPJ-K-LaNZlkJY28_WVJfiDN706EQq-n3NxjKKP6uA64K-M1BF_7Mx8YsgRffeBb08JyUXufDK2MijApjr68Sg40Dqb6eE6leITgKxgFkoL1tV6v1jQTRznUK8GL39IMCxufeDQMGiQzoXC8PCXvH95/s850/Malicious_Software_Stealer_04.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb0HzXiWRKLkxgN18BrSlIO5P-AjkYMyOC-k83NfTThHQFza7DDMQXCSXyshoi3Gz9xd2J5hCqjm2x1AzH47U_IBLAQ6jKFenYER8T54SeMsUScaPJhGHKT_ObiYjMQvCtyUs7tsWySfigZuFnBsTGD1QMACrGMR5HG190dgK_EDjH48OctYC5/s320/Malicious_Software_Stealer_07.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb0HzXiWRKLkxgN18BrSlIO5P-AjkYMyOC-k83NfTThHQFza7DDMQXCSXyshoi3Gz9xd2J5hCqjm2x1AzH47U_IBLAQ6jKFenYER8T54SeMsUScaPJhGHKT_ObiYjMQvCtyUs7tsWySfigZuFnBsTGD1QMACrGMR5HG190dgK_EDjH48OctYC5/s1204/Malicious_Software_Stealer_07.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyxQxKE_YTv4J0pOTM7NW4A6Mvhhyphenhyphen5yn2xYASZcA23Boa3m3clQ6CIA1nxbokNywQ3aFQD0dx3PbrKogabl5eJWHBAmbS_qA8Zk_G0793giK3In-kkxG7UJU4xC-WTkVcTGo5YKlyG8xP7MNphejCMCPs1yUng0FNqU1VtpKMBC0J8QTrrouDl/s320/Malicious_Software_Stealer_08.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyxQxKE_YTv4J0pOTM7NW4A6Mvhhyphenhyphen5yn2xYASZcA23Boa3m3clQ6CIA1nxbokNywQ3aFQD0dx3PbrKogabl5eJWHBAmbS_qA8Zk_G0793giK3In-kkxG7UJU4xC-WTkVcTGo5YKlyG8xP7MNphejCMCPs1yUng0FNqU1VtpKMBC0J8QTrrouDl/s1501/Malicious_Software_Stealer_08.png)
+
+Stay tuned.
+
+-
+[April 04, 2026](https://ddanchev.blogspot.com/2026/04/malicious-software-technical-collection.html "permanent link")
+
+[![](https://resources.blogblog.com/img/icon18_email.gif)](https://www.blogger.com/email-post/18493443/5845882072974251758 "Email Post")
+
+[Email This](https://www.blogger.com/share-post.g?blogID=18493443&postID=5845882072974251758&target=email "Email This")[BlogThis!](https://www.blogger.com/share-...
