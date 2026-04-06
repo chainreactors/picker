@@ -1,0 +1,68 @@
+---
+title: 【禅宗公案】既无人绑，为何求解脱？
+url: https://mp.weixin.qq.com/s/BCOyXEdOD6aCtgMi3A-iaQ
+source: Doonsec's feed
+date: 2026-04-05
+fetch_date: 2026-04-06T04:39:21.720788
+---
+
+# 【禅宗公案】既无人绑，为何求解脱？
+
+轻触阅读原文
+
+![](http://mmbiz.qpic.cn/sz_mmbiz_png/kibYIhwqxpu8g0RTLVoIk8N9ftTiaO7S9Im2HeaNpX9QI107g1WQJ4P6iaGicjH72qAPbtT3DIKQNxpHmHnfDVfXxla34w87EjldBXAicK6vx3rw/0?wx_fmt=png)
+
+平凡在修行
+
+向上滑动看下一个
+
+知道了
+
+![]()
+微信扫一扫
+使用小程序
+
+取消
+允许
+
+取消
+允许
+
+取消
+允许
+
+×
+分析
+
+![跳转二维码]()
+
+![作者头像](http://mmbiz.qpic.cn/sz_mmbiz_png/kibYIhwqxpu8g0RTLVoIk8N9ftTiaO7S9Im2HeaNpX9QI107g1WQJ4P6iaGicjH72qAPbtT3DIKQNxpHmHnfDVfXxla34w87EjldBXAicK6vx3rw/0?wx_fmt=png)
+
+微信扫一扫可打开此内容，
+使用完整服务
+
+：
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
+分享
+留言
+收藏
+听过
