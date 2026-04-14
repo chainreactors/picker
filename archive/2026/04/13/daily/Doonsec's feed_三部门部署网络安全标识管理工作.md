@@ -1,0 +1,252 @@
+---
+title: 三部门部署网络安全标识管理工作
+url: https://mp.weixin.qq.com/s/CW42jR-oZVPtCR_JAdjYPw
+source: Doonsec's feed
+date: 2026-04-13
+fetch_date: 2026-04-14T04:43:45.970078
+---
+
+# 三部门部署网络安全标识管理工作
+
+![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jGCFB5hoMibKLzM8sHR2SWFks7Jl4BRhyPa1XRzwJcomUJQa2YUhIDiaqUCTap8O5ibNibfsxg6fTGHbEibhJTU8SzGI1Ekqvcm6l6Sfxn1icoP0E/0?wx_fmt=jpeg)
+
+# 三部门部署网络安全标识管理工作
+
+NERCIS
+NERCIS
+
+信息安全国家工程研究中心
+
+![]()
+
+在小说阅读器读本章
+
+去阅读
+
+![]()
+
+在小说阅读器中沉浸阅读
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jGCFB5hoMibKicv06vo08TEibes53MNT0ePW8R3Lsc6dyb3YEyd31c26mUqicpFubBqLV4ialprmSTlos86wMhZ4ZQP3ufHRA630H9g369BSleho/640?wx_fmt=gif&from=appmsg)
+
+国家互联网信息办公室、工业和信息化部、公安部近日联合印发**《网络安全标识管理办法》**。**办法旨在提升产品的网络安全能力，加强消费者权益保护，维护网络安全和公共利益，将于2026年7月1日起施行。**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jGCFB5hoMibLQdnOOoh6BBy6hft5lUYau75XvpPNz6nttjuHZWafDAYdWuIsZyJCUKEuicxLuUs8Ry5CDntfkxM6nObSIIUCQUia63GAQ2ia5zA/640?wx_fmt=png&from=appmsg)
+
+办法明确，网络安全标识是指能够反映产品本身网络安全能力水平的信息标识。网络安全标识对应的网络安全能力由低到高依次为基础级、增强级、领先级，相应的标识等级分别用一星、二星、三星表示。
+
+办法提出，网络安全标识管理工作坚持统筹发展和安全，产品生产者按照自愿原则参与；鼓励产品生产者依据本办法提升产品网络安全能力，标注网络安全标识；鼓励消费者优先选用标注网络安全标识的产品。
+
+根据办法，需要标注网络安全标识的产品，产品生产者应当依据实施规则相关要求开展网络安全能力检测，确定网络安全能力等级，并取得检测报告。任何组织和个人不得伪造、冒用网络安全标识或者利用网络安全标识进行虚假宣传。
+
+**《网络安全标识管理办法》全文**
+
+**网络安全标识管理办法**
+
+**第一章 总则**
+
+**第一条** 为提升产品的网络安全能力，加强消费者权益保护，维护网络安全和公共利益，根据《中华人民共和国网络安全法》等法律法规，制定本办法。
+
+**第二条** 本办法所称网络安全标识，是指能够反映产品本身网络安全能力水平的信息标识。
+
+具有互联网联网功能的产品适用于本办法，具体产品实施目录管理。
+
+**第三条** 网络安全标识管理工作坚持统筹发展和安全，产品生产者按照自愿原则参与。
+
+鼓励产品生产者依据本办法提升产品网络安全能力，标注网络安全标识。
+
+鼓励消费者优先选用标注网络安全标识的产品。
+
+**第四条** 国家互联网信息办公室、工业和信息化部、公安部负责网络安全标识管理工作，分批制定公布《实施网络安全标识的产品目录》，明确每类产品的具体实施规则和依据的国家标准或技术文件，组织开展网络安全标识宣传教育，委托中国电子技术标准化研究院（以下简称备案机构）承担网络安全标识备案、信息发布等工作。
+
+**第二章 标识实施**
+
+**第五条** 网络安全标识对应的网络安全能力由低到高依次为基础级、增强级、领先级，相应的标识等级分别用一星、二星、三星表示。基础级要求产品应当满足相关国家标准的基本安全要求，如不存在弱口令或通用默认口令、建立漏洞管理机制并动态修复漏洞、保持软件更新等；增强级要求产品网络安全能力达到同类产品先进水平；领先级要求产品网络安全能力达到同类产品领先水平，同时还应通过渗透性测试方法，检测抵御高级别网络攻击的能力。
+
+每类产品的标识等级具体安全要求，在实施规则中确定。安全要求应当和现行国家标准、国际标准做好衔接，充分借鉴吸收其它实施网络安全标识制度国家和地区的相关经验。
+
+**第六条** 网络安全标识（英文名称为China Cybersecurity Label）应当包括以下基本内容：
+
+（一）产品生产者名称；
+
+（二）产品规格型号；
+
+（三）网络安全能力等级；
+
+（四）网络安全标识有效期；
+
+（五）检测实验室名称；
+
+（六）依据的国家标准或技术文件编号；
+
+（七）备案信息码，通过扫码可以获取检测报告、关键指标、产品生产者符合性声明等信息。
+
+网络安全标识基本样式如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/jGCFB5hoMibIfWTibyYicrMQLWzwUZAU4L8T2VWDrE98KuBhKrTibrjBAYOTPiawAMBBEXQV2iazZTzS5aEVytwt5O4uqUvsVW9icxYUm7BBvwOC6A/640?wx_fmt=png&from=appmsg)
+
+每类产品标识的具体样式应当在对应的实施规则中明确，可根据产品实际形态在上述基本样式基础上适当调整。
+
+**第七条** 需要标注网络安全标识的产品，产品生产者应当依据实施规则相关要求开展网络安全能力检测，确定网络安全能力等级，并取得检测报告。
+
+（一）需要标注一星级、二星级的产品，产品生产者可以利用自有检测实验室或者委托依法取得资质认定的第三方检测机构开展检测；
+
+（二）需要标注三星级的产品，产品生产者在满足有关检测要求基础上，还应当委托符合条件的第三方检测机构开展渗透性测试。
+
+**第八条** 备案机构建设网络安全标识备案管理平台，产品生产者备案网络安全标识通过平台线上办理。
+
+备案时应当提交以下材料的电子版：
+
+（一）网络安全标识备案表；
+
+（二）网络安全能力等级检测报告；
+
+（三）依据实施规则设计的本产品网络安全标识样式；
+
+（四）产品生产者符合性声明；
+
+（五）产品生产者营业执照；
+
+（六）自有检测实验室的相关检测能力证明材料，或者第三方检测机构相关资质认定证书；
+
+（七）由代理人提交备案材料的，还应当提交产品生产者的委托代理文件等。
+
+产品生产者及代理人应当对上述材料的真实性、准确性、完整性负责。
+
+**第九条**备案机构应当自收到完整备案材料之日起10个工作日内，对材料的真实性、准确性、完整性进行形式审查，完成备案工作并公告产品相关备案信息。
+
+备案完成后，产品生产者可以按照实施规则要求印制、使用和展示网络安全标识。
+
+**第十条** 网络安全标识有效期在相关产品实施规则中明确。备案完成的产品，关键技术参数等发生变更可能影响产品网络安全能力的，或者标识超过有效期的，应当重新备案。
+
+**第十一条**任何组织和个人不得伪造、冒用网络安全标识或者利用网络安全标识进行虚假宣传。
+
+**第十二条** 备案机构应当建立健全网络安全标识备案工作规范，客观、公正开展网络安全标识备案相关工作。
+
+产品生产者自有检测实验室或者第三方检测机构应当严格按照有关标准开展检测，保证检测结果客观公正、真实准确，不得伪造检测结果或者出具虚假检测报告。
+
+备案机构和检测机构不得泄露在工作中知悉的国家秘密、商业秘密。
+
+**第三章 监督管理**
+
+**第十三条** 国家互联网信息办公室、工业和信息化部、公安部负责组织对网络安全标识备案、使用情况进行监督检查，发现有违反本办法规定行为的，按照有关规定及时处理。
+
+地方网信部门、通信管理局、公安机关负责组织对本区域内网络安全标识使用进行监督检查，强化信息共享，发现有违反本办法规定行为的，应当会同相关部门按照有关规定处理，并及时通知备案机构。
+
+**第十四条** 发现以下情况，备案机构应当撤销备案并及时公告：
+
+（一）备案材料弄虚作假的；
+
+（二）网络安全标识与实际网络安全能力不相符的；
+
+（三）使用的网络安全标识不符合有关样式、规格等标注规定的；
+
+（四）产品生产者终止对备案产品开展技术支持服务的；
+
+（五）其他应当撤销备案的违规行为。
+
+**第十五条** 产品生产者伪造、冒用网络安全标识或者利用网络安全标识进行虚假宣传的，备案机构应当撤销相关产品的网络安全标识备案，对产品生产者违规行为予以公告，自公告之日起一年内不再受理其产品备案。
+
+**第十六条** 产品生产者自有检测实验室或者第三方检测机构伪造检测结果或者出具虚假检测报告的，备案机构应当撤销相关产品的网络安全标识备案，对检测机构违规行为予以公告，自公告之日起一年内不再采信其检测结果。
+
+**第十七条** 产品生产者、第三方检测机构等发生网络安全能力检测弄虚作假、伪造冒用网络安全标识等行为的，由有关主管部门按照《中华人民共和国网络安全法》、《检验检测机构监督管理办法》等法律法规进行处罚。
+
+**第十八条** 任何组织和个人发现违反本办法规定的行为，可以向地方网信部门、通信管理局、公安机关举报。地方网信部门、通信管理局、公安机关应当及时调查处理，并为举报人保密，调查过程中备案机构应当予以配合。
+
+**第十九条**网络安全能力检测过程中发现或者获知产品安全漏洞的，应当按照《网络产品安全漏洞管理规定》有关要求进行报告、修补和发布。
+
+**第二十条** 国家互联网信息办公室、工业和信息化部、公安部等对违反本办法规定的行为建立信用记录，并纳入全国信用信息共享平台。
+
+**第四章 附则**
+
+**第二十一条** 本办法所称网络安全能力，是指产品生产者通过采取必要技术和管理措施，使产品本身具备防范攻击、侵入、干扰、破坏和非法使用，保障产品稳定可靠运行和网络数据完整性、保密性、可用性的能力。
+
+**第二十二条** 网络关键设备和网络安全专用产品依据国家互联网信息办公室、工业和信息化部、公安部、财政部、国家认证认可监督管理委员会《关于调整网络安全专用产品安全管理有关事项的公告》（2023年第1号）开展安全管理，不列入《实施网络安全标识的产品目录》。
+
+**第二十三条** 本办法自2026年7月1日起施行。
+
+*来源：新华社、“网信中国”微信公众号*
+
+![](https://mmbiz.qpic.cn/mmbiz_png/jGCFB5hoMibJVgAlvZY7QOORL6ZewjOP2IVTEemBjPTZfR5EpKqqPG6hjfwVNiaWVoS2aDPlz0wZU9FIZxSzlevICNZvm5X70EMnZjibomMU6w/640?wx_fmt=png&from=appmsg)
+
+**往期阅读**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jGCFB5hoMibI0GxoxnsgDicicr6moofL0v7pgMXyscHjWOXSXsDAiaJYwcNRAL0cPbmuKcPvAawnXtB6m5pZdbia2QNzGKzbBwQic7xGgPicNibiak1s/640?wx_fmt=gif&from=appmsg)
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/jGCFB5hoMibKVBO2Y9P8bBsNu6cSTlqSXq3dIR14geZkPSYpm9wIxXa14BCVGKYrQticRKl83gibev52X5MW05JBg8VHY31Ss0qt1b1jXWD8icc/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzU5OTQ0NzY3Ng==&mid=2247503460&idx=1&sn=6f02d7ebccd65f2c909e6e27223ff3fb&scene=21#wechat_redirect)
+
+[![](https://mmbiz.qpic.cn/sz_mmbiz_png/jGCFB5hoMibKs5BibUkB9icTBpcibeaQv59AMGw38mklQ2TxUYlChiabLl5Y6fJGe2kibCmvUOfm6Jn0aWdP5GVxNRvUTViaHrwAjNiaoSLd4s7hVSk/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzU5OTQ0NzY3Ng==&mid=2247503426&idx=1&sn=d1e913183927e3eee00ccfc0aefbd3f1&scene=21#wechat_redirect)
+
+[![](https://mmbiz.qpic.cn/sz_mmbiz_png/jGCFB5hoMibIicvC0icTib8B7CgePtSg08HgK21jvh0LvQDOib8DWssbrtvj6cCsPo7zfiaYF0dE7s5u9ibxFkT31DoxetMxDYUsFNSez5XkLwdMOY/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzU5OTQ0NzY3Ng==&mid=2247503307&idx=1&sn=b072d301826e91bc00e289b2374d28a7&scene=21#wechat_redirect)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jGCFB5hoMibILiaWLto75nRTNCMxFLZulmWQ7tJpic6ZytsPQeIJs64jlDI8owXAEBXeIibzEeoslic7qC1hX6tiavff77ZnWztJNluicQCN61oLFU/640?wx_fmt=gif&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jGCFB5hoMibJDHrCTZhIMCIfDiaovNQtRuCClKtSEjKm0Gyy8XZQD6MNSAejO4oum6VkMTibPjrWClt6OkPbQ8WnvFWN98Q58G1K1ESlgVndLQ/640?wx_fmt=gif&from=appmsg)
+
+预览时标签不可点
+
+![]()
+
+微信扫一扫
+关注该公众号
+
+继续滑动看下一个
+
+轻触阅读原文
+
+![](http://mmbiz.qpic.cn/mmbiz_png/jmN6xCKMlqjCRdC7jEXBMClMBDDiasXssFGzhaIl9lIOBpndo18RBgqsCcs8KicRza1e3niaia6AP37WXdryR3roNg/0?wx_fmt=png)
+
+信息安全国家工程研究中心
+
+向上滑动看下一个
+
+知道了
+
+![]()
+微信扫一扫
+使用小程序
+
+取消
+允许
+
+取消
+允许
+
+取消
+允许
+
+×
+分析
+
+![跳转二维码]()
+
+![作者头像](http://mmbiz.qpic.cn/mmbiz_png/jmN6xCKMlqjCRdC7jEXBMClMBDDiasXssFGzhaIl9lIOBpndo18RBgqsCcs8KicRza1e3niaia6AP37WXdryR3roNg/0?wx_fmt=png)
+
+微信扫一扫可打开此内容，
+使用完整服务
+
+：
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
+分享
+留言
+收藏
+听过
