@@ -1,0 +1,118 @@
+---
+title: 安全419｜一周国际网安资讯：AI工具滥用 供应链攻击激增
+url: https://mp.weixin.qq.com/s/Xai71raHpc9YhO-6joenvg
+source: Doonsec's feed
+date: 2026-05-14
+fetch_date: 2026-05-15T05:51:30.223888
+---
+
+# 安全419｜一周国际网安资讯：AI工具滥用 供应链攻击激增
+
+![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/9Nf1wzzcfwNiaBZibZ8560mqbwM8LSKePCn28WNCPs1nxe51mJuMf5QICzibuQ2ichyMN9p6rcmnewrheI5b6TNPtwJX3pfMGsQjkc6Lm8ywauE/0?wx_fmt=jpeg)
+
+# 安全419｜一周国际网安资讯：AI工具滥用 供应链攻击激增
+
+原创
+
+安全419
+安全419
+
+安全419
+
+![]()
+
+在小说阅读器读本章
+
+去阅读
+
+![]()
+
+在小说阅读器中沉浸阅读
+
+![](https://mmbiz.qpic.cn/mmbiz_png/9Nf1wzzcfwMBRPSCd2dib4Nyu45zDa59kbM2J2wox7nERqANQkLS0eUiafCX0t0OibskASpWB77IpBl5OapOQ9fCqAe2G7wxXj5uqX4q3nq0mU/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/9Nf1wzzcfwPcwibmNJjicQ6sFDBxEC8uwMCaKFo1p4XDc2yURlDgKtfF3icrMnBHFTbGf1RsAJrqhsUOwhkbuefD476xwKibbfdXA9XFaJthAbs/640?wx_fmt=gif&from=appmsg)
+
+**一、一周热点速览**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/9Nf1wzzcfwMo4pVjHbkOGLxsBpQyJiaXTaWibIic14W5D8l2tA1j3NYzVsDiakRiaibjUc3gxSnzOhynp4sT7DAcl2YIANUg1KhxHdiaBFdo6VyiboQ/640?wx_fmt=gif&from=appmsg)
+
+上周（2026年5月5日至5月11日）全球网络安全态势愈发严峻，最突出的特点是AI工具被威胁行为者大规模滥用，同时供应链攻击持续激增。OpenAI推出Daybreak AI驱动漏洞检测工具，标志着防御方开始利用AI技术提升安全防护能力。然而，TeamPCP等攻击组织持续入侵多个开源生态系统，包括RubyGems、npm、PyPI等平台均受到波及。微软5月补丁星期二修复了120个漏洞，其中29个为严重RCE缺陷，显示软件安全形势依然严峻。此外，Fortinet、Ivanti、SAP等企业级产品也密集发布安全更新。在恶意软件方面，新型TrickMo变种利用TON进行C2通信，Vidar Stealer采用更隐蔽的技术绕过EDR检测。执法部门也取得进展，两名协助朝鲜黑客的美国男子被判入狱，罗马尼亚vishing诈骗犯面临30年监禁。本周事件凸显了加强供应链安全、提升AI伦理使用、以及加快漏洞修复的紧迫性。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/9Nf1wzzcfwMkVuKXP48Wib1icrcWfe8XklPq0e2U0E32DqSSNLY0z82psPQ7ztyWK0qybiakI9f891wQBO8rst3PxZTvQjjSaQqCKmOQ3OPk4g/640?wx_fmt=gif&from=appmsg)
+
+**二、AI安全与工具**
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/9Nf1wzzcfwMrMEabE9vEa9iak7ywjpkYlRe7XXBZUNnqeSsIkdZTibNiasiaOvdcQg7k0pR0ymjkd8oWKZxHc28taACXcRpUxyucP9H1lEugiarQ/640?wx_fmt=gif&from=appmsg)
+
+**OpenAI推出Daybreak用于AI驱动的漏洞检测和补丁验证**
+
+OpenAI于5月12日正式推出Daybreak网络安全计划，这是一个将前沿AI模型能力与Codex Security相结合的综合性安全平台。Daybreak的核心目标是帮助组织在攻击者发现漏洞之前主动识别和修补安全缺陷。该平台将AI模型的智能分析能力、Codex作为代理执行框架的扩展性，以及与安全社区合作伙伴的协同作用有机整合，为软件开发全生命周期提供安全防护。防御者可以利用Daybreak进行安全代码审查、威胁建模、补丁验证、依赖风险分析、检测和修复指导，将这些安全实践嵌入日常开发循环中，从而从一开始就提升软件的抗风险能力。这一举措类似于Anthropic推出的Mythos项目，体现了AI公司利用自身技术优势服务网络防御的战略转向。目前，Daybreak工具的访问权限仍然受到严格控制，OpenAI鼓励有需求的组织通过官方渠道申请试用。这标志着AI军备竞赛进入新阶段，防御方开始系统性地利用AI技术来对抗同样在使用AI的攻击方。
+
+**威胁行为者利用Vercel的AI工具大规模生产真实钓鱼网站**
+
+网络安全研究人员发现，威胁行为者正在大规模滥用Vercel平台（一个合法的AI驱动Web开发平台）来创建高度逼真的钓鱼网站。这些AI生成的钓鱼页面能够精确模仿Microsoft、Adidas、Nike等知名品牌的官方网站，传统的安全控制措施很难将其与合法网站区分开来。Vercel的AI工具原本旨在帮助开发人员快速构建和部署Web应用程序，但现在被网络犯罪分子用来自动化钓鱼网站的创建过程。这种滥用代表了利用AI技术的网络犯罪战术的重大演变。攻击者只需提供简单的提示，AI就可以生成完整的、视觉上令人信服的钓鱼网站，大大降低了网络攻击的技术门槛。更危险的是，这些AI生成的钓鱼网站能够绕过基于签名检测的传统安全方案，因为它们没有固定的恶意代码特征。安全专家警告，组织需要加强用户安全意识培训，并部署基于行为分析和AI对抗的高级反钓鱼解决方案来应对这一新兴威胁。
+
+**谷歌称黑客使用AI开发零日漏洞利用**
+
+谷歌安全研究团队在5月11日披露，威胁行为者正在使用AI技术来开发零日漏洞利用代码、创建Android后门，以及自动化针对GitHub和PyPI的供应链攻击。这一披露进一步证实了AI技术正被网络犯罪分子系统性滥用的趋势。攻击者利用AI工具可以自动化漏洞发现过程，快速生成功能完善的漏洞利用代码，并优化整个攻击流程。特别是对GitHub和PyPI等流行软件存储库的供应链攻击，可能因为AI的介入而变得更加频繁和高效。AI可以帮助攻击者快速识别开源项目中的安全缺陷，自动生成恶意包，并大规模分发。谷歌的报告强调了防御者迫切需要采用AI技术来应对这些新威胁的必要性。安全社区呼吁加快AI安全工具的开发和部署，同时建立AI技术使用的伦理规范和监管框架，防止AI被进一步武器化。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/9Nf1wzzcfwM8W0JJS0K4YyPVeIzZARIdrexjEcyCkAIHxXwLABqmU1Cx4QFcsobGTUJsvibYdLTH34BE9aa90uIh0JunO1P2NUyl7sJNT3fQ/640?wx_fmt=gif&from=appmsg)
+
+**三、漏洞与补丁**
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/9Nf1wzzcfwOcHX7GtOG0o83hSQ014DSsybicwJcS9vsmcaia7Hrd9AUqdrUQVplnB1pibymrlNGICbMyzGm2QAK01Giby6ibxKfaCkEs2KCyyDMM/640?wx_fmt=gif&from=appmsg)
+
+**微软5月补丁星期二修复120个漏洞，包括29个严重RCE缺陷**
+
+微软2026年5月的补丁星期二更新于5月12日发布，此次更新重点面向企业环境，共修复了Windows、Office、Azure、开发工具和Microsoft 365应用程序中的120个安全漏洞。在这120个漏洞中，有29个被微软归类为严重级别，其中大多数属于远程代码执行（RCE）类型，可能允许攻击者在受影响的系统上执行任意代码，而无需任何用户交互或身份验证。此外，此次更新还修复了多个权限提升漏洞、信息泄露漏洞和安全功能绕过漏洞。组织被强烈建议优先应用这些补丁，特别是那些严重级别的RCE漏洞修复，因为它们极有可能被攻击者利用。微软还特别提醒用户注意正在被积极利用的零日漏洞，建议立即应用相关补丁。这次大规模的补丁发布再次提醒企业，建立快速、高效的补丁管理流程至关重要。
+
+**SAP修补SAP S/4HANA中的严重SQL注入漏洞**
+
+SAP在2026年5月12日发布了备受期待的每月安全补丁日更新，解决了整个企业软件套件中的众多严重安全缺陷。其中最严重的问题是在SAP S/4HANA（SAP的下一代ERP套件，被全球众多大型企业广泛使用）中发现的一个SQL注入漏洞。成功利用此漏洞可能允许攻击者操纵数据库查询并无授权访问敏感的企业数据，包括财务报表、客户信息、供应商数据等核心业务信息。在某些情况下，攻击者甚至可能对数据库执行修改或删除操作，造成不可逆的业务损失。SAP已发布补丁，并强烈建议客户立即应用更新。安全专家建议，除了及时应用补丁外，企业还应加强对数据库访问的监控，实施最小权限原则，并定期进行安全审计。此次事件也提醒企业，ERP系统作为核心业务系统，其安全性不容忽视。
+
+**Fortinet修补多个产品中的严重漏洞**
+
+Fortinet在2026年5月12日发布了多个安全公告，解决了其产品线中的多个严重安全漏洞。受影响的产品包括FortiAP（无线接入点）、FortiOS（网络操作系统）、FortiSandbox（沙箱安全分析平台）以及多个企业管理平台。其中最严重的是FortiSandbox中的一个关键安全缺陷，该漏洞可能允许未经身份验证的攻击者在沙箱环境中执行任意代码或系统命令。考虑到FortiSandbox是用来在安全隔离环境中分析可疑文件的工具，成功利用此漏洞意味着攻击者可以绕过沙箱检测机制，并在安全工具本身的上下文中执行恶意代码，这是一种极具讽刺意味的攻击场景。此外，FortiAP和FortiOS中的漏洞也可能允许攻击者绕过安全控制或在受影响的网络设备上执行未授权操作。Fortinet已为所有受影响的产品发布了补丁，并建议用户立即应用更新，特别是那些面向互联网的设备。
+
+**Ivanti修补多个产品中的漏洞，AI工具助力安全修复**
+
+Ivanti在2026年5月发布了安全更新，修补了Ivanti Secure Access、Xtraction、vTM和Endpoint Manager这四个产品中的多个安全漏洞。最严重的问题可能允许权限提升或远程代码执行。值得注意的是，Ivanti在声明中透露，AI工具已经在帮助公司识别和安全地处理这些安全问题。AI辅助的安全工具在恶意行为者利用这些缺陷之前就识别并解决了它们，避免了潜在的安全事件。Ivanti表示，他们使用AI来分析代码、识别异常模式、预测可能的攻击路径，从而能够更快速、更准确地发现和修复安全漏洞。此次披露突显了AI在主动网络安全工作中的日益增长的作用，不仅仅是攻击者在使用AI，防御方也在积极采用AI技术来提升安全防护能力。这标志着网络安全领域正在进入一个新的阶段，AI既是挑战也是机遇。
+
+**cPanel CVE-2026-41940正在被积极利用以部署后门**
+
+安全研究人员警告，cPanel和WebHost Manager（WHM）中的一个严重漏洞CVE-2026-41940正在被积极利用来部署名为Filemanager的后门。该漏洞可能导致身份验证绕过，允许远程攻击者获得对控制面板的管理员级别控制。根据奇安信XLab的研究报告，该安全缺陷在上个月底公开披露后，已被多名威胁行为者利用，导致加密货币挖矿、勒索软件部署、僵尸网络传播和后门植入等恶意行为。监控数据显示，目前全球有超过2000个攻击者源IP正在参与针对此漏洞的自动化攻击和网络犯罪活动，这些IP分布在全球多个地区，主要源自德国等地。cPanel已发布补丁修复此漏洞，安全专家强烈建议所有cPanel用户立即应用更新，并检查系统是否已被入侵。
+
+**Zoom Rooms和Workplace漏洞允许攻击者提升权限**
+
+安全研究人员在Zoom的软件生态系统中发现了一系列新的安全漏洞，这些漏洞可能将系统控制权交给本地攻击者。受影响的产品包括Zoom Rooms和Zoom Workplace，它们是组织广泛用于视频会议和协作的平台。成功利用这些漏洞可能允许具有本地系统访问权限的攻击者在受影响的系统上将他们的权限提升到管理员级别。鉴于全球众多组织越来越依赖Zoom进行远程工作和日常通信，这些漏洞尤其令人担忧。攻击者可能利用这些漏洞在企业的Zoom基础设施中建立持久化访问，窃取会议内容，甚至横向移动到网络中的其他系统。Zoom已发布补丁来解决这些问题，并建议用户立即应用更新。安全专家建议组织审查其Zoom配置，限制对Zoom基础设施的物理和网络安全访问，并加强终端安全控制。
+
+**Open WebUI漏洞通过文件上传导致1-click RCE攻击**
+
+安全研究人员发现，Open WebUI（一个流行的Web界面，用于与各种AI模型和工具交互）中存在一个严重且尚未修补的安全漏洞。该漏洞存在于文件上传功能中，可能允许攻击者通过单次点击劫持对AI工作空间的控制，并在服务器上执行远程代码。具体来说，攻击者可以诱使用户上载恶意文件，这些文件在服务器上执行时会导致完全系统入侵。鉴于AI工作空间和数据对组织的日益重要性，此漏洞尤其令人担忧。成功利用可能允许攻击者访问敏感的AI模型、训练数据、用户对话记录等。更危险的是，如果Open WebUI部署在企业环境中，攻击者可能利用它作为跳板，进一步渗透企业内网。目前Open WebUI的开发者尚未发布官方补丁，用户被建议限制对Open WebUI实例的访问，加强文件上传验证，或者使用其他替代方案直到补丁可用。
+
+**Microsoft Teams漏洞允许黑客执行欺骗攻击**
+
+新披露的Microsoft Teams安全漏洞可能允许攻击者执行本地设备欺骗攻击，为企业和依赖该平台的个人用户带来了严重担忧。Microsoft Teams是全球数百万组织使用的协作平台，成功利用此漏洞可能允许恶意行为者伪造身份或设备，可能导致钓鱼攻击或更复杂的社会工程攻击。微软已意识到此问题，安全团队建议管理员审查其Teams配置并应用所有可用补丁。该漏洞特别令人担忧，因为它可能被用来获得对敏感企业环境的初始访问权限。一旦攻击者能够伪造合法用户的身份，他们就可以访问敏感的Teams频道、文件和对话，甚至利用Teams的集成功能进一步渗透企业网络。安全专家建议组织启用条件访问策略、多因素认证，并监控异常的Teams活动。
+
+**9年历史的Dirty Frag漏洞允许Linux系统上的root访问**
+
+安全研究人员披露了一个名为'Dirty Frag'的Linux内核漏洞，该漏洞已经存在9年时间，可能允许本地攻击者获得root级别的权限提升。该漏洞之所以被称为'Dirty Frag'，是因为它与Linux内核的内存碎片处理机制有关，类似于先前的'Dirty Cow'（脏牛）漏洞。成功利用此漏洞可能允许具有本地系统访问权限的攻击者在受影响的Linux系统上获得完全的管理控制权。更危险的是，研究人员已经公开了概念验证（PoC）漏洞利用代码，这大大增加了在野外被积极利用的风险。任何尚未应用补丁的Linux系统都面临紧迫的威胁。Linux系统管理员被强烈建议立即检查其系统是否受此漏洞影响，并应用相应的内核补丁。对于无法立即打补丁的系统，可以考虑实施临时缓解措施，如限制本地用户访问、加强权限控制等。
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/9Nf1wzzcfwMmpeOoj5iaR7e3b7oomymibS6icIJe1NmdkESXh2gicpjkWGib6VzAh1iaUABW7Z2N71MgkzmWnk8aElWDVgbaCAIgkZCEaehibySKgY/640?wx_fmt=gif&from=appmsg)
+
+**四、勒索软件与恶意软件**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/9Nf1wzzcfwPxhTtYA8KM6l5wViaOicf8Rdwa8Cn4MibHnGpibe4uwkJ9icDhQaGxtXticIGibLjb3iaaoNJ7WGCebic4v7iaqaGOZ1NG456f1MWOxypN8/640?wx_fmt=gif&from=appmsg)
+
+**新型TrickMo变种使用TON C2和SOCKS5创建Android网络支点**
+
+荷兰移动安全公司ThreatFabric在2026年1月至2月期间发现并分析了TrickMo Android银行木马的一个新型变种，该变种使用开放网络（TON，The Open Network）进行命令与控制（C2）通信。TrickMo是一种设备接管（DTO）恶意软件，自2019年底以来一直在野外活动。新变种正在积极针对法国、意大利和奥地利的银行和加密货币钱包用户。ThreatFabric的研究报告显示，TrickMo依赖于运行时加载的APK（dex.module），该模块已在先前变种中使用，但更新了新功能，增加了新的网络导向功能，包括网络侦察、SSH隧道和SOCKS5代理功能。这些功能允许受感染的Android设备充当可编程网络支点和流量出口节点，攻击者可以利用这些被入侵的设备来隐藏自己的真实位置，或者进一步攻击网络中的其他设备。这种将移动设备转变为网络基础设施一部分的战术代表了移动恶意软件的一个危险新方向。
+
+**新型隐蔽Vidar Stealer活动绕过EDR并窃取凭证**
+
+安全研究人员发现了一个新的、高度隐蔽的恶意软件活动，该活动分发Vidar Stealer（一种信息窃取恶意软件），专门针对Windows用户，并采用复杂的攻击链设计以绕过端点检测和响应（EDR）解决方案。Vidar专门从受感染系统中提取敏感数据，包括浏览器凭证、加密货币钱包、保存的密码、信用卡信息等。此新活动采用了先进的技术来逃避检测，包括代码混淆、反分析技术和内存驻留执行，使传统的安全工具难以发现和阻止。该恶意软件特别危险，因为它针对存储在企业环境中的敏感信息，可能导致重大的数据泄露事件。一旦凭证被窃取，攻击者可以使用这些凭证进行横向移动、权限提升，甚至实施勒索软件攻击。安全专家建议组织部署行为检测的EDR解决方案，加强对终端的监控，并定期进行安全意识培训。
+
+**黑客劫持Microsoft Teams账户以传递ModeloRAT**
+
+新一轮网络攻击使全球各组织的Microsoft Teams用户处于高度警惕状态。安全研究人员发现，黑客正在劫持合法的Teams账户以传递ModeloRAT，这是一种远程访问特洛伊木马（RAT），允许攻击者在受感染的系统上执行各种恶意活动。该攻击利用Teams内置的信任...
