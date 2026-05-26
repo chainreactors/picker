@@ -1,0 +1,160 @@
+---
+title: 【每周一品】非线性节点探测器
+url: https://mp.weixin.qq.com/s/nv2EO1YMPk7CX5baCbeLRQ
+source: Doonsec's feed
+date: 2026-05-25
+fetch_date: 2026-05-26T06:03:07.847311
+---
+
+# 【每周一品】非线性节点探测器
+
+![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/0EYxtjBD1shqibUz9yMCPyia81ZialiaSz4ibknkLmoaQp49Qn4Bb8jSFE0pb04iasz7u6ibtWMmPsRRticao5Y4PwC0uQ/0?wx_fmt=jpeg)
+
+# 【每周一品】非线性节点探测器
+
+信安集团
+信安集团
+
+信安保密
+
+![]()
+
+在小说阅读器读本章
+
+去阅读
+
+![]()
+
+在小说阅读器中沉浸阅读
+
+**非线性节点探测器**
+
+非线性节点探测器又叫谐波雷达，他是一种发射基波信号，通过接收来自目标物的二次、三次谐波信号，对目标物进行判断、识别和探测的雷达系统。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/0EYxtjBD1shfj5WtQNP2NYdNMrP6kp3hKoYjcqRnyk79iamuY2vVqRZJoR65rVVpMfJDqVetUpbkCprdevugmJw/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/0EYxtjBD1shfj5WtQNP2NYdNMrP6kp3hpUugmDAcVw1ArD5GuYjb9J0hsFcYiaq3yoleHtEUwNykRN5RqFLyfGg/640?wx_fmt=jpeg)
+
+**★ 产 品 介 绍 ★**
+
+普通的电阻是线性元件，电阻R两端的电压U，与流过的电流I，呈线性关系，即R=U/I，R是一个定数。
+
+半导体、二极管等，是一个典型的非线性元件。两端的电压U，与流过的电流I不是一个固定的比值，即电阻两端的电压与流过的电阻的电流不成比例关系时，电阻不是一个常数，随电压、电流变动，是非线性电阻。
+
+一般的电子产品都有半导体、二级管等非线性元件的，使用的都是非线性电阻。非线性节点探测器就是利用电子产品这一特性进行探测的。
+
+**★ 产 品 优 势 ★**
+
+【定位精度高】产品采用2400MHz射频探测技术，具有高精度定位特点；
+
+【半导体识别能力强】内置支持二次三次谐波检测的频谱仪能快速有效的识别含有半导体器件和设备；
+
+【高灵敏度】内置高增益天线，检测距离大，特别对SIM卡类设备具有很高的灵密度，确保秘录、手机类通讯设备可快速被检出；
+
+【误报率低】内置无损探测算法大幅提升检测能力，误报率极低；
+
+【安全可靠】设备特性满足电磁辐射要求，对人体绝对安全；
+
+【操作灵活】支持发射功率自动和手动模式可选，便于人工操作；
+
+【人机交互界面友好】支持OLED可视化图形界面，形象而生动的显示功率发射级别和二三次谐波图形，易操作；
+
+【高性价比】全球最具性价比，节约开支且性能优良。
+
+**★ 适 用 场 景 ★**
+
+**1. 政府保密单位**
+
+国家政府机关如公安、司法、监狱、教育、部队、大型央企、保密单位等对信息安全和泄密防范有非常严格的要求，在重大会议之前保密部门必须对高级别会议室、首长会谈办公室、外宾接待室、保密场所等进行安全检测，防止有窃听、秘拍等违规设备隐藏在不宜发现的地方，最终导致会议信息泄露，导致重大机密信息和技术泄露，给国家和单位造成无法挽回的经济损失。
+
+**2. 大型活动安保检查**
+
+在国家、各地市政府发起组织的大型国际峰会、商业洽谈等大型活动现场，为了保证各国政要、商业领袖及参会人员的人身安全及信息安全，组委会需要委派专业的安检团队提前进行所有场所的安全检查并进行严格封锁，非线性节点探测器被用于检测窃听器、秘拍设备、录音设备、遥控爆炸装置等违规设备，确保活动现场安全。
+
+**3. 商业组织保密检查**
+
+大型商业组织如上市公司、跨国公司、行业协会等为了确保商业机密不外泄，都需要对内部的高级别会议室、董事长办公室及商业谈判场所进行严格的信息安全检查，防止手机、窃听器和其他SIM卡设备藏匿在墙内或者不容易被发现的角落，确保在进行重要会议、重大商业决策、商务谈判等活动中不被窃听、不被偷录，不被监控、保证商业机密信息安全。
+
+**4. 教育行业防作弊检查**
+
+在高考、中考、公务员考试、高校阅卷等场所，非线性节点探测器可以在考场的入口进行防止考试作弊设备通过藏匿在考生耳朵、眼镜或者身体的其他部位带入考场，保证公开选拔的公平和公正性。
+
+**5. 个人住所或者酒店房间隐私保护检查**
+
+为了确保个人隐私安全，在个人住所、酒店房间、商场更衣室、洗手间、娱乐场所等私人空间，非线性探测器可用来对周围环境进行安全检测，确保没有隐藏针孔摄像机、窃听器、录音笔等电子设备，确保个人隐私安全。
+
+更多资讯 请关注我们
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Ljib4So7yuWhsfYaicmUeDN1JaFfZYfI6mibWnwjvbxicZkuwtVokG6BJIZSIv7ERgZYZAaxexcR4Go2q9umalAHdA/640?wx_fmt=png)
+
+关注我们吧
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/0EYxtjBD1siasmCmCWBV8GyH6lM1q50JHAdONJxwc9X3fG0vy9icxsibIdl96ygIicB9AZoJ0fMLmoyPBlIW1S00uQ/640?wx_fmt=jpeg)
+
+预览时标签不可点
+
+![]()
+
+微信扫一扫
+关注该公众号
+
+继续滑动看下一个
+
+轻触阅读原文
+
+![](http://mmbiz.qpic.cn/mmbiz_png/0EYxtjBD1sg3S5XpBuOlwZoZsUyVZZaFNM5IPiasZyqUzj7ReZwmumchqh04uTSdmTsvLAibpiblArADMiaVqiaJZPw/0?wx_fmt=png)
+
+信安保密
+
+向上滑动看下一个
+
+知道了
+
+![]()
+微信扫一扫
+使用小程序
+
+取消
+允许
+
+取消
+允许
+
+取消
+允许
+
+×
+分析
+
+![跳转二维码]()
+
+![作者头像](http://mmbiz.qpic.cn/mmbiz_png/0EYxtjBD1sg3S5XpBuOlwZoZsUyVZZaFNM5IPiasZyqUzj7ReZwmumchqh04uTSdmTsvLAibpiblArADMiaVqiaJZPw/0?wx_fmt=png)
+
+微信扫一扫可打开此内容，
+使用完整服务
+
+：
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
+分享
+留言
+收藏
+听过
