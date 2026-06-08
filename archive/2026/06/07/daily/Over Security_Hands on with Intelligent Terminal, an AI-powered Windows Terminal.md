@@ -1,0 +1,164 @@
+---
+title: Hands on with Intelligent Terminal, an AI-powered Windows Terminal
+url: https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/
+source: Over Security
+date: 2026-06-07
+fetch_date: 2026-06-08T06:33:07.925720
+---
+
+# Hands on with Intelligent Terminal, an AI-powered Windows Terminal
+
+[![BleepingComputer.com logo](https://www.bleepstatic.com/images/site/logo.png)](https://www.bleepingcomputer.com/)
+
+* [News](https://www.bleepingcomputer.com/)
+
+  + [Featured](#nfeatured)
+  + [Latest](#nlatest)
+
+  + [![CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers](data:image/gif;base64...)
+
+    CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers](https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/)
+  + [![Brave Software releases Origin for a paid, bloat-free browsing experience](data:image/gif;base64...)
+
+    Brave Software releases Origin for a paid, bloat-free browsing experience](https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/)
+  + [![Cisco warns of unpatched SD-WAN zero-day exploited in attacks](data:image/gif;base64...)
+
+    Cisco warns of unpatched SD-WAN zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/)
+  + [![Credit card theft campaign abuses Stripe to host stolen payment info](data:image/gif;base64...)
+
+    Credit card theft campaign abuses Stripe to host stolen payment info](https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/)
+
+  + [![Over 20,000 Instagram accounts stolen in Meta AI support hack](data:image/gif;base64...)
+
+    Over 20,000 Instagram accounts stolen in Meta AI support hack](https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/)
+  + [![Hands on with Intelligent Terminal, an AI-powered Windows Terminal](data:image/gif;base64...)
+
+    Hands on with Intelligent Terminal, an AI-powered Windows Terminal](https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/)
+  + [![C0XMO botnet spreads via DD-WRT router flaw, kills rival malware](data:image/gif;base64...)
+
+    C0XMO botnet spreads via DD-WRT router flaw, kills rival malware](https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/)
+  + [![Silent Ransom Group targets law firms with fake IT support calls](data:image/gif;base64...)
+
+    Silent Ransom Group targets law firms with fake IT support calls](https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/)
+* [Tutorials](https://www.bleepingcomputer.com/tutorials/)
+
+  + [Latest](#tlatest)
+  + [Popular](#popular)
+
+  + [![How to access the Dark Web using the Tor Browser](data:image/gif;base64...)
+
+    How to access the Dark Web using the Tor Browser](/tutorials/how-to-access-the-dark-web-using-the-tor-browser/)
+  + [![How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11](data:image/gif;base64...)
+
+    How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11](/tutorials/how-to-enable-kernel-mode-hardware-enforced-stack-protection-in-windows-11/)
+  + [![How to use the Windows Registry Editor](data:image/gif;base64...)
+
+    How to use the Windows Registry Editor](/tutorials/how-to-use-the-windows-registry-editor/)
+  + [![How to backup and restore the Windows Registry](data:image/gif;base64...)
+
+    How to backup and restore the Windows Registry](/tutorials/how-to-backup-and-restore-the-windows-registry/)
+
+  + [![How to start Windows in Safe Mode](data:image/gif;base64...)
+
+    How to start Windows in Safe Mode](/tutorials/how-to-start-windows-in-safe-mode/)
+  + [![How to remove a Trojan, Virus, Worm, or other Malware](data:image/gif;base64...)
+
+    How to remove a Trojan, Virus, Worm, or other Malware](/tutorials/how-to-remove-a-trojan-virus-worm-or-malware/)
+  + [![How to show hidden files in Windows 7](data:image/gif;base64...)
+
+    How to show hidden files in Windows 7](/tutorials/show-hidden-files-in-windows-7/)
+  + [![How to see hidden files in Windows](data:image/gif;base64...)
+
+    How to see hidden files in Windows](/tutorials/how-to-see-hidden-files-in-windows/)
+* [Webinars](https://www.bleepingcomputer.com/webinars/)
+* [Downloads](https://www.bleepingcomputer.com/download/)
+
+  + [Latest](#dlatest)
+  + [Most Downloaded](#most)
+
+  + [![Qualys BrowserCheck](data:image/gif;base64...)
+
+    Qualys BrowserCheck](https://www.bleepingcomputer.com/download/qualys-browsercheck/)
+  + [![STOPDecrypter](data:image/gif;base64...)
+
+    STOPDecrypter](https://www.bleepingcomputer.com/download/stopdecrypter/)
+  + [![AuroraDecrypter](data:image/gif;base64...)
+
+    AuroraDecrypter](https://www.bleepingcomputer.com/download/auroradecrypter/)
+  + [![FilesLockerDecrypter](data:image/gif;base64...)
+
+    FilesLockerDecrypter](https://www.bleepingcomputer.com/download/fileslockerdecrypter/)
+
+  + [![AdwCleaner](data:image/gif;base64...)
+
+    AdwCleaner](/download/adwcleaner/)
+  + [![ComboFix](data:image/gif;base64...)
+
+    ComboFix](/download/combofix/)
+  + [![RKill](data:image/gif;base64...)
+
+    RKill](/download/rkill/)
+  + [![Junkware Removal Tool](data:image/gif;base64...)
+
+    Junkware Removal Tool](/download/junkware-removal-tool/)
+* [Deals](https://deals.bleepingcomputer.com/)
+
+  + [Categories](#dcategories)
+
+  + [![eLearning](data:image/gif;base64...)
+
+    eLearning](https://deals.bleepingcomputer.com/deals/elearning?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+  + [![IT Certification Courses](data:image/gif;base64...)
+
+    IT Certification Courses](https://deals.bleepingcomputer.com/deals/certifications?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+  + [![Gear & Gadgets](data:image/gif;base64...)
+
+    Gear + Gadgets](https://deals.bleepingcomputer.com/deals/gear-gadgets?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+  + [![Security](data:image/gif;base64...)
+
+    Security](https://deals.bleepingcomputer.com/collections/tag-cyber-security?utm_source=bleepingcomputer.com&utm_medium=dd_cat)
+* [VPNs](https://www.bleepingcomputer.com/vpn/)
+
+  + [Popular](#vpopular)
+
+  + [![Best VPNs](data:image/gif;base64...)
+
+    Best VPNs](https://www.bleepingcomputer.com/vpn/guides/best-vpn/)
+  + [![How to change IP address](data:image/gif;base64...)
+
+    How to change IP address](https://www.bleepingcomputer.com/vpn/guides/change-ip-address/)
+  + [![Access the dark web safely](data:image/gif;base64...)
+
+    Access the dark web safely](https://www.bleepingcomputer.com/vpn/guides/access-dark-web-safely/)
+  + [![Best VPN for YouTube](data:image/gif;base64...)
+
+    Best VPN for YouTube](https://www.bleepingcomputer.com/vpn/guides/watch-youtube-tv-abroad-vpn/)
+* [Forums](https://www.bleepingcomputer.com/forums/)
+* More
+  + [Virus Removal Guides](https://www.bleepingcomputer.com/virus-removal/)
+  + [Startup Database](https://www.bleepingcomputer.com/startups/)
+  + [Uninstall Database](https://www.bleepingcomputer.com/uninstall/)
+  + [Glossary](https://www.bleepingcomputer.com/glossary/)
+  + [Send us a Tip!](https://www.bleepingcomputer.com/news-tip/)
+  + [Welcome Guide](https://www.bleepingcomputer.com/welcome-guide/)
+
+[![ThreatLocker](https://www.bleepstatic.com/c/t/stop-ai-attacks-970.jpg)](https://www.threatlocker.com/ai-cant-stop-ai?utm_source=bleeping_computer&utm_medium=sponsor&utm_campaign=ai-cant-stop-ai_5-26&utm_content=ai-cant-stop-ai-970x250&utm_term=display)
+
+* [Home](https://www.bleepingcomputer.com/)
+* [News](https://www.bleepingcomputer.com/news/)
+* [Microsoft](https://www.bleepingcomputer.com/news/microsoft/)
+* Hands on with Intelligent Terminal, an AI-powered Windows Terminal
+
+# Hands on with Intelligent Terminal, an AI-powered Windows Terminal
+
+By
+
+###### [Mayank Parmar](https://www.bleepingcomputer.com/author/mayank-parmar/)
+
+* June 7, 2026
+* 07:20 PM
+* [0](#comment_form)
+
+![Intelligent Terminal](https://www.bleepstatic.com/content/hl-images/2022/09/13/Windows_Terminal.jpg)
+
+Microsoft has created an open-source fork of Windows Terminal called "Inte...
