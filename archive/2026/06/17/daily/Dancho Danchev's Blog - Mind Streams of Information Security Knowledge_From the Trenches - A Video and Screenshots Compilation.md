@@ -1,0 +1,51 @@
+---
+title: From the Trenches - A Video and Screenshots Compilation
+url: https://ddanchev.blogspot.com/2026/06/from-trenches-video-and-screenshots.html
+source: Dancho Danchev's Blog - Mind Streams of Information Security Knowledge
+date: 2026-06-17
+fetch_date: 2026-06-18T06:50:10.542906
+---
+
+# From the Trenches - A Video and Screenshots Compilation
+
+# [Dancho Danchev's Blog - Mind Streams of Information Security Knowledge](https://ddanchev.blogspot.com/)
+
+In the overwhelming sea of information, access to timely, insightful and independent open-source intelligence (OSINT) analyses is crucial for maintaining the necessary situational awareness to stay on the top of emerging security threats. This blog covers trends and fads, tactics and strategies, intersecting with third-party research, speculations and real-time CYBERINT assessments, all packed with sarcastic attitude
+
+## Wednesday, June 17, 2026
+
+### From the Trenches - A Video and Screenshots Compilation
+
+An image is worth a thousand words.
+
+**Sample videos:**
+
+**Sample screenshots:**
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRQK8Q0nxh3sUE0R88iZBrLJItDXp8LIMO-rrcerrduwuzFeAVFQR9i3_Hx6O5xDuNF8nvDNP5hmhvTUTA4fe6UvHqCu0m_yrQ6Dtb8zjZXHHhGxWTa75XseicnDVKUw-jzG39tasqQ41nSW9RJFyVsV-Frs-SRE8lyMd6dQ1kHqivmRKTFWa3/s320/1aixvmJ.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRQK8Q0nxh3sUE0R88iZBrLJItDXp8LIMO-rrcerrduwuzFeAVFQR9i3_Hx6O5xDuNF8nvDNP5hmhvTUTA4fe6UvHqCu0m_yrQ6Dtb8zjZXHHhGxWTa75XseicnDVKUw-jzG39tasqQ41nSW9RJFyVsV-Frs-SRE8lyMd6dQ1kHqivmRKTFWa3/s1358/1aixvmJ.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRb4iZzGTKtASUiab_5Ojs-X3-czxG6UsfEKIA83kumuQEN2BcOVB5hm64rHRcpXEw9tcExLeBbUW2rFSX_B04mey3TdD-Oq0D_YFiIoPQtd_g0OIgoN_GLqJ18oLk_G3kMEbD03Gr-BVMx9lt-3m7126vPEA7e5mEhmuJnir7wZV1uBocv9h6/s320/3iwTVIr.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRb4iZzGTKtASUiab_5Ojs-X3-czxG6UsfEKIA83kumuQEN2BcOVB5hm64rHRcpXEw9tcExLeBbUW2rFSX_B04mey3TdD-Oq0D_YFiIoPQtd_g0OIgoN_GLqJ18oLk_G3kMEbD03Gr-BVMx9lt-3m7126vPEA7e5mEhmuJnir7wZV1uBocv9h6/s959/3iwTVIr.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAuQ3sp_L3AvYjS0abTJCs9Su6eSyqalSypesWAhYp0MtwVjy5e2tN2SJFvVDg8UP4GFMQoboy4TbwXA7CH6qWAJpRYS7bYAYgTpt78Y2FTNqpIHKBrK8FDIMbi7NraAPrFDQSvuhn446Ql4VTiATkpBbqEXxLO_d7PTiF_ot62Q9rc8YMj2hI/s320/7UPehkh.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAuQ3sp_L3AvYjS0abTJCs9Su6eSyqalSypesWAhYp0MtwVjy5e2tN2SJFvVDg8UP4GFMQoboy4TbwXA7CH6qWAJpRYS7bYAYgTpt78Y2FTNqpIHKBrK8FDIMbi7NraAPrFDQSvuhn446Ql4VTiATkpBbqEXxLO_d7PTiF_ot62Q9rc8YMj2hI/s1358/7UPehkh.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSJ4re0O4uns3ctHwoV2i4jxmrm4LvFJu_PHSlHg0bfSZeXe9sQxMVP0JJjMQ-qgtlunQrjQQFBKWD5ry13jArU0UjYE9OlU974NFpibbYxbqbM4ouScpSOghhuopJ1IPaI5wvECHUIbew9CCNAdz_Rw-7RvuvGU6U7CNJlKlB5Z1z55640q7q/s320/DNjTvOm.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSJ4re0O4uns3ctHwoV2i4jxmrm4LvFJu_PHSlHg0bfSZeXe9sQxMVP0JJjMQ-qgtlunQrjQQFBKWD5ry13jArU0UjYE9OlU974NFpibbYxbqbM4ouScpSOghhuopJ1IPaI5wvECHUIbew9CCNAdz_Rw-7RvuvGU6U7CNJlKlB5Z1z55640q7q/s1358/DNjTvOm.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbd_mm2MAFBs-525atT6-MYQWKBDf4WiwhEAJlBQCiwF2E181D-l05QsM9FHh0wEgqYonHqA3WNmh5BMC8hZtBBwyAvu9bNIqnazltMXQxvo8XkYzgUfMzlbSEZzHAm3KLVEHmsA9yWKOmUSVvMSqG1BMX9LKLMGT29Kvz9y8i4QuWZELClvpD/s320/I76VwK7.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbd_mm2MAFBs-525atT6-MYQWKBDf4WiwhEAJlBQCiwF2E181D-l05QsM9FHh0wEgqYonHqA3WNmh5BMC8hZtBBwyAvu9bNIqnazltMXQxvo8XkYzgUfMzlbSEZzHAm3KLVEHmsA9yWKOmUSVvMSqG1BMX9LKLMGT29Kvz9y8i4QuWZELClvpD/s934/I76VwK7.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxxeCPWOhbyFfpl1V96dd4Swc6AzebfLGlPUvNwwtxRh0_ADDCVIo5vW9VEoizrX9cOuaZaCTa1rU2BmLrUuXCXg2IQdzQfAWfkET7OMgP-NmJGSDBSdKC1jFXvhs-oGIBmYoAoITWVIXAaggrkCUumJ63ff6Y3NzQAvwt8iA8nRUo87_fyeaS/s320/Ji7iOnM.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxxeCPWOhbyFfpl1V96dd4Swc6AzebfLGlPUvNwwtxRh0_ADDCVIo5vW9VEoizrX9cOuaZaCTa1rU2BmLrUuXCXg2IQdzQfAWfkET7OMgP-NmJGSDBSdKC1jFXvhs-oGIBmYoAoITWVIXAaggrkCUumJ63ff6Y3NzQAvwt8iA8nRUo87_fyeaS/s961/Ji7iOnM.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5eKumHfmFTgeJNUKkDiKDaaD51QMrCr8e6x0dPyCZ4DKmXA874urC7jS_oXl7s47p6A2QhHdre7Drk60wPEEIhy7uXP5AAaM8kEryEPK5EHZFwwrw7v-l0iSteEGNZvFIbelPHqhvGb_PraQjgUz5qBzEltE_BQr_BMsuO1Jlzb4OfeKA9FE-/s320/lxCyMFt.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5eKumHfmFTgeJNUKkDiKDaaD51QMrCr8e6x0dPyCZ4DKmXA874urC7jS_oXl7s47p6A2QhHdre7Drk60wPEEIhy7uXP5AAaM8kEryEPK5EHZFwwrw7v-l0iSteEGNZvFIbelPHqhvGb_PraQjgUz5qBzEltE_BQr_BMsuO1Jlzb4OfeKA9FE-/s1358/lxCyMFt.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEJZDyRfd3i-c3r334V7d1MV_j2RPkf9dpwBGnQkaImJrF3mZKQUyHH0H-x6BRHw1XQeRZbzaR8XCVT38GeTbdXNy-vArlJNyDKZZ2lfS8sci4-2dNT0THkpVu0HMZyfXhICJrLJahwQVaWByVtM1Bo_xmA7SuOb7fdVSdYLvU1OaVCPdn7jPs/s320/Mu7CVXB.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEJZDyRfd3i-c3r334V7d1MV_j2RPkf9dpwBGnQkaImJrF3mZKQUyHH0H-x6BRHw1XQeRZbzaR8XCVT38GeTbdXNy-vArlJNyDKZZ2lfS8sci4-2dNT0THkpVu0HMZyfXhICJrLJahwQVaWByVtM1Bo_xmA7SuOb7fdVSdYLvU1OaVCPdn7jPs/s1358/Mu7CVXB.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKhlAFL1QGPEo2EQ0oWfR3wN9kKY9y6EFNFHL6-eZy2Bc9nGAnbykBC8ypMCndJE_1mde9s-TWB_giaGXZhiHPGXf0Jf1tfD_G4OdSwT9Y0lGP35DnW2TTN199nevEj1TRLoLGiheqwMx08bv0s0-gxaO8oG0uL_BiKPw126F1Umb6QK__iw0z/s320/nPoWvme.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKhlAFL1QGPEo2EQ0oWfR3wN9kKY9y6EFNFHL6-eZy2Bc9nGAnbykBC8ypMCndJE_1mde9s-TWB_giaGXZhiHPGXf0Jf1tfD_G4OdSwT9Y0lGP35DnW2TTN199nevEj1TRLoLGiheqwMx08bv0s0-gxaO8oG0uL_BiKPw126F1Umb6QK__iw0z/s961/nPoWvme.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCqj6iESr9_Utu89YdBS16AgD5a2kmaaO-iUzRaZyGwyoaUSGGRXKwdnbV8cMYWUyAv8GexaSVhR7WI6PIc5zU6wG8zPuegbDi7n0hwhbruk72znMY5aXGih70_SNu2GUoLZ-ESHQBMjX4213jjUKDdZaco6IWpSk7ECcP6ifmYEyGm0AvEe5E/s320/QPiJNLg.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCqj6iESr9_Utu89YdBS16AgD5a2kmaaO-iUzRaZyGwyoaUSGGRXKwdnbV8cMYWUyAv8GexaSVhR7WI6PIc5zU6wG8zPuegbDi7n0hwhbruk72znMY5aXGih70_SNu2GUoLZ-ESHQBMjX4213jjUKDdZaco6IWpSk7ECcP6ifmYEyGm0AvEe5E/s958/QPiJNLg.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGc6XpIy7iW2S7NhlMY9R_gW5TdNH4xaTi3F_cxLouBapM8L5O5IjcAF1HF_i9kfV1JqjDAMfFLbmedGOClGjj66chDzDAMTko54ksa4u9y_bYIMHLEFJfYkzT7qJhuFMjKLK3k-_IHDR637ClomxjM2XnJRziorNJR5s8f24eWZiqlglnqRPZ/s320/VAsD3tP.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGc6XpIy7iW2S7NhlMY9R_gW5TdNH4xaTi3F_cxLouBapM8L5O5IjcAF1HF_i9kfV1JqjDAMfFLbmedGOClGjj66chDzDAMTko54ksa4u9y_bYIMHLEFJfYkzT7qJhuFMjKLK3k-_IHDR637ClomxjM2XnJRziorNJR5s8f24eWZiqlglnqRPZ/s1358/VAsD3tP.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXfwkhRbPex-bZGVtEze_sYSoiBYYcwOByeQCY8_mVf3bmHSFc-9BZc5qebZYn23iTFeCPlC9qeiYXuk6233g9qtU3AyNBlauNenqvGx1okeH706UyUl6h4C67yXnwwiXXUsGFFp_yjgvlxhpGIFLe5pcm962NsaGC30scQjod2r3SMpwHk2s4/s320/x2BESpt.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXfwkhRbPex-bZGVtEze_sYSoiBYYcwOByeQCY8_mVf3bmHSFc-9BZc5qebZYn23iTFeCPlC9qeiYXuk6233g9qtU3AyNBlauNenqvGx1okeH706UyUl6h4C67yXnwwiXXUsGFFp_yjgvlxhpGIFLe5pcm962NsaGC30scQjod2r3SMpwHk2s4/s960/x2BESpt.jpeg)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_6SgjJMJSB0O3-OqHfg5HeVVSQSI1PhYtpJr4A8FUJz5pmhyFAWKnLcCDztaYgvU2w0yx13GjTJVdGRp9drNvJloER4pLnqrj4FOE0i_z16jYLISYsZwLHvn2-ze5qzHiDon7ZZ4e-vevdwt1ichuKOKh8wE4j83D-TtudxWXkmXKhYzS4i_q/s320/panel.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_6SgjJMJSB0O3-OqHfg5HeVVSQSI1PhYtpJr4A8FUJz5pmhyFAWKnLcCDztaYgvU2w0yx13GjTJVdGRp9drNvJloER4pLnqrj4FOE0i_z16jYLISYsZwLHvn2-ze5qzHiDon7ZZ4e-vevdwt1ichuKOKh8wE4j83D-TtudxWXkmXKhYzS4i_q/s1280/panel.png)
+
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZa2iwPlk6pNi1XsmselIP0x-SyGRAYG7tByYJ5CT9MBcL_Ys5IfJFZ_Tc8nZzyjCFXbi8WhYu8SuaOIVe8mLyzzuFNlYcthdyzB0l6LHAmuiOGcq3V2-8iVC7mAtvVWQqC1hMrLTKarBcHI-GQp-6XkNu2pCynVilmCaHZ-cu4cgd3x0z1os1/s320/panel-3.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZa2iwPlk6pNi1XsmselIP0x-SyGRAYG7tByYJ5CT9MBcL_Ys5IfJFZ_Tc8nZzyjCFXbi8WhYu8SuaOIVe8mLyzzuFNlYcthdyzB0l6LHAm...
