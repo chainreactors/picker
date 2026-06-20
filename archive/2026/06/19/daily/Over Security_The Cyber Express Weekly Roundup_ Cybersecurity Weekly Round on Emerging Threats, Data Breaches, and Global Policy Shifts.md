@@ -1,0 +1,90 @@
+---
+title: The Cyber Express Weekly Roundup: Cybersecurity Weekly Round on Emerging Threats, Data Breaches, and Global Policy Shifts
+url: https://thecyberexpress.com/tce-weekly-roundup-global-threats/
+source: Over Security
+date: 2026-06-19
+fetch_date: 2026-06-20T06:14:22.735736
+---
+
+# The Cyber Express Weekly Roundup: Cybersecurity Weekly Round on Emerging Threats, Data Breaches, and Global Policy Shifts
+
+* [About Us](https://thecyberexpress.com/about-us/)
+* [Contact Us](https://thecyberexpress.com/contact-us/)
+* [Editorial Calendar](https://thecyberexpress.com/editorial-calendar-2024/)
+* [Careers](https://thecyberexpress.com/careers/)
+* [The Cyber Express by Cyble Vulnerability Disclosure Policy](https://thecyberexpress.com/the-cyber-express-by-cyble-vulnerability-disclosure-policy/)
+* [Cyble Trust Portal](https://trust.cyble.com/)
+
+[![The Cyber Express](data:image/svg+xml...)![The Cyber Express](https://thecyberexpress.com/wp-content/uploads/CyberExpress-logo-01-black-250x100-1.png)](https://thecyberexpress.com/)
+
+* [MagazineDownload](https://thecyberexpress.com/cybersecurity-magazine/ "Cybersecurity Magazine")
+* [Firewall Daily](https://thecyberexpress.com/firewall-daily/)
+
+  + [All](https://thecyberexpress.com/firewall-daily/)
+  + [Bug Bounty & Rewards](https://thecyberexpress.com/firewall-daily/bug-bounty-rewards/)
+  + [Dark Web News](https://thecyberexpress.com/firewall-daily/dark-web-news/)
+  + [Data Breach News](https://thecyberexpress.com/firewall-daily/data-breaches-news/)
+  + [Hacker News](https://thecyberexpress.com/firewall-daily/hacker-news/)
+  + [Ransomware News](https://thecyberexpress.com/firewall-daily/ransomware-news/)
+  + [Vulnerabilities](https://thecyberexpress.com/firewall-daily/vulnerabilities/)
+
+  [![weekly roundup TCE](data:image/svg+xml... "The Cyber Express Weekly Roundup: Cybersecurity Weekly Round on Emerging Threats, Data Breaches, and Global Policy Shifts 1")![weekly roundup TCE](https://thecyberexpress.com/wp-content/uploads/weekly-roundup-TCE.webp "The Cyber Express Weekly Roundup: Cybersecurity Weekly Round on Emerging Threats, Data Breaches, and Global Policy Shifts 1")](https://thecyberexpress.com/tce-weekly-roundup-global-threats/)
+
+  ### [The Cyber Express Weekly Roundup: Cybersecurity Weekly Round on Emerging Threats, Data Breaches, and Global Policy Shifts](https://thecyberexpress.com/tce-weekly-roundup-global-threats/)
+
+  [![CVE-2026-48907](data:image/svg+xml... "CVE-2026-48907 and LiteSpeed cPanel Plugin Flaws Come Under Active Attack 2")![CVE-2026-48907](https://thecyberexpress.com/wp-content/uploads/CVE-2026-48907.webp "CVE-2026-48907 and LiteSpeed cPanel Plugin Flaws Come Under Active Attack 2")](https://thecyberexpress.com/cve-2026-48907-joomla-jce-litespeed-cpanel/)
+
+  ### [CVE-2026-48907 and LiteSpeed cPanel Plugin Flaws Come Under Active Attack](https://thecyberexpress.com/cve-2026-48907-joomla-jce-litespeed-cpanel/)
+
+  [![SocGholish Malware](data:image/svg+xml... "Operation Endgame Hits SocGholish Malware Network, 14,971 Websites Cleaned 3")![SocGholish Malware](https://thecyberexpress.com/wp-content/uploads/SocGholish-Malware.webp "Operation Endgame Hits SocGholish Malware Network, 14,971 Websites Cleaned 3")](https://thecyberexpress.com/socgholish-malware-hit-in-operation-endgame/)
+
+  ### [Operation Endgame Hits SocGholish Malware Network, 14,971 Websites Cleaned](https://thecyberexpress.com/socgholish-malware-hit-in-operation-endgame/)
+
+  [![iPhone BootROM vulnerability](data:image/svg+xml... "New iPhone BootROM Flaw Enables Hardware-Level Compromise 4")![iPhone BootROM vulnerability](https://thecyberexpress.com/wp-content/uploads/iPhone-BootROM-vulnerability.webp "New iPhone BootROM Flaw Enables Hardware-Level Compromise 4")](https://thecyberexpress.com/iphone-bootrom-vulnerability/)
+
+  ### [New iPhone BootROM Flaw Enables Hardware-Level Compromise](https://thecyberexpress.com/iphone-bootrom-vulnerability/)
+
+  [![TinyPulse cyberattack](data:image/svg+xml... "Nintendo Confirms Employee Data Exposed in TinyPulse Cyberattack 5")![TinyPulse cyberattack](https://thecyberexpress.com/wp-content/uploads/TinyPulse-cyberattack.webp "Nintendo Confirms Employee Data Exposed in TinyPulse Cyberattack 5")](https://thecyberexpress.com/tinypulse-cyberattack-nintendo/)
+
+  ### [Nintendo Confirms Employee Data Exposed in TinyPulse Cyberattack](https://thecyberexpress.com/tinypulse-cyberattack-nintendo/)
+
+  [![FBI Warns of Malicious Traffic](data:image/svg+xml... "FBI Warns of a Hidden Web Tactic Fueling Phishing and Ransomware 6")![FBI Warns of Malicious Traffic](https://thecyberexpress.com/wp-content/uploads/FBI-Warns-of-Malicious-Traffic.webp "FBI Warns of a Hidden Web Tactic Fueling Phishing and Ransomware 6")](https://thecyberexpress.com/fbi-warns-of-malicious-traffic/)
+
+  ### [FBI Warns of a Hidden Web Tactic Fueling Phishing and Ransomware](https://thecyberexpress.com/fbi-warns-of-malicious-traffic/)
+
+  [![Ukraine Joins EU Cybersecurity Reserve](data:image/svg+xml... "What Ukraine's Entry Into the EU Cybersecurity Reserve Means 7")![Ukraine Joins EU Cybersecurity Reserve](https://thecyberexpress.com/wp-content/uploads/Ukraine-Joins-EU-Cybersecurity-Reserve.webp "What Ukraine's Entry Into the EU Cybersecurity Reserve Means 7")](https://thecyberexpress.com/ukraine-joins-eu-cybersecurity-reserve/)
+
+  ### [What Ukraine’s Entry Into the EU Cybersecurity Reserve Means](https://thecyberexpress.com/ukraine-joins-eu-cybersecurity-reserve/)
+
+  [![CVE-2026-50656](data:image/svg+xml... "Windows Defender Vulnerability Exposed as RoguePlanet PoC Spreads Online 8")![CVE-2026-50656](https://thecyberexpress.com/wp-content/uploads/CVE-2026-50656.webp "Windows Defender Vulnerability Exposed as RoguePlanet PoC Spreads Online 8")](https://thecyberexpress.com/cve-2026-50656-rogueplanet-windows-defender/)
+
+  ### [Windows Defender Vulnerability Exposed as RoguePlanet PoC Spreads Online](https://thecyberexpress.com/cve-2026-50656-rogueplanet-windows-defender/)
+
+  [![Novo Nordisk IT Security Incident](data:image/svg+xml... "Novo Nordisk IT Security Incident Exposes Limited Patient and HCP Data 9")![Novo Nordisk IT Security Incident](https://thecyberexpress.com/wp-content/uploads/Novo-Nordisk-IT-Security-Incident.webp "Novo Nordisk IT Security Incident Exposes Limited Patient and HCP Data 9")](https://thecyberexpress.com/novo-nordisk-it-security-incident/)
+
+  ### [Novo Nordisk IT Security Incident Exposes Limited Patient and HCP Data](https://thecyberexpress.com/novo-nordisk-it-security-incident/)
+
+  ### Trending Tags
+
+  + [blackbyte ransomware](https://thecyberexpress.com/tag/blackbyte-ransomware/)
+  + [Ransomware](https://thecyberexpress.com/tag/ransomware/)
+  + [lapsus$ ransomware](https://thecyberexpress.com/tag/lapsus-ransomware/)
+  + [Apple](https://thecyberexpress.com/tag/apple/)
+  + [Apple vulnerability](https://thecyberexpress.com/tag/apple-vulnerability/)
+* [Essentials](https://thecyberexpress.com/cyber-essentials/)
+
+  + [All](https://thecyberexpress.com/cyber-essentials/)
+  + [Compliance](https://thecyberexpress.com/cyber-essentials/compliance/)
+  + [Governance](https://thecyberexpress.com/cyber-essentials/governance/)
+  + [Policy Updates](https://thecyberexpress.com/cyber-essentials/policy-updates/)
+  + [Regulations](https://thecyberexpress.com/cyber-essentials/regulations/)
+
+  [![FBI Warns of Malicious Traffic](https://thecyberexpress.com/wp-content/uploads/FBI-Warns-of-Malicious-Traffic-360x180.webp?crop=1 "FBI Warns of a Hidden Web Tactic Fueling Phishing and Ransomware 10")](https://thecyberexpress.com/fbi-warns-of-malicious-traffic/)
+
+  ### [FBI Warns of a Hidden Web Tactic Fueling Phishing and Ransomware](https://thecyberexpress.com/fbi-warns-of-malicious-traffic/)
+
+  [![Ukraine Joins EU Cybersecurity Reserve](https://thecyberexpress.com/wp-content/uploads/Ukraine-Joins-EU-Cybersecurity-Reserve-360x180.webp?crop=1 "What Ukraine's Entry Into the EU Cybersecurity Reserve Means 11")](https://thecyberexpress.com/ukraine-joins-eu-cybersecurity-reserve/)
+
+  ### [What Ukraine’s Entry Into the EU Cybersecurity Reserve Means](https://thecyberexpress.com/ukraine-joins-eu-cybersecurity-reserve/)
+
+  [![UK social media ban](https://thecyberexpress.com/wp-content/uploads/UK-social-media-ban-360x180.webp?crop=1 "UK Social Media Ban for Under-16s Could Take Effect by Spring 2027 12")](https://thecyberexpress.com/uk-social-media-ban-s...
