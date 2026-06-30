@@ -1,0 +1,225 @@
+---
+title: Reconnaissance for exposure management: why context matters in the AI era
+url: https://www.intigriti.com/blog/business-insights/reconnaissance-for-exposure-management-why-context-matters-in-the-ai-era
+source: Intigriti
+date: 2026-06-29
+fetch_date: 2026-06-30T06:08:46.940420
+---
+
+# Reconnaissance for exposure management: why context matters in the AI era
+
+[![Intigriti](https://www.datocms-assets.com/85623/1758954808-intigriti-logo-black.svg)
+![Intigriti](https://www.datocms-assets.com/85623/1775786140-intigriti-icon.svg)](https://www.intigriti.com/)
+
+[Companies](https://www.intigriti.com/)
+
+AI Security & Safety
+
+Product types
+
+Platform
+
+Industries
+
+Resources
+
+Pricing plans
+
+About us
+
+### AI Security & Safety
+
+For teams that need continuous testing of AI systems, features or workflows.
+
+[![AI handshake](https://www.datocms-assets.com/85623/1780058325-handshake.png)
+
+#### For teams using AI to build faster
+
+Turn higher volume into validated findings through managed triage, clear scope design, and human-in-the-loop review.](https://www.intigriti.com/ai-security-and-safety)
+[![Stijn Jans and the future of AI](https://www.datocms-assets.com/85623/1778855980-intigriti-blog-business-insights-featured-ceo-2.png)
+
+#### For teams building AI into products
+
+Test both the security of the AI system and the safety of its behavior.](https://www.intigriti.com/ai-security-and-safety#Aj13PDURRVSMLNjAesyS4w)
+
+### Product types
+
+Bug bounty platform with additional testing options to meet your needs
+
+[Core offering
+
+![Bug bounty](https://www.datocms-assets.com/85623/1759023702-bug-bounty.png)
+
+#### Bug bounty
+
+Host your bug bounty program on our secure platform](https://www.intigriti.com/product/bug-bounty)
+[![Pentest as a Service](https://www.datocms-assets.com/85623/1758791693-ptaas.png)
+
+#### PTaaS
+
+Cost efficient and scalable penetration testing](https://www.intigriti.com/product/pentest-as-a-service)
+[![Intigriti VDP](https://www.datocms-assets.com/85623/1759023932-intigriti-vdp.png)
+
+#### Managed VDP
+
+Managed Vulnerability Disclosure Program](https://www.intigriti.com/product/intigriti-vdp)
+[![Live hacking events](https://www.datocms-assets.com/85623/1759023964-live-hacking-events.png)
+
+#### Live hacking events
+
+Find bugs in a focused setting with top researchers](https://www.intigriti.com/product/live-hacking-events)
+
+### Platform
+
+Discover the Intigriti platform
+
+[![Platform](https://www.datocms-assets.com/85623/1759056702-platform.png)
+
+#### Platform tour
+
+Take a platform tour today to learn more](https://www.intigriti.com/product)
+[![Integrations](https://www.datocms-assets.com/85623/1759056805-integrations.png)
+
+#### Integrations
+
+Boost productivity by integrating Intigriti with leading tools](https://www.intigriti.com/product#integrations)
+[![Trust center](https://www.datocms-assets.com/85623/1759056886-trust-center.png)
+
+#### Trust center
+
+See our security and compliance credentials: SOC 2, ISO 27001, and more](https://trust.intigriti.com)
+
+### For customers
+
+More handy resources
+
+[![Platform tours](https://www.datocms-assets.com/85623/1759057012-map.svg)
+
+#### Additional demos
+
+Experience other parts of Intigriti’s platform in action](https://www.intigriti.com/tours)
+[![Knowledge base](https://www.datocms-assets.com/85623/1759057033-brain-circuit.svg)
+
+#### Knowledge base
+
+Explore insights on program management, best practices, and so much more](https://kb.intigriti.com/en/collections/2918921-organisations)
+[![Uptime and status](https://www.datocms-assets.com/85623/1759057302-sensor-alert.svg)
+
+#### Uptime and status
+
+Stay informed with real-time updates on our uptime and status, ensuring seamless operations and minimal disruptions](https://status.intigriti.com)
+[![Changelog](https://www.datocms-assets.com/85623/1759057363-square-list.svg)
+
+#### Changelog
+
+Explore the platform's latest features and updates](https://www.intigriti.com/changelog)
+
+### Industries we serve
+
+Specialist researchers for every industry
+
+[![Retail](https://www.datocms-assets.com/85623/1759385333-shop.svg)
+
+#### Retail
+
+Prevent service interruptions and safeguard complex](https://www.intigriti.com/solutions/retail)
+[![Gaming and eSports](https://www.datocms-assets.com/85623/1759385333-gamepad-alt.svg)
+
+#### Gaming and eSports
+
+Prevent service interruptions and safeguard complex environments and digital assets](https://www.intigriti.com/solutions/gaming-and-esports)
+[![Finance and Insurance](https://www.datocms-assets.com/85623/1759385333-coins.svg)
+
+#### Finance and Insurance
+
+Protect sensitive data and thwart identity theft before it happens](https://www.intigriti.com/solutions/finance)
+[![Leisure and Hospitality](https://www.datocms-assets.com/85623/1759385392-suitcase.svg)
+
+#### Leisure and Hospitality
+
+Keep your digital systems for guest data, reservations and payment processing safe](https://www.intigriti.com/solutions/travel-leisure-and-hospitality)
+[![B2B SaaS](https://www.datocms-assets.com/85623/1759385333-cloud.svg)
+
+#### B2B SaaS
+
+Manage growing attack surfaces and reduce the risk of revenue and reputation loss](https://www.intigriti.com/solutions/saas)
+[![Telecommunications](https://www.datocms-assets.com/85623/1759385333-mobile-iphone.svg)
+
+#### Telecommunications
+
+Dial up your security and protect Interconnected networks and systems](https://www.intigriti.com/solutions/telecommunications)
+[![Government and Public services](https://www.datocms-assets.com/85623/1759385333-building-columns.svg)
+
+#### Government and Public services
+
+Protect sensitive data, even with stringent budget constraints](https://www.intigriti.com/solutions/government-and-public-services)
+[![Transport & Logistics](https://www.datocms-assets.com/85623/1759385333-truck-field.svg)
+
+#### Transport & Logistics
+
+Safeguard shipment details, customer information, financial transactions, and operational data](https://www.intigriti.com/solutions/transport-and-logistics)
+[![Healthcare](https://www.datocms-assets.com/85623/1759385333-healthcare.svg)
+
+#### Healthcare
+
+Take care of your organization and uphold patient confidentiality](https://www.intigriti.com/solutions/healthcare)
+[![News, media, published content](https://www.datocms-assets.com/85623/1759385333-newspaper.svg)
+
+#### News, media, published content
+
+Identify threats before they go viral, with Intigriti](https://www.intigriti.com/solutions/news-media-published-content)
+[![eCommerce and transactional websites](https://www.datocms-assets.com/85623/1759385333-cart.svg)
+
+#### eCommerce and transactional websites
+
+Keep your online store safe with help from Intigriti](https://www.intigriti.com/solutions/ecommerce-and-transactional-websites)
+[![IoT and B2B ecosystems](https://www.datocms-assets.com/85623/1759385333-chart-network.svg)
+
+#### IoT and B2B ecosystems
+
+Strengthening IoT security, with Intigriti](https://www.intigriti.com/solutions/iot-and-b2b-ecosystems)
+
+### Resources
+
+Take a look at our ebooks, customer stories, and more
+
+[New story
+
+![Customer stories](https://www.datocms-assets.com/85623/1759386200-customer-stories.png)
+
+#### Customer stories
+
+Learn how others succeed with Intigriti](https://www.intigriti.com/resources?filter=customer-stories)
+[New blog
+
+![Blog](https://www.datocms-assets.com/85623/1759386200-blog.png)
+
+#### Blog
+
+Read the latest news, tips, and industry updates](https://www.intigriti.com/blog)
+[![Datasheets](https://www.datocms-assets.com/85623/1759386200-datasheets.png)
+
+#### Information sheets
+
+Get detailed specs on our solutions and services](https://www.intigriti.com/resources?filter=datasheets)
+[![Ebooks](https://www.datocms-assets.com/85623/1759386200-ebooks.png)
+
+#### Ebooks
+
+Dive deeper into security with expert-written guides](https://www.intigriti.com/resources?filter=ebooks)
+[![Webinars](https://www.datocms-assets.com/85623/1759386200-webinars.png)
+
+#### Webinars
+
+Watch on-demand security sessions](https://www.intigriti.com/resources?filter=webinars)
+[![Shorts](https://www.datocms-assets.com/85623/1759386200-shorts.png)
+
+#### Shorts
+
+Read quick, one-page insights on key topics](https://www.intigriti.com/resources?filter=shorts)
+[![Events](https://www.datocms-assets.com/85623/1759386200-events.png)
+
+#### Events
+
+Join upcoming conferences and community meetups](https://www.intigriti.com/events)
+[![Bug bounty talks](https://www.datocms-assets.com/85623/1759389160-bu...
