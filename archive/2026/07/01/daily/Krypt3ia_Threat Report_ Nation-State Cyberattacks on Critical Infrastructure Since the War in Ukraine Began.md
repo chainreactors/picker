@@ -1,0 +1,43 @@
+---
+title: Threat Report: Nation-State Cyberattacks on Critical Infrastructure Since the War in Ukraine Began
+url: https://krypt3ia.wordpress.com/2026/07/01/threat-report-nation-state-cyberattacks-on-critical-infrastructure-since-the-war-in-ukraine-began/
+source: Krypt3ia
+date: 2026-07-01
+fetch_date: 2026-07-02T05:58:20.629930
+---
+
+# Threat Report: Nation-State Cyberattacks on Critical Infrastructure Since the War in Ukraine Began
+
+# [Krypt3ia](https://krypt3ia.wordpress.com/)
+
+(Greek: κρυπτεία / krupteía, from κρυπτός / kruptós, “hidden, secret things”)
+
+## Threat Report: Nation-State Cyberattacks on Critical Infrastructure Since the War in Ukraine Began
+
+[with one comment](https://krypt3ia.wordpress.com/2026/07/01/threat-report-nation-state-cyberattacks-on-critical-infrastructure-since-the-war-in-ukraine-began/#comments)
+
+## Executive Summary:
+
+Since Russia’s full-scale invasion of Ukraine on February 24, 2022, cyberattacks against critical infrastructure have become more visible, more frequent, and more closely tied to state power. These attacks are no longer just about stealing data or causing short-term disruption. In many cases, they are being used to *weaken an opponent*, *prepare for future conflict*, s*end political signals*, or *create pressure without crossing into open military escalation*, essentially carrying out low intensity warfare.
+
+The clearest example is Russia’s cyber campaign against Ukraine. Russian-linked actors have targeted satellite communications, power systems, telecommunications providers, government services, logistics networks, and other essential systems. These operations have often taken place alongside Russia’s military campaigns, making them part of a broader effort to weaken Ukraine’s ability to govern, communicate, defend itself, and maintain public morale. The attack on Viasat’s KA-SAT satellite network at the start of the invasion and later attacks linked to Sandworm against Ukrainian energy and telecom infrastructure show how cyber operations can support wartime objectives. ([consilium.europa.eu](https://www.consilium.europa.eu/en/press/press-releases/2022/05/10/russian-cyber-operations-against-ukraine-declaration-by-the-high-representative-on-behalf-of-the-european-union/))
+
+## Nation State Activities:
+
+[![](https://krypt3ia.wordpress.com/wp-content/uploads/2026/07/graphviz-164.png?w=1024)](https://krypt3ia.wordpress.com/wp-content/uploads/2026/07/graphviz-164.png)
+
+*Russia’s likely goal is not simply to “hack” Ukraine, but to wear it down*. By disrupting communications, power, government records, and public services, Russia can add pressure on civilians and decision-makers while also complicating Ukraine’s military and logistical operations. These cyberattacks fit Russia’s broader doctrine of using military force, intelligence operations, information warfare, and cyber activity together as one campaign. In more recent attacks however, the direct application of cyber warfare has been used in tandem with actual kinetic attacks by Russia on Ukraine as well, and this is where the threshold of low intensity warfare is seemingly broken.
+
+Ukraine has also used cyber operations against Russia. Ukrainian government-linked actors, intelligence services, and the wider IT Army volunteer ecosystem have reportedly targeted Russian banks, railways, government agencies, and other strategic systems. These operations appear to be designed to impose costs on Russia, disrupt state services, damage public confidence, and show that Russia is also vulnerable. Because Ukraine is defending itself in an ongoing armed conflict, these actions are best understood as part of Ukraine’s broader wartime resistance, though individual operations would still need to be judged separately under legal and proportionality standards.
+
+China’s activity looks different. Rather than launching obvious destructive attacks, Chinese state-linked actors have focused on quietly gaining and maintaining access inside critical infrastructure. The best-known example is Volt Typhoon, which U.S. and allied agencies say compromised systems in sectors such as communications, energy, transportation, water, and wastewater. This activity appears less like ordinary espionage and more like preparation for a future crisis, especially one involving Taiwan or the Western Pacific. ([cisa.gov](https://www.cisa.gov/news-events/news/us-and-international-partners-publish-cybersecurity-advisory-peoples-republic-china-state-sponsored)) China’s likely goal is to create leverage before a conflict begins. If Beijing already has access to U.S. or allied infrastructure, it may be able to slow military mobilization, disrupt communications, create public fear, or distract decision-makers during a future crisis. In that sense, Volt Typhoon is best described as preparation for possible cyber warfare, not cyber warfare already in progress.
+
+Iranian-linked cyber activity is more opportunistic and retaliatory. Iran-backed or IRGC-affiliated actors have targeted exposed industrial control systems, including programmable logic controllers used in water and wastewater environments. These attacks often rely on weak security, internet-facing devices, and symbolic targeting of Israeli- or Western-linked technology. ([media.defense.gov](https://media.defense.gov/2023/Dec/04/2003350920/-1/-1/0/CSA-IRGC-AFFILIATED-CYBER-ACTORS-EXPLOIT-PLCS-IN-MULTIPLE-SECTORS.PDF)) Iran’s likely goal is to send a message while keeping some distance from direct responsibility. By using hacktivist-style branding or proxy actors, Iran can create disruption, pressure Israel or the United States, and show that it can reach civilian infrastructure without openly declaring a military confrontation. These operations are serious because even simple attacks on poorly protected industrial systems can create public-safety risks.
+
+North Korea’s activity is different again. DPRK-linked actors have targeted healthcare and other critical sectors, often using ransomware. U.S. agencies have attributed Maui ransomware activity against healthcare organizations to North Korean state-sponsored actors. These attacks can be dangerous because hospitals and public-health systems depend on reliable access to data and operational systems. ([ic3.gov](https://www.ic3.gov/CSA/2022/220706.pdf)) North Korea’s main goal appears to be money and strategic gain rather than battlefield effect. Ransomware helps generate revenue for the regime, while cyber intrusions can also support intelligence collection and technology theft. This makes North Korean activity hostile and dangerous, but it is usually better described as state-backed cybercrime than traditional cyber warfare.
+
+Israel-linked activity, especially operations claimed by Predatory Sparrow, shows another model: targeted cyber sabotage. The group has claimed attacks against Iranian steel, fuel, banking, and cryptocurrency infrastructure. Public reporting has described Predatory Sparrow as linked to Israel, although Israel has not officially confirmed control of the group. ([reuters.com](https://www.reuters.com/world/middle-east/suspected-israeli-hackers-claim-destroy-data-irans-bank-sepah-2025-06-17/)) The likely goal of these operations is to damage Iranian state capacity, undermine public confidence, disrupt financial or military-support networks, and show that Iran can be reached inside its own systems. These attacks sit in the gray zone between sabotage, covert action, and cyber warfare.
+
+Overall, the pattern is clear: critical infrastructure has become a regular target in state competition. Russia uses cyber operations as part of an active war. China appears to be preparing access for a possible future conflict. Iran uses cyber disruption as asymmetric retaliation. North Korea uses critical-sector attacks for revenue and intelligence. Ukraine uses cyber operations as part of national defense. Israel-linked actors appear to use cyber sabotage to pressure Iran. Whether these actions count as “cyber warfare” depends on how the term is used. In a practical military sense, Russia’s operations against Ukraine clearly qualify. They are state-linked, infrastructure-focused, and connected to an ongoing war. Ukrainian operations against Russian targets also fall within the cyber dimension of that same conflict.
+
+Under international law, the answer is more complicated. Cyber operations during an armed conflict can fall under in...
