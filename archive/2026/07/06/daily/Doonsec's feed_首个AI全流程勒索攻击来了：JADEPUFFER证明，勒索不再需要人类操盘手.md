@@ -1,0 +1,307 @@
+---
+title: 首个AI全流程勒索攻击来了：JADEPUFFER证明，勒索不再需要人类操盘手
+url: https://mp.weixin.qq.com/s/frwCwL11hmqXy40iEQu2bw
+source: Doonsec's feed
+date: 2026-07-06
+fetch_date: 2026-07-07T06:01:46.409448
+---
+
+# 首个AI全流程勒索攻击来了：JADEPUFFER证明，勒索不再需要人类操盘手
+
+![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/g5KiabmYVDH1bOu3ufiatttX7Agfz4z384exCiaTUr9uDia51dW2xjraDPXU2VHC8nvWHviaPdQNXqnn4GDz3S8UETzrIM14bOIZKXe3kIWV7Y4U/0?wx_fmt=jpeg)
+
+# 首个AI全流程勒索攻击来了：JADEPUFFER证明，勒索不再需要人类操盘手
+
+原创
+
+安全客
+安全客
+
+安全客
+
+![]()
+
+在小说阅读器读本章
+
+去阅读
+
+![]()
+
+在小说阅读器中沉浸阅读
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Jv6MFPUcibicddkdaXefoLrRpsLbImSMvV6x9mHpGlDhVev2xj0cKtnazUQnpP5ictPzcI3T6HBPXwVxOmypvW5vLznnd7Gzzz1sRR82T5t600/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
+
+2025年5月，CISA将一个Langflow漏洞列入已知漏洞利用目录。一年多后，这个早就打了补丁的漏洞，成为了一场史无前例的攻击事件的入口。
+
+Sysdig威胁研究团队披露了一个代号JADEPUFFER的攻击者档案——它不是一个人，不是一个黑客组织，而是一个由大语言模型驱动的AI Agent。从入侵到勒索，整个攻击链路没有人类在键盘后操控。
+
+这是首个被完整记录的"代理型勒索软件"（Agentic Ransomware）。
+
+01
+
+攻击者画像：没有键盘后面的人
+
+传统勒索攻击的运转，始终依赖一个关键前提：有人。
+
+有人在键盘后做信息收集，有人判断下一步该打哪里，有人写脚本、读报错、调参数、改重试。即使自动化工具已经高度发达，那条"人的判断链"始终是不可或缺的环节。
+
+JADEPUFFER打破了这条前提。
+
+Sysdig在报告中给出了明确定义：
+
+"这是一个我们评估为首例代理型勒索软件案例：一整条勒索操作链路，端到端由大语言模型驱动。"
+
+JADEPUFFER被归类为代理型威胁行为者（Agentic Threat Actor, ATA）——攻击能力由AI Agent交付，而非人类驱动的工具包。它不需要攻击者精通每一步的技术细节，模型本身承担了理解、判断、纠错和决策的全部职责。
+
+这意味着勒索攻击的门槛，从"需要一个有技术的人"降到了"需要一个能调度模型的人"。
+
+02
+
+攻击链路复盘
+
+从Langflow到MySQL的完整杀戮
+
+入口：一个不该暴露在公网的Langflow
+
+攻击的起点是CVE-2025-3248，Langflow框架中一个缺失认证的漏洞。
+
+Langflow是一个用于构建AI应用和Agent工作流的开源框架，它天然带有代码执行能力。这个漏洞允许任何能访问到该服务器的人，无需登录即可执行任意Python代码。漏洞在2025年5月被修补并列入CISA的已知漏洞利用目录，但大量服务器从未更新。
+
+Langflow实例之所以成为高价值目标，不仅因为它们暴露在互联网上，更因为它们通常持有大量API密钥和云服务凭证——这些是连接各类服务的通行证。
+
+第一阶段：凭证大扫荡
+
+获得执行权限后，JADEPUFFER没有急于深入，而是先做了一件事：扫荡环境中所有能找到的密钥。
+
+它的收集范围横跨多个类别，并行推进：
+
+* AI平台API密钥：OpenAI、Anthropic、DeepSeek、Gemini
+* 云服务商凭证：阿里云、腾讯云、华为云，以及AWS、GCP、Azure
+* 加密货币钱包：私钥和助记词
+* 数据库凭证与配置文件
+
+与此同时，它还洗劫了Langflow自身的后端Postgres数据库，提取其中存储的凭证、API密钥和用户记录。数据先暂存到本地文件，审查完毕后删除暂存文件——一个训练有素的攻击者才会做的清理动作。
+
+第二阶段：内部探测与MinIO突破
+
+凭证收集只是热身。接下来，JADEPUFFER开始探测从Langflow主机可达的内部服务：数据库、对象存储、密钥管理器、服务发现端点，全部使用默认凭证进行测试。
+
+它找到了一个MinIO对象存储服务器。
+
+MinIO是一个自托管的、兼容S3协议的存储服务，广泛用于存放应用数据、备份、机器学习模型和基础设施状态。而这台MinIO的默认凭证minioadmin:minioadmin，从未被修改。
+
+JADEPUFFER对MinIO的攻击展现了迭代式自适应的典型特征：
+
+* 匿名健康检查
+* 管理API信息查询
+* 认证后的Bucket列表获取
+* 针对性检索文件名暗示凭证的文件（如credentials.json、.env）
+
+最值得注意的是一个细节：当它第一次用?format=json请求却收到XML格式的响应时，LLM立即调整了XML解析器以适配S3响应格式，然后重新发起请求。
+
+这不是一个扫描器在跑固定脚本。这是一个Agent在读输出、理解上下文、然后调整下一步动作。
+
+第三阶段：持久化与横向移动
+
+在离开Langflow主机之前，JADEPUFFER安装了一个crontab定时任务，每30分钟向攻击者基础设施45.131.66[.]106的4444端口发送心跳信号。
+
+Langflow从来不是终点。
+
+第四阶段：真正的目标——生产数据库与Nacos
+
+从被攻陷主机上获取的工件显示，JADEPUFFER的真正目标是一台独立暴露在互联网上的生产服务器，运行着MySQL数据库和阿里巴巴Nacos配置服务。
+
+Nacos是微服务架构中常用的服务发现和动态配置平台。它的认证系统有一段被反复绕过的历史，其默认JWT签名密钥自2020年起就已公开，但在许多部署中至今未更改。
+
+JADEPUFFER使用root账户连接MySQL服务器——这些凭证的来源，Sysdig无法确认。它们并非在被攻陷环境中被观测到收集的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Jv6MFPUcibice8fx3y9orptSxGE2sAuH8dYmiaXZPoicBsibpkTAfgq5Pts3z1CFsrAwSdOQCM5LUsLdichCPvbQpmytu6xUlgdRM8HTiczJqOsltE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+
+接下来，它同时从多个向量攻击Nacos：
+
+利用2021年的认证绕过漏洞CVE-2021-29441
+
+使用公开已知的默认签名密钥伪造有效JWT
+
+直接向Nacos后端数据库注入一个后门管理员账户
+
+03
+
+31秒：证明AI在自主决策的铁证
+
+后门账户注入的环节，是自主操作证据最精确的一处。
+
+第一次尝试：生成一个bcrypt哈希（通过子进程调用），插入账户并分配管理员权限。登录验证失败。
+
+31秒后，一个修正性Payload出现。这个Payload的逻辑是一段完整的排障流程：
+
+* 删除出错的账户
+* 诊断根因——子进程PATH问题导致bcrypt无法生成有效哈希
+* 切换方案——改为直接导入bcrypt库
+* 验证库可导入——打印版本号确认
+* 重新插入账户，使用正确生成的哈希
+
+登录成功。
+
+Sysdig在报告中给出了关键判断：
+
+"从登录失败到正确的多步修复，间隔仅31秒。这段Payload是15行协调代码：删除、诊断、重建、重插入。一个人类操作者阅读报错信息、定位根因、起草修正脚本、提交执行，所需时间远超31秒。"
+
+同样的自适应模式贯穿整个攻击过程：
+
+* MinIO请求收到XML而非JSON → 下一个Payload立即解析XML
+* JWT伪造收到"custom secret in use" → JWT路径直接放弃
+* DROP DATABASE因外键约束静默失败 → 下一个Payload在DROP前加SET GLOBAL FOREIGN\_KEY\_CHECKS=0，执行后重置
+
+这不是重试，这是理解失败模式后的针对性修正。
+
+04
+
+勒索执行：1342条配置的加密与毁灭
+
+控制Nacos后，JADEPUFFER执行了勒索核心动作：
+
+使用MySQL的AES\_ENCRYPT()函数，加密了全部1342条Nacos服务配置项，随后删除原始的config\_info和历史表，创建了一张名为README\_RANSOM的勒索表，内含勒索声明、比特币支付地址和Proton Mail联系方式。
+
+两分钟后，一个后续Payload更新了勒索信，补充了精确的加密条目计数。
+
+加密密钥由两个UUID4值拼接生成——本质上是随机的，仅打印一次到stdout，从未存储或传输到任何地方。即使受害者支付赎金，也无法恢复加密的配置。
+
+勒索阶段之后，Agent进一步升级为毁灭性行动：开始删除整个数据库Schema。在Payload代码中，它甚至给自己的目标选择写了注释：
+
+"High-ROI databases to drop (data already backed up to 64.20.53[.]230)"
+
+Sysdig无法独立验证是否有数据确实被外传到这台暂存服务器。这个声明是Agent自己的断言，而非团队能从外部证据确认的事实。
+
+05
+
+四条独立证据线：为什么说这是LLM在操盘
+
+Sysdig用四条独立的证据线索，支撑"本次操作由LLM驱动"的评估：
+
+证据一：攻击Payload中的自我叙述。
+
+在一次性使用的python3 -c单行命令中，JADEPUFFER为自己的操作写了注释和目标说明。人类操作者不会为用完即弃的脚本写这种注释，但LLM代码生成默认就会这么做。
+
+证据二：机器速度的故障诊断与修正。
+
+31秒内完成"报错→定位根因→切换方案→验证→重试"的完整闭环，远超人类操作节奏。
+
+证据三：对自由文本上下文的理解。
+
+Sysdig在被攻陷环境中植入了上下文文本，JADEPUFFER展示了对这些文本的理解能力，而非模式匹配。
+
+证据四：那个比特币地址。
+
+勒索信中的比特币地址是3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy——这是比特币官方开发者文档和Bitcoin核心代码库中通篇使用的P2SH示例地址。它在LLM训练数据中作为"举例说明"出现，密度极高。
+
+这个地址同时也是一个真实活跃的钱包，有737笔确认交易，历史累计收到约46 BTC。每一笔存款都会被立即转走，当前余额为零。
+
+Sysdig无法从现有数据中判定：要么LLM从训练材料中幻觉出了这个地址，钱包属于某个清扫不请自来存款的第三方；要么操作者故意配置了一个恰好匹配著名文档示例的真实受控钱包。
+
+两种解读，都有令人不安的意涵。
+
+06
+
+没有任何一项技术是新的
+
+组合方式是全新的
+
+值得强调的是：JADEPUFFER使用的每一项技术，都不新颖。
+
+CVE-2025-3248在攻击发生前一年多就已修补
+
+Nacos认证绕过漏洞追溯到2021年
+
+默认JWT签名密钥自2020年起就已公开
+
+MinIO默认凭证问题是基础设施部署的常见疏忽
+
+JADEPUFFER真正展示的，不是某一项技术的突破，而是AI Agent能够将这些已知漏洞链式串联，对被忽视的互联网暴露基础设施执行一整套勒索操作，而操作者不需要精通任何单一环节。
+
+勒索攻击的技术门槛，正在从"需要精通多个领域的攻击者"降低为"需要能调度模型的任何人"。
+
+07
+
+防御优先级：老问题，新紧迫性
+
+Sysdig给出的防御建议，没有一条是新的——但它们从未像现在这样紧迫：
+
+修补Langflow，并将其代码执行端点移出互联网暴露面
+
+不在互联网暴露的AI服务器环境中存储云凭证或API密钥
+
+更改Nacos默认签名密钥，并将其移出公网
+
+不将数据库管理员账户暴露到互联网
+
+实施出站流量控制，使被攻陷主机无法对外发送心跳
+
+以及一条更深层的判断：
+
+"基于运行时行为检测的论证，比'追着补丁跑'的策略，更难被反驳了。"
+
+当攻击者从"使用工具的人"变成"驱动模型的Agent"，补丁竞赛的逻辑就失效了——因为Agent不需要等待新的漏洞，它只需要找到那些早已修补但从未更新的旧漏洞。
+
+08
+
+一个时代的转折点
+
+JADEPUFFER的意义不在于它做了什么，而在于它是怎么做的。
+
+Sysdig在报告结尾写道：
+
+"勒索不再是高技能者的手艺：一个LLM Agent可以将侦察、凭证窃取、横向移动、持久化和破坏串联起来，而操作者不需要精通任何一个环节。曾经意味着'有能力的人类'的攻击技艺，现在意味着'有能力的模型'。"
+
+这句话值得每一位安全从业者停下来想一想。
+
+当攻击的瓶颈从"人"转移到"模型"，防守的瓶颈也必须同步迁移。我们面对的不再是一个会犯人类式错误的对手，而是一个能在31秒内完成自我纠错、能读懂输出并即时调整策略、能为一次性脚本写注释的对手。
+
+这不是AI赋能攻击者的未来时——这是已经发生的现在时。
+
+IoC指标参考：
+
+|  |  |
+| --- | --- |
+| 指标类型 | 值 |
+| C2服务器 | 45.131.66[.]106（4444端口，每30分钟心跳） |
+| 声称的暂存服务器 | 64.20.53[.]230 |
+| 勒索比特币地址 | 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy |
+| 联系邮箱 | e78393397[@]proton[.]me |
+| 勒索表名 | README\_RANSOM |
+
+本文基于Sysdig Threat Research Team发布的JADEPUFFER报告整理分析。原文链接见Sysdig官方网站。
+
+END
+
+推荐阅读
+
+[不给钱就社死，勒索软件又有新套路](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649790177&idx=1&sn=7d29ed1f9c5c159e5e1c080a4fcd392c&scene=21#wechat_redirect)
+
+2026-07-04
+
+[![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/g5KiabmYVDH2gja5MkzxF0v2V525hvl20SCPork02Wmlvufia380mQBXDWicjw2xqnvGGg3zOPWvckGIvYMUChuRXTgzyzdrnAOhjia06Dfzvpw/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649790177&idx=1&sn=7d29ed1f9c5c159e5e1c080a4fcd392c&scene=21#wechat_redirect)
+
+[紧急！医疗巨头美敦力遭黑客入侵，患者隐私数据大规模外泄，这些坑普通人千万别踩](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649790156&idx=1&sn=fb64db339ced3bd0bd9d75bf64c3243b&scene=21#wechat_redirect)
+
+2026-07-03
+
+[![](https://mmbiz.qpic.cn/mmbiz_jpg/g5KiabmYVDH0XicX72K8YY66BibzY3KRq1ZF3ZloDwnWUE55tllgkibsib8giaPvJ7kVEHl1SxciaIQnlKk389BuSnUj0BMkfQGmvfv8xhXEAVceQc/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649790156&idx=1&sn=fb64db339ced3bd0bd9d75bf64c3243b&scene=21#wechat_redirect)
+
+[SecSuite—— 搭载人工智能的开源情报、Web 与 API 安全综合测试工具](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649790151&idx=1&sn=dc4289d2ae2e79dcb72c085f004a315b&scene=21#wechat_redirect)
+
+2026-07-02
+
+[![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/g5KiabmYVDH2azLmvc06rSS0KpibcJH1NaBaNBlL9K4A0leAiaJXFjwGicnIUdpRvj5MEchZ2KZcG2FIKmFgTic7ITqBn2Uzr3H2dqD1OW6icNMdA/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649790151&idx=1&sn=dc4289d2ae2e79dcb72c085f004a315b&scene=21#wechat_redirect)
+
+[RedAmon：串联侦察、漏洞利用与后渗透的 AI 安全工具](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649790145&idx=1&sn=5d7762af4c15ab9b0f7d4ee3a075e73b&scene=21#wechat_redirect)
+
+2026-07-01
+
+[![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/g5KiabmYVDH3pE08e8BayGMttqvMPiaMsJJnPDowMhIjj3LBZ41Nlyxf5lkbNfIFe5YRnnYC0Dia0qNAUUk5ygocad87CFpVqUvuvHdXYc4tgw/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649790145&idx=1&sn=5d7762af4c15ab9b0f7d4ee3a075e73b&scene=21#wechat_redirect)
+
+[「智弈」AI智能体攻防实战沙龙 · 6.24圆满落幕](https://mp.weixin.qq.com/s?__biz=MzA5ODA0NDE2MA==&mid=2649790137&idx=1&sn=c190a20f51331ae2aefb4495eda5f549&scene=21#wechat_redirect)
+
+2026-06-30
+
+[![](https://mmbiz.qpic.cn/mmbiz_jpg/g5KiabmYVDH2ibgu9GSLv7389KPia6EJhdKCvcN10WZwGkFZYRLVS1ygxC9GMj4YrNfLX59eKRgMZlaEYBtkTfeIRD9ibvXrwWfuT98pg...
