@@ -1,0 +1,150 @@
+---
+title: Operationalize AI Governance Across Shadow GenAI, MCP, and Agentic Workloads with Qualys TotalAI
+url: https://blog.qualys.com/category/product-tech
+source: Qualys Security Blog
+date: 2026-07-29
+fetch_date: 2026-07-30T04:52:46.274531
+---
+
+# Operationalize AI Governance Across Shadow GenAI, MCP, and Agentic Workloads with Qualys TotalAI
+
+* [Discussions](https://success.qualys.com/discussions/s/ "Qualys Discussions")
+* [Discussions](https://success.qualys.com/discussions/s/ "Qualys Discussions")
+  + [Back to main menu](#back)
+  + Browse by Topic
+  + [Asset Management](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRIWA4/asset-management "Asset Management Discussions")
+  + [IT Security](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRwWAO/it-security "IT Security Discussions")
+  + [Compliance](https://success.qualys.com/discussions/s/topic/0TO2L000000HIS1WAO/compliance "Compliance Discussions")
+  + [Cloud & Container Security](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRnWAO/cloud-container "Cloud & Container Security Discussions")
+  + [Web App Security](https://success.qualys.com/discussions/s/topic/0TO2L000000HISCWA4/web-app-security "Web App Security Discussions")
+  + [Certificate Security & SSL Labs](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRfWAO/certificate-security "SSL Labs & Certificate Security Discussions")
+  + [Developer API](https://success.qualys.com/discussions/s/topic/0TO2L000000HIR8WAO/developer "Qualys Developer API Discussions")
+  + [Cloud Platform](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRAWA4/qualys-cloud-platform "Enterprise TruRisk Platform Discussions")
+  + [Consulting Edition](https://success.qualys.com/discussions/s/topic/0TO2L000000HIYEWA4/consulting-edition "Qualys Consulting Edition Discussions")
+  + [Start a discussion](https://success.qualys.com/discussions/s/#start-a-discussion)
+* [Blog](https://blog.qualys.com/ "Qualys Blog")
+* [Training](https://www.qualys.com/training/ "Qualys Training & Certification")
+* [Docs](https://www.qualys.com/documentation/ "Qualys Documentation")
+* [Support](https://success.qualys.com/support/s/ "Qualys Support")
+* [Webinars](https://www.qualys.com/webinars/ "Qualys Webinar")
+* [Trust](https://success.qualys.com/support/s/standards/ "Qualys Trust")
+
+[![Qualys](https://ik.imagekit.io/qualys/image//logo/qualys.svg)](https://community.qualys.com/ "Qualys Community")
+
+* [Login](https://success.qualys.com/discussions/s/login/ "Qualys Community Login")
+* [Register](https://success.qualys.com/discussions/s/login/SelfRegister "Qualys Community Registration")
+
+[![](https://ik.imagekit.io/qualys/image/icon/link-arrow-left.svg)
+Blog Home](/)
+
+# All posts in Product and Tech
+
+### 847 Posts
+
+![Abhishek Singh](https://ik.imagekit.io/qualys/wp-content/uploads/2025/03/headshot-abhishek-110x110.jpeg)
+
+[Abhishek Singh](https://blog.qualys.com/author/abhissingh)
+
+[July 29, 2026](https://blog.qualys.com/product-tech/2026/07/29/ai-governance-evidence-gap-totalai) - 12 min read
+
+## [Operationalize AI Governance Across Shadow GenAI, MCP, and Agentic Workloads with Qualys TotalAI](https://blog.qualys.com/product-tech/2026/07/29/ai-governance-evidence-gap-totalai)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech)
+
+4
+
+![Abhinav Mishra](https://secure.gravatar.com/avatar/916708f027d2e67436e61771876574c78249eea277a318437ffae71347501d54?s=110&d=mm&r=g)
+
+[Abhinav Mishra](https://blog.qualys.com/author/abmishra)
+
+[July 27, 2026](https://blog.qualys.com/product-tech/2026/07/27/aws-lambda-vulnerability-scanning-serverless-security) - 6 min read
+
+## [Qualys Expands Serverless Security with Vulnerability Scanning for AWS Lambda](https://blog.qualys.com/product-tech/2026/07/27/aws-lambda-vulnerability-scanning-serverless-security)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech)
+
+3
+
+![Sayali Warekar](https://secure.gravatar.com/avatar/170cf49b57e521d001156f8d20a3d3d85e7a4c81da13ebbf39a3caf33b98cace?s=110&d=mm&r=g)
+
+[Sayali Warekar](https://blog.qualys.com/author/swarekar)
+
+[July 23, 2026](https://blog.qualys.com/product-tech/2026/07/27/the-sub-10-minute-cloud-takeover-how-exposed-iam-keys-misconfiguration-and-ai-are-rewriting-the-rules-of-cloud-breaches) - 13 min read
+
+## [The Sub-10-Minute Cloud Takeover: How Exposed IAM Keys, Misconfiguration and AI Are Rewriting the Rules of Cloud Breaches](https://blog.qualys.com/product-tech/2026/07/27/the-sub-10-minute-cloud-takeover-how-exposed-iam-keys-misconfiguration-and-ai-are-rewriting-the-rules-of-cloud-breaches)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech), [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+29
+
+![Sanchi Patel](https://secure.gravatar.com/avatar/0f67cc41bb8e1e1f577f02f76b8c1b28225b0a99b068094eaaecdba6006a166e?s=110&d=mm&r=g)
+
+[Sanchi Patel](https://blog.qualys.com/author/sanpatel)
+
+[July 21, 2026](https://blog.qualys.com/product-tech/2026/07/21/ai-vulnerability-discovery-automated-remediation) - 4 min read
+
+## [Manual Patching Can’t Outrun AI. Automated Remediation Can.](https://blog.qualys.com/product-tech/2026/07/21/ai-vulnerability-discovery-automated-remediation)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech)
+
+2
+
+![Farah Syed](https://secure.gravatar.com/avatar/bd63893ba2b4fae0f00cefefa0b94ced8690690318aa98624201a256ffb1c82d?s=110&d=mm&r=g)
+
+[Farah Syed](https://blog.qualys.com/author/fsyed)
+
+[July 23, 2026](https://blog.qualys.com/product-tech/2026/07/20/top-compliance-audit-software-tools) - 18 min read
+
+## [Top Five Compliance Audit Software and Tools: Mastering Modern Regulatory Risk](https://blog.qualys.com/product-tech/2026/07/20/top-compliance-audit-software-tools)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech)
+
+![Deeksha Chowdhury](https://secure.gravatar.com/avatar/01945cb63bef54e2b1560efb9a8a74131e8cfdba8ec65a28d3517a466f52ee37?s=110&d=mm&r=g)
+
+[Deeksha Chowdhury](https://blog.qualys.com/author/dchowdhury)
+
+[July 14, 2026](https://blog.qualys.com/product-tech/2026/07/14/how-qualys-etm-identity-detects-responds-to-identity-based-attacks) - 13 min read
+
+## [How Qualys ETM Identity Detects Identity-Based Attacks Faster](https://blog.qualys.com/product-tech/2026/07/14/how-qualys-etm-identity-detects-responds-to-identity-based-attacks)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech)
+
+5
+
+![Lavish Jhamb](https://secure.gravatar.com/avatar/4d6cbfd25c8efcbf0b69293b1990b928aa4c55ebc98ce75435561d2ba0ede655?s=110&d=mm&r=g)
+
+[Lavish Jhamb](https://blog.qualys.com/author/ljhamb)
+
+[July 9, 2026](https://blog.qualys.com/product-tech/2026/07/09/cisa-bod-26-04-3-day-remediation-sla) - 5 min read
+
+## [How to Meet a 3-Day Remediation SLA & Comply with CISA BOD 26-04](https://blog.qualys.com/product-tech/2026/07/09/cisa-bod-26-04-3-day-remediation-sla)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech), [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+5
+
+![Kunal Modasiya](https://ik.imagekit.io/qualys/wp-content/uploads/2025/06/cropped-DSC08569-scaled-1-110x110.jpg)
+
+[Kunal Modasiya](https://blog.qualys.com/author/kumodasiya)
+
+[July 8, 2026](https://blog.qualys.com/product-tech/2026/07/08/cloud-roc-day-minus-seven-etm) - 16 min read
+
+## [Operationalizing Day Minus Seven: The Cloud-Native ROC](https://blog.qualys.com/product-tech/2026/07/08/cloud-roc-day-minus-seven-etm)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech), [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+4
+
+![Kunal Modasiya](https://ik.imagekit.io/qualys/wp-content/uploads/2025/06/cropped-DSC08569-scaled-1-110x110.jpg)
+
+[Kunal Modasiya](https://blog.qualys.com/author/kumodasiya)
+
+[July 6, 2026](https://blog.qualys.com/product-tech/2026/07/07/qualys-cisco-cloud-control-studio-launch-partner) - 8 min read
+
+## [Qualys Joins Cisco Cloud Control Studio as a Launch Partner to Bring Risk Intelligence to Agentic Operations](https://blog.qualys.com/product-tech/2026/07/07/qualys-cisco-cloud-control-studio-launch-partner)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech)
+
+5
+
+![Shravan Dandage](https://secure.gravatar.com/avatar/25eed938cfe769699da4518227685cf25...
