@@ -1,0 +1,182 @@
+---
+title: gh0stkey starred different-ai/openwork
+url: https://github.com/different-ai/openwork
+source: Private Feed for M09Ic
+date: 2026-08-06
+fetch_date: 2026-08-07T04:22:09.683859
+---
+
+# gh0stkey starred different-ai/openwork
+
+[Skip to content](#start-of-content)
+
+## Navigation Menu
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fdifferent-ai%2Fopenwork)Appearance settings
+
+* Platform
+
+  + AI CODE CREATION
+    - [GitHub CopilotWrite better code with AI](https://github.com/features/copilot)
+    - [GitHub Copilot appDirect agents from issue to merge](https://github.com/features/ai/github-app)
+    - [MCP RegistryIntegrate external tools](https://github.com/mcp)
+  + DEVELOPER WORKFLOWS
+    - [ActionsAutomate any workflow](https://github.com/features/actions)
+    - [CodespacesInstant dev environments](https://github.com/features/codespaces)
+    - [IssuesPlan and track work](https://github.com/features/issues)
+    - [Code ReviewManage code changes](https://github.com/features/code-review)
+    - [Code QualityEnforce quality at merge](https://github.com/features/code-quality)
+  + APPLICATION SECURITY
+    - [GitHub Advanced SecurityFind and fix vulnerabilities](https://github.com/security/advanced-security)
+    - [Code securitySecure your code as you build](https://github.com/security/advanced-security/code-security)
+    - [Secret protectionStop leaks before they start](https://github.com/security/advanced-security/secret-protection)
+  + EXPLORE
+    - [Why GitHub](https://github.com/why-github)
+    - [Documentation](https://docs.github.com)
+    - [Blog](https://github.blog)
+    - [Changelog](https://github.blog/changelog)
+    - [Marketplace](https://github.com/marketplace)
+
+  [View all features](https://github.com/features)
+* Solutions
+
+  + BY COMPANY SIZE
+    - [Enterprises](https://github.com/enterprise)
+    - [Small and medium teams](https://github.com/team)
+    - [Startups](https://github.com/enterprise/startups)
+    - [Nonprofits](https://github.com/solutions/industry/nonprofits)
+  + BY USE CASE
+    - [App Modernization](https://github.com/solutions/use-case/app-modernization)
+    - [DevSecOps](https://github.com/solutions/use-case/devsecops)
+    - [DevOps](https://github.com/solutions/use-case/devops)
+    - [CI/CD](https://github.com/solutions/use-case/ci-cd)
+    - [View all use cases](https://github.com/solutions/use-case)
+  + BY INDUSTRY
+    - [Healthcare](https://github.com/solutions/industry/healthcare)
+    - [Financial services](https://github.com/solutions/industry/financial-services)
+    - [Manufacturing](https://github.com/solutions/industry/manufacturing)
+    - [Government](https://github.com/solutions/industry/government)
+    - [View all industries](https://github.com/solutions/industry)
+
+  [View all solutions](https://github.com/solutions)
+* Resources
+
+  + EXPLORE BY TOPIC
+    - [AI](https://github.com/resources/articles?topic=ai)
+    - [Software Development](https://github.com/resources/articles?topic=software-development)
+    - [DevOps](https://github.com/resources/articles?topic=devops)
+    - [Security](https://github.com/resources/articles?topic=security)
+    - [View all topics](https://github.com/resources/articles)
+  + EXPLORE BY TYPE
+    - [Customer stories](https://github.com/customer-stories)
+    - [Events & webinars](https://github.com/resources/events)
+    - [Ebooks & reports](https://github.com/resources/whitepapers)
+    - [Business insights](https://github.com/solutions/executive-insights)
+    - [GitHub Skills](https://skills.github.com)
+  + SUPPORT & SERVICES
+    - [Documentation](https://docs.github.com)
+    - [Customer support](https://support.github.com)
+    - [Community forum](https://github.com/orgs/community/discussions)
+    - [Trust center](https://github.com/trust-center)
+    - [Partners](https://github.com/partners)
+
+  [View all resources](https://github.com/resources)
+* Open Source
+
+  + COMMUNITY
+    - [GitHub SponsorsFund open source developers](https://github.com/open-source/sponsors)
+  + PROGRAMS
+    - [Security Lab](https://securitylab.github.com)
+    - [Maintainer Community](https://maintainers.github.com)
+    - [Accelerator](https://github.com/open-source/accelerator)
+    - [GitHub Stars](https://stars.github.com)
+    - [Archive Program](https://archiveprogram.github.com)
+  + REPOSITORIES
+    - [Topics](https://github.com/topics)
+    - [Trending](https://github.com/trending)
+    - [Collections](https://github.com/collections)
+* Enterprise
+
+  + ENTERPRISE SOLUTIONS
+    - [Enterprise platformAI-powered developer platform](https://github.com/enterprise)
+  + AVAILABLE ADD-ONS
+    - [GitHub Advanced SecurityEnterprise-grade security features](https://github.com/security/advanced-security)
+    - [Copilot for BusinessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+    - [Premium SupportEnterprise-grade 24/7 support](https://github.com/enterprise/premium-support)
+* [Pricing](https://github.com/pricing)
+
+Type `/` to search
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Fdifferent-ai%2Fopenwork)
+
+[Sign up](/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=different-ai%2Fopenwork)Appearance settings
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+Dismiss alert
+
+{{ message }}
+
+### Uh oh!
+
+There was an error while loading. Please reload this page.
+
+[different-ai](/different-ai)
+/
+**[openwork](/different-ai/openwork)**
+Public
+
+* [Notifications](/login?return_to=%2Fdifferent-ai%2Fopenwork) You must be signed in to change notification settings
+* [Fork
+  2.1k](/login?return_to=%2Fdifferent-ai%2Fopenwork)
+* [Star
+   21.3k](/login?return_to=%2Fdifferent-ai%2Fopenwork)
+
+* [Code](/different-ai/openwork)
+* [Issues
+  165](/different-ai/openwork/issues)
+* [Pull requests
+  129](/different-ai/openwork/pulls)
+* [Actions](/different-ai/openwork/actions)
+* [Projects](/different-ai/openwork/projects)
+* [Security and quality
+  0](/different-ai/openwork/security)
+* [Insights](/different-ai/openwork/pulse)
+
+Additional navigation options
+
+* [Code](/different-ai/openwork)
+* [Issues](/different-ai/openwork/issues)
+* [Pull requests](/different-ai/openwork/pulls)
+* [Actions](/different-ai/openwork/actions)
+* [Projects](/different-ai/openwork/projects)
+* [Security and quality](/different-ai/openwork/security)
+* [Insights](/different-ai/openwork/pulse)
+
+dev
+
+[Branches](/different-ai/openwork/branches)[Tags](/different-ai/openwork/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Folders and files
+
+| Name | | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- | --- |
+| Latest commit   History[4,214 Commits](/different-ai/openwork/commits/dev/)   4,214 Commits | | |
+| [.devcontainer](/different-ai/openwork/tree/dev/.devcontainer ".devcontainer") | | [.devcontainer](/different-ai/openwork/tree/dev/.devcontainer ".devcontainer") |  |  |
+| [.github](/different-ai/openwork/tree/dev/.github ".github") | | [.github](/different-ai/openwork/tree/dev/.github ".github") |  |  |
+| [.opencode](/different-ai/openwork/tree/dev/.opencode ".opencode") | | [.opencode](/different-ai/openwork/tree/dev/.opencode ".opencode") |  |  |
+| [.warden/skills](/different-ai/openwork/tree/dev/.warden/skills "This path skips through empty directories") | | [.warden/skills](/different-ai/openwork/tree/dev/.warden/skills "This path skips through empty directories") |  |  |
+| [apps](/different-ai/openwork/tree/dev/apps "apps") | | [apps](/different-ai/openwork/tree/dev/apps "apps") |  |  |
+| [changelog](/different-ai/openwork/tree/dev/changelog "changelog") | | [changelog](/different-ai/openwork/tree/dev/changelog "changelog") |  |  |
+| [docs](/different-ai/openwork/tree/dev/docs "docs") | | [docs](/different-ai/openwork/tree/dev/docs "docs") |  |  |
+| [ee](/different-ai/openwork/tree/dev/ee "ee") | | [ee](/different-ai/openwork/tree/dev/ee "ee") |  |  |
+| [evals](/different-ai/openwork/tree/dev/evals "evals") | | [evals](/different-ai/openwork/tree/dev/evals "evals") |  |  |
+| [exam...
