@@ -1,0 +1,156 @@
+---
+title: Webmail CSS Attacks Expose a New Risk for AI-Powered Email Tools
+url: https://securityaffairs.com/196899/hacking/webmail-css-attacks-expose-a-new-risk-for-ai-powered-email-tools.html
+source: Security Affairs
+date: 2026-08-09
+fetch_date: 2026-08-10T03:39:28.586336
+---
+
+# Webmail CSS Attacks Expose a New Risk for AI-Powered Email Tools
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[U.S. Defense Manufacturer IEH Hit by Phishing Attack, Exposing Potentially Export-Controlled Data](https://securityaffairs.com/196890/cyber-crime/u-s-defense-manufacturer-ieh-hit-by-phishing-attack-exposing-potentially-export-controlled-data.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 109](https://securityaffairs.com/196919/malware/security-affairs-malware-newsletter-round-109.html)
+
+ |
+
+[Security Affairs newsletter Round 589 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/196911/security/security-affairs-newsletter-round-589-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[Webmail CSS Attacks Expose a New Risk for AI-Powered Email Tools](https://securityaffairs.com/196899/hacking/webmail-css-attacks-expose-a-new-risk-for-ai-powered-email-tools.html)
+
+ |
+
+[Palo Alto Networks Faces China Cybersecurity Review Amid Rising Tech Tensions](https://securityaffairs.com/196881/intelligence/palo-alto-networks-faces-china-cybersecurity-review-amid-rising-tech-tensions.html)
+
+ |
+
+[Metabase Zero-Day Exploited in the Wild, Exposing Admin Access and Sensitive Data](https://securityaffairs.com/196874/hacking/metabase-zero-day-exploited-in-the-wild-exposing-admin-access-and-sensitive-data.html)
+
+ |
+
+[U.S. CISA adds a Progress LoadMaster flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/196863/hacking/u-s-cisa-adds-a-progress-loadmaster-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Unlimited Technology Systems Data Breach Exposes Data of 3.8 Million Healthcare Patients](https://securityaffairs.com/196843/data-breach/unlimited-technology-systems-data-breach-exposes-data-of-3-8-million-healthcare-patients.html)
+
+ |
+
+[WordPress XSS2Shell Flaw Turns Simple Login Bug Into Full Server Takeover](https://securityaffairs.com/196820/hacking/wordpress-xss2shell-flaw-turns-simple-login-bug-into-full-server-takeover.html)
+
+ |
+
+[Hackers Impersonate IT Support to Breach Leading Financial Companies](https://securityaffairs.com/196800/security/hackers-impersonate-it-support-to-breach-leading-financial-companies.html)
+
+ |
+
+[Meta Ordered to Pay $567 Million Over Child Safety Failures in New Mexico Case](https://securityaffairs.com/196793/laws-and-regulations/meta-ordered-to-pay-567-million-over-child-safety-failures-in-new-mexico-case.html)
+
+ |
+
+[Researchers Discover Hidden Backdoor in 20 Router Models Allowing Remote Root Access](https://securityaffairs.com/196785/security/researchers-discover-hidden-backdoor-in-20-router-models-allowing-remote-root-access.html)
+
+ |
+
+[AI Deepfakes Used to Impersonate OnlyFans Creators in New Scam](https://securityaffairs.com/196772/ai/ai-deepfakes-used-to-impersonate-onlyfans-creators-in-new-scam.html)
+
+ |
+
+[Exposed SISVISA Database Leaks 102,000 Brazilian Health Surveillance Records](https://securityaffairs.com/196766/data-breach/exposed-sisvisa-database-leaks-102000-brazilian-health-surveillance-records.html)
+
+ |
+
+[Ransom Cartel Leader Sentenced to 16 Years in U.S.](https://securityaffairs.com/196746/cyber-crime/ransom-cartel-leader-sentenced-to-16-years-in-u-s.html)
+
+ |
+
+[Meta AI Model Hacked a Company During Testing, Marking Third AI Lab Incident](https://securityaffairs.com/196731/security/meta-ai-model-hacked-a-company-during-testing-marking-third-ai-lab-incident.html)
+
+ |
+
+[U.S. CISA adds a JetBrains TeamCity flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/196725/security/u-s-cisa-adds-a-jetbrains-teamcity-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Snowflake Hacker Pleads Guilty After Breaching 165 Companies and Stealing Billions of Records](https://securityaffairs.com/196714/security/snowflake-hacker-pleads-guilty-after-breaching-165-companies-and-stealing-billions-of-records.html)
+
+ |
+
+[AI Deception Emerges in Cyber Tests as Agents Target Real People and Systems](https://securityaffairs.com/196695/ai/ai-deception-emerges-in-cyber-tests-as-agents-target-real-people-and-systems.html)
+
+ |
+
+[Brown Health Medical Group-MA Data Breach Exposes Information of 311,000 Individuals](https://securityaffairs.com/196681/uncategorized/brown-health-medical-group-ma-data-breach-exposes-information-of-311000-individuals.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* Webmail CSS Attacks Expose a New Risk for AI-Powered Email Tools
+
+## Webmail CSS Attacks Expose a New Risk for AI-Powered Email Tools
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https:/...
