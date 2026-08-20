@@ -1,0 +1,181 @@
+---
+title: CyberChef v11.4.0
+url: https://kitploit.com/en/posts/github-gchq-cyberchef-v1140
+source: Kitploit
+date: 2026-08-19
+fetch_date: 2026-08-20T02:55:19.618920
+---
+
+# CyberChef v11.4.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](/_next/image?url=https%3A%2F%2Fassets.kitploit.com%2Fproduction%2Fpublic%2Ftools%2F1300%2Fda83730b2fa039b08cfcdb7cf5410a2390950b2c850fde7a805080219e506b5d.png&w=3840&q=75)
+
+New releaseAug 19, 2026
+
+# CyberChef v11.4.0
+
+The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+
+Share
+
+# CyberChef
+
+[![](https://github.com/gchq/CyberChef/workflows/Master%20Build,%20Test%20&%20Deploy/badge.svg)](https://github.com/gchq/CyberChef/actions?query=workflow%3A%22Master+Build%2C+Test+%26+Deploy%22)
+[![npm](https://img.shields.io/npm/v/cyberchef.svg)](https://www.npmjs.com/package/cyberchef)
+[![](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/gchq/CyberChef/blob/master/LICENSE)
+[![Gitter](https://badges.gitter.im/gchq/CyberChef.svg)](https://gitter.im/gchq/CyberChef?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+#### *The Cyber Swiss Army Knife*
+
+CyberChef is a simple, intuitive web app for carrying out all manner of "cyber" operations within a web browser. These operations include simple encoding like XOR and Base64, more complex encryption like AES, DES and Blowfish, creating binary and hexdumps, compression and decompression of data, calculating hashes and checksums, IPv6 and X.509 parsing, changing character encodings, and much more.
+
+The tool is designed to enable both technical and non-technical analysts to manipulate data in complex ways without having to deal with complex tools or algorithms. It was conceived, designed, built and incrementally improved by an analyst in their 10% innovation time over several years.
+
+## Contents
+
+* [Official website](#official-website)
+* [Running Locally](#running-locally)
+  + [With Docker](#with-docker)
+  + [From source](#from-source)
+* [How it works](#how-it-works)
+* [Features](#features)
+* [Deep linking](#deep-linking)
+* [Browser support](#browser-support)
+* [Node.js support](#nodejs-support)
+* [Security](#security)
+* [Contributing](#contributing)
+* [Licencing](#licencing)
+
+## Official website
+
+[CyberChef's official website can be found here](https://gchq.github.io/CyberChef) - have fun!
+
+## Running Locally
+
+You can run CyberChef with Docker (no toolchain required) or build it from source with Node.js.
+
+### With Docker
+
+**Prerequisites**
+
+* [Docker](https://www.docker.com/products/docker-desktop/)
+  + Docker Desktop must be open and running on your machine
+
+#### Option 1: Build the Docker Image Yourself
+
+1. Build the docker image
+
+root@kitploit:~
+
+```
+docker build --tag cyberchef --ulimit nofile=10000 .
+```
+
+2. Run the docker container
+
+root@kitploit:~
+
+```
+docker run -it -p 8080:8080 cyberchef
+```
+
+3. Navigate to `http://localhost:8080` in your browser
+
+#### Option 2: Use the pre-built Docker Image
+
+If you prefer to skip the build process, you can use the pre-built image
+
+root@kitploit:~
+
+```
+docker run -it -p 8080:8080 ghcr.io/gchq/cyberchef:latest
+```
+
+Just like before, navigate to `http://localhost:8080` in your browser.
+
+This image is built and published through our [GitHub Workflows](https://github.com/gchq/cyberchef/blob/HEAD/.github/workflows/releases.yml).
+
+### From source
+
+If you want to develop CyberChef or run it without Docker, you can build it directly with Node.js.
+
+**Prerequisites**
+
+* [Node.js](https://nodejs.org/) `v24` (see [Node.js support](#nodejs-support))
+
+> [!NOTE]
+
+> You can use [nvm](https://github.com/nvm-sh/nvm) to manage Node.js versions and use the current development version in [this project](https://github.com/gchq/cyberchef/blob/HEAD/.nvmrc) to avoid conflicts with other projects on your machine.
+
+**Setup**
+
+root@kitploit:~
+
+```
+git clone https://github.com/gchq/CyberChef.git
+cd CyberChef
+npm install
+```
+
+**Common tasks**
+
+| Command | Description |
+| --- | --- |
+| `npm start` | Run the development server with live reload at `http://localhost:8080`. |
+| `npm run build` | Produce a production build in the `build/prod` directory. |
+| `npm test` | Run the Node.js and operation test suites. |
+| `npm run testui` | Run the browser (UI) tests. |
+| `npm run lint` | Check the code against the linting rules. |
+| `npm run newop` | Scaffold a new operation via the interactive quickstart script. |
+
+If you hit an out-of-memory error while building large recipes, increase Node's heap size with `npm run setheapsize`.
+
+## How it works
+
+There are four main areas in CyberChef:
+
+1. The **input** box in the top right, where you can paste, type or drag the text or file you want to operate on.
+2. The **output** box in the bottom right, where the outcome of your processing will be displayed.
+3. The **operations** list on the far left, where you can find all the operations that CyberChef is capable of in categorised lists, or by searching.
+4. The **recipe** area in the middle, where you can drag the operations that you want to use and specify arguments and options.
+
+You can use as many operations as you like in simple or complex ways. Some examples are as follows:
+
+* [Decode a Base64-encoded string](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [Convert a date and time to a different time zone](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [Parse a Teredo IPv6 address](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [Convert data from a hexdump, then decompress](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [Decrypt and disassemble shellcode](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [Display multiple timestamps as full dates](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [Carry out different operations on data of different types](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [Use parts of the input as arguments to operations](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [Perform AES decryption, extracting the IV from the beginning of the cipher stream](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [A simpler way to perform the same AES Decryption](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+* [Automagically detect several layers of nested encoding](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)&input=VTI4Z2JHOXVaeUJoYm1RZ2RHaGhibXR6SUdadmNpQmhiR3dnZEdobElHWnBjMmd1)
+
+## Features
+
+* Drag and drop
+  + Operations can be dragged in and out of the recipe list, or reorganised.
+  + Files up to 2GB can be dragged over the input box to load them directly into the browser.
+* Auto Bake
+  + Whenever you modify the input or the recipe, CyberChef will automatically "bake" for you and produce the output immediately.
+  + This can be turned off and operated manually if it is affecting performance (if the input is very large, for ins...

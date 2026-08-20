@@ -1,0 +1,105 @@
+---
+title: brave-browser v1.95.83
+url: https://kitploit.com/en/posts/github-brave-brave-browser-v19583
+source: Kitploit
+date: 2026-08-19
+fetch_date: 2026-08-20T02:55:02.415071
+---
+
+# brave-browser v1.95.83
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](/_next/image?url=https%3A%2F%2Fassets.kitploit.com%2Fproduction%2Fpublic%2Ftools%2F2963%2F1873374a3cead6dc9e44dff66571e97a27c5c68fc5c3673a3d6d28909bda6d64.png&w=3840&q=75)
+
+New releaseAug 19, 2026
+
+# brave-browser v1.95.83
+
+Brave browser for Android, iOS, Linux, macOS, Windows.
+
+Share
+
+# Brave Browser
+
+This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at <https://github.com/brave/brave-core>.
+
+You can [visit our website](https://brave.com/download) to get the latest stable release.
+
+## Resources
+
+* [Issues](https://github.com/brave/brave-browser/issues): Bug reports and feature requests for the Brave Browser.
+* [Releases](https://github.com/brave/brave-browser/releases): Releases of Brave Browser hosted on GitHub. See [Brave Release Schedule](https://github.com/brave/brave-browser/wiki/Brave-Release-Schedule) for more information.
+* [Wiki](https://github.com/brave/brave-browser/wiki): Documentation for developers, administrators, and power users. User-facing documentation is available at the [Brave help center](https://support.brave.app/hc/).
+* [Documentation and guides](https://github.com/brave/brave-core/blob/master/docs/README.md): Additional technical information, primarily for developers.
+
+## Contributing
+
+Please see the [contributing guidelines](https://github.com/brave/brave-core/blob/master/CONTRIBUTING.md).
+
+To get started building Brave, hop over to the [Wiki](https://github.com/brave/brave-browser/wiki).
+
+## Security Policy
+
+Please see the [security policy](https://github.com/brave/brave-core/blob/master/SECURITY.md).
+
+## Community
+
+[Join the Q&A community](https://community.brave.app/) if you'd like to get more involved with Brave. You can [ask for help](https://community.brave.app/c/support-and-troubleshooting),
+[discuss features you'd like to see](https://community.brave.app/c/brave-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Brave.
+
+You can also ask questions and interact in the [`community-guest`](https://bravesoftware.slack.com) channel on Brave Software's Slack.
+
+Help us translate Brave to your language by submitting translations at <https://explore.transifex.com/brave/brave_en/>.
+
+Follow [@brave](https://x.com/brave) on X for important news and announcements.
+
+[Read more](/en/tools/github/brave/brave-browser?expand=1)
+
+## Categories
+
+[General Purpose Utilities](/en/categories/general-purpose-utilities)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+brave-browser v1.95.83 — Brave browser for Android, iOS, Linux, macOS, Windows. | Kitploit

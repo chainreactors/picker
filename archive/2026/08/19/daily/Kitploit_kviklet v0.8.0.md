@@ -1,0 +1,193 @@
+---
+title: kviklet v0.8.0
+url: https://kitploit.com/en/posts/github-kviklet-kviklet-080
+source: Kitploit
+date: 2026-08-19
+fetch_date: 2026-08-20T02:55:17.977077
+---
+
+# kviklet v0.8.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](/_next/image?url=https%3A%2F%2Fassets.kitploit.com%2Fproduction%2Fpublic%2Ftools%2F7140%2F21948bc6a43dbdd88be563befbfc9052a1dd4a99735817c2ff99680c9c32cbd0.png&w=3840&q=75)
+
+New releaseAug 19, 2026
+
+# kviklet v0.8.0
+
+Pull Request-like Review/Approval flow for database queries. For compliant but smooth Engineering access to production.
+
+Share
+
+# Kviklet
+
+[Kviklet.dev](https://kviklet.dev) | [Release Notes](https://github.com/kviklet/kviklet/releases) | [Discord](https://discord.gg/7SmPJfeP6e)
+
+Secure access to production environments without impairing developer productivity.
+
+![Kviklet](https://assets.kitploit.com/production/public/readmes/7140/392405334d47494900bbad15b3abf3a184ed840e0a289d469a81b504fccd24a9.png)
+![Kviklet](https://assets.kitploit.com/production/public/readmes/7140/be0f95172984e14267b2bfda16c02821570b5990baa23718c2501bebdc92f73c.png)
+
+Kviklet (pronounced Quick-let) embraces the **Four-Eyes Principle** and a high level of configurability to allow a **Pull Request-like Review and Approval** flow for individual SQL statements or Database sessions. This allows engineering teams to self regulate on who gets access to what data and when, allowing organizations to stay secure and compliant while embracing modern, empowering and truly "DevOps" workflows.
+
+Kviklet is a self hosted docker container, that provides you with a Single Page Web app. Login to create SQL requests or approve the ones of others. An optional enterprise license unlocks advanced features like SAML authentication, role-based review requirements, role sync, and API keys. You can request an enterprise license at [kviklet.dev](https://kviklet.dev).
+
+We currently support **Postgres**, **MySQL**, **MS SQL Server** and **MongoDB**.
+
+## Features
+
+Kviklet ships with a variety of features that an engineering team needs to manage their production database access in a **simple but secure** manner:
+
+* **SSO (OIDC, Google, Keycloak, etc.)**: Log into Kviklet without the need for a username or password. No more shared credentials for DB access.
+* **LDAP Support**: Log into Kviklet with your LDAP credentials.
+* **SAML Support**: Log into Kviklet with your SAML credentials. (Enterprise only)
+* **Review/Approval Flow**: Leave Comments and Suggestions on other developers data requests.
+* **Temporary Access (1h)**: Execute any statement on a db for 1h after having been approved
+* **Single Query**: Execute a singular statement. Allows the reviewer to review your query before execution.
+* **Auditlog**: Singular plane that logs all executed statements with Author, reason for execution etc.
+* **RBAC**: Configure which team has access to which database/table to as fine of a granularity as the DB Engine allows.
+* **Postgres Proxy**: Start a proxy server to use the DB Client of your choice, but everything will be stored in the Kviklet Auditlog.
+* **Kubernetes Exec**: Execute a statement on a pod in your kubernetes cluster. (Currently only supports Execution of a single command no live session yet)
+* **Role-Based Review Gates**: Require approvals from specific roles before execution. (Enterprise only)
+* **Role Sync**: Automatically sync user roles from your identity provider groups. (Enterprise only)
+* **API Keys**: Programmatic access to the Kviklet API. (Enterprise only)
+
+## Feature by Database/Connection Type
+
+Most features are available for all databases (SSO, LDAP, RBAC, Review/Approval Flow, Auditlog, etc.). But some features are restricted, either because it simply hasn't been built yet or because it makes no sense for that specific purpose. The following table shows which features are available for which database type:
+
+| Database | Statement Review | Temporary Access | Proxy(Beta) | Explain Plan |
+| --- | --- | --- | --- | --- |
+| Postgres | ✓ | ✓ | ✓ | ✓ |
+| MySQL | ✓ | ✓ | ✗ | ✓ |
+| MariaDB | ✓ | ✓ | ✗ | ✓ |
+| SQL Server | ✓ | ✓ | ✗ | ✓ |
+| MongoDB | ✓ | ✓ | ✗ | ✗ |
+| Kubernetes | ✓ | ✗ | ✗ | ✗ |
+
+## Setup
+
+Kviklet ships as a simple docker container.
+You can find the available versions under [Releases](https://github.com/kviklet/kviklet/releases). We recommend regularly updating the version you are using as we continue to build new features.
+The latest one currently is `ghcr.io/kviklet/kviklet:0.7.0`, you can also use `:main` but it might happen every now and then that we accidentally merge something buggy. Though we try to avoid that.
+
+### Quick Start
+
+If you just want to try out how it works:
+
+1. Here is a minimal docker-compose.yaml:
+
+    Click to expand compose content
+
+   root@kitploit:~
+
+   ```
+   services:
+     postgres:
+       image: postgres:16
+       restart: always
+       environment:
+         POSTGRES_USER: postgres
+         POSTGRES_PASSWORD: postgres
+         POSTGRES_DB: postgres
+       ports:
+         - "5432:5432"
+       volumes:
+         - ./postgres-data:/var/lib/postgresql/data
+   #      - ./sample_data.sql:/docker-entrypoint-initdb.d/init.sql
+
+     kviklet-postgres:
+       image: postgres:16
+       restart: always
+       environment:
+         POSTGRES_USER: postgres
+         POSTGRES_PASSWORD: postgres
+         POSTGRES_DB: kviklet
+       ports:
+         - "5433:5432"
+       volumes:
+         - ./kviklet-postgres-data:/var/lib/postgresql/data
+
+     kviklet:
+       image: ghcr.io/kviklet/kviklet:main
+       ports:
+         - "80:8080"
+       environment:
+         - SPRING_DATASOURCE_URL=jdbc:postgresql://kviklet-postgres:5432/kviklet
+         - SPRING_DATASOURCE_USERNAME=postgres
+         - SPRING_DATASOURCE_PASSWORD=postgres
+         - [email protected]
+         - INITIAL_USER_PASSWORD=admin
+       depends_on:
+         - kviklet-postgres
+   ```
+2. Run the `docker-compose.yml` via `docker-compose up -d`. Kviklet will spin up on port 80, go to `localhost` and play around. The admin login is [[email protected]](/cdn-cgi/l/email-protection#c9a8ada4a0a789a8ada4a0a7e7aaa6a4) with `admin` as password.
+3. The docker-compose contains an extra postgres database for which you can setup a connection in Kviklet. To make this database contain some data, uncomment this line:
+
+   root@kitploit:~
+
+   ```
+         - ./sample_data.sql:/docker-entrypoint-initdb.d/init.sql
+   ```
+
+   And create a sample\_data.sql file:
+
+    Click to expand sample\_data.sql content
+
+   root@kitploit:~
+
+   ```
+   CREATE TABLE Locations (
+       Name VARCHAR(100) NOT NULL,
+       Address VARCHAR(255) NOT NULL,
+       City VARCHAR(100) NOT NULL,
+       Country VARCHAR(100) NOT NULL,
+       PostalCode VARCHAR(20) NOT NULL
+   );
+
+   alter table public.Locations
+       owner to postgres;
+
+   INSERT INTO public.Locations (Name, Address, City, Country, PostalCode) VALUES
+   ('Central Park', '59th to 110th St', 'New York', 'USA', '10022'),
+   ('Eiffel Tower', 'Champ de Mars, 5 Avenue Anatole', 'Paris', 'France', '75007'),
+   ('Colosseum', 'Piazza del Colosseo, 1', 'Rome', 'Italy', '00184'),
+   ('Sydney Opera House', 'Bennelong Point', 'Sydney', 'Australia', '2000'),
+   ('Great Wall of China', 'Huairou District', 'Beijing', 'China', '101405');
+   ```
+
+### DB Setup
+
+Kviklet needs its own postgres database (or at least schema) to save metadata about queries, connections, approvals, etc.
+You can find their official image here: <https://hub.docker.com/_/postgres>, or use a cloud hosted version by your cloud provider of choice.
+
+When starting the kviklet container you will then need to set these three environment variables accordingly:
+
+root@kitploit:~
+
+```
+SPRING_DATASOURCE_PASSWORD = password
+SPRING_DATASOURCE_USERNAME = username
+SPRING_DATASOURCE_URL = jdbc:postgresql://[host]:[port]/[database]?currentSchema=[schema]
+```
+
+#### Alternative Authentication methods
+
+* **IAM Auth...

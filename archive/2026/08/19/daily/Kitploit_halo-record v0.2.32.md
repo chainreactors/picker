@@ -1,0 +1,175 @@
+---
+title: halo-record v0.2.32
+url: https://kitploit.com/en/posts/github-bkuan001-halo-record-v0232
+source: Kitploit
+date: 2026-08-19
+fetch_date: 2026-08-20T02:55:27.812736
+---
+
+# halo-record v0.2.32
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](/_next/image?url=https%3A%2F%2Fassets.kitploit.com%2Fproduction%2Fpublic%2Ftools%2F767%2F809b392addb2432f997184e493fc295d17f5cd7d55ef84fe5f4e8e9a687197d3.png&w=3840&q=75)
+
+New releaseAug 19, 2026
+
+# halo-record v0.2.32
+
+Tamper-evident runtime evidence for AI agents: hash-chained Runtime Records, dependency-free, verifiable by anyone.
+
+Share
+
+# halo-record
+
+Tamper-evident **runtime records for AI agents**: the audit trail the vendor runs but cannot edit.
+
+Every action your agent takes (tool calls, model calls, data access, approvals) becomes one record in an append-structured, hash-chained log. Any party holding a checkpoint of the chain can verify the records behind it were never altered, without trusting whoever produced them. When a customer's security team asks "what did your agent do with our data?", you hand them a link instead of a paragraph. Security reviews already ask AI questions next to the SOC 2 checklist, and today a written assurance still passes. The bet behind this project is that it won't for long.
+
+The record format is open and free to implement. This package is the reference implementation: recorder, verifier, witness client, and report server.
+
+## Why you can trust this code
+
+You are being asked to put a recorder inside your agent. You should not take that on faith:
+
+* **Zero runtime dependencies.** Standard library only. `pip install halo-record` installs exactly one package.
+* **No network calls**, except the witness, which is opt-in and receives only a record count and a chain fingerprint. Record contents never leave your infrastructure.
+* **Raw inputs never enter a record.** Arguments are hashed and stored only as a redacted summary — never the raw value. Redaction is best-effort (regex over common secret and PII formats): treat it as defense-in-depth, not a guarantee.
+* **Small enough to audit.** ~4,300 lines of Python. Read all of it in an afternoon.
+* **Apache-2.0.**
+
+## 60-second demo
+
+No agent required. With [uv](https://docs.astral.sh/uv/), nothing to install:
+
+root@kitploit:~
+
+```
+uvx --from halo-record halo demo --serve
+```
+
+or the classic way:
+
+root@kitploit:~
+
+```
+pip install halo-record
+halo demo --serve
+```
+
+Either one scaffolds a fictional support-agent vendor with two customers, witnesses the chains, serves their gated Runtime Reports, and opens the operator console in your browser. Then try the tamper test: delete a line from one of the `.jsonl` files and reload. The report catches it.
+
+## Record your own agent
+
+One line at the boundary:
+
+root@kitploit:~
+
+```
+from halo import trace
+
+agent = trace(run_my_agent, profile="my-agent", log="audit.jsonl")   # wraps your entrypoint; records every tool call to ./audit.jsonl
+```
+
+Without `log=`, records go to `~/.halo/my-agent.jsonl` (one chain per agent). Or use the adapter for what you already run (see the matrix below). Then render the report:
+
+root@kitploit:~
+
+```
+halo report audit.jsonl -o report.html    # one chain -> self-verifying HTML
+halo serve ./records --port 8721          # all tenants, gated per customer
+```
+
+The quickstart ends when you are looking at your own agent's Runtime Report in a browser. If you got a JSONL file and no report, something is wrong: open an issue.
+
+## Connect to what you already run
+
+| Captured at the boundary | Ingested from existing telemetry |
+| --- | --- |
+| Native recorder (`from halo import trace`) | OpenTelemetry GenAI spans |
+| MCP interceptor | LiteLLM callbacks |
+| LangChain / LangGraph callback | Langfuse export |
+| OpenAI Agents SDK hooks | Any gateway / reverse-proxy log |
+| Claude Code / Claude Agent SDK hook |  |
+
+Every record carries a `source` tag, so the report discloses how each piece of evidence was collected. Captured and ingested records live in the same chain.
+
+Anything that emits OpenTelemetry GenAI spans (CrewAI, LlamaIndex, and most agent frameworks with OTel instrumentation) lands in the chain through the OTel adapter, and the [TypeScript package](https://github.com/bkuan001/halo-record-ts) ships native adapters for the Vercel AI SDK and the JS agent ecosystem. Missing an adapter for your stack? Open an issue. Most adapters are about a hundred lines.
+
+## Record your coding agent
+
+Claude Code fires a `PostToolUse` hook after every tool call. Point it at `halo hook` and each action — file writes, shell commands, MCP connector calls — becomes a record in a local chain. No code changes; one settings entry:
+
+root@kitploit:~
+
+```
+{
+  "hooks": {
+    "PostToolUse": [
+      {"matcher": "*", "hooks": [{"type": "command", "command": "halo hook"}]}
+    ]
+  }
+}
+```
+
+Add that to `~/.claude/settings.json` and records land in `~/.halo/audit.jsonl` (override with `$HALO_LOG`). Pure-orchestration tools that touch no data, network, or external state are skipped — the chain records trust-boundary actions, not thinking. Set `HALO_HASH_ONLY=1` to record content hashes without summaries. Set `HALO_AGENT_VERSION` (and optionally `HALO_AGENT_MODEL`) to bind every record to the agent build that produced it — when an auditor asks about the version that was running in a given window, the export answers by column instead of by recollection.
+
+If you need the report to answer "under what rules did this run happen?", set `HALO_AUTHORITY_FILE` to a JSON snapshot of the effective authority for the session. Keep it privacy-safe: hashes and refs, not raw prompts, private policy text, secrets, or full tool schemas.
+
+root@kitploit:~
+
+```
+{
+  "snapshot_id": "auth_2026_07_08T1100Z",
+  "captured_at": "2026-07-08T11:00:00Z",
+  "scope": "session",
+  "workspace": {"path_hash": "sha256:...", "git_commit": "abc1234"},
+  "refs": [
+    {"kind": "project_rules", "id": "CLAUDE.md", "hash": "sha256:...", "loaded": true, "truncated": false},
+    {"kind": "mcp_tool_registry", "id": "filesystem", "hash": "sha256:..."}
+  ],
+  "omissions": [{"kind": "private_policy", "reason": "customer_secret", "hash": "sha256:..."}],
+  "stale_if": ["project_rules_hash_changed", "mcp_tool_registry_hash_changed"]
+}
+```
+
+root@kitploit:~
+
+```
+HALO_AUTHORITY_FILE=./authority.json halo hook
+```
+
+The snapshot is sealed into the same hash chain as the action records. A good default is one session-level snapshot at start, plus a new snapshot when rules, Skills, hooks, MCP tool registries, or compaction policy change. To keep long sessions lean, consecutive records with the same `authority.snapshot_id` are compacted after the first full snapshot: later records keep only `{"snapshot_id": "...", "same_as_previous": true}`. The pointer stays hash-chained, but the bulky refs/omissions/stale-if block is not repeated on every action. Then, the usual:
+
+root@kitploit:~
+
+```
+halo verify ~/.halo/audit.jsonl
+halo report ~/.halo/audit.jsonl -o report.html
+```
+
+Any agent runtime that exposes a post-action hook can feed the same command — the hook reads one event as JSON on stdin and appends one record.
+
+## Integrity vs. completeness (read this part)
+
+Be precise about what each layer proves — because they are different claims, and the differences are the point:
+
+A self-held chain proves **integrity relative to an established head**: given a chain head someone already holds, any edit, reordering, or deletion in the records behind it becomes detectable. By itself — before anyone outside the operator has seen a head — a chain proves internal consistency, not history: an operator could drop a record and re-seal, and the new file would verify. The chain becomes **historically committed** the moment its head leaves the operator's control.
+
+That is the witness: a party outside the operator holding periodic fingerprints of the chain (a count and a head hash, nothin...

@@ -1,0 +1,224 @@
+---
+title: PyMemoryEditor v2.1.0
+url: https://kitploit.com/en/posts/github-jeanextreme002-pymemoryeditor-v210
+source: Kitploit
+date: 2026-08-19
+fetch_date: 2026-08-20T02:55:15.387153
+---
+
+# PyMemoryEditor v2.1.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](/_next/image?url=https%3A%2F%2Fassets.kitploit.com%2Fproduction%2Fpublic%2Ftools%2F8411%2Faad09c3d92b7123b753fb1b9a7950622aac7d0f84f76b1992ca3e3defc4bf050.png&w=3840&q=75)
+
+New releaseAug 19, 2026
+
+# PyMemoryEditor v2.1.0
+
+A pure-Python library that lets you inspect, modify and search the memory of any running process in a few lines of Python :snake: .
+
+Share
+
+# PyMemoryEditor
+
+A pure-Python library (built on [ctypes](https://docs.python.org/3/library/ctypes.html)) that lets you **inspect, modify and search the memory of any running process in a few lines of Python** — Cheat Engine workflows on Windows, Linux and macOS!
+
+---
+
+![PyMemoryEditor logo](https://raw.githubusercontent.com/JeanExtreme002/PyMemoryEditor/main/PyMemoryEditor/app/assets/icon.svg)
+
+**Read, write and scan the memory of any process — straight from Python.**
+*One unified API. Three operating systems. No C compiler. No native build step.*
+
+Runs on **🪟 Windows** · **🐧 Linux** · **🍎 macOS** — 32-bit and 64-bit.
+
+[![Python Package](https://github.com/JeanExtreme002/PyMemoryEditor/actions/workflows/python-package.yml/badge.svg)](https://github.com/JeanExtreme002/PyMemoryEditor/actions/workflows/python-package.yml)
+[![Pypi](https://img.shields.io/pypi/v/PyMemoryEditor)](https://pypi.org/project/PyMemoryEditor/)
+[![License](https://img.shields.io/pypi/l/PyMemoryEditor)](https://github.com/JeanExtreme002/PyMemoryEditor)
+[![Python Version](https://img.shields.io/badge/python-3.10+-8A2BE2)](https://github.com/JeanExtreme002/PyMemoryEditor)
+[![Downloads](https://static.pepy.tech/personalized-badge/pymemoryeditor?period=total&units=international_system&left_color=grey&right_color=orange&left_text=Downloads)](https://pypi.org/project/PyMemoryEditor/)
+
+![PyMemoryEditor app attached to a running process](https://assets.kitploit.com/production/public/readmes/8411/aad09c3d92b7123b753fb1b9a7950622aac7d0f84f76b1992ca3e3defc4bf050.png)
+
+Tweak a value in a running game · inspect a live program's state ·
+harvest data straight from RAM.
+
+---
+
+## Install
+
+root@kitploit:~
+
+```
+pip install PyMemoryEditor
+```
+
+To also install the bundled GUI app (a Cheat Engine-style scanner), use the `app` extra:
+
+root@kitploit:~
+
+```
+pip install "PyMemoryEditor[app]"
+pymemoryeditor
+```
+
+For faster scans on large processes, add the `speed` extra. It pulls in NumPy
+and automatically vectorizes the numeric scan comparison loop — ~10–30× faster on
+selective scans:
+
+root@kitploit:~
+
+```
+pip install "PyMemoryEditor[speed]"
+```
+
+📖 Full guide at **[Read the Docs](https://pymemoryeditor.readthedocs.io)**.
+
+---
+
+## See it in action
+
+root@kitploit:~
+
+```
+from PyMemoryEditor import OpenProcess
+
+with OpenProcess(name="game.exe") as process:
+
+    # Scan the whole process for every address holding the value 100.
+    for address in process.search_by_value(int, value=100):
+        print(f"Found at 0x{address:X}")
+
+    # Read the current value, then write a new one back.
+    current = process.read_int(address)
+    process.write_int(address, current + 500)
+```
+
+That's it — read, write or scan another process in three lines, the same way on every platform.
+
+---
+
+## What's inside
+
+### 🐍 The Python library
+
+Full control over another process's memory — in a few lines of Python:
+
+* ✅ **Read & write** values (`int`, `float`, `bool`, `str`, `bytes`)
+* 🔍 **Value scan** with eight comparison modes
+* 🎯 **Pattern scan** (IDA-style AOB & regex)
+* 🔗 **Pointer chains** + a live `RemotePointer` handle
+* 🧭 **Pointer scan** — find static pointers that survive ASLR
+* 🗺️ **Memory map**, **modules**, **threads**
+* 🧱 **Allocate & free** remote memory (Windows / macOS)
+
+### 🖥️ The bundled GUI app
+
+All the library's power — no code required:
+
+* ⚡ **Zero setup** — attach to a process and start scanning in seconds
+* 🧲 **Refine workflow** — First Scan → Next Scan with live visual feedback
+* 📋 **Cheat table** — freeze / write values on the fly, JSON import/export
+* 🔬 **Hex viewer** — browse raw memory and write back inline
+* 🧩 **Pointer scan UI** — scan, export & rescan across sessions with a few clicks
+* 🎨 **One-click access** — every feature at your fingertips, no code needed
+
+---
+
+## 📖 Documentation
+
+Full documentation lives at **[pymemoryeditor.readthedocs.io](https://pymemoryeditor.readthedocs.io)** — installation, the Cheat Engine workflow, every method and parameter, the GUI app guide, platform notes and troubleshooting.
+
+A quick map of where to go:
+
+|  |  |
+| --- | --- |
+| [**Quick Start**](docs/quickstart.md) | Open a process, read, write and run your first scan. |
+| [**Searching memory**](docs/guide/searching.md) | Value scans, ranges, refining results, the Cheat Engine loop. |
+| [**Pattern scan**](docs/guide/pattern-scan.md) | Find code/data with byte signatures (AOB) and regex. |
+| [**Pointers**](docs/guide/pointers.md) | Multi-level pointer chains and the live `RemotePointer`. |
+| [**Pointer scan**](docs/guide/pointer-scan.md) | Find static pointers that survive ASLR. |
+| [**The GUI app**](docs/app.md) | The bundled Cheat Engine-style scanner. |
+| [**API reference**](docs/api/openprocess.md) | Every public class, method and parameter. |
+| [**Platform notes**](docs/platform-notes.md) | Permissions and quirks on Windows, Linux and macOS. |
+| [**Troubleshooting**](docs/troubleshooting.md) | Common errors and how to fix them. |
+
+---
+
+## What can I build with this?
+
+* 🎮 **Game modding & speedrunning tools** — the classic Cheat Engine use case.
+* 🔬 **Debugging & introspection** — inspect live state without attaching a debugger.
+* 📊 **Observability tooling** — sample variables in a running process for telemetry.
+* 🔐 **Security & reverse-engineering research** — on systems you own or are authorized to test.
+* 🎓 **Learning** — the bundled app is a great teaching tool for how memory scanning works.
+
+> [!NOTE]
+> **Responsible use.** PyMemoryEditor talks to other processes through OS-level APIs.
+> Only point it at processes you own or have explicit permission to inspect.
+
+---
+
+## 🤝 Contributing
+
+Pull requests, bug reports and feature ideas are very welcome. Read
+[`CONTRIBUTING.md`](https://github.com/jeanextreme002/pymemoryeditor/blob/HEAD/CONTRIBUTING.md) for the development setup, test layout and
+the small set of platform-specific quirks to be aware of.
+
+If PyMemoryEditor helped your project, please ⭐ the repo — it's the easiest way to
+support the work and to help others discover the library.
+
+---
+
+## License
+
+Released under the [MIT License](https://github.com/jeanextreme002/pymemoryeditor/blob/HEAD/LICENSE) — free for personal and commercial use.
+
+[Read more](/en/tools/github/jeanextreme002/pymemoryeditor?expand=1)
+
+## Categories
+
+[Memory Forensics](/en/categories/memory-forensics)[Exploitation](/en/categories/exploitation)[Reverse Engineering](/en/categories/reverse-engineering)[Debuggers](/en/categories/debuggers)[Binary Analysis](/en/categories/binary-analysis)[Learning & Education](/en/categories/education)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

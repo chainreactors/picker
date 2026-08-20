@@ -1,0 +1,151 @@
+---
+title: Titanis v0.9.333
+url: https://kitploit.com/en/posts/github-trustedsec-titanis-v09333
+source: Kitploit
+date: 2026-08-19
+fetch_date: 2026-08-20T02:55:16.108734
+---
+
+# Titanis v0.9.333
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](/_next/image?url=https%3A%2F%2Fassets.kitploit.com%2Fproduction%2Fpublic%2Ftools%2F7375%2F8d3a52bbe70c359089a96e22b8fb1b87ec4cb1378546b5a7146f0e7eb30801a4.png&w=3840&q=75)
+
+New releaseAug 19, 2026
+
+# Titanis v0.9.333
+
+Windows protocol library, including SMB and RPC implementations, among others.
+
+Share
+
+# Introduction
+
+Titanis is a library of protocol implementations and command line utilities, written in C#, for interacting with Windows environments. It uses .NET 8 and is cross-platform (Windows and Linux). Some of the protocols implemented:
+
+* SMB2 ([MS-SMB2](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-SMB2/%5BMS-SMB2%5D.pdf))
+  + SMB 2.x and 3.x up to 3.1.1
+  + Message security features such as signing and encryption
+  + Includes support for filesystem control codes ([MS-FSCC](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-FSCC/%5BMS-FSCC%5D.pdf))
+  + DFS links ([MS-DFSC](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-DFSC/%5BMS-DFSC%5D.pdf))
+* MSRPC ([MS-RPCE](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-RPCE/%5BMS-RPCE%5D.pdf))
+  + Endpoint mapper
+  + DCOM ([MS-DCOM](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-DCOM/%5BMS-DCOM%5D.pdf))
+  + EFS ([MS-EFSR](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-EFSR/%5BMS-EFSR%5D.pdf))
+  + LSA ([MS-LSAD](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-LSAD/%5BMS-LSAD%5D.pdf) and [MS-LSAT](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-LSAT/%5BMS-LSAT%5D.pdf))
+  + Remote Registry ([MS-RRP](https://winprotocoldoc.z19.web.core.windows.net/MS-RRP/%5BMS-RRP%5D.pdf))
+    - Includes support for backup semantics
+    - Includes SAM dump functionality
+  + Security Accounts Manager ([MS-SAMR](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-SAMR/%5BMS-SAMR%5D.pdf))
+  + Service Control Manager ([MS-SCMR](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-SCMR/%5BMS-SCMR%5D.pdf))
+  + Server service ([MS-SRVS](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-SRVS/%5BMS-SRVS%5D.pdf))
+  + WMI ([MS-WMI](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-WMI/%5BMS-WMI%5D.pdf) and [MS-WMIO](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-WMIO/%5BMS-WMIO%5D.pdf))
+  + Directory replication ([MS-DRSR][https://winprotocoldoc.z19.web.core.windows.net/MS-DRSR/%5bMS-DRSR%5d.pdf](https://winprotocoldoc.z19.web.core.windows.net/MS-DRSR/%5BMS-DRSR%5D.pdf)))
+* LDAP ([RFC 4511](https://datatracker.ietf.org/doc/html/rfc4511) and parts of [MS-ADTS](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-ADTS/%5BMS-ADTS%5D.pdf))
+* Security
+  + NTLM ([MS-NLMP](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-NLMP/%5BMS-NLMP%5D.pdf))
+  + Kerberos ([RFC4120](https://datatracker.ietf.org/doc/html/rfc4120) and [MS-KILE](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-KILE/%5BMS-KILE%5D.pdf))
+    - Inter-realm referrals
+    - PKINIT ([MS-PKCA](https://winprotocoldoc.z19.web.core.windows.net/MS-PKCA/%5BMS-PKCA%5D.pdf) and [RFC 4556](https://datatracker.ietf.org/doc/html/rfc4556))
+    - S4U ([MS-SFU](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-WMI/%5BMS-WMI%5D.pdf))
+      * S4U2self
+      * S4U2proxy
+    - Encryption profiles
+      * DES CBC MD5 ([RFC3961](https://datatracker.ietf.org/doc/html/rfc3961)) (AS only)
+      * RC4-HMAC ([RFC4757](https://datatracker.ietf.org/doc/html/rfc4757))
+      * AES 128/256 ([RFC3962](https://datatracker.ietf.org/doc/html/rfc3962))
+      * Support for .kirbi and [ccache](https://web.mit.edu/kerberos/krb5-1.21/doc/formats/ccache_file_format.html) files
+      * Support for [keytab](https://web.mit.edu/kerberos/krb5-devel/doc/formats/keytab_file_format.html) files
+    - Change / set password ([RFC3244](https://datatracker.ietf.org/doc/html/rfc3244))
+  + SP-NEGO ([MS-SPNG](https://winprotocoldocs-bhdugrdyduf5h2e4.b02.azurefd.net/MS-SPNG/%5BMS-SPNG%5D.pdf))
+* Integrated SOCKS 5 support (`-Socks5` parameter) ([RFC1928](https://datatracker.ietf.org/doc/html/rfc1928))
+
+For recent changes, see the [change log](https://github.com/trustedsec/titanis/blob/HEAD/CHANGELOG.md)
+
+For an overview on supported authentication scenarios, see [Authentication](https://github.com/trustedsec/titanis/blob/HEAD/doc/UserGuide/syntax-auth.md) - Describes how to control authentication with parameters
+
+The toolset implements callbacks and logging features to integrate into your operational environment.
+
+For a list of command line tools and tasks you can perform with them, check the [Tool Index](https://github.com/trustedsec/titanis/blob/HEAD/doc/UserGuide/tools/index.md)
+
+# Target Audience
+
+* **Security researchers** - Research how Windows reacts to various types of requests
+* **Pentesters** - Perform actions and test whether mitigations are enabled and functioning properly
+* **System administrators** - Perform administrative tasks
+
+# Getting Started
+
+[Build Instructions](https://github.com/trustedsec/titanis/blob/HEAD/BUILD.md)
+
+If you are a user, see the [User Guide](https://github.com/trustedsec/titanis/blob/HEAD/doc/UserGuide/index.md) for a list of command line utilities and how to use them.
+
+If you are a developer, see the [Developer Guide](https://github.com/trustedsec/titanis/blob/HEAD/doc/DevGuide/index.md) for information on how to enhance the code base.
+
+# Planned Enhancements
+
+* Task Scheduler support ([MS-TSCH](https://winprotocoldoc.z19.web.core.windows.net/MS-TSCH/%5BMS-TSCH%5D.pdf))
+* Simplified credential management
+* Integrated SOCKS 4a
+
+# Project Organization
+
+* **doc/** - Project documentation
+* **src/** - Source code for protocol implementations
+* **test/** - Unit tests
+* **tools/** - Standalone command line tools
+* **samples/** - Sample code that demonstrates how to use the libraries
+
+Within Titanis.sln, the projects are grouped into the following functional areas:
+
+* **Base** - Utilities used by other components
+* **Crypto** - Implementation of cryptographic algorithms
+* **Formats** - Implementations for reading and writing various formats, such as ASN.1
+* **Protocols** - Network protocol implementations
+* **Security** - Security protocol implementations, such as NTLM and Kerberos
+* **Test** - Unit tests
+* **Tools** - Standalone command line tools
+* **\_Build** - Files relevant to the build process.
+
+Several of the projects contain a file named `References.txt` that references the specifications consulted during development. The source code contains references to these specifications, usually along with the relevant section number.
+
+[Read more](/en/tools/github/trustedsec/titanis?expand=1)
+
+## Categories
+
+[Privilege Escalation](/en/categories/privilege-escalation)[Exploitation](/en/categories/exploitation)[Lateral Movement](/en/categories/lateral-movement)[Information Gathering](/en/categories/information-gathering)[Network Security](/en/categories/network-security)[Cryptography](/en/categories/cryptography)[Penetration Testing](/en/categories/penetration-testing)[Utilities & Frameworks](/en/categories/utilities-frameworks)[Authentication](/en/categories/authentication)[Red Teaming](/en/categories/red-teaming)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](...
