@@ -1,0 +1,121 @@
+---
+title: jumpserver v4.10.19
+url: https://kitploit.com/en/posts/github-jumpserver-jumpserver-v41019
+source: Kitploit
+date: 2026-08-20
+fetch_date: 2026-08-21T03:02:44.036601
+---
+
+# jumpserver v4.10.19
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/9035/0f9c64e97e720e22b1483be483fa6ea8438dee812c3d54b8b018a55155b9fff8.png)
+
+New releaseAug 20, 2026
+
+# jumpserver v4.10.19
+
+JumpServer is an open-source Privileged Access Management (PAM) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser.
+
+Share
+
+[![JumpServer](https://download.jumpserver.org/images/jumpserver-logo.svg)](https://jumpserver.com)
+
+## An open-source PAM platform (Bastion Host)
+
+[![](https://img.shields.io/github/license/jumpserver/jumpserver)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![](https://img.shields.io/badge/documentation-148F76)](https://jumpserver.com/docs)
+[![](https://img.shields.io/badge/deepwiki-devin?color=blue)](https://deepwiki.com/jumpserver/jumpserver/)
+[![](https://img.shields.io/discord/1194233267294052363?style=flat&logo=discord&logoColor=%23f5f5f5&labelColor=%235462eb&color=%235462eb)](https://discord.com/invite/W6vYXmAQG2)
+[![](https://img.shields.io/docker/pulls/jumpserver/jms_all.svg)](https://hub.docker.com/u/jumpserver)
+[![](https://img.shields.io/github/v/release/jumpserver/jumpserver)](https://github.com/jumpserver/jumpserver/releases/latest)
+[![](https://img.shields.io/github/stars/jumpserver/jumpserver?color=%231890FF&style=flat-square%C2%A0%C2%A0%C2%A0)](https://github.com/jumpserver/jumpserver)
+
+[English](https://github.com/jumpserver/jumpserver/blob/HEAD/README.md) · [中文(简体)](https://github.com/jumpserver/jumpserver/blob/HEAD/readmes/README.zh-hans.md) · [中文(繁體)](https://github.com/jumpserver/jumpserver/blob/HEAD/readmes/README.zh-hant.md) · [日本語](https://github.com/jumpserver/jumpserver/blob/HEAD/readmes/README.ja.md) · [Português (Brasil)](https://github.com/jumpserver/jumpserver/blob/HEAD/readmes/README.pt-br.md) · [Español](https://github.com/jumpserver/jumpserver/blob/HEAD/readmes/README.es.md) · [Русский](https://github.com/jumpserver/jumpserver/blob/HEAD/readmes/README.ru.md) · [한국어](https://github.com/jumpserver/jumpserver/blob/HEAD/readmes/README.ko.md)
+
+## What is JumpServer?
+
+JumpServer is an open-source Privileged Access Management (PAM) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser.
+
+![Theme-based Image](https://assets.kitploit.com/production/public/readmes/9035/09538539687331d9ed237c4af8d43e4c22e874e789759d2dfa6e4ac6d6d0205f.png)
+
+## Quickstart
+
+Prepare a clean Linux Server ( 64 bit, >= 4c8g )
+
+root@kitploit:~
+
+```
+curl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quick_start.sh | bash
+```
+
+Access JumpServer in your browser at `http://your-jumpserver-ip/`
+
+* Username: `admin`
+* Password: `ChangeMe`
+
+[![JumpServer Quickstart](https://assets.kitploit.com/production/public/readmes/9035/759708aa6f65c57cf47d03102b258802b2053c79879217cf3189e3a242a44f81.png)](https://www.youtube.com/watch?v=UlGYRbKrpgY "JumpServer Quickstart")
+
+## Screenshots
+
+|  |  |
+| --- | --- |
+| ![JumpServer Console](https://assets.kitploit.com/production/public/readmes/9035/e3641334ea2bb048d4631dee65b996786d898f8e02a5cc77ac20ad0ef54eda9f.png) | ![JumpServer PAM](https://assets.kitploit.com/production/public/readmes/9035/e9d8acdb1188308dcdd37063e56364285e7479fedc5631f2e3e712471793b544.png) |
+| ![JumpServer Audits](https://assets.kitploit.com/production/public/readmes/9035/b513214a2cb23628c364ac204471c346d3973a845312347cb38c9bcf5e02d080.png) | ![JumpServer Workbench](https://assets.kitploit.com/production/public/readmes/9035/e2a1c2dc94603bebf8792e2ec53055cfd03e71613deee8091cc17549d50aa34a.png) |
+| ![JumpServer RBAC](https://assets.kitploit.com/production/public/readmes/9035/f62a914f5c973ded2907801d3b07597fde6859b05e09a7678d28681d2dcc4ca2.png) | ![JumpServer Settings](https://assets.kitploit.com/production/public/readmes/9035/c050f93bc1b43c9f034e43131fab768241c9464b913af04308198fcba9f010de.png) |
+| ![JumpServer SSH](https://assets.kitploit.com/production/public/readmes/9035/0f9c64e97e720e22b1483be483fa6ea8438dee812c3d54b8b018a55155b9fff8.png) | ![JumpServer RDP](https://assets.kitploit.com/production/public/readmes/9035/c37a85388ee3917e46e82988431085ed673e179a2f3584163dcf8db8e72ba6f9.png) |
+| ![JumpServer K8s](https://assets.kitploit.com/production/public/readmes/9035/811887db48994c88851895c93a81d66396b2e7b346e0a269af9b84de0ccfc3a4.png) | ![JumpServer DB](https://assets.kitploit.com/production/public/readmes/9035/aac4028a24784135fd08c224c391681c0cdab304b3bb8e6fcbcfc2320dbe5f17.png) |
+
+## Components
+
+JumpServer consists of multiple key components, which collectively form the functional framework of JumpServer, providing users with comprehensive capabilities for operations management and security control.
+
+| Project | Status | Description |
+| --- | --- | --- |
+| [Lina](https://github.com/jumpserver/lina) | [![Lina release](https://img.shields.io/github/release/jumpserver/lina.svg)](https://github.com/jumpserver/lina/releases) | JumpServer Web UI |
+| [Luna](https://github.com/jumpserver/luna) | [![Luna release](https://img.shields.io/github/release/jumpserver/luna.svg)](https://github.com/jumpserver/luna/releases) | JumpServer Web Terminal |
+| [KoKo](https://github.com/jumpserver/koko) | [![Koko release](https://img.shields.io/github/release/jumpserver/koko.svg)](https://github.com/jumpserver/koko/releases) | JumpServer Character Protocol Connector |
+| [Lion](https://github.com/jumpserver/lion) | [![Lion release](https://img.shields.io/github/release/jumpserver/lion.svg)](https://github.com/jumpserver/lion/releases) | JumpServer Graphical Protocol Connector |
+| [Chen](https://github.com/jumpserver/chen) | [![Chen release](https://img.shields.io/github/release/jumpserver/chen.svg)](https://github.com/jumpserver/chen/releases) | JumpServer Web DB |
+| [Client](https://github.com/jumpserver/clients) | [![Clients release](https://img.shields.io/github/release/jumpserver/clients.svg)](https://github.com/jumpserver/clients/releases) | JumpServer Client |
+| [Tinker](https://github.com/jumpserver/tinker) | ![Tinker](https://img.shields.io/badge/release-private-red) | JumpServer Remote Application Connector (Windows) |
+| [Panda](https://github.com/jumpserver/Panda) | ![Panda](https://img.shields.io/badge/release-private-red) | JumpServer EE Remote Application Connector (Linux) |
+| [Razor](https://github.com/jumpserver/razor) | ![Chen](https://img.shields.io/badge/release-private-red) | JumpServer EE RDP Proxy Connector |
+| [Magnus](https://github.com/jumpserver/magnus) | ![Magnus](https://img.shields.io/badge/release-private-red) | JumpServer EE Database Proxy Connector |
+| [Nec](https://github.com/jumpserver/nec) | ![Nec](https://img.shields.io/badge/release-private-red) | JumpServer EE VNC Proxy Connector |
+| [Facelive](https://github.com/jumpserver/facelive) | ![Facelive](https://img.shields.io/badge/release-private-red) | JumpServer EE Facial Recognition |
+
+## Third-party projects
+
+* [jumpserver-grafana-dashboard](https://github.com/acerrah/jumpserver-grafana-dashboard) JumpServer with grafana dashboard
+
+## Contributing
+
+Welcome to submit PR to contribute. Please refer to [CONTRIBUTING.md](https://raw.githubusercontent.com/jumpserver/jumpserver/dev/CONTRIBUTING.md) for guidelines.
+
+## License
+
+Copyright (c) 2014-2026 FIT2CLOUD, All rights reserved.
+
+Licensed under The GNU General Public License version 3 (GPLv3) (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+<https://www.gnu.org/licenses/gpl-3.0.html>
+
+Unless required by ap...

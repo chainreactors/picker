@@ -1,0 +1,215 @@
+---
+title: DockSec v2026.8.19
+url: https://kitploit.com/en/posts/github-owasp-docksec-v2026819
+source: Kitploit
+date: 2026-08-20
+fetch_date: 2026-08-21T03:02:36.719604
+---
+
+# DockSec v2026.8.19
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/39487/d30ee74abf3ad22a447ed36ba3010acab606147bc21702a1fb428b8633298caf.png)
+
+New releaseAug 20, 2026
+
+# DockSec v2026.8.19
+
+AI-powered Docker security scanner that explains vulnerabilities in plain English. An OWASP Lab Project.
+
+Share
+
+[![OWASP](https://img.shields.io/badge/Lab-blue?&label=level&style=for-the-badge)](https://owasp.org/DockSec/) [![OWASP](https://img.shields.io/badge/Code-blue?label=type&style=for-the-badge)](https://owasp.org/DockSec/) [![project-docksec](https://img.shields.io/badge/%23project--docksec-blue?label=slack&logoColor=white&style=for-the-badge)](https://owasp.slack.com/archives/C0APXGCUW7M) [![Build Status](https://img.shields.io/github/actions/workflow/status/OWASP/DockSec/python-app.yml?branch=main&style=for-the-badge&label=Build&color=blue)](https://github.com/OWASP/DockSec/actions)
+
+[![OpenSSF Best Practices](https://img.shields.io/cii/level/12939?label=openssf%20best%20practices&style=for-the-badge)](https://www.bestpractices.dev/projects/12939)
+
+[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](https://github.com/OWASP/DockSec/blob/main/LICENSE) [![Last Commit](https://img.shields.io/github/last-commit/OWASP/DockSec/main?color=blue&style=for-the-badge&label=Last%20commit)](https://github.com/OWASP/DockSec/commits/main/) [![Contributors](https://img.shields.io/github/contributors/OWASP/DockSec?style=for-the-badge&label=Contributors&color=blue)](https://github.com/OWASP/DockSec/graphs/contributors)
+
+[![Forks](https://img.shields.io/github/forks/OWASP/DockSec?style=for-the-badge&label=Forks&color=blue)](https://github.com/OWASP/DockSec/network/members) [![Stars](https://img.shields.io/github/stars/OWASP/DockSec?style=for-the-badge&label=Stars&color=blue)](https://github.com/OWASP/DockSec/stargazers) ![PyPI Downloads](https://img.shields.io/pepy/dt/docksec?style=for-the-badge&color=blue)
+
+[![Issues](https://img.shields.io/github/issues/OWASP/DockSec?color=blue&style=for-the-badge&label=Issues)](https://github.com/OWASP/DockSec/issues) [![Pull Requests](https://img.shields.io/github/issues-pr/OWASP/DockSec?color=blue&style=for-the-badge&label=Pull%20Requests)](https://github.com/OWASP/DockSec/pulls)
+
+[![CREATED](https://img.shields.io/badge/created-feb,%202025-blue?style=for-the-badge)](https://github.com/OWASP/DockSec/commit/80664db8935e4b5ab44df5867913e)
+
+![DockSec Logo](https://assets.kitploit.com/production/public/readmes/39487/d30ee74abf3ad22a447ed36ba3010acab606147bc21702a1fb428b8633298caf.png)
+
+![OWASP Logo](https://assets.kitploit.com/production/public/readmes/39487/009ae678c48ab2738e17c17c238c83cb2481510fbc2bf9d7284ea80ec487feda.png)
+
+# [DockSec](https://owasp.org/DockSec/)
+
+**AI-powered Docker security scanner that explains vulnerabilities in plain English**
+
+---
+
+## What is DockSec?
+
+DockSec is an **OWASP Lab Project** that bridges the gap between complex security scan results and actionable developer fixes. It integrates industry-standard scanners (Trivy, Hadolint, Docker Scout) with AI to provide **context-aware security analysis**.
+
+Instead of overwhelming you with a list of 200+ CVEs, DockSec:
+
+* **Prioritizes** what actually affects your specific container setup.
+* **Explains** vulnerabilities in plain English, not just security jargon.
+* **Suggests** specific fixes for your Dockerfile.
+* **Generates** professional, interactive security reports for your team.
+
+Everything scans locally; the only thing that ever leaves your machine is the (secret-redacted) file content sent to the AI provider you choose - and with a local model or scan-only mode, nothing leaves at all. See [Data flow and privacy](#data-flow-and-privacy).
+
+---
+
+## How It Works
+
+![DockSec Workflow](https://assets.kitploit.com/production/public/readmes/39487/99b4247f599cc8f7a260f285815f8793ca4d2c050ea6656480818a846d590fb0.png)
+
+*DockSec workflow: from scanning to actionable insights*
+
+DockSec follows a four-stage pipeline:
+
+1. **Scan**: Runs Trivy, Hadolint, and Docker Scout locally on your environment.
+2. **Analyze**: AI correlates findings across all scanners to remove noise and assess real-world impact.
+3. **Recommend**: Generates human-readable explanations and specific remediation steps.
+4. **Report**: Exports actionable results as HTML, PDF, JSON, CSV, SARIF, and CycloneDX SBOM.
+
+---
+
+## Getting Started
+
+### 1. Prerequisites
+
+DockSec orchestrates local scanners, so it needs:
+
+| Requirement | Needed for | Install |
+| --- | --- | --- |
+| Python 3.12+ | DockSec itself | [python.org](https://www.python.org/downloads/) |
+| Trivy | All scans (required) | `brew install trivy` or [Trivy docs](https://trivy.dev/latest/getting-started/installation/) |
+| Hadolint | Dockerfile linting | `brew install hadolint` or [Hadolint docs](https://github.com/hadolint/hadolint#install) |
+| Docker | Image scans (`-i`) | [Docker docs](https://docs.docker.com/get-docker/) |
+
+Or let DockSec install Trivy and Hadolint for you:
+
+root@kitploit:~
+
+```
+python -m docksec.setup_external_tools
+```
+
+### 2. Install DockSec
+
+root@kitploit:~
+
+```
+# Full install with AI analysis support (recommended)
+pip install "docksec[ai]"
+
+# Or the slim, scan-only core (no LLM dependencies, no API key needed)
+pip install docksec
+```
+
+### 3. Run your first scan
+
+No API key needed for local scanning:
+
+root@kitploit:~
+
+```
+docksec Dockerfile --scan-only
+```
+
+Every scan ends with a result summary: a severity table, a 0-100 security score with a
+rating, a "Quick take" action block, the generated reports (saved to
+`~/.docksec/results/` by default), and a suggested next command.
+
+### 4. Enable AI analysis
+
+AI analysis explains findings and suggests fixes. Pick a provider, set its API key, and run:
+
+root@kitploit:~
+
+```
+# OpenAI (default provider)
+export OPENAI_API_KEY="sk-..."
+docksec Dockerfile
+
+# Anthropic Claude
+export ANTHROPIC_API_KEY="sk-ant-..."
+docksec Dockerfile --ai-only --provider anthropic --model claude-sonnet-5
+
+# Google Gemini
+export GOOGLE_API_KEY="..."
+docksec Dockerfile --ai-only --provider google
+
+# Ollama (fully local, no API key, data never leaves your machine)
+docksec Dockerfile --ai-only --provider ollama --model llama3.1
+```
+
+Each provider has a sensible default model (OpenAI: `gpt-4o`, Anthropic:
+`claude-haiku-4-5`, Google: `gemini-1.5-pro`, Ollama: `llama3.1`), so `--model` is
+optional. To avoid repeating flags, set environment variables (or put them in a `.env`
+file in the directory you run from - DockSec loads it automatically):
+
+root@kitploit:~
+
+```
+export LLM_PROVIDER=anthropic
+export LLM_MODEL=claude-sonnet-5
+docksec Dockerfile
+```
+
+Before any content is sent to an AI provider, secret-looking values (passwords, tokens,
+API keys, private key blocks) are masked automatically. See
+[Data flow and privacy](#data-flow-and-privacy).
+
+### 5. Or use the GitHub Action
+
+root@kitploit:~
+
+```
+- name: Run DockSec AI Scanner
+  uses: OWASP/[email protected]
+  with:
+    dockerfile: 'Dockerfile'
+    openai_api_key: ${{ secrets.OPENAI_API_KEY }}
+```
+
+---
+
+## Common Commands
+
+root@kitploit:~
+
+```
+# Scan Dockerfile + Docker image (AI + scanners)
+docksec Dockerfile -i myapp:latest
+
+# Scan a Docker Compose file and all its services
+docksec --compose docker-compose.yml
+
+# Scan only a Docker image
+docksec --image-only -i myapp:latest
+
+# Fast local scan, no AI, no API key
+docksec Dockerfile --scan-only
+
+# Choose which severity levels the image scan reports (default: CRITICAL,HIGH)
+docksec -i myapp:latest --image-only --severity CRITICAL,HIGH,MEDIUM
+
+# Fail the build (exit 1) if any finding is HIGH or above
+docksec -i myapp:latest --image-only --fail-on high
+
+# Write...

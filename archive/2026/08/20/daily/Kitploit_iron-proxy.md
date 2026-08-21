@@ -1,0 +1,251 @@
+---
+title: iron-proxy
+url: https://kitploit.com/en/tools/github/paradigmxyz/iron-proxy
+source: Kitploit
+date: 2026-08-20
+fetch_date: 2026-08-21T03:03:21.054091
+---
+
+# iron-proxy
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/paradigmxyz/iron-proxy
+
+![](https://assets.kitploit.com/production/public/tools/50516/c9573167ad03148a0eec368c8cd91907d5890d9b8fa75334b2e5db285043db61.gif)
+
+[Container Security](/en/categories/container-security)[Web Proxies & Interception](/en/categories/web-proxies-interception)[Data Exfiltration](/en/categories/data-exfiltration)[Web Security](/en/categories/web-security)[Network Security](/en/categories/network-security)[Cloud Security](/en/categories/cloud-security)[DevSecOps](/en/categories/devsecops)[Database Security](/en/categories/database-security)
+
+![GitHub](/providers/github.png)paradigmxyz/iron-proxy
+
+# iron-proxy
+
+An egress firewall for untrusted workloads.
+
+[View Repository](https://github.com/paradigmxyz/iron-proxy)
+
+61236275 days ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+[Website](https://docs.iron.sh)
+
+# iron-proxy
+
+[![Docs](https://img.shields.io/badge/docs-iron--proxy-blue)](https://docs.iron.sh)
+[![Latest Release](https://img.shields.io/github/v/release/ironsh/iron-proxy)](https://github.com/ironsh/iron-proxy/releases/latest)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ironsh/iron-proxy)](https://hub.docker.com/r/ironsh/iron-proxy)
+
+## The problem
+
+CI jobs, AI coding agents, and sandboxed containers can make arbitrary outbound
+requests. A compromised dependency, a prompt injection, or a malicious build
+step can exfiltrate secrets, phone home, or open a reverse shell. Most
+teams have zero visibility into what's leaving their workloads, let alone any
+way to stop it.
+
+## What iron-proxy does
+
+iron-proxy is a MITM egress proxy with a built-in DNS server that sits between
+your untrusted workload and the internet. It enforces default-deny at the
+network boundary, so the workload can only reach domains you explicitly allow.
+Real secrets never enter the sandbox. Workloads use proxy tokens, and
+iron-proxy swaps in real credentials at egress, meaning a compromised workload
+can exfiltrate a token that's worthless outside the proxy.
+
+Single binary. Single YAML config.
+
+* **Default-deny egress.** Every outbound request is blocked unless the
+  destination matches your allowlist. List your domains and CIDRs, everything
+  else gets a 403.
+* **Upstream IP deny list.** Even when a host is allowed, the proxy refuses
+  to dial it if its resolved address falls inside a denied CIDR — closing
+  the SSRF/DNS-rebinding gap where an allowlisted hostname points at IMDS
+  or loopback. Cloud metadata endpoints (`169.254.169.254`,
+  `fd00:ec2::254`, and `fd20:ce::254`) and loopback are denied by default;
+  override via `proxy.upstream_deny_cidrs` or
+  `IRON_PROXY_UPSTREAM_DENY_CIDRS`.
+* **Boundary-level secret injection.** Workloads send proxy tokens; iron-proxy
+  replaces them with real secrets before the request leaves. If the sandbox is
+  compromised, the attacker gets tokens that are useless outside the proxy.
+* **Per-request audit trail.** Every request logged as structured JSON with
+  the full transform pipeline result: which secrets were swapped, which rules
+  matched, what got blocked and why.
+* **Streaming-aware.** WebSocket upgrades and Server-Sent Events are proxied
+  natively. No special configuration for agent workloads that hold long-lived
+  connections.
+* **Explicit proxy support.** Optional tunnel listener for tools that natively
+  support proxy configuration via `HTTP_PROXY`, `HTTPS_PROXY`, or SOCKS5
+  settings.
+* **PostgreSQL MITM proxy.** Optional listener that authenticates clients
+  against proxy-managed credentials, injects `SET ROLE` on the upstream
+  session, and rejects client attempts to mutate the role (`SET ROLE`,
+  `set_config('role', ...)`, DO blocks, etc.) via a SQL AST walk. Pairs with
+  PostgreSQL row-level security to give per-tenant data isolation when the
+  application connects as a shared service-account user. **Requires
+  PgBouncer (if used) to run in `pool_mode = session`** — transaction or
+  statement pool modes silently rebind backends between queries and would
+  defeat the policy. See [docs.iron.sh](https://docs.iron.sh) for details.
+
+Built for CI pipelines, GitHub Actions, AI agents (Claude Code, Cursor,
+Codex), and any environment where you run code you don't fully trust.
+
+**Blocked exfiltration + secret rewriting in action:**
+
+[![](https://assets.kitploit.com/production/public/readmes/50516/c9573167ad03148a0eec368c8cd91907d5890d9b8fa75334b2e5db285043db61.gif)](https://screen.studio/share/Gq2zqtrp)
+
+## Installation
+
+Docker images are available on [Docker Hub](https://hub.docker.com/r/ironsh/iron-proxy)
+and pre-built binaries for Linux/macOS (amd64/arm64) are on
+[GitHub Releases](https://github.com/ironsh/iron-proxy/releases).
+
+Or build from source:
+
+root@kitploit:~
+
+```
+go build -o iron-proxy ./cmd/iron-proxy
+```
+
+## Quick start
+
+root@kitploit:~
+
+```
+cd examples/docker-compose
+docker compose up
+```
+
+This starts iron-proxy and a demo client that fires five requests through the
+proxy. Check the logs to see allowed, blocked, and secret-rewritten requests:
+
+root@kitploit:~
+
+```
+docker compose logs proxy
+```
+
+Every request produces a structured JSON audit entry:
+
+root@kitploit:~
+
+```
+{
+  "host": "httpbin.org",
+  "method": "GET",
+  "path": "/headers",
+  "action": "allow",
+  "status_code": 200,
+  "duration_ms": 142,
+  "request_transforms": [
+    { "name": "allowlist", "action": "continue" },
+    {
+      "name": "secrets",
+      "action": "continue",
+      "annotations": { "swapped": [{ "secret": "OPENAI_API_KEY", "locations": ["header:Authorization"] }] }
+    }
+  ]
+}
+```
+
+Rejected requests include a `rejected_by` field and log at WARN level. See
+[Audit log format](#audit-log-format) for the full schema.
+
+## Production usage
+
+### 1. Generate a CA
+
+iron-proxy terminates TLS by generating leaf certificates on the fly, signed by
+a CA you provide. Client containers must trust this CA.
+
+root@kitploit:~
+
+```
+mkdir -p certs
+openssl genrsa -out certs/ca.key 4096
+openssl req -x509 -new -nodes \
+    -key certs/ca.key \
+    -sha256 -days 3650 \
+    -subj "/CN=iron-proxy CA" \
+    -addext "basicConstraints=critical,CA:TRUE" \
+    -addext "keyUsage=critical,keyCertSign" \
+    -out certs/ca.crt
+```
+
+### 2. Create a Docker network
+
+iron-proxy needs a fixed IP so containers can point their DNS at it:
+
+root@kitploit:~
+
+```
+docker network create --subnet=172.20.0.0/24 iron-proxy
+```
+
+### 3. Start iron-proxy
+
+Create an env file with your secrets (keep this out of version control):
+
+root@kitploit:~
+
+```
+echo "OPENAI_API_KEY=sk-real-key" > .env
+```
+
+root@kitploit:~
+
+```
+docker run -d --name iron-proxy \
+  --network iron-proxy --ip 172.20.0.2 \
+  -v $(pwd)/proxy.yaml:/etc/iron-proxy/proxy.yaml:ro \
+  -v $(pwd)/certs/ca.crt:/etc/iron-proxy/ca.crt:ro \
+  -v $(pwd)/certs/ca.key:/etc/iron-proxy/ca.key:ro \
+  --env-file .env \
+  ironsh/iron-proxy:latest -config /etc/iron-proxy/proxy.yaml
+```
+
+### 4. Route containers through the proxy
+
+The simplest approach is DNS-based routing: point the container's DNS at
+iron-proxy and all ho...

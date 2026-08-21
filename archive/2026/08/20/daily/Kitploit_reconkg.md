@@ -1,0 +1,208 @@
+---
+title: reconkg
+url: https://kitploit.com/en/tools/github/xghst0/reconkg
+source: Kitploit
+date: 2026-08-20
+fetch_date: 2026-08-21T03:03:05.436872
+---
+
+# reconkg
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+reconkg — Vulnerability triage with provenance. Resolves CVEs from locally built corpora (NVD/KEV/EPSS, ExploitDB, nmap script.db) and emits verification commands classified by what running them does to the target. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/xghst0/reconkg
+
+![](https://assets.kitploit.com/production/public/tools/50572/5e5fd7aa9a2208168ef7ab21fe29c92fd95513ebeafa72c91df473bf01d93c98.png)
+
+[Threat Feeds & Aggregators](/en/categories/threat-feeds-aggregators)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Network Security](/en/categories/network-security)[Penetration Testing](/en/categories/penetration-testing)[Threat Intelligence](/en/categories/threat-intelligence)
+
+![GitHub](/providers/github.png)xghst0/reconkg
+
+# reconkg
+
+Vulnerability triage with provenance. Resolves CVEs from locally built corpora (NVD/KEV/EPSS, ExploitDB, nmap script.db) and emits verification commands classified by what running them does to the target.
+
+[View Repository](https://github.com/xghst0/reconkg)
+
+1220h 28m ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# reconkg
+
+A vulnerability triage tool. It takes what a scan already found, works out
+which CVEs plausibly apply, tells you how confident it is and why, and gives
+you the commands to check for yourself.
+
+It does not scan anything, and it does not exploit anything.
+
+## Install on Kali
+
+root@kitploit:~
+
+```
+git clone https://github.com/xGhst0/reconkg && cd reconkg && pip install -e . --break-system-packages && python -m reconkg.selfcheck
+```
+
+That last step reports what it can and cannot see: whether nmap's `script.db`
+was found, which corpora are configured, and how many realistic fingerprints
+actually produce a lead. Run it first. Out of the box the answer is "nine
+hand-written CVEs", and `selfcheck` says so rather than letting you assume
+otherwise.
+
+## Getting a real corpus
+
+The nine built-in entries are a demonstration fixture. For anything real:
+
+root@kitploit:~
+
+```
+export NVD_API_KEY=...          # free: https://nvd.nist.gov/developers/request-an-api-key
+python -m reconkg.fetch  --dest ~/.reconkg/feeds --all
+python -m reconkg.builddb --feeds ~/.reconkg/feeds --out ~/.reconkg/vuln.db
+
+export RECONKG_VULN_DB=~/.reconkg/vuln.db
+export RECONKG_EXPLOIT_DB=~/.reconkg/exploits.db
+export RECONKG_SCRIPT_DB=/usr/share/nmap/scripts/script.db
+```
+
+Without the API key NVD throttles to 5 requests per 30 seconds and the full
+pull takes about four hours instead of twenty-five minutes. It checkpoints,
+so an interrupted pull resumes. `--since` pulls only what changed.
+
+If a corpus variable is set and the file cannot be opened, reconkg refuses to
+start. Quietly serving nine entries when you asked for 300,000 would mean a
+scan that finds nothing and looks like it worked.
+
+## Use it
+
+root@kitploit:~
+
+```
+python -m reconkg.app        # web UI on localhost
+python -m reconkg.console    # REPL
+```
+
+The UI shows the knowledge graph with provenance on click, so you can see
+*why* a CVE was attached to a host rather than trusting a score, and a ledger
+ordered by triage priority with KEV and EPSS weighed in.
+
+## What it will and will not hand you
+
+Every suggested command carries an [NSE
+category](https://nmap.org/book/nse-usage.html) describing what running it
+does to the target. That vocabulary is nmap's, not invented here.
+
+The last row is the boundary. If a working exploit exists for a lead,
+reconkg tells you the module or template and where to find it. It does not
+assemble that into an invocation with your target already in it. Metasploit
+suggestions stop at `show options` — the step where you read RHOSTS back and
+confirm it is the host you are authorised against.
+
+That is one keystroke of difference on a box you own, and a much larger
+difference in what the tool is.
+
+Safety is classified per *check*, never per tool. That is not fussiness:
+current nuclei CVE templates achieve detection **by exploiting** — one posts
+a `subprocess.run('cat /etc/passwd')` payload through a Langflow RCE and
+matches on `root:.*:0:0:`. Anything that assumes "nuclei detects, Metasploit
+exploits" is wrong at the first template it meets, so nuclei is treated as
+unclassified and sits behind the opt-in.
+
+## Honest limits
+
+* **Version inference is blind to backporting.** RHEL and Debian patch in
+  place without changing the version string, so a version match is not a
+  patch-level match. Leads say so.
+* **Most boxes do not fall to a version→CVE path.** Web logic flaws,
+  credential reuse, SUID/sudo misconfiguration and AD abuse have no CVE to
+  match, and no corpus size changes that. `selfcheck` prints the real hit
+  rate rather than a flattering one.
+* **A stale corpus under-reports silently.** Every CVE published since the
+  last build is simply absent, reported with the same confidence as a true
+  negative. `describe()` marks a corpus stale past 30 days and names which
+  feed is old.
+
+## Development
+
+root@kitploit:~
+
+```
+pip install -r requirements-dev.txt
+python -m pytest tests/ -q          # 1219 tests
+python -m audit.mutation            # mutation testing, 12 targets at 100%
+python -m audit.scale_bench         # corpus scale benchmark
+```
+
+`docs/` carries the design notes and the reasoning behind the decisions
+above. `audit/AUDIT.md` is the finding record: 47 findings across ten
+adversarial rounds, including an analysis of the one bug shape that accounts
+for 13 of them and an honest assessment of what has and has not prevented it.
+
+## Licence
+
+MIT — see `LICENSE`.
+
+reconkg ships no vulnerability data. The corpora are built on your machine
+from feeds you fetch yourself, which keeps their licences yours to honour;
+ExploitDB's index in particular is GPL-2.0-or-later and is deliberately never
+redistributed here.
+
+## Use it on things you are allowed to touch
+
+Everything reconkg emits is a suggestion for a human to run. Running
+`intrusive` or `vuln` checks against a system you do not own or have written
+authorisation to test is illegal in most jurisdictions.
+
+[Download Tool](https://github.com/xghst0/reconkg)
+
+| Category | What reconkg does |
+| --- | --- |
+
+|  |  |
+| --- | --- |
+| `safe`, `discovery`, `version` | composed, shown by default |
+| `intrusive`, `vuln`, `unclassified` | composed, shown when you tick the box, with the authorisation warning |
+| `exploit`, `dos`, `fuzzer`, `brute` | **named, never composed** |
