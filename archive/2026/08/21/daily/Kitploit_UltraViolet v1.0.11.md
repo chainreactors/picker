@@ -1,0 +1,229 @@
+---
+title: UltraViolet v1.0.11
+url: https://kitploit.com/en/posts/github-yakushstanislav-ultraviolet-v1011
+source: Kitploit
+date: 2026-08-21
+fetch_date: 2026-08-22T02:51:06.085038
+---
+
+# UltraViolet v1.0.11
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/7962/2fd79ef842002897668dabf7a16b5407f797656cd1e469173492b0d16a2e670c.png)
+
+New releaseAug 21, 2026
+
+# UltraViolet v1.0.11
+
+Share
+
+# UltraViolet
+
+**Self-hosted network discovery & search — your own Shodan, on your hardware.**
+
+TCP/UDP scanning · ~100 protocol probes · TLS/JARM fingerprints · CVE matching · full-text search · delta tracking · alerts
+
+[![Go](https://img.shields.io/badge/Go-1.25+-00ADD8?style=flat-square&logo=go&logoColor=white)](service-api/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](service-frontend/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql&logoColor=white)](service-env/)
+[![Docker](https://img.shields.io/badge/Deploy-Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white)](service-env/)
+[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](.github/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+
+[Quick start](#-quick-start) ·
+[Features](#-features) ·
+[Architecture](#-architecture) ·
+[Documentation](#-documentation) ·
+[Production](#-production-checklist)
+
+---
+
+> **Important.** Scan only networks you own or have **written authorization** to scan. UltraViolet performs passive service reconnaissance — it does not exploit vulnerabilities.
+
+## Why UltraViolet
+
+| Use case | What you get |
+| --- | --- |
+| Perimeter & inventory | Continuous discovery of open ports and services across CIDR ranges |
+| Infrastructure search | Full-text search over HTTP bodies, banners, TLS, DNS, and CVEs |
+| Risk & compliance | Local NVD matching plus CISA KEV and EPSS — no cloud dependency |
+| Air-gapped deployments | Offline archive with Docker images, CVE seed, and GeoIP MMDB on disk |
+| Change tracking | Deltas between scans, WebSocket events, alerts on saved searches |
+
+Single tenant, one Docker Compose stack, full control over your data.
+
+## ✨ Features
+
+**Discovery**
+
+* TCP connect scanner with **masscan** or **zmap** as the discovery engine
+* UDP probes on configurable ports
+* Scoped by `SCAN_ALLOWED_CIDRS` with host and port limits
+
+**Deep probes (~100 protocols)**
+
+* Web: HTTP/HTTPS, HTTP/3, GraphQL, favicon hash, `robots.txt`, `security.txt`, tech stack
+* TLS: certificate chains, JARM, JA3S/JA4S, configuration grading
+* Mail & directories: SMTP, POP3/IMAP, LDAP, IPMI
+* Databases & queues: MySQL, PostgreSQL, MongoDB, Redis, Kafka, MQTT, NATS, AMQP…
+* ICS/SCADA: Modbus, BACnet, DNP3, IEC 104, S7Comm, ENIP, OPC UA…
+* IoT & media: ONVIF, RTSP, Chromecast, AirPlay, UPnP…
+* Full list in the [protocol documentation](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-documentation-frontend/docs/probes/service-protocols.md)
+
+**Enrichment**
+
+* Reverse DNS, GeoIP (MMDB), ASN
+* Optional forward DNS and CT-log discovery
+
+**CVE & risk**
+
+* Local NVD mirror with background sync and fingerprint-based matching
+* CISA KEV and FIRST EPSS
+
+**Operations**
+
+* RBAC (`viewer` / `operator` / `admin`), JWT + refresh tokens
+* Scan schedules, pause/resume, orphan reclaim after worker restart
+* Prometheus `/metrics`, optional Grafana profile
+* Audit log, rate limiting, retention policies
+
+## 🏗 Architecture
+
+root@kitploit:~
+
+```
+flowchart TB
+  Browser["Browser"]
+  FE["service-frontend<br/>React + nginx"]
+  API["uv-api<br/>REST · WS · metrics"]
+  PG[("PostgreSQL 16")]
+  SCAN["uv-scanner<br/>probe pipeline"]
+
+  Browser --> FE
+  FE -->|"/api"| API
+  FE -->|"/realtime"| API
+  API <--> PG
+  SCAN <--> PG
+  API -.->|LISTEN/NOTIFY| API
+```
+
+The release UI image proxies `/api/` and `/realtime` to `uv-api` — **single origin**, no frontend rebuild per API URL.
+
+| Directory | Purpose |
+| --- | --- |
+| [`service-api/`](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-api/) | Go: `uv-api` (HTTP API, WebSocket, workers) + `uv-scanner` (pipeline) |
+| [`service-frontend/`](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-frontend/) | React 19 + Vite + RTK — scans, hosts, search, dashboard |
+| [`service-documentation-frontend/`](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-documentation-frontend/) | VitePress — user and operator documentation |
+| [`service-env/`](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-env/) | docker-compose, secrets, `install.sh` / `upgrade.sh` / backup |
+
+Backend development rules: [`CLAUDE.md`](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/CLAUDE.md).
+
+## 🚀 Quick start
+
+**Requirements:** Go 1.25+, Docker Engine ≥ 24, ~4 GB RAM. Production images target Linux **amd64**.
+
+### Run from Docker Hub (no source build)
+
+Beginner path — pull published images with
+[`service-env/docker-compose.registry.yml`](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-env/docker-compose.registry.yml):
+
+root@kitploit:~
+
+```
+cd service-env
+cp env.registry.example .env
+# set POSTGRES_PASSWORD, AUTH_JWT_SECRET, AUTH_BOOTSTRAP_PASSWORD
+mkdir -p geoip catalog-seed
+docker compose -f docker-compose.registry.yml pull
+docker compose -f docker-compose.registry.yml up -d
+# UI → http://localhost:3000
+```
+
+See [Docker Registry](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-documentation-frontend/docs/deployment/docker-registry.md) in the docs site.
+
+### Develop from source
+
+The API/scanner images copy prebuilt binaries from `service-api/bin/` (they are **not** compiled inside Docker). `make dev` runs `make -C service-api build-linux` before `docker compose … --build`.
+
+root@kitploit:~
+
+```
+git clone https://github.com/yakushstanislav/UltraViolet.git
+cd UltraViolet/service-env
+
+cp .env.example .env
+mkdir -p secrets
+openssl rand -hex 32 > secrets/postgres_password
+openssl rand -hex 32 > secrets/auth_jwt_secret
+
+cd ..
+make dev
+```
+
+| URL | Purpose |
+| --- | --- |
+| <http://localhost:3000> | UI (API via nginx `/api/`) |
+| <http://localhost:8080> | API directly |
+| <http://localhost:9090/metrics> | Prometheus |
+
+**Dev bootstrap:** `admin` / `admin` (only when `APP_ENV≠production`).
+
+## 📖 Documentation
+
+Full guide — VitePress in [`service-documentation-frontend/docs/`](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-documentation-frontend/docs/):
+
+root@kitploit:~
+
+```
+make docs-dev    # → http://localhost:5173
+```
+
+In production, enable the `docs` profile:
+
+root@kitploit:~
+
+```
+cd service-env && docker compose --profile docs up -d
+# → http://localhost:${UV_DOCUMENTATION_PORT:-3002}
+```
+
+Key sections: [installation](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-documentation-frontend/docs/getting-started/installation.md) · [scanning](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-documentation-frontend/docs/scanning/) · [API](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-documentation-frontend/docs/api/overview.md) · [deployment](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-documentation-frontend/docs/deployment/docker-compose.md) · [offline install](https://github.com/yakushstanislav/ultraviolet/blob/HEAD/service-documentation-frontend/docs/deployment/offline-install.md).
+
+## 🛠 Development
+
+### Full Docker
+
+root@kitploit:~
+
+```
+make dev    # build-linux → compose prod + dev override --build
+```
+
+Rebuild Go binaries after backend changes (`make -C service-api build-linux`), then restart or re-run `make dev`.
+
+### Hybrid mode (faster backend iteration)
+
+root@kitploit:~
+
+```
+make dev-db   # PostgreSQL only on :5432
+
+cd service-api && make build
+e...

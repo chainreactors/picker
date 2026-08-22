@@ -1,0 +1,178 @@
+---
+title: renovate-operator v6.0.1
+url: https://kitploit.com/en/posts/github-mogenius-renovate-operator-601
+source: Kitploit
+date: 2026-08-21
+fetch_date: 2026-08-22T02:51:05.356286
+---
+
+# renovate-operator v6.0.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/11650/142f05cfff04470c9ec05c3496b8939b256977fcb9085fd8da6613511ff4f626.png)
+
+New releaseAug 21, 2026
+
+# renovate-operator v6.0.1
+
+Operator to streamline renovate executions in Kubernetes
+
+Share
+
+![Renovate Operator Logo](https://assets.kitploit.com/production/public/readmes/11650/d303a42882cfa4a8555de93ffbd7aaafcde23c3571a7793be71421b2d025d39a.png)
+
+[![Artifact Hub](https://assets.kitploit.com/production/public/readmes/placeholders/f0fc86cfe65f76d40e15aaec61704ec8220a56dc89d4be03c46f67cb31b9fa8c.svg)](https://artifacthub.io/packages/helm/mogenius/renovate-operator)
+![GitHub Release](https://assets.kitploit.com/production/public/readmes/placeholders/f0fc86cfe65f76d40e15aaec61704ec8220a56dc89d4be03c46f67cb31b9fa8c.svg)
+[![Build, Package, Release (Production)](https://github.com/mogenius/renovate-operator/actions/workflows/release.yaml/badge.svg)](https://github.com/mogenius/renovate-operator/actions/workflows/release.yaml)
+
+---
+
+# Renovate: The Kubernetes-Native Way
+
+Run [Renovate](https://github.com/renovatebot/renovate) on your own infrastructure with CRD-based scheduling, parallel execution, auto-discovery, and a built-in UI. If you self-host Renovate and already run Kubernetes, this operator gives you the control and observability that plain self-hosted setups lack.
+
+**Supports all Renovate platforms:** GitHub, GitLab, Bitbucket, Azure DevOps, Gitea, and more. The operator works with any [platform supported by Renovate](https://docs.renovatebot.com/modules/platform/) - simply configure your credentials and platform settings via environment variables or secrets. Note that some platforms have additional operator-specific features like native webhook integrations for GitHub and GitLab.
+
+### Comparison with Mend Renovate CE
+
+| Feature | [Mend Renovate CLI](https://docs.renovatebot.com/) | [Mend Renovate Community Self-Hosted (aka "CE")](https://docs.mend.io/renovate/latest/) | Renovate Operator |
+| --- | --- | --- | --- |
+| Fully open source, no signup or license key | ✅ | ❌ | ✅ |
+| Automated dependency updates | ✅ | ✅ | ✅ |
+| Runs on your own infrastructure | ✅ | ✅ | ✅ |
+| Auto-discovery | ✅ | ✅ | ✅ |
+| Webhook API for on-demand runs | ❌ | ✅ | ✅ |
+| Web UI | ❌ | ❌ | ✅ |
+| Declarative cron scheduling via CRD | ❌ | ❌ | ✅ |
+| Auto-discovery with group/topic filtering | ❌ | ❌ | ✅ |
+| Per-project status tracking in-cluster | ❌ | ❌ | ✅ |
+| Parallel execution with concurrency control | ❌ | ❌ | ✅ |
+| Prometheus metrics & health checks | ❌ | ✅ | ✅ |
+| Kubernetes-native pod scheduling | ❌ | ❌ | ✅ |
+| Leader election for high availability | ❌ | ❌ | ✅ |
+| Job lifecycle management (TTL, deadlines, retries) | ❌ | ❌ | ✅ |
+
+### How it works
+
+1. At the defined time of your schedule, a renovate discovery job is started
+2. After the discovery finished, you will be able to see all your discovered projects in the UI
+3. All projects are now being set to be scheduled
+4. Every 10 seconds the operator checks for scheduled projects and starts a new renovate job
+5. Only as many jobs as defined in `spec.parallelism` are getting executed at the same time
+
+![Example Screenshot of the renovate-operator UI.](https://assets.kitploit.com/production/public/readmes/11650/142f05cfff04470c9ec05c3496b8939b256977fcb9085fd8da6613511ff4f626.png)
+
+## Installation
+
+### Helm
+
+#### Option 1: OCI Registry
+
+root@kitploit:~
+
+```
+helm -n renovate-operator upgrade --install renovate-operator \
+  oci://ghcr.io/mogenius/helm-charts/renovate-operator \
+  --create-namespace --wait
+```
+
+#### Option 2: Helm Repository
+
+root@kitploit:~
+
+```
+helm repo add mogenius https://helm.mogenius.com/public --force-update
+helm -n renovate-operator upgrade --install renovate-operator mogenius/renovate-operator --create-namespace --wait
+```
+
+## Documentation
+
+* [Getting Started](https://github.com/mogenius/renovate-operator/blob/HEAD/docs/getting-started.md) — install, first RenovateJob, platform setup
+* [Full documentation index](https://github.com/mogenius/renovate-operator/blob/HEAD/docs/README.md)
+
+## Contributing
+
+[![](https://contrib.rocks/image?repo=mogenius/renovate-operator)](https://github.com/mogenius/renovate-operator/graphs/contributors)
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+## Development
+
+**Running the operator locally**
+
+Prerequisites: [`just`](https://github.com/casey/just) must be installed.
+
+1. Export `KUBECONFIG` with the **absolute path** to your kubeconfig — `~` is not expanded, so use `$HOME` or the full path:
+
+   root@kitploit:~
+
+   ```
+   export KUBECONFIG=/Users/yourname/.kube/config
+   # or
+   export KUBECONFIG=$HOME/.kube/config
+   ```
+2. Start the operator against the current context in that kubeconfig:
+
+   root@kitploit:~
+
+   ```
+   just run
+   ```
+
+**Running Tests**
+
+| Command | Description |
+| --- | --- |
+| `just test-unit` | Run the unit test suite |
+| `just golangci-lint` | Run the linter |
+| `just check` | Run all checks (tests + linters) |
+| `just generate` | Regenerate CRDs |
+
+[Read more](/en/tools/github/mogenius/renovate-operator?expand=1)
+
+## Categories
+
+[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Container Security](/en/categories/container-security)[Configuration Auditing](/en/categories/configuration-auditing)[Cloud Security](/en/categories/cloud-security)[DevSecOps](/en/categories/devsecops)[Secret Detection](/en/categories/secret-detection)[Supply Chain Security](/en/categories/supply-chain-security)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

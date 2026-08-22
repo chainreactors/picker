@@ -1,0 +1,215 @@
+---
+title: awesome-web3-security
+url: https://kitploit.com/en/tools/github/gmh5225/awesome-web3-security
+source: Kitploit
+date: 2026-08-21
+fetch_date: 2026-08-22T02:50:53.148661
+---
+
+# awesome-web3-security
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/gmh5225/awesome-web3-security
+
+![](https://assets.kitploit.com/production/public/tools/50619/77bff66f613677f9d25631cc1ec06aa7a896d848192cca21f0b9360a8cb761f1-display-v1.webp)
+
+[Vulnerability Analysis](/en/categories/vulnerability-analysis)[CTF](/en/categories/ctf)[Learning & Education](/en/categories/education)[Curated Resources](/en/categories/curated-resources)[Learning Paths & Courses](/en/categories/learning-paths-courses)[Labs & Practice](/en/categories/labs-practice)
+
+![GitHub](/providers/github.png)gmh5225/awesome-web3-security
+
+# awesome-web3-security
+
+A curated list of Web3 Security materials and resources for Pentesters and Bug Hunters.
+
+[View Repository](https://github.com/gmh5225/awesome-web3-security)
+
+21321 days ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# `awesome-web3-security`[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+[![GitHub license](https://img.shields.io/github/license/gmh5225/awesome-web3-security)](https://github.com/gmh5225/awesome-web3-security/blob/main/LICENSE)
+
+A curated list of Web3 Security materials and resources for Pentesters and Bug Hunters.
+
+root@kitploit:~
+
+```
+If you find that some links are not working, you can simply replace the username with gmh5225.
+Or you can send an issue for me.
+```
+
+> Show respect to all the projects below, perfect works of art 🫡
+
+## How to contribute?
+
+* <https://github.com/HyunCafe/contribute-practice>
+* <https://docs.github.com/en/get-started/quickstart/contributing-to-projects>
+
+## Skills for AI Agents
+
+This repository provides skills that can be used with AI agents and coding assistants such as [Cursor](https://www.cursor.com/), [OpenClaw](https://docs.openclaw.ai/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex CLI](https://github.com/openai/codex), and other compatible tools. Install skills to get specialized knowledge about Web3 security topics.
+
+**[View on learn-skills.dev](https://learn-skills.dev/skills/gmh5225/awesome-web3-security)**
+
+**Installation:**
+
+root@kitploit:~
+
+```
+npx skills add https://github.com/gmh5225/awesome-web3-security --skill <skill-name>
+```
+
+**Available Skills:**
+
+| Skill | Description |
+| --- | --- |
+| `mev-security` | MEV concepts, common attacks, and mitigations |
+| `awesome-web3-security-overview` | Understanding and contributing to this resource list |
+| `smart-contract-security` | EVM/Solidity smart contract security |
+| `solana-security` | Solana/Sealevel security research |
+| `web3-security-tooling` | Security tooling (analyzers, fuzzers, decompilers) |
+| `wallet-security` | Wallet security (MPC/TSS, key management, phishing) |
+
+**Example:**
+
+root@kitploit:~
+
+```
+# Install smart contract security skill
+npx skills add https://github.com/gmh5225/awesome-web3-security --skill smart-contract-security
+
+# Install multiple skills
+npx skills add https://github.com/gmh5225/awesome-web3-security --skill solana-security --skill wallet-security
+```
+
+## Security Starter Pack
+
+* **CTFs / Practice**
+
+  + <https://capturetheether.com/> [Capture the Ether]
+  + <https://ethernaut.openzeppelin.com/> [The Ethernaut]
+  + <https://www.damnvulnerabledefi.xyz/> [Damn Vulnerable DeFi]
+  + <https://blockchain-ctf.securityinnovation.com/#/> [Security Innovation Blockchain CTF]
+  + <https://github.com/nccgroup/GOATCasino> [GOAT Casino]
+  + <https://github.com/paradigm-operations/paradigm-ctf-2021> [Paradigm CTF]
+  + <https://github.com/blockthreat/blocksec-ctfs> [Blocksec CTFs]
+  + <https://ciphershastra.com/> [ciphershastra CTF]
+  + <https://github.com/SunWeb3Sec/DeFiVulnLabs> [DeFiVulnLabs]
+  + <https://quillctf.super.site/> [QuillCTF]
+  + <https://www.vulnmachines.com/> [Vulnmachines]
+  + <https://www.web3pwn.com/> [Web3Pwn]
+* **Testnets / Faucets**
+
+  + <https://sepolia.dev/> [Sepolia Resources]
+  + <https://faucet.circle.com/> [Circle Faucet (Sepolia USDC)]
+* **Mindmaps**
+
+  + <https://www.xmind.net/m/2zbPP7/> [Common Vulnerabilities MindMap]
+  + <https://coggle.it/diagram/YqLzaiSABzXD4UnZ/t/smart-contract-auditor> [Auditor MindMap]
+  + <https://xmind.works/share/zfdeD07U> [Tools MindMap]
+* **Starter Tools**
+
+  + <https://github.com/Quillhash/Web3-Security-Tools> [Web3-Security-Tools]
+  + <https://remix-project.org/> [Remix]
+* **Blogs / Postmortems**
+
+  + <https://medium.com/immunefi> [Immunefi]
+  + <https://blog.openzeppelin.com/security-audits/> [OpenZeppelin]
+  + <https://quillaudits.medium.com/> [QuillAudits]
+  + <https://blog.solidityscan.com/> [SolidityScan]
+  + [https://medium.com/@Beosin\_com](https://medium.com/%40Beosin_com) [Beosin]
+  + <https://neptunemutual.medium.com/> [Neptune Mutual]
+  + <https://blocksecteam.medium.com/> [BlockSec]
+  + <https://www.certik.com/resources/blog> [CertiK]
+  + <https://mouse-run.beehiiv.com> [mouse-run]
+* **Bug Bounties**
+
+  + <https://immunefi.com/> [Immunefi]
+  + <https://hackenproof.com/programs> [HackenProof]
+  + <https://code4rena.com/> [Code4rena]
+  + <https://gitcoin.co/explorer> [Gitcoin]
+  + <https://hackerone.com> [HackerOne]
+  + <https://spearbit.com/> [Spearbit]
+  + <https://app.sherlock.xyz/> [Sherlock]
+  + <https://audits.sherlock.xyz/contests> [Sherlock Contests]
+  + <https://saloon.finance/> [The Saloon]
+  + <https://hats.finance/> [Hats Finance]
+  + <https://secure3.io/> [Secure3]
+  + <https://app.secure3.io/> [Secure3 Contests]
+  + <https://securr.tech/> [Securr]
+  + <https://r.xyz/> [Remedy]
+  + <https://hunt.r.xyz/> [Remedy Hunt]
+  + <https://www.vigilseek.com/bug-bounty> [Vigilseek (Bug Bounty Aggregator)]
+  + <https://cantina.xyz/> [Cantina]
+* **Newsletters / Collections**
+
+  + <https://newsletter.blockthreat.io/> [BlockThreat]
+  + <https://rekt.news/> [REKT]
+  + <https://weekinethereumnews.com/> [Week in Ethereum News]
+  + <https://quillaudits.substack.com/> [HashingBits]
+  + <https://web3sec.news> [Web3sec.news]
+* **Talks / Videos**
+
+  + <https://www.youtube.com/watch?v=lJQwuyW4t-k> [IWCON-S22]
+  + [http://www.youtube.com/watch?v=P8LXLoTUJ5g](https://www.youtube.com/watch?v=P8LXLoTUJ5g) [LiveOverflow]
+  + <https://www.youtube.com/watch?v=zcJmWr5_GOc> [Web3 Security Mindset]
+  + <https://www.youtube.com/watch?v=QSmtVR0aniI> [Security and Vulnerabilities in Web3]
+  + <https://www.youtube.com/playlist?list=PLox242_JhiuEe64LzW1M8XpiQ2-N5bZsX> [Playlist]
+  + <https://www.youtube.com/watch?v=A5s9aez43Co&list=PLO5VPQH6OWdXKPThrch6U0imGdD3pHLXi> [Damn Vulnerable DeFi CTF]
+  + <https://www.youtube.com/watch?v=cOP9z9XWjwc> [Attacking Authorization]
+  + <https://www.youtube.com/watch?v=TmZ8gH-toX0> [Audit a Smart Contract]
+  + <https://www.youtube.com/watch?v=gyMwXuJrbJQ> [32-Hour Course]
+* **Learn Solidity**
+
+  + <https://cryptozombies.io/> [CryptoZombies]
+  + <https://www.learnweb3.io/> [LearnWeb3]
+  + <https://www.smartcontract.engineer/> [Smart Contract Engineer]
+  + <https://solidity-by-example.org/> [Solidity by Example]
+  + <https://www.web3.university/> [Web3 University]
+  + <https://www.useweb3.xyz/> [useWeb3]
+* **Audit Reports**
+
+  + <https://gith...

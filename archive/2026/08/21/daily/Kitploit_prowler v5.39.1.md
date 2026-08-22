@@ -1,0 +1,148 @@
+---
+title: prowler v5.39.1
+url: https://kitploit.com/en/posts/github-prowler-cloud-prowler-5391
+source: Kitploit
+date: 2026-08-21
+fetch_date: 2026-08-22T02:50:54.397921
+---
+
+# prowler v5.39.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/2538/0d70cc7319aa3ef4399cc879923e402601e9f534f31c4d6730e7f139994e3bc9.png)
+
+New releaseAug 21, 2026
+
+# prowler v5.39.1
+
+Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment. Connect your agents now and build on the Agentic Cloud Defender.
+
+Share
+
+![Prowler logo](https://raw.githubusercontent.com/prowler-cloud/prowler/master/docs/img/prowler-logo-black.png#gh-light-mode-only)
+![Prowler logo](https://raw.githubusercontent.com/prowler-cloud/prowler/master/docs/img/prowler-logo-white.png#gh-dark-mode-only)
+
+***Prowler*** *is the Open Cloud Security Platform trusted by thousands to automate security and compliance in any cloud environment. With thousands of ready-to-use checks and compliance frameworks, Prowler delivers real-time, customizable monitoring and seamless integrations, making cloud security simple, scalable, and cost-effective for organizations of any size.*
+
+***The Agentic Cloud Defender***
+
+[Try Prowler Cloud](https://cloud.prowler.com/sign-up)
+
+[![Prowler community on Slack](https://assets.kitploit.com/production/public/readmes/2538/6815b86accf315cdf23afa1d72f1d9f88f899835d8ecddcd84f8479de05471c1.png)](https://goto.prowler.com/slack)
+
+[Join our Prowler community!](https://goto.prowler.com/slack)
+
+---
+
+[![Slack Shield](https://img.shields.io/badge/slack-prowler-brightgreen.svg?logo=slack)](https://goto.prowler.com/slack)
+[![Python Version](https://img.shields.io/pypi/v/prowler.svg)](https://pypi.org/project/prowler/)
+[![Python Version](https://img.shields.io/pypi/pyversions/prowler.svg)](https://pypi.python.org/pypi/prowler/)
+[![PyPI Downloads](https://img.shields.io/pypi/dw/prowler.svg?label=downloads)](https://pypistats.org/packages/prowler)
+[![Docker Pulls](https://img.shields.io/docker/pulls/toniblyx/prowler)](https://hub.docker.com/r/toniblyx/prowler)
+[![AWS ECR Gallery](https://assets.kitploit.com/production/public/readmes/2538/303a8488b665aa89d4361d05140d3c00466f7bf8caef7bd602e2ca23fa11ecaa.png)](https://gallery.ecr.aws/prowler-cloud/prowler)
+[![Codecov coverage](https://codecov.io/gh/prowler-cloud/prowler/graph/badge.svg?token=OflBGsdpDl)](https://codecov.io/gh/prowler-cloud/prowler)
+[![Linux Foundation insights health score](https://insights.linuxfoundation.org/api/badge/health-score?project=prowler-cloud-prowler)](https://insights.linuxfoundation.org/project/prowler-cloud-prowler)
+
+[![Version](https://img.shields.io/github/v/release/prowler-cloud/prowler)](https://github.com/prowler-cloud/prowler/releases)
+[![Version](https://img.shields.io/github/release-date/prowler-cloud/prowler)](https://github.com/prowler-cloud/prowler/releases)
+[![Contributors](https://img.shields.io/github/contributors-anon/prowler-cloud/prowler)](https://github.com/prowler-cloud/prowler)
+[![Issues](https://img.shields.io/github/issues/prowler-cloud/prowler)](https://github.com/prowler-cloud/prowler/issues)
+[![License](https://img.shields.io/github/license/prowler-cloud/prowler)](https://github.com/prowler-cloud/prowler)
+[![Twitter](https://img.shields.io/twitter/follow/toniblyx?style=social)](https://twitter.com/ToniBlyx)
+[![Twitter](https://img.shields.io/twitter/follow/prowlercloud?style=social)](https://twitter.com/prowlercloud)
+
+---
+
+![Prowler Cloud demo](https://assets.kitploit.com/production/public/readmes/2538/043a71fa35a004ac2df2e07065732f30229319ec9b6460dd27eb71b91335963a.gif)
+
+# Description
+
+**Prowler** is the world’s most widely used *Open-Source Cloud Security Platform* that automates security and compliance across **any cloud environment**. With thousands of ready-to-use security checks, remediation guidance, and compliance frameworks, Prowler is built to *“Secure ANY Cloud at AI Speed”*. Prowler delivers **AI-driven**, **customizable**, and **easy-to-use** assessments, dashboards, reports, and integrations, making cloud security **simple**, **scalable**, and **cost-effective** for organizations of any size.
+
+Prowler includes hundreds of built-in controls to ensure compliance with standards and frameworks, including:
+
+* **Prowler ThreatScore:** Weighted risk prioritization scoring that helps you focus on the most critical security findings first
+* **Industry Standards:** CIS, NIST 800, NIST CSF, CISA, and MITRE ATT&CK
+* **Regulatory Compliance and Governance:** RBI, FedRAMP, PCI-DSS, and NIS2
+* **Frameworks for Sensitive Data and Privacy:** GDPR, HIPAA, and FFIEC
+* **Frameworks for Organizational Governance and Quality Control:** SOC2, GXP, and ISO 27001
+* **Cloud-Specific Frameworks:** AWS Foundational Technical Review (FTR), AWS Well-Architected Framework, and BSI C5
+* **National Security Standards:** ENS (Spanish National Security Scheme) and KISA ISMS-P (Korean)
+* **Custom Security Frameworks:** Tailored to your needs
+
+## Prowler Cloud & Prowler Local Server
+
+[Prowler Cloud](https://cloud.prowler.com/sign-up) and Prowler Local Server, its self-hosted open-source version, are web applications that simplify running Prowler across your cloud provider accounts. They provide a user-friendly interface to visualize the results and streamline your security assessments.
+
+![Prowler Cloud](https://assets.kitploit.com/production/public/readmes/2538/caff4b12b8c9f0b1579c28ef0e11c4cf04988216f943b01b70f945eefd9daccc.png)
+![Risk Pipeline](https://assets.kitploit.com/production/public/readmes/2538/0d70cc7319aa3ef4399cc879923e402601e9f534f31c4d6730e7f139994e3bc9.png)
+![Threat Map](https://assets.kitploit.com/production/public/readmes/2538/7013404f6a17702ff4baade9a0c99cc6b9a9ebdc79b54fb8e1bca4e953ed7d78.png)
+
+> For more details, refer to the [Prowler Local Server documentation](https://docs.prowler.com/getting-started/installation/prowler-app)
+
+## Prowler CLI
+
+root@kitploit:~
+
+```
+prowler <provider>
+```
+
+![Prowler CLI Execution](https://assets.kitploit.com/production/public/readmes/2538/0998db76bbe8d6cc379e54c82e3cd13fc8cac10ee00d99655578067a44f3c585.png)
+
+## Prowler Local Dashboard
+
+root@kitploit:~
+
+```
+prowler dashboard
+```
+
+![Prowler Local Dashboard](https://assets.kitploit.com/production/public/readmes/2538/5c7c5e9c113d8a9df967f8bac44cb5176de2727e1ee484e58e633debe14fcd8c.png)
+
+## Attack Paths
+
+Attack Paths automatically extends every completed AWS scan with a graph that combines Cartography's cloud inventory with Prowler findings. The feature runs in the API worker after each scan.
+
+Two graph backends are supported as the long-lived sink:
+
+* **Neo4j** (default; the Docker Compose files already ship a `neo4j` service).
+* **Amazon Neptune** (cloud-managed; opt-in).
+
+Select the sink with `ATTACK_PATHS_SINK_DATABASE` (`neo4j` or `neptune`; default `neo4j`).
+
+> Note: Cartography ingestion always uses a temporary Neo4j database, regardless of the configured sink. The `NEO4J_*` variables below must remain set even when `ATTACK_PATHS_SINK_DATABASE=neptune`.
+
+### Neo4j sink
+
+| Variable | Description | Default |
+| --- | --- | --- |
+| `NEO4J_HOST` | Hostname used by the API containers. | `neo4j` |
+| `NEO4J_PORT` | Bolt port exposed by Neo4j. | `7687` |
+| `NEO4J_USER` / `NEO4J_PASSWORD` | Credentials with rights to create per-tenant databases. | `neo4j` / `neo4j_password` |
+
+### Neptune sink
+
+| Variable | Description | Default |
+| --- | --- | --- |
+| `NEPTUNE_WRITER_ENDPOINT` | Bolt host for the Neptune writer instance. Required when sink is `neptune`. | *empty* |
+| `NEPTUNE_READER_ENDPOINT` | Optional reader endpoint for read-only queries. Falls back to the writer when unset. | *empty* |
+| `NEPTUNE_PORT` | Bolt port exposed by Neptune. | `8182` |
+| `AWS_REGION` | Region the Neptune...

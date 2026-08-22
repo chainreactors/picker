@@ -1,0 +1,172 @@
+---
+title: oscp-notes-2026
+url: https://kitploit.com/en/tools/gitlab/wattocyber/oscp-notes-2026
+source: Kitploit
+date: 2026-08-21
+fetch_date: 2026-08-22T02:51:02.725399
+---
+
+# oscp-notes-2026
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitLab](/providers/gitlab.png)GitLab/wattocyber/oscp-notes-2026
+
+![](https://assets.kitploit.com/production/public/tools/50585/2c995865965682471012c550f7eb4bfbf18bd14b2b95c951c18bbd118d5b79ce.jpg)
+
+[Privilege Escalation](/en/categories/privilege-escalation)[Password Attacks](/en/categories/password-attacks)[Lateral Movement](/en/categories/lateral-movement)[Web Application Exploitation](/en/categories/web-application-exploitation)[Information Gathering](/en/categories/information-gathering)[Post-Exploitation](/en/categories/post-exploitation)[Penetration Testing](/en/categories/penetration-testing)[Learning & Education](/en/categories/education)[Curated Resources](/en/categories/curated-resources)[Labs & Practice](/en/categories/labs-practice)
+
+![GitLab](/providers/gitlab.png)wattocyber/oscp-notes-2026
+
+4 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# oscp-notes-2026
+
+OSCP field notebook by Samson Laird: merged technique vault, numbered notes (MIT)
+
+[View Repository](https://gitlab.com/wattocyber/oscp-notes-2026)[Website](https://gitlab.com/WattoCyber/oscp-notes-2026)
+
+# OSCP Field Notebook
+
+![oscp-notes-2026 banner](https://assets.kitploit.com/production/public/readmes/50585/2c995865965682471012c550f7eb4bfbf18bd14b2b95c951c18bbd118d5b79ce.jpg)
+
+Port-indexed pentest methodology notebook: decision trees, copy-paste command patterns, and lessons from authorized practice boxes (HTB / PG / personal labs). Merged from the older `finalnotes-vault` into this single tree.
+
+A workflow you can run under time pressure. Commands and decision trees first.
+
+> Public study notes for authorized practice only (your labs, HTB/PG, courses you own). No exam keys, no live engagement dumps, no OffSec course content dump.
+
+**Repo:** <https://gitlab.com/WattoCyber/oscp-notes-2026>
+
+## At a glance
+
+|  |  |
+| --- | --- |
+| **What** | OSCP-style field notes: decision trees, command patterns, technique cards. |
+| **Who it is for** | OSCP candidates and lab operators who want a workflow they can run under time pressure. |
+| **What it is not** | Not a payload dump, not exam keys, not OffSec course content, and not a substitute for official materials. |
+| **Size** | 511 markdown notes in numbered engagement order. |
+
+## Quick start
+
+root@kitploit:~
+
+```
+git clone https://gitlab.com/WattoCyber/oscp-notes-2026.git
+cd oscp-notes-2026
+
+# optional: bind placeholders to your lab IPs
+# edit 00-Start-Here/Variables.md
+python fill-variables.py apply
+python fill-variables.py status
+python fill-variables.py reset   # restore placeholders
+```
+
+**Success signal:** `python fill-variables.py status` prints `Status: PLACEHOLDERS` (before apply) or `Status: FILLED` (after apply with real IPs in `Variables.md`). Open `Home.md` in Obsidian, VS Code, or any markdown reader. Wikilinks work best in Obsidian.
+
+Requires Python 3 only (stdlib). No `pip install`.
+
+## Layout
+
+root@kitploit:~
+
+```
+00-Start-Here/  31 notes
+01-Enumeration/  139 notes
+02-Web-Attacks/  48 notes
+03-Active-Directory/  55 notes
+04-Linux-PrivEsc/  57 notes
+05-Windows-PrivEsc/  92 notes
+06-Pivoting/  13 notes
+07-File-Transfers/  11 notes
+08-Shells/  8 notes
+09-Password-Attacks/  19 notes
+10-Reporting/  5 notes
+11-Tools/  30 notes
+fill-variables.py   placeholder IP binder
+_attachments/       images linked from notes
+```
+
+## Scope (what is / is not here)
+
+**In scope**
+
+* General offensive methodology aligned with OSCP-style learning
+* Public-box lessons (HTB, Proving Grounds, personal labs) with secrets redacted
+* Tooling patterns (nmap, nxc, impacket, evil-winrm, ligolo, hashcat)
+
+**Out of scope (deliberately)**
+
+* Exam answers, exam host notes, VPN configs, proof flags
+* Full machine writeup libraries
+* Copyrighted OffSec PDF / course text
+* Live client or employer engagement data
+
+Verify current exam rules on [OffSec's exam guide](https://help.offsec.com/hc/en-us/articles/360040165632). Scoring tables here are study aids and can go stale.
+
+## Variable filler
+
+Placeholders used across notes: `ATTACKER_IP`, `TARGET_IP`, `DC_IP`, `MS01_IP`, `MS02_IP`, `STANDALONE1..3`, `INTERNAL_IP`, `INTERNAL_NET`, `DOMAIN`.
+
+root@kitploit:~
+
+```
+python3 fill-variables.py apply # write your IPs into every .md
+python3 fill-variables.py reset # restore tokens (uses .variables-backup.json)
+```
+
+Do not commit applied IPs. Keep `Variables.md` as placeholders in git.
+
+## Author
+
+Samson Laird (SamsonCyber / WattoCyber). Built while grinding OSCP-style labs.
+
+The older standalone `finalnotes-vault` repo is archived. This tree is the living copy.
+
+## License
+
+MIT for original structure, scripts, and original prose. Technique knowledge is public security tradecraft. Box names refer to public HTB/PG machines; respect each platform's rules.
+
+[Download Tool](https://gitlab.com/wattocyber/oscp-notes-2026)

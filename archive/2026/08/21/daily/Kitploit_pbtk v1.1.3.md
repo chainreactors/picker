@@ -1,0 +1,220 @@
+---
+title: pbtk v1.1.3
+url: https://kitploit.com/en/posts/github-marin-m-pbtk-113
+source: Kitploit
+date: 2026-08-21
+fetch_date: 2026-08-22T02:51:03.222867
+---
+
+# pbtk v1.1.3
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/3051/860b9306c2be49d204ad562b8bf0abdb831e9f1c9852edda265734fe26be1a2b.png)
+
+New releaseAug 21, 2026
+
+# pbtk v1.1.3
+
+A toolset for reverse engineering and fuzzing Protobuf-based apps
+
+Share
+
+# pbtk - Reverse engineering Protobuf apps
+
+**[Protobuf](https://developers.google.com/protocol-buffers/) is a serialization format** developed by Google and used in an increasing number of Android, web, desktop and more applications. It consists of a **language for declaring data structures**, which is then compiled to code or another kind of structure depending on the target implementation.
+
+pbtk (*Protobuf toolkit*) is a full-fledged set of scripts, accessible through an unified GUI, that provides two main features:
+
+* **Extracting Protobuf structures from programs**, converting them back into readable *.proto*s, supporting various implementations:
+
+  + All the main Java runtimes (base, Lite, Nano, Micro, J2ME), with full Proguard support, *(2026: this still works well but mostly with old APKs)*
+  + Binaries containing embedded reflection metadata (typically C++, sometimes Java and most other bindings), *(2026: this still works well)*
+  + Web applications using the JsProtoUrl runtime. *(2026: this needs an update)*
+* **Editing, replaying and fuzzing data** sent to Protobuf network endpoints, through a handy graphical interface that allows you to edit live the fields for a Protobuf message and view the result.
+
+![The pbtk editor GUI](https://assets.kitploit.com/production/public/readmes/3051/860b9306c2be49d204ad562b8bf0abdb831e9f1c9852edda265734fe26be1a2b.png)
+
+## Installation
+
+PBTK requires Python ≥ 3.5, PySide 6, Python-Protobuf 3, and a handful of executable programs (chromium, jad, dex2jar...) for running extractor scripts.
+
+Ubuntu users can install it using `snap`:
+
+root@kitploit:~
+
+```
+$ sudo snap install pbtk
+$ pbtk
+```
+
+Archlinux users can install directly through the [package](https://aur.archlinux.org/packages/pbtk-git/):
+
+root@kitploit:~
+
+```
+$ yay -S pbtk-git
+$ pbtk
+```
+
+On most other distributions, you'll want to run it directly:
+
+root@kitploit:~
+
+```
+# For Ubuntu/Debian testing derivates:
+$ sudo apt install python3-pip git openjdk-8-jre python3-qtpy-pyside6
+
+# Then, using UV:
+$ sudo snap install --classic astral-uv
+$ uv tool install pbtk
+$ pbtk
+
+# Or using pipx:
+$ sudo apt install pipx
+$ pipx install pbtk
+$ pbtk
+```
+
+Windows is also supported (with the same modules required). Once you run the GUI, it should warn you on what you are missing depending on what you try to do.
+
+## Command line usage (installing through package manager)
+
+The GUI can be lanched through the main script:
+
+root@kitploit:~
+
+```
+pbtk
+```
+
+The following scripts can also be used standalone, without a GUI:
+
+root@kitploit:~
+
+```
+pbtk-jar-extract [-h] input_file [output_dir]
+pbtk-from-binary [-h] input_file [output_dir]
+pbtk-web-extract [-h] input_url [output_dir] # Needs update to work as of 2026
+```
+
+When install from `snap`, the exact commands differ:
+
+root@kitploit:~
+
+```
+pbtk.jar-extract [-h] input_file [output_dir]
+pbtk.from-binary [-h] input_file [output_dir]
+pbtk.web-extract [-h] input_url [output_dir]
+```
+
+## Command line usage (local)
+
+The GUI can be lanched through the main script:
+
+root@kitploit:~
+
+```
+uv sync # Download dependencies to the .venv folder
+source .venv/bin/activate # Put the local scripts in $PATH for the current shell session
+uv tool install -e . # Put the local scripts in $PATH all time
+pbtk
+```
+
+The following scripts can also be used standalone, without a GUI:
+
+root@kitploit:~
+
+```
+pbtk-jar-extract [-h] input_file [output_dir]
+pbtk-from-binary [-h] input_file [output_dir]
+pbtk-web-extract [-h] input_url [output_dir] # Needs update to work as of 2026
+```
+
+## Typical workflow
+
+Let's say you're reverse engineering an Android application. You explored a bit the application with your favorite decompiler, and figured it transports Protobuf as POST data over HTTPS in a typical way.
+
+You open PBTK and are greeted in a meaningful manner:
+
+![The welcome screen](https://assets.kitploit.com/production/public/readmes/3051/5a0bee46605fddd6dd10a8180ff36133545190be7597ae0a6c29e6e964b82da5.png)
+
+The first step is getting your .protos into text format. If you're targeting an Android app, dropping in an APK and waiting should do the magic work! (unless it's a really exotic implementation)
+
+![Done screen](https://assets.kitploit.com/production/public/readmes/3051/06444308aa3d9342093f01dfa34e2ccde57e1faba5c2f5933ffe4de766a7c6fe.png)
+
+This being done, you jump to `~/.pbtk/protos/<your APK name>` (either through the command line, or the button on the bottom of the welcome screen to open your file browser, the way you prefer). All the app's .protos are indeed here.
+
+Back in your decompiler, you stumbled upon the class that constructs data sent to the HTTPS endpoint that interests you. It serializes the Protobuf message by calling a class made of generated code.
+
+![Your decompiler](https://assets.kitploit.com/production/public/readmes/3051/741f382d55fae6e246942825a97c3feaee01fac3595cfcb2deeae612084601c5.png)
+
+This latter class should have a perfect match inside your .protos directory (i.e `com.foo.bar.a.b` will match `com/foo/bar/a/b.proto`). Either way, grepping its name should enable you to reference it.
+
+That's great: the next thing is going to **Step 2**, selecting your desired input .proto, and filling some information about your endpoint.
+
+![Endpoint creation form](https://assets.kitploit.com/production/public/readmes/3051/c560aeff13930c2d65b8ca7cc0ab9f6170b5bce76391a9de00bc244955e32602.png)
+
+You may also give some sample raw Protobuf data, that was sent to this endpoint, captured through mitmproxy or Wireshark, and that you'll paste in a hex-encoded form.
+
+**Step 3** is about the fun part of clicking buttons and seeing what happens! You have a tree view representing every field in the Protobuf structure (repeated fields are suffixed by "+", required fields don't have checkboxes).
+
+![Endpoint creation form](https://assets.kitploit.com/production/public/readmes/3051/0e74c3b5b38b345ef56fb5ab394bd421aabed149059040c7c8129a87b831c2d5.png)
+
+Just hover a field to have focus. If the field is an integer type, use the mouse wheel to increment/decrement it. Enum information appears on hover too.
+
+Here it is! You can determine the meaning of every field with that. If you extracted .protos out of minified code, you can rename fields according to what you notice they mean, by clicking their names.
+
+Happy reversing! 👌 🎉
+
+## Local data storage
+
+PBTK stores extracted .proto information into `~/.pbtk/protos/` (or `%APPDATA%\pbtk\protos` on Windows).
+
+You can move in, move out, rename, edit or erase data from this directory directly through your regular file browser and text editor, it's the expected way to do it and won't interfere with PBTK.
+
+HTTP-based endpoints are stored into `~/.pbtk/endpoints/` as JSON objects. These objects are arrays of pairs of request/response information, which looks like this:
+
+root@kitploit:~
+
+```
+[{
+    "request": {
+        "transport": "pburl",
+        "proto": "www.google.com/VectorTown.proto",
+        "url": "https://www.google.com/VectorTown",
+        "pb_param": "pb",
+        "samples": [{
+            "pb": "!....",
+            "hl": "fr"
+        }]
+    },
+    "response": {
+        "format": "other"
+    }
+}]
+```
+
+## Source code structure
+
+PBTK uses two kinds of pluggable modules internally: extractors, and transports.
+
+* An **extractor** supports extracting .proto structures from a target Protobuf implementation or platform.
+
+Extractors are defined in `src/p...
