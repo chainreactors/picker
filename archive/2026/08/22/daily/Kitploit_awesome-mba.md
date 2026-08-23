@@ -1,0 +1,130 @@
+---
+title: awesome-mba
+url: https://kitploit.com/en/tools/github/gmh5225/awesome-mba
+source: Kitploit
+date: 2026-08-22
+fetch_date: 2026-08-23T02:57:25.603678
+---
+
+# awesome-mba
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+awesome-mba — List of mixed boolean-arithmetic resources | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/gmh5225/awesome-mba
+
+![](https://assets.kitploit.com/production/public/tools/50616/52e2ed238617a9f9f830e680223fb3e678e2e175c214a457561c7385535d102d-display-v1.webp)
+
+[Code Analysis](/en/categories/code-analysis)[Reverse Engineering](/en/categories/reverse-engineering)[Malware Analysis](/en/categories/malware-analysis)[Binary Analysis](/en/categories/binary-analysis)[Papers & Research](/en/categories/papers-research)[Curated Resources](/en/categories/curated-resources)
+
+![GitHub](/providers/github.png)gmh5225/awesome-mba
+
+# awesome-mba
+
+List of mixed boolean-arithmetic resources
+
+[View Repository](https://github.com/gmh5225/awesome-mba)
+
+421 year ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+This repo includes links relevant to Mixed Boolean-Arithmetic (MBA) obfuscation. PRs are welcome.
+
+Note that some resources here are not *strictly* related to MBA, though all are relevant in some way.
+
+## Papers
+
+* **[Information Hiding in Software with Mixed Boolean-Arithmetic Transforms](https://link.springer.com/chapter/10.1007/978-3-540-77535-5_5)**
+* **[Obfuscation with Mixed Boolean-Arithmetic Expressions : reconstruction, analysis and simplification tools](https://theses.hal.science/tel-01623849/document)**
+* **[Analysis and applications of orthogonal approaches to simplify Mixed Boolean-Arithmetic expressions](https://arnaugamez.com/assets/theses/msc.pdf)**
+* **[Code deobfuscation by program synthesis-aided simplification of Mixed Boolean-Arithmetic expressions](https://arnaugamez.com/assets/theses/bsc.pdf)**
+* **[Boosting SMT solver performance on mixed-bitwise-arithmetic expressions](https://dl.acm.org/doi/abs/10.1145/3453483.3454068)**
+* **[MBA-Blast: Unveiling and Simplifying Mixed Boolean-Arithmetic Obfuscation](https://www.usenix.org/conference/usenixsecurity21/presentation/liu-binbin)**
+* **[An In-Place Simplification on Mixed Boolean-Arithmetic Expressions](https://doi.org/10.1155/2022/7307139)**
+* **[Software Obfuscation with Non-Linear Mixed Boolean-Arithmetic Expressions](https://par.nsf.gov/servlets/purl/10318183)**
+* **[NeuReduce: Reducing Mixed Boolean-Arithmetic Expressions by Recurrent Neural Network](https://www.semanticscholar.org/paper/NeuReduce%3A-Reducing-Mixed-Boolean-Arithmetic-by-Feng-Liu/958da5461cc6e1169e93990350493aeb8cb57e60)**
+* **[Efficient Deobfuscation of Linear Mixed Boolean-Arithmetic Expressions](https://arxiv.org/abs/2209.06335)**
+* **[Simplifying Mixed Boolean-Arithmetic Obfuscation by Program Synthesis and Term Rewriting](https://dl.acm.org/doi/pdf/10.1145/3576915.3623186)**
+* **[Simplification of General Mixed Boolean-Arithmetic Expressions: GAMBA](https://arxiv.org/abs/2305.06763)**
+* **[Deobfuscation of Semi-Linear Mixed Boolean-Arithmetic Expressions](https://arxiv.org/abs/2406.10016)**
+* **[Mixed Boolean-Arithmetic (MBA) Obfuscation Using Permutation Polynomials on Modular Lipschitz Integers](https://ieeexplore.ieee.org/abstract/document/10667325)**
+* **[On simplifying expressions with mixed Boolean-arithmetic](https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=mais&paperid=795&option_lang=eng)**
+* **[Binary Permutation Polynomial Inversion and Application to Obfuscation Techniques](https://dl.acm.org/doi/10.1145/2995306.2995310)**
+* **[Quadratic time algorithm for inversion of binary permutation polynomials](https://hal.science/hal-01981320/document)**
+* **[Efficient Normalized Reduction and Generation of Equivalent Multivariate Binary Polynomials](https://www.ndss-symposium.org/wp-content/uploads/bar2024-14-paper.pdf)**
+* **[Bypassing Malware Obfuscation with Dynamic Synthesis](https://inria.hal.science/hal-01378662/document)**
+* **[Search-Based Local Black-Box Deobfuscation: Understand, Improve and Mitigate](https://dl.acm.org/doi/10.1145/3460120.3485250)**
+* **[Syntia: Synthesizing the Semantics of Obfuscated Code](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-blazytko.pdf)**
+* **[Arybo: Manipulation, Canonicalization and Identification of Mixed Boolean-Arithmetic Symbolic Expressions](https://dl.acm.org/doi/pdf/10.1145/3576915.3623186)**
+* **[Loki: Hardening Code Obfuscation Against Automated Attacks](https://www.usenix.org/system/files/sec22-schloegel.pdf)**
+* **[QSynth – A Program Synthesis based approach for Binary Code Deobfuscation](https://www.ndss-symposium.org/wp-content/uploads/2020/04/bar2020-23009-paper.pdf)**
+* **[On polynomial functions (mod m)](https://www.sciencedirect.com/science/article/pii/0022314X74900316?via%3Dihub)**
+* **[Polynomial functions (modm)](https://link.springer.com/article/10.1007/BF01950276)**
+* **[Permutation Polynomials Modulo 2^w](https://www.sciencedirect.com/science/article/pii/S107157970090282X?via%3Dihub)**
+* **[Gröbner Bases for Boolean Function Minimization](https://ceur-ws.org/Vol-3455/short4.pdf)**
+
+## Implementations
+
+### Simplification:
+
+* **[SiMBA: Efficient Deobfuscation of Linear Mixed Boolean-Arithmetic Expressions](https://github.com/DenuvoSoftwareSolutions/SiMBA)**
+* **[SiMBA++: Port of SiMBA to C/C++](https://github.com/pgarba/SiMBA-)**
+* **[GAMBA: Simplification of General Mixed Boolean-Arithmetic Expressions](https://github.com/DenuvoSoftwareSolutions/GAMBA)**
+* **[Oracle Syntehsis Meets Equality Saturation](https://github.com/fvrmatteo/oracle-synthesis-meets-equality-saturation)**
+* **[MSiMBA: Deobfuscation of Semi-Linear Mixed Boolean-Arithmetic Expressions](https://github.com/mazeworks-security/MSiMBA)**
+* **[Simplifier: Efficient general mixed boolean-arithmetic (MBA) simplifier](https://github.com/mazeworks-security/Simplifier)**
+* **[MBA-Blast: Tool for simplification of MBA expressions](https://github.com/softsec-unh/MBA-Blast)**
+* **[MBA-Solver: Boosting SMT solver performance on mixed-bitwise-arithmetic expressions](https://github.com/softsec-unh/MBA-Solver)**
+* **[Arybo: Manipulation, canonicalization and identification of mixed boolean-arithmetic symbolic expressions](https://github.com/quarkslab/arybo)**
+* **[msynth: Code deobfuscation framework to simplify Mixed Boolean-Arithmetic (MBA) expressions](https://github.com/mrphrazer/msynth)**
+* **[QSynth: Greybox Synthesizer geared for deobfuscation of assembly instructions](https://github.com/quarkslab/qsynthesis)**
+* **[gooMBA: Hex-Rays Decompiler plugin to simplify Mixed Boolean-Arithmetic (MBA) expressions](https://github.com/HexRaysSA/goomba)**
+* **[Syntia: Program synthesis based deobfuscation framework](https://github.com/RUB-SysSec/syntia)**
+* **[Tigress Deobfuscation - Documentation of several Tigress obfuscation passes and an attempt to simplify Mixed Boolean-Arithmetic (MBA) expressions](https://github.com/adutilleul/tigress-deobfuscation)**
+* **[M3: An Efficient Deobfuscation of Mixed Boolean Arithmetic (MBA) Expressions Using Dynamic Analysis](https://github.com/letonchanh/M3)**
+
+### Boolean manipulation and minimization:
+
+* **[Gröbner Bases for Boolean Function Minimization](...

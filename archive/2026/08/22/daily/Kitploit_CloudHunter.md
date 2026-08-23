@@ -1,0 +1,75 @@
+---
+title: CloudHunter
+url: https://kitploit.com/en/tools/github/1n3/cloudhunter
+source: Kitploit
+date: 2026-08-22
+fetch_date: 2026-08-23T02:57:07.048013
+---
+
+# CloudHunter
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+CloudHunter — Find unreferenced AWS S3 buckets which have CloudFront CNAME records pointing to them | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/1n3/cloudhunter
+
+![](https://assets.kitploit.com/production/public/tools/41000/9c73d781661a61c6a77da1631396b1588a1e974303037ec7190ab6803fec7db5-display-v1.webp)
+
+[Reconnaissance](/en/categories/reconnaissance)[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Information Gathering](/en/categories/information-gathering)[Cloud Security](/en/categories/cloud-security)[DNS Analysis](/en/categories/dns-analysis)
+
+![GitHub](/providers/github.png)1n3/cloudhunter
+
+# CloudHunter
+
+Find unreferenced AWS S3 buckets which have CloudFront CNAME records pointing to them
+
+[View Repository](https://github.com/1n3/cloudhunter)
+
+36228 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+This repository does not have a README.
+
+[Download Tool](https://github.com/1n3/cloudhunter)

@@ -1,0 +1,187 @@
+---
+title: aws-iam-authenticator v0.7.19
+url: https://kitploit.com/en/posts/github-kubernetes-sigs-aws-iam-authenticator-v0719
+source: Kitploit
+date: 2026-08-22
+fetch_date: 2026-08-23T02:57:20.441986
+---
+
+# aws-iam-authenticator v0.7.19
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/45993/f061ba98dcd8ca4234b2ac5fae2f32cb6b5531c21ae64b6d4d477af7705153e2.png)
+
+New releaseAug 22, 2026
+
+# aws-iam-authenticator v0.7.19
+
+A tool to use AWS IAM credentials to authenticate to a Kubernetes cluster
+
+Share
+
+# AWS IAM Authenticator for Kubernetes
+
+A tool to use AWS IAM credentials to authenticate to a Kubernetes cluster.
+The initial work on this tool was driven by Heptio. The project receives contributions from multiple community engineers and is currently maintained by Heptio and Amazon EKS OSS Engineers.
+
+## Table of Contents
+
+* [Why do I want this?](#why-do-i-want-this)
+* [How do I use it?](#how-do-i-use-it)
+* [Kops Usage](#kops-usage)
+* [How does it work?](#how-does-it-work)
+* [What is a cluster ID?](#what-is-a-cluster-id)
+* [Specifying Credentials & Using AWS Profiles](#specifying-credentials--using-aws-profiles)
+* [API Authorization from Outside a Cluster](#api-authorization-from-outside-a-cluster)
+* [Troubleshooting](#troubleshooting)
+* [Full Configuration Format](#full-configuration-format)
+* [Development](#development)
+* [Community, discussion, contribution, and support](#community-discussion-contribution-and-support)
+
+## Why do I want this?
+
+If you are an administrator running a Kubernetes cluster on AWS, you already need to manage AWS IAM credentials to provision and update the cluster.
+By using AWS IAM Authenticator for Kubernetes, you avoid having to manage a separate credential for Kubernetes access.
+AWS IAM also provides a number of nice properties such as an out of band audit trail (via CloudTrail) and 2FA/MFA enforcement.
+
+If you are building a Kubernetes installer on AWS, AWS IAM Authenticator for Kubernetes can simplify your bootstrap process.
+You won't need to somehow smuggle your initial admin credential securely out of your newly installed cluster.
+Instead, you can create a dedicated `KubernetesAdmin` role at cluster provisioning time and set up Authenticator to allow cluster administrator logins.
+
+## How do I use it?
+
+Assuming you have a cluster running in AWS and you want to add AWS IAM Authenticator for Kubernetes support, you need to:
+
+1. Create an IAM role you'll use to identify users.
+2. Run the Authenticator server as a DaemonSet.
+3. Configure your API server to talk to Authenticator.
+4. Set up kubectl to use Authenticator tokens.
+
+### 1. Create an IAM role
+
+First, you must create one or more IAM roles that will be mapped to users/groups inside your Kubernetes cluster.
+The easiest way to do this is to log into the AWS Console:
+
+* Choose the "Role for cross-account access" / "Provide access between AWS accounts you own" option.
+* Paste in your AWS account ID number (available in the top right in the console).
+* Your role does not need any additional policies attached.
+
+This will create an IAM role with no permissions that can be assumed by authorized users/roles in your account.
+Note the Amazon Resource Name (ARN) of your role, which you will need below.
+
+You can also do this in a single step using the AWS CLI instead of the AWS Console:
+
+root@kitploit:~
+
+```
+# get your account ID
+ACCOUNT_ID=$(aws sts get-caller-identity --output text --query 'Account')
+
+# define a role trust policy that opens the role to users in your account (limited by IAM policy)
+POLICY=$(echo -n '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":"arn:aws:iam::'; echo -n "$ACCOUNT_ID"; echo -n ':root"},"Action":"sts:AssumeRole","Condition":{}}]}')
+
+# create a role named KubernetesAdmin (will print the new role's ARN)
+aws iam create-role \
+  --role-name KubernetesAdmin \
+  --description "Kubernetes administrator role (for AWS IAM Authenticator for Kubernetes)." \
+  --assume-role-policy-document "$POLICY" \
+  --output text \
+  --query 'Role.Arn'
+```
+
+You can also skip this step and use:
+
+* An existing role (such as a cross-account access role).
+* An IAM user (see `mapUsers` below).
+* An EC2 instance or a federated role (see `mapRoles` below).
+
+### 2. Run the server
+
+The server is meant to run on each of your master nodes as a DaemonSet with host networking so it can expose a localhost port.
+
+For a sample ConfigMap and DaemonSet configuration, see [`deploy/example.yaml`](https://github.com/kubernetes-sigs/aws-iam-authenticator/blob/HEAD/deploy/example.yaml).
+Before applying it, update these values for your cluster:
+
+* Replace placeholder IAM ARNs (`arn:aws:iam::000000000000:...`) in `config.yaml`.
+* Set `clusterID` to a unique value for your cluster.
+* Verify the DaemonSet scheduling rules match your control-plane node labels/taints.
+
+Then deploy it:
+
+root@kitploit:~
+
+```
+kubectl apply -f deploy/example.yaml
+kubectl -n kube-system rollout status daemonset/aws-iam-authenticator
+kubectl -n kube-system get pods -l k8s-app=aws-iam-authenticator
+```
+
+Once the pod is running on a control-plane node, the `aws-iam-authenticator server` will create the webhook kubeconfig on the host at `/etc/kubernetes/aws-iam-authenticator/kubeconfig.yaml` (or the path configured via `--generate-kubeconfig`).
+
+#### (Optional) Pre-generate a certificate, key, and kubeconfig
+
+If you're building an automated installer, you can also pre-generate the certificate, key, and webhook kubeconfig files easily using `aws-iam-authenticator init`.
+This command will generate files and place them in the configured output directories.
+
+You can run this on each master node prior to starting the API server.
+You could also generate them before provisioning master nodes and install them in the appropriate host paths.
+
+If you do not pre-generate files, `aws-iam-authenticator server` will generate them on demand.
+This works but requires that you restart your Kubernetes API server after installation.
+
+### 3. Configure your API server to talk to the server
+
+The Kubernetes API integrates with AWS IAM Authenticator for Kubernetes using a [token authentication webhook](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#webhook-token-authentication).
+When you run `aws-iam-authenticator server`, it will generate a webhook configuration file and save it onto the host filesystem.
+You'll need to add a single additional flag to your API server configuration:
+
+root@kitploit:~
+
+```
+--authentication-token-webhook-config-file=/etc/kubernetes/aws-iam-authenticator/kubeconfig.yaml
+```
+
+On many clusters, the API server runs as a static pod.
+You can add the flag to `/etc/kubernetes/manifests/kube-apiserver.yaml`.
+Make sure the host directory `/etc/kubernetes/aws-iam-authenticator/` is mounted into your API server pod.
+You may also need to restart the kubelet daemon on your master node to pick up the updated static pod definition:
+
+root@kitploit:~
+
+```
+systemctl restart kubelet.service
+```
+
+### 4. Create IAM role/user to kubernetes user/group mappings
+
+The default behavior of the server is to source mappings exclusively from the
+`mapUsers` and `mapRoles` fields of its configuration file. See [Full
+Configuration Format](#full-configuration-format) below for details.
+
+Using the `--backend-mode` flag, you can configure the server to source
+mappings from two additional backends: an EKS-style ConfigMap
+(`--backend-mode=EKSConfigMap`) or `IAMIdentityMapping` custom resources
+(`--backend-mode=CRD`). The default backend, the server configuration file
+that's mounted by the server pod, corresponds to `--backend-mode=MountedFile`.
+
+You can pass a comma-separated list of these backends to have the server search
+them in order. For example, with `--backend-mode=EKSConfigMap,MountedFile`, the
+server will search the EKS-style ConfigMap for mappings then, if it doesn't
+find a mapping for t...

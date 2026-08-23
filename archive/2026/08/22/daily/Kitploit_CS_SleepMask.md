@@ -1,0 +1,75 @@
+---
+title: CS_SleepMask
+url: https://kitploit.com/en/tools/github/jas502n/cs_sleepmask
+source: Kitploit
+date: 2026-08-22
+fetch_date: 2026-08-23T02:57:00.601792
+---
+
+# CS_SleepMask
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+CS\_SleepMask — CS\_SleepMask | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/jas502n/cs\_sleepmask
+
+![](https://assets.kitploit.com/production/public/tools/43762/3a06f56b5d6236ae2481e3bcc0f62336375f3192a70aecb2804d97ac470357d2-display-v1.webp)
+
+[Penetration Testing Frameworks](/en/categories/penetration-testing-frameworks)[IDS/IPS Evasion](/en/categories/ids-ips-evasion)[Post-Exploitation](/en/categories/post-exploitation)[Red Teaming](/en/categories/red-teaming)[Payload Development](/en/categories/payload-development)
+
+![GitHub](/providers/github.png)jas502n/cs\_sleepmask
+
+# CS\_SleepMask
+
+CS\_SleepMask
+
+[View Repository](https://github.com/jas502n/cs_sleepmask)
+
+424 years ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+This repository does not have a README.
+
+[Download Tool](https://github.com/jas502n/cs_sleepmask)

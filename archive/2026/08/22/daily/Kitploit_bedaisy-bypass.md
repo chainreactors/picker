@@ -1,0 +1,89 @@
+---
+title: bedaisy-bypass
+url: https://kitploit.com/en/tools/github/gmh5225/bedaisy-bypass
+source: Kitploit
+date: 2026-08-22
+fetch_date: 2026-08-23T02:57:26.310422
+---
+
+# bedaisy-bypass
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+bedaisy-bypass — Kernel-mode hook that intercepts, decrypts, and nullifies BEDaisy-to-service report traffic to suppress anti-cheat detection on UEFI and non-UEFI systems. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/gmh5225/bedaisy-bypass
+
+![](https://assets.kitploit.com/production/public/tools/50631/783d44075c236aab5f379fa584196de845cdefd535f643506807e96c3ffb0154-display-v1.webp)
+
+[IDS/IPS Evasion](/en/categories/ids-ips-evasion)[Red Teaming](/en/categories/red-teaming)[Adversarial Attack](/en/categories/adversarial-attack)
+
+![GitHub](/providers/github.png)gmh5225/bedaisy-bypass
+
+# bedaisy-bypass
+
+Kernel-mode hook that intercepts, decrypts, and nullifies BEDaisy-to-service report traffic to suppress anti-cheat detection on UEFI and non-UEFI systems.
+
+[View Repository](https://github.com/gmh5225/bedaisy-bypass)
+
+432 years ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# bedaisy-bypass
+
+## Description
+
+`bedaisy-bypass` is a kernel driver designed to bypass reports sent from `BEDaisy.sys` to `BEService.exe`. For users not on a UEFI, the project utilizes Infinity Hook. The driver intercepts data communicated through the named pipe between the two services. On receiving a request, the driver inspects the type of request, decrypts the returned data, and processes it accordingly. Due to the absence of expected data in the report buffers (as opposed to the main usermode shellcode), this mechanism can be exploited to decrypt, nullify, and then re-encrypt data. This ensures that no reports are sent back to the service, while still allowing for a response to be transmitted.
+
+## Installation
+
+1. Download Infinity Hook from [this repository](https://github.com/everdox/InfinityHook).
+2. Integrate Infinity Hook into the project and configure it in `main.cpp` as per the provided instructions.
+3. For UEFI users: If you are using UEFI, it's likely you have a mechanism in place to hook syscalls from a driver (utilizing `KiSystemServiceCopyEnd`). If so, you should be familiar with the subsequent steps.
+
+## Credits
+
+This project employs FindWDK for cmake, available at [this repository](https://github.com/SergiusTheBest/FindWDK).
+
+[Download Tool](https://github.com/gmh5225/bedaisy-bypass)

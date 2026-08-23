@@ -1,0 +1,73 @@
+---
+title: ptrace
+url: https://kitploit.com/en/tools/github/whatswrongandwhy/ptrace
+source: Kitploit
+date: 2026-08-22
+fetch_date: 2026-08-23T02:57:08.734103
+---
+
+# ptrace
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+ptrace | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/whatswrongandwhy/ptrace
+
+![](https://assets.kitploit.com/production/public/tools/41688/f9a17bbb176e93ff2c3cd36d24478e61051fadef1b8c16a9d4a92c503006da23-display-v1.webp)
+
+[Dynamic Code Analysis (DAST)](/en/categories/dynamic-code-analysis)[Exploitation](/en/categories/exploitation)[Reverse Engineering](/en/categories/reverse-engineering)[Debuggers](/en/categories/debuggers)[Binary Analysis](/en/categories/binary-analysis)
+
+![GitHub](/providers/github.png)whatswrongandwhy/ptrace
+
+# ptrace
+
+[View Repository](https://github.com/whatswrongandwhy/ptrace)
+
+1 month ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+This repository does not have a README.
+
+[Download Tool](https://github.com/whatswrongandwhy/ptrace)
