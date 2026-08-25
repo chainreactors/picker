@@ -1,0 +1,208 @@
+---
+title: dwarf2json
+url: https://kitploit.com/en/tools/github/volatilityfoundation/dwarf2json
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:59:11.521724
+---
+
+# dwarf2json
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+dwarf2json — convert ELF/DWARF symbol and type information into vol3's intermediate JSON | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/volatilityfoundation/dwarf2json
+
+![](https://assets.kitploit.com/production/public/tools/50807/bbb79affdefd160be86eccca51a798859008b6fcc1736f945561412f602e5324-display-v1.webp)
+
+[Memory Forensics](/en/categories/memory-forensics)[Reverse Engineering](/en/categories/reverse-engineering)[Digital Forensics](/en/categories/digital-forensics)[Utilities & Frameworks](/en/categories/utilities-frameworks)[Binary Analysis](/en/categories/binary-analysis)[Top in Memory Forensics #8](/en/categories/memory-forensics)
+
+![GitHub](/providers/github.png)volatilityfoundation/dwarf2json
+
+# dwarf2json
+
+convert ELF/DWARF symbol and type information into vol3's intermediate JSON
+
+[View Repository](https://github.com/volatilityfoundation/dwarf2json)
+
+157371 year ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# Introduction
+
+`dwarf2json` is a Go utility that processes files containing symbol and type
+information to generate [Volatility3](https://github.com/volatilityfoundation/volatility3)
+Intermediate Symbol File (ISF) JSON output suitable for Linux and macOS
+analysis.
+
+[![build](https://github.com/volatilityfoundation/dwarf2json/workflows/build/badge.svg)](https://github.com/volatilityfoundation/dwarf2json/actions?query=workflow%3Abuild)
+
+To build (Go 1.18+ required):
+
+root@kitploit:~
+
+```
+  $ go build
+```
+
+To run:
+
+root@kitploit:~
+
+```
+  $ ./dwarf2json --help
+  Usage: ./dwarf2json COMMAND
+
+  A tool for generating intermediate symbol file (ISF)
+
+  Commands:
+    linux  generate ISF for Linux analysis
+    mac    generate ISF for macOS analysis
+
+  Options:
+  -h, --help     Show this screen.
+  -v, --version  Show tool and output schema version.
+```
+
+Note: processing large DWARF files requires a minimum of 8GB RAM.
+
+# Linux Processing
+
+`dwarf2json` supports processing DWARF and symbol table information from ELF
+files and symbols from System.map input files to produce ISF for
+Linux analysis.
+
+The user is able to select whether to include symbol, type, or both for each
+input file.
+
+root@kitploit:~
+
+```
+  $ ./dwarf2json linux --help
+  Usage: dwarf2json linux [OPTIONS]
+
+        --elf PATH           ELF file PATH to extract symbol and type information
+        --elf-symbols PATH   ELF file PATH to extract only symbol information
+        --elf-types PATH     ELF file PATH to extract only type information
+        --system-map PATH    System.Map file PATH to extract symbol information
+```
+
+For example, to include symbols and types for a given Linux kernel DWARF
+file can be done with:
+
+root@kitploit:~
+
+```
+  $ ./dwarf2json linux --elf /usr/lib/debug/boot/vmlinux-4.4.0-137-generic > output.json
+```
+
+Symbol offsets for symbols extracted from symbol table information take
+precedence over those extracted from DWARF information. Thus, symbols extracted
+from files specified with `--elf-symbols` flag take precedence over symbols
+extracted from files specified with `--elf`. Symbol offsets for symbols from
+`System.Map`, specified with `--system-map` flag, are the highest precedence. If
+there is a conflict between the different symbol information sources, the
+offset from `System.Map` will be used.
+
+Providing multiple input files for a given flag is allowed. For example,
+`./dwarf2json --elf file1 --elf file2 ...` would process both `file1` and
+`file2`. When conflicting symbol or type information is encountered, the data
+from the last file specified in the command invocation would take precedence.
+
+# MacOS Processing
+
+`dwarf2json` supports processing DWARF and symbol table information from Mach-O
+files to produce ISF for macOS analysis.
+
+The user is able to select whether to include symbol, type, or both for each
+input file.
+
+root@kitploit:~
+
+```
+  $ ./dwarf2json mac --help
+  Usage: dwarf2json mac [OPTIONS]
+
+        --arch NAME            architecture for universal FAT files. NAME is one of {i386|x86_64}
+        --macho PATH           Mach-O file PATH to extract symbol and type information
+        --macho-symbols PATH   Mach-O file PATH to extract only symbol information
+        --macho-types PATH     Mach-O file PATH to extract only type information
+```
+
+For example, to include symbols and types for a given macOS kernel DWARF
+file and symbols from a macOS kernel can be done with:
+
+root@kitploit:~
+
+```
+  $ ./dwarf2json mac --macho /path/kernel.dSYM/Contents/Resources/DWARF/kernel \
+    --macho-symbols /path/kernel > output.json
+```
+
+Symbol offsets for symbols extracted from symbol table information take
+precedence over those extracted from DWARF information. Thus, symbols extracted
+from files specified with `--macho-symbols` flag take precedence over symbols
+extracted from files specified with `--macho`.
+
+Providing multiple input files for a given flag is allowed. For example,
+`./dwarf2json --macho file1 --macho file2 ...` would process both `file1` and
+`file2`. When conflicting symbol or type information is encountered, the data
+from the last file specified in the command invocation would take precedence.
+
+When processing Mach-O universal FAT binaries, the `--arch` flag needs to be
+used to select the architecture for one of the embedded Mach-O files.
+
+For example, generating ISF JSON file for i386 architecture of a OS X 10.7
+kernel debug kit can be done with:
+
+root@kitploit:~
+
+```
+  $ ./dwarf2json mac --arch i386 \
+  --macho mach_kernel.dSYM/Contents/Resources/DWARF/mach_kernel \
+  --macho-symbols mach_kernel > mach_kernel.json
+```
+
+[Download Tool](https://github.com/volatilityfoundation/dwarf2json)

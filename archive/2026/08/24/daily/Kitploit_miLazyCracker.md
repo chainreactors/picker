@@ -1,0 +1,124 @@
+---
+title: miLazyCracker
+url: https://kitploit.com/en/tools/github/nfc-tools/milazycracker
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:59:06.240808
+---
+
+# miLazyCracker
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+miLazyCracker — Mifare Classic Plus - Hardnested Attack Implementation for SCL3711 LibNFC USB reader | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/nfc-tools/milazycracker
+
+![](https://assets.kitploit.com/production/public/tools/50770/33b139a9f72b0ecdb7be6c7ef8184a41f104689fd886ae0d328c3b30d88bea2e-display-v1.webp)
+
+[Exploitation](/en/categories/exploitation)[RFID/NFC Tools](/en/categories/rfid-nfc-tools)[Hardware Hacking](/en/categories/hardware-hacking)[Cryptography](/en/categories/cryptography)[Penetration Testing](/en/categories/penetration-testing)[Top in RFID/NFC Tools #13](/en/categories/rfid-nfc-tools)
+
+![GitHub](/providers/github.png)nfc-tools/milazycracker
+
+# miLazyCracker
+
+Mifare Classic Plus - Hardnested Attack Implementation for SCL3711 LibNFC USB reader
+
+[View Repository](https://github.com/nfc-tools/milazycracker)
+
+367673 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# miLazyCracker
+
+Mifare Classic Plus - Hardnested Attack Implementation for LibNFC USB readers (SCL3711, ASK LoGO, etc)
+
+Installation:
+
+root@kitploit:~
+
+```
+./miLazyCrackerFreshInstall.sh
+```
+
+Usage example: place a tag and enjoy
+
+root@kitploit:~
+
+```
+mkdir mydumps
+cd mydumps
+miLazyCracker
+```
+
+Possible issue:
+
+root@kitploit:~
+
+```
+error	libnfc.driver.pn53x_usb	Unable to set USB configuration (Device or resource busy)
+```
+
+Fix:
+
+root@kitploit:~
+
+```
+sudo modprobe -r pn533_usb
+```
+
+This tool is comprised of work from:
+
+* Aram Verstegen (<https://github.com/aczid/crypto1_bs>)
+* Carlo Meijer and Roel Verdult: (<https://www.cs.ru.nl/~rverdult/Ciphertext-only_Cryptanalysis_on_Hardened_Mifare_Classic_Cards-CCS_2015.pdf>)
+* Iceman Proxmark Branch: <https://github.com/iceman1001/proxmark>
+* Piwi Proxmark Branch - <https://github.com/pwpiwi/proxmark3/tree/hard_nested>
+
+- Blapost Solver
+
+- MFOC - <https://github.com/nfc-tools/mfoc>
+
+- MFCUK - <https://github.com/nfc-tools/mfcuk>
+
+[Download Tool](https://github.com/nfc-tools/milazycracker)

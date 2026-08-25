@@ -1,0 +1,183 @@
+---
+title: naive-hashcat
+url: https://kitploit.com/en/tools/github/brannondorsey/naive-hashcat
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:59:14.157522
+---
+
+# naive-hashcat
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/brannondorsey/naive-hashcat
+
+![](https://assets.kitploit.com/production/public/tools/50823/cfee1acbccd2a789877087609d3af00674d5e4225e6f8283e6a0d40bd87972f8-display-v1.webp)
+
+[Password Cracking](/en/categories/password-cracking)[Password Attacks](/en/categories/password-attacks)[Hash Analysis](/en/categories/hash-analysis)[Top in Hash Analysis #13](/en/categories/hash-analysis)[Top in Password Attacks #14](/en/categories/password-attacks)[Top in Password Cracking #14](/en/categories/password-cracking)
+
+![GitHub](/providers/github.png)brannondorsey/naive-hashcat
+
+# naive-hashcat
+
+Plug-and-play hashcat wrapper that cracks password hashes using preconfigured dictionary, rule-based, combinator, and mask attacks, supporting dozens of hash types and writing recovered credentials to a pot file.
+
+[View Repository](https://github.com/brannondorsey/naive-hashcat)
+
+1.4k1754 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# Naive Hashcat
+
+Crack password hashes without the fuss. Naive hashcat is a plug-and-play script that is pre-configured with naive, emperically-tested, "good enough" parameters/attack types. Run hashcat attacks using `./naive-hashcat.sh` without having to know what is going on "under the hood".
+
+**DISCLAIMER: This software is for educational purposes only. This software should not be used for illegal activity. The author is not responsible for its use. Don't be a dick.**
+
+## Getting started
+
+root@kitploit:~
+
+```
+git clone https://github.com/brannondorsey/naive-hashcat
+cd naive-hashcat
+
+# if you are on MacOS/OSX, run this. If on linux or windows, skip...
+./build-hashcat-osx.sh
+
+# download the 134MB rockyou dictionary file
+curl -L -o dicts/rockyou.txt https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+
+# cracks md5 hashes in hashcat-3.6.0/example0.hash by default
+./naive-hashcat.sh
+```
+
+## What it do?
+
+`./naive-hashcat.sh` assumes that you have hashed passwords that you would like to know the plaintext equivalent of. Likely, you've come across a text file that contains leaked accounts/emails/usernames matched with a cryptographic hash of a corresponding password. Esentially something that looks like:
+
+root@kitploit:~
+
+```
+[email protected]:01e870ebb01160f881ffaa6764acd01f
+[email protected]:f15a413c1835014679a286ee84a212d4
+[email protected]:e4fdf3291654751def4e6816fddce608
+[email protected]:8ebd79c9b13240ab3767a64b4faae7be
+[email protected]:33816712db4f3913ee967469fe7ee982
+[email protected]:3e46fb7125915cdf34df21342004f82f
+[email protected]:bf0e20a03a01ae215deb9b36e173cd9a
+```
+
+(⬆⬆⬆ not real hashes btw, don't get any ideas...)
+
+If you don't have such a file, [pastebin.com](http://pastebin.com) is a popular text paste site that black-hat hackers 💙 love 💙 posting leaked account credentials to. And lucky 4 u, they have a [trending feature](https://pastebin.com/trends) that makes "interesting content" bubble to the top. If you can't find leaked creds atm, I've written a [tool that archives trending pastes](https://github.com/brannondorsey/pastebin-mirror) each hour.
+
+Once you've got some hashes, save them to a file with one hash per line. For example, `hashes.txt`:
+
+root@kitploit:~
+
+```
+01e870ebb01160f881ffaa6764acd01f
+f15a413c1835014679a286ee84a212d4
+e4fdf3291654751def4e6816fddce608
+8ebd79c9b13240ab3767a64b4faae7be
+33816712db4f3913ee967469fe7ee982
+3e46fb7125915cdf34df21342004f82f
+bf0e20a03a01ae215deb9b36e173cd9a
+```
+
+To crack your hashes, pass this file as `HASH_FILE=hashes.txt` to the command below.
+
+## Usage
+
+`naive-hashcat.sh` takes, at most, three parameters. All parameters are expressed using unix environment variables. The command below shows the default values set for each of the configurable environment variables that `naive-hashcat.sh` uses:
+
+root@kitploit:~
+
+```
+HASH_FILE=hashcat-3.6.0/examples0.hash POT_FILE=hashcat.pot HASH_TYPE=0 ./naive-hashcat.sh
+```
+
+* `HASH_FILE` is a text file with one hash per line. These are the password hashes to be cracked.
+* `POT_FILE` is the name of the output file that `hashcat` will write cracked password hashes to.
+* `HASH_TYPE` is the hash-type code. It describes the type of hash to be cracked. `0` is [md5](https://en.wikipedia.org/wiki/MD5). See the [Hash types](#hash-types) section below for a full list of hash type codes.
+
+## What naive-hashcat does
+
+[`naive-hashcat.sh`](https://github.com/brannondorsey/naive-hashcat/blob/HEAD/naive-hashcat.sh) includes a small variety of [dictionary](https://hashcat.net/wiki/doku.php?id=dictionary_attack), [combination](https://hashcat.net/wiki/doku.php?id=combinator_attack), [rule-based](https://hashcat.net/wiki/doku.php?id=rule_based_attack), and [mask](https://hashcat.net/wiki/doku.php?id=mask_attack) (brute-force) attacks. If that sounds overwhelming, don't worry about it! The point of naive hashcat is that you don't have to know how it works. In this case, ignorance is bliss! In fact, I barely know what I'm doing here. The attacks I chose for `naive-hashcat.sh` are very naive, one-size-kinda-fits-all solutions. If you are having trouble cracking your hashes, I suggest checking out the **awesome** [hashcat wiki](https://hashcat.net/wiki/), and using the `hashcat` tool directly.
+
+At the time of this writing, `naive-hashcat` cracks ~60% of the hashes in `examples0.hash`.
+
+## Ok, I think its working... what do I do now?
+
+So you've run `./naive-hashcat.sh` on your `HASH_FILE`, and you see some passwords printing to the screen. These `hash:password` pairs are saved to the `POT_FILE` (`hashcat.pot` by default). Now you need to match the hashes from the original file you... um... found (the with lines like `[[email protected]](/cdn-cgi/l/email-protection):01e870ebb01160f881ffaa6764acd01f`) to the `hash:password` pairs in your pot file.
+
+Run `python match-creds.py --accounts original_file.txt --potfile hashcat.pot > creds.txt` to do just that! This tool matches usernames/emails in `original_file.txt` with their corresponding cracked passwords in `hashcat.pot` and prints `username:password`:
+
+root@kitploit:~
+
+```
+[email protected]:Password1
+[email protected]:Qwerty1234
+[email protected]:PleaseForHeavenSakeUseAPasswordManager
+```
+
+Congratulations, you just hacked the private passwords/account information of many poor souls. And because everyone still uses the same password for everything you likely have the "master" password to tons of accounts.
+
+And remember
+
+1. use a [password manager](https://www.lastpass.com/)
+2. don't pwn people
+3. don't go to jail
+
+🏴‍ Happy hacking ☠
+
+P.S. `./naive-hashcat.sh` can take anywhere from a few minutes to a few hours to terminate depending on your hardware. It will constantly stream results to the `POT_FILE`, and you are free to use the contents of that file for further processing with `match-creds.py` before cracking is finished.
+
+## GPU Cracking
+
+Hashcat ships with OpenCL and runs on available GPU hardware automatically when available.
+
+## Hash types
+
+Below is a list of hash-type codes supported b...

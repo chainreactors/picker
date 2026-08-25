@@ -1,0 +1,181 @@
+---
+title: Zombie Card An expired Visa credit card can be used for purchases
+url: https://www.malwarebytes.com/blog/news/2026/08/zombie-card-an-expired-visa-credit-card-can-be-used-for-purchases
+source: Instapaper: Unread
+date: 2026-08-24
+fetch_date: 2026-08-25T03:00:52.609313
+---
+
+# Zombie Card An expired Visa credit card can be used for purchases
+
+[Skip to content](#primary)
+
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+* [Sign In](https://my.malwarebytes.com/en/login)
+
+  Sign in
+
+  [Activate subscription >](https://my.malwarebytes.com/landing/activate)
+
+  [Add devices or upgrade >](https://my.malwarebytes.com/landing/upgrade)
+
+  [Renew subscription >](https://my.malwarebytes.com/landing/manual-renewal)
+
+  [Secure Hub >](https://my.malwarebytes.com/secure-hub)
+
+  Don’t have an account?
+  **Sign up >**
+
+  Sign In
+
+* Products
+
+  < Products
+
+  **Solutions**
+
+  + [Premium security antivirus](https://www.malwarebytes.com/premium)
+  + [Privacy VPN](https://www.malwarebytes.com/vpn)
+  + [Identity Theft Protection](https://www.malwarebytes.com/identity-theft-protection)
+  + [Personal Data Remover](https://www.malwarebytes.com/personal-data-remover)
+  + [Mobile security for iOS and Android](https://www.malwarebytes.com/mobile)
+
+  + [Looking for small business protection? Visit Teams](https://www.malwarebytes.com/teams)
+
+  **Free device cleaners**
+
+  + [Malware and virus remover](https://www.malwarebytes.com/solutions/virus-scanner)
+  + [AdwCleaner](https://www.malwarebytes.com/adwcleaner)
+  + [Antivirus trial](https://www.malwarebytes.com/solutions/free-antivirus)
+
+  **Free identity and personal data scanners**
+
+  + [Digital footprint scanner](https://www.malwarebytes.com/digital-footprint)
+  + [Personal data scanner](https://www.malwarebytes.com/personal-data-remover)
+
+  **Free scam and ad blockers**
+
+  + [Scam Guard](https://www.malwarebytes.com/solutions/scam-guard)
+  + [Scam number checker](https://www.malwarebytes.com/scam-check/phone)
+  + [Browser Guard](https://www.malwarebytes.com/browserguard)
+
+  **[See all free tools](https://www.malwarebytes.com/free-tools)**
+* [Pricing](https://www.malwarebytes.com/pricing)
+* [Partners](https://www.malwarebytes.com/partners)
+* About
+
+  **Company**
+
+  + [About Malwarebytes](https://www.malwarebytes.com/company)
+  + [Why Malwarebytes?](https://www.malwarebytes.com/why-us)
+  + [Jobs](https://www.malwarebytes.com/jobs)
+
+  **[Newsroom](https://www.malwarebytes.com/press/)**
+* Resources
+
+  < Resources
+
+  **Cybersecurity News**
+
+  + [Malwarebytes Blog](https://www.malwarebytes.com/blog)
+  + [Threat Center](https://www.malwarebytes.com/blog/threats)
+  + [Lock & Code podcast](https://www.malwarebytes.com/blog/category/podcast)
+
+  **Cybersecurity Basics**
+
+  + [What is Malware?](https://www.malwarebytes.com/malware)
+  + [What is Antivirus?](https://www.malwarebytes.com/cybersecurity/basics/antivirus)
+  + [What is Phishing?](https://www.malwarebytes.com/phishing)
+  + [See all topics](https://www.malwarebytes.com/cybersecurity)
+
+  **Research reports**
+
+  + [Modern Love in the Digital Age](https://www.malwarebytes.com/modernlove)
+  + [Mobile Scam Report](https://www.malwarebytes.com/mobile-scams)
+  + [How AI is reshaping trust, identity, and scams](https://www.malwarebytes.com/ai-scams)
+
+  **Small Business Learning Hub**
+
+  + [Small business news](https://www.malwarebytes.com/small-business#news)
+  + [Upcoming Webinars](https://www.malwarebytes.com/small-business#webinar)
+
+  **[See all resources](https://www.malwarebytes.com/resources)**
+* Help
+
+  < Help
+
+  **[Malwarebytes Help Center](https://help.malwarebytes.com/hc)**
+
+  **[Community Forums](https://forums.malwarebytes.com/)**
+
+Free Download
+
+Search
+Search
+
+Search Malwarebytes.com
+
+Search for:
+
+[News](https://www.malwarebytes.com/blog/category/news)
+
+# Zombie Card: An expired Visa credit card can be used for purchases
+
+by [Pieter Arntz](https://www.malwarebytes.com/blog/authors/metallicamvp) |
+August 21, 2026
+
+![Close up of black credit card.](https://www.malwarebytes.com/wp-content/uploads/sites/2/2024/09/credit-card.png?w=600)
+
+[![Add as a Preferred Source on Google](https://www.malwarebytes.com/wp-content/themes/malwarebytes/assets/src/images/google_preferred_source_badge_dark.png)](https://www.google.com/preferences/source?q=malwarebytes.com)
+
+Did you know there is still a good reason to physically destroy your expired credit card?
+
+[Scientific research](https://www.umass.edu/news/article/when-zombie-credit-cards-attack-umass-researchers-discover-loophole-can-reanimate) found that the expiration date used by payment terminals on some contactless cards was not effectively protected against tampering.
+
+University of Massachusetts Amherst researchers Raja Hasnain Anwar, Gerard DeCunha, and Muhammad Taqi Raza tested contactless cards across Visa, Mastercard, Discover, and American Express, using multiple terminals and merchants, and cards from five major US banks.
+
+They found that a payment terminal could be tricked into seeing a future expiry date. Basically, they were able to modify the expiration date sent to the terminal to a future date. This allowed them to revive expired Visa contactless credit cards for real in-store purchases. Hence the name “Zombie Card.”
+
+The result was not universal. The tested Mastercard, American Express, and Discover configurations rejected the altered expiry data, while issuer behavior differed even among the tested Visa cards: Some transactions were declined or prompted for a replacement card, while others were approved.
+
+The flaw lies in the Visa Kernel 3 contactless flow, where the terminal-facing Application Expiration Date was not effectively bound to the card’s data. In the tested Mastercard, American Express, and Discover kernels, consistency checks or authenticated-data coverage caused modified expiry data to be detected and the transaction to be declined.
+
+## How this could be abused
+
+The most credible abuse case is theft or recovery of an expired or replaced card which the owner regards as harmless. Consider cards left in household waste, a drawer, a lost wallet, or an unsecured corporate disposal stream. If the underlying account remains open and issuer-side controls do not validate the exact card lifecycle state, an attacker could attempt contactless purchases using a relay setup.
+
+Less likely is a scenario that uses a proximity relay attack against a card still held by its owner. That requires sustained NFC (Near Field Communication) proximity and a live relay during the transaction, making it materially harder than merely scanning a card from a passing distance.
+
+## How to stay safe
+
+For cardholders, the practical advice is simple:
+
+* Destroy expired and replacement cards. Cut through the chip several times. Make further cuts through the card body to disrupt the contactless antenna, and damage the magnetic stripe before disposing of the pieces.
+* Report a lost expired card rather than treating it as inert.
+
+These are sensible precautions, but the primary responsibility lies with payment networks, terminal implementations, and issuers to ensure expiry data is integrity-protected and that authorization systems reject retired card credentials.
+
+---
+
+### **Something feel off? Check it before you click.**
+
+**Malwarebytes Scam Guard** helps you analyze suspicious links, texts, and screenshots instantly.
+
+Available with [Malwarebytes Premium Security](https://www.malwarebytes.com/premium) for all your devices, and in the [Malwarebytes app for iOS and Android](https://www.malwarebytes.com/mobile).
+
+[Try it free →](https://www.malwarebytes.com/solutions/scam-guard)
+
+**SHARE THIS ARTICLE**
+
+[![X](https://www.malwarebytes.com/wp-content/themes/malwarebytes/assets/src/images/x-twitter-logo-grey.svg)](https://x.com/intent/tweet?text=Zombie%20Card%3A%20An%20expired%20Visa%20credit%20card%20can%20be%20used%20for%20purchases%20https%3A%2F%2Fwww.malwarebytes.com%2Fblog%2Fnews%2F2026%2F08%2Fzombie-card-an-expired-visa-credit-card-can-be-used-for-purchases&via=Malwarebytes)
+
+[![Add as a Preferred Source on Google](https://www.malwarebytes.com/wp-content/themes/malwarebytes/assets/src/images/google_preferred_source_badge_dark.png)](https://www.google.com/preferences/source?q=malwarebytes.com)
+
+### About the author
+
+[![Pieter Arntz](https://secure.gravatar.com/avatar/4cc4cefdb9f9107d91a64...

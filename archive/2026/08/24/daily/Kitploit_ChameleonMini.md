@@ -1,0 +1,181 @@
+---
+title: ChameleonMini
+url: https://kitploit.com/en/tools/github/rfidresearchgroup/chameleonmini
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:59:04.168163
+---
+
+# ChameleonMini
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+ChameleonMini — Portable NFC/RFID security tool for emulating and cloning contactless smartcards, reading tags, sniffing RF traffic, and recovering Mifare access keys. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/rfidresearchgroup/chameleonmini
+
+![](https://assets.kitploit.com/production/public/tools/50769/93b869793f8227b2468dd26218c928bee3e3630e0c9c2c4f66a62bd6b3de6317-display-v1.webp)
+
+[RFID/NFC Tools](/en/categories/rfid-nfc-tools)[Information Gathering](/en/categories/information-gathering)[Wireless Security](/en/categories/wireless-security)[Hardware Hacking](/en/categories/hardware-hacking)[Penetration Testing](/en/categories/penetration-testing)[Top in RFID/NFC Tools #12](/en/categories/rfid-nfc-tools)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+![GitHub](/providers/github.png)
+
+rfidresearchgroup/chameleonmini
+
+# ChameleonMini
+
+Portable NFC/RFID security tool for emulating and cloning contactless smartcards, reading tags, sniffing RF traffic, and recovering Mifare access keys.
+
+[View Repository](https://github.com/rfidresearchgroup/chameleonmini)[Website](http://chameleontiny.com/help/)
+
+439792 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+# ChameleonMini
+
+This is NOT the official repository of ChameleonMini, a freely programmable portable tool for NFC security analysis that can emulate and clone contactless cards, read RFID tags, and sniff/log RF data. This repository brings support for the Chameleon Tiny.
+
+Our Project is based on the open-source project [ChameleonMini RevG](https://raw.githubusercontent.com/emsec/ChameleonMini) by Kasper & Oswald. They also have their own [Webshop](https://shop.kasper.it/).
+
+* Information:
+  + Chameleon Tiny Site: **[Here](http://chameleontiny.com/)**
+  + Chameleon BLE API: [**Here**](https://github.com/RfidResearchGroup/ChameleonBLEAPI/blob/blob/master/code.rar)
+  + Doxygen: **[Here](https://raw.githubusercontent.com/doxygen/doxygen)**
+    - For viewing some of the documentation
+    - Binaries: **[Here](https://www.doxygen.nl/download.html)**
+    - Install: **[Here](https://www.doxygen.nl/manual/install.html)**
+  + Documentation (RfidResearchgroup):
+    - Source: **[Here](https://github.com/RfidResearchGroup/ChameleonMini/tree/proxgrind/Doc/Doxygen/html)**
+      * Need to manually download and view
+      * Open [Doc/Doxyfile](https://github.com/rfidresearchgroup/chameleonmini/blob/HEAD/Doc/Doxyfile) and then in application `Show HTML Output`
+  + Documentation (emsec):
+    - Doxygen: **[Here](https://rawgit.com/emsec/ChameleonMini/master/Doc/Doxygen/html)**
+    - Source: **[Here](https://github.com/emsec/ChameleonMini/blob/tree/master/Doc)**
+* Tools:
+  + Phone APP:
+    - Android: **[Chameleon](https://play.google.com/store/apps/details?id=com.proxgrind.chameleon)**
+      * The Android APP is currently **NOT** compatible with the official firmware
+    - IOS: **[ChameleonTiny Manager](https://apps.apple.com/us/app/chameleontiny-manager/id1601341565)**
+      * The IOS APP is currently **NOT** compatible with the official firmware
+      * Credit to **[bettse](https://raw.githubusercontent.com/bettse)**
+    - Password: e4g1
+  + Optional GUI (Windows Only):
+    - Windows: **[Here](http://www.icesql.se/download/ChameleonMiniGUI/publish.htm)**
+    - Source: **[Here](https://raw.githubusercontent.com/iceman1001/ChameleonMini-rebootedGUI)**
+  + Chameleon Firmware:
+    - Compile the latest firmware: **[Here](https://github.com/rfidresearchgroup/chameleonmini/blob/HEAD/Firmware)**
+      * Or use the precompiled: **[Here](https://github.com/rfidresearchgroup/chameleonmini/blob/HEAD/Firmware/Chameleon-Mini/Latest)**
+    - The Chameleon Mini REV.G version uses the same firmware for both the Mini with Bluetooth version and Tiny
+    - The hardware design of the RF part is exactly the same
+    - The hardware is also compatible with the official firmware of the [KAOS brothers](https://raw.githubusercontent.com/emsec/ChameleonMini)
+  + Terminal APP:
+    - Putty or similar APP
+  + DFU driver:
+    - The DFU driver comes from ATMEL's official LIBUSB driver library
+    - You can download it yourself or from the repo: **[Here](https://github.com/rfidresearchgroup/chameleonmini/blob/HEAD/Drivers)**
+  + DFU Programmer:
+    - Zip file from SourceForge: **[Here](https://sourceforge.net/projects/dfu-programmer/files/dfu-programmer/0.7.2/dfu-programmer-win-0.7.2.zip/download)**
+* Resellers:
+  + Our Asia & Oceania Reseller: **[Here](https://sneaktechnology.com/)**
+  + Our Europe Reseller: **[Here](https://lab401.com/)**
+  + Our US Reseller: **[Here](https://hackerwarehouse.com/)**
+* Repository Structure:
+  + **Doc:** A folder for doxygen documentation
+  + **Drivers:** Chameleon drivers for Windows and Linux
+  + **Dumps:** Dumps of different smartcards
+  + **Hardware:** The layout and schematics of the PCB
+  + **Firmware:** The complete firmware including a modified Atmel DFU bootloader and LUFA
+  + **Software:** Contains a python tool for an easy configuration (and more) of the ChameleonMini
+    - **WARNING:** This is currently under construction
+  + **RevE:** Contains the entire contents of the discontinued RevE repository
+  + **RevE-light:** Contains our development files for the RevE-light
+    - **WARNING:** This is currently not supported / not functional
+
+## A. Upgrade to the latest firmware
+
+### A1. Upgrade Chameleon AVR Firmware
+
+---
+
+#### 1. Obtain and Prepare Tools:
+
+* Optional GUI (Windows Only)
+* Terminal APP
+* Firmware
+* DFU Driver
+* DFU Programmer
+
+#### 2. Create a Working Directory
+
+1. Create a directory to work from
+2. Place the Chameleon firmware in the directory
+3. Unzip the DFU Programmer folder to the working directory
+4. If you are using the auto install on Windows, place [ChameleonFirmwareUpgrade.bat](https://github.com/rfidresearchgroup/chameleonmini/blob/HEAD/Firmware/Chameleon-Mini/ChameleonFirmwareUpgrade.bat) in the working directory as well
+
+* Further information:
+  + **[Here](https://github.com/rfidresearchgroup/chameleonmini/blob/HEAD/Doc/Doxygen/html/_page__getting_started.html)**
+  + **[emsec](https://github.com/emsec/ChameleonMini/blob/blob/master/Doc/DoxygenPages/GettingStarted.txt)**
+
+#### 3. Enter the Chameleon Direct Firmware Update (DFU) mode:
+
+Method 1: GUI (Windows Only)
+
+* Mini or Tiny:
+
+  1. If it is a Chameleon Mini, ensure it is in the `OFF` position
+  2. Connect it via USB cable to your computer
+     + On the Mini, it may be a good idea to remove the battery before putting the device into `DFU` mode
+  3. Under the `Settings` tab, Send the `Upgrade` command while the Chameleon is connected
+     + This only puts the Chameleon in `DFU` mode
+     + It does **NOT** start installing the firmware at all
+  4. Chameleon should now be in `DFU` mode
+* Further information:
+
+  + **[emsec](https://github.com/emsec/ChameleonMini/blob/blob/master/Doc/DoxygenPages/GettingStarted.txt)**
+  + **[Iceman GUI](https://github.com/iceman1001/ChameleonMini-rebooted/wiki/Getting-started)**
+Method 2: CLI
+
+* Mini:
+
+  1. With the Chameleon in the `OFF` state, press and hold the black (...

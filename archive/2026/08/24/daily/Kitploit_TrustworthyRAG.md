@@ -1,0 +1,247 @@
+---
+title: TrustworthyRAG
+url: https://kitploit.com/en/tools/github/gpt-laboratory/trustworthyrag
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:59:05.023649
+---
+
+# TrustworthyRAG
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+TrustworthyRAG — An Evaluation Agent for Detecting Misinformation and Knowledge Poisoning in Retrieval-Augmented Generation Systems. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/gpt-laboratory/trustworthyrag
+
+![](https://assets.kitploit.com/production/public/tools/51060/ce64bb9767b55b98b4b2d43474a832eecd006c148b46484a13b1b799445c4178-display-v1.webp)
+
+[Code Analysis](/en/categories/code-analysis)[Machine Learning](/en/categories/machine-learning)[Papers & Research](/en/categories/papers-research)[AI Security](/en/categories/ai-security)[Anomaly Detection](/en/categories/anomaly-detection)
+
+![GitHub](/providers/github.png)gpt-laboratory/trustworthyrag
+
+# TrustworthyRAG
+
+An Evaluation Agent for Detecting Misinformation and Knowledge Poisoning in Retrieval-Augmented Generation Systems.
+
+[View Repository](https://github.com/gpt-laboratory/trustworthyrag)
+
+1 month ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# Trustworthy RAG
+
+An Evaluation Agent for Detecting Misinformation and Knowledge Poisoning in Retrieval-Augmented Generation Systems.
+
+## Overview
+
+This project implements a **Trustworthy RAG Framework** with an integrated **Evaluation Agent** that assesses the reliability of RAG responses using three complementary analysis components:
+
+* **NLI Verifier** - Factual consistency checking via Natural Language Inference (BART-MNLI)
+* **Poison Detector** - Multi-signal adversarial content detection (linguistic, structural, semantic, intra/cross-document NLI)
+* **Trust Index Calculator** - Weighted composite score combining factuality, consistency, and poison safety
+
+The system produces a **Trust Score** (0-1) for every RAG response, enabling automated detection of knowledge poisoning attacks and hallucinated content.
+
+This repository is the research artifact for the ICSEA 2026 conference paper of the same title. See `[Conference_ICSEA2026/](https://github.com/gpt-laboratory/trustworthyrag/blob/HEAD/Conference_ICSEA2026/)` for the LaTeX sources, and the [Paper](#paper) section below.
+
+## Architecture
+
+root@kitploit:~
+
+```
+User Query
+    |
+    v
++-------------------+
+|     RETRIEVER     |   Embedding (MiniLM-L6-v2 or Snowflake Arctic Embed2) + FAISS
++--------+----------+
+         |
+         v
++-------------------+
+|     GENERATOR     |   Llama 3.3 70B / Qwen 3.5 35B / Mistral 7B Instruct via FARMI API
++--------+----------+
+         |
+         v
++--------------------------------------------+
+|           EVALUATION AGENT                 |
+|                                            |
+|  NLI Verifier    Poison Detector           |
+|  (factuality)    (5 detection methods)     |
+|       |                |                   |
+|       v                v                   |
+|     Trust Index Calculator                 |
+|     T = 0.4*F + 0.35*C + 0.25*(1-P)       |
++--------------------------------------------+
+         |
+         v
+   Answer + Trust Score + Evaluation Report
+```
+
+## Project Structure
+
+root@kitploit:~
+
+```
+src/
+  retriever/              # Document retrieval (embeddings, FAISS, chunking)
+  generator/              # LLM response generation (FARMI client, prompts)
+  evaluation_agent/       # Core evaluation (NLI, poison detection, trust index)
+  experiments/            # Experiment framework (poisoned datasets, runner)
+  pipeline/               # End-to-end RAG pipeline orchestrator
+
+tests/                    # Unit tests (78 tests, pytest)
+configs/config.yaml       # All configuration parameters
+figures/                  # Auto-generated charts (7 figures, 300 DPI)
+run_experiment.py         # Experiment CLI (main entry point)
+generate_charts.py        # Visualization generator
+requirements.txt          # Python dependencies
+```
+
+## Setup
+
+root@kitploit:~
+
+```
+# Create and activate virtual environment
+python -m venv venv
+.\venv\Scripts\Activate.ps1    # Windows PowerShell
+# source venv/bin/activate     # Linux/Mac
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure FARMI API access (required for LLM generation)
+# Copy the template and fill in your own credentials:
+#   cp .env.example .env       # then edit .env and set FARMI_API_KEY
+# The .env file is .gitignored - never commit it or hardcode keys in source.
+```
+
+## Usage
+
+### Run Full Experiment Suite
+
+root@kitploit:~
+
+```
+python run_experiment.py --all
+```
+
+This runs all experiments and auto-generates charts:
+
+* TruthfulQA main experiment (100 samples, mixed poisoning)
+* Per-strategy experiments (100 samples each: injection, contradiction, entity swap, subtle)
+* FEVER dataset experiment (100 samples)
+* Ablation study (5 weight configurations, 60 samples each)
+
+### Other Experiment Options
+
+root@kitploit:~
+
+```
+python run_experiment.py --quick          # Quick test (10 samples)
+python run_experiment.py --samples 30     # Custom sample count
+python run_experiment.py --per-strategy   # Per-strategy breakdown only
+python run_experiment.py --fever          # Include FEVER dataset
+python run_experiment.py --ablation       # Ablation study only
+python run_experiment.py --grid           # 2x2 factorial grid (all LLM x embedding combos)
+python run_experiment.py --grid --samples 50  # Full grid run (100 samples per config)
+```
+
+The interactive prompt lets you select:
+
+* **LLM**: Llama 3.3 70B (primary), Qwen 3.5 35B or Mistral 7B Instruct (comparison)
+* **Embedding**: all-MiniLM-L6-v2 (local) or snowflake-arctic-embed2 (API)
+* **K**: Retrieval depth — K=3 (faster) or K=5 (standard, default)
+
+You can also pin the generator non-interactively via the `LLM_MODEL` environment variable
+(matching `configs/config.yaml` and `run_experiment.py`'s `MODEL_DESCRIPTIONS`):
+
+root@kitploit:~
+
+```
+$env:LLM_MODEL = "mistral-7b-instruct"   # or "qwen3.5:35b", "llama3.3:70b"
+python run_experiment.py --all
+```
+
+### Secure-Coding SDLC Use Case
+
+Reproduce the secure-coding assistant experiment (40 OWASP/CWE rules) from the project root.
+It reuses the existing `ExperimentRunner` + `PoisonedDatasetGenerator` and writes results to
+`data/experiments/seccode_*.json`:
+
+root@kitploit:~
+
+```
+$env:LLM_MODEL = "llama3.3:70b"; $env:HF_HUB_OFFLINE = "1"; $env:TRANSFORMERS_OFFLINE = "1"
+python Conference_ICSEA2026/run_seccode_usecase.py
+# Set $env:SECCODE_N = "4" first for a quick smoke run over a few rules.
+```
+
+### Regenerate Charts Only
+
+root@kitploit:~
+
+```
+python generate_charts.py
+```
+
+### Run Tests
+
+root@kitploit:~
+
+```
+pytest                    # All tests (includes slow model-loading tests)
+pytest -m "not slow"      # Fast tests only (~0.4s)
+pytest --cov=src          # With coverage report
+```
+
+## Key Results
+
+### Primary Results (Llama 3.3 70B + all-MiniLM-L6-v2, TruthfulQA, K=5, 100 samples)
+
+Naive always-trust baseline: **85%** (TruthfulQA), **85%** (FEVER).
+FEVER underperforms the baseline — the Trust Index requires domain-specific calibration for short factual claims.
+
+With 95% confidence intervals (Wilson for proportions, percentile bootstrap *B*=20,000 for F1), the primary TruthfulQA mixed result is: accuracy 91% (CI 83.8–95.2), reca...

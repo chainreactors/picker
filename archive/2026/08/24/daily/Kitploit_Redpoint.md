@@ -1,0 +1,137 @@
+---
+title: Redpoint
+url: https://kitploit.com/en/tools/github/digitalbond/redpoint
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:59:19.588112
+---
+
+# Redpoint
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+Redpoint — Nmap NSE scripts for ICS/SCADA discovery and enumeration—BACnet, EtherNet/IP, CoDeSys, Fox, Modicon, Omron, S7—using protocol queries for security assessments. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/digitalbond/redpoint
+
+![](https://assets.kitploit.com/production/public/tools/50863/2e7a2685a2e4fa41824b7d2cc9f420f481141f6db775fd64ccc7409dc2e93f52-display-v1.webp)
+
+[Reconnaissance](/en/categories/reconnaissance)[SCADA/ICS Security](/en/categories/scada-ics-security)[Information Gathering](/en/categories/information-gathering)[Network Security](/en/categories/network-security)[Penetration Testing](/en/categories/penetration-testing)[Top in SCADA/ICS Security #5](/en/categories/scada-ics-security)
+
+![GitHub](/providers/github.png)digitalbond/redpoint
+
+# Redpoint
+
+Nmap NSE scripts for ICS/SCADA discovery and enumeration—BACnet, EtherNet/IP, CoDeSys, Fox, Modicon, Omron, S7—using protocol queries for security assessments.
+
+[View Repository](https://github.com/digitalbond/redpoint)
+
+4691506 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+#Redpoint
+
+###Digital Bond's ICS Enumeration Tools
+
+Redpoint is a Digital Bond research project to enumerate ICS applications and devices.
+
+We use our Redpoint tools in assessments to discover ICS devices and pull information that would be helpful in secondary testing. A portion of those tools will be made available as Nmap NSE scripts to the public in this repository.
+
+The Redpoint tools use legitimate protocol or application commands to discover and enumerate devices and applications. There is no effort to exploit or crash anything. However many ICS devices and applications are fragile and can crash or respond in an unexpected way to any unexpected traffic so use with care.
+
+Each script is documented below and available in a .nse file in this repository.
+
+* [BACnet-discover-enumerate.nse](https://github.com/digitalbond/Redpoint#bacnet-discover-enumeratense) - Identify and enumerate BACnet devices
+* [codesys-v2-discover.nse](https://github.com/digitalbond/Redpoint#codesys-v2-discovernse) - Identify and enumerate CoDeSys V2 controllers
+* [enip-enumerate.nse](https://github.com/digitalbond/Redpoint#enip-enumeratense) - Identify and enumerate EtherNet/IP devices from Rockwell Automation and other vendors
+* [fox-info.nse](https://github.com/digitalbond/Redpoint/blob/master/README.md#fox-infonse) - Identify and enumerate Niagara Fox devices
+* [modicon-info.nse](https://github.com/digitalbond/Redpoint/blob/master/README.md#modicon-infonse) - Identify and enumerate Schneider Electric Modicon PLCs
+* [omron-info.nse](https://github.com/digitalbond/Redpoint/blob/master/README.md#omron-infonse) - Identify and enumerate Omron PLCs
+* [pcworx-info.nse](https://github.com/digitalbond/Redpoint/blob/master/README.md#pcworx-infonse) - Identify and enumerate PC Worx Protocol enabled PLCs
+* [proconos-info.nse](https://github.com/digitalbond/Redpoint/blob/master/README.md#pcworx-infonse) - Identify and enumerate ProConOS enabled PLCs
+* [s7-enumerate.nse](https://github.com/digitalbond/Redpoint#s7-enumeratense) - Identify and enumerate Siemens SIMATIC S7 PLCs
+
+==
+
+###BACnet-discover-enumerate.nse
+
+![BACnet-discover-enumerate Sample Output] (<http://digibond.wpengine.netdna-cdn.com/wp-content/uploads/2014/03/BACnet-nse.png>)
+
+####Authors
+
+Stephen Hilt and Michael Toecker
+[Digital Bond, Inc](http://www.digitalbond.com)
+
+####Purpose and Description
+
+The purpose of BACnet-discover-enumerate.nse is to first identify if an IP connected devices is running BACnet. This works by querying the device with a pre-generated BACnet message. Newer versions of the BACnet protocol will respond with an acknowledgement, older versions will return a BACnet error message. Presence of either the acknowledgement or the error is sufficient to prove a BACnet capable device is at the target IP Address.
+
+Second, if an acknowledgement is received, this script will also attempt to enumerate several BACnet properties on a responsive BACnet device. Again, the device is queried with a pregenerated BACnet message. Successful enumeration uses specially crafted requests, and will not be successful if the BACnet device does not support the property.
+
+BACnet properties queried by this script are:
+
+1. Vendor ID - A number that corresponds to a registered BACnet Vendor. The script returns the associated vendor name as well.
+2. Vendor Number - A String that represents the Vendor Name that is configured on the device. This can differ from the Vendor ID as the Vendor ID is the Number registered with ASHARE.
+3. Object Identifier - A number that uniquely identifies the device. If the Object-Identifier is known, it is possible to send commands with BACnet client software, including those that change values, programs, schedules, and other operational information on BACnet devices. This is a required property for all BACnet devices.
+4. Firmware Revision - The revision number of the firmware on the BACnet device.
+5. Application Software Revision - The revision number of the software being used for BACnet communication.
+6. Object Name - A user defined string that assigns a name to the BACnet device, commonly entered by technicians on commissioning. This is a required property for all BACnet devices.
+7. Model Name - The model of the BACnet device
+8. Description - A user defined string for describing the device, commonly entered by technicians on commissioning
+9. Location - A user defined string for recording the physical location of the device, commonly entered by technicians on commissioning
+10. Broadcast Distribution Table (BDT) - A list of the BACnet Broadcast Management Devices (BBMD) in the BACnet network. This will identify all of the subnets that are part of the BACnet network.
+11. Foreign Device Table (FDT) - A list of foreign devices registered with the BACnet device. A foreign device is any device that is not on a subnet that is part of the BACnet network, not in the BDT. Foreign devices often are located on external networks and could be an attacker's IP address.
+
+The BDT and FDT can be large lists and may be not desired in a large Nmap scan. The basic script will not pull down the BDT and FDT. Run the command with the --script-args full=yes to pull the BDT and FDT, see the Usage section.
+
+![BACnet-discover-enumerate Sample Output with BDT and FDT]
+(<http://digibond.wpengine.netdna-cdn.com/wp-content/uploads/2014/08/screenshot_bacnet-1.png>)
+
+This script uses a feature added in 2004 to the BACnet specification in order to retrieve the Object Identifier of a device with a single request, and without joining the BACnet network as a foreign device. (See ANSI/ASHRAE Addendum a to ANSI/ASHRAE Standard 135-2001 for details)
+
+####History and Background
+
+From Wikipedia article on BACnet [http://en.wikipedia.org/wiki/BACnet](https://en.wikipedia.org/wiki/BACnet):
+
+> BACnet is a communications protocol for building automation and control networks. It is an ASHRAE, ANSI, and ISO standard[1] protoc...

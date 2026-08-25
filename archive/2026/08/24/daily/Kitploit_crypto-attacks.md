@@ -1,0 +1,162 @@
+---
+title: crypto-attacks
+url: https://kitploit.com/en/tools/github/jvdsn/crypto-attacks
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:59:13.376662
+---
+
+# crypto-attacks
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+crypto-attacks — Python implementations of cryptographic attacks and utilities. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/jvdsn/crypto-attacks
+
+![](https://assets.kitploit.com/production/public/tools/50819/90f9987630b7cc6eef25faa38e220c2b711ec67b9fdee14a134f633ea595d9cc-display-v1.webp)
+
+[Encryption/Decryption Tools](/en/categories/encryption-decryption-tools)[Cryptography](/en/categories/cryptography)[CTF](/en/categories/ctf)[Papers & Research](/en/categories/papers-research)[Learning & Education](/en/categories/education)[Top in Cryptography #15](/en/categories/cryptography)[Top in Encryption/Decryption Tools #16](/en/categories/encryption-decryption-tools)
+
+![GitHub](/providers/github.png)jvdsn/crypto-attacks
+
+# crypto-attacks
+
+Python implementations of cryptographic attacks and utilities.
+
+1.3k1457 months ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+[View Repository](https://github.com/jvdsn/crypto-attacks)
+
+## Introduction
+
+Python implementations of cryptographic attacks and utilities.
+
+## Requirements
+
+* [SageMath](https://www.sagemath.org/) with Python 3.9
+* [PyCryptodome](https://pycryptodome.readthedocs.io/)
+
+You can check your SageMath Python version using the following command:
+
+root@kitploit:~
+
+```
+$ sage -python --version
+Python 3.9.0
+```
+
+If your SageMath Python version is older than 3.9.0, some features in some scripts might not work.
+
+## Usage
+
+Unit tests are located in the `test` directory and can be executed using the `unittest` module or using `pytest`. This should not take very long, perhaps a few minutes depending on your machine.
+
+To run a specific attack, you must add the code to the proper file before executing it.
+
+### Example
+
+For example, you want to attack RSA using the Boneh-Durfee attack, with the following parameters (taken from [test\_rsa.py](https://github.com/jvdsn/crypto-attacks/blob/HEAD/test/test_rsa.py)):
+
+root@kitploit:~
+
+```
+N = 88320836926176610260238895174120738360949322009576866758081671082752401596826820274141832913391890604999466444724537056453777218596634375604879123818123658076245218807184443147162102569631427096787406420042132112746340310992380094474893565028303466135529032341382899333117011402408049370805729286122880037249
+e = 36224751658507610673165956970793195381480143363550601971796688201449789736497322700382657163240771111376677180786660893671085854060092736865293791299460933460067267613023891500397200389824179925263846148644777638774319680682025117466596019474987378275216579013846855328009375540444176771945272078755317168511
+```
+
+You add the following code at the bottom of the [boneh\_durfee.py](https://github.com/jvdsn/crypto-attacks/blob/HEAD/attacks/rsa/boneh_durfee.py) file:
+
+root@kitploit:~
+
+```
+import logging
+
+# Some logging so we can see what's happening.
+logging.basicConfig(level=logging.DEBUG)
+
+N = 88320836926176610260238895174120738360949322009576866758081671082752401596826820274141832913391890604999466444724537056453777218596634375604879123818123658076245218807184443147162102569631427096787406420042132112746340310992380094474893565028303466135529032341382899333117011402408049370805729286122880037249
+e = 36224751658507610673165956970793195381480143363550601971796688201449789736497322700382657163240771111376677180786660893671085854060092736865293791299460933460067267613023891500397200389824179925263846148644777638774319680682025117466596019474987378275216579013846855328009375540444176771945272078755317168511
+p_bits = 512
+delta = 0.26
+
+p, q = attack(N, e, p_bits, delta=delta, m=3)
+assert p * q == N
+print(f"Found {p = } and {q = }")
+```
+
+Then you can simply execute the file using Sage. It does not matter where you execute it from, the Python path is automagically set (you can also call the attacks from other Python files, but then you'll have to fix the Python path yourself):
+
+root@kitploit:~
+
+```
+[crypto-attacks]$ sage -python attacks/rsa/boneh_durfee.py
+INFO:root:Trying m = 3, t = 1...
+DEBUG:root:Generating shifts...
+DEBUG:root:Creating a lattice with 11 shifts (order = 'invlex', sort_shifts_reverse = False, sort_monomials_reverse = False)...
+DEBUG:root:Reducing a 11 x 11 lattice...
+DEBUG:root:Reconstructing polynomials (divide_original = True, modulus_bound = False, divide_gcd = True)...
+DEBUG:root:Polynomial at row 8 is constant, ignoring...
+DEBUG:root:Reconstructed polynomial has gcd 1312232632720549890113031660369306919929075823824696839212183146130434668203517349691252841557097914064120078389640402109017308806168467714230057403815071456395553717020189622129706447677967264344568789118172311850383406340547579993263937406518074980025897726255316031512238322022839331135299265704052474541497687419350763703993630899191179705015113329644753599872380152055902238937889027950089072598069861391599563222633064848996619752054685734260976071760984100109990150069201501748622288840900421607423175114026653242500476408861976142751384898489130281755466581359057847077651502734556259387442296763474369957121 with polynomial at 8, dividing...
+DEBUG:root:Reconstructed 10 polynomials
+DEBUG:root:Computing pairwise gcds to find trivial roots...
+DEBUG:root:Using Groebner basis method to find roots...
+DEBUG:root:Sequence length: 10, Groebner basis length: 1
+DEBUG:root:Sequence length: 9, Groebner basis length: 1
+DEBUG:root:Sequence length: 8, Groebner basis length: 1
+DEBUG:root:Sequence length: 7, Groebner basis length: 2
+DEBUG:root:Found Groebner basis with length 2, trying to find roots...
+Found p = 7866790440964395011005623971351568677139336343167390105188826934257986271072664643571727955882500173182140478082778193338086048035817634545367411924942763 and q = 11227048386374621771175649743442169526805922745751610531569607663416378302561807690656370394330458335919244239976798600743588701676542461805061598571009923
+```
+
+The parameters `m` and `t` as shown in the output log deserve special attention. These parameters are used in many lattice-based (small roots) algorithms to tune the lattice size. Conceptually, `m` (sometimes called `k`) and `t` represent the number of "shifts" used in the lattice, which is roughly equal or proportional to the number of rows. Therefore, increasing `m` and `t` will increase the size of the lattice, which also increases the time required to perform lattice reduction (currently using LLL). On the other hand, if `m` and `t` are too low, it is possible that the lattice reduction will not result in appropriate vectors, therefore wasting the time spent reducing. Hence, this is a trade-off.
+
+In the current version of the project, `m` must always be provided by the user (the default value is set to `1`). `t` can, in some cases, be computed based on the specific small roots method used by the attack. However it can still be tweaked by the user. In general, there are two ways to use these kinds of parameters:
+
+* Implement a loop which starts at `m = 1` until an answer is found (example below). This is a simple approach, but risks wasting time on futile computations with too small lattices.
+
+root@kitploit:~
+
+```...

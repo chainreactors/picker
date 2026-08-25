@@ -1,0 +1,236 @@
+---
+title: Hashcat-Cheatsheet
+url: https://kitploit.com/en/tools/github/frizb/hashcat-cheatsheet
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:59:15.591975
+---
+
+# Hashcat-Cheatsheet
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+Hashcat-Cheatsheet — Hashcat reference for OSCP/penetration testing: hash identification, cracking syntax for Linux, Windows, archives, databases, Kerberos tickets, and rule-based attacks. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/frizb/hashcat-cheatsheet
+
+![](https://assets.kitploit.com/production/public/tools/50824/da83359baa4922e4b929bc99a41b6e241389184b6e1e1e8cc8d46bcb630e708c-display-v1.webp)
+
+[Password Cracking](/en/categories/password-cracking)[Password Attacks](/en/categories/password-attacks)[Hash Analysis](/en/categories/hash-analysis)[Penetration Testing](/en/categories/penetration-testing)[Learning & Education](/en/categories/education)[Curated Resources](/en/categories/curated-resources)[Top in Hash Analysis #14](/en/categories/hash-analysis)[Top in Password Attacks #19](/en/categories/password-attacks)[Top in Password Cracking #19](/en/categories/password-cracking)
+
+6301306 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+![GitHub](/providers/github.png)
+
+frizb/hashcat-cheatsheet
+
+# Hashcat-Cheatsheet
+
+Hashcat reference for OSCP/penetration testing: hash identification, cracking syntax for Linux, Windows, archives, databases, Kerberos tickets, and rule-based attacks.
+
+[View Repository](https://github.com/frizb/hashcat-cheatsheet)
+
+# Hashcat-Cheatsheet
+
+Hashcat Cheatsheet for OSCP
+<https://hashcat.net/wiki/doku.php?id=hashcat>
+
+## Identify Hashes
+
+`hash-identifier`
+
+Example Hashes: <https://hashcat.net/wiki/doku.php?id=example_hashes>
+
+## MAX POWER!
+
+I have found that I can squeeze some more power out of my hash cracking by adding these parameters:
+
+root@kitploit:~
+
+```
+--force -O -w 4 --opencl-device-types 1,2
+```
+
+These will force Hashcat to use the CUDA GPU interface which is buggy but provides more performance (–force) , will Optimize for 32 characters or less passwords (-O) and will set the workload to "Insane" (-w 4) which is supposed to make your computer effectively unusable during the cracking process.
+Finally "--opencl-device-types 1,2 " will force HashCat to use BOTH the GPU and the CPU to handle the cracking.
+
+## Using hashcat and a dictionary
+
+Create a .hash file with all the hashes you want to crack puthasheshere.hash: $1$O3JMY.Tw$AdLnLjQ/5jXF9.MTp3gHv/
+
+Hashcat example cracking Linux md5crypt passwords $1$ using rockyou:
+
+`hashcat --force -m 500 -a 0 -o found1.txt --remove puthasheshere.hash /usr/share/wordlists/rockyou.txt`
+
+Hashcat example cracking Wordpress passwords using rockyou:
+`hashcat --force -m 400 -a 0 -o found1.txt --remove wphash.hash /usr/share/wordlists/rockyou.txt`
+
+Sample Hashes
+<http://openwall.info/wiki/john/sample-hashes>
+
+## HashCat One Rule to Rule them All
+
+Not So Secure has built a custom rule that I have had luck with in the past:
+<https://www.notsosecure.com/one-rule-to-rule-them-all/>
+The rule can be downloaded from their Github site:
+<https://github.com/NotSoSecure/password_cracking_rules>
+
+I typically drop OneRuleToRuleThemAll.rule into the rules subfolder and run it like this from my windows box (based on the notsosecure article):
+
+root@kitploit:~
+
+```
+hashcat64.exe --force -m300 --status -w3 -o found.txt --remove --potfile-disable -r rules\OneRuleToRuleThemAll.rule hash.txt rockyou.txt
+```
+
+## Using hashcat bruteforcing
+
+root@kitploit:~
+
+```
+predefined charsets
+?l = abcdefghijklmnopqrstuvwxyz
+?u = ABCDEFGHIJKLMNOPQRSTUVWXYZ
+?d = 0123456789
+?s = «space»!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+?a = ?l?u?d?s
+?b = 0x00 - 0xff
+```
+
+?l?d?u is the same as:
+?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+
+Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9
+`hashcat64 -m 500 hashes.txt -a 3 ?1?1?1?1?1?1?1?1 --increment -1 ?l?d?u`
+
+## Cracking Linux Hashes - /etc/shadow file
+
+## Cracking Windows Hashes
+
+| ID | Description | Type |
+| --- | --- | --- |
+| 3000 | LM | Operating-Systems |
+| 1000 | NTLM | Operating-Systems |
+
+## Cracking Common Application Hashes
+
+## Cracking Common File Password Protections
+
+## Cracking Commmon Database Hash Formats
+
+## Cracking NTLM hashes
+
+After grabbing or dumping the NTDS.dit and SYSTEM registry hive or dumping LSASS memory from a Windows box, you will often end up with NTLM hashes.
+
+| Path | Description |
+| --- | --- |
+| C:\Windows\NTDS\ntds.dit | Active Directory database |
+| C:\Windows\System32\config\SYSTEM | Registry hive containing the key used to encrypt hashes |
+
+And using Impacket to dump the hashes
+
+root@kitploit:~
+
+```
+impacket-secretsdump -system SYSTEM -ntds ntds.dit -hashes lmhash:nthash LOCAL -outputfile ntlm-extract
+```
+
+You can crack the NTLM hash dump usign the following hashcat syntax:
+
+root@kitploit:~
+
+```
+hashcat64 -m 1000 -a 0 -w 4 --force --opencl-device-types 1,2 -O d:\hashsample.hash "d:\WORDLISTS\realuniq.lst" -r OneRuleToRuleThemAll.rule
+```
+
+*Benchmark using a Nvidia 2060 GTX:*
+Speed: 7000 MH/s
+Recovery Rate: 12.47%
+Elapsed Time: 2 Hours 35 Minutes
+
+## Cracking Hashes from Kerboroasting - KRB5TGS
+
+A service principal name (SPN) is a unique identifier of a service instance. SPNs are used by Kerberos authentication to associate a service instance with a service logon account. This allows a client application to request that the service authenticate an account even if the client does not have the account name.
+KRB5TGS - Kerberoasting Service Accounts that use SPN Once you have identified a Kerberoastable service account (Bloodhound? Powershell Empire? - likely a MS SQL Server Service Account), any AD user can request a krb5tgs hash from it which can be used to crack the password.
+
+Based on my benchmarking, KRB5TGS cracking is 28 times slower than NTLM.
+
+Hashcat supports multiple versions of the KRB5TGS hash which can easily be identified by the number between the dollar signs in the hash itself.
+
+* 13100 - Type 23 - $krb5tgs$23$
+* 19600 - Type 17 - $krb5tgs$17$
+* 19700 - Type 18 - $krb5tgs$18$
+* 18200 - ASREP Type 23 - $krb5asrep$23$
+
+KRB5TGS Type 23 - Crackstation humans only word list with OneRuleToRuleThemAll mutations rule list.
+
+root@kitploit:~
+
+```
+hashcat64 -m 13100 -a 0 -w 4 --force --opencl-device-types 1,2 -O d:\krb5tgs.hash d:\WORDLISTS\realhuman_phill.txt -r OneRuleToRuleThemAll.rule
+```
+
+*Benchmark using a Nvidia 2060 GTX:*
+Speed: 250 MH/s
+Elapsed Time: 9 Minutes
+
+## Cracking NTLMv2 Hashes from a Packet Capture
+
+You may be asked to recover a password from an SMB authentication (NTLMv2) from a Packet Capture.
+The following is a 9-step process for formatting the hash correctly to do this.
+<https://research.801labs.org/cracking-an-ntlmv2-hash/>
+
+## To crack linux hashes you must first unshadow them
+
+`unshadow passwd-file.txt shadow-file.txt`
+
+`unshadow passwd-file.txt shadow-file.txt > unshadowed.txt`
+
+## Crack a zip password
+
+`zip2john Zipfile.zip | cut -d ':' -f 2 > hashes.txt`
+`hashcat -a 0 -m 13600 hashes.txt /usr/share/wordlists/rockyou.txt`
+
+Hashcat appears to have issues with some zip hash formats generated from zip2john. You can fix this by editing the zip hash contents to align with the example zip hash format foun...

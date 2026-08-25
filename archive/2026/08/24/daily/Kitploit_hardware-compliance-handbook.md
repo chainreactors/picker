@@ -1,0 +1,136 @@
+---
+title: hardware-compliance-handbook
+url: https://kitploit.com/en/tools/github/platanor/hardware-compliance-handbook
+source: Kitploit
+date: 2026-08-24
+fetch_date: 2026-08-25T02:58:58.748324
+---
+
+# hardware-compliance-handbook
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+hardware-compliance-handbook — AI-ready knowledge base of security & compliance regulations for hardware and connected-device manufacturers - structured, indexed, and machine-readable for LLMs and agents. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/platanor/hardware-compliance-handbook
+
+![](https://assets.kitploit.com/production/public/tools/51190/e0c69b50f5be67df2eeaee4bb3d0e8314e8e968a30f24e1bd4e48d59f3fef3b4-display-v1.webp)
+
+[IoT Security](/en/categories/iot-security)[Cloud Security](/en/categories/cloud-security)[Hardware Security](/en/categories/hardware-security)[Supply Chain Security](/en/categories/supply-chain-security)[Learning & Education](/en/categories/education)[Curated Resources](/en/categories/curated-resources)
+
+![GitHub](/providers/github.png)platanor/hardware-compliance-handbook
+
+# hardware-compliance-handbook
+
+AI-ready knowledge base of security & compliance regulations for hardware and connected-device manufacturers - structured, indexed, and machine-readable for LLMs and agents.
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+[View Repository](https://github.com/platanor/hardware-compliance-handbook)
+
+1425 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+# Hardware Compliance Knowledge Base
+
+**A fact-checked, open reference on the EU laws that govern hardware and IoT cybersecurity — CRA, RED, NIS2, and the Cybersecurity Act/EUCC, in one place instead of four.**
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![Regulations covered](https://img.shields.io/badge/regulations-CRA%20%7C%20RED%20%7C%20NIS2%20%7C%20CSA/EUCC-blue)](#repository-structure) [![Maintained by](https://img.shields.io/badge/maintained%20by-Platanor%20Technologies-2f855a)](https://platanor.com)
+
+Prepared by **Platanor Technologies** ([platanor.com](https://platanor.com)) — an embedded security firm for IoT device manufacturers.
+
+**Contents:** [Quick start](#quick-start) · [What this is](#what-this-is) · [Repository structure](#repository-structure) · [Methodology](#methodology-and-sourcing) · [Using with an LLM](#how-to-use-this-with-an-llm) · [Claude Skill](#installing-this-as-a-claude-skill) · [Feedback](#feedback) · [License](#license)
+
+---
+
+## Quick start
+
+* **Just want an answer?** Open [`cra/faq.md`](https://github.com/platanor/hardware-compliance-handbook/blob/HEAD/cra/faq.md), [`red/faq.md`](https://github.com/platanor/hardware-compliance-handbook/blob/HEAD/red/faq.md), [`nis2/faq.md`](https://github.com/platanor/hardware-compliance-handbook/blob/HEAD/nis2/faq.md), or [`csa/faq.md`](https://github.com/platanor/hardware-compliance-handbook/blob/HEAD/csa/faq.md) — each is a practical Q&A for hardware/IoT manufacturers, no legal background required.
+* **Working with an LLM?** Drop a processed guide into your prompt and ask, e.g.: *"Using `cra/product-risk-classes.md` and `red/essential-requirements.md`, does a Wi-Fi-connected baby monitor need a notified body, or can we self-assess?"*
+* **Need the exact legal wording?** Every processed guide links back to its source in [`primary-sources/`](https://github.com/platanor/hardware-compliance-handbook/blob/HEAD/primary-sources/) — full official text, chunked by article.
+* **Want this loaded automatically in Claude?** See [Installing this as a Claude Skill](#installing-this-as-a-claude-skill).
+
+---
+
+## ⚠️ Disclaimer — read before use
+
+**This is NOT legal advice.** The materials in this repository are a reference knowledge base on the main pieces of EU law that touch hardware and IoT cybersecurity — the **Cyber Resilience Act** (Regulation (EU) 2024/2847), the **Radio Equipment Directive** (Directive 2014/53/EU and its cybersecurity delegated act), the **NIS2 Directive** (Directive (EU) 2022/2555), and the **Cybersecurity Act** (Regulation (EU) 2019/881, including the EUCC certification framework) — prepared to help you orient yourself in the topic, not to inform legal or compliance decisions.
+
+* We make an effort to keep facts accurate and checked against the primary text of each regulation (EUR-Lex), but **we give no guarantee of completeness or currency** — this legislation and its supporting standards (M/606, harmonised standards, delegated/implementing acts) are still under development and can change.
+* Before making any decision about your product's or organisation's compliance — **consult a qualified lawyer or regulatory advisor** who can assess your specific case.
+* This is a **living, growing knowledge base**: materials are regularly expanded, corrected, and re-verified. What is accurate today may have changed in a deadline or an interpretation — always check a file's last-verified date against the current state of the regulation.
+* Found an error or inaccuracy? We'd appreciate the feedback (see "Feedback" below).
+
+---
+
+## What this is
+
+Hardware and IoT manufacturers selling into the EU are increasingly subject to more than one regulation at once — the CRA governs the *product*, RED governs *radio equipment* specifically (with its own overlapping cybersecurity requirements), NIS2 governs certain *organisations* in critical sectors (including some manufacturers and their customers), and the Cybersecurity Act provides the *voluntary certification framework* (EUCC) that sits alongside all of them. This repository exists because treating any one of these in isolation gives an incomplete picture — a manufacturer can be in full CRA compliance and still miss a RED-specific requirement, or misjudge whether NIS2 reaches them indirectly through a customer's supply-chain obligations.
+
+The repository has two layers:
+
+1. **Processed guides** (`cra/`, `red/`, `nis2/`, `csa/`) — shorter, structured reference documents per regulation: overview, definitions/scope, essential requirements or obligations, deadlines, penalties, and a practical FAQ. Easy to use for a quick grasp of a topic, and each one is written to flag how it relates to the other three regulations, not just to stand alone.
+2. **Primary sources** (`primary-sources/`) — the full official text of each regulation and related act, unmodified. The source of truth for exact quotes, for humans and LLMs alike.
+
+The processed guides have been fact-checked against the primary text of each regulation and related sources (M/606, delegated/implementing acts) — methodology described below.
+
+## Repository structure
+
+### CRA — Cyber Resilience Act (Regulation (EU) 2024/2847)
+
+### RED — Radio Equipment Directive (2014/53/EU + cybersecurity delegated act)
+
+### NIS2 — Directive (EU) 2022/2555
+
+### CSA — Cybersecurity Act / EUCC (Regulation (EU) 2019/881)
+
+| File | What it covers |
+| --- | --- |
+
+### Cross-cutting and primary sources
+
+| File |
+| --- |
+
+## Methodology and sourcing
+
+Every statement is checked against a source-priority order: **primary text of the regulation (EUR-Lex) > official related documents (standardisation mandates, delegated/implementing acts) > secondary sources > our own analysis**. Where there is an open question or a not-yet-final...
