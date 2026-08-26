@@ -1,0 +1,179 @@
+---
+title: openssl openssl-4.0.2
+url: https://kitploit.com/en/posts/github-openssl-openssl-openssl-402
+source: Kitploit
+date: 2026-08-25
+fetch_date: 2026-08-26T03:05:09.718577
+---
+
+# openssl openssl-4.0.2
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/13460/55cb824236d821703191c896dcb921456f83a25b5c68be1d7b8cdde02da0ffe7.png)
+
+New releaseAug 25, 2026
+
+# openssl openssl-4.0.2
+
+General purpose TLS and crypto library
+
+Share
+
+# Welcome to the OpenSSL Project
+
+[![openssl logo](https://raw.githubusercontent.com/openssl/openssl/HEAD/doc/images/openssl.svg "OpenSSL Logo")](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/www.openssl.org%3E "OpenSSL Homepage")
+
+[![github actions ci badge](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps:/github.com/openssl/openssl/workflows/GitHub%20CI/badge.svg%3E "GitHub Actions CI Status")](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/github.com/openssl/openssl/actions/workflows/ci.yml%3E "GitHub Actions CI")
+[![Nightly OS Zoo ci badge](https://github.com/openssl/openssl/actions/workflows/os-zoo.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/os-zoo.yml)
+[![Provider Compatibility](https://github.com/openssl/openssl/actions/workflows/provider-compatibility.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/provider-compatibility.yml)
+[![Quic Interop](https://github.com/openssl/openssl/actions/workflows/run_quic_interop.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/run_quic_interop.yml)
+[![Daily checks](https://github.com/openssl/openssl/actions/workflows/run-checker-daily.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/run-checker-daily.yml)
+[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=openssl)](https://insights.linuxfoundation.org/project/openssl)
+
+OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
+for the Transport Layer Security (TLS, formerly SSL), Datagram TLS (DTLS), and QUIC protocols.
+
+The protocol implementations are based on a full-strength general purpose
+cryptographic library, which can also be used stand-alone. Also included is a
+cryptographic module validated to conform with FIPS standards.
+
+OpenSSL is descended from the SSLeay library developed by Eric A. Young
+and Tim J. Hudson.
+
+The official Home Page of the OpenSSL Project is [www.openssl.org](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/www.openssl.org%3E "OpenSSL Homepage").
+
+# Table of Contents
+
+* [Overview](#overview)
+* [Download](#download)
+* [Build and Install](#build-and-install)
+* [Documentation](#documentation)
+* [License](#license)
+* [Support](#support)
+* [Contributing](#contributing)
+* [Legalities](#legalities)
+
+# Overview
+
+The OpenSSL toolkit includes:
+
+* **libssl**
+  an implementation of all TLS protocol versions up to TLSv1.3 ([RFC 8446](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/tools.ietf.org/html/rfc8446%3E)),
+  DTLS protocol versions up to DTLSv1.2 ([RFC 6347](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/tools.ietf.org/html/rfc6347%3E)) and
+  the QUIC version 1 protocol ([RFC 9000](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/tools.ietf.org/html/rfc9000%3E)).
+* **libcrypto**
+  a full-strength general purpose cryptographic library. It constitutes the
+  basis of the TLS implementation, but can also be used independently.
+* **openssl**
+  the OpenSSL command line tool, a swiss army knife for cryptographic tasks,
+  testing and analyzing. It can be used for
+
+  + creation of key parameters
+  + creation of X.509 certificates, CSRs and CRLs
+  + calculation of message digests
+  + encryption and decryption
+  + SSL/TLS/DTLS and client and server tests
+  + QUIC client tests
+  + handling of S/MIME signed or encrypted mail
+  + and more...
+
+# Download
+
+## For Production Use
+
+Source code tarballs of the official releases can be downloaded from
+[openssl-library.org/source/](https://openssl-library.org/source/).
+The OpenSSL project does not distribute the toolkit in binary form.
+
+However, for a large variety of operating systems precompiled versions
+of the OpenSSL toolkit are available. In particular, on Linux and other
+Unix operating systems, it is normally recommended to link against the
+precompiled shared libraries provided by the distributor or vendor.
+
+We also maintain a list of third parties that produce OpenSSL binaries for
+various Operating Systems (including Windows) on the [Binaries](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/github.com/openssl/openssl/wiki/Binaries%3E "List of third party OpenSSL binaries") page on our
+wiki.
+
+## For Testing and Development
+
+Although testing and development could in theory also be done using
+the source tarballs, having a local copy of the git repository with
+the entire project history gives you much more insight into the
+code base.
+
+The main OpenSSL Git repository is private.
+There is a public GitHub mirror of it at [github.com/openssl/openssl](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/github.com/openssl/openssl%3E "OpenSSL GitHub Mirror"),
+which is updated automatically from the former on every commit.
+
+A local copy of the Git repository can be obtained by cloning it from
+the GitHub mirror using
+
+root@kitploit:~
+
+```
+git clone https://github.com/openssl/openssl.git
+```
+
+If you intend to contribute to OpenSSL, either to fix bugs or contribute
+new features, you need to fork the GitHub mirror and clone your public fork
+instead.
+
+root@kitploit:~
+
+```
+git clone https://github.com/yourname/openssl.git
+```
+
+This is necessary because all development of OpenSSL nowadays is done via
+GitHub pull requests. For more details, see [Contributing](#contributing).
+
+# Build and Install
+
+After obtaining the Source, have a look at the [INSTALL](https://github.com/openssl/openssl/blob/HEAD/INSTALL.md) file for
+detailed instructions about building and installing OpenSSL. For some
+platforms, the installation instructions are amended by a platform specific
+document.
+
+* [Notes for UNIX-like platforms](https://github.com/openssl/openssl/blob/HEAD/NOTES-UNIX.md)
+* [Notes for Android platforms](https://github.com/openssl/openssl/blob/HEAD/NOTES-ANDROID.md)
+* [Notes for Windows platforms](https://github.com/openssl/openssl/blob/HEAD/NOTES-WINDOWS.md)
+* [Notes for the DOS platform with DJGPP](https://github.com/openssl/openssl/blob/HEAD/NOTES-DJGPP.md)
+* [Notes for the OpenVMS platform](https://github.com/openssl/openssl/blob/HEAD/NOTES-VMS.md)
+* [Notes on Perl](https://github.com/openssl/openssl/blob/HEAD/NOTES-PERL.md)
+* [Notes on Valgrind](https://github.com/openssl/openssl/blob/HEAD/NOTES-VALGRIND.md)
+
+Specific notes on upgrading to OpenSSL 3.x from previous versions can be found
+in the [ossl-guide-migration(7ossl)](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/docs.openssl.org/master/man7/ossl-guide-migration%3E "OpenSSL Migration Guide") manual page.
+
+# Documentation
+
+## README Files
+
+There are some README.md files in the top level of the source distribution
+containing additional information on specific topics.
+
+* [Information about the OpenSSL QUIC protocol implementation](https://github.com/openssl/openssl/blob/HEAD/README-QUIC.md)
+* [Information about the OpenSSL Provider architecture](https://github.com/openssl/openssl/blob/HEAD/README-PROVIDERS.md)
+* [Information about using the OpenSSL FIPS validated module](https://github.com/openssl/openssl/blob/HEAD/README-FIPS.md)
+
+## The OpenSSL Guide
+
+There are some tutorial and introductory pages on some important OpenSSL topics
+within the [OpenSSL Guide](https://raw.githubusercontent.com/openssl/openssl/HEAD/%3Chttps%3A/docs.openssl.org/master/man7/ossl-guide-introduction%3E "An intro...

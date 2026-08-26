@@ -1,0 +1,166 @@
+---
+title: npq v3.27.0
+url: https://kitploit.com/en/posts/github-lirantal-npq-v3270
+source: Kitploit
+date: 2026-08-25
+fetch_date: 2026-08-26T03:05:03.886900
+---
+
+# npq v3.27.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/9621/92ef59e50888c7e03e1e1a3660105a549c11c786859484679a1ff0d654b25927.png)
+
+New releaseAug 25, 2026
+
+# npq v3.27.0
+
+safely install npm packages by auditing them pre-install stage
+
+Share
+
+# NPQ Documentation
+
+This directory contains comprehensive documentation for the NPQ (Node Package Quality) security auditing tool.
+
+## Core Documentation
+
+### `optional-features.md`
+
+Configuration and usage of optional security features, including recent improvements and bug fixes.
+
+### `age.marshall.md`
+
+Detailed documentation of the Age Marshall security component that validates package age and maturity.
+
+## Feature Documentation
+
+The `feature/` directory contains detailed documentation for specific features and implementations:
+
+### Recent Developments
+
+* **`test-coverage-improvements.md`** - Comprehensive test coverage enhancements that improved overall coverage from 84.4% to 93.39%
+* **`signature-verification-fix.md`** - Critical bug fix for signature verification with version ranges (e.g., `@angular/common@^20.2.4`)
+
+### Existing Features
+
+* **`auto-continue.md`** - Documentation for the auto-continue feature that streamlines package installation workflows
+* **`exit-codes.md`** - Reference for `npq` and `npq-hero` process exit behavior
+* **`json-output.md`** - Versioned, machine-readable audit-only output for CI and automation
+* **`malicious-package.md`** - Documentation for known-malicious package detection through Snyk/OSV data
+* **`pacote-dependency-reduction.md`** - Implementation summary for optional pacote dependency reduction
+
+## Documentation Standards
+
+### Structure
+
+* Each feature gets its own markdown file in `feature/`
+* Core functionality documented at the root docs level
+* Technical implementation details included with code examples
+* User-facing configuration documented with usage examples
+
+### Content Guidelines
+
+* **Overview**: Brief description of the feature/component
+* **Technical Design**: Architecture and implementation details
+* **Usage Examples**: Practical examples with code snippets
+* **Testing**: Coverage and validation information
+* **Future Considerations**: Maintenance and evolution notes
+
+## Marshall Documentation
+
+Marshall components are the core security validation modules in NPQ. Each marshall focuses on a specific security concern:
+
+* **Age Marshall** (`age.marshall.md`) - Package age and maturity validation
+* **Signature Marshall** - NPM registry signature verification (see `signature-verification-fix.md`)
+* **Provenance Marshall** - Package build attestation verification
+* **Snyk Marshall** - Vulnerability database integration
+* **Typosquatting Marshall** - Package name similarity detection
+
+## Contributing to Documentation
+
+When adding new features or making significant changes:
+
+1. **Feature Documentation**: Create a new file in `feature/` directory
+2. **Update Index**: Add entry to this README
+3. **Cross-Reference**: Update related documentation files
+4. **Examples**: Include practical usage examples
+5. **Testing**: Document test coverage and validation
+
+## Quick Reference
+
+| Topic | File | Purpose |
+| --- | --- | --- |
+| Optional Features | `optional-features.md` | Feature configuration and recent improvements |
+| Age Validation | `age.marshall.md` | Package age and maturity security checks |
+| Test Coverage | `feature/test-coverage-improvements.md` | Recent test suite enhancements |
+| Signature Verification | `feature/signature-verification-fix.md` | Version range bug fix and validation |
+| Auto-Continue | `feature/auto-continue.md` | Automated installation workflow |
+| JSON Audit Output | `feature/json-output.md` | Versioned machine-readable audit results for CI |
+| Exit Codes | `feature/exit-codes.md` | CLI and package-manager passthrough exit behavior |
+| Malicious Packages | `feature/malicious-package.md` | Known-malicious package detection and reporting |
+| Dependency Reduction | `feature/pacote-dependency-reduction.md` | Optional dependency management |
+
+## Project context
+
+* [Development](https://github.com/lirantal/npq/blob/HEAD/docs/development.md) - local setup, workflows, and useful commands.
+* [Testing](https://github.com/lirantal/npq/blob/HEAD/docs/testing.md) - test commands, test organization, and verification expectations.
+* [Architecture](https://github.com/lirantal/npq/blob/HEAD/docs/architecture.md) - repository structure, package boundaries, and important flows.
+* [Conventions](https://github.com/lirantal/npq/blob/HEAD/docs/conventions.md) - coding, documentation, and maintenance conventions.
+
+## Design specifications
+
+* [Custom registry support](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/specs/2026-07-11-custom-registry-support-design.md) - approved design for npm-compatible Artifactory and private registry support.
+* [Coding-agent JSON detection](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/specs/2026-08-09-coding-agent-json-detection-design.md) - approved design for automatically selecting JSON audit mode in coding-agent environments.
+* [JSON audit output](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/specs/2026-08-09-json-output-design.md) - approved design for versioned, non-interactive machine-readable audit results.
+* [Expired-domain maintainer identity warnings](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/specs/2026-07-17-expired-domain-maintainer-identities-design.md) - approved design for attributable expired-domain warnings.
+* [Expired-domain resolved version](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/specs/2026-07-17-expired-domain-resolved-version-design.md) - design for resolving the exact dependency version for expired-domain checks.
+
+## Implementation plans
+
+* [Custom registry support](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/plans/2026-07-11-custom-registry-support.md) - task-by-task implementation plan for issue #429.
+* [Coding-agent JSON detection](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/plans/2026-08-09-coding-agent-json-detection.md) - test-first implementation plan for issue #426 across `npq` and `npq-hero`.
+* [JSON audit output](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/plans/2026-08-09-json-audit-output.md) - task-by-task plan for versioned, audit-only JSON CLI output.
+* [Expired-domain resolved version](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/plans/2026-07-17-expired-domain-resolved-version.md) - implementation plan for exact dependency-version resolution in expired-domain checks.
+* [Expired-domain maintainer identity warnings](https://github.com/lirantal/npq/blob/HEAD/docs/superpowers/plans/2026-07-17-expired-domain-maintainer-identities.md) - test-first implementation plan for attributable expired-domain warnings.
+
+[Read more](/en/tools/github/lirantal/npq?expand=1)
+
+## Categories
+
+[Static Analysis](/en/categories/static-analysis)[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Code Analysis](/en/categories/code-analysis)[DevSecOps](/en/categories/devsecops)[Secret Detection](/en/categories/secret-detection)[Supply Chain Security](/en/categories/supply-chain-security)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/co...

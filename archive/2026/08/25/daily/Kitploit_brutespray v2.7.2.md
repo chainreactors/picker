@@ -1,0 +1,178 @@
+---
+title: brutespray v2.7.2
+url: https://kitploit.com/en/posts/github-x90skysn3k-brutespray-v272
+source: Kitploit
+date: 2026-08-25
+fetch_date: 2026-08-26T03:05:07.864458
+---
+
+# brutespray v2.7.2
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/1200/ca1aabfab7a1f786c262b71f7e40231dabc74b3a22ea0d9593df09457e3016ea.gif)
+
+New releaseAug 25, 2026
+
+# brutespray v2.7.2
+
+Fast, multi-protocol credential brute-forcer. Parses Nmap, Nessus, and Nexpose output to automatically test default and custom credentials across 30+ protocols.
+
+Share
+
+# Brutespray
+
+![Version](https://img.shields.io/badge/Version-2.6.3-red)[![goreleaser](https://github.com/x90skysn3k/brutespray/actions/workflows/release.yml/badge.svg)](https://github.com/x90skysn3k/brutespray/actions/workflows/release.yml)[![Go Report Card](https://goreportcard.com/badge/github.com/x90skysn3k/brutespray/v2)](https://goreportcard.com/report/github.com/x90skysn3k/brutespray/v2)
+
+Created by: Shane Young/@x90sky && Jacob Robles/@shellfail
+
+Inspired by: Leon Johnson/@sho-luv
+
+## Description
+
+Brutespray automatically attempts default credentials on discovered services. It takes scan output from Nmap (GNMAP/XML), Nessus, Nexpose, JSON, and lists, then brute-forces credentials across 40+ protocols in parallel. Built in Go with an interactive terminal UI, embedded wordlists, and resume capability.
+
+![](https://assets.kitploit.com/production/public/readmes/1200/faec5dfc04cfed2ddf22d3f77d45932f3deb6952fe0ae0ca2bd4dc28d18bd5ef.png)
+
+## Quick Install
+
+root@kitploit:~
+
+```
+go install github.com/x90skysn3k/brutespray/v2@latest
+```
+
+[Release Binaries](https://github.com/x90skysn3k/brutespray/releases) | [Build from Source](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/installation.md) | [Docker](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/installation.md#docker)
+
+## Quick Start
+
+root@kitploit:~
+
+```
+# From Nmap scan output
+brutespray -f nmap.gnmap -u admin -p password
+
+# Target a specific host
+brutespray -H ssh://192.168.1.1:22 -u admin -p passlist.txt
+
+# CIDR range
+brutespray -H ssh://10.1.1.0/24:22 -u root -p passlist.txt
+
+# Combo credentials
+brutespray -H ssh://10.0.0.1:22 -C root:root
+```
+
+See [all examples](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/examples.md) for more usage patterns.
+
+## Demo
+
+![](https://assets.kitploit.com/production/public/readmes/1200/ca1aabfab7a1f786c262b71f7e40231dabc74b3a22ea0d9593df09457e3016ea.gif)
+
+## Features
+
+* **40+ protocols** — SSH, FTP, RDP, SMB, MySQL, PostgreSQL, Redis, LDAP, WinRM, and [more](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/services.md)
+* **Module parameters** — Per-module settings via `-m KEY:VALUE` (auth type, target path, NTLM domain, etc.)
+* **Multi-auth support** — HTTP Digest/NTLM auto-detection, SMTP PLAIN/LOGIN, IMAP/POP3 SASL, SMB pass-the-hash
+* **Interactive TUI** — Tabbed views, live settings, pause/resume hosts ([details](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/tui.md))
+* **Multiple input formats** — Nmap GNMAP/XML, Nessus, Nexpose, JSON, lists ([details](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/usage.md))
+* **Password spray mode** — Lockout-aware spraying with configurable delays ([details](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/advanced.md#password-spray-mode))
+* **SOCKS5 proxy** — Full proxy support with authentication ([details](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/advanced.md#socks5-proxy))
+* **Resume & checkpoint** — Interrupt with Ctrl+C, resume later ([details](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/advanced.md#resume-and-checkpoints))
+* **Embedded wordlists** — Layered manifest system compiled into the binary ([details](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/wordlists.md))
+* **Summary reports** — JSON, CSV, Metasploit RC, NetExec scripts ([details](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/output.md))
+* **Performance tuning** — Dynamic threading, circuit breaker, rate limiting ([details](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/advanced.md#performance-tuning))
+* **YAML config files** — Per-engagement settings ([details](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/usage.md#config-file))
+
+## How Brutespray Compares
+
+| Feature | brutespray | hydra | medusa | ncrack | brutus |
+| --- | --- | --- | --- | --- | --- |
+| Single static binary | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Interactive TUI | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Checkpoint / resume | ✅ | ❌ | ❌ | ✅ | ❌ |
+| Spray mode (lockout-aware) | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Per-attempt JSONL output | ✅ | ⚠️ | ❌ | ❌ | ❌ (success-only) |
+| SOCKS5 + proxy rotation | ✅ | ⚠️ | ❌ | ❌ | ❌ |
+| Embedded SSH bad-keys (CVE-tagged) | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Pipeline stdin (naabu / fingerprintx / masscan) | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Pre-auth RDP recon (NLA / sticky-keys) | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Nmap gnmap + XML / Nessus / Nexpose import | ✅ | ⚠️ | ❌ | ❌ | ⚠️ (nmap only) |
+| Per-module params (`-m KEY:VAL`) | ✅ | ❌ | ❌ | ❌ | partial |
+| Service count | 41 | 50+ | 34 | 14 | 23 |
+
+> Symbols reflect documented behavior at PR time. Competing tools change quickly.
+
+## Supported Services
+
+`ssh` `ftp` `ftps` `telnet` `smtp` `smtp-vrfy` `imap` `pop3` `mysql` `postgres` `mssql` `mongodb` `redis` `vnc` `snmp` `smbnt` `rdp` `http` `https` `vmauthd` `teamspeak` `asterisk` `nntp` `oracle` `xmpp` `ldap` `ldaps` `winrm` `rexec` `rlogin` `rsh` `wrapper`
+
+Full details and service-specific notes: [docs/services.md](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/services.md)
+
+Print discovered services from a scan file with `-P -q`:
+
+![](https://assets.kitploit.com/production/public/readmes/1200/9f33a65f1b4a977f2380873692c21cb1b4cf81b132b4fc6416526be3e1b213be.png)
+
+## Documentation
+
+| Guide | Description |
+| --- | --- |
+| [Installation](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/installation.md) | Go install, release binaries, build from source, Docker |
+| [Usage](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/usage.md) | CLI flags, config files, input formats |
+| [Services](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/services.md) | All 40+ protocols with ports, status, and notes |
+| [Examples](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/examples.md) | Common usage patterns and recipes |
+| [Interactive TUI](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/tui.md) | Keybindings, tabs, live settings |
+| [Advanced](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/advanced.md) | Spray mode, proxy, resume, performance tuning |
+| [Wordlists](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/wordlists.md) | Manifest system, layers, overrides, customization |
+| [Output & Reporting](https://github.com/x90skysn3k/brutespray/blob/HEAD/docs/output.md) | Summary reports, Metasploit/NetExec integration |
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=x90skysn3k/brutespray&type=Date)](https://star-history.com/#x90skysn3k/brutespray&Date)
+
+[Read more](/en/tools/github/x90skysn3k/brutespray?expand=1)
+
+## Categories
+
+[Password Cracking](/en/categories/password-cracking)[Password Attacks](/en/categories/password-attacks)[Penetration Testing](/en/categories/penetration-testing)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+L...

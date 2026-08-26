@@ -1,0 +1,90 @@
+---
+title: pastokrapacefleciks
+url: https://kitploit.com/en/tools/github/nu11secur1ty/pastokrapacefleciks
+source: Kitploit
+date: 2026-08-25
+fetch_date: 2026-08-26T03:05:08.186482
+---
+
+# pastokrapacefleciks
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+pastokrapacefleciks — Analyzes .pcapng files to generate HTML reports for network traffic inspection and forensic review. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/nu11secur1ty/pastokrapacefleciks
+
+![](https://assets.kitploit.com/production/public/tools/51381/b1dc38b0cfa8449d1a1bfd877632fc5fcc5759dfcdbfa5ff5bf775f2385dee67-display-v1.webp)
+
+[Packet Sniffing & Analysis](/en/categories/packet-sniffing-analysis)[Forensics](/en/categories/forensics)[Network Security](/en/categories/network-security)[Digital Forensics](/en/categories/digital-forensics)[Log Analysis](/en/categories/log-analysis)
+
+![GitHub](/providers/github.png)nu11secur1ty/pastokrapacefleciks
+
+# pastokrapacefleciks
+
+Analyzes .pcapng files to generate HTML reports for network traffic inspection and forensic review.
+
+[View Repository](https://github.com/nu11secur1ty/pastokrapacefleciks)
+
+2 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# pastokrapacefleciks, the `WireShark` - `PRO` analyzer
+
+![](https://raw.githubusercontent.com/nu11secur1ty/papa/main/docs/papa.webp)
+
+# Usage:
+
+* Put your `.pcapng` file into the directory of pastokrapacefleciks
+
+root@kitploit:~
+
+```
+python .\pastokrapacefleciks.py
+python3 .\pastokrapacefleciks.py
+```
+
+* Check your `HTML` report
+
+[Download Tool](https://github.com/nu11secur1ty/pastokrapacefleciks)

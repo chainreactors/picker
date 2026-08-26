@@ -1,0 +1,249 @@
+---
+title: polytracker
+url: https://kitploit.com/en/tools/github/trailofbits/polytracker
+source: Kitploit
+date: 2026-08-25
+fetch_date: 2026-08-26T03:05:16.682757
+---
+
+# polytracker
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+polytracker — An LLVM-based instrumentation tool for universal taint tracking, dataflow analysis, and tracing. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/trailofbits/polytracker
+
+![](https://assets.kitploit.com/production/public/tools/51228/c25d6815b9b8c1629d35286d406b58918c251d363747d0ccc7871a2ac96f9bde-display-v1.webp)
+
+[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Dynamic Code Analysis (DAST)](/en/categories/dynamic-code-analysis)[Reverse Engineering](/en/categories/reverse-engineering)[Fuzzing](/en/categories/fuzzing)[Binary Analysis](/en/categories/binary-analysis)[Papers & Research](/en/categories/papers-research)[Learning & Education](/en/categories/education)
+
+![GitHub](/providers/github.png)trailofbits/polytracker
+
+# polytracker
+
+An LLVM-based instrumentation tool for universal taint tracking, dataflow analysis, and tracing.
+
+[View Repository](https://github.com/trailofbits/polytracker)
+
+598532 months ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# PolyTracker
+
+![](https://assets.kitploit.com/production/public/readmes/51228/c25d6815b9b8c1629d35286d406b58918c251d363747d0ccc7871a2ac96f9bde/98d88fae3e5a91872095a1e6c8c35e890c1f9498724fc393df9b84b41d5a6516-display-v1.webp "PolyTracker")
+
+[![PyPI version](https://badge.fury.io/py/polytracker.svg)](https://badge.fury.io/py/polytracker)
+[![Tests](https://github.com/trailofbits/polytracker/workflows/Tests/badge.svg)](https://github.com/trailofbits/polytracker/actions)
+[![Slack Status](https://slack.empirehacking.nyc/badge.svg)](https://slack.empirehacking.nyc)
+
+PolyTracker is a tool originally created for the *Automated Lexical Annotation
+and Navigation of Parsers*, a backronym devised solely for the purpose of
+referring to it as *The ALAN Parsers Project*. However, it has evolved into a
+general purpose tool for efficiently performing data-flow and control-flow
+analysis of programs. PolyTracker is an LLVM pass that instruments programs to
+track which bytes of an input file are operated on by which functions. It
+outputs a database containing the data-flow information, as well as a runtime
+trace. PolyTracker also provides a Python library for interacting with and
+analyzing its output, as well as an interactive Python REPL.
+
+PolyTracker can be used in conjunction with
+[PolyFile](https://github.com/trailofbits/polyfile) to automatically determine
+the semantic purpose of the functions in a parser. It also has an experimental
+feature capable of generating a context free grammar representing the language
+accepted by a parser.
+
+Unlike dynamic instrumentation alternatives like
+[Taintgrind](https://github.com/wmkhoo/taintgrind), PolyTracker imposes
+negligible performance overhead for almost all inputs, and is capable of
+tracking every byte of input at once. PolyTracker started as a fork of the LLVM
+DataFlowSanitizer and takes much inspiration from the
+. However, unlike the
+Angora system, PolyTracker is able to track the entire  of a taint.
+In February of 2021, the LLVM DataFlowSanitizer added a new feature for tracking
+taint provenance called .
+However, it is only able to track at most 16 taints at once, while PolyTracker
+can track up to 2-1.
+
+[Angora Fuzzer](https://github.com/AngoraFuzzer/Angora)
+
+*provenance*
+
+[*origin tracking*](https://reviews.llvm.org/D95835)
+
+31
+
+This README serves as the general usage guide for installing PolyTracker and
+compiling/instrumenting binaries. For programmatically interacting with or
+extending PolyTracker through its Python API, as well as for interacting with
+runtime traces produced from instrumented code,
+[consult the Python documentation](https://trailofbits.github.io/polytracker/latest/).
+
+## Quickstart
+
+PolyTracker is controlled via a Python script called `polytracker`. You can
+install it by running
+
+root@kitploit:~
+
+```
+pip3 install polytracker
+```
+
+PolyTracker requires a very particular system environment to run, so almost all
+users are likely to run it in a containerized environment. Luckily,
+`polytracker` makes this easy. All you need to do is have `docker` installed,
+then run:
+
+root@kitploit:~
+
+```
+polytracker docker pull
+```
+
+and
+
+root@kitploit:~
+
+```
+polytracker docker run
+```
+
+The latter command will mount the current working directory into the PolyTracker
+Docker container, and allow you to build and run instrumented programs.
+
+The `polytracker` control script—which you can run from either your host system
+or from inside the Docker container—has a variety of commands, both for
+instrumenting programs as well as analyzing the resulting artifacts. For
+example, you can explore the dataflows in the execution, reconstruct the
+instrumented program's control flow graph, and even extract a context free
+grammar matching the inputs accepted by the program. You can explore these
+commands by running
+
+root@kitploit:~
+
+```
+polytracker --help
+```
+
+The `polytracker` script is also a REPL, if run with no command line arguments:
+
+root@kitploit:~
+
+```
+$ polytracker
+PolyTracker (4.0.0)
+https://github.com/trailofbits/polytracker
+Type "help" or "commands"
+>>> commands
+```
+
+## Instrumenting a simple C/C++ program
+
+PolyTracker also comes with a `build` command. This command allows the user to
+run any build command in a [Blight](https://github.com/trailofbits/blight)
+instrumented environment. This will produce a `blight_journal.jsonl` file that
+records all commands run during the build. If you have a C/C++ target, you can
+instrument it by invoking `polytracker build` and passing your build command:
+
+root@kitploit:~
+
+```
+polytracker build gcc -g -o my_binary my_source.c
+```
+
+To instrument a build target, use the `instrument-targets` command. By default
+the command will use the a `blight_journal.jsonl` in your current working
+directory to build an instrumented version of your build target. The
+instrumented build target will be built using the same flags as the original
+build target.
+
+root@kitploit:~
+
+```
+polytracker instrument-targets my_binary
+```
+
+`build` also supports more complex programs that use a build system like
+autotiools or CMake:
+
+root@kitploit:~
+
+```
+polytracker build cmake .. -DCMAKE_BUILD_TYPE=Release
+polytracker build ninja
+# or
+polytracker build ./configure
+polytracker build make
+```
+
+Then run `instrument-targets` on any targets of the build:
+
+root@kitploit:~
+
+```
+polytracker instrument-targets a.bin b.so
+```
+
+Then `a.instrumented.bin` and `b.instrumented.so` will be the instrumented
+versions. See the Dockerfiles in the
+[examples](https://github.com/trailofbits/polytracker/tree/master/examples)
+directory for examples of how real-world programs can be instrumented.
+
+## Running and Analyzing an Instrumented Program
+
+The instrumented software will write its output to the path specified in
+`POLYDB`, or `polytracker.tdag` if omitted. This is a binary file that can be
+operated on by running:
+
+root@kitploit:~
+
+```
+from polytracker import PolyTrackerTrace, taint_dag
+
+trace = PolyTrackerTrace.load("polytracker.tdag")
+tdfile = trace.tdfile
+
+first_node = list(tdfile.nodes)[0]
+print(f"Fir...
