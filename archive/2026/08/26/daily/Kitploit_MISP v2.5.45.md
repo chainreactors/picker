@@ -1,0 +1,88 @@
+---
+title: MISP v2.5.45
+url: https://kitploit.com/en/posts/github-misp-misp-v2545
+source: Kitploit
+date: 2026-08-26
+fetch_date: 2026-08-27T12:12:41.444593
+---
+
+# MISP v2.5.45
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/354/5e74b78a81204ec61d5607a70aa86f469a28dcca777a8df5c46953a68ec7272e.png)
+
+New releaseAug 26, 2026
+
+# MISP v2.5.45
+
+Open-source threat intelligence platform for collecting, correlating, and sharing structured cybersecurity indicators, malware analysis, and attack patterns with automated workflows and flexible data models.
+
+Share
+
+## MISP - Threat Intelligence Sharing Platform
+
+![MISP logo](https://assets.kitploit.com/production/public/readmes/354/0ba73d0ab2c440518ee097b13a29752effe42da596aa5e945806cc24dc7bf597.png)
+
+MISP is an open source software solution for collecting, storing, distributing and sharing cyber security indicators and threats about cyber security incidents analysis and malware analysis. MISP is designed by and for incident analysts, security and ICT professionals or malware reversers to support their day-to-day operations to share structured information efficiently.
+
+The objective of MISP is to foster the sharing of structured information within the security community and abroad. MISP provides functionalities to support the exchange of information but also the consumption of said information by Network Intrusion Detection Systems (NIDS), LIDS but also log analysis tools, SIEMs.
+
+  ●  [Core functions](#core-functions)
+  ●  [Website / Support](#website--support)
+  ●  [Installation](#installation)
+  ●  [Documentation](#documentation)
+  ●  [Contributing](#contributing)
+  ●  [License](#license)
+
+|  |  |
+| --- | --- |
+| Latest Release | [![GitHub version](https://badge.fury.io/gh/MISP/MISP.svg)](https://badge.fury.io/gh/MISP/MISP) |
+| CI | [![](https://img.shields.io/github/actions/workflow/status/MISP/MISP/main.yml?label=test)](https://github.com/MISP/MISP/actions?query=workflow%3Amisp) |
+| Gitter | [![](https://badges.gitter.im/MISP/MISP.svg)](https://gitter.im/MISP/MISP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) |
+| Mastodon | [![](https://img.shields.io/badge/follow-@misp-purple)](https://misp-community.org/%40misp) |
+|
+| Twitter | [![](https://img.shields.io/badge/follow-@MISPProject-blue)](https://twitter.com/MISPProject) |
+| Localization | [![](https://badges.crowdin.net/misp/localized.svg)](https://crowdin.com/project/misp) |
+| Contributors | ![](https://img.shields.io/github/contributors/MISP/MISP.svg) |
+| License | ![](https://img.shields.io/github/license/MISP/MISP.svg) |
+
+[![CLA FREE initiative](https://assets.kitploit.com/production/public/readmes/354/8a91686ed65f4caac2e9d4d9def1081efadae840b53aed407b4af37035fc49a0.png)](https://ossbase.org/initiatives/cla-free/)
+
+## Core functions
+
+* A **complete and robust threat intelligence sharing platform** that can be deployed on-premise, in the cloud, or as a SaaS solution, suitable for organizations of all sizes.
+* **Threat intelligence, ranging from indicators, through techniques to tactics, can be easily described in MISP**, from machine-readable actionable data to detailed reports in Markdown format.
+* A flexible reporting system is integrated into MISP, enabling the description of threat intelligence with cross-references to the machine-readable components, including objects and attributes.
+* A **fast and efficient database for atomic data points, indicators to complex objects and selectors**, enabling the storage of both technical and non-technical information related to cybersecurity intelligence as well as broader intelligence contexts.
+* Automatic **correlation** engine, revealing relationships between attributes and indicators of malware, attack campaigns, analyses or other described threats. The correlation engine handles the interlinking of matching attributes as well as more advanced correlation patterns such as fuzzy hashing overlaps (e.g. ssdeep) and CIDR block matching. Correlations can also be enabled or event disabled at different levels of granularity.
+* A **flexible data model**, where complex [objects](https://www.misp-project.org/objects.html) can be expressed and **linked together to express threat intelligence, incidents or connected elements**.
+* Built-in **sharing functionality** to ease information exchange, using different, customisable, models of distribution. MISP can automatically synchronize events and attributes as well as higher level threat intelligence among different MISP instances. Advanced filtering functionalities can be used to meet each organization's sharing policy including a **flexible sharing group** capability and granularity up to the atomic attribute level.
+* An **intuitive user-interface** for end-users to create, update and collaborate on events and attributes/indicators, in addition to a **graphical interface** to navigate seamlessly between events and their correlations as well as an **event graph** functionality to create and view relationships between objects and attributes. Advanced filtering functionalities and [warning lists](https://github.com/MISP/misp-warninglists) to help the analysts to contribute events and attributes and limit the risk of false-positives.
+* A comprehensive **workflow system** to facilitate automatic, customisable data pipelines in MISP, including data qualification, automated analysis, modification, and publication control.
+* **Storing data** in a structured format, enabling automated use of the database for various purposes, with extensive support for cybersecurity indicators, fraud indicators (e.g., in the financial sector), and broader intelligence contexts.
+* All intelligence and information stored in MISP is accessible via the UI but also an [extensive ReST API described as OpenAPI](https://www.misp-project.org/openapi/).
+* **Export**: Generate outputs in various formats, including various native IDS formats, OpenIOC, plain text, CSV, MISP JSON, STIX (XML and JSON) versions 1 and 2, NIDS exports (Suricata, Snort, and Bro/Zeek), RPZ zones, and cache formats for forensic tools. Additional formats, such as PDF, can be easily added and are available via the [misp-modules](https://github.com/MISP/misp-modules) or customised as built in export modules.
+* **Import**: Support for free-text import, URL import, bulk import, batch import, and importing from formats a long list of formats, including MISP's own standard format, STIX 1.x/2.0, CSV, or various proprietary formats. Additional formats can be easily added via the [misp-modules](https://github.com/MISP/misp-modules) system.
+* Flexible **free-text import** tool to simplify the integration of unstructured reports into MISP, with automatic detection and conversion of external reports via provided URLs and text reports with an automatic conversion into MISP reports, objects, and attributes.
+* A user-friendly system to **collaborate** on events and attributes allowing MISP users to propose changes or updates to attributes/indicators or provide own perspectives or counter-analyses to shared information.
+* An **extensive data analyst feature** allowing analysts to add opinions, relationships, or comments to any intelligence in MISP, which can be shared using MISP's sharing mechanisms.
+* **Data sharing**: Automatically exchange and synchronize information in real-time with other parties and trust groups using MISP, with support for granular sharing levels and custom sharing groups.
+* **delegating of sharing**: allows for a simple, pseudo-anonymous mechanism to delegate the publication of MISP data to communities.
+* Flexible **API** to integrate MISP with your own solutions. MISP is bundled with [PyMISP](https://github.com/MISP/PyMISP) which is a flexible Python Library to fetch, add or update events attributes, handle malware samples...

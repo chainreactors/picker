@@ -1,0 +1,171 @@
+---
+title: fscan v2.2.1
+url: https://kitploit.com/en/posts/github-shadow1ng-fscan-v221
+source: Kitploit
+date: 2026-08-26
+fetch_date: 2026-08-27T12:12:41.300465
+---
+
+# fscan v2.2.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/198/1045bd233819e4cd35cd106842fa688287ae7598f36be85f0d1aaa75eb12f1e6.png)
+
+New releaseAug 26, 2026
+
+# fscan v2.2.1
+
+一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)
+
+Share
+
+# Fscan
+
+[中文](https://github.com/shadow1ng/fscan/blob/HEAD/README.md)
+
+Comprehensive intranet scanning tool for automated vulnerability assessment.
+
+**Version**: 2.2.0
+
+## Features
+
+### Scanning
+
+* **Host Discovery** - ICMP/Ping alive detection, B/C segment statistics for large networks
+* **Port Scanning** - TCP connect scan, 133 built-in ports, port groups (web/db/service/all)
+* **Service Detection** - Smart protocol identification, 20+ service fingerprint matching
+* **Web Detection** - Website title, CMS fingerprint, web middleware, WAF/CDN detection (40+ signatures)
+
+### Brute Force
+
+* **Password Cracking** - 28 services (SSH/RDP/SMB/FTP/MySQL/MSSQL/Oracle/Redis, etc.)
+* **Hash Authentication** - NTLM Hash support (SMB/WMI)
+* **SSH Key Login** - Private key authentication
+* **Smart Dictionary** - 100+ common passwords, {user} variable substitution
+
+### Vulnerability Detection
+
+* **Critical Vulns** - MS17-010 (EternalBlue), SMBGhost (CVE-2020-0796)
+* **Unauthorized Access** - Redis/MongoDB/Memcached/Elasticsearch unauthorized detection
+* **POC Scanning** - Integrated web POC, Xray POC format support
+* **DNSLog** - DNSLog out-of-band detection
+
+### Exploitation
+
+* **Redis Exploit** - Write pubkey, crontab, webshell, master-slave RCE
+* **MS17-010 Exploit** - ShellCode injection, add user, execute commands
+* **SSH Command Exec** - Auto command execution after authentication
+
+### Local Modules
+
+* **Info Gathering** - System info, environment variables, DC info, NIC config
+* **Credential Access** - Memory dump (MiniDump), keylogger, registry export
+* **Persistence** - Systemd service, Windows service, scheduled tasks, startup, LD\_PRELOAD
+* **Reverse Shell** - Forward shell, reverse shell, SOCKS5 proxy service
+* **AV Detection** - Identify installed security software
+* **Trace Cleanup** - Log cleaning tool
+
+### Input/Output
+
+* **Target Input** - IP/CIDR/domain/URL, batch file import
+* **Exclusion Rules** - Exclude specific hosts, ports
+* **Output Formats** - TXT/JSON/CSV multi-format output
+* **Silent Mode** - No banner, no progress bar, no color output
+
+### Network Control
+
+* **Proxy Support** - HTTP/SOCKS5 proxy, network interface binding
+* **Rate Control** - Rate limiting, max packet count control
+* **Timeout Control** - Port/Web/Global timeout independent config
+* **Concurrency** - Port scan threads, service scan threads independent config
+
+### Extensions
+
+* **Web Management UI** - Visual scan task management (build with -tags web)
+* **Lab Environment** - Built-in Docker lab for testing and learning
+* **Plugin Architecture** - Service/Web/Local plugins separated, easy to extend
+* **Multi-language** - Chinese/English interface (-lang zh/en)
+* **Performance Stats** - JSON format performance report (-perf)
+
+## v2.1.0 Changelog
+
+> This update includes **262 commits**: 30 new features, 120 fixes, 54 refactors, 14 performance optimizations, 20 test enhancements.
+
+### Architecture Refactoring
+
+* **Global Variable Elimination** - Migrated to Config/State objects for better concurrency safety and testability
+* **SMB Plugin Consolidation** - Merged smb/smb2/smbghost/smbinfo into unified plugin with new smb\_protocol.go
+* **Service Probe Refactoring** - Implemented Nmap-style fallback mechanism, optimized port fingerprint strategy
+* **Output System Refactoring** - TXT real-time flush + dual-write mechanism, resolved result loss and ordering issues
+* **i18n Framework Upgrade** - Migrated to go-i18n, full coverage of core/plugins/webscan modules
+* **HostInfo Refactoring** - Ports field changed from string to int for type safety
+* **Function Complexity Optimization** - clusterpoc (125→30), EnhancedPortScan (111→20)
+* **Code Audit** - Fixed P0-P2 level issues, cleaned up deadcode
+* **Logging System Optimization** - LogDebug call cleanup (71→18), streamlined startup log output
+
+### Performance Optimization
+
+* **Regex Precompilation** - Global regex precompilation to avoid repeated compilation overhead
+* **Memory Optimization** - Changed map[string]bool to map[string]struct{} for memory savings
+* **Concurrent Fingerprint Matching** - Multi-goroutine parallel matching for faster identification
+* **Connection Reuse** - SOCKS5 global dialer reuse to avoid repeated handshakes
+* **Sliding Window Scheduling** - Adaptive thread pool + streaming iterator for port scan optimization
+* **CEL Cache Optimization** - POC scan CEL environment caching to reduce repeated initialization
+* **Package-level Variable Extraction** - proxyFailurePatterns/resourceExhaustedPatterns/sslSecondProbes etc.
+* **Capacity Pre-allocation** - Simplified conversion chains, single-pass string replacement
+* **Concurrency Safety Optimization** - Optimized lock granularity and memory allocation
+
+### New Features
+
+* **Web Management UI** - Visual scan task management with responsive layout and progress display
+* **Multi-format POC Adapter** - Support for xray and afrog format POCs
+* **Smart Scan Mode** - Bloom filter deduplication + proxy optimization
+* **Enhanced Fingerprint Library** - Integrated FingerprintHub (3139 fingerprints)
+* **Favicon Fingerprinting** - Support for mmh3 and MD5 dual-format hash matching
+* **Universal Version Extractor** - Auto-extract service version information
+* **Fingerprint Priority Sorting** - Smart sorting of match results
+* **Smart Protocol Detection** - Auto-detect HTTP/HTTPS protocol type
+* **Network Interface Binding** - Support for VPN scenarios (-iface parameter)
+* **Exclude Hosts File** - Read excluded hosts from file (-ehf parameter)
+* **ICMP Token Bucket Rate Limiting** - Prevent router crashes from high-speed scanning
+* **Port Scan Retry** - Automatic retry mechanism for failed scans
+* **RDP Real Authentication** - Integrated grdp library for system fingerprinting
+* **SMB/FTP File Listing** - Auto-list files on anonymous access
+* **302 Redirect Dual Detection** - Identify fingerprints from both original and redirected responses
+* **TXT Output URL Summary** - Append web service URL list for batch testing
+* **gonmap Core Integration** - Three improvements: probe strategy/matching engine/version parsing
+* **Selective Plugin Compilation** - Build Tags system for independent service/local/web plugin compilation
+* **Default Port Expansion** - Extended from 62 to 133 common ports
+* **Full Port Scan Support** - Expanded port range limits
+* **HTTP Redirect Control** - Configurable redirect count limit
+* **Performance Profiling Support** - Added pprof profiling and benchmark tests
+* **TCP Packet Statistics** - Service plugins support TCP packet send statistics
+* **fscan-lab Environment** - Intranet penetration training platform covering all vulnerability scenarios
+* **Redis Exploitation Enhancement** - Ported complete Redis exploitation (write pubkey/crontab/webshell/master-slave RCE)
+* **rsync Plugin Refactoring** - Restructured authentication logic using go-rsync library
+
+### Bug Fixes (120 items, key fixes listed)
+
+* **RDP Null Pointer Panic** - Fixed certificate parsing crash (#551)
+* **Batch Scan Missing Results** - Fixed large-scale scan omissions (#304)
+* **JSON Output Format** - Fixed output format errors (#446)
+* **Redis Weak Password Detection** - Fixed detection omissions (#447)
+* **Real-time Result Saving** - Fixed scan results not saved timely (#469)
+* **Nmap Parse Overflow** - Fixed octal escape parsing bug (#47...

@@ -1,0 +1,156 @@
+---
+title: CISA Red Team Fully Compromised Two Critical Infrastructure Orgs
+url: https://securityaffairs.com/197901/hacking/cisa-red-team-fully-compromised-two-critical-infrastructure-orgs.html
+source: Security Affairs
+date: 2026-08-26
+fetch_date: 2026-08-27T12:14:31.896476
+---
+
+# CISA Red Team Fully Compromised Two Critical Infrastructure Orgs
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[Meta to Pay Up to $18B Over Teen Social Media Use](https://securityaffairs.com/197914/laws-and-regulations/meta-to-pay-up-to-18b-over-teen-social-media-use.html)
+
+ |
+
+[CISA Warns Water Utilities: Find Your Exposed PLCs Before Attackers Do](https://securityaffairs.com/197891/ics-scada/cisa-warns-water-utilities-find-your-exposed-plcs-before-attackers-do.html)
+
+ |
+
+[OpenAI banned Russian ChatGPT accounts backing covert influence operation](https://securityaffairs.com/197878/intelligence/openai-banned-russian-chatgpt-accounts-backing-covert-influence-operation.html)
+
+ |
+
+[CISA Red Team Fully Compromised Two Critical Infrastructure Orgs](https://securityaffairs.com/197901/hacking/cisa-red-team-fully-compromised-two-critical-infrastructure-orgs.html)
+
+ |
+
+[FBI Seizes China-Linked Hacking Platforms QScan and QTRouter Used Against Critical Infrastructure](https://securityaffairs.com/197873/apt/fbi-seizes-china-linked-hacking-platforms-qscan-and-qtrouter-used-against-critical-infrastructure.html)
+
+ |
+
+[U.S. CISA adds Gitea flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/197854/security/u-s-cisa-adds-gitea-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[88 ID Verification Breaches Show the Cost of Collecting Identity Data](https://securityaffairs.com/197855/reports/88-id-verification-breaches-show-the-cost-of-collecting-identity-data.html)
+
+ |
+
+[WhatsApp Adds Stronger Security as Passkeys Hit 1 Billion](https://securityaffairs.com/197837/security/whatsapp-adds-stronger-security-as-passkeys-hit-1-billion.html)
+
+ |
+
+[Operation Jackal: 58 Arrests Expose the Money Laundering Machine Behind Global Scams](https://securityaffairs.com/197843/cyber-crime/operation-jackal-58-arrests-expose-the-money-laundering-machine-behind-global-scams.html)
+
+ |
+
+[Norway ’s Digital Government Infrastructure Hit by a new DDoS Attack](https://securityaffairs.com/197826/cyber-warfare-2/norway-s-digital-government-infrastructure-hit-by-a-new-ddos-attack.html)
+
+ |
+
+[Two CVSS 9.8 Auth Bypasses in miniOrange SAML WordPress Plugin Were Exploited Before Any Database Even Listed the Paid Editions as Vulnerable](https://securityaffairs.com/197815/security/two-cvss-9-8-auth-bypasses-in-miniorange-saml-wordpress-plugin-were-exploited-before-any-database-even-listed-the-paid-editions-as-vulnerable.html)
+
+ |
+
+[U.S. CISA adds maximum-severity Oracle flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/197801/security/u-s-cisa-adds-maximum-severity-oracle-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Fake Minecraft Sites Are Still Spreading WeedHack After C2 Takedown](https://securityaffairs.com/197784/malware/fake-minecraft-sites-are-still-spreading-weedhack-after-c2-takedown.html)
+
+ |
+
+[Cybercriminals Turn GTA VI Leaks Into Malware Bait](https://securityaffairs.com/197772/malware/cybercriminals-turn-gta-vi-leaks-into-malware-bait.html)
+
+ |
+
+[TikTok Settles U.S. Child Privacy Case for $400 Million](https://securityaffairs.com/197713/laws-and-regulations/tiktok-settles-u-s-child-privacy-case-for-400-million.html)
+
+ |
+
+[iAuthFlow v2: The $10,000 Phishing Toolkit That Survives Your Password Reset](https://securityaffairs.com/197748/cyber-crime/iauthflow-v2-the-10000-phishing-toolkit-that-survives-your-password-reset.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 111](https://securityaffairs.com/197743/security/security-affairs-malware-newsletter-round-111.html)
+
+ |
+
+[UK Power Plant Disabled for Four Days by Iran-Linked Hackers, Concurrent with US Water Attacks](https://securityaffairs.com/197734/cyber-warfare-2/uk-power-plant-disabled-for-four-days-by-iran-linked-hackers-concurrent-with-us-water-attacks.html)
+
+ |
+
+[Security Affairs newsletter Round 591 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/197728/breaking-news/security-affairs-newsletter-round-591-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[Zero-Click Grok Chat History Theft: Adversa AI Demonstrates Cryptographic Context Injection](https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Security](https://securityaffairs.com/category/security)
+* CISA Red Team Fully Compromised Two Critical Infrastructure Orgs
+
+## CISA Red Team Fully Compromised Two Critical Infrastructure Orgs
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https://securityaffairs.com/wp-content/themes/security_affair...

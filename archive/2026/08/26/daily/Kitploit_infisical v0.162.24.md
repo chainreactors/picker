@@ -1,0 +1,90 @@
+---
+title: infisical v0.162.24
+url: https://kitploit.com/en/posts/github-infisical-infisical-v016224
+source: Kitploit
+date: 2026-08-26
+fetch_date: 2026-08-27T12:12:42.573368
+---
+
+# infisical v0.162.24
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/42659/2321b21bb161ee8ce067f7b44c6b109f8950464fc1adbe900eaf9d029f0f23a4.png)
+
+New releaseAug 26, 2026
+
+# infisical v0.162.24
+
+Open-source platform for secrets, certificates, and privileged access management with secret scanning, dynamic secrets, PKI, and CI/CD integrations. Cloud-native or self-hosted.
+
+Share
+
+# ![infisical](https://raw.githubusercontent.com/infisical/infisical/HEAD/img/logoname-black.svg)
+
+**The open-source secret management platform**: Sync secrets/configs across your team/infrastructure and prevent secret leaks.
+
+#### [Slack](https://infisical.com/slack) | [Infisical Cloud](https://infisical.com/) | [Self-Hosting](https://infisical.com/docs/self-hosting/overview) | [Docs](https://infisical.com/docs/documentation/getting-started/introduction) | [Website](https://www.infisical.com) | [Twitter](https://twitter.com/infisical) | [Hiring (Remote/SF)](https://infisical.com/careers)
+
+#### [![Infisical is released under the MIT license.](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Infisical/infisical/blob/main/LICENSE) [![Latest Infisical release](https://img.shields.io/github/v/release/Infisical/infisical?label=Release&color=brightgreen)](https://github.com/Infisical/infisical/releases) [![Cloudsmith downloads](https://img.shields.io/badge/Downloads-6.95M-orange)](https://cloudsmith.io/~infisical/repos/) [![Slack community channel](https://img.shields.io/badge/chat-on%20Slack-blueviolet)](https://infisical.com/slack)
+
+![Infisical secrets management dashboard](https://assets.kitploit.com/production/public/readmes/42659/2321b21bb161ee8ce067f7b44c6b109f8950464fc1adbe900eaf9d029f0f23a4.png)
+
+## Introduction
+
+**[Infisical](https://infisical.com)** is the open source security infrastructure platform that teams use for secrets, certificates, and privileged access management.
+
+We're on a mission to make security tooling more accessible to everyone, not just security teams, and that means redesigning the entire developer experience from ground up.
+
+## Features
+
+### Secrets Management:
+
+Centralize your application secrets and configuration across every environment, with versioning, rotation, and leak prevention built in.
+
+* **[Dashboard](https://infisical.com/docs/documentation/platform/project)**: Manage secrets across projects and environments (e.g. development, production, etc.) through a user-friendly interface.
+* **[Secret Syncs](https://infisical.com/docs/integrations/secret-syncs/overview)**: Sync secrets to platforms like [GitHub](https://infisical.com/docs/integrations/cicd/githubactions), [Vercel](https://infisical.com/docs/integrations/cloud/vercel), [AWS](https://infisical.com/docs/integrations/cloud/aws-secret-manager), and use tools like [Terraform](https://infisical.com/docs/integrations/frameworks/terraform), [Ansible](https://infisical.com/docs/integrations/platforms/ansible), and more.
+* **[Secret versioning](https://infisical.com/docs/documentation/platform/secret-versioning)** and **[Point-in-Time Recovery](https://infisical.com/docs/documentation/platform/pit-recovery)**: Keep track of every secret and project state; roll back when needed.
+* **[Secret Rotation](https://infisical.com/docs/documentation/platform/secret-rotation/overview)**: Rotate secrets at regular intervals for services like [PostgreSQL](https://infisical.com/docs/documentation/platform/secret-rotation/postgres-credentials), [MySQL](https://infisical.com/docs/documentation/platform/secret-rotation/mysql), [AWS IAM](https://infisical.com/docs/documentation/platform/secret-rotation/aws-iam-user-secret), and more.
+* **[Dynamic Secrets](https://infisical.com/docs/documentation/platform/dynamic-secrets/overview)**: Generate ephemeral secrets on-demand for services like [PostgreSQL](https://infisical.com/docs/documentation/platform/dynamic-secrets/postgresql), [MySQL](https://infisical.com/docs/documentation/platform/dynamic-secrets/mysql), [RabbitMQ](https://infisical.com/docs/documentation/platform/dynamic-secrets/rabbit-mq), and more.
+* **[Secret Scanning and Leak Prevention](https://infisical.com/docs/cli/scanning-overview)**: Prevent secrets from leaking to git.
+* **[Infisical Kubernetes Operator](https://infisical.com/docs/documentation/guides/kubernetes-operator)**: Deliver secrets to your Kubernetes workloads and automatically reload deployments.
+* **[Infisical Agent](https://infisical.com/docs/integrations/platforms/infisical-agent)**: Inject secrets into applications without modifying any code logic.
+* **[Honey Tokens](https://infisical.com/docs/documentation/platform/honey-tokens/overview)**: Plant decoy credentials alongside your real secrets that act as tripwires, instantly alerting your team the moment an attacker tries to use them.
+* **[Agent Vault](https://github.com/Infisical/agent-vault)**: Broker AI agent access to external APIs so agents never hold real credentials. Outbound requests route through a proxy that injects secrets before forwarding, eliminating credential exfiltration risk from prompt injection.
+
+### Certificate Management
+
+Run a complete private PKI: issue, manage, and monitor X.509 certificates from a centralized platform.
+
+* **[Internal CA](https://infisical.com/docs/documentation/platform/pki/ca/private-ca)**: Create and manage a private
+  CA hierarchy directly within Infisical.
+* **[External CA](https://infisical.com/docs/documentation/platform/pki/ca/external-ca)**: Integrate with third-party certificate authorities such as Let’s Encrypt, DigiCert, Microsoft AD CS, and more to leverage existing PKI infrastructure
+  or issue publicly trusted certificates.
+* **[Certificate Lifecycle Management](https://infisical.com/docs/documentation/platform/pki/applications/certificates)**: Create certificate [profiles](https://infisical.com/docs/documentation/platform/pki/settings/profiles) and [policies](https://infisical.com/docs/documentation/platform/pki/settings/policies) to control how certificates are issued, including [enrollment methods](https://infisical.com/docs/documentation/platform/pki/applications/enrollment-methods/overview) such as API, ACME, or EST. Manage the full lifecycle from issuance to renewal and [revocation](https://infisical.com/docs/documentation/platform/pki/applications/certificates#revocation) with CRL and inventory tracking.
+* **[Certificate Syncs](https://infisical.com/docs/documentation/platform/pki/applications/certificate-syncs/overview)**: Sync certificates to external platforms like [AWS Certificate Manager](https://infisical.com/docs/documentation/platform/pki/applications/certificate-syncs/aws-certificate-manager) and [Azure Key Vault](https://infisical.com/docs/documentation/platform/pki/applications/certificate-syncs/azure-key-vault).
+* **[Alerting](https://infisical.com/docs/documentation/platform/pki/applications/alerting/overview)**: Configure alerting for expiring CA and end-entity certificates.
+* **[Code Signing](https://infisical.com/docs/documentation/platform/pki/code-signing/overview)**: Sign software artifacts like containers, installers, and packages with managed code-signing certificates, central approval, and a full audit trail.
+
+### Infisical Key Management System (KMS):
+
+Centrally manage cryptographic keys and use them to encrypt and decrypt data across your projects.
+
+* **[Cryptographic Keys](https://infisical.com/docs/documentation/platform/kms)**: Centrally manage keys across projects through a user-friendly interface or via the API.
+* **[Encrypt and Decrypt Data](https://infisical.com/docs/documentation/platform/kms#guide-to-encrypting-data)**: Use symmetric keys...

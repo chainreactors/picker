@@ -1,0 +1,206 @@
+---
+title: sj v2.8.1
+url: https://kitploit.com/en/posts/github-bishopfox-sj-281
+source: Kitploit
+date: 2026-08-26
+fetch_date: 2026-08-27T12:12:44.320152
+---
+
+# sj v2.8.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/6268/d69b4e45e89d795400d5696d7ca5699a54d29fe151feb330f01b8ca9fc8be51f.png)
+
+New releaseAug 26, 2026
+
+# sj v2.8.1
+
+A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
+
+Share
+
+# sj (Swagger Jacker)
+
+![](https://assets.kitploit.com/production/public/readmes/6268/d69b4e45e89d795400d5696d7ca5699a54d29fe151feb330f01b8ca9fc8be51f.png)
+
+sj is a command line tool designed to assist with auditing of exposed Swagger/OpenAPI definition files by checking the associated API endpoints for weak authentication. It also provides command templates for manual vulnerability testing.
+
+It does this by parsing the definition file for paths, parameters, and accepted methods before using the results with one of five sub-commands:
+
+* `automate` - Crafts a series of requests and analyzes the status code of the response.
+* `prepare` - Generates a list of commands to use for manual testing.
+* `endpoints` - Generates a list of raw API routes. *Path values will not be replaced with test data*.
+* `brute` - Sends a series of requests to a target to find operation definitions based on commonly used file paths.
+* `convert` - Converts a definition file from v2 to v3.
+
+## Build
+
+To compile from source, ensure you have Go version `>= 1.22.5` installed and run `go build` from within the repository:
+
+root@kitploit:~
+
+```
+$ git clone https://github.com/BishopFox/sj.git
+$ cd sj/
+$ go build .
+```
+
+## Install
+
+To install the latest version of the tool, run:
+
+root@kitploit:~
+
+```
+$ go install github.com/BishopFox/sj@latest
+
+# Note: you may also need to place the path to your Go binaries within your PATH environment variable:
+$ export PATH=$PATH:~/go/bin
+```
+
+## Usage
+
+> Use the `automate` command to send a series of requests to each defined endpoint and analyze the status code of each response.
+
+root@kitploit:~
+
+```
+$ sj automate -u https://petstore.swagger.io/v2/swagger.json -qi -p http://127.0.0.1:8080
+
+Gathering API details.
+Title: Swagger Petstore
+Description: This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.
+✓  GET  200  /v2/pet/findByStatus
+✓  GET  200  /v2/user/logout
+⚠  POST  400  /v2/user/createWithArray
+⚠  POST  400  /v2/store/order
+✗  GET  404  /v2/store/order/1
+⚠  POST  400  /v2/pet
+⚠  PUT  415  /v2/pet
+⚠  POST  400  /v2/user/createWithList
+✗  GET  404  /v2/user/bishopfox
+⚠  PUT  415  /v2/user/bishopfox
+⚠  POST  400  /v2/user
+⚠  POST  415  /v2/pet/1/uploadImage
+✓  GET  200  /v2/pet/findByTags
+✗  GET  404  /v2/pet/1
+⚠  POST  415  /v2/pet/1
+✓  GET  200  /v2/store/inventory
+✓  GET  200  /v2/user/login
+```
+
+You can use the `--replay-proxy` flag to replay matched requests through a separate proxy (e.g., Burp Suite). This lets you route all traffic through one proxy (or direct) while only sending interesting results to your interception proxy:
+
+root@kitploit:~
+
+```
+$ sj automate -u https://petstore.swagger.io/v2/swagger.json -qi --replay-proxy http://127.0.0.1:8080
+```
+
+You can also combine it with `--proxy` to route scanning traffic through a different proxy while replaying matches to Burp:
+
+root@kitploit:~
+
+```
+$ sj automate -u https://petstore.swagger.io/v2/swagger.json -qi -p http://proxy:9090 --replay-proxy http://127.0.0.1:8080
+```
+
+You can also request verbose output to see the partial (or full) response:
+
+root@kitploit:~
+
+```
+$ sj automate -u https://petstore.swagger.io/v2/swagger.json -qi -p http://127.0.0.1:8080 -v
+
+Gathering API details.
+Title: Swagger Petstore
+Description: This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.
+✗  GET  404  /v2/user/bishopfox
+   {"code":1,"type":"error","message":"User not found
+⚠  PUT  415  /v2/user/bishopfox
+   {"code":415,"type":"unknown","message":"com.sun.je
+✓  GET  200  /v2/user/logout
+   {"code":200,"type":"unknown","message":"ok"}
+⚠  POST  400  /v2/user/createWithArray
+   {"code":400,"type":"unknown","message":"bad input"
+⚠  POST  400  /v2/user/createWithList
+   {"code":400,"type":"unknown","message":"bad input"
+✗  GET  404  /v2/pet/1
+   {"code":1,"type":"error","message":"Pet not found"
+⚠  POST  415  /v2/pet/1
+   {"code":415,"type":"unknown"}
+✓  GET  200  /v2/store/inventory
+   {"sold":117,"string":26,"invalidStatus":1,"-1":1,"
+⚠  POST  400  /v2/store/order
+   {"code":400,"type":"unknown","message":"bad input"
+✓  GET  200  /v2/user/login
+   {"code":200,"type":"unknown","message":"logged in
+⚠  POST  400  /v2/pet
+   {"code":400,"type":"unknown","message":"bad input"
+⚠  PUT  415  /v2/pet
+   {"code":415,"type":"unknown","message":"com.sun.je
+✓  GET  200  /v2/pet/findByStatus
+   []
+✓  GET  200  /v2/pet/findByTags
+   []
+✗  GET  404  /v2/store/order/1
+   {"code":1,"type":"error","message":"Order not foun
+⚠  POST  400  /v2/user
+   {"code":400,"type":"unknown","message":"bad input"
+⚠  POST  415  /v2/pet/1/uploadImage
+   {"code":415,"type":"unknown"}
+```
+
+> Use the `prepare` command to prepare a list of commands for manual testing. Currently supports both `curl` and `sqlmap`. You will likely have to modify these slightly.
+
+root@kitploit:~
+
+```
+$ sj prepare -u https://petstore.swagger.io/v2/swagger.json -qi -p http://127.0.0.1:8080
+
+INFO[0000] Gathering API details.
+
+Title: Swagger Petstore
+Description: This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.
+$ curl -X POST "https://petstore.swagger.io/v2/pet/{petId}"
+$ curl -X GET "https://petstore.swagger.io/v2/pet/{petId}"
+$ curl -X GET "https://petstore.swagger.io/v2/store/inventory"
+$ curl -X POST "https://petstore.swagger.io/v2/user/createWithList" -d 'body=1'
+$ curl -X GET "https://petstore.swagger.io/v2/user/logout"
+$ curl -X POST "https://petstore.swagger.io/v2/user/createWithArray" -d 'body=1'
+$ curl -X GET "https://petstore.swagger.io/v2/pet/findByStatus"
+$ curl -X GET "https://petstore.swagger.io/v2/pet/findByTags"
+$ curl -X POST "https://petstore.swagger.io/v2/store/order" -d 'petId=1&quantity=1&shipDate=bishopfox&status=bishopfox&complete=1&id=1&body='
+$ curl -X POST "https://petstore.swagger.io/v2/pet/{petId}/uploadImage"
+$ curl -X POST "https://petstore.swagger.io/v2/pet" -d 'photoUrls=1&tags=1&status=bishopfox&id=1&category=&name=doggie&body='
+$ curl -X PUT "https://petstore.swagger.io/v2/pet" -d 'id=1&category=&name=doggie&photoUrls=1&tags=1&status=bishopfox&body='
+$ curl -X GET "https://petstore.swagger.io/v2/user/{username}"
+$ curl -X PUT "https://petstore.swagger.io/v2/user/{username}" -d 'email=bishopfox&password=bishopfox&phone=bishopfox&userStatus=1&id=1&username=bishopfox&firstName=bishopfox&lastName=bishopfox&body='
+$ curl -X GET "https://petstore.swagger.io/v2/user/login"
+$ curl -X POST "https://petstore.swagger.io/v2/user" -d 'phone=bishopfox&userStatus=1&id=1&username=bishopfox&firstName=bishopfox&lastName=bishopfox&email=bishopfox&password=bishopfox&body='
+$ curl -X GET "https://petstore.swagger.io/v2/store/order/{orderId}"
+```
+
+> Use the `endpoints` command to generate a list of raw endpoints from the provided definition file.
+
+root@kitploit:~
+
+```
+$ sj endpoints -u https://petstore.swagger.io/v2/swa...

@@ -1,0 +1,160 @@
+---
+title: jsch jsch-2.28.7
+url: https://kitploit.com/en/posts/github-mwiede-jsch-jsch-2287
+source: Kitploit
+date: 2026-08-26
+fetch_date: 2026-08-27T12:12:42.702812
+---
+
+# jsch jsch-2.28.7
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/43508/e560facacc4492fe5ffbab4d7e024b0c4b4e931683c36cd39723cecdf874cb98.png)
+
+New releaseAug 26, 2026
+
+# jsch jsch-2.28.7
+
+Pure Java SSH client library supporting modern signature algorithms (RSA-SHA2, Ed25519) and drop-in replacement for legacy JSch.
+
+Share
+
+# Fork of JSch-0.1.55
+
+See original [README](https://github.com/mwiede/jsch/blob/HEAD/README)
+
+[![GitHub release](https://img.shields.io/github/v/tag/mwiede/jsch.svg)](https://github.com/mwiede/jsch/releases/latest)
+[![Maven Central](https://maven-badges.sml.io/sonatype-central/com.github.mwiede/jsch/badge.svg)](https://maven-badges.sml.io/sonatype-central/com.github.mwiede/jsch)
+![Java CI with Maven](https://github.com/mwiede/jsch/workflows/Java%20CI%20with%20Maven/badge.svg)
+
+## Why should you use this library?
+
+As I explained in a [blog post](http://www.matez.de/index.php/2020/06/22/the-future-of-jsch-without-ssh-rsa/) the main points are:
+
+* OpenSSH has disabled ssh-rsa in [release 8.8](https://www.openssh.com/txt/release-8.8) per default and you need a library which supports rsa-sha2-256 and rsa-sha2-512.
+* Drop in replacement: just change dependency coordinates and you are good to go.
+* No active maintenance of [JSch at SourceForge](https://sourceforge.net/projects/jsch/).
+* Stay in sync with OpenJDK features so there is no need for additional dependencies.
+
+## Is there any documentation?
+
+Not much. Check the example code in the [examples](https://github.com/mwiede/jsch/tree/master/examples) folder. And there are some wiki pages, i.e. [Jsch-Configuration](https://github.com/mwiede/jsch/wiki/Jsch-Configuration) and [Jsch-Logging](https://github.com/mwiede/jsch/wiki/Jsch-Logging).
+
+## Versioning
+
+Up until `0.2.26` the versioning followed the original jsch scheme, from `2.27.0` on, we switched to [semantic versioning](https://semver.org), expressing that the library api is stable and used in production.
+
+## How to use this library as a replacement for `com.jcraft:jsch`
+
+Make sure, that you only have one jsch dependency on your classpath. For example you can check the output of `mvn dependency:tree`.
+
+### by replacing a direct maven dependency
+
+replace
+
+root@kitploit:~
+
+```
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch</artifactId>
+    <version>0.1.55</version>
+</dependency>
+```
+
+with
+
+root@kitploit:~
+
+```
+<dependency>
+  <groupId>com.github.mwiede</groupId>
+  <artifactId>jsch</artifactId>
+  <version>2.28.0</version>
+</dependency>
+```
+
+### by replacing jsch as a transitive maven dependency
+
+When you have an artifact `foo:bar`, which contains `com.jcraft:jsch` as a transitive dependency, you need to add `com.github.mwiede:jsch` as another dependency and exclude the jcraft one:
+
+root@kitploit:~
+
+```
+<dependency>
+  <groupId>com.github.mwiede</groupId>
+  <artifactId>jsch</artifactId>
+  <version>2.28.0</version>
+</dependency>
+<dependency>
+  <groupId>foo</groupId>
+  <artifactId>bar</artifactId>
+  <exclusions>
+        <exclusion>
+          <groupId>com.jcraft</groupId>
+          <artifactId>jsch</artifactId>
+        </exclusion>
+      </exclusions>
+</dependency>
+```
+
+*Addition*: You can further exclude any of `com.jcraft:jsch.agentproxy.jsch`, `com.jcraft:jsch.agentproxy.core` or `com.jcraft:jsch.agentproxy.pageant`, because these modules where integrated in this fork (see release notes of [0.1.66](https://github.com/mwiede/jsch/releases/tag/jsch-0.1.66)).
+
+## FAQ
+
+### Which is the minimum Java version required?
+
+* Java 8. For more limitations, see next answer.
+
+### Are ssh-ed25519, ssh-ed448, curve25519-sha256, curve448-sha512 & chacha20-poly1305@openssh.com supported?
+
+* This library is a [Multi-Release-jar](https://openjdk.org/jeps/238), which means that you can only use certain features when a more recent Java version is used.
+  + In order to use ssh-ed25519 & ssh-ed448, you must use at least Java 15 or add [Bouncy Castle](https://www.bouncycastle.org/java.html) (bcprov-jdk18on) to the classpath.
+  + In order to use curve25519-sha256 & curve448-sha512, you must use at least Java 11 or add [Bouncy Castle](https://www.bouncycastle.org/java.html) (bcprov-jdk18on) to the classpath.
+  + In order to use chacha20-poly1305@openssh.com, you must add [Bouncy Castle](https://www.bouncycastle.org/java.html) (bcprov-jdk18on) to the classpath.
+* As of the [0.1.66](https://github.com/mwiede/jsch/releases/tag/jsch-0.1.66) release, these algorithms can now be used with older Java releases if [Bouncy Castle](https://www.bouncycastle.org/java.html) (bcprov-jdk18on) is added to the classpath.
+  + As of the [0.1.72](https://github.com/mwiede/jsch/releases/tag/jsch-0.1.72) release, chacha20-poly1305@openssh.com can only be used if [Bouncy Castle](https://www.bouncycastle.org/java.html) (bcprov-jdk18on) is added to the classpath.
+
+### Why do ssh-rsa type keys not work with this JSch fork and my server?
+
+* As of the [0.2.0](https://github.com/mwiede/jsch/releases/tag/jsch-0.2.0) release, the RSA/SHA1 signature algorithm is disabled by default.
+  + SHA1 is no longer considered secure by the general cryptographic community and this JSch fork strives to maintain secure choices for default algorithms that it will utilize.
+  + This also follows the lead of the OpenSSH project in which they disabled RSA/SHA1 signatures by default as of [OpenSSH release 8.8](https://www.openssh.com/txt/release-8.8).
+* ssh-rsa type keys continue to function by default with the RSA/SHA256 (rsa-sha2-256) & RSA/SHA512 (rsa-sha2-512) signature algorithms defined by [RFC 8332](https://datatracker.ietf.org/doc/html/rfc8332).
+* If your server only supports RSA/SHA1 signatures and you require their use in your application, then you will need to manually reenable them by one of the following means (also see wiki page [Jsch-Configuration](https://github.com/mwiede/jsch/wiki/Jsch-Configuration)):
+  + Globally by adding "ssh-rsa" to the `jsch.server_host_key` + `jsch.client_pubkey` properties.
+  + Globally by executing something similar to `JSch.setConfig("server_host_key", JSch.getConfig("server_host_key") + ",ssh-rsa")` + `JSch.setConfig("PubkeyAcceptedAlgorithms", JSch.getConfig("PubkeyAcceptedAlgorithms") + ",ssh-rsa")`.
+  + On a per-session basis by executing something similar to `session.setConfig("server_host_key", session.getConfig("server_host_key") + ",ssh-rsa")` + `session.setConfig("PubkeyAcceptedAlgorithms", session.getConfig("PubkeyAcceptedAlgorithms") + ",ssh-rsa")`.
+  + Adding "ssh-rsa" to your OpenSSH type config file with the "HostKeyAlgorithms" + "PubkeyAcceptedAlgorithms" keywords & then utilizing the `OpenSSHConfig` class.
+
+### Is this fork 100% compatible with original JSch, because the connection to my server does not work any more!
+
+* For compatibility with OpenSSH and improved security, the order of crypto algorithms was changed. If you still want to use older or deprecated algorithms, you need to change the configuration. Examples see [#37](https://github.com/mwiede/jsch/issues/37), [#40](https://github.com/mwiede/jsch/issues/40)
+* To make it easier to adjust the crypto algorithms, starting with [0.1.65](https://github.com/mwiede/jsch/releases/tag/jsch-0.1.65) the following system properties can be set at your application's startup:
+  + `jsch.kex`
+    - analogous to `JSch.setConfig("kex", "...")`
+  + `jsch.server_host_key`
+    - analogous to `JSch.setConfig("server_host_key", "...")`
+  + `jsch.prefer_known_host_key_types`
+    - analogous to `JSch.setConfig("prefer_known_host_key_types", "...")`
+  + `jsch.enable_server_sig_algs`
+    - analogous to `JSch.setConfig("enable_server_sig_algs", "...")`
+  + `jsch.cipher`
+ ...
