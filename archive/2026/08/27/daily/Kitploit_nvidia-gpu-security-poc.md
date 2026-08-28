@@ -1,0 +1,154 @@
+---
+title: nvidia-gpu-security-poc
+url: https://kitploit.com/en/tools/github/abhinavagarwal07/nvidia-gpu-security-poc
+source: Kitploit
+date: 2026-08-27
+fetch_date: 2026-08-28T13:36:44.097379
+---
+
+# nvidia-gpu-security-poc
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/abhinavagarwal07/nvidia-gpu-security-poc
+
+![](https://assets.kitploit.com/production/public/tools/53194/196f7d6ca6dce0d91148051891e34b9556421aa77af9a42d24145a71b76f8a30-display-v1.webp)
+
+[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Exploitation](/en/categories/exploitation)[Information Gathering](/en/categories/information-gathering)[Penetration Testing](/en/categories/penetration-testing)[Hardware & IoT Security](/en/categories/hardware-iot-security)
+
+![GitHub](/providers/github.png)abhinavagarwal07/nvidia-gpu-security-poc
+
+# nvidia-gpu-security-poc
+
+PoCs and evidence for two NVIDIA Linux GPU driver findings closed by the vendor as expected/intended behavior: cross-UID GPU process telemetry via NVML, and an unprivileged Xid 31 copy-engine MMU fault via a peer-access teardown race.
+
+[View Repository](https://github.com/abhinavagarwal07/nvidia-gpu-security-poc)
+
+445 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# NVIDIA GPU driver — two findings NVIDIA closed as expected behavior
+
+Proof-of-concept code and raw evidence for two findings in the NVIDIA Linux GPU driver,
+both reported through NVIDIA's VDP and both closed by NVIDIA as intended/expected behavior.
+Published so the behaviour is documented and reproducible; neither has a CVE and neither
+will be fixed.
+
+| # | Finding | Class | Vendor outcome | Directory |
+| --- | --- | --- | --- | --- |
+| 1 | Cross-UID GPU process telemetry via NVML | Information disclosure (CWE-200 / CWE-862) | "expected behavior"; public disclosure authorized in writing 2026-08-20 | [`01-nvml-cross-uid-telemetry/`](https://github.com/abhinavagarwal07/nvidia-gpu-security-poc/blob/HEAD/01-nvml-cross-uid-telemetry/) |
+| 2 | Unprivileged Xid 31 copy-engine MMU fault via P2P teardown race | GPU fault, unprivileged and deterministic | "intended behavior and as such is not a bug", closed 2026-08-04 | [`02-xid31-p2p-teardown-race/`](https://github.com/abhinavagarwal07/nvidia-gpu-security-poc/blob/HEAD/02-xid31-p2p-teardown-race/) |
+
+Tested on driver **595.71.05-open**, A100-SXM4-80GB x4 (NV4 full mesh, no NVSwitch, MIG off),
+Ubuntu 24.04 / kernel 6.8.0, CUDA toolkit 12.9. Finding 1 also reproduced on 565.57.01-open.
+
+## Read this first
+
+**Finding 1 is a real cross-UID exposure. Finding 2 is an unproven-impact fault.** They are not
+equally strong and are not presented as such.
+
+Finding 2 demonstrates that an unprivileged user can deterministically fault an NVLink GPU pair
+(5/5, PID-attributed, against 4/4 clean negative controls). It does **not** demonstrate that the
+fault outlives the triggering process. That measurement was never taken — the harness reset the
+GPU reflexively before probing, and the node was deprovisioned before it could be repeated. Two
+independent pieces of evidence argue the fault self-clears: NVIDIA's Xid catalog classifies
+Xid 31 with immediate action `RESTART_APP`, and the GPU's own Recovery Action field read `None`
+before the reset. Until someone runs the post-kill canary in
+[`02-xid31-p2p-teardown-race/`](https://github.com/abhinavagarwal07/nvidia-gpu-security-poc/blob/HEAD/02-xid31-p2p-teardown-race/), treat this as a fault with
+unproven blast radius, not a denial of service.
+
+If you have an NVLink pair to spare, that one experiment is the highest-value thing anyone can
+contribute here. It takes a few minutes.
+
+## Quick start
+
+root@kitploit:~
+
+```
+git clone https://github.com/abhinavagarwal07/nvidia-gpu-security-poc
+cd nvidia-gpu-security-poc
+./capture_env.sh                     # record your host's device perms, driver, topology, /proc opts
+
+# Finding 1 — needs a second user running any CUDA workload
+(cd 01-nvml-cross-uid-telemetry/poc && make && ./nvml_harvest)
+
+# Finding 2 — needs two NVLink-connected GPUs. Faults a GPU pair. Do not run on shared hardware.
+(cd 02-xid31-p2p-teardown-race/poc && ./build.sh && \
+   CUDA_VISIBLE_DEVICES=0,1 ./p2p_teardown_race_verbose --a 0 --p 1)
+```
+
+`capture_env.sh` output is what to attach if you report a difference from our results — it
+records `ls -l /dev/nvidia*`, the `/proc/driver/nvidia/params` device-mode entries, `/proc`
+mount options (a `hidepid=` mount changes what Finding 1 yields), topology, driver and pynvml
+versions.
+
+## Safety
+
+Finding 2 deliberately faults a GPU pair. It produces `Xid 31` entries in the kernel log and may
+require `nvidia-smi --gpu-reset` to clear — and on Ampere-generation NVLink/NVSwitch systems
+NVIDIA documents that recovery in the fatal-trunk-link case is a fabric-wide operation, not a
+single-GPU one. **Run it only on hardware you own or have written authorization to disrupt, with
+no co-tenants.** All original testing was done on a sole-tenant, researcher-controlled node under
+an authorized cluster lease.
+
+Finding 1 is read-only and passive. It reads telemetry the driver already exposes to every local
+user; it writes nothing and injects nothing.
+
+## Evidence
+
+`results/` in each directory holds the original machine-scored per-run verdict JSON, captured
+`dmesg` Xid lines, positive and negative controls, the observer privilege audit, and environment
+captures from the test node. GPU UUIDs, hardware serials and node IPs are redacted; nothing else
+has been altered.
+
+## Write-ups
+
+Full Disclosure posts for both findings, including vendor correspondence and disclosure
+timelines: <https://abhinavagarwal07.github.io>
+
+## License
+
+PoC code and documentation: see [LICENSE](https://github.com/abhinavagarwal07/nvidia-gpu-security-poc/blob/HEAD/LICENSE).
+
+[Download Tool](https://github.com/abhinavagarwal07/nvidia-gpu-security-poc)

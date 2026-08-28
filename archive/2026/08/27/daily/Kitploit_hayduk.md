@@ -1,0 +1,172 @@
+---
+title: hayduk
+url: https://kitploit.com/en/tools/github/jolovicdev/hayduk
+source: Kitploit
+date: 2026-08-27
+fetch_date: 2026-08-28T13:36:46.354287
+---
+
+# hayduk
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/jolovicdev/hayduk
+
+![](https://assets.kitploit.com/production/public/tools/52871/b0e76f68f123b108731939d94f3cecbcff5d604111ff4942d875edeae3592399-display-v1.webp)
+
+[Penetration Testing Frameworks](/en/categories/penetration-testing-frameworks)[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Exploit Frameworks](/en/categories/exploit-frameworks)[Network Mapping](/en/categories/network-mapping)[Post-Exploitation](/en/categories/post-exploitation)[Red Teaming](/en/categories/red-teaming)
+
+![GitHub](/providers/github.png)jolovicdev/hayduk
+
+# hayduk
+
+Graphical attack management console for Metasploit: the lineage of Armitage as a single Go binary with a browser UI. Live network topology, campaign workflows, Hail Mary, sessions, report export, and team mode.
+
+[View Repository](https://github.com/jolovicdev/hayduk)
+
+432 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# Hayduk
+
+Hayduk is a graphical attack management console for Metasploit: the lineage of Armitage,
+rebuilt as a single Go binary with a browser UI. It drives msfrpcd through
+[go-msf](https://github.com/jolovicdev/go-msf).
+
+**For authorized security testing only.**
+
+![Hayduk console](https://assets.kitploit.com/production/public/readmes/52871/b0e76f68f123b108731939d94f3cecbcff5d604111ff4942d875edeae3592399/31208620d2a403c2cd4ce05f891bff680090d86187fa522ea356a42f0610bae5-display-v1.webp)
+
+## What you get
+
+* **Live network topology**: hosts grouped by subnet, access states, pivot
+  routes drawn as dashed edges, node positions that survive reloads
+* **Campaign workflows**: host discovery and service scans, login attacks
+  with pre-filled recovered credentials, and Find attacks matching exploits
+  to a host's services
+* **Hail Mary**: the Armitage signature move; fire every matching exploit
+  at the chosen hosts in one click, paced, every launch in the event log
+* **Sessions**: interact with meterpreter and shells, upgrade shells to
+  meterpreter, kill; console and session output stream live with the real
+  prompt and busy state
+* **Module launcher**: the full module tree with reliability ranks, option
+  editing, payload selection
+* **Credentials, loot and events**: everything the workspace database
+  knows, plus an attributed event log
+* **Report export**: one self-contained HTML document summarizing the
+  campaign, safe to hand to a client
+* **Team mode**: several operators on one shared campaign (trusted
+  networks)
+
+## Quickstart
+
+Build (needs Go 1.26+ and Node):
+
+root@kitploit:~
+
+```
+make            # builds the UI, embeds it, compiles bin/hayduk
+./bin/hayduk
+```
+
+The console opens in your browser. Point it at a running msfrpcd:
+
+root@kitploit:~
+
+```
+msfrpcd -P yourpassword -S -f -a 127.0.0.1
+```
+
+or spin the disposable docker lab used by the integration tests:
+
+root@kitploit:~
+
+```
+scripts/msf/up.sh                  # msfrpcd on 127.0.0.1:55553, user msf / testpass123
+scripts/msf/up.sh --with-vulnbox   # plus disposable target boxes to scan and attack
+scripts/msf/down.sh
+```
+
+The screenshot above is Hayduk live against that lab: six discovered hosts,
+real OS fingerprints and services.
+
+## Team mode
+
+root@kitploit:~
+
+```
+./bin/hayduk --team --listen 0.0.0.0:8787
+```
+
+Team mode requires an explicit non-loopback bind. Every operator opens the
+printed token link, picks a name, and that name rides on their commands and
+lands next to their actions in the shared event log. Authentication is the
+one-time token URL; treat the link like a password and only run team mode
+on networks you trust.
+
+## Testing
+
+root@kitploit:~
+
+```
+make test         # go test ./... + ui tests
+make integration  # against the docker stack above
+```
+
+## Development
+
+Terminal 1: cd ui && npm run dev
+Terminal 2: make dev
+Open the URL that Hayduk prints. The UI hot-reloads through the dev proxy.
+
+Protocol types are generated: `make gen` after touching
+`internal/protocol/protocol.go`; `make gen-check` catches drift.
+
+## Credits
+
+Design lineage: Armitage by Raphael Mudge.
+
+License: MIT
+
+[Download Tool](https://github.com/jolovicdev/hayduk)

@@ -1,0 +1,162 @@
+---
+title: WinFlesher
+url: https://kitploit.com/en/tools/github/mindsflee/winflesher
+source: Kitploit
+date: 2026-08-27
+fetch_date: 2026-08-28T13:36:42.937573
+---
+
+# WinFlesher
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/mindsflee/winflesher
+
+![](https://assets.kitploit.com/production/public/tools/53205/e103d8127a70b19eb21959997062e1372c3366e62e1db673aa2a0a5edc78b829-display-v1.webp)
+
+[Privilege Escalation](/en/categories/privilege-escalation)[Reconnaissance](/en/categories/reconnaissance)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Lateral Movement](/en/categories/lateral-movement)[Configuration Auditing](/en/categories/configuration-auditing)[Penetration Testing](/en/categories/penetration-testing)[Red Teaming](/en/categories/red-teaming)
+
+![GitHub](/providers/github.png)mindsflee/winflesher
+
+# WinFlesher
+
+Automated attack surface assessment framework for Active Directory and local infrastructures, correlating vulnerabilities with attack paths to domain compromise, privilege escalation, and lateral movement, with remediation guidance.
+
+[View Repository](https://github.com/mindsflee/winflesher)
+
+141832 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+![WinFlesher Logo](https://raw.githubusercontent.com/mindsflee/WinFlesher/main/Assets/Logo/winflesher_logo.png)
+
+*Like PingCastle went out for drinks with Bloodhound, and they actually decided to get some work done.* 🍷
+
+**WinFlesher** is an advanced attack surface security assessment framework designed to analyze, evaluate, and report on security postures, attack paths, and remediation strategies in complex environments.
+
+Developed for security professionals and cybersecurity auditors, WinFlesher automates vulnerability discovery and critical path correlation within Active Directory and local infrastructures.
+
+---
+
+## Features Overview
+
+WinFlesher offers a modular, telemetry-based approach to risk management:
+
+* **Automated Discovery:** Real-time detection of host configurations, services, scheduled tasks, firewalls, and LSA configurations.
+* **Active Directory Analysis:** In-depth analysis of domains, trusts, group privileges, and users with exposed SPNs.
+* **Attack Paths Engine:** Automatic correlation between vulnerabilities and impact, identifying paths to *Domain Compromise*, *Privilege Escalation*, and *Lateral Movement*.
+* **Remediation Support:** Integrated practical guides and resolution scripts for each detected vulnerability.
+* **Modern GUI:** Dedicated graphical interface for rapid management and an intuitive visualization of the security score.
+
+---
+
+## HTML Report
+
+![WinFlesher Dashboard](https://raw.githubusercontent.com/mindsflee/WinFlesher/main/Assets/Images/Dashboard.png)
+
+![WinFlesher Findings](https://raw.githubusercontent.com/mindsflee/WinFlesher/main/Assets/Images/Findings.png)
+
+![WinFlesher Module Details](https://raw.githubusercontent.com/mindsflee/WinFlesher/main/Assets/Images/Module_Details.png)
+
+---
+
+## WinForm GUI
+
+![WinFlesher Attack Paths](https://raw.githubusercontent.com/mindsflee/WinFlesher/main/Assets/Images/Attack_Paths.png)
+
+![WinFlesher Modules](https://raw.githubusercontent.com/mindsflee/WinFlesher/main/Assets/Images/Modules.png)
+
+![WinFlesher Remediation](https://raw.githubusercontent.com/mindsflee/WinFlesher/main/Assets/Images/Remediation.png)
+
+---
+
+## Installation
+
+WinFlesher can run on either a client or a server operating system, as long as the machine is domain-joined and has local administrator privileges to install dependencies and Active Directory modules.
+
+The quickest way to get started is to download the entire repository as a ZIP archive and extract it locally:
+
+1. Download the repository by clicking the **"Download ZIP"** button on the main GitHub page.
+2. Extract the ZIP file to a secure folder (e.g., `C:\Tools\WinFlesher`).
+3. **Note:** Ensure that PowerShell script execution is enabled on your system:
+
+   root@kitploit:~
+
+   ```
+   Set-ExecutionPolicy Bypass -Scope Process -Force
+   ```
+
+---
+
+## Required Modules
+
+To fully leverage WinFlesher's capabilities (especially for the Active Directory and Cloud components), ensure you have the following modules installed:
+
+* **Active Directory:**
+
+  root@kitploit:~
+
+  ```
+  Install-WindowsFeature RSAT-AD-PowerShell
+  ```
+* **Microsoft Graph (for Entra ID):**
+
+  root@kitploit:~
+
+  ```
+  Install-Module Microsoft.Graph.Applications -Scope CurrentUser
+  ```
+
+---
+
+## How to Run WinFlesher
+
+To start the framework, open a PowerShell console (running as Administrator is recommended for full telemetry gathering), navigate to the root directory, and simply execute:
+
+root@kitploit:~
+
+```
+. .\Invoke-Winflesher.ps1
+```
+
+[Download Tool](https://github.com/mindsflee/winflesher)

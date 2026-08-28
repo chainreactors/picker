@@ -1,0 +1,126 @@
+---
+title: WSGoat
+url: https://kitploit.com/en/tools/github/makarov05bm/wsgoat
+source: Kitploit
+date: 2026-08-27
+fetch_date: 2026-08-28T13:36:38.629740
+---
+
+# WSGoat
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/makarov05bm/wsgoat
+
+![](https://assets.kitploit.com/production/public/tools/52897/ed76dc051bcd97f99b339069d24074d5c6667559616a54aa77c9234754f7a5c0-display-v1.webp)
+
+[Web Application Exploitation](/en/categories/web-application-exploitation)[Web Security](/en/categories/web-security)[Penetration Testing](/en/categories/penetration-testing)[Authentication](/en/categories/authentication)[Learning & Education](/en/categories/education)[Labs & Practice](/en/categories/labs-practice)
+
+![GitHub](/providers/github.png)makarov05bm/wsgoat
+
+# WSGoat
+
+The vulnerable application that will teach you how to hack WebSockets
+
+[View Repository](https://github.com/makarov05bm/wsgoat)[Website](https://blog.oussmess.me/posts/websockets-for-bug-hunters/)
+
+3424 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# WebSocket GOAT
+
+![2f008f22-1dd9-4326-b1e5-ac521bba8562](https://assets.kitploit.com/production/public/readmes/52897/ed76dc051bcd97f99b339069d24074d5c6667559616a54aa77c9234754f7a5c0/661376cfb2398e87cb04ac6c2969c27dc186da92f07dddfd985648eb1be84900-display-v1.webp)
+
+A deliberately vulnerable, Dockerized WebSocket application designed for learning and practicing WebSocket security testing in a controlled environment.
+
+The lab implements a realistic web application with authentication, private messaging, user profiles, and multiple WebSocket endpoints. Each feature provides an opportunity to study how WebSocket-specific vulnerabilities arise when authentication, authorization, and application-level security controls are incorrectly implemented.
+
+## Start
+
+root@kitploit:~
+
+```
+docker compose up --build
+```
+
+Open:
+
+<http://localhost:3000>
+
+## Test
+
+Create two accounts in two browser profiles/incognito windows.
+
+Example:
+
+User A:
+
+* register `alice`
+* password `password123`
+
+User B:
+
+* register `bob`
+* password `password123`
+
+Each account receives an 8-character user code.
+
+Enter Bob's code from Alice's session. Enter Alice's code from Bob's session.
+The two clients will join the same conversation.
+
+## Guide
+
+I wrote a [walkthough](https://blog.oussmess.me/posts/websockets-for-bug-hunters/) of the bugs present in the lab, and it will be updated regularily.
+
+I also encourage you to watch this [talk](https://www.youtube.com/watch?v=bMFP71UAbPo) from OWASP
+
+and this [video](https://www.youtube.com/watch?v=97gPr9FdXzE) from BBRE
+
+## References
+
+<https://websocket.org/guides/authentication/>
+
+<https://christian-schneider.net/blog/cross-site-websocket-hijacking/>
+
+[Download Tool](https://github.com/makarov05bm/wsgoat)

@@ -1,0 +1,73 @@
+---
+title: OWASP-Hunting
+url: https://kitploit.com/en/tools/github/owasp/owasp-hunting
+source: Kitploit
+date: 2026-08-27
+fetch_date: 2026-08-28T13:36:36.163409
+---
+
+# OWASP-Hunting
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/owasp/owasp-hunting
+
+![](https://assets.kitploit.com/production/public/tools/53281/542d4071d26b9a35d0aa10a6beda4472b1d81e5f4510668bf67f3dc6fbf2a44b-display-v1.webp)
+
+[Payload Generation](/en/categories/payload-generation)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Web Security](/en/categories/web-security)[Penetration Testing](/en/categories/penetration-testing)[Curated Resources](/en/categories/curated-resources)
+
+![GitHub](/providers/github.png)owasp/owasp-hunting
+
+# OWASP-Hunting
+
+Curated collection of payloads for ethical security testing and bug bounty hunting, covering common web vulnerabilities and attack vectors.
+
+[View Repository](https://github.com/owasp/owasp-hunting)
+
+11372 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+This repository does not have a README.
+
+[Download Tool](https://github.com/owasp/owasp-hunting)

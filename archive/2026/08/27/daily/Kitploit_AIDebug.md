@@ -1,0 +1,232 @@
+---
+title: AIDebug
+url: https://kitploit.com/en/tools/github/anpa1200/aidebug
+source: Kitploit
+date: 2026-08-27
+fetch_date: 2026-08-28T13:36:33.022615
+---
+
+# AIDebug
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/anpa1200/aidebug
+
+![](https://assets.kitploit.com/production/public/tools/53166/4056e67054ea4f595c4cdc105c0c7f301dd3ff7a8f0733593f1284b0bef82908-display-v1.webp)
+
+[Static Analysis](/en/categories/static-analysis)[Dynamic Analysis (Sandboxing)](/en/categories/dynamic-analysis-sandboxing)[Reverse Engineering](/en/categories/reverse-engineering)[Debuggers](/en/categories/debuggers)[Malware Analysis](/en/categories/malware-analysis)[Binary Analysis](/en/categories/binary-analysis)[Threat Intelligence](/en/categories/threat-intelligence)[Learning & Education](/en/categories/education)[Learning Paths & Courses](/en/categories/learning-paths-courses)[AI Security](/en/categories/ai-security)
+
+![GitHub](/providers/github.png)anpa1200/aidebug
+
+# AIDebug
+
+Evidence-focused malware reverse engineering with deep PE/.NET inspection, Ghidra reconstruction, AI cross-checks, YARA, and ELF debugging
+
+[View Repository](https://github.com/anpa1200/aidebug)[Website](https://1200km.com/articles/read/2026/2026-08-10-pe-file-structure-for-malware-analysis-d93acb97d9f3/)
+
+1123114 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# AIDebug
+
+[![Source v3.1.0](https://img.shields.io/badge/source-v3.1.0-blueviolet)](docs/release-notes/v3.1.0.md)
+[![PyPI v3.0.0](https://img.shields.io/badge/PyPI-v3.0.0-blue)](https://pypi.org/project/1200km-aidebug/3.0.0/)
+[![Python 3.10–3.13](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](https://pypi.org/project/1200km-aidebug/3.0.0/)
+[![CI](https://github.com/anpa1200/AIDebug/actions/workflows/ci.yml/badge.svg)](https://github.com/anpa1200/AIDebug/actions/workflows/ci.yml)
+[![Publish to PyPI](https://github.com/anpa1200/AIDebug/actions/workflows/publish.yml/badge.svg)](https://github.com/anpa1200/AIDebug/actions/workflows/publish.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/anpa1200/AIDebug)](https://github.com/anpa1200/AIDebug/releases/latest)
+
+AIDebug is an evidence-focused malware reverse-engineering CLI and terminal UI.
+It combines deterministic offline triage, whole-file hex inspection, deep PE
+structure analysis, Capstone disassembly, Ghidra reconstruction, optional LLM
+cross-checks, local ELF debugging, compiled learning exercises, and
+analyst-review reporting.
+
+> Current source version: **AIDebug 3.1.0**. See the
+> [3.1.0 release notes](https://github.com/anpa1200/aidebug/blob/HEAD/docs/release-notes/v3.1.0.md).
+>
+> The latest immutable published release remains
+> [AIDebug v3.0.0](https://github.com/anpa1200/AIDebug/releases/tag/v3.0.0),
+> available as [`1200km-aidebug`](https://pypi.org/project/1200km-aidebug/3.0.0/),
+> until the version-matched 3.1.0 tag and GitHub release complete the verified
+> publishing workflow.
+
+## Highlights
+
+* Deterministic PE and ELF static triage without requiring an AI service.
+* Whole-file, occurrence-aware ASCII, UTF-8, UTF-16LE, and UTF-16BE string
+  intelligence with smart categories, ranking, and DLL/API explanations.
+* Read-only, paged hex viewer for the complete analyzed file.
+* Deep PE32/PE32+ structure explorer with mapped RVA, VA, and file offsets.
+* Ghidra-backed C-like reconstruction for one function or the complete bounded
+  function set.
+* Optional evidence-grounded review through Anthropic, OpenAI, Google Gemini,
+  or a local Ollama-compatible endpoint.
+* GDB-backed local ELF debugging with breakpoints, stepping, registers, deltas,
+  disassembly context, and function input/output candidates.
+* One hundred standalone C learning cases with real compiler output,
+  disassembly, and Ghidra pseudo-code in the main GUI.
+* SHA-256-indexed local analysis history and compatible finding restoration.
+* HTML, versioned JSON, YARA-candidate, ATT&CK-candidate, and CFG outputs for
+  analyst review.
+
+## Installation
+
+Install the stable package from PyPI:
+
+root@kitploit:~
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install 1200km-aidebug==3.0.0
+aidebug --version
+```
+
+Install optional capabilities as needed:
+
+root@kitploit:~
+
+```
+# Remote/local LLM providers and validated YARA generation
+python -m pip install "1200km-aidebug[ai]==3.0.0"
+
+# Frida dynamic instrumentation
+python -m pip install "1200km-aidebug[dynamic]==3.0.0"
+
+# All optional Python integrations
+python -m pip install "1200km-aidebug[all]==3.0.0"
+```
+
+For development:
+
+root@kitploit:~
+
+```
+git clone https://github.com/anpa1200/AIDebug.git
+cd AIDebug
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e ".[dev,dynamic]"
+```
+
+Ghidra, GDB, Bubblewrap, a C compiler, and Frida target components are external
+tools used only by the workflows that require them.
+
+## Quick Start
+
+Open a PE or ELF sample in the main terminal interface:
+
+root@kitploit:~
+
+```
+aidebug --binary /path/to/sample.exe --offline
+```
+
+Run deterministic analysis without the full-screen UI and export evidence:
+
+root@kitploit:~
+
+```
+aidebug --binary /path/to/sample.exe \
+  --offline --no-tui --report --json-export --yara \
+  --out-dir reports/
+```
+
+Use Ghidra reconstruction:
+
+root@kitploit:~
+
+```
+aidebug --binary /path/to/sample.exe --offline --no-tui --decompile
+aidebug --binary /path/to/sample.exe --offline --no-tui \
+  --decompile-all reports/sample-reconstruction.c
+```
+
+Analyze one C translation unit through a temporary, non-executed ELF artifact:
+
+root@kitploit:~
+
+```
+aidebug --source /path/to/example.c --offline --no-tui
+```
+
+Identify an arbitrary file independently of its filename extension:
+
+root@kitploit:~
+
+```
+aidebug --identify /path/to/renamed-or-unknown-file --offline
+```
+
+`--identify` reports structured JSON with the declared type, MIME type, common
+extensions, confidence, method, evidence, SHA-256, and size. Deterministic
+coverage includes common executable and bytecode formats, archives and disk
+images, Office/OpenDocument/EPUB containers, documents, images, audio/video,
+packet captures, databases, registry/event-log artifacts, scripts, and text.
+ZIP-based formats are inspected by bounded member names and small metadata
+reads; files are never executed or extracted.
+
+Install `python-magic` plus the operating system's `libmagic` database for
+additional signatures known to the local platform:
+
+root@kitploit:~
+
+```
+python -m pip install python-magic
+```
+
+When no deterministic signature, structure, or text rule matches, a configured
+AI provider may infer a candidate from bounded metadata: the extension, size,
+SHA-256, up to 96 header bytes, 32 tail bytes, sample entropy, and NUL ratio.
+The file body, extracted strings, and filesystem path are not sent. AI-only
+results are labeled `ai-inference`, capped at 60% confidence, and require
+analyst validation. Use `--offline` to disable the fallback completely; an
+unresolved type is reported as `Unknown` with exit status 2.
+
+## String Intelligence Workspace (3.1.0)
+
+Press `S` in the main terminal interface, or start direct...
