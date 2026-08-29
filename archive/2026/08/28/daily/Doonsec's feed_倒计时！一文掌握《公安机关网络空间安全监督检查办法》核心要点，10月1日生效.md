@@ -1,0 +1,148 @@
+---
+title: 倒计时！一文掌握《公安机关网络空间安全监督检查办法》核心要点，10月1日生效
+url: https://mp.weixin.qq.com/s/UEBuokB2RZeMlmO6mWLryw
+source: Doonsec's feed
+date: 2026-08-28
+fetch_date: 2026-08-29T08:29:15.779767
+---
+
+# 倒计时！一文掌握《公安机关网络空间安全监督检查办法》核心要点，10月1日生效
+
+# 倒计时！一文掌握《公安机关网络空间安全监督检查办法》核心要点，10月1日生效
+
+赛擘安全
+赛擘安全
+
+内生安全联盟
+
+![]()
+
+在小说阅读器读本章
+
+去阅读
+
+![]()
+
+在公众号小说中沉浸阅读
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/2ZmL5d0ic88XfKriaaRiclEjib5jkueIOs2bTIayNaS0hH3GuPNVmFnQXYxMDuue7m6W3icYMlfbib8XCgu3t9OS95ibDWicUib7oNQKtsib77s3dQQWc/640?wx_fmt=gif&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/E8icCtGqibOADIawp7VpftVrXdnl9j2RKEfSjXXdh0mQPYSNibN0sNja6InUaic2VSW5ibucSH2edfjjhFn0wHWDBWrbkoV28GK7DbvibCkRROtXQ/640?wx_fmt=png&from=appmsg#imgIndex=0)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/E8icCtGqibOAAxlH6NFMvH61EvMQ1THFNXbmCNaaKcIf4sOVXJCW8VvLnIVsMhZKaALlqFT1gudGjFKupaw20HVO4AQFL2lpr0gic04wj9DNl8/640?wx_fmt=png&from=appmsg#imgIndex=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/E8icCtGqibOABkvh6icTm4AylkldqqKf5xu3Lx4L72IAGy0HdoTPXIseJ7bEGq9viaD7EN8n2yEXDUvNqcaQOgTicb0zibbbL1NhED0pqibSyWzZKo/640?wx_fmt=png&from=appmsg#imgIndex=2)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/E8icCtGqibOABYhXEalR6z7SdKzgxYXxePzicZicFJan7Dq2ibbAYykvh82gN2pjDMWn53Zcpu2tRzPVrBjDo1Kib2iceH3hJlNSANwBuVHicP936bE/640?wx_fmt=png&from=appmsg#imgIndex=3)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/E8icCtGqibOAD9mVXMlkzwhTETTSzT6p3JuUM1uHlXDN8UlcfQeYEJhlG9bW0iaCfwoOw2J4fQ4DEfxcpOzRSzUcdyQuOb7xIrhPJUCjWEy3ag/640?wx_fmt=png&from=appmsg#imgIndex=4)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/E8icCtGqibOABUYV8RUl8J4LuPVQ1KNTK6Gf1X5OaUbibMoLibhnicQmQjV6svTreVoR7Iaj9yjP6eRoQ7LCm6uibabcaDujibqtnJoQJDjRBnIgibs/640?wx_fmt=png&from=appmsg#imgIndex=5)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/E8icCtGqibOACXrzy7rW1o67jJ7Jic6sVia1qUCLJScuhV0UBHJbvdFE1cHgXCcXpdaVPw9xcFKqhialdLiciaRFh66So7Uxblw4LDQaEOgGh0aCbQ/640?wx_fmt=png&from=appmsg#imgIndex=6)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/E8icCtGqibOAAQCZtuBjddeGdg5EGIbFQJ9Yp7HuJ39OvlKR9wQOKtOsWpkv0VtpmiblG8iaicuvuz0Uzug1ibAIbC0Ya1fGLNN4nibsygqxDZ7lDE/640?wx_fmt=png&from=appmsg#imgIndex=7)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/E8icCtGqibOAAjWayTKaoLhcCdfsR25jpYMLQHwJia60zCGnanM84CKiatMjMM0bwLSPgAVSqUnPw4SLCSzke4RgBWx7K1JibXpchXyyCIqYgCBI/640?wx_fmt=png&from=appmsg#imgIndex=8)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/E8icCtGqibOADQNNUuxTIEhBWonVwYS1uEscR8vUGetzljicgm8oeB3QdvBzHAuf2YPWcK6FRWDetWw3P0BKg7UslRVaNGZ3iaqDewOKBTicAFLI/640?wx_fmt=png&from=appmsg#imgIndex=9)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/E8icCtGqibOADUILmbpEhwRCItMZs8EtQsS2r3B2T7SibSwrcx3cicxKkibkYCYlNKl4tAWHvjhiccgp419Ey8VcZDL4xVujcHibF3Zicl1icduB98XA/640?wx_fmt=png&from=appmsg#imgIndex=10)
+
+来源：赛擘安全
+
+[![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/2ZmL5d0ic88VEzjic1f7B8a9prz3icdEgQpXH1gOGyCYoZHyUAicqvDfdkVCKTCYm9qicEVTGF7fAosbaxdibXgxBT9na3DsrMjxBOyiadNzFvx5Po/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=2)](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247539413&idx=1&sn=477a535cc1c5dd21ac667eff0f60c271&scene=21#wechat_redirect)
+
+[【征稿启事】2026 IEEE网络韧性与内生安全国际会议（IEEE CRESS 2026）相约南京，诚邀投稿！](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247539413&idx=1&sn=477a535cc1c5dd21ac667eff0f60c271&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/2ZmL5d0ic88Xr95JLPMCj3IEsZGAL0znMgDYy7QcmFibtBvxLR6nTbq4W4vTMnUhAdaobhKG9mibWfVugG7kFoImZBUEf8MqpF5H8AibmLbk1eI/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=2)](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247538143&idx=1&sn=923217fe75c1c36cf9de5e5ac894ad10&scene=21#wechat_redirect)
+
+[欢迎报名！“联盟货架” 征集工作正式启动](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247538143&idx=1&sn=923217fe75c1c36cf9de5e5ac894ad10&scene=21#wechat_redirect)
+
+[聚力协同发展 | 中国质量认证中心有限公司南京分公司正式加入联盟，成为副理事长单位](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247538421&idx=1&sn=3ba126c3e04109879df4448e076a3494&scene=21#wechat_redirect)
+
+2026-06-17
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2ZmL5d0ic88XRibsIKXF2TFo31YtyfTpzRKp3lqA3JpyMFdGWKGGVtONQDgr2Hfm8pibrCwAiaQn5RWPJxTgelQxwFln0ZDrAwK8YuDWUgNaxFE/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247538421&idx=1&sn=3ba126c3e04109879df4448e076a3494&scene=21#wechat_redirect)
+
+[携手共建产业生态 | 紫光恒越正式升级联盟副理事长单位](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247538467&idx=1&sn=e66939c008f88f0003ccbc5fd9c08b81&scene=21#wechat_redirect)
+
+2026-06-18
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2ZmL5d0ic88Ug4pM2QBleSEh81Xt2icXIibBY5o6icibpSFMbFcu4TN9eNvibibict0BCDx8nCYrYViclCu2KGMdx7RnIAdrEvuSGtxKa20mBqH9IPhI/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247538467&idx=1&sn=e66939c008f88f0003ccbc5fd9c08b81&scene=21#wechat_redirect)
+
+****| 往期回顾****
+
+**[AI4E如何重构数字生态系统网络发展范式？](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247532455&idx=1&sn=ee5102d94087e9440ede67b18386c621&scene=21#wechat_redirect)**
+
+**[资料下载 | 十五五规划建议全文及说明](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247534593&idx=2&sn=7f9516f40cbafbcb1012d5999612157a&scene=21#wechat_redirect)**
+
+**[《科技日报》整版访谈邬江兴院士：将“安全基因”植入人工智能系统](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247537206&idx=1&sn=2ce618202d759560ecee6aeca93b8c24&scene=21#wechat_redirect)**
+
+[里程碑时刻：智己LS9 Hyper搭载原创内生安全技术](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247538132&idx=1&sn=77e4efcb6eea205e082f79b82336cc65&scene=21#wechat_redirect)
+
+[邬江兴院士：构建内生安全质量检测体系，筑牢人类可控可信 AI 根基](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247539044&idx=1&sn=1791fd1aad5f130fe5d87c46cc4b8687&scene=21#wechat_redirect)
+
+[注意！境外间谍情报机关盯上了巡检无人机！](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247539882&idx=2&sn=eca1a3f812d503ef399af63267a2f2ea&scene=21#wechat_redirect)
+
+[工信部定调：6G是"十五五"重中之重，商用时间表首次明确](https://mp.weixin.qq.com/s?__biz=Mzg4MDU0NTQ4Mw==&mid=2247539882&idx=1&sn=ba4669e35b87fe44673807be8f1832d4&scene=21#wechat_redirect)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_gif/jRRfTC292pXGqHBACsK1cVtpyTB5F8VFsEY3paWnfS3dichupP4OknoSrNN3c6YviaDsLwKnfHwj1OibB7lWFvbibQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=1)
+
+预览时标签不可点
+
+![]()
+
+微信扫一扫
+关注该公众号
+
+知道了
+
+![]()
+微信扫一扫
+使用小程序
+
+取消
+允许
+
+取消
+允许
+
+取消
+允许
+
+×
+分析
+
+![跳转二维码]()
+
+![作者头像](http://mmbiz.qpic.cn/mmbiz_png/jRRfTC292pX7QK5QfSb6k3uQJ3EsDmeCnsG6veyEXTXsbCcuuTJ7LWzo0tPv2ezibrAF07JXGxYs8zSXgXibLX2Q/0?wx_fmt=png)
+
+微信扫一扫可打开此内容，
+使用完整服务
+
+：
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
+分享
+留言
+收藏
+听过

@@ -1,0 +1,242 @@
+---
+title: qlcoder
+url: https://kitploit.com/en/tools/github/neuralprogram/qlcoder
+source: Kitploit
+date: 2026-08-28
+fetch_date: 2026-08-29T08:31:28.483328
+---
+
+# qlcoder
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/neuralprogram/qlcoder
+
+![](https://assets.kitploit.com/production/public/tools/53257/82fc68add35640e920d5ee6df55b45e327b11d9de8384120291ab83d48ce3d49-display-v1.webp)
+
+[Static Analysis](/en/categories/static-analysis)[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Code Analysis](/en/categories/code-analysis)[Papers & Research](/en/categories/papers-research)[AI-Assisted Reversing](/en/categories/ai-assisted-reversing)
+
+![GitHub](/providers/github.png)neuralprogram/qlcoder
+
+# qlcoder
+
+Agentic Framework for Synthesizing CodeQL Queries
+
+[View Repository](https://github.com/neuralprogram/qlcoder)
+
+255395 months ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# QLCoder
+
+Agentic Framework for Synthesizing CodeQL Queries
+
+## Table of Contents
+
+* [Overview](#overview)
+* [Installation](#installation)
+  + [Docker (Recommended)](#docker-recommended)
+  + [Native (Linux)](#native-linux)
+* [Usage](#usage)
+* [Quick Start](#quick-start)
+* [Development Tooling](#development-tooling)
+* [Examples](#examples)
+* [Paper Environment](#paper-environment)
+* [Contributions](#contributions)
+* [Team](#team)
+* [Citation](#citation)
+* [Affiliated Projects](#affiliated-projects)
+
+## Overview
+
+![QLCoder Iterative Refinement](https://assets.kitploit.com/production/public/readmes/53257/82fc68add35640e920d5ee6df55b45e327b11d9de8384120291ab83d48ce3d49/7506d0c39b6a305dbe5e30b698a63fcdb88df078dfb5b0ae1c55df27a961be5e-display-v1.webp)
+
+QLCoder is a framework for using LLMs to synthesize end-to-end CodeQL queries for vulnerability detection. Given an existing CVE's metadata, LLM, and coding agent, QLCoder iteratively synthesizes a CodeQL query to detect the existing CVE. The starting query is a CodeQL path query template populated by an extracted AST of the diff. While synthesizing the query, the coding agent has access to tools to interface with a RAG database and the CodeQL language server. Afterwards, the query can be used for multivariant analysis, regression testing, or guidance for writing CodeQL queries.
+
+## Installation
+
+### Docker (Recommended)
+
+#### Step 1: Install CodeQL
+
+Note - In the paper, CodeQL version 2.22.2 was used. However, any version (and language) can be used. QLCoder stores the local CodeQL version's QL packs in the vector database. Paths are configured in `.env`.
+
+Download an appropriate version of the CodeQL Action bundle from the [CodeQL Action releases page](https://github.com/github/codeql-action/releases).
+
+* **For the latest version:**
+  Visit the [latest release](https://github.com/github/codeql-action/releases/latest) and download the appropriate bundle for your OS:
+
+  + `codeql-bundle-osx64.tar.gz` for macOS
+  + `codeql-bundle-linux64.tar.gz` for Linux
+* **For a specific version (e.g., 2.22.2):**
+  Go to the [CodeQL Action releases page](https://github.com/github/codeql-action/releases), find the release tagged `codeql-bundle-v2.22.2`, and download the appropriate bundle for your platform.
+
+Extract to `~/codeql` (or another path — update `CODEQL_HOME` in `.env` accordingly):
+
+root@kitploit:~
+
+```
+tar -xzf codeql-bundle-<platform>.tar.gz -C ~/
+```
+
+#### Step 2: Install the CodeQL LSP MCP server
+
+Clone the [CodeQL LSP MCP server](https://github.com/neuralprogram/codeql-lsp-mcp) and build it.
+
+root@kitploit:~
+
+```
+git clone https://github.com/neuralprogram/codeql-lsp-mcp ~/codeql-lsp-mcp
+cd ~/codeql-lsp-mcp
+npm install
+npm run build
+```
+
+#### Step 3: Configure and start services
+
+root@kitploit:~
+
+```
+cp .env.example .env
+echo "APP_UID=$(id -u)" >> .env
+echo "APP_GID=$(id -g)" >> .env
+```
+
+Fill in your API key and CodeQL paths in `.env`:
+
+root@kitploit:~
+
+```
+ANTHROPIC_API_KEY=...
+
+# QL pack paths depend on your CodeQL version.
+# Find the version numbers with:
+#   ls ~/codeql/qlpacks/codeql/java-queries/   → use for SECURITY_QLPACK_PATH
+#   ls ~/codeql/qlpacks/codeql/java-all/        → use for LIBRARY_QLPACK_PATH
+SECURITY_QLPACK_PATH=~/codeql/qlpacks/codeql/java-queries/<version>/Security/CWE
+LIBRARY_QLPACK_PATH=~/codeql/qlpacks/codeql/java-all/<version>/semmle/code/java
+```
+
+Then start the QLCoder app and ChromaDB:
+
+root@kitploit:~
+
+```
+docker compose up -d
+```
+
+#### Step 4: Retrieve CVE repositories
+
+The CVE must be listed in `data/project_info.csv`. This clones the repository at the buggy commit and generates the fix diff.
+
+root@kitploit:~
+
+```
+docker compose run --rm app python3 scripts/get_cve_repos.py --cve CVE-2025-27818
+# or multiple at once:
+docker compose run --rm app python3 scripts/get_cve_repos.py --cves CVE-2025-27818,CVE-2025-0851
+# process CVEs from a file (one CVE ID per line)
+docker compose run --rm app python3 scripts/get_cve_repos.py --cve-file cves.txt
+# process all CVEs
+docker compose run --rm app python3 scripts/get_cve_repos.py --all
+# force regenerate existing diffs
+docker compose run --rm app python3 scripts/get_cve_repos.py --cve CVE-2018-9159 --force
+```
+
+#### Step 5: Create CodeQL databases
+
+Databases are created with `--build-mode=none` — no build toolchain required.
+
+root@kitploit:~
+
+```
+# to build a specific CVE's CodeQL databases
+docker compose run --rm app python3 scripts/build_codeql_dbs.py --cve-id CVE-2025-27818
+```
+
+This creates `cves/CVE-2025-27818/CVE-2025-27818-vul` and `cves/CVE-2025-27818/CVE-2025-27818-fix`.
+
+root@kitploit:~
+
+```
+# to build all of the fetched CVE repos' CodeQL databases
+docker compose run --rm app python3 scripts/build_codeql_dbs.py
+```
+
+#### Step 6: Populate RAG database
+
+Run these scripts to populate the vector database. `codeql_docs_fetcher.py` and `cwe_fetcher.py` are one-time setup; `cves_fetcher.py` should be re-run after adding new CVEs.
+
+root@kitploit:~
+
+```
+docker compose run --rm app python3 scripts/codeql_docs_fetcher.py
+docker compose run --rm app python3 scripts/cwe_fetcher.py
+docker compose run --rm app python3 scripts/cves_fetcher.py
+```
+
+### Native (Linux)
+
+#### Step 1: Install CodeQL
+
+Note - In the paper, CodeQL version 2.22.2 was used. However, any version (and language) can be used. QLCoder stores the local CodeQL version's QL packs in the vector database. Paths are configured in `.env`.
+
+Download an appropriate version of the CodeQL Action bundle from the [CodeQL Action releases page](https://github.com/github/codeql-action/releases).
+
+* **For the latest version:**
+  Visit the [latest release](https://github.com/github/codeql-action/releases/latest) and download the appropriate bundle for your OS:
+
+  + `codeql-bundle-linux64.tar.gz` for Linux
+* **For a specific version (e.g., 2.22.2):**
+  Go to the [CodeQL Action releases page](https://github.com/github/codeql-action/releases), find the release tagged `codeql-bundle-v2.22.2`, and download the appropriate bundle for your platform.
+
+After downloading, extract the archive in the project root directory:
+
+root@kitploit:~
+
+```
+tar -xzf codeql-bundle-<platform>.tar.gz
+```
+
+This should create a sub-directory `codeql/` with the executable `codeql` inside....

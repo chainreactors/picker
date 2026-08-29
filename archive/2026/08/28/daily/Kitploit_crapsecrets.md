@@ -1,0 +1,156 @@
+---
+title: crapsecrets
+url: https://kitploit.com/en/tools/github/irsdl/crapsecrets
+source: Kitploit
+date: 2026-08-28
+fetch_date: 2026-08-29T08:31:09.792622
+---
+
+# crapsecrets
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/irsdl/crapsecrets
+
+![](https://assets.kitploit.com/production/public/tools/53350/6827e811ecbb11fafe37be960e45d3ebf55e981f0527224eb98f3b1bb6af4065-display-v1.webp)
+
+[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Web Security](/en/categories/web-security)[Cryptography](/en/categories/cryptography)[Penetration Testing](/en/categories/penetration-testing)[Secret Detection](/en/categories/secret-detection)
+
+![GitHub](/providers/github.png)irsdl/crapsecrets
+
+# crapsecrets
+
+A library for detecting known secrets across many web frameworks
+
+[View Repository](https://github.com/irsdl/crapsecrets)
+
+221348 months ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+### Forked originally from badsecrets 0.7.0
+
+### Synced occasionally until March 2025!
+
+### > Outdated with some modules and test cases are not up2date!
+
+### > Good for ASP.NET compromised Machine Key testing!
+
+###
+
+### This is Crap(Bad)Secrets
+
+root@kitploit:~
+
+```
+mkdir -p ~/ctools/
+cd ~/ctools/
+git clone https://github.com/irsdl/crapsecrets/
+cd ~/ctools/crapsecrets
+pip3 install -r requirements.txt
+export PYTHONPATH=$(pwd):$PYTHONPATH
+python3 ./crapsecrets/examples/cli.py -u http://update.microsoft.com/ -r
+python3 ./crapsecrets/examples/cli.py -u http://update.microsoft.com/ -mrd 5
+python3 ./crapsecrets/examples/cli.py -mrd 5 -avsk -fvsp -u http://update.microsoft.com/
+python3 ./crapsecrets/examples/cli.py -mrd 5 -avsk -fvsp -mkf ./local/aspnet_machinekeys_local.txt -u http://192.168.6.22:8080/
+python3 ./crapsecrets/examples/cli.py -mrd 5 -avsk -fvsp -mkf ./local/aspnet_machinekeys_local.txt -mkf ./crapsecrets/resources/aspnet_machinekeys.txt -u http://192.168.6.22:8080/a1/b/c1/
+```
+
+[Download Tool](https://github.com/irsdl/crapsecrets)
+
+## Tips for Viewstate
+
+* Run the command using `-mrd 5` to allow analysis of long redirect responses.
+* Use `--allviewstatekeys` or `-avsk` in order to try all the key combinations as validation and encryption keys
+* Use `--findviewstatepage` or `-fvsp` in order to try a set of default pages when .aspx is missing from the URL
+
+## Generic Changes:
+
+* Uses httpx instead of requests (changes mainly made by AI with minimal testing, so they might be incorrect).
+* Adds depth to the redirection (the `--max-redirect-depth` argument for manual redirects).
+* Supports additional headers.
+* Request timeout can be set using the `--timeout` or `-t` argument
+
+## Viewstate Changes:
+
+* Contains some logical changes.
+* Shows a possibility for AES and 3DES for validation key in encrypted .NET 4.0 viewstates.
+* Removes cookieless values from the path.
+* Removes parameters after .aspx.
+* Removes multiple slash and backslash characters.
+* Improves .NET4.5 logic to use application names in subdirectories.
+* Detects when "MAC is not enabled".
+* Handles long redirection when there is a response (this is when -r to follow redirect is NOT used).
+* Handles redirection to another ASPX page (this is when -r to follow redirect is used).
+* Handles when Server.Transfer is used instead of a redirect (generator is different than the target).
+* Detects when MaxPageStateFieldLength is used and we have \_\_VIEWSTATEFIELDCOUNT.
+* Supports a few predefined ViewStateUserKey in addition to checking the asp.net\_sessionid and \_\_antixsrftoken cookies in the response.
+* It detects decryption keys for 3DES in ASPNET4.5 properly
+* Adding an option to check all strings in aspnet\_machinekeys.txt once as a validation key and once as decryption key. When we use the `--allviewstatekeys` flag, the tool attempts to find all Potential EncryptionKeys and tries each one in a random order to decrypt the data. Because so many keys are tested, there is a chance of hitting an invalid key on any single run. However, the tool will list every possible key it detects. By running the tool twice, you significantly increase the likelihood of finding a valid encryption key, since seeing the same key appear in both runs is nearly a 100% guarantee that it is correct.
+* Using an array of default pages when .aspx is not included in the given URL: `["default.aspx", "index.aspx", "main.aspx", "home.aspx" , "start.aspx", "welcome.aspx", "default2.aspx"]` - This increases the testing time significantly but can potentially lead to more findings
+* It can use `-mkf` or `--machinekeyfile` as a resource file for machinekeys so we can use a local version if it contains sensitive keys
+* It is using a customised version of python viewstate library to support more objects when parsing viewstate
+* Added the `-evsd` or `--enable-viewstate-decryption` argument to check for the decryption key even when the validation key has not been found. This can be useful when the validation key is slightly different from the original one in the list.
+* Calculates the `__VIEWSTATEGENERATOR` by identifying its hash code. It also tries to find the actual path and app path early if `__VIEWSTATEGENERATOR` and URL have been provided. This can potentially increase performance, especially when an identifiable default ASPX page is missing from the URL.
+* Users can specify the number of threads to use with the `-nt` or `--num-threads` option (only applicable for the viewstate module). The default is 1 which is surprisingly faster than 10 in most cases!
+* It should support files with no extensions but we will need to fix errors as they are being reported.
+* It suppors IsolateApps (useful for .NET40 legacy). This is when we have ",IsolateApps" after the validation or decryption keys.
+* It reduces number of apppaths by actively testing for it based on <https://soroush.me/blog/2019/07/iis-application-vs-folder-detection-during-blackbox-testing/>. It can be disabled by `-dap` or `--disable-active-path-check`
+* Check for \_\_VIEWSTATE\_KEY in the response body and use it as a viewstatekey too
+* Add public IP address to viewstate key based on session ID or then anti-XSRF token
+* It uses \_\_EVENTVALIDATION when \_\_VIEWSTATE is missing
+* It uses the encrypted resource values from `/WebResource.axd?d=` or `/ScriptResource.axd?d=` under a new module called "aspnet\_resource.py". It also supports IsolateApps feature there too. This is useful when \_\_VIEWSTATE and \_\_EVENTVALIDATION are missing.
+
+## TODO:
+
+* add a dictionary for common pages and directories when calculating viewstate
+* Implement support for IsolateByAppId (probably impossible as it requires a secret from registry which we shouldn't have!)
+* Add support for retry when there is an error.
+* Test errors due to replacing requests with httpx.
+* There are some failed tests due to the conversion from requests to httpx and the use of AI. They can be seen by running `pytest` in the root of the project. Although some of them have been fixed, there are still some errors in the tests that need addressing in the future. I also need to run pytest on the original repo to compare!
+
+root@kitploit:~
+
+```
+FAILED tests/all_modules_test.py::test_carve_all_cookies - AssertionError: assert 2 == 7
+FAILED tests/examples_b...

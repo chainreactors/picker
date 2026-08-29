@@ -1,0 +1,172 @@
+---
+title: upx v5.2.1
+url: https://kitploit.com/en/posts/github-upx-upx-v521
+source: Kitploit
+date: 2026-08-28
+fetch_date: 2026-08-29T08:31:18.811573
+---
+
+# upx v5.2.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/3765/89819bccba3fa83e5d139b68218215bbdd62d3e7e79f98ce3a1172ff5abf4d3b.png)
+
+New releaseAug 28, 2026
+
+# upx v5.2.1
+
+UPX - the Ultimate Packer for eXecutables
+
+Share
+
+ooooo ooo ooooooooo. ooooooo ooooo
+`888'` 8' `888` Y88. `8888 d8' 888 8 888 .d88' Y888..8P 888 8 888ooo88P'` 8888'
+888 8 888 .8PY888.
+`88. .8' 888 d8'` 888b
+`YbodP' o888o o888o o88888o
+
+root@kitploit:~
+
+```
+                The Ultimate Packer for eXecutables
+```
+
+Copyright (c) 1996-2026 Markus Oberhumer, Laszlo Molnar & John Reiser
+<https://upx.github.io>
+
+# WELCOME
+
+Welcome to UPX !
+
+UPX is a free, secure, portable, extendable, high-performance
+executable packer for several executable formats.
+
+# INTRODUCTION
+
+UPX is an advanced executable file compressor. UPX will typically
+reduce the file size of programs and DLLs by around 50%-70%, thus
+reducing disk space, network load times, download times and
+other distribution and storage costs.
+
+Programs and libraries compressed by UPX are completely self-contained
+and run exactly as before, with no runtime or memory penalty for most
+of the supported formats.
+
+UPX supports a number of different executable formats, including
+Windows programs and DLLs, and Linux executables.
+
+UPX is free software distributed under the term of the GNU General
+Public License. Full source code is available.
+
+UPX may be distributed and used freely, even with commercial applications.
+See the UPX License Agreements for details.
+
+# SECURITY CONTEXT
+
+IMPORTANT NOTE: UPX inherits the security context of any files it handles.
+
+This means that packing, unpacking, or even testing or listing a file requires
+the same security considerations as actually executing the file.
+
+Use UPX on trusted files only!
+
+# SHORT DOCUMENTATION
+
+'upx program.exe' will compress a program or DLL. For best compression
+results try 'upx --best program.exe' or 'upx --brute program.exe'.
+
+Please see the file doc/upx-doc.txt for the full documentation. The files
+NEWS and doc/BUGS.txt also contain various tidbits of information, as
+does the output of 'upx --help'.
+
+# THE FUTURE
+
+* Stay up-to-date with ongoing OS and executable format changes
+* ARM64 for Windows (help wanted)
+* We will *NOT* add any sort of protection and/or encryption.
+  This only gives people a false feeling of security because
+  all "protectors" can be broken by definition.
+* Fix all remaining bugs - please report any issues
+  <https://github.com/upx/upx/issues>
+
+# COPYRIGHT
+
+Copyright (C) 1996-2026 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 1996-2026 Laszlo Molnar
+Copyright (C) 2000-2026 John F. Reiser
+
+UPX is distributed with full source code under the terms of the
+GNU General Public License v2+; either under the pure GPLv2+ (see
+the file COPYING), or (at your option) under the GPLv2+ with special
+exceptions and restrictions granting the free usage for all binaries
+including commercial programs (see the file LICENSE).
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+You should have received a copy of the UPX License Agreements along
+with this program; see the files COPYING and LICENSE. If not,
+visit the UPX home page.
+
+Share and enjoy,
+Markus & Laszlo & John
+
+Markus F.X.J. Oberhumer Laszlo Molnar
+[[email protected]](/cdn-cgi/l/email-protection#0964687b627c7a49666b6c7b617c646c7b276a6664) [[email protected]](/cdn-cgi/l/email-protection#f4918e91869b8082919adf939d809c8196b49399959d98da979b99)
+
+John F. Reiser
+[[email protected]](/cdn-cgi/l/email-protection#97fde5f2fee4f2e5d7d5fee3c0f6f0f8f9b9f4f8fa)
+
+[ The term UPX is a shorthand for the Ultimate Packer for eXecutables
+and holds no connection with potential owners of registered trademarks
+or other rights. ]
+
+[Read more](/en/tools/github/upx/upx?expand=1)
+
+## Categories
+
+[General Purpose Utilities](/en/categories/general-purpose-utilities)[Reverse Engineering](/en/categories/reverse-engineering)[Binary Analysis](/en/categories/binary-analysis)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

