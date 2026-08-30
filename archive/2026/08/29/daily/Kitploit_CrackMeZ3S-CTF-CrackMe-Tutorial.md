@@ -1,0 +1,126 @@
+---
+title: CrackMeZ3S-CTF-CrackMe-Tutorial
+url: https://kitploit.com/en/tools/github/pelock/crackmez3s-ctf-crackme-tutorial
+source: Kitploit
+date: 2026-08-29
+fetch_date: 2026-08-30T07:41:54.937978
+---
+
+# CrackMeZ3S-CTF-CrackMe-Tutorial
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+CrackMeZ3S-CTF-CrackMe-Tutorial — How to write a CrackMe for a CTF competition. Source code, technical explanation, anti-debugging and anti reverse-engineering tricks. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/pelock/crackmez3s-ctf-crackme-tutorial
+
+![](https://assets.kitploit.com/production/public/tools/53542/da659eef34f9c179dbc8a4264f8b6fa9edce3deb28410f4fad3dd71a1af330d0-display-v1.webp)
+
+[Exploitation](/en/categories/exploitation)[Reverse Engineering](/en/categories/reverse-engineering)[CTF](/en/categories/ctf)[Binary Analysis](/en/categories/binary-analysis)[Learning & Education](/en/categories/education)
+
+![GitHub](/providers/github.png)pelock/crackmez3s-ctf-crackme-tutorial
+
+# CrackMeZ3S-CTF-CrackMe-Tutorial
+
+How to write a CrackMe for a CTF competition. Source code, technical explanation, anti-debugging and anti reverse-engineering tricks.
+
+[View Repository](https://github.com/pelock/crackmez3s-ctf-crackme-tutorial)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+[Website](https://www.pelock.com)
+
+4713353 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+Share
+
+# How to write a CrackMe for a CTF competition
+
+With the growing popularity of CTF (capture the flag) competitions,
+and the excellent performance of Polish teams like Dragon Sector in
+this area, I thought it would be interesting to demonstrate the
+construction of a simple CrackMe, using some creative techniques
+which make it difficult to crack and analyse.
+
+![Can you find the flag?](https://assets.kitploit.com/production/public/readmes/53542/da659eef34f9c179dbc8a4264f8b6fa9edce3deb28410f4fad3dd71a1af330d0/d1f9fa24b7c1f7d730ce9a55fc811556cdfe9ec556397f88ef7fbc8b7cb79d10-display-v1.webp)
+
+If you have ever been curious about reverse engineering, entered
+a CTF competition, or wanted to create your own CrackMe and drive
+other contestants crazy, this is for you.
+
+## Full article in English
+
+You can find an article about the crackme with detailed technical description
+and source code commentary (in english) at:
+
+<https://www.pelock.com/articles/how-to-write-a-crackme-for-a-ctf-competition>
+
+## Original article in polish for Zaufana Trzecia Strona site
+
+<https://zaufanatrzeciastrona.pl/post/jak-napisac-ciekawe-crackme-na-ctf-instrukcja-krok-po-kroku/>
+
+## Compiled CrackMe
+
+If you already have some reversing skills, and would like to try your hand at the
+CrackMe I am about to describe in detail, put this article aside, get the compiled
+executable, and try to find the flag!
+
+![Listen to Mr Burns](https://assets.kitploit.com/production/public/readmes/53542/a46b4cb365c4e5c926f4413172d1731470ad55e44b8b58fe89dae95f7abb6100/c76c788eda674e5dc2cbf3f5b36d7fbb228235b579f5ad280cc67ee2e7e912f4-display-v1.webp)
+
+Once you've made your best attempt at it, you can come back to the article and
+compare what you discovered against the full story. This CrackMe has a medium
+level of difficulty.
+
+<https://www.pelock.com/download/CrackMeZ3S.zip>
+
+To run the CrackMe executable you may need the [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784).
+
+Got the CrackMe? Don't cheat by reading any further - get cracking! ;)
+
+Otherwise, if you want to learn how to build your own CrackMe, I invite you to keep reading...
+
+Bartosz Wójcik
+
+* Visit my site at — <https://www.pelock.com>
+* Twitter — <https://twitter.com/PELock>
+* GitHub — <https://github.com/PELock>
+
+[Download Tool](https://github.com/pelock/crackmez3s-ctf-crackme-tutorial)

@@ -1,0 +1,204 @@
+---
+title: chisel v1.12.0
+url: https://kitploit.com/en/posts/github-jpillora-chisel-v1120
+source: Kitploit
+date: 2026-08-29
+fetch_date: 2026-08-30T07:42:00.119434
+---
+
+# chisel v1.12.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/1084/74c89132ea4da011d475be4523889c4c86eba125c298c496e54ba10b9d4f35c0.png)
+
+New releaseAug 29, 2026
+
+# chisel v1.12.0
+
+Fast TCP/UDP tunnel over HTTP with SSH encryption, supporting reverse port forwarding, SOCKS5 proxy, and client authentication for secure network traversal and firewall evasion.
+
+Share
+
+# Chisel
+
+[![GoDoc](https://godoc.org/github.com/jpillora/chisel?status.svg)](https://godoc.org/github.com/jpillora/chisel) [![CI](https://github.com/jpillora/chisel/workflows/CI/badge.svg)](https://github.com/jpillora/chisel/actions?workflow=CI)
+
+Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH. Single executable including both client and server. Written in Go (golang). Chisel is mainly useful for passing through firewalls, though it can also be used to provide a secure endpoint into your network.
+
+![overview](https://assets.kitploit.com/production/public/readmes/1084/7f9bb728fdb834aad865b50d9798c4b62bb22f9fa37915bc4d5a5ca9c6f7aed0.png)
+
+## Table of Contents
+
+* [Features](#features)
+* [Install](#install)
+* [Demo](#demo)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Changelog](#changelog)
+* [License](#license)
+
+## Features
+
+* Easy to use
+* [Performant](https://github.com/jpillora/chisel/blob/HEAD/test/bench/perf.md)\*
+* [Encrypted connections](#security) using the SSH protocol (via `crypto/ssh`)
+* [Authenticated connections](#authentication); authenticated client connections with a users config file, authenticated server connections with fingerprint matching.
+* Client auto-reconnects with [exponential backoff](https://github.com/jpillora/backoff) (tunable via `--min/max-retry-interval`); keepalive pings time out, so silently dead connections (sleep/wake, NAT timeouts, server restarts) are detected and re-established
+* Clients can create multiple tunnel endpoints over one TCP connection
+* Clients can optionally pass through SOCKS or HTTP CONNECT proxies
+* Reverse port forwarding (Connections go through the server and out the client)
+* Server optionally doubles as a [reverse proxy](https://golang.org/pkg/net/http/httputil/#NewSingleHostReverseProxy)
+* Server optionally allows [SOCKS5](https://en.wikipedia.org/wiki/SOCKS) connections (See [guide below](#socks5-guide))
+* Clients optionally allow [SOCKS5](https://en.wikipedia.org/wiki/SOCKS) connections from a reversed port forward
+* Client connections over stdio which supports `ssh -o ProxyCommand` providing SSH over HTTP
+
+## Install
+
+### Binaries
+
+[![Releases](https://img.shields.io/github/release/jpillora/chisel.svg)](https://github.com/jpillora/chisel/releases) [![Releases](https://img.shields.io/github/downloads/jpillora/chisel/total.svg)](https://github.com/jpillora/chisel/releases)
+
+See [the latest release](https://github.com/jpillora/chisel/releases/latest) or download and install it now with `curl https://i.jpillora.com/chisel! | bash`
+
+Binaries are built with the latest Go release, which sets the minimum OS versions: Windows 10 / Server 2016, macOS 12, Linux kernel 3.2, FreeBSD 12.2. For older systems (e.g. Windows 7), use [release v1.8.1](https://github.com/jpillora/chisel/releases/tag/v1.8.1) or earlier.
+
+### Docker
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/jpillora/chisel.svg)](https://hub.docker.com/r/jpillora/chisel/) [![Image Size](https://img.shields.io/docker/image-size/jpillora/chisel/latest)](https://hub.docker.com/r/jpillora/chisel/tags)
+
+root@kitploit:~
+
+```
+docker run --rm -it jpillora/chisel --help
+```
+
+Images are multi-arch and published to both Docker Hub (`jpillora/chisel`) and GitHub Container Registry (`ghcr.io/jpillora/chisel`).
+
+### Fedora
+
+The package is maintained by the Fedora community. If you encounter issues related to the usage of the RPM, please use this [issue tracker](https://bugzilla.redhat.com/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&classification=Fedora&component=chisel&list_id=11614537&product=Fedora&product=Fedora%20EPEL).
+
+root@kitploit:~
+
+```
+sudo dnf -y install chisel
+```
+
+### Source
+
+root@kitploit:~
+
+```
+$ go install github.com/jpillora/chisel@latest
+```
+
+## Demo
+
+You can run your own demo server in minutes (the old Heroku demo went away with Heroku's free tier). [`example/fly.toml`](https://github.com/jpillora/chisel/blob/HEAD/example/fly.toml) deploys this `chisel server` to [fly.io](https://fly.io)'s free allowance:
+
+root@kitploit:~
+
+```
+$ chisel server --port $PORT --backend http://example.com
+# listens on $PORT, proxies normal web requests to http://example.com
+```
+
+Deploy it with `fly launch --copy-config` from the `example/` directory, then tunnel to any service running beside the server, e.g.:
+
+root@kitploit:~
+
+```
+$ chisel client https://<your-app>.fly.dev 3000
+# connects to your chisel server,
+# tunnels your localhost:3000 to the server's localhost:3000
+```
+
+Visiting your app's URL in a browser hits the server's default backend proxy and shows a copy of [example.com](http://example.com).
+
+## Usage
+
+root@kitploit:~
+
+```
+$ chisel --help
+
+  Usage: chisel [command] [--help]
+
+  Version: X.Y.Z
+
+  Commands:
+    server - runs chisel in server mode
+    client - runs chisel in client mode
+
+  Read more:
+    https://github.com/jpillora/chisel
+```
+
+root@kitploit:~
+
+```
+$ chisel server --help
+
+  Usage: chisel server [options]
+
+  Options:
+
+    --host, Defines the HTTP listening host – the network interface
+    (defaults the environment variable HOST and falls back to 0.0.0.0).
+
+    --port, -p, Defines the HTTP listening port (defaults to the environment
+    variable PORT and falls back to port 8080).
+
+    --key, (deprecated use --keygen and --keyfile instead)
+    An optional string to seed the generation of a ECDSA public
+    and private key pair. All communications will be secured using this
+    key pair. Share the subsequent fingerprint with clients to enable detection
+    of man-in-the-middle attacks (defaults to the CHISEL_KEY environment
+    variable, otherwise a new key is generate each run).
+
+    --keygen, A path to write a newly generated PEM-encoded SSH private key file.
+    If users depend on your --key fingerprint, you may also include your --key to
+    output your existing key. Use - (dash) to output the generated key to stdout.
+
+    --keyfile, An optional path to a PEM-encoded SSH private key. When
+    this flag is set, the --key option is ignored, and the provided private key
+    is used to secure all communications. (defaults to the CHISEL_KEY_FILE
+    environment variable). Since ECDSA keys are short, you may also set keyfile
+    to the inline key string itself, exactly as printed by --keygen (a base64
+    string with a "ck-" prefix); no extra base64 encoding is needed.
+
+    --authfile, An optional path to a users.json file. This file should
+    be an object with users defined like:
+      {
+        "<user:pass>": ["<addr-regex>","<addr-regex>"]
+      }
+    when <user> connects, their <pass> will be verified and then
+    each of the remote addresses will be compared against the list
+    of address regular expressions for a match. Patterns are NOT
+    anchored by default: "10.0.0.1:80" also matches
+    "210.0.0.1:8080", and "." matches any character. Anchor your
+    patterns, e.g. "^10\.0\.0\.1:80$". The empty string ""
+    matches every address. Addresses will
+    always come in the form "<remote-host>:<remote-port>" for normal remotes,
+    "R:<local-interface>:<local-port>" for reverse port forwarding
+    remotes, and "socks" for SOCKS5 proxy access. Note that SOCKS5
+    access previously bypassed this list; existing authfiles which
+    should allow SOCKS5 must add an entry matching "socks" (the
+    em...
