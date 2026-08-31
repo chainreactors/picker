@@ -1,0 +1,239 @@
+---
+title: red-clippy
+url: https://kitploit.com/en/tools/github/cspf-founder/red-clippy
+source: Kitploit
+date: 2026-08-30
+fetch_date: 2026-08-31T07:53:02.377032
+---
+
+# red-clippy
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+red-clippy — open-source pentest management built to be operated by an AI agent | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/cspf-founder/red-clippy
+
+![](https://assets.kitploit.com/production/public/tools/53582/787f4413390990c9f9fa7d1a99b269f07af1d79f03de98b79ecfbfbdb36166ee-display-v1.webp)
+
+[Penetration Testing Frameworks](/en/categories/penetration-testing-frameworks)[Reconnaissance](/en/categories/reconnaissance)[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Exploitation](/en/categories/exploitation)[Information Gathering](/en/categories/information-gathering)[Penetration Testing](/en/categories/penetration-testing)[Red Teaming](/en/categories/red-teaming)[AI Security](/en/categories/ai-security)
+
+![GitHub](/providers/github.png)cspf-founder/red-clippy
+
+# red-clippy
+
+open-source pentest management built to be operated by an AI agent
+
+17533 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+[View Repository](https://github.com/cspf-founder/red-clippy)[Website](https://cspf-founder.github.io/red-clippy/)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# Red Clippy
+
+### Your agent tests. Red Clippy keeps the record.
+
+Open-source pentest management built to be operated by an AI agent. Connect it
+to Claude Code over MCP and it runs the engagement alongside you: scope and
+assets, recon observations, methodology coverage, and findings with CVSS and
+evidence.
+
+> Built for testers who want an agent's speed without giving up the discipline
+> of a real engagement. Work does not get repeated, findings do not evaporate
+> between sessions, and nothing reaches the report that was never proved.
+
+![An engagement in Red Clippy: coverage progress, findings by severity, outstanding phases, recent findings, and the scope from the engagement letter](https://assets.kitploit.com/production/public/readmes/53582/4a863ce74d769f6b4311db361d43e4a1124d7765ac59b7d339bd22a5463018dc/a3c63be238cf02c6ee915bc664f55039f5af7a793e3b6d6ef6701c72399f1e3c-display-v1.webp)
+
+**Full documentation**: <https://cspf-founder.github.io/red-clippy/>
+
+---
+
+## Contents
+
+* [Why](#why)
+* [Quick start](#quick-start)
+* [How the data is organized](#how-the-data-is-organized)
+* [First run](#first-run)
+* [Using it](#using-it)
+* [Connecting an AI agent (MCP)](#connecting-an-ai-agent-mcp)
+* [Features](#features)
+* [Configuration](#configuration)
+* [CLI reference](#cli-reference)
+* [Building from source](#building-from-source)
+* [Development](#development)
+
+- [Contributing](#contributing)
+
+- [License](#license)
+
+---
+
+## Why
+
+Coding agents have become genuinely useful testers. They have a shell, they
+run the same tooling you do, and they cover ground fast. Point one at a target
+and it will find things.
+
+Then the context window fills up, and the engagement is gone. The next session
+rescans hosts it already cleared, re-tests what it already ruled out, and
+cannot tell you which parts of the scope were ever touched. Somewhere in the
+transcript is a confirmed SQL injection nobody wrote down.
+
+Red Clippy fixes that by giving the agent two things it does not have on its
+own.
+
+**A place to put the work.** Every asset, observation, check, and finding
+lands in a database as testing happens, not in a scrollback buffer. Coverage
+becomes a query instead of a memory: which assets exist, which checks are
+cleared on each, what has already been reported. Tomorrow's session picks up
+exactly where the last one stopped.
+
+**Rules to work by.** A Red Team Instructions document reaches the agent in
+the MCP handshake, before it does anything: verify before reporting, prove
+every claim, take the minimum access needed to demonstrate impact, leave
+third-party systems alone. Override it per organization and per engagement,
+because house rules differ between teams and clients.
+
+You stay in the loop the whole time. Everything the agent writes is an
+ordinary row in the web UI that you can review, correct, reclassify, or throw
+away.
+
+> [!CAUTION]
+> **Authorized testing only.** Red Clippy is for penetration testers working
+> under an engagement. Test only systems you own or have explicit written
+> permission to assess. Scope marking and the Red Team Instructions exist to
+> keep an agent inside the rules of engagement, but they are guardrails, not
+> authorization. An agent acts on your authority, and you remain responsible
+> for everything it does.
+
+---
+
+## Quick start
+
+Download a binary from the
+[latest release](https://github.com/CSPF-Founder/red-clippy/releases) and run
+it. It sets up the database and serves the panel on `127.0.0.1:7337`.
+
+**Linux**
+
+root@kitploit:~
+
+```
+tar xzf red-clippy-*-x86_64-unknown-linux-musl.tar.gz
+cd red-clippy-*-x86_64-unknown-linux-musl
+./red-clippy serve
+```
+
+**Windows**
+
+Unzip the archive, then from that folder:
+
+root@kitploit:~
+
+```
+.\red-clippy.exe serve
+```
+
+Open <http://127.0.0.1:7337> and the setup wizard takes over from there.
+
+The database is created in the directory where you run the binary. Uploaded
+evidence is stored there too, in `red-clippy-storage`. Both paths can be
+changed in the config file, see [Configuration](#configuration).
+
+Prefer to compile it yourself? See
+[Building from source](#building-from-source).
+
+---
+
+## How the data is organized
+
+Red Clippy groups work into **organizations**. An organization holds your
+pentests, and each pentest holds the assets, findings, and evidence for that
+engagement. If you test for one company, a single organization is all you
+need. If you consult for several clients, give each client its own: an
+organization sees nothing belonging to another, so their engagements never mix.
+
+An organization has two names. The **display name** ("Acme Corp") is what you
+see in the panel and can be changed later. The **slug** (`acme`) is a short
+lowercase identifier used in the evidence folder on disk
+(`red-clippy-storage/org_acme/pentest_PT-2026-08-27/`), so it is fixed once
+set.
+
+You can belong to several organizations and switch between them from the
+avatar menu. In each one you are either an **owner**, who can add and remove
+people and rename or delete the organization, or a **member**, who works the
+engagements.
+
+---
+
+## First run
+
+On first launch the database is empty, so the browser shows a **setup wizard**
+instead of a login form. It asks for:
+
+* a slug and display name for your first organization
+* a username, and optionally an email
+* a password (minimum 8 characters)
+
+The account it creates is the owner of that organization. The wizard only
+appears while the database has no users; once the first account exists it is
+permanently disabled, so it cannot be used to create extra accounts later.
+
+After setup, manage organizations and teammates in the app under
+**avatar menu > Organizations**.
+
+If nobody can sign in, the CLI is the way back:
+
+root@kitploit:~
+
+```
+red-clippy reset-password --username alice --password 'new-one'
+```
+
+---
+
+## Using it
+
+The intended flow is agent-driven. You set up the engagement, then work
+through the target with Claude Code while...

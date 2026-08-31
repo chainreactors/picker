@@ -1,0 +1,200 @@
+---
+title: pmg v0.27.0
+url: https://kitploit.com/en/posts/github-safedep-pmg-v0270
+source: Kitploit
+date: 2026-08-30
+fetch_date: 2026-08-31T07:52:32.350490
+---
+
+# pmg v0.27.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/7133/a7372ff55a199d0e49690ff18748fad4694a6d3e02cc4cd447b43a25eed86a79.gif)
+
+New releaseAug 30, 2026
+
+# pmg v0.27.0
+
+PMG protects developers, AI agents from malicious open source packages using proxy, sandbox and SafeDep's threat intelligence feed.
+
+Share
+
+# Package Manager Guard (PMG)
+
+**Block malicious npm and pip packages before they install.**
+Defense in depth for the package managers you already use.
+
+[![safedep%2Fpmg | Trendshift](https://trendshift.io/api/badge/repositories/18640)](https://trendshift.io/repositories/18640?utm_source=repository-badge&utm_medium=badge&utm_campaign=badge-repository-18640)
+
+![pmg in action](https://assets.kitploit.com/production/public/readmes/7133/a7372ff55a199d0e49690ff18748fad4694a6d3e02cc4cd447b43a25eed86a79.gif)
+
+[![Docs](https://img.shields.io/badge/Docs-docs.safedep.io-2b9246?style=flat-square)](https://docs.safedep.io/pmg/quickstart)
+[![Website](https://img.shields.io/badge/Website-safedep.io-3b82f6?style=flat-square)](https://safedep.io)
+[![Discord](https://img.shields.io/discord/1090352019379851304?style=flat-square)](https://discord.gg/kAGEj25dCn)
+[![Featured in tl;dr sec](https://img.shields.io/badge/Featured%20in-tl;dr%20sec-FF6B35?style=flat-square)](https://tldrsec.com/p/tldr-sec-316)
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/safedep/pmg)](https://goreportcard.com/report/github.com/safedep/pmg)
+![License](https://img.shields.io/github/license/safedep/pmg)
+![Release](https://img.shields.io/github/v/release/safedep/pmg)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/safedep/pmg/badge)](https://api.securityscorecards.dev/projects/github.com/safedep/pmg)
+[![CodeQL](https://github.com/safedep/pmg/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/safedep/pmg/actions/workflows/codeql.yml)
+
+## Why PMG?
+
+Developers and AI coding agents install packages every day. Each `npm install` or `pip install` executes thousands of lines of code that nobody reviews.
+
+Recent compromises in popular ecosystems:
+
+* [**Mini Shai-Hulud**](https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/) - 300+ popular packages compromised
+* [**litellm 1.82.8**](https://safedep.io/malicious-litellm-1-82-8-analysis/) - a popular AI proxy library compromised to exfiltrate credentials
+* [**telnyx 4.87.2**](https://safedep.io/malicious-telnyx-pypi-compromise/) - a legitimate telecom SDK hijacked on PyPI
+* [**pino-sdk-v2**](https://safedep.io/malicious-npm-package-pino-sdk-v2-env-exfiltration/) - a typosquat package disguised as the popular pino logger
+
+**PMG is free, open source (Apache 2.0), and requires no account or API key.** It intercepts every package install and checks it against [SafeDep's free community API](https://safedep.io) for known malware **before** code executes. Install it once, and it covers every `npm install`, `pip install`, and `poetry add` after that.
+
+## How PMG Works
+
+PMG takes a defense in depth approach. Zero config, works across Zsh, Bash, and Fish, and each install passes through the enabled protection layers before code runs, plus an audit trail after.
+
+![PMG defense in depth: install command intercepted by PMG, passed through Layer 1 Threat Intel, Layer 2 Cooldown, Layer 3 Sandbox, then run with an audit log entry](https://raw.githubusercontent.com/safedep/pmg/HEAD/docs/assets/how-pmg-works-light.svg)
+
+**Layer details**
+
+* **Transparent Interception** - PMG wraps `npm`, `pip`, and other package managers. Developers and AI agents use the same commands. No workflow changes.
+* **Layer 1: Threat Intelligence** - PMG checks every package against [SafeDep's real-time threat intelligence](https://safedep.io) before install. Known-malicious packages are blocked. No key, no login required.
+* **Layer 2: Policy (Dependency Cooldown)** - PMG blocks package versions published inside a configurable cooldown window, so recently compromised versions are skipped during the window.
+* **Layer 3: Opt-in Sandbox** - When sandboxing is enabled and configured, PMG runs installs inside OS-native sandboxes (macOS Seatbelt, Linux Landlock by default, or Bubblewrap fallback) so install scripts have restricted system access even if a threat slips past the first two layers.
+* **Audit Logging** - PMG logs every install (what, when, from where) for a verifiable audit trail.
+
+## How PMG Compares
+
+PMG is the only free, open-source, install-time package firewall that covers developers and AI agents alike and ships with sandboxing and cooldown out of the box.
+
+| Capability | PMG | Socket | safe-chain | Snyk | Dependabot |
+| --- | --- | --- | --- | --- | --- |
+| OSS / built in public | ✓ | ✗ | ✓ | ✗ | ✗ |
+| No account or API key | ✓ | ✓ | ✓ | ✗ | ✗ |
+| Install-time malicious package blocking | ✓ | ✓ | ✓ | ✗ | ✗ |
+| Dependency cooldown policy | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Runtime sandboxing | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Protects AI coding agents transparently | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Local audit logs | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Known-CVE remediation PRs | ✗ | ✗ | ✗ | ✓ | ✓ |
+
+## Quick Start
+
+### 1. Install
+
+root@kitploit:~
+
+```
+curl -fsSL https://raw.githubusercontent.com/safedep/pmg/main/install.sh | sh
+```
+
+> See [Installation](#installation) for Homebrew, npm, and other install methods.
+
+### 2. Setup
+
+Wire PMG into your shell so it intercepts package managers.
+
+root@kitploit:~
+
+```
+pmg setup install
+# Restart your terminal to apply changes
+```
+
+> **Tip:** Re-run `pmg setup install` after upgrading PMG to pick up new configuration options.
+>
+> Linux all-users / golden images: `sudo pmg setup install --system` — see [docs/system-install.md](https://github.com/safedep/pmg/blob/HEAD/docs/system-install.md).
+
+Validate your installation and verify protection is working:
+
+root@kitploit:~
+
+```
+pmg setup doctor
+```
+
+> **Optional:** PMG inspects HTTPS traffic with an on-the-fly CA that it injects into package
+> managers per run. To persist a single CA across runs and trust it in your OS trust store
+> (needed for tools that ignore CA environment variables, such as Go on macOS and Windows),
+> install it once:
+>
+> root@kitploit:~
+>
+> ```
+> pmg setup cert install          # user scope, no sudo
+> pmg setup cert status           # check trust state and expiry
+> ```
+>
+> See [Certificate Authority](https://github.com/safedep/pmg/blob/HEAD/docs/cert.md) for scopes, rotation, and removal.
+
+### 3. Use
+
+See PMG blocking threats.
+
+root@kitploit:~
+
+```
+npm install --no-cache --prefer-online [email protected]
+```
+
+> **Note:** `safedep-test-pkg` is a benign test package flagged as malicious in SafeDep's database for
+> testing and verification purposes.
+
+Continue using your package managers as usual, or let your AI coding agent run them. PMG sits in the path, blocking malicious packages.
+
+root@kitploit:~
+
+```
+npm install express
+# or
+pip install requests
+```
+
+## Supported Package Managers
+
+PMG supports the tools you already use:
+
+| Ecosystem | Tools | Command Example |
+| --- | --- | --- |
+| **Node.js** | `npm` | `npm install <pkg>` |
+|  | `pnpm` | `pnpm add <pkg>` |
+|  | `yarn` | `yarn add <pkg>` |
+|  | `bun` | `bun add <pkg>` |
+|  | `npx` | `npx <pkg>` |
+|  | `pnpx` | `pnpx <pkg>` |
+| **Python** | `pip` | `pip install <pkg>` |
+|  | `pipx` | `pipx run <pkg>` |
+|  | `poetry` | `poetry add <pkg>` |
+|  | `uv` | `uv add <pkg>` |
+|  | `uvx` | `uvx <pkg>` |
+
+## Installation
+
+**Install Script (MacOS/Linux)**
+
+Downloads the latest release from GitHub, verifies its SHA-256 checksum, and installs to `$HOME/.local/bin` (if on `PATH`) or `/usr/local/bin`.
+
+root@kitploit:~
+
+```
+curl -fsSL https://raw.githubuse...

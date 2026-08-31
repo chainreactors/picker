@@ -1,0 +1,84 @@
+---
+title: Harden-Windows-Security HardenSystemSecurity-v1.0.80.0
+url: https://kitploit.com/en/posts/github-hotcakex-harden-windows-security-hardensystemsecurity-v10800
+source: Kitploit
+date: 2026-08-30
+fetch_date: 2026-08-31T07:52:35.435035
+---
+
+# Harden-Windows-Security HardenSystemSecurity-v1.0.80.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/48592/b1613f60ff084e53c117285899cb1ade5b10accbd33b31a3497d84ae3a1d7d13.png)
+
+New releaseAug 30, 2026
+
+# Harden-Windows-Security HardenSystemSecurity-v1.0.80.0
+
+Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Personal, Enterprise, Government and Military security levels | SLSA Level 3 Compliant for Secure Development and Build Process | Apps Available on MS Store✨
+
+Share
+
+![](https://assets.kitploit.com/production/public/readmes/48592/05ea80ca5fb929ff7d497838915dd59f41bae7d42e6f5944600b1d8beae53f02.gif)![Big Yummy Donut](https://assets.kitploit.com/production/public/readmes/48592/fa142078e52d1a5dc78f662b9f7662094f160342d35fec9b1954803a38c19c17.gif)![Big Yummy Donut](https://assets.kitploit.com/production/public/readmes/48592/48ff75a159c4dacadb0d8ca98473f9d8fb8e57d87ee7856afadb8355126aa955.gif)![Big Yummy Donut](https://assets.kitploit.com/production/public/readmes/48592/d0e0e6e13ba45ce2e8ad9a1e6b17612ea9a5b2271438d69ebf0eb71729130fa2.gif)![](https://assets.kitploit.com/production/public/readmes/48592/6387e9a0688357f320efc9b339cc3d0cc2605c47f07626b5f81aea9b485d7f97.gif)
+
+# Harden Windows Security | A New Threat to Malware
+
+## Harden Windows Safely, Securely, Only With Official Microsoft Methods
+
+[![Microsoft Store page of Harden System Security App](https://raw.githubusercontent.com/HotCakeX/.github/12a994d0fd231bc9fd0104decece5851179910c0/Pictures/SVG/Badges/HardenSystemSecurityInstallBadge.svg)](https://apps.microsoft.com/detail/9P7GGFL7DX57) ![Link](https://assets.kitploit.com/production/public/readmes/48592/7b0f6a485450e36c5ad74c4b371decacf15f32b08ae249c49d4e2d2fabe28f19.gif) [![AppControl Manager Install](https://raw.githubusercontent.com/HotCakeX/.github/refs/heads/main/Pictures/SVG/AppControlManager%20Install.svg)](https://apps.microsoft.com/detail/9PNG1JDDTGP8)
+
+###### [![X Share button](https://raw.githubusercontent.com/HotCakeX/.github/7f64c27fdd600175e29ebad839e81a6ec8deb85c/Pictures/SVG/Share%20it%20on%20X.svg)](https://x.com/intent/post?text=Harden+Windows+Security+%7C+Suitable+for+all+security+levels+and+requirements&hashtags=Windows%2CCyberSecurity&url=https%3A%2F%2Fgithub.com%2FHotCakeX%2FHarden-Windows-Security) [![.NET Badge](https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/SVG/Badges/.NET9.svg)](https://dotnet.microsoft.com/en-us/download) [![Visual Studio Badge](https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/SVG/Badges/VisualStudio.svg)](https://visualstudio.microsoft.com/)
+
+[How To Use](#how-to-use) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif)
+[Related](#related) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif)
+[Trust](#Trust) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif)
+[Support](#support) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif)
+[Security Recommendations](#security-recommendations) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif)
+[Resources](#resources) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif)
+[License](#license) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif)
+[**Wiki**](https://github.com/HotCakeX/Harden-Windows-Security/wiki) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif)
+[Basic FAQs](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Answers-to-the-Basic-Frequently-Asked-Questions) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif) [Roadmap](#roadmap) ![rotating colorful thing](https://assets.kitploit.com/production/public/readmes/48592/d055bbeb046af48c8d31e96b50e6009bcda662123330403df9a6672183b18a47.gif) [**Donation**](https://github.com/HotCakeX/Harden-Windows-Security?tab=readme-ov-file#donations-)  ![](https://assets.kitploit.com/production/public/readmes/48592/9d643d7eb365eac490f0d552f3bded5b5e9cc46d006d48bf3d729118e4273e1a.gif)
+
+![horizontal super thin rainbow RGB line](https://raw.githubusercontent.com/HotCakeX/.github/febfcc2b3be66ef0d5ecd74694157622a7fde865/Pictures/SVG/SVG%20line%20wave%20yellow%20pink%20inverted.svg)
+> [!IMPORTANT]
+> Here are Quick Access Points to Important Sections of this Repository
+>
+> ### ![](https://assets.kitploit.com/production/public/readmes/48592/b90b8fd4eb76de2414ed536a688127bf3245092b04243cf5506338da6420b838.gif) [Harden System Security App](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Harden-System-Security)
+>
+> ### ![Indicator for the AppControl Manager](https://assets.kitploit.com/production/public/readmes/48592/9751f482a907b04a4400b18eebb408e033f4e737856ec2da7c1f7e6c722571dd.gif) [AppControl Manager App](https://github.com/HotCakeX/Harden-Windows-Security/wiki/AppControl-Manager)
+>
+> ### ![Indicator for App Control for Business Resources](https://assets.kitploit.com/production/public/readmes/48592/f3074ae9cb928660e4668fe0940aa758620b9cad32df6ee2e3c7c48832bceedc.gif) [Application Control for Business Resources](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Introduction)
+
+![horizontal super thin rainbow RGB line](https://raw.githubusercontent.com/HotCakeX/.github/febfcc2b3be66ef0d5ecd74694157622a7fde865/Pictures/SVG/SVG%20line%20wave%20yellow%20pink.svg)
+
+> [!NOTE]
+> This repository only uses the features that have already been implemented by Microsoft in Windows OS to fine-tune it towards the highest security and locked-down state, without relying on any 3rd party component or dependency, using well-documented, supported, recommended and official methods. Continue reading for comprehensive info.
+
+## How To Use[![HowToUseIcon](https://assets.kitploit.com/production/public/readmes/48592/4cc33783e70ba4d2d34f6f1b56cfa653c58cf1c6da114a72d77cb80c9fc62ba7.png)](#how-to-use)
+
+### ![GitHub logo pink SVG](https://raw.githubusercontent.com/HotCakeX/.github/9b2e88aad5ba54000a24c904e1f473b039202691/Pictures/Harden%20System%20Security%20Icons/ICON-SVG-SIMPLIFIED.svg) [Install the Harden System Security From the Microsoft Store](https://apps.microsoft.com/detail/9p7ggfl7dx57)
+
+[![](https://get.microsoft.com/images/en-us%20dark.svg)](https://apps.microsoft.com/detail/9p7ggfl7dx57?referrer=appbadge&mode=direct)
+
+* [**Documentation**](https://github.com/HotCakeX/Harden-Windows-Security/wiki/Harden-System-Security) ![](https://assets.kitploit.com/production/public/readmes/48592/f57794ff1acdb9f12aca8b6ce7840fbe5f3fe14ca75a8111c918286fcda0b1a2.gif)
+
+![Harden System Security App Demo](https://raw.githubusercontent.com/HotCakeX/.github/main/Pictures/Gifs/HardenWindowsSecurityApp.gif?raw=true)
+
+![horizontal super thin rainbow RGB line](https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/1pxRainbowLi...

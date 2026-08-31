@@ -1,0 +1,222 @@
+---
+title: AutoIt-Obfuscator
+url: https://kitploit.com/en/tools/github/pelock/autoit-obfuscator
+source: Kitploit
+date: 2026-08-30
+fetch_date: 2026-08-31T07:52:53.061390
+---
+
+# AutoIt-Obfuscator
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+AutoIt-Obfuscator — Obfuscates AutoIt scripts to protect source code from analysis, reverse engineering, and decompilation using advanced obfuscation and polymorphic encryption. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/pelock/autoit-obfuscator
+
+![](https://assets.kitploit.com/production/public/tools/53538/b1f087f71575df19aef1fdc31712a68861aabc26dac665f473acfd031eb4fa0b-display-v1.webp)
+
+[Code Analysis](/en/categories/code-analysis)[Reverse Engineering](/en/categories/reverse-engineering)[Cryptography](/en/categories/cryptography)
+
+![GitHub](/providers/github.png)pelock/autoit-obfuscator
+
+# AutoIt-Obfuscator
+
+Obfuscates AutoIt scripts to protect source code from analysis, reverse engineering, and decompilation using advanced obfuscation and polymorphic encryption.
+
+[View Repository](https://github.com/pelock/autoit-obfuscator)[Website](https://www.pelock.com/products/autoit-obfuscator)
+
+509522 months ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# AutoIt Obfuscator — Obfuscation for AutoIt Script Source Code
+
+AutoIt Obfuscator is a tool to modify AutoIt script source code in this way to
+make an analysis of obfuscated code very difficult.
+
+More technical details, downloads, documentation available at:
+
+<https://www.pelock.com/products/autoit-obfuscator>
+
+Online interface:
+
+<https://www.pelock.com/autoit-obfuscator/>
+
+## What is source code obfuscation?
+
+Obfuscation is a process of transforming AutoIt source code into protected
+version of itself. The script functionality stays the same, everything works
+the same, but the source code is protected from analysis, all of the variables
+are encrypted, strings are encrypted, our AutoIt Obfuscator uses multiple
+obfuscation strategies to protect the real meaning of your AutoIt source code.
+
+### AutoIt script example before obfuscation
+
+root@kitploit:~
+
+```
+#include <MsgBoxConstants.au3>
+
+Example()
+
+Func Example()
+    MsgBox($MB_SYSTEMMODAL, "AutoIt Obfuscator", "Hello World!")
+EndFunc   ;==>Example
+```
+
+### After obfuscation
+
+root@kitploit:~
+
+```
+;////////////////////////////////////////////////////////////////////////////////
+;//
+;// AutoIt Obfuscator v2.1 - Bartosz Wójcik
+;//
+;// Website : https://www.pelock.com/products/autoit-obfuscator
+;// Version : v2.1
+;// Date    : 08.02.2024
+;//
+;////////////////////////////////////////////////////////////////////////////////
+
+#include <Array.au3>
+#include <MsgBoxConstants.au3>
+#AutoIt3Wrapper_Tidy_Stop_OnError=n
+#AutoIt3Wrapper_Run_AU3Check=n
+Global Const $daSQ_n1JN_mBs1I_ = Asc(StringMid("Random(1, 270905415 + SRandom(1566730703), 1)", 19, 1))
+Global $RYRWVDVJ = Asc("J")
+Global $RYXLYH_RTGANHXUI = Asc("3")
+Global $tagRrdruaavjk[3] = [150, 1017374602, 10411]
+Global $DoaFoGAWMNbBmkAe__d = 4045
+Global $AXCGXJWX_OLRCOQFSXX = Asc("t")
+Global Const $iQzojqte = 26933
+Global Const $var_15[2][8] = [[1595107513, 1104537718, 868900013, 105640690, 47653, 116, 693837332, 16233], [1211827987, 1657997570, 37032, 227, 57, 6273, 762969513]]
+#OnAutoItStartRegister "VwdmsFnzdotDyuxttspg"
+Global Const $var_487[2][8] = [[1083217155, 30638, 84, 144, 43877, 189, 1295519879, 1915220323], [247, 163, 143, 18102, 51, 17202]]
+Global $QVCEHSV[2][9] = [[866325531, 131], [18637, 203, 995096871, 202, 287364341, 29839, 367413199, 52009, 242297425]]
+Global $var_3525 = Asc(StringMid("Until 1", 2, 1))
+Global Const $WMMQB_NIFPPM[2][15] = [[81, 876847059, 170, 47439, 863656242, 33, 245, 119, 27673, 136, 28, 758746073, 199,  _
+92],  _
+[129, 1658572839, 42061, 94, 70, 61382, 183, 12027, 91, 221, 43126, 1736920964, 201,  _
+199, 993478498]]
+Global Const $var_1984[15] = [2081761766, 3730, 731908840, 52077, 586602441, 1456646884, 1133870265, 950602932,  _
+26639, 94, 1477000589, 142, 388924395, 184, 962894257]
+Global $pTyvbacuiPcopcrwtzMklja[7] = [10180, 91, 112, 18252, 987799017, 2057457675, 918277144]
+Global Const $var_1013[2][9] = [[670581154, 47303, 1365877447, 1573616251], [58622, 884054024, 1848519651, 15229, 13921, 50, 62097, 42, 15]]
+Global Const $0_8NclM_kVz5mtpKHxsE = 127
+Global Const $TMPeDgi_YcAj9m__ = 210
+Global Const $eLybjmNrwrnkaeWbnyuga = 233690701
+Global $ply1orzT_26sCWksrUbe_T_[15] = [10592, 966841092, 5959, 162, 54645, 138, 116485994, 72967675, 20376, 24742, 479499993,  _
+24, 136, 712789901, 169]
+Global Const $RUJJVMWQD_SRVNOZQS = Asc(StringMid('Asc(StringMid("uBdB3fJaKj", 74 , 1))', 14, 1))
+#OnAutoItStartRegister "PDVwv_rlXpGPnDT_rerRdIt"
+Global Const $JkpEJMWuV3xIs_U_Ww5_e = Asc(StringMid('StringLen("7cnVFjYCh8")', 13, 1))
+#OnAutoItStartRegister "func_843"
+Global Const $var_186 = Asc(":")
+Global $var_232[5] = [181, 47520, 180, 17769, 908012825]
+#OnAutoItStartRegister "Csxsdy"
+Global $aAnefpjqin = 74
+Global $PhPOBw6C___dgDQq = 18
+Global $TCBDV_KZAXCB = 1610629136
+Global $sKrndyBafzrRrnztv = 30
+Global $yYuG7mfW5T___7Hm = 8
+Global $IXEFUXDYXV_BQHOLMW = 30
+Global $FHANKWNTCU_LXGYYGBMZ_GPLLLOGDO = 20
+Global $JSDCW_FFPIYFSC = 26933
+Global $bFbbccxjwr = 834927369
+Global $var_2995 = 1952693505
+Global $GRBDSMW = 36338
+Global $var_2922 = 22
+Global $Q2cGypOD6cG4gQO_S__rwRXO_ = 915476553
+Global $_XFJWQ6Jq_3c_rP = 12
+Global $sJhugwfPfnnwafYhrgzwm = 248479756
+Local $g_iCvsrwuGtzdva = 617049966
+While $g_iCvsrwuGtzdva <> 2147003747
+    Switch $g_iCvsrwuGtzdva
+        Case 658231252
+            $g_iCvsrwuGtzdva = 33656329
+            Global $nCtwajwbfNhewozhd = _ArrayToString
+        Case 4324177
+            Global $iNOxLl_Y5__rSk9 = func_2108
+            $g_iCvsrwuGtzdva = 658231252
+        Case 1926422611
+            $g_iCvsrwuGtzdva = 406152061
+            Global $BESCTA = BitAND
+        Case 2088978457
+            $g_iCvsrwuGtzdva = 1021723140
+            Global $Pts7YqvR8ogkYI3_j_ = func_2824
+        Case 1637416108
+            Global $nFeubksuJaekekoos = StringTrimRight
+            $g_iCvsrwuGtzdva = 232503255
+        Case 1293800215
+            Global $var_824 = Chr
+            $g_iCvsrwuGtzdva = 1702584836
+        Case 1278717404
+            Global $iVgppveam = LBeZ__Ck_yYniNxbnTB
+            $g_iCvsrwuGtzdva = 1637416108
+        Case 2147003747
+            $g_iCvsrwuGtzdva = 737317436
+        Case 445534110
+            $g_iCvsrwuGtzdva = 463259058
+            Global $YPKANC_EANNAEOUTZ_CDSNBCFY = ($iQzojqte > $RYRWVDVJ ? 10 : $0_8NclM_kVz5mtpKHxsE)
+        Case 1795214713
+            Global $tJkjpqdflxTzzupkaNvxuamd = BitNOT
+            $g_iCvsrwuGtzdva = 140913128
+        Case 1021723140
+            $g_iCvsrwuGtzdva = 499083887
+            Global $var_674 = MwsmxbIvzilhkmmv
+        Case 249620526
+            $g_iCvsrwuGtzdva = 2088978457
+            Global $fQoyipvpvvJsxvoydvVwtqcqjjd = func_1645
+        Case 51111198
+            Global $__uNo_5dDC3irlrj = ($var_1013[0][1] > $var_232[0] ? 36123 : $_vyCRbp_Ex_v7BM)
+            $g_iCvsrwuGtzdva = 1333314932
+        Case 140913128
+            $g_iCvsrwuGtzdva = 774361981
+            Global $HMDVVNSCVL_LDKSR_VZTJJLD = BitOR
+        Case 953027176
+            $g_iCvsrwuGtzdva = 4324177
+            Global $dPchzwlhrRbvcbkrhag = func_590
+        Case 1333314932
+            $...

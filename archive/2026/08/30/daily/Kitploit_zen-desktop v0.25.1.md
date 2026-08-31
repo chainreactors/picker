@@ -1,0 +1,154 @@
+---
+title: zen-desktop v0.25.1
+url: https://kitploit.com/en/posts/github-irbis-sh-zen-desktop-v0251
+source: Kitploit
+date: 2026-08-30
+fetch_date: 2026-08-31T07:52:21.736445
+---
+
+# zen-desktop v0.25.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/8510/b042c6f8da8c4326526aff21c76f00e4b0c3d1cc4d308c5b9c1f5ac79198f0d3.png)
+
+New releaseAug 30, 2026
+
+# zen-desktop v0.25.1
+
+Ad-blocker and privacy guard for Windows, macOS and Linux.
+
+Share
+
+![Zen's Blue Shield Logo](https://raw.githubusercontent.com/irbis-sh/zen-desktop/master/assets/appicon.png?raw=true)
+
+### Zen: Your Comprehensive Ad-Blocker and Privacy Guard
+
+> There is, simply, no way, to ignore privacy. Because a citizenry’s freedoms are interdependent, to surrender your own privacy is really to surrender everyone’s.
+>
+> Edward Snowden, Permanent Record
+
+![GitHub License](https://img.shields.io/github/license/irbis-sh/zen-desktop)
+![GitHub release](https://img.shields.io/github/v/release/irbis-sh/zen-desktop)
+![GitHub download counter](https://img.shields.io/github/downloads/irbis-sh/zen-desktop/total)
+
+[**Website**](https://irbis.sh/zen) • [**Mastodon**](https://mastodon.social/%40irbis_sh) • [**Bluesky**](https://bsky.app/profile/irbis.sh) • [**Discord**](https://discord.gg/zGeQVatAUm) • [**Documentation**](https://docs.irbis.sh/docs/zen/)
+
+Zen is an open-source system-wide ad-blocker and privacy guard for Windows, macOS, and Linux. It works by setting up a proxy that intercepts HTTP requests from all applications, and blocks those serving ads, tracking scripts that monitor your behavior, malware, and other unwanted content. By operating at the system level, Zen can protect against threats that browser extensions cannot, such as trackers embedded in desktop applications and operating system components. Zen comes with many pre-installed filters, but also allows you to easily add hosts files and EasyList-style filters, enabling you to tailor your protection to your specific needs.
+
+## Downloads
+
+During the first run, Zen will prompt you to install a root certificate. This is required for Zen to be able to intercept and modify HTTPS requests. This certificate is generated locally and never leaves your device. For details on how this works and the steps we take to secure it, see our [security architecture](https://github.com/irbis-sh/zen-desktop/blob/HEAD/docs/explanation/security-architecture.md).
+
+### Windows
+
+* x64: [💾 Installer](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen-amd64-installer.exe) | [📦 Portable](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen_windows_amd64.zip)
+* ARM64: [💾 Installer](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen-arm64-installer.exe) | [📦 Portable](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen_windows_arm64.zip)
+
+Unsure which version to download? Click on 'Start' and type 'View processor info'. The 'System type' field under 'Device specifications' will tell you which one you need.
+
+#### Winget
+
+Zen is available via [Winget (Windows Package Manager)](https://github.com/microsoft/winget-pkgs/tree/master/manifests/z/ZenPrivacy). To install, run:
+
+root@kitploit:~
+
+```
+winget install ZenPrivacy.ZenDesktop
+```
+
+### macOS
+
+* x64 (Intel): [💾 Installer](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen-amd64.dmg) | [📦 Portable](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen_darwin_amd64.tar.gz)
+* ARM64 (Apple Silicon): [💾 Installer](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen-arm64.dmg) | [📦 Portable](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen_darwin_arm64.tar.gz)
+
+Unsure which version to download? Learn at [Apple's website](https://support.apple.com/en-us/HT211814).
+
+#### 🍺 Homebrew
+
+Zen is available via [Homebrew](https://formulae.brew.sh/cask/zen-privacy) for both Intel and Apple Silicon. To install it, run:
+
+root@kitploit:~
+
+```
+brew install --cask zen-privacy
+```
+
+### Linux
+
+Zen has an install script that covers most Linux distributions. To install, run:
+
+root@kitploit:~
+
+```
+curl -fsSL https://raw.githubusercontent.com/irbis-sh/zen-desktop/master/install.sh | sh
+```
+
+To uninstall, run:
+
+root@kitploit:~
+
+```
+curl -fsSL https://raw.githubusercontent.com/irbis-sh/zen-desktop/master/install.sh | sh -s -- --uninstall
+```
+
+Other installation methods:
+
+* AUR: [👾 zen-adblocker-bin](https://aur.archlinux.org/packages/zen-adblocker-bin)
+* x64: [📦 Portable](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen_linux_amd64.tar.gz)
+* ARM64: [📦 Portable](https://github.com/irbis-sh/zen-desktop/releases/latest/download/Zen_linux_arm64.tar.gz)
+
+On Linux, automatic proxy configuration is currently only supported on GNOME- and KDE-based desktop environments.
+
+## Screenshots
+
+| Request history | Filter list manager |
+| --- | --- |
+| Request history shows all requests blocked by Zen. Each request can be inspected to see which filter and rule blocked it. | Zen comes with many pre-installed filters. You can also add your own by providing a URL to a hosts file or an EasyList-style filter. |
+| ![Screenshot of Zen's Home screen showing blocked network requests. One entry details a blocked request to a Marketo tracking script from politico.com, with several other advertising and analytics domains listed below. Navigation tabs and a Donate button appear at the top, and a blue Stop button is visible at the bottom.](https://assets.kitploit.com/production/public/readmes/8510/b042c6f8da8c4326526aff21c76f00e4b0c3d1cc4d308c5b9c1f5ac79198f0d3.png) | ![Screenshot of Zen's Filter lists screen showing a regional category with multiple ad-block filter lists from different countries. Each list includes a name, a source URL, and toggle switches indicating whether it is enabled.](https://assets.kitploit.com/production/public/readmes/8510/1524c3b5d3a7b98a74f75fe923d64cefbf051a9d2c67de4c72d4f0a4ddb218eb.png) |
+
+## Development
+
+Follow the [getting started guide](https://github.com/irbis-sh/zen-desktop/blob/HEAD/docs/index.md#getting-started) to begin working on Zen development. If you have any questions, feel free to ask in the [Discussions](https://github.com/irbis-sh/zen-desktop/discussions/categories/q-a).
+
+## Contributing
+
+Zen needs your help! You can report bugs, suggest and implement features, improve the codebase, or help translate Zen into your language. Please refer to the [Contributing Guidelines](https://github.com/irbis-sh/zen-desktop/blob/HEAD/CONTRIBUTING.md) for more information.
+
+## Special Thanks
+
+Zen exists thanks to the support of many incredible people and organizations, including:
+
+* Our contributors
+  [![Avatars of all GitHub contributors to Zen](https://opencollective.com/zen-privacy/contributors.svg?width=890&button=false)](https://github.com/irbis-sh/zen-desktop/graphs/contributors)
+* Our sponsors
+  [![Avatars of all backers of Zen on Open Collective](https://opencollective.com/zen-privacy/backers.svg?width=890&button=false)](https://opencollective.com/zen-privacy#backers)
+* [SignPath](https://signpath.io) and [SignPath Foundation](https://signpath.org/), who generously provide a free Windows certificate and code signing
+
+  [![](https://assets.kitploit.com/production/public/readmes/8510/596e6cd38a9b672777f99847ac219e03076e8109bdeb400893f25fd66728faf8.png)](https://signpath.io)
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/irbis-sh/zen-desktop/blob/master/LICENSE). Some code and assets included with Zen are licensed under different terms. For more information, see the [COPYING](https://github.com/irbis-sh/zen-desktop/blob/master/COPYING.md) file.
+
+[Read more](/en/tools/github/irbis-sh/zen-desktop?expand=1)
+
+## Categories
+
+[Defensive Tools](/en/categories/defensive-tools)[Web Security](/en/categories/web-securit...

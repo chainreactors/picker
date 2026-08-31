@@ -1,0 +1,148 @@
+---
+title: moltis v20260818.08
+url: https://kitploit.com/en/posts/github-moltis-org-moltis-2026081808
+source: Kitploit
+date: 2026-08-30
+fetch_date: 2026-08-31T07:52:23.496055
+---
+
+# moltis v20260818.08
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/11728/54d2ed9f4b1934c94f543d31a1e15c9919dec7e491a021962c81fab1069f5f07.png)
+
+New releaseAug 30, 2026
+
+# moltis v20260818.08
+
+A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on your hardware.
+
+Share
+
+[![Moltis](https://raw.githubusercontent.com/moltis-org/moltis/main/website/favicon.svg)](https://moltis.org)
+
+# Moltis — A secure persistent personal agent server in Rust
+
+One binary — sandboxed, secure, yours.
+
+[![CI](https://github.com/moltis-org/moltis/actions/workflows/ci.yml/badge.svg)](https://github.com/moltis-org/moltis/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/moltis-org/moltis/graph/badge.svg)](https://codecov.io/gh/moltis-org/moltis)
+[![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json&style=flat&label=CodSpeed)](https://codspeed.io/moltis-org/moltis)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Rust](https://img.shields.io/badge/Rust-1.91+-orange.svg)](https://www.rust-lang.org)
+[![Discord](https://img.shields.io/discord/1469505370169933837?color=5865F2&label=Discord&logo=discord&logoColor=white)](https://discord.gg/XnmrepsXp5)
+
+[Installation](#installation) • [Comparison](#comparison) • [Architecture](#architecture--crate-map) • [Security](#security) • [Features](#features) • [How It Works](#how-it-works) • [Contributing](https://github.com/moltis-org/moltis/blob/HEAD/CONTRIBUTING.md)
+
+---
+
+Moltis recently hit [the front page of Hacker News](https://news.ycombinator.com/item?id=46993587). Please [open an issue](https://github.com/moltis-org/moltis/issues) for any friction at all. I'm focused on making Moltis excellent.
+
+**Secure by design** — Your keys never leave your machine. Every command runs in a sandboxed container, never on your host.
+
+**Your hardware** — Runs on a Mac Mini, a Raspberry Pi, or any server you own. One Rust binary, no Node.js, no npm, no runtime.
+
+**Full-featured** — Voice, memory, cross-session recall, automatic edit checkpoints, scheduling, Telegram, Signal, Discord, browser automation, MCP servers, SSH or node-backed remote exec, managed deploy keys with host pinning in the web UI, a live Settings → Tools inventory, Cursor-compatible project context, and context-file threat scanning — all built-in. No plugin marketplace to get supply-chain attacked through.
+
+**Auditable** — The agent runner and model interface fit in ~7.5K lines, with providers in ~19K more. The Rust workspace is ~270K lines across 59 modular crates you can audit independently, with 470+ Rust files containing tests. Unsafe code is isolated to FFI and precompiled runtime boundaries, not the core agent loop.
+
+## Installation
+
+root@kitploit:~
+
+```
+# One-liner install script (macOS / Linux)
+curl -fsSL https://www.moltis.org/install.sh | sh
+
+# macOS / Linux via Homebrew
+brew install moltis-org/tap/moltis
+
+# Docker (multi-arch: amd64/arm64)
+docker pull ghcr.io/moltis-org/moltis:latest
+
+# Or build from source
+cargo install moltis --git https://github.com/moltis-org/moltis
+```
+
+## Comparison
+
+|  | OpenClaw | Hermes Agent | **Moltis** |
+| --- | --- | --- | --- |
+| Primary stack | TypeScript + Swift/Kotlin companion apps | Python + TypeScript TUI/web surfaces | **Rust** |
+| Runtime | Node.js + npm/pnpm/bun | Python + uv/pip, optional Node UI pieces | **Single Rust binary** |
+| Local checkout size\* | ~1.1M app LoC | ~152K app LoC | **~270K Rust LoC** |
+| Architecture | Broad gateway, channel, node, and app ecosystem | CLI/gateway agent with learning loop and research tooling | **Persistent personal agent server with modular crates** |
+| Crates/modules | npm packages, extensions, apps | Python packages, plugins, tools, TUI | **59 Rust workspace crates** |
+| Sandbox/backends | App-level permissions, browser/node tools | Local, Docker, SSH, Daytona, Singularity, Modal | **Docker/Podman + Apple Container + WASM** |
+| Auth/access | Pairing and local gateway controls | CLI and messaging gateway setup | **Password + Passkey + API keys + Vault** |
+| Voice I/O | Voice wake and talk modes | Voice memo transcription | **Built-in STT + TTS providers** |
+| MCP | Plugin/integration support | MCP integration | **stdio + HTTP/SSE** |
+| Skills | Bundled, managed, and workspace skills | Self-improving skills and Skills Hub support | **Bundled/workspace skills + autonomous improvement + OpenClaw import** |
+| Memory/RAG | Plugin-backed memory and context engine | Agent-curated memory, session search, user modeling | **SQLite + FTS + vector memory** |
+
+\* LoC measured with `tokei`, excluding `node_modules`, generated build output, `dist`, and `target`.
+
+> [Full comparison in the docs →](https://docs.moltis.org/comparison.html)
+
+## Architecture — Crate Map
+
+Current Rust workspace: ~270K LoC across 59 crates. The table below groups the main crates by role so the architecture stays scannable.
+
+**Core runtime**:
+
+| Crate | LoC | Role |
+| --- | --- | --- |
+| `moltis-gateway` | 37.4K | HTTP/WS server, RPC, auth, startup wiring |
+| `moltis-tools` | 37.0K | Tool execution, sandboxing, WASM tools |
+| `moltis-providers` | 18.9K | LLM provider implementations |
+| `moltis-agents` | 14.5K | Agent loop, streaming, prompt assembly |
+| `moltis-chat` | 14.2K | Chat engine, agent orchestration |
+| `moltis-config` | 10.3K | Configuration, validation |
+| `moltis-httpd` | 9.9K | HTTP server primitives and middleware |
+| `moltis` (CLI) | 4.7K | Entry point, CLI commands |
+| `moltis-sessions` | 3.5K | Session persistence |
+| `moltis-common` | 1.5K | Shared utilities |
+| `moltis-service-traits` | 1.2K | Shared service interfaces |
+| `moltis-protocol` | 0.7K | Wire protocol types |
+
+**Feature and integration crates**:
+
+| Category | Crates | Combined LoC |
+| --- | --- | --- |
+| Channels | `moltis-telegram`, `moltis-whatsapp`, `moltis-signal`, `moltis-discord`, `moltis-msteams`, `moltis-matrix`, `moltis-slack`, `moltis-nostr`, `moltis-channels` | 34.0K |
+| Web and APIs | `moltis-web`, `moltis-graphql`, `moltis-webhooks` | 10.8K |
+| Extensibility | `moltis-mcp`, `moltis-mcp-agent-bridge`, `moltis-skills`, `moltis-plugins` | 11.5K |
+| Memory and context | `moltis-memory`, `moltis-qmd`, `moltis-code-index`, `moltis-projects` | 11.7K |
+| Voice and browser | `moltis-voice`, `moltis-browser` | 9.2K |
+| Auth and security | `moltis-auth`, `moltis-oauth`, `moltis-vault`, `moltis-secret-store`, `moltis-network-filter`, `moltis-tls` | 8.5K |
+| Scheduling and automation | `moltis-cron`, `moltis-caldav`, `moltis-auto-reply` | 4.7K |
+| Setup and import | `moltis-provider-setup`, `moltis-openclaw-import`, `moltis-onboarding` | 11.7K |
+| Native and node hosts | `moltis-swift-bridge`, `moltis-node-host`, `moltis-courier` | 5.7K |
+| WASM tools | `moltis-wasm-precompile`, `moltis-wasm-calc`, `moltis-wasm-web-fetch`, `moltis-wasm-web-search` | 1.4K |
+| Supporting crates | `moltis-media`, `moltis-metrics`, `moltis-tailscale`, `moltis-routing`, `moltis-canvas`, `moltis-schema-export`, `benchmarks` | 2.1K |
+
+Use `--no-default-features --features lightweight` for constrained devices (Raspberry Pi, etc.).
+
+## Security
+
+* **Small unsafe surface** — core agent/gateway code stays safe Rust; unsafe is isolated to Swift FFI, local model wrappers, and precompiled WASM boundaries
+* **Sandboxed execution** — Docker + Apple Container, per-session isolation
+* **Secret handling** — `secrecy::Secret`, zeroed on drop, redacted from tool output
+* **Authentication** — password + passkey (WebAuthn), rate-limited, per-IP throttle...

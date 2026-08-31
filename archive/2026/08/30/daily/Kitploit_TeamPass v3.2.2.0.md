@@ -1,0 +1,156 @@
+---
+title: TeamPass v3.2.2.0
+url: https://kitploit.com/en/posts/github-nilsteampassnet-teampass-3220
+source: Kitploit
+date: 2026-08-30
+fetch_date: 2026-08-31T07:52:33.881445
+---
+
+# TeamPass v3.2.2.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/2983/76a61aea3e6b072e5d6026e19052eed290df88c01ba947b761896846a1e16477.png)
+
+New releaseAug 30, 2026
+
+# TeamPass v3.2.2.0
+
+Collaborative Passwords Manager
+
+Share
+
+![Teampass](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/public/assets/images/teampass-logo2-login.png)
+
+# Teampass
+
+### Self-hosted password management your whole team can trust
+
+Folder-level access control · authenticated AES-256-GCM encryption · compliance evidence
+**Your secrets never leave your infrastructure.**
+
+**🌐 [teampass.net](https://teampass.net)** ·
+**📖 [Documentation](https://documentation.teampass.net)** ·
+**💬 [Discussions](https://github.com/nilsteampassnet/TeamPass/discussions)** ·
+**🐳 [Docker Hub](https://hub.docker.com/r/teampass/teampass)**
+
+[![Release](https://img.shields.io/github/v/release/nilsteampassnet/TeamPass?style=for-the-badge&color=24c8ff&labelColor=0f2740)](https://github.com/nilsteampassnet/TeamPass/releases/latest)
+[![License](https://img.shields.io/github/license/nilsteampassnet/TeamPass?style=for-the-badge&color=24c8ff&labelColor=0f2740)](LICENSE.md)
+[![PHP](https://img.shields.io/badge/PHP-8.2+-24c8ff?style=for-the-badge&labelColor=0f2740&logo=php&logoColor=white)](https://www.php.net/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/teampass/teampass?style=for-the-badge&color=24c8ff&labelColor=0f2740&logo=docker&logoColor=white)](https://hub.docker.com/r/teampass/teampass)
+[![Stars](https://img.shields.io/github/stars/nilsteampassnet/TeamPass?style=for-the-badge&color=24c8ff&labelColor=0f2740)](https://github.com/nilsteampassnet/TeamPass)
+
+[![CodeQL](https://img.shields.io/github/actions/workflow/status/nilsteampassnet/TeamPass/codeql.yml?branch=master&style=for-the-badge&label=CodeQL&labelColor=0f2740&color=3fb950&logo=github&logoColor=white)](https://github.com/nilsteampassnet/TeamPass/actions/workflows/codeql.yml)
+[![Docker Build](https://img.shields.io/github/actions/workflow/status/nilsteampassnet/TeamPass/docker-publish.yml?branch=master&style=for-the-badge&label=Docker%20Build&labelColor=0f2740&color=3fb950&logo=docker&logoColor=white)](https://github.com/nilsteampassnet/TeamPass/actions/workflows/docker-publish.yml)
+[![Security policy](https://img.shields.io/badge/Security-policy_&_advisories-3fb950?style=for-the-badge&labelColor=0f2740&logo=shieldsdotio&logoColor=white)](https://github.com/nilsteampassnet/TeamPass/security/advisories)
+[![Sponsor](https://img.shields.io/github/sponsors/nilsteampassnet?style=for-the-badge&label=Sponsors&labelColor=0f2740&color=ff4dda&logo=githubsponsors&logoColor=ff4dda)](https://github.com/sponsors/nilsteampassnet)
+
+---
+
+## Contents
+
+* [About](#about)
+* [Who it's for](#who-its-for)
+* [Security](#security)
+* [Features](#features)
+* [Get started](#get-started)
+* [Documentation](#documentation)
+* [Languages](#languages)
+* [Community](#community)
+* [Support Teampass](#support-teampass)
+* [License](#license)
+
+---
+
+## About
+
+**Teampass is an open-source credential vault you run yourself.** No account to create, no company behind the curtain holding your data — just a PHP/MySQL application on your own server, with folder-level access control, per-user encryption keys and a full audit trail.
+
+It has been built and maintained since 2009, driven by what real teams actually run into: who should see which credential, how to prove it to an auditor, and how to stop passwords living in chat threads and spreadsheets.
+
+![Teampass interface](https://teampass.net/images/portfolio/tp3_sw_1.png)
+
+**📸 More screenshots**
+
+**Items and secrets**
+
+![Item list](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_items_1.png)
+![Item detail](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_items_2.png)
+
+**Folders and roles**
+
+![Folder tree](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_subfolders_1.png)
+![Roles](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_features_roles_1.png)
+![Role rights](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_features_roles_3.png)
+![Role assignment](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_features_roles_5.png)
+
+**Authentication and MFA**
+
+![MFA setup](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_auth_mfa_1.png)
+![OAuth2 settings](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_auth_oauth2_1.png)
+
+**Encryption keys**
+
+![Key management](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_keys_1.png)
+![Key regeneration](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_keys_5.png)
+
+**Search, export, one-time view**
+
+![Keyword search](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_settings_keyword_search.png)
+![Export](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_export_1.png)
+![One-time view](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_otv_1.png)
+![TOTP](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_otp_1.png)
+
+**Background tasks**
+
+![Tasks](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_tasks_04.png)
+![Task settings](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/settings_tasks_options_01.png)
+
+---
+
+## Who it's for
+
+|  |  |  |
+| --- | --- | --- |
+| 🏠 Individuals & Homelab ***Own your vault, literally.***   * Runs on a Raspberry Pi or a €5 VPS * Personal folders encrypted with your own key * Import from Bitwarden, LastPass, 1Password or KeePassXC * Free forever, no sign-up required | 👥 Teams & SMB ***Stop sharing passwords in chat.***   * Folders and roles instead of a shared document * A record of who accessed what, and when * Secure Send for clients and contractors * Browser extension for day-to-day autofill | 🏛️ Enterprise & Regulated ***Prove your access controls, don't just claim them.***   * Access recertification campaigns with immutable decisions * Compliance reports and evidence export * LDAP/AD with nested groups, OAuth2 SSO * Data classification and ownership |
+
+---
+
+## Security
+
+### Encryption you can describe to an auditor
+
+Secrets are encrypted with **AES-256-GCM** using random nonces and per-secret salts, under **256-bit object keys**. The private key that unlocks them is derived from your password with **PBKDF2-SHA256 at 600 000 iterations**.
+
+* **Authenticated encryption** — tampering is detected, not silently decrypted - **Per-user key distribution** — every user holds their own RSA-wrapped copy of each object key, so removing an account actually revokes access instead of just hiding a button
+* **Lazy migration** — format upgrades happen on access, with no maintenance window
+
+![Teampass encryption model](https://raw.githubusercontent.com/nilsteampassnet/teampass/HEAD/docs/_media/tp3_encryption_model.webp)
+
+### Transparency over silence
+
+> A password manager that reports no vulnerabilities is not a password manager that has none.
+
+Findings are triaged, fixed and published as GitHub Security Advisories with CVE identifiers.
+
+* 🔒 [Security policy and how to report](https://github.com/nilsteampassnet/teampass/blob/HEAD/SECURITY.md)
+* 📋 [Published advisories](https://github.com/nilsteampassnet/TeamPass/security/advisories)
+* 🛡️ [Security hardening guide](https://documentation.teampass.net/#/install/security-hardening)
+
+**Found a vulnerability?** Please report it priv...

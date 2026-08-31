@@ -1,0 +1,88 @@
+---
+title: HardBreacher
+url: https://kitploit.com/en/tools/github/msnightmare/hardbreacher
+source: Kitploit
+date: 2026-08-30
+fetch_date: 2026-08-31T07:53:08.228348
+---
+
+# HardBreacher
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/msnightmare/hardbreacher
+
+![](https://assets.kitploit.com/production/public/tools/53560/d874a7ce7ebb14935a9ce6195b33a1d2f2b3ab4512a23dd27e6ab02f00b673d5-display-v1.webp)
+
+[Privilege Escalation](/en/categories/privilege-escalation)[Exploit Frameworks](/en/categories/exploit-frameworks)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Exploitation](/en/categories/exploitation)
+
+![GitHub](/providers/github.png)msnightmare/hardbreacher
+
+# HardBreacher
+
+Kaspersky Antivirus For Endpoint ZeroDay Elevation of Privileges Vulnerability
+
+[View Repository](https://github.com/msnightmare/hardbreacher)
+
+11431482 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# HardBreacher
+
+Kaspersky Antivirus For Endpoint ZeroDay Elevation of Privileges Vulnerability
+
+So the problem is now leaking outside of Microsoft, there was poll held against either finding a bug in the home or commercial version and the poll results were the commercial version.
+
+At the time of writing this, the proof of concept works in a fully patched windows 11 25H2 & Kaspersky for Endpoint v14.0.0.504
+
+The PoC is not in the best shape at all, it is basically duct tapped, I just managed to make it work and that's all. It will fail to run with error so you just have to keep rerunning it. If it succeeds, it will create a file in C:\Windows\System32\MY\_SNAKE\_IS\_SOLID.dll will full permissions for current user.
+
+The interesting part about this is the Kaspersky completely loses it when you take control over the UI process, you can cause it to stop functioning, grant/block access to files its not supposed to, if the PoC succeeds, the entire operating system becomes a hot mess.
+
+Anyways, here is a useless screenshot about where I tested it and it worked (after a reboot)
+![Untitled](https://assets.kitploit.com/production/public/readmes/53560/d874a7ce7ebb14935a9ce6195b33a1d2f2b3ab4512a23dd27e6ab02f00b673d5/6b4acb0882ec395061a8411712f75f197061455006daec8cecbbcde3467c6455-display-v1.webp)
+
+Regardless, I still think this can be turned into a stable silent one click exploit, I just don't have the time and resources to do it.
+
+[Download Tool](https://github.com/msnightmare/hardbreacher)

@@ -1,0 +1,224 @@
+---
+title: smolvm v1.8.3
+url: https://kitploit.com/en/posts/github-smol-machines-smolvm-v183
+source: Kitploit
+date: 2026-08-30
+fetch_date: 2026-08-31T07:52:36.121987
+---
+
+# smolvm v1.8.3
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/7141/57b0d0697239733fdd2697c1815aa172d2e2adbffd0defa5ac35fc6fc7621d63.png)
+
+New releaseAug 30, 2026
+
+# smolvm v1.8.3
+
+Portable, lightweight, self-contained virtual machine.
+
+Share
+
+![smol machines](https://assets.kitploit.com/production/public/readmes/7141/6b8fd173bd97d64ea831a59cdc2b4fd2392dc9b5f2cc90c91594cdb4925a9949.png)
+
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/E5r8rEWY9J)
+[![Release](https://img.shields.io/github/v/release/smol-machines/smolvm?label=Release)](https://github.com/smol-machines/smolvm/releases)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/smol-machines/smolvm/blob/main/LICENSE)
+
+# smolvm
+
+Ship and run software with isolation by default.
+
+This is a CLI tool that lets you:
+
+1. Manage and run custom Linux virtual machines locally with: sub-second cold start, cross-platform (macOS, Linux, Windows), elastic memory usage.
+2. Pack a stateful virtual machine into a single file (.smolmachine) to rehydrate on any supported platform.
+
+## Install
+
+root@kitploit:~
+
+```
+# install (macOS + Linux)
+curl -sSL https://smolmachines.com/install.sh | bash
+
+# for coding agents — install + discover all commands
+curl -sSL https://smolmachines.com/install.sh | bash && smolvm --help
+```
+
+Or download from [GitHub Releases](https://github.com/smol-machines/smolvm/releases), and place it into `~/.local/share/`.
+
+**Windows:** download the `windows-x86_64` release (bundles `krun.dll` + `libkrunfw.dll`), unzip it, and run `smolvm.exe`. Requires the [Windows Hypervisor Platform](https://learn.microsoft.com/en-us/virtualization/api/) (WHP) feature enabled.
+
+## Quick Start
+
+root@kitploit:~
+
+```
+# run a command in an ephemeral VM (cleaned up after exit)
+smolvm machine run --net --image alpine -- sh -c "echo 'Hello world from a microVM' && uname -a"
+
+# interactive shell
+smolvm machine run --net -it --image alpine -- /bin/sh
+# inside the VM: apk add sl && sl && exit
+```
+
+## Smolfile
+
+A Smolfile declares a machine in TOML — the equivalent of a `Dockerfile` or a
+cloud-init file, but for a whole VM: image, resources, network policy, mounts,
+ports, and setup commands in one checked-in file.
+
+root@kitploit:~
+
+```
+image = "python:3.12-alpine"
+net = true
+cpus = 4
+memory = 4096
+
+ports = ["8000:8000", "5173-5180:5173-5180"]
+volumes = ["./src:/app"]
+init = ["pip install -r /app/requirements.txt"]
+
+[network]
+allow_hosts = ["api.stripe.com", "pypi.org"]
+
+[auth]
+ssh_agent = true
+```
+
+root@kitploit:~
+
+```
+smolvm machine create --name myvm -s Smolfile   # or --smolfile <PATH>
+smolvm machine start --name myvm
+```
+
+Port mappings accept a single port (`"8080"`), an explicit mapping (`"8080:80"`), or equal-length one-to-one ranges (`"5173-5180:5173-5180"`). A machine can publish at most 64 concrete mappings.
+
+Unknown keys are rejected rather than ignored, so a typo fails at create time
+instead of silently doing nothing.
+
+Common keys: `image`, `cpus`, `memory`, `net`, `ports`, `volumes`, `env`,
+`init`, `workdir`, `gpu`, `cuda`, `docker_socket`, `storage`, `overlay`, and the
+`[network]`, `[dev]`, `[auth]`, `[health]`, `[restart]`, `[service]` tables.
+
+### Snapshot a machine into a reusable image
+
+You don't need a Dockerfile to keep an environment. Set a machine up however you
+like — by hand, or from a Smolfile — then pack the stopped machine into a
+`.smolmachine` artifact and push it to any OCI registry:
+
+root@kitploit:~
+
+```
+smolvm machine shell --name myvm          # install and configure interactively
+smolvm machine stop  --name myvm
+smolvm pack create --from-vm myvm -o myvm
+smolvm pack push --file myvm.smolmachine ghcr.io/you/myvm:v1
+```
+
+Anyone can then pull it and boot the exact same machine:
+
+root@kitploit:~
+
+```
+smolvm pack pull ghcr.io/you/myvm:v1
+```
+
+Working Smolfiles: [python](https://github.com/smol-machines/smolvm/tree/main/examples/python-app) · [node](https://github.com/smol-machines/smolvm/tree/main/examples/node-app) · [docker-in-vm](https://github.com/smol-machines/smolvm/tree/main/examples/docker-in-vm) · [local-llm](https://github.com/smol-machines/smolvm/tree/main/examples/local-llm) · [headless-browser](https://github.com/smol-machines/smolvm/tree/main/examples/headless-browser) · [doom](https://github.com/smol-machines/smolvm/tree/main/examples/doom-web)
+
+## Use This For
+
+**Sandbox untrusted code** — run untrusted programs in a hardware-isolated VM. Host filesystem, network, and credentials are separated by a hypervisor boundary.
+
+root@kitploit:~
+
+```
+# network is off by default — untrusted code can't phone home
+smolvm machine run --image alpine -- nslookup example.com
+# fails — no network access
+
+# lock down egress — only allow specific hosts
+smolvm machine run --net --image alpine --allow-host registry.npmjs.org -- wget -q -O /dev/null https://registry.npmjs.org
+# works — allowed host
+
+smolvm machine run --net --image alpine --allow-host registry.npmjs.org -- wget -q -O /dev/null https://google.com
+# fails — not in allow list
+```
+
+**Pack into portable executables** — turn any workload into a self-contained binary. All dependencies are pre-baked — no install step, no runtime downloads, boots in <200ms.
+
+root@kitploit:~
+
+```
+smolvm pack create --image python:3.12-alpine -o ./python312
+./python312 run -- python3 --version
+# Python 3.12.x — isolated, no pyenv/venv/conda needed
+```
+
+**Use local container images** — for CI, air-gapped hosts, and fast iteration. Feed `--image` a `docker save` / `podman save` archive, pipe one on stdin, or point it at an unpacked rootfs directory. Image work is delegated to your container tooling; smolvm just boots the result.
+
+root@kitploit:~
+
+```
+# build locally, run in the VM with no push/pull
+docker build -t myapp .
+docker save myapp | smolvm machine run --image - -- ./app
+
+# from an archive file (boots with no network)
+smolvm machine run --image ./myapp.tar -- ./app
+
+# from an already-unpacked rootfs directory
+smolvm machine run --image ./rootfs/ -- ./app
+```
+
+**Persistent machines for development** — create, stop, start. Installed packages survive restarts.
+
+root@kitploit:~
+
+```
+smolvm machine create --net --name myvm
+smolvm machine start --name myvm
+smolvm machine exec --name myvm -- apk add sl
+smolvm machine exec --name myvm -it -- /bin/sh
+# inside: sl, ls, uname -a — type 'exit' to leave
+smolvm machine stop --name myvm
+```
+
+**Use git and SSH without copying private keys into the guest.** Forward your host SSH agent into the VM. The guest can ask the agent to sign with any forwarded key while the socket is available, so forward it only to workloads you trust. Requires an SSH agent running on your host (`ssh-add -l` to check).
+
+root@kitploit:~
+
+```
+smolvm machine run --ssh-agent --net --image alpine -- sh -c "apk add -q openssh-client && ssh-add -l"
+# lists your host keys; private key material remains in the host agent
+
+smolvm machine exec --name myvm -- git clone [email protected]:org/private-repo.git
+```
+
+**Declare environments in a file** — see [Smolfile](#smolfile) above for
+reproducible machine config, and for snapshotting a configured machine into a
+reusable `.smolmachine` image without writing a Dockerfile.
+
+## How It Works
+
+Each workload runs in a hardware-virtualized VM with its own guest kernel on [Hypervisor.framework](https://developer.apple.com/documentation/hypervisor) (macOS), KVM (Linux), or the [Windows Hypervisor Platform](https://learn.microsoft.com/en-us/virtualization/api/) (Windows). [libkrun](https://github.com/containers/libkrun) is the VMM and [libkrunfw](https://github.com/smol-machines/libkrunfw)...
