@@ -1,0 +1,97 @@
+---
+title: Misconfiguration-Manager — Updated!
+url: https://kitploit.com/en/posts/github-subat0mik-misconfiguration-manager-1e6877a81517bfd64c85be72ddb4d6abac4ddb7d42aa8b0419fc5813c48e9ddb
+source: Kitploit
+date: 2026-08-31
+fetch_date: 2026-09-01T06:59:38.611168
+---
+
+# Misconfiguration-Manager — Updated!
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/48751/9f9e177c3aab9a17b568aadcb1e6bf4201872ce06c45217172e70cdc7275b739.png)
+
+UpdatedAug 31, 2026
+
+# Misconfiguration-Manager — Updated!
+
+Misconfiguration Manager is a central knowledge base for all known Microsoft Configuration Manager tradecraft and associated defensive and hardening guidance.
+
+Share
+
+[![Sponsored by SpecterOps](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/specterops/.github/main/config/shield.json&style=flat)](https://github.com/subat0mik/Misconfiguration-Manager)
+[![Slack](https://img.shields.io/badge/Slack-%23sccm-blueviolet?logo=slack)](https://join.slack.com/t/bloodhoundhq/shared_invite/zt-1tgq6ojd2-ixpx5nz9Wjtbhc3i8AVAWw)
+[![@subat0mik on Twitter](https://img.shields.io/twitter/follow/subat0mik?style=social)](https://twitter.com/subat0mik)
+[![@_Mayyhem on Twitter](https://img.shields.io/twitter/follow/_Mayyhem?style=social)](https://twitter.com/_Mayyhem)
+[![@unsigned_sh0rt on Twitter](https://img.shields.io/twitter/follow/unsigned_sh0rt?style=social)](https://twitter.com/unsigned_sh0rt)
+
+---
+
+# Misconfiguration Manager
+
+![MM-cropped](https://assets.kitploit.com/production/public/readmes/48751/9f9e177c3aab9a17b568aadcb1e6bf4201872ce06c45217172e70cdc7275b739.png)
+
+# Remediation Quick Start
+
+1. Review the list of known and documented [Attack Techniques](https://github.com/subat0mik/misconfiguration-manager/blob/HEAD/attack-techniques/README.md) and corresponding [Defense Techniques](https://github.com/subat0mik/misconfiguration-manager/blob/HEAD/defense-techniques/README.md) to identify issues that may be present in your environment and how to remediate them
+   * Refer to this [introduction to the project](https://www.youtube.com/watch?v=GhT6nPes1h0&t=12s&pp=ygUYbWlzY29uZmlndXJhdGlvbiBtYW5hZ2Vy)
+2. Run [ConfigManBearPig](https://github.com/SpecterOps/ConfigManBearPig) and visualize the results in [BloodHound](https://github.com/SpecterOps/BloodHound) for free
+   * Refer to this [walkthrough](https://specterops.io/blog/2026/01/13/introducing-configmanbearpig-a-bloodhound-opengraph-collector-for-sccm/)
+3. Alternatively, run [MisconfigurationManager.ps1](https://github.com/subat0mik/Misconfiguration-Manager/blob/main/MisconfigurationManager.ps1)
+   * Refer to this [walkthrough](https://posts.specterops.io/rooting-out-risky-sccm-configs-with-misconfiguration-manager-0beecaab1af3)
+4. Implement mitigations for identified misconfigurations
+   * Refer to this [walkthrough](https://github.com/subat0mik/Misconfiguration-Manager/blob/main/presentations/The_Admin%27s_Guide_to_Preventing_SCCM_Attacks.pdf) (or [this recording](https://www.youtube.com/watch?v=Rc2J6fmhcJ4) ([slides](https://github.com/subat0mik/Misconfiguration-Manager/blob/main/presentations/SO-CON%202025%20-%20Admins%20Guide%20to%20Preventing%20SCCM%20Attacks.pdf)))
+
+# Overview
+
+This repository serves as a central knowledge base for all known Microsoft Configuration Manager (a.k.a. MCM, ConfigMgr, System Center Configuration Manager, or SCCM) tradecraft and associated defensive and hardening guidance. Our goal is to help demystify SCCM tradecraft and simplify SCCM attack path management for defenders while also educating offensive security professionals on this nebulous attack surface. Designed to go beyond the static nature of whitepapers, this living repository documents known SCCM misconfigurations and their abuses and encourages ongoing contributions from the community to enhance its relevance and utility.
+
+We've curated this repository to raise awareness of the rapidly evolving SCCM threat landscape, drawing inspiration from the [MITRE ATT&CK framework](https://attack.mitre.org/matrices/enterprise/), with a few deviations. We were also strongly influenced by Push Security's [SaaS attack techniques matrix](https://github.com/pushsecurity/saas-attacks/tree/main) as well as Will Schroeder and Lee Chagolla-Christensen's [Certified Pre-Owned](https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf) whitepaper.
+
+Our approach extends beyond cataloging the tactics of known adversaries to include contributions from the realm of penetration testing, red team operations, and security research. At SpecterOps, we've leveraged many misconfigurations highlighted in this repository in real-world environments, while others represent experimental and exploratory research projects proved out in a lab environment.
+
+This project also serves as a central point of reference for all of the [SCCM attack and defense resources](https://github.com/subat0mik/misconfiguration-manager/blob/HEAD/RESOURCES.md) that we're aware of.
+
+We openly invite you to submit both proven and exploratory SCCM-focused attack techniques and defensive strategies and resources to this project and to provide any feedback and recommendations about the content in this repository.
+
+For more of an introduction to the project, please reference our blog and conference talks:
+
+* [Misconfiguration Manager: Overlooked and Overprivileged Blog Post](https://specterops.io/blog/2024/03/05/misconfiguration-manager-overlooked-and-overprivileged/)
+* [Misconfiguration Manager: Overlooked and Overprivileged (SO-CON 2024)](https://www.youtube.com/watch?v=nvaOszFzXCQ&t=4s&pp=ygUYbWlzY29uZmlndXJhdGlvbiBtYW5hZ2Vy)
+* [Misconfiguration Manager: Overlooked and Overprivileged (TROOPERS24)](https://www.youtube.com/watch?v=GhT6nPes1h0&t=12s&pp=ygUYbWlzY29uZmlndXJhdGlvbiBtYW5hZ2Vy)
+* [Misconfiguration Manager: Still Overlooked, Still Overprivileged Blog Post](https://specterops.io/blog/2025/06/26/misconfiguration-manager-still-overlooked-still-overprivileged/)
+
+---
+
+# How to use this project
+
+Refer to the SCCM Attack Matrix and SCCM Attack and Defense Matrix below, which map attack techniques to their MITRE ATT&CK framework tactics, as well as to their detection and prevention strategies.
+
+Offensive security practitioners may also benefit from reviewing the list of known and documented [Attack Techniques](https://github.com/subat0mik/misconfiguration-manager/blob/HEAD/attack-techniques/README.md), which identifies the security context and network access that are required for each technique.
+
+Defenders and IT administrators may benefit from reviewing the list of known and documented [Defense Techniques](https://github.com/subat0mik/misconfiguration-manager/blob/HEAD/defense-techniques/README.md), which identifies the administrator roles we think are most likely to be involved in the implementation of each item.
+
+Curious about how a hierarchy can be completely compromised in certain, mostly default conditions? Check out the list of [TAKEOVER techniques](https://github.com/subat0mik/Misconfiguration-Manager/blob/main/attack-techniques/TAKEOVER/_takeover-techniques-list.md).
+
+If you aren't familiar with a term used in a technique's description, refer to the [glossary page](https://github.com/subat0mik/misconfiguration-manager/blob/HEAD/GLOSSARY.md), which contains definitions for terms commonly used in SCCM.
+
+If you'd like to test these techniques in a lab environment or learn more about SCCM attack and defense, please refer to the [resources page](https://github.com/subat0mik/misconfiguration-manager/blob/HEAD/RESOURCES.md), which contains links to all the SCCM lab and attack/defense resources that we are aware of, many of which inspired and informed the information in this repository.
+
+We've included a [script](https://github.com/subat0mik/misconfiguration-manager/blob/HEAD/MisconfigurationManager.ps1) that will audit many of the misconfigurations included in this repo. For more information about the script a...

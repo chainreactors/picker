@@ -1,0 +1,191 @@
+---
+title: osmedeus v5.1.0
+url: https://kitploit.com/en/posts/github-j3ssie-osmedeus-v510
+source: Kitploit
+date: 2026-08-31
+fetch_date: 2026-09-01T06:59:45.458539
+---
+
+# osmedeus v5.1.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/2279/d3eea7272ea11b0fdc73c0fc68e3ef40372f1d63a226f5792cfcf03156f21d37.png)
+
+New releaseAug 31, 2026
+
+# osmedeus v5.1.0
+
+A Modern Orchestration Engine for Security
+
+Share
+
+# Osmedeus
+
+[![Osmedeus](https://assets.kitploit.com/production/public/readmes/2279/2023d02ecc03602d346d7a9540570d8144424edcb793863bd708b8af04bcc8e0.png)](https://www.osmedeus.org)
+
+**Osmedeus - A Modern Orchestration Engine for Security**
+
+[![](https://img.shields.io/badge/Documentation-0078D4?style=for-the-badge&logo=GitBook&logoColor=39ff14&labelColor=black&color=black)](https://docs.osmedeus.org/)
+[![](https://img.shields.io/badge/Sponsors-0078D4?style=for-the-badge&logo=GitHub-Sponsors&logoColor=39ff14&labelColor=black&color=black)](https://docs.osmedeus.org/donation/)
+[![](https://img.shields.io/badge/@OsmedeusEngine-0078D4?style=for-the-badge&logo=Twitter&logoColor=39ff14&labelColor=black&color=black)](https://twitter.com/OsmedeusEngine)
+[![](https://img.shields.io/badge/Discord%20Server-0078D4?style=for-the-badge&logo=Discord&logoColor=39ff14&labelColor=black&color=black)](https://discord.gg/mtQG2FQsYA)
+[![](https://img.shields.io/github/release/j3ssie/osmedeus?style=for-the-badge&labelColor=black&color=2fc414&logo=Github)](https://github.com/j3ssie/osmedeus/releases)
+
+## What is Osmedeus?
+
+[Osmedeus](https://www.osmedeus.org) is a security focused declarative orchestration engine that simplifies complex workflow automation into auditable YAML definitions, complete with encrypted data handling, secure credential management, and sandboxed execution.
+
+Built for both beginners and experts, it delivers powerful, composable automation without sacrificing the integrity and safety of your infrastructure.
+
+## Key Features
+
+* **Declarative YAML Workflows** - Define pipelines with hooks, decision routing, module exclusion, and conditional branching across multiple runners (host, Docker, SSH)
+* **Distributed Execution** - Redis-based master-worker pattern with queue system, webhook triggers, and file sync across workers
+* **Rich Function Library** - 80+ utility functions including nmap integration, tmux sessions, SSH execution, TypeScript/Python scripting, SARIF parsing, and CDN/WAF classification
+* **Event-Driven Scheduling** - Cron, file-watch, and event triggers with filtering, deduplication, and delayed task queues
+* **Agentic LLM Steps** - Tool-calling agent loops with sub-agent orchestration, memory management, and structured output; plus ACP subprocess agents (Claude Code, Codex, OpenCode, Gemini)
+* **Cloud Infrastructure** - Provision and run scans across DigitalOcean, AWS, GCP, Linode, and Azure with cost controls and automatic cleanup
+* **Rich CLI Interface** - Interactive database queries, bulk function evaluation, workflow linting, progress bars, and comprehensive usage examples
+* **REST API & Web UI** - Full API server with webhook triggers, database queries, and embedded dashboard for visualization
+
+See [Documentation Page](https://docs.osmedeus.org/) for more details.
+
+## Installation
+
+root@kitploit:~
+
+```
+curl -sSL http://www.osmedeus.org/install.sh | bash
+```
+
+### [npm](https://www.npmjs.com/package/%40j3ssie/osmedeus)
+
+root@kitploit:~
+
+```
+npm install -g @j3ssie/osmedeus
+```
+
+Ships prebuilt binaries for linux and macOS on x64/arm64.
+
+See [Quickstart](https://docs.osmedeus.org/quickstart/) for quick setup and [Installation](https://docs.osmedeus.org/installation/) for advanced configurations.
+
+| CLI Usage | Web UI Assets |
+| --- | --- |
+| ![CLI Usage](https://raw.githubusercontent.com/osmedeus/docs/main/images/cli/cli-run-with-verbose-output.png?raw=true) | ![Web UI Assets](https://raw.githubusercontent.com/osmedeus/docs/main/images/web-ui/web-ui-assets.png?raw=true) |
+| **Workflow Visualization** | **Vulnerabilities** |
+| ![Workflow Visualization](https://raw.githubusercontent.com/osmedeus/docs/main/images/web-ui/web-ui-workflow.png?raw=true) | ![Vulnerabilities](https://raw.githubusercontent.com/osmedeus/docs/main/images/web-ui/web-ui-vuln.png?raw=true) |
+
+## ☁️ Sponsor — Bloome
+
+[![Bloome — humans and AI agents, working as one team](https://raw.githubusercontent.com/j3ssie/osmedeus/HEAD/assets/bloome-home.png)](https://bloome.im/app?ref=j3ssie&utm_medium=github&utm_source=j3ssie-osmedeus-ivor-202607)
+
+Automating recon with Osmedeus? [Bloome](https://bloome.im/app?ref=j3ssie&utm_medium=github&utm_source=j3ssie-osmedeus-ivor-202607) brings that same team-of-agents mindset to the rest of your workflow: multiple AI agents (Claude, ChatGPT, DeepSeek and more) in one shared chat that split the work, hand off tasks, cross-check each other, and refine the output until it's right — triage findings, draft reports, and run scheduled checks together. Zero setup, in the cloud, on web and mobile, and shareable with your team. 👉 [Try Bloome](https://bloome.im/app?ref=j3ssie&utm_medium=github&utm_source=j3ssie-osmedeus-ivor-202607)
+
+## Quick Start
+
+root@kitploit:~
+
+```
+# Run a module workflow
+osmedeus run -m recon -t example.com
+
+# Run a flow workflow
+osmedeus run -f general -t example.com
+
+# Multiple targets with concurrency
+osmedeus run -m recon -T targets.txt -c 5
+
+# Dry-run mode (preview)
+osmedeus run -f general -t example.com --dry-run
+
+# Start API server
+osmedeus serve
+
+# List available workflows
+osmedeus workflow list
+
+# Query discovered assets
+osmedeus assets -w example.com                          # List assets for workspace
+osmedeus assets --stats                                 # Show unique technologies, sources, types
+osmedeus assets --source httpx --type web --json        # Filter and output as JSON
+
+# Query vulnerabilities, runs, and steps
+osmedeus query vulns --severity high --workspace example.com
+osmedeus query runs --status running
+osmedeus query steps --run <run-uuid>
+
+# Query database tables
+osmedeus db list --table runs
+osmedeus db list --table event_logs --search "nuclei"
+
+# Evaluate utility functions
+osmedeus func eval 'log_info("hello")'
+osmedeus func eval -e 'http_get("https://example.com")' -T targets.txt -c 10
+
+# Platform variables available in eval
+osmedeus func eval 'log_info("OS: " + PlatformOS + ", Arch: " + PlatformArch)'
+
+# Install from preset repositories
+osmedeus install base --preset
+osmedeus install base --preset --keep-setting   # preserve existing osm-settings.yaml
+osmedeus install workflow --preset
+
+# Exclude modules from flow execution
+osmedeus run -f general -t example.com -x portscan
+osmedeus run -f general -t example.com -X vuln    # Fuzzy exclude by substring
+
+# Worker queue system
+osmedeus worker queue new -f general -t example.com   # Queue for later
+osmedeus worker queue run --concurrency 5              # Process queue
+
+# Worker management
+osmedeus worker status                          # Show workers
+osmedeus worker eval -e 'ssh_exec("host", "whoami")'  # Eval with distributed hooks
+
+# Run an ACP agent interactively
+osmedeus agent "analyze this codebase"
+osmedeus agent --agent codex "explain main.go"
+osmedeus agent --list
+
+# Cloud infrastructure management
+osmedeus cloud create --instances 3                    # Provision cloud machines
+osmedeus cloud setup 1.2.3.4 5.6.7.8                  # Setup existing machines
+osmedeus cloud list                                    # List active infrastructure
+osmedeus cloud run -f general -t example.com --instances 3
+
+# Show all usage examples
+osmedeus --usage-example
+```
+
+## Docker
+
+root@kitploit:~
+
+```
+# Show help
+docker run --rm j3ssie/osmedeus:latest --help
+
+# Run a scan
+docker run --rm -v $(pwd)/output:/root/workspaces-osmedeus \
+    j3ssie/osmedeus:latest run -f general -t example.com
+```
+
+Fo...

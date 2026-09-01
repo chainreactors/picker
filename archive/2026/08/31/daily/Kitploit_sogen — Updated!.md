@@ -1,0 +1,190 @@
+---
+title: sogen — Updated!
+url: https://kitploit.com/en/posts/github-momo5502-sogen-6072423368000a6f09717aab903aba8179d820a360809b652ea91f81d92bd78b
+source: Kitploit
+date: 2026-08-31
+fetch_date: 2026-09-01T06:59:39.939339
+---
+
+# sogen — Updated!
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/48935/055477d5d764e589a60113c329a35d5742d016f1613464cb17e4ff608446c1c6.png)
+
+UpdatedAug 31, 2026
+
+# sogen — Updated!
+
+🪅 Windows & Linux userspace emulator
+
+Share
+
+# [![](https://assets.kitploit.com/production/public/readmes/48935/055477d5d764e589a60113c329a35d5742d016f1613464cb17e4ff608446c1c6.png)](https://github.com/momo5502/sogen) [![](https://img.shields.io/github/license/momo5502/sogen?color=00B0F8)](https://github.com/momo5502/sogen?tab=GPL-2.0-1-ov-file) [![](https://img.shields.io/github/actions/workflow/status/momo5502/sogen/build.yml?branch=main&label=build)](https://github.com/momo5502/sogen/actions) [![](https://img.shields.io/github/issues/momo5502/sogen?color=F8B000)](https://github.com/momo5502/sogen/issues) ![](https://img.shields.io/github/commit-activity/m/momo5502/sogen?color=FF3131) [![inspect.software score badge for momo5502/sogen](https://img.shields.io/endpoint?url=https://inspect.software/badge/v1/momo5502/sogen.json)](https://inspect.software/software/momo5502/sogen)
+
+Sogen runs Windows and Linux programs without a real operating system, and lets you see and control everything they do.
+
+Instead of reimplementing thousands of OS APIs, Sogen emulates binaries at CPU and syscall level and runs the **real system DLLs**, so behavior closely matches the real OS.
+
+Every instruction, memory access and API call can be hooked, inspected or rewritten, runs are fully deterministic, and the entire emulator state can be snapshotted and restored.
+
+Built in C++ and powered by the CPU backend of your choice:
+
+* [Unicorn Engine](https://github.com/unicorn-engine/unicorn)
+* [icicle-emu](https://github.com/icicle-emu/icicle-emu)
+* [Hyper-V (WHP)](https://learn.microsoft.com/en-us/virtualization/api/hypervisor-platform/hypervisor-platform)
+* [KVM](https://www.kernel.org/doc/html/latest/virt/kvm/api.html)
+* [FEX](https://fex-emu.com)
+
+Try it out: [sogen.dev](https://sogen.dev)
+
+## Key Features
+
+* **Real system DLLs**: runs the actual ntdll, kernel32 and user32, not reimplemented stubs
+* **Hook & rewrite**: intercept and change memory, instructions, syscalls and API calls
+* **Faithful Windows internals**: PE loading (relocations, TLS), Windows memory types, SEH, threading, the registry, filesystem and networking
+* **Snapshot & restore**: full state serialization, fast in-memory snapshots and minidump loading
+* **Runs everywhere**: Windows, Linux, macOS, Android, iOS and the browser, on x86-64 and arm64
+* **Deterministic**: every run is reproducible, down to the instruction
+
+## Preview
+
+![Preview](https://momo5502.com/sogen/preview.svg)
+
+## Undetectable Debugging
+
+Debug with the tools you already know, like IDA Pro or GDB, over the GDB protocol, or use the built-in in-browser debugger.
+The debugger runs at the emulator level, outside the process, so it stays invisible to anti-debug checks.
+
+![Debugging a process running in Sogen from an IDA Pro remote GDB session](https://assets.kitploit.com/production/public/readmes/48935/a18ec942ce8aa95c626bb55f02dc76c6e61dd781f80b1099f2c1c39bfffa41fe.png)
+
+## Run Games in a Sandbox
+
+Native GUI apps run, with working windows, dialogs and controls.
+GPU paravirtualization enables 3D acceleration on your real GPU, while the Hyper-V backend runs the code natively on your CPU. Fast enough for games.
+Direct3D 8/9/10/11 titles run through [DXVK](https://github.com/doitsujin/dxvk), which translates Direct3D to Vulkan on top of the GPU bridge.
+
+![A game running inside the Sogen emulator](https://assets.kitploit.com/production/public/readmes/48935/11eb76db68f76b9fd16886f6cdf31477646ced84c4f7509b7c0df31c967a017f.png)
+
+## Project Overview
+
+[![YouTube Video](https://assets.kitploit.com/production/public/readmes/48935/748dda1f1cc6eca0dfd951918f34dc4c5e15bd5c71a571fee6eaa606ab076cd2.png)](https://www.youtube.com/watch?v=wY9Q0DhodOQ)
+
+Click [here](https://docs.google.com/presentation/d/1pha4tFfDMpVzJ_ehJJ21SA_HAWkufQBVYQvh1IFhVls/edit) for the slides.
+
+## Python Bindings
+
+Install with:
+
+root@kitploit:~
+
+```
+pip install sogen
+```
+
+Python bindings require an emulation root. You can download a ready-made root [here](https://sogen.dev/root.zip), or create your own by following the instructions in the [wiki](https://github.com/momo5502/sogen/wiki/Run-The-Emulator#emulation-root-environment).
+
+Example:
+
+root@kitploit:~
+
+```
+import sogen
+
+emu = sogen.windows.create_application("c:/test-sample.exe", emulation_root="./root")
+
+def on_module_load(module):
+    if module.name.lower() == "test-sample.exe":
+        emu.hooks.memory_execution_at(module.entry_point, lambda address: print(f"hit entry point: 0x{address:x}"))
+
+emu.callbacks.on_module_load = on_module_load
+emu.start()
+print(emu.process.exit_status)
+```
+
+See `examples/python/README.md` for setup details and a larger example.
+
+## Unofficial Bindings
+
+[Dart bindings](https://github.com/Wdestroier/sogen_dart) are available in a separate repository.
+
+## Quick Start (Windows + Visual Studio)
+
+> [!TIP]
+> Checkout the [Wiki](https://github.com/momo5502/sogen/wiki) for more details on how to build & run the emulator on Windows, Linux, macOS, ...
+
+1. Checkout the code:
+
+root@kitploit:~
+
+```
+git clone --recurse-submodules https://github.com/momo5502/sogen.git
+```
+
+2. Run the following command in an x64 Development Command Prompt in the cloned directory:
+
+root@kitploit:~
+
+```
+cmake --preset=vs2022
+```
+
+3. Build the solution that was generated at `build/vs2022/sogen.sln`
+
+4. Create a registry dump by running the [grab-registry.bat](https://github.com/momo5502/sogen/blob/main/src/tools/grab-registry.bat) as administrator and place it in the artifacts folder next to the `analyzer.exe`
+
+5. Run the program of your choice:
+
+root@kitploit:~
+
+```
+analyzer.exe C:\example.exe
+```
+
+[Read more](/en/tools/github/momo5502/sogen?expand=1)
+
+## Categories
+
+[Dynamic Analysis (Sandboxing)](/en/categories/dynamic-analysis-sandboxing)[Reverse Engineering](/en/categories/reverse-engineering)[Debuggers](/en/categories/debuggers)[Security Virtualization](/en/categories/security-virtualization)[Malware Analysis](/en/categories/malware-analysis)[Binary Analysis](/en/categories/binary-analysis)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

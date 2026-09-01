@@ -1,0 +1,417 @@
+---
+title: proxy v0.7.0
+url: https://kitploit.com/en/posts/github-git-pkgs-proxy-v070
+source: Kitploit
+date: 2026-08-31
+fetch_date: 2026-09-01T06:59:37.858796
+---
+
+# proxy v0.7.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/7887/0c664b3526277308d54dab8948530bf12ad267d1dbd20f94f9e51ed8ced166d9.png)
+
+New releaseAug 31, 2026
+
+# proxy v0.7.0
+
+A lightweight caching proxy for package registries.
+
+Share
+
+# git-pkgs proxy
+
+A caching proxy for package registries. Speeds up package downloads by caching artifacts locally, reducing bandwidth usage and improving reliability.
+
+## Version Cooldown
+
+Most supply chain attacks rely on speed: a malicious version gets published and consumed by automated pipelines within minutes, before anyone notices. The cooldown feature adds a quarantine period to newly published versions. When enabled, the proxy strips versions from metadata responses until they've aged past a configurable threshold.
+
+root@kitploit:~
+
+```
+cooldown:
+  default: "3d"              # hide versions published less than 3 days ago
+  ecosystems:
+    npm: "7d"                # npm gets a longer window
+    cargo: "0"               # disable for cargo
+  packages:
+    "pkg:npm/lodash": "0"    # exempt trusted packages
+```
+
+A 3-day cooldown means that when `lodash` publishes version `4.18.0`, your builds keep using `4.17.21` until 3 days have passed. If the new release turns out to be compromised, you were never exposed.
+
+Resolution order: package override, then ecosystem override, then global default. This lets you set a conservative default and carve out exceptions for packages where you need faster updates. See [docs/configuration.md](https://github.com/git-pkgs/proxy/blob/HEAD/docs/configuration.md) for the full config reference.
+
+## Supported Registries
+
+| Registry | Language/Platform | Cooldown | Completed |
+| --- | --- | --- | --- |
+| npm | JavaScript | Yes | ✓ |
+| Cargo | Rust | Yes | ✓ |
+| RubyGems | Ruby | Yes | ✓ |
+| Go proxy | Go |  | ✓ |
+| Hex | Elixir | Yes\* | ✓ |
+| pub.dev | Dart | Yes | ✓ |
+| PyPI | Python | Yes | ✓ |
+| Maven | Java |  | ✓ |
+| Gradle Build Cache | Java/Kotlin |  | ✓ |
+| NuGet | .NET | Yes | ✓ |
+| Composer | PHP | Yes | ✓ |
+| Conan | C/C++ |  | ✓ |
+| Conda | Python/R | Yes | ✓ |
+| CRAN | R |  | ✓ |
+| Julia | Julia |  | ✓ |
+| Container | Docker/OCI |  | ✓ |
+| Debian | Debian/Ubuntu |  | ✓ |
+| RPM | RHEL/Fedora |  | ✓ |
+| Alpine | Alpine Linux |  | ✗ |
+| Arch | Arch Linux |  | ✗ |
+| Chef | Chef |  | ✗ |
+| Generic | Any |  | ✗ |
+| Helm | Kubernetes |  | ✗ |
+| Swift | Swift |  | ✗ |
+| Vagrant | Vagrant |  | ✗ |
+
+Cooldown requires publish timestamps in metadata. Registries without a "Yes" in the cooldown column either don't expose timestamps or haven't been wired up yet.
+
+\* Hex cooldown requires disabling registry signature verification (`HEX_NO_VERIFY_REPO_ORIGIN=1`) since the proxy re-encodes the protobuf payload.
+
+## Install
+
+root@kitploit:~
+
+```
+brew install git-pkgs/git-pkgs/proxy
+```
+
+Or download a binary from the [releases page](https://github.com/git-pkgs/proxy/releases).
+
+## Quick Start
+
+root@kitploit:~
+
+```
+# Build from source
+go build -o proxy ./cmd/proxy
+
+# Run with defaults (listens on :8080)
+./proxy
+
+# Run with custom settings
+./proxy -listen :3000 -base-url https://proxy.example.com
+```
+
+The proxy is now running. Configure your package managers to use it.
+
+## OpenAPI (Swagger)
+
+This repo uses swaggo to generate an OpenAPI spec from annotated handlers.
+
+Generate the spec:
+
+root@kitploit:~
+
+```
+go install github.com/swaggo/swag/cmd/swag@latest
+go generate ./internal/server
+```
+
+Generated files are written to `docs/swagger/`.
+
+When the proxy is running, fetch the live spec from:
+
+* `http://localhost:8080/openapi.json`
+
+Or replace `http://localhost:8080` with your configured base URL. This link is also shown on the dashboard.
+
+## Configuring Package Managers
+
+### npm
+
+Create or edit `~/.npmrc`:
+
+root@kitploit:~
+
+```
+registry=http://localhost:8080/npm/
+```
+
+Or set per-project in `.npmrc`:
+
+root@kitploit:~
+
+```
+registry=http://localhost:8080/npm/
+```
+
+Or use environment variable:
+
+root@kitploit:~
+
+```
+npm_config_registry=http://localhost:8080/npm/ npm install
+```
+
+### Cargo
+
+Create or edit `~/.cargo/config.toml`:
+
+root@kitploit:~
+
+```
+[source.crates-io]
+replace-with = "proxy"
+
+[source.proxy]
+registry = "sparse+http://localhost:8080/cargo/"
+```
+
+Or set per-project in `.cargo/config.toml` in your project root.
+
+### RubyGems / Bundler
+
+Set the gem source in your `Gemfile`:
+
+root@kitploit:~
+
+```
+source "http://localhost:8080/gem"
+```
+
+Or configure globally:
+
+root@kitploit:~
+
+```
+gem sources --add http://localhost:8080/gem/
+bundle config mirror.https://rubygems.org http://localhost:8080/gem
+```
+
+### Go modules
+
+Set the GOPROXY environment variable:
+
+root@kitploit:~
+
+```
+export GOPROXY=http://localhost:8080/go,direct
+```
+
+Or in your shell profile for persistence.
+
+### Hex (Elixir)
+
+Configure in `~/.hex/hex.config`:
+
+root@kitploit:~
+
+```
+{default_url, <<"http://localhost:8080/hex">>}.
+```
+
+Or set the environment variable:
+
+root@kitploit:~
+
+```
+export HEX_MIRROR=http://localhost:8080/hex
+```
+
+### pub.dev (Dart/Flutter)
+
+Set the PUB\_HOSTED\_URL environment variable:
+
+root@kitploit:~
+
+```
+export PUB_HOSTED_URL=http://localhost:8080/pub
+```
+
+### PyPI (pip)
+
+Configure pip to use the proxy:
+
+root@kitploit:~
+
+```
+pip install --index-url http://localhost:8080/pypi/simple/ package_name
+```
+
+Or set in `~/.pip/pip.conf`:
+
+root@kitploit:~
+
+```
+[global]
+index-url = http://localhost:8080/pypi/simple/
+```
+
+### Maven
+
+Add to your `~/.m2/settings.xml`:
+
+root@kitploit:~
+
+```
+<settings>
+  <mirrors>
+    <mirror>
+      <id>proxy</id>
+      <mirrorOf>central</mirrorOf>
+      <url>http://localhost:8080/maven/</url>
+    </mirror>
+  </mirrors>
+</settings>
+```
+
+The `/maven/` endpoint uses Maven Central as primary upstream and falls back to the Gradle Plugin Portal for Gradle plugin marker metadata and related artifacts when the primary upstream returns not found.
+
+For Gradle plugin resolution via the same proxy endpoint:
+
+root@kitploit:~
+
+```
+pluginManagement {
+  repositories {
+    maven(url = "http://localhost:8080/maven/")
+  }
+}
+```
+
+### Gradle HTTP Build Cache
+
+Configure in `settings.gradle(.kts)`:
+
+root@kitploit:~
+
+```
+buildCache {
+  local {
+    enabled = false
+  }
+  remote<HttpBuildCache> {
+    url = uri("http://localhost:8080/gradle/")
+    push = true
+  }
+}
+```
+
+### NuGet
+
+Configure in `nuget.config`:
+
+root@kitploit:~
+
+```
+<configuration>
+  <packageSources>
+    <clear />
+    <add key="proxy" value="http://localhost:8080/nuget/v3/index.json" />
+  </packageSources>
+</configuration>
+```
+
+Or use the CLI:
+
+root@kitploit:~
+
+```
+dotnet nuget add source http://localhost:8080/nuget/v3/index.json -n proxy
+```
+
+### Composer (PHP)
+
+Configure in `composer.json`:
+
+root@kitploit:~
+
+```
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://localhost:8080/composer"
+        }
+    ]
+}
+```
+
+Or set globally:
+
+root@kitploit:~
+
+```
+composer config -g repositories.proxy composer http://localhost:8080/composer
+```
+
+### Conan (C/C++)
+
+Add the proxy as a remote:
+
+root@kitploit:~
+
+```
+conan remote add proxy http://localhost:8080/conan
+conan remote disable conancenter
+```
+
+Or configure in `~/.conan2/remotes.json`.
+
+### Conda
+
+Configure in `~/.condarc`:
+
+root@kitploit:~
+
+```
+channels:
+  - http://localhost:8080/conda/main
+  - http://localhost:8080/conda/conda-forge
+default_channels:
+  - http://localhost:8080/conda/main
+```
+
+Or set via command:
+
+root@kitploit:~
+
+```
+conda config --add channels http://localhost:8080/conda/main
+```
+
+### CRAN (R)
+
+Set the repository in R:
+
+root@kitploit:~
+
+```
+options(repos = c(CRAN = "http://localhost:8080/cran"))
+```
+
+Or in `~/.Rprofile` for persistence:
+
+root@kitploit:~
+
+```
+local({
+  r <- getOption("repos")
+  r["CRAN"] <- "http://loca...

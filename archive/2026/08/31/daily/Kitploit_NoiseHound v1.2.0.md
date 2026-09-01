@@ -1,0 +1,168 @@
+---
+title: NoiseHound v1.2.0
+url: https://kitploit.com/en/posts/github-warpedatom-noisehound-v120
+source: Kitploit
+date: 2026-08-31
+fetch_date: 2026-09-01T06:59:45.140817
+---
+
+# NoiseHound v1.2.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50019/502beed5defd8b7d32991f173f6339e3214eb604968886518cd026cc2e4d3ee5.png)
+
+New releaseAug 31, 2026
+
+# NoiseHound v1.2.0
+
+Detection-aware BloodHound attack-path scoring - the quietest route to your objective, calibrated across five detection tiers (audit/EDR/Elastic/MDI/WDAC) plus Azure.
+
+Share
+
+![NoiseHound](https://assets.kitploit.com/production/public/readmes/50019/502beed5defd8b7d32991f173f6339e3214eb604968886518cd026cc2e4d3ee5.png)
+
+# NoiseHound
+
+[![PyPI](https://img.shields.io/pypi/v/noisehound)](https://pypi.org/project/noisehound/)
+[![Release](https://img.shields.io/github/v/release/warpedatom/NoiseHound)](https://github.com/warpedatom/NoiseHound/releases)
+[![License](https://img.shields.io/github/license/warpedatom/NoiseHound)](./LICENSE)
+![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB?logo=python&logoColor=white)
+[![CI](https://img.shields.io/github/actions/workflow/status/warpedatom/NoiseHound/ci.yml?branch=main&label=CI)](https://github.com/warpedatom/NoiseHound/actions/workflows/ci.yml)
+[![Security policy](https://img.shields.io/badge/Security-Policy-green)](./SECURITY.md)
+[![X (Twitter): @warped_atom](https://img.shields.io/badge/X-@warped__atom-000000?logo=x&logoColor=white)](https://x.com/warped_atom)
+
+**Detection-aware Active Directory attack-path scoring.**
+*DreadHost Research | companion to OffsetInspect (PowerShell) and OffsetScan (Rust)*
+
+BloodHound (and PlumHound on top of it) finds *a* path to the objective.
+NoiseHound ingests the same graph data and re-ranks paths by **expected
+detection cost** instead of hop count, so an operator can ask "what is the
+quietest way to Domain Admin" instead of just "what is a way".
+
+> **New here? The [Operator Walkthrough](https://github.com/warpedatom/noisehound/blob/HEAD/docs/WALKTHROUGH.md) is the fastest way to
+> see what this does** - a hands-on, screenshot-driven tour from install to a live
+> BloodHound CE proof of concept (scores written back into the UI), the DeadAir
+> engine, and the blue-team detection-gap report.
+
+> **Project status (v1.2.0):** stable and tested on real BloodHound data across
+> multiple domains. **37 of the 77 corpus edges are lab-measured** across five
+> on-prem detection tiers (Windows audit, Defender for Endpoint, Elastic SIEM,
+> Defender for Identity runtime alerts, and WDAC audit) plus a measured Azure/Entra
+> tier - shipped as six drop-in profiles in [`profiles/`](https://github.com/warpedatom/noisehound/blob/HEAD/profiles/), with
+> closed-loop proof they change path rankings ([`docs/VALIDATION.md`](https://github.com/warpedatom/noisehound/blob/HEAD/docs/VALIDATION.md)).
+> The corpus includes 13 **Azure/Entra** edges ([`docs/AZURE.md`](https://github.com/warpedatom/noisehound/blob/HEAD/docs/AZURE.md)),
+> ingestible straight from AzureHound output.
+> Un-measured on-prem and all Azure edges carry **expert estimates**; the calibration
+> harness (`noisehound-calibrate`) is how they, and your own environment, get
+> measured. Treat uncalibrated rankings as well-reasoned guidance, not ground truth.
+
+> For authorized engagements only. This tool scores attack paths for OPSEC
+> planning against systems you have written permission to test.
+
+> NoiseHound is an independent community project. It is not affiliated with,
+> endorsed by, or associated with SpecterOps or the BloodHound project; it
+> consumes BloodHound's open data format.
+
+---
+
+## How it works
+
+1. **Ingest** a BloodHound CE export (`.zip`), a raw JSON file, or a directory
+   of exports into an internal graph. A normalised `{nodes, edges}` JSON format
+   is also accepted for offline analysis and tests. AD CS **ESC1-8** escalation
+   edges are synthesised at load time from the certificate-template and CA facts
+   BloodHound collects (see below).
+2. **Annotate** every edge from the edge-telemetry corpus, attaching an
+   `effective_noise_score` (0-100). Where several rights connect the same pair
+   of nodes, the quietest is chosen. Edge types absent from the corpus default
+   to a conservative score (60) so gaps fail safe rather than under-reporting.
+   An optional **environment profile** adjusts scores for the target's declared
+   detection posture (see below).
+3. **Solve** for the quietest paths. Because the path score is a bottleneck plus
+   mean (not a simple sum), it cannot be optimised directly by Dijkstra. The
+   solver combines a *threshold sweep* (for each distinct noise level, the
+   quietest route that stays under it) with a bounded k-shortest-by-weight pass,
+   then re-ranks the union by the real path score. The threshold sweep is the
+   correctness backstop: it surfaces a long-but-uniformly-quiet path that a pure
+   summed-weight search would rank below a short-but-loud one.
+4. **Report** as text, JSON (interoperable with the OffsetInspect result
+   schema), or a self-contained HTML report styled to match the toolset.
+
+### Path scoring
+
+Path noise is deliberately **not** a simple sum. Tripping the same detection
+twice is not twice as loud (SOC triage, not raw event count). NoiseHound uses:
+
+root@kitploit:~
+
+```
+path_score = max(edge_scores) * 0.6 + mean(edge_scores) * 0.4
+```
+
+This weights toward the loudest single step (one bad step often burns the whole
+op) while still accounting for cumulative exposure. The weights are configurable
+(`--max-weight` / `--mean-weight`) so they can be tuned empirically once real
+detection data is available from an APT29/Caldera lab.
+
+Every path also reports a **detection probability** - the chance it trips a
+correlated alert - blending the loudest edge with the cumulative noisy-OR of all
+edges (tuned by `--correlation`). It answers a different question than the noise
+score: a short but loud path can have a *lower* overall probability of being
+caught than a long but quiet one. Rank by it with `--rank-by probability`.
+
+### Two-tier engine (DeadAir)
+
+For large graphs the solve is dispatched to [DeadAir](https://github.com/warpedatom/DeadAir), a companion
+Rust engine (the OffsetScan-to-OffsetInspect tier). NoiseHound stays the
+feature-rich frontend - ingestion, corpus, environment/Sigma, constraints,
+reporting - and hands the prepared graph to whichever engine solves it, so
+results are identical either way.
+
+* `--engine auto` (default): DeadAir when its binary is found *and* the graph is
+  large (>= 5000 nodes); the built-in Python solver otherwise.
+* `--engine python`: force the built-in solver (no binary needed).
+* `--engine rust`: force DeadAir (errors if the binary is missing).
+
+DeadAir is found via `$NOISEHOUND_DEADAIR`, then `PATH`, then the sibling
+`../deadair/target/{release,debug}/` build. It is 10-100x faster on large graphs
+(a 250k-node graph solves in ~2s vs ~30s in Python) while producing byte-identical
+rankings. The output records which engine ran.
+
+### Multi-objective and constrained pathing
+
+Noise, hop count, and detection probability pull in different directions, so
+`--pareto` returns the **Pareto frontier** - every path that no other beats on
+all three at once - instead of forcing a single winner. And real operations
+have constraints: `--avoid NODE` keeps a path off a specific host (an
+EDR-monitored jump box, a honeypot), and `--avoid-edge TYPE` refuses a technique
+(e.g. `--avoid-edge DCSync`). Both are repeatable and re-solve on the fly.
+
+root@kitploit:~
+
+```
+python -m noisehound -i export.zip -s jdoe -o "Domain Admins" --pareto
+python -m noisehound -i export.zip -s jdoe -o "Domain Admins" --avoid FILESERVER01 --avoid-edge HasSession
+```
+
+---
+
+## How NoiseHound compares
+
+Weighted BloodHound pathfinding is not new, so here is the honest position...

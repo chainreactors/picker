@@ -1,0 +1,200 @@
+---
+title: nightcrawler — Updated!
+url: https://kitploit.com/en/posts/github-garagehq-nightcrawler-92f557e638b634a33630267578d646db6a46f529b6382ee89fb5cf0fd02b1423
+source: Kitploit
+date: 2026-08-31
+fetch_date: 2026-09-01T06:59:45.810552
+---
+
+# nightcrawler — Updated!
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/47403/0ff5de0ed188b86aaaf42e4595e3a9691904dd7b1b527f7a7a459384b5ede362.png)
+
+UpdatedAug 31, 2026
+
+# nightcrawler — Updated!
+
+Local AI powered red teamer on a phone
+
+Share
+
+# Nightcrawler
+
+An autonomous penetration testing agent that runs entirely on a smartphone. Drop the phone on a network, walk away, and it discovers hosts, maps services, finds vulnerabilities, and generates a pentest report — all without cloud connectivity.
+
+root@kitploit:~
+
+```
+ ░█▄░█ █ █▀▀ █░█ ▀█▀ █▀▀ █▀█ ▄▀█ █░█░█ █░░ █▀▀ █▀█
+ ░█░▀█ █ █▄█ █▀█ ░█░ █▄▄ █▀▄ █▀█ ▀▄▀▄▀ █▄▄ ██▄ █▀▄  v0.1.0
+
+ AUTONOMOUS MOBILE PENTEST AGENT
+ OnePlus 8 · NetHunter · LFM2.5-1.2B · OpenCL GPU
+```
+
+## What is this?
+
+**Penetration testing** (pentesting) is the practice of testing a computer network's security by simulating an attack — with the network owner's explicit permission. Professional pentesters are hired to find vulnerabilities *before* real attackers do.
+
+Nightcrawler automates this process on a phone. It uses a small AI model (LFM2.5-1.2B-Instruct-Heretic, 1.2 billion parameters) running locally on the phone's GPU to decide what to do next — which host to probe, which tool to use, what to look for. No internet connection or cloud API required.
+
+## Demo
+
+▶️ **[Watch Nightcrawler in action on Instagram](https://www.instagram.com/p/DYNXFvVN0c_/)**
+
+### How it works
+
+1. **WiFi Breach** (optional) — If dropped without WiFi, it can autonomously crack WPA2 networks using an external USB WiFi adapter
+2. **Reconnaissance** — Discovers devices on the network using stealthy scans
+3. **Enumeration** — Probes discovered services (web servers, file shares, SSH, DNS, etc.)
+4. **Exploitation** — Tests for known vulnerabilities and default credentials
+5. **Reporting** — Generates a structured pentest report with findings and remediation advice
+
+The agent operates like a patient human pentester — it rotates across hosts, does one small action per turn, and builds knowledge gradually over hours. This makes it much harder to detect than traditional vulnerability scanners that blast every host at once.
+
+### Key concepts
+
+| Term | What it means |
+| --- | --- |
+| **Drop box** | A device left on a target network to perform testing autonomously |
+| **Scope** | The set of networks/hosts you're authorized to test |
+| **Rules of Engagement (ROE)** | A legal document specifying what you're allowed to do |
+| **Stealth** | Techniques to avoid detection by network monitoring (IDS/IPS) |
+| **MCP** | Model Context Protocol — a standard interface for AI tool use |
+| **C2** | Command and Control — the web dashboard for monitoring and steering the agent |
+
+## Architecture
+
+root@kitploit:~
+
+```
+┌──────────────────────────────────────────────────────────┐
+│                   PHONE (OnePlus 8)                       │
+│                                                           │
+│  ┌─────────────┐     ┌──────────────────┐                │
+│  │  LFM2.5     │     │  Agent Loop      │                │
+│  │  1.2B model │◄───►│  (main.py)       │                │
+│  │  on GPU     │     │  Decides what     │                │
+│  │  (:8080)    │     │  to do next       │                │
+│  └─────────────┘     └────────┬─────────┘                │
+│                               │                           │
+│                      ┌────────▼─────────┐                │
+│                      │  Scope Proxy     │  ← Safety layer │
+│                      │  Validates every │    Blocks out-  │
+│                      │  command before  │    of-scope     │
+│                      │  execution       │    actions      │
+│                      └────────┬─────────┘                │
+│                               │                           │
+│                      ┌────────▼─────────┐                │
+│                      │  Kali MCP Server │  ← Runs the    │
+│                      │  nmap, curl,     │    actual       │
+│                      │  smbclient, ...  │    commands     │
+│                      └──────────────────┘                │
+│                                                           │
+│  ┌──────────────────┐  ┌──────────────────┐              │
+│  │  Web Dashboard   │  │  SQLite DB       │              │
+│  │  (:8888)         │  │  Hosts, vulns,   │              │
+│  │  Monitor & steer │  │  creds, commands │              │
+│  └──────────────────┘  └──────────────────┘              │
+└──────────────────────────────────────────────────────────┘
+```
+
+For the full system design, see [docs/ARCHITECTURE.md](https://github.com/garagehq/nightcrawler/blob/HEAD/docs/ARCHITECTURE.md).
+
+## Features
+
+* **Fully autonomous** — no human in the loop during operation
+* **100% local inference** — AI runs on the phone's GPU, no cloud needed
+* **Scope-enforced** — two-layer defense prevents out-of-scope actions
+* **Stealth-first** — slow scan rates, host rotation, cover traffic, nmap -T2 only
+* **27 exploit playbooks** — multi-step attack chains that execute automatically
+* **24,956-entry CVE database** — version-aware vulnerability matching
+* **Web dashboard** — real-time monitoring, host management, C2 controls
+* **WiFi breach mode** — autonomous WPA2 cracking with USB adapter (Pwnagotchi-inspired)
+* **Passive discovery** — background capture of mDNS/NBNS/DHCP/ARP broadcasts
+* **Multi-network** — data isolated per network, survives DHCP changes via MAC-keyed hosts
+* **Self-healing** — garbage detection, context reset, watchdogs, stuck detection
+* **Training capture** — logs successful interactions for future model fine-tuning
+* **Report generation** — downloadable pentest report with vulns, exploit chains, remediation
+
+See [docs/FEATURES.md](https://github.com/garagehq/nightcrawler/blob/HEAD/docs/FEATURES.md) for the complete feature reference.
+
+## Hardware
+
+### Required
+
+* **Android phone** with [Kali NetHunter](https://www.kali.org/docs/nethunter/) (tested on OnePlus 8, Snapdragon 865)
+* **Root access** via [Magisk](https://github.com/topjohnwu/Magisk)
+* **12GB+ RAM** (model uses ~1.3GB, Android uses ~4GB, rest for tools)
+
+### Optional
+
+* **USB WiFi adapter** for offline WiFi breach mode (Ralink RT3572 recommended)
+* **Custom kernel** with MAC80211 for monitor mode ([build guide](https://github.com/garagehq/nightcrawler/blob/HEAD/docs/KERNEL_BUILD_PROMPT.md))
+* **NVIDIA AGX** for offloading to a larger model over Tailscale
+
+### GPU Performance
+
+All inference via OpenCL on Adreno 650 GPU:
+
+| Model | Quantization | Prompt Speed | Generation Speed |
+| --- | --- | --- | --- |
+| **LFM2.5-1.2B-Instruct-Heretic** (production) | Q8\_0 | 115 tok/s | 13 tok/s |
+| Qwen3.5-0.8B | Q8\_0 | 30.5 tok/s | 6.3 tok/s |
+| Qwen3.5-4B | Q4\_0 | 10.1 tok/s | 2.0 tok/s |
+
+> **Note:** Android throttles the GPU on battery power (6x slowdown). Nightcrawler includes a GPU governor daemon that forces max performance and auto-throttles at ≤15% battery.
+
+## Quick Start
+
+root@kitploit:~
+
+```
+# 1. Install (inside Kali NetHunter chroot)
+bash INSTALL.sh
+
+# 2. Wait for llama-server to start (~5 min after boot)
+curl -s http://127.0.0.1:8080/health  # Should return {"status":"ok"}
+
+# 3. Start all services
+bash scripts/run-36h.sh
+
+# 4. Open the web dashboard (from any device on your Tailscale network)
+# https://<your-tailscale-hostname>:8888
+```
+
+### Dry Run (no real commands executed)
+
+root@kitploit:~
+
+```
+NC_DRY_RUN=1 python3 main.py
+```
+
+This uses a mock Kali server so you can test the agent loop without executing real network commands.
+
+### Manual Start (if not using tmux launcher)
+
+root@kitploit:~
+
+```
+kali-server-mcp --port 5000 &
+python3 scope_proxy.py --config config.yaml --port 8800 ...
