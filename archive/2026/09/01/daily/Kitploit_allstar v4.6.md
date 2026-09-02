@@ -1,0 +1,188 @@
+---
+title: allstar v4.6
+url: https://kitploit.com/en/posts/github-ossf-allstar-v46
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:08.342935
+---
+
+# allstar v4.6
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/4605/56f8714eef22fa31a6956e341013b069f09b7dd1b45c374eec1e6987c911ed49.png)
+
+New releaseSep 1, 2026
+
+# allstar v4.6
+
+GitHub App to set and enforce security policies
+
+Share
+
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/ossf/allstar/badge)](https://api.scorecard.dev/projects/github.com/ossf/allstar)
+
+![](https://assets.kitploit.com/production/public/readmes/4605/56f8714eef22fa31a6956e341013b069f09b7dd1b45c374eec1e6987c911ed49.png)
+
+# **Allstar**
+
+> [!IMPORTANT]
+> **The OpenSSF-hosted Allstar GitHub App has been retired.**
+> Allstar, the OpenSSF Scorecard subproject, itself continues to be
+> maintained — you must now run it yourself, either
+> [as a GitHub Action](#running-allstar-as-a-github-action) or
+> [as a service daemon](#running-allstar-as-a-service-daemon).
+>
+> See [ossf/allstar#881](https://github.com/ossf/allstar/issues/881) for
+> more details.
+>
+> If your organization was relying on the hosted app, see
+> [Migrating off the hosted app](#migrating-off-the-hosted-app).
+
+## Overview
+
+* [What Is Allstar?](#what-is-allstar)
+
+## What's new with Allstar
+
+* [whats-new.md](https://github.com/ossf/allstar/blob/HEAD/whats-new.md)
+
+## Disabling Unwanted Issues
+
+* [Help! I'm getting issues created by Allstar and I don't want them!](#disabling-unwanted-issues-1)
+
+## Getting Started
+
+* [Background](#background)
+* [Org-Level Options](#org-level-options)
+* [Installation Options](#installation-options)
+  + [Create your GitHub App](#create-your-github-app)
+  + [Create your `.allstar` control repository](#create-your-allstar-control-repository)
+  + [Running Allstar as a GitHub Action](#running-allstar-as-a-github-action)
+  + [Running Allstar as a service daemon](#running-allstar-as-a-service-daemon)
+* [Migrating off the hosted app](#migrating-off-the-hosted-app)
+
+## Policies and Actions
+
+* [Actions](#actions)
+* [Policies](#policies)
+
+## Advanced
+
+* [Configuration Definitions](#configuration-definitions)
+* [Example Configurations](#example-config-repository)
+* [Run Your Own Instance of Allstar](https://github.com/ossf/allstar/blob/HEAD/operator.md)
+
+## Contribute
+
+* [Contributing](#contributing)
+
+---
+
+---
+
+## Overview
+
+### What is Allstar?
+
+Allstar is a GitHub App that continuously monitors GitHub organizations or
+repositories for adherence to security best practices. If Allstar detects a
+security policy violation, it creates an issue to alert the repository or
+organization owner. For some security policies, Allstar can also automatically
+change the project setting that caused the violation, reverting it to the
+expected state.
+
+Allstar’s goal is to give you finely tuned control over the files and settings
+that affect the security of your projects. You can choose which security
+policies to monitor at both the organization and repository level, and how to
+handle policy violations. You can also develop or contribute new policies.
+
+Allstar is developed as a part of the [OpenSSF Scorecard](https://github.com/ossf/scorecard) project.
+
+## [What's new with Allstar](https://github.com/ossf/allstar/blob/HEAD/whats-new.md)
+
+## Disabling Unwanted Issues
+
+If you're getting unwanted issues created by Allstar, follow [these directions](https://github.com/ossf/allstar/blob/HEAD/opt-out.md) to opt out.
+
+## Getting Started
+
+### Background
+
+Allstar is highly configurable. There are three main levels of controls:
+
+* **Org level**: Organization administrators can choose to enable Allstar on:
+  + all repositories in the org;
+  + most repositories, except some that are opted out;
+  + just a few repositories that are opted in.
+
+These configurations are done in the organization's `.allstar` repository.
+
+* **Repo level:** Repository maintainers in an organization that uses
+  Allstar can choose to opt their repository in or out of organization-level
+  enforcements. Note: these repo-level controls are only functional when "repo
+  override" is allowed in the org-level settings. These configurations are
+  done in the repository's `.allstar` directory.
+* **Policy level:** Administrators or maintainers can choose which policies
+  are enabled on specific repos and which actions Allstar takes when a policy
+  is violated. These configurations are done in a policy yaml file in either
+  the organization's `.allstar` repository (admins), or the repository's
+  `.allstar` directory (maintainers).
+
+### Org-Level Options
+
+Before installing Allstar at the org level, you should decide approximately how many repositories
+you want Allstar to run on. This will help you choose between the Opt-In and
+Opt-Out strategies.
+
+* The Opt In strategy allows you to manually add the repositories you'd
+  like Allstar to run on. If you do not specify any repositories, Allstar will
+  not run despite being installed. Choose the Opt In strategy if you want to enforce
+  policies on only a small number of your total repositories, or want to try
+  out Allstar on a single repository before enabling it on more. Since the
+  v4.3 release, globs are supported to easily add multiple repositories with
+  a similar name.
+* The Opt Out strategy (recommended) enables Allstar on all repositories
+  and allows you to manually select the repositories to opt out of Allstar
+  enforcements. You can also choose to opt out all public repos, or all
+  private repos. Choose this option if you want to run Allstar on all
+  repositories in an organization, or want to opt out only a small number of
+  repositories or specific type (i.e., public vs. private) of repository.
+  Since the v4.3 release, globs are supported to easily add multiple
+  repositories with a similar name.
+
+|  | **Opt Out (Recommended)**  **optOutStrategy = true** | **Opt In**  **optOutStrategy = false** |
+| --- | --- | --- |
+| Default behavior | All repos are enabled | No repos are enabled |
+| Manually adding repositories | Manually adding repos disables Allstar on those repos | Manually adding repos enables Allstar on those repos |
+| Additional configurations | optOutRepos: Allstar will be disabled on the listed repos    optOutPrivateRepos: if true, Allstar will be disabled on all private repos     optOutPublicRepos: if true, Allstar will be disabled on all public repos    (optInRepos: this setting will be ignored) | optInRepos: Allstar will be enabled on the listed repos     (optOutRepos: this setting will be ignored) |
+| Repo Override | If true: Repos can opt out of their organization's Allstar enforcements using the settings in their own repo file. Org level opt-in settings that apply to that repository are ignored.     If false: repos cannot opt out of Allstar enforcements as configured at the org level. | If true: Repos can opt in to their organization's Allstar enforcements even if they are not configured for the repo at the org level. Org level opt-out settings that apply to that repository are ignored.    If false: Repos cannot opt into Allstar enforcements if they are not configured at the org level. |
+
+### Installation Options
+
+Allstar acts on your organization as a GitHub App: you create the app, and you
+run the process that authenticates as it. Setup is therefore two steps that are
+common to every deployment — [create the app](#create-your-github-app) and
+[create the control repository](#create-your-allstar-control-repository) — and
+then a choice of how to run it:
+
+|  | [GitHub Action](#running-allstar-as-a-github-action) | [Service daemon](#running-allstar-as-a-service-daemon) |
+| --- | --- | --- |
+| **How it runs** | Scheduled job in your `.allstar` repo | Persistent process you host |
+| **You provide** | Nothing beyond GitHub | A server or container orche...

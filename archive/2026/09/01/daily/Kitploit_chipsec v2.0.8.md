@@ -1,0 +1,129 @@
+---
+title: chipsec v2.0.8
+url: https://kitploit.com/en/posts/github-chipsec-chipsec-208
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:10.686575
+---
+
+# chipsec v2.0.8
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/2030/744f8a5a972b29ec53963f483b1da3b726d25160b33edcb77e3ab5653287c036.png)
+
+New releaseSep 1, 2026
+
+# chipsec v2.0.8
+
+Platform Security Assessment Framework
+
+Share
+
+# CHIPSEC: Platform Security Assessment Framework
+
+[![Build Status](https://github.com/chipsec/chipsec/actions/workflows/tests.yml/badge.svg?query=branch:chipsec2)](https://github.com/chipsec/chipsec/actions/workflows/tests.yml?query=branch%3Achipsec2)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8259/badge)](https://www.bestpractices.dev/projects/8259)
+
+CHIPSEC is a framework for analyzing the security of PC platforms including hardware, system firmware (BIOS/UEFI), and platform components. It includes a security test suite, tools for accessing various low level interfaces, and forensic capabilities. It can be run on Windows, Linux, and UEFI shell. Instructions for installing and using CHIPSEC can be found in the [manual](https://github.com/chipsec/chipsec/blob/HEAD/chipsec-manual.pdf).
+
+NOTE: This software is for security testing purposes. Use at your own risk. Read [WARNING.txt](https://github.com/chipsec/chipsec/blob/HEAD/chipsec/WARNING.txt) before using.
+
+First version of CHIPSEC was released in March 2014:
+[Announcement at CanSecWest 2014](https://www.c7zero.info/stuff/Platform%20Firmware%20Security%20Assessment%20wCHIPSEC-csw14-final.pdf)
+
+Recent presentation on how to use CHIPSEC to find vulnerabilities in firmware, hypervisors and hardware configuration, explore low level system assets and even detect firmware implants:
+[Exploring Your System Deeper](https://www.slideshare.net/CanSecWest/csw2017-bazhaniuk-exploringyoursystemdeeperupdated)
+
+## Release Convention
+
+* CHIPSEC uses a major.minor.patch release version number
+* Changes to the arguments or calling conventions will be held for a minor version update
+
+## Projects That Include CHIPSEC
+
+* [ArchStrike](https://archstrike.org)
+* [BlackArch Linux](https://www.blackarch.org/index.html)
+* [Linux UEFI Validation (LUV) (Archived)](https://github.com/intel/luv-yocto)
+
+## Legacy Support (`chipsec1` branch)
+
+If you require support for **older Intel platforms**, use the `chipsec1` branch:
+
+* **Client Platforms:** Pre-ADL (pre-12th Gen Core)
+* **Server Platforms:** Pre-SPR (pre-3rd Gen Xeon Scalable)
+
+To switch to the legacy branch:
+
+root@kitploit:~
+
+```
+git checkout chipsec1
+```
+
+## Contact Us
+
+For any questions or suggestions please contact us at: [[email protected]](/cdn-cgi/l/email-protection#86e5eeeff6f5e3e5c6efe8f2e3eaa8e5e9eb)
+
+Discord:
+
+* [CHIPSEC Discord Server](https://discord.gg/NvxdPe8RKt)
+
+Twitter:
+
+* For CHIPSEC release alerts: Follow us at [CHIPSEC Release](https://twitter.com/ChipsecR)
+* For general CHIPSEC info: Follow [CHIPSEC](https://twitter.com/Chipsec)
+
+Mailing list:
+
+* [CHIPSEC discussion list on kernel.org (oe-chipsec)](https://subspace.kernel.org/lists.linux.dev.html?highlight=oe-chipsec)
+
+For AMD related questions or suggestions please contact Gabriel Kerneis at: [[email protected]](/cdn-cgi/l/email-protection#b1f6d0d3c3d8d4dd9ffad4c3dfd4d8c2f1c2c2d89fd6dec4c79fd7c3)
+
+[Read more](/en/tools/github/chipsec/chipsec?expand=1)
+
+## Categories
+
+[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Forensics](/en/categories/forensics)[Penetration Testing](/en/categories/penetration-testing)[Hardware Security](/en/categories/hardware-security)[Hardware & IoT Security](/en/categories/hardware-iot-security)[Firmware Analysis](/en/categories/firmware-analysis)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

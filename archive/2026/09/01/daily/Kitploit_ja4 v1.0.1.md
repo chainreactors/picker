@@ -1,0 +1,161 @@
+---
+title: ja4 v1.0.1
+url: https://kitploit.com/en/posts/github-foxio-llc-ja4-v101
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:09.479226
+---
+
+# ja4 v1.0.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/6520/8c33d49cec0b788f1dbf683023b315183230f23b75d0b45004c116a43f4e8996.png)
+
+New releaseSep 1, 2026
+
+# ja4 v1.0.1
+
+JA4+ is a suite of network fingerprinting standards
+
+Share
+
+![logo](https://assets.kitploit.com/production/public/readmes/6520/8c33d49cec0b788f1dbf683023b315183230f23b75d0b45004c116a43f4e8996.png)
+
+# JA4+™ Network Fingerprinting
+
+JA4+ is a suite of network fingerprinting methods by [FoxIO](https://foxio.io/) that are easy to use and easy to share. These methods are both human and machine readable to facilitate more effective threat-hunting and analysis. The use-cases for these fingerprints include scanning for threat actors, malware detection, session hijacking prevention, compliance automation, location tracking, DDoS detection, grouping of threat actors, reverse shell detection, and many more.
+
+For a quick explainer on JA4+ and to use as a reference during analysis see:
+[JA4+ Cheat Sheet](https://x.com/4A4133/status/1887269972545839559)
+
+For in-depth detail, please read our blogs on how JA4+ works, why it works, and examples of what can be detected/prevented with it:
+[JA4+ Network Fingerprinting](https://foxio.io/blog/ja4-network-fingerprinting) (JA4/S/H/L/X/SSH)
+[JA4T: TCP Fingerprinting](https://foxio.io/blog/ja4t-tcp-fingerprinting) (JA4T/TS/TScan)
+[Investigating Surfshark and NordVPN with JA4T](https://foxio.io/blog/investigating-surfshark-and-nordvpn-with-ja4t) (JA4T)
+[JA4D and JA4D6: DHCP Fingerprinting](https://foxio.io/blog/ja4d-and-ja4d6-dhcp-fingerprinting) (JA4D/6)
+
+If you love JA4+, consider getting a t-shirt or hoodie:
+[JA4+ Shirts, Hoodies, and Stickers](https://store.foxio.io/)
+
+## Table of contents
+
+* [Current methods and implementation details](#current-methods-and-implementation-details)
+* [Implementations](#implementations)
+* [Tools that support JA4+](#tools-that-support-ja4)
+* [Examples](#examples)
+* [Plugins](#plugins)
+* [Binaries](#binaries)
+  + [Release Assets](#release-assets)
+  + [Installing tshark](#installing-tshark)
+    - [Linux](#linux)
+    - [macOS](#macos)
+    - [Windows](#windows)
+  + [Running JA4+](#running-ja4)
+* [Database](#database)
+* [Release Process](#release-process)
+  + [How to Create a Release](#how-to-create-a-release)
+* [JA4+ Details](#ja4-details)
+* [Licensing](#licensing)
+* [Q&A](#qa)
+* [JA4+ was created by](#ja4-was-created-by)
+
+## Current methods and implementation details
+
+| Full Name | Short Name | Description |
+| --- | --- | --- |
+| JA4 | JA4 | TLS Client Fingerprinting |
+| JA4Server | JA4S | TLS Server Response / Session Fingerprinting |
+| JA4HTTP | JA4H | HTTP Client Fingerprinting |
+| JA4Latency | JA4L | Client to Server Latency Measurment / Light Distance |
+| JA4LatencyServer | JA4LS | Server to Client Latency Measurement / Light Distance |
+| JA4X509 | JA4X | X509 TLS Certificate Fingerprinting |
+| JA4SSH | JA4SSH | SSH Traffic Fingerprinting |
+| JA4TCP | JA4T | TCP Client Fingerprinting |
+| JA4TCPServer | JA4TS | TCP Server Response Fingerprinting |
+| [JA4TCPScan](https://github.com/FoxIO-LLC/ja4tscan) | [JA4TScan](https://github.com/FoxIO-LLC/ja4tscan) | [Active TCP Fingerprint Scanner](https://github.com/FoxIO-LLC/ja4tscan) |
+| JA4DHCP | JA4D | DHCP Fingerprinting |
+| JA4DHCPv6 | JA4D6 | DHCPv6 Fingerprinting |
+| JA4NTP | JA4N | NTP Fingerprinting |
+| JA4Scan-TLS | JA4Scan-TLS | Active TLS Server Fingerprint Scanner |
+| JA4Scan-QUIC | JA4Scan-QUIC | Active QUIC Server Fingerprint Scanner |
+
+The full name or short name can be used interchangeably. Additional JA4+ methods are in the works...
+
+To understand how to read JA4+ fingerprints, see [Technical Details](https://github.com/foxio-llc/ja4/blob/HEAD/technical_details/README.md)
+
+## Implementations
+
+This repo includes JA4+ in
+
+* [Python](https://github.com/foxio-llc/ja4/blob/HEAD/python/README.md)
+* [Rust](https://github.com/foxio-llc/ja4/blob/HEAD/rust/README.md)
+* [C, as a Wireshark plugin](https://github.com/foxio-llc/ja4/blob/HEAD/wireshark/README.md).
+* [Zeek](https://github.com/foxio-llc/ja4/blob/HEAD/zeek/README.md)
+
+## Tools that support JA4+
+
+| Tool/Vendor | JA4+ Support |
+| --- | --- |
+| [Wireshark](https://github.com/FoxIO-LLC/ja4/tree/main/wireshark) | JA4+ |
+| [Zeek](https://github.com/FoxIO-LLC/ja4/tree/main/zeek) | JA4+ |
+| [Arkime](https://arkime.com/) | JA4+ (our recommended open source JA4+ tool) |
+| [Suricata](https://docs.suricata.io/en/latest/rules/ja-keywords.html#ja4-hash) | JA4+ (under development) |
+| [GreyNoise](https://www.greynoise.io/) | JA4+ |
+| [Hunt](https://hunt.io/) | JA4+ |
+| [Driftnet](https://driftnet.io/) | JA4+ |
+| [GoLang (1)](https://github.com/driftnet-io/go-ja4x) | JA4X |
+| [GoLang (2)](https://github.com/exaring/ja4plus) | JA4 |
+| [nzyme](https://www.nzyme.org/) | JA4+ (under development) |
+| [Netresec's CapLoader](https://www.netresec.com/?page=Blog&month=2023-11&post=CapLoader-1-9-6-Released) | JA4+ (under development) |
+| [Netresec's NetworkMiner](https://www.netresec.com/?page=NetworkMiner) | JA4+ (under development) |
+| [NGINX](https://github.com/FoxIO-LLC/ja4-nginx-module) | JA4+ |
+| [F5 BIG-IP](https://github.com/f5devcentral/f5-ja4) | JA4+ |
+| [nfdump](https://github.com/phaag/nfdump) | JA4+ |
+| [ntop's ntopng](https://github.com/ntop/ntopng) | JA4+ |
+| [ntop's nDPI](https://github.com/ntop/nDPI) | JA4 |
+| [Team Cymru](https://www.team-cymru.com/) | JA4+ |
+| [NetQuest](https://netquestcorp.com/) | JA4+ |
+| [Censys](https://censys.com/) | JA4+ |
+| [Exploit.org's Netryx](https://github.com/OWASP/www-project-netryx) | JA4 and JA4H |
+| [Cloudflare](https://developers.cloudflare.com/bots/concepts/ja3-ja4-fingerprint/) | JA4 |
+| [Fastly](https://www.fastly.com/documentation/reference/vcl/variables/client-connection/tls-client-ja4/) | JA4+ (ask for it) |
+| [MISP](https://www.misp-project.org/) | JA4+ |
+| [OCSF](https://schema.ocsf.io/1.3.0-dev/objects/ja4_fingerprint?extensions=) | JA4+ |
+| [Vercel](https://vercel.com/docs/security/tls-fingerprints) | JA4 |
+| [Seika](https://seika.io/) | JA4+ |
+| [VirusTotal](https://www.virustotal.com/) | JA4 |
+| [AWS Cloudfront](https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-cloudfront-ja4-fingerprinting/) | JA4 |
+| [ELLIO](https://ellio.tech/) | JA4+ |
+| [Webscout](https://webscout.io/) | JA4+ |
+| [Rama](https://github.com/plabayo/rama) | JA4 and JA4H |
+| [Vectra](https://www.vectra.ai/) | JA4+ |
+| [AWS WAF](https://aws.amazon.com/about-aws/whats-new/2025/03/aws-waf-ja4-fingerprinting-aggregation-ja3-ja4-fingerprints-rate-based-rules/) | JA4 |
+| [Tacticly](https://tactic.ly/) | JA4+ |
+| [Palo Alto Networks](https://www.paloaltonetworks.com/) | JA4+ |
+| [ngrok](https://ngrok.com/docs/traffic-policy/variables/connection/#conntlsja4_fingerprint) | JA4 |
+| [Vertex Synapse](https://vertex.link/) | JA4 and JA4S |
+| [Google Cloud Armor](https://cloud.google.com/armor/docs/rules-language-reference#allow_or_deny_traffic_based_on_a_known_ja4_fingerprint) | JA4 |
+| [Fortinet](https://docs.fortinet.com/document/fortindr-cloud/25.2.c/user-guide/393114/event-fields#SSL) | JA4 |
+| [AppOmni](https://appomni.com/) | JA4+ |
+| [IntelliGenesis](https://intelligenesisllc.com/) | JA4+ |
+| [HAProxy](https://www.haproxy.org/) | [JA4](https://github.com/O-X-L/haproxy-ja4-fingerprint) and [JA4H](https://github.com/O-X-L/haproxy-ja4h-fingerprint) plugins by [OXL](https://www.o-x-l.com/) |
+| [SentinelOne](https://www.sentinelone.com/) | JA4 |
+| [Akamai](https://techdocs.akamai.com/application-security/reference/get-ja4-fingerprint-settings) | JA4 |
+| [Alibaba Cloud](https://www.alibabacloud.com/help/en/anti-ddos/anti-ddos-pro-and-premium/user-guide/fields-included-in-ful...

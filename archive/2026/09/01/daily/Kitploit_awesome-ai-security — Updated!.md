@@ -1,0 +1,172 @@
+---
+title: awesome-ai-security — Updated!
+url: https://kitploit.com/en/posts/github-gmh5225-awesome-ai-security-b300d9d87b8f9e8ae7c8a840597e9c3555b56d954e6819ad4f6329226a239eee
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:11.756233
+---
+
+# awesome-ai-security — Updated!
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50438/1e62024e9d93e641c6d8d5805d31391df1321a4fe206ecf98613c4f9e53f3b21.png)
+
+UpdatedSep 1, 2026
+
+# awesome-ai-security — Updated!
+
+A curated list of AI Security materials and resources for Pentesters, Bug Hunters, and Security Researchers.
+
+Share
+
+# `awesome-ai-security`[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+[![GitHub license](https://img.shields.io/github/license/gmh5225/awesome-ai-security)](https://github.com/gmh5225/awesome-ai-security/blob/main/LICENSE)
+
+A curated list of AI Security materials and resources for Pentesters, Bug Hunters, and Security Researchers.
+
+root@kitploit:~
+
+```
+If you find that some links are not working, you can simply replace the username with gmh5225.
+Or you can send an issue for me.
+```
+
+> Show respect to all the projects below, perfect works of art 🫡
+
+## How to contribute?
+
+* <https://github.com/HyunCafe/contribute-practice>
+* <https://docs.github.com/en/get-started/quickstart/contributing-to-projects>
+
+## Skills for AI Agents
+
+This repository provides skills that can be used with AI agents and coding assistants such as [Cursor](https://www.cursor.com/), [OpenClaw](https://docs.openclaw.ai/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex CLI](https://github.com/openai/codex), and other compatible tools. Install skills to get specialized knowledge about game security topics.
+
+* <https://github.com/vercel-labs/skills> [The open agent skills tool - npx skills]
+
+**[View on learn-skills.dev](https://learn-skills.dev/skills/gmh5225/awesome-ai-security)**
+
+**Installation:**
+
+root@kitploit:~
+
+```
+npx skills add https://github.com/gmh5225/awesome-ai-security --skill <skill-name>
+```
+
+**Available Skills:**
+
+| Skill | Description |
+| --- | --- |
+| `adversarial-machine-learning` | Adversarial machine learning: adversarial examples, data poisoning, model backdoors, and evasion attacks |
+| `ai-powered-pentesting` | AI-powered penetration testing tools, red teaming frameworks, and autonomous security agents |
+| `llm-attacks-security` | LLM security attacks: prompt injection, jailbreaking, and data extraction |
+| `awesome-ai-security-overview` | Overview of this repository and contribution guidelines |
+| `ai-security-tooling` | AI security tooling: detectors, analyzers, guardrails, and benchmarks |
+
+**Example:**
+
+root@kitploit:~
+
+```
+# Install LLM attacks skill
+npx skills add https://github.com/gmh5225/awesome-ai-security --skill llm-attacks-security
+
+# Install multiple skills
+npx skills add https://github.com/gmh5225/awesome-ai-security --skill adversarial-machine-learning
+npx skills add https://github.com/gmh5225/awesome-ai-security --skill ai-powered-pentesting
+```
+
+## AI Security Starter Pack
+
+* **CTFs / Practice**
+
+  + <https://github.com/verialabs/ctf-agent> [ctf-agent - autonomous CTFd solver: coordinator LLM + parallel model swarms in Docker; BSidesSF 2026 1st]
+  + <https://aivillage.org/> [AI Village @ DEF CON - LLM Jailbreak Challenges]
+  + <https://doublespeak.chat/#/handbook> [Doublespeak - AI Security Challenges]
+  + <https://github.com/EasyJailbreak/EasyJailbreak> [Framework for adversarial jailbreak prompts]
+  + <https://github.com/microsoft/AI-Red-Teaming-Playground-Labs> [Microsoft AI Red Teaming Playground Labs]
+  + <https://github.com/schwartz1375/genai-security-training> [GenAI Red Teaming Training]
+* **Blogs / Resources**
+
+  + <https://genai.owasp.org/> [OWASP GenAI Security Project]
+  + <https://llm-stats.com> [LLM Leaderboard]
+  + <https://www.aidaily.win> [AI Daily News]
+  + <https://baoyu.io/blog/how-to-write-good-prompt> [How to Write Good Prompts]
+  + <https://rootissh.in/> [LLM Pentesting Series Blog]
+  + <https://github.com/Abdowaer098/Wa3r-OffSec-Kit> [Wa3r OffSec Kit - offensive-security knowledge base with practical workflows, payload patterns, case studies, and forensics notes]
+* **Newsletters / Collections**
+
+  + <https://mlsecops.com/podcast> [MLSecOps Podcast]
+  + <https://podcasts.apple.com/ph/podcast/the-genai-security-podcast/id1782916580> [GenAI Security Podcast]
+  + <https://avidml.org/> [AI Vulnerability Database (AVID)]
+* **Certifications / Courses**
+
+  + <https://cs229.stanford.edu/> [Stanford CS229: Machine Learning]
+  + <https://course.fast.ai/> [fast.ai Practical Deep Learning]
+  + <https://www.coursera.org/specializations/deep-learning> [Deep Learning Specialization by Andrew Ng]
+  + <https://huggingface.co/reasoning-course> [Build DeepSeek-R1 like Reasoning Model]
+
+## AI/LLM Guide
+
+* **Foundations**
+
+  + <https://d2l.ai/> [Dive into Deep Learning - Interactive book with PyTorch/JAX/TensorFlow]
+  + <http://neuralnetworksanddeeplearning.com/> [Neural Networks and Deep Learning by Michael Nielsen]
+  + <https://www.deeplearningbook.org/> [Deep Learning by Goodfellow, Bengio, Courville]
+  + <https://github.com/karminski/one-small-step> [AI/LLM Tutorial]
+  + <https://github.com/datawhalechina/happy-llm> [LLM Principles and Practice Tutorial]
+  + <https://github.com/rasbt/LLMs-from-scratch> [Build LLM from Scratch]
+  + <https://github.com/naklecha/llama3-from-scratch> [LLaMA3 from Scratch]
+  + <https://github.com/ZJU-LLMs/Foundations-of-LLMs> [Foundations of LLMs]
+* **Awesome Lists**
+
+  + <https://github.com/WangRongsheng/awesome-LLM-resourses> [Comprehensive LLM Resources]
+  + <https://github.com/mahseema/awesome-ai-tools> [Awesome AI Tools]
+  + <https://github.com/Shubhamsaboo/awesome-llm-apps> [Awesome LLM Apps]
+  + <https://github.com/mahonzhan/awesome-agent-harness> [Curated list of agent harnesses, agent frameworks, workflow frameworks, and emerging agent protocols]
+  + <https://github.com/punkpeye/awesome-mcp-servers> [Awesome MCP Servers]
+  + <https://github.com/wong2/awesome-mcp-servers> [Awesome MCP Servers]
+  + <https://github.com/deepseek-ai/awesome-deepseek-integration> [Awesome DeepSeek Integration]
+  + <https://github.com/lmmlzn/Awesome-LLMs-Datasets> [Awesome LLMs Datasets]
+* **From-scratch LLMs / Reasoning**
+
+  + <https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/11_qwen3> [Qwen3 From Scratch - Chinese walkthrough]
+  + <https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/11_qwen3/standalone-qwen3-moe-plus-kvcache.ipynb> [Implement Qwen3 MoE with KV cache from scratch]
+  + <https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/12_gemma3> [Build Gemma 3 270M from scratch]
+  + <https://github.com/rasbt/reasoning-from-scratch> [Reasoning models from scratch]
+  + <https://github.com/mingyin0312/RLFromScratch> [Reinforcement learning from scratch (Chinese tutorial)]
+  + <https://github.com/karpathy/nanochat> [End-to-end nanochat training loop in ~8K lines]
+  + <https://github.com/kyegomez/OpenMythos> [OpenMythos - first-principles theoretical reconstruction of Claude Mythos architecture based on public research literature]
+  + <https://github.com/vixhal-baraiya/microgpt-c> [MicroGPT-C — train and infer a tiny GPT in pure dependency-free C (single file); fp32/AVX2 style CPU path; MIT]
+
+## AI Security & Attacks
+
+### Prompt Injection
+
+* <https://www.lakera.ai/blog/guide-to-prompt-injection> [Prompt Injection Guide]
+* <https://genai.owasp.org/llmrisk/llm01-prompt-injection/> [OWASP LLM01:2025 Prompt Injection]
+* <https://redbotsecurity.com/prompt-injection-attacks-ai-security-2025/> [Prompt Injection Attacks 2025]
+* <https://github.com/protectai/rebuff> [Self-hardening Prompt Injection Detector]
+* <https://github.com/NVIDIA/garak> [NVIDIA LLM Vulnerability Scanner]
+* <https://github.com/deadbits/vigil-llm> [Detects Prompt Injections and Risky Inputs]
+* <https://github.com/alphasecio/prompt-guard> [Prompt Defense for LLM]
+* <...

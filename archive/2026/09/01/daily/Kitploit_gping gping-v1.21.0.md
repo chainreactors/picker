@@ -1,0 +1,202 @@
+---
+title: gping gping-v1.21.0
+url: https://kitploit.com/en/posts/github-orf-gping-gping-v1210
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:10.589716
+---
+
+# gping gping-v1.21.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/3904/b5d534bbe19716a3aec50dccb8d85ac376b33e48a4db75f6725121dc5a028431.gif)
+
+New releaseSep 1, 2026
+
+# gping gping-v1.21.0
+
+Ping, but with a graph
+
+Share
+
+# gping 🚀
+
+[![Crates.io](https://img.shields.io/crates/v/gping.svg)](https://crates.io/crates/gping)
+[![Actions Status](https://github.com/orf/gping/workflows/CI/badge.svg)](https://github.com/orf/gping/actions)
+
+Ping, but with a graph.
+
+![](https://assets.kitploit.com/production/public/readmes/3904/b5d534bbe19716a3aec50dccb8d85ac376b33e48a4db75f6725121dc5a028431.gif)
+
+Comes with the following super-powers:
+
+* Graph the ping time for multiple hosts
+* Graph the *execution time* for commands via the `--cmd` flag
+* Custom colours
+* Windows, Mac and Linux support
+
+# Table of Contents
+
+* [Install 💿](#install-cd)
+* [Usage 🎷](#usage-saxophone)
+
+[![Packaging status](https://repology.org/badge/vertical-allrepos/gping.svg)](https://repology.org/project/gping/versions)
+
+# Install 💿
+
+* macOS
+  + [Homebrew](https://formulae.brew.sh/formula/gping#default): `brew install gping`
+  + [MacPorts](https://ports.macports.org/port/gping/): `sudo port install gping`
+* Linux (Homebrew): `brew install gping`
+* CentOS (and other distributions with an old glibc): Download the MUSL build from the latest release
+* Windows/ARM:
+  + Scoop: `scoop install gping`
+  + Chocolatey: `choco install gping`
+  + Download the latest release from [the github releases page](https://github.com/orf/gping/releases)
+* Fedora ([COPR](https://copr.fedorainfracloud.org/coprs/atim/gping/)): `sudo dnf copr enable atim/gping -y && sudo dnf install gping`
+* Cargo (**This requires `rustc` version 1.67.0 or greater**): `cargo install gping`
+* Arch Linux: `pacman -S gping`
+* Alpine linux: `apk add gping`
+* Ubuntu >23.10/Debian >13: `apt install gping`
+* Ubuntu/Debian ([Azlux's repo](https://packages.azlux.fr/)):
+
+  root@kitploit:~
+
+  ```
+  echo 'deb [signed-by=/usr/share/keyrings/azlux.gpg] https://packages.azlux.fr/debian/ bookworm main' | sudo tee /etc/apt/sources.list.d/azlux.list
+  sudo apt install gpg curl
+  curl -s https://azlux.fr/repo.gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/azlux.gpg > /dev/null
+  sudo apt update
+  sudo apt install gping
+  ```
+* Gentoo ([dm9pZCAq overlay](https://github.com/gentoo-mirror/dm9pZCAq)):
+
+  root@kitploit:~
+
+  ```
+  sudo eselect repository enable dm9pZCAq
+  sudo emerge --sync dm9pZCAq
+  sudo emerge net-misc/gping::dm9pZCAq
+  ```
+* FreeBSD:
+  + [pkg](https://www.freshports.org/net-mgmt/gping/): `pkg install gping`
+  + [ports](https://cgit.freebsd.org/ports/tree/net-mgmt/gping) `cd /usr/ports/net-mgmt/gping; make install clean`
+* Docker:
+
+  root@kitploit:~
+
+  ```
+  # Check all options
+  docker run --rm -ti --network host ghcr.io/orf/gping:gping-v1.15.1 --help
+  # Ping google.com
+  docker run --rm -ti --network host ghcr.io/orf/gping:gping-v1.15.1 google.com
+  ```
+* Flox:
+
+  root@kitploit:~
+
+  ```
+  # Inside of a Flox environment
+  flox install gping
+  ```
+* [gah](https://github.com/marverix/gah):
+
+  root@kitploit:~
+
+  ```
+  gah install gping
+  ```
+
+# Usage 🎷
+
+Just run `gping [host]`. `host` can be a command like `curl google.com` if the `--cmd` flag is used. You can also use
+shorthands like `aws:eu-west-1` or `aws:ca-central-1` to ping specific cloud regions. Only `aws` is currently supported.
+
+root@kitploit:~
+
+```
+$ gping --help
+Ping, but with a graph.
+
+Usage: gping [OPTIONS] [HOSTS_OR_COMMANDS]...
+
+Arguments:
+  [HOSTS_OR_COMMANDS]...  Hosts or IPs to ping, or commands to run if --cmd is provided. Can use cloud shorthands like aws:eu-west-1.
+
+Options:
+      --cmd
+          Graph the execution time for a list of commands rather than pinging hosts
+  -n, --watch-interval <WATCH_INTERVAL>
+          Watch interval seconds (provide partial seconds like '0.5'). Default for ping is 0.2, default for cmd is 0.5.
+  -b, --buffer <BUFFER>
+          Determines the number of seconds to display in the graph. [default: 30]
+  -4
+          Resolve ping targets to IPv4 address
+  -6
+          Resolve ping targets to IPv6 address
+  -i, --interface <INTERFACE>
+          Interface to use when pinging
+  -s, --simple-graphics
+          Uses dot characters instead of braille
+      --vertical-margin <VERTICAL_MARGIN>
+          Vertical margin around the graph (top and bottom) [default: 1]
+      --horizontal-margin <HORIZONTAL_MARGIN>
+          Horizontal margin around the graph (left and right) [default: 0]
+  -c, --color <color>
+          Assign color to a graph entry. This option can be defined more than once as a comma separated string, and the order which the colors are provided will be matched against the hosts or commands passed to gping. Hexadecimal RGB color codes are accepted in the form of '#RRGGBB' or the following color names: 'black', 'red', 'green', 'yellow', 'blue', 'magenta','cyan', 'gray', 'dark-gray', 'light-red', 'light-green', 'light-yellow', 'light-blue', 'light-magenta', 'light-cyan', and 'white'
+  -h, --help
+          Print help information
+  -V, --version
+          Print version information
+      --clear
+          Clear the graph from the terminal after closing the program
+```
+
+[Read more](/en/tools/github/orf/gping?expand=1)
+
+## Categories
+
+[General Purpose Utilities](/en/categories/general-purpose-utilities)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

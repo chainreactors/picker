@@ -1,0 +1,127 @@
+---
+title: wappalyzergo v0.2.96
+url: https://kitploit.com/en/posts/github-projectdiscovery-wappalyzergo-v0296
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:10.047379
+---
+
+# wappalyzergo v0.2.96
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/41159/c2e3d938e89ab33b428b6d9d232d3587bab17247aa339468414f88d1cf0ec1fc.png)
+
+New releaseSep 1, 2026
+
+# wappalyzergo v0.2.96
+
+A high performance go implementation of Wappalyzer Technology Detection Library
+
+Share
+
+# Wappalyzergo
+
+A high performance port of the Wappalyzer Technology Detection Library to Go. Inspired by [Webanalyze](https://github.com/rverton/webanalyze).
+
+Uses data from
+
+* <https://github.com/enthec/webappanalyzer>
+* <https://github.com/HTTPArchive/wappalyzer>
+
+## Features
+
+* Very simple and easy to use, with clean codebase.
+* Normalized regexes + auto-updating database of wappalyzer fingerprints.
+* Optimized for performance: parsing HTML manually for best speed.
+
+### Using *go install*
+
+root@kitploit:~
+
+```
+go install -v github.com/projectdiscovery/wappalyzergo/cmd/update-fingerprints@latest
+```
+
+After this command *wappalyzergo* library source will be in your current go.mod.
+
+## Example
+
+Usage Example:
+
+root@kitploit:~
+
+```
+package main
+
+import (
+	"fmt"
+	"io"
+	"log"
+	"net/http"
+
+	wappalyzer "github.com/projectdiscovery/wappalyzergo"
+)
+
+func main() {
+	resp, err := http.DefaultClient.Get("https://www.hackerone.com")
+	if err != nil {
+		log.Fatal(err)
+	}
+	data, _ := io.ReadAll(resp.Body) // Ignoring error for example
+
+	wappalyzerClient, err := wappalyzer.New()
+	fingerprints := wappalyzerClient.Fingerprint(resp.Header, data)
+	fmt.Printf("%v\n", fingerprints)
+
+	// Output: map[Acquia Cloud Platform:{} Amazon EC2:{} Apache:{} Cloudflare:{} Drupal:{} PHP:{} Percona:{} React:{} Varnish:{}]
+}
+```
+
+[Read more](/en/tools/github/projectdiscovery/wappalyzergo?expand=1)
+
+## Categories
+
+[Reconnaissance](/en/categories/reconnaissance)[Information Gathering](/en/categories/information-gathering)[Web Security](/en/categories/web-security)[Utilities & Frameworks](/en/categories/utilities-frameworks)[Crawler](/en/categories/crawler)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

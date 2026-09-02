@@ -1,0 +1,199 @@
+---
+title: vm2 v3.11.8
+url: https://kitploit.com/en/posts/github-patriksimek-vm2-v3118
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:09.951060
+---
+
+# vm2 v3.11.8
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/43526/d6e90cd4111884ab92e649dfdb9e828836da19b9168899ca017d553126adae68.png)
+
+New releaseSep 1, 2026
+
+# vm2 v3.11.8
+
+Isolated JavaScript sandbox for Node.js that runs untrusted code with restricted access to built-in modules and host resources via Proxy-based interception.
+
+Share
+
+# vm2 [![NPM Version](https://img.shields.io/npm/v/vm2.svg)](https://www.npmjs.com/package/vm2) [![NPM Downloads](https://img.shields.io/npm/dm/vm2.svg)](https://www.npmjs.com/package/vm2) [![License](https://img.shields.io/npm/l/vm2.svg)](https://raw.githubusercontent.com/patriksimek/vm2/resurrection/LICENSE.md) [![Node.js CI](https://github.com/patriksimek/vm2/actions/workflows/test.yml/badge.svg)](https://github.com/patriksimek/vm2/actions/workflows/test.yml) [![Known Vulnerabilities](https://snyk.io/test/github/patriksimek/vm2/badge.svg)](https://snyk.io/test/github/patriksimek/vm2)
+
+vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules.
+
+## Installation
+
+root@kitploit:~
+
+```
+npm install vm2
+```
+
+## Quick Examples
+
+root@kitploit:~
+
+```
+import { VM } from 'vm2';
+
+const vm = new VM();
+vm.run(`process.exit()`); // TypeError: process.exit is not a function
+```
+
+root@kitploit:~
+
+```
+import { NodeVM } from 'vm2';
+
+const vm = new NodeVM({
+	require: {
+		external: true,
+		root: './',
+	},
+});
+
+vm.run(
+	`
+    var request = require('request');
+    request('http://www.google.com', function (error, response, body) {
+        console.error(error);
+        if (!error && response.statusCode == 200) {
+            console.log(body); // Show the HTML for the Google homepage.
+        }
+    });
+`,
+	'vm.js',
+);
+```
+
+## Important Security Disclaimer
+
+**Before using vm2, you should understand how it works and its limitations.**
+
+vm2 attempts to sandbox untrusted JavaScript code **within the same Node.js process** as your application. It does this through a complex network of [Proxies](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy) that intercept and mediate every interaction between the sandbox and the host environment.
+
+### The Fundamental Challenge
+
+JavaScript is an extraordinarily dynamic language. Objects can be accessed through prototype chains, constructors can be reached via error objects, symbols provide protocol hooks, and async execution creates timing windows. The sheer number of ways to traverse from one object to another in JavaScript makes building an airtight in-process sandbox extremely difficult.
+
+**We are honest about this reality:** Despite our best efforts, researchers and security professionals continuously discover new ways to escape the vm2 sandbox. We actively patch these vulnerabilities as they are reported, but the cat-and-mouse nature of in-process sandboxing means that:
+
+1. **New bypasses will likely be discovered in the future.** Check our [security advisories](https://github.com/patriksimek/vm2/security/advisories) for known vulnerabilities.
+2. **You must keep vm2 updated** to benefit from the latest security fixes. Subscribe to security advisories and update promptly.
+3. **vm2 should not be your only line of defense.** Defense in depth is essential when running untrusted code.
+
+### More Robust Alternatives
+
+If you require stronger isolation guarantees, consider these alternatives that provide **true process or hardware-level isolation**:
+
+| Solution | Approach | Performance | Trade-offs |
+| --- | --- | --- | --- |
+| **[isolated-vm](https://github.com/laverdet/isolated-vm)** | Separate V8 isolates (different V8 heap) | Fast | In maintenance mode; requires manual V8 updates |
+| **Separate process / Worker** | `child_process` or Worker threads with limited permissions | Medium | Higher IPC overhead; data must be serialized |
+| **Containers / VMs** | Docker, gVisor, Firecracker | Slow | Startup overhead; resource-heavy |
+| **Managed services** | Cloud-based code execution (e.g., AWS Lambda, Cloudflare Workers) | Variable | Network latency; external dependency |
+
+### When vm2 May Still Be Appropriate
+
+vm2 can be suitable when:
+
+* You need tight integration with host objects and fast synchronous communication
+* The untrusted code comes from a relatively trusted source (e.g., internal tools, plugin systems with vetted authors)
+* You combine vm2 with other security layers (network isolation, filesystem restrictions, resource limits)
+* You accept the risk and actively monitor for security updates
+
+**If you're running code from completely untrusted sources (e.g., arbitrary user submissions), we strongly recommend using a solution with stronger isolation guarantees.**
+
+## Runtimes
+
+| Runtime | Status |
+| --- | --- |
+| Node.js | Supported. The sandbox is a security boundary. |
+| Bun | **Experimental.** Partial functional compatibility — **not** a security boundary. |
+
+Two separate limitations apply to Bun, and neither implies the other.
+
+**It is not a security boundary.** vm2's threat model, the attack catalogue in
+[`docs/ATTACKS.md`](https://github.com/patriksimek/vm2/blob/HEAD/docs/ATTACKS.md), and every regression test in `test/ghsa/`
+are derived from V8 internals. JavaScriptCore, which Bun uses, has its own
+equivalents, and none have been audited against vm2's bridge. The suite passing
+under Bun demonstrates compatibility, not that the sandbox holds there. **Do not
+use vm2 on Bun to isolate untrusted code.**
+
+**Compatibility is partial, not parity.** A green Bun run covers only the tests
+that actually execute there. `test/bun-skips.js` lists what is excluded and why,
+and the known behavioural gaps include:
+
+* `Buffer.from(arrayLike)` returns a zero-length buffer
+* `VMScript` `filename` / `lineOffset` / `columnOffset` metadata is not
+  observable, because JSC's CallSite objects carry no methods
+* `Object.freeze` on a frozen host object with a non-configurable accessor
+  throws a proxy-invariant `TypeError` where V8 does not
+* some `Buffer` operations across the sandbox boundary are drastically slower —
+  a 64 MB `allocUnsafe` takes over 400 seconds against 1.7 on Node, slow enough
+  to read as a hang
+
+Treat Bun support as best-effort compatibility for trusted code, and check the
+skip list before relying on any particular behaviour.
+
+## Features
+
+* Runs untrusted code securely in a single process with your code side by side
+* Full control over the sandbox's console output
+* The sandbox has limited access to the process's methods
+* It is possible to require modules (built-in and external) from the sandbox
+* You can limit access to certain (or all) built-in modules
+* You can securely call methods and exchange data and callbacks between sandboxes
+* Actively maintained with patches for known escape methods (see [Security Disclaimer](#important-security-disclaimer))
+* Transpiler support
+
+## How does it work
+
+* It uses the internal VM module to create a secure context.
+* It uses [Proxies](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy) to prevent escaping from the sandbox.
+* It overrides the built-in require to control access to modules.
+
+For an in-depth look at vm2’s internals, see [docs/ATTACKS.md](https://github.com/patriksimek/vm2/blob/HEAD/docs/ATTACKS.md).
+
+## What is the difference between Node's vm and vm2?
+
+Try it yourself:
+
+root@kitploit:~
+
+```
+import { runInNewContext } from "node:vm";
+
+runInNewContext('this.constructor.constructor("return process")().exit()');
+console.log('Never gets executed.');
+```
+
+root@kitploit:~
+
+```
+import { VM } from 'vm2';
+
+new VM().run('this.constructor.constructor("return process")().exit()');
+// Throws ReferenceError: process is not defined
+```
+
+#...

@@ -1,0 +1,185 @@
+---
+title: dalfox v3.2.2
+url: https://kitploit.com/en/posts/github-hahwul-dalfox-v322
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:09.302583
+---
+
+# dalfox v3.2.2
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/243/8683c96aa784fba6028ca26a6258ba28dbdeb468ecef1d355808aa9617afaa18.webp)
+
+New releaseSep 1, 2026
+
+# dalfox v3.2.2
+
+Fast XSS scanner with parameter analysis, WAF fingerprinting, and DOM/AST verification. Supports reflected, stored, and DOM-based XSS detection via CLI, pipeline, or REST API.
+
+Share
+
+![dalfox](https://assets.kitploit.com/production/public/readmes/243/8683c96aa784fba6028ca26a6258ba28dbdeb468ecef1d355808aa9617afaa18.webp)
+
+[![](https://img.shields.io/badge/CONTRIBUTIONS-WELCOME-30365e?style=for-the-badge&labelColor=%2330365e&color=%2330365e)](https://github.com/hahwul/dalfox/blob/main/.github/CONTRIBUTING.md)
+[![](https://img.shields.io/github/v/release/hahwul/dalfox?style=for-the-badge&logoColor=%2330365e&label=dalfox&labelColor=%2330365e&color=%2330365e)](https://github.com/hahwul/dalfox/releases/latest)
+[![](https://img.shields.io/badge/Rust-30365e?style=for-the-badge&logo=rust&logoColor=white&labelColor=%2330365e)](https://www.rust-lang.org)
+
+> **Looking for the Go (v2.x) version?** Dalfox v3 is a complete rewrite in Rust. The Go codebase is preserved on the [`v2` branch](https://github.com/hahwul/dalfox/tree/v2) and continues to receive security backports. See [SECURITY.md](https://github.com/hahwul/dalfox/blob/HEAD/.github/SECURITY.md) for the support policy, and the [migration guide](https://dalfox.hahwul.com/getting-started/migration/) for what changed in v3.
+
+Dalfox is a powerful open-source tool that focuses on automation, making it ideal for quickly scanning for XSS flaws and analyzing parameters. Its advanced testing engine and niche features are designed to streamline the process of detecting and verifying vulnerabilities.
+
+## Key features
+
+* Subcommands: `scan` (URL / file / pipe / raw-HTTP, auto-detected), `server`, `payload`, `mcp`
+* Discovery: Parameter analysis, static analysis, BAV testing, parameter mining
+* XSS Scanning: Reflected, Stored (SXSS), DOM-based, with optimization and DOM/AST verification
+* WAF: Fingerprinting with confidence scoring, bypass tracking, and tunable `--waf-min-confidence`
+* HTTP Options: Custom headers, cookies, methods, proxy, and more
+* Output: JSON/JSONL/Plain/Markdown/SARIF/TOML formats, silence mode, detailed reports
+* Extensibility: REST API, MCP stdio server, custom payloads, remote wordlists
+
+And the various options required for the testing :D
+
+## Installation
+
+### Homebrew (macOS/Linux)
+
+root@kitploit:~
+
+```
+brew install dalfox
+
+# https://formulae.brew.sh/formula/dalfox
+```
+
+### Snapcraft (Ubuntu)
+
+root@kitploit:~
+
+```
+sudo snap install dalfox
+```
+
+### Arch Linux (AUR)
+
+root@kitploit:~
+
+```
+yay -S dalfox
+# or
+paru -S dalfox
+```
+
+See the [Installation guide](https://dalfox.hahwul.com/getting-started/installation/) for manual build instructions.
+
+### Nixpkgs (NixOS)
+
+A package is available for Nix or NixOS users. Keep in mind that the latest releases might only
+be present in the `unstable` channel.
+
+root@kitploit:~
+
+```
+nix-shell -p dalfox
+```
+
+### Nix Flakes
+
+For Nix users with flakes enabled:
+
+root@kitploit:~
+
+```
+# Run directly
+nix run github:hahwul/dalfox -- scan https://example.com
+
+# Install
+nix profile install github:hahwul/dalfox
+
+# Development environment for hacking on Dalfox itself
+git clone https://github.com/hahwul/dalfox && cd dalfox && nix develop
+```
+
+The flake also exposes `overlays.default`, so NixOS and home-manager users can build Dalfox
+against their own `nixpkgs`. See the [Installation guide](https://dalfox.hahwul.com/getting-started/installation/)
+for that module snippet and the rest of the details.
+
+Prebuilt binaries (including statically-linked musl variants for Linux) are available on the [GitHub Releases](https://github.com/hahwul/dalfox/releases) page.
+
+## Usage
+
+root@kitploit:~
+
+```
+dalfox [mode] [target] [flags]
+```
+
+* Single URL: `dalfox scan http://example.com -b https://callback`
+* File Mode: `dalfox scan urls.txt --custom-payload mypayloads.txt`
+* Pipeline: `cat urls.txt | dalfox scan --headers "AuthToken: xxx"`
+* Custom injection point (query): `dalfox scan 'https://example.com/?q=FUZZ&page=1' --inject-marker FUZZ`
+* Custom injection point (header): `dalfox scan https://example.com -H 'X-Search: FUZZ' --inject-marker FUZZ`
+
+Check the [CLI reference](https://dalfox.hahwul.com/reference/cli/) and [Quick start](https://dalfox.hahwul.com/getting-started/quick-start/) documents for more examples.
+
+## Contributing
+
+if you want to contribute to this project, please see [CONTRIBUTING.md](https://github.com/hahwul/dalfox/blob/main/.github/CONTRIBUTING.md) and Pull-Request with cool your contents.
+
+[![](https://raw.githubusercontent.com/hahwul/dalfox/HEAD/docs/static/images/CONTRIBUTORS.svg)](https://github.com/hahwul/dalfox/graphs/contributors)
+
+## About the Name
+
+The name comes from 'Dal' ([달](https://en.wiktionary.org/wiki/%EB%8B%AC)) 🌙, the Korean word for 'moon', combined with 'Fox' 🦊.
+
+![](https://assets.kitploit.com/production/public/readmes/243/1a2b284a0f96ac6489c76d4658ace9487c3fff225e4fc7e2e9ee56b99ddc6d7a.webp)
+
+[Read more](/en/tools/github/hahwul/dalfox?expand=1)
+
+## Categories
+
+[Web Vulnerability Scanners](/en/categories/web-vulnerability-scanners)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Dynamic Code Analysis (DAST)](/en/categories/dynamic-code-analysis)[Web Application Exploitation](/en/categories/web-application-exploitation)[WAF Bypass](/en/categories/waf-bypass)[Web Security](/en/categories/web-security)[Penetration Testing](/en/categories/penetration-testing)[DevSecOps](/en/categories/devsecops)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

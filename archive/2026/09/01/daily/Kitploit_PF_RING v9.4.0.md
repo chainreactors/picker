@@ -1,0 +1,93 @@
+---
+title: PF_RING v9.4.0
+url: https://kitploit.com/en/posts/github-ntop-pf_ring-940
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:10.141828
+---
+
+# PF_RING v9.4.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/2396/472d47308e71b03f52da8229f221a41d0aec03747fa005e5e819fcea6c6b3b49.png)
+
+New releaseSep 1, 2026
+
+# PF\_RING v9.4.0
+
+High-speed packet processing framework
+
+Share
+
+![pfring](https://assets.kitploit.com/production/public/readmes/placeholders/f0fc86cfe65f76d40e15aaec61704ec8220a56dc89d4be03c46f67cb31b9fa8c.svg)
+
+# PF\_RING™
+
+### Introduction
+
+PF\_RING™ is a Linux kernel module and user-space framework that allows you to process packets at high-rates while providing you a consistent API for packet processing applications.
+
+### Who needs PF\_RING™?
+
+Basically everyone who has to handle many packets per second. The term ‘many’ changes according to the hardware you use for traffic analysis. It can range from 80k pkt/sec on a 1,2GHz ARM to more than 20M pkt/sec **per core** on a low-end 2,5GHz Xeon. PF\_RING™ not only enables you to capture packets faster, it also captures packets more efficiently preserving CPU cycles.
+
+### Documentation
+
+If you want to learn more about PF\_RING™ please visit the [User's Guide](https://www.ntop.org/guides/pf_ring) and the [API Documentation](http://www.ntop.org/guides/pf_ring_api/files.html).
+
+### Details
+
+For more information about PF\_RING™ and other ntop technologies, please visit [http://ntop.org](http://www.ntop.org/products/packet-capture/pf_ring/)
+
+## License
+
+PF\_RING™ kernel module and drivers are distributed under the GNU GPLv2 license, LGPLv2.1 for the user-space PF\_RING library, and are available in source code format.
+
+[Read more](/en/tools/github/ntop/pf_ring?expand=1)
+
+## Categories
+
+[Packet Sniffing & Analysis](/en/categories/packet-sniffing-analysis)[Network Mapping](/en/categories/network-mapping)[Network Security](/en/categories/network-security)[Utilities & Frameworks](/en/categories/utilities-frameworks)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

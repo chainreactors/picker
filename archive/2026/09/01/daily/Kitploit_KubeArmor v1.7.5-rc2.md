@@ -1,0 +1,98 @@
+---
+title: KubeArmor v1.7.5-rc2
+url: https://kitploit.com/en/posts/github-kubearmor-kubearmor-v175-rc2
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:10.383075
+---
+
+# KubeArmor v1.7.5-rc2
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/6844/13ba04646156d3f0076fffdf242dfd3eebf3f1cd47fab94b48a54f926d8a5b5c.png)
+
+New releaseSep 1, 2026
+
+# KubeArmor v1.7.5-rc2
+
+Runtime Security Enforcement System. Workload hardening/sandboxing and implementing least-permissive policies made easy leveraging LSMs (LSM-BPF, AppArmor).
+
+Share
+
+![](https://assets.kitploit.com/production/public/readmes/6844/13ba04646156d3f0076fffdf242dfd3eebf3f1cd47fab94b48a54f926d8a5b5c.png)
+
+[![Build Status](https://github.com/kubearmor/KubeArmor/actions/workflows/ci-test-suite.yml/badge.svg)](https://github.com/kubearmor/KubeArmor/actions/workflows/ci-test-suite.yml/)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5401/badge)](https://bestpractices.coreinfrastructure.org/projects/5401)
+[![CLOMonitor](https://img.shields.io/endpoint?url=https://clomonitor.io/api/projects/cncf/kubearmor/badge)](https://clomonitor.io/projects/cncf/kubearmor)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/kubearmor/kubearmor/badge)](https://securityscorecards.dev/viewer/?uri=github.com/kubearmor/KubeArmor)
+[![SLSA Level 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/kubearmor/KubeArmor/actions/workflows/slsa-verify.yml)
+[![codecov](https://codecov.io/gh/kubearmor/KubeArmor/branch/main/graph/badge.svg)](https://codecov.io/gh/kubearmor/KubeArmor)
+[![FOSSA Status](https://app.fossa.com/api/projects/git+github.com/kubearmor/KubeArmor.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com/kubearmor/KubeArmor?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git+github.com/kubearmor/KubeArmor.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com/kubearmor/KubeArmor?ref=badge_shield)
+[![Slack](https://img.shields.io/badge/Join%20Our%20Community-Slack-blue)](https://cloud-native.slack.com/archives/C02R319HVL3)
+[![Discussions](https://img.shields.io/badge/Got%20Questions%3F-Chat-Violet)](https://github.com/kubearmor/KubeArmor/discussions)
+[![Docker Downloads](https://img.shields.io/docker/pulls/kubearmor/kubearmor)](https://hub.docker.com/r/kubearmor/kubearmor)
+[![ArtifactHub](https://img.shields.io/badge/ArtifactHub-KubeArmor-blue?logo=artifacthub&labelColor=grey&color=green)](https://artifacthub.io/packages/search?kind=19)
+
+KubeArmor is a cloud-native runtime security enforcement system that restricts the behavior (such as process execution, file access, and networking operations) of pods, containers, and nodes (VMs) at the system level.
+
+KubeArmor leverages [Linux security modules (LSMs)](https://en.wikipedia.org/wiki/Linux_Security_Modules) such as [AppArmor](https://en.wikipedia.org/wiki/AppArmor), [SELinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux), or [BPF-LSM](https://docs.kernel.org/bpf/prog_lsm.html) to enforce the user-specified policies. KubeArmor generates rich alerts/telemetry events with container/pod/namespace identities by leveraging eBPF.
+
+|  |  |
+| --- | --- |
+| 💪 **[Harden Infrastructure](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/hardening_guide.md)**   ---  ⛓️ Protect critical paths such as cert bundles  📋 MITRE, STIGs, CIS based rules  🛅 Restrict access to raw DB table | 💍 **[Least Permissive Access](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/least_permissive_access.md)**   ---  🚥 Process Whitelisting  🚥 Network Whitelisting  🎛️ Control access to sensitive assets |
+| 🔭 **[Application Behavior](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/workload_visibility.md)**   ---  🧬 Process execs, File System accesses  🧭 Service binds, Ingress, Egress connections  🔬 Sensitive system call profiling | ❄️ **[Deployment Models](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/deployment_models.md)**   ---  ☸️ Kubernetes Deployment 🐋 Containerized Deployment 💻 VM/Bare-Metal Deployment |
+
+## Architecture Overview
+
+![KubeArmor High Level Design](https://assets.kitploit.com/production/public/readmes/6844/64ccdb3c682251008857a4c9964f4e252d29ce7cb5d7bed913673545e918e5b8.png)
+
+## Documentation 📓
+
+* 👉 [Getting Started](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/deployment_guide.md)
+* 🎯 [Use Cases](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/use-cases/hardening.md)
+* ✔️ [KubeArmor Support Matrix](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/support_matrix.md)
+* ♟️ [How is KubeArmor different?](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/differentiation.md)
+* 📜 Security Policy for Pods/Containers [[Spec](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/security_policy_specification.md)] [[Examples](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/security_policy_examples.md)]
+* 📜 Cluster level security Policy for Pods/Containers [[Spec](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/cluster_security_policy_specification.md)] [[Examples](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/cluster_security_policy_examples.md)]
+* 📜 Security Policy for Hosts/Nodes [[Spec](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/host_security_policy_specification.md)] [[Examples](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/host_security_policy_examples.md)]
+* 📜 Network Security Policy for Hosts/Nodes [[Spec](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/network_security_policy_specification.md)] [[Examples](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/network_security_policy_examples.md)]
+  ... [detailed documentation](https://docs.kubearmor.io/kubearmor/)
+
+### Contributors 👥
+
+* 📘 [Contribution Guide](https://github.com/kubearmor/kubearmor/blob/HEAD/contribution/contribution_guide.md)
+* 🧑‍💻 [Development Guide](https://github.com/kubearmor/kubearmor/blob/HEAD/contribution/development_guide.md), [Testing Guide](https://github.com/kubearmor/kubearmor/blob/HEAD/contribution/testing_guide.md)
+* ✋ [Join KubeArmor Slack](https://cloud-native.slack.com/archives/C02R319HVL3)
+* ❓ [FAQs](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/FAQ.md)
+
+### Biweekly Meeting
+
+* 🗣️ [Zoom Link](http://zoom.kubearmor.io)
+* 📄 Minutes: [Document](https://docs.google.com/document/d/1IqIIG9Vz-PYpbUwrH0u99KYEM1mtnYe6BHrson4NqEs/edit)
+* 📆 Calendar invite: [Google Calendar](https://www.google.com/calendar/event?action=TEMPLATE&dates=20220210T150000Z%2F20220210T153000Z&text=KubeArmor%20Community%20Call&location=&details=%3Ca%20href%3D%22https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1IqIIG9Vz-PYpbUwrH0u99KYEM1mtnYe6BHrson4NqEs%2Fedit%22%3EMinutes%20of%20Meeting%3C%2Fa%3E%0A%0A%3Ca%20href%3D%22%20http%3A%2F%2Fzoom.kubearmor.io%22%3EZoom%20Link%3C%2Fa%3E&recur=RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TH&ctz=Asia/Calcutta), [ICS file](https://github.com/kubearmor/kubearmor/blob/HEAD/getting-started/resources/KubeArmorMeetup.ics)
+
+### Community & Governance
+
+KubeArmor is a community-governed project. The following documents describe how the project is run:
+
+* 📜 [Governance](https://github.com/kubearmor/kubearmor/blob/HEAD/GOVERNANCE.md) — roles, decision-making, vendor neutrality, sub-teams, voting.
+* 👥 [Maintainers](https://github.com/kubearmor/kubearmor/blob/HEAD/MAINTAINERS.md) — current Maintainers, Reviewers, and Emeritus Maintainers, with affiliations.
+* 🤝 [Code of Conduct](https://github.com/kubearmor/kubearmor/blob/HEAD/CODE_OF_CONDUCT.md) — we follow the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/ma...

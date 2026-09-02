@@ -1,0 +1,196 @@
+---
+title: DLLHijackHunter v2.4.0
+url: https://kitploit.com/en/posts/github-ghostvectoracademy-dllhijackhunter-v240
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:06.817792
+---
+
+# DLLHijackHunter v2.4.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/12271/ef8ba456fdb43dcab4a65148aa6bd9e4d53624c2fd7bcc69786842d25a735477.png)
+
+New releaseSep 1, 2026
+
+# DLLHijackHunter v2.4.0
+
+Automated DLL Hijacking Discovery, Validation, and Confirmation. Turning local misconfigurations into weaponized, confirmed attack paths.
+
+Share
+
+![](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)
+![](https://img.shields.io/badge/.NET-8.0_%7C_10.0-purple?style=for-the-badge&logo=dotnet)
+![](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![](https://img.shields.io/badge/Version-2.4.0-orange?style=for-the-badge)
+![](https://img.shields.io/badge/Black%20Hat%20Arsenal-Sector%202026-CC0000?style=for-the-badge)
+![](https://img.shields.io/badge/Black%20Hat%20Arsenal-Sector%202026-CC0000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyTDIgN2wxMCA1IDEwLTV6TTIgMTdsOCA0IDgtNE0yIDEybDggNCA4LTQiLz48L3N2Zz4=)
+
+# DLLHijackHunter
+
+#### By [ProjectMerai](https://projectmerai.com)
+
+**Automated DLL Hijacking Discovery, Validation, and Confirmation**
+*Turning local misconfigurations into weaponized, confirmed attack paths.*
+
+---
+
+## Overview
+
+**DLLHijackHunter** is an automated Windows DLL hijacking detection tool that goes beyond static analysis. It discovers, validates, and confirms DLL hijacking opportunities using a multi-phase pipeline:
+
+1. **Discovery** — Enumerates binaries across services, scheduled tasks, startup items, COM objects, and AutoElevate UAC bypass vectors
+2. **Filtration** — Eliminates false positives through intelligent hard and soft gates
+3. **Canary Confirmation** — Deploys a harmless canary DLL and triggers the binary to prove the hijack works
+4. **Scoring & Reporting** — Ranks findings by exploitability with a tiered confidence system
+
+> Most DLL hijacking tools stop at “this DLL might be hijackable.” DLLHijackHunter attempts to validate it, cross-reference it against known exploit intelligence, and confirm real execution paths where possible.
+
+---
+
+## Architecture
+
+root@kitploit:~
+
+```
+flowchart TB
+    subgraph Phase1["Phase 1: Discovery"]
+        SE["Static Engine<br/>Services, Tasks, Startup,<br/>COM, Run Keys"]
+        AE["AutoElevate Engine<br/>Manifest + COM UAC Bypass"]
+        PE["PE Analyzer<br/>Import Tables, Delay Loads,<br/>Manifests, Exports"]
+        ETW["ETW Engine<br/>Real-time DLL Load<br/>Monitoring"]
+        SO["Search Order<br/>Calculator"]
+    end
+
+    subgraph Phase2["Phase 2: Filter Pipeline"]
+        direction LR
+        HG["Hard Gates<br/>(Binary Kill)"]
+        SG["Soft Gates<br/>(Confidence Adj.)"]
+    end
+
+    subgraph Phase3["Phase 3: Load Verification (--verify-load)"]
+        LP["LoadProbe<br/>Child-process loader test<br/>Probe DLL placed &amp; removed"]
+    end
+
+    subgraph Phase4["Phase 4: Canary"]
+        CB["Canary DLL Builder"]
+        TE["Trigger Executor"]
+        VF["Verification"]
+    end
+
+    subgraph Phase5["Phase 5: Output"]
+        SC["Tiered Scorer"]
+        RC["Console Report"]
+        RJ["JSON Report"]
+        RH["HTML Report"]
+    end
+
+    SE --> PE --> SO
+    AE --> PE
+    ETW --> SO
+    SO --> Phase2
+    HG --> SG
+    Phase2 --> Phase3
+    Phase3 --> Phase4
+    CB --> TE --> VF
+    Phase4 --> Phase5
+```
+
+---
+
+## Key Features
+
+### Hijack Type Coverage
+
+| Type | Description | Stealth | Status |
+| --- | --- | --- | --- |
+| **Phantom** | DLL doesn't exist anywhere on disk | High | Implemented |
+| **Search Order** | Place DLL earlier in the Windows search order | High | Implemented |
+| **Side-Loading** | Abuse legitimate app loading DLLs from its directory | High | Implemented (AutoElevate copy-to-temp path) |
+| **.local Redirect** | Hijack via `.local` directory redirection | High | Implemented |
+| **ENV PATH** | Weaponization of writable directories in system `PATH` | High | Implemented (curated service/DLL map) |
+| **AppInit DLLs** | `AppInit_DLLs` registry abuse | Low | Implemented |
+| **AppCert DLLs** | `AppCertDLLs` registry abuse (loads into every `CreateProcess`/`WinExec` caller) | Low | Implemented |
+| **CWD** | Current Working Directory hijack | Low | Planned — not currently produced by any discovery path |
+
+> IFEO Debugger entries are enumerated and the referenced binary is analyzed for DLL imports, but there is no dedicated IFEO/KnownDLL-bypass hijack type — those are not advertised as standalone detections.
+
+### UAC Bypass Discovery
+
+DLLHijackHunter includes dedicated UAC bypass discovery:
+
+* **Manifest AutoElevate** — Scans `System32` and `SysWOW64` for EXEs with `<autoElevate>true</autoElevate>` in embedded manifests
+* **COM AutoElevation** — Scans `HKLM\SOFTWARE\Classes\CLSID` for COM objects with `Elevation\Enabled=1`
+* **Side-Load Simulation** — For AutoElevate binaries that do not call `SetDllDirectory` or `SetDefaultDllDirectories`, simulates the “copy EXE to writable folder + drop DLL” attack path
+
+### Targeted Vulnerability Knowledge Base
+
+* **Targeted vulnerability mapping** — Cross-references discovered imports against a **bundled snapshot of the [HijackLibs](https://hijacklibs.net/) dataset** (≈590 documented DLL entries spanning ≈700 vulnerable executables), embedded as `Resources/hijacklibs.json`. A match boosts confidence and links the finding to its HijackLibs reference page; the absence of a match means nothing. The dataset is data-driven — refresh it by re-downloading `https://hijacklibs.net/api/hijacklibs.json` over that resource (no code changes required). Dataset © the HijackLibs project and contributors.
+* **Automated PATH exploitation** — Evaluates writable `PATH` folders and generates hijack candidates for a curated map of native Windows services known to search `PATH` for missing DLLs
+* **Expanded phantom DLL hunting** — Searches for a library of high-value phantom DLL opportunities across multiple categories
+
+### Filter Pipeline
+
+The pipeline reduces false positives through two stages:
+
+**Hard Gates**
+
+* API set schema filtering (`api-ms-*`, `ext-ms-*`)
+* KnownDLL filtering
+* **Attacker-relative** ACL writability validation — a path counts as writable only if an *unprivileged* principal (`Users` / `Authenticated Users` / `Everyone`, plus leak-proof sub-admin service accounts like `LOCAL SERVICE`/`NETWORK SERVICE`) has effective write rights. Crucially, this is computed independently of the token the tool runs under, so running elevated does **not** make `System32`/`Program Files` look writable. This is what makes elevated runs meaningful for LPE triage.
+
+**Soft Gates**
+
+* WinSxS manifest penalty
+* Privilege delta analysis
+* `LoadLibraryEx` mitigation checks
+* Signature validation checks
+* Graceful error-handling penalties
+
+---
+
+## Canary Confirmation
+
+Instead of guessing, DLLHijackHunter attempts to prove hijacks work:
+
+root@kitploit:~
+
+```
+sequenceDiagram
+    participant H as DLLHijackHunter
+    participant B as Canary DLL Builder
+    participant T as Trigger Executor
+    participant V as Victim Binary
+
+    H->>B: Build canary DLL
+    B->>B: Extract precompiled canary<br/>(or compile a proxy with MSVC)
+    B-->>H: canary.dll + confirmation file path
+    H->>H: Place DLL at hijack path
+    H->>T: Trigger binary execution
+    T->>V: Start service / run task / COM activate
+    V->>V: Loads canary DLL
+    V-->>H: Writes confirmation file<br/>PID, privilege, integrity level
+    H->>H: Record: CONFIRMED
+    H->>H: Cleanup canary DLL
+```
+
+The canary DLL:
+
+* Ships **precompiled for both x64 and x86**, embedded in the scanner, so **no compiler is required at scan time**. T...

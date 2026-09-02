@@ -1,0 +1,188 @@
+---
+title: webanalyze v0.4.5
+url: https://kitploit.com/en/posts/github-rverton-webanalyze-v045
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:07.014168
+---
+
+# webanalyze v0.4.5
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/7408/980d7caf146f99db1c29a9b9916e6dd69ee0da7da61d61c4c7d28b9d59b73a08.png)
+
+New releaseSep 1, 2026
+
+# webanalyze v0.4.5
+
+Port of Wappalyzer (uncovers technologies used on websites) to automate mass scanning.
+
+Share
+
+# webanalyze
+
+This is a port of Wappalyzer in Go. This tool is designed to be performant and allows to test huge lists of hosts.
+
+> [!NOTE]
+> Because Wappalyzer removed the public access to their app definitions, webanalyze currently loads definitions from [enthec](https://github.com/enthec/webappanalyzer).
+
+## Installation and usage
+
+### Precompiled releases
+
+Precompiled releases can be downloaded directly [here](https://github.com/rverton/webanalyze/releases).
+
+### Build
+
+If you want to build for yourself:
+
+root@kitploit:~
+
+```
+$ go install -v github.com/rverton/webanalyze/cmd/webanalyze@latest
+```
+
+## Usage
+
+root@kitploit:~
+
+```
+$ webanalyze -update # loads new technologies.json file from wappalyzer project
+$ webanalyze -h
+Usage of webanalyze:
+  -apps string
+        app definition file. (default "technologies.json")
+  -crawl int
+        links to follow from the root page (default 0)
+  -header value
+        custom HTTP request header, repeatable (e.g. 'User-Agent: webanalyze')
+  -host string
+        single host to test
+  -hosts string
+        filename with hosts, one host per line.
+  -output string
+        output format (stdout|csv|json) (default "stdout")
+  -search
+        searches all urls with same base domain (i.e. example.com and sub.example.com) (default true)
+  -silent
+	    avoid printing header (default false)
+  -update
+        update apps file
+  -worker int
+        number of worker (default 4)
+```
+
+The `-update` flags downloads a current version of `technologies.json` from [enthec](https://github.com/enthec/webappanalyzer).
+
+Custom request headers can be supplied more than once:
+
+root@kitploit:~
+
+```
+$ webanalyze -host example.com -header "User-Agent: Mozilla/5.0" -header "Authorization: Bearer token"
+```
+
+### Docker
+
+root@kitploit:~
+
+```
+# Clone the repo
+git clone https://github.com/rverton/webanalyze.git
+# Build the container
+docker build -t webanalyze:latest webanalyze
+# Run the container
+docker run -it webanalyze:latest -h
+```
+
+## Development / Usage as a lib
+
+See `cmd/webanalyze/main.go` for an example on how to use this as a library.
+
+## Example
+
+root@kitploit:~
+
+```
+$ ./webanalyze -host robinverton.de -crawl 1
+ :: webanalyze        : v1.0
+ :: workers           : 4
+ :: apps              : technologies.json
+ :: crawl count       : 1
+ :: search subdomains : true
+
+https://robinverton.de/hire/ (0.5s):
+    Highlight.js,  (Miscellaneous)
+    Netlify,  (Web Servers, CDN)
+    Google Font API,  (Font Scripts)
+http://robinverton.de (0.8s):
+    Highlight.js,  (Miscellaneous)
+    Netlify,  (Web Servers, CDN)
+    Hugo, 0.42.1 (Static Site Generator)
+    Google Font API,  (Font Scripts)
+
+$ ./webanalyze -host robinverton.de -crawl 1 -output csv
+ :: webanalyze        : v1.0
+ :: workers           : 4
+ :: apps              : technologies.json
+ :: crawl count       : 1
+ :: search subdomains : true
+
+Host,Category,App,Version
+https://robinverton.de/hire/,Miscellaneous,Highlight.js,
+https://robinverton.de/hire/,Font Scripts,Google Font API,
+https://robinverton.de/hire/,"Web Servers,CDN",Netlify,
+http://robinverton.de,"Web Servers,CDN",Netlify,
+http://robinverton.de,Static Site Generator,Hugo,0.42.1
+http://robinverton.de,Miscellaneous,Highlight.js,
+http://robinverton.de,Font Scripts,Google Font API,
+```
+
+[Read more](/en/tools/github/rverton/webanalyze?expand=1)
+
+## Categories
+
+[OSINT (Open Source Intelligence)](/en/categories/osint)[Reconnaissance](/en/categories/reconnaissance)[Information Gathering](/en/categories/information-gathering)[Web Security](/en/categories/web-security)[Utilities & Frameworks](/en/categories/utilities-frameworks)[Crawler](/en/categories/crawler)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

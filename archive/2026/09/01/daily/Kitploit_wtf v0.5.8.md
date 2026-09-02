@@ -1,0 +1,134 @@
+---
+title: wtf v0.5.8
+url: https://kitploit.com/en/posts/github-0vercl0k-wtf-v058
+source: Kitploit
+date: 2026-09-01
+fetch_date: 2026-09-02T06:40:08.800053
+---
+
+# wtf v0.5.8
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/4699/c338442f63a8dd105180ec38f8d3f7ffd5679442b400d5fb14e843ef73658ce3.webp)
+
+New releaseSep 1, 2026
+
+# wtf v0.5.8
+
+Distributed, code-coverage guided snapshot-based fuzzer for user and kernel-mode targets on Windows and Linux, with emulator and hypervisor backends.
+
+Share
+
+# `what the fuzz`
+
+**A distributed, code-coverage guided, cross-platform snapshot-based fuzzer designed for attacking user and or kernel-mode targets running on Microsoft Windows and Linux user-mode (experimental!).**
+
+![](https://github.com/0vercl0k/wtf/actions/workflows/wtf.yml/badge.svg?branch=main)
+
+![](https://assets.kitploit.com/production/public/readmes/4699/b59a1b82269282cf1d3643911853b5e4ab2cab6094382372fcac1fd0689b0ab0.webp)
+
+## Overview
+
+**what the fuzz** or **wtf** is a distributed, code-coverage guided, customizable, cross-platform snapshot-based fuzzer designed for attacking user and or kernel-mode targets running on Microsoft Windows or Linux (**experimental**, see [linux\_mode](https://github.com/0vercl0k/wtf/blob/HEAD/linux_mode/)). Execution of the target can be done inside an emulator with [bochscpu](https://github.com/yrp604/bochscpu) (slowest, most precise), inside a Windows VM with the [Windows Hypervisor Platform APIs](https://docs.microsoft.com/en-us/virtualization/api/hypervisor-platform/hypervisor-platform) or inside a Linux VM with the [KVM APIs](https://www.kernel.org/doc/html/latest/virt/kvm/api.html) (fastest).
+
+It uncovered memory corruption vulnerabilities in a wide range of softwares: [IDA Pro](https://github.com/0vercl0k/fuzzing-ida75), a popular [AAA game](https://blog.ret2.io/2021/07/21/wtf-snapshot-fuzzing/), the [Windows kernel](https://microsoft.fandom.com/wiki/Architecture_of_Windows_NT), the [Microsoft RDP client](https://www.hexacon.fr/slides/Hexacon2022-Fuzzing_RDPEGFX_with_wtf.pdf), [NVIDIA GPU Display driver](https://nvidia.custhelp.com/app/answers/detail/a_id/5383), etc.
+
+Compiled binaries are available from either the [CI artifacts](https://github.com/0vercl0k/wtf/actions/workflows/wtf.yml) or from the [Releases](https://github.com/0vercl0k/wtf/releases) section for both Windows & Linux.
+
+If you would like to read more about its history or how to use it on a real target, I recommend to take a look at those posts to get started 🔥
+
+* [Building a new snapshot fuzzer & fuzzing IDA](https://doar-e.github.io/blog/2021/07/15/building-a-new-snapshot-fuzzer-fuzzing-ida/)
+* [Fuzzing Modern UDP Game Protocols With Snapshot-based Fuzzers](https://blog.ret2.io/2021/07/21/wtf-snapshot-fuzzing/) by [Markus Gaasedelen](https://twitter.com/gaasedelen)
+* [Fuzzing RDPEGFX with "what the fuzz"](https://thalium.github.io/blog/posts/rdpegfx/) by [Colas Le Guernic](https://github.com/clslgrnc), Jérémy Rubert, and Anonymous
+* [A Journey to Network Protocol Fuzzing – Dissecting Microsoft IMAP Client Protocol](https://www.fortinet.com/blog/threat-research/analyzing-microsoft-imap-client-protocol) by [Wayne Chin Yick Low](https://www.fortinet.com/blog/search?author=Wayne+Chin+Yick+Low)
+* The [Snapshot Fuzzing](https://appsec.guide/docs/fuzzing/snapshot-fuzzing/) section of [Trail Of Bits' Testing Handbook](https://appsec.guide/)
+* [Attacking EDRs Part 4: Fuzzing Defender's Scanning and Emulation Engine (mpengine.dll)](https://labs.infoguard.ch/posts/attacking_edr_part4_fuzzing_defender_scanning_and_emulation_engine/) by [Manuel Feifel](https://x.com/p0w1_)
+
+## Usage
+
+The best way to try the features out is to work with the [fuzzer\_hevd](https://github.com/0vercl0k/wtf/blob/HEAD/src/wtf/fuzzer_hevd.cc) / [fuzzer\_tlv\_server](https://github.com/0vercl0k/wtf/blob/HEAD/src/wtf/fuzzer_tlv_server.cc) modules. You can grab the [target-hevd.7z](https://github.com/0vercl0k/wtf/releases) / [target-tlv\_server.7z](https://github.com/0vercl0k/wtf/releases) archives and extract them into the `targets/` directory. The archives contain the directory trees that are expected for every targets:
+
+* `inputs` is the folder where your input test-cases go into,
+* `outputs` is the folder where the current minset files are saved into,
+* `coverage` is the folder where the `.cov` files are expected to be in,
+* `crashes` is where the crashes gets saved in,
+* `state` is where the memory dump (`mem.dmp`) as well as the CPU state (`regs.json`) and the symbol store are stored in (`symbol-store.json`). The symbol store is a simple JSON file that is used on Linux systems to know where to put breakpoints as there is no support for symbols / dbgeng on those platforms. **wtf** generates this file at runtime everytime you run your target on Windows.
+
+What follows assume that you downloaded the [target-hevd.7z](https://github.com/0vercl0k/wtf/releases) file attached to the latest release, and extracted it in the `targets` directory of your clone of **wtf**. You should have `wtf/targets/hevd` in which you find the `inputs` / `outputs`, etc. directories.
+
+### Starting a server node
+
+The server is basically the brain and keeps track of all the state: the aggregated code-coverage, the corpus, it generates and distributes the test-cases to client.
+
+This is how you might choose to launch a local server node:
+
+root@kitploit:~
+
+```
+wtf.exe master --name hevd --max_len=1028 --runs=10000000
+```
+
+The `max_len` option is used to limit the size of the generated test-case, `runs` is the number of test-cases it will generate, `address` specify where **wtf** needs to be listening on, `target` is a directory with the directory tree we described above (the user can also choose to override those directories with `--input` / `--output` / `--crashes`) and `name` specifies your fuzzing module name so that the master can invoke your generator function if you have defined one.
+
+![](https://assets.kitploit.com/production/public/readmes/4699/4a03fc75eed3ed5a92f7f10def697dbf220ae36b0701f05b37759eb432fc0fd9.webp)
+
+### Fuzzing nodes
+
+The client nodes run a test-case that has been generated and distributed by the server and communicates the result back to the server (code-coverage, result, etc.).
+
+This is how you would start a client node that uses the *bochscpu* backend:
+
+root@kitploit:~
+
+```
+wtf.exe fuzz --name hevd --limit 10000000
+```
+
+The `fuzz` subcommand is used with the `name` option to specify which fuzzer module needs to be used, `backend` specifies the execution backend and `limit` the maximum number of instruction to execute per testcase (depending on the backend, this option has different meaning).
+
+![](https://assets.kitploit.com/production/public/readmes/4699/3e534c8f6ad3507bfb61307e00957fcbf9b32de3645979be895cccfb5ceb9b26.webp)
+
+### Running a test-case
+
+If you would like to run a test-case (or a folder filled with test-cases), you can use the `run` subcommand.
+
+This is how you would would run the `crash-0xfffff764b91c0000-0x0-0xffffbf84fb10e780-0x2-0x0` test-case:
+
+root@kitploit:~
+
+```
+wtf.exe run --name hevd --limit 10000000 --input crashes\crash-0xfffff764b91c0000-0x0-0xffffbf84fb10e780-0x2-0x0
+```
+
+![](https://assets.kitploit.com/production/public/readmes/4699/49b3ca8582d6314724e5615c687472499d5f8f41d04c9543c0a6a070c51f56f8.webp)
+
+### Minseting a corpus
+
+To minset a corpus, you need to use a server node and as many client nodes as you need like you would for a fuzzing job. You can simply set the `runs` optins to 0.
+
+This is how you would minset the corpus in `outputs` into the `minset` directory (also highlights how you can override the `inputs` and `outputs` directories):
+
+root@kitploit:~
+
+```
+wtf.exe master --name hevd --max_len=1028 --runs=0 --inputs=outputs --outputs=minset
+```
+
+![](https://assets.kitploit.com...
