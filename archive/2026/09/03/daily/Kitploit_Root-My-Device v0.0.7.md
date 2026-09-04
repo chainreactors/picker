@@ -1,0 +1,207 @@
+---
+title: Root-My-Device v0.0.7
+url: https://kitploit.com/en/posts/github-witaqua-tools-root-my-device-v007
+source: Kitploit
+date: 2026-09-03
+fetch_date: 2026-09-04T06:42:37.811886
+---
+
+# Root-My-Device v0.0.7
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/45361/289e1e5d472be9317bf11651e139bd839c825ce980524314e62c7a60b3d47137.jpg)
+
+New releaseSep 3, 2026
+
+# Root-My-Device v0.0.7
+
+KSU installer for supported firmware with CVE-2026-43499
+
+Share
+
+# Root My Device
+
+A fork of [BuSung-dev/Root-My-Galaxy](https://github.com/BuSung-dev/Root-My-Galaxy),
+under the Apache License 2.0 — see [LICENSE](https://github.com/witaqua-tools/root-my-device/blob/main/LICENSE) and [Credits](#credits).
+
+![sprout_icon_108](https://assets.kitploit.com/production/public/readmes/45361/e0b74690cd10183afcd56d87b94faed9c66af1e8ebe756f1f7b59dd91c4b60bf.png)
+
+Root My Device is a one-click installer for explicitly
+supported firmware builds. The application itself is kept separate
+from device offsets, native exploit payloads, and KernelSU build artifacts.
+
+[Latest release](https://github.com/Witaqua-tools/Root-My-Device/releases)
+
+The device feed and native payloads are maintained in
+[Root-My-Device-Payloads](https://github.com/Witaqua-tools/Root-My-Device-Payloads).
+Every push to its `main` branch builds the payloads and publishes them as a
+GitHub release under a tag unique to that run. The app resolves that
+repository's `releases/latest`, reads the `targets-v2.json` asset from it, and
+downloads every artifact named in it — so the set of payloads it installs is
+immutable once published, and nothing is committed as a binary.
+
+## Application
+
+![KakaoTalk_20260718_170922353](https://assets.kitploit.com/production/public/readmes/45361/289e1e5d472be9317bf11651e139bd839c825ce980524314e62c7a60b3d47137.jpg)
+![KakaoTalk_20260718_171127319](https://assets.kitploit.com/production/public/readmes/45361/0c57d1d3fac3fe5b291e4572fc7097ab92d1524cdbaaedf599da73bf6002a39d.jpg)
+![KakaoTalk_20260718_171030202](https://assets.kitploit.com/production/public/readmes/45361/38114159ea7ab4c428d03594c1a1529d29b5db77a99e65e0520933316e2162a0.jpg)
+
+The app automatically selects an exact match for the kernel release,
+full build display ID, SDK, ABI, and page size. Advanced mode can select a
+profile manually and presents separate kernel-release and build warnings.
+
+### Debug mode
+
+A profile stays out of the feed until the app's own route has completed on that
+device, and the feed is what the app reads — so the run that would establish
+whether that route works has nothing to download. Debug mode is for that case:
+a separate switch from advanced mode, off by default, that reads the payload out
+of a folder on the device. Turning it on reveals the folder to point it at,
+which holds three files at its top level:
+
+root@kitploit:~
+
+```
+profile.json
+cve-2026-43499-app.release.so
+ksud
+```
+
+The two artifacts are what the payload repository builds, and those names are
+the defaults. A daemon carried under the `ksud-<id>` name that repository's
+releases use has to be renamed, or named in the manifest as `kernelsu.name`
+(`exploit.name` for the payload).
+
+`profile.json` carries only what cannot be taken from the device, under the
+feed's own key names:
+
+root@kitploit:~
+
+```
+{
+  "profileId": "xig07-jp-OS3.0.7.0.WNEJPKD",
+  "kernelsu": { "kmi": "android14-6.1", "managerPackage": "me.weishu.kernelsu" }
+}
+```
+
+Those three fields are required. Every field the feed matches a device on —
+kernel release, build display ID, SDK, ABI, page size — comes from *this* device
+instead, since a local profile is not matched against anything. Naming
+`kernelRelease` or `buildDisplay` anyway is optional and checked against the
+device, which is what makes it safe to keep several targets' folders side by
+side.
+
+None of the checks a downloaded payload gets apply here, and the app says so. A
+run from a folder is marked as one in the log, in the overview, and as
+`local:<folder>` in its history entry, so no finished run can be read afterwards
+as a feed run.
+
+## Build
+
+Requirements:
+
+* Android Studio JBR 21
+* Android SDK 37
+* Android NDK 28 or newer
+* CMake 3.22.1
+
+The APK contains one native program that is not built from this repository's
+own source, so clone with submodules:
+
+root@kitploit:~
+
+```
+git clone --recurse-submodules https://github.com/Witaqua-tools/Root-My-Device
+# or, in an existing checkout
+git submodule update --init payloads
+```
+
+root@kitploit:~
+
+```
+$env:JAVA_HOME='C:\Program Files\Android\Android Studio\jbr'
+.\gradlew.bat :app:assembleDebug
+```
+
+Output:
+
+root@kitploit:~
+
+```
+app/build/outputs/apk/debug/app-debug.apk
+```
+
+### The bootstrap helper
+
+`lib/arm64-v8a/libcve43499root.so` in the APK is not a library — it is the
+bootstrap helper, an executable the app runs with `ProcessBuilder` out of
+`nativeLibraryDir`. It is what loads a downloaded payload, and afterwards what
+serves `su` over a socket once the payload has made it root.
+
+It is compiled from source by [`app/src/main/cpp/CMakeLists.txt`](https://github.com/witaqua-tools/root-my-device/blob/main/app/src/main/cpp/CMakeLists.txt),
+not committed as a binary. The source is not here, though: the payload's
+standalone route execs the same program from a fixed path, so the payload
+repository has to build it too, and it stays the one copy. This repository
+reaches it through the `payloads` submodule, whose pinned commit is the record
+of exactly which revision an APK was built from.
+
+That means two builds of one source, deliberately. The payload repository pins
+NDK 29 at API 35 because its exploit payload is a fixed-size blob whose
+toolchain is part of its identity; here CMake uses this module's `ndkVersion`
+at `minSdk`. The helper depends on neither — it is the same program either way,
+and the copy the app ships is the one built here.
+
+Two things about it are load-bearing and easy to undo by accident: it must be
+an **executable** (`add_executable` plus `-pie`, so it has a `PT_INTERP` that a
+shared library would not), and it must be **named `lib*.so`** with
+`jniLibs.useLegacyPackaging = true`, because that is what gets extracted into
+`nativeLibraryDir` as a real file with the execute bit set. Both are commented
+where they are set.
+
+Use only on devices you own or are explicitly authorized to test.
+
+## Credits
+
+### This application
+
+A fork of [Root-My-Galaxy](https://github.com/BuSung-dev/Root-My-Galaxy) by
+[BuSung-dev](https://github.com/BuSung-dev), which keeps the original Apache
+License 2.0 — see [LICENSE](https://github.com/witaqua-tools/root-my-device/blob/main/LICENSE).
+
+### The payloads it runs
+
+This application downloads and runs what
+[Root-My-Device-Payloads](https://github.com/Witaqua-tools/Root-My-Device-Payloads)
+publishes — itself a fork of
+[Root-My-Galaxy-Payloads](https://github.com/BuSung-dev/Root-My-Galaxy-Payloads)
+by [BuSung-dev](https://github.com/BuSung-dev).
+
+Nothing a payload is owed is in this repository, and nothing of it is repeated
+here. KernelSU — what a successful run loads — each core's upstream, the source
+those cores descend from, and the licence terms of everything built there are
+credited in the
+[payload repository's README](https://github.com/Witaqua-tools/Root-My-Device-Payloads#readme),
+which is where a payload-side credit belongs and where those artifacts are built.
+
+[Read more](/en/tools/github/witaqua-tools/root-my-device?expand=1)
+
+## Categories
+
+[Android Security](/en/categories/android-security)[Privilege Escalation](/en/categories/privilege-escalation)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Exploitation](/en/categories/exploitation)[Penetration Testing](/en/categories/penetration-testing)[Mobile Security](/en/categories/mobile-security)[Red Teaming](/en/categories/red-teaming)[Payload Development](/en/categories/payload-development)[Binary Exploitation](/en/categories/binary-exploitat...

@@ -1,0 +1,120 @@
+---
+title: safer-dependencies v0.6.1
+url: https://kitploit.com/en/posts/github-robert-auger-safer-dependencies-v061
+source: Kitploit
+date: 2026-09-03
+fetch_date: 2026-09-04T06:42:38.271572
+---
+
+# safer-dependencies v0.6.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/790/3d30e5a9abf7983b380cc1bb582ed3c29052afec698a79b7ff53aeb298447056.png)
+
+New releaseSep 3, 2026
+
+# safer-dependencies v0.6.1
+
+Automated dependency security layer for AI coding assistants that audits packages for CVEs, typosquats, abandonment, version-age issues, and hash integrity across npm, PyPI, RubyGems, Maven, Go, and Rust ecosystems.
+
+Share
+
+# Safer Dependencies for Claude Code
+
+When AI coding assistants like Claude add packages to your project, they often pick whatever version sounds right — without checking whether it has known security vulnerabilities, whether the package is still actively maintained, or whether the name is a typo away from a malicious lookalike.
+
+safer-dependencies is a security layer for Claude Code: it sits between Claude and your manifest files and runs its security checks automatically: vulnerable installs are denied before they run, and a risky version written to a manifest is corrected on disk right after the write. It detects and fixes risky dependencies — CVEs, typosquats, abandoned packages, and version-age issues, plus a cooldown period on brand-new releases — across npm, PyPI, RubyGems, Maven, Go, Rust, and PHP (Composer). See [CAPABILITIES.md](https://github.com/robert-auger/safer-dependencies/blob/main/CAPABILITIES.md) for exactly what is and isn't covered.
+
+> **New here?** [GETTING-STARTED.md](https://github.com/robert-auger/safer-dependencies/blob/main/GETTING-STARTED.md) takes you from zero to a working install in about five minutes.
+
+> **Security & privacy:** see [SECURITY.md](https://github.com/robert-auger/safer-dependencies/blob/main/SECURITY.md) (vulnerability disclosure), [PRIVACY.md](https://github.com/robert-auger/safer-dependencies/blob/main/PRIVACY.md) (data egress, no telemetry), and [CAPABILITIES.md](https://github.com/robert-auger/safer-dependencies/blob/main/CAPABILITIES.md) (what the tool defends against and what it doesn't).
+
+> **License (source-available — NOT OSI "open source"):** Free to use and modify for your own purposes, **including for-profit/company internal use and building products you sell**. A separate paid license is required **only** to monetize the software *itself* — selling it, shipping it inside a product or service that is sold, or offering its functionality to third parties for a fee (including hosted/SaaS/API). Redistribution and derivatives must keep the license and credit this project. See **[LICENSE](https://github.com/robert-auger/safer-dependencies/blob/main/LICENSE)** (Section 4 for the commercial restriction); commercial-license requests via [github.com/robert-auger](https://github.com/robert-auger).
+
+## Contents
+
+* [Getting started](#getting-started) — zero to installed in about five minutes
+* [What it does](#what-it-does)
+* [What triggers it](#what-triggers-it)
+* [What's in this repo](#whats-in-this-repo)
+* [Supported ecosystems](#supported-ecosystems)
+* [Install](#install)
+  + [Configuration](#configuration)
+  + [Changing the cooldown period](#changing-the-cooldown-period)
+* [Warning levels](#warning-levels)
+* [How it works](#how-it-works)
+  + [Normal Mode (Manual)](#normal-mode-manual)
+  + [Intercept Mode (Automatic)](#intercept-mode-automatic)
+  + [Pre-Install Mode (Bash Hook)](#pre-install-mode-bash-hook)
+  + [Post-Install Mode (Bash Hook)](#post-install-mode-bash-hook)
+  + [Post-Agent Mode (Agent Hook Pair)](#post-agent-mode-agent-hook-pair)
+* [Audit log](#audit-log)
+* [Requirements](#requirements)
+* [FAQ](#faq)
+
+## Getting started
+
+**[GETTING-STARTED.md](https://github.com/robert-auger/safer-dependencies/blob/main/GETTING-STARTED.md)** takes you from zero to a working install in about five minutes — prerequisites, the interactive install, and verification. For the full install reference (global/project/manual installs, Windows specifics, the [permissions allowlist](https://github.com/robert-auger/safer-dependencies/blob/main/INSTALLATION.md#permissions-allowlist), updating, and uninstalling), see **[INSTALLATION.md](https://github.com/robert-auger/safer-dependencies/blob/main/INSTALLATION.md)**.
+
+**Everyday use:** once the hooks are installed, there's nothing to run — safer-dependencies works automatically in the background. As Claude adds or installs packages, it **flags risky dependencies and upgrades vulnerable versions to a safe one in place** — and blocks a known-vulnerable install before it even runs — so unsafe packages are caught and corrected without you having to ask. You can still invoke it directly any time: *"is `[[email protected]](/cdn-cgi/l/email-protection)` safe?"*, *"check safer-dependencies setup"*, or *"show safer-dependencies stats"*.
+
+## What it does
+
+When Claude is about to add a package to your project, safer-dependencies intercepts and runs 5 checks:
+
+1. **Provenance** -- official registry, typosquat detection (npm/PyPI/RubyGems/Maven/crates.io), package age
+2. **Version age** -- picks the newest stable version published 7+ days ago (cooldown window)
+3. **Vulnerability scan** -- OSV API, with ecosystem-native tools (npm audit, pip-audit, bundle audit) when available
+4. **Hash-pin integrity** -- for PyPI `requirements.txt` lines with `--hash=sha256:...` pins, the declared hash is validated against PyPI's published hashes; mismatch emits a WARNING
+5. **Abandoned & stale packages** -- known-abandoned packages (e.g. `paperclip`, `request`, `pycrypto`, `github.com/dgrijalva/jwt-go`) are hard-blocked immediately with a suggested replacement; packages with no stable release in 2+ years get an advisory `STALE:` warning. Hard-blocked packages are removed from the manifest and Claude will ask how to proceed; stale-only packages are left in place.
+
+If issues are found, Claude emits warnings and may step back to a safer version. All checks are logged to `~/.claude/safer-dependencies-audit-YYYY-MM.log` (one file per calendar month).
+
+## What triggers it
+
+The skill fires automatically when Claude:
+
+**Manifest / install operations**
+
+* Adds or updates a package in `package.json`, `requirements.txt`, `Gemfile`, `pom.xml`, `build.gradle`, `Cargo.toml`, `go.mod`, or any other supported manifest
+* Writes an `import`, `require`, or `use` for a package not already declared in the manifest
+* Generates or updates a lock file (checks only new/changed entries)
+* Runs a package-manager install via Bash (`npm install`, `bundle install`, `poetry install`, `uv sync`, `go mod tidy`, etc.) — Pre-Install audits the command args, Post-Install audits the resulting lockfile
+* Writes a `Dockerfile` or CI workflow (`.github/workflows/*.yml`, etc.) that embeds pinned package-manager install steps
+
+**Selection & recommendation questions**
+
+* Library/framework comparisons: "should I use axios or node-fetch?", "moment vs dayjs?", "which is better X or Y?"
+* Recommendation requests: "what's a good HTTP client for Python?", "recommend a logging library for Go", "what package handles CSV in Node?"
+* Version selection: "what version of Django should I use?", "latest stable Flask?"
+
+**Intent-to-use expressions (pre-add)**
+
+* "I want to use FastAPI for this", "I'm thinking of adding Celery", "we're looking at Prisma as the ORM", "let's use Tailwind"
+
+**Package health and trust questions**
+
+* "Is moment.js still maintained?", "is this gem still active?", "is X abandoned?", "is X EOL?", "can I trust this package?", "when was faker last updated?"
+
+**Scaffolding commands**
+
+* `npx create-react-app`, `npm create vite@latest`, `django-admin startproject`, `rails new`, `cargo new` + `cargo add`, "bootstrap a new FastAPI project"
+
+**Implicit package adds (feature requests that imply a n...

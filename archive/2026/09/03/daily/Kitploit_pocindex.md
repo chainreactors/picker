@@ -1,0 +1,163 @@
+---
+title: pocindex
+url: https://kitploit.com/en/tools/github/0xmarcio/pocindex
+source: Kitploit
+date: 2026-09-03
+fetch_date: 2026-09-04T06:42:33.950900
+---
+
+# pocindex
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+pocindex — Search 82,000+ public CVE proof-of-concept exploits from GitHub, Nuclei, ExploitDB, Metasploit and Vulhub. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/0xmarcio/pocindex
+
+![](https://assets.kitploit.com/production/public/tools/53923/bde1859cfbb805479b126c9f67c693f4c56dda1c155d41e865fc541dc6ca691f-display-v1.webp)
+
+[OSINT (Open Source Intelligence)](/en/categories/osint)[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Exploit Frameworks](/en/categories/exploit-frameworks)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Exploitation](/en/categories/exploitation)[Information Gathering](/en/categories/information-gathering)[Threat Intelligence](/en/categories/threat-intelligence)[Curated Resources](/en/categories/curated-resources)
+
+![GitHub](/providers/github.png)0xmarcio/pocindex
+
+# pocindex
+
+Search 82,000+ public CVE proof-of-concept exploits from GitHub, Nuclei, ExploitDB, Metasploit and Vulhub.
+
+[View Repository](https://github.com/0xmarcio/pocindex)
+
+1.4k168182 days ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+[Website](https://pocindex.io/)
+
+[![PoC Index](https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/hero.svg?v=170947-82410-1181)](https://pocindex.io/)
+
+[![last sync](https://img.shields.io/badge/last%20sync-02%20Sep%202026%2001:40%20UTC-2f81f7?style=flat-square&labelColor=161b22)](https://github.com/0xMarcio/pocindex/commits/main) [![CI](https://img.shields.io/github/actions/workflow/status/0xMarcio/pocindex/hot_cves.yml?style=flat-square&label=CI&color=2f81f7&labelColor=161b22&_=202609020140)](https://github.com/0xMarcio/pocindex/actions/workflows/hot_cves.yml) [![CVEs with PoCs](https://img.shields.io/badge/CVEs%20with%20PoCs-82,410-2f81f7?style=flat-square&labelColor=161b22)](https://pocindex.io/) [![known exploited](https://img.shields.io/badge/known%20exploited-1,181-f85149?style=flat-square&labelColor=161b22)](https://pocindex.io/) [![stars](https://img.shields.io/github/stars/0xMarcio/pocindex?style=flat-square&label=stars&color=e3b341&labelColor=161b22&_=202609020140)](https://github.com/0xMarcio/pocindex/stargazers)
+
+[![Search PoC Index](https://raw.githubusercontent.com/0xMarcio/pocindex/8dec6181e823d641132e0ee8a52a1612c2b5dd37/docs/search.svg)](https://pocindex.io/)
+
+## Just landed
+
+## Trending in 2026
+
+## Trending in 2025
+
+2024, 2023, 2022
+
+## Trending in 2024
+
+## Data
+
+Every file is plain JSON on the CDN. No key, no rate limit.
+
+root@kitploit:~
+
+```
+# everything the index knows about one CVE
+curl -s https://pocindex.io/CVE_list.json \
+  | jq '.[] | select(.cve == "CVE-2021-44228") | {cve, poc: (.poc | length), nuclei, msf, edb, vulhub, collections}'
+
+# every published CVSS assessment plus vetted advisory links
+curl -s https://pocindex.io/cve_metadata.json | jq '."CVE-2021-44228"'
+
+# likelihood of exploitation in the next 30 days
+curl -s https://pocindex.io/epss.json | jq '."CVE-2021-44228"'
+
+# stars and last push for one PoC repository; repository keys are lowercased
+curl -s https://pocindex.io/repo_meta.json | jq '."sfewer-r7/cve-2026-55040"'
+```
+
+What CISA says is being exploited, that also has a PoC here, ranked by how
+likely each is to be used next:
+
+root@kitploit:~
+
+```
+curl -s https://pocindex.io/kev.json  -o kev.json
+curl -s https://pocindex.io/epss.json -o epss.json
+jq -n --slurpfile kev kev.json --slurpfile epss epss.json \
+  '[$kev[0] | keys[] | select($epss[0][.]) | {cve: ., epss: $epss[0][.][0]}]
+   | sort_by(-.epss) | .[:10]'
+```
+
+CVSS rows are `[version, score, severity, vector, source, assessment type]`.
+Advisory rows are `[URL, NVD reference tags]`.
+
+## Sources
+
+## Build
+
+## Contributing
+
+Missing PoC, wrong link, dead repository: open an issue with the CVE id and the
+repository URL.
+
+[Download Tool](https://github.com/0xmarcio/pocindex)
+
+| Stars | Updated | Repository | Description |
+| --- | --- | --- | --- |
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| 0⭐ | 14h ago | [CVE-2025-39401](https://github.com/katranSefa/CVE-2025-39401) | Unrestricted Upload of File with Dangerous Type vulnerability in mojoomla WPAMS apartment-management allows… |
+| 0⭐ | 1d ago | [CVE-2025-69080](https://github.com/AndrielSec/CVE-2025-69080) | Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion')… |
+| 0⭐ | 1d ago | ![KEV](https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg "CISA known exploited") [cve-2025-20333](https://github.com/cobbbex/cve-2025-20333) | A vulnerability in the VPN web server of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and… |
+| 10⭐ | 2d ago | ![KEV](https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg "CISA known exploited") [cve-2025-21479-iqoo11pro](https://github.com/Type010/cve-2025-21479-iqoo11pro) | Memory corruption due to unauthorized command execution in GPU micronode while executing specific sequence of… |
+| 2⭐ | 2d ago | [CVE-2026-78904-Digital-Dinar-Drain](https://github.com/vxssroott/CVE-2026-78904-Digital-Dinar-Drain) | CBDC Infrastructure Vulnerability Research. CVE-2026-78904: Infinite mint and redemption bypass in central… |
+| 0⭐ | 2d ago | [CVE-2025-6440](https://github.com/katranSefa/CVE-2025-6440) | The WooCommerce Designer Pro plugin for WordPress, used by the Pricom - Printing Company & Design Services… |
+| 2⭐ | 3d ago | [CVE-2026-19745](https://github.com/drbloop2000/CVE-2026-19745) | Learn how I found my first two CVEs by pure accident. |
+| 2⭐ | 3d ago | ![KEV](https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg "CISA known exploited") [PaperCut-CVE-2026-81578-82078](https://github.com/yora1928/PaperCut-CVE-2026-81578-82078) | Security research tool for PaperCut CVE-2026-81578 & CVE-2026-82078 |
+| 0⭐ | 3d ago | [cve-2025-29927](https://github.com/kuyrathdaro/cve-2025-29927) | Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior… |
+| 2⭐ | 5d ago | ![KEV](https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg "CISA known exploited") [CVE-2025-3248-Langflow-RCE](https://github.com/hideki233/CVE-2025-3248-Langflow-RCE) | Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A… |
+
+| Stars | Updated | Repository | Description |
+| --- | --- | --- | --- |
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| 10⭐ | 2d ago | [givewp-cve-2026-82222-rce-lab](https://github.com/dinosn/givewp-cve-2026-82222-rce-lab) | Authorized Docker lab and clean PoC for validating CVE-2026-82222 RCE in GiveWP 4.16.5.1 and the 4.16.7.2 fix. |
+| 18⭐ | 5d ago | ![KEV](https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg "CISA known exploited") [CVE-2026-72898](https://github.com/EQSTLab/CVE-2026-72898) | Metabase SQLi |
+| 4⭐ | 5d ago | [CVE-2026-19478](https://github.com/EQSTLab/CVE-2026-19478) | GitLab Code injection |
+| 3⭐ | 5d ago | ![KEV](https://raw.githubusercontent.com/0xMarcio/pocindex/main/docs/kev.svg "CISA known exploited") [CVE-2026-219...

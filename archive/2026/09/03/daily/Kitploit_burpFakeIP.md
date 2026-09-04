@@ -1,0 +1,142 @@
+---
+title: burpFakeIP
+url: https://kitploit.com/en/tools/github/thekingofduck/burpfakeip
+source: Kitploit
+date: 2026-09-03
+fetch_date: 2026-09-04T06:42:34.414520
+---
+
+# burpFakeIP
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+burpFakeIP — Burp Suite extension for spoofing IP addresses in HTTP requests, enabling testing of server-side IP restrictions and bypassing IP-based access controls. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/thekingofduck/burpfakeip
+
+![](https://assets.kitploit.com/production/public/tools/53887/61a8c48c612c6188a82873187345aaa6b0ef8081f4f081da35bd13b396d05569-display-v1.webp)
+
+[Web Proxies & Interception](/en/categories/web-proxies-interception)[IDS/IPS Evasion](/en/categories/ids-ips-evasion)[Impersonation Tools](/en/categories/impersonation-tools)[Web Security](/en/categories/web-security)[Penetration Testing](/en/categories/penetration-testing)
+
+![GitHub](/providers/github.png)thekingofduck/burpfakeip
+
+# burpFakeIP
+
+Burp Suite extension for spoofing IP addresses in HTTP requests, enabling testing of server-side IP restrictions and bypassing IP-based access controls.
+
+[View Repository](https://github.com/thekingofduck/burpfakeip)
+
+1.7k231203 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+## burpFakeIP
+
+下载使用：[Releases](https://github.com/TheKingOfDuck/burpFakeIP/releases/tag/1.0)
+
+**2021/09/24**
+
+1. 修复[M00nBack](https://github.com/M00nBack)反馈的一个bug。
+2. 添加了AutoXFF的开关,并将AutoXFF默认设置不开启,如需让插件给每个请求头添加一个随机的XFF请求头可在右键菜单中选择ON开启
+
+**2021/05/21**
+
+使用Java重构，增加了[issue](https://github.com/TheKingOfDuck/burpFakeIP/issues/8)中提到的功能特性，新增给每个请求自动添加XFF头以及随机IP的功能，具体可见右键菜单AutoXFF,默认情况下自动添加的xff头为X-Forwarded-For,值为生成的随机IP,均可自定义。
+
+**2020/04/25**
+
+优化代码，新增9种请求头。
+
+![](https://raw.githubusercontent.com/TheKingOfDuck/BurpFakeIP/master/images/15597179485863.png)
+
+四个小功能
+
+* 伪造指定ip
+* 伪造本地ip
+* 伪造随机ip
+* 随机ip爆破
+
+### 0x01 伪造指定ip
+
+在`Repeater`模块右键选择`fakeIp`菜单,然后点击`inputIP`功能,然后输入指定的ip：
+
+![](https://raw.githubusercontent.com/TheKingOfDuck/BurpFakeIP/master/images/15597184839805.png)
+
+![](https://raw.githubusercontent.com/TheKingOfDuck/BurpFakeIP/master/images/15597185444300.png)
+
+程序会自动添加所有可伪造得字段到请求头中。
+
+### 0x02 伪造本地ip
+
+在`Repeater`模块右键选择`fakeIp`菜单,然后点击`127.0.0.1`功能：
+
+![](https://raw.githubusercontent.com/TheKingOfDuck/BurpFakeIP/master/images/15597186627939.png)
+
+### 0x03 伪造随机ip
+
+在`Repeater`模块右键选择`fakeIp`菜单,然后点击`randomIP`功能：
+
+![](https://raw.githubusercontent.com/TheKingOfDuck/BurpFakeIP/master/images/15597187304576.png)
+
+### 0x04 随机ip爆破
+
+**伪造随机ip爆破是本插件最核心的功能。**
+
+将数据包发送到`Intruder`模块,在`Positions`中切换`Attack type`为`Pitchfork`模式,选择好有效的伪造字段,以及需要爆破的字段:
+
+![](https://raw.githubusercontent.com/TheKingOfDuck/BurpFakeIP/master/images/15597190596991.png)
+
+按照箭头顺序将Payload来源设置为`Extensin-generated`,并设置负载伪`fakeIpPayloads`,然后设置第二个变量。
+![](https://raw.githubusercontent.com/TheKingOfDuck/BurpFakeIP/master/images/15597191239161.png)
+
+![](https://raw.githubusercontent.com/TheKingOfDuck/BurpFakeIP/master/images/15597192426317.png)
+
+点击`Start attack`开始爆破.
+
+![](https://raw.githubusercontent.com/TheKingOfDuck/BurpFakeIP/master/images/15597193222287.png)
+
+如上图,实现每次爆破都使用不同的伪ip进行,避免被ban。
+
+> PS：伪造随机ip爆破的先决条件可以伪造ip绕过服务器限制。
+
+[Download Tool](https://github.com/thekingofduck/burpfakeip)

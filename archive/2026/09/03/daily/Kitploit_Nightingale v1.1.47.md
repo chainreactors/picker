@@ -1,0 +1,189 @@
+---
+title: Nightingale v1.1.47
+url: https://kitploit.com/en/posts/github-rajanagori-nightingale-v1147
+source: Kitploit
+date: 2026-09-03
+fetch_date: 2026-09-04T06:42:35.296630
+---
+
+# Nightingale v1.1.47
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/5425/b57e9529b451aad7779e825164cc08012637083bdbfc3c62bdf86f80c6f60b38.png)
+
+New releaseSep 3, 2026
+
+# Nightingale v1.1.47
+
+Nightingale Docker for Pentesters is a comprehensive Dockerized environment tailored for penetration testing and vulnerability assessment. It comes preconfigured with all essential tools and utilities required for efficient Vulnerability Assessment and Penetration Testing (VAPT), streamlining the setup process for security professionals.
+
+Share
+
+# Nightingale: Docker for Pentesters
+
+This project is supported by:
+
+|  |  |
+| --- | --- |
+| [![Powered by DigitalOcean](https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg)](https://www.digitalocean.com/?utm_medium=opensource&utm_source=Nightingale) | ![Nightingale](https://assets.kitploit.com/production/public/readmes/5425/38735eddc1021b1eace1b458af44ab4bdac8304aa0962afcf98ce5a030e54d9e.png) |
+
+Nightingale is a ready-to-use, multi-architecture Docker toolkit for pentesting and security research.
+It gives you a reproducible environment with curated tools for web, network, mobile, API, OSINT, and forensics workflows.
+
+## Quick Start (2 minutes)
+
+root@kitploit:~
+
+```
+docker pull ghcr.io/rajanagori/nightingale:stable
+docker run -it --name Nightingale -p 8080:7681 \
+  ghcr.io/rajanagori/nightingale:stable ttyd -p 7681 bash
+```
+
+Open `http://localhost:8080` to access the browser terminal.
+
+## Hosted GUI Access
+
+To request access to <https://nightingale-security.com/>, please raise a GitHub issue using the hosted GUI access template. After the request is reviewed, access details will be shared in the issue.
+
+Before raising the request, you can review the GUI screenshots on [nightingale-security.com](https://nightingale-security.com/).
+
+## Why Nightingale
+
+* Reproducible pentest environment across AMD64 and ARM64
+* Browser and terminal-based workflows
+* Security-focused CI with Trivy and dependency maintenance
+* Community-driven tool additions and requests
+
+## Start Here (Wiki Navigation)
+
+* Installation and setup: [Wiki - Installation and Setup](https://github.com/RAJANAGORI/Nightingale/wiki/4.-Installation-and-Setup)
+* Architecture overview: [Wiki - Architecture of Nightingale](https://github.com/RAJANAGORI/Nightingale/wiki/3.-Architecture-of-Nightingale)
+* Full tool catalog: [Wiki - Tools list](https://github.com/RAJANAGORI/Nightingale/wiki/6.-Tools-list)
+* Kubernetes usage: [Wiki - Nightingale meets Kubernetes!](https://github.com/RAJANAGORI/Nightingale/wiki/5.-Nightingale-meets-Kubernetes%21-%F0%9F%8C%A5%EF%B8%8F)
+* GUI setup: [Wiki - Nightingale Console setup](https://github.com/RAJANAGORI/Nightingale/wiki/4.-Installation-and-Setup#nightingale-console---a-webapp-version-of-old-school-nightingale-cli)
+
+## Why Fork Nightingale
+
+Forking is the easiest way to build your own internal security image quickly:
+
+* Add private/internal tooling for your engagement style
+* Pin different versions for training labs, enterprise testing, or CTF pipelines
+* Build team-specific profiles for web, API, mobile, OSINT, or cloud testing
+
+If Nightingale helps your work, please star the repo. If you customized it, fork it and share your profile with the community.
+
+## Project Health
+
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7881/badge)](https://www.bestpractices.dev/projects/7881)
+[![OWASP Incubator](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://www.owasp.org/index.php/Category%3AOWASP_Project#tab=Project_Inventory)
+[![Docker Image CI](https://github.com/RAJANAGORI/Nightingale/actions/workflows/docker-image.yaml/badge.svg)](https://github.com/RAJANAGORI/Nightingale/actions/workflows/docker-image.yaml)
+[![Multi OS Docker Images - ARM64 macOS](https://github.com/RAJANAGORI/Nightingale/actions/workflows/multi-os-arm64.yaml/badge.svg)](https://github.com/RAJANAGORI/Nightingale/actions/workflows/multi-os-arm64.yaml)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/nightingale)](https://artifacthub.io/packages/search?repo=nightingale)
+[![Trivy Scan](https://github.com/RAJANAGORI/Nightingale/actions/workflows/trivy.yml/badge.svg)](https://github.com/RAJANAGORI/Nightingale/actions/workflows/trivy.yml)
+
+## 🚀 **OPTIMIZATION UPDATE**
+
+### **Major Performance Improvements**
+
+Nightingale introduces significant optimizations that deliver:
+
+* **📦 Docker Image Size Reduction**: 35-65% smaller images (2.3GB → 700-900MB)
+* **🔒 Security Enhancements**: Fixed critical vulnerabilities and applied security best practices
+* **📚 Documentation**: 600% increase in coverage with comprehensive guides
+* **⚡ Error Handling**: 500% improvement with comprehensive validation
+* **🎯 Code Quality**: Grade A (90/100) with enterprise-grade standards
+
+### **Key Optimizations Applied**
+
+#### **Docker Image Optimizations**
+
+* ✅ **Multi-stage ttyd build** - Separate builder stage saves 50-100MB
+* ✅ **Removed .git folders** - Clean clones save 200-500MB
+* ✅ **Build dependencies purged** - Removed gcc, make, cmake saves 200-300MB
+* ✅ **Aggressive cache cleanup** - Comprehensive cleanup saves 200-400MB
+* ✅ **PostgreSQL client only** - No full server saves 100-150MB
+* ✅ **Python/Go cache cleanup** - Language caches cleaned saves 150-300MB
+
+#### **Code Quality Improvements**
+
+* ✅ **Shell Scripts**: Enhanced with `set -euo pipefail`, error trapping, colored logging
+* ✅ **Go Application**: Refactored with constants, error wrapping, validation functions
+* ✅ **Dockerfiles**: OCI standard labels, healthchecks, multi-stage optimization
+* ✅ **Configuration**: Comprehensive comments, security warnings, best practices
+
+#### **Security Enhancements**
+
+* ✅ **Fixed insecure permissions**: `chmod 777` → `chmod 755`
+* ✅ **Secure PATH configuration** in all scripts
+* ✅ **Input validation** and command injection prevention
+* ✅ **Error trapping** with comprehensive error handling
+
+### **Expected Results**
+
+| Metric | Before | After | Improvement |
+| --- | --- | --- | --- |
+| **Image Size** | 2.3GB | 700-900MB | 35-65% reduction |
+| **Code Quality** | Grade C | Grade A | +111% improvement |
+| **Security Score** | Basic | Advanced | +400% improvement |
+| **Documentation** | 5% | 30% | +600% increase |
+| **Error Handling** | Minimal | Comprehensive | +500% improvement |
+
+### **Quick Start with Optimized Images**
+
+root@kitploit:~
+
+```
+# Pull optimized images
+docker pull ghcr.io/rajanagori/nightingale:stable
+docker pull ghcr.io/rajanagori/nightingale:arm64
+
+# Run with optimized image
+docker run -it --name Nightingale -p 8080:7681 \
+  ghcr.io/rajanagori/nightingale:stable ttyd -p 7681 bash
+
+# Access via browser
+open http://localhost:8080
+```
+
+### **Build Optimized Images**
+
+root@kitploit:~
+
+```
+# Build optimized main image
+docker build -t nightingale:stable .
+
+# Build optimized ARM64 image
+cd architecture/arm64/v8
+docker buildx build --platform linux/arm64 -t nightingale:arm64 .
+```
+
+---
+
+### Description
+
+In today's technological era, Docker is the most powerful technology across various domains, whether it's Development, Cybersecurity, DevOps, Automation, or Infrastructure.
+
+Considering the demand of the industry, I would like to introduce my idea to create **NIGHTINGALE**: a Docker image for pentesters.
+
+This Docker image provides a ready-to-use environment with the tools required for pentesting across different scopes, including web application penetration testing, network penetration testing, mobile, API, OSINT, or Forensics.
+
+The best part is that you can either create an altered Docker image or pull the pre-built Docker image from the h...
