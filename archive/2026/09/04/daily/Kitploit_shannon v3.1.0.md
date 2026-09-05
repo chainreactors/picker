@@ -1,0 +1,147 @@
+---
+title: shannon v3.1.0
+url: https://kitploit.com/en/posts/github-keygraphhq-shannon-v310
+source: Kitploit
+date: 2026-09-04
+fetch_date: 2026-09-05T06:28:08.048739
+---
+
+# shannon v3.1.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/tools/136/7642a7889a85110ef8d915c7d200d0630bd6c8712e3a2e15d0a0eca8b8f67c40.png)
+
+New releaseSep 4, 2026
+
+# shannon v3.1.0
+
+Shannon is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.
+
+Share
+
+> [!NOTE]
+> **[Shannon 3.0 is live](https://github.com/KeygraphHQ/shannon/discussions/439):** deeper security code analysis, more thoroughly vetted findings, a rebuilt CLI, native CI/CD, professional PDF reports, and SARIF.
+
+![Shannon, AI Pentester for Web Apps and APIs, by Keygraph](https://raw.githubusercontent.com/keygraphhq/shannon/main/assets/github-banner-light.png)
+
+[![KeygraphHQ%2Fshannon | Trendshift](https://trendshift.io/api/badge/repositories/15604)](https://trendshift.io/repositories/15604)
+
+### Shannon is an autonomous, AI pentester for web applications and APIs.
+
+It analyzes your source code, identifies attack paths, and executes real exploits to prove vulnerabilities before they reach production. **No exploit, no report.**
+
+**This repository is Shannon Open Source: the full agent, run locally from your command line.**
+
+**Launch Shannon**
+
+root@kitploit:~
+
+```
+npx @keygraph/shannon@latest
+```
+
+The interactive launcher will guide you through setup and your first pentest.
+
+---
+
+[![Join Discord](https://raw.githubusercontent.com/keygraphhq/shannon/main/assets/discord_button_light.png)](https://discord.gg/9ZqQPuhJB7)      [![Visit Keygraph.io](https://raw.githubusercontent.com/keygraphhq/shannon/main/assets/keygraph_button_light.png)](https://keygraph.io/)
+
+---
+
+> [!TIP]
+> **AI agents and LLMs:** start with [llms.txt](https://github.com/keygraphhq/shannon/blob/main/llms.txt) for a concise map of this repository, or use [llms-full.txt](https://github.com/keygraphhq/shannon/blob/main/llms-full.txt) for the README and docs combined into one file.
+
+## Table of Contents
+
+* [Table of Contents](#table-of-contents)
+* [What is Shannon?](#what-is-shannon)
+  + [Why Shannon Exists](#why-shannon-exists)
+  + [Why "Shannon"?](#why-shannon)
+  + [Not a replacement for human pentesters](#not-a-replacement-for-human-pentesters)
+* [Shannon in Action](#shannon-in-action)
+* [Quick Start](#quick-start)
+  + [Prerequisites](#prerequisites)
+  + [Run Shannon](#run-shannon)
+* [Key Capabilities](#key-capabilities)
+* [CI/CD Integrations](#cicd-integrations)
+  + [GitHub Actions](#github-actions)
+* [Editions](#editions)
+* [Architecture](#architecture)
+* [Documentation](#documentation)
+* [Safety, Scope, and Limitations](#safety-scope-and-limitations)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
+* [About Keygraph](#about-keygraph)
+* [Community and Support](#community-and-support)
+* [Common Questions](#common-questions)
+  + [Can I self-host Shannon?](#can-i-self-host-shannon)
+  + [Does Shannon support bring your own key (BYOK)?](#does-shannon-support-bring-your-own-key-byok)
+  + [Does Shannon output SARIF?](#does-shannon-output-sarif)
+  + [Which AI providers does Shannon support?](#which-ai-providers-does-shannon-support)
+  + [Can I run Shannon on a local or self-hosted model?](#can-i-run-shannon-on-a-local-or-self-hosted-model)
+  + [Does Shannon actually exploit vulnerabilities, or just scan?](#does-shannon-actually-exploit-vulnerabilities-or-just-scan)
+
+## What is Shannon?
+
+Shannon is an autonomous AI pentester developed by [Keygraph](https://keygraph.io). It performs security testing of web applications and their underlying APIs by combining source-code analysis with live exploitation.
+
+Shannon analyzes your web application's source code to identify potential attack vectors, then uses browser automation and command-line tools to execute real exploits against the running application and its APIs. Only vulnerabilities with a working proof-of-concept are included in the final report.
+
+Shannon is the agent. This repository is Shannon Open Source, the standalone pentester you run yourself. The same Shannon also powers the [Keygraph platform](https://keygraph.io), Keygraph's commercial pentesting product. See [Editions](#editions) for how the two compare.
+
+**Why Shannon Exists**
+
+Thanks to tools like Claude Code and Cursor, your team ships code non-stop. But your penetration test? That happens once a year. This creates a massive security gap. For the other 364 days, you could be unknowingly shipping vulnerabilities to production.
+
+Shannon closes that gap by providing on-demand, automated penetration testing that can run against every build or release.
+
+**Why "Shannon"?**
+
+It's named after Claude Shannon, the father of information theory. At its core, pentesting is an information problem: every probe reduces uncertainty about a system's state. The best tools maximize the signal gained from every request, turning those bits of knowledge into an exploit path.
+
+Also, we wanted you to be able to say, "Hey Claude, run Shannon" to find all the security flaws in your vibe-coded app.
+
+**Not a replacement for human pentesters**
+
+Shannon is built to work alongside expert pentesters and red teamers, not replace them. Great pentesters understand the business, chain attacks in ways nobody anticipated, and bring years of judgment that current models can't match.
+
+Shannon solves a different problem: there is far more software to test than security teams have time to cover. Critical systems get periodic expert assessments, while the long tail of internal apps, APIs, and fast-moving services rarely gets tested at all.
+
+Shannon shifts pentesting left into the software development lifecycle (SDLC). Use it to run exploitation-backed tests against staging environments and releases at the cadence they actually ship, and save expert human time for the risks that need someone who knows the organization.
+
+## Shannon in Action
+
+![Shannon running an autonomous pentest](https://raw.githubusercontent.com/keygraphhq/shannon/main/assets/Shannon3GIF.gif)
+
+These reports are from Shannon Open Source scans of Photoview 2.4.0, one of the applications in Doyensec's comparison of Aikido and XBOW. We ran Shannon against the same application version and evaluated its results separately. Read the [Doyensec study](https://doyensec.com/resources/ComparingAIApplicationSecurityTestingPlatforms_Doyensec.pdf) and our [Shannon follow-up comparison](https://github.com/keygraphhq/shannon/blob/main/docs/shannon-xbow-aikido-benchmark.md) for the methodology, limitations, costs, and results.
+
+| Model | Report | SARIF |
+| --- | --- | --- |
+| DeepSeek v4 Flash | [View report](https://github.com/keygraphhq/shannon/blob/main/benchmark/photoview-deepseek-v4-flash.pdf) | [SARIF](https://github.com/keygraphhq/shannon/blob/main/benchmark/photoview-deepseek-v4-flash.sarif) |
+| Grok 4.6 | [View report](https://github.com/keygraphhq/shannon/blob/main/benchmark/photoview-grok-4-6.pdf) | [SARIF](https://github.com/keygraphhq/shannon/blob/main/benchmark/photoview-grok-4-6.sarif) |
+| Claude Opus 5 | [View report](https://github.com/keygraphhq/shannon/blob/main/benchmark/photoview-opus-5.pdf) | [SARIF](https://github.com/keygraphhq/shannon/blob/main/benchmark/photoview-opus-5.sarif) |
+
+## Quick Start
+
+### Prerequisites
+
+* **Docker**: required for the worker container.
+* **Node.js 18+**: required for the recommended `npx` workflow.
+* **AI provider credentials**: Shannon runs on Anthropic, OpenAI, xAI, AWS Bedrock, and [any other provider](https://github.com/keygraphhq/shannon/blob/main/docs/ai-providers.md#any-other-provider) in the harness catalogue — each of which you can point at a proxy or LLM gatew...

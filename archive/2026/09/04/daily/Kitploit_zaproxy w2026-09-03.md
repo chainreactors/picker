@@ -1,0 +1,97 @@
+---
+title: zaproxy w2026-09-03
+url: https://kitploit.com/en/posts/github-zaproxy-zaproxy-w2026-09-03
+source: Kitploit
+date: 2026-09-04
+fetch_date: 2026-09-05T06:28:15.277370
+---
+
+# zaproxy w2026-09-03
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/398/fa33e121c784c45619d6df719a64d221186b6b31b1797514cc5e0709bb74a470.png)
+
+New releaseSep 4, 2026
+
+# zaproxy w2026-09-03
+
+Open-source web application security scanner for automated vulnerability detection, manual penetration testing, and API security testing with a proxy-based interception engine.
+
+Share
+
+# [![](https://assets.kitploit.com/production/public/readmes/398/17a2d76e50b7a57d2e31bbbe7e7bd7dbba3be8ef0880b6dc5bf5ba73a6a91c94.png)](https://www.zaproxy.org)
+
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![GitHub release](https://img.shields.io/github/release/zaproxy/zaproxy.svg)](https://www.zaproxy.org/download/)
+[![Java CI](https://github.com/zaproxy/zaproxy/actions/workflows/ci.yml/badge.svg)](https://github.com/zaproxy/zaproxy/actions/workflows/ci.yml)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/24/badge)](https://bestpractices.coreinfrastructure.org/projects/24)
+[![Github Releases](https://img.shields.io/github/downloads/zaproxy/zaproxy/latest/total.svg?maxAge=2592000)](https://zapbot.github.io/zap-mgmt-scripts/downloads.html)
+[![javadoc](https://javadoc.io/badge2/org.zaproxy/zap/javadoc.svg)](https://javadoc.io/doc/org.zaproxy/zap)
+[![CodeQL](https://github.com/zaproxy/zaproxy/actions/workflows/codeql.yml/badge.svg)](https://github.com/zaproxy/zaproxy/actions/workflows/codeql.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=zaproxy_zaproxy&metric=alert_status)](https://sonarcloud.io/dashboard?id=zaproxy_zaproxy)
+[![Open Source Helpers](https://www.codetriage.com/zaproxy/zaproxy/badges/users.svg)](https://www.codetriage.com/zaproxy/zaproxy)
+[![Twitter Follow](https://img.shields.io/twitter/follow/zaproxy.svg?style=social&label=Follow&maxAge=2592000)](https://twitter.com/zaproxy)
+
+![Integration Tests](https://github.com/zaproxy/zaproxy/actions/workflows/run-integration-tests.yml/badge.svg)
+![Docker Live Release](https://github.com/zaproxy/zaproxy/actions/workflows/release-live-docker.yml/badge.svg)
+
+The Zed Attack Proxy (ZAP) by Checkmarx is the world’s most widely used web app scanner.
+Free and open source. A community based GitHub Top 1000 project that anyone can contribute to.
+
+It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications.
+It's also a great tool for experienced pentesters to use for manual security testing.
+
+[![](https://assets.kitploit.com/production/public/readmes/398/d136b5f1916f32e2015e650435ebf3e1785ba901851bbc02e50e27a91e6bf43d.png)](https://www.zaproxy.org/download/)
+
+For more details about ZAP see the website: [zaproxy.org](https://www.zaproxy.org/)
+
+[![](https://assets.kitploit.com/production/public/readmes/398/fa33e121c784c45619d6df719a64d221186b6b31b1797514cc5e0709bb74a470.png)](https://www.zaproxy.org/)
+
+[Read more](/en/tools/github/zaproxy/zaproxy?expand=1)
+
+## Categories
+
+[Android Security](/en/categories/android-security)[Phishing Tools](/en/categories/phishing-tools)[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Web Vulnerability Scanners](/en/categories/web-vulnerability-scanners)[Dynamic Analysis (Sandboxing)](/en/categories/dynamic-analysis-sandboxing)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Web Proxies & Interception](/en/categories/web-proxies-interception)[Dynamic Code Analysis (DAST)](/en/categories/dynamic-code-analysis)[Web Application Exploitation](/en/categories/web-application-exploitation)[API Security Testing](/en/categories/api-security-testing)[Phishing](/en/categories/phishing)[WAF Bypass](/en/categories/waf-bypass)[Web Security](/en/categories/web-security)[Penetration Testing](/en/categories/penetration-testing)[DevSecOps](/en/categories/devsecops)[Crawler](/en/categories/crawler)[API Security](/en/categories/api-security)[Database Security](/en/categories/database-security)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

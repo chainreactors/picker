@@ -1,0 +1,232 @@
+---
+title: oxo v2.9.29
+url: https://kitploit.com/en/posts/github-ostorlab-oxo-v2929
+source: Kitploit
+date: 2026-09-04
+fetch_date: 2026-09-05T06:28:50.809237
+---
+
+# oxo v2.9.29
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/6904/c8fc59760eb84b430b77dc2ad79f26eaa9a8584906acecad92e6aeaee7ae7dda.gif)
+
+New releaseSep 4, 2026
+
+# oxo v2.9.29
+
+Modular security scanning orchestrator that combines specialized agents for vulnerability detection, reconnaissance, and fingerprinting across networks, web apps, mobile apps, and APIs.
+
+Share
+
+[![PyPI version](https://badge.fury.io/py/ostorlab.svg)](https://badge.fury.io/py/ostorlab)
+[![Downloads](https://static.pepy.tech/badge/ostorlab/month)](https://pepy.tech/project/ostorlab)
+[![Ostorlab blog](https://img.shields.io/badge/blog-ostorlab%20news-red)](https://blog.ostorlab.co/)
+[![Twitter Follow](https://img.shields.io/twitter/follow/ostorlabsec.svg?style=social)](https://twitter.com/ostorlabsec)
+
+# OXO Scan Orchestration Engine
+
+OXO is a security scanning framework built for modularity, scalability, and simplicity.
+
+OXO Engine combines specialized tools to work cohesively to find vulnerabilities and perform actions like recon, enumeration, and fingerprinting.
+
+* [Documentation](https://oxo.ostorlab.co/docs)
+* [Agents Store](https://oxo.ostorlab.co/store)
+* [CLI Manual](https://oxo.ostorlab.co/docs/manual)
+* [Examples](https://oxo.ostorlab.co/tutorials/examples)
+
+![Main oxo](https://assets.kitploit.com/production/public/readmes/6904/9a6f58c4628695195ec9407eaae3d2761bd871b50dc0e59ca55ab48698cbd749.gif)
+
+# Key Features
+
+* **Modular & Scalable**: Easily combine multiple specialized agents to perform comprehensive scans.
+* **Broad Asset Support**: Scan anything from IP addresses and domains to mobile applications (Android, iOS, HarmonyOS) and API schemas.
+* **Agent Store**: Access a growing library of community and official agents for popular security tools.
+* **Extensible**: Built-in support for creating and publishing your own agents using a simple Python-based framework.
+* **API First**: Features a GraphQL API for easy integration into CI/CD pipelines and other automated workflows.
+
+# Requirements
+
+Docker is required to run scans locally. To install Docker, please follow these
+[instructions](https://docs.docker.com/get-docker/).
+
+# Installing
+
+OXO ships as a Python package on PyPI. To install it, simply run the following command if you have `pip` already
+installed.
+
+root@kitploit:~
+
+```
+pip install -U ostorlab
+```
+
+# Getting Started
+
+OXO ships with a store that boasts dozens of agents, from network scanning agents like Nmap, Nuclei, or Tsunami,
+web scanners like ZAP, web fingerprinting tools like WhatWeb and Wappalyzer, DNS brute-forcing tools like Subfinder and Dnsx,
+malware file scanning like VirusTotal, and much more.
+
+To run any of these tools combined, simply run the following command:
+
+> OXO CLI is accessible using the `oxo` or `ostorlab` commands.
+
+root@kitploit:~
+
+```
+oxo scan run --install --agent agent/ostorlab/nmap --agent agent/ostorlab/tsunami --agent agent/ostorlab/nuclei ip 8.8.8.8
+```
+
+This command will download and install the following scanning agents:
+
+* [agent/ostorlab/nmap](https://oxo.ostorlab.co/store/agent/ostorlab/nmap)
+* [agent/ostorlab/tsunami](https://oxo.ostorlab.co/store/agent/ostorlab/tsunami)
+* [agent/ostorlab/nuclei](https://oxo.ostorlab.co/store/agent/ostorlab/nuclei)
+
+It will scan the target IP address `8.8.8.8`.
+
+Agents are shipped as standard Docker images.
+
+# Scan Management
+
+To check the scan status, run:
+
+root@kitploit:~
+
+```
+oxo scan list
+```
+
+Once the scan has completed, to access the scan results, run:
+
+root@kitploit:~
+
+```
+oxo vulnz list --scan-id <scan-id>
+oxo vulnz describe --vuln-id <vuln-id>
+```
+
+To stop a running scan, run:
+
+root@kitploit:~
+
+```
+oxo scan stop --scan-id <scan-id>
+```
+
+# Docker Image
+
+To run `oxo` in a container, you may use the publicly available image and run the following command:
+
+root@kitploit:~
+
+```
+docker run -v /var/run/docker.sock:/var/run/docker.sock ostorlab/oxo:latest scan run --install --agent agent/ostorlab/nmap ip 8.8.8.8
+```
+
+Notes:
+
+* The command starts directly with: `scan run`, this is because the `ostorlab/oxo` image has `oxo` as an `entrypoint`.
+* It is important to mount the Docker socket so OXO can create agents on the host machine.
+
+# On-Prem Scanner Logs
+
+When running OXO as an on-prem scanner, use `--persist-logs` to write scanner logs to disk:
+
+root@kitploit:~
+
+```
+oxo scanner --scanner-id <scanner-uuid> --persist-logs
+```
+
+By default, logs are written to `~/.ostorlab/scanner.log`. To choose another file:
+
+root@kitploit:~
+
+```
+oxo scanner --scanner-id <scanner-uuid> --persist-logs --log-file /var/log/ostorlab/scanner.log
+```
+
+To change the persisted log verbosity:
+
+root@kitploit:~
+
+```
+oxo scanner --scanner-id <scanner-uuid> --persist-logs --log-level DEBUG
+```
+
+# Assets
+
+OXO supports scanning multiple asset types, allowing for comprehensive security coverage across different platforms and protocols.
+
+| Category | Asset | Description |
+| --- | --- | --- |
+| **Network** | `ip` | IP address or IP range (v4 and v6). |
+|  | `domain-name` | Domain name. |
+| **Web** | `link` | Web link, accepting a URL, method, headers, and request body. |
+|  | `api-schema` | API schema (OpenAPI, GraphQL, etc.). |
+| **Mobile** | `android-apk` / `android-aab` | Android package files (.APK, .AAB). |
+|  | `android-store` | Android app in the Google Play Store. |
+|  | `ios-ipa` | iOS package file (.IPA). |
+|  | `ios-store` | iOS app in the Apple App Store. |
+|  | `ios-testflight` | iOS app in TestFlight. |
+|  | `harmonyos-apk` / `harmonyos-hap` | HarmonyOS package files. |
+| **Other** | `file` | Generic file. |
+|  | `phone-number` | Phone number. |
+|  | `agent` | Meta-scanning of an agent. |
+
+# The Store
+
+OXO lists all agents on a public store where you can search and also publish your own agents.
+
+![Store](https://assets.kitploit.com/production/public/readmes/6904/c8fc59760eb84b430b77dc2ad79f26eaa9a8584906acecad92e6aeaee7ae7dda.gif)
+
+# Publish Your First Agent
+
+To write your first agent, you can check out a full
+tutorial [here](https://oxo.ostorlab.co/tutorials/write_an_agent).
+
+The steps are basically as follows:
+
+* Clone a template agent with all files already set up.
+* Change the `template_agent.py` file to add your logic.
+* Change the `Dockerfile` by adding any extra building steps.
+* Change the `ostorlab.yaml` by adding selectors, documentation, image, and license.
+* Publish it on the store.
+
+Once you have written your agent, you can publish it on the store for others to use and discover it. The store
+will handle agent building and will automatically pick up new releases from your Git repo.
+
+![Build](https://assets.kitploit.com/production/public/readmes/6904/6dc431978a778df728fc7e216376598fe3ed1680cb110113de0637142835ab24.gif)
+
+## Ideas for Agents to Build
+
+Implementations of popular tools such as:
+
+* ~~[semgrep](https://github.com/returntocorp/semgrep) for source code scanning.~~
+* [nbtscan](http://www.unixwiz.net/tools/nbtscan.html): Scans for open NetBIOS name servers on your target’s network.
+* [onesixtyone](https://github.com/trailofbits/onesixtyone): Fast scanner to find publicly exposed SNMP services.
+* [Retire.js](http://retirejs.github.io/retire.js/): Scanner detecting the use of JavaScript libraries with known
+  vulnerabilities.
+* ~~[snallygaster](https://github.com/hannob/snallygaster): Finds file leaks and other security problems on HTTP servers.~~
+* [testssl.sh](https://testssl.sh/): Identifies various TLS/SSL weaknesses, including Heartbleed, CRIME, and ROBOT.
+* ~~[TruffleHog](https://github.com/trufflesecurity/truffleHog): Searches through Git repositories for high-entropy~~
+  strings and secrets, digging deep into commit history.
+* [cve-bin-tool](https://g...

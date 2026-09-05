@@ -1,0 +1,172 @@
+---
+title: ip-camera-research
+url: https://kitploit.com/en/tools/github/amiraliuks/ip-camera-research
+source: Kitploit
+date: 2026-09-04
+fetch_date: 2026-09-05T06:28:31.203095
+---
+
+# ip-camera-research
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+ip-camera-research — Security research on a consumer IP camera built on the Fullhan FH8626V100 SoC (model AJL30PG0803). | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/amiraliuks/ip-camera-research
+
+![](https://assets.kitploit.com/production/public/tools/53972/dd8c82b6104928f637d1abfbb7e18f6fc1086df05bb272d891dec0bb82784915-display-v1.webp)
+
+[Embedded Systems Security](/en/categories/embedded-systems-security)[Exploit Frameworks](/en/categories/exploit-frameworks)[IoT Security](/en/categories/iot-security)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Exploitation](/en/categories/exploitation)[Penetration Testing](/en/categories/penetration-testing)[Hardware & IoT Security](/en/categories/hardware-iot-security)[Red Teaming](/en/categories/red-teaming)[Payload Development](/en/categories/payload-development)
+
+![GitHub](/providers/github.png)amiraliuks/ip-camera-research
+
+# ip-camera-research
+
+Security research on a consumer IP camera built on the Fullhan FH8626V100 SoC (model AJL30PG0803).
+
+371 month ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+[View Repository](https://github.com/amiraliuks/ip-camera-research)[Website](https://amiraliu.vercel.app/blog/breaking-into-my-own-camera)
+
+# IP Camera Research - Fullhan FH8626V100 (AJL30PG0803)
+
+Security research on a consumer IP camera built on the Fullhan FH8626V100 SoC (model AJL30PG0803), resulting in six assigned CVEs covering unauthenticated API access, plaintext credential disclosure, and full unauthenticated device compromise via OS command injection.
+
+Full writeup: [Breaking Into My Own IP Camera](https://amiraliu.vercel.app/blog/breaking-into-my-own-camera)
+
+## Device Overview
+
+| Field | Value |
+| --- | --- |
+| SoC / Platform | FH8626V100 (Fullhan Microelectronics, FH86xx family) |
+| Device Model | AJL30PG0803 |
+| Firmware Version | v201222.1007 |
+| Architecture | ARM, embedded Linux |
+| Camera Sensor | JX-F37P (2MP, 1080p@30fps, MIPI) |
+| Companion App | CareCam Pro |
+| Web API | PSIA-based endpoints (`/PSIA/*`) |
+| Key Services | HTTP (80), HTTPS (443), Telnet (23), RTSP (8554), custom control port (1300), snapshot service (6688) |
+
+This firmware/SoC combination is reused across many differently branded consumer IP cameras, so the affected surface is broader than a single product listing.
+
+## CVE Summary
+
+## Exploitation Chain
+
+1. Query `/PSIA/Security/AAA/users` unauthenticated to retrieve plaintext admin credentials (CVE-2026-51406), or skip straight to step 2.
+2. Send a crafted `<SYSTEM>...</SYSTEM>` payload to TCP/1300 to execute a command that resets the root account password (CVE-2026-51402).
+3. Authenticate to the always-on BusyBox telnetd (port 23) with the new root credentials to obtain a full interactive root shell (CVE-2026-51405).
+4. From the shell, harvest `/app/userdata/ifcfg.wlan0` for Wi-Fi credentials and/or pivot further into the local network (CVE-2026-51407).
+   Each step individually requires no authentication except the final Telnet login, which is trivially satisfied by the attacker's own password reset in step 2, meaning the full chain from network access to root shell requires no valid credentials at any point.
+
+## Repository Structure
+
+root@kitploit:~
+
+```
+.
+├── README.md
+├── advisory/
+│   └── fullhan-ipcam-advisory.txt   # Exploit-DB style advisory + PoC
+├── poc/
+│   ├── command_payloads.txt         # Fun abuse commands (play audio, reboot camera)
+│   ├── data_extraction.py           # Unauthenticated read PoC (users, device info, snapshot)
+│   └── full_chain.py                # RCE -> root password reset -> telnet shell chain
+├── metasploit/
+│   ├── command_payloads.txt         # Fun abuse commands (play audio, reboot camera)
+│   ├── data_extraction.py           # Unauthenticated read PoC (users, device info, snapshot)
+│   └── full_chain.py                # RCE -> root password reset -> telnet shell chain
+```
+
+## Impact
+
+An attacker on the local network or adjacent segment (or with internet exposure, if the device is port-forwarded) can obtain full root access to the device, view the live camera feed, exfiltrate the victim's Wi-Fi credentials, and use the compromised device as a pivot point into the victim's internal network — all without needing any valid credentials.
+
+## Disclosure Timeline
+
+| Date | Event |
+| --- | --- |
+| 31-03-2026 | Vulnerabilities discovered |
+| 01-04-2026 | Vendor contacted |
+| NONE | Vendor response |
+|
+
+## Responsible Use
+
+This research was conducted against a device owned by the author. The code in this repository is provided for defensive research, detection engineering, and authorized testing only. Do not use it against devices you do not own or lack explicit authorization to test.
+
+## Credits
+
+Discovered and reported by [Amir Aliu](https://github.com/amiraliuks)
+
+## License
+
+Free to use for personal research, education, and authorized security testing. Commercial use, resale, or redistribution as part of a paid product/service is not permitted without written permission.
+
+[Download Tool](https://github.com/amiraliuks/ip-camera-research)
+
+| CVE ID | Finding | CVSS 3.1 | CWE |
+| --- | --- | --- | --- |
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| [CVE-2026-51402](https://nvd.nist.gov/vuln/detail/CVE-2026-51402) | Unauthenticated blind OS command injection via custom `<SYSTEM>` protocol on TCP/1300 | 8.8 | CWE-78 |
+| [CVE-2026-51403](https://nvd.nist.gov/vuln/detail/CVE-2026-51403) | Unauthenticated read/write access to PSIA API endpoints | 8.8 | CWE-306, CWE-284 |
+| [CVE-2026-51404](https://nvd.nist.gov/vuln/detail/CVE-2026-51404) | Unauthenticated live snapshot disclosure via TCP/6688 | 6.5 | CWE-200 |
+| [CVE-2026-51405](https://nvd.nist.gov/vuln/detail/CVE-2026-51405) | BusyBox Telnet enabled by default, exposing root shell once credentials are obtained | 8.8 | CWE-287 |
+| [CVE-2026-51406](https://nvd.nist.gov/vuln/detail/CVE-2026-51406) | Plaintext credential disclosure via `/PSIA/Security/AAA/users` | 6.5 | CWE-522 |
+| [CVE-2026-51407](https://nvd.nist.gov/vuln/detail/CVE-2026-51407) | Plaintext Wi-Fi credentials stored in `/app/userdata/ifcfg.wlan0` | 7.4 | CWE-319 |
+
+|  |
+| --- |
+| 16-07-2026 |
+
+|  |
+| --- |
+| CVEs reserved |
+
+|  |  |
+| --- | --- |
+| 30-06-2026 | Public disclosure (blog post) |

@@ -1,0 +1,195 @@
+---
+title: opencode v1.18.27
+url: https://kitploit.com/en/posts/github-anomalyco-opencode-v11827
+source: Kitploit
+date: 2026-09-04
+fetch_date: 2026-09-05T06:28:28.178878
+---
+
+# opencode v1.18.27
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/10580/14b01372a2589a120ab0d6a0510868e71bceadcbd1f1278fb099d700a03912cb.png)
+
+New releaseSep 4, 2026
+
+# opencode v1.18.27
+
+AI-powered coding agent for automated code generation, editing, and exploration in the terminal. Supports multiple agents for development and analysis tasks.
+
+Share
+
+[![OpenCode logo](https://raw.githubusercontent.com/anomalyco/opencode/HEAD/packages/console/app/src/asset/logo-ornate-light.svg)](https://opencode.ai)
+
+The open source AI coding agent.
+
+[![Discord](https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord)](https://opencode.ai/discord)
+[![npm](https://img.shields.io/npm/v/opencode-ai?style=flat-square)](https://www.npmjs.com/package/opencode-ai)
+[![Build status](https://img.shields.io/github/actions/workflow/status/anomalyco/opencode/publish.yml?style=flat-square&branch=dev)](https://github.com/anomalyco/opencode/actions/workflows/publish.yml)
+
+[English](https://github.com/anomalyco/opencode/blob/dev/README.md) |
+[简体中文](https://github.com/anomalyco/opencode/blob/dev/README.zh.md) |
+[繁體中文](https://github.com/anomalyco/opencode/blob/dev/README.zht.md) |
+[한국어](https://github.com/anomalyco/opencode/blob/dev/README.ko.md) |
+[Deutsch](https://github.com/anomalyco/opencode/blob/dev/README.de.md) |
+[Español](https://github.com/anomalyco/opencode/blob/dev/README.es.md) |
+[Français](https://github.com/anomalyco/opencode/blob/dev/README.fr.md) |
+[Italiano](https://github.com/anomalyco/opencode/blob/dev/README.it.md) |
+[Dansk](https://github.com/anomalyco/opencode/blob/dev/README.da.md) |
+[日本語](https://github.com/anomalyco/opencode/blob/dev/README.ja.md) |
+[Polski](https://github.com/anomalyco/opencode/blob/dev/README.pl.md) |
+[Русский](https://github.com/anomalyco/opencode/blob/dev/README.ru.md) |
+[Bosanski](https://github.com/anomalyco/opencode/blob/dev/README.bs.md) |
+[العربية](https://github.com/anomalyco/opencode/blob/dev/README.ar.md) |
+[Norsk](https://github.com/anomalyco/opencode/blob/dev/README.no.md) |
+[Português (Brasil)](https://github.com/anomalyco/opencode/blob/dev/README.br.md) |
+[ไทย](https://github.com/anomalyco/opencode/blob/dev/README.th.md) |
+[Türkçe](https://github.com/anomalyco/opencode/blob/dev/README.tr.md) |
+[Українська](https://github.com/anomalyco/opencode/blob/dev/README.uk.md) |
+[বাংলা](https://github.com/anomalyco/opencode/blob/dev/README.bn.md) |
+[Ελληνικά](https://github.com/anomalyco/opencode/blob/dev/README.gr.md) |
+[Tiếng Việt](https://github.com/anomalyco/opencode/blob/dev/README.vi.md)
+
+[![OpenCode Terminal UI](https://assets.kitploit.com/production/public/readmes/10580/14b01372a2589a120ab0d6a0510868e71bceadcbd1f1278fb099d700a03912cb.png)](https://opencode.ai)
+
+---
+
+### Installation
+
+root@kitploit:~
+
+```
+# YOLO
+curl -fsSL https://opencode.ai/install | bash
+
+# Package managers
+npm i -g opencode-ai@latest        # or bun/pnpm/yarn
+scoop install opencode             # Windows
+choco install opencode             # Windows
+brew install anomalyco/tap/opencode # macOS and Linux (recommended, always up to date)
+brew install opencode              # macOS and Linux (official brew formula, updated less)
+sudo pacman -S opencode            # Arch Linux (Stable)
+paru -S opencode-bin               # Arch Linux (Latest from AUR)
+mise use -g opencode               # Any OS
+nix run nixpkgs#opencode           # or github:anomalyco/opencode for latest dev branch
+```
+
+> [!TIP]
+> Remove versions older than 0.1.x before installing.
+
+### Desktop App (BETA)
+
+OpenCode is also available as a desktop application. Download directly from the [releases page](https://github.com/anomalyco/opencode/releases) or [opencode.ai/download](https://opencode.ai/download).
+
+| Platform | Download |
+| --- | --- |
+| macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg` |
+| macOS (Intel) | `opencode-desktop-mac-x64.dmg` |
+| Windows | `opencode-desktop-windows-x64.exe` |
+| Linux | `.deb`, `.rpm`, or `.AppImage` |
+
+root@kitploit:~
+
+```
+# macOS (Homebrew)
+brew install --cask opencode-desktop
+# Windows (Scoop)
+scoop bucket add extras; scoop install extras/opencode-desktop
+```
+
+#### Installation Directory
+
+The install script respects the following priority order for the installation path:
+
+1. `$OPENCODE_INSTALL_DIR` - Custom installation directory
+2. `$XDG_BIN_DIR` - XDG Base Directory Specification compliant path
+3. `$HOME/bin` - Standard user binary directory (if it exists or can be created)
+4. `$HOME/.opencode/bin` - Default fallback
+
+root@kitploit:~
+
+```
+# Examples
+OPENCODE_INSTALL_DIR=/usr/local/bin curl -fsSL https://opencode.ai/install | bash
+XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
+```
+
+### Agents
+
+OpenCode includes two built-in agents you can switch between with the `Tab` key.
+
+* **build** - Default, full-access agent for development work
+* **plan** - Read-only agent for analysis and code exploration
+  + Denies file edits by default
+  + Asks permission before running bash commands
+  + Ideal for exploring unfamiliar codebases or planning changes
+
+Also included is a **general** subagent for complex searches and multistep tasks.
+This is used internally and can be invoked using `@general` in messages.
+
+Learn more about [agents](https://opencode.ai/docs/agents).
+
+### Documentation
+
+For more info on how to configure OpenCode, [**head over to our docs**](https://opencode.ai/docs).
+
+### Contributing
+
+If you're interested in contributing to OpenCode, please read our [contributing docs](https://github.com/anomalyco/opencode/blob/dev/CONTRIBUTING.md) before submitting a pull request.
+
+### Building on OpenCode
+
+If you are working on a project that's related to OpenCode and is using "opencode" as part of its name, for example "opencode-dashboard" or "opencode-mobile", please add a note to your README to clarify that it is not built by the OpenCode team and is not affiliated with us in any way.
+
+---
+
+**Join our community** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)
+
+[Read more](/en/tools/github/anomalyco/opencode?expand=1)
+
+## Categories
+
+[General Purpose Utilities](/en/categories/general-purpose-utilities)[Scripting & Automation](/en/categories/scripting-automation)[DevSecOps](/en/categories/devsecops)[Learning & Education](/en/categories/education)[AI Security](/en/categories/ai-security)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

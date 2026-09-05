@@ -1,0 +1,180 @@
+---
+title: hawkopsec
+url: https://kitploit.com/en/tools/github/emrekybs/hawkopsec
+source: Kitploit
+date: 2026-09-04
+fetch_date: 2026-09-05T06:28:17.803429
+---
+
+# hawkopsec
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+hawkopsec — One-tap Linux OPSEC hardening & anonymity toolkit | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/emrekybs/hawkopsec
+
+![](https://assets.kitploit.com/production/public/tools/54071/9888a138eac64ab13b98b961d7e7a37faf4eb6ee953824913bd842dc7492971c-display-v1.webp)
+
+[Defensive Tools](/en/categories/defensive-tools)[Configuration Auditing](/en/categories/configuration-auditing)[Network Security](/en/categories/network-security)[Privacy](/en/categories/privacy)[Incident Response](/en/categories/incident-response)
+
+![GitHub](/providers/github.png)emrekybs/hawkopsec
+
+# hawkopsec
+
+One-tap Linux OPSEC hardening & anonymity toolkit
+
+[View Repository](https://github.com/emrekybs/hawkopsec)
+
+2913 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+![HawkOpsec](https://assets.kitploit.com/production/public/readmes/54071/cf57e51a65a53e36dcec9abc08a27c1562034a8f6eb1ea650a96e2dc826a736e/ad700979d26a850b37fee2c4ddb0f22981dcc2282673d65f065fad4a5f1dc314-display-v1.webp)
+
+# HawkOpsec
+
+**One-tap Linux OPSEC hardening & anonymity toolkit**
+
+![platform](https://img.shields.io/badge/platform-Linux%20(Arch%20%7C%20Debian)-0b0d10)
+![ui](https://img.shields.io/badge/UI-PyQt6-16C784)
+![license](https://img.shields.io/badge/license-MIT-blue)
+
+---
+
+HawkOpsec turns a pile of manual privacy commands into **security modes you apply with one tap**.
+Pick a mode — the tool starts Tor, configures DNS, randomizes your identity and hardens the
+kernel for you. Hit **RESET** and every change is rolled back from snapshots to your original state.
+
+The GUI never runs as root; privileged actions go through a small helper via **polkit/pkexec**.
+Every change is snapshotted before it is applied, so nothing is one-way.
+
+![Dashboard](https://assets.kitploit.com/production/public/readmes/54071/9888a138eac64ab13b98b961d7e7a37faf4eb6ee953824913bd842dc7492971c/d33846cb4fd61396793ecacb4c8c36ae87c63419c08879a0df18e00168040aad-display-v1.webp)
+
+## Security modes
+
+Each mode resets to baseline first, then applies a full profile — switching is always clean.
+
+| Mode | What it does |
+| --- | --- |
+| **BASELINE** | Everything off. Reverts all changes to the original state (same as RESET). |
+| **SECURE** | Kernel hardening · default-deny firewall · DNS-over-TLS · IPv6 off · no crash reports · logs in RAM. No Tor — daily-driver safe. |
+| **PUBLIC** | SECURE + MAC randomization (persistent via NetworkManager) + Bluetooth off. For untrusted / public wifi. |
+| **HARDENED** | PUBLIC + random machine-id & hostname + swap off + USB lockdown. Strong anti-fingerprinting, no Tor. |
+| **GHOST** | HARDENED + UTC timezone + **system-wide Tor routing** with a leak kill-switch. Full anonymity. |
+| **PARANOID** | GHOST + RAM wipe on shutdown (cold-boot mitigation). Maximum protection. |
+
+## Features
+
+* **Network** — Tor transparent proxy (all TCP + DNS via Tor, kill-switch, IPv6 block, stream isolation), DNS-over-TLS (Quad9 / Cloudflare / Mullvad), default-deny firewall, IPv6 disable.
+* **Identity** — per-interface MAC randomization, persistent MAC (NetworkManager), random hostname, machine-id spoofing, UTC timezone.
+* **Hardening** — kernel/sysctl hardening, disable crash reporting/coredumps, journald to RAM, disable Bluetooth, disable swap, USB lockdown (BadUSB), RAM wipe on shutdown.
+* **Traces** — clean shell history / recent files / thumbnails / trash, vacuum journald & coredumps, strip EXIF metadata (mat2/exiftool), secure-delete (shred).
+* **Extras** — one-click anonymous browser (Tor Browser / Firejail), Firefox hardening (WebRTC off, resistFingerprinting), live exit-IP check, Activity log of every change, **RESET** and **PANIC**.
+* **Bilingual UI** — switch English / Türkçe from the top-right; choice is remembered.
+
+![](https://assets.kitploit.com/production/public/readmes/54071/de408f7ffc9f31151e01383d70923f501692b245057145ff53172fc3c158d6e0/c6eb6f727e5e8cf40f01bf8f03a6198a2d2e3e84e8f9911dedf68db814a3780b-display-v1.webp)
+![](https://assets.kitploit.com/production/public/readmes/54071/b4792b604df9271201c2d3c52ecad8cac8c400be5c9a2bc3cd1b7fbb606804b4/5e29079ad1f083a5553fdc2663246a1555435f1a3784d8d96cf3bd337687919e-display-v1.webp)
+
+![](https://assets.kitploit.com/production/public/readmes/54071/041617687d877a3f6e528d22da04354fbeb7095244e94c3ca14783b1f0110a6b/ceaa87a057cf127dee31f4aafb2f33cc4ee7abd7aa49829422174ee381fe0efd-display-v1.webp)
+![](https://assets.kitploit.com/production/public/readmes/54071/9f09efb5b0617b20bd8a84cde8e19f750ab6b2ee057e067ed341956983a2ad50/bf54cb08bbc707c93a1f718615b88b770069772ff37875fd9ff3657d82e4266c-display-v1.webp)
+
+## Install
+
+**Dependencies**
+
+root@kitploit:~
+
+```
+# Arch
+sudo pacman -S --needed python-pyqt6 tor nftables polkit iproute2 rfkill systemd-resolvconf
+# Debian / Ubuntu / Kali / Mint
+sudo apt install -y python3-pyqt6 tor nftables policykit-1 iproute2 rfkill systemd-resolved
+# optional extras: mat2 (or exiftool), secure-delete, firejail, torbrowser-launcher
+```
+
+**Run from source (quickest)**
+
+root@kitploit:~
+
+```
+python3 run.py                 # just run it
+sudo ./packaging/install.sh    # or install: menu entry + launcher + polkit + helper
+```
+
+**Compile to a standalone binary (Nuitka)**
+
+root@kitploit:~
+
+```
+sudo apt install -y patchelf                 # or: sudo pacman -S patchelf
+./packaging/build.sh                         # -> build/run.dist/hawkopsec
+sudo ./packaging/install-compiled.sh
+```
+
+Then launch **HawkOpsec** from your application menu, or run `hawkopsec`.
+
+## Uninstall
+
+Click **UNINSTALL** in the app (or **HawkOpsec Uninstall** in the menu), or:
+
+root@kitploit:~
+
+```
+sudo ./packaging/uninstall.sh
+```
+
+It reverts every system change, removes all files and menu icons, and refreshes the desktop cache.
+
+## Security note
+
+HawkOpsec hardens the **network and system layers**. It does **not** make a normal browser
+fingerprint-resistant — for real anonymous browsing use the built-in **Tor Browser** launcher,
+avoid logging into personal accounts while anonymous, and remember that browser fingerprinting,
+WebRTC and behavioural patterns are out of scope for a system tool. You are hardening *your own* machine.
+
+## License
+
+MIT — see [LICENSE](https://github.com/emrekybs/hawkopsec/blob/main/LICENSE).
+
+[Download Tool](https://github.com/emrekybs/hawkopsec)
