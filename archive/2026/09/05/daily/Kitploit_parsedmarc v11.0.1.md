@@ -1,0 +1,130 @@
+---
+title: parsedmarc v11.0.1
+url: https://kitploit.com/en/posts/github-domainaware-parsedmarc-1101
+source: Kitploit
+date: 2026-09-05
+fetch_date: 2026-09-06T06:39:38.703688
+---
+
+# parsedmarc v11.0.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50971/e3a0912cfdf20a3818093be88313fe88c96188600591c15f6e50f20a271eb110-display-v1.webp)
+
+New releaseSep 5, 2026
+
+# parsedmarc v11.0.1
+
+A Python package and CLI for parsing aggregate and forensic DMARC reports
+
+Share
+
+# parsedmarc
+
+[![Build Status](https://github.com/domainaware/parsedmarc/actions/workflows/python-tests.yml/badge.svg)](https://github.com/domainaware/parsedmarc/actions/workflows/python-tests.yml)
+[![Code Coverage](https://codecov.io/gh/domainaware/parsedmarc/branch/master/graph/badge.svg)](https://codecov.io/gh/domainaware/parsedmarc)
+[![PyPI Package](https://img.shields.io/pypi/v/parsedmarc.svg)](https://pypi.org/project/parsedmarc/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/parsedmarc?color=blue)](https://pypistats.org/packages/parsedmarc)
+
+![A screenshot of DMARC summary charts in Kibana](https://assets.kitploit.com/production/public/readmes/50971/e3a0912cfdf20a3818093be88313fe88c96188600591c15f6e50f20a271eb110/f73684499219bd82494b941900835e0fa0ddacfcb2f8c682e922153d7bd031a9-display-v1.webp)
+
+`parsedmarc` is a Python module and CLI utility for parsing DMARC
+reports. When used with Elasticsearch and Kibana (or Splunk), or with
+OpenSearch and Grafana, it works as a self-hosted open-source
+alternative to commercial DMARC report processing services such as
+Agari Brand Protection, Dmarcian, OnDMARC, ProofPoint Email Fraud
+Defense, and Valimail.
+
+> [!NOTE]
+> **Domain-based Message Authentication, Reporting, and Conformance** (DMARC) is an email authentication protocol.
+
+## Sponsors
+
+This project is maintained by one developer.
+Please consider [sponsoring my work](https://github.com/sponsors/seanthegeek) if you or your organization benefit from it.
+
+## Features
+
+* Parses aggregate/rua DMARC reports: the legacy draft and 1.0 schemas
+  (RFC 7489) and the new RFC 9990 schema for the final DMARC standard
+  (RFC 9989)
+* Parses failure/ruf DMARC reports (RFC 6591 and RFC 9991; formerly called
+  forensic reports)
+* Parses reports from SMTP TLS Reporting (TLS-RPT, RFC 8460)
+* Can parse reports from an inbox over IMAP, Microsoft Graph, or Gmail API
+* Transparently handles gzip or zip compressed reports
+* Consistent data structures
+* Simple JSON and/or CSV output
+* Optionally email the results
+* Optionally send the results to Elasticsearch, OpenSearch, Splunk, or
+  PostgreSQL, for use with premade dashboards
+* Optionally send the results to Apache Kafka, Amazon S3, Azure Log
+  Analytics (Microsoft Sentinel), a Graylog (GELF) endpoint, a syslog server,
+  or an HTTP webhook
+
+## Python Compatibility
+
+This project supports the following Python versions, which are either actively maintained or are the default versions
+for RHEL or Debian.
+
+| Version | Supported | Reason |
+| --- | --- | --- |
+| < 3.6 | ❌ | End of Life (EOL) |
+| 3.6 | ❌ | Used in RHEL 8, but not supported by project dependencies |
+| 3.7 | ❌ | End of Life (EOL) |
+| 3.8 | ❌ | End of Life (EOL) |
+| 3.9 | ❌ | Used in Debian 11 and RHEL 9, but not supported by project dependencies |
+| 3.10 | ✅ | Actively maintained |
+| 3.11 | ✅ | Actively maintained; supported until June 2028 (Debian 12) |
+| 3.12 | ✅ | Actively maintained; supported until May 2035 (RHEL 10) |
+| 3.13 | ✅ | Actively maintained; supported until June 2030 (Debian 13) |
+| 3.14 | ✅ | Supported (requires `imapclient>=3.1.0`) |
+
+[Read more](/en/tools/github/domainaware/parsedmarc?expand=1)
+
+## Categories
+
+[Defensive Tools](/en/categories/defensive-tools)[Authentication](/en/categories/authentication)[Email Security](/en/categories/email-security)[DNS Analysis](/en/categories/dns-analysis)[Log Analysis](/en/categories/log-analysis)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

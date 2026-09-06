@@ -1,0 +1,155 @@
+---
+title: zitadel v4.17.3
+url: https://kitploit.com/en/posts/github-zitadel-zitadel-v4173
+source: Kitploit
+date: 2026-09-05
+fetch_date: 2026-09-06T06:39:29.697542
+---
+
+# zitadel v4.17.3
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50879/a6ba8762fa5878f0c095e9ace00fbe355c51354501da6bf540f79d120984947c-display-v1.webp)
+
+New releaseSep 5, 2026
+
+# zitadel v4.17.3
+
+Open-source identity and access management platform providing SSO, MFA, passkeys, OIDC, SAML, SCIM, and multi-tenant access control for developers and enterprises.
+
+Share
+
+![ZITADEL Logo](https://assets.kitploit.com/production/public/readmes/50879/862e002a733f5f50d519baf370f4d5df6770cd94275545e7808e8ae23e81d7e2/367923ca5236e00ebfc3f1190d847d954515e9f4000b53c1d492cb1eec15d2ce-display-v1.webp)
+![ZITADEL Logo](https://assets.kitploit.com/production/public/readmes/50879/5d4e6e4abf3e8e31822e7ce2cbb9c120b7bd0dc3978b64b2413f5e046c3e0376/5a314417a56e55dbe57629ffd1b7e78bee7c80f47e8c4190ca11cbd7f6c0f5a5-display-v1.webp)
+
+[![](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/zitadel/zitadel)
+[![](https://badgen.net/github/license/zitadel/zitadel/)](https://github.com/zitadel/zitadel/blob/main/LICENSE)
+[![](https://bestpractices.coreinfrastructure.org/projects/6662/badge)](https://bestpractices.coreinfrastructure.org/projects/6662)
+[![](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/zitadel/zitadel/build.yml?event=pull_request)](https://github.com/zitadel/zitadel/actions)
+[![](https://badgen.net/github/release/zitadel/zitadel/stable)](https://zitadel.com/docs/support/software-release-cycles-support)
+[![](https://goreportcard.com/badge/github.com/zitadel/zitadel)](https://goreportcard.com/report/github.com/zitadel/zitadel)
+[![](https://codecov.io/gh/zitadel/zitadel/branch/main/graph/badge.svg)](https://codecov.io/gh/zitadel/zitadel)
+[![GitHub contributors](https://img.shields.io/github/contributors/zitadel/zitadel)](https://github.com/zitadel/zitadel/graphs/contributors)
+[![](https://badgen.net/discord/online-members/YgjEuJzZ3x)](https://discord.gg/YgjEuJzZ3x)
+
+[![](https://assets.kitploit.com/production/public/readmes/50879/43eb1e57a96c1e72fad355de2e18482fac1739236b452d9da93db3167dbaf7ab/0e33b6b186fe48d0c1b0a800f352f9481642496ed80821ea073eee01efdaa33d-display-v1.webp)](https://openid.net/certification/#OPs)
+
+## The Identity Infrastructure for Developers
+
+**ZITADEL** is an open-source identity and access management platform built for teams that need more than basic auth. Whether you're securing a SaaS product, building a B2B platform, or self-hosting a production IAM stack — ZITADEL gives you everything out of the box: SSO, MFA, Passkeys, OIDC, SAML, SCIM, and a battle-tested multi-tenancy model.
+
+No vendor lock-in. No compromise on control. Just a robust, API-first identity platform you can own.
+
+---
+
+**[🏡 Website](https://zitadel.com)  |  [💬 Chat](https://zitadel.com/chat)  |  [📋 Docs](https://zitadel.com/docs/)  |  [🧑‍💻 Blog](https://zitadel.com/blog)  |  [📞 Contact](https://zitadel.com/contact/)**
+
+---
+
+## Why ZITADEL
+
+We built ZITADEL to handle the hardest IAM challenges at scale — starting with multi-tenancy.
+
+|  | ZITADEL | FusionAuth | Keycloak | Auth0/Okta |
+| --- | --- | --- | --- | --- |
+| Open-source | ✅ | ❌ | ✅ | ❌ |
+| Self-hostable | ✅ | ✅ | ✅ | ❌ |
+| Infrastructure-level tenants | ✅ Instances (High scale) | ✅ Tenants | 🟡 Realms (Scaling limits) | ❌ (Multi-tenant = multi-account) |
+| B2B Organizations | ✅ Native & Unlimited | 🟡 via Entity Management | ✅ (Recent addition) | 🟡 (Plan/Account dependent) |
+| Full audit trail | ✅ Comprehensive Event Stream\* | 🟡 Audit logs | 🟡 Audit logs | 🟡 Audit logs |
+| Passkeys (FIDO2) | ✅ | ✅ | ✅ | ✅ |
+| [Actions / webhooks](https://zitadel.com/docs/concepts/features/actions_v2) | ✅ | ✅ | 🟡 via SPI | ✅ |
+| API-first (gRPC + REST) | ✅ | 🟡 REST only | 🟡 REST only | 🟡 REST only |
+| SaaS + self-host parity | ✅ | ✅ | ➖ N/A | ➖ N/A |
+
+ZITADEL Cloud and self-hosted ZITADEL run the same codebase.
+
+**Key differentiators for architects:**
+
+* **Relational core, event-driven soul** — every mutation is written as an immutable event for a complete, API-accessible [audit trail](https://zitadel.com/docs/concepts/features/audit-trail). Unlike systems that log only select activities, ZITADEL provides a comprehensive event stream that can be audited or streamed to external systems via Webhooks.
+* **Strict multi-tenant hierarchy** — Identity System → Organizations → Projects, with isolated data and policy scoping at multiple levels
+* **API-first design** — every resource and action is available via [connectRPC, gRPC, and HTTP/JSON APIs](https://zitadel.com/docs/apis/introduction)
+* **[Zero-downtime updates](https://zitadel.com/docs/concepts/architecture/solution#zero-downtime-updates)** and [horizontal scalability](https://zitadel.com/docs/self-hosting/manage/updating_scaling) without external session stores
+
+---
+
+## Get Started in 3 Minutes
+
+👉 [Quick Start Guide](https://zitadel.com/docs/guides/start/quickstart)
+
+### ZITADEL Self-Hosted
+
+root@kitploit:~
+
+```
+# Docker Compose — up and running in under 3 minutes
+curl -LO https://raw.githubusercontent.com/zitadel/zitadel/main/deploy/compose/docker-compose.yml \
+  && curl -LO https://raw.githubusercontent.com/zitadel/zitadel/main/deploy/compose/.env.example \
+  && cp .env.example .env \
+  && docker compose up -d --wait
+```
+
+Full deployment guides:
+
+* [Docker Compose](https://zitadel.com/docs/self-hosting/deploy/compose)
+* [Kubernetes](https://zitadel.com/docs/self-hosting/deploy/kubernetes)
+
+> Need professional support for your self-hosted deployment? [Contact us](https://zitadel.com/contact).
+
+### ZITADEL Cloud (SaaS)
+
+Start for free at [zitadel.com](https://zitadel.com) — no credit card required. Available in US · EU · AU · CH. [Pay-as-you-go pricing](https://zitadel.com/pricing).
+
+---
+
+## Integrate with the V2 API
+
+ZITADEL exposes every capability over a typed API. Here's how to create a user with the V2 REST API:
+
+root@kitploit:~
+
+```
+curl -X POST https://$ZITADEL_DOMAIN/v2/users/human \
+  -H "Authorization: Bearer $ACCESS_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "username": "[email protected]",
+    "profile": { "givenName": "Alice", "familyName": "Smith" },
+    "email": { "email": "[email protected]", "sendCode": {} }
+  }'
+```
+
+Explore the full [API reference](https://zitadel.com/docs/apis/introduction) — including connectRPC and gRPC transports — or jump straight to [quickstart examples](https://zitadel.com/docs/guides/start/quickstart).
+
+---
+
+## Features
+
+**Authentication**
+
+* Single Sign On (SSO) · Username/Password · [Passkeys (FIDO2 / WebAuthn)](https://zitadel.com/docs/concepts/features/passkeys)
+* MFA: OTP, U2F, OTP Email, OTP SMS
+* [LDAP](https://zitadel.com/docs/guides/integrate/identity-providers/ldap) · [Enterprise IdPs and social logins](https://zitadel.com/docs/guides/integrate/identity-providers/introduction)
+* [OpenID Connect certified](https://openid.net/certification/#OPs) · [SAML 2.0](https://zitadel.com/docs/apis/saml/endpoints) · [Device authorization](https://zitadel.com/docs/guides/integrate/login/oidc/device-authorization)
+* [Machine-to-machine](https://zitadel.com/docs/guides/integrate/service-accounts/authenticate-service-accounts): JWT Profile, PAT, Client Credentials
+* [Token exchange and impersonation](https://zitadel.com/docs/guides/integrate/token-exchange)
+* [Custom sessions](https://zitadel.com/docs/guides/integrate/login-ui/username-password) for flows beyond OIDC/SAML
+* [Hos...

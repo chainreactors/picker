@@ -1,0 +1,165 @@
+---
+title: akto v2.32.5
+url: https://kitploit.com/en/posts/github-akto-api-security-akto-v2325
+source: Kitploit
+date: 2026-09-05
+fetch_date: 2026-09-06T06:39:28.430764
+---
+
+# akto v2.32.5
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/6063/fd1052112392c10fc97bf5e21e12bafbea9a495ac3fa420d420332df12b8a461.png)
+
+New releaseSep 5, 2026
+
+# akto v2.32.5
+
+Open-source API security platform for continuous API discovery, vulnerability testing, and runtime threat detection. Integrates with CI/CD pipelines and covers OWASP Top 10 with 1000+ built-in tests.
+
+Share
+
+[![](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/akto)](https://artifacthub.io/packages/search?repo=akto)
+[![](https://img.shields.io/badge/Black_Hat_Arsenal-USA_2023-blue?style=square)](https://www.akto.io/blog/akto-takes-center-stage-at-black-hat-2023-in-las-vegas)
+[![](https://img.shields.io/badge/Defcon-USA_2023-blue?style=square)](https://www.akto.io/blog/akto-presentation-at-defcon-2023-in-las-vegas)
+
+[![](https://img.shields.io/github/commit-activity/m/akto-api-security/akto?label=commits&logo=github)](https://github.com/akto-api-security/akto/commits/master)
+[![](https://img.shields.io/github/release-date/akto-api-security/akto?label=latest%20release&logo=docker)](https://github.com/akto-api-security/akto/releases)
+[![](https://img.shields.io/discord/1070706429402562733?logo=Discord)](https://discord.gg/Wpc6xVME4s)
+[![](https://img.shields.io/docker/image-size/aktosecurity/akto-api-security-dashboard?logo=docker)](https://hub.docker.com/r/aktosecurity/akto-api-security-dashboard/tags?page=1&name=local)
+[![](https://img.shields.io/github/issues/akto-api-security/akto/hackfest?logo=github)](https://github.com/akto-api-security/akto/issues?q=label%3Ahackfest)
+
+[![](https://img.shields.io/badge/Docker_pulls-10K+-blue?logo=docker)](https://hub.docker.com/r/aktosecurity/akto-api-security-dashboard)
+
+# Akto.io API Security
+
+## Contributors
+
+[![](https://contrib.rocks/image?repo=akto-api-security/akto)](https://github.com/akto-api-security/akto/graphs/contributors)
+
+# What is Akto?
+
+[How it works](https://docs.akto.io/#how-it-works) • [Getting-Started](https://docs.akto.io/#how-to-get-started) • [API Inventory](https://docs.akto.io/api-inventory/api-collections) • [API testing](https://docs.akto.io/testing/run-test) • [Add Test](https://docs.akto.io/testing/test-library) • [Join Discord community](https://discord.com/invite/Wpc6xVME4s) •
+
+Akto is an instant, open source API security platform that takes only 60 secs to get started. Akto is used by security teams to maintain a continuous inventory of APIs, test APIs for vulnerabilities and find runtime issues. Akto offers coverage for all OWASP top 10 and HackerOne Top 10 categories including BOLA, authentication, SSRF, XSS, security configurations, etc. Akto's powerful testing engine runs variety of business logic tests by reading traffic data to understand API traffic pattern leading to reduced false positives. Akto can integrate with multiple traffic sources - burpsuite, AWS, postman, GCP, gateways, etc. Here is our [public roadmap](https://github.com/orgs/akto-api-security/projects/8) for this quarter.
+
+Akto enables security and engineering teams to secure their APIs by doing three things:
+
+1. [API inventory](https://docs.akto.io/api-inventory/api-collections)
+2. [Run business logic tests in CI/CD](https://docs.akto.io/testing/run-test)
+3. [Find vulnerabilities in run-time](https://docs.akto.io/api-inventory/sensitive-data)
+
+<https://user-images.githubusercontent.com/91306853/216407351-d18c396b-5cd0-4cbc-a350-10a76b1d67b3.mp4>
+
+## How it works?
+
+Step 1: Create inventory
+
+![](https://assets.kitploit.com/production/public/readmes/placeholders/f0fc86cfe65f76d40e15aaec61704ec8220a56dc89d4be03c46f67cb31b9fa8c.svg)
+
+Step 2: Run tests
+
+![](https://assets.kitploit.com/production/public/readmes/placeholders/f0fc86cfe65f76d40e15aaec61704ec8220a56dc89d4be03c46f67cb31b9fa8c.svg)
+
+## How to get Started?
+
+### Using docker-compose (works for any machine which has Docker installed)
+
+Run the following commands to install Akto. You'll need to have curl and Docker installed in order to run the container..
+
+1. Clone the Akto repo by using this command `git clone https://github.com/akto-api-security/akto.git`
+2. Go to the cloned directory `cd akto`
+3. Run `docker-compose up -d`
+
+#### If you are setting this up in your own Cloud (AWS/GCP/Heroku), read this section
+
+Please ensure the following for good security practices
+
+1. Open inbound security rule for port 9090 only. And restrict the source CIDR to VPC CIDR or your IP only.
+2. Use an EC2 from a private subnet -
+
+   a. This way, no one will be able to make an inbound request to your machine.
+
+   b. Ensure this private subnet has access to Internet so that outbound calls can succeed!
+
+   c. You might have to set up tunneling to access instance via VPN using `ssh -i pemfile ec2-user@vpn-public-instance -L 9090:private-instance:9090`
+
+   d. In your browser, visit `http://private-instance:9090`
+3. Use an EC2 from a public subnet - please don't! If you still want to do this, you can skip 2.b and 2.c. Simply access your instance via `http://ip:9090`
+
+Akto is really powerful in Cloud deployment if you can provide your application's mirrored traffic (0 performance impact). You would also be able to schedule tests in CI/CD and invite more team members on the dashboard. For that, you should install Akto Enterprise edition available [here](https://stairway.akto.io). Read more about it [here](https://www.akto.io/pricing)
+
+## API Security testing tutorials
+
+| Title | Link |
+| --- | --- |
+| Introduction | <https://www.youtube.com/watch?v=oFt4OVmfE2s> |
+| **Tutorial 1:** SSRF Port Scanning (OWASP API7:2023) | <https://www.youtube.com/watch?v=WjNNh6asAD0> |
+
+## Develop and contribute
+
+### Quicksetup using VSCode Devcontainers
+
+### Prerequisites:
+
+1. [Install VSCode](https://code.visualstudio.com/)
+2. [Install VSCode Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+3. **Windows:** [Docker Desktop](https://www.docker.com/products/docker-desktop) 2.0+ on Windows 10 Pro/Enterprise. Windows 10 Home (2004+) requires Docker Desktop 2.3+ and the [WSL 2 back-end](https://aka.ms/vscode-remote/containers/docker-wsl2).
+4. **macOS**: [Docker Desktop](https://www.docker.com/products/docker-desktop) 2.0+.
+5. **Linux**: [Docker CE/EE](https://docs.docker.com/install/#supported-platforms) 18.06+ and [Docker Compose](https://docs.docker.com/compose/install) 1.21+.
+
+**Note**: If using Docker Desktop, consider changing the memory allocation to 8 GB for better performance
+
+### Steps:
+
+#### Clone repo and open in vscode
+
+1. Open terminal
+2. `mkdir ~/akto_code`
+3. `cd ~/akto_code`
+4. `git clone https://github.com/akto-api-security/akto`
+5. Open in VScode: `code akto`
+
+#### Start Dev Container
+
+1. Go to View > Command Palette and type: Dev Containers: Reopen in Container
+   ![](https://assets.kitploit.com/production/public/readmes/6063/55316a486d156017f3282896483e4ec8fa41a3f3a65bb3f8987ca169e55451ac.png)
+2. Wait for the Dev Container to set up.
+3. Open **localhost:9090** in your web browser to see the Akto dashboard
+
+### Manual Setup Instructions
+
+### Prerequisites
+
+OpenJDK 8, node(v18.7.0+ [link](https://nodejs.org/download/release/v18.7.0/)), npm(v8.15.0+), maven (v3.6.3 [link](https://dlcdn.apache.org/maven/maven-3/3.6.3/binaries/)), MongoDB (v5.0.3+ [link](https://www.mongodb.com/docs/manual/administration/install-community/))
+
+#### Clone repo
+
+1. `mkdir ~/akto_code`
+2. `cd akto_code`
+3. `git clone https://github.com/akto-api-security/akto`
+
+#### Setup database
+
+1. `Open a new terminal tab`
+2. `cd ~`
+3. `mkdir ~/akto_mongo_data`
+4. `<path_to_mongo_folder>/bin/mongod --dbpath ~/akto_mongo_data`
+...

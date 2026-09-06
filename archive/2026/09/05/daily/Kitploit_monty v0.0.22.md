@@ -1,0 +1,231 @@
+---
+title: monty v0.0.22
+url: https://kitploit.com/en/posts/github-pydantic-monty-v0022
+source: Kitploit
+date: 2026-09-05
+fetch_date: 2026-09-06T06:39:23.846814
+---
+
+# monty v0.0.22
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/11493/8cf672e599640de134a3b478b279f561a6de1b9e123cc594ddcd7530afb07e1f.png)
+
+New releaseSep 5, 2026
+
+# monty v0.0.22
+
+A minimal, secure Python interpreter written in Rust for use by AI
+
+Share
+
+# Monty
+
+### A minimal, secure Python interpreter written in Rust for use by AI.
+
+[![CI](https://github.com/pydantic/monty/actions/workflows/ci.yml/badge.svg)](https://github.com/pydantic/monty/actions/workflows/ci.yml?query=branch%3Amain)
+[![Codspeed](https://img.shields.io/badge/CodSpeed-Performance%20Tracked-blue?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOCAwTDAgOEw4IDE2TDE2IDhMOCAwWiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=)](https://codspeed.io/pydantic/monty?utm_source=badge)
+[![Coverage](https://codecov.io/gh/pydantic/monty/graph/badge.svg?token=HX4RDQX5OG)](https://codecov.io/gh/pydantic/monty)
+[![PyPI](https://img.shields.io/pypi/v/pydantic-monty.svg)](https://pypi.python.org/pypi/pydantic-monty)
+[![versions](https://img.shields.io/pypi/pyversions/pydantic-monty.svg)](https://github.com/pydantic/monty)
+[![license](https://img.shields.io/github/license/pydantic/monty.svg?v=2)](https://github.com/pydantic/monty/blob/main/LICENSE)
+[![Join Slack](https://img.shields.io/badge/Slack-Join%20Slack-4A154B?logo=slack)](https://logfire.pydantic.dev/docs/join-slack/)
+
+---
+
+**Experimental** - This project is still in development, and not ready for prime time.
+
+A minimal, secure Python interpreter written in Rust for use by AI.
+
+Monty avoids the cost, latency, complexity and general faff of using a full container based sandbox for running LLM generated code.
+
+Instead, it lets you safely run Python code written by an LLM embedded in your agent, with startup times measured in single digit microseconds not hundreds of milliseconds.
+
+What Monty **can** do:
+
+* Run a reasonable subset of Python code - enough for your agent to express what it wants to do
+* Completely block access to the host environment: filesystem, env variables and network access are all implemented via external function calls the developer can control
+* Call functions on the host - only functions you give it access to
+* Run typechecking - monty supports full modern python type hints and comes with [ty](https://docs.astral.sh/ty/) included in a single binary to run typechecking
+* Be snapshotted to bytes at external function calls, meaning you can store the interpreter state in a file or database, and resume later
+* Startup extremely fast (<1μs to go from code to execution result), and has runtime performance that is similar to CPython (generally between 5x faster and 5x slower)
+* Be called from Rust, Python, or Javascript - because Monty has no dependencies on cpython, you can use it anywhere you can run Rust
+* Control resource usage - Monty can track memory usage, stack depth, and execution time and cancel execution if it exceeds preset limits
+* Collect stdout and stderr and return it to the caller
+* Run async or sync code on the host via async or sync code on the host
+* Use a small subset of the standard library: `sys`, `os`, `typing`, `asyncio`, `re`, `datetime`, `json`, `dataclasses` (soon)
+
+What Monty **cannot** do:
+
+* Use the rest of the standard library
+* Use third party libraries (like Pydantic), support for external python library is not a goal
+* define classes (support should come soon)
+* use match statements (again, support should come soon)
+
+---
+
+In short, Monty is extremely limited and designed for **one** use case:
+
+**To run code written by agents.**
+
+For motivation on why you might want to do this, see:
+
+* [Codemode](https://blog.cloudflare.com/code-mode/) from Cloudflare
+* [Programmatic Tool Calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling) from Anthropic
+* [Code Execution with MCP](https://www.anthropic.com/engineering/code-execution-with-mcp) from Anthropic
+* [Smol Agents](https://github.com/huggingface/smolagents) from Hugging Face
+
+In very simple terms, the idea of all the above is that LLMs can work faster, cheaper and more reliably if they're asked to write Python (or Javascript) code, instead of relying on traditional tool calling. Monty makes that possible without the complexity of a sandbox or risk of running code directly on the host.
+
+**Note:** Monty will (soon) be used to implement `codemode` in [Pydantic AI](https://github.com/pydantic/pydantic-ai)
+
+## Usage
+
+Monty can be called from Python, JavaScript/TypeScript or Rust.
+
+### Python
+
+To install:
+
+root@kitploit:~
+
+```
+uv add pydantic-monty
+```
+
+(Or `pip install pydantic-monty` for the boomers)
+
+`pydantic-monty` is a metapackage pairing `pydantic-monty-client` (the
+`pydantic_monty` module) with `pydantic-monty-runtime` (the `monty` worker
+binary). Install `pydantic-monty-client` alone if the binary already comes from
+somewhere else.
+
+Usage:
+
+root@kitploit:~
+
+```
+from typing import Any
+
+import pydantic_monty
+
+code = """
+async def agent(prompt: str, messages: Messages):
+    while True:
+        print(f'messages so far: {messages}')
+        output = await call_llm(prompt, messages)
+        if isinstance(output, str):
+            return output
+        messages.extend(output)
+
+await agent(prompt, [])
+"""
+
+type_definitions = """
+from typing import Any
+
+Messages = list[dict[str, Any]]
+
+async def call_llm(prompt: str, messages: Messages) -> str | Messages:
+    raise NotImplementedError()
+
+prompt: str = ''
+"""
+
+Messages = list[dict[str, Any]]
+
+async def call_llm(prompt: str, messages: Messages) -> str | Messages:
+    if len(messages) < 2:
+        return [{'role': 'system', 'content': 'example response'}]
+    else:
+        return f'example output, message count {len(messages)}'
+
+async def main():
+    async with pydantic_monty.AsyncMonty() as pool:
+        async with pool.checkout(
+            script_name='agent.py',
+            type_check=True,
+            type_check_stubs=type_definitions,
+        ) as session:
+            output = await session.feed_run(
+                code,
+                inputs={'prompt': 'testing'},
+                external_lookup={'call_llm': call_llm},
+            )
+    print(output)
+    #> example output, message count 2
+
+if __name__ == '__main__':
+    import asyncio
+
+    asyncio.run(main())
+```
+
+Execution happens in a pool of `monty` worker subprocesses, so even a memory
+error triggered by adversarial code (stack overflow, allocator abort) can
+never crash your process — the worker dies, raises `MontyCrashedError`, and
+is replaced. There is also a fully synchronous API:
+
+root@kitploit:~
+
+```
+import pydantic_monty
+
+with pydantic_monty.Monty() as pool:
+    with pool.checkout() as session:
+        # session state persists between feed_run calls
+        session.feed_run('x = 21')
+        print(session.feed_run('x * 2'))
+        #> 42
+```
+
+### JavaScript / TypeScript
+
+To install:
+
+root@kitploit:~
+
+```
+npm install @pydantic/monty
+```
+
+The JS package is a native (napi) binding over the same Rust worker pool the
+Python package uses — the binding and the `monty` worker binary ship via
+platform-specific npm packages:
+
+root@kitploit:~
+
+```
+import { Monty } from '@pydantic/monty'
+
+await using pool = await Monty.create()
+await using session = await pool.checkout()
+
+// session state persists between feedRun calls
+await session.feedRun('x = 21')
+console.log(await session.feedRun('x * 2')) // 42
+
+// external functions may be async
+const result = await session.feedRun('await fetch_data()', {
+  externalLookup: { fetch_data: async () => 'data' },
+})
+```
+
+For browsers (or...
