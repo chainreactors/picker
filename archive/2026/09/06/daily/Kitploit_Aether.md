@@ -1,0 +1,165 @@
+---
+title: Aether
+url: https://kitploit.com/en/tools/github/fknmega/aether
+source: Kitploit
+date: 2026-09-06
+fetch_date: 2026-09-07T06:48:42.456316
+---
+
+# Aether
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/fknmega/aether
+
+![](https://assets.kitploit.com/production/public/tools/54281/552a055eec9c1c4a11db9d31a18100a0b48aff45b5db1e677f2daa76adbb722a-display-v1.webp)
+
+[OSINT (Open Source Intelligence)](/en/categories/osint)[Reconnaissance](/en/categories/reconnaissance)[Information Gathering](/en/categories/information-gathering)[CTF](/en/categories/ctf)[Penetration Testing](/en/categories/penetration-testing)[Learning & Education](/en/categories/education)[Curated Resources](/en/categories/curated-resources)[AI Security](/en/categories/ai-security)
+
+![GitHub](/providers/github.png)fknmega/aether
+
+# Aether
+
+Autonomous AI Driven OSINT & security-research desktop agent (macOS/Windows) that builds a live knowledge graph. Authorized use only
+
+[View Repository](https://github.com/fknmega/aether)
+
+15142321 day ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+[Website](https://discord.gg/zjawxkDZVP)
+
+![Aether](https://assets.kitploit.com/production/public/readmes/54281/55dc90c6d2962808be04e40d70c72549ddfe9d6b0007d24dae596468b5f8d6bc/a5fa3b84e1f79645c51000cfb97f54731b152e671b1c9e338bd6886e888565b2-display-v1.webp)
+
+# Aether
+
+### An AI-driven OSINT analyst that lives on your desktop.
+
+Give her a name, an email, a username, a domain, or a photo. She opens a case, runs the target across the open
+web, reads the metadata, maps the infrastructure, and draws everything she finds into a knowledge graph that
+grows while you watch. Runs on macOS and Windows, powered by Claude, ChatGPT, or a local model of your own.
+
+[![Join the Discord](https://img.shields.io/badge/Discord-join%20us-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zjawxkDZVP)
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%99%A5-ff6fa5?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/fknMega)
+
+![The Aether knowledge graph on the fknMega case](https://assets.kitploit.com/production/public/readmes/54281/156d3ba783e48cbfdcc9d457ea1497787a2d445a83a834eda37d7ea6904c4743/831607356aaea8c9b8e986c277bef591e41eae004b64afc1dabc3d07d4a23879-display-v1.webp)
+
+![macOS](https://img.shields.io/badge/macOS-000?logo=apple&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-2B2E3A?logo=electron&logoColor=9FEAF9)
+![AI-driven](https://img.shields.io/badge/AI--driven-Claude%20%C2%B7%20ChatGPT%20%C2%B7%20Ollama-ff6fa5)
+![MIT](https://img.shields.io/badge/License-MIT-c65080.svg)
+
+## Runs on Claude, ChatGPT, or your own local model
+
+**Claude**  ·  **ChatGPT** and any OpenAI-compatible endpoint  ·  **Ollama** (fully local, nothing leaves your machine)
+
+---
+
+### please don't use this to dox the innocent >:(
+
+Seriously. Aether is for people and systems you're actually allowed to look into: your own exposure, folks who
+asked you to check theirs, and lab or CTF boxes you own. She only reads what's already public or shown by a
+platform. She won't break authentication, get past bot-detection, phish, or take over accounts, and those
+limits are baked into how she works. Point her at a stranger you have no business investigating and you're the
+baddie, not her. Be normal.
+
+---
+
+## What it's like to use
+
+You hand Aether a selector and she gets to work. She thinks out loud like she's writing up a case file, not
+firing off chat replies. Every tool she runs shows up as a small line in a running log that ticks from
+"working" to "done." The moment she finds something she writes it into the graph, then flips its status as she
+confirms it or rules it out.
+
+Color on the graph means status, not decoration. Only the target glows. A confirmed fact gets a white ring,
+the stuff she still has to chase pulses pink. Nodes carry real pictures too: a face on a person, the site's
+favicon on an account, the actual photo on a photo node.
+
+![The chat, written like a dossier](https://assets.kitploit.com/production/public/readmes/54281/552a055eec9c1c4a11db9d31a18100a0b48aff45b5db1e677f2daa76adbb722a/5d757ac4cd659a70c33c59f4b0b08fc64a78cb323a44ec8a2f78074207ac21df-display-v1.webp)
+
+*She writes it up like a report. Her reasoning is set in serif, the evidence in mono, every tool call logged as she goes.*![The live knowledge graph](https://assets.kitploit.com/production/public/readmes/54281/72f7756b294c6f33a20498fe4d896d98abb76b1275110de709afddbaa5b499b8/6007721e48b7e5019a4743bd773a52321b0c129c2bae65d9d7057ff30f2767e1-display-v1.webp)
+
+*The graph is the hero. A force-directed canvas you can pan, zoom and drag, colored by type and ringed by status.*![Modules](https://assets.kitploit.com/production/public/readmes/54281/f43addbb7c6798063d676017b8bb9bca8a4f00aa0effb667b990cb6ea7fe18d4/53ecf9040c9116c57d4bb52cac023da805115286ee9a10d0c0af54a350dc0e80-display-v1.webp)
+
+*Dozens of no-key OSINT and recon tools bundled in, plus your own commands and APIs. Flip on what you want.*![Provider settings](https://assets.kitploit.com/production/public/readmes/54281/c972aeee3e0e252a04e128ef2cb55e478f1a6dc8005ae19be30826eeec4ab1fd/805c6f2804160c6afb77d1a74cc9fd4c802b7cfb08634974a1f95ea0a6c3d1fa-display-v1.webp)
+
+*Run her on Claude, on ChatGPT, or fully local through Ollama. Same tools, same graph, your choice of brain.*
+
+## What's in the box
+
+**A live knowledge graph.** A force-directed canvas rendered like ink on paper. Nodes are colored by selector
+type, ringed by status, sized by how connected they are, and shown with real pictures where there are any.
+It's the main workspace, and it updates as the case builds.
+
+**A chat that reads like a case file.** Answers stream in as she writes them, and every tool call shows up as
+its own line in an evidence log that animates from running to done.
+
+**A built-in Sherlock.** `username_search` checks a handle across dozens of platforms at once, no Python and no
+setup, and tells you where a public profile exists.
+
+**Dozens of bundled tools.** A big catalog of no-key OSINT and recon endpoints (GitHub, crt.sh, RDAP, DNS over
+HTTPS, Shodan InternetDB, RIPE, Wayback, urlscan, OTX, Hudson Rock and more), plus one-toggle wrappers for the
+usual recon CLIs (maigret, subfinder, httpx, nuclei, nmap). Add your own too: a local command, or any HTTP API
+called with your keys, which get encrypted on your machine and never leave it in plaintext.
+
+**Offensive-security playbooks.** A bundled set of skills (network recon, web enumeration, foothold, privilege
+escalation, password attacks, an HTB methodology) the model loads when a lab or CTF task calls for it.
+
+## Three brains, one analyst
+
+Aether isn't locked to one model. Pick your provider in Settings, and the model switch is right there in the
+chat, next to where you type.
+
+The graph, the tools, and the whole workflow are identical whichever you choose. For the local route, use a
+model that supports tool calling (llama3.1, qwen2.5, mistral-nemo); ones without it will still chat but can't
+drive the graph.
+
+## Getting started
+
+root@kitploit:~
+
+`...

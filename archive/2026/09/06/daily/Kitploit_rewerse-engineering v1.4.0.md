@@ -1,0 +1,198 @@
+---
+title: rewerse-engineering v1.4.0
+url: https://kitploit.com/en/posts/github-bytesizedmarius-rewerse-engineering-v140
+source: Kitploit
+date: 2026-09-06
+fetch_date: 2026-09-07T06:48:53.923524
+---
+
+# rewerse-engineering v1.4.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/13043/0238e60548b1e08d55dbcc47ea89bb30680d31a5f7b6bb9b4886f82c9b59a820.png)
+
+New releaseSep 6, 2026
+
+# rewerse-engineering v1.4.0
+
+Rewe API reverse engineering in Go
+
+Share
+
+# rewerse engineering
+
+![Project Logo](https://assets.kitploit.com/production/public/readmes/13043/0238e60548b1e08d55dbcc47ea89bb30680d31a5f7b6bb9b4886f82c9b59a820.png)
+
+An unofficial REWE API client in Go and Python. It implements the publicly accessible (unauthenticated) endpoints the REWE app uses for querying current discounts (Angebote), products, markets and recalls.
+
+Current supported APK version: 5.16.2 (as of 06.08.26)
+
+> [!CAUTION]
+> The certificates required for talking to the rewe api are not included in this repository. You need to extract them from the APK. Documentation & an extraction-script for windows can be found in the [docs](https://github.com/bytesizedmarius/rewerse-engineering/blob/main/docs) directory.
+
+Also see [rewerse-ui](https://github.com/ByteSizedMarius/rewerse-ui).
+
+## quick start
+
+**Extract certificates** from the rewe apk; see [docs](https://github.com/bytesizedmarius/rewerse-engineering/blob/main/docs) for instructions
+
+**Use the library:**
+
+* **Go**: `go get github.com/ByteSizedMarius/rewerse-engineering` – [docs](https://pkg.go.dev/github.com/ByteSizedMarius/rewerse-engineering/pkg)
+* **Python**: `pip install rewerse` – [docs](https://github.com/bytesizedmarius/rewerse-engineering/blob/main/python/README.md)
+
+**Or install the CLI:**
+
+* [Download](https://github.com/ByteSizedMarius/rewerse-engineering/releases/latest) a release
+* Or install via Go: `go install github.com/ByteSizedMarius/rewerse-engineering/cmd@latest`
+* Or clone and build: `go build -o rewerse ./cmd`
+
+Verify: `rewerse --help`
+
+**Example:** Fetch current discounts for a market:
+
+root@kitploit:~
+
+```
+$ rewerse discounts -market 840174
+
+Top-Angebote in deinem Markt
+	Haribo Goldbären oder Color-Rado, 0.77€
+	Coca-Cola, Fanta oder Sprite, 0.99€
+Obst & Gemüse
+	Heidelbeeren, 1.49€
+	Rispentomaten, 0.99€
+...
+```
+
+## intro
+
+In [March 2024](https://github.com/foo-git/rewe-discounts/issues/19), Rewe started
+using [Cloudflare MTLS](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/) to secure their api-endpoints, which
+broke [existing solutions](https://github.com/foo-git/rewe-discounts) that allowed, for example, fetching discounts for a specific Rewe market.
+Github-user [@torbenpfohl](https://github.com/torbenpfohl) was ~~obsessed~~ persistent enough to figure this out, find the certificate and it's password. This repo is based on
+his [work](https://github.com/torbenpfohl/rewe-discounts/blob/main/how%20to%20get%20private.pem%20and%20private.key.txt) and aims to document the required procedures and implement some of the endpoints.
+
+## disclaimer
+
+This project is not affiliated with, endorsed by, or sponsored by REWE-ZENTRALFINANZ eG. "REWE" is a registered trademark of its respective owner.
+
+This is an unofficial client based on publicly observable network traffic from the REWE mobile app. It is provided for educational and research purposes. The underlying API is undocumented and may change or break at any time without notice.
+
+Use of this software is at your own risk. Users are responsible for ensuring their usage complies with applicable terms of service.
+
+## contents
+
+* A basic go implementation of the rewe api is available in the [pkg](https://github.com/bytesizedmarius/rewerse-engineering/blob/main/pkg) directory; see [pkg/readme](https://github.com/bytesizedmarius/rewerse-engineering/blob/main/pkg/readme.md) for the api documentation of the go-library including usage examples.
+* An ffi python wrapper is available as `rewerse` on [PyPI](https://pypi.org/project/rewerse/) – see [python/readme](https://github.com/bytesizedmarius/rewerse-engineering/blob/main/python/README.md) for details and source code.
+* The source code of the cli for the go library is in [cmd](https://github.com/bytesizedmarius/rewerse-engineering/blob/main/cmd).
+* Releases are in [releases](https://github.com/ByteSizedMarius/rewerse-engineering/releases).
+
+> [!NOTE]
+> Please note that since this is an unsigned go binary that does some encryption/decryption of certificates and sends webrequests to the rewe api, it will likely get flagged by your antivirus. There are no dependencies, so you can easily compile it yourself – which is always recommended from a security perspective.
+
+## removed endpoints
+
+The app no longer has an autocomplete endpoint and just uses the normal product search, so product suggestions are gone.
+
+## cli
+
+root@kitploit:~
+
+```
+Usage: ./rewerse.exe [flags] <command> [subcommand] [flags]
+
+Flags:
+  -cert <path>    Certificate file (default: certificate.pem)
+  -key <path>     Key file (default: private.key)
+  -json           Output as JSON
+
+Commands:
+  markets         Search and get market details
+  products        Search, browse, and get product info
+  discounts       Get market discounts
+  categories      Get product categories
+  recipes         Search recipes, get details and popular terms
+  recalls         Get product recalls
+  services        Get service portfolio by zip
+
+Examples:
+  ./rewerse.exe markets search -query Köln
+  ./rewerse.exe products search -market 831002 -query Milch
+  ./rewerse.exe products category -market 831002 -slug obst-gemuese
+  ./rewerse.exe discounts -market 840174
+  ./rewerse.exe categories -market 831002
+  ./rewerse.exe services -zip 50667
+  ./rewerse.exe recipes search -term Lachs -difficulties 1
+  ./rewerse.exe recipes details -id blt4aaa7361ba69f8c8
+
+Run './rewerse.exe <command>' for subcommand help.
+```
+
+## tests
+
+Tests live in `pkg/*_test.go`. There are two kinds:
+
+* Unit tests unmarshal JSON payloads into our structs. The payloads are derived from real API responses. These run without certificates and catch type mismatches between our structs and actual API shapes. `go test ./pkg/ -run Unmarshal`
+* Integration tests hit the live API and require certificates. They skip automatically if no certs are found. `go test ./pkg/`
+
+If you're contributing a struct change, please consider adding or updating an unmarshal test. Use a real API response if you can capture one, otherwise a synthetic JSON payload that reflects actual API behavior is fine.
+
+## contributing
+
+Feel free to open github issues for suggestions, questions, bugs. PRs welcome. Email: rewe at byte dot rest.
+
+## attribution
+
+* <https://github.com/foo-git/rewe-discounts>
+* <https://github.com/torbenpfohl/rewe-discounts>
+* <https://github.com/egonelbre/gophers>
+
+[Read more](/en/tools/github/bytesizedmarius/rewerse-engineering?expand=1)
+
+## Categories
+
+[Reverse Engineering](/en/categories/reverse-engineering)[Scripting & Automation](/en/categories/scripting-automation)[Web Security](/en/categories/web-security)[Cryptography](/en/categories/cryptography)[Learning & Education](/en/categories/education)[API Security](/en/categories/api-security)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

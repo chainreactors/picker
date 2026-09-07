@@ -1,0 +1,124 @@
+---
+title: Claude-Skills-Governance-Risk-and-Compliance v1.9.0
+url: https://kitploit.com/en/posts/github-sushegaad-claude-skills-governance-risk-and-compliance-v190
+source: Kitploit
+date: 2026-09-06
+fetch_date: 2026-09-07T06:48:32.664422
+---
+
+# Claude-Skills-Governance-Risk-and-Compliance v1.9.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/13360/d2b9a74aa35a8588dd88e85be920a63e137d54d72466b00ae7a14e21e24ba166.png)
+
+New releaseSep 6, 2026
+
+# Claude-Skills-Governance-Risk-and-Compliance v1.9.0
+
+Installable Claude Skills providing expert-level compliance guidance for 30+ frameworks including ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, and EU AI Act. Includes gap analysis, policy templates, and control mapping.
+
+Share
+
+# Claude Skills for Governance, Risk & Compliance (GRC)
+
+Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, TSA Cybersecurity, ISO 42001 AI Management System, ISO 27701 Privacy Information Management, DORA Digital Operational Resilience, India's Digital Personal Data Protection Act (DPDPA), CMMC 2.0 Cybersecurity Maturity Model Certification, NIST AI Risk Management Framework, SWIFT Customer Security Programme (CSP), Australian Information Security Manual (ISM), EU NIS2 Directive, CCPA/CPRA California Privacy, ITAR (International Traffic in Arms Regulations), Brazil's LGPD (Lei Geral de Proteção de Dados), EU CSRD (Corporate Sustainability Reporting Directive), CIS Controls v8 (CIS Top 18), EAR (Export Administration Regulations), NIST SP 800-53 (Security and Privacy Controls for Federal Systems), EU AI Act (Regulation (EU) 2024/1689), Section 508 (US Federal ICT Accessibility), WCAG (Web Content Accessibility Guidelines), NZISM (New Zealand Information Security Manual), Vietnam PDPL (Law on Personal Data Protection No. 91/2025/QH15), EU CRA (Cyber Resilience Act, Regulation (EU) 2024/2847), Saudi Arabia GRC (NCA ECC, Saudi PDPL, SAMA, CST), UAE GRC (Federal PDPL, DIFC, ADGM, CBUAE, ICT Health Law), and TISAX (VDA ISA / ENX automotive supplier security) — powered by Claude Skills. **Updated Monthly.**
+
+Benchmarked across 165 test cases using the eval framework — each graded against at least 5 verifiable assertions by independent agents (827 assertions in total). Skills scored **92%** vs a baseline of **63%**.
+
+[![Release: v1.9.0](https://img.shields.io/badge/Release-v1.9.0-brightgreen.svg)](../../releases/tag/v1.9.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Skills: 33](https://img.shields.io/badge/Skills-33-green.svg)](#the-skills)
+[![Built with Claude](https://img.shields.io/badge/Built%20with-Claude-orange.svg)](https://claude.ai)
+[![GitHub Stars](https://img.shields.io/github/stars/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance?style=flat&label=Stars&color=gold)](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance)
+
+---
+
+## Table of Contents
+
+* [What Are Claude Skills?](#what-are-claude-skills)
+* [Who Is This For?](#who-is-this-for)
+* [The Skills](#the-skills)
+  + [ISO 27001](#-iso-27001)
+  + [SOC 2](#-soc-2)
+  + [FedRAMP](#-fedramp)
+  + [GDPR](#-gdpr)
+  + [HIPAA](#-hipaa)
+  + [NIST CSF](#-nist-csf)
+  + [PCI DSS](#-pci-dss)
+  + [TSA Cybersecurity](#-tsa-cybersecurity)
+  + [ISO 42001 AI Management System](#-iso-42001-ai-management-system)
+  + [ISO 27701 Privacy Information Management](#-iso-27701-privacy-information-management)
+  + [DORA Digital Operational Resilience](#-dora-digital-operational-resilience)
+  + [DPDPA India Digital Personal Data Protection](#-dpdpa-india-digital-personal-data-protection)
+  + [CMMC 2.0 Cybersecurity Maturity Model Certification](#-cmmc-20-cybersecurity-maturity-model-certification)
+  + [NIST AI Risk Management Framework](#-nist-ai-risk-management-framework)
+  + [SWIFT Customer Security Programme (CSP)](#-swift-customer-security-programme-csp)
+  + [Australian Information Security Manual (ISM)](#-australian-information-security-manual-ism)
+  + [EU NIS2 Directive](#-eu-nis2-directive)
+  + [CCPA/CPRA California Privacy](#-ccpacpra-california-privacy)
+  + [ITAR — International Traffic in Arms Regulations](#-itar--international-traffic-in-arms-regulations)
+  + [LGPD — Brazil's General Data Protection Law](#-lgpd--brazils-general-data-protection-law)
+  + [CSRD — EU Corporate Sustainability Reporting Directive](#-csrd--eu-corporate-sustainability-reporting-directive)
+  + [CIS Controls v8 — CIS Top 18 Cyber Hygiene](#-cis-controls-v8--cis-top-18-cyber-hygiene)
+  + [EAR — Export Administration Regulations](#-ear--export-administration-regulations)
+  + [NIST SP 800-53 — Security and Privacy Controls for Federal Systems](#-nist-sp-800-53--security-and-privacy-controls-for-federal-systems)
+  + [EU AI Act — Regulation (EU) 2024/1689](#-eu-ai-act--regulation-eu-20241689)
+  + [Section 508 — US Federal ICT Accessibility](#-section-508--us-federal-ict-accessibility)
+  + [WCAG — Web Content Accessibility Guidelines](#-wcag--web-content-accessibility-guidelines)
+  + [NZISM — New Zealand Information Security Manual](#-nzism--new-zealand-information-security-manual)
+  + [Vietnam PDPL — Law on Personal Data Protection](#-vietnam-pdpl--law-on-personal-data-protection)
+  + [EU CRA — Cyber Resilience Act](#-eu-cra--cyber-resilience-act)
+  + [Saudi Arabia GRC — Country Compliance Advisor](#-saudi-arabia-grc--country-compliance-advisor)
+  + [UAE GRC — Country Compliance Advisor](#-uae-grc--country-compliance-advisor)
+  + [TISAX — Trusted Information Security Assessment Exchange](#-tisax--trusted-information-security-assessment-exchange)
+* [Potential Use Cases](#potential-use-cases)
+* [How to Install a Skill](#how-to-install-a-skill)
+* [Install via Claude Code Marketplace](#install-via-claude-code-marketplace)
+* [Skill Evaluation](#skill-evaluation)
+* [Customer Testimonials](#customer-testimonials)
+* [Support](#support)
+* [Author](#author)
+* [Disclaimer](#disclaimer)
+
+---
+
+## What Are Claude Skills?
+
+Claude Skills are installable knowledge packages that extend Claude's capabilities for specific domains. A skill is a `.skill` file — a bundled archive containing a `SKILL.md` instruction file and optional reference materials — that you upload to Claude once and use across all your conversations.
+
+Once installed, a skill activates **automatically** when your conversation touches its topic area. You don't need to invoke it by name or use special commands. Claude simply becomes a deeper expert in that domain for the duration of your session.
+
+**Skills are ideal when you need:**
+
+* Consistent, expert-level responses on a specialized topic
+* Outputs formatted to professional or regulatory standards (e.g., audit-ready control narratives, policy templates with the right clauses)
+* Domain knowledge that goes beyond general LLM training — such as knowing which specific NIST 800-53 controls apply to a given scenario, or which GDPR articles govern international data transfers
+
+**How skills work under the hood:** Each `.skill` file contains a primary `SKILL.md` that is loaded into Claude's context when the skill triggers, plus reference files that are loaded on demand for deeper sub-topics. This "progressive disclosure" pattern keeps context usage efficient while making comprehensive knowledge available when needed.
+
+---
+
+## Who Is This For?
+
+These skills are designed for professionals who work on information security, privacy, and regulatory compliance — whether at organizations seeking certification, development teams building compliant systems, or advisors supporting clients.
+
+**Security & Compliance Teams** use these skills to accelerate gap assessments, generate first-draft policies, map controls, and prepare evidence packages — compressing weeks of reference work into minutes.
+
+**Software Developers & Engineers** use them to understand what controls their systems must implement, audit code and architecture for compliance issues, and get actionable techni...

@@ -1,0 +1,127 @@
+---
+title: Crow-Eye v0.13.0
+url: https://kitploit.com/en/posts/github-ghassan-elsman-crow-eye-0130
+source: Kitploit
+date: 2026-09-06
+fetch_date: 2026-09-07T06:48:34.319322
+---
+
+# Crow-Eye v0.13.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/9931/b67e55fc8c3bc87a5357add66c97e2b5d75310fe7ea5c1f571f5e8938c0a25ae.png)
+
+New releaseSep 6, 2026
+
+# Crow-Eye v0.13.0
+
+Open-source Windows forensics engine that acquires, parses, and correlates artifacts (MFT, USN, Registry, etc.) to reconstruct timelines with AI-assisted analysis and court-grade evidence sealing.
+
+Share
+
+# Crow-Eye — Windows Forensics Engine
+
+![Crow-Eye Logo](https://assets.kitploit.com/production/public/readmes/9931/e20b67e81e2eeb9771be22efa8ea74dcb5a2f0ce84cd0a7ebfb68af3dfcaf293.png)
+
+**A forensic time machine for Windows.**
+Crow-Eye doesn't just *detect* — it **reconstructs what actually happened** on the timeline, from acquisition all the way to a verdict traceable to its source records.
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![Version](https://img.shields.io/badge/version-0.13.0-brightgreen.svg)
+![Correlation Engine](https://img.shields.io/badge/Correlation%20Engine-1.7.0-8a2be2.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-informational.svg)
+![Python](https://img.shields.io/badge/python-3.12-blue.svg)
+[![Discord](https://img.shields.io/badge/Discord-Crow--Eye-7289da?logo=discord)](https://discord.gg/2vag2Udf)
+[![GitHub stars](https://img.shields.io/github/stars/Ghassan-elsman/Crow-Eye)](https://github.com/Ghassan-elsman/Crow-Eye/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Ghassan-elsman/Crow-Eye)](https://github.com/Ghassan-elsman/Crow-Eye/issues)
+[![Last commit](https://img.shields.io/github/last-commit/Ghassan-elsman/Crow-Eye)](https://github.com/Ghassan-elsman/Crow-Eye/commits)
+
+## Table of Contents
+
+* [Overview](#overview)
+* [✨ Highlights](#-highlights)
+* [👥 Who Crow-Eye Is For](#-who-crow-eye-is-for)
+* [🧭 Subsystems at a Glance](#-subsystems-at-a-glance)
+* [🏗️ Architecture](#%EF%B8%8F-architecture)
+* [📥 Download & Install](#-download--install)
+* [🚀 Quick Start](#-quick-start)
+* [📂 Supported Artifacts](#-supported-artifacts)
+* [🔧 Analysis Modes](#-analysis-modes)
+  + [📎 Import Evidence (third-party data)](#-import-evidence-third-party-data)
+* [🧠 User Behavior Analytics (UBA)](#-user-behavior-analytics-uba)
+* [🧩 Correlation Engine](#-correlation-engine)
+* [👁️ Eye — The Forensics AI Assistant](#%EF%B8%8F-eye--the-forensics-ai-assistant)
+* [📖 Eye-Describe — Byte-Level Artifact Knowledge Base](#-eye-describe--byte-level-artifact-knowledge-base)
+* [🧪 Quality & Validation](#-quality--validation)
+* [🔬 Research Platform](#-research-platform)
+* [🛠️ Technical Notes](#%EF%B8%8F-technical-notes)
+* [📸 Screenshots](#-screenshots)
+* [🚧 Roadmap](#-roadmap)
+* [📚 Documentation](#-documentation)
+* [🤝 Contributing](#-contributing)
+* [🌐 Website & Community](#-website--community)
+* [📄 License](#-license)
+* [📝 Citing Crow-Eye](#-citing-crow-eye)
+* [💖 Support](#-support)
+* [Credits](#credits)
+
+## Overview
+
+**Crow-Eye is an open-source (GPL-3.0) Windows forensics engine that unifies acquisition, analysis, verification, intelligence, and AI.** Most security tools ask *"is this bad?"* and clear whatever looks legitimate. Crow-Eye asks a different question: **"what happened?"** It correlates **all** activity — suspicious or not — and reconstructs the actual sequence of events on a system, so the truth of an investigation is *rebuilt from evidence* rather than guessed from alerts.
+
+That reconstruction-first design is exactly what it takes to **hunt APT and nation-state threats**: sophisticated adversaries live inside legitimate tools (`powershell.exe`, PsExec, `certutil`) and in the *sequence* of actions — invisible to tools that clear anything that looks normal. Because Crow-Eye never clears anything and reasons over execution **artifacts** (which survive log tampering and anti-forensics), the attack can't hide. The same engine stays approachable for everyday DFIR work and for non-experts who simply want to know what happened on a computer.
+
+* 🕰️ **Reconstruct, don't just detect** — rebuild the timeline of what actually occurred.
+* 🖥️ **Cross-platform** — full live + offline analysis on **Windows**; **offline analysis and forensic-image parsing on Linux** (live parsers are Windows-only).
+* 🔒 **Private by design** — **0 ms of data sent off-device**; the Eye AI assistant can run fully **air-gapped**.
+* 🧾 **Court-grade** — evidence is cryptographically sealed and every step is auditable.
+* 📦 **Current version:** 0.13.0 · **Correlation Engine:** 1.7.0 · **License:** GPL-3.0.
+
+## ✨ Highlights
+
+* **Reconstruction over detection.** Correlates every artifact into one navigable, per-entity story instead of a pile of alerts.
+* **Integrated end to end** — acquisition → correlation → timeline → behavioral analytics → AI → sealed case memory: a full pipeline no single incumbent tool spans.
+* **Artifact-deep, not log-shallow.** Prefetch, Amcache, ShimCache, SRUM, MFT, USN, LNK/JumpLists and more survive the log clearing and "living-off-the-land" tricks that blind log-only tools.
+* **The Eye AI assistant** — natural-language forensic investigation with an auditable, tamper-evident chain of custody, runnable in the cloud, on a private server, or fully offline.
+* **User Behavior Analytics (UBA)** — turns raw artifacts into a plain-English, HR/examiner-readable activity story.
+* **Free & open-source (GPL-3.0)** — auditable by anyone, with an active research and documentation effort.
+
+## 👥 Who Crow-Eye Is For
+
+Crow-Eye is used across very different workflows. Each one enters the engine through a different door:
+
+| You are | Your typical input | Where to start |
+| --- | --- | --- |
+| **Corporate IR / MSSP / MDR** | Targeted collections from **Velociraptor, KAPE, or EDR-native collection** | [Offline Importer](#-analysis-modes) → [Correlation Engine](#-correlation-engine) → [UBA](#-user-behavior-analytics-uba) |
+| **Law enforcement / forensic labs** | **Full forensic images** (E01, VHDX, VMDK, Raw) with chain-of-custody requirements | [Image analysis](#-analysis-modes) → [Correlation Engine](#-correlation-engine) → [Narrative Map](#%EF%B8%8F-narrative-map--the-eyes-persistent-case-memory) |
+| **Internal security / insider-threat & HR investigations** | Live systems or collected artifacts | [Live analysis](#-analysis-modes) → [UBA](#-user-behavior-analytics-uba) activity story |
+| **Students, educators & researchers** | Sample images and lab data | [Eye-Describe](#-eye-describe--byte-level-artifact-knowledge-base) → [Quick Start](#-quick-start) |
+
+> **Any collector works.** Crow-Eye does not require its own acquisition tool. Point the [Offline Importer](#-analysis-modes) at a folder of raw artifacts produced by **Velociraptor**, **KAPE**, an EDR collection package, or any other collector — it indexes the supported artifacts and runs the offline parsers over them. Separately, output from **Plaso, Autopsy, Volatility** or any other tool can be brought in as CSV, JSON, or SQLite via [Import Evidence](#-import-evidence-third-party-data) and correlated alongside native artifacts.
+
+## 🧭 Subsystems at a Glance
+
+Crow-Eye is built as an integrated loop — each stage feeds the next, from raw disk to a defensible verdict.
+
+| Subsystem | What it does | Stage |
+| --- | --- | --- |
+| **[Crow-Claw](#-analysis-modes)** | High-speed acquisition of live systems and dead-box images. | Acquisition |
+| **[Offline Importer](#-analysis-modes)** | SCAN → COLLECT → PARSE artifacts from any source into the case database. | Acquisition |
+| **[Correlation Engine](#-correlation-engine)** | Dual-engine (Identity + Time-Window) reconstruction via Feathers · Wings · Engines · Pipel...
