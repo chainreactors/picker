@@ -1,0 +1,96 @@
+---
+title: ultralytics v8.4.142
+url: https://kitploit.com/en/posts/github-ultralytics-ultralytics-v84142
+source: Kitploit
+date: 2026-09-07
+fetch_date: 2026-09-08T06:41:02.549541
+---
+
+# ultralytics v8.4.142
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50968/465ced96cd8bc5833499c87f44eb8d272c8ad65dd9c874a300cd4c70051f3612-display-v1.webp)
+
+New releaseSep 7, 2026
+
+# ultralytics v8.4.142
+
+Deep learning framework for object detection, segmentation, classification, pose estimation, and tracking using pre-trained YOLO models and Python/CLI APIs.
+
+Share
+
+[![Ultralytics YOLO banner](https://assets.kitploit.com/production/public/readmes/50968/13865ab96c18fbbe00c81bc405ae0996016a1e6f36f2f6d0d6911d205f17a768/e9df2313b6c3e6f7ff6c28884eb033144f0f9db52abdcee3df48eb30a6353770-display-v1.webp)](https://www.ultralytics.com/events/yolovision?utm_source=github&utm_medium=social&utm_campaign=yolovision26&utm_content=banner)
+
+[中文](https://docs.ultralytics.com/zh) | [한국어](https://docs.ultralytics.com/ko) | [日本語](https://docs.ultralytics.com/ja) | [Русский](https://docs.ultralytics.com/ru) | [Deutsch](https://docs.ultralytics.com/de) | [Français](https://docs.ultralytics.com/fr) | [Español](https://docs.ultralytics.com/es) | [Português](https://docs.ultralytics.com/pt) | [Türkçe](https://docs.ultralytics.com/tr) | [Tiếng Việt](https://docs.ultralytics.com/vi) | [العربية](https://docs.ultralytics.com/ar)
+
+[![Ultralytics CI](https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg)](https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml)
+[![Ultralytics Downloads](https://static.pepy.tech/badge/ultralytics)](https://clickpy.clickhouse.com/dashboard/ultralytics)
+[![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https://community.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com)
+[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://www.reddit.com/r/ultralytics/)
+
+[![Run Ultralytics on Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/ultralytics/ultralytics)
+[![Open Ultralytics In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb)
+[![Open Ultralytics In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/models/ultralytics/yolo26)
+[![Open Ultralytics In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ultralytics/ultralytics/HEAD?labpath=examples%2Ftutorial.ipynb)
+
+[![ultralytics%2Fultralytics | Trendshift](https://trendshift.io/api/badge/repositories/1556)](https://trendshift.io/repositories/1556?utm_source=repository-badge&utm_medium=badge&utm_campaign=badge-repository-1556)
+
+[Ultralytics](https://www.ultralytics.com) creates cutting-edge, state-of-the-art (SOTA) [YOLO models](https://www.ultralytics.com/yolo) built on years of foundational research in computer vision and AI. Constantly updated for performance and flexibility, our models are **fast**, **accurate**, and **easy to use**. They excel at [object detection](https://docs.ultralytics.com/tasks/detect), [instance segmentation](https://docs.ultralytics.com/tasks/segment), [semantic segmentation](https://docs.ultralytics.com/tasks/semantic), [depth estimation](https://docs.ultralytics.com/tasks/depth), [image classification](https://docs.ultralytics.com/tasks/classify), and [pose estimation](https://docs.ultralytics.com/tasks/pose) tasks, and can [track](https://docs.ultralytics.com/modes/track) detected objects across video frames.
+
+Find detailed documentation in the [Ultralytics Docs](https://docs.ultralytics.com). Get support via [GitHub Issues](https://github.com/ultralytics/ultralytics/issues/new/choose). Join discussions on [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the [Ultralytics Community Forums](https://community.ultralytics.com)!
+
+Request an Enterprise License for commercial use at [Ultralytics Licensing](https://www.ultralytics.com/license).
+
+[![YOLO26 performance plots](https://assets.kitploit.com/production/public/readmes/50968/7a7fa3d57f1ffdc9365b7794bbaf90adfbc373e677ee0050a3bfe2fb13492614/9cb12713a1a09715ee1321fff477327e39ac8f674e7b2148ee48678f47d1c297-display-v1.webp)](https://platform.ultralytics.com/ultralytics/yolo26)
+
+[![Ultralytics GitHub](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-github.png)](https://github.com/ultralytics)
+![space](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png)
+[![Ultralytics LinkedIn](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-linkedin.png)](https://www.linkedin.com/company/ultralytics/)
+![space](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png)
+[![Ultralytics Twitter](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-twitter.png)](https://twitter.com/ultralytics)
+![space](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png)
+[![Ultralytics YouTube](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-youtube.png)](https://www.youtube.com/ultralytics?sub_confirmation=1)
+![space](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png)
+[![Ultralytics TikTok](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-tiktok.png)](https://www.tiktok.com/%40ultralytics)
+![space](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png)
+[![Ultralytics BiliBili](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-bilibili.png)](https://ultralytics.com/bilibili)
+![space](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png)
+[![Ultralytics Discord](https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-social-discord.png)](https://discord.com/invite/ultralytics)
+
+## 📄 Documentation
+
+See below for quickstart installation and usage examples. For comprehensive guidance on training, validation, prediction, and deployment, refer to our full [Ultralytics Docs](https://docs.ultralytics.com).
+
+Install
+
+Install the `ultralytics` package, including all [requirements](https://github.com/ultralytics/ultralytics/blob/main/pyproject.toml), in a [**Python>=3.8**](https://www.python.org/) environment with [**PyTorch>=1.8**](https://pytorch.org/get-started/locally/).
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/) [![Ultralytics Downloads](https://static.pepy.tech/badge/ultralytics)](https://clickpy.clickhouse.com/dashboard/ultralytics) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ultralytics?logo=python&logoColor=gold)](https://pypi.org/project/ultralytics/)
+
+root@kitploit:~
+
+```
+pip install ultralytics
+```
+
+For alternative installation methods, including [Conda](https://anaconda.org/conda-forge/ultralytics), [Docker](https://hub.docker.com/r/ultralytics/ultralytics), and building from source via Git, please consult the [Quickstart Guide](https://docs.ultralytics.com/quickstart).
+
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/ultralytics?logo=condaforge)](https://anaconda.org/conda-forge/ultralytics) [![Docker Image Version](https://img.shields.io/docker/v/ultralytics/ultralytics?sort=semver&logo=docker)](https://hub.do...

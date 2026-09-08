@@ -1,0 +1,83 @@
+---
+title: CouchPotato
+url: https://kitploit.com/en/tools/github/aaron-kidwell/couchpotato
+source: Kitploit
+date: 2026-09-07
+fetch_date: 2026-09-08T06:40:58.727695
+---
+
+# CouchPotato
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+CouchPotato — Windows privilege escalation tool that abuses SeImpersonatePrivilege via indirect syscalls, patching ETW and AMSI to elevate from service account or admin to NT SYSTEM. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/aaron-kidwell/couchpotato
+
+![](https://assets.kitploit.com/production/public/tools/54386/c9a146d93e7d32bce9b26766a46d9b973167f2eede813f811a5fa5ea49e90153-display-v1.webp)
+
+[Privilege Escalation](/en/categories/privilege-escalation)[Exploitation](/en/categories/exploitation)[Post-Exploitation](/en/categories/post-exploitation)[Red Teaming](/en/categories/red-teaming)[Payload Development](/en/categories/payload-development)
+
+![GitHub](/providers/github.png)aaron-kidwell/couchpotato
+
+# CouchPotato
+
+Windows privilege escalation tool that abuses SeImpersonatePrivilege via indirect syscalls, patching ETW and AMSI to elevate from service account or admin to NT SYSTEM.
+
+[View Repository](https://github.com/aaron-kidwell/couchpotato)
+
+8617352 days ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# CouchPotato
+
+Make sure you compile on your own to avoid detection.. certain strings are XOR at compile time.. I will not be publishing anymore binaries.
+
+Usage: CouchPotato.exe ip port
+
+Patches ETW & AMSI and uses indirect syscall to abuse SeImpersonatePrivilege.
+
+Service account || Admin -> NT system
+
+[Download Tool](https://github.com/aaron-kidwell/couchpotato)

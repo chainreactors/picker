@@ -1,0 +1,104 @@
+---
+title: better-auth v1.7.3
+url: https://kitploit.com/en/posts/github-better-auth-better-auth-v173
+source: Kitploit
+date: 2026-09-07
+fetch_date: 2026-09-08T06:41:02.812814
+---
+
+# better-auth v1.7.3
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50888/3948ccd84361d129626618eb5ffd3f709aa1849d0392135dca08791b4a519139-display-v1.webp)
+
+New releaseSep 7, 2026
+
+# better-auth v1.7.3
+
+The most comprehensive authentication framework
+
+Share
+
+![Better Auth Logo](https://assets.kitploit.com/production/public/readmes/50888/3948ccd84361d129626618eb5ffd3f709aa1849d0392135dca08791b4a519139/d3aaf1fb647cbc0bbe6b1786eae331794366f3b0a02d53f625abeffd4aaaa643-display-v1.webp)
+
+[![npm](https://img.shields.io/npm/dm/better-auth?style=flat&colorA=000000&colorB=000000)](https://npm.chart.dev/better-auth?primary=neutral&gray=neutral&theme=dark)
+[![npm version](https://img.shields.io/npm/v/better-auth.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/better-auth)
+[![GitHub stars](https://img.shields.io/github/stars/better-auth/better-auth?style=flat&colorA=000000&colorB=000000)](https://github.com/better-auth/better-auth/stargazers)
+
+[Discord](https://discord.gg/better-auth)
+·
+[Website](https://better-auth.com)
+·
+[Issues](https://github.com/better-auth/better-auth/issues)
+
+## Better Auth
+
+Better Auth is a framework-agnostic authentication (and authorization) framework for TypeScript. It provides a comprehensive set of features out of the box and includes a plugin ecosystem that simplifies adding advanced functionalities with minimal code in a short amount of time. Whether you need 2FA, multi-tenant support, or other complex features, it lets you focus on building your actual application instead of reinventing the wheel.
+
+### Why Better Auth
+
+Authentication in the TypeScript ecosystem is a half-solved problem. Other open-source libraries often require a lot of additional code for anything beyond basic authentication. Rather than just pushing third-party services as the solution, I believe we can do better as a community—hence, Better Auth.
+
+## Contribution
+
+Better Auth is a free and open source project licensed under the [MIT License](https://github.com/better-auth/better-auth/blob/main/LICENSE.md). You are free to do whatever you want with it.
+
+You could help continuing its development by:
+
+* [Contribute to the source code](https://github.com/better-auth/better-auth/blob/main/CONTRIBUTING.md)
+* [Suggest new features and report issues](https://github.com/better-auth/better-auth/issues)
+
+## Security
+
+If you discover a security vulnerability within Better Auth, please report it via [GitHub Security Advisories](https://github.com/better-auth/better-auth/security/advisories/new).
+
+All reports will be promptly addressed, and you'll be credited accordingly.
+
+[Read more](/en/tools/github/better-auth/better-auth?expand=1)
+
+## Categories
+
+[Authentication & Authorization](/en/categories/authentication-authorization)[Identity Management](/en/categories/identity-management)[Identity & Access Management (IAM)](/en/categories/identity-access-management)[Authentication](/en/categories/authentication)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

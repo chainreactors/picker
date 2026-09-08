@@ -1,0 +1,109 @@
+---
+title: mythic_ornn
+url: https://kitploit.com/en/tools/github/n0qword/mythic_ornn
+source: Kitploit
+date: 2026-09-07
+fetch_date: 2026-09-08T06:40:58.367215
+---
+
+# mythic_ornn
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+mythic\_ornn — LLM-driven generator for Mythic Agents, Payload-Type and C2 Profiles. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/n0qword/mythic\_ornn
+
+![](https://assets.kitploit.com/production/public/tools/54384/a6a6ef36bc7bbaae7b21c94bc31044aabe9d99bf0a6dab6820bc8568d1516673-display-v1.webp)
+
+[Penetration Testing Frameworks](/en/categories/penetration-testing-frameworks)[Exploit Frameworks](/en/categories/exploit-frameworks)[Command and Control](/en/categories/command-and-control)[Red Teaming](/en/categories/red-teaming)[Payload Development](/en/categories/payload-development)[AI Security](/en/categories/ai-security)
+
+![GitHub](/providers/github.png)n0qword/mythic\_ornn
+
+# mythic\_ornn
+
+LLM-driven generator for Mythic Agents, Payload-Type and C2 Profiles.
+
+[View Repository](https://github.com/n0qword/mythic_ornn)
+
+4623115 days ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# Mythic Ornn
+
+![Ornn fanart](https://assets.kitploit.com/production/public/readmes/54384/a6a6ef36bc7bbaae7b21c94bc31044aabe9d99bf0a6dab6820bc8568d1516673/565385dce748946670e0d6aed4bc40ccc883987a034fda2b122ba128d0fed5b1-display-v1.webp)
+
+LLM-driven generator for Mythic Agents, Payload-Type and C2 Profiles.
+
+Mythic agents are tedious to write by hand: every one re-implements the same wire protocol, payload-type scaffolding, and C2 plumbing. Mythic Ornn skips the boilerplate by turning the official Mythic developer docs into the retrieval layer of a generation pipeline. An LLM consults a local, pruned copy of those docs and emits agents that match the documented message format out of the box.
+
+The pipeline works in two modes, sharing the same docs and the same rules:
+
+* **Prompt mode** — `template/AGENT.md` turns any coding agent into a Mythic developer. You describe an agent, it reads the docs, and it scaffolds or extends a project. This is the interactive, in-editor workflow.
+* **Build mode** — `ornn-agent/` is a Mythic payload type that generates other agents from the Mythic UI. Describe an agent, hit build, and the container (LLM + bundled docs + a Python template) returns a runnable payload. It's a payload type that produces payload types.
+
+## Structure
+
+* `mythic-doc/` — pruned copy of the official Mythic docs; the context fed to the model during generation.
+* `template/` — `AGENT.md` is the single source of truth for the agent's behavior (build order, container library versions, rules). Tool-agnostic;  covers opencode, Claude Code, Cursor, and plain chat.
+
+[Download Tool](https://github.com/n0qword/mythic_ornn)
+
+`template/README.md`
+
+- `.opencode/` — thin adapter wiring `template/AGENT.md` into opencode's subagent system.
+
+- `examples/` — drop complete Mythic bundles here; the agent uses them as an alternative reference source alongside the docs.
+
+- `ornn-agent/` — self-contained product built with this setup; bundles the docs inside the container. See `ornn-agent/README.md`.
+
+## Requirements
+
+* Docker + a Mythic install to build and run generated agents
+* Any coding agent that can read a markdown prompt file, or an OpenAI-compatible endpoint for build mode
+
+## Attribution
+
+* `mythic-doc/` is a pruned copy of the official Mythic docs (github.com/MythicMeta/Mintlify\_Documentation). See `NOTICE` for attribution and license status. Mythic itself is BSD 3-Clause.
+* Thanks to Adam Chester([@xpn](https://github.com/xpn)) of SpecterOps for the idea and his post: [Disposable Tooling: Building LLM-Generated Mythic Agents from Prompt to Deployment](https://specterops.io/blog/2026/06/24/disposable-tooling-building-llm-generated-mythic-agents-from-prompt-to-deployment/)
