@@ -1,0 +1,197 @@
+---
+title: DNSlivery
+url: https://kitploit.com/en/tools/github/samybaiwir/dnslivery
+source: Kitploit
+date: 2026-09-08
+fetch_date: 2026-09-09T06:55:06.267973
+---
+
+# DNSlivery
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+DNSlivery — Easy files and payloads delivery over DNS | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/samybaiwir/dnslivery
+
+![](https://assets.kitploit.com/production/public/tools/54424/e092f3969826ad6cb619291ec953c7c48c69e73791d70595dc5614d77a626b9a-display-v1.webp)
+
+[Data Exfiltration](/en/categories/data-exfiltration)[Penetration Testing](/en/categories/penetration-testing)[Command and Control](/en/categories/command-and-control)[Red Teaming](/en/categories/red-teaming)[DNS Analysis](/en/categories/dns-analysis)
+
+![GitHub](/providers/github.png)samybaiwir/dnslivery
+
+# DNSlivery
+
+Easy files and payloads delivery over DNS
+
+[View Repository](https://github.com/samybaiwir/dnslivery)
+
+42677348 months ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+![python-3.7](https://img.shields.io/badge/python-3.7-blue.svg)
+[![Known Vulnerabilities](https://snyk.io/test/github/no0be/DNSlivery/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/no0be/DNSlivery?targetFile=requirements.txt)
+
+# DNSlivery
+
+Easy files and payloads delivery over DNS.
+
+* [DNSlivery](#dnslivery)
+* [Acknowledgments](#acknowledgments)
+* [Description](#description)
+  + [TL;DR](#tldr)
+  + [What problem are you trying to solve?](#what-problem-are-you-trying-to-solve)
+  + [How does it work?](#how-does-it-work)
+  + [Requirements](#requirements)
+* [Setup](#setup)
+  + [DNS Zone](#dns-zone)
+  + [DNSlivery](#dnslivery-1)
+* [Usage](#usage)
+  + [Server](#server)
+  + [Target](#target)
+
+# Acknowledgments
+
+This project has been originally inspired by [PowerDNS](https://github.com/mdsecactivebreach/PowerDNS) and [Joff Thyer](https://twitter.com/joff_thyer)'s technical segment on the Paul's Security Weekly podcast #590 ([youtu.be/CP6cIwFJswQ](https://youtu.be/CP6cIwFJswQ)).
+
+# Description
+
+## TL;DR
+
+DNSlivery allows to deliver files to a target using DNS as the transport protocol.
+
+**Features**:
+
+* allows to print, execute or save files to the target
+* does not require any client on the target
+* does not require a full-fledged DNS server
+
+![demo-target.git](https://assets.kitploit.com/production/public/readmes/54424/e092f3969826ad6cb619291ec953c7c48c69e73791d70595dc5614d77a626b9a/9c783e1040e985d898a69c38c35bd4bd633f415ad7307b3a97f11067e02c3709-display-v1.webp)
+
+## What problem are you trying to solve?
+
+Easily deliver files and/or payloads to a compromised target where classic web delivery is not possible and **without the need for a dedicated client software**. This applies to restricted environments where outgoing web traffic is forbidden or simply inspected by a curious web proxy.
+
+![web-delivery-blocked.png](https://assets.kitploit.com/production/public/readmes/54424/83af80c1c689c151423d75fa5bbc0ebc47636870d02a8b398672ad853fe7da68/9f5803144cff6af2c0e5cb754180d3cd1291e077f45d8279cc2a54a66a10aba4-display-v1.webp)
+
+Even though more complete DNS tunneling tools already exist (s.a. [dnscat2](https://github.com/iagox86/dnscat2) and [iodine](https://code.kryo.se/iodine/)), they all require to run a dedicated client on the target. The problem is that there is probably no other way then DNS to deliver the client in such restricted environments. In other words, building a DNS communication channel with these tools require to already have a DNS communication channel.
+
+In comparison, DNSlivery only provides one-way communication from your server to the target but does not require any dedicated client to do so. Thus, if you need to build a reliable two-way communication channel over DNS, use DNSlivery to deliver the client of a more advanced DNS tunneling tool to your target.
+
+## How does it work?
+
+Just like most DNS tunneling tools, DNSlivery uses `TXT` records to store the content of files in their base64 representation. However, it does not require to setup a full-fledged DNS server to work. Instead, it uses the [scapy](https://scapy.net/) library to listen for incoming DNS packets and craft the desired response.
+
+![network-process.png](https://assets.kitploit.com/production/public/readmes/54424/b407f5b148c4af5f83dbf08cf51e4b23ac717e8dd3fba356ae23e825c8331ff4/70cb047ec129a33c83c836a9867a09f6a6b57ccf747d34c9e5481c4bbdb52379-display-v1.webp)
+
+As most files do not fit in a single `TXT` record, DNSlivery will create multiple ordered records containing base64 chunks of the file. As an example, the above diagram illustrates the delivery of the 42nd chunk of the file named `file`.
+
+In order to retrieve all base64 chunks and put them back together without the need for a dedicated client on the target, DNSlivery will generate for every file:
+
+* a simple cleartext launcher
+* a reliable base64 encoded stager
+
+![two-stages-delivery.png](https://assets.kitploit.com/production/public/readmes/54424/e0a6c94df874ff9985ff54c0af20d17b629f1de31be8ebf9d4fe61b4d18de0fc/b2482c2f386b8c046863d77d2a6b4c0d9d758382163a9959daac2c8428c1da5b-display-v1.webp)
+
+This two-stages delivery process is required to add features to the stager (s.a. handling lost DNS responses) that would otherwise not fit in a single `TXT` record.
+
+### Note on target compatibility
+
+Currently, only PowerShell targets are supported. However, DNSlivery could be improved to support additional targets such as bash or python. Please let me know [@no0be](https://twitter.com/no0be) if this is a feature that you would like to see being implemented.
+
+## Requirements
+
+DNSlivery does not require to build a complex server infrastructure. In fact, there are only two simple requirements:
+
+* be able to create a `NS` record in your public DNS zone
+* have a Linux server capable of receiving `udp/53` traffic from the Internet
+
+# Setup
+
+## DNS Zone
+
+The first step is to delegate a sub-domain to the server that will run DNSlivery by creating a new `NS` record in your domain. As an example, I created the following record to delegate the sub-domain `dnsd.no0.be` to the server at `vps.no0.be`.
+
+root@kitploit:~
+
+```
+dnsd    IN  NS vps.no0.be.
+```
+
+If your zone is managed by a third-party provider, refer to their documentation to create the `NS` record.
+
+## DNSlivery
+
+The only requirements to run DNSlivery are `python3` and its `scapy` library.
+
+root@kitploit:~
+
+```
+git clone https://github.com/no0be/DNSlivery.git && cd DNSlivery
+pip install -r requirements.txt
+```
+
+# Usage
+
+## Server
+
+DNSlivery will serve all files of a given directory (`pwd` by default) and needs to be **run with root privileges** to listen for incoming `udp/53` packets.
+
+root@kitploit:~
+
+```
+usage: dnslivery.py [-h] [-p PATH] [-s SIZE] [-v] interface domain nameserver
+
+DNSlivery - Easy files and payloads delivery over DNS
+
+positional arguments:
+  interface             interface to listen to DNS traffic
+  domain                FQDN name of the DNS zone
+  nameserver            FQDN name of the server running DNSlivery
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PATH, --path PATH  path of directory to serve over DNS (default: pwd)
+  -s SIZE, --size SIZE  size in bytes of base64 chunks (default: 255)
+  -v, -...

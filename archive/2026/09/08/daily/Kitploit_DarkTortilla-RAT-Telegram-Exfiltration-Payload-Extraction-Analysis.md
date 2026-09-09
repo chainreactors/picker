@@ -1,0 +1,178 @@
+---
+title: DarkTortilla-RAT-Telegram-Exfiltration-Payload-Extraction-Analysis
+url: https://kitploit.com/en/tools/github/kaandemir993/darktortilla-rat-telegram-exfiltration-payload-extraction-analysis
+source: Kitploit
+date: 2026-09-08
+fetch_date: 2026-09-09T06:55:08.598142
+---
+
+# DarkTortilla-RAT-Telegram-Exfiltration-Payload-Extraction-Analysis
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+DarkTortilla-RAT-Telegram-Exfiltration-Payload-Extraction-Analysis — Reverse engineering analysis of DarkTortilla RAT, a sophisticated malware that steals credit card data, decrypts browser passwords, and exfiltrates via Telegram, SMTP, and FTP. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/kaandemir993/darktortilla-rat-telegram-exfiltration-payload-extraction-analysis
+
+![](https://assets.kitploit.com/production/public/tools/54455/3913afaae29fff4c77f380c5e856cbad868faa50a94ec11d559aedf00372b380-display-v1.webp)
+
+[Password Attacks](/en/categories/password-attacks)[Reverse Engineering](/en/categories/reverse-engineering)[Data Exfiltration](/en/categories/data-exfiltration)[Malware Analysis](/en/categories/malware-analysis)[Digital Forensics](/en/categories/digital-forensics)[Command and Control](/en/categories/command-and-control)[Threat Intelligence](/en/categories/threat-intelligence)
+
+![GitHub](/providers/github.png)kaandemir993/darktortilla-rat-telegram-exfiltration-payload-extraction-analysis
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# DarkTortilla-RAT-Telegram-Exfiltration-Payload-Extraction-Analysis
+
+Reverse engineering analysis of DarkTortilla RAT, a sophisticated malware that steals credit card data, decrypts browser passwords, and exfiltrates via Telegram, SMTP, and FTP.
+
+[View Repository](https://github.com/kaandemir993/darktortilla-rat-telegram-exfiltration-payload-extraction-analysis)
+
+443 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+## 1. Credit Card Theft – Card Data Extraction
+
+Process Hacker memory analysis reveals that DarkTortilla RAT targets credit card information, including card numbers, expiration dates, and card types.
+
+### Key Strings Observed:
+
+* **`card_number_encrypted`** – Encrypted card numbers.
+* **`expiration_month`** – Expiration month.
+* **`expiration_year`** – Expiration year.
+* **`Mastercard`** – Targets Mastercard cards.
+* **`Visa`** – Targets Visa cards.
+* **`Discover Card`** – Targets Discover cards.
+* **`Union Pay Card`** – Targets Union Pay cards.
+* **`American Express`** – Targets American Express cards.
+
+### Why This Matters:
+
+* **Financial Data Theft:** The malware steals credit card information.
+* **Encryption:** `card_number_encrypted` suggests the data is encrypted before exfiltration.
+* **Wide Range:** Supports multiple card types (Visa, Mastercard, Discover, Union Pay, Amex).
+
+### Visual Reference:
+
+![DarkTortilla Credit Card Theft](https://assets.kitploit.com/production/public/readmes/54455/942ba91d1a9f4f58a3ecc221692b7b0e2c8a92d1b3ce5d38aaee384f07cb338e/7b7a90b32260756cce95431dd64ece7086af7e8287c8d44dab90dc79eb14732d-display-v1.webp)
+*Process Hacker view showing credit card-related strings (`card_number_encrypted`, `Mastercard`, `Visa`, etc.).*
+
+## 2. Browser Data Theft & C2 Address (Binary Ninja)
+
+Binary Ninja analysis of the extracted `.bin` file reveals that DarkTortilla RAT targets browser profiles and uses `showip.net` as a C2 address.
+
+### Key Observations:
+
+* **Browser Profiles:** Targets Chrome, Edge, Firefox, Brave, Opera, and many other browsers.
+* **C2 Address:** `showip.net` – likely used for IP detection and C2 communication.
+* **Email Regex:** `[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,6}` – for extracting email addresses.
+* **VBA Functions:** `__vbaResume`, `__vbaAryVar`, `__vbaPutOwner4` – indicates VBA/macro usage (potential phishing).
+
+### Why This Matters:
+
+* **Data Theft:** Steals browser profiles (cookies, passwords, history).
+* **C2 Communication:** `showip.net` is used to detect the victim's IP.
+* **Email Extraction:** The regex is used to extract email addresses from stolen data.
+
+### Visual Reference:
+
+![DarkTortilla Browser Data & C2](https://assets.kitploit.com/production/public/readmes/54455/3913afaae29fff4c77f380c5e856cbad868faa50a94ec11d559aedf00372b380/0dc2038cc3c9cf5ddd79ff37f8da91cb0fc29c45550cbab689260bf12408483a-display-v1.webp)
+*Binary Ninja view showing browser profile paths and `showip.net` C2 address.*
+
+## 3. Browser Decryption & Data Storage
+
+Binary Ninja analysis reveals that DarkTortilla RAT targets browser encryption keys and stores stolen data in encoded files.
+
+### Key Observations:
+
+* **Browser Paths:** Targets Chrome, Edge, Brave, and Avast Browser.
+* **Encryption Keys:** `app_bound_encrypted_key` and `os_crypt` – used to decrypt saved passwords.
+* **Stored Data:** `C:\Users\Public\strEncodedData.txt` – likely contains stolen credentials.
+* **VBScript Code:** `Option Explicit`, `On Error Resume Next` – indicates VBScript usage for persistence or execution.
+
+### Why This Matters:
+
+* **Password Decryption:** Extracts and uses browser encryption keys to decrypt saved passwords.
+* **Data Storage:** Stolen data is saved to a file for later exfiltration.
+* **Wide Target:** Supports multiple browsers (Chrome, Edge, Brave, Avast).
+
+### Visual Reference:
+
+![DarkTortilla Browser Decryption](https://assets.kitploit.com/production/public/readmes/54455/633f6e80c7822cb66c23f190ccad1f324a9645d7fc1441299e147aeac8c95c17/f91c72944b47c30483a02b587b22a4e70c0c911d6b94537cb7d0a13f8f9965ce-display-v1.webp)
+*Binary Ninja view showing browser paths, encryption keys (`app_bound_encrypted_key`), and `strEncodedData.txt`.*
+
+## 4. SQLite Database & Card Data Extraction
+
+Process Hacker strins analysis reveals that DarkTortilla RAT uses SQLite databases to extract browser credentials and credit card information.
+
+### Key Observations:
+
+* **Login Data:** Targets browser `Login Data` files (passwords).
+* **SQLite Functions:** `sqlite3_open`, `sqlite3_prepare_v2`, `sqlite3_step` – used to query databases.
+* **Card Types:** Adds `Carte Blanche Card` and `Diners Club Card` to the target list.
+* **Output:** Extracts `name_on_card`, `expiration_*`, `card_number`.
+
+### Why This Matters:
+
+* **Credential Theft:** Extracts saved passwords from browsers.
+* **SQLite Usage:** Allows the malware to read structured data (SQLite databases).
+* **Wide Coverage:** Supports multiple card types (Visa, Mastercard, Amex, Diners Club, Carte Blanche).
+
+### Visual Reference:
+
+![DarkTortilla SQLite & Card Data](https://assets.kitploit.com/production/public/readmes/54455/e6bdf3b82f6d0a6e3a0284da4b2e61e9a2e9605977937ea78c71cde176702f1d/a61685002a4b8078e4f1bdad2417e96bfce45fe3bae6f9759bb13cc1f55d03dd-display-v1.webp)
+*Binary Ninja view showing SQLite functions and card-related strings (`Carte Blanche Card`, `Diners Club Card`).*
+
+## 5. Telegram, SMTP & FTP Exfiltration
+
+Binary Ninja analysis reveals that DarkTortilla RAT uses multiple exfiltration channels: **Telegram Bot, SMTP (email), and FTP**.
+
+### Key Observations:
+
+* **Telegram Bot:** `https://api.telegram.org/bot` with `@StrBotToken` and `@ChatID` – sends stolen data via Telegram.
+* **SMTP (Email):** `CDO.Message`, `mail.mfcgroups.com`, `smtpserver`, `sendusername`, `sendpassword` – sends data via email.
+* **FTP:** `@GateUrl`, `@StrFtpUser` – uploads data via FTP.
+
+### Why This Matters:
+
+* **Multiple Exfiltration Channels:** Ensures data is sent even if one channel is blocked.
+* **Telegram:** Real-time notification and data ...

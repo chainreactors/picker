@@ -1,0 +1,149 @@
+---
+title: rustls v/0.23.44
+url: https://kitploit.com/en/posts/github-rustls-rustls-v02344
+source: Kitploit
+date: 2026-09-08
+fetch_date: 2026-09-09T06:54:57.066968
+---
+
+# rustls v/0.23.44
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50813/28edbbb8fb6a7857ff0a2d8c2d3e6f106a7cf82eca220193b161b9178164f681-display-v1.webp)
+
+New releaseSep 8, 2026
+
+# rustls v/0.23.44
+
+Memory-safe TLS library in Rust implementing TLS 1.2 and 1.3 with pluggable crypto providers, client/server modes, and certificate-based authentication.
+
+Share
+
+![](https://raw.githubusercontent.com/rustls/rustls/main/admin/logo/rustls.svg)
+
+Rustls is a modern TLS library written in Rust.
+
+# Status
+
+Rustls is used in production at many organizations and projects. We aim to maintain
+reasonable API surface stability but the API may evolve as we make changes to accommodate
+new features or performance improvements.
+
+We have a [roadmap](https://github.com/rustls/rustls/blob/main/ROADMAP.md) for our future plans. We also have [benchmarks](https://github.com/rustls/rustls/blob/main/BENCHMARKING.md) to
+prevent performance regressions and to let you evaluate rustls on your target hardware.
+
+If you'd like to help out, please see [CONTRIBUTING.md](https://github.com/rustls/rustls/blob/main/CONTRIBUTING.md).
+
+[![Build Status](https://github.com/rustls/rustls/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/rustls/rustls/actions/workflows/build.yml?query=branch%3Amain)
+[![Coverage Status (codecov.io)](https://codecov.io/gh/rustls/rustls/branch/main/graph/badge.svg)](https://codecov.io/gh/rustls/rustls/)
+[![Documentation](https://docs.rs/rustls/badge.svg)](https://docs.rs/rustls/)
+[![Chat](https://img.shields.io/discord/976380008299917365?logo=discord)](https://discord.gg/MCSB76RU96)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9034/badge)](https://www.bestpractices.dev/projects/9034)
+
+The maintainers pronounce "rustls" as rustles (rather than rust-TLS), but we don't feel strongly
+about it.
+
+## Changelog
+
+The detailed list of changes in each release can be found at
+<https://github.com/rustls/rustls/releases>.
+
+# Documentation
+
+<https://docs.rs/rustls/>
+
+# Approach
+
+Rustls is a TLS library that aims to provide a good level of cryptographic security,
+requires no configuration to achieve that security, and provides no unsafe features or
+obsolete cryptography by default.
+
+Rustls implements TLS1.2 and TLS1.3 for both clients and servers. See [the full
+list of protocol features](https://docs.rs/rustls/latest/rustls/manual/_04_features/index.html).
+
+### Platform support
+
+While Rustls itself is platform independent, it requires the use of cryptography primitives
+for implementing the cryptography algorithms used in TLS. In Rustls, a
+[`crypto::CryptoProvider`](https://docs.rs/rustls/latest/rustls/crypto/struct.CryptoProvider.html) represents a collection of crypto primitive implementations.
+
+By providing a custom instance of the [`crypto::CryptoProvider`](https://docs.rs/rustls/latest/rustls/crypto/struct.CryptoProvider.html) struct, you
+can replace all cryptography dependencies of rustls. This is a route to being portable
+to a wider set of architectures and environments, or compliance requirements. See the
+[`crypto::CryptoProvider`](https://docs.rs/rustls/latest/rustls/crypto/struct.CryptoProvider.html) documentation for more details.
+
+### Cryptography providers
+
+Since Rustls 0.22 it has been possible to choose the provider of the cryptographic primitives
+that Rustls uses. This may be appealing if you have specific platform, compliance or feature
+requirements.
+
+From 0.24, users must explicitly provide a crypto provider when constructing `ClientConfig` or
+`ServerConfig` instances. See the [`crypto::CryptoProvider`](https://docs.rs/rustls/latest/rustls/crypto/struct.CryptoProvider.html) documentation for more details.
+
+#### First-party providers
+
+The Rustls project currently maintains two cryptography providers:
+
+* [`rustls-aws-lc-rs`](https://crates.io/crates/rustls-aws-lc-rs) - a provider that uses the [`aws-lc-rs`](https://crates.io/crates/aws-lc-rs) crate for cryptography.
+  While this provider can be harder to build on [some platforms](https://aws.github.io/aws-lc-rs/faq.html#can-i-run-aws-lc-rs-on-x-platform-or-architecture), it provides excellent
+  performance and a complete feature set (including post-quantum algorithms).
+* [`rustls-ring`](https://crates.io/crates/rustls-ring) - a provider that uses the [`ring`](https://crates.io/crates/ring) crate for cryptography. This
+  provider is easier to build on a variety of platforms, but has a more limited feature set
+  (for example, it does not support post-quantum algorithms).
+
+The Rustls team recommends using the [`rustls-aws-lc-rs`](https://crates.io/crates/rustls-aws-lc-rs) crate for its complete feature set
+and performance. See [the aws-lc-rs FAQ](https://aws.github.io/aws-lc-rs/faq.html#can-i-run-aws-lc-rs-on-x-platform-or-architecture) for more details of the
+platform/architecture support constraints in aws-lc-rs.
+
+See the documentation for [`crypto::CryptoProvider`](https://docs.rs/rustls/latest/rustls/crypto/struct.CryptoProvider.html) for details on how providers are
+selected.
+
+(For rustls versions prior to 0.24, both of these providers were shipped as part of the rustls
+crate, and Cargo features were used to select the preferred provider. The `aws-lc-rs` feature
+was enabled by default.)
+
+#### Third-party providers
+
+The community has also started developing third-party providers for Rustls:
+
+* [`boring-rustls-provider`](https://github.com/janrueth/boring-rustls-provider) - a work-in-progress provider that uses [`boringssl`](https://github.com/google/boringssl) for
+  cryptography.
+* [`rustls-ccm`](https://github.com/jsulmont/rustls-ccm) - adds AES-CCM cipher suites (TLS 1.2 and 1.3) using [`RustCrypto`](https://github.com/RustCrypto), for IoT/constrained-device protocols (IEEE 2030.5, Matter, RFC 7925).
+* [`rustls-graviola`](https://crates.io/crates/rustls-graviola) - a provider that uses [`graviola`](https://github.com/ctz/graviola) for cryptography.
+* [`rustls-mbedtls-provider`](https://github.com/fortanix/rustls-mbedtls-provider) - a provider that uses [`mbedtls`](https://github.com/Mbed-TLS/mbedtls) for cryptography.
+* [`rustls-openssl`](https://github.com/tofay/rustls-openssl) - a provider that uses [OpenSSL](https://openssl-library.org/) for cryptography.
+* [`rustls-rustcrypto`](https://github.com/RustCrypto/rustls-rustcrypto) - an experimental provider that uses the crypto primitives
+  from [`RustCrypto`](https://github.com/RustCrypto) for cryptography.
+* [`rustls-symcrypt`](https://github.com/microsoft/rustls-symcrypt) - a provider that uses Microsoft's [SymCrypt](https://github.com/microsoft/SymCrypt) library.
+* [`rustls-wolfcrypt-provider`](https://github.com/wolfSSL/rustls-wolfcrypt-provider) - a work-in-progress provider that uses [`wolfCrypt`](https://www.wolfssl.com/products/wolfcrypt) for cryptography.
+
+See the [Making a custom CryptoProvider](https://docs.rs/rustls/latest/rustls/crypto/struct.CryptoProvider.html) section of the documentation for more information
+on this topic.
+
+# Example code
+
+Our [examples](https://raw.githubusercontent.com/rustls/rustls/main/examples/) directory contains demos that show how to handle I/O using the
+[`stream::Stream`](https://docs.rs/rustls/latest/rustls/struct.Stream.html) helper, as well as more complex asynchronous I/O using [`mio`](https://docs.rs/mio/latest/mio/).
+If you're already using Tokio for an async runtime you may prefer to use
+[`tokio-rustls`](https://docs.rs/tokio-rustls/latest/tokio_rustls/) instead of interacting with rustls directly.
+
+The [`mio`](https://docs.rs/mio/latest/mio/) based examples are the most complete, and discussed below. Users
+new to Rustls may prefer to look at ...

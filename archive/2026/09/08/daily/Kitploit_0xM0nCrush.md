@@ -1,0 +1,185 @@
+---
+title: 0xM0nCrush
+url: https://kitploit.com/en/tools/github/deathshotxd/0xm0ncrush
+source: Kitploit
+date: 2026-09-08
+fetch_date: 2026-09-09T06:54:54.799070
+---
+
+# 0xM0nCrush
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+0xM0nCrush — Kernel-mode process terminator using a signed BYOVD driver. Works on all Windows 10/11. No offsets, no PDB. Rust. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/deathshotxd/0xm0ncrush
+
+![](https://assets.kitploit.com/production/public/tools/54513/bc24b72a606c47391ab325d90c616da5198b82e51b94489aed13edede959c577-display-v1.webp)
+
+[Defensive Tools](/en/categories/defensive-tools)[Privilege Escalation](/en/categories/privilege-escalation)[Exploitation](/en/categories/exploitation)[Post-Exploitation](/en/categories/post-exploitation)[Penetration Testing](/en/categories/penetration-testing)[Red Teaming](/en/categories/red-teaming)[Payload Development](/en/categories/payload-development)
+
+![GitHub](/providers/github.png)deathshotxd/0xm0ncrush
+
+# 0xM0nCrush
+
+Kernel-mode process terminator using a signed BYOVD driver. Works on all Windows 10/11. No offsets, no PDB. Rust.
+
+[View Repository](https://github.com/deathshotxd/0xm0ncrush)
+
+4912276 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# 0xM0nCrush
+
+A cross-version Windows process terminator. It loads a signed HONOR
+kernel driver (`MonProcessEX.sys`), resolves the PID of every target
+process, and terminates it from kernel context through a single IOCTL.
+No kernel offsets, no PDB downloads, no build-specific shellcode - the
+technique works identically on every Windows 10 and Windows 11 build.
+
+The tool is a single self-contained executable. It installs the driver
+through the Service Control Manager, performs the kill, then stops and
+deletes the service, leaving no persistent artifact behind. Targets are
+configurable at runtime through a config file, command line, or the
+built-in defaults.
+
+![0xM0nCrush](https://assets.kitploit.com/production/public/readmes/54513/9501dbb612a2a0a8c0b0d8f147fc64f28a2647cbbd77be095b35519b85ca60c0/5684e0cd7ea088d8306afd5aa0382692b1fa4fad5e78fc00a0bffe7c9310bfe1-display-v1.webp)
+
+> **Cross-version by design.** One driver, one IOCTL, one kill
+> primitive. Works on all Windows 10 and Windows 11 builds.
+
+## Quick start
+
+root@kitploit:~
+
+```
+1. Keep moncrush.exe and MonProcessEX.sys in the same folder.
+2. Run from an elevated shell.
+
+   moncrush.exe -n "notepad.exe,calc.exe"
+
+3. Targets die. Driver unloads itself. Done.
+```
+
+No toolchain, no offsets, no build step.
+
+## Demo
+
+![0xM0nCrush demonstration](https://assets.kitploit.com/production/public/readmes/54513/bc24b72a606c47391ab325d90c616da5198b82e51b94489aed13edede959c577/f99add3a8439d6dc1771c8c144a098fea02360c63209a05f34713faf666b46cc-display-v1.webp)
+
+## Features
+
+## How it works
+
+root@kitploit:~
+
+```
++-------------------------------------------------------------------------------------------+
+| USER MODE                                                                                 |
+|                                                                                           |
+|   moncrush.exe                                                                            |
+|                                                                                           |
+|   +-------------------+      +-------------------+      +---------------------+           |
+|   |   enumerate all   |      |   resolve target  |      |   match against     |           |
+|   |   running         |  ->  |   PID via process |  ->  |   target list,      |           |
+|   |   processes       |      |   entry           |      |   collect PIDs      |           |
+|   +-------------------+      +-------------------+      +----------+----------+           |
+|                                                                         |                 |
+|                                     CreateFileW("\.\MonProcessEX")      |                 |
+|                                     DeviceIoControl(IOCTL 0x22400C)     |                 |
+|                                     output = termination status         v                 |
++-------------------------------------------------------------------------------------------+
+| KERNEL MODE                                                                               |
+|                                                                                           |
+|   MonProcessEX.sys                                        signed HONOR kernel driver      |
+|   +---------------------------------------------------------------------------------+     |
+|   |                                                                                 |     |
+|   |   IOCTL 0x22400C  ->  PID termination dispatch                                  |     |
+|   |        |                                                                        |     |
+|   |        |  kernel-mode process lookup                                            |     |
+|   |        v                                                                        |     |
+|   |   EPROCESS located -> terminated from kernel context                            |     |
+|   |        |                                                                        |     |
+|   |        v                                                                        |     |
+|   |   process exit path invoked                                                     |     |
+|   |                                                                                 |     |
+|   +---------------------------------------------------------------------------------+     |
+|                                                                                           |
+|   CLEANUP                                                                                 |
+|   +---------------------------------------------------------------------------------+     |
+|   |   SCM service stopped and deleted                                               |     |
+|   |   driver unloaded, no persistent artifact                                       |     |
+|   +---------------------------------------------------------------------------------+     |
++-------------------------------------------------------------------------------------------+
+```
+
+![0xM0nCrush kernel execution architecture](https://assets.kitploit.com/production/public/readmes/54513/5fb1dbaa789f3a0780324e679c67b63cc9376325903c70e4755929ed6f1917a5/1f1ddbb3ba8d0319018e142ff282d27211e7cb2ef9d2c3ed8e05fbe115f3f5da-display-v1.webp)
+
+The driver exposes a kill IOCTL that terminates a process given its PID.
+The user-mode component enumerates running processes, resolves each
+target's PID, and submits it through the device interface. No kernel
+structures are touched from user mode, so the technique is immune to
+Windows version changes.
+
+## Build
+
+root@kitploit:~
+
+```
+cargo build --release --target x86_64-pc-windows-gnu
+```
+
+The release profile enables LTO and a single codegen unit. The project is
+self-contained with its own `[workspace]` declaration.
+
+## Usage
+
+root@kitploit:~
+
+```
+moncrush.exe [options]
+
+  -s, --silent           suppress all console output
+  -r, --repeat           keep running, re-check targets
+ ...

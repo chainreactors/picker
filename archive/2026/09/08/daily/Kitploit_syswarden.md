@@ -1,0 +1,171 @@
+---
+title: syswarden
+url: https://kitploit.com/en/tools/github/duggytuxy/syswarden
+source: Kitploit
+date: 2026-09-08
+fetch_date: 2026-09-09T06:55:15.062731
+---
+
+# syswarden
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/duggytuxy/syswarden
+
+![](https://assets.kitploit.com/production/public/tools/54459/4489913bc0d9e9431bec329ce1e98e64f75f6237a0fda7638ad76566e313a18b-display-v1.webp)
+
+[Defensive Tools](/en/categories/defensive-tools)[Configuration Auditing](/en/categories/configuration-auditing)[Network Security](/en/categories/network-security)[Cloud Security](/en/categories/cloud-security)[Threat Intelligence](/en/categories/threat-intelligence)[Intrusion Detection](/en/categories/intrusion-detection)[Log Analysis](/en/categories/log-analysis)
+
+![GitHub](/providers/github.png)duggytuxy/syswarden
+
+# syswarden
+
+Host-local Linux security orchestrator enforcing nftables policy with HIDS/HIPS telemetry, bounded threat-intelligence feeds, out-of-band WAAP log analysis, and authenticated high availability.
+
+[View Repository](https://github.com/duggytuxy/syswarden)
+
+32929341 day ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+[Website](https://syswarden.io)
+
+Share
+
+![Official SysWarden logo](https://raw.githubusercontent.com/duggytuxy/syswarden/main/assets/syswarden_hero.svg)
+
+[![SysWarden package workflow](https://img.shields.io/github/actions/workflow/status/duggytuxy/syswarden/package.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=Package)](https://github.com/duggytuxy/syswarden/actions/workflows/package.yml)
+[![SysWarden security audit](https://img.shields.io/github/actions/workflow/status/duggytuxy/syswarden/security-audit.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=Security%20Audit)](https://github.com/duggytuxy/syswarden/actions/workflows/security-audit.yml)
+[![Plumber compliance](https://img.shields.io/github/actions/workflow/status/duggytuxy/syswarden/compliance.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=Plumber%20Compliance)](https://github.com/duggytuxy/syswarden/actions/workflows/compliance.yml)
+[![Plumber Score](https://score.getplumber.io/github.com/duggytuxy/syswarden.svg)](https://score.getplumber.io/github.com/duggytuxy/syswarden)
+[![OpenSSF Scorecard](https://img.shields.io/github/actions/workflow/status/duggytuxy/syswarden/scorecard.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=OpenSSF%20Scorecard)](https://github.com/duggytuxy/syswarden/actions/workflows/scorecard.yml)
+[![GitHub license](https://img.shields.io/github/license/duggytuxy/syswarden?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/duggytuxy/syswarden/blob/main/LICENSE)
+
+# SysWarden
+
+**Host-local Linux defense with auditable, fail-closed enforcement.**
+
+SysWarden is an open-source Linux security orchestrator that combines an
+authoritative nftables policy, host telemetry, threat-intelligence lists,
+out-of-band WAAP log analysis, authenticated high availability and a native
+terminal dashboard. It is designed for operators who want one reviewable host
+defense layer without placing another proxy in the application data path.
+
+SysWarden is not an inline HTTP proxy, a traffic sanitizer or a regulatory
+certification product.
+
+Current source version: **v4.04.3**.
+
+The latest qualified, stable public release is
+[v4.04.3](https://github.com/duggytuxy/syswarden/releases/tag/v4.04.3).
+
+## Features
+
+* Authoritative nftables enforcement with bounded firewalld and UFW
+  compatibility when exactly one supported frontend is already active.
+* Persistent blocklists, whitelists and SSH exceptions with canonical IP,
+  CIDR and service-scoped entries.
+* Host telemetry and out-of-band WAAP log analysis for local detection and
+  response workflows.
+* Bounded threat-intelligence feeds with last-known-good publication behavior.
+* Native local terminal dashboard with no browser service or listening port.
+* Authenticated HA synchronization over TLS 1.3 with explicit ownership and
+  migration-fence controls.
+* Optional BunkerWeb integration with authenticated HA and provenance-aware
+  cleanup.
+* Native DEB, RPM and APK packaging for supported amd64 Linux hosts.
+
+## Capabilities
+
+## Intelligence Sources
+
+## Why Choose SysWarden
+
+* **Host-local by design.** Security decisions stay close to the protected
+  Linux host, without an inline proxy or remote terminal listener.
+* **Fail-closed boundaries.** Ambiguous configuration, identity, feed or HA
+  state is rejected before security policy is published.
+* **Operator control.** Existing firewall service ownership is preserved, and
+  host mutation remains explicit and reviewable.
+* **Auditable delivery.** Source, package, security, compliance and release
+  qualification gates expose the evidence behind each release decision.
+* **Open source.** The implementation and its operational boundaries can be
+  inspected, tested and improved by the community.
+
+## Documentation
+
+Operational procedures are centralized in the
+[SysWarden wiki](https://github.com/duggytuxy/syswarden/wiki).
+
+## Project
+
+[Security policy](https://github.com/duggytuxy/syswarden/blob/main/SECURITY.md) | [Contributing](https://github.com/duggytuxy/syswarden/blob/main/CONTRIBUTING.md) |
+[Releases](https://github.com/duggytuxy/syswarden/releases) | [License](https://github.com/duggytuxy/syswarden/blob/main/LICENSE)
+
+Developing and maintaining SysWarden requires infrastructure, testing and
+ongoing security work. Community support helps sustain the project.
+
+[![Support on Ko-Fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/laurentmduggytuxy)
+
+[Download Tool](https://github.com/duggytuxy/syswarden)
+
+| Area | What SysWarden provides |
+| --- | --- |
+
+|  |  |
+| --- | --- |
+| HIDS | Host-local telemetry, security-log analysis and alert visibility |
+| HIPS | Validated policy decisions enforced through authoritative nftables rules |
+| WAAP | Out-of-band analysis of logs written by a supported upstream service |
+| Threat intelligence | Canonical local lists and bounded external feed updates |
+| High availability | TLS 1.3, bearer authentication and peer-scoped synchronization |
+| Operations | Local CLI and TUI, modular configuration, audit and lifecycle controls |
+| Supply chain | Checksummed Linux packages, signed update metadata and release evidence |
+
+| Source | Use and trust boundary |
+| --- | --- |
+
+|  |  |
+| --- | --- |
+| [Data-Shield](https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist) | Official maintainer-curated IPv4 feed for the standard and critical profiles; SysWarden accepts it locally only after canonical validation and quorum controls |
+| [IPverse country IP blocks](https://github.com/ipverse/country-ip-blocks) | Pinned CC0-1.0 RIR allocation snapshot embedded in the release-bound CLI; allocation country is not physical or current operational geolocation |
+| [WiredAlter IP Service](https://ip.wiredalter.com/) ([source](https://github.com/buildplan/ip-service)) | Best-effort cached country, ASN, organization and threat labels for Top Attackers / OSINT History display only; responses never influence severity or firewall decisions |
+| [CINS Sco...
