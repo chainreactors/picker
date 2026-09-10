@@ -1,0 +1,193 @@
+---
+title: renode v1.17.0
+url: https://kitploit.com/en/posts/github-renode-renode-v1170
+source: Kitploit
+date: 2026-09-09
+fetch_date: 2026-09-10T06:50:45.873845
+---
+
+# renode v1.17.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/12177/8010af18f4a8a3dab9ace58f8e35ea126139b4d7bd8248f2f272e40a51153191.png)
+
+New releaseSep 9, 2026
+
+# renode v1.17.0
+
+Open-source simulation framework for developing, testing, and debugging unmodified software for multi-node embedded and IoT systems, supporting ARM, RISC-V, x86, and more.
+
+Share
+
+# Renode
+
+Copyright (c) 2010-2026 [Antmicro](https://www.antmicro.com)
+
+[![View on Antmicro Open Source Portal](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/renode)
+
+## What is Renode?
+
+Renode was created by Antmicro as a virtual development tool for multi-node embedded networks (both wired and wireless) and is intended to enable a scalable workflow for creating effective, tested and secure IoT systems.
+
+With Renode, developing, testing, debugging and simulating unmodified software for IoT devices is fast, cost-effective and reliable.
+
+Supported architectures include:
+
+* ARMv7 and ARMv8 Cortex-A, Cortex-R and Cortex-M
+* x86 and x86\_64
+* RISC-V
+* SPARC
+* POWER
+* Xtensa
+* MSP430X
+
+## Why use Renode?
+
+Renode was created based on many years of experience with the development of software for embedded systems - both for gateways, on-board computers, as well as sensor nodes and microcontrollers.
+
+Testing and developing physical embedded systems is difficult due to poor reproducibility and lack of insight into the current state of a system, especially in multi-node scenarios.
+
+Renode addresses this issue by letting you run unmodified binaries identical to the ones you would normally flash onto their target hardware on a virtual board or system of boards.
+
+One important aspect of the tool is that it simulates not only CPUs but entire SoCs (e.g., heterogeneous multicore SoCs and various peripherals) as well as the wired or wireless connections between them, allowing users to address complex scenarios and test real production software.
+
+## Installation
+
+### Available builds and releases
+
+#### Nightly builds
+
+Nightly builds of Renode for all systems are available at [builds.renode.io](https://builds.renode.io).
+
+The latest builds are always available as `renode-latest.*` packages.
+The following packages formats are available:
+
+* [`renode-latest.linux-portable.tar.gz`](https://builds.renode.io/renode-latest.linux-portable.tar.gz) - portable Linux package, embeds dotnet runtime
+* [`renode-latest.linux.tar.gz`](https://builds.renode.io/renode-latest.linux.tar.gz) - Linux prebuilt archive, requires dotnet installed on host
+* [`renode-latest.pkg.tar.xz`](https://builds.renode.io/renode-latest.pkg.tar.xz) - Arch Linux package
+* [`renode-latest.x86_64.rpm`](https://builds.renode.io/renode-latest.x86_64.rpm) - Red Hat / Fedora package
+* [`renode-latest.deb`](https://builds.renode.io/renode-latest.deb) - Debian-based distribution package
+* [`renode-latest.osx-arm64-portable.dmg`](https://builds.renode.io/renode-latest.osx-arm64-portable.dmg) - macOS package for Apple Silicon (arm64) macs
+* [`renode-latest.osx-x64-portable.dmg`](https://builds.renode.io/renode-latest.osx-x64-portable.dmg) - macOS package for Intel (x86\_64) macs
+* [`renode-latest.windows-portable.zip`](https://builds.renode.io/renode-latest.windows-portable.zip) - Windows portable package, without installer
+* [`renode-latest.setup.exe`](https://builds.renode.io/renode-latest.setup.exe) - Windows installer
+* [`renode-latest.tar.xz`](https://builds.renode.io/renode-latest.tar.xz) - Renode sources
+
+#### Stable releases
+
+Stable, numbered releases and their release notes are available in the [Releases section](https://github.com/renode/renode/releases) on GitHub.
+
+#### Installation from homebrew tap
+
+On macOS both stable and nightly versions of Renode can be installed with [Homebrew](https://brew.sh/) from our custom tap.
+To install the stable version use `brew install renode/tap/renode`, or `brew install renode/tap/renode-nightly` for the latest nightly build.
+This will install all dependencies, including preconfiguring the python environment for `renode-test`
+
+### Using the Linux portable release
+
+If you are a Linux user, the easiest way to use Renode is to download the latest `linux-portable` from [the releases section](https://github.com/renode/renode/releases/latest) and unpack it using:
+
+root@kitploit:~
+
+```
+mkdir renode_portable
+wget https://builds.renode.io/renode-latest.linux-portable.tar.gz
+tar xf  renode-latest.linux-portable.tar.gz -C renode_portable --strip-components=1
+```
+
+To use it from any location, enter the created directory and add it to the system path:
+
+root@kitploit:~
+
+```
+cd renode_portable
+export PATH="`pwd`:$PATH"
+```
+
+Please note that the portable package requires GTK2 to be available on the host to run with the UI enabled.
+
+Follow the [Additional Prerequisites](#additional-prerequisites-for-robot-framework-testing) section if you wish to use Robot Framework for testing.
+Otherwise, proceed to the 'Running Renode' section.
+
+### Installing dependencies
+
+#### dotnet
+
+Renode requires dotnet >= 6.0.
+
+To install dotnet, follow [the official installation guide](https://learn.microsoft.com/en-us/dotnet/core/install).
+
+#### Other dependencies (Linux only)
+
+On Ubuntu 20.04, you can install the remaining dependencies with the following command:
+
+root@kitploit:~
+
+```
+sudo apt-get install policykit-1 libgtk2.0-0 screen uml-utilities gtk-sharp2 libc6-dev libicu-dev gcc python3 python3-pip
+```
+
+If you are running a different distribution, you will need to install an analogous list of packages using your package manager; note that the package names may differ slightly.
+
+### Installing from packages
+
+Go to [the releases section](https://github.com/renode/renode/releases/latest) of this repository and download an appropriate package for your system.
+
+#### Linux
+
+Install Renode with your preferred package manager using the provided `*.deb`, `*.rpm` or `*.pkg.tar.xz` packages.
+
+#### macOS
+
+Use the provided `*.dmg` as normal.
+Additionally, to use Renode from the command line on macOS, create appropriate aliases by adding `alias renode='/Applications/Renode.app/Contents/MacOS/renode'` and `alias renode-test='/Applications/Renode.app/Contents/MacOS/renode-test'` to your `.bashrc` or `.zshrc` file, depending on the shell you're using.
+
+#### Windows
+
+Install Renode from the provided `*.msi` file. The installer will allow you to add icons to your Desktop and/or Start Menu and an entry to your PATH.
+
+### Additional prerequisites
+
+#### Robot Framework testing
+
+To write and run test cases, Renode integrates with the Robot testing framework.
+This requires you to install Python 3 (on Windows, you will also need Cygwin - see [the advanced installation instructions](https://renode.readthedocs.io/en/latest/advanced/building_from_sources.html#windows)) with `pip` (note that the relevant package may be called `python-pip` or `python3-pip` on Linux).
+
+Once you have Python 3 and `pip`, install additional modules:
+
+root@kitploit:~
+
+```
+python3 -m pip install -r tests/requirements.txt
+```
+
+#### Other tools
+
+Additionally, each of the tools in the `/tools` subdirectory may contain a `requirements.txt` file separate from Renode's requirements.
+
+Install them in your virtual environment with `pip install -r requirements.txt`.
+
+### Building from source
+
+For information on building Renode from source, see [the documentation](https://renode.readthedocs.io/en/latest/advanced/building_from_sources.html).
+
+## Running Renode
+
+After following the instructions above on installation from a package, you should have the `renode` command available system-w...

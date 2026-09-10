@@ -1,0 +1,175 @@
+---
+title: ctf-tracker
+url: https://kitploit.com/en/tools/github/xxdndxx/ctf-tracker
+source: Kitploit
+date: 2026-09-09
+fetch_date: 2026-09-10T06:51:01.393074
+---
+
+# ctf-tracker
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+ctf-tracker — Offline-first dashboard for tracking CTF machines and labs, with attack lifecycle management, dynamic reverse shell builder, and embedded writeup studio for HTB and THM. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/xxdndxx/ctf-tracker
+
+![](https://assets.kitploit.com/production/public/tools/54521/5ee0850d4f3f5f07fe4ffcb9d4f0d97e5f11493727ec4baf163b40fe846e2e9e-display-v1.webp)
+
+[Privilege Escalation](/en/categories/privilege-escalation)[Reconnaissance](/en/categories/reconnaissance)[Exploitation](/en/categories/exploitation)[Post-Exploitation](/en/categories/post-exploitation)[Web Security](/en/categories/web-security)[CTF](/en/categories/ctf)[Penetration Testing](/en/categories/penetration-testing)[Learning & Education](/en/categories/education)[Labs & Practice](/en/categories/labs-practice)
+
+![GitHub](/providers/github.png)xxdndxx/ctf-tracker
+
+# ctf-tracker
+
+Offline-first dashboard for tracking CTF machines and labs, with attack lifecycle management, dynamic reverse shell builder, and embedded writeup studio for HTB and THM.
+
+2553 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+[View Repository](https://github.com/xxdndxx/ctf-tracker)
+
+# ⚡ ZEROBOX // Tactical CTF Tracker v2.0
+
+### Advanced CTF Machine Tracking, Attack Lifecycle Management & Offensive Cheatsheet Dashboard
+
+[![GitHub Stars](https://img.shields.io/github/stars/xXDNDXx/ctf-tracker?style=for-the-badge&color=F59E0B&logo=github)](https://github.com/xXDNDXx/ctf-tracker/stargazers)
+[![Open Tracker](https://img.shields.io/badge/-%20LAUNCH%20ZEROBOX%20-10B981?style=for-the-badge&labelColor=0B0F19)](https://xXDNDXx.github.io/ctf-tracker/)
+[![Live on GitHub Pages](https://img.shields.io/badge/Live_on-GitHub_Pages-181717?style=flat-square&logo=github)](https://xXDNDXx.github.io/ctf-tracker/)
+[![Creator](https://img.shields.io/badge/Creator-Daniel%20Dayan%20(@xXDNDXx)-10B981?style=flat-square&logo=github)](https://xXDNDXx.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel%20Dayan-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/daniel-dayan-a66322352/)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Daniel%20Dayan-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/xxdndxx)
+[![License](https://img.shields.io/badge/License-Non--Commercial%20(ZNSL--1.0)-F59E0B?style=flat-square&logo=shield)](LICENSE)
+
+*929 Machines (415 HTB Retired + 514 THM CTF) · Daniel Dayan's 55 Verified Solves · 100% HTB & THM ToS Compliant*
+
+> ⭐️ **If you find ZeroBox useful, please consider giving it a star on GitHub! It helps support ongoing development and community features.** ⭐️
+
+---
+
+## 🎯 Overview
+
+**ZeroBox** is a high-performance, cybersecurity-themed dashboard engineered for penetration testers, security researchers, and CTF competitors targeting **Hack The Box (HTB)**, **TryHackMe (THM)**, and custom offline labs.
+
+Built with an **offline-first architecture** (Zustand + LocalStorage/IndexedDB), zero backend dependency, and instantaneous command palette (`Ctrl+K`) navigation.
+
+---
+
+## 🚀 Core Modules
+
+### 1. 🛡️ Module A: The Advanced Machine & Lab Tracker
+
+* **Multi-Platform Coverage:** Hack The Box (415 retired & Starting Point boxes), TryHackMe (514 standalone CTF rooms), and custom user targets. 100% compliant with Hack The Box Terms of Service (AUP §8.2/8.3: all active machines excluded; retired content only). Standardized OS classification (Linux and Windows).
+* **5-Stage Attack Lifecycle Pipeline:**
+  1. `Target Backlog`
+  2. `Active Recon` (Port & service discovery)
+  3. `Foothold Obtained` (Initial user shell)
+  4. `System Pwned` (Root / SYSTEM flag captured)
+  5. `Completed & Logged` (Retired / writeup archived)
+* **Multi-Mode Views:**
+  + **Kanban Board:** Fluid drag-and-drop & stage progression with Framer Motion layout animations.
+  + **Data Table:** Dense terminal-style table with multi-column sorting (Name, Platform, OS, Difficulty, Status, Time) and quick flag toggles.
+  + **Cyber Cards Grid:** High-contrast cards featuring platform dots, difficulty badges, and hint spoiler buttons.
+* **Flags Vault:** Secure obfuscated fields (`••••••••`) with one-click copy and instant verification.
+* **Live Stopwatch:** Tracks real engagement duration with granular `Time-to-User` and `Time-to-Root` metrics.
+
+### 2. ⚡ Module B: Dynamic Cheatsheet & Reverse Shell Builder
+
+* **Real-Time Variable Injection:** Global sticky parameters (`LHOST`, `LPORT`, `TARGET_IP`, `INTERFACE`) dynamically interpolate into all commands simultaneously!
+* **Dedicated Reverse Shell Studio:** Interactive generator supporting **Bash, Python 3, PHP, Netcat, PowerShell, Socat TTY, Perl, and Ruby**, with ready-to-run listener commands.
+* **Curated Offensive Categories:**
+  1. Network Discovery & Port Scanning (`nmap`, `masscan`, `rustscan`)
+  2. Web Enumeration & Fuzzing (`ffuf`, `gobuster`, `feroxbuster`, `nikto`, `wpscan`)
+  3. Exploitation & Payloads (`sqlmap`, LFI wrappers,  one-liners)
+
+### 3. 📝 Module C: Embedded Writeup Studio (Obsidian & GitBook Ready)
+
+* **Dual-Pane Live Editor:** Raw markdown on the left, live rendered preview on the right.
+* **Automated Pentest Templates:** Pre-populates target IP, platform, OS, difficulty, and standard reporting sections:
+  1. Executive Summary & Attack Path
+  2. Reconnaissance & Nmap Scan Results
+  3. Vulnerability Analysis & Foothold Proof-of-Concept
+  4. Privilege Escalation & Root Evidence
+  5. Post-Exploitation Loot & Remediation
+* **Standardized YAML Frontmatter:** Directly exportable as `.md` files into Obsidian vaults or GitBook documentation repositories.
+
+### 4. 📊 Module D: Operational Analytics & Skill Radar
+
+* **Offensive Skill Vector Radar:** Interactive SVG radar chart visualizing proficiencies across Web Security, Active Directory, Linux PrivEsc, Windows PrivEsc, Network/Pivoting, and Binary Exploitation.
+* **Pwn Progress Matrix:** Tier-by-tier completion rates across Very Easy, Easy, Medium, Hard, and Insane difficulties.
+* **90-Day Activity Heatmap:** GitHub/HTB-style calendar tracking daily study sessions and root captures.
+* **Speed Benchmarks:** Average time to initial access and average time to root.
+
+---
+
+## 🎨 Theme & UI/UX Design
+
+* **Cyberpunk Palette:** Jet Black (`#0B0F19`), Slate Cards (`#111827`), Glowing Emerald (`#10B981` HTB), Crimson (`#EF4444` THM), Cyan (`#06B6D4` Tech), and Purple (`#8B5CF6` AD).
+* **Retro CRT Mode:** Optional CRT scanlines, screen curvature vignette, and phosphor beam overlay.
+* **Web Audio FX:** Synthesized tactical clicks, confirmation chimes, and root fanfares with zero external audio assets.
+* **Data Portability:** 1-Click JSON export and import restore.
+
+---
+
+## 🛠️ Local Development & Build
+
+### Prerequisites
+
+* Node.js 18+ (tested on Node.js 24)
+* npm 9+
+
+root@kitploit:~
+
+```
+# Clone the repository
+git clone https://github.com/xXDNDXx/ctf-tracker.git
+cd ctf-tracker
+
+# Install dependencies
+npm install
+
+# Start local development server
+npm run dev
+
+# Build prod...

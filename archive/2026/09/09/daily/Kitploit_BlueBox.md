@@ -1,0 +1,133 @@
+---
+title: BlueBox
+url: https://kitploit.com/en/tools/github/svdwi/bluebox
+source: Kitploit
+date: 2026-09-09
+fetch_date: 2026-09-10T06:47:23.036953
+---
+
+# BlueBox
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+BlueBox — Open-source threat intelligence platform for malware and observable analysis. Enriches IPs, domains, URLs, and hashes with external sources, performs static file analysis, YARA detection, and ML-based phishing detection. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/svdwi/bluebox
+
+![](https://assets.kitploit.com/production/public/tools/54622/452d6e63d2cfa67aa034913507a6cd7b5e883281b7ace5e29c31cfafd37ad6af-display-v1.webp)
+
+[Indicator of Compromise (IOC) Management](/en/categories/ioc-management)[OSINT (Open Source Intelligence)](/en/categories/osint)[Static Analysis](/en/categories/static-analysis)[Phishing](/en/categories/phishing)[Malware Analysis](/en/categories/malware-analysis)[Threat Intelligence](/en/categories/threat-intelligence)[Machine Learning](/en/categories/machine-learning)
+
+![GitHub](/providers/github.png)svdwi/bluebox
+
+# BlueBox
+
+Open-source threat intelligence platform for malware and observable analysis. Enriches IPs, domains, URLs, and hashes with external sources, performs static file analysis, YARA detection, and ML-based phishing detection.
+
+[View Repository](https://github.com/svdwi/bluebox)
+
+5014244 years ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# BlueBox Malware analysis Box and Cyber threat Hunting
+
+![BlueBox](https://assets.kitploit.com/production/public/readmes/54622/8072c54c1695a2afdfc6580d93de4a7f834345545819da043963005bd366dd21/007db5dc8d130fb00445f770da3287634a5b6419ad64c9af4f5678d1cba9da8b-display-v1.webp)
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/svdwi?style=social)](https://twitter.com/aziz_saadaoui)
+[![Twitter Follow](https://img.shields.io/twitter/follow/aziz_saadaoui?style=social)](https://twitter.com/intel_owl)
+[![Official Site](https://img.shields.io/badge/official-site-blue)](https://github.com/svdwi)
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/svdwi)
+
+## What is it?
+
+**Threat intelligence data** about a malware, an IP or a domain , URL ? a Quick Analysis suspicious File or Malware !
+
+BlueBox is an Open Source Intelligence, or OSINT solution to get threat intelligence data about a specific file, an IP or a domain ,Url and analyze them.
+
+## what is included ?? / Features
+
+* Provides enrichment of threat intel for malware as well as observables (IP, Domain, URL and hash).
+* This application is built to **scale out** and to **speed up the retrieval of threat info**.
+* built with Python3, Flask , js ,Bootstrap , SQLAlchemy ,Scikit-learn ,Json ,YARA Rules
+* Get threat intelligence data about a specific file, an IP or a domain,URL and Get latest Malware Ioc feeds from a single API at scale .
+* Static Analysis File ( Hashes , suspicious Strings , import/Export Functions , Suspicious DLL used ).
+* retrieve data from external sources (like VirusTotal).
+* Detection Using YARA Rules ( crypto , packed , malware IOc )
+* Detection URL,Phishing Website using Machine Learning Logistic regression .
+* Checking URL,Domain External sources( Like VirusTotal).
+* Extract Some Features (Lexical Features) to help detection malicious website .
+* Real-time Latest ioc malware trending feeds .
+
+## BlueBox Architecture
+
+![BlueBox](https://assets.kitploit.com/production/public/readmes/54622/452d6e63d2cfa67aa034913507a6cd7b5e883281b7ace5e29c31cfafd37ad6af/974a7da7a5c7c5950131813a26d391a35faad74f8cab0af27c8999b3d39998dd-display-v1.webp)
+
+## VIDEO USAGE
+
+[![Cyber threat Hunting & Malware Analysis](https://assets.kitploit.com/production/public/readmes/54622/690c71d64870e77e710a734f66af327dad84eafb34891f8b4dc022a1082fcd52/d9d95eb99681cf52214697107e21efce2e4328983ba76190d17bd64020972451-display-v1.webp)](https://drive.google.com/file/d/1FxDkz2h4jldsEU8QTL0uFaJSZFSI8XZ-/preview "BlueBox Usage")
+
+## Setting up
+
+Clone the repo :
+
+root@kitploit:~
+
+```
+$ git clone https://github.com/svdwi/BlueBox.git
+$ cd BlueBox
+```
+
+Change the `conf.py` to receive authentication keys or found in Keys/Keys.txt
+
+root@kitploit:~
+
+```
+$ vim conf.py
+$ chmod +x steup.sh
+$ ./setup
+$ python3 app.py
+```
+
+[Download Tool](https://github.com/svdwi/bluebox)

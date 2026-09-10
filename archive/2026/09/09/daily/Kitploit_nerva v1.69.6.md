@@ -1,0 +1,277 @@
+---
+title: nerva v1.69.6
+url: https://kitploit.com/en/posts/github-praetorian-inc-nerva-v1696
+source: Kitploit
+date: 2026-09-09
+fetch_date: 2026-09-10T06:50:45.752706
+---
+
+# nerva v1.69.6
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/12252/3a0b59e2929fa8fdc41aafe4cb8649e3e85f0ba5f9df8128f7f3f952d70b0018.webp)
+
+New releaseSep 9, 2026
+
+# nerva v1.69.6
+
+Fast service fingerprinting CLI for 170+ protocols (TCP/UDP/SCTP) - built by Praetorian
+
+Share
+
+![Nerva - Fast service fingerprinting CLI for network reconnaissance supporting 170+ protocols](https://assets.kitploit.com/production/public/readmes/12252/3a0b59e2929fa8fdc41aafe4cb8649e3e85f0ba5f9df8128f7f3f952d70b0018.webp)
+
+# Nerva Nerva: Fast Service Fingerprinting CLI
+
+[![Release](https://img.shields.io/github/v/release/praetorian-inc/nerva?style=flat-square)](https://github.com/praetorian-inc/nerva/releases)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/praetorian-inc/nerva/ci.yml?style=flat-square)](https://github.com/praetorian-inc/nerva/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/praetorian-inc/nerva?style=flat-square)](https://goreportcard.com/report/github.com/praetorian-inc/nerva)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
+[![Stars](https://img.shields.io/github/stars/praetorian-inc/nerva?style=flat-square)](https://github.com/praetorian-inc/nerva/stargazers)
+
+[Features](#features) •
+[Installation](#installation) •
+[Quick Start](#quick-start) •
+[Usage](#usage) •
+[Protocols](#supported-protocols) •
+[Library](#library-usage) •
+[Use Cases](#use-cases) •
+[Troubleshooting](#troubleshooting)
+
+> **High-performance service fingerprinting written in Go.** Identify 170+ network protocols across TCP, UDP, and SCTP transports with rich metadata extraction.
+
+Nerva rapidly detects and identifies services running on open network ports. Use it alongside port scanners like [Naabu](https://github.com/projectdiscovery/naabu) to fingerprint discovered services, or integrate it into your security pipelines for automated reconnaissance.
+
+## Features
+
+* **170+ Protocol Plugins** — Databases, remote access, web services, messaging, industrial, and telecom protocols
+* **76 HTTP Fingerprinters** — Detect web technologies including firewalls, databases, AI/LLM servers, and more
+* **Security Misconfiguration Detection** — Identify common security issues like unauthenticated APIs and cleartext protocols (`--misconfigs`)
+* **Multi-Transport Support** — TCP (default), UDP (`--udp`), and SCTP (`--sctp`, Linux only)
+* **Proxy Support** — Route scanning traffic transparently through SOCKS5 or HTTP proxies with configurable DNS resolution
+* **Rich Metadata** — Extract versions, configurations, and security-relevant details from each service
+* **Fast Mode** — Scan only default ports for rapid reconnaissance (`--fast`)
+* **Flexible Output** — JSON, CSV, or human-readable formats
+* **Pipeline Friendly** — Pipe from Naabu, Nmap, or any tool that outputs `host:port`
+* **Go Library** — Import directly into your Go applications
+
+## Installation
+
+### Releases
+
+Download a prebuilt binary from the [Releases](https://github.com/praetorian-inc/nerva/releases) page.
+
+### From GitHub
+
+root@kitploit:~
+
+```
+go install github.com/praetorian-inc/nerva/cmd/nerva@latest
+```
+
+### From Source
+
+root@kitploit:~
+
+```
+git clone https://github.com/praetorian-inc/nerva.git
+cd nerva
+go build ./cmd/nerva
+./nerva -h
+```
+
+### Docker
+
+root@kitploit:~
+
+```
+git clone https://github.com/praetorian-inc/nerva.git
+cd nerva
+docker build -t nerva .
+docker run --rm nerva -h
+docker run --rm nerva -t example.com:80 --json
+```
+
+## Quick Start
+
+Fingerprint a single target:
+
+root@kitploit:~
+
+```
+nerva -t example.com:22
+# ssh://example.com:22
+```
+
+Get detailed JSON metadata:
+
+root@kitploit:~
+
+```
+nerva -t example.com:22 --json
+# {"host":"example.com","ip":"93.184.216.34","port":22,"protocol":"ssh","transport":"tcp","metadata":{...}}
+```
+
+Pipe from a port scanner:
+
+root@kitploit:~
+
+```
+naabu -host example.com -silent | nerva
+# http://example.com:80
+# ssh://example.com:22
+# https://example.com:443
+```
+
+## Usage
+
+root@kitploit:~
+
+```
+nerva [flags]
+
+TARGET SPECIFICATION:
+  Requires host:port or ip:port format. Assumes ports are open.
+
+EXAMPLES:
+  nerva -t example.com:80
+  nerva -t example.com:80,example.com:443
+  nerva -l targets.txt
+  nerva --json -t example.com:80
+  cat targets.txt | nerva
+```
+
+### Flags
+
+| Flag | Short | Description | Default |
+| --- | --- | --- | --- |
+| `--targets` | `-t` | Target or comma-separated target list | — |
+| `--list` | `-l` | Input file containing targets | — |
+| `--output` | `-o` | Output file path | stdout |
+| `--json` |  | Output in JSON format | false |
+| `--csv` |  | Output in CSV format | false |
+| `--misconfigs` |  | Enable security misconfiguration detection | false |
+| `--proxy` |  | Proxy URL (e.g. socks5://127.0.0.1:1080) | — |
+| `--proxy-auth` |  | SOCKS5 Proxy Auth (e.g. username:password) | — |
+| `--dns-order` |  | DNS resolution order: `p`, `l`, `lp`, `pl` | `lp` |
+| `--fast` | `-f` | Fast mode (default ports only) | false |
+| `--capabilities` | `-c` | List available capabilities and exit | false |
+| `--udp` | `-U` | Run UDP plugins | false |
+| `--sctp` | `-S` | Run SCTP plugins (Linux only) | false |
+| `--timeout` | `-w` | Timeout in milliseconds | 2000 |
+| `--verbose` | `-v` | Verbose output to stderr | false |
+| `--workers` | `-W` | Concurrent scan workers | 50 |
+| `--max-host-conn` | `-H` | Max concurrent connections per host IP (0=unlimited) | 0 |
+| `--rate-limit` | `-R` | Max scans per second globally (0=unlimited) | 0 |
+
+### Examples
+
+**Multiple targets:**
+
+root@kitploit:~
+
+```
+nerva -t example.com:22,example.com:80,example.com:443
+```
+
+**From file:**
+
+root@kitploit:~
+
+```
+nerva -l targets.txt --json -o results.json
+```
+
+**UDP scanning** (may require root):
+
+root@kitploit:~
+
+```
+sudo nerva -t example.com:53 -U
+# dns://example.com:53
+```
+
+**SCTP scanning** (Linux only):
+
+root@kitploit:~
+
+```
+nerva -t telecom-server:3868 -S
+# diameter://telecom-server:3868
+```
+
+**Fast mode** (default ports only):
+
+root@kitploit:~
+
+```
+nerva -l large-target-list.txt --fast --json
+```
+
+**Proxy routing with remote DNS resolution:**
+
+root@kitploit:~
+
+```
+nerva -t target.internal:80 --proxy socks5://127.0.0.1:1080 --dns-order p
+```
+
+### Security Misconfiguration Detection
+
+Nerva can identify common security misconfigurations when enabled with `--misconfigs`:
+
+root@kitploit:~
+
+```
+nerva -t example.com:2375 --misconfigs --json
+```
+
+**Detected misconfigurations:**
+
+| Finding ID | Severity | Description |
+| --- | --- | --- |
+| `docker-unauth-api` | Critical | Docker API accessible without authentication |
+| `x11-unauth-access` | Critical | X11 server allows unauthenticated connections |
+| `smb-signing-not-required` | Medium | SMB signing not required (relay attack risk) |
+| `telnet-cleartext` | Medium | Telnet transmits credentials in cleartext |
+| `vnc-detected` | Medium | VNC detected (often weak authentication) |
+| `ssh-password-auth` | Medium | Server allows password authentication |
+| `ssh-weak-cipher` | Low | Server offers weak ciphers (RC4, 3DES, Blowfish) |
+| `ssh-weak-kex` | Low | Server offers weak key exchange algorithms |
+| `ssh-weak-mac` | Low | Server offers weak MAC algorithms |
+| `ftp-cleartext` | Low | FTP transmits credentials in cleartext |
+
+**Example output with misconfigs:**
+
+root@kitploit:~
+
+```
+{
+  "host": "example.com",
+  "port": 2375,
+  "protocol": "docker",
+  "anonymous_access": true,
+  "security_findings": [
+    {
+      "id": "docker-unauth-api",
+      "severity": "critical",
+      "description": "Docker API accessible without authentication",
+      "evidence": "Successfully queried /version endpoint without credentials"
+ ...
