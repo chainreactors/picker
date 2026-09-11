@@ -1,0 +1,142 @@
+---
+title: inspector v2.6.0
+url: https://kitploit.com/en/posts/github-modelcontextprotocol-inspector-260
+source: Kitploit
+date: 2026-09-10
+fetch_date: 2026-09-11T06:51:41.493860
+---
+
+# inspector v2.6.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50997/12951c8cb492b9d753ea13b98a8ea2475ef2e250a9e849227b05c3cfc7c5d31c-display-v1.webp)
+
+New releaseSep 10, 2026
+
+# inspector v2.6.0
+
+Inspect, debug, and visually test Model Context Protocol (MCP) servers from a web UI, CLI, or TUI, with tool/resource exploration, request logging, and OAuth support.
+
+Share
+
+# MCP Inspector
+
+A developer tool for inspecting [Model Context Protocol](https://modelcontextprotocol.io) (MCP) servers. It ships as a single package, `@modelcontextprotocol/inspector`, that provides three ways to inspect a server:
+
+* **Web** — a Vite + React + [Mantine](https://mantine.dev) single-page app with a Node backend.
+* **CLI** — a scriptable command-line client for automation, CI, and fast agent feedback loops.
+* **TUI** — an interactive terminal UI built with [Ink](https://github.com/vadimdemedes/ink).
+
+All three run through one global `mcp-inspector` binary:
+
+root@kitploit:~
+
+```
+npx @modelcontextprotocol/inspector          # web UI (default)
+npx @modelcontextprotocol/inspector --cli    # CLI
+npx @modelcontextprotocol/inspector --tui    # TUI
+```
+
+> **Upgrading from v1?** Read the [v1 → v2 migration guide](https://github.com/modelcontextprotocol/inspector/blob/main/docs/v1-to-v2-migration.md) — CLI flags, the new `--config` vs. `--catalog` split, the Node engine bump, and what no longer ships.
+
+> **Repo status.** This is the **v2** line of the Inspector. Active development happens on **`v2/main`** (the develop branch — all v2 PRs target it), which is merged into **`main`** at milestone releases; `main` is the default branch and holds the latest released v2, published to the npm `latest` tag. The legacy **v1** line lives on **`v1/main`** — security fixes only, published straight from that branch to the npm `v1-latest` tag (`npx @modelcontextprotocol/inspector@v1-latest`). See [`AGENTS.md`](https://github.com/modelcontextprotocol/inspector/blob/main/AGENTS.md) for branch/board conventions.
+
+## Quick start (development)
+
+Requires Node `>=22.19.0`.
+
+root@kitploit:~
+
+```
+npm install          # at the repo root; postinstall cascades into every client
+npm run build        # web → cli → tui → launcher
+```
+
+For day-to-day **web** iteration, run Vite directly — fast HMR, no launcher build needed:
+
+root@kitploit:~
+
+```
+cd clients/web && npm run dev
+```
+
+The launcher-driven scripts run the **built** launcher, so build first:
+
+root@kitploit:~
+
+```
+npm run web        # prod web launcher against clients/web/dist
+npm run web:dev    # web launcher in --dev mode (Vite)
+```
+
+v2 is **not** an npm workspace — each client under `clients/*` keeps its own `package.json` and `node_modules`, and shared code lives in `core/`, consumed via a `@inspector/core` build-time alias. **Every runtime dependency `core/` imports is declared once, in the repo-root `package.json`**, and each client declares only what that client alone consumes — its UI stack, its bundler-inlined packages, its dev tooling — which leaves `clients/cli` and `clients/launcher` with no runtime dependencies of their own. What that means for adding a dependency (root vs. client, `dependencies` vs. `devDependencies`, and the bundler `external` lists) is in the [`local-dev` skill](https://github.com/modelcontextprotocol/inspector/blob/main/.claude/skills/local-dev/SKILL.md).
+
+## Project layout
+
+root@kitploit:~
+
+```
+inspector/
+├── clients/
+│   ├── web/          Web client (Vite + React + Mantine). src/ = browser app; server/ = Node backend
+│   ├── cli/          CLI client (tsup bundle, @inspector/core alias)
+│   ├── tui/          TUI client (Ink + React, tsup bundle)
+│   └── launcher/     Shared launcher — provides the `mcp-inspector` bin, dispatches to web/cli/tui
+├── core/             Shared code consumed via the `@inspector/core` alias (no package.json)
+├── test-servers/     Composable MCP test servers + fixtures used by integration and smoke tests
+├── scripts/          Root build/verify tooling (install cascade, smokes, the verify:* guards)
+│                     and repo automation run from CI (the dependency, Dependabot-alert and SDK sweeps)
+├── docs/             Task-oriented guides — see below
+├── specification/    Design/build specifications
+├── .claude/skills/   Agent skills: the repo's procedures, invokable by name
+├── AGENTS.md         Contribution rules for agents AND humans
+└── README.md         You are here
+```
+
+Each client has its own README with client-specific detail:
+[web](https://github.com/modelcontextprotocol/inspector/blob/main/clients/web/README.md) · [cli](https://github.com/modelcontextprotocol/inspector/blob/main/clients/cli/README.md) · [tui](https://github.com/modelcontextprotocol/inspector/blob/main/clients/tui/README.md) · [launcher](https://github.com/modelcontextprotocol/inspector/blob/main/clients/launcher/README.md).
+
+## Documentation
+
+| Guide | Covers |
+| --- | --- |
+| [Architecture](https://github.com/modelcontextprotocol/inspector/blob/main/docs/architecture.md) | The `@inspector/core` shared package, and the web client's "dumb components" + Storybook approach |
+| [Testing and the quality gate](https://github.com/modelcontextprotocol/inspector/blob/main/docs/quality-gate.md) | What each `validate` / `coverage` / `smoke` / `verify:*` script covers, the GitHub-CI-vs-local-gate split, and the supported browsers |
+| [Writing a skill](https://github.com/modelcontextprotocol/inspector/blob/main/docs/skill-authoring.md) | How to write a skill description that actually fires, and eval cases that measure it — the case shapes that work, and the tuning loop |
+| [Test servers](https://github.com/modelcontextprotocol/inspector/blob/main/docs/test-servers.md) | The composable test servers and the showcase config for every feature — what to run, what to click, and what the broken build did |
+| [Publishing](https://github.com/modelcontextprotocol/inspector/blob/main/docs/publishing.md) | What ships in the tarball, the packaging invariants, and `pack:verify` |
+| [Docker](https://github.com/modelcontextprotocol/inspector/blob/main/docs/docker.md) | Running the container image — ports, volumes, and where secrets go |
+| [Migrating from v1 to v2](https://github.com/modelcontextprotocol/inspector/blob/main/docs/v1-to-v2-migration.md) | CLI flag mapping, `--config` vs. `--catalog`, the Node engine bump, env-var renames |
+| [MCP server configuration](https://github.com/modelcontextprotocol/inspector/blob/main/docs/mcp-server-configuration.md) | Which server(s) the Inspector connects to, and the config file format |
+| [Reviewing an MCP App](https://github.com/modelcontextprotocol/inspector/blob/main/docs/mcp-app-review.md) | The CLI-first → one-shot-web recipe for automated App-tool review |
+| [Smoke-testing an MCP server](https://github.com/modelcontextprotocol/inspector/blob/main/docs/cli-smoke-testing.md) | The connect → list → call → assert workflow for a shell or CI job: `--format json` + `jq`, the exit-code map, and keeping OAuth non-interactive |
+| [Launcher and config consolidation](https://github.com/modelcontextprotocol/inspector/blob/main/docs/launcher-config-consolidation-plan.md) | Why the launcher runs a client in-process rather than spawning it |
+
+## Testing and the quality gate
+
+Each client self-validates from its own folder; the root scripts chain them. There is **no** aggregate root `test` script.
+
+root@kitploit:~
+
+```
+npm run validate     # fast inner loop: format:check + lint + typecheck + build + unit tests
+npm run coverage     # the per-file ≥90% gate (lines/statements/functions/branches)
+npm run local:gate   # MANDATORY before pushing — a strict superset of GitHub CI
+``...

@@ -1,0 +1,119 @@
+---
+title: falco v0.45.0-rc1
+url: https://kitploit.com/en/posts/github-falcosecurity-falco-0450-rc1
+source: Kitploit
+date: 2026-09-10
+fetch_date: 2026-09-11T06:51:40.686657
+---
+
+# falco v0.45.0-rc1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50691/eed3251c7ee6902dfc26d206a1d2e4bc01ef64f09c95a0e2ff84e2576cbc3ba5-display-v1.webp)
+
+New releaseSep 10, 2026
+
+# falco v0.45.0-rc1
+
+Real-time cloud-native runtime security agent for Linux that monitors syscalls and container/Kubernetes metadata to detect anomalous behavior and threats.
+
+Share
+
+# Falco
+
+[![Latest release](https://img.shields.io/github/v/release/falcosecurity/falco?style=for-the-badge)](https://github.com/falcosecurity/falco/releases/latest) [![Supported Architectures](https://img.shields.io/badge/ARCHS-x86__64%7Caarch64-blueviolet?style=for-the-badge)](https://github.com/falcosecurity/falco/releases/latest) [![License](https://img.shields.io/github/license/falcosecurity/falco?style=for-the-badge)](COPYING) [![Docs](https://img.shields.io/badge/docs-latest-green.svg?style=for-the-badge)](https://falco.org/docs)
+
+[![Falco Core Repository](https://raw.githubusercontent.com/falcosecurity/evolution/main/repos/badges/falco-core-blue.svg)](https://github.com/falcosecurity/evolution/blob/main/REPOSITORIES.md#core-scope) [![Stable](https://img.shields.io/badge/status-stable-brightgreen?style=for-the-badge)](https://github.com/falcosecurity/evolution/blob/main/REPOSITORIES.md#stable) [![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/falcosecurity/falco?label=openssf%20scorecard&style=for-the-badge)](https://scorecard.dev/viewer/?uri=github.com/falcosecurity/falco) [![OpenSSF Best Practices](https://img.shields.io/cii/summary/2317?label=OpenSSF%20Best%20Practices&style=for-the-badge)](https://bestpractices.coreinfrastructure.org/projects/2317)
+
+[![Falco](https://falco.org/img/brand/falco-horizontal-color.svg)](https://falco.org)
+
+[Falco](https://falco.org/) is a cloud native runtime security tool for Linux operating systems. It is designed to detect and alert on abnormal behavior and potential security threats in real-time.
+
+At its core, Falco is a kernel monitoring and detection agent that observes events, such as syscalls, based on custom rules. Falco can enhance these events by integrating metadata from the container runtime and Kubernetes. The collected events can be analyzed off-host in SIEM or data lake systems.
+
+Falco, originally created by [Sysdig](https://sysdig.com), is a **graduated project** under the [Cloud Native Computing Foundation](https://cncf.io) (CNCF) used in production by various [organisations](https://github.com/falcosecurity/falco/blob/master/ADOPTERS.md).
+
+For detailed technical information and insights into the cyber threats that Falco can detect, visit the official [Falco](https://falco.org/) website.
+
+For comprehensive information on the latest updates and changes to the project, please refer to the [Change Log](https://github.com/falcosecurity/falco/blob/master/CHANGELOG.md).
+
+## The Falco Project
+
+The Falco Project codebase is maintained under the [falcosecurity GitHub organization](https://github.com/falcosecurity). The primary repository, [falcosecurity/falco](https://github.com/falcosecurity/falco), holds the source code for the Falco binary, while other sub-projects are hosted in dedicated repositories. This approach of isolating components into specialized repositories enhances modularity and focused development. Notable [core repositories](https://github.com/falcosecurity/evolution?tab=readme-ov-file#core) include:
+
+* [falcosecurity/libs](https://github.com/falcosecurity/libs): This repository hosts Falco's core libraries, which constitute the majority of the binary’s source code and provide essential features, such as kernel drivers.
+* [falcosecurity/rules](https://github.com/falcosecurity/rules): It contains the official ruleset for Falco, offering pre-defined detection rules for various security threats and abnormal behaviors.
+* [falcosecurity/plugins](https://github.com/falcosecurity/plugins): This repository supports integration with external services through plugins that extend Falco's capabilities beyond syscalls and container events, with plans for evolving specialized functionalities in future releases.
+* [falcosecurity/falcoctl](https://github.com/falcosecurity/falcoctl): A command-line utility designed for managing and interacting with Falco.
+* [falcosecurity/charts](https://github.com/falcosecurity/charts): This repository publishes Helm charts for deploying Falco and its ecosystem. The Falco chart source lives in [`chart/falco`](https://github.com/falcosecurity/falco/blob/master/chart/falco).
+
+For further insights into our repositories and additional details about our governance model, please visit the official hub of The Falco Project: [falcosecurity/evolution](https://github.com/falcosecurity/evolution).
+
+## Getting Started with Falco
+
+If you're new to Falco, begin your journey with our [Getting Started](https://falco.org/docs/getting-started/) guide. For production deployments, please refer to our comprehensive [Setup](https://falco.org/docs/setup/) documentation.
+
+As final recommendations before deploying Falco, verify environment compatibility, define your detection goals, optimize performance, choose the appropriate build, and plan for SIEM or data lake integration to ensure effective incident response.
+
+### Demo Environment
+
+A demo environment is provided via a docker-compose file that can be started on a docker host which includes falco, falcosidekick, falcosidekick-ui and its required redis database. For more information see the [docker-compose section](https://github.com/falcosecurity/falco/blob/master/docker/docker-compose)
+
+## Join the Community
+
+To get involved with the Falco Project please visit the [Community](https://github.com/falcosecurity/community) repository to find more information and ways to get involved.
+
+If you have any questions about Falco or contributing, do not hesitate to file an issue or contact the Falco maintainers and community members for assistance.
+
+How to reach out?
+
+* Join the [#falco](https://kubernetes.slack.com/messages/falco) channel on the [Kubernetes Slack](https://slack.k8s.io).
+* Join the [Falco mailing list](https://lists.cncf.io/g/cncf-falco-dev).
+* File an [issue](https://github.com/falcosecurity/falco/issues) or make feature requests.
+
+## Commitment to Falco's Own Security
+
+Full reports of various security audits can be found [here](https://github.com/falcosecurity/falco/blob/master/audits).
+
+In addition, you can refer to the [falco](https://github.com/falcosecurity/falco/security) and [libs](https://github.com/falcosecurity/libs/security) security sections for detailed updates on security advisories and policies.
+
+To report security vulnerabilities, please follow the community process outlined in the documentation found [here](https://github.com/falcosecurity/.github/blob/main/SECURITY.md).
+
+## Building
+
+For comprehensive, step-by-step instructions on building Falco from source, please refer to the [official documentation](https://falco.org/docs/developer-guide/source/).
+
+## Testing
+
+Expand Testing Instructions
+
+Falco's [Build Falco from source](https://falco.org/docs/developer-guide/source/) is the go-to resource to understand how to build Falco from source. In addition, the [falcosecurity/libs](https://github.com/falcosecurity/libs) repository offers additional valuable information about tests and debugging of Falco's underlying libraries and kernel drivers.
+
+Here's an example of a `cmake` command that will enable everything you need for all unit tests of this repository:
+
+root@kitploit:~
+
+```
+cmake \
+-DUSE_BUNDLED_DEPS=ON \
+-DBUILD_DRIVER=ON \
+-DBUILD_FALCO_MODERN_BPF=ON \
+-DCREATE_TEST_TARGETS=ON \
+-DBUILD_FALCO_UNIT_TES...

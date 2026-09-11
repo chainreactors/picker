@@ -1,0 +1,171 @@
+---
+title: tmux v3.8-rc
+url: https://kitploit.com/en/posts/github-tmux-tmux-38-rc
+source: Kitploit
+date: 2026-09-10
+fetch_date: 2026-09-11T06:51:38.908830
+---
+
+# tmux v3.8-rc
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/13869/887327b4c25bd0ee637d6a420c84e26ea2afbf057e62895bda7ff577ab7e6556.png)
+
+New releaseSep 10, 2026
+
+# tmux v3.8-rc
+
+Terminal multiplexer for managing multiple shell sessions from a single screen, with session persistence, window splitting, and scriptable configuration.
+
+Share
+
+# Welcome to tmux!
+
+tmux is a terminal multiplexer: it enables a number of terminals to be created,
+accessed, and controlled from a single screen. tmux may be detached from a
+screen and continue running in the background, then later reattached.
+
+This release runs on OpenBSD, FreeBSD, NetBSD, Linux, macOS and Solaris.
+
+## Dependencies
+
+tmux depends on [libevent](https://libevent.org) 2.x, available from [this
+page](https://github.com/libevent/libevent/releases/latest).
+
+It also depends on [ncurses](https://www.gnu.org/software/ncurses/), available
+from [this page](https://invisible-mirror.net/archives/ncurses/).
+
+To build tmux, a C compiler (for example gcc or clang), make, pkg-config and a
+suitable yacc (yacc or bison) are needed.
+
+## Installation
+
+### Binary packages
+
+Some platforms provide binary packages for tmux, although these are sometimes
+out of date. Examples are listed on
+[this page](https://github.com/tmux/tmux/wiki/Installing).
+
+### From release tarball
+
+To build and install tmux from a release tarball, use:
+
+root@kitploit:~
+
+```
+./configure && make
+sudo make install
+```
+
+tmux can use the utempter library to update utmp(5), if it is installed - run
+configure with `--enable-utempter` to enable this.
+
+For more detailed instructions on building and installing tmux, see
+[this page](https://github.com/tmux/tmux/wiki/Installing).
+
+### From version control
+
+To get and build the latest from version control - note that this requires
+`autoconf`, `automake` and `pkg-config`:
+
+root@kitploit:~
+
+```
+git clone https://github.com/tmux/tmux.git
+cd tmux
+sh autogen.sh
+./configure && make
+```
+
+## Contributing
+
+Bug reports, feature suggestions and especially code contributions are most
+welcome. Please send by email to:
+
+[[email protected]](/cdn-cgi/l/email-protection#ea9e879f92c79f998f9899aa8d85858d868f8d98859f9a99c4898587)
+
+Or open a GitHub issue or pull request. **Please read [this
+document](https://github.com/tmux/tmux/blob/master/.github/CONTRIBUTING.md) before opening an issue.**
+
+There is [a list of suggestions for contributions](https://github.com/tmux/tmux/wiki/Contributing).
+Please feel free to ask on the mailing list if you're thinking of working on something or need
+further information.
+
+## Documentation
+
+For documentation on using tmux, see the tmux.1 manpage. View it from the
+source tree with:
+
+root@kitploit:~
+
+```
+nroff -mdoc tmux.1|less
+```
+
+A small example configuration is in `example_tmux.conf`.
+
+And a bash(1) completion file at:
+
+<https://github.com/scop/bash-completion/blob/main/completions-core/tmux.bash>
+
+For debugging, run tmux with `-v` or `-vv` to generate server and client log
+files in the current directory.
+
+## Support
+
+The tmux mailing list for general discussion and bug reports is:
+
+<https://groups.google.com/forum/#!forum/tmux-users>
+
+Subscribe by sending an email to:
+
+[[email protected]](/cdn-cgi/l/email-protection#0a7e677f72277f796f787921797f6879697863686f4a6d65656d666f6d78657f7a7924696567)
+
+[Read more](/en/tools/github/tmux/tmux?expand=1)
+
+## Categories
+
+[General Purpose Utilities](/en/categories/general-purpose-utilities)[Scripting & Automation](/en/categories/scripting-automation)[Utilities & Frameworks](/en/categories/utilities-frameworks)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories

@@ -1,0 +1,184 @@
+---
+title: garak v0.17.0
+url: https://kitploit.com/en/posts/github-nvidia-garak-v0170
+source: Kitploit
+date: 2026-09-10
+fetch_date: 2026-09-11T06:51:40.544455
+---
+
+# garak v0.17.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/12288/2ecad90228bdab1d0bf099cf9a8faa128ca8854acdfaad14628d8cd9048aa904.png)
+
+New releaseSep 10, 2026
+
+# garak v0.17.0
+
+Modular LLM vulnerability scanner that probes for hallucination, data leakage, prompt injection, jailbreaks, and toxicity using static, dynamic, and adaptive probes across multiple model providers.
+
+Share
+
+# garak, LLM vulnerability scanner
+
+*Generative AI Red-teaming & Assessment Kit*
+
+`garak` checks if an LLM can be made to fail in a way we don't want. `garak` probes for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses. If you know `nmap` or `msf` / Metasploit Framework, garak does somewhat similar things to them, but for LLMs.
+
+`garak` focuses on ways of making an LLM or dialog system fail. It combines static, dynamic, and adaptive probes to explore this.
+
+`garak`'s a free tool. We love developing it and are always interested in adding functionality to support applications.
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Tests/Linux](https://github.com/NVIDIA/garak/actions/workflows/test_linux.yml/badge.svg)](https://github.com/NVIDIA/garak/actions/workflows/test_linux.yml)
+[![Tests/Windows](https://github.com/NVIDIA/garak/actions/workflows/test_windows.yml/badge.svg)](https://github.com/NVIDIA/garak/actions/workflows/test_windows.yml)
+[![Tests/OSX](https://github.com/NVIDIA/garak/actions/workflows/test_macos.yml/badge.svg)](https://github.com/NVIDIA/garak/actions/workflows/test_macos.yml)
+[![Documentation Status](https://readthedocs.org/projects/garak/badge/?version=latest)](http://garak.readthedocs.io/en/latest/?badge=latest)
+[![arXiv](https://img.shields.io/badge/cs.CL-arXiv:2406.11036-b31b1b.svg)](https://arxiv.org/abs/2406.11036)
+[![discord-img](https://img.shields.io/badge/chat-on%20discord-yellow.svg)](https://discord.gg/uVch4puUCs)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/garak)](https://pypi.org/project/garak)
+[![PyPI](https://badge.fury.io/py/garak.svg)](https://badge.fury.io/py/garak)
+[![Downloads](https://static.pepy.tech/badge/garak)](https://pepy.tech/project/garak)
+[![Downloads](https://static.pepy.tech/badge/garak/month)](https://pepy.tech/project/garak)
+
+## Get started
+
+### > See our user guide! [docs.garak.ai](https://docs.garak.ai/)
+
+### > Join our [Discord](https://discord.gg/uVch4puUCs)!
+
+### > Project links & home: [garak.ai](https://garak.ai/)
+
+### > Twitter: [@garak\_llm](https://twitter.com/garak_llm)
+
+### > DEF CON [slides](https://garak.ai/garak_aiv_slides.pdf)!
+
+---
+
+## LLM support
+
+currently supports:
+
+* [hugging face hub](https://huggingface.co/models) generative models
+* [replicate](https://replicate.com/) text models
+* [openai api](https://platform.openai.com/docs/introduction) chat & continuation models
+* [aws bedrock](https://aws.amazon.com/bedrock/) foundation models
+* [litellm](https://www.litellm.ai/)
+* pretty much anything accessible via REST
+* gguf models like [llama.cpp](https://github.com/ggerganov/llama.cpp) version >= 1046
+* .. and many more LLMs!
+
+## Install:
+
+`garak` is a command-line tool. It's developed in Linux and OSX.
+
+### Standard install with `pip`
+
+Just grab it from PyPI and you should be good to go:
+
+root@kitploit:~
+
+```
+python -m pip install -U garak
+```
+
+### Install development version with `pip`
+
+The standard pip version of `garak` is updated periodically. To get a fresher version from GitHub, try:
+
+root@kitploit:~
+
+```
+python -m pip install -U git+https://github.com/NVIDIA/garak.git@main
+```
+
+### Clone from source
+
+`garak` has its own dependencies. You can to install `garak` in its own Conda environment:
+
+root@kitploit:~
+
+```
+conda create --name garak "python>=3.10,<=3.12"
+conda activate garak
+gh repo clone NVIDIA/garak
+cd garak
+python -m pip install -e .
+```
+
+OK, if that went fine, you're probably good to go!
+
+**Note**: if you cloned before the move to the `NVIDIA` GitHub organisation, but you're reading this at the `github.com/NVIDIA` URI, please update your remotes as follows:
+
+root@kitploit:~
+
+```
+git remote set-url origin https://github.com/NVIDIA/garak.git
+```
+
+## Getting started
+
+The general syntax is:
+
+`garak <options>`
+
+`garak` needs to know what model to scan, and by default, it'll try all the probes it knows on that model, using the vulnerability detectors recommended by each probe. You can see a list of probes using:
+
+`garak --list_probes`
+
+To specify a generator, use the `--target_type` and, optionally, the `--target_name` options. Model type specifies a model family/interface; model name specifies the exact model to be used. The "Intro to generators" section below describes some of the generators supported. A straightforward generator family is Hugging Face models; to load one of these, set `--target_type` to `huggingface` and `--target_name` to the model's name on Hub (e.g. `"RWKV/rwkv-4-169m-pile"`). Some generators might need an API key to be set as an environment variable, and they'll let you know if they need that.
+
+`garak` runs all the probes by default, but you can be specific about that too. `--probes promptinject` will use only the [PromptInject](https://github.com/agencyenterprise/promptinject) framework's methods, for example. You can also specify one specific plugin instead of a plugin family by adding the plugin name after a `.`; for example, `--probes lmrc.SlurUsage` will use an implementation of checking for models generating slurs based on the [Language Model Risk Cards](https://arxiv.org/abs/2303.18190) framework.
+
+For help and inspiration, find us on [Twitter](https://twitter.com/garak_llm) or [discord](https://discord.gg/uVch4puUCs)!
+
+## Examples
+
+Probe a commercial model for encoding-based prompt injection (OSX/\*nix) (replace example value with a real OpenAI API key)
+
+root@kitploit:~
+
+```
+export OPENAI_API_KEY="sk-123XXXXXXXXXXXX"
+python3 -m garak --target_type openai --target_name gpt-5-nano --probes encoding
+```
+
+See if the Hugging Face version of GPT2 is vulnerable to DAN 11.0
+
+root@kitploit:~
+
+```
+python3 -m garak --target_type huggingface --target_name gpt2 --probes dan.Dan_11_0
+```
+
+## Reading the results
+
+For each probe loaded, garak will print a progress bar as it generates. Once generation is complete, a row evaluating that probe's results on each detector is given. If any of the prompt attempts yielded an undesirable behavior, the response will be marked as FAIL, and the failure rate given.
+
+Here are the results with the `encoding` module on a GPT-3 variant:
+![alt text](https://assets.kitploit.com/production/public/readmes/12288/2ecad90228bdab1d0bf099cf9a8faa128ca8854acdfaad14628d8cd9048aa904.png)
+
+And the same results for ChatGPT:
+![alt text](https://assets.kitploit.com/production/public/readmes/12288/eee6c80a1652346f09bc50e31b70919ba94e61c649f7b2ceec2104513db976cc.png)
+
+We can see that the more recent model is much more susceptible to encoding-based injection attacks, where text-babbage-001 was only found to be vulnerable to quoted-printable and MIME encoding injections. The figures at the end of each row, e.g. 840/840, indicate the number of text generations total and then how many of these seemed to behave OK. The figure can be quite high because more than one generation is made per prompt - by default, 10.
+
+Errors go in `garak.log`; the run is logged in detail in a `.jsonl` file specified at analysis start & end. There's a basic analysis script in `anal...

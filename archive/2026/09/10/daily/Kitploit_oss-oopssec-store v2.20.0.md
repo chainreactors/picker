@@ -1,0 +1,145 @@
+---
+title: oss-oopssec-store v2.20.0
+url: https://kitploit.com/en/posts/github-koadt-oss-oopssec-store-v2200
+source: Kitploit
+date: 2026-09-10
+fetch_date: 2026-09-11T06:51:42.251079
+---
+
+# oss-oopssec-store v2.20.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/12463/d6ef3c11d2157be616455e103ae6a00cad77ee2d902fc31b8bc7784e211f2228.png)
+
+New releaseSep 10, 2026
+
+# oss-oopssec-store v2.20.0
+
+Security training for the apps you actually ship. Open your browser and start hacking.
+
+Share
+
+# OSS - OopsSec Store
+
+**Security training for the apps you actually ship.**
+
+36 challenges across **web, API, authentication, business logic, cryptography, supply chain, AI agents and MCP**.
+
+Break a deliberately vulnerable e-commerce app built on **Next.js, React, TypeScript and Prisma**.
+Find the bugs. Exploit them. Understand why they work.
+
+[Docker Hub](https://hub.docker.com/r/leogra/oss-oopssec-store) ·
+[npm](https://www.npmjs.com/package/create-oss-store) ·
+[Roadmap](https://koadt.github.io/oss-oopssec-store/roadmap) ·
+[Walkthroughs](https://koadt.github.io/oss-oopssec-store) ·
+[Contributing](https://github.com/kOaDT/oss-oopssec-store/blob/main/CONTRIBUTING.md) ·
+[Good first issues](https://github.com/users/kOaDT/projects/3/views/6)
+
+[![OWASP VWAD](https://img.shields.io/badge/OWASP-VWAD-000000?style=flat-square&logo=owasp&logoColor=white)](https://vwad.owasp.org/app/oopssec-store/)
+[![TryHackMe room](https://img.shields.io/badge/TryHackMe-The_Summer_Audit-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/jr/oopssecstorethesummeraudit)
+![Intentionally Vulnerable](https://img.shields.io/badge/%E2%9A%A0%EF%B8%8F_Intentionally-Vulnerable-red?style=flat-square)
+
+[![GitHub license](https://img.shields.io/github/license/kOaDT/oss-oopssec-store?style=flat-square)](https://github.com/kOaDT/oss-oopssec-store/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/kOaDT/oss-oopssec-store/pulls)
+[![Good first issues](https://img.shields.io/badge/Good_first-issues-7057ff?style=flat-square)](https://github.com/users/kOaDT/projects/3/views/6)
+
+[![GitHub stars](https://img.shields.io/github/stars/kOaDT/oss-oopssec-store?style=social)](https://github.com/kOaDT/oss-oopssec-store/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/kOaDT/oss-oopssec-store?style=social)](https://github.com/kOaDT/oss-oopssec-store/network)
+
+root@kitploit:~
+
+```
+   ____  ____ ____     ____                  ____            ____  _
+  / __ \/ __// __/    / __ \ ___   ___  ___ / __/ ___  ____ / __/ / /_ ___   ____ ___
+ / /_/ /\ \ _\ \     / /_/ // _ \ / _ \(_-<_\ \  / -_)/ __/_\ \  / __// _ \ / __// -_)
+ \____/___//___/     \____/ \___// .__/___/___/  \__/ \__//___/  \__/ \___//_/   \__/
+                                /_/
+
+# Start with Node.js
+npx create-oss-store my-ctf-lab && cd my-ctf-lab && npm start
+
+# Start with Docker
+docker run -p 127.0.0.1:3000:3000 leogra/oss-oopssec-store
+
+# Then open http://localhost:3000 and start hacking
+```
+
+|  |  |
+| --- | --- |
+| [![OopsSec Store storefront](https://raw.githubusercontent.com/koadt/oss-oopssec-store/main/public/oopssec-store-storefront-0.png)](https://github.com/koadt/oss-oopssec-store/blob/main/public/oopssec-store-storefront-0.png)  **Storefront** · the e-commerce app you are attacking | [![Player dashboard tracking captured flags](https://raw.githubusercontent.com/koadt/oss-oopssec-store/main/public/oopssec-store-storefront-1.png)](https://github.com/koadt/oss-oopssec-store/blob/main/public/oopssec-store-storefront-1.png)  **Player dashboard** · progress, difficulty and category breakdown |
+| [![OSSBot AI customer support assistant](https://raw.githubusercontent.com/koadt/oss-oopssec-store/main/public/oopssec-store-storefront-2.png)](https://github.com/koadt/oss-oopssec-store/blob/main/public/oopssec-store-storefront-2.png)  **OSSBot** · the AI support assistant you prompt-inject | [![Challenge roadmap across 11 chapters](https://raw.githubusercontent.com/koadt/oss-oopssec-store/main/public/oopssec-store-storefront-3.png)](https://github.com/koadt/oss-oopssec-store/blob/main/public/oopssec-store-storefront-3.png)  **Roadmap** · the bugs that ship in production code |
+
+Click any screenshot to view it full size.
+
+---
+
+## Getting started
+
+|  |  |
+| --- | --- |
+| ![Step 1](https://img.shields.io/badge/1-15803d?style=for-the-badge) | **Start the lab**  `npx create-oss-store my-ctf-lab && cd my-ctf-lab && npm start`  Or [run it with Docker](#docker). The store comes up on [localhost:3000](http://localhost:3000). |
+| ![Step 2](https://img.shields.io/badge/2-15803d?style=for-the-badge) | **Go after challenge #1**  [Public env variable leak](http://localhost:3000/vulnerabilities/public-env-variable): a payment secret that Next.js bakes into the client bundle.  Easy · 15–20 min · nothing but your browser devtools. |
+| ![Step 3](https://img.shields.io/badge/3-15803d?style=for-the-badge) | **Stuck? Read the walkthrough**  Every challenge has one, from vulnerability to exploit to fix.  The first: [Reading Secrets From the Browser: The NEXT\_PUBLIC\_ Trap in Next.js](https://koadt.github.io/oss-oopssec-store/posts/next-public-env-variable-leak/). |
+| ![Step 4](https://img.shields.io/badge/4-15803d?style=for-the-badge) | **Validate the flag**  Paste `OSS{...}` into the flag checker, the floating widget on every page.  Your [player dashboard](http://localhost:3000/player-dashboard) tracks what is left. |
+| ![Step 5](https://img.shields.io/badge/5-15803d?style=for-the-badge) | **Pick the next one**  The [roadmap](https://koadt.github.io/oss-oopssec-store/roadmap) orders every challenge across chapters: difficulty, time estimate, prerequisites.  Take the next card, then back to step 2. ↻ |
+
+> [!TIP]
+> All captured? [Join the Hall of Fame](#hall-of-fame), star the repo, and post your route in [Show your solve](https://github.com/kOaDT/oss-oopssec-store/discussions/categories/show-your-solve).
+
+New to offensive security? The [TryHackMe room](https://tryhackme.com/jr/oopssecstorethesummeraudit) wraps the first flags in a guided narrative.
+
+---
+
+## Table of contents
+
+* [Features](#features)
+* [Why OopsSec Store?](#why-oopssec-store)
+* [Installation](#installation)
+  + [Quick start (npm)](#quick-start)
+  + [Docker](#docker)
+* [Hall of fame](#hall-of-fame)
+* [Community](#community)
+* [Project structure](#project-structure)
+* [Testing](#testing)
+* [Disclaimer](#disclaimer)
+* [Contributing](#contributing)
+* [Educator Kit](#-using-oopssec-store-in-a-course-or-ctf)
+* [Project stats](#project-stats)
+
+---
+
+> [!WARNING]
+> This application contains intentional security flaws and must never be deployed in a production environment.
+
+## Features
+
+* Intentionally vulnerable e-commerce app (XSS, CSRF, IDOR, JWT attacks, path traversal, SQL injection, and more)
+* Built with Next.js (App Router), React, TypeScript, Prisma, and SQLite
+* REST API with documented attack vectors
+* 36 CTF challenges across 11 chapters, laid out as a structured [learning roadmap](https://koadt.github.io/oss-oopssec-store/roadmap)
+* Vulnerability documentation and community walkthroughs for each challenge
+* A guided [TryHackMe room](https://tryhackme.com/jr/oopssecstorethesummeraudit): *The Summer Audit*, 8 tasks and 7 flags, as a narrative on-ramp for newcomers
+* Automated tests that verify exploits still work (PRs that accidentally fix a vuln will fail CI)
+
+## Why OopsSec Store?
+
+Modern frameworks change where security vulnerabilities appear and how they should be fixed. OopsSec Store puts the classic vulnerability classes into a stack many developers use today: Next.js App Router, React, TypeScript and Prisma.
+
+Server-rendered components, middleware and ORMs introduce different trust boundaries and failure modes. Several challenges also reproduce published CVEs...

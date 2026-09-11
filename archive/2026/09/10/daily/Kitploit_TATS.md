@@ -1,0 +1,188 @@
+---
+title: TATS
+url: https://kitploit.com/en/tools/github/icemoonhsv/tats
+source: Kitploit
+date: 2026-09-10
+fetch_date: 2026-09-11T06:51:41.349759
+---
+
+# TATS
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+TATS — Analyze and track OAuth 2.0, OIDC, and Microsoft Entra ID tokens from Burp, mitmproxy, or Chrome DevTools captures. Visualize token lifecycles, detect risky scopes, and export tokens for replay via an interactive dashboard. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/icemoonhsv/tats
+
+![](https://assets.kitploit.com/production/public/tools/54670/48c8dc0762b1d8e8544e7a740565a090b2e06441dabac099810cb881a46f19a5-display-v1.webp)
+
+[Web Security](/en/categories/web-security)[Penetration Testing](/en/categories/penetration-testing)[Identity & Access Management (IAM)](/en/categories/identity-access-management)[Authentication](/en/categories/authentication)[Log Analysis](/en/categories/log-analysis)
+
+![GitHub](/providers/github.png)icemoonhsv/tats
+
+# TATS
+
+Analyze and track OAuth 2.0, OIDC, and Microsoft Entra ID tokens from Burp, mitmproxy, or Chrome DevTools captures. Visualize token lifecycles, detect risky scopes, and export tokens for replay via an interactive dashboard.
+
+[View Repository](https://github.com/icemoonhsv/tats)
+
+713716 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# TATS — Token Analysis and Tracking System
+
+Track OAuth 2.0, OIDC, and Microsoft Entra ID tokens across captured network
+traffic. Ingests Burp Suite XML exports, mitmproxy flow files, or live Chrome
+DevTools Protocol streams into a single SQLite database, then serves an
+interactive web dashboard for filtering tokens, walking exchanges, spotting
+risky scopes, exporting tokens for replay, and visualising token lifecycles
+as Mermaid graphs.
+
+> **Status:** TATS is stable for personal / engagement use. Optimised for the
+> Microsoft 365 / Entra ecosystem (FOCI, BroCI/NAA, ESTSAUTH session
+> cookies, entrascopes.com enrichment) but works against any standard-ish
+> OAuth/OIDC traffic.
+
+---
+
+## Why it exists
+
+When you proxy a long Microsoft 365 or Azure session through Burp / mitmproxy
+the resulting capture is enormous and most tools either:
+
+* Only show one token at a time (Burp's JWT extension), or
+* Don't follow Microsoft's OAuth dialect (FOCI, BroCI, ESTSAUTH cookies), or
+* Don't track WebSocket frames, where Teams / Skype / SignalR send tokens, or
+* Don't tell you which tokens are *still valid right now*.
+
+This tool extracts every observed access / refresh / id token, fingerprints
+them so it can correlate the same token across sources, decodes JWT claims,
+resolves Microsoft client / resource GUIDs against
+[entrascopes.com](https://entrascopes.com/), and renders the whole picture
+as a single dashboard — including a refresh-token chain view that follows
+FOCI cross-app exchanges and BroCI nested-app token issuance.
+
+This project is intended primarily for research and education purposes but
+provides options such as command preview and token export features that can
+support some offensive tooling.
+
+---
+
+## Features
+
+### Core
+
+* **Three ingest sources** in one tool:
+  + `ingest` — Burp Suite "Save items" XML export
+  + `mitm` — mitmproxy `.mitm` flow file (HTTP **and** WebSocket frames)
+  + `cdp` — live attach to Chrome / Edge via DevTools Protocol
+    (real-time, captures TLS-decrypted HTTP **and** WebSocket frames
+    without a proxy CA; tracks every existing tab AND every tab opened
+    during the run via browser-level auto-attach)
+* **One canonical SQLite store** the dashboard reads from. Each ingest pass
+  can be run with `--append` to merge into an existing database; tokens
+  are upserted (uses count + observed lifetime accumulate), events and
+  exchanges are appended, and the row's `source_tag` records every pass
+  that has seen the token.
+* **Live web dashboard** served by a stdlib HTTP server. Polls the database
+  every 5 seconds and re-renders when the underlying data changes — so a
+  running CDP capture updates the dashboard in near real-time.
+* **No proprietary dependencies for the core paths.** Burp ingest, the
+  database layer, the web UI, and CDP attach are all stdlib only. The
+  mitmproxy import is the one optional dep (`pip install mitmproxy`).
+
+### Token classification & enrichment
+
+* **OAuth body keys** (`access_token`, `refresh_token`, `id_token`) and
+  cookie-name heuristics drive the token type.
+* **Microsoft session cookies** (`ESTSAUTH`, `ESTSAUTHPERSISTENT`,
+  `ESTSAUTHLIGHT`, `SignInStateCookie`) are explicitly recognised as
+  refresh-equivalent tokens (they would otherwise be misclassified by the
+  generic "auth" cookie hint).
+* **JWT claims** (header + payload) decoded and stored verbatim — never
+  truncated.
+* **Microsoft FOCI** (Family of Client IDs) detected via the `foci` field
+  in token-endpoint responses.
+* **Microsoft BroCI / Nested App Authentication** detected via
+  `brk_client_id`, `brk_redirect_uri`, and `brk-<guid>://` redirect schemes
+  in the request body.
+* **Optional `--enrich` flag** fetches `firstpartyscopes.json` and
+  `resources.json` from <https://entrascopes.com/> and resolves `appid` /
+  `azp` / `aud` GUIDs into friendly names with clickable links.
+
+### Dashboard cards
+
+* **Summary tiles** — token counts, hosts, exchanges (with FOCI / BroCI
+  call-outs), and an enrichment status indicator.
+* **Users** — token bucketing by `upn` / `preferred_username` /
+  `unique_name` / `email` / `name`, falling back to `sub@iss` or `oid`,
+  and surfacing app-only and unknown-identity buckets separately. Each
+  identity row shows a **captures** badge when the user appears in
+  ≥2 `source_tag`s (cross-capture survival, the headline `--append`
+  research signal) plus a `first_seen → last_seen` span and a
+  **timeline** button that highlights every token for that user on
+  the Sequence-diagram tab.
+* **Token validity** — counts of currently-valid vs expired access tokens,
+  refresh-token expiry status (with "unknown expiry" for opaque tokens),
+  and a top-3 "next to expire" list with a 30-second auto-refresh.
+* **Clients** — every distinct app (`appid` / `azp` / form-body
+  `client_id` / `brk_client_id` / `brk_nested_id`) that's appeared in
+  exchanges, with FOCI / brokerable / broker / nested badges.
+* **Audiences** — every `aud` claim observed, resolved to entrascopes
+  resource names where possible.
+* **Tenants** — distinct `tid` values with token / user / app counts.
+* **Hosts** — events, distinct bearer recipients, distinct issuers, and
+  exchange counts per host.
+* **Privileged scopes & roles** — checks each token's `scp` / `scope` /
+  `roles` against a curated watchlist of high-impact Microsoft Graph
+  permissions and Azure resource scopes.
+* **Audience / host mismatches** — flags every `(token, host)` pair where
+  the token was used at a host that disagrees with its `aud` claim
+  (suggests credential leak or misuse).
+* **Auth methods** (`amr`) — `pwd` / `mfa` / `pop` / `smartcard`
+  distribution.
+* **Security features** — flags Continuous Access Evaluation (`xms_cc=CP1`),
+  proof-of-possession binding (`cnf` claim, with shared-`kid` detection
+  across audiences), step-up auth requirements (`acrs`), and the `acr`
+  authentication-context level. Each row is click...

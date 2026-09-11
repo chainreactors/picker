@@ -1,0 +1,140 @@
+---
+title: redcell
+url: https://kitploit.com/en/tools/github/martian56/redcell
+source: Kitploit
+date: 2026-09-10
+fetch_date: 2026-09-11T06:51:43.721219
+---
+
+# redcell
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+redcell — AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and write the report. LangGraph plan/act engine, provider-agnostic models via LiteLLM, PDF/JSON/SARIF output. FastAPI + React. | Kitploit
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/martian56/redcell
+
+![](https://assets.kitploit.com/production/public/tools/54557/02f0504438426b9706d0d7b6004ec357d7aecc33a7fc1c14ec6c204ebf7cecd4-display-v1.webp)
+
+[Vulnerability Scanners](/en/categories/vulnerability-scanners)[Code Analysis](/en/categories/code-analysis)[Exploitation](/en/categories/exploitation)[Web Security](/en/categories/web-security)[Network Security](/en/categories/network-security)[Penetration Testing](/en/categories/penetration-testing)[Red Teaming](/en/categories/red-teaming)[AI Security](/en/categories/ai-security)
+
+![GitHub](/providers/github.png)martian56/redcell
+
+# redcell
+
+AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and write the report. LangGraph plan/act engine, provider-agnostic models via LiteLLM, PDF/JSON/SARIF output. FastAPI + React.
+
+[View Repository](https://github.com/martian56/redcell)
+
+15730693 days ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+![REDCELL](https://raw.githubusercontent.com/martian56/redcell/main/docs/redcell-logo.svg)
+
+**AI agents that run a penetration test end to end and write the report.**
+
+[![CI](https://github.com/martian56/redcell/actions/workflows/ci.yml/badge.svg)](https://github.com/martian56/redcell/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/UI-React%20+%20Vite-61DAFB?logo=react&logoColor=black)
+![Postgres](https://img.shields.io/badge/db-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/bus-Redis-DC382D?logo=redis&logoColor=white)
+![LiteLLM](https://img.shields.io/badge/models-provider--agnostic-c8102e)
+
+![REDCELL operator console mid-run against DVWA: agent graph, critical RCE finding, the agent-driven browser, and a caught reverse shell](https://assets.kitploit.com/production/public/readmes/54557/02f0504438426b9706d0d7b6004ec357d7aecc33a7fc1c14ec6c204ebf7cecd4/f3b122d441c84449f84ae48faf367cca6a0030d02f91beacd6622d94a195681e-display-v1.webp)
+
+> [!WARNING]
+> REDCELL runs real offensive tooling. Only point it at systems you own or are authorized to test. Staying in scope and within the law is on you.
+
+---
+
+## What it is
+
+REDCELL runs a team of LLM agents through a pentest. An orchestrator plans the engagement and hands objectives to executor agents, which run real tools inside a Kali container and report back. You watch and steer the run from an operator console: a chat that drives the orchestrator, a live agent graph and activity feed, a live view of the browser the agent drives, a terminal on any reverse shell the agent catches, and a report to hand over when the work is done.
+
+Models are pluggable through LiteLLM, so you can point it at OpenAI, Anthropic, Google, GLM, DeepSeek, Kimi, a local Ollama, or anything else it supports. Every run checkpoints as it goes, so a crash or a restart picks up where it left off.
+
+## Features
+
+* **Multi-agent engine.** A LangGraph plan/act loop. The orchestrator delegates objectives to executor agents that run shell tools and record findings, loot, and hosts as they work.
+* **Structured tools.** Dedicated tools for nmap, nuclei, directory and vhost discovery, and Metasploit search and run. Each parses its own output into the attack surface or findings, so a scan records hosts and vulnerabilities without a follow-up step. `run_command` covers anything without a dedicated tool.
+* **Real execution, local or remote.** Tools run in a Kali container over `docker exec`. Pick localhost or a saved server per session; a remote server runs the same container over SSH with host networking.
+* **Agent browser.** For login flows and JavaScript-heavy apps that shell tools cannot reach, an agent drives a real Chromium in the Kali container. You watch it live and can take control to click through something yourself, then hand it back.
+* **Reverse shells.** An agent opens a listener, catches the shell, and gives you an interactive terminal on it. You can also open your own terminals and run commands yourself.
+* **Network pivoting.** Route tool traffic through a caught reverse shell to reach hosts that are only visible from the compromised machine. A chisel reverse SOCKS tunnel carries it, and nmap runs through the tunnel automatically.
+* **Chat drives the run.** Tell the chat what you want and it steers the live orchestrator, or reopens a finished run to take on new work. It answers questions about the engagement too.
+* **Code-scan sessions.** Point a session at a public git repo or a local folder for a source-code security review, with findings mapped back to file and line.
+* **Per-session config.** Set the execution server, the model, and an optional egress proxy per session. Servers and proxies come with a real connection test so you know they work before you rely on them.
+* **Findings triage.** Verify or dismiss findings and merge duplicates the agent recorded twice. The report leaves out the dismissed ones and marks the verified ones.
+* **Reports.** Export a PDF plus JSON and SARIF. The write-up is generated by the session's model and cleaned up to read like a person wrote it, with an executive summary, methodology, findings, and remediation in priority order.
+* **Live console.** The activity feed, terminals, and the agent's browser stream over WebSockets; the agent graph, findings, loot, attack surface, listeners, and proxy history refresh on a short poll. All of it updates live as the run works.
+* **Notifications.** In-app toasts, plus browser notifications when the tab is in the background so a question from the agent or a caught shell does not sit unseen.
+
+## Architecture
+
+root@kitploit:~
+
+```
+flowchart LR
+  UI["Operator console<br/>React + Vite"] -->|REST + WebSocket| API["FastAPI"]
+  API --> PG[(PostgreSQL)]
+  API --> RS[(Redis<br/>pub/sub + queue)]
+  API --> S3[(MinIO<br/>files & reports)]
+  RS --> W["Worker (arq)"]
+  W --> ENG["Engine<br/>LangGraph + LiteLLM"]
+  ENG -->|docker exec| KALI["Kali container<br/>local or remote over SSH"]
+  KALI --> TGT["Targets"]
+  W -->|events / chat / shell| RS
+  RS -->|stream| API
+```
+
+The API does not run agents. It queues a run, the worker executes it, and the worker publishes output onto Redis channels that the API relays to the browser over WebSockets.
+
+## Stack
+
+Python 3.12, FastAPI, async SQLAlchemy + asyncpg, Alembic, arq, LangGraph, LiteLLM, ReportLab, PostgreSQL, Redis, MinIO, asyncssh. Frontend: React 18, Vite, TypeScript, Tailwind, TanStack Query, xterm. Tooling: uv for Python, bun for the frontend.
+
+## Quickstart
+
+You will need Docker, [uv](https://docs.astral.sh/...
