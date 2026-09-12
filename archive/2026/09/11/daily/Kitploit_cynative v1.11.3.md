@@ -1,0 +1,191 @@
+---
+title: cynative v1.11.3
+url: https://kitploit.com/en/posts/github-cynative-cynative-v1113
+source: Kitploit
+date: 2026-09-11
+fetch_date: 2026-09-12T06:48:04.372106
+---
+
+# cynative v1.11.3
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/9087/cd32c354200d3624e42ec11104750942f8e4b0a4b1f238301f3bcd450c8cd313.png)
+
+New releaseSep 11, 2026
+
+# cynative v1.11.3
+
+Read-only AI agent that queries your cloud, code, and runtime infrastructure to surface misconfigurations, leaked secrets, and privilege escalation paths with verified, evidence-backed findings.
+
+Share
+
+![cynative](https://assets.kitploit.com/production/public/readmes/9087/d9f9ee6fe21757c39e42af370935240c1be375918abe73bbec153796ad78e27c.png)
+
+# Build your own security agents
+
+Open-source framework for security agents with live, read-only access to your infrastructure.
+
+[![CI](https://github.com/cynative/cynative/actions/workflows/ci.yaml/badge.svg)](https://github.com/cynative/cynative/actions/workflows/ci.yaml)
+[![Release](https://img.shields.io/github/v/release/cynative/cynative)](https://github.com/cynative/cynative/releases/latest)
+[![License: Apache-2.0](https://img.shields.io/github/license/cynative/cynative)](LICENSE)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/13851/badge)](https://www.bestpractices.dev/projects/13851)
+
+**[Quickstart](#quickstart) · [Built-in agents](#built-in-agents) · [Your first agent](#your-first-agent) · [Docs](https://github.com/cynative/cynative/blob/main/docs)**
+
+**Ask your infrastructure anything.** Cynative runs frontier models across your code, cloud and runtime - reasoning through GitHub, GitLab, AWS, GCP, Azure and Kubernetes as one system - and comes back with verified answers.
+
+root@kitploit:~
+
+```
+cynative "what in my cloud is publicly exposed that shouldn't be?"
+```
+
+**45 built-in agents** for AWS, GCP, Azure, GitHub and Kubernetes - privilege escalation, public exposure, supply chain, detection coverage and more - or you write your own in one markdown file.
+
+One question fans out across your whole stack: Cynative writes and runs code in an ephemeral sandbox, querying your APIs in parallel. Every finding is cross-checked and traced back to its origin.
+
+Unlike coding agents and MCP servers, it's **read-only by construction**: every call is gated and authorized *before* a credential is attached - point it at production with confidence.
+
+![cynative auditing a CI to cloud privilege escalation](https://assets.kitploit.com/production/public/readmes/9087/1b3db179a03479f5951d624c8adbb4890465aa86d038d3312dc9aec9801bcfb9.gif)
+
+## What your agents get
+
+* **Code-to-runtime**: Reasons through AWS, GCP, Azure, any K8s, GitHub and GitLab
+* **Sandbox**: Generates and runs code to research at scale, with no network or host access of its own
+* **Action-gate**: Resolves every call to its required IAM actions and applies a read-only policy before a credential is attached
+* **Evidence-backed**: Cross-checks to verify every finding
+* **Sovereign**: One binary, your model, your data stays yours
+
+## Quickstart
+
+Install and set an LLM:
+
+root@kitploit:~
+
+```
+brew install cynative/tap/cynative
+
+export CYNATIVE_LLM_PROVIDER=anthropic
+export CYNATIVE_LLM_MODEL=claude-opus-5
+export ANTHROPIC_API_KEY=...
+```
+
+It picks up the credentials already in your shell. Run a built-in agent:
+
+root@kitploit:~
+
+```
+cynative -p --agent aws-network-exposure
+```
+
+Or ask it anything:
+
+root@kitploit:~
+
+```
+cynative -p "which IAM roles can escalate to admin?"
+cynative -p "high-risk cloud permissions, trace each to the PR where it was granted"
+cynative -p "cloud credentials leaked in source code and their current blast radius"
+cynative "live cloud resources absent from IaC - drift" # starts an interactive session
+cat findings.json | cynative -p "triage these findings by exploitability"
+```
+
+## Built-in agents
+
+45 agents are embedded in the binary. Each one is a reviewed prompt for a
+specific question.
+
+|  | Agents | For example |
+| --- | --- | --- |
+| AWS | 20 | `aws-privilege-escalation`, `aws-public-storage`, `aws-unpatched-workloads`, `aws-supply-chain` |
+| Azure | 11 | `azure-keyvault-exposure`, `azure-storage-exposure`, `azure-privilege-escalation` |
+| GCP | 5 | `gcp-public-bindings`, `gcp-static-credentials`, `gcp-inference-exposure` |
+| GitHub | 4 | `github-workflow-trust`, `github-unpatched-dependencies`, `github-branch-protection` |
+| Kubernetes | 5 | `k8s-pod-privilege`, `k8s-self-managed-apiserver-access` |
+
+root@kitploit:~
+
+```
+cynative agents list            # every agent, with its description
+cynative agents show <name>     # the exact prompt that would run
+```
+
+The full catalog with a one-line description of each agent is in
+[docs/agents-catalog.md](https://github.com/cynative/cynative/blob/main/docs/agents-catalog.md).
+
+## Your first agent
+
+`cynative agents show <name>` prints the exact file an agent would run. To make your own version, copy it to your agents directory under a new name and edit it:
+
+root@kitploit:~
+
+```
+mkdir -p ~/.cynative/agents
+
+cynative agents show aws-public-datastores > ~/.cynative/agents/my-aws-public-datastores.md
+# edit ~/.cynative/agents/my-aws-public-datastores.md, then:
+cynative -p --agent my-aws-public-datastores
+```
+
+An agent is a markdown file: strict YAML frontmatter whose only key is
+`description`, then the prompt body. The filename is the name. A file in
+`~/.cynative/agents/` wins over a built-in of the same name, so give your copy a
+distinct name to keep both. See [docs/agents.md](https://github.com/cynative/cynative/blob/main/docs/agents.md) for the format.
+
+## Running agents
+
+root@kitploit:~
+
+```
+cynative -p --agent aws-public-datastores "AWS account 128149835728 only"   # with a task
+cynative -p --agent aws-public-datastores                    # without
+cynative --agent aws-public-datastores                       # seeds an interactive session
+```
+
+`--agent` composes with `-p`, `--auto-approve`, `--config` and piped stdin, so the same file runs interactively while you develop it and non-interactively once it settles.
+
+Agents are read from `~/.cynative/agents/` and from the set built into the binary; a user file wins over a built-in of the same name. `cynative agents list` shows every agent with its source and marks the shadowed copies, and `cynative agents show <name>` prints the exact file that would run.
+
+## Can't a coding agent with MCPs do this?
+
+|  | Coding agent + MCPs | Cynative |
+| --- | --- | --- |
+| Throughput | One action per call | Writes sandboxed code that fans out calls concurrently - fewer tokens, faster answers |
+| Findings | Unverified output | Verifier cross-checks every finding against live evidence |
+| Read-only | Opt-in read filter | On by default, fails closed - required IAM actions checked against a security-audit policy. `secretsmanager:GetSecretValue` is an IAM *Read*: a filter allows it, `SecurityAudit` blocks it |
+| Credentials | Ambient, unchanged | STS session scoped to read-only - AWS enforces the boundary too |
+| Blast radius | Your shell, any network | Research code runs in a sandbox with no host access, network pinned to your mapped services |
+| Secrets | Sent to the model as-is | Redacted from tool output before it's sent to the model |
+| Supply chain | Third-party MCPs and skills running with your creds | One open-source binary, connectors built in |
+| Audit trail | Scattered session logs, best effort | Fail-closed JSONL log of every tool call - if it can't record, it aborts |
+
+One binary, your model endpoint, your account. Run it on an instance in the cloud it audits, through that cloud's managed inference, and nothing leaves your environment: security on your infrastructure, from within your infrastructure.
+
+## Installation
+
+**Homebrew** (macOS / Linux - recommended):
+
+root@kitploit:~
+
+```
+brew install cynative/tap/cynative
+```
+
+**...

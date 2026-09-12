@@ -1,0 +1,186 @@
+---
+title: opennhp v1.0.1
+url: https://kitploit.com/en/posts/github-opennhp-opennhp-v101
+source: Kitploit
+date: 2026-09-11
+fetch_date: 2026-09-12T06:48:17.638826
+---
+
+# opennhp v1.0.1
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/313/3955f0e37e29112549c5accb51d9afcdc8b30d99881fbb4c81d3112b35641ff2.png)
+
+New releaseSep 11, 2026
+
+# opennhp v1.0.1
+
+A lightweight, cryptography-powered, open-source toolkit built to enforce Zero Trust security for infrastructure, applications, and data in the AI-driven world.
+
+Share
+
+[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/OpenNHP/opennhp/blob/master/README.md)
+[![zh-cn](https://img.shields.io/badge/lang-zh--cn-green.svg)](https://github.com/OpenNHP/opennhp/blob/master/README.zh-cn.md)
+[![zh-tw](https://img.shields.io/badge/lang-zh--tw-green.svg)](https://github.com/OpenNHP/opennhp/blob/master/README.zh-tw.md)
+[![de](https://img.shields.io/badge/lang-de-green.svg)](https://github.com/OpenNHP/opennhp/blob/master/README.de.md)
+[![ja](https://img.shields.io/badge/lang-ja-green.svg)](https://github.com/OpenNHP/opennhp/blob/master/README.ja.md)
+[![fr](https://img.shields.io/badge/lang-fr-green.svg)](https://github.com/OpenNHP/opennhp/blob/master/README.fr.md)
+[![es](https://img.shields.io/badge/lang-es-green.svg)](https://github.com/OpenNHP/opennhp/blob/master/README.es.md)
+
+![OpenNHP Logo](https://assets.kitploit.com/production/public/readmes/313/3955f0e37e29112549c5accb51d9afcdc8b30d99881fbb4c81d3112b35641ff2.png)
+
+# OpenNHP: Open Source Zero Trust Security Toolkit
+
+[![Build](https://github.com/OpenNHP/opennhp/actions/workflows/ubuntu-build.yml/badge.svg)](https://github.com/OpenNHP/opennhp/actions/workflows/ubuntu-build.yml)
+[![Release](https://img.shields.io/github/v/tag/OpenNHP/opennhp?label=release)](https://github.com/OpenNHP/opennhp/tags)
+![License](https://img.shields.io/badge/license-Apache%202.0-green)
+[![codecov](https://codecov.io/gh/OpenNHP/opennhp/branch/main/graph/badge.svg)](https://codecov.io/gh/OpenNHP/opennhp)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/OpenNHP/opennhp)
+
+**OpenNHP** is a lightweight, cryptography-powered, open-source toolkit implementing Zero Trust security for infrastructure, applications, and data. It is the reference implementation of the [**Cloud Security Alliance (CSA)**](https://cloudsecurityalliance.org/) *[Network-infrastructure Hiding Protocol (NHP) specification](https://cloudsecurityalliance.org/artifacts/stealth-mode-sdp-for-zero-trust-network-infrastructure)*, and features two core protocols:
+
+* **Network-infrastructure Hiding Protocol (NHP):** Conceals server ports, IP addresses, and domain names to protect applications and infrastructure from unauthorized access.
+* **Data-content Hiding Protocol (DHP):** Ensures data security and privacy via encryption and confidential computing, making data *"usable but not visible."*
+
+**[Website](https://opennhp.org) · [Vision](https://opennhp.org/vision/) · [Live Demo](https://opennhp.org/demo/) · [Documentation](https://docs.opennhp.org) · [Discord](https://discord.gg/CpyVmspx5x)**
+
+---
+
+## Why OpenNHP
+
+The modern internet is a [dark forest](https://en.wikipedia.org/wiki/Dark_forest_hypothesis). Attackers — increasingly backed by LLMs that scan, fingerprint, and exploit at machine speed via [Autonomous Vulnerability Exploitation](https://arxiv.org/abs/2404.08144) — treat every reachable service as a target. [Gartner projects](https://www.gartner.com/en/newsroom/press-releases/2024-08-28-gartner-forecasts-global-information-security-spending-to-grow-15-percent-in-2025) AI-driven cyberattacks will rise rapidly. Traditional defenses authenticate users *after* the network lets them in, leaving exposed ports, IPs, and domains as a permanent attack surface.
+
+> **In the AI era, VISIBILITY = VULNERABILITY.**
+
+OpenNHP inverts that model: **invisible until trusted.** Every port, IP, and hostname sits behind a default-deny gate. Access is granted only after a cryptographically signed knock is authenticated and authorized out-of-band. Attackers can't exploit what they can't discover.
+
+### The third-generation network hiding protocol
+
+NHP is the next step in a line of "hide the service first" designs:
+
+| Generation | Protocol | Limitations |
+| --- | --- | --- |
+| 1 | Port Knocking | Plaintext, replay-prone |
+| 2 | Single Packet Authorization (SPA) | Shared secrets, one-way, typically hides ports only, typically C/C++ |
+| **3** | **NHP** | Modern crypto, bi-directional with status, hides domain + IP + ports, stateless and horizontally scalable, memory-safe Go |
+
+NHP slots in alongside existing IAM, DNS, FIDO, and Zero Trust policy engines rather than replacing them — it extends your stack instead of forking it.
+
+---
+
+## Architecture
+
+OpenNHP follows a modular design with three core components, inspired by the [NIST Zero Trust Architecture](https://www.nist.gov/publications/zero-trust-architecture):
+
+![OpenNHP architecture](https://assets.kitploit.com/production/public/readmes/313/3534e44eda3983c922b2d30b9f8477b0f20c0f0acd8017bdde44d45bbed54e2a.gif)
+
+| Core Component | Role |
+| --- | --- |
+| **NHP-Agent** | Client that sends encrypted knock requests to gain access |
+| **NHP-Server** | Authenticates and authorizes requests; runs separately and is architecturally decoupled from the protected host |
+| **NHP-AC** | Access controller that manages firewall rules on the protected server |
+
+| Addon Component | Role |
+| --- | --- |
+| **NHP-Relay** | HTTP-to-UDP bridge enabling browser-based agents to send NHP knocks via HTTPS |
+| **NHP-KGC** | Key Generation Center for Identity-Based Cryptography (IBC) |
+
+### Protocol flow
+
+1. Agent sends an encrypted knock (`NHP_KNK`) to the Server.
+2. Server validates the knock and sends an operation request (`NHP_AOP`) to the AC.
+3. AC opens the firewall and replies (`NHP_ART`) to the Server.
+4. Server returns an acknowledgment (`NHP_ACK`) with access info to the Agent.
+5. Agent reaches the protected resource through the AC.
+
+### Cryptography
+
+OpenNHP ships with two interchangeable cipher suites:
+
+* **`CIPHER_SCHEME_CURVE`** — Curve25519 + AES-256-GCM + BLAKE2s
+* **`CIPHER_SCHEME_GMSM`** — SM2 + SM4-GCM + SM3
+
+Both are driven by the [Noise Protocol Framework](https://noiseprotocol.org/). An Identity-Based Cryptography (IBC) mode is available via the Key Generation Center (KGC).
+
+> For protocol details, deployment models, and cryptographic design, see the [documentation](https://docs.opennhp.org).
+
+---
+
+## Repository Structure
+
+root@kitploit:~
+
+```
+opennhp/
+├── nhp/              # Core protocol library (Go module)
+│   ├── core/         # Packet handling, cryptography, Noise Protocol, device management
+│   ├── common/       # Shared types and message definitions
+│   ├── utils/        # Utility functions
+│   ├── plugins/      # Plugin handler interfaces
+│   ├── log/          # Logging infrastructure
+│   └── etcd/         # Distributed configuration support
+└── endpoints/        # Daemon implementations (Go module, depends on nhp)
+    ├── agent/        # NHP-Agent daemon
+    ├── server/       # NHP-Server daemon
+    ├── ac/           # NHP-AC (access controller) daemon
+    ├── db/           # NHP-DB (Data Broker for DHP)
+    ├── kgc/          # NHP-KGC (Key Generation Center)
+    └── relay/        # NHP-Relay daemon
+```
+
+---
+
+## Quick Start
+
+### Prerequisites
+
+* Go 1.25.6+
+* `make`
+* Docker and Docker Compose (for the full-stack demo)
+
+### Build
+
+root@kitploit:~
+
+```
+# Build all components
+make
+
+# Build individual daemons
+make agentd    # NHP-Agent
+make serverd   # NHP-Server
+make acd       # NHP-AC
+make db        # NHP-DB
+make relayd    # NHP-Relay
+make kgc       # NHP-KGC
+```
+
+### Test
+
+root@kitploit:~
+
+```
+cd nhp && go test ./...
+cd endpoints && go test ./...
+```
+
+### Run with Docker
+
+root@kitplo...

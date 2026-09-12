@@ -1,0 +1,121 @@
+---
+title: agent-bom v0.104.0
+url: https://kitploit.com/en/posts/github-msaad00-agent-bom-v01040
+source: Kitploit
+date: 2026-09-11
+fetch_date: 2026-09-12T06:48:20.314965
+---
+
+# agent-bom v0.104.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/13617/63f5d9fca72080ad3d4e288f4fb99db514c8f2bd8412915e4556b822fbe8fe57.png)
+
+New releaseSep 11, 2026
+
+# agent-bom v0.104.0
+
+Open security scanner and self-hosted control plane for AI, MCP, and cloud. One evidence model — run scans in your environment, centralize findings, govern in your VPC.
+
+Share
+
+![agent-bom — Discover. Scan. Correlate. Act. Security evidence across repositories, software supply chains, AI and MCP, cloud, identity, and data.](https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/social-preview.svg)
+
+Supported backends vary by capability. [Capability matrix.](https://github.com/msaad00/agent-bom/blob/main/docs/INTEGRATIONS.md)
+
+[![Build](https://img.shields.io/github/actions/workflow/status/msaad00/agent-bom/ci.yml?branch=main&style=flat&label=Build)](https://github.com/msaad00/agent-bom/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/agent-bom?style=flat&label=PyPI&cacheSeconds=60)](https://pypi.org/project/agent-bom/)
+[![Python 3.11 through 3.14](https://img.shields.io/badge/Python-3.11%E2%80%933.14-blue?style=flat)](https://pypi.org/project/agent-bom/)
+[![Docker pulls](https://img.shields.io/docker/pulls/agentbom/agent-bom?style=flat&label=Docker%20pulls)](https://hub.docker.com/r/agentbom/agent-bom)
+[![Apache-2.0 license](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat)](https://github.com/msaad00/agent-bom/blob/main/LICENSE)
+[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/msaad00/agent-bom?style=flat&label=OpenSSF%20scorecard)](https://securityscorecards.dev/viewer/?uri=github.com/msaad00/agent-bom)
+[![Glama MCP server](https://img.shields.io/badge/MCP-Glama-7c3aed?style=flat)](https://glama.ai/mcp/servers/msaad00/agent-bom)
+[![Smithery MCP server](https://img.shields.io/badge/MCP-Smithery-1f6feb?style=flat)](https://smithery.ai/servers/agent-bom/agent-bom)
+
+# Turn scattered infrastructure evidence into prioritized, correlated, and verifiable action
+
+**Open security scanner and self-hosted control plane for AI, MCP, and cloud infrastructure.**
+
+Start with a local repository, image, SBOM, or MCP configuration, or connect read-only infrastructure sources in the self-hosted control plane. Keep raw data, credentials, findings, and policy decisions inside your environment.
+
+[**Quick start**](#quick-start) ·
+[Live demo](https://agent-bom-demo-82102570041.us-central1.run.app) ·
+[Docs](https://msaad00.github.io/agent-bom/)
+
+## From evidence source to verified action
+
+Security teams rarely lack scanners. They lack one trustworthy view of what was
+scanned, what was discovered, which findings are actually connected to critical
+systems, who owns the fix, and whether the fix held.
+
+`agent-bom` closes that loop with two honest entry paths:
+
+| Start from | First action | What produces inventory |
+| --- | --- | --- |
+| A repository, image, SBOM, workstation, or MCP config | Run a local or CI scan—no connection required | The scanner reads the target and emits inventory, findings, provenance, and graph evidence together |
+| AWS, Azure, GCP, Snowflake, Kubernetes, or another managed source | Add a read-only connection in the self-hosted control plane, then run or schedule a scan | The connection defines scope and credentials; the scan collects the source and creates the inventory snapshot |
+
+Both paths converge after collection: normalize evidence into the same Finding +
+UnifiedGraph contracts, correlate reachable risk, assign an owner and SLA, then
+re-scan to verify the result. Inventory is always the output of a named target or
+connected source—never unexplained preloaded data.
+
+![Evidence sources flow through read-only collection and scanning, normalization, correlation, ownership, remediation, verification, and export or runtime policy](https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/workflow-light.svg)
+
+**The product promise:** start with one useful artifact today; keep the same
+evidence model as you add CI, connected sources, history, assignments,
+compliance exports, and runtime enforcement in your own environment.
+
+[Quick start](#quick-start) · [Evidence workflow](https://github.com/msaad00/agent-bom/blob/main/docs/HOW_IT_WORKS.md) · [Integration capability matrix](https://github.com/msaad00/agent-bom/blob/main/docs/INTEGRATIONS.md) · [Measured matcher proof](https://github.com/msaad00/agent-bom/blob/main/docs/CVE_MATCHING_ACCURACY.json) · [Control-plane architecture](https://github.com/msaad00/agent-bom/blob/main/docs/ARCHITECTURE.md)
+
+### Product proof: independent evidence, one verifiable path
+
+The views below come from the committed **Reference evidence lab — modeled
+local infrastructure**. The credential-free run uses the real repository,
+CycloneDX, Kubernetes IaC, and MCP parsers plus the bundled advisory scanner for
+`[[email protected]](/cdn-cgi/l/email-protection)` / `CVE-2023-4863`, then correlates exact OCI digest, Kubernetes
+UID, MCP tool, workload identity, and live local gateway receipts. It is not
+customer evidence or a live-cloud claim.
+
+Investigation loads the latest completed correlation automatically and shows
+the source-to-path journey first. Custom snapshot selection remains available
+as an explicit advanced workflow with the freshness policy visible.
+
+[![Reference evidence lab source receipts from repository, image and SBOM, Kubernetes IaC, MCP configuration, identity, and runtime flowing into one immutable correlated snapshot](https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/correlation-receipts-live.png)](https://github.com/msaad00/agent-bom/blob/main/docs/images/correlation-receipts-live.png)
+
+The resulting path is confirmed only because every directed hop is traversable
+and provenance-backed: exposed service → workload → digest-pinned container →
+`[[email protected]](/cdn-cgi/l/email-protection)` / `CVE-2023-4863` → MCP capability → workload identity →
+modeled sensitive object store. The same lab records an observed gateway call
+and a separate strict opt-in block before the remediation handoff.
+
+[![Reference evidence lab Investigation path for CVE-2023-4863 with exact container digest, per-hop source provenance, freshness, runtime observation and strict block proof, and remediation handoff](https://raw.githubusercontent.com/msaad00/agent-bom/main/docs/images/correlation-path-live.png)](https://github.com/msaad00/agent-bom/blob/main/docs/images/correlation-path-live.png)
+
+[Regenerate the reference lab](https://github.com/msaad00/agent-bom/blob/main/examples/reference-evidence-lab/README.md) · [Open the full product gallery](https://github.com/msaad00/agent-bom/blob/main/docs/GALLERY.md) · [See the capture protocol](https://github.com/msaad00/agent-bom/blob/main/docs/CAPTURE.md)
+
+## Value by role
+
+| Role | Start here | Primary outcome |
+| --- | --- | --- |
+| Developer / AI engineer | `agent-bom scan .` | See dependencies, secrets, IaC, agents, MCP, and whether Click, Flask, or FastAPI entry points can reach vulnerable packages before shipping |
+| AppSec / product security | `agent-bom agents --gha . --offline` | Inventory remote actions and reusable workflows with their refs, source provenance, and CI-hardening findings |
+| Cloud security | Add a read-only connection, then run a scan | Build scoped cloud, identity, and posture inventory with explicit coverage and provenance |
+| Platform / DevOps | `pip install 'agent-bom[ui]' && AGENT_BOM_NO_AUTH_ROLE=analyst agent-bom serve --persist ~/.agent-bom/control-plane.db` | Schedule scans, centralize evidence, assign owners and SLAs, and verify remediation |
+| GRC...

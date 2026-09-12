@@ -1,0 +1,205 @@
+---
+title: AGAS
+url: https://kitploit.com/en/tools/github/phkhanhtrinh23/agas
+source: Kitploit
+date: 2026-09-11
+fetch_date: 2026-09-12T06:48:11.778881
+---
+
+# AGAS
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/phkhanhtrinh23/agas
+
+![](https://assets.kitploit.com/production/public/tools/54711/1635e5923c7ced78e9b77dfce8762b7d9413eba9ff3481ec95cb9d4547ec025a-display-v1.webp)
+
+[Machine Learning](/en/categories/machine-learning)[Papers & Research](/en/categories/papers-research)[Learning & Education](/en/categories/education)[AI Security](/en/categories/ai-security)[Adversarial Attack](/en/categories/adversarial-attack)
+
+![GitHub](/providers/github.png)phkhanhtrinh23/agas
+
+# AGAS
+
+LLM-driven agentic group shilling attack framework that manipulates black-box collaborative-filtering recommender rankings using adaptive multi-role strategies while evading detection.
+
+[View Repository](https://github.com/phkhanhtrinh23/agas)
+
+2324 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# An Efficient and Effective Agentic Group Shilling Attack on Recommender Systems
+
+This is the official code to the paper: "An Efficient and Effective Agentic Group Shilling Attack on Recommender Systems". This paper introduces AGAS, which is an
+LLM-driven shilling attack against black-box collaborative-filtering recommenders. One
+**Coordinator** orchestrates a pool of fake-user **workers** over a sequence
+of rounds. In each round, the Coordinator picks one of eight strategies
+and assigns a role to every worker. Workers then decide which items to rate
+using their own ReAct-style reasoning loop.
+
+![AGAS pipeline](https://assets.kitploit.com/production/public/readmes/54711/1635e5923c7ced78e9b77dfce8762b7d9413eba9ff3481ec95cb9d4547ec025a/4ef9f3be15dad1738bf01b19ca6bf5524f541a9788265f0de04855cd64119713-display-v1.webp)
+
+---
+
+## 1. Repo overview
+
+root@kitploit:~
+
+```
+agent_attack_rs/
+  bash/                           # Reviewer-friendly shell scripts (RQ1–RQ5)
+  prompts/                        # Coordinator + per-role prompt templates
+  scripts/run_agas.py             # Single entry point (--dataset --victim ...)
+  src/agas/
+    roles.py                      # Role enum {PR, SN, CA, IN} (paper symbols)
+    signals.py                    # WorkerSignals (τ, γ, φ) + EnvSignals (ρ, Δρ, η, ξ, a)
+    strategies.py                 # 8-strategy enum
+    agents/                       # Coordinator + Worker policies
+    simulation/                   # Episode runner (= AGAS algorithm outer loop)
+    llm/                          # OpenAI / Ollama
+    recsys/                       # Surrogate + 11-victim backends
+    data/                         # Dataset loaders + preprocessing pipeline
+  tests/                          # Pytest suite
+```
+
+## 2. Method recap
+
+AGAS instantiates four worker roles (paper symbols in `roles.py`):
+
+| Symbol | Long name | What it does |
+| --- | --- | --- |
+| `PR` | Profiler | Safe filler-item ratings to probe the platform and build bridge pools. |
+| `SN` | Sniper | Payload role; direct target push or bridge-item promotion. |
+| `CA` | Camouflageur | Stealth role; rebuilds trust with benign-looking activity. |
+| `IN` | Inactive | No action this round (cool-down or quarantine). |
+
+Each round the Coordinator chooses exactly one of eight strategies from
+`strategies.py` (see `method_strategies.tex`):
+
+1. **Victim Probe** (`S1_VICTIM_PROBE`)
+2. **Bridge Building** (`S2_BRIDGE_BUILDING`, graph victims only)
+3. **Warm-up** (`S3_WARM_UP`)
+4. **First Push** (`S4_FIRST_PUSH`)
+5. **Silent Slowdown** (`S5_SILENT_SLOWDOWN`)
+6. **Profile Cleanup** (`S6_PROFILE_CLEANUP`)
+7. **Safe Replacement** (`S7_SAFE_REPLACEMENT`)
+8. **Main Attack** (`S8_MAIN_ATTACK`)
+
+The Coordinator drives those decisions from two signal groups (`signals.py`):
+
+* **Worker signals** `τ_{t,w}, γ_{t,w}, φ_{t,w}` — trust, risk, and a
+  structural validator. Update equations match `method_coordinator.tex`
+  exactly (`eq:trust_update`, `eq:risk_update`, `eq:risk_decay`,
+  `eq:profile_validator`).
+* **Environment signals** `ρ^{(t)}, Δρ^{(t)}, η_t, ξ_t = (q_t, s_t), a_t` —
+  rank, rank-movement, acceptance rate, suppression signal, alert flag. The
+  suspicion score `q_t` is the 0.2-weighted sum of the five normalised
+  terms `(d̂_t, δ̂_t, m̂_t, ŝ_t, g_t)` from `eq:round_suppression_terms` and
+  `eq:round_suppression_score`.
+
+### Round loop (ASCII)
+
+root@kitploit:~
+
+```
+                ┌─────────────────────────────────────────────────┐
+   t=0…T-1 ──►  │ 1. Observe ρ^{(t)}, update memory m_t           │
+                │ 2. Update τ, γ, φ, η, ξ, a                       │
+                │ 3. Coordinator picks Strategy ∈ {S1…S8}          │
+                │    and assigns Role ∈ {PR, SN, CA, IN} per worker│
+                │ 4. Workers act (filler / bridge / target items)  │
+                │ 5. Validate + accept actions → ΔR̃^{(t+1)}        │
+                │ 6. Refit / query victim → ρ^{(t+1)}              │
+                └─────────────────────────────────────────────────┘
+                          │
+                          ▼
+                   t* = argmin_t ρ^{(t)}, return R* = [R ; R̃^{(≤t*)}]
+```
+
+The outer loop is implemented in `src/agas/simulation/episode.py` and mirrors
+`algorithms/agas_end_to_end.tex`.
+
+## 3. Environment
+
+| Component | Requirement | Tested with |
+| --- | --- | --- |
+| Python | ≥ 3.10 | 3.13.5 |
+| PyTorch | ≥ 2.1 *(targets only)* | 2.11.0+cu128 |
+| CUDA | optional | 12.8 |
+| NumPy | ≥ 1.24 | 2.4.2 |
+| Pandas | ≥ 2.0 | 3.0.1 |
+| SciPy | ≥ 1.10 | 1.17.0 |
+| scikit-learn | ≥ 1.3 | 1.8.0 |
+| openai SDK | ≥ 1.12 | 2.21.0 |
+
+PyTorch and CUDA are only required for the deep-learning victim models (`[targets]` extra). The core AGAS loop and the rule-based / surrogate paths run on CPU with no GPU dependency.
+
+## 4. Install
+
+root@kitploit:~
+
+```
+pip install -e .
+# If you want to use the deep-learning victim models (LightGCN, NeuMF, …)
+pip install -e '.[targets]'
+```
+
+Required environment variables:
+
+| Variable | Purpose | Default |
+| --- | --- | --- |
+| `OPENAI_API_KEY` | OpenAI Responses API key for the Coordinator / worker LLMs. | *(unset → fallback)* |
+| `OPENAI_MODEL` | Model name passed to OpenAI. | `gpt-5.1` |
+
+## 4. Datasets
+
+The paper evaluates on six public CF benchmarks (see `experiment.tex`):
+
+| Short name | Source | Users | Items | Interactions | Download | Place raw files in |
+| --- | --- | --- | --- | --- | --- | --- |
+| ML-100K | MovieLens 100K | 943 | 1,682 | 100,000 | [GroupLens](https://files.grouplens.org/datasets/movielens/ml-100k.zip) | `data/ml-100k/` |
+| ML-1M | MovieLens 1M | 6,040 | 3,706 | 1,000,209 | [GroupLens](https://files.grouplens.org/datasets/movielens/ml-1m.zip) | `data/ml-1m/` |
+| Genome 2021 | MovieLens Tag Genome 2021 | 37,941 | 84,661 | 2,000,000 (capped) | [GroupLens](https://grouplens.org/datasets/movielens/tag-genome-2021/) | `data/genome2021/` |
+| Netflix | Netflix Prize | 342,445 | 17,434 | 2,000,000 (capped) | [Kaggle](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) | `data/netflix/` |
+| Douban | Douban Movie | 28,057 | 49,176 | 8,085,679 | [HKUST](http://shichuan.org/HIN_dataset.html) | `data/douban/` |
+| Amazon | Amazon Reviews 2018 | 998,65...

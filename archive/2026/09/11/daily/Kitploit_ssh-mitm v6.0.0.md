@@ -1,0 +1,192 @@
+---
+title: ssh-mitm v6.0.0
+url: https://kitploit.com/en/posts/github-ssh-mitm-ssh-mitm-600
+source: Kitploit
+date: 2026-09-11
+fetch_date: 2026-09-12T06:48:14.768875
+---
+
+# ssh-mitm v6.0.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/4002/f68939dde480eaefdac7c9177eb0dc04266a97fb17153d05aa45771608c8b1e6.png)
+
+New releaseSep 11, 2026
+
+# ssh-mitm v6.0.0
+
+SSH-MITM - ssh audits made simple
+
+Share
+
+# SSH-MITM - ssh audits made simple
+
+[![SSH-MITM intercepting password login](https://assets.kitploit.com/production/public/readmes/4002/a1a625cce4a0a2f09fda40b9f7c5750953f75917db8e359a406f0135f4140091.webp "SSH-MITM")](https://github.com/ssh-mitm/ssh-mitm)
+
+An interactive SSH interception tool for authorized security audits.
+Intercept sessions, monitor live traffic, inject commands, and manipulate file transfers — all in real time.
+
+[![Download as an AppImage](https://docs.appimage.org/_images/download-appimage-banner.svg)](https://github.com/ssh-mitm/ssh-mitm/releases/latest/download/ssh-mitm-x86_64.AppImage)
+
+[![Download on Flathub](https://assets.kitploit.com/production/public/readmes/4002/2bcc64a37b57ebeb34be5f43d0653386d6063169e9414809a610ca6a1c44d313.png)](https://flathub.org/apps/at.ssh_mitm.server)
+
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/ssh-mitm)
+
+[![](https://assets.kitploit.com/production/public/readmes/4002/51bb0165a5b9a58c98bcb73e7c229635a026d5fa45bd9a2edd4a556c43a5f173.png "read the docs")](https://docs.ssh-mitm.at)
+
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8906/badge)](https://www.bestpractices.dev/projects/8906)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![CodeFactor](https://www.codefactor.io/repository/github/ssh-mitm/ssh-mitm/badge)](https://www.codefactor.io/repository/github/ssh-mitm/ssh-mitm)
+[![Documentation Status](https://readthedocs.org/projects/ssh-mitm/badge/?version=latest)](https://docs.ssh-mitm.at/?badge=latest)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub](https://img.shields.io/github/license/ssh-mitm/ssh-mitm?color=%23434ee6)](https://github.com/ssh-mitm/ssh-mitm/blob/master/LICENSE)
+[![Follow me on GitHub](https://img.shields.io/badge/-Follow%20me%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manfred-kaiser)
+[![](https://img.shields.io/mastodon/follow/109597663767801251?color=%236364FF&domain=https://defcon.social&label=Mastodon&style=plastic)](https://defcon.social/%40sshmitm)
+
+**Legal notice:** SSH-MITM is intended for authorized security audits, penetration testing, and research only.
+Do not use it against systems you do not own or have explicit written permission to test.
+Unauthorized interception of SSH traffic may be illegal in your jurisdiction.
+
+---
+
+## 🎓 New to SSH-MITM? Start with the interactive tutorial
+
+root@kitploit:~
+
+```
+ssh-mitm tutorial
+```
+
+Opens a browser-based, step-by-step guide — no target server needed.
+Five chapters follow an authorized assessment of **Logfile Inc.**, covering
+password interception, public-key auth, SFTP transfers, command execution,
+and live session mirroring.
+
+![SSH-MITM interactive tutorial](https://assets.kitploit.com/production/public/readmes/4002/3031fece78b92cde87e175685bd2c384f1eff666b9d9bb29dba05fd5bef744ef.webp)
+
+---
+
+## Quick Start
+
+Placed between a client and its SSH server, SSH-MITM intercepts the connection —
+terminating both sides independently and forwarding all traffic while giving the auditor full visibility and control:
+
+![SSH-MITM setup](https://docs.ssh-mitm.at/_images/ssh-mitm-setup.svg)
+
+### 1. Install
+
+SSH-MITM requires no installation. Download the AppImage and you are ready to go:
+
+root@kitploit:~
+
+```
+wget https://github.com/ssh-mitm/ssh-mitm/releases/latest/download/ssh-mitm-x86_64.AppImage
+chmod +x ssh-mitm-x86_64.AppImage
+```
+
+For other installation options (pip, Flatpak, Snap) see the [installation guide](https://docs.ssh-mitm.at/develop/installation.html).
+
+> **⚡ Get the latest version**
+>
+> The PyPI release may lag behind. Install directly from GitHub to get the interactive tutorial and all recent improvements:
+>
+> root@kitploit:~
+>
+> ```
+> pip install git+https://github.com/ssh-mitm/ssh-mitm.git
+> ```
+
+### 2. Start SSH-MITM
+
+Point SSH-MITM at your target host — use a system you are authorized to test:
+
+root@kitploit:~
+
+```
+./ssh-mitm-x86_64.AppImage server --remote-host <target-host>
+```
+
+### 3. Route a client connection
+
+Have the SSH client connect through SSH-MITM on port 10022:
+
+root@kitploit:~
+
+```
+ssh -p 10022 user@mitm-host
+```
+
+SSH-MITM intercepts the session and logs the credentials immediately:
+
+root@kitploit:~
+
+```
+INFO     Remote authentication succeeded
+    Remote Address: <target-host>:22
+    Username: alice
+    Password: secret
+    Agent: no agent
+```
+
+![SSH-MITM intercepting credentials](https://assets.kitploit.com/production/public/readmes/4002/4b5e8e6387cb622f838877d616d85c5580a272cb233591265690923cb268e911.webp)
+
+### 4. Attach to the live session
+
+For every intercepted connection, SSH-MITM opens a mirror shell on a local port:
+
+root@kitploit:~
+
+```
+INFO     ℹ created mirrorshell on port 34463. connect with: ssh -p 34463 127.0.0.1
+```
+
+Connect to it from a separate terminal:
+
+root@kitploit:~
+
+```
+ssh -p 34463 127.0.0.1
+```
+
+The mirror shell reflects the session in real time. The auditor can observe the user's activity
+and inject commands independently, without affecting the original connection.
+
+## What SSH-MITM can do
+
+| Feature | Description |
+| --- | --- |
+| [Interactive session monitoring](https://docs.ssh-mitm.at/user_guide/sessions.html) | Attach to any intercepted session via a mirror shell — observe and inject commands in real time |
+| [File transfer manipulation](https://docs.ssh-mitm.at/user_guide/file_transfer.html) | Intercept SCP/SFTP transfers, store copies, or replace files on the fly |
+| [Port forwarding interception](https://docs.ssh-mitm.at/user_guide/portforwarding.html) | Intercept TCP tunnels and dynamic SOCKS 4/5 forwarding |
+| [FIDO2 token phishing](https://docs.ssh-mitm.at/user_guide/trivialauth.html) | Intercept hardware token authentication via the trivial auth attack ([OpenSSH info](https://www.openssh.com/agent-restrict.html)) |
+| [Authentication interception](https://docs.ssh-mitm.at/user_guide/authentication.html) | Capture passwords; accept the same public key as the target server and fall back to password auth automatically |
+| [MOSH session monitoring](https://docs.ssh-mitm.at/user_guide/mosh.html) | Intercept and decrypt MOSH (Mobile Shell) UDP sessions; view the live terminal via a built-in VT100/ANSI emulator |
+| [PowerShell remoting (PSRP)](https://docs.ssh-mitm.at/user_guide/powershell.html) | Intercept PowerShell remoting sessions over SSH; log commands, output, errors, and state transitions; write per-session transcripts |
+| [Client auditing](https://docs.ssh-mitm.at/user_guide/client_audit.html) | Identify known vulnerabilities in connecting SSH clients from key negotiation behavior alone |
+| [Plugin support](https://docs.ssh-mitm.at/user_guide/plugin_browser.html) | Extend and customize all interception behavior with plugins |
+
+## Use Cases
+
+* **Penetration testing** — actively audit SSH clients and servers in authorized engagements; intercept, manipulate, and replay sessions
+* **Security research** — analyze SSH client behavior, authentication flows, and protocol-level weaknesses interactively
+* **Training environments** — demonstrate MITM techniques and session hijacking in controlled lab setups
+* **Malware analysis** — monitor and interact with SSH sessions from suspicious clients in isolated environments
+
+## Security Rese...

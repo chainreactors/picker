@@ -1,0 +1,199 @@
+---
+title: gdcm-security-poc
+url: https://kitploit.com/en/tools/github/abhinavagarwal07/gdcm-security-poc
+source: Kitploit
+date: 2026-09-11
+fetch_date: 2026-09-12T06:48:10.038455
+---
+
+# gdcm-security-poc
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/abhinavagarwal07/gdcm-security-poc
+
+![](https://assets.kitploit.com/production/public/tools/54709/c62bcf60aff143dbfae107709ecfef8e142158723e3471a3f794880c80682517-display-v1.webp)
+
+[Static Analysis](/en/categories/static-analysis)[Dynamic Analysis (Sandboxing)](/en/categories/dynamic-analysis-sandboxing)[Memory Forensics](/en/categories/memory-forensics)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Exploitation](/en/categories/exploitation)[Fuzzing](/en/categories/fuzzing)[Binary Analysis](/en/categories/binary-analysis)[Papers & Research](/en/categories/papers-research)[Learning & Education](/en/categories/education)
+
+![GitHub](/providers/github.png)abhinavagarwal07/gdcm-security-poc
+
+# gdcm-security-poc
+
+Private end-to-end sanitizer reproduction package for six GDCM findings
+
+302 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+[View Repository](https://github.com/abhinavagarwal07/gdcm-security-poc)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# GDCM findings 1-6: reproduction package
+
+Six parser/codec defects in GDCM, reproduced on v3.2.6 as sanitizer failures or bounded
+propagation checks. Each automated trigger has a near-valid control that does not produce
+the vulnerable signal. Finding 1 also includes an instrumented control-flow primitive.
+
+Intended for maintainer and vulnerability-coordinator review. Read `SAFETY.md` before
+running anything.
+
+## Pinned targets
+
+`manifest/targets.env`:
+
+| Name | Revision | What it is |
+| --- | --- | --- |
+
+|  |  |  |
+| --- | --- | --- |
+| `vulnerable` | `9c71b163` | tag v3.2.6 |
+| `master` | `2cd05d13` | upstream `master` snapshot reviewed statically; runtime matrix pending |
+| `fixed` | unset | populate only once a reviewed remediation commit exists |
+
+`master` is a dated snapshot, not a moving branch. Both revisions are reachable from the
+public repository, so `bootstrap.sh` can prepare either without any private source.
+
+## Finding scope
+
+Runtime evidence in this repository is for v3.2.6. The wider ranges below come from
+source-history inspection; the implicated patterns also remain in the pinned master
+snapshot.
+
+| # | CWE | Source-inspected range | Required path |
+| --- | --- | --- | --- |
+| 1 | CWE-787 | v3.0.4 through v3.2.7 | multi-frame RLE `YBR_FULL_422` read |
+| 2 | CWE-787 | v2.0.16 through v3.2.7 | JPEG2000 encoding/transcoding |
+| 3 | CWE-125 | v2.0.5 through v3.2.7 | segmented palette parsing; LUT application exposes propagated values |
+| 4 | CWE-787 | v2.0.8 through v3.2.7 | `ImageRegionReader::ReadIntoBuffer`; related to incomplete precision validation after CVE-2024-22373 |
+| 5 | CWE-674 | v2.0.4 or earlier through v3.2.7 | ordinary nested-sequence parsing |
+| 6 | CWE-369 | v2.0.4 or earlier through v3.2.7 | ordinary RLE parsing with `NumSegments=0` |
+
+## Contents
+
+* `fixtures/` - the inert DICOM inputs, SHA-256-pinned in `manifest/expectations.json`
+  and verified before every trigger run
+* `generators/` - deterministic, dependency-free source generators for every fixture
+* `harnesses/` - minimal read/encode/decode harnesses; Finding 2 is shown through both
+  the `gdcmconv` CLI and the library transcode API a server would call
+* `manifest/expectations.json` - machine-readable commands, decisive signals, and
+  acceptance criteria for the `fixed` target
+* `scripts/` - pinned-source preparation, sanitizer builds, bounded execution, cleanup
+* `evidence/` - concise results already observed, with untested targets stated explicitly
+* `LICENSE` - MIT license
+
+## Prerequisites
+
+A disposable Linux or macOS build environment with Git, Python 3, CMake 3.20+, Ninja, and
+a C++11 toolchain (Clang or GCC). On Ubuntu: `git python3 cmake ninja-build clang zlib1g-dev`. Set `CC`/`CXX` to use GCC instead.
+
+Source preparation clones over HTTPS unless `GDCM_SOURCE_REPO` points at an existing
+local clone. No SSH host is used.
+
+## Prepare and build
+
+These commands prepare source and build artifacts only; they do not open any fixture.
+
+root@kitploit:~
+
+```
+./scripts/build-target.sh vulnerable asan  debug
+./scripts/build-target.sh vulnerable ubsan debug
+./scripts/build-target.sh master     asan  debug
+./scripts/build-target.sh master     ubsan debug
+```
+
+The third argument is the profile. `debug` is `-O0 -g`; `release` is `-O2 -g -DNDEBUG`,
+which elides GDCM's `gdcm_debug_assert()`s and matches how distributions build the
+library. Running the matrix under both answers the first question a maintainer asks,
+which is whether the reports are an artifact of an assertion-enabled build.
+
+`GDCM_SUPPORT_BROKEN_IMPLEMENTATION=ON` is GDCM's own default and is left alone.
+Override the conservative parallelism with `JOBS=8`.
+
+Every build writes `build-info.json` (revision, compiler, flags, platform) into its GDCM
+build tree, and every run summary embeds it, so archived evidence is self-describing.
+
+## Run
+
+root@kitploit:~
+
+```
+export GDCM_REPRO_ACK=I_UNDERSTAND_THIS_CRASHES_A_LOCAL_PROCESS
+
+./scripts/run-matrix.sh vulnerable master --profile debug   # all automated cases
+./scripts/run-one.sh vulnerable f1                          # one trigger
+./scripts/run-one.sh vulnerable f1 --control                # its control
+```
+
+`run-matrix.sh` runs every automated case for every target, does not stop at the first
+failure, and writes `_runs/matrix-<stamp>.json` plus a rendered
+`_runs/matrix-<stamp>.md`. The two-stage `f1-exploit` case remains manual and is reported
+as such rather than being misclassified as a failed automated case.
+
+Each child has core dumps disabled and a 15-second timeout; Finding 5 additionally gets a
+bounded stack limit. Outputs stay under `_runs/`. The classifier matches sanitizer class
+and implicated function, never addresses, PIDs, or source line numbers.
+
+For `vulnerable`, a case passes when the decisive signal appears and its control stays
+clean. For `master`, the runner records observation rather than a predeclared verdict.
+For `fixed`, a case passes only when the signal is absent, no other sanitizer or fatal
+signal appears, and the harness returns an allowed clean outcome. These rules are
+provisional until `FIXED_REV` names an actual patch; they must be reviewed against that
+patch's intended reject-or-process behavior.
+
+## Cases
+
+| Case | Finding | What it shows |
+| --- | --- | --- |
+| `f1` | 1 | ASan heap write in `RLECodec::DecodeFragment` |
+| `f1-exploit` | 1 | instrumented adjacent-object overwrite and indirect-branch control (Linux x86-64) |
+| `f2` | 2 | ASan heap write in `opj_write_from_memory` via `gdcmconv --j2k` |
+| `f2-lib` | 2 | the same write via `ImageChangeTransferSyntax::Change` |
+| `f3` | 3 | ASan heap read in segmented palette expansion |
+| `f3-propagation` | 3 | out-of-bounds bytes reach decoded pixels, reported as a count |
+| `f3-sentinel` | 3 | a bounded known guard word crosses the logical LUT bound |
+| `f4` | 4 | ASan heap write in JPEG2000 region decode |
+| `f5` | 5 | ASan stack exhaustion on nested sequence items |
+| `f6` | 6 | UBSan division by zero in RLE decode; SIGFPE on x86 |
+
+Two further harnes...

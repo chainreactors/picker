@@ -1,0 +1,217 @@
+---
+title: Philips-PM-5139-5138A-5136-Firmware-Project
+url: https://kitploit.com/en/tools/github/doctormord/philips-pm-5139-5138a-5136-firmware-project
+source: Kitploit
+date: 2026-09-11
+fetch_date: 2026-09-12T06:48:13.938158
+---
+
+# Philips-PM-5139-5138A-5136-Firmware-Project
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)
+
+GitHub
+
+/doctormord
+
+/philips-pm-5139-5138a-5136-firmware-project
+
+![](https://assets.kitploit.com/production/public/tools/54732/340e9c71cd77008e008354ec292d3dfa55078cd66e2f630425d3f43122820c4d-display-v1.webp)
+
+[Embedded Systems Security](/en/categories/embedded-systems-security)[Static Analysis](/en/categories/static-analysis)[Dynamic Analysis (Sandboxing)](/en/categories/dynamic-analysis-sandboxing)[Reverse Engineering](/en/categories/reverse-engineering)[Hardware Security](/en/categories/hardware-security)[Binary Analysis](/en/categories/binary-analysis)[Papers & Research](/en/categories/papers-research)[Learning & Education](/en/categories/education)[Firmware Analysis](/en/categories/firmware-analysis)
+
+![GitHub](/providers/github.png)doctormord/philips-pm-5139-5138a-5136-firmware-project
+
+# Philips-PM-5139-5138A-5136-Firmware-Project
+
+Firmware reverse engineering of the Philips PM5139 / PM5138A / PM5136 function generators: 8051 emulators used as measuring instruments, 35 sections of documented hardware, and a corrected firmware V2.0
+
+[View Repository](https://github.com/doctormord/philips-pm-5139-5138a-5136-firmware-project)
+
+2321 day ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# Philips PM5139 — Firmware Reverse Engineering
+
+A 20 MHz function generator from about 1994, taken apart in software: two
+EPROM dumps, an 8051 emulator used as a measuring instrument, and 35
+sections of documentation where every single claim is backed by a listing
+address, an emulator measurement, or the schematic.
+
+At the end of it there is a **firmware V2.0** that fixes a defect Philips
+shipped, six arbitrary waveforms of our own, and a browser simulator that
+runs the original ROM instruction by instruction.
+
+![All waveform tables in the V1.3 ROM](https://assets.kitploit.com/production/public/readmes/54732/5d4d938e543d911fc7c71b42076138767d8f6157ac1a3d047ebef5f8d6f51aa1/1c288b2e1c9bf6e6ddeb055b1cb116035ddf9506de186e61b6fe573caec70ee2-display-v1.webp)
+
+*Every waveform table in the program EPROM, plotted straight out of the
+binary. Bottom right is the one that started the most interesting part of
+this project.*
+
+---
+
+## Contents
+
+* [What this is](#what-this-is)
+* [Results at a glance](#results-at-a-glance)
+* [The instrument](#the-instrument)
+* [The method: the emulator is the measuring instrument](#the-method-the-emulator-is-the-measuring-instrument)
+* [The road here](#the-road-here)
+* [The good bits](#the-good-bits)
+* [Firmware V2.0 — what is new](#firmware-v20--what-is-new)
+* [The easter egg](#the-easter-egg)
+* [And then it turned out to be polyphonic](#and-then-it-turned-out-to-be-polyphonic)
+* [Six arbitrary waveforms of our own](#six-arbitrary-waveforms-of-our-own)
+* [The browser simulator](#the-browser-simulator)
+* [Repository layout](#repository-layout)
+
+[Using the tools](#using-the-tools)
+
+- [Reproducing everything](#reproducing-everything)
+
+- [Flashing it back](#flashing-it-back)
+
+- [How reliable is this?](#how-reliable-is-this)
+
+- [Still open](#still-open)
+
+- [Sources](#sources)
+
+---
+
+## What this is
+
+The Philips PM5139 is the 20 MHz top model of a three-instrument family
+(PM5136 / PM5138A / PM5139). Inside sits a PCB80C652 — an 8051 core with
+hardware I²C — a 27512 program EPROM, and six analogue assemblies hanging
+off a serial bus.
+
+There is **no PM5139 service manual**. People have been looking for one in
+forums since 2010. What exists is the manual for the PM5138A, its 10 MHz
+sister model, which is internally almost identical.
+
+So this project started from the other end: dump the EPROM, and work out
+what the code does until the instrument is understood well enough to
+modify it.
+
+Two firmware versions were available, **V1.3 and V1.5**, both 64 KiB
+M27512 dumps.
+
+---
+
+## Results at a glance
+
+|  |  |
+| --- | --- |
+| **Disassembly** | complete for both versions, ~23 000 lines, with cross-references |
+| **Annotated listing** | 147 named routines, 145 header comments, 3 826 annotated lines |
+| **Documentation** | 35 sections, 4 600 lines, every claim sourced |
+| **Signal path** | frequency, amplitude, offset, AM, FM, burst, symmetry, sweep — all computed and verified against the original code |
+| **Hardware** | all 10 strobes, the C-bus, I²C with every participant, ports, keyboard, rotary knob, display bitmap |
+| **State bits** | 75 of 128 with a documented effect |
+| **Version diff** | V1.3 vs V1.5 is 91.4 % structurally identical; every change named |
+| **Emulators** | one in Python, one in JavaScript (~8 M instructions/s), plus a single-file browser simulator |
+| **Our own firmware** | V2.0 — a factory defect fixed, checksum handled, verified in the emulator and on real hardware |
+
+---
+
+## The instrument
+
+| Position | Type | Function |
+| --- | --- | --- |
+| D301 | PCB80C652 | 8051 core with hardware I²C, 12 MHz |
+| D306 | 27512 | program EPROM — V1.3 occupies `0000h–AC70h` |
+| D310 | X28C64 | arbitrary EEPROM on the MOVX bus |
+| D305 | PCF8570 | 256 bytes of battery-backed NVRAM on I²C (`A0h`) |
+| D304-A | PCF8576 | LCD driver on I²C (`70h`), 20-byte buffer |
+| D302-A | SAA3007 | keyboard encoder, pulse-width coded on a single line |
+| D307 | 74HCT4514 | strobe decoder — the strobe number is address bits A8…A11 |
+
+The analogue side is a **serial C-bus**: the 8051's UART runs in shift
+register mode, TXD is the clock, RXD the data, and a strobe decides which
+of the ten shift registers latches the bytes. `MOV DPH,#8nh` followed by
+`MOVX @DPTR,A` fires strobe *n*. That one line is the key to the whole
+analogue section.
+
+---
+
+## The method: the emulator is the measuring instrument
+
+This is the part worth stealing for your own project.
+
+Reading a 44 KB 8051 binary by eye gets you maybe a third of the way.
+Everything past that came from **running the original code and watching
+what falls out**:
+
+root@kitploit:~
+
+```
+# What formula turns the entered amplitude into the byte on the bus?
+# Don't read the routine. Call it.
+c = CPU(rom)
+for w in test_values:
+    set_amplitude(c, w)
+    c.call(0x0AAC)          # the original routine, untouched
+    print(w, c.ram[0x1C])   # the byte that goes out on STR9
+```
+
+Vary the input, read the output, check it against the hypothesis. That
+worked for frequency, amplitude, offset, AM depth, FM deviation, burst
+count, symmetry and both sweep characteristics. Each formula in the
+documentation comes with the sample points it was verified over.
+
+Three refinements made it actually productive:
+
+**Watch the bus, not the display.** Section 15 measures what a state bit
+does to the display buffer, and 74 of 128 bits appear to do nothing. But
+many of them don't drive the display, they drive the *analogue
+assemblies* — and those are only visible as telegrams on the C-bus.
+Recording `MOV SBUF,…` and the terminating `MOVX @DPTR` lifted the count
+of documented bits from 54 to 75.
+
+**Press keys, don't poke RAM.** Setting a RAM byte by hand produces
+states the instrument never takes. That cost us two wrong findings and
+one crash into the command...
