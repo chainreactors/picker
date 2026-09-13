@@ -1,0 +1,180 @@
+---
+title: firecracker v1.17.0
+url: https://kitploit.com/en/posts/github-firecracker-microvm-firecracker-v1170
+source: Kitploit
+date: 2026-09-12
+fetch_date: 2026-09-13T07:01:32.170404
+---
+
+# firecracker v1.17.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/50781/a1a37e8c64a72ced259fe81774e5ca8ebf93dd800a4c74037fdaeec6bda58425-display-v1.webp)
+
+New releaseSep 12, 2026
+
+# firecracker v1.17.0
+
+Secure and fast microVMs for serverless computing.
+
+Share
+
+![Firecracker Logo Title](https://assets.kitploit.com/production/public/readmes/50781/a1a37e8c64a72ced259fe81774e5ca8ebf93dd800a4c74037fdaeec6bda58425/6bc161c18b454a0f6d6be893381c8be7c2ecf45371096b4e0ccca4625282984c-display-v1.webp)
+
+Our mission is to enable secure, multi-tenant, minimal-overhead execution of
+container and function workloads.
+
+Read more about the Firecracker Charter [here](https://github.com/firecracker-microvm/firecracker/blob/main/CHARTER.md).
+
+## What is Firecracker?
+
+Firecracker is an open source virtualization technology that is purpose-built
+for creating and managing secure, multi-tenant container and function-based
+services that provide serverless operational models. Firecracker runs workloads
+in lightweight virtual machines, called microVMs, which combine the security and
+isolation properties provided by hardware virtualization technology with the
+speed and flexibility of containers.
+
+## Overview
+
+The main component of Firecracker is a virtual machine monitor (VMM) that uses
+the Linux Kernel Virtual Machine (KVM) to create and run microVMs. Firecracker
+has a minimalist design. It excludes unnecessary devices and guest-facing
+functionality to reduce the memory footprint and attack surface area of each
+microVM. This improves security, decreases the startup time, and increases
+hardware utilization. Firecracker has also been integrated in container
+runtimes, for example
+[Kata Containers](https://github.com/kata-containers/kata-containers) and
+[Flintlock](https://github.com/liquidmetal-dev/flintlock).
+
+Firecracker was developed at Amazon Web Services to accelerate the speed and
+efficiency of services like [AWS Lambda](https://aws.amazon.com/lambda/) and
+[AWS Fargate](https://aws.amazon.com/fargate/). Firecracker is open sourced
+under [Apache version 2.0](https://github.com/firecracker-microvm/firecracker/blob/main/LICENSE).
+
+To read more about Firecracker, check out
+[firecracker-microvm.io](https://firecracker-microvm.github.io).
+
+## Getting Started
+
+To get started with Firecracker, download the latest
+[release](https://github.com/firecracker-microvm/firecracker/releases) binaries
+or build it from source.
+
+You can build Firecracker on any Unix/Linux system that has Docker running (we
+use a development container) and `bash` installed, as follows:
+
+root@kitploit:~
+
+```
+git clone https://github.com/firecracker-microvm/firecracker
+cd firecracker
+tools/devtool build
+toolchain="$(uname -m)-unknown-linux-musl"
+```
+
+The Firecracker binary will be placed at
+`build/cargo_target/${toolchain}/debug/firecracker`. For more information on
+building, testing, and running Firecracker, go to the
+[quickstart guide](https://github.com/firecracker-microvm/firecracker/blob/main/docs/getting-started.md).
+
+The overall security of Firecracker microVMs, including the ability to meet the
+criteria for safe multi-tenant computing, depends on a well configured Linux
+host operating system. A configuration that we believe meets this bar is
+included in [the production host setup document](https://github.com/firecracker-microvm/firecracker/blob/main/docs/prod-host-setup.md).
+
+## Contributing
+
+Firecracker is already running production workloads within AWS, but it's still
+Day 1 on the journey guided by our [mission](https://github.com/firecracker-microvm/firecracker/blob/main/CHARTER.md). There's a lot more to
+build and we welcome all contributions.
+
+To contribute to Firecracker, check out the development setup section in the
+[getting started guide](https://github.com/firecracker-microvm/firecracker/blob/main/docs/getting-started.md) and then the Firecracker
+[contribution guidelines](https://github.com/firecracker-microvm/firecracker/blob/main/CONTRIBUTING.md).
+
+## Releases
+
+New Firecracker versions are released via the GitHub repository
+[releases](https://github.com/firecracker-microvm/firecracker/releases) page,
+typically every two or three months. A history of changes is recorded in our
+[changelog](https://github.com/firecracker-microvm/firecracker/blob/main/CHANGELOG.md).
+
+The Firecracker release policy is detailed [here](https://github.com/firecracker-microvm/firecracker/blob/main/docs/RELEASE_POLICY.md).
+
+## Design
+
+Firecracker's overall architecture is described in
+[the design document](https://github.com/firecracker-microvm/firecracker/blob/main/docs/design.md).
+
+## Features & Capabilities
+
+Firecracker consists of a single micro Virtual Machine Manager process that
+exposes an API endpoint to the host once started. The API is
+[specified in OpenAPI format](https://github.com/firecracker-microvm/firecracker/blob/main/src/firecracker/swagger/firecracker.yaml). Read
+more about it in the [API docs](https://github.com/firecracker-microvm/firecracker/blob/main/docs/api_requests).
+
+The **API endpoint** can be used to:
+
+* Configure the microvm by:
+  + Setting the number of vCPUs (the default is 1).
+  + Setting the memory size (the default is 128 MiB).
+  + Configuring a [CPU template](https://github.com/firecracker-microvm/firecracker/blob/main/docs/cpu_templates/cpu-templates.md).
+* Add one or more network interfaces to the microVM.
+* Add one or more read-write or read-only disks to the microVM, each represented
+  by a file-backed block device.
+* Trigger a block device re-scan while the guest is running. This enables the
+  guest OS to pick up size changes to the block device's backing file.
+* Change the backing file for a block device, before or after the guest boots.
+* Configure rate limiters for virtio devices which can limit the bandwidth,
+  operations per second, or both.
+* Configure the logging and metric system.
+* `[BETA]` Configure the data tree of the guest-facing metadata service. The
+  service is only available to the guest if this resource is configured.
+* Add a [vsock socket](https://github.com/firecracker-microvm/firecracker/blob/main/docs/vsock.md) to the microVM.
+* Add a [entropy device](https://github.com/firecracker-microvm/firecracker/blob/main/docs/entropy.md) to the microVM.
+* Add a [pmem device](https://github.com/firecracker-microvm/firecracker/blob/main/docs/pmem.md) to the microVM.
+* Configure and manage [memory hotplugging](https://github.com/firecracker-microvm/firecracker/blob/main/docs/memory-hotplug.md).
+* `[Developer Preview]` [Hot-plug and hot-unplug](https://github.com/firecracker-microvm/firecracker/blob/main/docs/device-hotplug.md) virtio
+  PCI devices while the VM is running.
+* Start the microVM using a given kernel image, root file system, and boot
+  arguments.
+* [x86\_64 only] Stop the microVM.
+
+**Built-in Capabilities**:
+
+* Demand fault paging and CPU oversubscription enabled by default.
+* Advanced, thread-specific seccomp filters for enhanced security.
+* [Jailer](https://github.com/firecracker-microvm/firecracker/blob/main/docs/jailer.md) process for starting Firecracker in production
+  scenarios; applies a cgroup/namespace isolation barrier and then drops
+  privileges.
+
+## Tested platforms
+
+We test all combinations of:
+
+| Instance | Host OS & Kernel | Guest Rootfs | Guest Kernel |
+| --- | --- | --- | --- |
+| m5n.metal (Intel Cascade Lake) | al2 linux\_5.10 | ubuntu 24.04 | linux\_5.10 |
+| m6i.metal (Intel Ice Lake) | al2023 linux\_6.1 |  | linux\_6.1 |
+|  | al2023 linux\_6.18 |  |  |
+| m7i.metal-24xl (Intel Sapphire Rapids) |  |  |  |
+| m7i.metal-48xl (Intel Sapphire Rapids) |  |  |  |
+| **m8i.metal-48xl (Intel Granite Rapids)\*** |  |  |  |...

@@ -1,0 +1,213 @@
+---
+title: ADRecon
+url: https://kitploit.com/en/tools/github/adrecon/adrecon
+source: Kitploit
+date: 2026-09-12
+fetch_date: 2026-09-13T07:01:28.419037
+---
+
+# ADRecon
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/adrecon/adrecon
+
+![](https://assets.kitploit.com/production/public/tools/54790/613dd385166320a4ce20545bd01cdc7bd0a1a1b8fd76620838743516c8e425b0-display-v1.webp)
+
+[Defensive Tools](/en/categories/defensive-tools)[Reconnaissance](/en/categories/reconnaissance)[Vulnerability Analysis](/en/categories/vulnerability-analysis)[Scripting & Automation](/en/categories/scripting-automation)[Information Gathering](/en/categories/information-gathering)[Post-Exploitation](/en/categories/post-exploitation)[Digital Forensics](/en/categories/digital-forensics)[Penetration Testing](/en/categories/penetration-testing)[Incident Response](/en/categories/incident-response)
+
+![GitHub](/providers/github.png)adrecon/adrecon
+
+# ADRecon
+
+PowerShell tool that extracts Active Directory artifacts via LDAP or ADWS and generates Excel reports for auditing, DFIR, and penetration testing.
+
+980124271 year ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+[View Repository](https://github.com/adrecon/adrecon)
+
+Share
+
+# ADRecon: Active Directory Recon [![Follow ADRecon on Twitter](https://img.shields.io/twitter/follow/ad_recon.svg?style=social&label=Follow%20@ad_recon)](https://twitter.com/intent/user?screen_name=ad_recon "Follow ADRecon on Twitter")
+
+This [repo](https://github.com/adrecon/ADRecon) contains updates to the original [concept and code](https://github.com/sense-of-security/adrecon) by Prashant Mahajan (@prashant3535) while working at [Sense of Security](https://senseofsecurity.com.au).
+
+ADRecon is a tool which extracts and combines various artefacts (as highlighted below) out of an AD environment. The information can be presented in a specially formatted Microsoft Excel report that includes summary views with metrics to facilitate analysis and provide a holistic picture of the current state of the target AD environment.
+
+The tool is useful to various classes of security professionals like auditors, DFIR, students, administrators, etc. It can also be an invaluable post-exploitation tool for a penetration tester.
+
+It can be run from any workstation that is connected to the environment, even hosts that are not domain members. Furthermore, the tool can be executed in the context of a non-privileged (i.e. standard domain user) account. Fine Grained Password Policy, LAPS and BitLocker may require Privileged user accounts. The tool will use Microsoft Remote Server Administration Tools (RSAT) if available, otherwise it will communicate with the Domain Controller using LDAP.
+
+The following information is gathered by the tool:
+
+* Forest;
+* Domain;
+* Trusts;
+
+- Sites;
+
+- Subnets;
+
+- Schema History;
+
+- Default and Fine Grained Password Policy (if implemented);
+
+- Domain Controllers, SMB versions, whether SMB Signing is supported and FSMO roles;
+
+- Users and their attributes;
+
+- Service Principal Names (SPNs);
+
+- Groups, memberships and changes;
+
+- Organizational Units (OUs);
+
+- GroupPolicy objects and gPLink details;
+
+- DNS Zones and Records;
+
+- Printers;
+
+- Computers and their attributes;
+
+- PasswordAttributes (Experimental);
+
+- LAPS passwords (if implemented);
+
+- BitLocker Recovery Keys (if implemented);
+
+- ACLs (DACLs and SACLs) for the Domain, OUs, Root Containers, GPO, Users, Computers and Groups objects (not included in the default collection method);
+
+- GPOReport (requires RSAT);
+
+- Kerberoast (not included in the default collection method); and
+
+- Domain accounts used for service accounts (requires privileged account and not included in the default collection method).
+
+ADRecon was presented at: [![Black Hat Arsenal Asia 2018](https://raw.githubusercontent.com/toolswatch/badges/master/arsenal/asia/2018.svg)](https://www.blackhat.com/asia-18/arsenal.html#adrecon-active-directory-recon) - [Slidedeck](https://speakerdeck.com/prashant3535/adrecon-bh-asia-2018-arsenal-presentation)
+
+[![Black Hat Arsenal USA 2018](https://raw.githubusercontent.com/toolswatch/badges/master/arsenal/usa/2018.svg)](https://www.blackhat.com/us-18/arsenal/schedule/index.html#adrecon-active-directory-recon-11912) | [![DEFCON 26 Demolabs](https://hackwith.github.io/badges/defcon/26/demolabs.svg)](https://www.defcon.org/html/defcon-26/dc-26-demolabs.html) - [Slidedeck](https://speakerdeck.com/prashant3535/adrecon-bh-usa-2018-arsenal-and-def-con-26-demo-labs-presentation)
+
+[Bay Area OWASP](https://www.meetup.com/en-AU/Bay-Area-OWASP/events/253585385/) - [Slidedeck](https://speakerdeck.com/prashant3535/active-directory-recon-101-owasp-bay-area-presentation)
+
+[CHCON](https://2018.chcon.nz/mainevent.html) - [Slidedeck](https://speakerdeck.com/prashant3535/adrecon-detection-chcon-2018)
+
+## Getting Started
+
+These instructions will get you a copy of the tool up and running on your local machine.
+
+### Prerequisites
+
+* .NET Framework 3.0 or later (Windows 7 includes 3.0)
+* PowerShell 2.0 or later (Windows 7 includes 2.0)
+  + Powershell Core on Windows is supported (Tested on PowerShell v7.2.2 running on Windows 10)
+* A Windows host (Powershell for Linux/macOS is not supported)
+
+### Optional
+
+* Microsoft Excel (to generate the report)
+* Remote Server Administration Tools (RSAT):
+  + Windows 10 (October 2018 Update or 1809 and later), RSAT is included as a set of `Features on Demand`.
+    - Click on Start --> Settings --> Apps --> Apps & features --> Manage optional features --> Add a feature --> Select the following:
+      * RSAT: Active Directory Domain Services and Lightweight Directory Services Tools
+      * RSAT: Group Policy Management Tools
+  + Windows 10 (<https://www.microsoft.com/en-au/download/details.aspx?id=45520>)
+  + Windows 7 (<https://www.microsoft.com/en-au/download/details.aspx?id=7887>)
+
+### Installing
+
+If you have git installed, you can start by cloning the [repository](https://github.com/adrecon/ADRecon/):
+
+root@kitploit:~
+
+```
+git clone https://github.com/adrecon/ADRecon.git
+```
+
+Otherwise, you can [download a zip archive of the latest release](https://github.com/adrecon/ADRecon/archive/master.zip). The intent is to always keep the master branch in a working state.
+
+## Usage
+
+### Examples
+
+To run ADRecon on a domain member host.
+
+root@kitploit:~
+
+```
+PS C:\> .\ADRecon.ps1
+```
+
+To run ADRecon on a domain member host as a different user.
+
+root@kitploit:~
+
+```
+PS C:\>.\ADRecon.ps1 -DomainController <IP or FQDN> -Credential <domain\username>
+```
+
+To run ADRecon on a non-member host using LDAP.
+
+root@kitploit:~
+
+```
+PS C:\>.\ADRecon.ps1 -Method LDAP -DomainController <IP or FQDN> -Credential <domain\username>
+```
+
+To run ADRecon with specific modules on a non-member host with RSAT. (Default OutputType is STDOUT with -Collect parameter)
+
+root@kitploit:~
+
+```
+PS C:\>.\ADRecon.ps1 -Method ADWS -DomainController <IP or FQDN> -Credential <domain\username> -Collect Domain, DomainControllers
+```
+
+To generate the ADRecon-Report.xlsx based on ADRecon output (CSV Files).
+
+root@kitploit:~
+
+```
+PS C:\>.\ADRecon.ps1 -GenExcel C:\ADRecon-Report-<timestamp>
+```
+
+When you run ADRecon, a `ADRecon-Report-<timestamp>` folder...

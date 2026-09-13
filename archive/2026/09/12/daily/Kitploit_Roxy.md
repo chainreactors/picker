@@ -1,0 +1,167 @@
+---
+title: Roxy
+url: https://kitploit.com/en/tools/github/vid4l-07/roxy
+source: Kitploit
+date: 2026-09-12
+fetch_date: 2026-09-13T07:01:27.804543
+---
+
+# Roxy
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/vid4l-07/roxy
+
+![](https://assets.kitploit.com/production/public/tools/54787/9f098e1088efc0770ac948afb3a1e0c31ac8d5a4f786b9085807144e62ad9a10-display-v1.webp)
+
+[Web Proxies & Interception](/en/categories/web-proxies-interception)[Web Application Exploitation](/en/categories/web-application-exploitation)[API Security Testing](/en/categories/api-security-testing)[Web Security](/en/categories/web-security)[Penetration Testing](/en/categories/penetration-testing)[Utilities & Frameworks](/en/categories/utilities-frameworks)
+
+![GitHub](/providers/github.png)vid4l-07/roxy
+
+# Roxy
+
+Terminal-based HTTP intercepting proxy with TUI for capturing, inspecting, and modifying requests in real time, plus a Repeater for resending and tweaking requests.
+
+[View Repository](https://github.com/vid4l-07/roxy)
+
+4234 days ago![Not yet reviewed](/_next/image?url=%2Fbadges%2Fkitploit_badge_not_reviewed_full.png&w=48&q=75)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# Roxy
+
+Minimal terminal-based HTTP intercepting proxy.
+
+<https://github.com/user-attachments/assets/94f9c9ae-5842-4b19-9f5b-84dedb9430e6>
+
+## Overview
+
+Roxy is a lightweight HTTP intercepting proxy with a terminal user interface (TUI) built in Rust. It allows you to capture, inspect, and modify HTTP requests in real time before they reach the server. Think of it as a minimal, terminal-native alternative to Burp Suite for HTTP traffic analysis.
+
+## Features
+
+* **HTTP Interception** — Capture and inspect requests in real time before they reach the server.
+* **Request Editing** — Modify intercepted requests on the fly using your preferred external editor.
+* **Repeater** — Resend and tweak requests manually, similar to Burp Suite's Repeater.
+* **Multiple Tabs** — Organize different requests in separate Repeater tabs.
+* **Vim-style Navigation** — Scroll with `j`/`k` for efficient keyboard-driven workflow.
+* **Custom TUI** — Clean, responsive interface built with [ratatui](https://github.com/ratatui/ratatui).
+
+## Installation
+
+### Build from source
+
+root@kitploit:~
+
+```
+git clone https://github.com/vid4l-07/Roxy.git
+cd Roxy
+cargo build --release
+```
+
+The binary will be available at `target/release/roxy`.
+
+## Usage
+
+Configure your browser or HTTP client to use `127.0.0.1:8080` as a proxy.
+
+### Global
+
+| Key | Action |
+| --- | --- |
+| `q` | Quit |
+| `Tab` | Switch between Proxy and Repeater screens |
+
+### Proxy
+
+### Repeater
+
+### External Editor
+
+When you press `e`, the request is opened in the editor defined by `$EDITOR`. If `$EDITOR` is not set, the command will fail with an error message. Edit the raw request, save, and exit. The modified request will replace the original, and `Content-Length` is automatically recalculated.
+
+### How it works
+
+1. **Proxy** listens on `127.0.0.1:8080` for incoming HTTP connections.
+2. When intercept is **ON**, incoming requests are captured and displayed in the TUI.
+3. The user can **forward** the request as-is, **edit** it in an external editor, or **send it to Repeater**.
+4. **Repeater** allows resending requests independently and viewing responses side-by-side.
+5. Communication between the TUI and the proxy happens via async channels (`tokio::mpsc`).
+
+## Contributions
+
+Contributions are always welcome. If you find a bug or want to help with new features, you can:
+
+* Open an issue in the repository.
+* Open a pull request.
+
+[Download Tool](https://github.com/vid4l-07/roxy)
+
+| Key | Action |
+| --- | --- |
+
+|  |  |
+| --- | --- |
+| `i` | Toggle intercept ON/OFF |
+| `Enter` | Forward the intercepted request |
+| `e` | Edit request in external editor |
+| `r` | Send request to Repeater |
+| `↑`/`k` | Scroll up |
+| `↓`/`j` | Scroll down |
+
+| Key | Action |
+| --- | --- |
+
+|  |  |
+| --- | --- |
+| `Enter` | Send the current request |
+| `e` | Edit request in external editor |
+| `r` | Rename current tab |
+| `n` | Next repeater tab |
+| `p` | Previous repeater tab |
+| `x` | Close current tab |
+| `↑`/`k` | Scroll up |
+| `↓`/`j` | Scroll down |
+| `←`/`h` / `→`/`l` | Toggle focus between Request and Response panels |
+| `H` | Decrease Request panel width |
+| `L` | Increase Request panel width |

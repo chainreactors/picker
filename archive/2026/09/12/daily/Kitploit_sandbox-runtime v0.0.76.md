@@ -1,0 +1,204 @@
+---
+title: sandbox-runtime v0.0.76
+url: https://kitploit.com/en/posts/github-anthropic-experimental-sandbox-runtime-v0076
+source: Kitploit
+date: 2026-09-12
+fetch_date: 2026-09-13T07:01:31.898733
+---
+
+# sandbox-runtime v0.0.76
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/9119/f4c6568cf608950e47b2a284fb8cb02d865a9e024fc285b153dbf928375ed7c5.png)
+
+New releaseSep 12, 2026
+
+# sandbox-runtime v0.0.76
+
+A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.
+
+Share
+
+# Anthropic Sandbox Runtime (srt)
+
+A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.
+
+`srt` uses native OS sandboxing primitives (`sandbox-exec` on macOS, `bubblewrap` on Linux) and proxy-based network filtering. It can be used to sandbox the behaviour of agents, local MCP servers, bash commands and arbitrary processes.
+
+> **Beta Research Preview**
+>
+> The Sandbox Runtime is a research preview developed for [Claude Code](https://www.claude.com/product/claude-code) to enable safer AI agents. It's being made available as an early open source preview to help the broader ecosystem build more secure agentic systems. As this is an early research preview, APIs and configuration formats may evolve. We welcome feedback and contributions to make AI agents safer by default!
+
+## Installation
+
+root@kitploit:~
+
+```
+npm install -g @anthropic-ai/sandbox-runtime
+```
+
+## Basic Usage
+
+root@kitploit:~
+
+```
+# Network restrictions
+$ srt "curl anthropic.com"
+Running: curl anthropic.com
+<html>...</html>  # Request succeeds
+
+$ srt "curl example.com"
+Running: curl example.com
+Connection blocked by network allowlist  # Request blocked
+
+# Filesystem restrictions
+$ srt "cat README.md"
+Running: cat README.md
+# Anthropic Sandb...  # Current directory access allowed
+
+$ srt "cat ~/.ssh/id_rsa"
+Running: cat ~/.ssh/id_rsa
+cat: /Users/ollie/.ssh/id_rsa: Operation not permitted  # Specific file blocked
+```
+
+## Overview
+
+This package provides a standalone sandbox implementation that can be used as both a CLI tool and a library. It's designed with a **secure-by-default** philosophy tailored for common developer use cases: processes start with minimal access, and you explicitly poke only the holes you need.
+
+**Key capabilities:**
+
+* **Network restrictions**: Control which hosts/domains can be accessed via HTTP/HTTPS and other protocols
+* **Filesystem restrictions**: Control which files/directories can be read/written
+* **Unix socket restrictions**: Control access to local IPC sockets
+* **Violation monitoring**: On macOS, tap into the system's sandbox violation log store for real-time alerts
+
+### Example Use Case: Sandboxing MCP Servers
+
+A key use case is sandboxing Model Context Protocol (MCP) servers to restrict their capabilities. For example, to sandbox the filesystem MCP server:
+
+**Without sandboxing** (`.mcp.json`):
+
+root@kitploit:~
+
+```
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem"]
+    }
+  }
+}
+```
+
+**With sandboxing** (`.mcp.json`):
+
+root@kitploit:~
+
+```
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "srt",
+      "args": ["npx", "-y", "@modelcontextprotocol/server-filesystem"]
+    }
+  }
+}
+```
+
+Then configure restrictions in `~/.srt-settings.json`:
+
+root@kitploit:~
+
+```
+{
+  "filesystem": {
+    "denyRead": [],
+    "allowWrite": ["."],
+    "denyWrite": ["~/sensitive-folder"]
+  },
+  "network": {
+    "allowedDomains": [],
+    "deniedDomains": []
+  }
+}
+```
+
+Now the MCP server will be blocked from writing to the denied path:
+
+root@kitploit:~
+
+```
+> Write a file to ~/sensitive-folder
+✗ Error: EPERM: operation not permitted, open '/Users/ollie/sensitive-folder/test.txt'
+```
+
+## How It Works
+
+The sandbox uses OS-level primitives to enforce restrictions that apply to the entire process tree:
+
+* **macOS**: Uses `sandbox-exec` with dynamically generated [Seatbelt profiles](https://reverse.put.as/wp-content/uploads/2011/09/Apple-Sandbox-Guide-v1.0.pdf)
+* **Linux**: Uses [bubblewrap](https://github.com/containers/bubblewrap) for containerization with network namespace isolation
+* **Windows**: Runs the sandboxed process under a dedicated `srt-sandbox` local user account, with a [Windows Filtering Platform](https://learn.microsoft.com/en-us/windows/win32/fwp/windows-filtering-platform-start-page) egress fence keyed on that account's SID and per-session explicit ACEs on the working tree
+
+0d1c612947c798aef48e6ab4beb7e8544da9d41a-4096x2305
+
+### Dual Isolation Model
+
+Both filesystem and network isolation are required for effective sandboxing. Without file isolation, a compromised process could exfiltrate SSH keys or other sensitive files. Without network isolation, a process could escape the sandbox and gain unrestricted network access.
+
+**Filesystem Isolation** enforces read and write restrictions:
+
+* **Read** (deny-then-allow pattern): By default, read access is allowed everywhere. You can deny broad regions (e.g., `/Users`) and then re-allow specific paths within them (e.g., `.`). `allowRead` takes precedence over `denyRead` — the opposite of write, where `denyWrite` takes precedence over `allowWrite`. A `denyRead` entry that is more specific than the `allowRead` region it falls inside (e.g. `denyRead: ["**/.env"]` or `["./secrets"]` with `allowRead: ["."]`) still stays denied.
+* **Write** (allow-only pattern): By default, write access is denied everywhere. You must explicitly allow paths (e.g., `.`, `/tmp`). An empty allow list means no write access.
+
+**Network Isolation** (allow-only pattern): By default, all network access is denied. You must explicitly allow domains. An empty allowedDomains list means no network access. Network traffic is routed through proxy servers running on the host:
+
+* **Linux**: Requests are routed via the filesystem over a Unix domain socket. The network namespace of the sandboxed process is removed entirely, so all network traffic must go through the proxies running on the host (listening on Unix sockets that are bind-mounted into the sandbox)
+* **macOS**: The Seatbelt profile allows communication only to a specific localhost port. The proxies listen on this port, creating a controlled channel for all network access
+* **Windows**: A machine-wide WFP filter set blocks all outbound connections originating from the `srt-sandbox` account except loopback to the proxy port range. The proxies listen inside that range, creating a controlled channel for all network access
+
+Both HTTP/HTTPS (via HTTP proxy) and other TCP traffic (via SOCKS5 proxy) are mediated by these proxies, which enforce your domain allowlists and denylists.
+
+For more details on sandboxing in Claude Code, see:
+
+* [Claude Code Sandboxing Documentation](https://docs.claude.com/en/docs/claude-code/sandboxing)
+* [Beyond Permission Prompts: Making Claude Code More Secure and Autonomous](https://www.anthropic.com/engineering/claude-code-sandboxing)
+
+## Architecture
+
+root@kitploit:~
+
+```
+src/
+├── index.ts                  # Library exports
+├── cli.ts                    # CLI entrypoint (srt command)
+├── utils/                    # Shared utilities
+│   ├── debug.ts             # Debug logging
+│   ├── settings.ts          # Settings reader (permissions + sandbox config)
+│   ├── platform.ts          # Platform detection
+│   └── exec.ts              # Command execution utilities
+└── sandbox/                  # Sandbox implementation
+    ├── sandbox-manager.ts    # Main sandbox manager
+    ├── sandbox-schemas.ts    # Zod schemas for validation
+    ├── sandbox-violation-store.ts # Violation tracking
+    ├── sandbox-utils.ts      # Shared sandbox utilities
+    ├── http-proxy.ts         # HTTP/HTTPS proxy for network filtering
+    ├── socks-proxy.ts        # SO...

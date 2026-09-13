@@ -1,0 +1,80 @@
+---
+title: COPG v6.9.8
+url: https://kitploit.com/en/posts/github-alirezaparsi-copg-v698
+source: Kitploit
+date: 2026-09-12
+fetch_date: 2026-09-13T07:01:29.849345
+---
+
+# COPG v6.9.8
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/7356/6071daf4c8ea07909be185284e988c63a939fc1819a5f2ba374c0636cd5475d5.png)
+
+New releaseSep 12, 2026
+
+# COPG v6.9.8
+
+Advanced per-app device / CPU / GPU spoofer for rooted Android — device profiles, per-app CPU models, prop & Android-ID spoofing, all driven by a full on-device WebUI. Zygisk module for KernelSU / Magisk / APatch.
+
+Share
+
+![COPG banner](https://assets.kitploit.com/production/public/readmes/7356/6071daf4c8ea07909be185284e988c63a939fc1819a5f2ba374c0636cd5475d5.png)
+
+# 🎮 COPG
+
+**The most advanced device & CPU spoofer for Android — bypass restrictions and unlock premium graphics, higher FPS and exclusive features on most games and apps.**
+
+[![Version](https://img.shields.io/badge/version-6.7.0-818cf8?style=for-the-badge)](https://github.com/AlirezaParsi/COPG/releases)
+[![Zygisk](https://img.shields.io/badge/Zygisk-Compatible-34d399?style=for-the-badge)](https://github.com/topjohnwu/Magisk)
+[![Android](https://img.shields.io/badge/Android-9.0+-3ddc84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com/)
+[![Downloads](https://img.shields.io/github/downloads/AlirezaParsi/COPG/total?style=for-the-badge&color=f59e0b)](https://github.com/AlirezaParsi/COPG/releases)
+[![License](https://img.shields.io/github/license/AlirezaParsi/COPG?style=for-the-badge&color=a78bfa)](LICENSE)
+
+[![Install](https://img.shields.io/badge/%E2%AC%87_Install-818cf8?style=for-the-badge)](#-installation)
+[![WebUI](https://img.shields.io/badge/%F0%9F%96%A5_WebUI-1f2937?style=for-the-badge)](#-webui)
+[![FAQ](https://img.shields.io/badge/%E2%9D%93_FAQ-1f2937?style=for-the-badge)](#-faq)
+[![Telegram](https://img.shields.io/badge/%F0%9F%92%AC_Telegram-2CA5E0?style=for-the-badge)](https://t.me/COPG_module)
+[![Support](https://img.shields.io/badge/Support-f59e0b?style=for-the-badge&logo=bitcoin&logoColor=white)](#-support-copg)
+
+---
+
+## ✨ Why COPG?
+
+COPG is a **Zygisk module** that makes most games and apps believe they are running on a different,
+fully‑featured flagship device — unlocking the high‑FPS modes, HD graphics and premium tiers that
+are otherwise gated to specific hardware. It pairs that with a **CPU spoofer**, a userspace
+**comfort‑tweak controller**, and a beautiful on‑device **WebUI** to manage everything — all
+**without rebooting**.
+
+|  |  |
+| --- | --- |
+| 🎯 Device Spoofing Per‑app device profiles (brand, model, fingerprint, SDK, **baseband**, **per‑app serial** and 12 extra Build fields) so each game sees the exact flagship it rewards. ⚙️ CPU Spoofing Spoof the CPU to flagship‑class silicon for apps that gate features on the chipset. 🎨 GPU Spoofing *(PRO · opt‑in)* Spoof the **GPU** — OpenGL renderer/vendor & Vulkan device name — per app for games that gate graphics on the chip. **GPU spoofing is a PRO feature** (unlocked with a license). It's a **resident** hook, so it sits behind a clear *use‑at‑your‑own‑risk* gate — **never enable it for anti‑cheat games.** 🖥️ Refresh‑Rate Spoof *(free)* Make an app read a **custom display refresh rate** (e.g. 120 / 144 / 165 Hz) — the current rate **and** the full supported‑modes list — for device‑info apps and games that show or gate on the panel's Hz. Resident hook behind a *use‑at‑your‑own‑risk* gate — never for anti‑cheat games. 📡 IMEI & Device ID *(PRO)* Fake the **IMEI / device ID** — **per app**, or **device‑wide** with the new **Global IMEI** (hooks the phone service so Settings, `*#06#` and every app read it; runs in a separate process apps can't scan, so **no risk gate**). 🔒 DRM / Widevine *(PRO)* Report a higher **Widevine security level** (L1 / L2 / L3) and spoof the DRM **device & system ID** for apps that gate or display it. 🌍 Timezone & Language *(free)* Give each app its own **timezone** and its own **language / region** (BCP‑47) — apps read and even **render** in the fake locale. Applied the stealth, system‑side way, so nothing loads into the app. ⏱️ Fake Uptime *(PRO)* Make an app think the device has been running for **days** — shifts both the Java and native uptime readers, useful against anti‑fraud / referral flows that distrust a freshly‑reset device. 🌐 WebView User‑Agent *(PRO)* Give any WebView‑based app its own **browser User‑Agent** — from a reusable named profile — for sites and in‑app pages that gate content, layout or pricing on the browser identity. 📸 Screenshot & Storage Unlocks *(free)* **Disable FLAG\_SECURE** device‑wide to screenshot / screen‑record apps that block it (banking, chat, wallets) — done in the system, invisible to the app · **No Storage Restrict** re‑enables picking Android/data, obb, the SD‑card root and Download in the system file picker. Both toggle with no reboot. 🎟️ Play Source & PairIP Bypass *(PRO)* Make an app look **Play‑installed** (installer → Google Play) and **block Google's PairIP license check** so paid / locked apps open normally. Both run in the system, out of the app — nothing loads into the app's process, so they're **not detectable**. | 🧬 Prop Spoofing & Android ID Stealth **copy‑on‑write** prop spoof (fingerprint, build props & more) *(PRO)* and per‑app **Android ID** *(PRO)* — both are stealth: the module unloads before the game runs, so nothing of COPG stays mapped in memory — safe even for anti‑cheat games. (CPU spoof, device profiles, Build/serial fields and block‑CPU stay free.) 📶 SIM / Carrier Spoofing *(PRO)* Make an app read a different **network carrier** — name, operator code (MCC/MNC) & country — per app, even a **different carrier per SIM slot**. **Safe** mode is fully stealth (anti‑cheat safe); **Aggressive** mode also covers the newer subscription API but is resident (opt‑in, never for anti‑cheat games). 🆔 Per‑App Advertising ID *(PRO)* Give each app its **own Google Advertising ID** — automatic per‑app, or pin an exact UUID — for ad / reward / referral / multi‑account apps where each install should look like a different device. 🧩 Per‑App App Set ID *(PRO)* Give each app its **own Google App Set ID** — the resettable fingerprint signal ad / analytics SDKs read via Play Services — automatic per‑app, or pin an exact UUID, so each looks like a separate device. It's a **resident** hook behind a *use‑at‑your‑own‑risk* gate — **never for anti‑cheat games.** 🌐 Per‑App Proxy *(PRO)* Route a single app through your own **SOCKS5 / HTTP / SOCKS4** proxy so its traffic exits from that IP and country — no VPN, no interface the app can see, nothing runs inside the app (kernel‑level, ban‑safe). Save proxies and assign one per app; pair with a matching SIM/region so device, SIM and IP all agree. 📍 GPS Location Spoof *(PRO)* Put an app **anywhere on the map** — pick a country/city from the built‑in list (135 places) or drop in your own latitude/longitude. Covers the normal location APIs **and** Google's Fused/GMS provider; only lat/lng change (accuracy/altitude stay real). Resident hook behind a *use‑at‑your‑own‑risk* gate — never for anti‑cheat games. 🛡️ Privacy Hides **Hide VPN** — covers both the Java (network‑interface / capabilities) and native interface checks, pairip‑safe *(free)* · **Mock‑Location hide** *(PRO)* · **Hide Developer Options + USB debugging** (free) — pass the checks that banking & privacy‑sensitive apps run. 🎛️ Per‑App Comfort Tweaks Auto **Do‑Not‑Disturb**, **disable auto‑brightness**, **keep screen on**, **stop logging** and a per‑app **screen DPI** — applied only while a tagged game is active, then restored. |
+
+> 🔁 **Add or remove devices, games & apps without a reboot.** ✨ Fully customizable. 🌍 9‑language
+> WebUI with Light / Dark / AMOLED themes.
+
+---
+
+## 🚀 Maximize Your Gaming
+
+| Game | Unlock |
+| --- | --- |
+| **...

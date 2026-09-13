@@ -1,0 +1,162 @@
+---
+title: TornadoRevC2
+url: https://kitploit.com/en/tools/github/kamalx06/tornadorevc2
+source: Kitploit
+date: 2026-09-12
+fetch_date: 2026-09-13T07:01:30.331752
+---
+
+# TornadoRevC2
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+Kitploit is a directory of hacking, cybersecurity, and pentesting tools. Discover the latest project updates to find vulnerabilities, analyze systems, automate testing, and strengthen your security.
+
+·Analytics preferences·[Feeds](/en/feeds)·[Contact](/en/contact)·[Privacy](/en/privacy)·© 2026 Kitploit
+
+Tool Directory
+
+## Categories
+
+[View all categories](/en/categories)
+
+Loading categories
+
+[Tools](/en/tools)/![GitHub](/providers/github.png)GitHub/kamalx06/tornadorevc2
+
+![](https://assets.kitploit.com/production/public/tools/54808/43bfb7b1e93c03f6fdea12aec5e43d408e469b2e346d940b767b9e8ee965ad20-display-v1.webp)
+
+[Penetration Testing Frameworks](/en/categories/penetration-testing-frameworks)[Privilege Escalation](/en/categories/privilege-escalation)[Persistence Mechanisms](/en/categories/persistence-mechanisms)[Lateral Movement](/en/categories/lateral-movement)[Scripting & Automation](/en/categories/scripting-automation)[Information Gathering](/en/categories/information-gathering)[Post-Exploitation](/en/categories/post-exploitation)[Command and Control](/en/categories/command-and-control)[Red Teaming](/en/categories/red-teaming)[Remote Access Tool](/en/categories/remote-access-tool)[Payload Development](/en/categories/payload-development)
+
+247351 day ago![Reviewed by Kitploit](/_next/image?url=%2Fbadges%2Fkitploit_badge_reviewed_full.png&w=48&q=75)
+
+![GitHub](/providers/github.png)
+
+kamalx06/tornadorevc2
+
+# TornadoRevC2
+
+Modular post-exploitation framework managing reverse-shell sessions over TCP/TLS/mTLS with plugins for enumeration, in-memory execution, SOCKS5 pivoting, and persistence.
+
+[View Repository](https://github.com/kamalx06/tornadorevc2)
+
+### Most Popular
+
+[View all →](/en/tools)
+
+Discover the most used tools by our community.
+
+Last 7 DaysLast 30 Days
+
+Explore all tools
+
+Browse our collection of tools
+
+[View all tools →](/en/tools)
+
+Share
+
+# TornadoRevC2
+
+A lightweight, modular post-exploitation framework for authorized security research, red-team operations, and penetration testing. TornadoRevC2 manages reverse shell sessions on Linux and Windows hosts through a unified operator console, extending core session handling with a cross-platform plugin architecture for host enumeration, situational awareness, and operational tasks.
+
+> **Important:** TornadoRevC2 is a session handler and post-exploitation framework—not a beacon-style command-and-control platform. It prioritizes reliable interactive shells, structured operator workflows, and on-demand plugin execution over persistent agent infrastructure.
+
+---
+
+## Legal Notice
+
+Use this software only on systems you own or on systems where you have **explicit written authorization**. You are solely responsible for compliance with applicable laws and organizational policies. The authors and contributors accept no liability for misuse, data loss, or legal consequences arising from the use of this project.
+
+---
+
+## Demo
+
+![TornadoRevC2 Demo](https://assets.kitploit.com/production/public/readmes/54808/1c6a16caf5f6f68a2ee72a5d333bbf18177844d6abb8e6d9953816e6e597af2d/e31daab44c1774e2e633d4bd89722eca662da1e3b76b488c8b5be992d369fb20-display-v1.webp)
+
+**Quick demo:** session management, plugin execution, SOCKS5 pivoting.
+
+---
+
+## Table of Contents
+
+* [Introduction](#introduction)
+* [Key Features](#key-features)
+* [Design Philosophy](#design-philosophy)
+
+- [Architecture](#architecture)
+
+- [Requirements & Installation](#requirements--installation)
+
+- [Quick Start](#quick-start)
+
+- [Operator Reference](#operator-reference)
+
+- [Built-in Plugins](#built-in-plugins)
+
+- [Plugin Development](#plugin-development)
+  * [Plugin system overview](#plugin-system-overview)
+  * [Plugin placement](#plugin-placement)
+  * [Registration](#registration)
+  * [Execution lifecycle](#execution-lifecycle)
+  * [Pattern 1: Simple shell plugin](#pattern-1-simple-shell-plugin)
+  * [Pattern 2: Structured collector](#pattern-2-structured-collector-recommended)
+  * [Pattern 3: Custom handler](#pattern-3-custom-handler)
+  * [Linux collectors](#linux-collectors)
+  * [Windows collectors](#windows-collectors)
+  * [JSON payload conventions](#json-payload-conventions)
+  * [Custom formatters](#custom-formatters)
+  * [Platform-specific plugins](#platform-specific-plugins)
+  * [External plugins](#external-plugins)
+  * [SessionContext API](#sessioncontext-api)
+  * [Error handling & return codes](#error-handling--return-codes)
+  * [Best practices](#best-practices)
+  * [Reference implementations](#reference-implementations)
+
+- [Session Logging](#session-logging)
+
+- [Project Structure](#project-structure)
+
+- [TLS & mTLS Configuration](#tls--mtls-configuration)
+
+- [License](#license)
+
+---
+
+## Introduction
+
+TornadoRevC2 is a modular reverse shell management framework that accepts inbound connections over plain TCP, server-authenticated TLS, and mutual TLS (mTLS) with client-certificate verification, providing a unified operator console for session management, host reconnaissance, chunked file transfer, in-memory payload execution, SOCKS5 pivoting, plugin-driven post-exploitation, structured reporting, and a built-in `update` command for automatic Git-based updates and seamless handler restarts. Originally developed as a lightweight reverse shell handler, the project has evolved into an extensible framework in which capabilities such as firewall enumeration, credential store metadata collection, network mapping, browser profiling, and additional post-exploitation functionality are implemented as independent, modular plugins. The framework also includes the `make_token` plugin for establishing new C2 sessions via remote protocols (SSH, WinRM, SMB, RDP, WMI, MSSQL) using command-line tools from the operator side, with support for custom ports, NTLM hash authentication, and netexec integration, and an `upgrade_mtls` plugin that migrates a live session onto the mutual-TLS listener by pushing the handler's client certificate bundle to the target.
+
+**Supported target platforms:** Linux and Windows (primary), with compatibility for generic Unix and BSD environments where applicable.
+
+---
+
+## Key Features
+
+| Category | Capabilities |
+| --- | --- |
+| **Session handling** | Multi-client TCP / TLS / mTLS listeners with automatic PKI bootstrapping · On-demand mTLS upgrade for live sessions · Interactive PTY/TTY shells · Session fingerprinting and reconnect tracking |
+| **File transfer** | Chunked upload and download · SHA-256 integrity verification |
+| **Payload execution** | In-memory execution for `py`, `ps`, `exe`, `elf`, `bat`, and `sh` |
+| **Pivoting & tunneling** | SOCKS5 proxy through compromised sessions with automatic remote cleanup · Ligolo-NG and Chisel agent deployment with background persistence |
+| **Remote session establishment** | `make_token` — establish new sessions over SSH, WinRM, SMB, RDP, WMI, and MSSQL from the operator side, with NTLM hash auth and netexec integration |
+| **Impersonation** | `runas` — execute commands or spawn a TLS-encrypted shell as another user, local or remote, with domain support and netexec integration |
+| **Enumeration** | Covering host triage, network posture, credentials and browser metadata, Kerberos tickets, Linux internals, and Windows domain and system configuration |
+| **Operational plugins** | Multi-pass secure file wiping · Hybrid file encryption · Shell history clearing · Windows event log clearing |
+| **Persistence** | Cross-platform backdoor installation using TLS-encrypted payloads — cron `@reboot` on Linux/Unix, Run registry on Windows |
+| **Extensibility** | Runtime plugin load, reload, and unload · External plugins via `TORNADOREVC2_PLUGIN_DIR` · Documented `SessionContext` API |
+| **Reporting...

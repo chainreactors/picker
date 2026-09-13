@@ -1,0 +1,185 @@
+---
+title: kasld v0.4.0
+url: https://kitploit.com/en/posts/github-bcoles-kasld-v040
+source: Kitploit
+date: 2026-09-12
+fetch_date: 2026-09-13T07:01:31.420563
+---
+
+# kasld v0.4.0
+
+[Skip to content](#main-content)
+
+[![Kitploit](/_next/image?url=%2Flogo.png&w=64&q=75)KITPLOIT](/en)[Tools](/en/tools)[Blog](/en/blog)Categories
+
+EN
+
+[Submit](/en/submit)
+
+[Tools](/en/tools)[Blog](/en/blog)Categories
+
+[Submit](/en/submit)
+
+EN
+
+Hacking, PenTest, and Cybersecurity Tools for Your Security Arsenal!
+
+[Back to updates](/en/updates)
+
+![](https://assets.kitploit.com/production/public/tools/48542/27960c6a9cf0003d33879e796f71de7930ff461d87e9c6333b9522d822615306.png)
+
+New releaseSep 12, 2026
+
+# kasld v0.4.0
+
+KASLD derandomizes the Linux kernel's virtual and physical memory layout from a local process, using whatever its vantage — privilege, configuration, and confinement — allows.
+
+Share
+
+![KASLD logo generated with Copilot (cropped)](https://assets.kitploit.com/production/public/readmes/48542/27960c6a9cf0003d33879e796f71de7930ff461d87e9c6333b9522d822615306.png)
+
+![Build Status](https://github.com/bcoles/kasld/actions/workflows/build.yml/badge.svg)
+![CodeQL](https://github.com/bcoles/kasld/actions/workflows/codeql.yml/badge.svg)
+![Platform: Linux](https://img.shields.io/badge/platform-Linux-informational)
+![Architectures](https://img.shields.io/badge/arch-x86%20%C2%B7%20ARM%20%C2%B7%20MIPS%20%C2%B7%20PPC%20%C2%B7%20RISC--V%20%C2%B7%20LoongArch%20%C2%B7%20s390-blue)
+![C99](https://img.shields.io/badge/C-C99-blue.svg)
+![Release](https://img.shields.io/github/v/release/bcoles/kasld)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+KASLD recovers the Linux kernel's virtual and physical memory layout —
+primarily the kernel text base — from a local process, using as much as
+the process's vantage allows: its privileges and capabilities, the
+system's configuration, and any container confinement. It recovers the
+kernel text base outright where a leak or side channel allows, and
+otherwise narrows it to the smallest set of placements the available
+evidence supports. The inference engine fuses evidence from dozens of
+independent techniques with the architecture's known invariants,
+narrowing the kernel's placement to a residual window — reported as the
+surviving slot count and bits of entropy: an upper bound on the protection
+KASLR retains from this vantage, not a guarantee the base is beyond an
+attacker's reach (see [docs/limitations.md](https://github.com/bcoles/kasld/blob/master/docs/limitations.md)). On a
+fully-patched modern kernel — where x86-64 side channels are mitigated
+and no direct kernel-text leak survives — full recovery is often impossible,
+but the constraint set is rarely empty. On architectures without KASLR, the
+engine locates the bootloader-chosen load address.
+
+Supports:
+
+* x86 (i386+, amd64)
+* ARM (armv6, armv7, armv8, aarch64)
+* MIPS (mipsbe, mipsel, mips64el)
+* PowerPC (ppc, ppcle, ppc64, ppc64le)
+* RISC-V (riscv32, riscv64)
+* LoongArch (loongarch64)
+* s390
+
+## Quick start
+
+root@kitploit:~
+
+```
+sudo apt install libc-dev make gcc binutils git
+git clone https://github.com/bcoles/kasld
+cd kasld
+make
+./build/<arch>/kasld
+```
+
+The `build/<arch>/` directory is self-contained and can be deployed to a
+target system:
+
+root@kitploit:~
+
+```
+build/<arch>/
+  kasld              <- run this
+  components/        <- leak components
+```
+
+A hardened configuration (`kernel.dmesg_restrict=1`,
+`kernel.kptr_restrict=1`, `kernel.perf_event_paranoid=2` or higher,
+`kernel.unprivileged_bpf_disabled=1`) narrows the filesystem-oracle
+path, but is only one axis of the vantage:
+side-channel, weak-entropy, and capability-granted techniques are
+independent of these sysctls. For testing, the
+[extra/weaken-kernel-hardening](https://github.com/bcoles/kasld/blob/master/extra/weaken-kernel-hardening) script
+can temporarily relax these settings (requires root).
+
+## Example output
+
+The default text mode prints an answer-first overview:
+
+root@kitploit:~
+
+```
+KASLD 0.3.1-dev  --  Kernel Address Space Layout Derandomization
+Target: x86_64 / 7.0.0
+
+Running 117 of 120 components (3 experimental skipped; use -x to enable)...
+[####################] 100%  117/117  40.9s
+1 component timed out after 30s and was killed (prefetch_directmap)
+
+  Quantity             Certainty   Window                                   Candidates      Grain
+  -------------------  ----------  ---------------------------------------  --------------  -----
+  Virtual Image Base   guaranteed  0xffffffff81000000 - 0xffffffffbd400000      483 of 505  2 MiB
+  Virtual Image Base   likely      0xffffffff93400000 slide +0x12400000           1 of 483  2 MiB
+  Physical Image Base  guaranteed           0x1000000 -         0x3d400000     474 of 8185  2 MiB
+  Physical Image Base  likely               0x1000000 -         0x3c29d000      474 of 474  2 MiB
+  Direct Map Base      guaranteed  0xffff800000000000 - 0xffffa4aa80000000           37547  1 GiB
+  Vmalloc Base         guaranteed  0xffff898000000000 - 0xffffd6d580000000  79191 of 79191  1 GiB
+  Vmemmap Base         guaranteed  0xffffa98040000000 - 0xfffffd0000000000           85504  1 GiB
+  Module Region Base   guaranteed  0xffffffffa0000000 - 0xffffffffff000000          389121  4 KiB
+  Module Region Base   likely      0xffffffffc0000000 - 0xffffffffc0400000  1025 of 389121  4 KiB
+  Paging Level         guaranteed  48                                               1 of 2  -
+
+  Note: physical and virtual text randomize independently
+
+  Note: 1 sub-range excluded from the windows above; the counts
+        already reflect them (-v lists the ranges).
+
+Evidence  (1 finding, 2 components)
+  Region             Position  Address             Sources
+  -----------------  --------  ------------------  -------
+  virt kernel image  base      0xffffffff93400000        2
+
+[-v: detailed results, memory map, system info]  [-H: hardening assessment]
+```
+
+`-v` adds the full verbose readout (banner, system-config block,
+per-component logs, KASLR analysis, memory-layout maps). `-j` emits
+machine-readable JSON — the complete structured view, always including
+the per-component records and the hardening assessment. `-1` emits a
+single shell-pipeable line. `-m` formats for issue trackers. `-H`
+appends the hardening assessment to the text/markdown reports.
+
+See [docs/usage.md](https://github.com/bcoles/kasld/blob/master/docs/usage.md) for the full CLI, output-mode
+details, explain mode, and hardening assessment.
+
+## Vantage
+
+What KASLD can recover depends on the running process's *vantage* — not a
+single privilege level, but the combination of three independent things:
+
+* **Privileges, groups, and capabilities** — an unprivileged uid, membership
+  in a group such as `adm` (which grants the kernel logs under `/var/log/`),
+  a container task holding an extra capability, or root. These do not form a
+  single ladder, because filesystem permissions gate each source
+  independently: a container granted `CAP_SYS_RAWIO` is init-namespace root
+  for that check and can read `/proc/kcore` — a leak an ordinary user cannot
+  reach — while distributions differ over whether a file such as
+  `/boot/System.map` is world-readable at all.
+* **System configuration** — `kptr_restrict`, `dmesg_restrict`,
+  `perf_event_paranoid`, unprivileged BPF, kernel lockdown. Configuration is
+  independent of privilege: root cannot read `/proc/kallsyms` under
+  `kptr_restrict=2`, while a relaxed sysctl or unprivileged BPF can hand a
+  plain user a leak that a hardened system would deny.
+* **Confinement** — a namespace or seccomp sandbox that masks `/proc`
+  oracles or blocks syscalls, narrowing what any privilege level observes.
+
+The three axes gate each leak source independently — so more privilege is not a
+superset of less: configuration can deny a source to root, and side channels
+bypass the sysctls entirely. [docs/usage.md](https://github.com/bcoles/kasld/blob/master/docs/usage.md#vantage) has a
+leak-source-by-gate matrix showing which axis controls each source.
+
+KASLD assumes few privileges by default and opportunistically uses whatever
+the vantage grants. The reported *guaranteed* window never depends o...
