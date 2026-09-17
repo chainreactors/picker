@@ -1,0 +1,154 @@
+---
+title: Texas Utility CenterPoint Energy Confirms Data Breach After Hacker Claims 7.49M Records Stolen
+url: https://securityaffairs.com/199170/data-breach/texas-utility-centerpoint-energy-confirms-data-breach-after-hacker-claims-7-49m-records-stolen.html
+source: Security Affairs
+date: 2026-09-16
+fetch_date: 2026-09-17T06:59:51.380089
+---
+
+# Texas Utility CenterPoint Energy Confirms Data Breach After Hacker Claims 7.49M Records Stolen
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[BambooToken: The Malware That Speaks MQTT to Stay Under the Radar](https://securityaffairs.com/199205/malware/bambootoken-the-malware-that-speaks-mqtt-to-stay-under-the-radar.html)
+
+ |
+
+[Google Patches Pixel Modem Zero-Day Exploited in Targeted Attacks](https://securityaffairs.com/199193/hacking/google-patches-pixel-modem-zero-day-exploited-in-targeted-attacks.html)
+
+ |
+
+[Revolut Data Leak May Trace Back to Compromised Italian Government Accounts](https://securityaffairs.com/199180/data-breach/revolut-data-leak-may-trace-back-to-compromised-italian-government-accounts.html)
+
+ |
+
+[Texas Utility CenterPoint Energy Confirms Data Breach After Hacker Claims 7.49M Records Stolen](https://securityaffairs.com/199170/data-breach/texas-utility-centerpoint-energy-confirms-data-breach-after-hacker-claims-7-49m-records-stolen.html)
+
+ |
+
+[U.S. CISA adds Cisco Secure Email Gateway flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/199156/security/u-s-cisa-adds-cisco-secure-email-gateway-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Cisco Warns of Ongoing Exploitation of Critical Email Gateway Zero-Day](https://securityaffairs.com/199137/hacking/cisco-warns-of-ongoing-exploitation-of-critical-email-gateway-zero-day.html)
+
+ |
+
+[Shared Hosting at Risk: LiteSpeed Enterprise Bug Can Grant Root from a Single Tenant](https://securityaffairs.com/199127/security/shared-hosting-at-risk-litespeed-enterprise-bug-can-grant-root-from-a-single-tenant.html)
+
+ |
+
+[One Exploit Chain, Two Espionage Campaigns: Chrome and Windows Under Fire](https://securityaffairs.com/199104/apt/one-exploit-chain-two-espionage-campaigns-chrome-and-windows-under-fire.html)
+
+ |
+
+[Telegram Desktop Flaw Could Turn Old Chat Exports Into Data Theft Traps](https://securityaffairs.com/199076/security/telegram-desktop-flaw-could-turn-old-chat-exports-into-data-theft-traps.html)
+
+ |
+
+[Non-Zero-Day VPN Flaw Left Japan 's Government Shared Network Platform Exposed: 246,000 Records at Risk](https://securityaffairs.com/199090/security/non-zero-day-vpn-flaw-left-japan-government-shared-network-platform-exposed-246000-records-at-risk.html)
+
+ |
+
+[ENISA: Frontier AI Is Changing the Speed of Cyberattacks. Europe Needs to Catch Up](https://securityaffairs.com/199063/ai/enisa-frontier-ai-is-changing-the-speed-of-cyberattacks-europe-needs-to-catch-up.html)
+
+ |
+
+[China Calls Amodei’s AI Proposal a New Cold War Playbook](https://securityaffairs.com/199048/uncategorized/china-calls-amodeis-ai-proposal-a-new-cold-war-playbook.html)
+
+ |
+
+[U.S. CISA adds GitLab, JFrog Artifactory, and ConnectWise ScreenConnect flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/199032/security/u-s-cisa-adds-gitlab-jfrog-artifactory-and-connectwise-screenconnect-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Dutch NCSC Warns: Critical Check Point VPN Flaws Put Networks at Risk](https://securityaffairs.com/199015/security/dutch-ncsc-warns-critical-check-point-vpn-flaws-put-networks-at-risk.html)
+
+ |
+
+[Anthropic CEO Calls for an AI Slowdown. Is It Possible?](https://securityaffairs.com/198994/ai/anthropic-ceo-calls-for-an-ai-slowdown-is-it-possible.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 114](https://securityaffairs.com/198980/breaking-news/security-affairs-malware-newsletter-round-114.html)
+
+ |
+
+[Security Affairs newsletter Round 594 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/198957/security/security-affairs-newsletter-round-594-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[GitLab CVE-2026-85706: One HTTP Request, No Authentication, Full File Read - Exploited Within 24 Hours](https://securityaffairs.com/198945/hacking/gitlab-cve-2026-85706-one-http-request-no-authentication-full-file-read-exploited-within-24-hours.html)
+
+ |
+
+[Conti Hacker Who Built Malware and Attacked Victims Gets Four-Year Sentence](https://securityaffairs.com/198931/cyber-crime/conti-hacker-who-built-malware-and-attacked-victims-gets-four-year-sentence.html)
+
+ |
+
+[Anthropic: AI Misuse Is Entering a New Phase: From Cybercrime to Surveillance, Propaganda and Weapons](https://securityaffairs.com/198905/ai/anthropic-ai-misuse-is-entering-a-new-phase-from-cybercrime-to-surveillance-propaganda-and-weapons.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Security](https://securityaffairs.com/category/security)
+* Texas Utility CenterPoint Energy Confirms Data Breach After Hacker Claims 7.49M Records Stolen
+
+## Texas Utility CenterPoint Energy Confirms Data Breach After Hacker Claim...
