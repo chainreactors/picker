@@ -1,0 +1,140 @@
+---
+title: Preparing governments for an era of interconnected cyber risk
+url: https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/
+source: Microsoft Security Blog
+date: 2026-10-01
+fetch_date: 2026-10-02T07:48:49.021071
+---
+
+# Preparing governments for an era of interconnected cyber risk
+
+[Skip to content](#content)
+
+Skip to main content
+
+[![Microsoft](https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png)](https://www.microsoft.com)
+[Microsoft On the Issues](http://blogs.microsoft.com/on-the-issues)
+
+[About Microsoft](https://www.microsoft.com/en-us/about)
+[Company Timeline](https://news.microsoft.com/about/)
+[Global Diversity & Inclusion](https://www.microsoft.com/en-us/diversity/inside-microsoft/default.aspx)
+[Microsoft on the Issues](https://news.microsoft.com/on-the-issues/)
+[Microsoft Stories](https://news.microsoft.com/)
+[Official Microsoft Blog](https://blogs.microsoft.com/)
+
+[Microsoft Asia](https://news.microsoft.com/apac)
+[Microsoft Europe](https://news.microsoft.com/europe)
+[Microsoft India](https://news.microsoft.com/en-in)
+[Microsoft Latin America](https://news.microsoft.com/es-xl)
+[Microsoft Middle East & Africa](https://news.microsoft.com/en-xm)
+
+[Accessibility Blog](https://blogs.microsoft.com/accessibility/)
+[AI Blog](https://blogs.microsoft.com/AI)
+[Customer Stories](https://news.microsoft.com/source/tag/customers/)
+[Education Stories](https://educationblog.microsoft.com/en-us/)
+[Feature Stories](https://news.microsoft.com/source/)
+[Innovation Stories](https://news.microsoft.com/source/topics/innovation/)
+[Microsoft Conexiones](https://blogs.microsoft.com/conexiones/)
+[Microsoft Life](https://news.microsoft.com/life)
+[Microsoft on the Issues](https://news.microsoft.com/on-the-issues)
+[Microsoft Research](https://www.microsoft.com/en-us/research/blog/)
+[Microsoft Podcasts](https://news.microsoft.com/podcasts/)
+[Official Microsoft Blog](https://blogs.microsoft.com)
+
+[Azure](https://azure.microsoft.com/en-us/blog/)
+[Devices](https://blogs.windows.com/devices/%20)
+[Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/blog/)
+[Windows](https://blogs.windows.com/)
+[Xbox](https://news.xbox.com/en-us/)
+ [Security Blog](https://microsoft.com/security/blog/)
+[AI for Business](https://blogs.microsoft.com/ai-for-business/)
+[Microsoft Industry Blogs](https://www.microsoft.com/en-us/industry/blog/)
+
+[Accessibility](https://blogs.microsoft.com/on-the-issues/category/accessibility)
+[Access to Broadband](https://blogs.microsoft.com/on-the-issues/category/access-broadband/)
+[AI for Good](https://blogs.microsoft.com/on-the-issues/category/AI-for-good)
+[COVID-19](https://blogs.microsoft.com/on-the-issues/category/COVID-19)
+[Cybersecurity](https://blogs.microsoft.com/on-the-issues/category/cybersecurity)
+[Digital Safety](https://blogs.microsoft.com/on-the-issues/category/online-safety)
+[Fundamental Rights](https://blogs.microsoft.com/on-the-issues/category/fundamental-rights/)
+[Journalism](https://blogs.microsoft.com/on-the-issues/category/journalism)
+[Open Data](https://blogs.microsoft.com/on-the-issues/category/open-data)
+[Philanthropies](https://blogs.microsoft.com/on-the-issues/category/philanthropies)
+[Privacy](https://blogs.microsoft.com/on-the-issues/category/privacy)
+[Responsible AI](https://blogs.microsoft.com/on-the-issues/category/responsible-AI)
+[Skills](https://blogs.microsoft.com/on-the-issues/category/skills)
+[Sustainability](https://blogs.microsoft.com/on-the-issues/category/sustainability)
+[United Nations](https://blogs.microsoft.com/on-the-issues/category/united-nations)
+[Washington State](https://blogs.microsoft.com/on-the-issues/category/washington-state)
+[Cloud Principles](https://aka.ms/cloudprinciples)
+
+[Image Gallery](https://news.microsoft.com/imageGallery/)
+[Press Releases](https://news.microsoft.com/category/press-releases/)
+[Microsoft News on Twitter](https://twitter.com/msftnews)
+[Events](https://news.microsoft.com/microsoft-events/)
+[Executive Biographies](https://news.microsoft.com/leadership/)
+[Microsoft CEO](https://news.microsoft.com/exec/satya-nadella/)
+[Press Contacts](https://news.microsoft.com/microsoft-public-relations-contacts/)
+[Board of Directors](https://news.microsoft.com/leadership/board-members/)
+[Facts About Microsoft](https://news.microsoft.com/facts-about-microsoft/)
+[Investor Relations](https://www.microsoft.com/investor/default.aspx)
+[Worldwide News](https://news.microsoft.com/worldwide-microsoft-pr-sites/)
+[Video & Broll](https://news.microsoft.com/videos/)
+[Executive Speeches](https://news.microsoft.com/leadership/speeches/all-speakers/all/)
+
+[Automotive and Mobility](https://news.microsoft.com/presskits/automotive/)
+[Dynamics 365](https://news.microsoft.com/presskits/dynamics/)
+[Healthcare](https://news.microsoft.com/presskits/health)
+[Manufacturing](https://news.microsoft.com/presskits/manufacturing/)
+[Microsoft 365](https://news.microsoft.com/presskits/microsoft365/)
+[Mixed Reality](https://news.microsoft.com/presskits/hololens/)
+[Philanthropies](https://news.microsoft.com/presskits/citizenship/)
+[Surface](https://news.microsoft.com/presskits/surface/)
+[Telecom](https://news.microsoft.com/presskits/telecom/)
+
+[Microsoft 365](https://www.microsoft.com/microsoft-365)
+[Azure](https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp)
+[Copilot](https://copilot.com/?fromcode=cmmuaql67jy)
+[Windows](https://www.microsoft.com/en-us/windows/)
+[Surface](https://www.microsoft.com/surface)
+[XBOX](https://www.xbox.com/)
+[Deals](https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals)
+[Small Business](https://www.microsoft.com/en-us/store/b/business)
+[Support](https://support.microsoft.com/en-us)
+
+[Windows Apps](https://apps.microsoft.com/home)
+[Outlook](https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook)
+[OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+[OneNote](https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app)
+[Microsoft Edge](https://www.microsoft.com/edge)
+[Moving from Skype to Teams](https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype)
+
+[Computers](https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC)
+[Shop XBOX](https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox)
+[Accessories](https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories)
+[VR & mixed reality](https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality)
+[Certified Refurbished](https://www.microsoft.com/en-us/store/b/certified-refurbished-products)
+[Trade-in for cash](https://www.microsoft.com/en-us/store/b/microsoft-trade-in)
+
+[XBOX Game Pass Ultimate](https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=DSM_All_XboxGamePassUltimate)
+[PC Game Pass](https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass)
+[XBOX games](https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames)
+[PC games](https://apps.microsoft.com/games)
+
+[Microsoft AI](https://www.microsoft.com/en-us/ai?icid=DSM_All_AI)
+[Microsoft Security](https://www.microsoft.com/en-us/security)
+[Dynamics 365](https://www.microsoft.com/en-us/dynamics-365)
+[Microsoft 365 for business](https://www.microsoft.com/en-us/microsoft-365/business)
+[Microsoft Power Platform](https://www.microsoft.com/en-us/power-platform)
+[Windows 365](https://www.microsoft.com/en-us/windows-365)
+[Small Business](https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore)
+[Digital Sovereignty](https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty)
+
+[Azure](https://azure.microsoft.com/en-us/)
+[Microsoft Developer](https://developer.microsoft.com/en-us/)
+[Microsoft Learn](https://learn.microsoft.com/)
+[Support for AI marketplace apps](https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98)
+[Microsoft Tech Community](https://techcommunity.microsoft.com/)
+[Microsoft Marketplace](https://marketplace.microsoft.com?icid=DSM_All_Marketplace&ocid=cmm3atxvn98)
+[Soft...
