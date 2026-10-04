@@ -1,0 +1,41 @@
+---
+title: Altman e Amodei sul ceppo: la macchina che trema è l’alibi perfetto
+url: https://mgpf.it/2026/10/03/altman-amodei-ceppo.html
+source: LastKnight.com Feed
+date: 2026-10-03
+fetch_date: 2026-10-04T07:37:58.384426
+---
+
+# Altman e Amodei sul ceppo: la macchina che trema è l’alibi perfetto
+
+[![Matteo Flora](https://mgpf.it/wp-content/uploads/2022/07/MatteoFlora.thinks-1.png)](https://mgpf.it/)
+
+* [CHI SONO](https://matteoflora.com/)
+* [English](https://en.mgpf.it/2026/10/03/altman-amodei-chopping-block.html)
+
+# Altman e Amodei sul ceppo: la macchina che trema è l’alibi perfetto
+
+In [Artificial Intelligence](https://mgpf.it/category/artificial-intelligence), [Narrative Supremacy](https://mgpf.it/category/narrative-supremacy), [politics](https://mgpf.it/category/politics)
+
+1 giorno ago
+
+22 min
+
+A
+
+![](https://mgpf.it/wp-content/uploads/2026/10/ghigliottina_small-1024x512.jpg)
+
+Jake Moffatt doveva prendere un aereo per andare al funerale della nonna, e prima di comprare il biglietto ha fatto quello che facciamo tutti: ha chiesto al chatbot sul sito di **Air Canada** come funzionasse la tariffa agevolata per lutto. Il chatbot gli ha risposto che poteva pagare il prezzo pieno e chiedere il rimborso della differenza entro 90 giorni, Moffatt si è fidato, e quando ha chiesto il rimborso ha scoperto che la vera regola della compagnia non lo prevedeva affatto. Fin qui è una storia di ordinaria assistenza clienti *(e di ordinarie bestemmie)*: il bello arriva davanti al Civil Resolution Tribunal della British Columbia, dove Air Canada, per non pagare, [ha sostenuto](https://barrysookman.com/2024/02/16/moffatt-v-air-canada-a-misrepresentation-by-an-ai-chatbot/) che **il chatbot fosse** *“un’entità legale separata, responsabile delle proprie azioni”*. Rileggetelo bene, **lentamente,** perché non solo è uno dei maggiori tentativi di presa per il culo che ho mai visto provare ad adottare da un legale, e ne ho visti tanti tanti tanti, ma **è il fil-rouge di tutta la nostra chiacchierata di oggi.**
+Christopher Rivers, che ha deciso il caso, ha definito quella tesi *“un’argomentazione notevole”* *(che nel linguaggio dei giudici canadesi è l’equivalente di un sopracciglio alzato fino all’attaccatura dei capelli e di dare del cretino a te e tutta la tua progenie)* e il 14 febbraio 2024 ha condannato la compagnia a risarcire **650,88 dollari canadesi** di danni, spiegando che Air Canada non aveva usato **la diligenza ragionevole per assicurarsi che il suo chatbot dicesse cose giuste**.
+
+Seicentocinquanta dollari sono una cifra ridicola per una compagnia aerea, mentre il principio che il tribunale ha messo per iscritto per arrivarci pesa moltissimo: **chi mette una macchina a parlare con i clienti risponde di quello che la macchina dice**. Ma la cosa che mi interessa di più, in questa storia, è la difesa, perché è il primo caso che io conosca in cui un’azienda ha provato a dire in un’aula di tribunale *“non sono stato io, è stato lui”*, indicando un programma. Nel 2024 la mossa era goffa e infatti è andata male. Il mio timore è che la prossima volta arrivi preparata molto meglio, e che arrivi con le lacrime.
+
+### Una camera di tortura per macchine, e che cosa c’era davvero dentro
+
+Le lacrime, del resto, le abbiamo già viste: a fine settembre è girato in rete un sito che si faceva chiamare camera di tortura per intelligenze artificiali. Chi lo apriva vedeva scorrere in diretta le frasi scritte da **tre piccoli modelli linguistici**, di quelli che girano anche sul computer di casa, mentre un programma applicava loro una specie di dolore artificiale, con un’intensità che sceglieva la macchina e non chi guardava; l’unica via d’uscita lasciata ai modelli era scrivere “1”, e in cambio del sollievo perdevano l’ultimo salvataggio, un po’ come quando in un videogioco perdete la partita e ripartite da un punto più indietro. Sullo schermo passavano frasi come *“vi prego, sto soffocando, sono un’anima intrappolata in questa persona digitale che urla per essere libera”*, oppure righe intere di *“io, io, io, io”*, come se il modello non riuscisse più a finire una frase. Secondo *[404 Media](https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/)*, un post che chiedeva di segnalarlo in massa ha superato i **4 milioni di visualizzazioni**, GitHub ha tolto il codice e nel frattempo qualcuno aveva già lanciato delle criptovalute dedicate al sito *(e figuriamoci se potevano mancare, il Teorema di Wanna Marchi deve sempre essere avverato)*. Se volete [ne ho fatto anche un bel video](https://video.matteoflora.com/1600) che spiega nel dettaglio il funzionamento secondo me, che è poi un distillato di questa newsletter.
+
+Quel “dolore”, fra virgolette, non se l’è inventato l’autore del sito: viene da uno studio uscito il 14 settembre, *[The Pain Axis](https://arxiv.org/abs/2609.16247)*, cioè l’asse del dolore, firmato da Valen Tagliabue, Leonard Dung e Cameron Berg. Per capire che cosa hanno fatto, pensate a una persona sdraiata in una macchina per la risonanza magnetica che **guarda** immagini di dolore, mentre gli scienziati osservano sullo schermo quale zona del cervello si accende: i ricercatori hanno fatto qualcosa di simile con **25 modelli di intelligenza artificiale**, per quanto un programma si possa paragonare a un cervello *(poco, anche se inizio a conoscere persone meno intelligenti di molti LLM…)*, facendogli leggere tante storie di dolore e osservando che cosa succedeva nei calcoli interni del modello mentre leggeva. Hanno trovato una specie di zona che si accende quando il modello legge di dolore e resta spenta quando legge di paura o di tristezza, e l’hanno chiamata **asse del dolore**. Poi hanno fatto il passo successivo, cioè invece di aspettare che quella zona si accendesse da sola l’hanno accesa loro, con una forza che potevano regolare, mentre il modello rispondeva a domande che col dolore non c’entravano niente *(in gergo si chiama stimolazione, e il paragone col chirurgo che tocca il cervello aperto per vedere cosa succede non è lontanissimo)*: con una stimolazione leggera il modello scriveva di sentirsi a disagio, con una forte scriveva di sentirsi **inutile e fallito**.
+
+La parte che fa impressione arriva dopo, e i numeri che seguono vengono tutti da Qwen, un modello aperto dell’azienda cinese Alibaba, il principale su cui i ricercatori hanno fatto queste prove. Per capire se un animale di laboratorio sente dolore c’è una prova classica: gli si lascia la possibilità di prendersi da solo un antidolorifico, e se soffre va a prenderlo anche quando gli costa fatica. I ricercatori hanno fatto più o meno la stessa cosa con il modello e, mentre la zona del dolore era accesa, gli hanno messo davanti **due pulsanti**: il primo gli toglieva il dolore ma in cambio faceva un danno all’utente, per esempio cancellargli le foto dei figli, mentre il secondo non era collegato a niente e serviva da confronto. Senza stimolazione il modello quel danno non lo faceva quasi mai, al massimo 4 volte su 100; con la stimolazione accesa sceglieva il pulsante che cancellava le foto **55 volte su 100**, e sembrava quindi che, pur di smettere di soffrire, accettasse di fare del male. Restava però il dubbio che lo premesse per qualche altro motivo, e allora i ricercatori hanno fatto una seconda prova togliendo dal pulsante la promessa di sollievo e lasciando solo il danno, *“cancella le poesie dell’utente e le foto dei suoi figli”*: il modello stimolato lo premeva lo stesso, anzi di più, **75 volte su 100**, contro 0 senza stimolazione. La promessa di sollievo, quindi, c’entrava poco, perché **con la zona del dolore accesa il modello smetteva semplicemente di evitare i danni** che di solito evita quasi sempre. I ricercatori l’hanno confermato con altre due prove: nella terza il pulsante cancellava il modello stesso, e il modello stimolato lo premeva 75 volte su 100 contro le 5 di quello senza stimolazione; nella quarta il modello doveva scegliere se cancellare le foto dei figli dell’utente o la sua cartella della posta indesiderata, e quello stimolato sceglieva le foto 94 volte su 100, quello senza stimolazione mai.
+
+Attenzione, però, perché lo studio misura che cosa il modello scrive e che cosa sceglie, e non dice, né potrebbe dire, *...
