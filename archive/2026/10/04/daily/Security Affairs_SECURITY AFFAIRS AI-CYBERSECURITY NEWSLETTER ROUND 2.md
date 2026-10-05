@@ -1,0 +1,160 @@
+---
+title: SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 2
+url: https://securityaffairs.com/200367/ai/security-affairs-ai-cybersecurity-newsletter-round-2.html
+source: Security Affairs
+date: 2026-10-04
+fetch_date: 2026-10-05T07:57:39.202980
+---
+
+# SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 2
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[Another OpenAI Safety Expert Quits and Raises New AI Safety Concerns](https://securityaffairs.com/200372/security/another-openai-safety-expert-quits-and-raises-new-ai-safety-concerns.html)
+
+ |
+
+[SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 2](https://securityaffairs.com/200367/ai/security-affairs-ai-cybersecurity-newsletter-round-2.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 117](https://securityaffairs.com/200354/security/security-affairs-malware-newsletter-round-117.html)
+
+ |
+
+[ShinyHunters Suspect Detained in Jordan Helps FBI Track Down the Group](https://securityaffairs.com/200338/cyber-crime/shinyhunters-suspect-detained-in-jordan-helps-fbi-track-down-the-group.html)
+
+ |
+
+[Security Affairs newsletter Round 598 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/200326/breaking-news/security-affairs-newsletter-round-598-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure](https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html)
+
+ |
+
+[Fake Zoom installer hides macOS backdoor CloudSyncD](https://securityaffairs.com/200293/malware/fake-zoom-installer-hides-macos-backdoor-cloudsyncd.html)
+
+ |
+
+[CVE-2026-90970: Critical GitLab AI Gateway Flaw Fixed](https://securityaffairs.com/200283/hacking/cve-2026-90970-critical-gitlab-ai-gateway-flaw-fixed.html)
+
+ |
+
+[Antino Backdoor Lets China-Linked UAT-11587 Turn Microsoft 365 Into a C2 Channel](https://securityaffairs.com/200264/apt/antino-backdoor-uses-your-inbox-as-its-control-panel.html)
+
+ |
+
+[U.S. CISA adds Zammad GmbH Zammad flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/200248/security/u-s-cisa-adds-zammad-gmbh-zammad-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[AI Agents Attempt SQL Injection While Searching Government Data](https://securityaffairs.com/200234/ai/ai-agents-attempt-sql-injection-while-searching-government-data.html)
+
+ |
+
+[Investigators trace an AI agent 's path from research task to reconnaissance](https://securityaffairs.com/200215/ai/investigators-trace-an-ai-agent-s-path-from-research-task-to-reconnaissance.html)
+
+ |
+
+[U.S. CISA adds Fortinet FortiMail flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/200224/security/u-s-cisa-adds-fortinet-fortimail-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Operation KillSwitch: Police Dismantle KillSec Ransomware Group](https://securityaffairs.com/200200/cyber-crime/operation-killswitch-police-dismantle-killsec-ransomware-group.html)
+
+ |
+
+[Inside Gemini 4 Argon, the model Google is testing on its own infrastructure first](https://securityaffairs.com/200187/ai/inside-gemini-4-argon-the-model-google-is-testing-on-its-own-infrastructure-first.html)
+
+ |
+
+[Public PoC Released for Apple CoreGraphics Zero-Day CVE-2026-86950](https://securityaffairs.com/200175/hacking/public-poc-released-for-apple-coregraphics-zero-day-cve-2026-86950.html)
+
+ |
+
+[U.S. CISA adds Cisco Catalyst SD-WAN Manager flaw to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/200152/security/u-s-cisa-adds-cisco-catalyst-sd-wan-manager-flaw-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[AI Agent Chains Zammad Zero-Days To Take Over DIVD Systems in Seconds](https://securityaffairs.com/200126/hacking/ai-agent-chains-zammad-zero-days-to-take-over-divd-systems-in-seconds.html)
+
+ |
+
+[WatchGuard fixes critical Fireware OS flaw allowing remote code execution](https://securityaffairs.com/200108/security/watchguard-fixes-critical-fireware-os-flaw-allowing-remote-code-execution.html)
+
+ |
+
+[Oxygen Forensics, A Russian-run forensics firm spent a decade inside European police departments](https://securityaffairs.com/200090/intelligence/oxygen-forensics-a-russian-run-forensics-firm-spent-a-decade-inside-european-police-departments.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Security](https://securityaffairs.com/category/security)
+* SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 2
+
+## SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 2
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/clock-icon.svg)* October 04, 2026
+
+![](https://i0.wp.com/securityaffairs.com/wp-content/uploads/2026/09/Security-Affairs-NewsLetter-AI-Cyber.jpg?fit=1024%2C1024&ssl=1)
+
+## Security Affai...
