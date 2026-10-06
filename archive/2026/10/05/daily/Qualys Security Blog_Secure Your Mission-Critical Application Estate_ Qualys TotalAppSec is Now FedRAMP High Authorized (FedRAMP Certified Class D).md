@@ -1,0 +1,138 @@
+---
+title: Secure Your Mission-Critical Application Estate: Qualys TotalAppSec is Now FedRAMP High Authorized (FedRAMP Certified Class D)
+url: https://blog.qualys.com/category/qualys-insights
+source: Qualys Security Blog
+date: 2026-10-05
+fetch_date: 2026-10-06T08:25:22.399890
+---
+
+# Secure Your Mission-Critical Application Estate: Qualys TotalAppSec is Now FedRAMP High Authorized (FedRAMP Certified Class D)
+
+* [Discussions](https://success.qualys.com/discussions/s/ "Qualys Discussions")
+* [Discussions](https://success.qualys.com/discussions/s/ "Qualys Discussions")
+  + [Back to main menu](#back)
+  + Browse by Topic
+  + [Asset Management](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRIWA4/asset-management "Asset Management Discussions")
+  + [IT Security](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRwWAO/it-security "IT Security Discussions")
+  + [Compliance](https://success.qualys.com/discussions/s/topic/0TO2L000000HIS1WAO/compliance "Compliance Discussions")
+  + [Cloud & Container Security](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRnWAO/cloud-container "Cloud & Container Security Discussions")
+  + [Web App Security](https://success.qualys.com/discussions/s/topic/0TO2L000000HISCWA4/web-app-security "Web App Security Discussions")
+  + [Certificate Security & SSL Labs](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRfWAO/certificate-security "SSL Labs & Certificate Security Discussions")
+  + [Developer API](https://success.qualys.com/discussions/s/topic/0TO2L000000HIR8WAO/developer "Qualys Developer API Discussions")
+  + [Cloud Platform](https://success.qualys.com/discussions/s/topic/0TO2L000000HIRAWA4/qualys-cloud-platform "Enterprise TruRisk Platform Discussions")
+  + [Consulting Edition](https://success.qualys.com/discussions/s/topic/0TO2L000000HIYEWA4/consulting-edition "Qualys Consulting Edition Discussions")
+  + [Start a discussion](https://success.qualys.com/discussions/s/#start-a-discussion)
+* [Blog](https://blog.qualys.com/ "Qualys Blog")
+* [Training](https://www.qualys.com/training/ "Qualys Training & Certification")
+* [Docs](https://www.qualys.com/documentation/ "Qualys Documentation")
+* [Support](https://success.qualys.com/support/s/ "Qualys Support")
+* [Webinars](https://www.qualys.com/webinars/ "Qualys Webinar")
+* [Trust](https://success.qualys.com/support/s/standards/ "Qualys Trust")
+
+[![Qualys](https://ik.imagekit.io/qualys/image//logo/qualys.svg)](https://community.qualys.com/ "Qualys Community")
+
+* [Login](https://success.qualys.com/discussions/s/login/ "Qualys Community Login")
+* [Register](https://success.qualys.com/discussions/s/login/SelfRegister "Qualys Community Registration")
+
+[![](https://ik.imagekit.io/qualys/image/icon/link-arrow-left.svg)
+Blog Home](/)
+
+# All posts in Qualys Insights
+
+### 154 Posts
+
+![Shravan Dandage](https://secure.gravatar.com/avatar/25eed938cfe769699da4518227685cf25108667cfa3f6d778ce080639f5dc185?s=110&d=mm&r=g)
+
+[Shravan Dandage](https://blog.qualys.com/author/sdandage)
+
+[October 5, 2026](https://blog.qualys.com/product-tech/2026/10/05/totalappsec-fedramp-high-federal-application-security) - 11 min read
+
+## [Secure Your Mission-Critical Application Estate: Qualys TotalAppSec is Now FedRAMP High Authorized (FedRAMP Certified Class D)](https://blog.qualys.com/product-tech/2026/10/05/totalappsec-fedramp-high-federal-application-security)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech), [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+2
+
+![Sean Martin](https://secure.gravatar.com/avatar/a3a2a4c707fce5d2667529a2e14c5135686bebe6d97fb23ce946386ab578277d?s=110&d=mm&r=g)
+
+[Sean Martin](https://blog.qualys.com/author/sean)
+
+[September 29, 2026](https://blog.qualys.com/qualys-insights/2026/09/29/autonomous-remediation-enterprise-scale-black-hat-2026-sumedh-thakar) - 4 min read
+
+## [Autonomous Remediation Is Already Running at Enterprise Scale](https://blog.qualys.com/qualys-insights/2026/09/29/autonomous-remediation-enterprise-scale-black-hat-2026-sumedh-thakar)
+
+Posted in [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+1
+
+![Kunal Modasiya](https://ik.imagekit.io/qualys/wp-content/uploads/2025/06/cropped-DSC08569-scaled-1-110x110.jpg)
+
+[Kunal Modasiya](https://blog.qualys.com/author/kumodasiya)
+
+[September 17, 2026](https://blog.qualys.com/product-tech/2026/09/17/the-autonomous-engine-behind-remediation-and-what-finally-makes-it-safe) - 10 min read
+
+## [The Autonomous Engine Behind Remediation, and What Finally Makes It Safe](https://blog.qualys.com/product-tech/2026/09/17/the-autonomous-engine-behind-remediation-and-what-finally-makes-it-safe)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech), [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+3
+
+![Himanshu Kathpal](https://ik.imagekit.io/qualys/wp-content/uploads/2026/01/cropped-himanshu-110x110.jpeg)
+
+[Himanshu Kathpal](https://blog.qualys.com/author/hkathpal)
+
+[September 8, 2026](https://blog.qualys.com/qualys-insights/2026/09/09/the-models-that-found-10000-zero-days-broke-into-three-companies-using-weak-passwords) - 9 min read
+
+## [The Models That Found 10,000 Zero-Days Broke Into Three Companies Using Weak Passwords](https://blog.qualys.com/qualys-insights/2026/09/09/the-models-that-found-10000-zero-days-broke-into-three-companies-using-weak-passwords)
+
+Posted in [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+2
+
+![Shravan Dandage](https://secure.gravatar.com/avatar/25eed938cfe769699da4518227685cf25108667cfa3f6d778ce080639f5dc185?s=110&d=mm&r=g)
+
+[Shravan Dandage](https://blog.qualys.com/author/sdandage)
+
+[August 27, 2026](https://blog.qualys.com/product-tech/2026/08/27/pci-dss-4-0-1-application-requirements-youre-being-assessed-on-in-2026) - 8 min read
+
+## [PCI DSS 4.0.1: Application Requirements You’re Being Assessed On in 2026](https://blog.qualys.com/product-tech/2026/08/27/pci-dss-4-0-1-application-requirements-youre-being-assessed-on-in-2026)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech), [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+4
+
+![Pauline Bacot](https://ik.imagekit.io/qualys/wp-content/uploads/2026/08/Image-7-110x110.jpeg)
+
+[Pauline Bacot](https://blog.qualys.com/author/pbacot)
+
+[August 27, 2026](https://blog.qualys.com/product-tech/2026/08/26/beyond-patching-unpatchable-exposures-it-ops) - 5 min read
+
+## [Beyond Patching: What IT Teams Need to Know About Unpatchable Exposures](https://blog.qualys.com/product-tech/2026/08/26/beyond-patching-unpatchable-exposures-it-ops)
+
+Posted in [Patch Management](https://blog.qualys.com/category/product-tech/patch-management), [Product and Tech](https://blog.qualys.com/category/product-tech), [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+2
+
+![Indrani Das](https://ik.imagekit.io/qualys/wp-content/uploads/2024/03/cropped-indrani-dass-110x110.jpeg)
+
+[Indrani Das](https://blog.qualys.com/author/idas)
+
+[August 13, 2026](https://blog.qualys.com/misc/2026/08/13/why-api-discovery-is-critical-for-modern-appsec-programs) - 5 min read
+
+## [Why API Discovery Is Critical for Modern AppSec Programs](https://blog.qualys.com/misc/2026/08/13/why-api-discovery-is-critical-for-modern-appsec-programs)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech), [Qualys Insights](https://blog.qualys.com/category/qualys-insights), [Uncategorized](https://blog.qualys.com/category/misc)
+
+![Sayali Warekar](https://secure.gravatar.com/avatar/170cf49b57e521d001156f8d20a3d3d85e7a4c81da13ebbf39a3caf33b98cace?s=110&d=mm&r=g)
+
+[Sayali Warekar](https://blog.qualys.com/author/swarekar)
+
+[July 23, 2026](https://blog.qualys.com/product-tech/2026/07/27/the-sub-10-minute-cloud-takeover-how-exposed-iam-keys-misconfiguration-and-ai-are-rewriting-the-rules-of-cloud-breaches) - 13 min read
+
+## [The Sub-10-Minute Cloud Takeover: How Exposed IAM Keys, Misconfiguration and AI Are Rewriting the Rules of Cloud Breaches](https://blog.qualys.com/product-tech/2026/07/27/the-sub-10-minute-cloud-takeover-how-exposed-iam-keys-misconfiguration-and-ai-are-rewriting-the-rules-of-cloud-breaches)
+
+Posted in [Product and Tech](https://blog.qualys.com/category/product-tech), [Qualys Insights](https://blog.qualys.com/category/qualys-insights)
+
+31
+
+![Indrani Das](https://ik.imagekit....
