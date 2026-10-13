@@ -1,0 +1,159 @@
+---
+title: CyberXero Used 51 AI Agents to Steal 628,000 Ukrainian Records
+url: https://securityaffairs.com/200803/cyber-crime/cyberxero-used-51-ai-agents-to-steal-628000-ukrainian-records.html
+source: Security Affairs
+date: 2026-10-12
+fetch_date: 2026-10-13T08:38:36.658493
+---
+
+# CyberXero Used 51 AI Agents to Steal 628,000 Ukrainian Records
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[![](https://securityaffairs.com/wp-content/uploads/2023/08/logo.png)](https://securityaffairs.com)
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+![](https://securityaffairs.com/wp-content/themes/security_affairs/images/menu-icon.svg)
+
+[MUST READ](https://securityaffairs.com/must-read/)
+
+[ShinyHunters arrest number three: a Canadian ransomware negotiator](https://securityaffairs.com/200847/cyber-crime/shinyhunters-arrest-number-three-a-canadian-ransomware-negotiator.html)
+
+ |
+
+[Canonical Hit by Second DDoS Attack in 2026, Public Websites Disrupted](https://securityaffairs.com/200832/security/canonical-hit-by-second-ddos-attack-in-2026.html)
+
+ |
+
+[SonicWall Patches CVSS 10.0 SSRF Flaw as Attacks Begin](https://securityaffairs.com/200816/hacking/sonicwall-patches-cvss-10-0-ssrf-flaw-as-attacks-begin.html)
+
+ |
+
+[CyberXero Used 51 AI Agents to Steal 628,000 Ukrainian Records](https://securityaffairs.com/200803/cyber-crime/cyberxero-used-51-ai-agents-to-steal-628000-ukrainian-records.html)
+
+ |
+
+[GTA 6 Leaker Demands $30M Meme Coin Market Cap to Release Full Game](https://securityaffairs.com/200780/cyber-crime/gta-6-leaker-demands-30m-meme-coin-market-cap-to-release-full-game.html)
+
+ |
+
+[SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 3](https://securityaffairs.com/200794/ai/security-affairs-ai-cybersecurity-newsletter-round-3.html)
+
+ |
+
+[SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 118](https://securityaffairs.com/200775/breaking-news/security-affairs-malware-newsletter-round-118.html)
+
+ |
+
+[Bitdefender finds preinstalled Android malware you can't uninstall, seen in 150 countries](https://securityaffairs.com/200759/malware/bitdefender-finds-preinstalled-android-malware-you-cant-uninstall-seen-in-150-countries.html)
+
+ |
+
+[Security Affairs newsletter Round 599 by Pierluigi Paganini – INTERNATIONAL EDITION](https://securityaffairs.com/200752/breaking-news/security-affairs-newsletter-round-599-by-pierluigi-paganini-international-edition.html)
+
+ |
+
+[U.S. CISA adds ProFTPD, ONLYOFFICE Docs, Strapi, Apache Struts, and ISC BIND flaws to its Known Exploited Vulnerabilities catalog](https://securityaffairs.com/200734/security/u-s-cisa-adds-proftpd-onlyoffice-docs-strapi-apache-struts-and-isc-bind-flaws-to-its-known-exploited-vulnerabilities-catalog.html)
+
+ |
+
+[Anthropic Restricts Live Internet Access After Claude Evaluation Failures](https://securityaffairs.com/200726/ai/anthropic-restricts-live-internet-access-after-claude-evaluation-failures.html)
+
+ |
+
+[Silent Ransom Group Allegedly Extorted $207 Million Without Encrypting Files](https://securityaffairs.com/200719/cyber-crime/silent-ransom-group-allegedly-extorted-207-million-without-encrypting-files.html)
+
+ |
+
+[US Sentences Empire Market Co-Creator Over $430 Million Criminal Marketplace](https://securityaffairs.com/200704/cyber-crime/us-sentences-empire-market-co-creator-over-430-million-criminal-marketplace.html)
+
+ |
+
+[Germany Arrests Suspected Qilin Ransomware Leader After Japan Detention](https://securityaffairs.com/200695/uncategorized/germany-arrests-suspected-qilin-ransomware-leader-after-japan-detention.html)
+
+ |
+
+[Claude Helps Secure Open Source as Anthropic Offers Free Vulnerability Scanning](https://securityaffairs.com/200685/ai/claude-helps-secure-open-source-as-anthropic-offers-free-vulnerability-scanning.html)
+
+ |
+
+[US Disrupts China-Linked Integrity Tech 's Cyber Espionage Tools](https://securityaffairs.com/200673/security/us-disrupts-china-linked-integrity-tech-cyber-espionage-tools.html)
+
+ |
+
+[AI-Driven tool ARTEX used in attacks against South Korean Banks](https://securityaffairs.com/200661/hacking/ai-driven-tool-artex-used-in-attacks-against-south-korean-banks.html)
+
+ |
+
+[Italy's Foreign Ministry Under Cyberattack as Embassy Sites Come Under Review](https://securityaffairs.com/200650/cyber-warfare-2/italys-foreign-ministry-under-cyberattack-as-embassy-sites-come-under-review.html)
+
+ |
+
+[Hunt.io Finds New Infrastructure Of BraZetsu Access Broker Months Before Disclosure](https://securityaffairs.com/200634/cyber-crime/hunt-io-finds-new-brazetsu-infrastructure-months-before-disclosure.html)
+
+ |
+
+[MonsterCloud Owner Charged With Secretly Paying Ransomware Demands](https://securityaffairs.com/200621/cyber-crime/monstercloud-owner-charged-with-secretly-paying-ransomware-demands.html)
+
+ |
+
+* [Home](https://securityaffairs.com/)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Cyber warfare](https://securityaffairs.com/category/cyber-warfare-2)
+* [APT](https://securityaffairs.com/category/apt)
+* [Data Breach](https://securityaffairs.com/category/data-breach)
+* [Deep Web](https://securityaffairs.com/category/deep-web)
+* [Hacking](https://securityaffairs.com/category/hacking)
+* [Hacktivism](https://securityaffairs.com/category/hacktivism)
+* [Intelligence](https://securityaffairs.com/category/intelligence)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Internet of Things](https://securityaffairs.com/category/iot)
+* [Laws and regulations](https://securityaffairs.com/category/laws-and-regulations)
+* [Malware](https://securityaffairs.com/category/malware)
+* [Mobile](https://securityaffairs.com/category/mobile-2)
+* [Reports](https://securityaffairs.com/category/reports)
+* [Security](https://securityaffairs.com/category/security)
+* [Social Networks](https://securityaffairs.com/category/social-networks)
+* [Terrorism](https://securityaffairs.com/category/terrorism)
+* [ICS-SCADA](https://securityaffairs.com/category/ics-scada)
+* [Crypto](https://securityaffairs.com/category/digital-id)
+* [POLICIES](https://securityaffairs.com/extended-cookie-policy)
+* [Contact me](https://securityaffairs.com/contact)
+
+[![](https://securityaffairs.com/wp-content/themes/security_affairs/images/resecurity_banner_header_mobile.png)](https://resecurity.com)
+
+* [Home](https://securityaffairs.com)
+* [Artificial Intelligence](https://securityaffairs.com/category/ai)
+* [Breaking News](https://securityaffairs.com/category/breaking-news)
+* [Cyber Crime](https://securityaffairs.com/category/cyber-crime)
+* [Security](https://securityaffairs.com/category/security)
+* CyberXero Used 51 AI Agents to Steal 628,000 Ukrainian Records
+
+## CyberXero Used 51 AI Agents to Steal 628,000 Ukrainian Records
+
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/user-icon.svg)* [Pierluigi Paganini](https://securityaffairs.com/author/paganinip)
+*![](https://securityaffairs.com/wp-content/themes/security_affairs/images/clock-icon.svg)* October 12, 2026
+
+![](https://i0.wp.com/securityaffairs.com/wp-content...
