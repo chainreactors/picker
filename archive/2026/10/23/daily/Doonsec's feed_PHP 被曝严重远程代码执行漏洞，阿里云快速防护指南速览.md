@@ -1,0 +1,201 @@
+---
+title: PHP 被曝严重远程代码执行漏洞，阿里云快速防护指南速览
+url: https://mp.weixin.qq.com/s/FSy1fc6dnfAVoGayCMisRQ
+source: Doonsec's feed
+date: 2026-10-23
+fetch_date: 2026-10-24T06:44:27.657697
+---
+
+# PHP 被曝严重远程代码执行漏洞，阿里云快速防护指南速览
+
+# PHP 被曝严重远程代码执行漏洞，阿里云快速防护指南速览
+
+阿里云
+阿里云
+
+安在
+
+![]()
+
+在小说阅读器读本章
+
+去阅读
+
+![]()
+
+在公众号小说中沉浸阅读
+
+![图片](https://mmbiz.qpic.cn/mmbiz_gif/5eH7xATwT3icpLmjpDSQkXx16oAygiaJncke0vYYJvIkuzECibrQJcUW4oAedTuib1G9m372rleJRDNXNs54fBEVicg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+
+2026年10月21日，阿里云安全监测到PHP官方披露两个严重（Critical）远程代码执行漏洞：CVE-2026-109618和CVE-2026-109619，CVSS v4.0评分均为9.2，此次漏洞事件亦称php2shell。在特定条件下，未经身份认证的攻击者可构造恶意请求，以Web工作进程的权限执行任意代码。
+
+PHP广泛用于网站、内容管理系统和企业业务应用。漏洞一旦被成功利用，可能造成数据泄露、网站篡改和服务中断。**阿里云安全建议受影响客户立即排查，尽快升级至安全版本，并在修复期间保持WAF或云防火墙防护启用，降低业务风险。**
+
+**漏洞情况**
+
+******CVE-2026-109618：内存不足处理缺陷导致远程代码执行******
+
+PHP在处理内存不足（OOM）异常时，可能在内部请求数据尚未完成初始化的情况下中断执行。随后的请求清理过程访问这些无效数据，可能导致远程代码执行。官方已在Apache mod\_php环境中通过HTTP验证未经身份认证的远程代码执行，攻击可在应用代码开始执行前触发。
+
+****CVE-2026-109619：全局状态残留导致远程代码执行****
+
+PHP的部分全局状态未被正确重置，或在重置后被再次写入。同一工作进程处理后续请求时，可能访问已释放的请求内存，触发释放后使用（Use-After-Free），进而导致远程代码执行。官方已在Apache mod\_php和PHP-FPM环境中验证未经身份认证的远程代码执行，具体利用条件取决于PHP版本、配置、扩展及应用行为。
+
+**影响范围**
+
+PHP官方建议所有处理Web请求的PHP部署及时更新，包括Apache mod\_php、PHP-FPM、php-cgi、FrankenPHP和LiteSpeed等环境，其中Apache mod\_php的风险尤为突出。
+
+两个漏洞在受支持稳定分支中的受影响版本与修复版本如下：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/X4coLUhcXJF6wk23RelibPIsEmNn58HiayZaANwMiaiagL1hYibpQP3eI7hLEXgDaxLg3TaoW4zujRRwnWia9mricffYzx2WUrV2T1CR5ib7kEMKRvo/640?wx_fmt=jpeg&from=appmsg#imgIndex=1)
+
+PHP 8.1及更早版本已结束官方常规安全支持。部分发行版和长期支持（LTS）服务商可能提供回移安全补丁，请联系供应商确认两个漏洞的修复情况，或升级至受支持的安全版本。使用发行版软件包时，应结合供应商公告和软件包修订号判断修复状态。
+
+**阿里云快速防护指南**
+
+**资产排查与多层防护协同推进**
+
+针对本次漏洞，阿里云安全快速响应，客户可结合云安全中心梳理PHP资产、监测主机风险，通过Web应用防火墙加强应用入口防护，通过云防火墙管控网络访问，并结合安全管家服务开展排查与处置。在推进升级的同时，确认业务资产和流量已纳入相应防护范围，减少防护遗漏。
+
+**云安全中心：摸清资产，排查主机风险**
+
+排查首先要明确哪些业务使用了受影响的PHP运行环境。云安全中心的漏洞管理已支持该漏洞的扫描和一键修复，无代理检测扫描能力已支持该漏洞的扫描，企业版及以上的付费用户可在风险治理——漏洞管理——系统漏洞和应用漏洞中查看该漏洞受影响资产。已启用资产指纹调查功能的用户并结合资产指纹与业务部署清单也可自行核查实际使用的 PHP 版本及补丁状态。
+
+除漏洞扫描和修复之外，云安全中心也可对黑客利用该漏洞执行的恶意指令进行检测及拦截，用户可重点关注蠕虫病毒命令、Web 应用创建异常进程、Linux 可疑命令执行等告警。云安全中心企业版+Agentic EDR采用特征规则+AI Agent双链路检测，可以及时识别黑客利用漏洞后执行的恶意命令，并结合相关日志进行研判和处置。
+
+**Web 应用防火墙：加强应用入口防护**
+
+已接入阿里云Web应用防火墙的用户，应确认PHP业务域名已纳入防护，且业务流量经过WAF。使用WAF 3.0的用户，可通过【防护配置→Web核心防护】核对规则是否启用并对业务生效，检查检测引擎更新设置及规则动作，持续关注攻击日志。
+
+结合业务需要，还可对上传入口和异常访问频率设置访问控制，减少非必要请求进入PHP。解码后的请求体大小与输入复杂度限制，应在Web服务器或反向代理侧同步落实。
+
+**云防火墙：收紧网络访问，减少不必要的暴露**
+
+已使用阿里云云防火墙的用户，可检查业务资产的防护覆盖情况，并通过【防护配置→IPS配置】核对威胁引擎运行模式和规则动作，结合业务评估启用拦截模式。观察模式仅记录和告警，不执行拦截。
+
+同时，梳理访问控制策略，关闭不必要的服务入口，对管理接口和非公开业务限制访问来源，持续关注入侵防御事件和异常外联，降低业务暴露风险。
+
+**安全管家：安全专家协助排查与处置**
+
+已购买阿里云安全管家服务的用户，可联系服务团队，在购买的服务范围内开展资产排查、修复方案评估和升级验证。发现疑似入侵时，可由安全专家协助研判、清理恶意程序、恢复业务，并提供后续加固建议。
+
+**阿里云安全建议**
+
+**修复方案**
+
+升级PHP或安装对应安全补丁，是修复本次漏洞的关键措施。 请尽快升级至上表所列修复版本或该分支更新版本，或安装发行版、LTS服务商提供的对应安全补丁。
+
+升级前做好备份和兼容性验证；升级后重启全部PHP工作进程，确认实际提供Web服务的进程已加载修复版本。容器化部署还需更新镜像并替换旧实例，避免扩容或重新部署时再次引入受影响版本。
+
+**临时缓解措施**
+
+暂时无法升级时，可结合部署环境采取以下措施。**临时配置及WAF、云防火墙防护均不能替代PHP安全更新，应同步推进升级修复。**
+
+**针对 CVE-2026-109618：**
+
+* 由管理员强制设置 memory\_limit=-1，重启全部PHP工作进程，确认进程池、目录或应用配置未恢复有限的内存上限。取消上限前需评估资源耗尽及拒绝服务风险，该设置也不能覆盖底层内存分配失败的情况。
+* 在Web服务器或反向代理侧限制解码后的请求体大小、输入数量和复杂度，包括 multipart 分段及头部数量、上传数量和嵌套深度；限制应覆盖缺少有效 Content-Length 的请求。
+* 不使用multipart表单的应用，可在请求到达PHP前阻断此类请求。
+
+不应使用 RLIMIT\_AS 或 RLIMIT\_DATA 作为替代防护，具体配置请参见文末**官方缓解说明**。
+
+**针对 CVE-2026-109619：**
+
+* 由管理员强制设置 session.upload\_progress.enabled=0；PHP 8.5还可设置 fatal\_error\_backtraces=0。配置须在请求解析前生效，并重启全部PHP工作进程，不应依赖应用中的 ini\_set() 或PHP-FPM的 .user.ini。
+* PHP-FPM用户可在评估性能影响后设置 pm.max\_requests=1，减少跨请求状态复用。
+
+上述配置仅缓解部分已确认的攻击路径，不能覆盖所有全局状态残留问题；隐藏或关闭错误输出也不能修复漏洞。其他排查与配置要求请参见文末**官方缓解说明**。
+
+如您遭遇与上述漏洞相关的攻击或安全事件，请第一时间拨4008013260联系阿里云安全团队，或点击下方“阅读原文”，获取专业的应急响应与处置支持。
+
+## **参考链接**
+
+1.阿里云漏洞库 CVE-2026-109618：https://avd.aliyun.com/detail?id=AVD-2026-109618
+
+2.阿里云漏洞库 CVE-2026-109619：https://avd.aliyun.com/detail?id=AVD-2026-109619
+
+*3.PHP 官方安全公告及版本发布说明：https://www.php.net/archive/2026.php*
+
+*4.CVE-2026-109618：RCE via OOM corruption：https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w*
+
+*5.CVE-2026-109619：RCE via stale global state：https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp*
+
+*6.PHP 官方下载页面：https://www.php.net/downloads.php*
+
+*7.PHP 官方版本支持周期：https://www.php.net/supported-versions.php*
+
+*8.官方缓解说明：*
+
+*https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp*
+
+****END**
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/8C1NLS8ickpft3Q38fRygqB6JoiaNnuCd9iciapibWtWwO8ibpib9wPiclHb5UET2E1vSXsmC8vic1h844SFa01Iic2Yq4keCAA4hRibAN8cQc8NqHejBc/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzU5ODgzNTExOQ==&mid=2247657060&idx=1&sn=9fdcb0cd7084523a3ea7fb24ce6e2c31&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/5eH7xATwT38j3Ndib8YhjyiaBQhdzUe1AApXU9ib7vkMD4KMHhjVfkTqOCUrDibUaBDoH0OGGCMasLLJyv5xppK6rA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&tp=webp)](https://mp.weixin.qq.com/s?__biz=MzU5ODgzNTExOQ==&mid=2247652102&idx=1&sn=8af8808f9055f99fa71020922d80058c&scene=21#wechat_redirect)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/5eH7xATwT38HPkvxLkOy5rLCeVBtj8H9SUbVPNZbibc4N2knPCDFjTKduRLhiaAZVQShUa2IZqsBShI2GG2dpqBg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+
+点击这里阅读原文**
+
+预览时标签不可点
+
+阅读原文
+
+不喜欢
+
+![]()
+
+微信扫一扫
+关注该公众号
+
+知道了
+
+![]()
+微信扫一扫
+使用小程序
+
+取消
+允许
+
+取消
+允许
+
+取消
+允许
+
+×
+分析
+
+![跳转二维码]()
+
+![作者头像](http://mmbiz.qpic.cn/mmbiz_png/5eH7xATwT39OIA4MxWIQmVzjc3H2rbMa0sv6no7gMEXOV63OW7hvwk4EDjOaurIkrnPOjBpCmIN00ELKRf16qg/0?wx_fmt=png)
+
+微信扫一扫可打开此内容，
+使用完整服务
+
+：
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+，
+。
+
+视频
+小程序
+赞
+，轻点两下取消赞
+在看
+，轻点两下取消在看
+分享
+留言
+收藏
+听过
