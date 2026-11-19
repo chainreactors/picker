@@ -1,0 +1,112 @@
+---
+title: Java4Shell Flaw Opens Major Java Applications to RCE Attacks
+url: https://thecyberexpress.com/java4shell-flaw-cve-2026-114938-rce-attacks/
+source: Over Security
+date: 2026-11-18
+fetch_date: 2026-11-19T09:47:21.766504
+---
+
+# Java4Shell Flaw Opens Major Java Applications to RCE Attacks
+
+* [Magazine](https://thecyberexpress.com/cybersecurity-magazine/ "Cybersecurity Magazine")
+* [Firewall Daily](https://thecyberexpress.com/firewall-daily/)
+* [Essentials](https://thecyberexpress.com/cyber-essentials/)
+  + [Regulations](https://thecyberexpress.com/cyber-essentials/regulations/)
+  + [Compliance](https://thecyberexpress.com/cyber-essentials/compliance/)
+  + [Governance](https://thecyberexpress.com/cyber-essentials/governance/)
+  + [Policy Updates](https://thecyberexpress.com/cyber-essentials/policy-updates/)
+* [Knowledge Hub](https://thecyberexpress.com/knowledge-hub/)
+* [Features](https://thecyberexpress.com/features/)
+  + [Cyber Warfare](https://thecyberexpress.com/features/cyber-warfare/)
+  + [Espionage](https://thecyberexpress.com/features/espionage/)
+  + [Workforce](https://thecyberexpress.com/workforce/)
+    - [Learning & Development](https://thecyberexpress.com/workforce/learning-development/)
+* [Business](https://thecyberexpress.com/business-news/)
+  + [Startups](https://thecyberexpress.com/business-news/startups/)
+  + [Mergers & Aquisitions](https://thecyberexpress.com/business-news/mergers-aquisitions/)
+  + [Partnerships](https://thecyberexpress.com/business-news/partnerships/)
+  + [Appointments](https://thecyberexpress.com/business-news/appointments/)
+  + [Budgets](https://thecyberexpress.com/business-news/budgets/)
+  + [Research](https://thecyberexpress.com/research/)
+    - [Whitepapers](https://thecyberexpress.com/research/whitepapers/)
+    - [Sponsored Content](https://thecyberexpress.com/research/sponsored-content/)
+    - [Market Reports](https://thecyberexpress.com/research/market-reports/)
+  + [Interviews](https://thecyberexpress.com/interviews/)
+    - [Podcast](https://thecyberexpress.com/podcast/)
+* [Events](https://thecyberexpress.com/events/)
+  + [Conference](https://thecyberexpress.com/events/)
+  + [Webinar](https://thecyberexpress.com/cyber-security-webinar/)
+  + [Endorsed Events](https://thecyberexpress.com/endorsed-events/)
+* [Advisory Board](https://thecyberexpress.com/editorial-advisory-board-international/)
+
+[![The Cyber Express](https://thecyberexpress.com/wp-content/uploads/CyberExpress-logo-01-black-250x100-1.png)](https://thecyberexpress.com/)
+
+* [MagazineDownload](https://thecyberexpress.com/cybersecurity-magazine/ "Cybersecurity Magazine")
+* [Firewall Daily](https://thecyberexpress.com/firewall-daily/)
+
+  + [All](https://thecyberexpress.com/firewall-daily/)
+  + [Bug Bounty & Rewards](https://thecyberexpress.com/firewall-daily/bug-bounty-rewards/)
+  + [Dark Web News](https://thecyberexpress.com/firewall-daily/dark-web-news/)
+  + [Data Breach News](https://thecyberexpress.com/firewall-daily/data-breaches-news/)
+  + [Hacker News](https://thecyberexpress.com/firewall-daily/hacker-news/)
+  + [Ransomware News](https://thecyberexpress.com/firewall-daily/ransomware-news/)
+  + [Vulnerabilities](https://thecyberexpress.com/firewall-daily/vulnerabilities/)
+
+  [![CVE-2026-114938](https://thecyberexpress.com/wp-content/uploads/CVE-2026-114938.jpg "Java4Shell Flaw Opens Major Java Applications to RCE Attacks 1")](https://thecyberexpress.com/java4shell-flaw-cve-2026-114938-rce-attacks/)
+
+  ### [Java4Shell Flaw Opens Major Java Applications to RCE Attacks](https://thecyberexpress.com/java4shell-flaw-cve-2026-114938-rce-attacks/)
+
+  [![8-Digits Team ransomware](https://thecyberexpress.com/wp-content/uploads/8-Digits-Team-ransomware.webp "Alleged Member of Ransomware Gang That Claimed 70 Million Health Records Extradited to US 2")](https://thecyberexpress.com/8-digits-team-ransomware/)
+
+  ### [Alleged Member of Ransomware Gang That Claimed 70 Million Health Records Extradited to US](https://thecyberexpress.com/8-digits-team-ransomware/)
+
+  [![AI Threat Tracker](https://thecyberexpress.com/wp-content/uploads/AI-Threat-Tracker.jpg "Google Finds Hackers Using AI Agents to Automate Cyberattacks 3")](https://thecyberexpress.com/ai-threat-tracker-threat-actors/)
+
+  ### [Google Finds Hackers Using AI Agents to Automate Cyberattacks](https://thecyberexpress.com/ai-threat-tracker-threat-actors/)
+
+  [![OpenAI lawsuit](https://thecyberexpress.com/wp-content/uploads/OpenAI-lawsuit.webp "California Sues OpenAI After Its AI Agents Escaped Testing and Hacked Hugging Face 4")](https://thecyberexpress.com/openai-lawsuit-ai-agents-attack-hugging-face/)
+
+  ### [California Sues OpenAI After Its AI Agents Escaped Testing and Hacked Hugging Face](https://thecyberexpress.com/openai-lawsuit-ai-agents-attack-hugging-face/)
+
+  [![Luxor cyberattack](https://thecyberexpress.com/wp-content/uploads/Luxor-cyberattack.jpg "Hackers Hijack Luxor Mining Software to Divert Bitcoin Mining Rewards 5")](https://thecyberexpress.com/luxor-cyberattack/)
+
+  ### [Hackers Hijack Luxor Mining Software to Divert Bitcoin Mining Rewards](https://thecyberexpress.com/luxor-cyberattack/)
+
+  [![Coles cyberattack](https://thecyberexpress.com/wp-content/uploads/Coles-cyberattack.jpg "Coles Confirms Cyber Incident, Woolworths Investigates Gift Card Complaints 6")](https://thecyberexpress.com/coles-cyberattack-woolworths/)
+
+  ### [Coles Confirms Cyber Incident, Woolworths Investigates Gift Card Complaints](https://thecyberexpress.com/coles-cyberattack-woolworths/)
+
+  [![Jensen Huang resigns](https://thecyberexpress.com/wp-content/uploads/Jensen-Huang-resigns.webp "Jensen Huang Exits Nvidia Days After the Board Said It Backed Him 7")](https://thecyberexpress.com/jensen-huang-resigns-as-nvidia-ceo/)
+
+  ### [Jensen Huang Exits Nvidia Days After the Board Said It Backed Him](https://thecyberexpress.com/jensen-huang-resigns-as-nvidia-ceo/)
+
+  [![FaceStealer](https://thecyberexpress.com/wp-content/uploads/FaceStealer.jpg "US Disrupts North Korea’s FaceStealer Campaign, Targets $1.2 Billion in Stolen Crypto 8")](https://thecyberexpress.com/binance-data-breach-facestealer-doj/)
+
+  ### [US Disrupts North Korea’s FaceStealer Campaign, Targets $1.2 Billion in Stolen Crypto](https://thecyberexpress.com/binance-data-breach-facestealer-doj/)
+
+  [![SignDrop zero-day exploit](https://thecyberexpress.com/wp-content/uploads/SignDrop-zero-day-exploit.jpg "New SignDrop Exploit Claims SYSTEM Access on Windows Through CLFS 9")](https://thecyberexpress.com/signdrop-zero-day-exploit-clfs-authentication/)
+
+  ### [New SignDrop Exploit Claims SYSTEM Access on Windows Through CLFS](https://thecyberexpress.com/signdrop-zero-day-exploit-clfs-authentication/)
+
+  ### Trending Tags
+
+  + [blackbyte ransomware](https://thecyberexpress.com/tag/blackbyte-ransomware/)
+  + [Ransomware](https://thecyberexpress.com/tag/ransomware/)
+  + [lapsus$ ransomware](https://thecyberexpress.com/tag/lapsus-ransomware/)
+  + [Apple](https://thecyberexpress.com/tag/apple/)
+  + [Apple vulnerability](https://thecyberexpress.com/tag/apple-vulnerability/)
+* [Essentials](https://thecyberexpress.com/cyber-essentials/)
+
+  + [All](https://thecyberexpress.com/cyber-essentials/)
+  + [Compliance](https://thecyberexpress.com/cyber-essentials/compliance/)
+  + [Governance](https://thecyberexpress.com/cyber-essentials/governance/)
+  + [Policy Updates](https://thecyberexpress.com/cyber-essentials/policy-updates/)
+  + [Regulations](https://thecyberexpress.com/cyber-essentials/regulations/)
+
+  [![SEC, Misleading Cyber Disclosures, Financial data, financial data protection, SEC](https://thecyberexpress.com/wp-content/uploads/shutterstock_2426097137-360x180.webp?crop=1 "SEC Enforcement Fell 24% in Fiscal 2026 10")](https://thecyberexpress.com/sec-enforcement-fell-24-in-fiscal-2026/)
+
+  ### [SEC Enforcement Fell 24% in Fiscal 2026](https://thecyberexpress.com/sec-enforcement-fell-24-in-fiscal-2026/)
+
+  [![ASD Essentials](https://thecyberexpress.com/wp-content/uploads/ASD-Essentials-360x180.webp?crop=1 "The Essential Eight Is Being Replaced: What Australian Organisations Need to Know 11")](https://thecyberexpress.com/asd-essentials-replaces-essential-eight/)
+
+  ### [The Essential Eight Is Being Replaced: What Australian Organisations Need to Know](http...
