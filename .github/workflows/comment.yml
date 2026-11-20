@@ -11,13 +11,19 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: title
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
         run: |
-          title=`echo ${{ toJson(github.event.issue.title) }} | sed "s/\"/\\\'/g"`
-          echo "::set-output name=title::$title"
+          title=$(printf '%s' "$ISSUE_TITLE" | sed "s/\"/\\\'/g")
+          delimiter="TITLE_EOF_$RANDOM$RANDOM"
+          { echo "title<<$delimiter"; printf '%s\n' "$title"; echo "$delimiter"; } >> "$GITHUB_OUTPUT"
       - id: body
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
         run: |
-          body=`echo ${{ toJson(github.event.comment.body) }} | sed "s/\"/\\\'/g"`
-          echo "::set-output name=body::$body"
+          body=$(printf '%s' "$COMMENT_BODY" | sed "s/\"/\\\'/g")
+          delimiter="BODY_EOF_$RANDOM$RANDOM"
+          { echo "body<<$delimiter"; printf '%s\n' "$body"; echo "$delimiter"; } >> "$GITHUB_OUTPUT"
       - name: Send dingding notify
         uses: zcong1993/actions-ding@master
         with:
