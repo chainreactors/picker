@@ -4,30 +4,44 @@ on:
   issue_comment:
     types: [created]
 
+permissions: {}
+
 jobs:
   push-comment:
     runs-on: ubuntu-latest
     if: contains(github.event.issue.labels.*.name, 'pick')
     steps:
-      - uses: actions/checkout@v3
-      - id: title
+      - name: Build notification
+        id: notification
+        shell: bash
         run: |
-          title=`echo ${{ toJson(github.event.issue.title) }} | sed "s/\"/\\\'/g"`
-          echo "::set-output name=title::$title"
-      - id: body
-        run: |
-          body=`echo ${{ toJson(github.event.comment.body) }} | sed "s/\"/\\\'/g"`
-          echo "::set-output name=body::$body"
+          python3 - <<'PY'
+          import json
+          import os
+
+          with open(os.environ["GITHUB_EVENT_PATH"], encoding="utf-8") as f:
+              event = json.load(f)
+
+          title = event["issue"]["title"]
+          comment = event["comment"]
+          payload = {
+              "msgtype": "markdown",
+              "markdown": {
+                  "title": f"{title} 新增评论",
+                  "text": (
+                      f" {comment['user']['login']} 评论了 "
+                      f"[{title}]({comment['html_url']}):\n\n"
+                      f"{comment['body']}"
+                  ),
+              },
+          }
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write("body=" + json.dumps(payload, ensure_ascii=True) + "\n")
+          PY
       - name: Send dingding notify
-        uses: zcong1993/actions-ding@master
+        uses: zcong1993/actions-ding@d4587a67d30b6bf767cd4ed338d17d7237c18a74
         with:
           dingToken: ${{ secrets.PICKER_DINGTALK_KEY }}
           secret: ${{ secrets.PICKER_DINGTALK_SECRET }}
-          body: |
-            {
-              "msgtype": "markdown",
-              "markdown": {
-                  "text": " ${{ github.event.comment.user.login }} 评论了 [${{ steps.title.outputs.title }}](${{ github.event.comment.html_url }}): \n\n${{ steps.body.outputs.body }}",
-                  "title": "${{ steps.title.outputs.title }} 新增评论"
-              }
-            }
+          body: ${{ steps.notification.outputs.body }}
